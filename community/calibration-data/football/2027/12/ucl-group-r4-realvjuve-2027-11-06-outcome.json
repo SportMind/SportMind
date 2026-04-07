@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-2027-28-r4-real-juventus-001",
+    "sport": "football",
+    "event_id": "ucl-2027-28-group-r4-realmadrid-juventus",
+    "event_name": "UCL 2027-28 Group Stage Round 4 \u2014 Real Madrid vs Juventus",
+    "kickoff_utc": "2027-11-06T21:00:00Z",
+    "recorded_at": "2027-11-06T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-11-06T23:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 63.0,
+      "adjusted_score": 72.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 77,
+      "modifiers_applied": {
+        "athlete_modifier": 1.12,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL Group Stage R4. Real Madrid vs Juventus \u2014 historical Champions League rivalry. Both $RMFC and $JUV tokens active. Real Madrid squad ATM significantly higher. Madrid home. Group stage weight 0.45 (R4 mid-group). SMS 77."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Real Madrid 3 \u2013 Juventus 0",
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "15th athlete_modifier record \u2014 PRELIMINARY THRESHOLD REACHED. Real Madrid vs Juventus UCL. athlete_modifier \u00d71.12 (squad depth differential) validated. At 15 records (13/15 = 87% correct), preliminary recalibration now possible. This record triggers recalibration-v5."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "outcome_record": {
+    "record_id": "nba-kd-trade-2023-02-09-seed-001",
+    "sport": "basketball",
+    "event_id": "kd-trade-brooklyn-phoenix-2023-02-09",
+    "event_name": "NBA Trade \u2014 Kevin Durant traded from Brooklyn Nets to Phoenix Suns",
+    "event_utc": "2023-02-09T20:00:00Z",
+    "recorded_at": "2023-02-09T20:15:00Z",
+    "source": "seed record \u2014 derived from examples/worked-scenarios/scenario-nba-trade-deadline-2023.md",
+    "prediction": {
+      "direction": "POSITIVE",
+      "signal_type": "TRADE_EVENT",
+      "token_symbol": "SUNS_hypothetical",
+      "adjusted_score": 74.2,
+      "confidence_tier": "HIGH",
+      "composite_modifier": 0.82,
+      "sportmind_score": 71.0,
+      "modifiers_applied": {
+        "macro_modifier": 0.82,
+        "athlete_modifier": 1.0,
+        "integration_discount": 0.95
+      },
+      "flags_active": [
+        "macro_override_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "skill_contributor": "sportmind-core",
+      "trigger_note": "Woj tweet confirmed at 20:13 UTC \u2014 verified reporter = entry trigger per NBATIS model"
+    },
+    "outcome": {
+      "result": "TRADE_CONFIRMED",
+      "direction_correct": true,
+      "team_sentiment_change": "STRONGLY_POSITIVE",
+      "prediction_market_correct": true,
+      "result_source_url": "https://www.nba.com/news/kevin-durant-traded-to-phoenix-suns"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "player_tier_1_trade_signal",
+      "modifier_direction_correct": true,
+      "signal_was_actionable": true,
+      "notes": "Woj verification as entry trigger validated. Tier 1 player trade = correct positive signal. Macro bear (\u00d70.82) applied correctly to token component. Integration discount (\u00d70.95 for first 5-10 games) is conservative and appropriate. Reporter verification model confirmed."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

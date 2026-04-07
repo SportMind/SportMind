@@ -1,0 +1,50 @@
+{
+  "outcome_record": {
+    "record_id": "football-psg-governance-structural-2027-08-20-001",
+    "sport": "football",
+    "event_id": "psg-token-governance-stadium-naming-2027-08",
+    "event_name": "PSG Fan Token Governance \u2014 Stadium Naming Rights Vote",
+    "kickoff_utc": "2027-08-20T23:59:00Z",
+    "recorded_at": "2027-08-18T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-08-21T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "adjusted_score": 85.0,
+      "confidence_tier": "HIGH",
+      "sportmind_score": 85,
+      "modifiers_applied": {
+        "governance_structural_modifier": 1.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "PSG governance structural vote: stadium naming rights. Decision_Weight 0.90 (structural). LTUI YES +8 projected. Governance brief generated 48h before close. Participation rate: 23% \u2014 above average. YES leading 73%/27% with 12h remaining."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "YES passed: 74% YES / 26% NO. Participation: 26%. LTUI +8 confirmed.",
+      "result_source_url": "https://www.socios.com/psg/governance/2027/stadium"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "governance_structural_decision_weight",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.02,
+      "signal_was_actionable": true,
+      "notes": "FIRST GOVERNANCE CALIBRATION RECORD. Structural Decision_Weight 0.90 validated. LTUI +8 projection for YES pass confirmed. 26% participation (healthy for governance). Governance Theatre check correctly NOT triggered (stadium naming IS material). Pattern 8 brief generation 48h before close validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "football-wc2026-group-england-usa-2026-06-22-001",
+    "sport": "football",
+    "event_id": "wc-2026-group-b-england-usa",
+    "event_name": "FIFA World Cup 2026 Group Stage \u2014 England vs USA (MetLife, New Jersey)",
+    "kickoff_utc": "2026-06-22T19:00:00Z",
+    "recorded_at": "2026-06-22T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-06-22T23:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 63.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.04,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.04,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "World Cup 2026 Group Stage Match 2. England vs USA at MetLife (largest US market). Group Stage weight 0.45. England ATM higher globally; USA home tournament \u00d7 1.15. New Jersey crowd: diverse but large English diaspora in NYC metro. NCSI active for English club tokens."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "England 2 \u2013 USA 1",
+      "token_symbol": null,
+      "result_source_url": "https://www.fifa.com/worldcup/2026/matches"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "wc2026_group_stage_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "FIRST WORLD CUP 2026 MATCH CALIBRATION RECORD. Group Stage weight 0.45 applied. England ATM signal in WC context validated. USA home tournament \u00d7 1.15 partially offset by England quality advantage. NCSI for English EPL club tokens confirmed active."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

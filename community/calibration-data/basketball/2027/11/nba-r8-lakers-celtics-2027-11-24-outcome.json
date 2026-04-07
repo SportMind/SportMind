@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-r8-lakers-celtics-2027-11-24-001",
+    "sport": "basketball",
+    "event_id": "nba-2027-28-r8-lakers-celtics",
+    "event_name": "NBA Regular Season 2027-28 Round 8 \u2014 LA Lakers vs Boston Celtics",
+    "kickoff_utc": "2027-11-24T22:30:00Z",
+    "recorded_at": "2027-11-24T18:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-11-25T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 60.0,
+      "adjusted_score": 67.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA R8 rivalry. Lakers vs Celtics \u2014 historic rivalry \u00d7 1.15 narrative. Celtics away but defending champions (Tatum returning champion motivation). Net rating Celtics +12.4 season. LeBron load management concern \u2014 check injury report D-day."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "LA Lakers 103 \u2013 Boston Celtics 118",
+      "result_source_url": "https://www.nba.com/game/bos-vs-lal-2027-11-24"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "24th athlete_modifier record. Celtics defending champion quality + net rating +12.4 correctly predicted over Lakers home advantage. Historic rivalry signal active (\u00d71.15 narrative). LeBron load management was manageable \u2014 he played. 24th record = 48% of preliminary threshold."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

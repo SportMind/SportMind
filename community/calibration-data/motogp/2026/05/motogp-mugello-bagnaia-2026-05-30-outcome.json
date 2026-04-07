@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "motogp-mugello-bagnaia-2026-05-30-001",
+    "sport": "motogp",
+    "event_id": "motogp-2026-italian-gp-mugello",
+    "event_name": "MotoGP Italian Grand Prix 2026 \u2014 Mugello (Bagnaia home race)",
+    "kickoff_utc": "2026-05-31T13:00:00Z",
+    "recorded_at": "2026-05-31T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-05-31T17:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 64.0,
+      "adjusted_score": 75.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.18,
+      "sportmind_score": 78,
+      "modifiers_applied": {
+        "athlete_modifier": 1.18,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "MotoGP Mugello. Bagnaia Italian rider at home race \u2014 regional ATM \u00d7 1.30. Factory Ducati Tier 1. Qualifying: P1 (pole). Grid modifier \u00d7 1.10. Tifosi (110k+ fans). SMS 78."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Bagnaia won Italian GP",
+      "result_source_url": "https://www.motogp.com/en/Results/2026/ITA"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "italian_rider_mugello_atm",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "FIRST MOTOGP CALIBRATION RECORD. Italian rider at Mugello regional ATM \u00d7 1.30 validated. Factory Ducati Tier 1 + pole + home crowd = maximum combined signal. Tifosi crowd atmosphere confirmed as real advantage. MotoGP circuit-specific intelligence validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

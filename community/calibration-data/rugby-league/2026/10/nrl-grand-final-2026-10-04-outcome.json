@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-league-nrl-grand-final-2026-10-04-001",
+    "sport": "rugby-league",
+    "event_id": "nrl-grand-final-2026",
+    "event_name": "NRL Grand Final 2026 \u2014 Accor Stadium, Sydney",
+    "kickoff_utc": "2026-10-04T06:50:00Z",
+    "recorded_at": "2026-10-04T04:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-10-04T11:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 57.0,
+      "adjusted_score": 66.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "grand_final_modifier": 2.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NRL Grand Final 2026. Accor Stadium, neutral venue. Grand Final modifier \u00d72.00. No State of Origin disruption (Season over). Predicted winner: defensive ranking #1 this season (points against avg 14.2). Backs depth greater."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Predicted winner won 22-10",
+      "result_source_url": "https://www.nrl.com/draw/nrl-premiership/2026/grand-final"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "nrl_grand_final_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "NRL Grand Final \u00d72.00 modifier validated. Defensive ranking as primary NRL signal confirmed. No State of Origin disruption correctly handled (season complete). NRL grand final calibration record \u2014 highest-stakes NRL match."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

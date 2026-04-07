@@ -1,0 +1,59 @@
+{
+  "outcome_record": {
+    "record_id": "ufc-281-2022-11-12-seed-001",
+    "sport": "mma",
+    "event_id": "ufc-281-pereira-adesanya-2022-11-12",
+    "event_name": "UFC 281 \u2014 Alex Pereira vs Israel Adesanya (Middleweight Championship)",
+    "kickoff_utc": "2022-11-13T04:00:00Z",
+    "recorded_at": "2022-11-12T22:00:00Z",
+    "source": "seed record \u2014 derived from examples/worked-scenarios/scenario-ufc-281-pereira-adesanya.md",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 30.25,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.55,
+      "sportmind_score": 62.0,
+      "modifiers_applied": {
+        "athlete_modifier": 1.0,
+        "macro_modifier": 0.55,
+        "narrative_modifier": 1.0
+      },
+      "flags_active": [
+        "macro_override_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "skill_contributor": "sportmind-core",
+      "macro_note": "FTX collapse Nov 2022 \u2014 crypto extreme bear. Macro modifier \u00d70.55 applied. Prediction market analysis not affected by crypto macro."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "method": "TKO Round 5",
+      "direction_correct": true,
+      "token_symbol": "UFC",
+      "token_24h_change_pct": -8.4,
+      "token_direction_correct": false,
+      "prediction_market_correct": true,
+      "result_source_url": "https://www.ufc.com/event/ufc-281"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "macro_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.0,
+      "signal_was_actionable": false,
+      "notes": "Macro override (\u00d70.55) correctly identified this as not a token entry point. Token fell 8.4% despite correct fight prediction due to FTX macro. Prediction market (not affected by macro) was correct. Key validation: macro and prediction market signals must be treated separately."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

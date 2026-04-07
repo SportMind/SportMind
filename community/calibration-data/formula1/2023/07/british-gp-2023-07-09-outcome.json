@@ -1,0 +1,58 @@
+{
+  "outcome_record": {
+    "record_id": "f1-british-gp-2023-07-09-seed-001",
+    "sport": "formula1",
+    "event_id": "f1-british-gp-silverstone-2023-07-09",
+    "event_name": "2023 British Grand Prix \u2014 Silverstone",
+    "kickoff_utc": "2023-07-09T14:00:00Z",
+    "recorded_at": "2023-07-09T12:00:00Z",
+    "source": "seed record \u2014 Formula 1 2023 season",
+    "prediction": {
+      "direction": "HOME",
+      "driver": "Max Verstappen (Red Bull)",
+      "base_score": 74.0,
+      "adjusted_score": 79.2,
+      "confidence_tier": "HIGH",
+      "composite_modifier": 1.07,
+      "sportmind_score": 82.0,
+      "modifiers_applied": {
+        "qualifying_delta_modifier": 1.08,
+        "wet_weather_modifier": 1.0,
+        "regulation_fit_modifier": 1.07,
+        "narrative_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4
+      ],
+      "skill_contributor": "sportmind-core",
+      "pre_race_note": "Verstappen on pole; Red Bull dominant in 2023 regulation cycle; no wet weather expected; qualifying delta vs Perez significant."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "winner": "Max Verstappen",
+      "direction_correct": true,
+      "token_symbol": "FERRARI",
+      "token_24h_change_pct": -2.1,
+      "token_direction_correct": false,
+      "constructor_signal_correct": true,
+      "result_source_url": "https://www.formula1.com/en/results/2023/races/1143/great-britain/race-result.html"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "qualifying_delta_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "Qualifying delta (\u00d71.08) validated \u2014 Verstappen's pole lap gap to field confirmed predictive advantage. Regulation fit modifier (\u00d71.07) validated for Red Bull 2023 car dominance. Ferrari token moved negatively despite correct Red Bull prediction \u2014 constructor token \u2260 race winner token. Key learning: always align token to constructor/driver, not race winner."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

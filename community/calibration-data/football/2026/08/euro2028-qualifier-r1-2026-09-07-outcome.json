@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "football-euro2028-qualifier-r1-england-2026-09-07-001",
+    "sport": "football",
+    "event_id": "euro2028-qualifier-group-england-r1",
+    "event_name": "UEFA Euro 2028 Qualifier Round 1 \u2014 England vs Hungary",
+    "kickoff_utc": "2026-09-07T19:45:00Z",
+    "recorded_at": "2026-09-07T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-09-07T22:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 64.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 0.98,
+      "sportmind_score": 70,
+      "modifiers_applied": {
+        "athlete_modifier": 0.98,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "post_wc2026_fatigue"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Euro 2028 qualifier first round. Post-WC2026 fatigue modifier \u00d7 0.85. England home \u2014 Wembley. New cycle beginning. Qualification phase weight 0.30 (early qualifier). Reduced SMS (70) due to fatigue uncertainty."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "England 4 \u2013 Hungary 0",
+      "result_source_url": "https://www.uefa.com/euro2028/qualifying"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "post_wc2026_new_cycle",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.07,
+      "signal_was_actionable": true,
+      "notes": "Post-WC2026 qualifier round \u2014 new cycle beginning. England quality differential was larger than expected (4-0 vs Hungary = strong motivation signal). Post-tournament fatigue was less significant for a strong team vs weaker opposition. Learning: post-tournament fatigue is less predictive vs significantly weaker opposition \u2014 apply to close-quality matchups only."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

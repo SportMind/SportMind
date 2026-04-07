@@ -1,0 +1,23 @@
+{
+  "_comment": "Auto-updated by .github/workflows/macro-monitor.yml every 4 hours. Do not edit manually.",
+  "macro_state": {
+    "updated_at": "2026-04-02T00:00:00Z",
+    "schema_version": "1.0",
+    "crypto_cycle": {
+      "phase": "NEUTRAL",
+      "btc_price_usd": null,
+      "btc_200d_ma_usd": null,
+      "btc_vs_200d_ma_pct": null,
+      "chz_price_usd": null,
+      "chz_30d_change_pct": null,
+      "macro_modifier": 1.00,
+      "last_phase_change": null,
+      "consecutive_confirms": 0,
+      "data_source": "CoinGecko API",
+      "note": "Populated at first workflow run"
+    },
+    "active_geopolitical_events": [],
+    "active_economic_events": [],
+    "pending_skill_reviews": []
+  }
+}

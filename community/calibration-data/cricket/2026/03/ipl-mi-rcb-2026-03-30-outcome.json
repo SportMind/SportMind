@@ -1,0 +1,54 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-ipl-mi-rcb-2026-03-30-001",
+    "sport": "cricket",
+    "event_id": "ipl-2026-mi-rcb-march30",
+    "event_name": "Mumbai Indians vs Royal Challengers Bengaluru \u2014 IPL 2026",
+    "kickoff_utc": "2026-03-30T14:00:00Z",
+    "recorded_at": "2026-03-30T12:30:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-30T20:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 61.0,
+      "adjusted_score": 68.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0,
+        "dew_factor_modifier": 0.95
+      },
+      "flags_active": [
+        "dew_risk_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Wankhede evening T20. High dew forecast (humidity 82%). MI batting first. Dew risk flag active \u2014 RCB will benefit from chasing in dew conditions. Applied dew_factor modifier 0.95 to MI (batting first disadvantage). MI home advantage and Rohit Sharma form positive signal."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "MI 187/4, RCB 171/8",
+      "result_source_url": "https://www.iplt20.com/match/2026/mi-vs-rcb"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "dew_factor_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "Dew was present as forecast but MI defended successfully. Dew modifier direction correct (reduced MI advantage) but MI won despite dew. Confirms: dew modifier reduces batting-first advantage but does not override team quality differential. Wankhede dew pattern validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

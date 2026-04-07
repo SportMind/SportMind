@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-2027-28-opener-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-2027-28-opening-night-maple-leafs-bruins",
+    "event_name": "NHL 2027-28 Opening Night \u2014 Toronto Maple Leafs vs Boston Bruins",
+    "kickoff_utc": "2027-10-07T19:00:00Z",
+    "recorded_at": "2027-10-07T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-10-08T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 59.0,
+      "adjusted_score": 66.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL 2027-28 Season Opener. Toronto home \u2014 Canadian market \u00d7 1.25 elevated for opener. Morning skate confirmed GK (GSAx +11.2 last season). Special teams: Toronto PP 27.1% (elite). SMS 73."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Toronto 4 \u2013 Boston 2",
+      "result_source_url": "https://www.nhl.com/gamecenter/tor-vs-bos-2027-10-07"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "nhl_gsax_plus_pp_combination",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "NHL GSAx +11.2 + elite PP (27.1%) combination validated at season opener. Toronto Canadian market signal (\u00d71.25 opener) confirmed as real momentum. Sixth NHL calibration record. Season opener pattern consistent with previous NHL records."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

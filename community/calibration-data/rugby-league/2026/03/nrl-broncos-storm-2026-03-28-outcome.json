@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-league-nrl-broncos-storm-2026-03-28-001",
+    "sport": "rugby-league",
+    "event_id": "nrl-2026-brisbane-melbourne-r4",
+    "event_name": "Brisbane Broncos vs Melbourne Storm \u2014 NRL Round 4",
+    "kickoff_utc": "2026-03-28T09:50:00Z",
+    "recorded_at": "2026-03-28T07:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-28T14:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 60.0,
+      "adjusted_score": 67.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Melbourne Storm playing away Brisbane. Storm's defensive system away: consistently top-3 in points allowed. No State of Origin disruption (pre-Origin period). Standard NRL Round 4 \u2014 no downstream congestion signal."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Broncos 14 \u2013 Storm 22",
+      "result_source_url": "https://www.nrl.com/draw/nrl-premiership/2026/round-4"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "NRL defensive system modifier validated. Storm away defensive pattern confirmed predictive. Pre-Origin period \u2014 no congestion signal correctly identified as not applicable. Standard NRL round signal model confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

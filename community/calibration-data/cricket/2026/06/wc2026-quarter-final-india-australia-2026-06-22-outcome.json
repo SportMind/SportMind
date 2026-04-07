@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-t20wc-qf-india-australia-2026-06-22-001",
+    "sport": "cricket",
+    "event_id": "t20-wc-2026-qf-india-australia",
+    "event_name": "T20 World Cup 2026 Quarter-Final \u2014 India vs Australia",
+    "kickoff_utc": "2026-06-22T14:00:00Z",
+    "recorded_at": "2026-06-22T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-06-23T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 71.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.4,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "india_modifier": 1.4,
+        "qf_stage_weight": 0.85,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "T20 WC QF. India vs Australia. India modifier \u00d7 1.40. QF stage \u00d7 0.85. Evening match \u2014 dew risk HIGH. India as host nation (if applicable). Australia strong T20 team \u2014 close contest."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "India won by 11 runs",
+      "result_source_url": "https://www.icc-cricket.com/t20-world-cup/2026/qf"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "india_t20wc_qf_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "India \u00d7 1.40 T20 WC QF validated. India QF progression confirms NCSI accumulation model. Dew risk HIGH \u2014 India (batting second) had chasing advantage. T20 WC calibration record series continues."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

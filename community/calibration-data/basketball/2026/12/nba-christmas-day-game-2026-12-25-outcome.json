@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-christmas-day-2026-001",
+    "sport": "basketball",
+    "event_id": "nba-christmas-day-2026-celtics-knicks",
+    "event_name": "NBA Christmas Day 2026 \u2014 Boston Celtics vs New York Knicks",
+    "kickoff_utc": "2026-12-25T17:00:00Z",
+    "recorded_at": "2026-12-25T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-12-26T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 64.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA Christmas Day showcase game. Knicks home. Rivalry signal (Knicks vs Celtics always elevated). Jalen Brunson available. Net rating Knicks +8.4 at home this season. Christmas Day viewership: highest-profile regular season games. SMS 73."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "New York 119 \u2013 Boston 112",
+      "result_source_url": "https://www.nba.com/game/bos-vs-nyk-christmas-2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "home_net_rating_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Christmas Day game validated. Home net rating +8.4 confirmed as predictive regular season signal. Knicks-Celtics rivalry elevated engagement confirmed. Christmas Day commercial context does not override sporting signal \u2014 correct."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

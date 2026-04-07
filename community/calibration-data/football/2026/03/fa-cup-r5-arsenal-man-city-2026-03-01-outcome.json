@@ -1,0 +1,50 @@
+{
+  "outcome_record": {
+    "record_id": "football-fa-cup-r5-arsenal-mancity-2026-03-01-001",
+    "sport": "football",
+    "event_id": "fa-cup-r5-arsenal-manchester-city-2026-03-01",
+    "event_name": "Arsenal vs Manchester City — FA Cup Round 5",
+    "kickoff_utc": "2026-03-01T14:00:00Z",
+    "recorded_at": "2026-03-01T12:30:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-01T19:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 58.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 0.94,
+      "sportmind_score": 68,
+      "modifiers_applied": {
+        "athlete_modifier": 0.94,
+        "macro_modifier": 1.00,
+        "cup_rotation_modifier": 0.88
+      },
+      "flags_active": ["lineup_unconfirmed", "rotation_risk_high"],
+      "layers_loaded": [1, 2, 3, 4, 5],
+      "pre_match_note": "FA Cup R5. City fielding rotated squad (UCL QF first leg in 72h). Arsenal full strength. Cup rotation modifier applied × 0.88. Despite City's superior form, rotation changes the signal significantly."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Arsenal 2 – Manchester City 0",
+      "token_symbol": "CITY",
+      "token_24h_change_pct": -4.2,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.bbc.co.uk/sport/football/fa-cup/results"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "cup_rotation_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Cup rotation modifier × 0.88 validated. City rotated 8 players. Arsenal full strength. CSF rotation_risk correctly predicted directional outcome. $CITY token −4.2% post-match confirmed token signal direction."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

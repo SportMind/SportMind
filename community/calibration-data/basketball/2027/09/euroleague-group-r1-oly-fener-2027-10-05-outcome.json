@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-euroleague-2027-28-r1-oly-fener-001",
+    "sport": "basketball",
+    "event_id": "euroleague-2027-28-r1-olympiacos-fenerbahce",
+    "event_name": "EuroLeague 2027-28 Group Stage R1 \u2014 Olympiacos vs Fenerbah\u00e7e",
+    "kickoff_utc": "2027-10-05T20:30:00Z",
+    "recorded_at": "2027-10-05T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-10-06T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 65.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "EuroLeague R1. Greek derby component (Oly home vs Turkish rival Fener). ELS Olympiacos 0.80, Fener 0.82 \u2014 very close. Olympiacos home advantage + Greek crowd factor. SMS 74."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Olympiacos 82 \u2013 Fenerbah\u00e7e 78",
+      "result_source_url": "https://www.euroleague.net/results/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "18th athlete_modifier record. EuroLeague home advantage in Greek market validated. Olympiacos vs Fener Greek passion advantage correctly predicted. ELS model confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

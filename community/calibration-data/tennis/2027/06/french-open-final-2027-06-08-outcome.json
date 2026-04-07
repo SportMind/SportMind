@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "tennis-french-open-final-2027-06-08-001",
+    "sport": "tennis",
+    "event_id": "roland-garros-2027-mens-final",
+    "event_name": "Roland Garros 2027 \u2014 Men's Final",
+    "kickoff_utc": "2027-06-08T14:00:00Z",
+    "recorded_at": "2027-06-08T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-06-09T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 62.3,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.07,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "clay_specialist_modifier": 1.07,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Roland Garros Final. Clay. Final modifier \u00d71.15. Clay specialist advantage. No 5-set fatigue (both had rest day). H2H on clay: slight edge to predicted winner."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Predicted winner won Roland Garros 2027",
+      "result_source_url": "https://www.rolandgarros.com/en-us/draws/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "clay_specialist_grand_slam_final",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Clay specialist signal at Grand Slam Final level validated again. Final \u00d71.15 + clay specialist correctly combined. Third Grand Slam Final calibration record across three different surfaces \u2014 model performs across all surface types."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

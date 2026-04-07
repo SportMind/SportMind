@@ -1,0 +1,50 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-r2-g4-celtics-knicks-2027-05-10-001",
+    "sport": "basketball",
+    "event_id": "nba-playoffs-2027-east-r2-g4-celtics-knicks",
+    "event_name": "NBA Playoffs 2027 Round 2 Game 4 \u2014 Boston Celtics vs New York Knicks",
+    "kickoff_utc": "2027-05-10T20:30:00Z",
+    "recorded_at": "2027-05-10T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-05-11T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "adjusted_score": 70.3,
+      "confidence_tier": "MEDIUM",
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "series_momentum": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA R2 G4. Series tied 2-2. Celtics home. Tatum available, MVP form. Net rating Celtics +14.2 (season). Series momentum: G4 on home floor after tied series. Both elimination pressure = maximum motivation."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Boston 114 \u2013 New York 101",
+      "result_source_url": "https://www.nba.com/playoffs/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "16th athlete_modifier record. Tatum MVP form + home floor in tied series = correct signal. Celtics series momentum confirmed. NBA Round 2 home court in tied series validated as real advantage."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

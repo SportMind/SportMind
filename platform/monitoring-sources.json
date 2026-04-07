@@ -1,0 +1,141 @@
+{
+  "_comment": "Sources monitored by .github/workflows/skill-monitor.yml for competition format changes and new partnerships. Update when new monitoring sources are identified.",
+  "_schema_version": "1.0",
+  "_last_updated": "2026-04-02",
+
+  "competition_format_sources": [
+    {
+      "id": "uefa-official",
+      "name": "UEFA Official",
+      "url": "https://www.uefa.com/newsfiles/",
+      "sport": "football",
+      "skills_affected": ["sports/football/sport-domain-football.md", "fan-token/football-token-intelligence/football-token-intelligence.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["format change", "club expansion", "new competition", "cancelled"]
+    },
+    {
+      "id": "fifa-official",
+      "name": "FIFA Official",
+      "url": "https://www.fifa.com/en/articles/",
+      "sport": "football",
+      "skills_affected": ["sports/football/sport-domain-football.md", "market/world-cup-2026.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["World Cup format", "qualification", "tournament structure"]
+    },
+    {
+      "id": "icc-official",
+      "name": "ICC Official",
+      "url": "https://www.icc-cricket.com/about/cricket/news-and-events/",
+      "sport": "cricket",
+      "skills_affected": ["sports/cricket/sport-domain-cricket.md", "fan-token/cricket-token-intelligence/cricket-token-intelligence.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["tournament format", "new competition", "schedule change"]
+    },
+    {
+      "id": "nba-official",
+      "name": "NBA Official",
+      "url": "https://www.nba.com/news",
+      "sport": "basketball",
+      "skills_affected": ["sports/basketball/sport-domain-basketball.md", "fan-token/basketball-token-intelligence/basketball-token-intelligence.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["season format", "expansion team", "schedule change", "in-season tournament"]
+    },
+    {
+      "id": "f1-official",
+      "name": "Formula 1 Official",
+      "url": "https://www.formula1.com/en/latest/all",
+      "sport": "formula1",
+      "skills_affected": ["sports/formula1/sport-domain-formula1.md", "fan-token/formula1-token-intelligence/formula1-token-intelligence.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 60,
+      "monitor_for": ["regulation change", "calendar update", "new circuit", "sprint race format"]
+    },
+    {
+      "id": "ufc-official",
+      "name": "UFC Official",
+      "url": "https://www.ufc.com/news",
+      "sport": "mma",
+      "skills_affected": ["sports/mma/sport-domain-mma.md", "fan-token/mma-token-intelligence/token-intelligence-mma.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["weight class change", "ranking format", "event structure"]
+    },
+    {
+      "id": "ehf-official",
+      "name": "EHF Champions League Official",
+      "url": "https://www.ehf-handball.com/en/news/",
+      "sport": "handball",
+      "skills_affected": ["sports/handball/sport-domain-handball.md", "market/market-handball.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["format change", "club expansion", "FINAL4 format"]
+    },
+    {
+      "id": "nrl-official",
+      "name": "NRL Official",
+      "url": "https://www.nrl.com/news/",
+      "sport": "rugby-league",
+      "skills_affected": ["sports/rugby-league/sport-domain-rugby-league.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 90,
+      "monitor_for": ["State of Origin format", "finals format", "expansion team"]
+    }
+  ],
+
+  "partnership_sources": [
+    {
+      "id": "socios-fan-tokens",
+      "name": "Socios Fan Token List",
+      "url": "https://www.socios.com/fan-tokens/",
+      "type": "partnership_monitor",
+      "check_frequency": "weekly",
+      "skills_affected": ["fan-token/fan-token-layer-overview.md", "market/market-overview.md"],
+      "monitor_for": ["new token", "new club", "new sport", "partnership end"]
+    },
+    {
+      "id": "chiliz-announcements",
+      "name": "Chiliz Official Announcements",
+      "url": "https://www.chiliz.com/news/",
+      "type": "infrastructure_monitor",
+      "check_frequency": "weekly",
+      "skills_affected": ["fan-token/blockchain-validator-intelligence/blockchain-validator-intelligence.md"],
+      "monitor_for": ["new validator", "chain upgrade", "new partnership", "token migration"]
+    }
+  ],
+
+  "regulatory_sources": [
+    {
+      "id": "sebi-india",
+      "name": "SEBI India VDA Updates",
+      "url": "https://www.sebi.gov.in/press-releases/",
+      "jurisdiction": "India",
+      "skills_affected": ["fan-token/cricket-token-intelligence/cricket-token-intelligence.md", "market/market-cricket.md", "macro/macro-economic-cycles.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 30,
+      "monitor_for": ["VDA framework", "crypto regulation", "sports token", "digital asset"]
+    },
+    {
+      "id": "mica-eu",
+      "name": "EU MiCA Implementation",
+      "url": "https://www.esma.europa.eu/press-news/esma-news",
+      "jurisdiction": "EU",
+      "skills_affected": ["macro/macro-economic-cycles.md"],
+      "check_frequency": "weekly",
+      "stale_threshold_days": 30,
+      "monitor_for": ["MiCA", "crypto asset", "fan token classification"]
+    }
+  ],
+
+  "monitoring_config": {
+    "default_stale_threshold_days": 90,
+    "high_priority_threshold_days": 30,
+    "create_github_issue_on_stale": true,
+    "issue_labels": ["skill-review-needed", "automated"],
+    "issue_assignees": [],
+    "notification_webhook": null
+  }
+}

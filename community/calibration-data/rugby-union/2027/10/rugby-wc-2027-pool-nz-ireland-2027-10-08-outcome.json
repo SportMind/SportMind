@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-union-wc2027-pool-nz-ireland-2027-10-08-001",
+    "sport": "rugby-union",
+    "event_id": "rugby-wc-2027-pool-a-nz-ireland",
+    "event_name": "Rugby World Cup 2027 Pool A \u2014 New Zealand vs Ireland",
+    "kickoff_utc": "2027-10-08T20:00:00Z",
+    "recorded_at": "2027-10-08T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-10-09T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 66.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "wc_pool_modifier": 0.45,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Rugby World Cup 2027 Pool Stage. New Zealand vs Ireland \u2014 two top-3 ranked teams. Ireland #1 globally, All Blacks #2. Pool match weight \u00d7 0.45. Neutral venue (Australia hosting WC2027). All Blacks kicker confirmed elite. Set piece advantage NZ."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "New Zealand 24 \u2013 Ireland 21",
+      "result_source_url": "https://www.rugbyworldcup.com/2027/results"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "21st athlete_modifier record. World Cup pool stage \u2014 neutral venue, two top-ranked teams. All Blacks kicker + set piece advantage correctly identified as tiebreaker when both teams are world-class. World Cup pool stage athlete_modifier validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

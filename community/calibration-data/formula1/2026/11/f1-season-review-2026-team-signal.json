@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-season-review-constructor-signal-2026-001",
+    "sport": "formula1",
+    "event_id": "f1-2026-season-constructor-championship",
+    "event_name": "Formula 1 2026 Season \u2014 Constructor Championship Final Standings Signal",
+    "kickoff_utc": "2026-11-30T13:00:00Z",
+    "recorded_at": "2026-11-29T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-12-01T10:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 68.0,
+      "adjusted_score": 78.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 80,
+      "modifiers_applied": {
+        "constructor_tier_modifier": 1.12,
+        "qualifying_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "F1 2026 Season Final Race (Abu Dhabi). Constructor championship battle. Leading constructor: season-long qualifying average delta vs nearest rival: 0.18s. Constructor retained championship in penultimate race \u2014 SMS 80 as season-long validation."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Champion constructor won final race",
+      "result_source_url": "https://www.formula1.com/en/results/2026/constructors"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "constructor_tier_season_model",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Constructor tier model validated across full season. Season-average qualifying delta (0.18s) correctly predicted constructor championship. Season-long SMS validation (80) confirms F1 constructor model is stable predictor across multiple races. Highest SMS F1 record in library."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

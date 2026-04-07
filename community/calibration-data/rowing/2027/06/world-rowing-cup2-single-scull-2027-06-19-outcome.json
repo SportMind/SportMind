@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "rowing-world-cup2-single-scull-2027-06-19-001",
+    "sport": "rowing",
+    "event_id": "world-rowing-cup2-2027-mens-single-scull",
+    "event_name": "World Rowing Cup 2 2027 \u2014 Men's Single Scull Final",
+    "kickoff_utc": "2027-06-19T10:30:00Z",
+    "recorded_at": "2027-06-19T08:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-06-19T14:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 66.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.06,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "erg_modifier": 1.06,
+        "conditions_modifier": 1.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "World Rowing Cup 2. Men's single scull. Predicted winner: season best within 1.1% of PB (good form \u00d7 1.04). Conditions: light headwind (1.8 m/s \u2014 below 3m/s threshold). Individual event \u2014 pure performance. SMS 72."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "PB-proximity leader won men's single scull",
+      "result_source_url": "https://worldrowing.com/events/2027/world-rowing-cup-2"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "rowing_erg_pb_proximity",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "FIRST ROWING CALIBRATION RECORD. PB proximity model (within 1.1% of season best) correctly predicted. Single scull as pure individual performance signal confirmed. Headwind below threshold (1.8 m/s < 3 m/s) correctly treated as non-significant."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

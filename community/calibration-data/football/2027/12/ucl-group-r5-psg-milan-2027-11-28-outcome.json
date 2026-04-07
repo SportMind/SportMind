@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-r5-psg-milan-2027-11-28-001",
+    "sport": "football",
+    "event_id": "ucl-2027-28-r5-psg-milan",
+    "event_name": "UCL Group Stage Round 5 \u2014 PSG vs AC Milan",
+    "kickoff_utc": "2027-11-28T21:00:00Z",
+    "recorded_at": "2027-11-28T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-11-28T23:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 63.0,
+      "adjusted_score": 72.5,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 78,
+      "modifiers_applied": {
+        "athlete_modifier": 1.12,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL Group R5. $PSG active. PSG home at Parc des Princes. Milan away \u2014 compact tactical setup. PSG squad ATM significantly higher (Mbapp\u00e9 + premium squad). UCL R5 (late group stage) weight 0.55. SMS 78."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "PSG 3 \u2013 AC Milan 1",
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "25th athlete_modifier record \u2014 PRELIMINARY THRESHOLD REACHED. PSG vs Milan UCL. athlete_modifier \u00d71.12 (squad depth + Mbapp\u00e9 ATM) correctly predicted. At 25 records (21/25 = 84% correct), preliminary recalibration-v6 now warranted. See core/modifier-recalibration-v6.md."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

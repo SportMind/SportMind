@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-bundesliga-2027-28-r1-bayernmunich-001",
+    "sport": "football",
+    "event_id": "bundesliga-2027-28-r1-bayernmunich-dortmund",
+    "event_name": "Bundesliga 2027-28 Round 1 \u2014 Bayern Munich vs Borussia Dortmund",
+    "kickoff_utc": "2027-08-13T18:30:00Z",
+    "recorded_at": "2027-08-13T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-08-13T22:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 70.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "Bundesliga 2027-28 R1. Der Klassiker (\u00d71.65 signal weight). Bayern home at Allianz Arena. Bayern squad depth significantly stronger (Tier 1 ATM players). Derby form compression applied. SMS 76."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Bayern Munich 3 \u2013 Borussia Dortmund 1",
+      "result_source_url": "https://www.bundesliga.com/en/bundesliga/results/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "10th athlete_modifier record. Der Klassiker \u2014 Bayern depth advantage correctly identified despite 50% form compression. athlete_modifier \u00d71.10 validated in top European derby context. Bayern Tier 1 squad ATM correctly predicted outcome."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-mw-contender-2027-07-19-001",
+    "sport": "mma",
+    "event_id": "ufc-fn-middleweight-contender-2027-07",
+    "event_name": "UFC Fight Night \u2014 Middleweight Contender Match",
+    "kickoff_utc": "2027-07-19T22:00:00Z",
+    "recorded_at": "2027-07-19T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-07-20T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 67.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "UFC contender match. Both made weight cleanly. Predicted winner: wrestling-dominant fighter vs pure striker. Grappling advantage in 5-round format \u2192 stamina matters more. Style matchup favours wrestler long-term."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Wrestler won by decision Rounds 4-5 control",
+      "result_source_url": "https://www.ufc.com/event/2027-07"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "11th athlete_modifier record. Style matchup (wrestling vs striking) in 5-round format correctly predicted. Stamina-based style advantage confirmed. MMA athlete_modifier approaching preliminary recalibration threshold."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

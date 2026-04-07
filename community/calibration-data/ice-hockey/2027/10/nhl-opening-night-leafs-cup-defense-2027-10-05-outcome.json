@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-leafs-cup-defense-opener-2027-10-05-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-2027-28-opening-night-cup-defense",
+    "event_name": "NHL 2027-28 Opening Night \u2014 Stanley Cup Championship Banner Raising",
+    "kickoff_utc": "2027-10-05T19:00:00Z",
+    "recorded_at": "2027-10-05T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-10-06T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 66.0,
+      "adjusted_score": 78.1,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.18,
+      "sportmind_score": 81,
+      "modifiers_applied": {
+        "athlete_modifier": 1.18,
+        "cup_champion_opener": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL Season Opener 2027-28. TORONTO MAPLE LEAFS BANNER RAISING \u2014 first Cup since 1967. Maximum Canadian market signal. Cup champion home opener = unprecedented narrative. Morning skate: GK confirmed (GSAx +13.2). SMS 81 \u2014 highest NHL record. Cup champion defending motivation + emotional crowd."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Toronto 5 \u2013 Montreal 1 (Cup banner raised at Scotiabank Arena)",
+      "result_source_url": "https://www.nhl.com/gamecenter/2027-10-05"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "22nd athlete_modifier record. Maple Leafs Cup champion home opener \u2014 highest emotional signal in library history for NHL. SMS 81 = highest individual record. Cup champion defending flag correctly adds \u00d71.08. Canadian market drought narrative at permanent peak (trophy won). LEAFS WON THE CUP."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

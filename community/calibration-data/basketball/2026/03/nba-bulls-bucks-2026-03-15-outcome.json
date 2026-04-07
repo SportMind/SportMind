@@ -1,0 +1,46 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-bulls-bucks-2026-03-15-001",
+    "sport": "basketball",
+    "event_id": "nba-bulls-bucks-2026-03-15",
+    "event_name": "Chicago Bulls vs Milwaukee Bucks — NBA Regular Season",
+    "kickoff_utc": "2026-03-15T19:00:00Z",
+    "recorded_at": "2026-03-15T17:30:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-16T08:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 62.0,
+      "adjusted_score": 70.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.12,
+        "macro_modifier": 1.00
+      },
+      "flags_active": [],
+      "layers_loaded": [1, 2, 3, 4, 5],
+      "pre_match_note": "Giannis active, 2 days rest. Bulls missing DeRozan (knee). On/off differential 17.4pts."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Bulls 108 – Bucks 121",
+      "result_source_url": "https://www.nba.com/game/chi-vs-mil-0022501234"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "Athlete modifier x1.12 validated. Giannis on/off differential confirmed predictive."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

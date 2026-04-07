@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-bbl-2027-28-r1-stars-renegades-001",
+    "sport": "cricket",
+    "event_id": "bbl-2027-28-r1-melbournestars-melbournerenegades",
+    "event_name": "Big Bash League 2027-28 Round 1 \u2014 Melbourne Stars vs Melbourne Renegades",
+    "kickoff_utc": "2027-12-04T08:10:00Z",
+    "recorded_at": "2027-12-04T05:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-12-04T12:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 64.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 71,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "BBL Season opener. Melbourne Stars vs Renegades \u2014 Melbourne T20 derby. T20 format. No dew risk (day game). Stars stronger batting unit this season. SMS 71."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Melbourne Stars won by 7 runs",
+      "result_source_url": "https://www.bbl.com.au/match/2027-28/1"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "14th athlete_modifier record. BBL T20 format validated. Melbourne derby context \u2014 moderate form compression but Stars batting quality correctly identified as sufficient advantage. T20 cricket athlete_modifier confirmed predictive at domestic level."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

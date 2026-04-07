@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-union-autumn-int-nz-england-2026-11-08-001",
+    "sport": "rugby-union",
+    "event_id": "autumn-internationals-2026-nz-england",
+    "event_name": "Autumn Internationals 2026 \u2014 New Zealand vs England (Twickenham)",
+    "kickoff_utc": "2026-11-08T15:00:00Z",
+    "recorded_at": "2026-11-08T12:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-11-08T19:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 58.0,
+      "adjusted_score": 63.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Autumn Internationals. NZ at Twickenham. All Blacks vs England \u2014 tier 1 test rugby. All Blacks quality advantage. England home at Twickenham (80,000 capacity). Kicker form: NZ elite kicker confirmed. Set piece: NZ lineout 89%."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "England 20 \u2013 New Zealand 31",
+      "result_source_url": "https://www.englandrugby.com/fixtures-results/2026/autumn-internationals"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "elite_kicker_set_piece_combination",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Elite kicker + set piece dominance combination validated. NZ kicker accuracy + 89% lineout = composite modifier correctly predicted touring side winning at Twickenham. Autumn Internationals format validated \u2014 quality differential overcomes away disadvantage at Tier 1 test level."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

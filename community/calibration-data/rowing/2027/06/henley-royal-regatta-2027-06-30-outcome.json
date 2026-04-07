@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "rowing-henley-2027-grand-challenge-cup-001",
+    "sport": "rowing",
+    "event_id": "henley-royal-regatta-2027-grand-challenge-cup",
+    "event_name": "Henley Royal Regatta 2027 \u2014 Grand Challenge Cup Final",
+    "kickoff_utc": "2027-07-03T17:30:00Z",
+    "recorded_at": "2027-07-03T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-07-03T21:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 59.0,
+      "adjusted_score": 65.3,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.06,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "erg_modifier": 1.06,
+        "henley_challenge_format": 1.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Henley Royal Regatta Grand Challenge Cup (eights). Challenge knock-out format \u2014 one race, no second chance. Predicted winner: season best erg advantage (4.2 seconds per 2km \u2014 significant). Conditions: 1.2 m/s headwind, overcast \u2014 standard Henley conditions."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Won by 1.5 lengths \u2014 comfortable margin",
+      "result_source_url": "https://www.hrr.co.uk/results/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "rowing_erg_advantage_challenge_format",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Henley challenge format validated. Erg advantage (4.2s/2km) correctly predicted comfortable margin. Challenge knock-out format confirmed as pure performance signal \u2014 tactical element lower than mass start. Third rowing calibration record completes initial seed set."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

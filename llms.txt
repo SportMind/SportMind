@@ -1,0 +1,375 @@
+# SportMind — AI Agent Manifest
+
+> The open sports intelligence library for AI agents.
+> SportMind teaches AI agents how to reason about sports — not just react to data.
+
+Repository: https://github.com/SportMind/SportMind
+License: MIT
+Version: 3.30.0
+Maintainer: @SportMind
+
+---
+
+## What SportMind is
+
+SportMind is a structured collection of sport-specific skills for AI agents. Each skill is a
+markdown document that gives an agent:
+
+- A domain model of how a sport works (calendar, events, result types)
+- Sport-specific risk variables that have no equivalent in other sports
+- Ready-to-deploy event playbooks (trigger → entry → exit → filter → sizing)
+- Signal weight recommendations for each sport
+- Agent reasoning prompts (system prompt fragments)
+
+Layer 2 (athlete skills) provides:
+- Player availability and form scores
+- A composite modifier (0.55–1.25) that adjusts base prediction signals
+- Athlete-level intelligence across 19 sports (including darts and cross-sport meta orchestrator)
+
+Layer 3 (fan-token skills) provides:
+- The foundational value thesis (fan-token-why.md) — why fan tokens exist and what
+  structural problems they solve that the traditional model cannot
+- On-chain fan token intelligence (HAS, TVI, geographic holder data)
+- Athlete commercial intelligence (AELS, ABS, AFS scores)
+- Sport-specific token intelligence bridges (football, F1, MMA, esports)
+- Transfer, sponsorship, and brand intelligence
+- Fan token lifecycle intelligence (six phases, non-contractual token framework)
+- Partnership intelligence (health monitoring, termination patterns, relaunch signals)
+
+SportMind is platform-agnostic. It works with any AI agent framework, any sports data platform,
+and any prediction market or fan token ecosystem.
+
+---
+
+## Five-layer architecture
+
+```
+Layer 1 — Sport domain skills (sports/)
+  Answers: How does this sport work? What events matter? What are the risks?
+
+Layer 2 — Athlete intelligence skills (athlete/)
+  Answers: Who is playing? Are they fit? Are they in form? How does that change the prediction?
+
+Layer 3 — Fan token commercial intelligence (fan-token/)
+  Answers: Is this athlete driving token engagement? What is their commercial value?
+           How do transfers and competitions affect the on-chain token ecosystem?
+
+Layer 4 — Market intelligence (market/)
+  Answers: How large is this market? Who is the fanbase? What is the fan token readiness tier?
+           Is there institutional blockchain interest? What would trigger a token launch?
+
+Layer 5 — Macro intelligence (macro/)
+  Answers: Are there external forces (pandemic, war, recession, crypto bear market, broadcast
+           disruption, climate, governance scandal) currently affecting the sport or token market?
+           How does this change the sizing and direction of all other signals?
+```
+
+---
+
+## Available skills
+
+### Sport domain skills (Layer 1) — 28 complete, 14 community stubs
+
+| Skill path | Sport | Status |
+|---|---|---|
+| sports/football | Football / Soccer | stable |
+| sports/basketball | NBA / EuroLeague | stable |
+| sports/mma | UFC / PFL / ONE Championship | stable |
+| sports/esports | CS2, LoL, Valorant, Dota2 | stable |
+| sports/american-football | NFL | stable |
+| sports/golf | PGA Tour / LIV Golf / Majors | stable |
+| sports/boxing | IBF/WBA/WBC/WBO title structure | stable |
+| sports/athletics | Olympic cycle / Diamond League | stable |
+| sports/cycling | Grand Tours / Classics | stable |
+| sports/horse-racing | Cheltenham / Grand National | stable |
+| sports/snooker | Crucible / Triple Crown | stable |
+| sports/darts | PDC / Ally Pally | stable |
+| sports/rugby-league | Super League / NRL | stable |
+| sports/netball | World Cup / Commonwealth Games | stable |
+| sports/swimming | Olympic cycle / world records | stable |
+| sports/rowing | Olympics / Boat Race | stable |
+| sports/winter-sports | Olympic cycle / Four Hills | stable |
+| sports/cricket | IPL / ICC / format differences | stable |
+| sports/rugby | Union / Six Nations / World Cup | stable |
+| sports/tennis | ATP / WTA / Grand Slams | stable |
+| sports/formula1 | Race calendar / regulation cycles | stable |
+| sports/baseball | MLB / Statcast / rotation cycle | stable |
+| sports/ice-hockey | NHL / goaltender / special teams | stable |
+| sports/motogp | Rider-first / hardware tiers / crash probability | stable |
+| sports/afl | Australian Rules / scoring system / oval tactics | stable |
+| sports/handball | EHF Champions League / goalkeeper / fast break | stable |
+| sports/kabaddi | PKL / raider intelligence / All Out dynamics | stable |
+| sports/nascar | Track types / drafting / Championship 4 | stable |
+| sports/badminton | | 🔜 community stub |
+| sports/volleyball | | 🔜 community stub |
+| sports/table-tennis | | 🔜 community stub |
+| sports/sailing | | 🔜 community stub |
+| sports/triathlon | | 🔜 community stub |
+| sports/field-hockey | | 🔜 community stub |
+| sports/squash | | 🔜 community stub |
+| sports/curling | | 🔜 community stub |
+| sports/gymnastics | | 🔜 community stub |
+| sports/weightlifting | | 🔜 community stub |
+| sports/judo | | 🔜 community stub |
+| sports/taekwondo | | 🔜 community stub |
+| sports/fencing | | 🔜 community stub |
+| sports/swimming-open-water | | 🔜 community stub |
+
+### Athlete intelligence skills (Layer 2) — 29 complete
+
+| Skill path | Sport | Key output |
+|---|---|---|
+| athlete/football | Football | Availability, xG form, GK rating, lineup confirmation |
+| athlete/mma | MMA | Striking, grappling, round profile, fight camp signals |
+| athlete/esports | Esports | Roster status, HLTV rating, meta readiness |
+| athlete/nfl | NFL | QB CPOE, O-line health, injury designations |
+| athlete/nba | NBA | Load management, on/off splits, clutch TS% |
+| athlete/nhl | NHL | Goaltender start, special teams, Corsi |
+| athlete/cricket | Cricket | Batter vs bowler H2H, pitch, toss impact |
+| athlete/tennis | Tennis | Serve metrics, surface record, H2H dynamics |
+| athlete/rugby | Rugby | Set piece, kicker accuracy, halfback partnership |
+| athlete/golf | Golf | Course history, strokes gained, cut line |
+| athlete/boxing | Boxing | Belt status, weigh-in, fight camp, finishing tendency |
+| athlete/cycling | Cycling | GC standing, course fit, team role, DNF risk |
+| athlete/athletics | Athletics | Form score, WR proximity, doping status |
+| athlete/horse-racing | Horse racing | Going preference, C&D record, trainer/jockey |
+| athlete/snooker | Snooker | Crucible record, pressure record, break stats |
+| athlete/baseball | Baseball | Pitcher PQS, Batter BQS, Statcast profile, platoon splits, velocity tracking |
+| athlete/rugby-league | Rugby League | PAS, form rating, PIS, State of Origin modifier |
+| athlete/darts | Darts | 3-dart average, checkout %, Ally Pally record |
+| athlete/meta | All sports | Cross-sport orchestrator — single modifier pipeline call |
+| athlete/formula1 | Formula 1 | Qualifying delta, wet weather rating, regulation fit, grid penalty |
+| athlete/afl | AFL | Kicking accuracy, contested possession, clearances |
+| athlete/motogp | MotoGP | Rider hardware tier, wet specialist, crash probability |
+| athlete/handball | Handball | Goalkeeper save rate, position-specific modifiers |
+| athlete/kabaddi | Kabaddi | Raider rating, All Out dynamics, tackle success |
+| athlete/nascar | NASCAR | Track type specialisation, stage points strategy |
+| athlete/netball | Netball | Goal shooter accuracy, centre pass conversion |
+| athlete/rowing | Rowing | Split time, course conditions, taper status |
+| athlete/swimming | Swimming | PB proximity, taper timing, multi-event fatigue |
+| athlete/winter-sports | Winter Sports | Course fit, snow conditions, Olympic cycle position |
+
+### Fan token commercial intelligence (Layer 3) — 32 skills
+
+| Skill path | Key metrics | Purpose |
+|---|---|---|
+| fan-token/fan-token-why.md | Foundation | Read first — the value thesis; why fan tokens exist; the three structural ceilings; scalability; future trajectory |
+| fan-token/fan-token-pulse | HAS, TVI | On-chain baseline — always run first |
+| fan-token/performance-on-pitch | PI | Match statistics, scout report, valuation multiplier |
+| fan-token/performance-off-pitch | DTS, TAI, PS | Development, loan analysis, rehab |
+| fan-token/athlete-social-lift | AELS | Social-to-token correlation |
+| fan-token/athlete-social-activity | SHS, AGI | Full social intelligence, brand voice |
+| fan-token/transfer-signal | APS, TSI | Token-native rumour intelligence |
+| fan-token/transfer-intelligence | TVS, DLVS | Full transfer lifecycle |
+| fan-token/brand-score | ABS | Athlete Brand Score — commercial brief |
+| fan-token/sponsorship-match | AFS | Brand category rankings, activations |
+| fan-token/sports-brand-sponsorship | Market rate | Deal architecture, ROI framework |
+| fan-token/football-token-intelligence | FTIS, NCSI, ATM | Football token bridge skill |
+| fan-token/formula1-token-intelligence | FTIS, CTI, DTM | F1 token bridge skill |
+| fan-token/mma-token-intelligence | FighterTIS, FTM, CRI | MMA token bridge skill |
+| fan-token/esports-token-intelligence | OrgTIS, GRM, PRS, RSI | Esports token bridge skill |
+| fan-token/fan-token-lifecycle | LTUI | Six-phase lifecycle model; non-contractual token framework; CEX/DEX model; prediction market utility |
+| fan-token/fan-token-partnership-intelligence | PHS + VSI | New partnership due diligence; health monitoring; Validator-Adjusted PHS; termination patterns; Type A/B/C case studies |
+| fan-token/blockchain-validator-intelligence | VSI, Validator-Adjusted PHS | PSG dual-layer model; on-chain validator monitoring; stake change signals; future multi-validator trajectory |
+| fan-token/basketball-token-intelligence | NBATIS | NBA player-centric signal model; trade deadline calendar; EuroLeague club model; Top Shot precedent |
+| fan-token/cricket-token-intelligence | CricTIS | Format-dependent model (T20/ODI/Test); India-Pakistan ×2.00; IPL regulatory gap; PSL tokens |
+| fan-token/nfl-token-intelligence | NFLTIS | QB injury report system; Super Bowl peak; Fantasy Football gateway; RWC 2027 catalyst |
+| fan-token/afl-token-intelligence | AFLTIS | MCG Grand Final architecture; 25% AU crypto adoption; ANZAC Day signal; club membership culture |
+| fan-token/rugby-token-intelligence | RugbyTIS | CVC PE investment signal; Six Nations window; RWC 2027 Australia; kicker as primary variable |
+| fan-token/rugby-league-token-intelligence | RLTIS | State of Origin disruption + downstream NRL congestion signal; NRL Grand Final; Super League |
+| fan-token/handball-token-intelligence | HandTIS | PSG brand halo (+3-5% $PSG at EHF Final4); GK save rate override; Budapest Final4 architecture |
+| fan-token/nascar-token-intelligence | NASCARTIS | 72% sponsor loyalty; Daytona 500 peak; Championship 4 architecture; track type taxonomy |
+| fan-token/kabaddi-token-intelligence | PKLTIS | Star raider primacy; All Out event signal; JioCinema infrastructure; India VDA catalyst |
+| fan-token/netball-token-intelligence | NetTIS | Fastest Tier 2→1 transition; Trans-Tasman ×1.25; shooter accuracy; 75% female fanbase |
+| fan-token/baseball-token-intelligence | MLBTIS | Pitcher-first model (PQS); Ohtani dual signal; Latin America + Japan markets; trade deadline |
+| fan-token/ice-hockey-token-intelligence | NHLTIS | Goaltender GSAx primary; Game 7 compound signal; Canadian market 3× US; B2B fatigue |
+| fan-token/motogp-token-intelligence | MotoTIS | Dorna single-deal model; rider-centric tokens; SE Asia 500M+ fans; wet race hierarchy |
+| fan-token/defi-liquidity-intelligence | TVL, Slippage | Liquidity pools; pre-execution filter; LP activity signals; on-chain yield; prediction market protocols |
+
+### Core reference
+
+| Path | Content |
+|---|---|
+| core/core-athlete-modifier-system.md | Full athlete modifier formula and component reference |
+| core/core-signal-weights-by-sport.md | Signal weighting by sport |
+| core/core-result-impact-matrices.md | Price impact by result type, all sports |
+| core/core-athlete-record-schema.json | Canonical JSON Schema for athlete records |
+| core/injury-intelligence/core-injury-intelligence.md | Master injury framework — taxonomy, modifiers, RQD, return-to-play |
+| core/injury-intelligence/injury-intel-football.md | Football injury intelligence |
+| core/injury-intelligence/injury-intel-mma.md | MMA injury intelligence |
+| core/injury-intelligence/injury-intel-nfl.md | NFL injury intelligence |
+| core/injury-intelligence/injury-intel-boxing.md | Boxing injury intelligence |
+| core/injury-intelligence/injury-intel-horse-racing.md | Horse racing injury intelligence |
+| core/injury-intelligence/injury-intel-cycling.md | Cycling injury intelligence |
+| core/confidence-output-schema.md | Standard JSON output schema — signal, modifiers, flags, sizing, token signal fields |
+| core/core-officiating-intelligence.md | Referee/judge/umpire tendency modifiers — football, MMA, cricket, NFL, horse racing, tennis |
+| core/core-weather-match-day.md | Match-day weather signals — cricket, horse racing, NFL, football, golf, rugby, athletics |
+| core/core-fixture-congestion.md | Universal congestion framework — 5 tiers, sport-specific guidance, modifier application order |
+| core/core-draft-intelligence.md | Draft intelligence — NFL, NBA, NHL, MLB, AFL, esports; pick tier CHZ signal ranges; draft calendar |
+| core/core-narrative-momentum.md | Narrative momentum — 8 categories, detection framework, fan token interaction model |
+| core/context-window-management.md | Token budgets per file, minimum viable loading sets for 5 use cases, priority ranking, overflow protocol |
+| platform/platform-overview.md | What the platform layer adds; open intelligence guarantee; three usage modes |
+| platform/api-contracts.md | Formal skill call specifications: inputs, guaranteed outputs, error codes, versioning |
+| platform/integration-partners.md | Integration registry: FanTokenIntel, Chiliz, Azuro, data providers, LLMs, SportFi Kit (Partner 7) |
+| platform/live-signals.md | Which inputs agents fetch in real-time vs read from static files; self-update architecture |
+| platform/skill-registry.md | Queryable catalogue of all 200+ skills; skill IDs; minimum viable sets; query patterns |
+| platform/sportmind-mcp-server.md | MCP server spec: 4 tools, Python implementation, Claude Desktop config |
+| platform/skill-registry-api.md | Versioned GitHub Pages endpoint documentation; response format; client examples; GitHub Actions workflow |
+| examples/applications/ | 7 application blueprints: DeFi prediction market, portfolio intelligence, athlete commercial, brand token strategy, World Cup 2026, GameFi, SportFi Kit full-stack |
+| scripts/sportmind_api.py | THE hosted Skills API — serves 159 skill files on demand; GET /stack returns complete intelligence stacks; GitHub Pages export |
+| platform/monitoring-alerts.md | Alert specs for macro monitoring and skill reviews; webhook format |
+| platform/skill-hashes.json | SHA-256 integrity hashes for all 179 skill files; agents verify received content |
+| SECURITY.md | Threat model, security infrastructure, responsible disclosure, trust tiers |
+| platform/macro-state.json | Auto-updated macro state; current BTC cycle; active geopolitical/economic events |
+| core/sportmind-score.md | Unified cross-sport confidence metric (SMS); 4 components; 0–100 score |
+| core/calibration-framework.md | Outcome tracking schema; accuracy methodology; modifier calibration workflow |
+| community/leaderboard.md | Contributor accuracy leaderboard; 5-tier system; points formula |
+| community/accuracy-tracking.md | Prediction accuracy methodology; outcome record format |
+| i18n/README.md | Multi-language support framework; available languages; contribution guide |
+| agent-prompts/agent-prompts.md | 7 production-ready system prompts for immediate developer deployment |
+| glossary.md | Central terminology — all 28 sports, 34 SportMind metrics, DeFi terms, cross-sport terms |
+| core/multi-agent-coordination.md | Production agent guide — patterns (1/2/3), context window budgets, session state, routing, edge cases, deployment checklist |
+| examples/ | 6 historical calibration scenarios: UCL final, UFC fight week, State of Origin, IPL DLS, NBA trade deadline, PSG DeFi liquidity |
+| core/data-sources.md | Centralised source citations — all five layers, API quick reference, source quality hierarchy |
+| core/multi-agent-coordination.md | Production agent architecture — context window management, session state, multi-sport routing, calibration |
+| market/world-cup-2026.md | World Cup 2026 module — NCSI by player, national tokens, US market unlock, signal calendar |
+| market/market-womens-sports.md | Women's sports market — WSL, NWSL, WNBA, WIPL; demographic advantage; Caitlin Clark |
+| market/market-overview.md | Layer 4 master framework — tier definitions, all sport status |
+| market/market-key-findings.md | Cross-sport market insights — 12 cross-sport findings only visible at full-library comparison level |
+| macro/macro-overview.md | Layer 5 master framework — bifurcated impact model, event taxonomy, crypto cycle modifiers |
+| macro/macro-pandemic-public-health.md | Pandemic intelligence — counter-cyclical token resilience, recovery curve |
+| macro/macro-geopolitical.md | Geopolitical intelligence — wars, sanctions, diplomatic crises |
+| macro/macro-crypto-market-cycles.md | Crypto cycle intelligence — CHZ/BTC correlation, 4-phase modifiers |
+| macro/macro-broadcast-disruption.md | Broadcast disruption intelligence — RSN collapse, streaming wars |
+| macro/macro-economic-cycles.md | Economic cycle intelligence — recession, discretionary spending, sponsorship lag |
+| macro/macro-climate-weather.md | Climate intelligence — outdoor sport disruption, event cancellation protocol |
+| macro/macro-governance-scandal.md | Governance scandal intelligence — corruption, doping, match-fixing |
+| market/market-football.md | Football market intelligence — Tier 1 |
+| market/market-basketball.md | Basketball market intelligence — Tier 1 |
+| market/market-cricket.md | Cricket market intelligence — Tier 1/2 |
+| market/market-kabaddi.md | Kabaddi market intelligence — Tier 2 |
+| market/market-mma.md | MMA market intelligence — Tier 1 |
+| market/market-esports.md | Esports market intelligence — Tier 1 |
+| market/market-formula1.md | Formula 1 market intelligence — Tier 1 |
+| market/market-american-football.md | American Football (NFL) market intelligence — Tier 2 |
+| market/market-baseball.md | MLB Baseball market intelligence — Tier 2 |
+| market/market-ice-hockey.md | NHL Ice Hockey market intelligence — Tier 2 |
+| market/market-afl.md | AFL market intelligence — Tier 2 |
+| market/market-motogp.md | MotoGP market intelligence — Tier 2 |
+| market/market-rugby-union.md | Rugby Union market intelligence — Tier 2 |
+| market/market-rugby-league.md | Rugby League market intelligence — Tier 2 |
+| market/market-handball.md | Handball market intelligence — Tier 2/3 |
+| market/market-nascar.md | NASCAR market intelligence — Tier 2 |
+| market/market-tennis.md | Tennis market intelligence — Tier 3 |
+| market/market-golf.md | Golf market intelligence — Tier 3 |
+| market/market-boxing.md | Boxing market intelligence — Tier 3 |
+| market/market-athletics.md | Athletics market intelligence — Tier 3 |
+| market/market-horse-racing.md | Horse Racing market intelligence — Tier 3 |
+| market/market-cycling.md | Cycling market intelligence — Tier 3 |
+| market/market-darts.md | Darts market intelligence — Tier 3 |
+| market/market-snooker.md | Snooker market intelligence — Tier 3 |
+| market/market-volleyball.md | Volleyball market intelligence — Tier 3 |
+| market/market-badminton.md | Badminton market intelligence — Tier 3 |
+| market/market-netball.md | Netball market intelligence — Tier 3/4 |
+| market/market-winter-sports.md | Winter Sports market intelligence — Tier 3/4 |
+| market/market-swimming.md | Swimming market intelligence — Tier 4 |
+| market/market-rowing.md | Rowing market intelligence — Tier 4 |
+| market/market-table-tennis.md | Table Tennis market intelligence — Tier 4 |
+
+---
+
+## How to use SportMind with an AI agent
+
+### Option 1 — System prompt injection (any agent)
+
+Paste the relevant skill markdown directly into your agent's system prompt.
+No installation required. Works with any LLM.
+
+### Option 2 — Claude Code / MCP
+
+```bash
+# See examples/starter-pack/ for full setup
+claude mcp add sportmind /path/to/sportmind
+```
+
+### Option 3 — LangChain / CrewAI / AutoGen
+
+```python
+# See examples/starter-pack/ for full wrapper
+from sportmind import load_skill
+skill = load_skill("sports/football")
+agent.add_context(skill)
+```
+
+### Option 4 — Fan Token Intel integration
+
+SportMind is designed to complement Fan Token Intel (fantokenintel.com).
+Layer 1 skills provide domain context. Layer 2 skills produce athlete modifiers
+that adjust FTI's base signal scores. Layer 3 provides on-chain commercial intelligence.
+Read fan-token/fan-token-why.md first to understand the foundational value thesis.
+
+See examples/fan-token-intel/ for the integration pattern.
+
+---
+
+## Modifier system quick reference
+
+```
+adjusted_signal = base_signal × composite_modifier
+
+composite_modifier ranges:
+  ≥ 1.20    →  Elite conditions — high conviction
+  1.10–1.19 →  Strong — normal sizing
+  1.00–1.09 →  Neutral — follow base signal
+  0.90–0.99 →  Minor concerns — reduce or wait
+  0.80–0.89 →  Significant concerns — caution
+  0.70–0.79 →  Major degradation — likely skip
+  < 0.70    →  Severe — do not enter
+```
+
+---
+
+## Contributing
+
+See CONTRIBUTING.md. Sport skills follow templates/template-new-sport-skill.md.
+Athlete skills follow templates/template-new-athlete-skill.md.
+
+14 community stub sports are ready to be filled — see GOOD_FIRST_ISSUES.md.
+
+**New to SportMind?** Read README.md first. See examples/ for
+6 complete historical examples with calibration analysis.
+
+For developer resources: see agent-prompts/agent-prompts.md for ready-to-deploy system prompts
+and glossary.md for sport terminology reference.
+
+---
+
+## Developer resources
+
+| Resource | Purpose |
+|---|---|
+| `examples/starter-pack/integration-standalone-system-prompt.md` | System prompt injection (any LLM) |
+| `examples/starter-pack/integration-langchain-python.md` | LangChain / CrewAI / AutoGen |
+| `examples/starter-pack/integration-claude-and-mcp.md` | Claude Code / MCP |
+| `examples/` | 6 historical scenarios with correct SportMind reasoning |
+| `examples/starter-pack/README.md` | 5 validation playbooks with pass criteria |
+| `core/context-window-management.md` | Token budget planning; minimum viable loading sets |
+| `core/multi-agent-coordination.md` | Session state; multi-sport routing; production patterns |
+
+## Compatible platforms
+
+SportMind is the intelligence layer. Partners provide data or infrastructure.
+SportMind remains MIT licensed and platform-agnostic.
+
+| Platform | Role |
+|---|---|
+| Fan Token Intel (fantokenintel.com) | Primary signal data — provides base_score |
+| Chiliz / Socios | Blockchain infrastructure — on-chain Layer 3 data |
+| Azuro (azuro.org) | Prediction market protocol — DeFi liquidity context |
+| Claude / Claude Code | Agent reasoning engine — MCP or system prompt |
+| LangChain / CrewAI / AutoGen | Agent framework — skill context injection |
+| OpenAI / GPT-4o | Agent reasoning engine — system prompt |
+| Any LLM | Agent reasoning engine — structured markdown context |
+
+Full integration patterns: platform/integration-partners.md
+API contracts: platform/api-contracts.md

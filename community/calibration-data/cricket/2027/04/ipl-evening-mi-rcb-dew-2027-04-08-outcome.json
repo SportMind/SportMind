@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-ipl-2027-mi-rcb-dew-2027-04-08-001",
+    "sport": "cricket",
+    "event_id": "ipl-2027-r3-mi-rcb",
+    "event_name": "IPL 2027 Round 3 \u2014 Mumbai Indians vs RCB (Wankhede, evening)",
+    "kickoff_utc": "2027-04-08T14:00:00Z",
+    "recorded_at": "2027-04-08T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-04-08T21:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "adjusted_score": 58.4,
+      "confidence_tier": "LOW",
+      "sportmind_score": 68,
+      "modifiers_applied": {
+        "dew_factor": 1.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "dew_risk_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "IPL R3 Wankhede evening. Humidity 78% \u2014 DEW RISK HIGH. Toss won by MI (batting first). Prediction: MI defend despite dew \u2014 MI death bowling specialist (Bumrah) overcomes dew. SMS 68 reflects uncertainty."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "MI defended, won by 8 runs. Dew present but Bumrah bowled superbly.",
+      "result_source_url": "https://www.iplt20.com/match/2027/3"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "death_bowling_specialist_vs_dew",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Dew present but elite death bowling (Bumrah) overcame it. This nuances the dew_factor model: dew is significant but elite death bowling can partially negate it. The dew_factor should be applied as a probability modifier, not a certainty."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

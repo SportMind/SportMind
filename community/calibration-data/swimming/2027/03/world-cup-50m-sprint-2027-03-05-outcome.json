@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "swimming-world-cup-50m-sprint-2027-03-05-001",
+    "sport": "swimming",
+    "event_id": "world-aquatics-cup-2027-50m-freestyle",
+    "event_name": "World Aquatics Cup 2027 \u2014 50m Freestyle Final",
+    "kickoff_utc": "2027-03-05T19:30:00Z",
+    "recorded_at": "2027-03-05T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-03-06T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 68.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "pb_proximity_modifier": 1.05,
+        "event_specialist": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "World Aquatics Cup 50m Freestyle. Sprint specialist \u2014 50m is primary event. Season best within 1.8% of PB (good form). World Cup (circuit event): not championship taper \u2014 standard form analysis applies. SMS 74."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Sprint specialist won 50m freestyle",
+      "result_source_url": "https://www.worldaquatics.com/competitions/2027/swimming-world-cup"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "sprint_specialist_event_match",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Sprint event specialist model validated at World Aquatics Cup. 50m freestyle as primary event (\u00d71.08 specialist modifier). PB proximity correctly applied at World Cup (non-taper circuit event). Swimming sprint specialisation signal confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

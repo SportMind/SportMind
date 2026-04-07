@@ -1,0 +1,55 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-ipl-2027-qualifier1-001",
+    "sport": "cricket",
+    "event_id": "ipl-2027-qualifier1-mumbai-chennai",
+    "event_name": "IPL 2027 Qualifier 1 \u2014 Mumbai Indians vs Chennai Super Kings",
+    "kickoff_utc": "2027-05-19T14:30:00Z",
+    "recorded_at": "2027-05-19T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-05-20T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 59.0,
+      "adjusted_score": 70.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.15,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "india_modifier": 1.15,
+        "qualifier_stakes": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "dew_risk_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "IPL 2027 Qualifier 1. MI vs CSK \u2014 most watched IPL fixture (\u00d71.15 India modifier, historic rivalry). Dew risk HIGH (evening at Wankhede). Winner advances directly to final. Stakes: \u00d7 1.08 qualifier pressure."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Mumbai won by 6 wickets",
+      "result_source_url": "https://www.iplt20.com/match/2027/q1"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ipl_rivalry_qualifier_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "IPL Qualifier MI vs CSK \u2014 most historically significant IPL rivalry. India modifier \u00d71.15 + qualifier stakes \u00d71.08 combined correctly. Dew risk correctly flagged (batting second advantage realised). MI-CSK rivalry is the IPL's El Cl\u00e1sico equivalent \u2014 both clubs elite, rivalry narrative elevates commercial signal."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

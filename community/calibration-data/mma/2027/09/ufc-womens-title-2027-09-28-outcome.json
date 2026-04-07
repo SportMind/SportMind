@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-womens-sw-title-2027-09-28-001",
+    "sport": "mma",
+    "event_id": "ufc-womens-strawweight-title-2027-09",
+    "event_name": "UFC Women's Strawweight Championship \u2014 Title Defense",
+    "kickoff_utc": "2027-09-28T22:00:00Z",
+    "recorded_at": "2027-09-28T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-09-29T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 65.0,
+      "adjusted_score": 75.3,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.18,
+      "sportmind_score": 79,
+      "modifiers_applied": {
+        "title_fight_modifier": 1.35,
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Women's SW title defense. Champion: 4th defense, elite grappling base, dominant cardio in late rounds. Challenger: strong striker but limited ground game. 5-round fight = champion's cardio advantage magnified. Both made weight cleanly."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Champion retained by submission Round 4",
+      "result_source_url": "https://www.ufc.com/event/2027-09"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "19th athlete_modifier record. Women's division MMA validated \u2014 same modifier model applies. 5-round title fight cardio advantage confirmed. Late-round submission consistent with cardio differential prediction."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

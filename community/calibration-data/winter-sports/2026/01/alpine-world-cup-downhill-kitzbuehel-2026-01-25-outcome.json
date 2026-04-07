@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "winter-sports-kitzbuehel-downhill-2026-01-25-001",
+    "sport": "winter-sports",
+    "event_id": "alpine-wc-downhill-kitzbuehel-2026",
+    "event_name": "Alpine World Cup Downhill \u2014 Kitzb\u00fchel Hahnenkamm 2026",
+    "kickoff_utc": "2026-01-25T12:00:00Z",
+    "recorded_at": "2026-01-25T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-01-25T16:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 69.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "specialist_modifier": 1.12,
+        "bib_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Hahnenkamm Downhill \u2014 most prestigious alpine DH race. Austrian specialist. Bib 8 (fresh course \u00d71.05). Good snow conditions (packed powder, no variable). Austrian \u00d7 1.25 home circuit ATM modifier."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Specialist won Hahnenkamm",
+      "result_source_url": "https://www.fis-ski.com/en/alpine-skiing/results/2026/kitzbuehel"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "course_specialist_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "FIRST WINTER SPORTS CALIBRATION RECORD. Course specialist modifier \u00d71.12 validated at Hahnenkamm. Bib 8 (fresh course) confirmed advantage. Austrian home circuit ATM \u00d7 1.25 correct. Alpine downhill intelligence validated at most prestigious race."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

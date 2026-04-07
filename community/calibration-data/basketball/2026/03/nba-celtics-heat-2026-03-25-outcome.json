@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-celtics-heat-2026-03-25-001",
+    "sport": "basketball",
+    "event_id": "nba-boston-miami-2026-03-25",
+    "event_name": "Boston Celtics vs Miami Heat \u2014 NBA Regular Season",
+    "kickoff_utc": "2026-03-25T19:30:00Z",
+    "recorded_at": "2026-03-25T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-26T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 63.0,
+      "adjusted_score": 72.1,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.12,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Boston home. Jayson Tatum active (confirmed). On/off net rating differential +16.2. Miami missing Jimmy Butler (knee). Boston contract year effect: Tatum final year \u2014 x1.08 motivation modifier applied."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Boston 118 \u2013 Miami 102",
+      "result_source_url": "https://www.nba.com/game/mia-vs-bos-0022501456"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "Contract year motivation modifier validated. Tatum outstanding performance (32pts). On/off differential x1.12 confirmed. Miami missing star validated as negative signal. NBA missing star modifier model confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

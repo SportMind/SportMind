@@ -1,0 +1,57 @@
+{
+  "outcome_record": {
+    "record_id": "football-laliga-clasico-december-2026-001",
+    "sport": "football",
+    "event_id": "laliga-r17-barcelona-real-madrid-2026-12-14",
+    "event_name": "La Liga Round 17 \u2014 FC Barcelona vs Real Madrid (El Cl\u00e1sico)",
+    "kickoff_utc": "2026-12-14T20:00:00Z",
+    "recorded_at": "2026-12-14T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-12-14T23:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 53.4,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.95,
+      "sportmind_score": 65,
+      "modifiers_applied": {
+        "derby_active": 0.95,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "derby_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "El Cl\u00e1sico La Liga R17. DERBY ACTIVE: 50% form compression. Both tokens ($BAR, $RM) active. Low SMS (65) correctly reflects derby unpredictability. No title stakes yet (mid-December). Camp Nou \u2014 Bar\u00e7a home advantage."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Barcelona 3 \u2013 Real Madrid 2",
+      "token_symbol": "BAR",
+      "token_24h_change_pct": 11.2,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.laliga.com/en-GB/results/2026-27"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "derby_form_compression_home_win",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "El Cl\u00e1sico HOME WIN with 50% form compression applied. Barcelona home advantage at Camp Nou confirmed as real modifier even in El Cl\u00e1sico context. $BAR +11.2% confirms token signal direction. Low SMS (65) correctly reflected uncertainty \u2014 right to be cautious. Form compression correct but home advantage is a meaningful tiebreaker."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-playoffs-oilers-canucks-2026-04-15-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-playoffs-2026-r1-g1-edm-van",
+    "event_name": "NHL Playoffs Round 1 Game 1 \u2014 Edmonton Oilers vs Vancouver Canucks",
+    "kickoff_utc": "2026-04-15T20:00:00Z",
+    "recorded_at": "2026-04-15T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-16T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 68.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL Playoffs Round 1 Game 1. Morning skate confirmed Oilers starter (GSAx +12.1 season). Oilers home ice advantage. McDavid available. Back-to-back not applicable (G1). Canadian market signal elevated."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Edmonton 4 \u2013 Vancouver 2",
+      "result_source_url": "https://www.nhl.com/playoffs/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "NHL playoff GSAx model validated. Morning skate confirmation protocol correct. Canadian market signal (Alberta: elevated engagement). McDavid ATM confirmed predictive in playoff context."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

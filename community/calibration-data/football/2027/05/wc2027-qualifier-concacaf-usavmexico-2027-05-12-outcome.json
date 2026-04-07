@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-wc2030-qualifier-usa-mexico-2027-05-12-001",
+    "sport": "football",
+    "event_id": "wc2030-qualifier-concacaf-usa-mexico",
+    "event_name": "WC 2030 CONCACAF Qualifier \u2014 USA vs Mexico",
+    "kickoff_utc": "2027-05-12T01:00:00Z",
+    "recorded_at": "2027-05-11T22:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-05-12T06:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 65.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "concacaf_rivalry_modifier": 1.55,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "WC 2030 CONCACAF Qualifier. USA vs Mexico \u2014 defining CONCACAF rivalry \u00d7 1.55. USA home at large stadium (sold out). Post-WC2026 generation: USA improved dramatically; Mexico facing generational transition. High stakes qualifier."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "USA 2 \u2013 Mexico 0",
+      "result_source_url": "https://www.concacaf.com/qualifiers/2027/wc2030"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "concacaf_rivalry_usa_mexico",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "USA vs Mexico CONCACAF rivalry \u00d71.55 validated. Post-WC2026 USA improvement signal confirmed. Mexico generational transition correctly identified as reducing their typical rivalry advantage. CONCACAF rivalry signal model validated for WC qualification context."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

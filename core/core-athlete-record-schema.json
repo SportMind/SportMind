@@ -1,0 +1,253 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://sportmind.dev/schemas/athlete-record",
+  "title": "Athlete Record",
+  "description": "Canonical athlete record schema for fan token signal enrichment across all sports",
+  "type": "object",
+  "required": ["athlete_id", "name", "sport", "token", "availability", "form", "signal_modifier"],
+
+  "properties": {
+
+    "athlete_id": {
+      "type": "string",
+      "description": "Unique athlete identifier — {sport}_{team}_{last_name_slug}",
+      "examples": ["football_psg_mbappe", "mma_ufc_makhachev", "esports_navi_s1mple"]
+    },
+
+    "name": { "type": "string" },
+    "sport": {
+      "type": "string",
+      "enum": ["football", "mma", "nfl", "nba", "nhl", "cricket", "tennis", "rugby", "esports"]
+    },
+    "token": {
+      "type": "string",
+      "description": "Chiliz fan token symbol — must match tokenintel token registry",
+      "examples": ["PSG", "BAR", "NAVI", "OG"]
+    },
+    "position": { "type": "string" },
+    "is_key_player": {
+      "type": "boolean",
+      "description": "Whether this player materially affects signal modifier calculations"
+    },
+    "key_player_weight": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Weight in composite team modifier. Sum of all key players' weights should equal 1.0"
+    },
+
+    "availability": {
+      "type": "object",
+      "required": ["status", "fit_pct", "source", "updated_at"],
+      "properties": {
+        "status": {
+          "type": "string",
+          "enum": ["CONFIRMED", "PROBABLE", "DOUBT", "OUT", "SUSPENDED", "UNKNOWN"],
+          "description": "CONFIRMED=starting, PROBABLE=likely starting (>80%), DOUBT=50-79%, OUT=ruled out"
+        },
+        "fit_pct": {
+          "type": "integer", "minimum": 0, "maximum": 100,
+          "description": "Estimated fitness percentage"
+        },
+        "injury_type": { "type": ["string", "null"], "examples": ["hamstring", "ankle", "knee"] },
+        "expected_return": { "type": ["string", "null"], "format": "date" },
+        "suspension": {
+          "type": "object",
+          "properties": {
+            "active": { "type": "boolean" },
+            "matches_remaining": { "type": "integer" },
+            "reason": { "type": "string" }
+          }
+        },
+        "source": {
+          "type": "string",
+          "enum": ["official_lineup", "official_medical", "press_conference", "training_report", "rumour", "inferred"],
+          "description": "Reliability tier of the availability signal"
+        },
+        "source_reliability": {
+          "type": "number", "minimum": 0, "maximum": 1,
+          "description": "0.3=rumour, 0.6=press conf, 0.85=training, 1.0=official lineup"
+        },
+        "updated_at": { "type": "string", "format": "date-time" },
+        "availability_modifier": {
+          "type": "number",
+          "description": "Pre-computed modifier contribution from this player's availability",
+          "examples": [1.15, 1.0, 0.83, 0.70]
+        }
+      }
+    },
+
+    "form": {
+      "type": "object",
+      "required": ["score", "label", "window_matches", "updated_at"],
+      "properties": {
+        "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "label": {
+          "type": "string",
+          "enum": ["COLD", "POOR", "AVERAGE", "GOOD", "HOT", "DOMINANT"]
+        },
+        "window_matches": { "type": "integer", "description": "Number of matches used for form calculation" },
+        "trend": {
+          "type": "string",
+          "enum": ["RISING", "STABLE", "FALLING", "VOLATILE"]
+        },
+        "sport_metrics": {
+          "type": "object",
+          "description": "Sport-specific form metrics — structure varies by sport",
+          "oneOf": [
+            { "$ref": "#/definitions/football_form_metrics" },
+            { "$ref": "#/definitions/mma_form_metrics" },
+            { "$ref": "#/definitions/esports_form_metrics" },
+            { "$ref": "#/definitions/cricket_form_metrics" },
+            { "$ref": "#/definitions/tennis_form_metrics" }
+          ]
+        },
+        "form_modifier": {
+          "type": "number",
+          "description": "Pre-computed modifier from form score",
+          "examples": [1.20, 1.05, 1.0, 0.92, 0.85]
+        },
+        "updated_at": { "type": "string", "format": "date-time" }
+      }
+    },
+
+    "physical_load": {
+      "type": "object",
+      "properties": {
+        "minutes_last_7_days": { "type": "integer" },
+        "matches_last_14_days": { "type": "integer" },
+        "international_duty": { "type": "boolean" },
+        "travel_km_last_7_days": { "type": "integer" },
+        "days_rest_since_last_match": { "type": "integer" },
+        "fatigue_index": { "type": "number", "minimum": 0, "maximum": 1 },
+        "fatigue_label": {
+          "type": "string",
+          "enum": ["LOW", "MODERATE", "HIGH", "CRITICAL"]
+        },
+        "fatigue_modifier": { "type": "number" }
+      }
+    },
+
+    "matchup": {
+      "type": "object",
+      "description": "Populated per-match — head-to-head context vs specific opponent",
+      "properties": {
+        "opponent_token": { "type": "string" },
+        "opponent_player": { "type": ["string", "null"] },
+        "h2h_appearances": { "type": "integer" },
+        "h2h_advantage_score": { "type": "integer", "minimum": 0, "maximum": 100 },
+        "h2h_verdict": {
+          "type": "string",
+          "enum": ["STRONG_EDGE", "SLIGHT_EDGE", "NEUTRAL", "SLIGHT_DISADVANTAGE", "STRONG_DISADVANTAGE"]
+        },
+        "matchup_modifier": { "type": "number" }
+      }
+    },
+
+    "signal_modifier": {
+      "type": "object",
+      "required": ["composite", "components", "confidence", "computed_at"],
+      "description": "The core output — multiply against tokenintel base signal score",
+      "properties": {
+        "composite": {
+          "type": "number",
+          "minimum": 0.4,
+          "maximum": 1.4,
+          "description": "Final multiplier to apply to base signal score"
+        },
+        "components": {
+          "type": "object",
+          "properties": {
+            "availability": { "type": "number" },
+            "form": { "type": "number" },
+            "goalkeeper": { "type": ["number", "null"], "description": "Football / NHL only" },
+            "fatigue": { "type": "number" },
+            "weather": { "type": "number" },
+            "psychological": { "type": "number" },
+            "matchup": { "type": "number" },
+            "lineup_confirmation": { "type": "number" },
+            "set_piece": { "type": ["number", "null"] }
+          }
+        },
+        "confidence": {
+          "type": "number", "minimum": 0, "maximum": 1,
+          "description": "Confidence in the modifier — degrades when sources are rumours or lineup unconfirmed"
+        },
+        "computed_at": { "type": "string", "format": "date-time" },
+        "expires_at": { "type": "string", "format": "date-time" },
+        "notes": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+
+    "adjusted_signal": {
+      "type": "object",
+      "description": "Final output to agent — base score × composite modifier",
+      "properties": {
+        "base_score": { "type": "integer" },
+        "adjusted_score": { "type": "integer" },
+        "direction": { "type": "string", "enum": ["BULLISH", "NEUTRAL", "BEARISH"] },
+        "recommendation": { "type": "string" },
+        "re_evaluate_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  },
+
+  "definitions": {
+    "football_form_metrics": {
+      "type": "object",
+      "properties": {
+        "goals_last_n": { "type": "number" },
+        "assists_last_n": { "type": "number" },
+        "xG_per_90": { "type": "number" },
+        "xA_per_90": { "type": "number" },
+        "avg_rating": { "type": "number" },
+        "minutes_per_match": { "type": "number" },
+        "big_chance_conversion_pct": { "type": "number" },
+        "shot_on_target_pct": { "type": "number" }
+      }
+    },
+    "mma_form_metrics": {
+      "type": "object",
+      "properties": {
+        "win_streak": { "type": "integer" },
+        "finish_streak": { "type": "integer" },
+        "sig_strikes_per_min": { "type": "number" },
+        "sig_strike_accuracy_pct": { "type": "number" },
+        "takedown_success_pct": { "type": "number" },
+        "finish_rate_pct": { "type": "number" },
+        "avg_performance_rating": { "type": "number" }
+      }
+    },
+    "esports_form_metrics": {
+      "type": "object",
+      "properties": {
+        "rating": { "type": "number", "description": "HLTV rating (CS2) or equivalent" },
+        "KDA": { "type": "number" },
+        "ADR": { "type": "number" },
+        "win_rate_last_n": { "type": "number" },
+        "mvp_count": { "type": "integer" },
+        "maps_played": { "type": "integer" }
+      }
+    },
+    "cricket_form_metrics": {
+      "type": "object",
+      "properties": {
+        "batting_avg": { "type": "number" },
+        "strike_rate": { "type": "number" },
+        "bowling_economy": { "type": "number" },
+        "wickets_last_n": { "type": "integer" },
+        "boundary_pct": { "type": "number" }
+      }
+    },
+    "tennis_form_metrics": {
+      "type": "object",
+      "properties": {
+        "win_rate_last_n": { "type": "number" },
+        "first_serve_pct": { "type": "number" },
+        "break_point_save_pct": { "type": "number" },
+        "surface_win_rate": { "type": "number" },
+        "aces_per_match": { "type": "number" }
+      }
+    }
+  }
+}

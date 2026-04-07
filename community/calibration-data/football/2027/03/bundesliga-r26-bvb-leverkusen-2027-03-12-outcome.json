@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-bundesliga-r26-bvb-leverkusen-2027-03-12-001",
+    "sport": "football",
+    "event_id": "bundesliga-r26-bvb-bayer04",
+    "event_name": "Bundesliga Round 26 \u2014 Borussia Dortmund vs Bayer Leverkusen",
+    "kickoff_utc": "2027-03-12T17:30:00Z",
+    "recorded_at": "2027-03-12T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-03-12T21:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 57.0,
+      "adjusted_score": 63.3,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.07,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.07,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "Bundesliga R26. BVB vs Leverkusen \u2014 Gelbe Wand crowd atmosphere. BVB home record (Signal Street Parade culture). CL quarter-final place in play for both. Leverkusen chasing second Bundesliga title. High stakes both sides."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": false,
+      "final_score": "Borussia Dortmund 2 \u2013 Bayer Leverkusen 2",
+      "result_source_url": "https://www.bundesliga.com/en/bundesliga/results/2026-27"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": false,
+      "modifier_magnitude_error": 0.12,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION \u2014 Draw when near-equal high stakes. Both teams highly motivated (CL spot + title chase). When two high-motivation elite teams meet in a high-stakes match, draw premium increases significantly. This is similar to derby compression but for non-derby high-stakes matches. Consider high-stakes symmetry \u2192 expanded draw probability."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

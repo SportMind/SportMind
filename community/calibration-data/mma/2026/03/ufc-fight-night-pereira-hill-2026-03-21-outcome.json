@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-fn-pereira-hill-2026-03-21-001",
+    "sport": "mma",
+    "event_id": "ufc-fn-pereira-hill-2026-03-21",
+    "event_name": "UFC Fight Night \u2014 Alex Pereira vs Jamahal Hill \u2014 LHW Championship",
+    "kickoff_utc": "2026-03-21T23:00:00Z",
+    "recorded_at": "2026-03-21T18:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-22T08:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 66.0,
+      "adjusted_score": 71.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 77,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Championship fight x1.35 base weight. Pereira making weight (confirmed). Weigh-in passed cleanly \u2014 no weight_miss flag. Pereira knockout power advantage. Hill grappling threat: style matchup favours Pereira striking."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pereira TKO round 3",
+      "result_source_url": "https://www.ufc.com/event/ufc-fight-night-march-2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "Weigh-in clean pass confirmed \u2014 no weight_miss modifier needed. Championship multiplier x1.35 validated. Style matchup (striker vs grappler) prediction correct. MMA pre-match protocol validated: weigh-in result as primary signal before analysis confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

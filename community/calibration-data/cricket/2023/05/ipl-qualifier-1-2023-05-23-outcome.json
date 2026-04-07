@@ -1,0 +1,60 @@
+{
+  "outcome_record": {
+    "record_id": "ipl-csk-mi-qualifier-2023-05-23-seed-001",
+    "sport": "cricket",
+    "event_id": "ipl-2023-qualifier-1-csk-mi",
+    "event_name": "IPL 2023 Qualifier 1 \u2014 Chennai Super Kings vs Mumbai Indians",
+    "kickoff_utc": "2023-05-23T14:00:00Z",
+    "recorded_at": "2023-05-23T13:00:00Z",
+    "source": "seed record \u2014 derived from examples/worked-scenarios/scenario-ipl-dls-2023.md",
+    "prediction": {
+      "format": "T20",
+      "direction": "AWAY",
+      "base_score": 55.0,
+      "adjusted_score": 61.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 74.0,
+      "modifiers_applied": {
+        "dew_modifier": 1.1,
+        "toss_modifier": 1.08,
+        "india_factor": 1.4,
+        "format_modifier": 1.0
+      },
+      "flags_active": [
+        "weather_risk"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "skill_contributor": "sportmind-core",
+      "pre_match_note": "Toss: CSK won toss, chose to field. Dew forecast HIGH (tropical evening, Chepauk). Mumbai batting second = dew advantage. DLS event occurred in match."
+    },
+    "outcome": {
+      "result": "DLS_AWAY_WIN",
+      "dls_event": true,
+      "dls_note": "Rain interrupted CSK innings at 18 overs. DLS revised target. Mumbai won by DLS method.",
+      "direction_correct": true,
+      "token_symbol": "IPL_no_active_token",
+      "token_applicable": false,
+      "result_source_url": "https://www.espncricinfo.com/series/ipl-2023/scorecard"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "dew_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Dew factor signal validated. Toss + dew combination correctly identified batting-second team advantage. DLS event mid-match confirmed: pre-match analysis superseded, new output object required. No active IPL token \u2014 prediction market only. Dew modifier in T20 evening cricket at South Asian venues: VALIDATED."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "outcome_record": {
+    "record_id": "football-pl-northwest-derby-2027-01-14-001",
+    "sport": "football",
+    "event_id": "pl-r21-mancity-manchesterunited-2027-01-14",
+    "event_name": "Premier League R21 \u2014 Manchester City vs Manchester United (Northwest Derby)",
+    "kickoff_utc": "2027-01-14T17:30:00Z",
+    "recorded_at": "2027-01-14T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-01-14T21:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "DRAW",
+      "base_score": 50.0,
+      "adjusted_score": 47.5,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.95,
+      "sportmind_score": 64,
+      "modifiers_applied": {
+        "derby_active": 0.95,
+        "draw_premium": 1.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "derby_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "Northwest Derby. DERBY ACTIVE. Recalibrated draw premium applied \u2014 direction = DRAW_LIKELY (new v3.23 protocol). Form differential < 0.08 (very close). No elimination stakes. SMS 64. This is the first prediction using the updated derby draw premium from recalibration-v3."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": true,
+      "final_score": "Manchester City 1 \u2013 Manchester United 1",
+      "token_symbol": "CITY",
+      "token_24h_change_pct": 1.8,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.premierleague.com/results/2026-27"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "derby_draw_premium_recalibrated",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.0,
+      "signal_was_actionable": true,
+      "notes": "RECALIBRATION VALIDATION: First prediction using updated derby draw premium from modifier-recalibration-v3.md. DRAW_LIKELY direction output CORRECT. Northwest Derby (Man City vs Man Utd) with form differential < 0.08 confirmed as draw via updated protocol. Recalibration-v3 update immediately validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

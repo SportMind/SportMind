@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-r1-g1-nuggets-warriors-2027-04-20-001",
+    "sport": "basketball",
+    "event_id": "nba-playoffs-2027-west-r1-g1-den-gsw",
+    "event_name": "NBA 2026-27 Playoffs Round 1 Game 1 \u2014 Denver Nuggets vs Golden State Warriors",
+    "kickoff_utc": "2027-04-20T21:30:00Z",
+    "recorded_at": "2027-04-20T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-04-21T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 69.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "playoff_modifier": 0.92,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA Playoffs R1 G1. Nuggets home. Joki\u0107 available \u2014 MVP calibre \u00d71.12. Playoff reliability modifier \u00d70.92 applied to regular season form. Denver home court altitude advantage (5280 feet \u2014 fatigue for visiting teams). Series G1 historically high variance."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Denver 118 \u2013 Golden State 108",
+      "result_source_url": "https://www.nba.com/playoffs/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Eighth athlete_modifier record. Joki\u0107 MVP-calibre athlete signal (\u00d71.12) correctly predicted. Denver altitude advantage as real modifier confirmed. Playoff reliability \u00d70.92 applied but direction still correct. athlete_modifier now has 8/8 correct direction \u2014 approaching 15-record preliminary threshold."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

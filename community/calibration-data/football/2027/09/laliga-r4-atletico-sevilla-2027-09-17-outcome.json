@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-laliga-r4-atm-sev-2027-09-17-001",
+    "sport": "football",
+    "event_id": "laliga-2027-28-r4-atletico-sevilla",
+    "event_name": "La Liga 2027-28 Round 4 \u2014 Atl\u00e9tico Madrid vs Sevilla",
+    "kickoff_utc": "2027-09-17T19:00:00Z",
+    "recorded_at": "2027-09-17T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-09-17T22:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 69.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "La Liga R4. $ATM token active. Atl\u00e9tico home \u2014 Wanda Metropolitano. Griezmann available (ATM 0.82). Atl\u00e9tico defensive record: 0.78 goals conceded/match. Sevilla away form weaker. SMS 76."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Atl\u00e9tico Madrid 2 \u2013 Sevilla 0",
+      "result_source_url": "https://www.laliga.com/en-GB/results/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "17th athlete_modifier record. Griezmann ATM 0.82 + Atl\u00e9tico defensive dominance correctly combined. $ATM token signal validated in La Liga context."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

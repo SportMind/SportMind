@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-conf-final-g7-2027-05-30-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-2027-east-conf-final-g7-bruins-leafs",
+    "event_name": "NHL 2026-27 Eastern Conference Final Game 7 \u2014 Boston Bruins vs Toronto Maple Leafs",
+    "kickoff_utc": "2027-05-30T19:00:00Z",
+    "recorded_at": "2027-05-30T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-05-31T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "adjusted_score": 67.4,
+      "confidence_tier": "MEDIUM",
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "g7_elimination_modifier": 1.12,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL Conference Final G7. Toronto away, but Canadian market peak engagement. Toronto morning skate: starter confirmed (GSAx +12.1 season). Toronto PP 27.3% vs Boston PP 25.8%. G7 \u00d7 1.12 both sides. Toronto 50-year drought narrative maximally active."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Boston 2 \u2013 Toronto 3 (OT)",
+      "result_source_url": "https://www.nhl.com/playoffs/2027",
+      "notes": "Maple Leafs advance to Stanley Cup Final \u2014 first time since 1967"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "canadian_market_drought_narrative",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "LANDMARK: Maple Leafs advance to Cup Final for first time in 60 years. Canadian market drought narrative \u00d71.25 validated at maximum intensity. GSAx +12.1 starter confirmed. PP advantage (27.3 vs 25.8) correctly predicted as decisive in close G7. This is the highest CDI NHL event possible \u2014 expect massive token engagement if Leafs win the Cup."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

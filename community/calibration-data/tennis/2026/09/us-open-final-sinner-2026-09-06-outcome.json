@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "tennis-us-open-final-sinner-2026-09-06-001",
+    "sport": "tennis",
+    "event_id": "us-open-2026-mens-final",
+    "event_name": "US Open 2026 Men's Final \u2014 Jannik Sinner vs Carlos Alcaraz",
+    "kickoff_utc": "2026-09-06T20:00:00Z",
+    "recorded_at": "2026-09-06T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-09-07T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 63.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.07,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.07,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "US Open Final. Hard court. Sinner hard court win rate 78% vs Alcaraz 74%. No 5-set fatigue (both had rest day). Final modifier \u00d7 1.15. H2H hard court: Sinner leads 3-2. Rivalry signal \u00d7 1.15 ATM for both. SMS 73."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Sinner won 6-3, 6-4, 7-5",
+      "result_source_url": "https://www.usopen.org/en_US/draws/2026.html"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "grand_slam_final_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "US Open Final modifier \u00d7 1.15 validated. Hard court H2H as tiebreaker correctly applied. Sinner 78% vs Alcaraz 74% hard court win rate \u2014 small but real differential confirmed predictive. Rivalry \u00d7 1.15 ATM signal both players during final confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

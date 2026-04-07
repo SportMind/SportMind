@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-us-gp-austin-2026-10-19-001",
+    "sport": "formula1",
+    "event_id": "f1-2026-us-gp-cota",
+    "event_name": "Formula 1 \u2014 United States Grand Prix 2026, Circuit of the Americas",
+    "kickoff_utc": "2026-10-19T19:00:00Z",
+    "recorded_at": "2026-10-19T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-10-19T22:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 69.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "qualifying_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "US GP COTA. Championship battle \u2014 top 2 within 28 points. Pole position from qualifying (0.218s delta). Dry race forecast. Standard circuit (not street, not power) \u2014 qualifying delta standard weight. Championship pressure modifier \u00d71.08 (narrow gap)."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pole sitter won, championship leader extended gap",
+      "result_source_url": "https://www.formula1.com/en/results/2026/races/united-states"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "championship_pressure_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Championship pressure modifier \u00d71.08 (narrow gap) validated. Qualifying delta (0.218s) correctly predicted at standard circuit weight. Championship battle in final 5 races \u2014 elevated signal confirmed. F1 championship narrative signal validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

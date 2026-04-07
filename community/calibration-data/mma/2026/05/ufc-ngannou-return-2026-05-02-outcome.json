@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-ngannou-return-2026-05-02-001",
+    "sport": "mma",
+    "event_id": "ufc-fn-ngannou-return-2026-05",
+    "event_name": "UFC \u2014 Francis Ngannou Heavyweight Return (Post-injury comeback)",
+    "kickoff_utc": "2026-05-02T22:00:00Z",
+    "recorded_at": "2026-05-02T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-05-03T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 58.0,
+      "adjusted_score": 46.4,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.8,
+      "sportmind_score": 61,
+      "modifiers_applied": {
+        "injury_return_modifier": 0.8,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "injury_warning"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Ngannou first fight after major injury. Injury return modifier \u00d7 0.80 applied. Clean weigh-in (critical \u2014 checked first). Direction AWAY (opponent favoured due to Ngannou uncertainty). Low SMS 61 reflects genuine return uncertainty."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Opponent won by decision",
+      "result_source_url": "https://www.ufc.com/event/2026-05"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "injury_return_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "Injury return modifier \u00d7 0.80 validated. First fight back from major injury = opponent favoured confirmed. Clean weigh-in protocol checked first \u2014 correct. Low confidence (61) correctly reflected genuine uncertainty about ring rust and fitness."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

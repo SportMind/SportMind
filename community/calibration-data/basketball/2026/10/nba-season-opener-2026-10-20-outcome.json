@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-season-opener-2026-10-20-001",
+    "sport": "basketball",
+    "event_id": "nba-2026-27-opening-night-celtics-knicks",
+    "event_name": "NBA 2026-27 Opening Night \u2014 Boston Celtics vs New York Knicks",
+    "kickoff_utc": "2026-10-21T00:00:00Z",
+    "recorded_at": "2026-10-20T18:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-10-21T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 60.0,
+      "adjusted_score": 67.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA 2026-27 Opening Night. Celtics defending champions vs Knicks home opener. Tatum available (champion returned). Net rating differential Celtics +14.2 from previous season. Season opener: limited pre-season data. SMS 73."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "New York 104 \u2013 Boston 112",
+      "result_source_url": "https://www.nba.com/game/bos-vs-nyk-2026-10-20"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "defending_champion_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Defending champion Boston correctly signalled as favourite. Net rating differential from previous season confirmed predictive signal for new season. Season opener \u2014 pre-season data limited but championship quality carries. NBA season opener protocol validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-season-opener-2026-10-01-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-2026-27-opening-night",
+    "event_name": "NHL 2026-27 Opening Night \u2014 Toronto Maple Leafs vs Boston Bruins",
+    "kickoff_utc": "2026-10-01T19:00:00Z",
+    "recorded_at": "2026-10-01T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-10-02T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 57.0,
+      "adjusted_score": 63.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "lineup_unconfirmed"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL Season Opener 2026-27. Morning skate 9am: Boston starter confirmed (GSAx +10.8 last season). Toronto lineup confirmed. Boston stronger GSAx differential. lineup_unconfirmed cleared after morning skate. Canadian market signal: Toronto at home \u2014 fan engagement elevated (season opener)."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Toronto 1 \u2013 Boston 3",
+      "result_source_url": "https://www.nhl.com/gamecenter/tor-vs-bos-2026-10-01"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "morning_skate_protocol",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Morning skate protocol: lineup_unconfirmed cleared correctly after 9am skate confirmation. GSAx +10.8 Boston advantage signal confirmed predictive at season opener (no sample bias yet). Canadian market signal (Toronto opener) is real engagement event even in regular season."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

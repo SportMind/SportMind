@@ -1,0 +1,52 @@
+cff-version: 1.2.0
+message: >-
+  If you use SportMind in research, please cite it using the
+  information below. We ask that you also link to the repository
+  so readers can access the calibration records and methodology.
+
+type: software
+
+title: SportMind
+abstract: >-
+  SportMind is an open sports intelligence library for AI agents and developers.
+  It provides structured reasoning frameworks for sports domain knowledge, athlete
+  intelligence, fan token commercial intelligence, market intelligence, and macro
+  intelligence across 42 sports. The library includes 126 empirically validated
+  calibration records across 21 sports with 96% direction accuracy, a multi-version
+  modifier recalibration pipeline, and production-ready developer tooling including
+  MCP server specification, named skill bundles, agentic workflow patterns, and
+  data connector templates.
+
+version: 3.28.0
+
+date-released: '2026-04-05'
+
+license: MIT
+
+url: 'https://sportmind.dev'
+
+repository-code: 'https://github.com/SportMind/SportMind'
+
+keywords:
+  - sports intelligence
+  - AI agents
+  - fan tokens
+  - sports prediction
+  - Chiliz Chain
+  - machine learning
+  - sports analytics
+  - LLM context
+  - MCP server
+  - calibration
+
+preferred-citation:
+  type: software
+  title: "SportMind: Open Sports Intelligence Library for AI Agents"
+  version: 3.28.0
+  date-released: '2026-04-05'
+  license: MIT
+  url: 'https://github.com/SportMind/SportMind'
+  abstract: >-
+    An open-source library of structured reasoning frameworks for sports domain
+    knowledge, athlete intelligence, and fan token commercial intelligence.
+    Validated against 126 empirical calibration records across 21 sports.

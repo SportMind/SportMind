@@ -1,0 +1,59 @@
+{
+  "outcome_record": {
+    "record_id": "ucl-final-2023-06-10-seed-001",
+    "sport": "football",
+    "event_id": "ucl-final-2023-06-10",
+    "event_name": "UEFA Champions League Final 2023 \u2014 Manchester City vs Inter Milan",
+    "kickoff_utc": "2023-06-10T19:00:00Z",
+    "recorded_at": "2023-06-10T17:00:00Z",
+    "source": "seed record \u2014 derived from examples/worked-scenarios/scenario-ucl-final-2023.md",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 68.0,
+      "adjusted_score": 72.4,
+      "confidence_tier": "HIGH",
+      "composite_modifier": 1.064,
+      "sportmind_score": 89.0,
+      "modifiers_applied": {
+        "athlete_modifier": 1.12,
+        "narrative_modifier": 1.08,
+        "macro_modifier": 1.0,
+        "congestion_modifier": 1.0
+      },
+      "flags_active": [
+        "narrative_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "skill_contributor": "sportmind-core"
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "score": "1-0",
+      "direction_correct": true,
+      "token_symbol": "CITY",
+      "token_24h_change_pct": 14.2,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2036278--manchester-city-vs-inter-milan/"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "narrative_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Treble narrative (+8%) applied. City won 1-0 confirming favourite signal. Token rose 14.2% post-match confirming positive direction. Narrative modifier validated."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

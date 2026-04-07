@@ -1,0 +1,57 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-qf-psg-arsenal-2026-04-08-001",
+    "sport": "football",
+    "event_id": "ucl-qf-leg1-psg-arsenal-2026-04-08",
+    "event_name": "UCL Quarter-Final Leg 1 \u2014 PSG vs Arsenal",
+    "kickoff_utc": "2026-04-08T20:00:00Z",
+    "recorded_at": "2026-04-08T18:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-09T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 65.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 0.97,
+      "sportmind_score": 78,
+      "modifiers_applied": {
+        "athlete_modifier": 0.97,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "lineup_unconfirmed"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL QF Tier 1 event. PSG home. Lineup unconfirmed at analysis time (T-3h). Arsenal away form strong. Two-legged tie \u2014 first leg context: PSG will manage risk. Applied x0.97 athlete modifier for Arsenal pressing system threat."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": false,
+      "final_score": "PSG 1 \u2013 Arsenal 1",
+      "token_symbol": "PSG",
+      "token_24h_change_pct": -1.8,
+      "token_direction_correct": false,
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "competition_tier_weight",
+      "modifier_direction_correct": false,
+      "modifier_magnitude_error": 0.15,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION. Draw outcome. Two-legged tie dynamics not fully captured: PSG managed the game for a draw rather than pressing for win. Learning: for UCL QF Leg 1 involving top-two sided teams, apply draw probability premium \u2014 first leg risk management is systematic. PSG token -1.8% reflects mild disappointment vs home expectations. Wrong predictions are valuable calibration data."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

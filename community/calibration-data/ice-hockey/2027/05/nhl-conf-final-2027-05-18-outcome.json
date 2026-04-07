@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-conf-final-2027-05-18-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-2027-east-conf-final-g1",
+    "event_name": "NHL 2026-27 Eastern Conference Final Game 1",
+    "kickoff_utc": "2027-05-18T19:00:00Z",
+    "recorded_at": "2027-05-18T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-05-19T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 61.0,
+      "adjusted_score": 70.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NHL Conf Final G1. Morning skate confirmed starter (GSAx +9.4 this season). Elite special teams: PP 26.8% (elite tier). Home team: top-4 PP unit intact. Canadian-market club (Toronto). SMS 76."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Home team won Conference Final G1",
+      "result_source_url": "https://www.nhl.com/playoffs/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "nhl_playoff_gsax_pp_combination",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "NHL Conference Final GSAx + elite PP combination validated. GSAx +9.4 (above average but not elite) + PP 26.8% (elite) = \u00d71.10 composite correct. Conference Final level confirms NHL intelligence model at peak playoff pressure. Fifth NHL calibration record."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-sprint-austria-2027-06-28-001",
+    "sport": "formula1",
+    "event_id": "f1-2027-austrian-gp-sprint",
+    "event_name": "Formula 1 \u2014 Austrian GP Sprint Race 2027",
+    "kickoff_utc": "2027-06-28T11:00:00Z",
+    "recorded_at": "2027-06-28T09:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-06-28T13:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "adjusted_score": 64.0,
+      "confidence_tier": "MEDIUM",
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "sprint_race_modifier": 0.4,
+        "qualifying_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "F1 Sprint Race (Saturday). Sprint signal weight \u00d7 0.40 (40% of Sunday weight). Sprint qualifying result: pole. Tier 1 constructor. Sprint race: 18 laps \u2014 position management more important than pace. SMS 72."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Sprint winner: pole sitter won from lights to flag",
+      "result_source_url": "https://www.formula1.com/en/results/2027/races/austrian/sprint"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "sprint_race_signal_weight",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Sprint race \u00d7 0.40 weight validated. Pole sitter won sprint. Sprint race is less variable than full GP \u2014 qualifying position more decisive in 18 laps. First F1 Sprint calibration record validates the 40% weight applied in the F1 intelligence model."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

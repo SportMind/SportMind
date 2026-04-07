@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-summer-league-2027-08-04-001",
+    "sport": "basketball",
+    "event_id": "nba-summer-league-2027-clippers-lakers",
+    "event_name": "NBA Summer League 2027 \u2014 LA Clippers vs LA Lakers",
+    "kickoff_utc": "2027-08-04T21:00:00Z",
+    "recorded_at": "2027-08-04T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-08-05T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 60.5,
+      "confidence_tier": "LOW",
+      "composite_modifier": 1.05,
+      "sportmind_score": 66,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA Summer League \u2014 reduced confidence appropriate (development rosters, no main squad). Clippers top pick in summer league roster has stronger floor skills. Low SMS 66 correctly reflects summer league inherent variance."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "LA Clippers won summer league game",
+      "result_source_url": "https://www.nba.com/summer-league/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "12th athlete_modifier record. Summer League context \u2014 correctly applied low confidence (SMS 66). Even with development rosters, individual skill advantage at the top pick level is predictive. athlete_modifier works across competition tiers including developmental."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

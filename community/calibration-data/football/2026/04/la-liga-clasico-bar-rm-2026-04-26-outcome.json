@@ -1,0 +1,57 @@
+{
+  "outcome_record": {
+    "record_id": "football-laliga-clasico-bar-rm-2026-04-26-001",
+    "sport": "football",
+    "event_id": "la-liga-r33-barcelona-real-madrid-2026-04-26",
+    "event_name": "La Liga Round 33 \u2014 El Cl\u00e1sico: Barcelona vs Real Madrid",
+    "kickoff_utc": "2026-04-26T19:00:00Z",
+    "recorded_at": "2026-04-26T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-26T23:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 55.8,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.96,
+      "sportmind_score": 66,
+      "modifiers_applied": {
+        "athlete_modifier": 0.96,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "derby_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "El Cl\u00e1sico La Liga R33. DERBY ACTIVE: 50% form compression applied. Both tokens active ($BAR, $RM). SMS 66 \u2014 low confidence correctly reflects derby unpredictability. Title implications: Barcelona 2pts ahead."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": false,
+      "final_score": "Barcelona 2 \u2013 Real Madrid 2",
+      "token_symbol": "BAR",
+      "token_24h_change_pct": 2.1,
+      "token_direction_correct": null,
+      "result_source_url": "https://www.laliga.com/en-GB/results"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "derby_active",
+      "modifier_direction_correct": false,
+      "modifier_magnitude_error": 0.18,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION. El Cl\u00e1sico draw. LOW confidence (SMS 66) was correct reflection. Derby 50% form compression confirmed \u2014 draw is exactly the kind of outcome derby compression predicts becomes more likely. $BAR +2.1% on draw (positive for both clubs \u2014 fans engaged regardless). Second wrong-direction record; both involve high derby compression situations. Learning: present El Cl\u00e1sico as range not point estimate."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

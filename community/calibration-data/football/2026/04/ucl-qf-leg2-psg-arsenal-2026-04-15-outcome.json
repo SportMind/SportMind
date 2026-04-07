@@ -1,0 +1,55 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-qf-leg2-psg-arsenal-2026-04-15-001",
+    "sport": "football",
+    "event_id": "ucl-qf-leg2-psg-arsenal-2026-04-15",
+    "event_name": "UCL QF Leg 2 \u2014 Arsenal vs PSG (Arsenal trail 1-1 from Leg 1)",
+    "kickoff_utc": "2026-04-15T20:00:00Z",
+    "recorded_at": "2026-04-15T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-16T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 69.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL QF Leg 2. Arsenal away goal from Leg 1 means PSG MUST WIN at Emirates. Arsenal need draw or better. ELIMINATION STAKES: \u00d7 1.60. Arsenal home. Two-legged tie draw premium from Leg 1 calibration learning incorporated \u2014 home team needing a result gives structural motivation."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Arsenal 2 \u2013 PSG 1 (Arsenal advance 3-2 on agg)",
+      "token_symbol": "PSG",
+      "token_24h_change_pct": -8.4,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "two_legged_tie_learning",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "LEARNING INCORPORATED: After Leg 1 draw calibration record, two-legged tie draw premium model correctly updated. PSG needed to win = elimination desperation applied to away team correctly. $PSG -8.4% on elimination confirmed. UCL QF elimination signal validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

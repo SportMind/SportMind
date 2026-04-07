@@ -1,0 +1,54 @@
+{
+  "outcome_record": {
+    "record_id": "football-bundesliga-bvb-fcb-2026-04-05-001",
+    "sport": "football",
+    "event_id": "bundesliga-r28-bvb-fcb-2026-04-05",
+    "event_name": "Borussia Dortmund vs Bayern Munich \u2014 Bundesliga Round 28",
+    "kickoff_utc": "2026-04-05T17:30:00Z",
+    "recorded_at": "2026-04-05T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-05T22:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 57.0,
+      "adjusted_score": 61.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 0.96,
+      "sportmind_score": 70,
+      "modifiers_applied": {
+        "athlete_modifier": 0.96,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "derby_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "Der Klassiker Bundesliga. Derby form compression 40% applied. Bayern title challenge active \u2014 prize window modifier x1.20. BVB home but form discount applied. $CITY equivalent \u2014 no Bundesliga tokens active."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "BVB 1 \u2013 Bayern 3",
+      "result_source_url": "https://www.bundesliga.com/en/bundesliga/matchday/28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "derby_active",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.07,
+      "signal_was_actionable": true,
+      "notes": "Der Klassiker derby compression validated. 40% form discount correctly applied but stronger team still won. Prize window modifier (title race) confirmed elevated Bayern motivation signal. Bundesliga post-winter-break form reliability confirmed stable by Round 28."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

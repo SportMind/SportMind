@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-bundesliga-r11-bvb-wolfsburg-2027-11-06-001",
+    "sport": "football",
+    "event_id": "bundesliga-2027-28-r11-bvb-wolfsburg",
+    "event_name": "Bundesliga 2027-28 Round 11 \u2014 Borussia Dortmund vs VfL Wolfsburg",
+    "kickoff_utc": "2027-11-06T18:30:00Z",
+    "recorded_at": "2027-11-06T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-11-06T22:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 65.0,
+      "adjusted_score": 73.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 77,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "Bundesliga R11. $BVB token context. Dortmund vs Wolfsburg \u2014 non-derby standard match. BVB significantly stronger squad. Gelbe Wand atmosphere. BVB chasing Bayern at top. Wolfsburg mid-table. SMS 77."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Borussia Dortmund 3 \u2013 VfL Wolfsburg 0",
+      "result_source_url": "https://www.bundesliga.com/en/bundesliga/results/2027-28"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "23rd athlete_modifier record. Non-derby standard Bundesliga match. Clear quality differential (BVB vs mid-table) correctly predicted. $BVB token context: home win + Gelbe Wand = positive commercial signal. Bundesliga standard match athlete_modifier validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

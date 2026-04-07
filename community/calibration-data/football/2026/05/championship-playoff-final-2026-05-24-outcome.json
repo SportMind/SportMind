@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-championship-playoff-final-2026-05-24-001",
+    "sport": "football",
+    "event_id": "championship-playoff-final-2026",
+    "event_name": "EFL Championship Playoff Final \u2014 Wembley Stadium",
+    "kickoff_utc": "2026-05-24T15:00:00Z",
+    "recorded_at": "2026-05-24T12:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-05-25T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 64.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "promotion_stakes_modifier": 1.6,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Championship Playoff Final. 'Most valuable game in football' (~\u00a3200M promotion value). PROMOTION STAKES modifier \u00d7 1.60. Wembley neutral venue. Winner goes to Premier League. Maximum motivation for both clubs."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Predicted winner won 2-1",
+      "result_source_url": "https://www.efl.com/news/2026/championship-playoff-final"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "promotion_stakes_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Championship Playoff Final promotion stakes \u00d7 1.60 validated. 'Most valuable game in football' signal confirmed at \u00a3200M. Promotion stakes modifier captures the unique pressure of this match. First Championship Playoff Final calibration record in library."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

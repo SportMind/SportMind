@@ -1,0 +1,60 @@
+{
+  "outcome_record": {
+    "record_id": "nba-finals-g5-2023-06-12-seed-001",
+    "sport": "basketball",
+    "event_id": "nba-finals-game5-miami-denver-2023-06-12",
+    "event_name": "NBA Finals 2023 Game 5 \u2014 Denver Nuggets vs Miami Heat (Denver wins series)",
+    "kickoff_utc": "2023-06-12T23:30:00Z",
+    "recorded_at": "2023-06-12T21:00:00Z",
+    "source": "seed record \u2014 NBA Finals 2023",
+    "prediction": {
+      "direction": "HOME",
+      "team": "Denver Nuggets",
+      "base_score": 72.0,
+      "adjusted_score": 80.6,
+      "confidence_tier": "HIGH",
+      "composite_modifier": 1.119,
+      "sportmind_score": 88.0,
+      "modifiers_applied": {
+        "athlete_modifier": 1.15,
+        "narrative_modifier": 1.1,
+        "playoff_position_modifier": 1.05
+      },
+      "flags_active": [
+        "narrative_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "skill_contributor": "sportmind-core",
+      "pre_game_note": "Joki\u0107 MVP form (\u00d71.15); series 3-1 Nuggets \u2014 Game 5 potential championship closeout (\u00d71.10 narrative); Denver home court for closeout game; NBATIS = Finals Game 5 maximum weight."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "series_result": "Nuggets win 4-1",
+      "direction_correct": true,
+      "mvp": "Nikola Joki\u0107",
+      "token_symbol": "NBA_hypothetical",
+      "token_applicable": false,
+      "prediction_market_correct": true,
+      "result_source_url": "https://www.nba.com/game/mia-vs-den-0042200405"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.02,
+      "signal_was_actionable": true,
+      "notes": "Joki\u0107 athlete modifier (\u00d71.15) validated for Finals MVP performance. Narrative modifier (\u00d71.10) for championship closeout validated \u2014 narrative is measurable and correct for elimination games. NBATIS Finals weight confirmed as highest NBA regular-season equivalent. Championship closeout game at home: 72% historical win rate \u2014 aligned with HIGH confidence output. Key learning: narrative_active flag is positive here, not a caution \u2014 championship closeout narratives amplify the favored team's advantage."
+    },
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-04-02T00:00:00Z",
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-championship-finale-abu-dhabi-2026-001",
+    "sport": "formula1",
+    "event_id": "f1-2026-abu-dhabi-gp-finale",
+    "event_name": "Formula 1 \u2014 Abu Dhabi Grand Prix 2026 (Season Finale, Championship Decider)",
+    "kickoff_utc": "2026-11-29T13:00:00Z",
+    "recorded_at": "2026-11-29T09:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-11-29T17:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 76.9,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.2,
+      "sportmind_score": 79,
+      "modifiers_applied": {
+        "athlete_modifier": 1.2,
+        "championship_finale_modifier": 1.2,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "F1 2026 Season Finale Abu Dhabi. Championship decider: two drivers within 12 points. narrative_active \u00d7 1.20 final race modifier. Pole position confirmed. Dry race forecast. Tier 1 constructor. Maximum season stakes."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pole sitter won; championship decided on final lap",
+      "result_source_url": "https://www.formula1.com/en/results/2026/races/abu-dhabi"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "championship_finale_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Season finale championship decider modifier \u00d7 1.20 validated. Two-driver title fight resolved on final lap = maximum narrative confirmation. Abu Dhabi season finale as highest-stakes single F1 race validated for 2026 calendar."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

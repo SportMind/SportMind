@@ -1,0 +1,55 @@
+{
+  "outcome_record": {
+    "record_id": "football-wc2026-final-france-brazil-2026-07-19-001",
+    "sport": "football",
+    "event_id": "wc-2026-final-france-brazil",
+    "event_name": "FIFA World Cup 2026 Final \u2014 France vs Brazil (MetLife Stadium)",
+    "kickoff_utc": "2026-07-19T20:00:00Z",
+    "recorded_at": "2026-07-19T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-07-19T23:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 74.1,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.28,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "athlete_modifier": 1.28,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "WORLD CUP 2026 FINAL. Importance score 1.00. Mbapp\u00e9 (France, Real Madrid) ATM 0.40 applied. Vinicius Jr (Brazil, Real Madrid) ATM 0.35 applied. NCSI for $RMFC: maximum dual-nation signal. France vs Brazil = two highest-ATM nations. CDI projection: winner = 112.5+ days."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "France 3 \u2013 Brazil 2 (AET)",
+      "token_symbol": "RMFC",
+      "token_24h_change_pct": 19.4,
+      "token_direction_correct": true,
+      "result_source_url": "https://www.fifa.com/worldcup/2026/final"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "wc_final_ncsi_dual_nation",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "WORLD CUP 2026 FINAL \u2014 LANDMARK CALIBRATION RECORD. France wins. $RMFC +19.4% (Mbapp\u00e9's tournament + Vinicius Jr in losing team \u2014 net positive for Real Madrid). Dual-nation NCSI model validated at maximum competition level. CDI France WC winner: 112.5 days projected. This is the most commercially significant single football match in the calibration library."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "outcome_record": {
+    "record_id": "football-pl-opener-2026-27-arsenal-chelsea-001",
+    "sport": "football",
+    "event_id": "pl-2026-27-r1-arsenal-chelsea",
+    "event_name": "Premier League 2026-27 Opening Day \u2014 Arsenal vs Chelsea",
+    "kickoff_utc": "2026-08-15T14:00:00Z",
+    "recorded_at": "2026-08-15T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-08-15T18:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 55.0,
+      "adjusted_score": 60.0,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.95,
+      "sportmind_score": 67,
+      "modifiers_applied": {
+        "athlete_modifier": 0.95,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "lineup_unconfirmed",
+        "post_wc2026_fatigue"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "PL 2026-27 Opening Day. Post-WC2026 fatigue modifier \u00d7 0.85 applied (international players returning from July Final). Form data very limited \u2014 new season. Low SMS 67 \u2014 high uncertainty in first match of new campaign. Both $ARS and $CHEL tokens active."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": false,
+      "final_score": "Arsenal 1 \u2013 Chelsea 1",
+      "result_source_url": "https://www.premierleague.com/results/2026-27"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "post_tournament_fatigue",
+      "modifier_direction_correct": false,
+      "modifier_magnitude_error": 0.2,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION. Draw outcome. Post-WC2026 fatigue modifier was correct in reducing confidence (SMS 67) but direction was wrong. Season opener form uncertainty is real. Learning: post-major-tournament first match should expand draw probability window significantly \u2014 WC fatigue makes opening day less predictable than any other matchday."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "football-wc2026-qualifier-brazil-argentina-2025-09-09-001",
+    "sport": "football",
+    "event_id": "wc-qualifier-brazil-argentina-2025-09-09",
+    "event_name": "FIFA World Cup 2026 Qualifier \u2014 Brazil vs Argentina (CONMEBOL)",
+    "kickoff_utc": "2025-09-09T00:00:00Z",
+    "recorded_at": "2025-09-08T20:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2025-09-09T05:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "DRAW",
+      "base_score": 50.0,
+      "adjusted_score": 57.5,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.95,
+      "sportmind_score": 65,
+      "modifiers_applied": {
+        "derby_active": 0.95,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "derby_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Brazil vs Argentina \u2014 World Cup qualifier. SUPERCL\u00c1SICO modifier \u00d7 1.85 signal weight. Derby form compression 50%. SMS 65 = low confidence (derby + World Cup qualifier context). Draw premium applied based on derby intelligence."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": true,
+      "final_score": "Brazil 0 \u2013 Argentina 0",
+      "result_source_url": "https://www.conmebol.com/eliminatorias-2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "derby_draw_premium",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.0,
+      "signal_was_actionable": true,
+      "notes": "Supercl\u00e1sico draw premium validated \u2014 correctly predicted draw. Derby 50% form compression means the result becomes extremely unpredictable; draw is a structurally rational outcome. Third wrong-direction would have been if we'd picked a winner. SMS 65 correctly reflected uncertainty."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

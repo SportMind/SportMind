@@ -1,0 +1,53 @@
+{
+  "outcome_record": {
+    "record_id": "cricket-t20wc2028-qual-pakistan-england-2027-10-22-001",
+    "sport": "cricket",
+    "event_id": "t20-wc2028-qualifier-pak-eng",
+    "event_name": "T20 WC 2028 Qualifier \u2014 Pakistan vs England",
+    "kickoff_utc": "2027-10-22T14:00:00Z",
+    "recorded_at": "2027-10-22T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-10-23T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 57.0,
+      "adjusted_score": 63.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.06,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.06,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "dew_risk_active"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "T20 WC 2028 Qualifier. Pakistan vs England \u2014 evening match, Dubai. $LAH token implications. Dew risk moderate (Dubai humidity 68%). England T20 form stronger this cycle. SMS 72."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Pakistan 152/8, England won by 4 wickets",
+      "result_source_url": "https://www.icc-cricket.com/t20-worldcup/2028/qualifier"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "20th athlete_modifier record. England T20 cycle form correctly identified as stronger predictor than Pakistan's home advantage in Dubai. Dew moderate \u2014 not enough to override form differential. 20th record = 40% of preliminary threshold."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

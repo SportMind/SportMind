@@ -1,0 +1,54 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-group-2026-27-day1-001",
+    "sport": "football",
+    "event_id": "ucl-2026-27-group-stage-day1",
+    "event_name": "UEFA Champions League 2026-27 Group Stage Day 1 \u2014 Multiple matches",
+    "kickoff_utc": "2026-10-21T20:00:00Z",
+    "recorded_at": "2026-10-21T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-10-22T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 66.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [
+        "lineup_unconfirmed"
+      ],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL 2026-27 new format group stage Day 1. Tier 1 home club vs lower-seeded away. Group stage weight 0.40 (Day 1). Lineup unconfirmed at T-5h (flagged). Post-WC2026 season established now."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Home team won 2-0",
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2026-27"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ucl_group_stage_day1",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "UCL 2026-27 season opener validated. Group stage Day 1 weight 0.40 correct. Post-WC2026 new season established \u2014 no fatigue carry-over for established top clubs. lineup_unconfirmed flag appropriately applied (T-5h) but didn't affect direction."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

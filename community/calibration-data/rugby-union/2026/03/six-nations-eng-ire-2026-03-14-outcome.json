@@ -1,0 +1,48 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-union-six-nations-eng-ire-2026-03-14-001",
+    "sport": "rugby-union",
+    "event_id": "six-nations-round5-england-ireland-2026-03-14",
+    "event_name": "England vs Ireland — Six Nations Round 5 (Grand Slam Decider)",
+    "kickoff_utc": "2026-03-14T15:00:00Z",
+    "recorded_at": "2026-03-14T12:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-14T20:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 54.0,
+      "adjusted_score": 62.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 0.97,
+      "sportmind_score": 71,
+      "modifiers_applied": {
+        "athlete_modifier": 0.97,
+        "macro_modifier": 1.00,
+        "narrative_modifier": 1.08
+      },
+      "flags_active": ["derby_active"],
+      "layers_loaded": [1, 2, 4, 5],
+      "pre_match_note": "Ireland Grand Slam attempt Round 5. England home but form discount applied (40%). Ireland kicker accuracy 84%. Narrative active (Grand Slam). NCSI 0.80 applied."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "England 17 – Ireland 28",
+      "token_symbol": null,
+      "result_source_url": "https://www.sixnationsrugby.com/match/england-v-ireland-2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "narrative_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "Grand Slam narrative modifier validated. Form discount (40%) for derby context was correct — England competitive but Ireland superior. NCSI Six Nations weight (0.80) confirmed appropriate."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

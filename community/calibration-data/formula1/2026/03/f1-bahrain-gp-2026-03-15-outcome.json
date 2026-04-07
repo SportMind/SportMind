@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-bahrain-gp-2026-03-15-001",
+    "sport": "formula1",
+    "event_id": "f1-2026-bahrain-gp",
+    "event_name": "Formula 1 \u2014 Bahrain Grand Prix 2026",
+    "kickoff_utc": "2026-03-15T15:00:00Z",
+    "recorded_at": "2026-03-15T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-15T18:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 64.0,
+      "adjusted_score": 71.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.06,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "athlete_modifier": 1.06,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Qualifying delta 0.312s to nearest competitor. Tier 1 constructor. Bahrain dry \u2014 no weather override. Qualifying delta primary predictive variable applied."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pole sitter won",
+      "result_source_url": "https://www.formula1.com/en/results/2026/races"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "qualifying_delta_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Qualifying delta as primary F1 predictor validated. 0.312s gap correctly predicted race win probability. Dry race \u2014 no weather override needed. Hardware tier model confirmed stable."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

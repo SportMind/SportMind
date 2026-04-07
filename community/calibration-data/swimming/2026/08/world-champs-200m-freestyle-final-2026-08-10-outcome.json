@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "swimming-world-champs-200m-free-2026-08-10-001",
+    "sport": "swimming",
+    "event_id": "world-aquatics-champs-2026-200m-free-final",
+    "event_name": "World Aquatics Championships 2026 \u2014 200m Freestyle Final",
+    "kickoff_utc": "2026-08-10T20:30:00Z",
+    "recorded_at": "2026-08-10T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-08-11T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 61.0,
+      "adjusted_score": 70.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.12,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "taper_modifier": 1.15,
+        "pb_proximity_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "World Aquatics Championships 200m Freestyle Final. Peak taper assumed (major championships). Season best within 0.6% of PB (very good form \u00d71.08). Primary event specialist. No multi-swim fatigue (semifinal yesterday). SMS 76."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "World champion retained title",
+      "result_source_url": "https://www.worldaquatics.com/competitions/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "taper_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "FIRST SWIMMING CALIBRATION RECORD. Peak taper assumption \u00d71.15 validated at World Championships. PB proximity \u00d71.08 confirmed predictive. Championship taper model validated \u2014 all athletes are tapered at Worlds, differentiation from PB proximity confirmed."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

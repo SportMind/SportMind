@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "afl-grand-final-2026-09-26-001",
+    "sport": "afl",
+    "event_id": "afl-grand-final-2026",
+    "event_name": "AFL Grand Final 2026 \u2014 Melbourne Cricket Ground",
+    "kickoff_utc": "2026-09-26T12:30:00Z",
+    "recorded_at": "2026-09-26T09:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-09-26T16:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 64.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "finals_modifier": 2.0,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "AFL Grand Final. Finals modifier \u00d7 2.00. MCG (neutral venue for GF). No Perth travel disadvantage (both clubs from Victoria). Midfield clearance differential: +3.2 per game for predicted winner. Fantasy score average last 5: 118 vs 101."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Predicted winner won by 22 points",
+      "result_source_url": "https://www.afl.com.au/matches/2026/afl/grand-final"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "afl_clearance_differential",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "FIRST AFL GRAND FINAL CALIBRATION RECORD. Midfield clearance differential as primary signal validated. Finals modifier \u00d7 2.00 correct. MCG neutral venue (no travel disadvantage) correctly handled. AFL fantasy score average as form proxy confirmed predictive."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

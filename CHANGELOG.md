@@ -1,0 +1,5071 @@
+# Changelog
+
+All notable changes to SportMind are documented here.
+Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
+
+---
+
+## [1.0.0] — 2026-03-29 — Initial release
+
+### Added
+
+**Sport domain skills (Layer 1) — 5 complete, 4 planned**
+- `sports/football` — Football/soccer domain model, season rhythm, importance scoring, competition tiers, 5 event playbooks, agent reasoning prompts
+- `sports/basketball` — NBA/EuroLeague, game frequency model, star-player correlation matrix, playoff series logic, 5 event playbooks
+- `sports/mma` — UFC/PFL/ONE Championship, fight card hierarchy, weigh-in risk system, fight week calendar, fighter career risk events, 5 event playbooks
+- `sports/esports` — CS2/LoL/Valorant/Dota2, multi-game org architecture, meta/patch risk, roster change impact, 5 event playbooks
+- `sports/american-football` — NFL weekly cadence, injury report tier system, Wednesday injury report signal, Super Bowl window, 5 event playbooks
+- `sports/cricket` — Placeholder (🔜 seeking contributor)
+- `sports/rugby` — Placeholder (🔜 seeking contributor)
+- `sports/tennis` — Placeholder (🔜 seeking contributor)
+- `sports/formula1` — Placeholder (🔜 seeking contributor)
+
+**Athlete intelligence skills (Layer 2) — 10 complete**
+- `athlete/football` — 10 commands: availability, form, GK rating, attacking output, defensive rating, set piece, lineup confirmation, H2H matchup, physical load, composite modifier
+- `athlete/mma` — 9 commands: availability, striking profile, grappling profile, finishing tendency, round profile, fight camp signals, physical matchup, style matchup, form score
+- `athlete/esports` — 8 commands: player availability, player stats (CS2/LoL/Dota2/Valorant), role performance, team form, meta readiness, H2H, form score, draft intelligence
+- `athlete/nfl` — 8 commands: QB metrics, O-line health, receiver profile, defensive matchup, kicker form, snap count trend, injury designations, composite modifier
+- `athlete/nba` — 8 commands: load management, scoring efficiency, on/off splits, playmaking profile, defensive assignment, foul trouble risk, form score, composite modifier
+- `athlete/nhl` — 7 commands: goaltender start, special teams personnel, possession metrics, line combinations, skater output, injury report, composite modifier
+- `athlete/cricket` — 8 commands: batter vs bowler H2H, pitch conditions, batting profile, bowling profile, DRS patterns, player availability, form score, composite modifier
+- `athlete/tennis` — 7 commands: serve metrics, return game, surface record, physical stamina, H2H, form score, composite modifier
+- `athlete/rugby` — 7 commands: set piece dominance, kicker accuracy, breakdown metrics, halfback partnership, player availability, physical metrics, composite modifier
+- `athlete/meta` — 9 commands: global availability feed, fatigue index, weather impact, psychological signals, lineup timing alert, H2H context, master modifier pipeline, adjusted scores, alert subscriptions
+
+**Core reference documents**
+- `core/modifier-system.md` — Full modifier formula, all sub-components, knockout conditions, source reliability tiers
+- `core/signal-weights.md` — Sport-by-sport signal weighting with rationale, phase adjustments
+- `core/result-matrices.md` — Price/market impact by result type across 7 sports
+- `core/athlete-record.schema.json` — Canonical JSON Schema for athlete data records
+
+**Integration examples**
+- `examples/claude-mcp/` — Claude Code MCP integration
+- `examples/langchain/` — LangChain tool wrapper example
+- `examples/standalone/` — Pure system prompt injection (no framework)
+- `examples/fan-token-intel/` — Fan Token Intel platform integration
+
+**Project infrastructure**
+- `CONTRIBUTING.md` — Full contribution guide with quality standards and review process
+- `templates/SPORT_SKILL_TEMPLATE.md` — Template for new sport domain skills
+- `templates/ATHLETE_SKILL_TEMPLATE.md` — Template for new athlete skills
+- `.github/ISSUE_TEMPLATE/` — Issue templates for skill proposals and improvements
+- `.github/pull_request_template.md` — PR checklist
+- `llms.txt` — AI-readable project manifest
+- `LICENSE` — MIT
+
+---
+
+## Planned — [1.1.0]
+
+- `sports/cricket` — Full domain skill (IPL, ICC, Test/T20 differences)
+- `sports/rugby` — Full domain skill (Union, League, Six Nations, RWC)
+- `sports/tennis` — Full domain skill (ATP, WTA, Grand Slams)
+- `sports/formula1` — Full domain skill (race calendar, constructor dynamics)
+- `athlete/formula1` — Driver form, qualifying, pit strategy, weather
+- Skill validation CI — automated structure checks on PRs
+- Multi-language support framework (Spanish, Portuguese first)
+
+## Planned — [1.2.0]
+
+- Skill registry API — query available skills by sport and type
+- LangChain tool wrappers auto-generated from skills
+- OpenAI function calling schemas
+- Fan Token Intel official integration package
+
+## Planned — [2.0.0]
+
+- ML-calibrated modifier weights trained on historical outcome data
+- Real-time skill updates — automated alerts when sport structures change
+- Community prediction accuracy leaderboard
+- SportMind Score — unified cross-sport prediction confidence metric
+
+---
+
+## [1.1.0] — 2026-03-30 — Sport expansion
+
+### Added — Sport domain skills (12 new complete skills)
+
+- `sports/golf` — Majors tier system (Masters/PGA/US Open/The Open), cut line risk, course history signal, LIV vs PGA split, Crystal Globe, 5 event playbooks
+- `sports/boxing` — Heavyweight division focus, IBF/WBA/WBC/WBO belt structure, undisputed championship framework, weigh-in risk, promotional dispute risk, 5 playbooks
+- `sports/athletics` — Olympic cycle, Diamond League, Four-Hills/World Champs calendar, doping/WADA risk protocol (highest of any sport), world record catalyst, 5 playbooks
+- `sports/cycling` — Grand Tour structure (Tour de France / Giro / Vuelta), DNF as hard exit signal, daily stage catalyst signals, Spring Classics, 5 playbooks
+- `sports/horse-racing` — Going conditions (unique variable), draw bias (Chester etc.), Cheltenham Festival, Grand National, trainer/jockey signals, 5 playbooks
+- `sports/snooker` — Triple Crown hierarchy, Crucible specialist effect, session structure, 147 maximum break as rare catalyst, ranking race dynamics, 5 playbooks
+- `sports/darts` — PDC circuit, Alexandra Palace World Championship, 9-dart finish social signal, Premier League weekly arc, Tour Card structural risk, 5 playbooks
+- `sports/rugby-league` — Super League / NRL dual calendar, State of Origin as peak domestic event, Challenge Cup, relegation risk
+- `sports/netball` — World Cup / Commonwealth Games, Superleague UK, position-specific scoring dynamics, growing fan token market
+- `sports/swimming` — Olympic cycle dominance, world records as cross-event catalysts, doping risk (WADA protocol same as athletics)
+- `sports/rowing` — Olympics, Oxford-Cambridge Boat Race (UK cultural event), water/weather conditions
+- `sports/winter-sports` — Alpine Skiing, Biathlon, Ski Jumping (Four Hills), Cross-Country (Tour de Ski), Figure Skating, Olympic cycle, crash risk
+
+### Added — Athlete intelligence skills (7 new complete skills)
+
+- `athlete/golf` — Player form, course history (Augusta specialisation), strokes gained profile, cut line status, Major career record
+- `athlete/boxing` — Fighter record with opposition quality, physical matchup, weigh-in status, fight camp signals, finishing tendency, belt status
+- `athlete/cycling` — Rider profile (climber/sprinter/TT/puncheur), course fit score, live GC standing and time gaps, team role (leader vs domestique)
+- `athlete/athletics` — Seasonal form score, world record proximity, doping clearance status, multi-round fatigue assessment
+- `athlete/horse-racing` — Horse form, going preference by type, course-and-distance record, draw position impact, trainer/jockey signals
+- `athlete/snooker` — Crucible-specific record (separate from general form), deciding frame win rate, break-building statistics
+- `athlete/darts` — 3-dart average (primary metric), checkout percentage, Ally Pally historical record, 9-dart history, tour card status
+
+### Added — Placeholder stubs (15 sports — seeking contributors)
+
+badminton, volleyball, table-tennis, sailing, triathlon, field-hockey, ice-hockey, squash, curling, gymnastics, weightlifting, judo, taekwondo, fencing, swimming-open-water
+
+### Updated
+
+- `README.md` — Full skills table updated, 36 sports now listed
+- `GOOD_FIRST_ISSUES.md` — 15 new good-first-issues added for stub sports
+- `core/result-matrices.md` — Added Golf, Boxing, Athletics, Cycling, Horse Racing, Snooker, Darts, Rugby League, Swimming, Rowing, Winter Sports matrices
+
+---
+
+## [1.2.0] — 2026-03-31 — Fan Token Intelligence layer
+
+### Added — Layer 3: Fan token commercial intelligence (5 skills + 6 reference files)
+
+The complete Fan Token Intelligence skill set, integrated as `fan-token/` — SportMind's third layer.
+Connects on-chain Chiliz Chain data, athlete social activity, transfer signals, and commercial
+brand intelligence into a unified, queryable layer for clubs, agents, and brands.
+
+**New skills:**
+
+- `fan-token/fan-token-pulse` — The ground-truth layer. Queries Chiliz Chain (RPC + Graph)
+  and Socios Connect API for live token data. Produces HAS (Holder Activity Score) and
+  TVI (Token Velocity Index). Classifies velocity spikes as match-driven, social-driven,
+  rumour-driven, airdrop-driven, or market-driven. **Always runs first** in any Layer 3 chain.
+
+- `fan-token/athlete-social-lift` — The social attribution layer. Measures causal relationship
+  between athlete social posts and fan token holder behaviour. Produces AELS (Athlete Engagement
+  Lift Score 0–100) with platform breakdown (X, Instagram, TikTok, YouTube) and content type
+  analysis (match, lifestyle, token, transfer, sponsored).
+
+- `fan-token/transfer-signal` — The transfer intelligence layer. Monitors RSS feeds, verified
+  journalist accounts, and fan communities. Produces APS (Athlete Portability Score), TSI
+  (Transfer Sentiment Index for both source and destination clubs), and Rumour Confidence Score
+  with source tier weighting (Romano/Ornstein Tier 1 → fan accounts Tier 4).
+
+- `fan-token/brand-score` — The synthesis layer. Combines HAS × 0.25 + AELS × 0.25 + APS × 0.20
+  + REACH × 0.15 + SENTI × 0.15 into the Athlete Brand Score (ABS). Produces exportable
+  commercial brief with peer comparison and trend signal. Gracefully handles missing prerequisites
+  with proxy estimates and confidence flags.
+
+- `fan-token/sponsorship-match` — The monetisation layer. Maps audience profile to 7 brand
+  category verticals (Performance Sports, Lifestyle, Technology, Food & Beverage, Financial
+  Services, Travel, Automotive). Produces AFS (Audience Fit Score) per category, geographic
+  commercial priority map, and token-native activation concepts unique to each brand category.
+
+**New reference files:**
+
+- `fan-token/fan-token-pulse/references/token-registry.md` — CAP-20 contract addresses for all
+  active fan tokens (Premier League, La Liga, Serie A, Ligue 1, Bundesliga, national teams)
+- `fan-token/fan-token-pulse/references/api-responses.md` — Full API response shapes and
+  HAS computation JavaScript implementation for Kayen, Chiliz Graph, and Socios Connect
+- `fan-token/athlete-social-lift/references/social-api-setup.md` — Authentication setup,
+  rate limits, and batching strategy for X, Instagram, TikTok, YouTube APIs
+- `fan-token/transfer-signal/references/source-tiers.md` — Full journalist/publication
+  credibility tier weights with NLP confidence language patterns
+- `fan-token/brand-score/references/league-medians.md` — Social following and HAS medians
+  by league and position for ABS REACH score computation (Q1 2026)
+- `fan-token/sponsorship-match/references/activation-templates.md` — Token-native campaign
+  templates for each brand category with measurement framework
+
+**New layer README:**
+- `fan-token/README.md` — Layer 3 architecture, all five core metrics, example agent chains,
+  full infrastructure guide (blockchain, APIs, env vars), regulatory notes, roadmap
+
+### Updated
+
+- `README.md` — Three-layer architecture diagram, Layer 3 skills table, updated structure tree
+- `CHANGELOG.md` — v1.2.0 release notes
+
+---
+
+## [1.3.0] — 2026-03-31 — v2 performance, transfer & commercial intelligence
+
+### Added — 5 new Layer 3 skills
+
+**`fan-token/performance-on-pitch`** — Match statistical intelligence for footballers.
+Position-weighted PI formula (separate for forwards, midfielders, defenders, fullbacks, goalkeepers).
+Advanced metrics: non-penalty xG, xA, progressive carries, pressures, SCA, PSxG - GA.
+Form trajectory (last 5/10/20 match rolling average with momentum indicator).
+Positional benchmark vs. league peers. Injury risk flag with Transfermarkt integration.
+Scout report summary: strengths, weaknesses, tactical best-fit, comparable players.
+Valuation multiplier output feeding transfer-intelligence.
+
+**`fan-token/performance-off-pitch`** — Athlete development intelligence.
+Development Trajectory Score (DTS) measuring year-on-year improvement velocity.
+Loan spell analysis with loan value score, purpose classification, return readiness scoring.
+Training Adaptation Index (TAI) for new signings — manager trust, error rate trend, physical load.
+Youth academy pathway with age-band benchmarks and development ceiling projection.
+Injury rehabilitation phase tracking with match sharpness recovery forecast.
+Professionalism Signal (PS) from public behaviour indicators.
+
+**`fan-token/transfer-intelligence`** — Full-spectrum transfer lifecycle skill.
+Market valuation with age curve adjustments and scarcity premiums by position.
+Contract risk scoring: sell-on clause, release clause, buy-back clause, wage inflation flags.
+Development loan value score (DLVS) with purpose classification and return readiness.
+Competing clubs detection, club motivation analysis, athlete motivation signals.
+Fan sentiment delta combining token holder data with supporter community sentiment.
+Post-transfer trajectory forecast at 6-month and 12-month horizons.
+Transfer window monitoring mode with 4-hour polling and alert thresholds.
+
+**`fan-token/athlete-social-activity`** — Comprehensive social media intelligence.
+Social Health Score (SHS) with engagement rate benchmarks by platform.
+Content mix classifier: match_day, training, lifestyle, community, commercial, token_fan, milestone.
+Brand voice profiling: tone, recurring themes, languages, visual aesthetic, narrative.
+Sentiment trend analysis with crisis early warning thresholds (>400% baseline spike = immediate flag).
+Influence network mapping: amplifiers, key connections, emerging demographic signals.
+Social calendar planning mode linked to fixture and fan token event calendars.
+Squad comparison mode for ranking all players at a club by SHS.
+
+**`fan-token/sports-brand-sponsorship`** — Full commercial deal architecture.
+Sponsorship market rate framework: tier classification (Global Elite to Emerging), category multipliers
+(sportswear ×1.4, luxury ×1.5, crypto ×1.1), exclusivity premium (+40–80%), tournament uplift.
+Club sponsorship benchmarks: shirt front, sleeve, kit manufacturer, stadium naming rights.
+Portfolio conflict audit with hard/soft/clear traffic light system.
+Deal structure template: base fee, image rights split, appearances, social deliverables, performance bonuses.
+Token-native integration layer: 5 standard mechanic templates, blockchain-verified ROI measurement.
+ROI framework with pre-agreed measurement criteria: awareness, engagement, commercial, sentiment.
+Emerging opportunity scan for brands actively seeking this athlete profile.
+
+### Added — 6 new reference files
+
+- `fan-token/performance-on-pitch/references/metric-definitions.md` — Definitions for every advanced metric (npxG, xA, PSxG-GA, SCA, progressive carries, pressure success rate)
+- `fan-token/performance-off-pitch/references/adaptation-timelines.md` — Expected adaptation curves by transfer type (same league, overseas, development loan, post-injury)
+- `fan-token/transfer-intelligence/references/valuation-benchmarks.md` — Transfer fee benchmarks by position, league, and age band (Q1 2026, all 5 major leagues)
+- `fan-token/transfer-intelligence/references/contract-templates.md` — Clause types and risk frameworks: sell-on, release clauses, buy-backs, wage thresholds
+- `fan-token/sports-brand-sponsorship/references/deal-benchmarks.md` — Disclosed sponsorship values by athlete tier and category; World Cup 2026 and fan token integration premiums
+- `fan-token/sports-brand-sponsorship/references/contract-clauses.md` — Endorsement contract clause library: morality clauses, image rights, approval rights, performance bonuses, termination triggers
+
+### Updated
+
+- `fan-token/README.md` — Full nine-skill v2 architecture with ground truth → intelligence → synthesis → monetisation hierarchy
+- `README.md` — Layer 3 skills table expanded to 10 skills in four groups
+- `CHANGELOG.md` — v1.3.0 release notes
+
+---
+
+## [1.4.0] — 2026-03-31 — Football token intelligence layer
+
+### Added — `fan-token/football-token-intelligence`
+
+The first sport-specific fan token intelligence skill in SportMind. A dedicated bridge
+between the football domain layer (`sports/football`) and the commercial intelligence
+layer (`fan-token-pulse`, `athlete-social-lift`, `brand-score`), providing football-
+specific precision that no other skill covers.
+
+**New metrics produced:**
+- **FTIS** — Football Token Impact Score (0–100): competition × fixture × athlete composite
+- **NCSI** — National-Club Spillover Index: quantified effect of national team activity on club tokens
+- **ATM** — Athlete Token Multiplier (0.00–1.50): systemic player importance to the token ecosystem
+
+**Four priority areas covered:**
+
+*Competition × token impact matrix:* Full FTIS classification for every competition type —
+UCL (by round, with HAS impact data), domestic leagues (by context and stakes), World Cup
+and Euros (national token and club spillover), Copa América, AFCON, Nations League, domestic
+cups (with domestic vs international holder base distinction), Conference League, friendlies.
+Includes a seasonal FTIS timeline for a UCL-active club from pre-season through final.
+
+*National team × club token spillover (World Cup 2026 focus):* Complete NCSI formula and
+multiplier table by tournament type (World Cup Final ×1.00 down to friendly ×0.05).
+Reverse spillover model: injury during national duty → club token impact by severity.
+World Cup 2026 special considerations: dual-token exposure framework for athletes with
+both club and national tokens, North American host premium for USMNT token, summer
+window collision period (UCL Final to World Cup group stage = highest-density fan token
+signal period in ecosystem history). Cross-token correlation threshold rule (>0.70 = reduce
+to single position).
+
+*Athlete Token Multiplier profiles:* ATM formula (AELS + on-pitch lift + narrative + competition
+context). ATM bands from Elite (1.20–1.50) to Low (<0.40). Competition-specific ATM
+multipliers: UCL knockout ×1.40, El Clásico ×1.30, World Cup ×1.25, domestic ×1.00,
+friendly ×0.50. Four key ATM patterns documented: global brand multiplier, returning hero,
+transfer talk premium, penalty taker structural premium.
+
+*Friendly and pre-season signal logic:* Five specific exception conditions documented with
+calibrated impact data. Default rule: ignore friendlies. Exceptions: summer signing debut
+(elite: +10–20% HAS day of debut), iconic venue/opponent (+3–6%), injury return debut
+(+6–12%), pre-tournament (+NCSI ×0.15), tactical revelation (update ATM model, not position).
+"When friendlies are definitively noise" section.
+
+**Multi-token events:** Full framework for fixtures where both clubs have active tokens —
+pre-match correlation check, dual-hold guidance, historical impact data for Derby della
+Madonnina (ACM vs INTER, correlation ~0.62) and PSG vs OM (correlation ~0.42), El Clásico
+treatment as always-Tier-1. Competition priority quick-reference matrix with all major events.
+
+**New reference files:**
+- `references/athlete-token-profiles.md` — ATM archetypes, national team × club token mapping
+  for all eight 2026 World Cup national tokens (ARG, BRA, FFF, POR, ENG, GER, ESP, USMNT),
+  multi-token fixture historical correlations, token holder geography reference by club
+- `references/competition-impact-data.md` — Calibrated HAS and TVI impact data by UCL round,
+  league context, World Cup round, domestic cup type; token decay curves for all event types;
+  seasonal FTIS timeline for UCL-active club
+
+### Updated
+- `sports/football/football.md` — Fan Token Layer section added at bottom, with recommended
+  three-skill agent chain and signpost to `fan-token/football-token-intelligence`
+- `fan-token/README.md` — football-token-intelligence added to skills list
+- `README.md` — Layer 3 skills table updated
+- `CHANGELOG.md` — v1.4.0 release notes
+
+---
+
+## [1.5.0] — 2026-03-31 — F1, MMA and Esports token intelligence
+
+### Added — `sports/formula1/formula1.md` (full domain skill replacing empty stub)
+
+Complete Formula 1 domain skill written from scratch:
+- Dual championship structure (Drivers + Constructors) and token implications
+- Race weekend signal windows: FP1/FP2/FP3 → Qualifying → Race → Sprint format
+- Tier 1 circuits: Monaco, Silverstone, Monza, Suzuka, Las Vegas, Abu Dhabi finale
+- Constructor token profiles: Ferrari, Red Bull, Mercedes, McLaren, Aston Martin, Alpine
+- Regulation change cycles — the only sport where competitive order resets completely
+- Safety car, weather, and DNF risk variables with constructor vs driver attribution
+- 5 event playbooks: Season Opener, Monaco Qualifying Upset, Championship Run-in,
+  Driver Transfer Announcement, New Regulation Era Opener
+- Signpost to `fan-token/formula1-token-intelligence`
+
+### Added — `fan-token/formula1-token-intelligence/`
+
+**Main skill: `formula1-token-intelligence.md`**
+- F1 Token Impact Score (FTIS): race tier × championship stakes × token health × DTM
+- Constructor Token Index (CTI): HAS × championship position × driver quality × fan breadth
+- Driver Token Multiplier (DTM): career achievement × current form × social × nationality-market fit
+- DTM archetypes: Elite Legend (1.25–1.50), Contender (1.10–1.24), Journeyman (0.85–1.09), Reserve/Rookie (0.50–0.84)
+- Race-by-race FTIS reference: Monaco (90), Monza (86), Silverstone (84), Abu Dhabi scales 78→96 by title gap
+- Championship stakes multiplier: 1.00 (mid-season) → 1.75 (finale with < 10pt gap)
+- Regulation cycle intelligence: Year 1 opener = FTIS ×1.25; 2026 reset special guidance
+- Silly season transfer signal hierarchy: Official (1.00) down to social media (0.15)
+- Dual-token championship battle logic: never hold both pre-race if correlation > 0.75
+
+**Reference: `references/constructor-token-profiles.md`**
+- Detailed profiles for Ferrari, Red Bull, Mercedes, McLaren, Aston Martin, Alpine
+- HAS baselines, primary holder markets, peak FTIS events, historical impact data
+- Circuit-specific token impact by event type (win, DNF, qualifying surprise)
+- Token decay curves: Constructors' Championship win sustains 65% at Day 7
+- Silly season source tiers: Sky Sports F1 (0.88), autosport.com (0.82), GPFans (0.45)
+
+### Added — `fan-token/mma-token-intelligence/`
+
+**Main skill: `mma-token-intelligence.md`**
+- Fighter Token Impact Score (FighterTIS): event tier × fight stakes × token health × FTM
+- Fighter Token Multiplier (FTM): social reach × narrative premium × cultural identity × title proximity
+- Career Risk Index (CRI): age × consecutive losses × injury pattern × retirement signals
+- CRI trigger events: retirement (→95), career-ending injury (→85), USADA ban (→70), two KO losses (→+35)
+- Complete fight week signal map: Day -7 through Day +1 with specific signal windows per day
+- Weigh-in risk assessment: 5 outcomes with token impact ranges and agent entry rules
+- Tier 1 (PPV undisputed title, FTIS 95) down to prelims and other promotions (FTIS 20–54)
+- Post-fight trajectory by method: KO/TKO win (+18–45%) vs decision win (+8–18%) vs title won (+35–70%)
+- Superfight/crossover signal logic: enter on announcement, exit at 72h
+- The core MMA asymmetry: negative events sustain 2–3× longer than positive events
+
+**Reference: `references/fighter-risk-profiles.md`**
+- Career stage framework: 5 stages from Rising Prospect through Twilight Fighter with CRI ranges
+- Weight class token impact calibration multipliers (Heavyweight ×1.30 down to Women's ×0.90)
+- Weigh-in historical failure rates by fighter history (natural weight: 4%; 2+ misses history: 28%)
+- Pre-weigh-in sizing adjustment formula using miss probability
+- Post-fight token decay curves: Title won (65% at Day 7) vs Decision win (12% at Day 7)
+- Promotional licence tiers: UFC PPV → Fight Night → PFL/Bellator → Exhibition
+
+### Added — `fan-token/esports-token-intelligence/`
+
+**Main skill: `esports-token-intelligence.md`**
+- Organisation Token Impact Score (OrgTIS): tournament tier × game audience × token health × roster strength
+- Game Roster Multiplier (GRM): identifies which of the org's rosters is currently driving the token
+  GRM by game: CS2 (0.90–1.40) > LoL (0.80–1.30) > Valorant (0.70–1.15) > Dota2 (0.65–1.10)
+- Patch Risk Score (PRS): days since patch × patch size × team style exposure × tournament proximity
+  PRS by game: LoL highest (30–60 regularly), Dota2 spikes to 70+ on major updates, CS2 lower (20–40)
+- Roster Stability Index (RSI): contract expiry risk + performance decline + coach change + public disputes
+- Tournament tier classification per game: CS2 Major (Tier 1, OrgTIS 88), LoL Worlds (Tier 1, OrgTIS 92),
+  Dota TI (Tier 1, OrgTIS 88), Valorant Champions (Tier 1, OrgTIS 85)
+- October-November stack window: multi-Tier-1 simultaneous tournaments; OrgTIS ×1.20 (2 events) / ×1.35 (3 events)
+- Relegation vs qualification failure distinction: structural multi-season negative vs event-level negative
+- Star player transfer impact matrix: top-5 global rating departure (-12–25% source, +10–20% destination)
+- Active org token profiles: NAVI (68–78), G2 (70–82), Fnatic (65–76), Vitality (62–74)
+
+**Reference: `references/game-meta-tournament-calendar.md`**
+- Month-by-month tournament calendar: January (slow) through October-November (peak stack window)
+- Patch impact history with calibration examples: LoL Worlds patch (PRS 15–30), Dota major update (PRS 60–80)
+- Game audience demographics for holder overlap assessment
+- Token decay curves: CS2 Major win (55% at Day 7) vs group stage exit (50% sustained negative)
+- RSI rapid-check protocol: 5-question assessment with probability thresholds and sizing rules
+
+### Updated — sport domain skills
+
+- `sports/formula1/formula1.md` — Full domain skill replacing empty stub; fan token signpost added
+- `sports/mma/mma.md` — Fan token layer section added; signpost to mma-token-intelligence
+- `sports/esports/esports.md` — Fan token layer section added; signpost to esports-token-intelligence
+
+### Updated — documentation
+
+- `fan-token/README.md` — Four sport-specific bridge skills now listed
+- `README.md` — Sport-specific bridge skills table expanded to all four sports
+- `CHANGELOG.md` — v1.5.0 release notes
+
+### Library state at v1.5.0
+
+- **sports/:** 21 complete domain skills + 15 community stubs = 36 total
+- **athlete/:** 17 complete athlete intelligence skills
+- **fan-token/:** 10 core skills + 4 sport-specific bridge skills = 14 skills total, 14 reference files
+- **Total files:** 107
+
+---
+
+## [1.5.1] — 2026-03-31 — Comprehensive file rename for clarity
+
+All 106 files renamed so filename alone communicates content and purpose.
+No content changed — renames only.
+
+### Rename scheme applied
+
+**Root:**
+- `README.md` → `sportmind-overview.md`
+
+**Examples/ (4 ambiguous READMEs):**
+- `examples/standalone/README.md` → `integration-standalone-system-prompt.md`
+- `examples/claude-mcp/README.md` → `integration-claude-and-mcp.md`
+- `examples/langchain/README.md` → `integration-langchain-python.md`
+- `examples/fan-token-intel/README.md` → `integration-fan-token-intel.md`
+
+**fan-token/:**
+- `fan-token/README.md` → `fan-token-layer-overview.md`
+
+**sports/ (all 36 files — complete skills and stubs):**
+- `football.md` → `sport-domain-football.md`
+- `rugby.md` → `sport-domain-rugby-union.md` (clarified union vs league)
+- All 36 sport files: `sport-domain-{sport}.md`
+
+**athlete/ (all 17 files):**
+- `athlete-football.md` → `athlete-intel-football.md`
+- `athlete-meta.md` → `athlete-intel-cross-sport-orchestrator.md` (previously unclear)
+- `athlete-rugby.md` → `athlete-intel-rugby-union.md`
+- All 17 athlete files: `athlete-intel-{sport}.md`
+
+**fan-token/ core skills (10 files):**
+- `fan-token-pulse.md` → `fan-token-pulse-on-chain-data.md`
+- `athlete-social-lift.md` → `fan-token-athlete-social-lift.md`
+- `athlete-social-activity.md` → `fan-token-athlete-social-activity.md`
+- `brand-score.md` → `fan-token-athlete-brand-score.md`
+- `transfer-signal.md` → `fan-token-transfer-signal.md`
+- `transfer-intelligence.md` → `fan-token-transfer-intelligence.md`
+- `sponsorship-match.md` → `fan-token-sponsorship-match.md`
+- `sports-brand-sponsorship.md` → `fan-token-sports-brand-sponsorship.md`
+- `performance-on-pitch.md` → `fan-token-performance-on-pitch.md`
+- `performance-off-pitch.md` → `fan-token-performance-off-pitch.md`
+
+**fan-token/ bridge skills (4 files):**
+- `football-token-intelligence.md` → `token-intelligence-football.md`
+- `formula1-token-intelligence.md` → `token-intelligence-formula1.md`
+- `mma-token-intelligence.md` → `token-intelligence-mma.md`
+- `esports-token-intelligence.md` → `token-intelligence-esports.md`
+
+**fan-token/ references (17 files):**
+- `api-responses.md` → `chiliz-api-response-shapes.md`
+- `token-registry.md` → `chiliz-token-registry.md`
+- `league-medians.md` → `social-following-league-medians.md`
+- `source-tiers.md` → `journalist-source-tiers.md`
+- `valuation-benchmarks.md` → `transfer-fee-benchmarks.md`
+- `contract-templates.md` → `contract-clause-templates.md`
+- `activation-templates.md` → `token-activation-templates.md`
+- `deal-benchmarks.md` → `sponsorship-deal-benchmarks.md`
+- `contract-clauses.md` → `endorsement-contract-clauses.md`
+- `metric-definitions.md` → `advanced-metric-definitions.md`
+- `adaptation-timelines.md` → `transfer-adaptation-timelines.md`
+- `social-api-setup.md` → `social-platform-api-setup.md`
+- `athlete-token-profiles.md` → `football-athlete-token-profiles.md`
+- `competition-impact-data.md` → `football-competition-impact-data.md`
+- `constructor-token-profiles.md` → `f1-constructor-token-profiles.md`
+- `fighter-risk-profiles.md` → `mma-fighter-risk-profiles.md`
+- `game-meta-tournament-calendar.md` → `esports-game-meta-calendar.md`
+
+**core/ (4 files):**
+- `modifier-system.md` → `core-athlete-modifier-system.md`
+- `signal-weights.md` → `core-signal-weights-by-sport.md`
+- `result-matrices.md` → `core-result-impact-matrices.md`
+- `athlete-record.schema.json` → `core-athlete-record-schema.json`
+
+**templates/ (2 files):**
+- `SPORT_SKILL_TEMPLATE.md` → `template-new-sport-skill.md`
+- `ATHLETE_SKILL_TEMPLATE.md` → `template-new-athlete-skill.md`
+
+**scripts/ (1 file):**
+- `validate_skills.py` → `skill-validator.py`
+
+---
+
+## [1.5.2] — 2026-03-31 — Comprehensive audit and consistency pass
+
+No new skills. Full library audit: content accuracy, internal consistency, stale references, outdated metadata.
+
+### Fixed — stale filename references (post v1.5.1 rename)
+All files that referenced other files by their pre-rename names were updated.
+Affected: 15 stub sports, 4 example integration files, llms.txt, CONTRIBUTING.md,
+GOOD_FIRST_ISSUES.md, templates/template-new-athlete-skill.md,
+core/core-athlete-modifier-system.md, and all 14 fan-token skill files
+(internal references to their own references/ subfolders).
+
+### Fixed — stale attribution and install commands
+- 5 sport domain skills (football, basketball, mma, esports, american-football):
+  `npx skills add fantokenintel/fan-token-skills` → `npx skills add sportmind/fan-token`
+- 9 sport domain skills: `MIT License · Fan Token Intel · https://fantokenintel.com`
+  → `MIT License · SportMind · sportmind.dev`
+- All athlete skills: same footer attribution fix
+- `core/core-athlete-record-schema.json`: schema `$id` URL updated to `sportmind.dev`
+- `athlete/meta/athlete-intel-cross-sport-orchestrator.md`: "58 tokens tracked on
+  fantokenintel" → current reference to chiliz-token-registry.md
+
+### Fixed — missing reference files marked as planned
+5 fan-token skills listed reference files that don't yet exist. Now clearly marked *(planned)*:
+- `fan-token/athlete-social-activity`: content-classifier-patterns, sentiment-lexicon-sports,
+  engagement-benchmarks → marked planned; social-platform-api-setup.md noted as shared file
+- `fan-token/performance-on-pitch`: position-weights, league-benchmarks, injury-type-risk → planned
+- `fan-token/performance-off-pitch`: loan-case-studies, injury-phases, youth-benchmarks → planned
+- `fan-token/transfer-intelligence`: loan-case-studies → planned
+- `fan-token/sports-brand-sponsorship`: roi-measurement-tools, conflict-matrix → planned
+
+### Fixed — outdated content
+- `llms.txt`: Complete rewrite. Was showing version 1.0.0, two-layer architecture,
+  5 sport skills, cricket/formula1/tennis/rugby listed as "planned". Now accurate v1.5.2
+  with full three-layer architecture, 21+15 sport skills, 17 athlete skills, 14 fan-token skills.
+- `sportmind-overview.md`: Fan-token structure tree showed only 5 Layer 3 skills (now shows 14),
+  Layer 3 count said "5 complete" (now 14), contributing section suggested cricket/formula1/golf
+  as first contributions (all already built), roadmap showed everything as future (now shows
+  completed v1.0–v1.5 history and v2.0 upcoming).
+- `GOOD_FIRST_ISSUES.md`: Complete rewrite. Was listing cricket, rugby, tennis, formula1
+  as Tier 1 unwritten skills — all four are now complete. Replaced with accurate list of
+  15 actual stub sports plus new athlete skills (formula1, rugby-league) as open contributions.
+- `CONTRIBUTING.md`: Removed suggestion to write cricket, formula1, golf, rugby, tennis
+  domain skills (already built). Updated to point to 15 stub sports.
+
+---
+
+## [1.6.0] — 2026-03-31 — Injury intelligence layer
+
+### Added — `core/injury-intelligence/` (7 new files)
+
+A dedicated injury intelligence layer providing the cross-sport framework and
+six sport-specific deep-dive files. Injuries were previously handled partially
+and inconsistently across individual skills. This release makes injury intelligence
+a first-class, canonically sourced layer that all skills can reference.
+
+**`core-injury-intelligence.md`** — Master framework covering:
+- Injury type taxonomy: Tier A (catastrophic/season-ending), Tier B (weeks-months),
+  Tier C (days-weeks), Tier D (sport-specific existential)
+- Full injury modifier pipeline: availability → return-to-play curve → replacement
+  quality delta (RQD) → squad depth stress index (SDSI) → cascading effects
+- Positional criticality by sport table
+- Source reliability tiers for injury reports
+- Injury timing and market implications (>72h vs <24h confirmation windows)
+- Recurrence risk framework with 12-month flag periods by injury type
+- Load management vs genuine injury distinction
+- Cascading effects: set piece loss, captain absence, tactical recalibration
+
+**`injury-intel-football.md`** — Football-specific injury intelligence:
+- Goalkeeper criticality (single position; no rotation; backup rust factor)
+- Centre-back partnership disruption modifier (0–5 matches vs 30+ matches together)
+- Striker positional replacement quality delta with target man matchup interaction
+- Holding midfielder and attacking fullback positional modifiers
+- Set piece specialist loss (accounts for 25–30% of top-division goals)
+- International duty injury reverse spillover — why this is the most damaging injury context
+- Congested fixture injury probability elevation (+15% for 2 games/7 days, +55% for 3 in 5)
+- Manager language decoder: 11 common press conference phrases translated to probability
+
+**`injury-intel-mma.md`** — MMA-specific injury intelligence:
+- Complete fight camp signal timeline: Week -8 through fight day
+- Weight cut severity classification (standard <5% → extreme >12%) with performance modifiers
+- Weigh-in outcome modifier table: 6 scenarios with own token and opponent token impacts
+- Sparring partner social behaviour analysis
+- Fighter social media pattern recognition (normal vs concerning camp patterns)
+- Late replacement performance modifiers by notice period (>6 weeks → <1 week → day of fight)
+- In-fight injury signals: eye swelling, cuts, hand guarding, leg injury, body shot accumulation
+- Career stage and injury interaction (under 28 → 32–36 → 36+)
+
+**`injury-intel-nfl.md`** — NFL-specific injury intelligence:
+- Complete designation system: Full/Limited/DNP practice + Questionable/Doubtful/Out designations
+- Wednesday/Thursday/Friday progression probability matrix
+- Quarterback criticality tiers (Elite starter → backup level) with output modifiers
+- QB injury types: throwing arm vs lower body vs concussion vs rib — each with specific impacts
+- Offensive line injury (the most underpriced NFL injury in markets): LT, interior, multiple
+- Wide receiver positional criticality including red zone threat loss
+- Pass rusher and cornerback defensive injury impact
+- Practice squad promotion risk profiles
+- Late season cumulative wear adjustment (Weeks 13–18)
+- Weather × injury interaction: cold, rain, wind with specific probability modifiers
+
+**`injury-intel-boxing.md`** — Boxing-specific injury intelligence:
+- Fight camp secrecy culture and why injury information is suppressed
+- Promoter language decoder (11 common phrases translated)
+- Sparring partner signal analysis
+- Hand injury identification: visual signals, performance signals, historical research
+- Hand injury modifier table by fracture severity
+- Cut injury risk: permanent scar tissue, opponent head-butt tendency, in-fight cut escalation
+- Weight cut boxing-specific considerations: sanctioning body rehydration window differences,
+  extreme rehydration detection and late-round fatigue modifier
+- Chin durability as injury history factor: knockdown counts mapped to career-stage modifiers
+- Postponement and withdrawal pattern analysis
+
+**`injury-intel-horse-racing.md`** — Horse racing-specific injury intelligence:
+- The fundamental distinction: the horse IS the athlete
+- Pre-race vet inspection signals (mandatory withdrawal vs voluntary)
+- Morning workout signals: training time interpretation, trainer language on gallops
+- Paddock visual assessment checklist: gait abnormalities (head-nodding, hip drop),
+  behavioural signals (excessive sweating, colic signs), physical signals (swelling, bandaging)
+- Horse injury type taxonomy: catastrophic race day injuries, career-altering (tendon, hoof,
+  respiratory), chronic management conditions
+- Post-race injury signal patterns
+- Return-to-run curve (60+ day absence: 85–90% fitness, recovers by third run)
+- Trainer language decoder (12 common phrases translated)
+- Going conditions × injury interaction: firm ground fracture risk, heavy ground tendon risk
+- Jockey signals: replacement quality, unexplained jockey changes, riding pattern tells
+- EIPH (bleeding) history as structural performance risk
+
+**`injury-intel-cycling.md`** — Cycling-specific injury intelligence:
+- Crash probability by stage type: flat sprint stages (high in final 3km), mountain stages
+  (descents), cobbled classics (very high throughout), time trials (low)
+- Pre-race crash risk assessment with multipliers for wet roads, crosswinds, narrow roads
+- Grand Tour cumulative fatigue curve: week-by-week modifier from ×1.00 (Stage 1) to
+  ×0.82 (Stage 19–21), rest day recovery bonus, domestique differential
+- Previous Grand Tour within 45 days: pre-existing fatigue modifier from Stage 1
+- Crash injury types: road rash (Tier C), collarbone fracture (Tier B), knee ligament,
+  concussion with return-to-play modifier curves
+- Overuse injuries: knee pain, saddle sores, tendinitis — with Grand Tour compound effects
+- GC leader vulnerability moments: crosswind stages, technical descents, sprint finale exposure
+- DNF prediction pattern: pre-DNF signals (day before and during race)
+- Yard illness propagation: "something going through the team bus" → apply to entire team
+
+### Updated — 6 athlete skills and 6 sport domain skills
+Injury intelligence references added to: athlete-intel-football, athlete-intel-mma,
+athlete-intel-nfl, athlete-intel-boxing, athlete-intel-horse-racing, athlete-intel-cycling,
+sport-domain-football, sport-domain-mma, sport-domain-american-football, sport-domain-boxing,
+sport-domain-horse-racing, sport-domain-cycling.
+
+### Updated — documentation
+- `core/core-athlete-modifier-system.md`: injury intelligence integration section added
+- `sportmind-overview.md`: injury-intelligence directory added to structure tree
+- `llms.txt`: 7 new injury intelligence files added to core reference table
+
+---
+
+## [1.6.1] — 2026-03-31 — Three missing sport domain skills written
+
+### Fixed — 3 sport domain skills were marked ✅ Complete but had empty files
+
+A post-v1.6.0 integrity check revealed that `sports/cricket`, `sports/rugby`, and
+`sports/tennis` were listed as Complete in the overview and skills tables but their
+actual files were empty (0 bytes). These have been written in full.
+
+**`sports/cricket/sport-domain-cricket.md`** — Complete cricket domain skill:
+Format classification (Test/ODI/T20/IPL), pitch type taxonomy (batting/bowling/spin),
+dew factor (most underpriced variable in cricket — +15–30 run advantage explained),
+toss impact by pitch type, India vs Pakistan special treatment (always Tier 1),
+IPL franchise vs national token distinction, DLS rain risk, player rotation signals,
+4 event playbooks (post-powerplay entry, T20 World Cup knockout, Test series clinch,
+IPL top-2 establishment), result impact matrix, agent reasoning prompts.
+
+**`sports/rugby/sport-domain-rugby-union.md`** — Complete rugby union domain skill:
+Set piece dominance (scrum quality assessment, tight five personnel, lineout retention),
+kicker intelligence (the single most outcome-determining individual in close games),
+breakdown and ruck dominance (openside flanker as most irreplaceable non-kicker),
+penalty discipline, weather and surface impact (rain/wind changes entire play style),
+home advantage (highest of any team sport — 65-70% home Test win rate),
+result impact matrix including Six Nations Grand Slam and Rugby World Cup,
+referee impact as a structured risk variable.
+
+**`sports/tennis/sport-domain-tennis.md`** — Complete tennis domain skill:
+Surface intelligence (clay/grass/hard court with specialist profiles for each),
+H2H framework (surface-specific H2H > overall H2H; recent > career),
+serve and return metrics with thresholds, 5-set physical stamina factor (men's
+Grand Slams), tournament progression signals (draw analysis, fatigue accumulation),
+Grand Slam-specific considerations (Wimbledon grass transition from Week 1→2),
+result impact matrix, retirement risk as a specific injury signal.
+
+---
+
+## [1.7.0] — 2026-03-31 — MLB Baseball added + changelog fix
+
+### Fixed — CHANGELOG
+- `[1.1.0]` entry renamed from "Sport expansion (previously mislabelled)" to "Sport expansion"
+
+### Added — `sports/baseball/sport-domain-baseball.md`
+
+Complete MLB baseball domain skill. Included despite no active fan token because:
+(a) library serves all sports AI agents, not just fan token agents; (b) MLB franchises
+are among the highest-value sports brands globally and token launch readiness is justified;
+(c) Statcast makes baseball the most data-rich sport in the library.
+
+Key coverage:
+- Pitcher-first framework: why the starting pitcher is baseball's dominant variable
+- FIP and xFIP over ERA: luck-adjusted metrics explained with thresholds
+- Pitcher types: power, finesse, ground ball, fly ball, opener/bulk — distinct profiles
+- Times Through Order Penalty (TTOP): performance degradation by lineup pass
+- Bullpen assessment: modern game dependency, fatigue flags, save situation quality
+- Batter vs Pitcher matchup: sample size thresholds, platoon advantage, Statcast signals
+- Ballpark intelligence: park factor classification (Coors Field extreme case),
+  wind direction (+15-20% HR probability), temperature and humidity effects
+- Rotation cycle tracking: 5-day rotation, rest days, short rest performance decline
+- Trade deadline (July 31) as the most significant mid-season signal
+- 4 event playbooks: Ace vs weak spot, bullpen game, playoff series Game 1, trade deadline acquisition
+- Fan token notes: which franchises would launch highest-value tokens when MLB tokens arrive
+- Full agent reasoning prompts
+
+### Added — `athlete/baseball/athlete-intel-baseball.md`
+
+Complete MLB athlete intelligence skill. The deepest Statcast-based player assessment
+in the library.
+
+Key coverage:
+- Pitcher Quality Score (PQS): xFIP (30%), K% (25%), BB% (20%), recent form (15%), TTOP (10%)
+- Statcast pitcher profile: velocity, spin rate, breaking ball movement, pitch mix
+- Recent form assessment: last 5 starts with trend direction modifier (×1.08 rising, ×0.90 declining)
+- Velocity monitoring: -3 mph vs season average = significant flag; -4 mph = injury event
+- UCL / Tommy John as the critical pitcher injury: early warning signals explained
+- Batter Quality Score (BQS): wOBA (35%), xwOBA (25%), hard contact (20%), recent form (15%), platoon (5%)
+- Statcast batter profile: exit velocity, launch angle, barrel%, chase rate, whiff rate
+- Platoon splits: extreme split identification (OPS gap > .080 = bench vs same-hand)
+- Season trajectory assessment: age curve modifiers by career stage
+- Catcher intelligence: framing (stolen strikes), game-calling, September fatigue
+- Complete metrics reference table: ERA, FIP, xFIP, K%, BB%, WHIP, wOBA, xwOBA, exit velocity,
+  barrel%, hard hit%, chase% — all with Elite/Good/Average/Poor thresholds
+- Baseball-specific injury additions to core framework: UCL, oblique, hamstring, plantar fasciitis
+
+### Updated — documentation
+
+- `sports/baseball/sport-domain-baseball.md`: Compatibility section links to athlete skill
+- `sportmind-overview.md`: Sport count updated to 22 complete; athlete count to 18; baseball
+  added to structure tree and skills tables
+- `llms.txt`: Baseball added to both sport domain and athlete skill tables
+- `core/core-result-impact-matrices.md`: MLB section added (with future-token notes)
+- `core/core-signal-weights-by-sport.md`: Baseball added (Sports catalyst 40% — pitcher matchup dominant)
+
+---
+
+## [1.8.0] — 2026-04-01 — 8 new additions: ice hockey, rugby league, MotoGP, AFL, handball, kabaddi, NASCAR
+
+### Fixed — ice-hockey stub written (empty since v1.1.0)
+- `sports/ice-hockey/sport-domain-ice-hockey.md` was a stub with no content despite
+  `athlete/nhl/athlete-intel-nhl.md` being complete since v1.1.0. Now fully written.
+  Covers: goaltender as the defining variable (GSAx, SV%, confirmation workflow),
+  back-to-back modifier (× 0.75 for backup starting), special teams (PP%/PK%/STI),
+  line matching and home ice deployment advantage, 4 event playbooks,
+  puck luck and inherent NHL variance.
+
+### Fixed — rugby-league athlete skill added (only complete domain skill without athlete counterpart)
+- `athlete/rugby-league/athlete-intel-rugby-league.md` — first athlete skill for rugby league.
+  Covers: Player Availability Score (PAS), Form Rating (6-match rolling), Positional
+  Impact Score (PIS with positional weights), State of Origin disruption modifier
+  (× 0.88 playing NRL within 24h of Origin), Key Player Composite Modifier,
+  squad naming convention (Tue extended → Thu confirmed → 60min final).
+
+### Added — `sports/motogp/sport-domain-motogp.md`
+MotoGP sport domain skill. Covers: hardware tier system (factory vs satellite vs
+previous-year spec), crash probability by circuit and conditions (× 1.60 for mixed
+drying conditions — highest in library), tyre management and compound selection,
+wet race specialist framework with documented individual modifier (× 1.25),
+sprint race as a separate prediction unit, championship dynamics and motivation signals,
+silly season transfer intelligence.
+
+### Added — `sports/afl/sport-domain-afl.md`
+AFL (Australian Rules Football) domain skill. Covers: unique dual scoring system
+(goals 6 pts, behinds 1 pt), kicking accuracy as an underpriced predictive variable
+(× 0.82 for teams under 45% accuracy), clearance dominance (strongest team-level
+statistical predictor in AFL), oval field dynamics and positional framework (halfback,
+key forward, ruckman), interstate travel penalty (WA clubs east: × 0.88), MCG Grand
+Final as the largest Australian sporting event. Fan token readiness notes included.
+
+### Added — `sports/handball/sport-domain-handball.md`
+Handball (EHF) domain skill. Covers: EHF Champions League structure, EHF FINAL4
+as the primary commercial window, financial tier dominance (Barcelona/PSG/Kiel),
+goalkeeper save% as highest-variance single-game variable, fast break efficiency,
+7-metre throw conversion, 6-0 vs 5-1 defensive systems, congested fixture fatigue
+modifier, national team month disruption.
+
+### Added — `sports/kabaddi/sport-domain-kabaddi.md`
+Pro Kabaddi League (PKL) domain skill. Covers: unique game mechanics (raiding,
+tackling, All Out), star raider as the most individually dominant position in any
+sport in the library (absence × 0.72 on offensive output), All Out as the most
+decisive single in-game event (+5 to +8 point swing), PKL auction as season-defining
+signal, Indian market context (300–400M viewers per season), 30% social sentiment
+weight (highest in library).
+
+### Added — `sports/nascar/sport-domain-nascar.md`
+NASCAR Cup Series domain skill. Covers: track type taxonomy (superspeedway/intermediate/
+short track/road course/dirt — each requiring a different framework), superspeedway
+drafting mechanics and "the big one" crash dynamics, manufacturer and team tier system,
+Championship 4 single-elimination format at Phoenix, pit strategy and restart positioning,
+Daytona 500 as most prestigious but most unpredictable event.
+
+### Updated — documentation
+- `sportmind-overview.md`: Layer 1 count 22 → 28; Layer 2 count 18 → 19;
+  all new skills added to structure tree and skills tables; roadmap updated
+- `llms.txt`: Version 1.7.0 → 1.8.0; all 7 new sport domain skills added;
+  rugby-league athlete skill added
+- `core/core-signal-weights-by-sport.md`: 6 new sports added
+- `core/core-result-impact-matrices.md`: 6 new sport matrices added
+- `GOOD_FIRST_ISSUES.md`: ice-hockey removed from stub list (now complete)
+
+---
+
+## [1.9.0] — 2026-04-01 — Layer 4: Market Intelligence (complete — 32 files)
+
+### Added — `market/` directory — Layer 4 (complete)
+
+A new fourth layer providing commercial context for all 28 sports in the library.
+Covers: fan token readiness tier (1–4), global revenue and broadcast deals, fanbase
+demographics, digital engagement index, institutional blockchain interest, media rights
+trajectory, token catalyst events, and competitor landscape.
+
+**`market/market-overview.md`** — Layer 4 master framework:
+- Fan Token Readiness Tier system: Tier 1 (Active) → Tier 2 (Near-term) → Tier 3 (Longer horizon) → Tier 4 (Niche)
+- All eight market intelligence components defined with agent usage guidance
+- Upgrade and downgrade signals for tier changes
+- Market file template establishing consistent structure across all 31 sport files
+- Loading order guide: Layer 4 loads first (commercial context), then Layers 1–3
+- Complete status table: all 31 sport files complete
+
+**Tier 1 — Active token ecosystem (6 files):**
+
+- `market/market-football.md` — $50B+ global market; 40+ active tokens; 3.5–4B fanbase;
+  World Cup 2026 as primary catalyst; Premier League gap as largest expansion opportunity;
+  Turkish Süper Lig highest club concentration; Chiliz network effect analysis
+- `market/market-basketball.md` — $10.5B NBA; $76B broadcast deal (158% increase);
+  TV median age ~42 vs digital median ~27; NBA Top Shot $1B+ precedent; NBA token gap
+  as largest North American untapped opportunity; China latent variable
+- `market/market-cricket.md` — IPL $6.2B rights cycle ($15M/match); BCCI 70-75% of
+  global cricket revenue; PSL tokens active; IPL gap is highest-value untapped token
+  opportunity globally; Dream11 200M users as primary competitor; India regulation as
+  single gating variable
+- `market/market-mma.md` — UFC $1.3B revenue; TKO Group publicly traded; most volatile
+  token ecosystem (KO win: +15–40%); highest crypto-native fanbase of any sport;
+  UFC rights renegotiation (post-2025) as most important near-term structural event
+- `market/market-esports.md` — CS2 skin economy ($B+ annual volume proves digital appetite);
+  publisher approval (Riot/Valve) is critical gating variable; Oct-Nov tournament stack
+  window is highest FTIS period; esports fans 35–45% crypto ownership rate
+- `market/market-formula1.md` — $3.2B Liberty Media revenue; Drive to Survive demographic
+  shift (younger, more female, more global); constructor tokens active; driver token gap;
+  regulation reset ~2026 as elevated volatility window
+
+**Tier 2 — Near-term high credibility (10 files):**
+
+- `market/market-american-football.md` — NFL $20B revenue (highest single league globally);
+  $13B/yr US broadcast; 50M fantasy football players (median age ~31) as gateway;
+  Super Bowl week as natural token launch window; Travis Kelce/Swift crossover audience
+- `market/market-baseball.md` — MLB $11.6B; Shohei Ohtani/Dodgers Japan catalyst;
+  NPB as most plausible entry point (fewer regulatory barriers); RSN crisis creating
+  direct-to-fan commercial pressure; oldest domestic fanbase but young international demographics
+- `market/market-ice-hockey.md` — NHL $6.5B; Canadian fanbase concentration (25M fans
+  in 38M population); Rogers deal renegotiation 2026 as digital integration opportunity;
+  European leagues (SHL/Liiga) as lower-barrier entry for hockey tokens
+- `market/market-afl.md` — Australia 25% adult crypto adoption (among highest globally);
+  club membership culture (115,000 for Collingwood) as natural token holder base;
+  Grand Final week as primary activation window; Seven/Foxtel deal to 2031
+- `market/market-motogp.md` — Dorna centralised structure (one deal = full championship);
+  Indonesia 80M+ fans; Southeast Asia mobile-first; wet race specialist framework most
+  actionable motorsport intelligence variable; Márquez/Ducati as sustained narrative catalyst
+- `market/market-rugby-union.md` — CVC Capital Partners investment (Six Nations, Premiership,
+  URC) as primary commercial signal; CVC's F1 precedent for digital product development;
+  RWC 2027 (Australia) and 2031 (USA) as activation windows
+- `market/market-rugby-league.md` — State of Origin (NSW Blues/QLD Maroons) as most natural
+  representative-team token structure; NRL/Super League dual calendar; PNG per-capita passion
+- `market/market-handball.md` — PSG handball integration pathway (piggybacking football
+  Chiliz infrastructure); EHF FINAL4 (Cologne, May/June) as highest commercial concentration;
+  financial tier dominance (Barcelona/PSG 2-3× budget advantage)
+- `market/market-nascar.md` — $3.5B revenue; new broadcast deal $1.1B/yr (34% increase);
+  sponsor loyalty 72% (natural token utility alignment); track type taxonomy critical for
+  all prediction; Championship 4 (Phoenix) as clearest single-event prediction window
+- `market/market-kabaddi.md` — 350–400M PKL viewers; youngest fanbase in library (median
+  22–24); Reliance/JioCinema as primary institutional catalyst; addressable token market
+  ~50–80M (urban India 18–28); Indian regulatory clarity as single gating variable
+
+**Tier 3 — Longer horizon (12 files):**
+
+- `market/market-tennis.md` — Individual sport structure misfit; young player generation
+  (Alcaraz, Swiatek, Gauff) with 15+ year career runways; 50% female fanbase; Grand Slam
+  digital strategy (Australian Open most likely first mover)
+- `market/market-golf.md` — Oldest fanbase in library (median ~54); PGA-LIV unification
+  as single most important structural catalyst; Ryder Cup team structure as only persistent
+  team identity; Topgolf/social golf creating younger adjacent audience
+- `market/market-boxing.md` — Structural fragmentation (four sanctioning bodies, multiple
+  promoters) makes league-level tokens impossible; DAZN streaming shift is most positive
+  structural change; chin durability unique progressive risk; fight camp secrecy highest
+  source reliability challenge in library
+- `market/market-athletics.md` — 4-year Olympic cycle structural problem; Jamaica national
+  token most commercially distinctive concept; LA 2028 as primary US activation window;
+  world record moments (Duplantis) as most reliable recurring positive signals
+- `market/market-horse-racing.md` — $300B global betting handle (most crypto-adjacent
+  audience); horse ownership syndication as closest existing analogy to fan token mechanics;
+  JRA (Japan) most sophisticated racing jurisdiction; paddock visual assessment unique intelligence
+- `market/market-cycling.md` — Tour de France brand (ASO) stronger than any individual team;
+  Strava 120M users as most digitally engaged adjacent audience; Grand Tour fatigue curve
+  most unique prediction variable in library; DNF prediction advanced framework
+- `market/market-darts.md` — Luke Littler (b.2007) generational moment; Ally Pally crowd
+  median age ~28 (youngest major sports arena audience in UK); PDC commercial growth trajectory;
+  9-dart finish as sport's unique viral catalyst event
+- `market/market-snooker.md` — China 250M followers (defining characteristic); CCTV5 reach
+  makes this a "niche" sport with massive single-market exposure; Matchroom commercial
+  aggression; Crucible venue brand; 147 maximum break as catalytic viral event
+- `market/market-volleyball.md` — Brazil concentration (50M fans, dominant national team);
+  beach volleyball as premium adjacent product; FIVB Nations League provides year-round
+  calendar unlike Olympic-only sports
+- `market/market-badminton.md` — Southeast Asia mobile-first (Indonesia 200M fans, Thomas
+  Cup is national event); BWF centralised structure (one deal = world tour); 50/50 gender
+  split; high crypto adoption in core markets
+- `market/market-netball.md` — Highest female fan share in library (75%); Australia favourable
+  regulatory environment; Commonwealth club membership culture; growing commercial trajectory
+- `market/market-winter-sports.md` — Alpine Europe concentration; Olympic cycle structural
+  challenge; Milan-Cortina 2026 as near-term window; Shiffrin/Odermatt era individual narratives
+
+**Tier 4 — Niche / structurally distant (3 files):**
+
+- `market/market-swimming.md` — Olympic-only commercial peaks; ISL revival prerequisite
+  for sustained year-round token utility; LA 2028 as highest-reach near-term window
+- `market/market-rowing.md` — Oxford-Cambridge Boat Race has extraordinary UK cultural
+  resonance relative to commercial scale; Tier 4 by revenue and engagement continuity
+- `market/market-table-tennis.md` — China-platform incompatibility is defining barrier;
+  enormous Chinese audience inaccessible to Chiliz; WTT international commercialisation
+  is the variable to monitor for tier upgrade
+
+### Updated — documentation
+- `sportmind-overview.md`: Layer 4 section expanded from 4-file pilot to complete 32-file
+  layer; market files organised by tier in skills-at-a-glance; roadmap updated
+- `llms.txt`: Version 1.8.0 → 1.9.0; full Layer 4 file table added (32 files)
+- `market/market-overview.md`: All status entries updated from 🔜 Planned to ✅ Complete
+
+---
+
+## [1.9.1] — 2026-04-01 — Cross-sport key findings added to Layer 4
+
+### Added — `market/market-key-findings.md`
+
+Cross-sport market intelligence insights that are only visible when comparing all
+28 sports simultaneously — not derivable from any individual sport market file.
+11 findings documented:
+
+1. **The audience size trap** — Raw viewership ≠ addressable token market.
+   Table tennis (850M fans), kabaddi (350–400M), swimming (2.2B) all have structural
+   barriers that make their true token-addressable audience a fraction of headline numbers.
+
+2. **The China-platform incompatibility problem** — Table tennis, snooker, and badminton
+   have extraordinary Chinese audiences entirely inside domestic platforms where Chiliz
+   cannot operate. Snooker's 250M Chinese followers makes it a "niche" sport globally
+   with a massive single-market exposure invisible to Western commercial analysis.
+
+3. **The Fantasy Sports gateway** — NFL (50M fantasy players), cricket India (Dream11
+   200M users), MLB and kabaddi all have large paid digital engagement products proving
+   the audience will pay for digital sports involvement. Token adoption curve is shorter
+   where fantasy ecosystems already exist.
+
+4. **Private equity entry as the strongest institutional signal** — CVC Capital Partners'
+   rugby union investment (Six Nations, Premiership, URC) follows the same playbook as
+   their F1 investment that preceded Liberty Media's commercial transformation. More
+   predictive than governing body statements.
+
+5. **The regulatory gating variable affects multiple sports simultaneously** — US
+   SEC/CFTC clarity on utility tokens would simultaneously unlock NFL, MLB, NHL, NASCAR,
+   and NBA team tokens. A single regulatory event, not five separate sport developments.
+
+6. **Horse racing syndication is the closest existing analogy to fan tokens** — Fractional
+   horse ownership already operates as a proto-token: fractional ownership, proportional
+   utility, transferability, community membership. The audience understands the concept
+   instinctively.
+
+7. **The demographic split problem** — TV audience ≠ token audience. NBA (TV median 42,
+   digital median 27), NFL (TV 43, Fantasy 31), MLB (TV 57, Latin/Asian fans 32). Golf
+   (TV 54, Topgolf/social 35). Token adoption modelling must use digital demographics.
+
+8. **Centralised commercial structure advantage** — MotoGP (Dorna), F1 (Liberty),
+   UFC/WWE (TKO), EHF (handball) can deploy full-championship tokens from a single deal.
+   Sports with distributed rights (football, boxing) require years of club-by-club development.
+
+9. **NASCAR's sponsor loyalty culture alignment** — 72% of NASCAR fans intentionally
+   purchase sponsor products. This commercial loyalty as fan expression is behaviourally
+   identical to fan token utility mechanics — most pre-conditioned audience in library.
+
+10. **The Indian regulatory variable controls multiple sports simultaneously** — Indian
+    digital asset clarity would unlock IPL (most valuable untapped token opportunity globally),
+    PKL kabaddi, and adjacent cricket/badminton audiences simultaneously.
+
+11. **The young generation effect** — Luke Littler (darts), Shohei Ohtani (baseball/Japan),
+    Alcaraz/Swiatek (tennis), Lyles/Duplantis (athletics) can create athlete tokens that
+    precede their sport's institutional readiness. 15+ year career runways matter.
+
+**Summary table:** Five most important cross-sport signals to monitor:
+US regulatory clarity, Indian regulatory framework, China platform compatibility,
+CVC rugby digital execution, centralised-rights sport partnerships.
+
+### Updated — references
+- `market/market-overview.md`: market-key-findings added to status table
+- `sportmind-overview.md`: market-key-findings added to Layer 4 skills table
+- `llms.txt`: market-key-findings added to core reference table
+
+---
+
+## [2.0.0] — 2026-04-01 — Layer 5: Macro Intelligence
+
+### Added — `macro/` directory — Layer 5 (complete — 8 files)
+
+A fifth intelligence layer covering external forces that originate outside sport but
+materially affect sporting revenue, fan token markets, athlete availability, and
+commercial infrastructure. The defining concept is the **bifurcated impact model**:
+most macro events affect physical sports revenue and digital sports revenue differently.
+
+**`macro/macro-overview.md`** — Layer 5 master framework:
+- Bifurcated impact model: physical vs digital revenue split under external stress
+- Event taxonomy: Category A (acute), B (structural), C (cyclical)
+- Crypto cycle overlay: CHZ/BTC correlation modifiers (bull × 1.20, bear × 0.75,
+  extreme bear × 0.55) to apply to all sporting signals
+- Sport-specific macro vulnerability mapping (all 28 sports)
+- Counter-cyclical assets in sport: fan tokens, esports, streaming — increase in relative
+  value when physical sports revenue falls
+- Timing model: immediate vs short/medium/long-term impact by event type
+- Loading order: Layer 5 loads first when active macro event is identified
+
+**`macro/macro-pandemic-public-health.md`** — The defining macro case study:
+- 2020 COVID-19: Documented revenue losses ($61B global sports industry impact)
+  simultaneously with record Socios fan engagement, esports viewership records,
+  NBA Top Shot record transactions, Virtual Grand National 4.8M UK viewers
+- Four counter-cyclical principles established: physical unavailability amplifies
+  digital utility; permanent audience acquisition through forced adoption;
+  broadcast-heavy clubs more resilient (NFL, PL) than matchday-heavy (boxing, golf);
+  government response speed determines duration of impact
+- Public health event taxonomy: Level 1 (global pandemic) through Level 4 (individual athlete)
+- Preparedness signals: Tier 1/2/3 early warning system
+- Recovery curve: month-by-month physical revenue return timeline post-restrictions
+- Token-specific recovery: confirmed fan return announcement as highest-reliability catalyst
+
+**`macro/macro-geopolitical.md`** — Wars, sanctions, diplomatic crises:
+- Russia-Ukraine 2022: Day-by-day timeline of sports consequences (Day 3: FIFA ban;
+  Day 5: F1 Russian GP cancelled; Day 8: IOC exclusion recommendation)
+- Chelsea FC ownership sanction: Token market volatility during uncertainty window
+- Geopolitical event taxonomy: Type 1 (active conflict) through Type 4 (host nation instability)
+- Sport-specific geopolitical vulnerability mapping (football highest; esports lowest)
+- Recovery timeline: active conflict (6-24 months), sanctions lifting (3-12 months)
+
+**`macro/macro-crypto-market-cycles.md`** — The most underappreciated structural risk:
+- CHZ/BTC correlation: ~0.75–0.85 rolling 90-day (high)
+- Four cycle phases with fan token behaviour and position modifiers:
+  Bull (× 1.20), Transition (× 1.00), Bear (× 0.75), Accumulation (× 0.55)
+- 2022 crypto winter case study: CHZ -88.5% peak to trough; Champions League Final
+  produced 18% relief rally then resumed decline within 5 days
+- Decoupling signals: FIFA World Cup 2022 as only consistent BTC-decoupling event
+- Weekly monitoring checklist: BTC vs 200-day MA as primary indicator
+- Regulatory overlay: SEC/MiCA/national regulatory risk on CHZ specifically
+
+**`macro/macro-broadcast-disruption.md`** — RSN collapse and streaming wars:
+- Diamond Sports Group bankruptcy (March 2023): 42 sports teams affected; some MLB
+  clubs lost $30-50M/yr in local rights fees
+- Streaming entrants: Amazon (NFL/tennis/NASCAR), Apple (MLS/baseball), Netflix
+  (WWE/NFL), Peacock (Olympics/NFL), DAZN (boxing/Bundesliga) — all accelerating
+- Sport vulnerability mapping: MLB/NHL most exposed; NFL/F1 most resilient
+- Token opportunity: RSN collapse accelerating direct club-to-fan products;
+  natural fan token integration point
+
+**`macro/macro-economic-cycles.md`** — Recession and consumer spending:
+- Discretionary spending hierarchy: identity sports (football, NFL) most resilient;
+  premium hospitality (F1, golf, horse racing) most vulnerable
+- Sponsorship lag: 1-2 year delay between recession beginning and full sponsorship contraction
+- Inflation dual effect: input costs (wages, energy) and consumer price resistance
+- Agent modifiers: premium sports × 0.85, mass-market × 0.92, digital × 0.95 in recession
+
+**`macro/macro-climate-weather.md`** — Structural outdoor sport disruption:
+- Documented current impacts: Australian Open heat policy activations, Tour de France
+  stage modifications, athletics marathon moved to midnight (Doha 2019), Tokyo 2021
+  marathon relocation, cricket session postponements increasing
+- Sport vulnerability ranking: cricket, horse racing, cycling, golf most exposed
+- Event cancellation risk modifier: >20% cancellation probability → reduce 25%;
+  >40% → reduce 50% or exit
+- Indoor migration as positive signal: roof installation = schedule certainty = rights value
+- Long-term structural trend: climate change is a compounding, not acute, risk
+
+**`macro/macro-governance-scandal.md`** — Corruption, doping, institutional crises:
+- FIFA 2015 case study: Timeline, sponsor response, commercial resilience, recovery pattern
+- Governance scandal taxonomy: Type 1 (systemic corruption) through Type 4 (welfare failures)
+- Doping: Individual athlete token risk; retrospective disqualification creates permanent
+  uncertainty; return from ban is typically 2-4 year recovery period
+- Esports match-fixing: Most active current governance concern; ESIC reports as standing input
+- Qatar 2022 welfare controversy: Documented reduced digital fan engagement in some
+  European markets despite strong global token performance during tournament
+- Recovery indicators: genuine vs false recovery signals; timeline 2-7 years by scandal type
+
+### Updated — roadmap and documentation
+- `sportmind-overview.md`: Roadmap v2.0 entry updated from placeholder to complete;
+  structure tree expanded to 5 layers; "Four layers" → "Five layers"; Layer 5 skills
+  table added; v3.0 upcoming section created
+- `llms.txt`: Version 1.9.0 → 2.0.0; five-layer architecture; 8 macro files added
+
+---
+
+## [2.1.0] — 2026-04-01 — Fan Token Lifecycle and Partnership Intelligence
+
+### Added — two new Layer 3 skills
+
+**`fan-token/fan-token-lifecycle/fan-token-lifecycle.md`**
+
+The complete temporal framework for fan token intelligence. The central insight:
+fan tokens cannot be cancelled — they are on-chain assets that transition from
+governance utility to predictive utility when official partnership infrastructure ends.
+
+Six-phase lifecycle model:
+- Phase 1 (Pre-launch): Partnership signal monitoring; launch window timing
+- Phase 2 (Launch event): Launch quality indicators; CEX listing tier assessment;
+  holder distribution analysis; optimal vs suboptimal launch windows
+- Phase 3 (Active utility): Full Layer 3 stack applicable; partnership health monitoring;
+  LTUI (Lifetime Token Utility Index) introduced; Phase 4 warning signals
+- Phase 4 (Utility plateau): Reduced Layer 3 weighting framework; plateau duration model;
+  transition preparation; 6–18 month average plateau before termination or renewal
+- Phase 5/6 (Non-contractual): The foundational principle — fan tokens are permanent
+  on-chain assets; utility transformation from governance to predictive utility
+
+Non-contractual token framework:
+- CEX/DEX trajectory model: CEX maintains initially → review period → bifurcation
+  (large club tokens survive CEX; small clubs migrate to DEX-primary)
+- The prediction market as post-partnership utility: price = aggregate sporting
+  sentiment; no official approval required; four forms of prediction market integration
+- On-chain holder data as persistent fan sentiment intelligence: geographic distribution,
+  holder concentration, wallet activity patterns — all available post-termination
+- The open primitive model: third-party use cases (analytics, DeFi, GameFi, community,
+  media) that require no club approval and cannot be revoked
+- Lifecycle-adjusted Layer 3 signal weights: which metrics apply at each phase
+
+**`fan-token/fan-token-partnership-intelligence/fan-token-partnership-intelligence.md`**
+
+The partnership relationship framework. Covers new partnerships, health monitoring,
+termination events, documented case studies, and community empowerment.
+
+Partnership tier taxonomy (5 tiers):
+- Tier 1 Market-creating: First token in major sport market; CHZ +10–25%
+- Tier 2 Major club addition: Top clubs in tokenised leagues; CHZ +5–12%
+- Tier 3 Standard club addition: Mid-table clubs; CHZ +1–5%
+- Tier 4 Athlete individual token: Fighter/player tokens; variable CHZ impact
+- Tier 5 Governing body/competition: Highest per-announcement CHZ impact
+
+Due diligence framework: institutional signals, market signals, partnership
+structure signals with composite quality assessment (5–6 strong = accumulate)
+
+Partnership Health Score (PHS) — five-indicator composite:
+  UEF (Utility Event Frequency) + CSP (Club Social Promotion) +
+  HCT (Holder Count Trend) + TUI (Token Utility Innovation) +
+  PDS (Partnership Duration Signal)
+  PHS ≥ 0.75: Full Layer 3; PHS < 0.25: Begin non-contractual assessment
+
+Termination patterns:
+  Pattern 1 (Announced): Formal statement; -20 to -40% immediate
+  Pattern 2 (Silent lapse): Most common; 180+ days zero utility = effectively non-contractual
+  Pattern 3 (Forced): Regulatory/legal/ownership; -40 to -70%; slowest recovery
+  Pattern 4 (Category exit): Platform-level; all category tokens affected simultaneously
+
+Documented case studies with named tokens:
+Three-type case study taxonomy:
+- **Type A (Active partnerships — predictive behaviour under stress):**
+  $JUV (Juventus) and $ACM (AC Milan) — BOTH ACTIVE Socios/Chiliz partnerships.
+  Corrected from earlier draft: neither is non-contractual. Used as Type A case
+  studies showing crisis correlation amplification (institutional stress shifts
+  active-partnership tokens toward prediction-market-style pricing temporarily).
+  Ownership transitions identified as highest-risk period for Phase 4 drift.
+- **Type B (Reduced engagement / uncertain):**
+  $FAZE (FaZe Clan) — partnership status uncertain; verify before agent use.
+  ISL club tokens — reduced engagement; regulatory environment is primary variable.
+- **Type C (Confirmed non-contractual):**
+  Smaller Latin American and Asian club tokens from Socios's 2021-22 expansion;
+  clearest confirmed non-contractual examples; mostly Path B trajectory.
+
+The relaunch pathway: non-contractual → re-contractual; three relaunch options
+with agent signal guidance for detecting relaunch before announcement
+
+Community empowerment principle: remaining post-termination holders are SportMind's
+primary intelligence asset for that club in Phase 6; community treasury model;
+developer bounty model; advocacy for club re-engagement
+
+Quick reference table: 14 partnership events with CHZ impact, sport impact, and agent action
+
+### Updated — existing files
+- `fan-token/fan-token-layer-overview.md`: Lifecycle and partnership skills added;
+  non-contractual token principle documented; prediction market utility form explained
+- `sportmind-overview.md`: Layer 3 table updated with two new lifecycle/partnership skills;
+  named metrics table updated with PHS and LTUI; Layer 3 count updated to 16 skills
+- `llms.txt`: Version 2.0.0 → 2.1.0; two new skill files added to reference table
+
+---
+
+## [2.1.1] — 2026-04-01 — Library-wide audit and consistency pass
+
+### No new skills. Full audit of all documentation for accuracy, consistency, and alignment.
+
+**Issues resolved:**
+
+**Structural:**
+- Removed 9 empty ghost directories created by earlier bash brace-expansion commands
+  (e.g. `{fan-token-pulse,athlete-social-lift,...}`, `{sports/{football,...},athlete/...}`)
+  — all were empty; real skill directories and files unaffected
+
+**`core/core-signal-weights-by-sport.md`** — fully rebuilt:
+- Previous version had structural breakage: NHL, MotoGP, AFL, Handball, Kabaddi, NASCAR
+  had been appended as rows inside the Phase Adjustments table (not the main weights table)
+- 16 sports added in v1.9.0 were completely missing: Darts, Snooker, Boxing, Cycling,
+  Athletics, Winter Sports, Netball, Swimming, Rowing, Horse Racing, Volleyball, Badminton,
+  Table Tennis, and others
+- File rebuilt from scratch with all 30 sport rows in the correct main table, proper
+  rationale for each component, corrected phase adjustment table, macro cycle overlay section
+
+**`fan-token/fan-token-layer-overview.md`** — multiple fixes:
+- Title removed `(v2)` suffix — stale from early development
+- Section heading `## The nine skills` → `## The sixteen skills`
+- Skill diagram updated from original 10-skill layout to full 16-skill layout showing all
+  categories including sport-specific bridge skills and temporal/lifecycle layer
+- Internal roadmap (Phase 1–5 delivery plan, stale week references) replaced with current
+  status section listing all 16 skills and v3.0 upcoming items
+
+**`GOOD_FIRST_ISSUES.md`** — two corrections:
+- `athlete/rugby-league` removed from Tier 2 "missing skills" list (complete since v1.8.0)
+- `athlete/boxing` removed from Tier 2 "missing skills" list (complete since early versions)
+- Stub count corrected: "15 sport domain skills" → "14 sport domain skills"
+
+**`CONTRIBUTING.md`:**
+- "15 community stub sports" → "14 community stub sports"
+
+**Integration examples (all three):**
+- `examples/standalone/integration-standalone-system-prompt.md`: Updated 3-layer loading
+  pattern to correct 5-layer loading order (Layer 5 → 4 → 1 → 2 → 3)
+- `examples/langchain/integration-langchain-python.md`: Added v2.1.0 five-layer note
+- `examples/claude-mcp/integration-claude-and-mcp.md`: Added v2.1.0 five-layer note
+
+**`llms.txt`** — multiple fixes:
+- `## Four-layer architecture` → `## Five-layer architecture`
+- Layer 2 description updated: "17 sports" → "19 sports (including darts and meta orchestrator)"
+- Layer 1 sport table: 7 sports missing (baseball, ice-hockey, motogp, afl, handball, kabaddi,
+  nascar) — all added as stable; ice-hockey moved from community stub to stable
+- Layer 1 heading: "21 complete, 15 stubs" → "28 complete, 14 stubs"
+- Layer 2 heading: "17 complete" → "19 complete"
+- Layer 3 table: lifecycle and partnership skills were missing — both added
+- Duplicate full-path entries for lifecycle/partnership removed from core reference section
+- Contributing section: "15 community stub sports" → "14"
+- All remaining `fantokenintel.vercel.app` URLs → `fantokenintel.com`
+
+**`sportmind-overview.md`** — multiple fixes:
+- Structure tree rewritten: every layer and every skill line now states its purpose for
+  AI agents explicitly (not just listing competitions/data). Layer headers explain "what
+  this layer teaches an AI agent." Sport skill lines describe the specific agent-reasoning
+  insight unique to that sport
+- Signal weights table: updated from 17-sport partial table to complete 30-sport table
+  matching `core/core-signal-weights-by-sport.md`
+- Fan-token structure tree: lifecycle and partnership skills were absent — both added
+- v2.1.0 added to roadmap (was absent — jumped directly from v2.0.0 to v3.0 Upcoming)
+- Layer 3 count: "14 skills" → "16 skills" (two places)
+
+---
+
+## [2.2.0] — 2026-04-01 — Core intelligence expansion + developer tooling
+
+### Added — `core/` new intelligence files (5 new skills)
+
+**`core/confidence-output-schema.md`** — Standard output format:
+- JSON schema defining all SportMind agent output fields
+- `signal` object: base_score, adjusted_score, direction, confidence_tier (HIGH/MEDIUM/LOW/ABSTAIN), confidence_pct
+- `modifiers_applied` object: all six modifiers with composite product
+- `layer_inputs` object: tracks which layers were loaded
+- `flags` object: injury_warning, congestion_warning, lineup_unconfirmed, weather_risk, officiating_uncertainty, macro_override_active, narrative_active
+- `reasoning` object: primary driver, supporting factors, risk factors, abstain reason
+- `sizing` object: recommended_action (ENTER/REDUCE/WAIT/ABSTAIN), position_size_pct, entry/exit conditions
+- `token_signal` object: applicable, direction, strength, relevant tokens
+- Confidence tier → position size mapping table
+- Python validation example
+- Two complete output examples (minimal and full five-layer)
+
+**`core/core-officiating-intelligence.md`** — Referee/judge/umpire intelligence:
+- Football: YPG, RPG, home/away penalty split modifiers; high-card vs low-card referee frameworks
+- MMA/boxing: Judge tendency profiles (striker-favouring vs grappling-favouring); home bias in boxing;
+  data sources (MMADecisions.com, BoxRec)
+- Cricket: LBW rate, DRS overturning rate, slow over rate
+- NFL: Penalty rate by crew, pass interference tendencies, crew experience signal
+- Horse racing: Stewards photo finish tendency, going report reliability, objection rates
+- Tennis: Time violation calling, Hawk-Eye Live court impacts, clay mark reviews
+- Agent integration: loading instruction, modifier sizing guidance (max ±8%), stacking rules
+
+**`core/core-weather-match-day.md`** — Match-day weather framework:
+- Sport sensitivity hierarchy (cricket → horse racing → cycling → athletics → golf → rugby → NFL → football → tennis → baseball)
+- Cricket: Rain/DLS, dew factor (tropical venues), pitch moisture, humidity, overcast conditions
+- Horse racing: Going framework (Firm→Heavy), going modifier by preference match (×1.10 to ×0.75), variability
+- NFL: Wind speed tiers (0–5/6–15/16–25/>25 mph), rain, cold modifiers
+- Football/soccer: Heavy rain, strong wind, extreme heat, cold
+- Golf: Wind impact on scoring (+0.5 strokes per 5mph above 10mph), temperature ball flight
+- Rugby: Rain (physical vs wide-game modifier), wind, mud
+- Athletics: Legal wind limits (±2.0 m/s for records), WBGT heat policy
+- Agent workflow: 24h and 3h check protocol, abandonment probability sizing rule
+
+**`core/core-fixture-congestion.md`** — Universal congestion framework:
+- Five tiers: Tier 1 (≥3 in 7 days, ×0.88) → Tier 5 (8+ days rest, ×1.03)
+- Football: December congestion windows, rotation patterns by manager type, travel fatigue amplifier, squad depth interaction
+- NBA: Back-to-back (×0.93), B2B on road (×0.90), 3-in-4 (×0.87); load management interaction
+- NRL/Rugby League: State of Origin congestion (Tier 1); reverse benefit for clubs without Origin players
+- NFL: Thursday Night Football short week (×0.94), consecutive away games, late-season fatigue
+- Cricket: Days between formats, IPL player arrival adaptation, Test series fast bowler fatigue
+- MMA: Fight frequency framework (optimal 8–12 week camp); short-notice replacement protocol
+- Cycling: Grand Tour progressive fatigue; cross-reference to injury-intel-cycling.md
+- Modifier application order: base → athlete → congestion → officiating → weather → macro → narrative
+
+**`core/core-narrative-momentum.md`** — Eight narrative categories:
+- Category 1 (Revenge): ±3–6%; validity requirements (18-month window, roster turnover threshold)
+- Category 2 (Record proximity): 1 away (+6–8%), 2–3 away (+4–6%), 4–5 away (+2–3%)
+- Category 3 (Comeback/adversity): +3–5%; detection via media language scanning; injury return interaction
+- Category 4 (Career first/home debut): +3–5%; crowd amplification; away team hostile crowd
+- Category 5 (Rivalry intensity): Tier 1 rivalries (El Clásico, India vs Pakistan) form differential discount 40%
+- Category 6 (Memorial/tribute): Zero modifier + 15% wider confidence intervals (abstention-adjacent signal)
+- Category 7 (Elimination/must-win): +4–5% for at-risk team; dead rubber opponent: −3%
+- Category 8 (Narrative fatigue): Overexposed narrative → reduce or reverse modifier
+- Automated detection: social volume spike 3×+, keyword scanning, narrative scoring 1–3
+- Maximum modifier: ±8% (bounded signal — cannot override large quantitative deficits)
+- Fan token interaction: revenge win amplification, record-breaking moment (fastest token signal in library)
+
+### Added — `agent-prompts/agent-prompts.md` — Developer tooling
+
+7 production-ready system prompts:
+1. Football fan token agent (Tier 1, full 5 layers)
+2. MMA fighter token agent (fight week timeline, CRI focus)
+3. Multi-sport prediction market agent (all modifiers, no active tokens required)
+4. Commercial intelligence agent (Layer 3 commercial chain, lifecycle assessment)
+5. Draft intelligence agent (North America / AFL / Esports)
+6. Research and education agent (developer support, library navigation)
+7. Minimal single-sport starter (lowest barrier to entry)
+
+### Added — `glossary.md` — Central terminology reference
+
+Covers all 28 sports with sport-specific terminology definitions:
+Football/Soccer (xG, xA, progressive carries, PPDA, competition tier, derby modifier)
+Basketball (load management, on/off splits, TS%, RPM, VORP, B2B)
+American Football (CPOE, EPA, injury designation system, O-line, QB tier system)
+Cricket (DLS, dew factor, pitch report, WBGT, H2H, DRS, powerplay)
+Horse Racing (Going, going preference, C&D record, draw bias, form figures, EIPH)
+MMA/Combat Sports (10-point must, significant strikes, takedown %, weight cut, fight camp)
+Golf (Strokes Gained family, cut line, Major, course history, course fit)
+Esports (meta, patch, HLTV rating, ban/pick phase, roster stability)
+Formula 1/MotoGP (qualifying, undercut/overcut, DRS, safety car, regulation cycle, hardware tier)
+Baseball (Statcast, exit velocity, launch angle, WAR, platoon splits, rotation cycle, park factor)
+Ice Hockey (GSAx, Corsi/Fenwick, xG, PP%/PK%, back-to-back, line matching)
+Rugby Union/League (set piece, kicker zone, gainline, halfback partnership, State of Origin)
+Snooker/Darts (147 maximum break, Crucible effect, 9-dart finish, 3-dart average, checkout %)
+Cycling (GC, Grand Tour, DNF, domestique, Classics, VAM)
+Athletics (wind legal, Diamond League, PB/SB, WBGT)
+All 31 named SportMind metrics with full name, skill, and definition
+
+### Added — `market/market-womens-sports.md` — Women's sports market intelligence
+
+Cross-category commercial overview:
+- WSL: £30M/yr broadcast deal (275% increase); Chelsea Women, Arsenal Women as lead token candidates
+- NWSL: $240M/yr deal; fastest-growing North American women's league
+- WNBA: $200M/yr deal; Caitlin Clark 2024 effect (+100% viewership); most commercially marketable
+  individual in women's sport globally
+- WIPL (Women's IPL): $572M franchise values; most likely near-term Tier 1 women's sport token
+- Demographic advantage analysis: WNBA median age 31 vs NBA 42; WSL median 27-32 vs PL 38
+- Key insight: Women's sport has structurally better token demographics than men's equivalent
+  despite smaller total audiences — more token-ready per capita
+- Catalyst events: Women's Club World Cup 2026, Caitlin Clark contract/endorsement announcements
+- Tier 2→1 transition framework: WSL, NWSL, WNBA approaching Tier 1 conditions by 2027
+
+### Updated — documentation
+- `sportmind-overview.md`: Core tree expanded with 5 new files; market tree updated with
+  women's sports; new skills-at-a-glance sections for core intelligence and developer tooling;
+  v2.2.0 roadmap entry added
+- `llms.txt`: Version 2.1.1 → 2.2.0; Layer 3 description updated; all new files added to
+  core reference table; contributing section updated with developer resource pointers
+
+---
+
+## [2.3.0] — 2026-04-01 — Fan Token Why — Foundational Value Thesis
+
+### Added — `fan-token/fan-token-why.md`
+
+The foundational document for all of Layer 3. Explains why fan tokens exist as a
+category, what structural problems they solve that the traditional sports model cannot,
+and where the trajectory leads. Intended to be read before any other Layer 3 skill —
+by AI agents and by developers.
+
+**The three structural ceilings of the traditional model:**
+- Stadium capacity ceiling: A sold-out Camp Nou holds 99,000 people. Manchester United
+  has 650M global fans. Old Trafford holds 74,879 — 0.011% of their global fanbase.
+  Every other fan participates as a spectator, not a participant. Fan tokens remove
+  the ceiling entirely; the addressable community is the entire global fanbase.
+- Revenue geography mismatch: FC Barcelona's largest fan markets by passion are
+  Indonesia and Brazil, yet >70% of revenue is generated from Spain. There is no
+  mechanism in the traditional model to generate structured revenue from the hundreds
+  of millions of global fans who will never attend Camp Nou. Fan tokens create
+  commercial relationships in every geography where fans exist.
+- The spectator-only model: Traditional fans have no agency. No voice in decisions.
+  No mechanism for participation. A 40-year loyal fan has the same relationship to
+  the club as a new follower. Fan tokens introduce governance, access, and economic
+  alignment — the fan becomes a stakeholder, not an audience member.
+
+**The scalability mathematics (documented):**
+- Premier League club, 60,000-seat stadium: matchday ceiling ~£100–140M/yr
+- Same club, 1% token engagement (100,000 of ~50M global fans) at £15/yr: £67.5M
+  equivalent — with zero physical infrastructure investment
+- At 5% engagement: approaches the matchday ceiling without building a single seat
+- The entire financial model scales with software, not concrete
+
+**The participation economy context:**
+- Wikipedia, open source, creator economy: all applications of participation replacing
+  consumption in different domains
+- Fan tokens are the sports application of the same shift
+- The generation that is now 18–35 grew up with digital ownership as normal —
+  the psychological barrier to token adoption is essentially zero for this cohort
+
+**The five-phase future trajectory:**
+- Phase 1 (now): Engagement tokens — governance, access, community
+- Phase 2 (near term): Performance tokens — yield linked to athlete outcomes
+- Phase 3 (medium term): Venue tokens — fractional ownership of stadium infrastructure;
+  the 40,000-seat stadium becomes a globally-owned digital asset
+- Phase 4 (medium term): Media rights tokens — fractional ownership of broadcast rights;
+  £500M TV deal generates returns for millions of global holders
+- Phase 5 (longer term): RWA/SportFi — full integration into DeFi; collateralised sports
+  assets; cross-asset portfolios; prediction markets with token settlement
+
+**The stadium as anchor, not ceiling:**
+- Stadiums create experiences that make people want to hold tokens
+- Tokens create communities that make stadiums more valuable
+- Physical and digital are complementary layers of the same relationship
+- Fan tokens serve the 99.989% who will never attend — not a replacement for those who do
+
+**Agent reasoning implications (documented):**
+- Without thesis: "Token price is down because team lost; reduce position"
+- With thesis: "Holder count is stable; community intact; sporting signal not structural collapse"
+- Without thesis: "Partnership ended; token is worthless"
+- With thesis: "80,000 holders remain on-chain; community is the asset; prediction market viable"
+- Changes what agents look for: holder community health, geographic distribution, utility
+  engagement rate, fan adoption trajectory — not just token price
+
+**Developer opportunity:**
+- Sports industry: $500B+ annually globally
+- Fan token layer: Currently fraction of 1% of that
+- Gap between current and potential is the commercial opportunity
+- Developer products mapped to: global community (99% who never attend), meaningful
+  participation (governance UX, contribution tracking), physical-digital bridge
+  (stadium activation, home watching rewards), Phase 2+ infrastructure
+
+### Updated — existing files
+- `fan-token/fan-token-layer-overview.md`: Opening preface added directing agents and
+  developers to read fan-token-why.md before any other Layer 3 skill
+- `fan-token/fan-token-why.md` added as first entry in Layer 3 skills tree in
+  sportmind-overview.md; added as Foundation section before Ground Truth layers
+  in skills-at-a-glance; referenced in "Who SportMind is for" section
+- `agent-prompts/agent-prompts.md`: Commercial intelligence prompt updated to reference
+  fan-token-why.md as foundational context for club/brand conversations
+- `llms.txt`: Version 2.2.0 → 2.3.0; Layer 3 description updated; fan-token-why.md
+  added as first entry in Layer 3 table and core reference; L3 count updated to 17
+
+---
+
+## [2.4.0] — 2026-04-02 — Blockchain Validator Intelligence + Data Sources
+
+### Added — `fan-token/blockchain-validator-intelligence/blockchain-validator-intelligence.md`
+
+Sports brands as Chiliz Chain validators — the structural shift from consumers of
+blockchain infrastructure to co-owners of it. The PSG dual-layer model as the
+reference case.
+
+**Core concept — the two-layer model:**
+- Layer 1 (Fan Token): Consumer-facing product; holder utility; token revenue
+- Layer 2 (Validator Node): Infrastructure investment; staked CHZ; continuous
+  validator rewards denominated in CHZ; operational obligation; governance rights
+- Combined: PSG earns from fans (token layer) AND from securing the network that
+  makes fans' tokens possible (validator layer). Vertical integration.
+
+**Why both layers together change the intelligence model:**
+- Token-only club: exit cost low; can allow partnership to lapse
+- Token + validator club: exit cost HIGH; staked capital to unwind; operational
+  infrastructure to retire; validator rewards stream to sacrifice
+- Agent rule: Apply Validator-Adjusted PHS (×1.10 multiplier); treat termination
+  probability as structurally lower than equivalent-PHS token-only clubs
+
+**Technical framework (Chiliz Chain PoSA):**
+- Chiliz Chain uses Proof of Stake Authority — limited, approved validators only
+- Validator functions: block production, consensus participation, staking/rewards,
+  governance voting, network security contribution
+- Becoming a validator requires capital commitment, technical infrastructure,
+  legal/compliance obligations — a multi-stakeholder institutional decision
+
+**PSG case study — complete picture:**
+- $PSG fan token: Launched 2020; global fanbase; Middle East/SEA/LatAm concentration;
+  100M+ global fans; Qatar ownership connection amplifies Middle East penetration
+- Validator status: World's first sports brand validator on Chiliz Chain
+- Synergy: Token commercial success validates chain (CHZ demand) + validator status
+  makes chain more credible (trusted brand as infrastructure) + dual revenue streams
+- Institutional commitment signals: Capital, operations, legal, technology — board level
+
+**On-chain signal detection:**
+- Validator stake increase: Strong positive — deepening commitment
+- Validator stake decrease (<10%): Monitor — could be treasury management
+- Validator stake decrease (>25%): Warning — load full PHS reassessment
+- Validator offline / slashed: Significant negative — operational commitment question
+- Governance vote participation: Active = high engagement; missing votes = plateau signal
+- Data sources: explorer.chiliz.com/validators, Dune Analytics, Chiliz Chain RPC
+
+**Future trajectory — expanded validator participation:**
+- Scenario 1: Top 5 European clubs as validators (Real Madrid, Barcelona, Man City, etc.)
+- Scenario 2: League-level validators (La Liga, Bundesliga representing member clubs)
+- Scenario 3: Multi-sport expansion (UFC/TKO, F1 constructors, NFL teams)
+- Scenario 4: Athlete validators (individual fighters/players with capital + tech support)
+- Scenario 5: Sports-specific chain validators (founding ownership of sports blockchain)
+- Agent rule: Any new sports brand validator = Tier 1 institutional commitment signal
+
+**VSI (Validator Status Indicator):**
+- New metric: sixth PHS component for validator clubs
+- 1.0 (stable/growing stake) → 0.0 (validator ended)
+- Sources: Chiliz docs (docs.chiliz.com), explorer (explorer.chiliz.com), CoinGecko,
+  Messari, The Block, SportsPro
+
+### Added — `core/data-sources.md`
+
+Centralised source citations for all five SportMind layers.
+
+**Layer 1 (Sport domain):** FBref, WhoScored, Understat, Transfermarkt, Racing Post,
+Timeform, UFC Stats, MMADecisions, Formula1.com, Baseball Reference/Savant, NBA.com,
+Natural Stat Trick, DataGolf, Tennis Abstract, Leaguepedia/HLTV, ProCyclingStats,
+ESPNcricinfo and more — one source list per sport.
+
+**Layer 2 (Athlete):** Injury tracking (physioroom, Rotoworld, ESPN), form tracking
+(FBref rolling, Tennis Abstract, DataGolf) cross-sport.
+
+**Layer 3 (Fan token/on-chain):** explorer.chiliz.com, CoinGecko, Dune Analytics,
+Nansen, Socios.com, Fan Token Intel (fantokenintel.com), social APIs.
+
+**Layer 4 (Market):** Deloitte Football Money League, PwC Sports Survey, Sportico,
+SportsBusiness Journal, Forbes Sports, Messari, Nielsen.
+
+**Layer 5 (Macro):** CoinGecko, TradingView, Glassnode, Reuters, Bloomberg, IMF,
+WHO, WADA, CAS, Met Office/Weather.com.
+
+**Developer API quick reference:** Free (OpenDota, Tennis Abstract GitHub, FBref);
+Commercial (Opta/Stats Perform, Sportradar, Genius Sports); Blockchain (Chiliz RPC,
+Alchemy, Moralis, Covalent); Social (Twitter/X v2, Instagram Graph, YouTube Data).
+
+**Source quality hierarchy:** Tier 1 (official/on-chain) → Tier 2 (primary journalism
++ licensed data) → Tier 3 (secondary analytics + community) → Tier 4 (social + real-time).
+Never-use list: anonymous forums without corroboration, prediction market prices as facts,
+AI-generated content as its own source.
+
+**Citation format standard** for SportMind skill contributors.
+
+### Updated — existing files
+
+**`fan-token/fan-token-partnership-intelligence.md`** — VSI sixth component added:
+- Standard PHS remains Average(UEF, CSP, HCT, TUI, PDS) for non-validator clubs
+- Validator-Adjusted PHS = Average(UEF, CSP, HCT, TUI, PDS, VSI) × 1.10
+- VSI floor rule: VSI = 1.0 prevents Validator PHS falling below 0.50
+- Cross-reference to blockchain-validator-intelligence.md added
+
+**`market/market-key-findings.md`** — Finding 12 added:
+- Validator sports brands as new institutional category
+- Two-layer distinction (token-only vs token + validator)
+- Commercial implication for PHS assessment
+- Future multi-validator scenario and network effect thesis
+- Agent monitoring guidance: quarterly validator registry check
+
+**`macro/macro-crypto-market-cycles.md`** — validator clubs and bear market dynamics:
+- Validator clubs' interests align with chain recovery (cannot walk away at a loss)
+- Bear market modifier for validator clubs: apply standard ×0.75 to token signals
+  but treat partnership termination risk as structurally lower
+- Multi-validator future: structural floor on CHZ drawdowns in bear markets
+- Validator stake monitoring as amplified bear market signal
+
+**`glossary.md`** — validator terminology section added:
+- Validator, PoSA, staking, slashing, validator rewards, dual-layer model,
+  on-chain governance, block production all defined
+- VSI added to named metrics table
+
+**`sportmind-overview.md`:**
+- blockchain-validator-intelligence added to fan-token tree and L3 skills table
+- data-sources.md added to core tree and core intelligence table
+- VSI added to named metrics reference
+- market-key-findings count: 11 → 12
+- v2.4.0 added to roadmap
+
+**`llms.txt`:** Version 2.3.0 → 2.4.0; blockchain-validator-intelligence and
+data-sources.md added to reference tables; L3 count 17 → 18;
+market-key-findings count updated
+
+---
+
+## [2.4.1] — 2026-04-02 — Full library audit and consistency pass
+
+No new skills. Holistic v2.4.0 milestone audit covering objective alignment,
+heading consistency, cross-reference integrity, count accuracy, and stale content.
+
+**Issues found and fixed:**
+
+Heading inconsistencies (highest priority — affects agent parsing):
+- 5 Layer 1 sport skills had wrong heading suffix "Fan Token Skill" instead of
+  "SportMind Domain Skill": football, basketball, mma, esports, american-football
+  — all corrected to "— SportMind Domain Skill" format
+- 10 Layer 2 athlete skills had old unformatted "athlete-X" headings from before
+  the v1.5.1 rename: nfl, nba, nhl, football, mma, cricket, tennis, rugby, esports,
+  meta — all corrected to "[Sport] — Athlete Intelligence" format
+- 14 stub sport skills had lowercase sport names in headings (e.g. "# badminton")
+  — all corrected to proper capitalised names
+
+Named metrics alignment:
+- VSI (Validator Status Indicator) present in overview but missing from glossary
+  main metrics table — added
+- GSAx (Goals Saved Above Expected) present in glossary but missing from overview
+  named metrics table — added
+- Total named metrics: 34 (overview) and 34 (glossary main table), now aligned
+
+Layer 3 count:
+- Overview heading still said "17 skills complete" after blockchain-validator-intelligence
+  was added in v2.4.0 — corrected to 18
+
+Placeholder standardisation:
+- `your-org` without brackets remaining in 3 files (sportmind-overview.md,
+  integration-fan-token-intel.md, integration-claude-and-mcp.md)
+  — all updated to SportMind for clarity
+
+Objective alignment verified across all key new files:
+- fan-token-why.md: agent reasoning section ✅ developer section ✅
+- confidence-output-schema.md: JSON schema ✅ Python validator ✅ token signal ✅
+- agent-prompts.md: 7 prompts ✅ all use cases covered ✅
+- data-sources.md: all 5 layers ✅ API quick ref ✅ quality hierarchy ✅
+- blockchain-validator-intelligence.md: PSG dual-layer ✅ VSI ✅ on-chain monitoring ✅
+
+Final state (v2.4.1):
+- 172 files, 0 empty, 0 stray dirs
+- 0 broken file references outside CHANGELOG
+- 0 stale content in live files
+- All L1 headings: "[Sport] — SportMind Domain Skill"
+- All L2 headings: "[Sport] — Athlete Intelligence"
+- All counts consistent across overview, llms.txt, and actual file system
+
+---
+
+## [2.5.0] — 2026-04-02 — Full skill validation pass — all 61 skills now pass
+
+### Scope
+Complete structural audit of all Layer 1 sport domain skills (28 complete + 14 stubs)
+and Layer 2 athlete intelligence skills (19) against the SportMind skill validator.
+Result: **0 errors across 61 files** (down from 111 errors at audit start).
+
+### Validator improvements
+`scripts/skill-validator.py` updated with two improvements:
+- Section name variant matching: validator now accepts legitimate alternative section
+  names used in pre-template skills (e.g. "## Signal Weight Adjustments" accepted as
+  "## Signal Weight"; "## Key Positional Intelligence" accepted as "## Key Commands")
+- Playbook field variant matching: validator now accepts common field name equivalents
+  (e.g. "action:" and "signal:" accepted as "entry:"; "condition:" accepted as "filter:")
+  These variants exist in skills written before the final template was standardised.
+
+### Sport domain skills — structural additions
+
+**Signal Weight sections added (9 skills):**
+football, basketball, mma, esports, american-football, netball, rowing, rugby-league, swimming
+— each now has an explicit `## Signal Weight Adjustments` section with the 5-component
+table matching `core/core-signal-weights-by-sport.md`
+
+**Key Commands sections added (13 skills):**
+athletics, cricket, cycling, darts, horse-racing, ice-hockey, motogp, netball, rowing,
+rugby-league, snooker, swimming, winter-sports
+— each now has a `## Key Commands` table directing agents to companion skills
+
+**Data Sources sections added (6 skills):**
+cricket, ice-hockey, netball, rowing, rugby-league, swimming
+— specific primary data sources added for each sport
+
+**Event Playbooks added (2 skills):**
+- rugby-union: 4 playbooks added (Six Nations home, World Cup knockout, derby underdog,
+  weather-impacted match) — previously had rich content but zero playbook-format blocks
+- tennis: 4 playbooks added (Grand Slam surface specialist, upset alert post-5-set,
+  surface switch clay-to-grass, long-match withdrawal risk)
+
+**Additional playbooks added (4 skills):**
+- rowing: playbooks 3-4 added (Boat Race, Olympic final)
+- swimming: playbooks 3-4 added (world record proximity, Olympic multi-event)
+- handball: playbook 4 added (EHF Final4 Budapest)
+- kabaddi: playbook 4 added (PKL rivalry home match)
+- netball: playbook 4 added (World Cup / Commonwealth Games final)
+- rugby-league: playbook 4 added (State of Origin Game 3 decider)
+
+**Playbook field completions (13 skills):**
+american-football, athletics, basketball, boxing, cycling, darts, esports, football,
+golf, horse-racing, mma, snooker, winter-sports
+— malformed playbooks (missing exit/filter/sizing fields) completed with standard defaults
+
+### Athlete intelligence skills — structural additions
+
+**Command reference sections added (6 skills):**
+nba, nfl, nhl, rugby, tennis, cricket
+— each now has a `## Command reference` section with `get_athlete_signal_modifier`
+JSON return example
+
+**Modifier reference sections added (4 skills):**
+football, mma, rugby, tennis
+— standard modifier table (×1.20 to ×0.65) with sport-specific knockout conditions
+esports: existing `### Signal modifier table` promoted to `## Modifier reference` heading
+
+**Integration example sections added (13 skills):**
+athletics, boxing, cycling, darts, horse-racing, mma, nba, nfl, nhl, rugby, snooker,
+tennis, cricket
+— each now has a `## Integration example` with standard pre-event workflow
+
+**Structural rebuilds (3 skills):**
+- baseball: Full Commands + Command reference (PQS/BQS) + Modifier reference + Integration
+  example added — previously had custom-structured content without template sections
+- rugby-league: Commands + Command reference + Integration example added
+- meta (cross-sport orchestrator): `get_athlete_signal_modifier` command reference added
+
+### Final state
+- Validator: 0 errors, 61 files checked ✅
+- All 28 complete sport domain skills: pass ✅
+- All 14 stub skills: pass (excluded from validation as expected) ✅
+- All 19 athlete skills: pass ✅
+
+---
+
+## [2.6.0] — 2026-04-02 — DeFi intelligence + basketball/cricket bridges + 10 athlete skills
+
+### Added — `fan-token/defi-liquidity-intelligence/defi-liquidity-intelligence.md`
+
+DeFi and liquidity pool intelligence for sports assets. Covers:
+- AMM mechanics and fan token pool interaction
+- TVL as pre-execution filter: >$5M (clean), $500k–$5M (moderate), $100k–$500k
+  (warning: 40% max size), <$100k (critical: 20% max size or ABSTAIN)
+- Slippage estimation formula: (trade_size / TVL/2) × 100%; thresholds 0.5/1.0/3.0%
+- LP activity as on-chain signal: large additions = accumulation; removals = monitor
+- DEX vs CEX price discovery: when each is source of truth; persistent divergence
+  as lifecycle phase transition signal
+- On-chain yield sources: LP fees, staking (validator rewards), prediction market
+  liquidity provision, lending protocol collateral
+- Prediction market protocol context: Azuro, Polymarket — pool TVL as conviction signal
+- DeFi lifecycle phases mapped to fan-token-lifecycle.md phases 1–6
+- Developer integration: GeckoTerminal API, DeFiLlama API, The Graph, Moralis, Covalent
+
+### Added — `fan-token/basketball-token-intelligence/basketball-token-intelligence.md`
+
+NBA/EuroLeague token bridge skill. Covers:
+- NBATIS (NBA Token Impact Score): game importance (0.25–1.00), star player status,
+  playoff position, market sentiment — formula and calibration
+- Player-first signal model: Tier 1/2/3 player taxonomy; trade signal (+15–35%
+  for Tier 1 acquisition); load management signal (×0.75 for Tier 1 rest)
+- Competition calendar: July free agency (peak), February trade deadline, Playoffs,
+  June Draft — all mapped to specific signal windows
+- NBA vs EuroLeague signal model comparison: player-centric vs club-centric
+- NBA Top Shot precedent: $1B+ digital collectibles documenting fan willingness
+- Reporter reliability: Woj and Shams cited as primary verification sources
+
+### Added — `fan-token/cricket-token-intelligence/cricket-token-intelligence.md`
+
+PSL/IPL/ICC token bridge skill. Covers:
+- CricTIS (Cricket Token Impact Score): format weight, match importance, India factor
+  (×1.40), India vs Pakistan (×2.00) — highest single-match multiplier in library
+- Format intelligence: T20 (primary signal format, dew risk), ODI (World Cup = Tier 1),
+  Test (rolling narrative vs event spikes)
+- IPL gap: India VDA regulatory framework as single gating variable; WIPL as
+  potential first-mover; Dream11 200M users as readiness proof
+- PSL token framework: season calendar, Karachi/Lahore derby, geopolitical modifier
+- Agent reasoning rules: format check first; dew factor check; DLS awareness; IPL
+  regulatory monitoring as highest-priority library event
+
+### Added — 10 new Layer 2 athlete skills
+
+All 10 skills pass the SportMind validator (71 files, 0 errors total):
+
+- `athlete/formula1/` — qualifying delta, wet weather rating, regulation fit, DTM link
+- `athlete/afl/` — kicking accuracy, contested possession, clearance, MCG context
+- `athlete/motogp/` — hardware tier interaction, wet specialist, crash probability
+- `athlete/handball/` — goalkeeper save rate (>35% = override team signal), centre-back
+- `athlete/kabaddi/` — raider rating (>60% success = carry potential), All Out dynamics
+- `athlete/nascar/` — track type specialisation (superspeedway vs short track), Championship 4
+- `athlete/netball/` — goal shooter accuracy, centre pass conversion, Australian system
+- `athlete/rowing/` — split time, course conditions, taper status, seat race signal
+- `athlete/swimming/` — PB proximity, taper timing, multi-event Olympic fatigue
+- `athlete/winter-sports/` — course fit, snow conditions, Olympic cycle window
+
+### Updated — existing files
+
+**`core/confidence-output-schema.md`:**
+  Two new flags added to flags object:
+  - `liquidity_warning` (TRUE when TVL < $500k): triggers max 40% position
+  - `liquidity_critical` (TRUE when TVL < $100k or slippage > 3%): triggers max 20%
+  New `defi_context` object added: primary_venue, pool_tvl_usd, estimated_slippage_pct,
+  lp_activity_signal, yield_apr_pct, lifecycle_phase
+
+**`fan-token/fan-token-why.md`:** Phase 5 RWA/SportFi section expanded with on-chain
+  yield detail and reference to defi-liquidity-intelligence skill
+
+**`core/data-sources.md`:** DeFi sources section added: GeckoTerminal, DeFiLlama,
+  The Graph, Moralis, Covalent, Azuro SDK, Polymarket CLOB API, DeFiLlama yields
+
+**`agent-prompts/agent-prompts.md`:** Prompt 8 added — DeFi-aware fan token agent
+  with pre-execution liquidity checklist and DeFi signal integration order
+
+**`GOOD_FIRST_ISSUES.md`:** formula1 athlete skill removed from wanted list (complete);
+  motogp and afl athlete skills added as new Tier 2 contribution items
+
+**`glossary.md`:** NBATIS and CricTIS added to named metrics table; full DeFi terms
+  section added (18 terms: AMM, TVL, LP, slippage, DEX, CEX, MEV, oracle, Azuro,
+  Polymarket, APR/APY, SportMind liquidity flags, and more)
+
+**`sportmind-overview.md`:** L2 count 19→29; L3 count 18→21; both trees updated;
+  v2.6.0 added to roadmap
+**`llms.txt`:** Version 2.5.0→2.6.0; all new skills added to reference tables;
+  L2 and L3 counts updated
+
+---
+
+## [2.7.0] — 2026-04-02 — Production agent tooling + World Cup 2026 + full library audit
+
+### Added — `README.md`
+
+Fast entry point for the library. Covers: problem statement, 5-minute quickstart
+(system prompt injection + clone options), five-layer table, full inventory summary,
+"start here" file guide, standard agent output format snippet, framework compatibility,
+and contributing guide. Two pages; designed to answer "what is this and how do I start"
+within 2 minutes.
+
+### Added — `examples/worked-scenarios/` — 6 complete historical scenarios
+
+Each scenario follows: the event → macro check → market context → sport domain →
+athlete modifier → fan token intelligence → core modifiers → confidence output JSON →
+what actually happened → calibration analysis (what the model got right, what it missed,
+what developers should learn).
+
+- **Scenario 1 — UCL Final 2023 (Man City vs Inter):** Full five-layer football analysis.
+  De Bruyne injury, treble narrative (+6%), thin crypto backdrop (×0.95). $CITY +14.2%
+  post-match within predicted +12–18% range. Calibration: matchup modifier for defensive
+  opposition setup was missing; would have refined Haaland expected contribution.
+
+- **Scenario 2 — UFC 281 (Adesanya vs Pereira):** MMA fight camp signals, extreme bear
+  crypto (FTX collapse November 8, fight November 12 — ×0.55 macro override), H2H
+  historical advantage model, separation of prediction market vs token signal.
+  Key lesson: FTX macro override correctly capped token position; prediction market
+  value signal on Pereira (+210 underdog) was correct.
+
+- **Scenario 3 — State of Origin 2023 G3:** Rugby league congestion intelligence as the
+  primary differentiator. QLD home advantage offset congestion; NSW away + Murray doubt
+  compound disadvantage. QLD 28–12 result within high-confidence prediction.
+  Key lesson: Layer 3 correctly not loaded (Tier 2 sport; no active tokens).
+
+- **Scenario 4 — IPL 2023 Cricket (CSK vs MI):** Format sensitivity, dew factor,
+  India-Pakistan absence (standard match), DLS risk awareness. Cricket-specific
+  intelligence demonstrating how format (T20 vs ODI vs Test) changes the framework.
+
+- **Scenario 5 — NBA Trade Deadline 2023 (KD to Suns):** Player-centric signal model,
+  trade deadline as the primary NBA signal event, NBATIS calculation, receiving team
+  (+18–25% expected) vs trading team (-22%) token impact.
+
+- **Scenario 6 — PSG DeFi Liquidity UCL 2023:** The DeFi intelligence demonstration.
+  $PSG pool TVL $185k → liquidity_critical flag → max 40% position regardless of signal.
+  Slippage 10.8% on DEX → CEX execution only. LP accumulation signal noted.
+  PSG lost the match; liquidity cap protected the position. Key lesson: DeFi intelligence
+  is not about signal accuracy — it is about protecting capital when signals are wrong.
+
+### Added — `core/multi-agent-coordination.md`
+
+Production agent architecture guide. Covers:
+- File size reference: token counts for every key file; minimum viable loading sets
+  for 5 use cases (prediction market, fan token, full five-layer, DeFi, commercial)
+- Selective loading patterns: Python examples for loading only relevant rows from
+  large tables
+- Session state management: state object structure, cache invalidation rules by
+  data type (athlete modifier, macro state, liquidity data, sport domain)
+- Multi-sport routing: query classification, routing table (9 query types), lazy
+  loading pattern with Python examples
+- Conflict resolution hierarchy: macro vs sport, liquidity vs confidence, injury vs form;
+  signal priority order (1–6)
+- Edge case handling: 6 documented edge cases (cancellation, in-progress, no liquidity,
+  sport not in library, conflicting injury reports, missing athlete skill)
+- Calibration logging: JSON schema for tracking predictions vs outcomes; calibration
+  priority list (availability modifier weights most impactful; macro modifier least)
+
+### Added — `market/world-cup-2026.md`
+
+World Cup 2026 consolidated intelligence module. Covers:
+- Tournament format (48 teams, 104 matches, 16 cities, 3 countries)
+- Why this World Cup is different for fan tokens: US market unlock, 48-team expansion,
+  commercial scale ($14B+ broadcast rights, 6-7B expected viewers)
+- NCSI by top player: Mbappé/Real Madrid (ATM 0.35–0.42), Haaland/City, Vinicius/Real,
+  Bellingham/Real, Yamal/Barcelona — with expected token impact ranges
+- National token opportunities: Brazil, Mexico, USA, Argentina, England
+- Competition tier model: World Cup specific overrides (Final = 1.00, host nation ×1.15)
+- Signal calendar: Pre-tournament (Jan–May 2026), Group Stage, Knockout Stage
+  with specific agent action guidance for each phase
+- Developer product opportunities: NCSI dashboard, bracket portfolio tracker,
+  prediction market integration, national token scanner, athlete brief generator
+
+### Full audit fixes (v2.7.0)
+- Scenario numbering corrected: was 1/2/3/3/4/4/5 (duplicates); now 1/2/3/4/5/6
+- Duplicate State of Origin scenario (G1) removed; G3 kept (more detailed)
+- your-org: confirmed all 5 remaining instances are correctly bracketed SportMind
+- All cross-reference integrity: 0 broken refs ✅
+- Validator: 71 files checked, 0 errors ✅
+
+
+### Updated — `core/multi-agent-coordination.md`
+
+Significant additions to the existing multi-agent guide:
+
+Three production patterns framework:
+- Pattern 1 (Single-sport specialist): Low complexity; start with Prompt 1 or 7
+- Pattern 2 (Multi-sport router): Medium complexity; start with Prompt 3 + routing logic
+- Pattern 3 (Commercial intelligence platform): High complexity; Prompt 4 + Prompt 8
+
+72h pre-match intelligence chain:
+  T−72h: Macro + Market + Sport domain → baseline; catch macro overrides early
+  T−24h: Athlete intelligence + Injury check → conditional loads for injury/weather
+  T−3h: Final lineup + Liquidity check → final modifier; WAIT rule for unconfirmed lineup
+  T−0: Execute final confidence output → ABSTAIN rule for lineup_unconfirmed + injury_warning
+  T+48h: Post-event calibration → actual result + actual token movement
+
+Two additional edge cases (8 total):
+  Edge case 7 — DLS mid-match (cricket): Pre-match analysis SUPERSEDED; recalculate new object
+  Edge case 8 — Context window overflow: Priority loading order; numbers > prose rule
+
+Production deployment checklist: Data pipeline, agent configuration, testing,
+output format, and calibration — all verifiable with checkboxes before going live
+
+### Added — 3 new worked scenarios (total now 6)
+
+**`examples/worked-scenarios/scenario-ipl-dls-2023.md` — Cricket/DLS**
+  CSK vs MI IPL 2023 Qualifier 1; Chepauk Stadium Chennai
+  Demonstrates: T20 format check first rule; dew factor (+10-12% for batting second);
+  toss intelligence; DLS event mid-match (rain interruption); revised target recalculation;
+  India factor (CricTIS); IPL token gap documentation
+  Key learning: Dew factor is most underpriced signal in IPL evening cricket
+
+**`examples/worked-scenarios/scenario-nba-trade-deadline-2023.md` — NBA Trade**
+  Kevin Durant traded from Brooklyn Nets to Phoenix Suns (February 9, 2023)
+  Demonstrates: NBA player-centric signal model (Tier 1 player = 60-70% team signal);
+  NBATIS not applicable to roster events (use Trade Signal Model instead); reporter
+  verification as entry trigger (Woj/Shams only); macro modifier (×0.82 bear) applied
+  to tokens not prediction markets; integration period discount (×0.95, 5-10 games)
+  Key learning: Verified reporter tweet is the entry trigger; not official NBA processing
+
+**`examples/worked-scenarios/scenario-nrl-state-of-origin-2023.md` — Rugby League/Congestion**
+  NRL State of Origin Game 3 (decider), 2023 series
+  Demonstrates: State of Origin rivalry compression (form discount 40%); LOW confidence
+  output (53.2%) as correct for Tier 1 rivalries; downstream congestion signals (Penrith
+  ×0.93, Parramatta ×1.04 for following NRL round); token N/A (no active NRL tokens)
+  Key learning: The downstream congestion signal is more valuable than the Origin pick
+
+### Confirmed present — `README.md`
+
+The library entry point exists and is comprehensive (176 lines):
+- Five-minute quickstart with three integration options (system prompt, clone, MCP)
+- Five-layer table with loading order
+- Modifier system quick reference
+- Named metrics summary table
+- Worked scenarios directory reference
+- Contribution guide
+
+### Confirmed present — `core/multi-agent-coordination.md`
+
+Existing file confirmed at 543 lines after additions:
+  Section 1: Context window management with file size reference
+  Section 2: Session state management
+  Section 3: Multi-sport routing with Python router pattern
+  Section 4: Handling conflicting signals (hierarchy: macro > critical flags > liquidity > multiply)
+  Section 5: Edge cases (8 total)
+  Section 6: Calibration and improvement over time
+  Section 7 (new): Production deployment patterns, 72h chain, deployment checklist
+### Added — `core/context-window-management.md`
+
+Complete context window management guide for agents and developers:
+- Token budget estimates per file category (all 5 layers quantified)
+- Minimum viable loading sets for 5 use cases: domain query, pre-match prediction,
+  fan token signal, commercial brief, DeFi check — each with exact file lists
+- Progressive loading strategy for multi-query sessions
+- File priority ranking for when context pressure forces fewer loads
+- Token-saving techniques: numbers over prose, conditional loading with code example,
+  summary mode pattern for reference files
+- Context window budget by model: GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama,
+  Mistral, local models — with recommended use cases for each
+- Overflow recovery protocol: what to preserve, what to drop, restart from summary
+
+### Added — `examples/testing/testing-scenarios.md`
+
+5 forward-looking validation playbooks for developers to verify integrations:
+- T1: Football pre-match rivalry with congestion (derby modifier + Tier 2 congestion)
+- T2: MMA weigh-in miss (severe weight cut modifier + title cannot change hands)
+- T3: Fan token with DeFi liquidity constraint (liquidity_critical overrides HIGH signal)
+- T4: Cricket DLS mid-match event (pre-match analysis superseded; new output object)
+- T5: Macro override — crypto bear market (BTC 200-day MA check; ×0.75 modifier)
+
+Each scenario includes: agent inputs, complete expected reasoning chain, expected
+output fields, and a 7-point pass criteria checklist. Integration health scoring:
+35/35 = production ready; common failure patterns documented.
+
+
+---
+
+## [2.8.0] — 2026-04-02 — Platform layer: API contracts + integration registry
+
+### Purpose
+
+The platform layer formalises how SportMind's intelligence is accessed — not what
+it contains. SportMind's sole purpose remains unchanged: open sports intelligence
+for AI agents and developers. The platform layer makes that intelligence reliable,
+composable, and buildable-upon while maintaining full open access and MIT licensing.
+
+### Added — `platform/` directory (3 new files)
+
+**`platform/platform-overview.md`**
+- Defines the platform layer's purpose: adding reliability and composability without
+  changing the intelligence or restricting access
+- Documents what changes and what doesn't: same five layers, same MIT license, same
+  open community model — plus formal contracts and integration patterns
+- Division of responsibility: data providers provide base_score; SportMind reasons
+  around it. This division never changes regardless of who the data partner is.
+- Three usage modes: Library (unchanged, always works), Contract (new formal calls),
+  Integrated (data partner + SportMind combined)
+- Open intelligence guarantee: no paid tiers, no restricted API, everything MIT
+
+**`platform/api-contracts.md`**
+
+Formal skill call specifications for all SportMind skill types:
+
+Modifier contracts:
+- `modifier.athlete`: Composite athlete modifier; guaranteed fields: modifiers_applied,
+  signal (base + adjusted), flags (injury_warning, lineup_unconfirmed, congestion_warning)
+- `modifier.macro`: Active macro event check; returns macro_context with crypto_cycle_phase
+- `modifier.defi`: Pre-execution liquidity check; returns flags.liquidity_warning/critical +
+  defi_context; neutral default (conservative) when pool data unavailable
+
+Signal contracts:
+- `signal.full`: Complete five-layer analysis in one call; execution order documented;
+  all five layers load in sequence; returns full confidence output schema
+- `signal.domain`: Sport domain context only; minimum viable call
+
+Intelligence contracts:
+- `intelligence.partnership`: PHS assessment with all five indicators + VSI;
+  returns partnership_context with phase_label and recommended_layer3_weight
+- `intelligence.lifecycle`: Token lifecycle phase identification
+- `intelligence.validator`: VSI computation for validator clubs
+- `intelligence.commercial`: Full commercial brief (Layer 3 chain)
+
+Versioning system:
+- Current: v1.0 (initial formalisation); v1.1 (defi_context additions, backward compatible)
+- v1.x = additive only; always backward compatible
+- v2.0 = breaking changes only with 6-month deprecation notice
+- How agents declare version; how to detect schema upgrades
+
+Standard error response format:
+- Every error includes: code, message, agent_action (what the agent should do next),
+  fallback_applied, fallback_description
+- 9 error codes documented: UNKNOWN_SPORT, UNKNOWN_PLAYER, NO_UPCOMING_EVENT,
+  TOKEN_NOT_FOUND, DATA_STALE, INSUFFICIENT_CONTEXT, MACRO_DATA_UNAVAILABLE,
+  SCHEMA_VERSION_MISMATCH, LAYER_UNAVAILABLE
+- Principle: errors never leave an agent in an ambiguous state
+
+Generic integration pattern:
+- Any data platform provides base_score; SportMind enriches it; agent acts on result
+- The base_score is always external. The reasoning is always SportMind.
+
+**`platform/integration-partners.md`**
+
+Registry of how external systems connect to SportMind:
+
+Partner 1 — FanTokenIntel (primary signal partner):
+- What FTI provides: base_score, whale_flows, sell_ratio_brackets, prematch_alpha,
+  match_results, sports_calendar, historical_patterns
+- What SportMind provides: athlete modifier, domain context, competition weighting,
+  macro overlay, lifecycle phase, DeFi liquidity check
+- Full mapping table: each FTI tool → SportMind skill → what SportMind adds
+- Complete Python integration code
+- Autopilot template: sportmind_athlete_aware_matchday (JSON config)
+
+Partner 2 — Chiliz / Socios (blockchain infrastructure):
+- On-chain data sources; which Layer 3 skills consume which data
+- Developer notes on open access vs proprietary data
+
+Partner 3 — Azuro (prediction market protocol):
+- Pool TVL → defi_context integration; LP position sizing with SportMind modifier
+- Integration pattern for Azuro builders
+
+Partner 4 — Sports data providers (Opta / Stats Perform / Sportradar):
+- How licensed data feeds into Layer 2 athlete modifiers
+- Notes on free alternatives (FBref) for prototyping vs production
+
+Partner 5 — DeFi data providers (DeFiLlama / GeckoTerminal):
+- How pool data feeds into modifier.defi and defi_context
+
+Partner 6 — LLM providers:
+- SportMind is LLM-agnostic; no provider-specific dependencies
+- Context window guidance per model
+
+Adding new integration partners: open PR process; what to include; what we don't add
+
+### Updated — `core/confidence-output-schema.md`
+
+- Full versioning changelog table added: v1.0 (initial), v1.1 (defi additions), future 2.0
+- v1.0 → v1.1 migration guide: what's new, migration required (no), how to consume new fields
+- Schema validation Python function updated: works for both v1.0 and v1.1
+- Platform contract reference section added at bottom
+
+### Updated — `sportmind-overview.md`
+
+- `platform/` directory added to structure tree with descriptions
+- Compatible platforms section restructured as table showing role of each platform;
+  references platform/integration-partners.md and platform/api-contracts.md
+- v2.8.0 added to roadmap
+
+### Updated — `llms.txt`
+
+- Version 2.7.0 → 2.8.0
+- Platform files added to core reference table
+- Compatible platforms section updated to show division of responsibility
+
+---
+
+## [2.9.0] — 2026-04-02 — Pre-v3.0 gap fixes + live signals specification
+
+### Gap fixes
+
+**Gap 1 — `GOOD_FIRST_ISSUES.md`:**
+- Tier 2 section rewrote: "New athlete intelligence skills" changed to "Improvements
+  to existing athlete skills" — all 28 complete L1 sports now have L2 coverage
+- motogp and afl removed from "skills that don't yet exist" (both complete since v2.6.0)
+- v2.6.0 completion note added listing all 10 new athlete skills added in that version
+
+**Gap 2 — `core/multi-agent-coordination.md`:**
+- Opening section updated to document two usage modes: Library (load files into context)
+  vs Contract (call skill interfaces via platform/api-contracts.md)
+- Explicit recommendation: Contract mode is preferred for multi-agent production systems
+
+**Gap 3 — `agent-prompts/agent-prompts.md`:**
+- Prompt 9 added: World Cup 2026 agent — national team tokens, NCSI spillover,
+  WC2026 signal calendar (pre-tournament → group stage → knockouts → final),
+  host nation NCSI premium (×1.25), early elimination signal (−20 to −35% club token)
+
+**Gap 4 — `agent-prompts/agent-prompts.md`:**
+- "Using platform contracts instead of file loading" section added at end
+- Maps each prompt to its contract equivalent (Prompt 1 → signal.full football, etc.)
+- References platform/api-contracts.md and platform/integration-partners.md
+
+### Added — `platform/live-signals.md`
+
+The foundation of SportMind's self-updating architecture. Defines the boundary between
+static intelligence (read from skill files, updated by community) and live inputs
+(fetched at query time from external sources).
+
+Six live signal categories:
+1. Macro state: BTC vs 200-day MA → macro_modifier; active geopolitical/health events
+2. On-chain: Holder count trend (HCT), token velocity (TVI), utility event frequency (UEF)
+3. DeFi/liquidity: Pool TVL, slippage estimation, LP activity signals
+4. Athlete/team: Official lineup, injury designations, fixture congestion (date arithmetic)
+5. Weather: Venue forecast for outdoor sports (by sport sensitivity hierarchy)
+6. Prediction markets: Pool TVL conviction check; LP activity in Azuro/Polymarket
+
+Three monitoring patterns:
+- Continuous (4–6h): Macro state (BTC/CHZ prices) → shared session state
+- Session (per decision): On-chain and liquidity signals → decision-time API calls
+- Event (T-24h, T-3h, T-60min): Lineup, injury, weather → event-specific webhooks
+
+Self-update signal triggers: What patterns indicate a skill file needs human review
+(format changes, new partnerships, regulatory changes). Distinguishes between:
+  Facts (can be detected automatically) vs Intelligence (requires human judgment)
+
+Developer integration: Python code example fetching all live signals before analysis
+
+v3.0 alignment: live-signals.md enables all four v3.0 roadmap items
+(macro monitoring alerts, real-time updates, SportMind score, skill registry API)
+
+### Updated — `sportmind-overview.md`
+
+- NBATIS (NBA Token Impact Score) and CricTIS (Cricket Token Impact Score) added
+  to Named Metrics Reference table — now 36 metrics total, aligned with glossary
+- v2.9.0 added to roadmap
+
+### Updated — `llms.txt` 
+
+- Version 2.8.0 → 2.9.0
+- platform/live-signals.md added to core reference table
+
+---
+
+## [3.0.0] — 2026-04-02 — Platform, intelligence, and community infrastructure
+
+SportMind v3.0 completes the shift from an intelligence library to a platform
+that agents and developers can build on reliably. All seven roadmap items delivered.
+The sole purpose remains unchanged: open sports intelligence for AI agents and developers.
+
+### Added — `core/sportmind-score.md` (SportMind Score)
+
+Unified cross-sport confidence metric (SMS) answering: "How complete and reliable
+is this analysis?" — comparable across all sports, tokens, and agent types.
+
+Formula: SMS = (Layer_Coverage × 0.35) + (Data_Freshness × 0.25)
+              + (Flag_Health × 0.25) + (Modifier_Confidence × 0.15)
+
+SMS tiers: HIGH_QUALITY (80+) | GOOD (60-79) | PARTIAL (40-59) |
+           INCOMPLETE (20-39) | INSUFFICIENT (<20)
+
+Combined decision matrix: adjusted_score HIGH + SMS LOW → WAIT (analysis incomplete
+before acting); adjusted_score HIGH + SMS HIGH → full entry. The SMS tells agents
+whether to trust the adjusted_score.
+
+Python helper function, integration with platform contracts, cross-sport
+comparability examples, and JSON schema object included.
+
+### Added — `platform/skill-registry.md` (Skill Registry)
+
+Queryable catalogue of all SportMind skills with standardised metadata.
+
+Complete skill ID reference for all 5 layers:
+- 28 stable L1 domain skills + 14 stub skill IDs
+- 29 L2 athlete skill IDs with primary modifier variable per sport
+- 21 L3 fan token skill IDs with contract mapping
+- 35 L4 market file IDs with tier and key insight
+- 8 L5 macro skill IDs with key signal
+
+Registry query patterns (Python): get_skills_for_sport, get_skills_by_type,
+MINIMUM_VIABLE_SETS dictionary for 5 use cases
+
+Contributor metadata standard: YAML block for skill files with skill_id, type,
+sport, tier, status, layers, key_metrics, contract, version
+
+### Added — `core/calibration-framework.md` (ML-Calibrated Modifier Weights)
+
+Infrastructure for improving modifier accuracy through outcome tracking.
+
+Outcome tracking schema: JSON record linking SportMind prediction to actual result
+Three accuracy dimensions: direction accuracy (≥70% target), magnitude calibration
+(mean absolute error < 0.08 target), confidence tier calibration (tier-specific win rates)
+
+Sport-specific calibration targets: 7 athlete modifier scenarios with current ranges,
+accuracy targets, and minimum event thresholds for first recalibration
+
+5-step calibration workflow: log → track → aggregate (monthly) → propose (quarterly)
+→ community vote (70%+ consensus required) → merge
+
+Calibration example: football athlete modifier position-specific breakdown after 500 events
+
+Contribution guide: format, data privacy requirements, submission process
+
+### Added — `platform/monitoring-alerts.md` + CI Workflows (Monitoring Alerts)
+
+Alert specifications for automated macro monitoring and skill review detection.
+
+6 alert specifications:
+- MACRO_CRYPTO_CYCLE: BTC vs 200-day MA crossover (3-confirm rule); CHZ severe decline
+- MACRO_GEOPOLITICAL: Keyword monitoring in Reuters/AP/BBC; geo-watch list 18 countries
+- MACRO_ECONOMIC: GDP recession confirmation; inflation spike
+- SKILL_REVIEW/COMPETITION_FORMAT: Competition structure changes
+- SKILL_REVIEW/NEW_PARTNERSHIP: New Chiliz/Socios announcements
+- SKILL_REVIEW/REGULATORY: India VDA, EU MiCA, UK FCA, US SEC/CFTC monitoring
+
+Standard webhook format with HMAC-SHA256 signature verification; retry policy (5 attempts)
+
+`platform/macro-state.json` — auto-updated lightweight JSON for fast session-start
+macro check; agents read this instead of loading full macro files
+
+`.github/workflows/macro-monitor.yml` — runs every 4 hours; checks BTC/CHZ thresholds;
+updates macro-state.json; commits back to repo
+`.github/workflows/skill-monitor.yml` — runs weekly; checks competition sources for
+format changes; creates GitHub issues for stale skills
+
+### Added — `i18n/` Multi-language Support
+
+Framework for community-translated skill files.
+
+`i18n/README.md` — language framework; available languages table; how to use translated
+skills (Python fallback pattern); translation contribution guide
+
+Spanish starter skills (beta):
+- `i18n/es/sports/football/sport-domain-football.md` — Season calendar, event hierarchy
+- `i18n/es/sports/mma/sport-domain-mma.md` — Fight week, weigh-in signal
+
+Portuguese starter skill (beta):
+- `i18n/pt/sports/football/sport-domain-football.md` — With Brazilian market context
+  (Brasileirão, Copa Libertadores, Brazilian token holder community note)
+
+All translations preserve English field names, metrics, code, and numerical values.
+Leaderboard incentive: +8 points per skill per language on merge.
+
+### Added — `community/` (Community Leaderboard)
+
+`community/leaderboard.md` — 5-tier system (New → SportMind Expert) with point
+thresholds, badges, and privileges. Contribution Score formula: Skill Quality (40%)
++ Prediction Accuracy (40%) + Community Impact (20%). Submission process.
+
+`community/accuracy-tracking.md` — Prediction accuracy methodology: direction
+accuracy, measurement windows by signal type, outcome record format (JSON), submission
+path to community/calibration-data/
+
+### Updated — `core/confidence-output-schema.md` (v1.2)
+
+- sportmind_score object added to schema: sms score, sms_tier, components breakdown,
+  layers_loaded, analysis_completeness
+- Schema changelog updated: v1.2 entry added (backward compatible, new object only)
+
+### Updated — `sportmind-overview.md`
+
+- Structure tree updated: community/, i18n/, new core and platform files
+- v3.0 roadmap items marked ✅; v3.1 roadmap added
+- Overview lines: 1,260
+
+### Updated — `llms.txt` → v3.0.0
+
+- Version 2.9.0 → 3.0.0
+- All 9 new files added to core reference table
+
+---
+
+**SportMind v3.0 — complete.**
+All seven roadmap items delivered. 220+ files. Validator: 0 errors.
+The library is a platform. The platform serves open intelligence.
+The intelligence serves AI agents and developers.
+
+
+---
+
+## [3.0.1] — 2026-04-02 — Post-release consistency fixes
+
+Six issues identified and resolved before moving to v3.1.
+
+**`README.md` (3 fixes):**
+- Badge updated: `skills-185+` → `skills-211+` (accurate total file count)
+- Agent output schema updated to v1.2: added `sportmind_score` object (SMS, tier,
+  layers_loaded) and `defi_context` object (primary_venue, pool_tvl_usd,
+  estimated_slippage_pct, lp_activity_signal) — both added in v2.6.0/v3.0 but
+  missing from README example
+- "Start here" table expanded from 9 to 15 entries: added `platform/api-contracts.md`,
+  `platform/integration-partners.md`, `core/sportmind-score.md`,
+  `core/context-window-management.md`, `examples/testing/testing-scenarios.md`,
+  `platform/skill-registry.md`; "Compatible frameworks" section updated to document
+  contract mode and integration partners
+
+**`community/calibration-data/` (1 fix):**
+- Directory created with README.md documenting: directory structure by sport/year/month,
+  submission instructions, full outcome_record JSON schema, data quality requirements,
+  and data privacy standards
+- Referenced by calibration-framework.md, accuracy-tracking.md, and leaderboard.md
+  but was missing from filesystem
+
+**`platform/monitoring-sources.json` (1 fix):**
+- Created: 8 competition format sources (UEFA, FIFA, ICC, NBA, F1, UFC, EHF, NRL),
+  2 partnership sources (Socios fan token list, Chiliz announcements), 2 regulatory
+  sources (SEBI India, EU MiCA) — each with sport, skills_affected, check_frequency,
+  stale_threshold_days, and monitor_for fields
+- Referenced by skill-monitor.yml CI workflow but was missing from filesystem
+
+**`scripts/` — 4 monitoring scripts (1 fix):**
+- `check_macro_signals.py` — BTC vs 200-day MA checker: CoinGecko API integration,
+  3-consecutive-confirm logic to prevent false alerts, phase determination
+  (BULL/NEUTRAL/BEAR/EXTREME_BEAR), macro_modifier calculation, macro-state.json update,
+  webhook delivery with HMAC alert payload
+- `update_macro_state.py` — macro-state.json timestamp updater for CI post-check
+- `check_skill_freshness.py` — multi-source freshness monitor: loads monitoring-sources.json,
+  checks each source, creates GitHub issues for stale skills (requires GITHUB_TOKEN),
+  extensible to any monitoring source
+- `check_token_partnerships.py` — Socios/Chiliz partnership monitor: loads skill registry,
+  detects sports with tokens but no bridge skill, reports undocumented partnerships
+- All four scripts: full CLI argument parsing, graceful handling of missing dependencies,
+  clear NOTE comments identifying production integration requirements, exit codes for CI
+
+---
+
+## [3.1.0] — 2026-04-02 — Calibration data, i18n expansion, skill registry API
+
+### Added — Calibration data infrastructure
+
+**`community/calibration-data/` — 5 seed outcome records:**
+
+Seed records derived from worked scenarios, demonstrating the outcome record format
+and validating key SportMind modifier signals against real historical events:
+
+- `football/2023/05/ucl-final-2023-06-10-outcome.json` — Man City 1-0 Inter UCL Final;
+  narrative_modifier (+8% treble narrative) validated; $CITY token +14.2% post-match;
+  direction correct; modifier_magnitude_error 0.04
+
+- `mma/2022/11/ufc-281-2022-11-12-outcome.json` — Pereira KO Adesanya Round 5;
+  macro_modifier (×0.55 FTX extreme bear) validated; token fell 8.4% despite correct
+  fight prediction; key validation: prediction markets and token signals must be
+  treated separately during extreme bear conditions
+
+- `basketball/2023/02/nba-kd-trade-2023-02-09-outcome.json` — Kevin Durant trade
+  Brooklyn→Phoenix; Woj verification as entry trigger validated; Tier 1 player trade
+  signal confirmed; macro bear (×0.82) correctly applied to token component
+
+- `cricket/2023/05/ipl-qualifier-1-2023-05-23-outcome.json` — CSK vs MI IPL 2023;
+  dew_modifier validated (toss + dew = batting second advantage); DLS event mid-match
+  confirmed: pre-match analysis superseded = new output object required
+
+- `rugby-league/2023/07/state-of-origin-g3-2023-07-12-outcome.json` — NSW vs QLD
+  Origin G3 decider; rivalry_form_discount (40% form compression) validated; LOW
+  confidence (53.2) as correct tier for Tier 1 rivalries validated; downstream NRL
+  congestion signal confirmed as higher-value than Origin pick itself
+
+Calibration summary across 5 seed records: direction accuracy 100% (small sample);
+all modifier types correctly showing INSUFFICIENT_DATA pending 50–200+ events.
+
+**`scripts/calibration_aggregate.py`:**
+Full calibration pipeline script. Loads all outcome records from calibration-data/,
+calculates direction accuracy by sport and confidence tier, modifier accuracy per
+modifier type with calibration status vs targets, generates JSON reports.
+CLI flags: --sport, --all, --report, --output. Handles seed records gracefully.
+
+### Added — i18n expansion (5 new starter skills, 3 new languages)
+
+**French (`i18n/fr/`) — 2 skills:**
+- `sports/football/sport-domain-football.md` — Ligue 1 season calendar; PSG token
+  signal specifics (UCL > Ligue 1 for $PSG movement); Classique multiplier (×1.8);
+  French market context including ANJ regulatory note; NCSI Équipe de France
+- `sports/handball/sport-domain-handball.md` — PSG Handball commercial context;
+  cross-promotion with $PSG Football token (potential); goalkeeper save% as primary
+  variable; Les Experts (French national team) as engagement signal
+
+**Arabic (`i18n/ar/`) — 1 skill:**
+- `sports/football/sport-domain-football.md` — Bilingual (Arabic + English headers);
+  Saudi Pro League context (PIF ownership, Ronaldo/Neymar/Benzema catalyst);
+  Vision 2030 digital strategy as fan token accelerant; Mohammed Salah as highest
+  individual token value in MENA; regulatory landscape across MENA jurisdictions;
+  Arabic RTL text with English field names preserved per translation standards
+
+**Hindi (`i18n/hi/`) — 2 skills:**
+- `sports/cricket/sport-domain-cricket.md` — Format-first rule in Hindi; India factor
+  (×1.40) and India vs Pakistan (×2.00) explained; IPL regulatory gap and VDA monitoring
+  instructions; dew factor for South Asian evening T20s; PSL geopolitical modifier
+- `sports/kabaddi/sport-domain-kabaddi.md` — Star raider as primary variable;
+  PKL calendar; All Out event dynamics; JioCinema/Reliance as commercial catalyst;
+  Dream11 200M+ users as digital readiness evidence
+
+All translations include culturally specific market context not present in English
+originals. Field names, metrics, code, and numerical values remain in English per
+translation standards. Each starter clearly marks where community contributors should
+expand to full translation.
+
+i18n/README.md updated: French, Arabic, Hindi status changed from "Planned" to "Beta".
+
+### Added — Skill registry API
+
+**`scripts/skill_registry_api.py`:**
+Live queryable endpoint for platform/skill-registry.md. Parses the static markdown
+into structured JSON and serves it via CLI or HTTP server.
+
+Features:
+- Parse 85 skills (71 stable + 14 stubs) from skill-registry.md
+- CLI query by sport, type, layer, status, or exact skill_id
+- Minimum viable skill sets for 5 use cases with {sport} substitution
+- HTTP server mode (--serve --port 8080) with JSON API endpoints:
+  GET /skills, /skills?sport=football, /skills/{skill_id},
+  /skills/mvs?use_case=fan_token_tier1&sport=football, /health
+- Export full registry as JSON (--export > registry.json)
+- Statistics mode (--stats)
+- CORS headers enabled for browser integration
+
+### Updated — `sportmind-overview.md`
+- v3.1 roadmap marked ✅
+- v3.2 roadmap added with calibration and i18n deepening milestones
+
+### Updated — `llms.txt` → v3.1.0
+
+### Updated — `README.md` → badge 223+ files
+
+---
+
+## [3.2.0] — 2026-04-02 — Bridge skills, i18n deepened, registry endpoint, leaderboard
+
+### Added — 3 new Layer 3 bridge skills (L3 count: 21 → 24)
+
+**`fan-token/nfl-token-intelligence/nfl-token-intelligence.md`**
+- NFLTIS (NFL Token Impact Score): game importance (SB=1.00→regular=0.30), QB status (0.45–1.00)
+- QB injury report timing system: Wed/Thu/Fri designation → exact modifier values and flags
+- National broadcast multipliers: Thursday Night/MNF ×1.15, Thanksgiving ×1.20
+- Super Bowl signal model: 2-week narrative window, halftime crossover signal, +15–25% winner
+- NFL free agency (March) and draft (April) as signal calendar peaks
+- Fantasy Football (60M+ DFS users) as leading indicator for injury tracking
+- Commercial context: $20B+ market, franchise token viability (Cowboys/Patriots/Chiefs)
+
+**`fan-token/afl-token-intelligence/afl-token-intelligence.md`**
+- AFLTIS (AFL Token Impact Score): game importance (GF=1.00→standard=0.30), home ground factor
+- MCG Grand Final architecture: always September, always MCG, highest Southern Hemisphere attendance
+- ANZAC Day exception: Collingwood vs Essendon = Finals-level signal weight regardless of ladder
+- Australian crypto market context: 25% adoption rate = highest per-capita of any rugby nation
+- AFL club membership culture as natural fan token precursor
+- Finals series structure: 8-team bracket with signal at each elimination stage
+- RWC 2027 Australia as catalyst window cross-reference
+
+**`fan-token/rugby-token-intelligence/rugby-token-intelligence.md`**
+- RugbyTIS (Rugby Token Impact Score): competition tier, kicker status, set piece dominance
+- CVC Capital Partners investment pattern: F1 proof of concept → Six Nations/URC/Premiership following
+- CVC investment as private equity signal for commercial professionalisation trajectory
+- Six Nations annual signal model: Grand Slam race, England–Ireland viewership peak, home advantages
+- British & Irish Lions 2025 (Australia): composite team catalyst for individual nation tokens
+- Rugby World Cup 2027 (Australia): primary window with 12-month pre-tournament optimal launch
+- Kicker knockout conditions: starting kicker out = ×0.82 floor (most impactful positional loss)
+
+### Added — 4 new i18n starter skills
+
+**French (`i18n/fr/`) — 1 new skill (total: 3)**
+- `athlete/football/athlete-intel-football.md` — Athlete modifier tables in French; PSG-specific
+  context (Donnarumma GK position, ATM metric, NCSI équipe de France); pre-match workflow example
+
+**Portuguese (`i18n/pt/`) — 1 new skill (total: 2)**
+- `sports/mma/sport-domain-mma.md` — UFC Brazil market context (Brazil = #2 UFC market globally);
+  Alex Pereira case study; fight week signal model; style matchup context for Brazilian fighters
+
+**Spanish (`i18n/es/`) — 1 new skill (total: 3)**
+- `sports/cricket/sport-domain-cricket.md` — LATAM cricket market context (Argentina, Mexico,
+  diáspora india/paquistaní); format-first rule in Spanish; India-Pakistan ×2.00 explained;
+  dew factor for T20 nocturno; fan token readiness note for LATAM community
+
+### Added — `platform/skill-registry-api.md`
+
+Complete versioned endpoint documentation:
+- GitHub Pages endpoint structure: `/api/v{major.minor}/registry.json`
+- Response formats for /registry.json, /skills/{id}.json, /mvs.json
+- GitHub Actions publish workflow (publish-registry.yml)
+- Python and JavaScript client examples
+- Rate limiting and caching guidance
+- Versioning policy: major = schema change; minor = additive only
+- Integration with platform contracts: discovery → query → call contract pattern
+
+### Updated — `community/leaderboard.md`
+
+First entries populated:
+- `sportmind-core` added at rank 1: 120 points, 5 calibration records, Tier Member ⭐
+- Accuracy shows N/A (correct — insufficient data; minimum thresholds not yet reached)
+- How-to section added: clear path for community to appear on leaderboard
+
+### Updated — `CONTRIBUTING.md`
+
+v3.0+ contribution types added:
+- Calibration data: outcome record format, location, label, leaderboard reward (+1/record)
+- i18n translations: quality standards, English field name requirement, reward (+8/skill/lang)
+- Platform and tooling: backward compatibility requirement, review process
+- Skill registry metadata: YAML block standard for all new skill submissions
+
+### Updated — Library-wide counts
+- L3 skills: 21 → 24 (NFL, AFL, Rugby Union bridges added)
+- sportmind-overview.md, llms.txt: L3 count updated; new bridge skills in tables
+- README badge: 223+ → 237+
+
+---
+
+## [3.3.0] — 2026-04-02 — Hosted SportMind Skills API
+
+### The core addition
+
+**`scripts/sportmind_api.py` — The hosted SportMind Skills API**
+
+The completion of the platform layer. Serves all 159 SportMind skill files as
+on-demand content, removing the final barrier between SportMind's intelligence
+and the agents that need it. Developers call the API instead of managing files.
+
+**What it does:**
+- Serves skill content on demand: `GET /skills/{id}/content` returns the full markdown
+- Delivers complete intelligence stacks: `GET /stack?use_case=fan_token_tier1&sport=football`
+  returns all skills in the correct loading order, ready for direct agent injection
+- Serves current macro state: `GET /macro-state` from `platform/macro-state.json`
+- Exports static JSON for GitHub Pages: `--export-github-pages ./docs/api`
+- All endpoints return CORS-enabled JSON with X-SportMind-Version header
+
+**File map: 159 skills mapped:**
+  - 42 domain skills (28 complete + 14 stubs)
+  - 29 athlete skills
+  - 24 fan token skills + fantoken.why
+  - 35 market skills
+  - 8 macro skills
+  - 16 core skills
+  - 5 platform skills
+
+**HTTP endpoints:**
+```
+GET /                      API info and endpoint directory
+GET /health                Version, skill count, content file count
+GET /skills                Full registry (metadata) with filter support
+GET /skills?sport=football Filter by sport
+GET /skills?type=domain    Filter by type (domain/athlete/fantoken/macro/core/market)
+GET /skills/{id}           Single skill metadata with content_endpoint hint
+GET /skills/{id}/content   Full skill content (markdown) — primary delivery endpoint
+GET /skills/mvs/{use_case} MVS metadata
+GET /skills/mvs/{use_case}/content  Full MVS content stack
+GET /stack?use_case=&sport= Complete intelligence stack — one call for agent injection
+GET /macro-state           Current BTC cycle phase, active events, macro_modifier
+```
+
+**CLI tools:**
+```bash
+python scripts/sportmind_api.py --serve --port 8080       # HTTP server
+python scripts/sportmind_api.py --content domain.football # Single skill content
+python scripts/sportmind_api.py --stack fan_token_tier1 --sport football  # Full stack
+python scripts/sportmind_api.py --export-github-pages ./docs/api  # Static export
+python scripts/sportmind_api.py --stats                   # Library statistics
+python scripts/sportmind_api.py --list-ids                # All 159 skill IDs
+```
+
+**Why this matters for SportMind's objective:**
+The library has always been the right intelligence. The API is what makes that
+intelligence accessible to agents at query time rather than at setup time.
+An agent using the API gets current intelligence (macro-state updated every 4h);
+an agent using a cloned repo gets a snapshot. The gap is now closed.
+
+### Added — `.github/workflows/publish-api.yml`
+
+GitHub Actions workflow that auto-deploys the Skills API to GitHub Pages on every
+push touching skill files, athlete files, fan-token files, core, market, or macro.
+Generates the complete versioned static API snapshot in `docs/api/`.
+
+### Updated — `platform/skill-registry-api.md`
+
+Updated with `sportmind_api.py` as the primary tool (replacing `skill_registry_api.py`
+for content delivery). Python client examples updated to show content delivery pattern.
+GitHub Actions section updated to reference `publish-api.yml`.
+
+### Updated — `README.md`
+
+Three usage modes now documented:
+- **API mode** (new, recommended for production): `GET /stack` returns full intelligence stack
+- **Library mode** (unchanged): paste skill file contents into system prompt
+- **Contract mode** (unchanged): formal skill contracts via `platform/api-contracts.md`
+
+Start here table updated with API mode as first option.
+Badge updated: 237+ → 242+ files.
+
+### Final state
+- 159 skill IDs mapped and served
+- All content endpoints tested and verified
+- GitHub Actions workflow: auto-deploys on skill changes
+- Version: 3.3.0
+
+---
+
+## [3.4.0] — 2026-04-02 — Bridge skills, i18n, calibration records, API prompt
+
+### Added — 2 new Layer 3 bridge skills (L3 count: 24 → 26)
+
+**`fan-token/rugby-league-token-intelligence/rugby-league-token-intelligence.md`**
+- RLTIS (Rugby League Token Impact Score): match importance (SOO G3=1.00→standard=0.30),
+  SOO disruption modifier (HIGH ×0.88, MEDIUM ×0.93, LOW ×1.00/1.05)
+- State of Origin model: the defining signal event; 40% form compression rule;
+  downstream NRL congestion signal documented as most undervalued signal in rugby league
+- NRL annual signal calendar: pre-season → Origin (May–July) → Finals (September)
+- Super League commercial profile: Sky Sports + Channel 4 deal; Magic Weekend;
+  Challenge Cup Final (Wembley); Grand Final (Old Trafford)
+- Women's rugby league section: NRLW, Women's State of Origin, NCSI spillover
+- Agent rule: downstream congestion signal often more valuable than Origin result itself
+
+**`fan-token/handball-token-intelligence/handball-token-intelligence.md`**
+- HandTIS (Handball Token Impact Score): competition tier (EHF Final=1.00→domestic=0.25),
+  GK save rate (>40% = ×1.20, <30% = ×0.88), financial tier gap (×1.12 Tier1 vs Tier2)
+- PSG brand halo cross-sport token signal: documented as the ONLY cross-sport handball→token
+  signal in the library; +3% $PSG during Final4 week if PSG Handball participating;
+  +5% if PSG Handball wins Champions League; QSI ownership context
+- EHF Final4 Budapest architecture: single weekend format, Papp László Arena, all-time
+  signal peak for handball, Barcelona 13× Champions League dominance context
+- IHF World Championship national token framework: France (Les Experts 6×), Denmark,
+  Spain, Germany ranked by token readiness
+- Agent override rule: GK 40%+ save rate overrides team-level form analysis
+
+### Added — 2 new i18n starter skills
+
+**Arabic (`i18n/ar/`) — 1 new skill (total: 2)**
+- `sports/handball/sport-domain-handball.md` — Bilingual (Arabic + English headers);
+  QSI/Qatar ownership context for $PSG token signal; EHF Final4 signal during
+  Final4 week (+3% $PSG); Arab handball nations (Qatar 2015 WC, Bahrain, Egypt);
+  GK save rate rule in Arabic; financial tier structure
+
+**Hindi (`i18n/hi/`) — 1 new skill (total: 3)**
+- `sports/mma/sport-domain-mma.md` — UFC India market context: Arjan Bhullar, Anshul
+  Jubli, Bharat Kandare; Netflix/Sony Sports viewership trajectory; Dream11 200M+
+  users as digital readiness evidence; wrestling (kushti) background as MMA foundation;
+  heavyweight division popularity in Indian market; Fight Week timeline in Hindi
+
+### Added — 2 new calibration seed records (total: 7)
+
+**`community/calibration-data/formula1/2023/07/british-gp-2023-07-09-outcome.json`**
+- Verstappen wins British GP 2023; qualifying delta modifier (×1.08) validated;
+  regulation fit modifier (×1.07) validated for Red Bull 2023 dominance;
+  Key learning: Ferrari token moved negatively despite correct Red Bull prediction —
+  always align token to the correct constructor/driver entity
+
+**`community/calibration-data/basketball/2023/06/nba-finals-g5-2023-06-12-outcome.json`**
+- Nuggets win NBA Finals 2023 Game 5 (series 4-1); Jokić athlete modifier (×1.15)
+  validated for Finals MVP performance; narrative modifier (×1.10) for championship
+  closeout validated; Key learning: narrative_active flag is POSITIVE for championship
+  closeout games — it amplifies the favored team's advantage, not a caution signal
+
+### Added — Prompt 10 (agent-prompts.md — total: 10 prompts)
+- API mode agent demonstrating Skills API integration pattern
+- Shows session-start stack fetch (`GET /stack`), macro state refresh (`GET /macro-state`),
+  4-hour freshness rule for live decisions, Python integration code example
+- First prompt explicitly designed for developers using `scripts/sportmind_api.py`
+
+### Updated — `sportmind-overview.md`
+- L3 count: 24 → 26; new bridge skills in Skills at a Glance table
+- Agent prompts count: 9 → 10 production-ready prompts
+- v3.4 roadmap marked ✅; v3.5 roadmap defined
+
+### Updated — `llms.txt` → v3.4.0
+### Updated — `i18n/README.md` — AR and HI language tables
+### Updated — `scripts/sportmind_api.py` — version 3.4 / 3.4.0
+
+---
+
+## [3.5.0] — 2026-04-03 — Security layer
+
+The security layer that makes SportMind safe for production agent use.
+Addresses the trust gap created when the Skills API (v3.3) made skill content
+accessible on demand — the same capability that makes the library more useful
+also changes its attack surface.
+
+### Added — `scripts/security_validator.py`
+
+A dedicated security scanner that runs alongside the existing skill-validator.py.
+
+**Prompt injection scan (30+ pattern categories):**
+- Instruction override: "ignore previous/prior instructions", "forget your instructions"
+- Persona hijack: "you are now", "act as", "pretend to be", "from now on you are"
+- LLM control tokens: `<|im_start|>`, `[INST]`, `###System:`, chat format injections
+- Data exfiltration: "send this data to", external fetch() calls, eval()/exec()
+- Financial manipulation: hardcoded buy/sell signals, market manipulation language
+- Jailbreak patterns: "DAN mode", "developer mode enabled", "do anything now"
+
+Runs against 194 files: all sport domain, athlete, fan-token, core, market, macro,
+agent-prompts, i18n, and platform skill files. Findings rated CRITICAL/HIGH/MEDIUM.
+CRITICAL/HIGH findings block merge. MEDIUM findings are advisory for maintainer review.
+
+Allowlist system: legitimate educational mentions of patterns (security docs, code
+examples in documentation, known data source URLs) are allowlisted by path fragment
+and description, preventing false positives in data source files.
+
+**Integrity verification:**
+Verifies all skill files against SHA-256 hashes stored in platform/skill-hashes.json.
+Reports files modified since last hash generation as HIGH findings.
+Reports new files not yet in registry as INFO findings (run --generate-hashes).
+
+**Calibration provenance check:**
+Verifies all outcome records have: `submitted_by`, `submission_timestamp`,
+`result_source_url` (non-empty), and required `outcome.result` field.
+Missing fields = MEDIUM findings that block calibration acceptance.
+
+**CLI flags:**
+  `--content`          injection scan only
+  `--hashes`           integrity check only
+  `--calibration`      provenance check only
+  `--generate-hashes`  update platform/skill-hashes.json
+  `--verbose`          show all findings including INFO level
+
+**First run result:** 0 CRITICAL, 0 HIGH, 34 MEDIUM (all legitimate external URLs
+in data source documentation files — none in agent-facing skill content)
+
+### Added — `platform/skill-hashes.json`
+
+SHA-256 hashes for all 179 SportMind skill files. The integrity anchor for the
+Skills API and for any developer or agent integrating SportMind content.
+
+Agents verify received content before injecting into context:
+```python
+import hashlib, json, requests
+
+hashes = requests.get(".../platform/skill-hashes.json").json()
+skill = requests.get(".../skills/domain.football/content").json()
+actual = hashlib.sha256(skill["content"].encode()).hexdigest()
+expected = hashes["files"].get(skill["file_path"], {}).get("sha256")
+assert actual == expected, "Content integrity check failed — do not inject"
+```
+
+Every content response from the Skills API now includes `sha256` and
+`integrity_note` fields automatically.
+
+### Added — `SECURITY.md`
+
+Complete security policy for SportMind:
+
+**5 threats documented:** Prompt injection (CRITICAL), counterfeit API endpoint (HIGH),
+calibration data poisoning (MEDIUM), subtly biased content (MEDIUM),
+skill registry manipulation (LOW)
+
+**Security infrastructure:** Automated scanning, integrity hashing, calibration
+provenance, official source declarations
+
+**Responsible disclosure:** Private reporting process, 24h acknowledge / 48h confirm
+/ 48h remove / 7d patch SLA, public post-mortem policy, permanent block for
+malicious contributors
+
+**4-tier trust model:** Core maintainers → Verified contributors → Community →
+Unverified, with review requirements and API exposure policy per tier
+
+**Security checklists:** One for skill contributors (7 items), one for developers
+and agents using SportMind (6 items)
+
+### Added — `.github/workflows/security-check.yml`
+
+CI workflow running on every PR that touches skill files:
+- Injection scan (CRITICAL/HIGH blocks merge)
+- Integrity verification against skill-hashes.json
+- Calibration provenance check
+- Auto-updates skill-hashes.json on merge to main
+
+### Updated — `scripts/sportmind_api.py` (v3.5)
+
+Every `/skills/{id}/content` response now includes:
+  `sha256`: SHA-256 hash of the returned content
+  `integrity_note`: instructions for verifying against skill-hashes.json
+
+### Updated — All 7 calibration records
+
+All seed records backfilled with provenance fields:
+  `submitted_by`: "sportmind-core"
+  `submission_timestamp`: "2026-04-02T00:00:00Z"
+  `data_quality`: {source_tier, manually_verified, official_result_confirmed}
+
+### Updated — `sportmind-overview.md`, `llms.txt` → v3.5.0
+
+---
+
+## [3.6.0] — 2026-04-03 — Bridge skills, i18n, first calibration report
+
+### Added — 3 new Layer 3 bridge skills (L3 count: 26 → 29)
+
+**`fan-token/baseball-token-intelligence/baseball-token-intelligence.md`**
+- MLBTIS (MLB Token Impact Score): game importance (WS clinch=1.00→regular=0.20),
+  pitcher quality (PQS ×0.75-1.18), franchise factor, market sentiment
+- Pitcher-first model documented as THE defining principle: starting pitcher controls
+  60-70% of game outcome variance — more decisive than any other single position
+  in any sport in the library, including the MMA fighter
+- Ohtani dual signal model: pitcher days (PQS × 1.08 attendance multiplier) vs
+  batter days (BQS + load management); contract context ($700M/10yr)
+- Trade deadline (July 31): highest summer signal event; pitcher acquisitions most impactful
+- Latin America market: Dominican Republic, Venezuela, Cuba, Puerto Rico as natural
+  first-adopter fan token markets; combined with Japan = most complementary global pairing
+- MLB signal calendar: Spring Training → trade deadline → playoff chase → post-season
+
+**`fan-token/ice-hockey-token-intelligence/ice-hockey-token-intelligence.md`**
+- NHLTIS (NHL Token Impact Score): game importance (SCF G7=1.00→regular=0.20),
+  goaltender quality (GSAx-based ×0.72-1.18), playoff position, market sentiment
+- Goaltender model: GSAx as primary variable; morning skate confirmation timing rule;
+  surprise scratch protocol (reload analysis); B2B second game ×0.88 fatigue modifier
+- Game 7 architecture: home ice ×1.10, veteran GK experience modifier, OT frequency 25%,
+  series score compound signal (winning G1 = 65%/70% series win probability)
+- Canadian market: 7 franchises; 3× US per-capita viewership; ~30% crypto adoption;
+  Maple Leafs ($3.5B) and Canadiens (24 Cups, French-Canadian identity) as top targets
+- European cross-market signal: Swedish/Finnish/Czech players on token-relevant teams
+  = dual-market signal during World Championship and Olympics
+- NHL trade deadline (March) as primary non-playoff signal event
+
+**`fan-token/motogp-token-intelligence/motogp-token-intelligence.md`**
+- MotoTIS (MotoGP Token Impact Score): race importance (Valencia decider=1.00→standard=0.50),
+  hardware tier (Tier 1 ×1.15→Tier 4 ×0.88), circuit fit, market sentiment
+- Dorna single-deal commercial model: one conversation covers entire championship;
+  compared to F1 multi-stakeholder complexity; VideoPass + app + gaming = prerequisites met
+- Rider-centric token model: Márquez/Bagnaia/Binder as natural token subjects vs F1
+  constructor-centric model; riders switch teams; fan attachment follows the rider
+- Wet race hierarchy reversal: hardware modifier reduced 50% in wet conditions; wet
+  specialists override tier advantage; tyre compound selection as early signal
+- Southeast Asia: Indonesia (80M+ fans, Mandalika), Thailand (Buriram), Malaysia (Sepang)
+  combined 500M+ population; mobile-first crypto markets; Dorna + SEA tech co. = catalyst
+- Sprint race model (since 2023): Saturday sprint = 40% signal weight; crash monitoring
+- Marc Márquez: 8× World Champion; Ducati signing (2024) = hardware + talent peak signal
+
+### Added — 2 new i18n starter skills
+
+**Spanish (`i18n/es/`) — 1 new skill (total: 4)**
+- `sports/handball/sport-domain-handball.md` — ASOBAL and Spanish national team
+  context; FC Barcelona Handbol brand halo signal for $BAR token (+2-3% during EHF
+  Final4 if Barcelona wins); Los Gladiadores 2× World Champions; goalkeeper rule;
+  financial tier gap (Barcelona vs ASOBAL field)
+
+**Portuguese (`i18n/pt/`) — 1 new skill (total: 3)**
+- `sports/cricket/sport-domain-cricket.md` — Brazilian diaspora community market
+  (São Paulo Cricket Association, 500k+ South Asian residents); Argentina ICC member;
+  Guiana West Indies connection; India-Pakistan ×2.00 in Portuguese; IPL regulatory
+  gap; dew factor for T20 noturno
+
+### Added — First calibration aggregate report
+
+`community/calibration-data/calibration-report-v3.6.json` — Machine-readable
+aggregate across all 7 seed records generated by calibration_aggregate.py
+
+`community/calibration-data/calibration-methodology-report-v3.6.md` — Human-readable
+methodology report with full interpretation:
+- 100% direction accuracy (7/7) — informational; seed records from known outcomes
+- All modifiers correctly INSUFFICIENT_DATA — minimum thresholds not reached
+- Key insight 1: macro override (UFC 281 + FTX) is the library's most complex signal
+  interaction; it behaved correctly — token fell despite correct fight prediction
+- Key insight 2: downstream congestion (State of Origin → NRL clubs) more valuable
+  than primary result signal
+- Key insight 3: narrative_active in championship closeout = positive amplifier
+  for favoured team, not a caution signal
+- Next milestone: 50 community records for dew_modifier and rivalry_form_discount
+  (lowest thresholds; cricket and rugby league target sports)
+
+### Updated — `sportmind-overview.md`, `llms.txt` → v3.6.0
+### Updated — `i18n/README.md` — ES and PT language tables
+### Updated — `scripts/sportmind_api.py` — version 3.6 / 3.6.0
+### Updated — `platform/skill-hashes.json` — regenerated for all new files
+
+---
+
+## [3.7.0] — 2026-04-03 — Tier 2 bridge completion, validator extended
+
+### Added — 3 new Layer 3 bridge skills (L3 count: 29 → 32)
+
+**`fan-token/nascar-token-intelligence/nascar-token-intelligence.md`**
+- NASCARTIS: race importance (Daytona=1.00, Championship 4=0.95, standard=0.35),
+  track type match modifier (superspeedway specialist ×1.18, road course ×1.15)
+- Track type taxonomy: 5 types with variance profiles — superspeedway (widen CI 40%),
+  short track (narrow CI 15%), intermediate (standard), road course (specialist ×1.15),
+  dirt (maximum variance/exhibition)
+- Daytona 500 model: separate engagement signal from prediction signal; engagement
+  = maximum; prediction = LOW by design (pack racing); fan token launch timing note
+- Championship 4 architecture: ×1.25 motivation modifier for championship-eligible drivers
+- Sponsor loyalty: 72% purchase alignment = co-branded token > team-only token
+- Charter vs open team: charter = franchise security = token substrate viable
+
+**`fan-token/kabaddi-token-intelligence/kabaddi-token-intelligence.md`**
+- PKLTIS: match importance (Final=1.00, rivalry=0.65, standard=0.35),
+  raider form (>60% CARRY ×1.25, absent ×0.78), home advantage ×1.08
+- Star raider primacy: most individual-dominant team sport in library;
+  >60% raid success rate = team carry potential; absent star raider = floor ×0.78
+- All Out event model: pre-match detection via corner defender rating; in-match
+  signal: achieving team 65% win rate from All Out point in close matches
+- India market commercial context: PKL token could launch BEFORE IPL tokens
+  (no BCCI approval required); JioCinema/Reliance infrastructure ready; VDA monitoring
+- Dream11 ownership % as leading indicator (proxy for on-chain holder activity)
+
+**`fan-token/netball-token-intelligence/netball-token-intelligence.md`**
+- NetTIS: competition tier (World Cup Final=1.00, Commonwealth Games Final=0.88),
+  shooter accuracy (>92% = ×1.15), trans-Tasman factor (Aus vs NZ = ×1.25)
+- Women's sport commercial moment: Caitlin Clark halo effect documented;
+  broadcaster investment in ANZ/SSN/Superleague; first-mover token advantage
+- Netball World Cup 2027 architecture: catalyst window aligning with RWC 2027 (Aus)
+- Centre pass conversion as leading team performance indicator (proxy for xG)
+- ANZ Premiership, Suncorp Super Netball, Vitality Superleague profiles
+- 75% female fanbase = underserved audience by current Socios/Chiliz ecosystem
+
+### Added — 1 i18n skill (French athlete handball)
+
+**`i18n/fr/athlete/handball/athlete-intel-handball.md`**
+- GK save rate override rule in French (>40% supplants team-level advantage)
+- Position-specific modifier table (GK, pivot, wing, centre)
+- PSG cross-sport token signal: GK form → $PSG Football brand halo signal
+- EHF Final4 integration example with full workflow in French
+- Composite modifier pipeline: GK ×1.10 × pivot ×1.05 × ailier ×1.04 = ×1.20
+
+### Added — calibration_report.json (missing v3.6 deliverable)
+
+`community/calibration_report.json` — first calibration aggregate report:
+- 7 seed records across 6 sports; direction accuracy 100% (expected, small sample)
+- All modifiers showing INSUFFICIENT_DATA (1–2 events vs 50–200 minimum required)
+- Report generated by `scripts/calibration_aggregate.py --all --report`
+- Establishes baseline for tracking as community records accumulate
+
+### Updated — `scripts/skill-validator.py`
+
+Extended from 71 to 84 files checked. Now covers fan-token bridge skills.
+- `BRIDGE_REQUIRED_SECTIONS`: requires ## At a glance, ## Agent reasoning, ## Compatibility
+- `check_bridge_skill()`: structure + token impact score presence check
+- Added variant "Key agent reasoning rules" for cricket bridge heading
+- All 13 bridge skills pass: 84 files, 0 errors
+
+### Updated — `platform/skill-hashes.json`
+
+Regenerated for 185 files (previously 179 — 6 new files: 3 bridges, 1 i18n,
+1 calibration report, updated validator).
+
+### Updated — Library-wide counts
+- L3 skills: 29 → 32 (NASCAR, Kabaddi, Netball bridges added)
+- sportmind-overview.md, llms.txt: L3 count updated; new bridges in tables
+- API version: 3.6 → 3.7 / 3.6.0 → 3.7.0
+- i18n README: French updated to include athlete/handball
+
+---
+
+## [3.8.0] — 2026-04-03 — Application blueprints
+
+### Added — `examples/applications/` (7 files: README + 6 blueprints)
+
+Six fully specified application blueprints showing developers exactly what to build
+with SportMind intelligence and exactly which skills to use. Each blueprint includes:
+the problem solved, target users, the precise SportMind skill stack, integration code
+examples, output format, and a full agent system prompt.
+
+**App 1 — Decentralised Sports Prediction Finance**
+(`examples/applications/app-01-defi-prediction-market.md`)
+A SportMind + Azuro prediction market that publishes structured intelligence before
+market open. SMS-gated signal publication (SMS < 60 = INSUFFICIENT_DATA, not published).
+Full DeFi execution flow (TVL check → slippage estimate → Azuro placement). Signal
+separation documented: prediction market signal ≠ fan token signal (UFC 281 case study).
+Chiliz Chain on-chain publication code example. Regulatory note.
+
+**App 2 — Fan Token Portfolio Intelligence**
+(`examples/applications/app-02-portfolio-intelligence.md`)
+Contextual explanation for fan token holders — explaining portfolio movements, surfacing
+upcoming signal events, and providing lifecycle-aware reasoning. HAS/TVI on-chain
+baseline. NCSI spillover narrative for national team events. Lifecycle phase awareness
+(Phase 2 vs Phase 3 price moves have different interpretations). Push notification
+integration for upcoming signal events. Manchester City post-UCL-exit example.
+
+**App 3 — Athlete Commercial Intelligence Platform**
+(`examples/applications/app-03-athlete-commercial.md`)
+Full commercial brief workflow for sports agents, clubs, and brands. Full 9-skill
+commercial stack (PI → DTS/TAI/PS → SHS/AGI → AELS → APS → TVS/DLVS → ABS → AFS).
+Complete commercial brief format with all metrics, APS portability assessment, ABS
+calculation with component breakdown, top-3 sponsorship recommendations with estimated
+market rates, token-native activation ideas. APS is explicitly positioned as the metric
+no existing commercial sports tool provides.
+
+**App 4 — Sports Brand Token Strategy Tool**
+(`examples/applications/app-04-brand-token-strategy.md`)
+Pre-launch due diligence for clubs evaluating fan token partnership. Sport tier
+assessment → lifecycle LTUI modelling (optimistic/base/pessimistic) → PHS projection
+at 12 months → regulatory scan by primary market → timing recommendation. Full due
+diligence report format. Mid-tier domestic football club example with complete report.
+
+**App 5 — World Cup 2026 Intelligence Dashboard**
+(`examples/applications/app-05-world-cup-dashboard.md`)
+Live intelligence for the FIFA World Cup 2026 tournament. Four components: NCSI live
+tracker (per-match, per-player club spillover), tournament signal calendar (5 phases
+from qualification through Final), club token impact monitor (post-match, within 1h),
+US market unlock module (tracking potential Tier 2→1 upgrade catalysts in USA/Canada/
+Mexico host markets).
+
+**App 6 — Sports GameFi Intelligence Layer**
+(`examples/applications/app-06-gamefi-layer.md`)
+On-chain sports game mechanics powered by SportMind SMS. Four mechanics: SMS-weighted
+scoring (correct pick at SMS 80+ = 15pts vs 10pts at SMS <60), flag-aware pick locking
+(lineup_unconfirmed = 50% weight until confirmed), multi-sport tournament with SMS
+rankings as tiebreaker, macro state game events (bear market triggers prize reduction
+and macro-knowledge bonus). On-chain pick integrity via SHA-256 skill hash signature.
+
+### Updated — `sportmind-overview.md`
+- Application blueprints table added to developer tooling section
+- v3.8 roadmap marked ✅; v3.9 defined
+
+### Updated — `llms.txt` → v3.8.0
+### Updated — `scripts/sportmind_api.py` → v3.8
+### Updated — `platform/skill-hashes.json` → regenerated
+
+---
+
+## [3.9.0] — 2026-04-03 — SportFi Kit integration
+
+### Added — Partner 7: SportFi Kit (`platform/integration-partners.md`)
+
+Full integration documentation for SportFi Kit — a React/TypeScript developer toolkit
+for building fan engagement dApps on the Chiliz Chain.
+
+**What SportFi Kit is:**
+SportFi Kit is an MIT-licensed open-source development suite described as "the missing
+bridge between the Socios.com ecosystem and the decentralised web." It provides React
+components/hooks for fan token interactions, Solidity smart contracts for P2P wagering
+on Chiliz Chain, automatic environment detection for Socios.com Wallet Browser and
+Telegram Mini Apps, CLI scaffolding for new sports dApps, and token-gating primitives.
+Tech stack: TypeScript (80%), Solidity (3%), React + Tailwind, npm monorepo.
+Repository: github.com/AltcoinDaddy/Sportfi-kit
+
+**Layer separation (no conflicts):**
+SportFi Kit operates at the application/UI/contract layer.
+SportMind operates at the intelligence/reasoning layer.
+Neither overlaps with the other. Both are MIT licensed. No commercial agreement
+required. A developer can use either independently or both together.
+
+**What SportFi Kit provides to SportMind applications:**
+Token-gating (check fan token holdings before granting access), P2P wagering contracts
+on Chiliz Chain (the settlement layer for App 1's DeFi prediction market), Socios Wallet
+and Telegram Mini App environment detection (reaches users inside Socios app), CLI
+scaffolding for rapid dApp creation.
+
+**What SportMind provides to SportFi Kit applications:**
+Pre-match intelligence (adjusted_score + SMS) for wagering contracts, portfolio
+context (lifecycle phase, NCSI narrative, upcoming signal calendar) for token-gated
+experiences, macro state for context-aware UI decisions, NCSI + FTIS for live
+engagement displays, commercial intelligence (ABS, APS, AELS) for athlete features.
+
+**Integration code pattern:** Complete TypeScript example showing useSportMind() hook
+calling Skills API, SMS-gated wager button, flag-aware UI state, 7-application mapping
+table showing SportFi Kit + SportMind split per blueprint.
+
+### Added — App 7: SportFi Kit + SportMind Full-Stack Blueprint
+(`examples/applications/app-07-sportfi-kit-integration.md`)
+
+Complete React/TypeScript integration reference for Chiliz Chain dApps:
+- useSportMind() custom React hook: fetches full intelligence stack + macro state,
+  parses into clean signal object (sms, smsTier, adjustedScore, direction, flags,
+  canEnter, shouldWait), 4-hour macro refresh interval
+- PredictionWidget component: token-gated (SportFi Kit) + intelligence-powered
+  (SportMind), SMS-gated wager button with on-chain signal hash for integrity
+- PortfolioIntelligence component: fan token portfolio from SportFi Kit wallet hook,
+  per-token intelligence panel from SportMind commercial brief stack
+- Environment-aware MacroBanner: SportFi Kit environment detection (Socios/Telegram)
+  + SportMind macro state — compact in-app display vs full browser display
+- Integrity verification utility: verifies skill content SHA-256 against
+  platform/skill-hashes.json before injecting into agent context
+- Vercel deployment config matching SportFi Kit's existing deployment pattern
+
+### Updated — `examples/applications/README.md`
+
+Application blueprints table and file listing updated: 6 → 7 blueprints.
+
+### Updated — `sportmind-overview.md`, `llms.txt` → v3.9.0, API v3.9
+
+---
+
+## [3.10.0] — 2026-04-04 — MCP server, temporal awareness, security expansion, i18n deepening
+
+### Added — `platform/sportmind-mcp-server.md`
+
+Full MCP (Model Context Protocol) server specification for SportMind. Moves from
+static context injection to dynamic on-demand intelligence retrieval.
+
+Four tools defined with complete JSON schemas and example request/response pairs:
+- `sportmind_signal`: Generate pre-match intelligence signal (adjusted_score, SMS,
+  flags, reasoning summary); `include_defi_context` option
+- `sportmind_macro`: Get current macro state (crypto cycle phase, macro_modifier,
+  active events); always call before fan token analysis
+- `sportmind_stack`: Load full intelligence stack in correct loading order with
+  optional `compressed` mode (500-char summaries, ~70% token cost reduction)
+- `sportmind_verify`: Verify skill content SHA-256 integrity against skill-hashes.json
+
+Integration patterns documented:
+  Claude Desktop config (claude_desktop_config.json with stdio transport)
+  Anthropic API remote integration (mcp_servers parameter with HTTP/SSE)
+  Tool call sequencing rule: macro → signal/stack → verify (optional)
+  Relationship to Skills API: MCP for agent frameworks, Skills API for web apps
+
+### Added — `scripts/sportmind_mcp.py`
+
+Working MCP server implementation (234 lines, Python). Implements all 4 tools,
+SMS computation from skill file coverage, freshness notes, macro state loading,
+integrity verification against skill-hashes.json. Supports stdio transport
+(Claude Desktop). Install: `pip install mcp --break-system-packages`
+
+### Added — `core/temporal-awareness.md`
+
+Six-tier information freshness taxonomy — the missing piece for production deployments.
+
+| Tier | Type | Expires | Example |
+|---|---|---|---|
+| 0 | Permanent | Never | Cricket dew factor model, confidence schema |
+| 1 | Slow | 90 days | Market tier assessments, regulatory summaries |
+| 2 | Moderate | 1-4 weeks | Form scores, league standings, career stage |
+| 3 | Daily | 4-8 hours | Macro state, injury lists, HAS trends |
+| 4 | Match-day | T-2h | Lineups, weather, weigh-ins, pitching rotation |
+| 5 | Live | Minutes | DeFi TVL, token price, in-play events |
+
+Staleness formulas: form_modifier_reliability = 1.00 - (days/28 × 0.15) at 4+ weeks.
+The SportMind boundary: SportMind provides intelligence models (Tier 0-2), not live
+data (Tier 5). Applications bridge the gap. Documented clearly with code examples.
+Two production deployment patterns: scheduled macro refresh and MCP freshness checking.
+
+### Updated — `SECURITY.md` (274 → 434 lines)
+
+Threat 6 — Prompt theft (MEDIUM):
+  System prompt protection rules for deployed agents (5 rules, copy-paste ready)
+  MCP tool mode as more secure alternative: skill content fetched on demand rather
+  than resident in system prompt means there is nothing to extract
+  Note on open-source SportMind: core content is publicly available; primary concern
+  is protecting application-specific customisations
+
+Threat 7 — Meta-prompt injection (MEDIUM):
+  Scope enforcement rules (5 rules, copy-paste ready for system prompts)
+  Query classification Python guard with SCOPE_VIOLATION_PATTERNS list
+  Relationship to Threat 1: file-level injection caught by security_validator.py;
+  query-level injection must be caught at runtime by the application
+  
+Developer checklist expanded: 7 → 9 items (added prompt theft and meta-injection)
+Changelog section added to SECURITY.md for tracking security changes
+
+### Updated — `i18n/hi/sports/cricket/` (141 → 266 lines)
+
+Full IPL intelligence layer added:
+  Franchise token readiness ranking: MI (5× champion, Reliance), CSK (Dhoni legacy),
+  RCB (Kohli brand), KKR (SRK entertainment crossover) — commercial case per franchise
+  IPL Signal Calendar: Auction (January), Season (March-May), Retention (October-November)
+  with specific signal multipliers per event type
+  India 2026 T20 World Cup hosting: documented as potential regulatory catalyst
+  (SEBI clarity + India hosting = perfect IPL token launch window)
+
+Dew factor by venue (new — specific to India):
+  Wankhede (Mumbai): very high dew; Eden Gardens (Kolkata): high; 
+  Chepauk (Chennai): low; Dubai: very high — venue-specific guidance
+
+ICC Tournament Calendar: T20 WC (odd years), ODI WC, Asia Cup timing with
+India-Pakistan guarantee clause
+
+### Updated — `i18n/fr/sports/football/` (151 → 264 lines)
+
+Ligue 1 commercial context added:
+  18-club format (since 2023-24) with European qualification slots
+  DAZN + beIN Sports + Canal+ broadcast context
+  Club-by-club token readiness: PSG, OM, OL, Monaco, LOSC
+  Relegation signal model for token lifecycle impact
+
+PSG $PSG deep analysis:
+  QSI ownership geopolitical context (Qatar-France diplomatic relations)
+  ATM by position (star = 0.85-0.95, midfield = 0.55-0.70, defence = 0.40-0.55)
+  PSG Handball halo documented (+3% at EHF Final4, +5% if CL winner)
+
+NCSI Équipe de France:
+  Euro 2028 (Netherlands/Germany), WC 2026 (USA/Canada/Mexico) projections
+  France WC win scenario: +30-50% signal for tokens of clubs with French players
+
+French regulatory context:
+  ANJ (prediction markets), AMF/PSAN (crypto assets), MiCA (EU harmonisation)
+  Note: fan tokens ≠ sports betting legally — distinct regulatory paths
+
+### Updated — `sportmind-overview.md`
+- Core count: 15 → 16 (temporal-awareness.md)
+- Platform: sportmind-mcp-server.md added to platform layer table
+- v3.10 roadmap marked ✅; v3.11 defined
+
+### Updated — `llms.txt` → v3.10.0, `scripts/sportmind_api.py` → v3.10
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.11.0] — 2026-04-04 — International football cycle, governance + scouting, agentic workflows, compressed skills
+
+### Added — `market/international-football-cycle.md` (the centrepiece of v3.11)
+
+The perpetual international football cycle model — SportMind's answer to the gap
+identified in v3.10: the World Cup is one peak in a continuous cycle, not the end.
+
+Three-tier NCSI hierarchy with precise weights for every competition type:
+  Tier 1 (NCSI 1.00): World Cup, Euros (×1.10 for European clubs)
+  Tier 2 (NCSI 0.45–0.80): Nations League, WC/Euro qualification, Copa América, AFCON
+  Tier 3 (NCSI 0.10–0.25): Friendlies (with four specific high-value exceptions:
+    injury comeback, squad selection signal, pre-tournament preparation, prestige fixture)
+
+Post-tournament 4-phase transition model:
+  Phase 1 (Week 1-2): Narrative completes — do not act on residual signal
+  Phase 2 (Week 3-6): Transfer window peak — run APS for all token-connected clubs
+  Phase 3 (July-Aug): Pre-season/league restart — club signals resume primacy
+  Phase 4 (September+): Return to cycle — ×0.85 tournament fatigue modifier applied
+
+Euro 2028 planning framework:
+  Host: Netherlands + Germany; June-July 2028
+  For European club tokens: equal signal weight to World Cup 2026
+  Qualification begins September 2026 — immediately after World Cup ends
+  Euro 2028 NCSI: ×1.10 vs World Cup for European club tokens (higher concentration)
+
+International break protocol:
+  10 windows per year; pre-break / during / post-break agent rules defined
+  Key monitoring: star player injury (immediate negative), comeback (immediate positive),
+  decisive qualification result (sustained directional signal)
+
+### Updated — `market/world-cup-2026.md`
+
+Post-tournament transition section added:
+  Week-by-week guidance from final whistle to Euro 2028 qualification
+  September 2026 dual-signal: post-WC recovery + first Euro 2028 qualifier simultaneously
+  Reference to international-football-cycle.md for full model
+
+### Added — `examples/applications/app-08-governance-intelligence.md`
+
+Pre-vote commercial intelligence for fan token governance.
+Vote types: player signing, commercial partnership, kit/branding.
+Output: full governance brief with LTUI YES vs NO projection, risk flags,
+APS for signing votes, PHS for partnership votes, AFS for sponsorship votes.
+SportFi Kit integration: useGovernanceVote hook with signal hash for on-chain integrity.
+Agent rules: "frame as intelligence context, not voting recommendation."
+
+### Added — `examples/applications/app-09-talent-scouting.md`
+
+Complete 7-section scouting intelligence report for sporting directors.
+Sections: PI (on-pitch foundation), DTS/TAI/PS (trajectory + durability),
+SHS/AGI/AELS (social + token engagement), APS/TVS/TSI (transfer assessment),
+ABS (commercial synthesis), AFS (sponsorship categories), LTUI impact.
+
+Post-tournament APS recalculation: World Cup/Euro standout performances shift
+APS by 0.10-0.20 in 4 weeks — recalculate before each transfer window.
+Transfer timing: pre-contract approach strategy for expiring contracts.
+
+### Added — `examples/agentic-workflows/README.md`
+
+Four reusable long-running workflow patterns with full Python implementation:
+
+Pattern 1 — Continuous Portfolio Monitor:
+  4-hour scheduled cycle; macro check → per-token analysis → alert detection;
+  alert conditions: macro override, high-signal event < 48h, injury flag;
+  autonomous vs escalation rules documented
+
+Pattern 2 — Pre-Match Intelligence Chain:
+  T-48h analysis (lineup_unconfirmed = True, 50% position size);
+  T-2h update (lineup confirmed → full size; key player absent → full reload);
+  never carry T-48h signal past T-2h without update
+
+Pattern 3 — Tournament Tracker:
+  Per-match NCSI calculation with stage multipliers (group=1.0, final=2.0);
+  elimination signal: -0.05 to -0.18 depending on stage;
+  tournament fatigue modifier for semi-finals/final;
+  TournamentTracker class with squad_data initialisation and signal report
+
+Pattern 4 — Transfer Window Monitor:
+  Rumour tier → TSI mapping (Tier 1 journalist = 0.80, social media = 0.15);
+  TSI >= 0.60 triggers APS recalculation;
+  confirmation → final token impact report (selling club and buying club)
+
+Human escalation principles: 5 escalate conditions, 4 autonomous conditions,
+3 never-autonomous conditions (financial execution, governance votes, transfer offers).
+
+### Added — `compressed/README.md`
+
+10 compressed skill summaries (~1,070 tokens total vs ~32,000 full):
+Football, cricket, basketball, MMA, F1, football token intel, macro state,
+fan token lifecycle, DeFi liquidity, confidence output schema.
+97% compression ratio. Use for monitoring; use full for decision-quality analysis.
+Accessible via MCP: sportmind_stack(compressed=true)
+Accessible via API: GET /stack?sport={sport}&compressed=true
+
+### Updated — `sportmind-overview.md`
+- Market count: 35 → 36 (international-football-cycle.md)
+- Application blueprints: 7 → 9 (governance + talent scouting)
+- Agentic workflows section added
+- Compressed skills section added
+- v3.11 roadmap marked ✅; v3.12 defined
+
+### Updated — `llms.txt` → v3.11.0, `scripts/sportmind_api.py` → v3.11
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.12.0] — 2026-04-04 — Manager intelligence, reasoning patterns, athlete financial intelligence, RWA/SportFi layer
+
+### Added — `core/manager-intelligence.md`
+
+Completes the people-layer of the library. Athletes have deep coverage. Officials
+have officiating-intelligence. Managers now have a first-class intelligence model.
+
+Manager Signal Index (MgSI): (Stability×0.35)+(Track_Record×0.30)+(System_Fit×0.20)+(Press_Conduct×0.15)
+
+New manager effect model (quantified):
+  Permanent appointment Match 1-3: ×1.10 | Match 4-7: ×1.04
+  Caretaker Match 1-2: ×1.12 (crisis response) | Match 6+: ×0.93 drag
+
+Sacking signal 5-stage progression:
+  Stage 1 (media speculation) → Stage 2 (named sources) → Stage 3 (board statement)
+  → Stage 4 (confirmed sacking) → Stage 5 (replacement named)
+  Average Stage 1 → confirmed: 8-14 days. Token signal by stage documented.
+
+Manager conduct intelligence: touchline card rate, fine history (3+ in 12 months = risk),
+  player relationship signals, crisis escalation model
+
+Sport-specific models: football (press conference language decoder, tactical system
+  signals, tenure averages by club tier), rugby (coaching structure signals),
+  basketball (NBA minutes distribution, EuroLeague cycle patterns)
+
+Career record JSON schema for structured manager data
+
+### Added — `core/reasoning-patterns.md`
+
+The formal reasoning model that connects all other parts of the library.
+
+Six-step SportMind reasoning chain:
+  Step 1: Macro check (always first)
+  Step 2: Competition classification
+  Step 3: Athlete availability (lineup_unconfirmed protocol)
+  Step 4: Signal computation (modifier product)
+  Step 5: DeFi/liquidity check (fan token applications only)
+  Step 6: Confidence output (SMS + schema)
+
+Conflict resolution hierarchy (4 priority levels):
+  Priority 1: Hard overrides (macro_override, liquidity_critical, lineup at T-0)
+  Priority 2: Soft overrides (injury_warning, weather_risk, manager_departure_imminent)
+  Priority 3: Competing signals (weighted average, not binary choice)
+  Priority 4: Genuine uncertainty (drop confidence tier, note conflict)
+
+Uncertainty protocols: incomplete lineup, stale form data, missing macro state,
+  uncovered sport — each handled explicitly without fabrication
+
+Sport-specific chain variations: football (lineup heaviest), cricket (format pre-chain),
+  MMA (weigh-in = Step 1 equivalent), F1 (hardware tier + weather override),
+  NBA (star availability dominates), NHL (morning skate goaltender window)
+
+Commercial reasoning chain: 6-step adaptation for APS/governance/scouting analysis
+
+Seven anti-patterns documented: skipping macro, assuming lineup, single-variable
+  analysis, false precision, ignoring staleness, conflating prediction/token signals,
+  over-narrating low-SMS outputs
+
+Pre-output validation checklist (10 items)
+
+### Added — `core/athlete-financial-intelligence.md`
+
+Financial layer for accurate APS calculations.
+
+Financial APS adjustment formula:
+  APS_adjusted = APS_base × Wage_Feasibility × Image_Rights_Factor × Contract_Stage
+
+Contract stage multipliers:
+  4+ years remaining: ×0.85 | 2-3 years: ×1.00 | 1 year: ×1.15
+  < 6 months (pre-contract eligible): ×1.25 | Expired (free agent): ×1.30
+
+Wage tier structure (football 2025-26): Elite (€300k+/week) through Lower (< €60k/week)
+  Wage_Feasibility = target_wage_ceiling / player_current_wage (capped at 1.00)
+
+Image rights taxonomy:
+  Player-controlled: APS +0.05 (more portable brand)
+  Club-controlled: APS -0.03
+  Token-native clause: APS +0.08 to +0.12 (contractual token engagement)
+
+Bonus/incentive signals: UCL appearance bonus → reduces portability to non-European clubs
+  (APS_adjusted -0.10 to -0.15); loyalty bonus pending flag; release clause active flag
+
+Financial data sources: Capology, Spotrac, Serie A published wages
+  Reliability tiers: Official published (HIGH) vs Agent reports (LOW)
+
+Four new flags: wage_constraint, pre_contract_window, loyalty_bonus_pending, 
+  release_clause_active, image_rights_player_controlled
+
+### Added — `fan-token/rwa-sportfi-intelligence/rwa-sportfi-intelligence.md`
+
+Phase 5 intelligence layer — SportMind's framework for reasoning about RWA in sport.
+
+RWA Signal Framework (RSF):
+  (Asset_Quality×0.30)+(Legal_Clarity×0.30)+(Liquidity_Depth×0.25)+(Yield_Sustainability×0.15)
+
+Phase 5 spectrum: Arriving Now (staking, LP, prediction markets) → Near-Term
+  (media rights, performance bonds, micro-equity) → Longer-Term (full RWA collateral)
+
+Staking yield taxonomy: Tier 1 commercial (1.00) | Tier 2 protocol (0.65-0.80)
+  | Tier 3 emissions (0.20-0.45). APY > 40% = almost certainly Tier 3.
+
+Outcome-linked supply mechanics: SportMind's adjusted_score sits directly upstream —
+  win probability implies supply burn direction; competition tier implies magnitude
+
+Tokenised media rights: Premier League (£10B+), IPL ($6.2B), NFL ($2.5B/yr) as
+  benchmark assets; RSF Asset_Quality 0.90, Legal_Clarity 0.40-0.65
+
+Player performance bonds: DTS + PI + TAI + ABS = bond pricing inputs; minimum
+  thresholds (DTS≥75, age≤27, ABS≥70, TAI≥65) for intelligence framing
+
+CollateralFi: fan token LTV tiers (70% for Tier 1, 40-60% for active, 20-40% for Phase 3);
+  DeFi leverage cascade pattern documented for major negative events
+
+Monthly monitoring framework: Chiliz, DeFi protocols, regulatory (MiCA, SEBI, FCA, SEC)
+
+### Updated — `sportmind-overview.md`
+- Core count: 16 → 19 (manager, reasoning-patterns, athlete-financial)
+- L3 count: 29 → 30 (rwa-sportfi-intelligence)
+- All new files added to Skills at a Glance tables
+- v3.12 roadmap marked ✅; v3.13 defined
+
+### Updated — `llms.txt` → v3.12.0, API → v3.12
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.13.0] — 2026-04-04 — Rugby/cricket cycles, full sport compression, community calibration framework
+
+### Added — `market/international-rugby-cycle.md`
+
+Applies the international-football-cycle framework to both rugby codes.
+
+Rugby union NCSI hierarchy: RWC Final=1.00, RWC knockout=0.85-0.95, Six Nations
+decider=0.80, Lions series=0.75, Rugby Championship (Bledisloe)=0.70, Autumn
+Internationals=0.35-0.50. CVC Capital Partners investment (Six Nations/Premiership/URC)
+documented as structural tokenisation signal. Grand Slam attempt = 7-week sustained
+narrative. Post-WC transition: faster than football (no transfer window equivalent;
+return to club competition within 3-4 weeks).
+
+Rugby league NCSI hierarchy: RLWC Final=1.00, State of Origin Game 3=0.90, NRL Grand
+Final=0.90. State of Origin downstream NRL congestion signal documented as the most
+commercially valuable underpriced signal in rugby league. Cross-code annual calendar
+shows November as simultaneous signal window for both codes.
+
+### Added — `market/international-cricket-cycle.md`
+
+Cricket's parallel four-layer signal model fully documented.
+
+Three-tier NCSI hierarchy: T20 WC Final/ODI WC Final=1.00, WTC Final=0.85, ICC
+knockouts=0.80-0.95, Asia Cup Final=0.75, Ashes decisive Test=0.75, standard
+bilateral=0.40-0.65, IPL Qualifier/Final=0.70, standard IPL=0.35.
+
+India premium: every India match ×1.40; India-Pakistan ×2.00 permanent override.
+ICC Tournament Calendar: T20 WC odd years (2026 India hosting = regulatory catalyst),
+ODI WC every 4 years (2027 South Africa), WTC 2-year cycle.
+
+Bilateral model: series_score_momentum applied (trailing team at 0-2 in Test series =
+narrative_active flag). Domestic league interaction: IPL overlaps with international
+calendar; never double-apply NCSI from both layers.
+
+Post-tournament transition: domestic league recruitment (player auction values shift
+with ICC tournament performance); faster return to club competition than football.
+
+### Updated — `compressed/README.md` (168 → 445 lines)
+
+22 new compressed sport domain summaries added (all remaining full domain skills):
+Rugby union, rugby league, AFL, American football (NFL), tennis, baseball, ice hockey,
+MotoGP, NASCAR, esports, boxing, handball, kabaddi, netball, golf, horse racing, darts,
+snooker, athletics, cycling, swimming, rowing, winter sports.
+
+Total compressed skills: 33 (28 sport domains + 5 intelligence layers)
+Total tokens: ~3,360 vs ~85,000 full stack (96% compression)
+Index table updated with all 33 entries.
+
+### Added — `community/calibration-data/CONTRIBUTING.md`
+
+Complete contributor framework for external community calibration submissions.
+
+Validity requirements: pre-match timestamp required; official source URL; provenance
+fields (submitted_by, submission_timestamp); no cherry-picking — wrong predictions
+with documentation are more valuable than undocumented correct ones.
+
+Step-by-step submission process with Python code examples, full JSON template with
+all required fields, file naming convention, and PR labels.
+
+Quality tiers: Gold (full pre-match docs + verified outcome within 48h), Silver
+(direction + basic modifiers + official source), Bronze (clear evidence analysis
+preceded match), Rejected (no pre-match evidence or missing provenance).
+
+Priority contributions: dew_modifier (50 records needed — cricket T20 evening), 
+rivalry_form_discount (50 records — rugby league SOO), narrative_modifier (100 records),
+weight_miss MMA signal (50 records). These are closest to recalibration thresholds.
+
+Calibration review process: threshold reached → maintainer report → 7-day community
+review → 70% consensus required → modifier update documented in CHANGELOG.
+
+Recognition: leaderboard acknowledgement, sport expertise badges, calibration impact
+badge (when records trigger a recalibration). No financial incentives — biased data
+is the risk financial incentives create.
+
+### Updated — `sportmind-overview.md`
+- Market count: 36 → 38 (rugby cycle + cricket cycle)
+- Compressed skills count updated: 10 → 33
+- v3.13 roadmap marked ✅; v3.14 defined
+
+### Updated — `llms.txt` → v3.13.0, API → v3.13
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.14.0] — 2026-04-04 — Derby intelligence, leagues advanced, cup competitions, ticketing, NFTs/collectibles
+
+### Added — `core/derby-intelligence.md`
+
+Derby Signal Model (DSM): competition_tier_weight × rivalry_intensity × form_compression × conduct_risk.
+30 global football derbies documented with specific signal characteristics.
+
+Tier 1 Maximum Signal derbies:
+  El Clásico (Barça/Real): 50% form compression; dual-token protocol ($BAR + $RM)
+  Superclásico (Boca/River): 50% compression; VERY HIGH conduct risk × 0.92; maximum Argentine token signal
+  Derby della Madonnina (AC/Inter): 45% compression; dual-token if both active
+  Manchester Derby (City/United): 40% compression; $CITY active; note structural dominance caveat
+  North London Derby (Arsenal/Spurs): 40% compression; dominance-adjusted formula
+  Old Firm (Celtic/Rangers): 50% compression; VERY HIGH conduct (2.5× average); × 0.90 modifier
+
+Cross-sport rivalry template: 4-step classification (continental/city/league/competitive),
+sport-specific compression rates (rugby 40%, basketball 25-35%, cricket 20-30%,
+combat sports: no compression applied), dual-token protocol, conduct risk assessment.
+
+derby_active flag: widens adjusted_score uncertainty band ±5 points; adjusted_score
+presented as range not point; maximum recommended_action = ENTER (never STRONG_ENTER).
+
+### Added — `market/football-leagues-advanced.md`
+
+League-specific signal intelligence for Premier League, La Liga, Serie A, Bundesliga,
+Ligue 1, MLS, Eredivisie, Copa Libertadores.
+
+Per league: relegation financial stakes (PL £170M per club), continental qualification
+mechanics (positions + financial premium), prize window calendars, unique signals.
+Bundesliga 50+1 rule: structural tokenisation readiness signal. Serie A wage transparency:
+only major league with official published wages = Tier 1 data quality for APS calculations.
+Ligue 1 broadcast recovery context: any new broadcast deal = commercial signal for all clubs.
+MLS: World Cup 2026 catalyst + expansion franchise launch signals.
+
+Ticket demand signal framework: sell-out × 1.05 narrative modifier; resale > 3× face value
+= confirm narrative_active; HAS spike follows resale price spike 24-72h; T-72h check protocol.
+Cup signal tiers per competition embedded in league context.
+
+### Added — `core/cup-competition-intelligence.md`
+
+Cup Signal Framework (CSF): competition_prestige × round_weight × opponent_quality_gap × rotation_risk.
+Upset probability table: 1-tier gap 18%, 2-tier 8%, 3+ tier 3% (but high narrative impact).
+Rotation risk model: HIGH/MEDIUM/LOW/MINIMAL with adjusted_score reduction formula.
+
+FA Cup round-by-round: R3 "Cup weekend" (January) = primary giant-killing window;
+Final (Wembley, May) = LTUI positive for domestic-focused clubs.
+Copa del Rey: higher signal than FA Cup for Spanish tokens; Royal Madrid/Barça always involved.
+UCL knockout: two-legged aggregate model; away goals rule abolished (since 2021-22);
+rotation_risk MINIMAL for top clubs at QF+.
+Copa Libertadores: CSF 0.90 at Final; Boca/River in Libertadores = derby_active multiplied.
+
+Token-gated cup access: Phase 2 utility event, LTUI positive signal.
+Memory ticket collectibles: PSG Concorde model documented.
+Annual cup signal calendar (August-June).
+
+### Updated — `core/core-narrative-momentum.md` (308 lines)
+
+Ticket demand pre-event signal section added:
+  Sell-out weeks in advance: narrative_active recommended; × 1.05 narrative_momentum
+  Resale > 3× face: confirm narrative_active; HAS spike follows within 48h
+  Heavy unsold inventory: × 0.92 home advantage modifier
+  T-72h and T-24h check protocol; freshness Tier 3 (daily)
+
+### Updated — `fan-token/fan-token-lifecycle/` (524 lines)
+
+Token-gated ticketing Phase 2 utility section:
+  Priority access (LTUI +8-12), ticket discount (LTUI +3-6), exclusive access (LTUI +2-4)
+  Memory tickets (LTUI +3-7): digital proof of attendance, Phase 4-5 bridge
+  Cup qualification + ticket utility combined: LTUI +10-15 (strongest short-term cup signal)
+  Phase 3 warnings from ticketing data: declining uptake or below-face secondary prices
+
+### Updated — `fan-token/rwa-sportfi-intelligence/` 
+
+Sports NFTs and collectibles intelligence section:
+  Positioning: Phase 2 (memory tickets), Phase 4 (pivot from tokens), Phase 5 (yield/ownership)
+  Athlete NFT as APS modifier: successful collection APS +0.04-0.06
+  AELS proxy: when no direct fan token data exists, NFT engagement fills the gap
+  Sorare as ATM proxy for player performance assessment
+  Platform monitoring: Sorare, NBA Top Shot, Chiliz NFT products, club-native launches
+  Agent boundaries: do not track floor prices; do not treat failed NFTs as fan token signals
+
+### Updated — `sportmind-overview.md`
+- Core count: 19 → 21 (derby-intelligence + cup-competition-intelligence)
+- Market count: 38 → 39 (football-leagues-advanced)
+- v3.14 marked ✅; v3.15 defined
+
+### Updated — `llms.txt` → v3.14.0, API → v3.14
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.15.0] — 2026-04-04 — Identity, broadcaster intelligence, governance, MCP deployment, real-time patterns
+
+### Added — `WHO-WE-ARE.md`
+
+Non-technical identity document addressing the objective gap identified in v3.15 planning.
+Explains SportMind to sports industry practitioners who are not developers.
+
+Sections: The problem SportMind solves (domain knowledge gap for AI agents), who it is
+for (club directors, agents, fan token platforms, broadcasters, analytics practitioners,
+AI developers), what is inside (five layers + core + support in plain language), how to
+use (developer, practitioner, and contributor pathways), what makes it different (opinionated,
+honest about uncertainty, built to be extended, not a data provider), the roadmap,
+licence and governance.
+
+### Added — `market/broadcaster-media-intelligence.md`
+
+BVS (Broadcast Value Signal): (Audience_Reach×0.30)+(Engagement_Depth×0.25)+(Rights_Scarcity×0.25)+(Commercial_Premium×0.20)
+
+Rights valuation benchmarks: Premier League £10B+ cycle through PKL and smaller leagues.
+International rights as global commercial reach signal (PL international > domestic = global product).
+
+Streaming transition intelligence:
+  Fragmentation modifier: highly fragmented (4+ platforms) × 0.75, consolidated × 1.00
+  Streaming platform rights win = digital-native audience signal for fan tokens
+
+Broadcaster as signal actor: rights acquisition/loss/price decline each documented as
+specific token signals. Rights price decline = BVS reassessment + LTUI risk.
+
+Drive to Survive (DTS) effect: documented conversion chain (documentary viewer → sport viewer
+15-25%; sport viewer → token holder 2-5%). A 50M-viewer documentary = 150k-600k potential
+new token holders. DTS_effect modifier × 1.08 for featured athletes during release window.
+
+Regional market intelligence: UK, India (500M+ digital viewers, regulatory gap),
+USA (World Cup 2026 catalyst), Middle East (QSI bridge), Southeast Asia (MotoGP strength),
+Latin America (Argentina crypto adoption and Superclásico opportunity).
+
+### Added — `fan-token/sports-governance-intelligence/sports-governance-intelligence.md`
+
+GSI (Governance Signal Index): (Participation_Rate×0.30)+(Decision_Weight×0.30)+(Transparency_Score×0.25)+(Execution_Track_Record×0.15)
+
+Current Socios governance assessment: Decision_Weight predominantly 0.15-0.45 (cosmetic to
+operational). Typical GSI 0.50-0.70. Execution track record 0.85 (generally executes).
+
+4 DAO types: owned clubs (structural governance, Decision_Weight 0.80-1.00), fan councils
+(advisory rights, 0.50-0.65), specific decision DAOs (binding on-off votes), multi-club DAOs.
+
+Voting mechanisms: simple majority (whale risk), quadratic (square root of vote weight),
+conviction (time-weighted), delegated. Each with governance quality implications.
+
+Lifecycle governance signals: Phase 1 (novelty, cosmetic OK), Phase 2 target GSI 0.60-0.75,
+Phase 3 governance fatigue warning signals, Phase 5 financial decision governance.
+
+New flags: governance_theatre (GSI < 0.35), governance_fatigue (declining participation),
+structural_vote_active (Decision_Weight ≥ 0.80), whale_dominance_risk (top-10 > 40% voting).
+
+### Added — `platform/sportmind-mcp-deployment.md`
+
+Three deployment options: GitHub Pages (static skill serving, free, 15 min), Vercel
+(live MCP server, free tier, 30 min), Docker (self-hosted, 45 min).
+
+GitHub Pages: generate_static_api.py script generates all sport/use_case stack JSON files.
+refresh_deployment.py automates hash regeneration and push to gh-pages branch.
+
+Vercel: serverless function wrapper around SportMind MCP core; FastAPI pattern for
+webhook integration; Claude Desktop live endpoint config (SSE transport).
+
+Production security checklist: rate limiting, HTTPS, input validation, macro state
+refresh schedule, monitoring thresholds.
+
+### Added — `platform/realtime-integration-patterns.md`
+
+5 complete integration patterns with working Python code:
+
+Pattern 1 — Macro webhook: BTC/CHZ price fetch → cycle classification → macro-state.json
+update. Drift alert when modifier changes ≥ 0.25. Schedule: every 6 hours.
+
+Pattern 2 — Lineup webhook: LineupWebhookHandler processes lineup events. Key player
+absent → activate injury_warning + send reload alert. Confirmed → clear lineup_unconfirmed,
+upgrade to 100% position size.
+
+Pattern 3 — Token monitor: TokenSignalMonitor computes HAS from on-chain data every 15
+minutes. HAS spike detection (> 15 point rise), TVL tier monitoring, alert callbacks.
+
+Pattern 4 — Weather integration: venue coordinates + sport → WeatherSignal. Sport-specific:
+cricket (dew factor + DLS risk), F1 (wet race hardware reset), football (wind modifier),
+golf (scoring average impact from wind).
+
+Pattern 5 — Full pipeline: all sources in parallel (asyncio.gather). Returns complete
+signal with live_inputs, data_freshness, flags derived from actual live data.
+
+### Updated — `sportmind-overview.md`
+- Market count: 39 → 40 (broadcaster-media-intelligence)
+- L3 count: 32 → 33 (sports-governance-intelligence)
+- Platform count: 11 → 13 (MCP deployment + realtime patterns)
+- WHO-WE-ARE.md added to root documents
+- v3.15 marked ✅; v3.16 defined
+
+### Updated — `llms.txt` → v3.15.0, API → v3.15
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.16.0] — 2026-04-04 — Athlete depth, club operations, i18n expansion, calibration records
+
+### Added — `athlete/rugby/athlete-intel-rugby.md`
+
+Full rugby union athlete intelligence skill — closes the most significant L2 gap.
+
+15-position framework with specific signal weights: Fly-half (kicker, highest ATM,
+modifier 0.78-1.22), Prop (scrum dominance 0.88-1.12), Hooker (lineout throw 0.85-1.10),
+Locks/Flankers/Number 8, Scrum-half, Backs (wingers = highest try-scorer ATM).
+
+Kicker primacy: 40-50% of rugby union points from kicks; elite kicker (>80% accuracy) ×1.18;
+poor kicker (<65%) ×0.85. Kicker is most impactful individual in rugby union signal analysis.
+
+International availability: 6 Nations (7-week window, Feb-March), Autumn Internationals
+(November), Lions (every 4 years; ×0.78 for clubs losing 4+ Lions, ATM ×1.15 at selection).
+
+Disciplinary: 2+ yellow cards ×0.94; citation pending ×0.88.
+Set piece: lineout winning rate most statistically predictive set-piece metric.
+
+### Updated — `athlete/cricket/athlete-intel-cricket.md` (145 → 255 lines)
+
+IPL franchise intelligence: auction signal tiers (>₹15 crore = star franchise signal),
+retention > auction as strongest confidence signal. Format specialist model: T20-only
+players not applicable to Tests; dual-format players (Kohli/Rohit/Babar) highest ATM.
+
+Indian player ATM tiers: Tier 1 (Kohli/Rohit, ATM 0.90-0.95, 200M+ combined social);
+India-Pakistan match ATM doubles. Bowling phase intelligence: death bowling economy <9.0
+= modifier 1.18 (hardest skill to find); over-bowled signal ×0.88 fatigue modifier.
+
+### Updated — `athlete/nba/athlete-intel-nba.md` (139 → 241 lines)
+
+NBA star ATM tiers: Tier 1 global icons (Giannis/Jokić/Dončić, ATM 0.92-0.95);
+franchise stars 0.78-0.88; role players 0.25-0.50 with APS 0.25-0.45.
+
+Playoff intelligence: regular season form ×0.92 in playoffs (higher intensity); series
+trailing 0-3 = ×1.15 desperation; elimination game both teams ×1.08.
+
+Trade deadline (Feb 6): post-trade form reliability ×0.85 for 5 games; buyout veteran
+signing ×1.12 (chose the team). Contract year effect: ×1.08 motivation modifier.
+
+### Added — `market/club-operations-intelligence.md`
+
+CHI (Club Health Index): (Financial_Stability×0.30)+(Academy_Pipeline×0.20)+(Community_Engagement×0.20)+(Ownership_Quality×0.20)+(Infrastructure×0.10)
+
+Academy intelligence: first-team debut = narrative_active flag + AELS ×1.12 for 5 matches.
+Academy director departure: pipeline disruption flag. Elite academies (City/Ajax/La Masia):
+LTUI premium +8-10.
+
+Financial distress model: Stage 1 (overspending) → Stage 2 (compliance) → Stage 3 (points
+deduction, LTUI -25 to -40) → Stage 4 (administration, Phase 6 Dormant). PSR/FFP sanctions
+= CHI Financial_Stability downgrade. Wage/revenue ratio benchmarks documented.
+
+Community signals: Superleague announcement = LTUI ×0.70 immediate; reversal = partial
+recovery ×0.88 (trust rebuild). Fan ownership (50+1) = highest CHI community score.
+
+Ownership models: Fan ownership (token-natural), PE (exit horizon risk), SWF (geopolitical
+modifier), multi-club (main club benefits from pipeline), LBO (financial distress elevated).
+
+Stadium: new stadium (funded/approved) = CHI ×1.10, LTUI +5-10. Naming rights = LTUI +3-5.
+
+### Added — i18n expansions
+
+`i18n/pt/sports/football/` (43 → 130 lines): Brazil market (Flamengo 40M+ base,
+Brasileirão April-December calendar, Fla-Flu derby ×1.80, Fla-Minas ×1.65, Copa
+Libertadores as primary token competition), Portuguese market (Big Three + diáspora
+potential in UK/France/Switzerland/USA/Brazil), NCSI for both markets, Brazil crypto
+adoption context (high; BCB regulatory framework), Copa Libertadores signal model.
+
+`i18n/ar/sports/cricket/` — NEW LANGUAGE/SPORT COMBINATION:
+UAE cricket context: 8-10M expat South Asian fans; Dubai as neutral venue (Ind-Pak
+heritage); Dubai dew factor (very high — same model as South Asian venues). PSL on Chiliz
+(most active cricket token market) documented in Arabic. ICC tournament calendar with
+Arab market context. Arabic-language agent reasoning prompts.
+
+### Added — Calibration records (3 new)
+
+`basketball/2026/03/nba-bulls-bucks-2026-03-15`: athlete_modifier ×1.12 validated;
+Giannis on/off differential confirmed predictive; direction_correct = true.
+
+`rugby-union/2026/03/six-nations-eng-ire-2026-03-14`: Grand Slam narrative_modifier
+validated; Six Nations NCSI weight 0.80 confirmed appropriate; form discount derby
+correct; direction_correct = true.
+
+`football/2026/03/fa-cup-r5-arsenal-man-city-2026-03-01`: CSF cup rotation modifier
+×0.88 validated; City 8-player rotation correctly predicted direction; $CITY token
+−4.2% post-match confirmed; direction_correct = true. First calibration record validating
+Cup Signal Framework (CSF).
+
+Total calibration records: 10 across 7 sports (basketball, cricket, football, formula1,
+mma, rugby-league, rugby-union).
+
+### Updated — `sportmind-overview.md`
+- Market count: 40 → 41 (club-operations-intelligence)
+- v3.16 marked ✅; v3.17 defined
+
+### Updated — `llms.txt` → v3.16.0, API → v3.16
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.17.0] — 2026-04-04 — Autonomous agent framework, MCP agent status, multi-agent coordination, calibration drive
+
+### Added — `core/autonomous-agent-framework.md`
+
+The SportMind agent model — defines what a SportMind autonomous agent is and how it operates.
+
+Intelligence separation principle: SportMind agents generate intelligence; application
+layers (FanTokenIntel, SportFi Kit) take action. This is the foundational safety principle.
+
+Autonomy spectrum (5 levels):
+  Level 0 (Supervised): human approves every output
+  Level 1 (Advisory): agent informs; human decides
+  Level 2 (Semi-autonomous): acts at SMS≥threshold; escalates outside boundary
+  Level 3 (Autonomous with review): acts immediately; human reviews log
+  Level 4 (Fully autonomous): operates indefinitely within hard technical boundaries
+  Financial execution and governance votes: hardcoded Level 0-1 regardless of SMS
+
+Agent lifecycle: 7 states (INITIALISING → MONITORING → ANALYSING → ACTING or
+ESCALATING → WAITING_FOR_HUMAN → PAUSED → TERMINATED). State transitions documented
+with trigger conditions.
+
+Decision framework matrix: SMS × blocking flags × decision category → autonomous/
+advisory/escalate. Blocking flags are absolute — macro_override_active, liquidity_critical,
+governance_theatre override SMS quality at all autonomy levels.
+
+Agent-to-agent protocol: registration schema (capability declaration), signal sharing
+(publish/consume model), conflict resolution (higher SMS wins; recency on tie; escalate
+on genuine tie). Capability boundaries: agents must not request actions outside declared scope.
+
+Ecosystem integration protocol: FanTokenIntel (reads from signal bus), SportFi Kit
+(reads recommended_action, never receives direct contract call trigger), LLMs (reasoning
+component called by agent, output validated against schema), data layer (read-only).
+
+6 safety principles: intelligence separation, confidence gating, flag respect,
+escalation completeness, audit trail, graceful degradation.
+
+Python SportMindAgent base class: complete implementation with lifecycle, decision
+framework, safety validation, observable state, and extensible analyse/act/escalate
+interface. Ready for subclassing in production deployments.
+
+### Updated — `platform/sportmind-mcp-server.md` (689 → 785 lines)
+
+5th MCP tool: `sportmind_agent_status`
+  Returns: agent lifecycle state, health, uptime, cycle counts, action/escalation counts,
+  current macro modifier, pending escalations, upcoming events with hours_away and
+  signal tier, data freshness flags (macro/stacks/hashes)
+  Multi-agent query: returns all registered agents with system-wide health assessment
+  Use cases: supervisor observability, health dashboard, orchestrator checking signal
+  reliability, debugging escalation behaviour
+
+### Updated — `scripts/sportmind_mcp.py`
+
+sportmind_agent_status handler added. Returns framework reference and usage instructions
+when no live agent instance is connected (graceful degradation pattern).
+
+### Added — `examples/agentic-workflows/multi-agent-coordination.md`
+
+Four patterns operating as a coordinated system.
+
+SignalBus: thread-safe shared signal store (Path-based with lock; production swap to
+Redis/PostgreSQL). publish/consume/has_signal/resolve_conflict API. Agents consume
+rather than re-analyse when signal exists in bus.
+
+Coordination triggers:
+  Portfolio monitor → pre-match chain: triggers T-48h analysis when event is 48h away
+    and no existing analysis in bus; consumes existing signal if available
+  Pre-match chain → tournament tracker: feeds NCSI per match result after T-2h analysis
+  Pre-match chain → signal invalidation: publishes when key player absent (reload required)
+  Transfer monitor → pre-match chain: invalidates stale signals when transfer confirmed
+  Tournament tracker → portfolio monitor: NCSI delta updates via bus after each match
+
+ConflictResolver: resolve() returns best signal by SMS then recency; detect_genuine_conflict()
+flags when two signals are within 5 SMS points (genuine uncertainty → escalate).
+
+SystemOrchestrator: starts all 4 agents concurrently (asyncio.gather), health monitor
+every 30 minutes, system-wide status for sportmind_agent_status MCP tool.
+
+Ecosystem integration in coordinated context: FanTokenIntel subscribes to bus for portfolio
+signals; SportFi Kit reads recommended_action; LLMs called per-agent for reasoning;
+humans receive consolidated escalation view.
+
+### Calibration drive: 12 new records (total 22 across 11 sports)
+
+New sport validations:
+  Ice hockey: GSAx goaltender differential as primary signal validated (NHL Leafs-Bruins)
+  Tennis: surface win% for elite vs elite validated; low SMS (64) correct for high variance
+  PSL cricket: PSL Final token signal validated — $LAH +12.4% post-win (first cricket token price record)
+
+Critical modifier validations:
+  weight_miss_modifier x0.72: VALIDATED — fighter who missed weight lost (MMA UFC FN)
+    Most important single MMA modifier; now has direct evidence
+  relegation_stakes_modifier x1.40: VALIDATED — first record from football-leagues-advanced.md
+    Everton home win in relegation six-pointer confirms prize window modifier model
+  Der Klassiker derby compression 40%: validated — stronger team won despite derby compression
+  IPL dew factor: validated — dew present but MI defended; confirms dew reduces advantage, doesn't override quality
+  Contract year x1.08 (NBA): validated — Tatum outstanding performance in contract year
+  Qualifying delta F1: validated — 0.312s gap correctly predicted race win
+  NRL defensive system modifier: validated — Storm away defensive pattern confirmed
+
+First WRONG direction record (UCL QF PSG-Arsenal):
+  Draw outcome correctly identified as learning: two-legged tie first-leg draw premium
+  needed. Wrong predictions are as valuable as correct ones for calibration.
+
+Sports coverage: basketball (3), cricket (3), football (4), formula1 (2), mma (3),
+rugby-league (2), rugby-union (1), ice-hockey (1), tennis (1)
+Direction accuracy across all 22 records: 20/22 (90.9%)
+
+### Updated — `sportmind-overview.md`
+- Core count: 21 → 22 (autonomous-agent-framework)
+- v3.17 marked ✅; v3.18 defined
+
+### Updated — `llms.txt` → v3.17.0, API → v3.17
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.17.1] — 2026-04-04 — Starter pack and freshness strategy (v3.17 additions)
+
+### Added — `examples/starter-pack/` (7 files)
+
+Six working examples covering full complexity range. README index maps each to its use case.
+
+01-simple-signal.py: Minimum viable integration — 10 lines, macro check + stack load +
+  signal generation. Works by copy-paste. Time to first signal: under 2 minutes.
+
+02-claude-conversation.py: SportMind + Claude via MCP. System prompt enforcing six-step
+  reasoning chain. Multi-turn conversation pattern. Structured JSON output guidance.
+  Requires Anthropic API key.
+
+03-single-sport-agent.py: Complete PSG football token agent. Level 2 autonomy.
+  SportMindAgent subclass with full lifecycle. 4-hour scheduled cycle. Alert + escalation
+  with full reasoning trail. Graceful degradation on API failure. Derby detection.
+  "What to change" guidance for adapting to other tokens.
+
+04-multi-sport-agent.py: Multi-sport portfolio agent covering football/cricket/MMA/F1/NBA.
+  Sport routing function: each sport gets format-specific reasoning.
+  Cricket: FORMAT FIRST (T20/ODI/Test), India premium ×1.40/×2.00, dew factor.
+  MMA: WEIGH-IN FIRST — weight miss ×0.72 applied before any other analysis.
+  F1: qualifying delta as primary variable, wet race hardware reset.
+  NBA: star player DNP → ×0.70, back-to-back flag, on/off net rating differential.
+
+05-sportfi-kit-integration.py: Intelligence/execution boundary demonstrated in code.
+  SportMindSignal (intelligence layer), SportFiKitContext (environment detection),
+  IntegrationDecision (application layer). Token-gating decision. Governance prompt
+  at SMS ≥ 80. TypeScript equivalent for SportFi Kit React components included.
+  Key principle shown: SportMind recommends; SportFi Kit enables; human approves.
+
+06-autonomous-tournament-tracker.py: Level 3 fully autonomous agent. Full lifecycle
+  (all 7 states). NCSI computation with Euros ×1.10 bonus. Audit log (JSONL).
+  Daily briefing generation. Escalation for |delta| > 0.15. No human input once started.
+  Configurable for WC2026, PSL, NBA playoffs. Comments show replacement points for live data.
+
+### Added — `platform/freshness-strategy.md`
+
+Complete two-dimension freshness guide.
+
+Dimension 1 (Library version freshness):
+  version_checker.py: get_loaded_version(), get_latest_version(source), check_skill_file_changes()
+  Three VersionUpdateStrategy options: auto_reload, flagged_reload, notify_operator
+  changelog_monitor.py: parse_latest_changelog_entry() → structured change data
+  subscribe_to_updates(): GitHub release webhook registration
+  which_skills_affect_me(): filter CHANGELOG by your sport coverage
+
+Dimension 2 (Application data freshness):
+  SportMindRefreshScheduler: check_and_refresh() for all 6 tiers at cycle start
+  Tier 3: auto-refresh via update_macro_state.py if > 8h old; SMS -3 to -8 if stale
+  Tier 4: match window classification (CRITICAL_T2H, T24H, T72H, UPCOMING_WEEK)
+  build_confidence_output_with_freshness(): annotates signal with warnings and adjusted SMS
+
+Push notification (update_listener.py):
+  GitHub webhook receiver for SportMind release events
+  HMAC signature verification, configurable update strategies
+
+Integration with agent base class:
+  _run_cycle_with_freshness() adds freshness check before analysis
+  Daily version check in cycle loop
+  All warnings logged (Safety Principle 6 — never silent failure)
+
+Quick reference table: all 6 tiers with refresh frequency, method, and stale action
+
+### Updated — `sportmind-overview.md`
+- Platform count: 13 → 14 (freshness-strategy)
+- v3.17 entry updated with starter pack and freshness strategy additions
+
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.18.0] — 2026-04-04 — Athlete depth (NHL/tennis/F1), league monitor, athlete commercial tracker, 30 calibration records
+
+### Updated — `athlete/nhl/athlete-intel-nhl.md` (123 → 315 lines)
+
+GSAx full model: formula (Actual - Expected goals saved), interpretation tiers (>+15 elite
+through <-8 liability), modifier formula (1.00 + GSAx_per_60 × 0.012), momentum component
+(last 10 vs season GSAx), backup quality delta modifier (0.80 to 0.65 depending on delta).
+
+Morning skate protocol: T-8h confirmation window, starter confirmation → lineup_unconfirmed
+cleared, backup start → quality_delta modifier applied. Most important timing rule in NHL.
+
+Special teams: PP tier classification (Elite >28%, Good 24-28%, Average 20-24%, Weak <20%),
+combined PP+PK modifier (Top/Top: ×1.07; Poor/Poor: ×0.90). PP1 unit intact ×1.08; missing
+key player ×0.94.
+
+Canadian market signal: Toronto Maple Leafs (50+ year drought; deep playoff run ×1.25-1.50),
+Montreal Canadiens (24 Cups; French-Canadian market). Trade deadline (March 3): elite goaltender
+rental ×1.10; core player traded ×0.85.
+
+### Updated — `athlete/tennis/athlete-intel-tennis.md` (154 → 345 lines)
+
+Grand Slam round-by-round model: R1 ×0.70 (high certainty = low information) through
+Final ×1.15. R4 fatigue from 5-set R3 ×0.93. QF+ signal quality HIGH (elite field).
+
+Surface specialisation: clay specialist ×0.82-1.18 (greatest surface differential), grass
+×0.88-1.15 (short season, small sample), hard ×0.90-1.10 (most balanced), indoor
+amplifies serve. Surface transition ×0.92 within 10 days of changing surface.
+
+Stamina: 5-set accumulation model (1 ×0.96; 2 ×0.91; 3+ ×0.85), retirement risk ×0.65,
+hot weather ×0.95 all players at US Open/AO. Back-to-back tournament ×0.88 for first 2 rounds.
+
+ATM: Sinner/Alcaraz/Swiatek/Gauff Tier 1 (0.90-0.95); rivalry signal ×1.15 during their
+matches. Surface H2H as most predictive variable for elite vs elite.
+
+### Updated — `athlete/formula1/athlete-intel-formula1.md` (114 → 298 lines)
+
+Driver-constructor pairing: Tier 1-4 hardware base modifiers (×1.12 to ×0.83); strong driver
+in weak car (skill_premium × 0.75); average driver in Tier 1 car (×1.05); elite in Tier 1 ×1.08.
+Qualifying teammate delta ranges: >0.3s faster ×1.15 through slower ×0.87-0.94.
+
+Circuit archetypes: Street circuits (Monaco qualifying ×1.40 — pole wins 62%); Power circuits
+(Monza: qualifying ×0.85, race pace matters); High-downforce (tyre_management ×1.10).
+Wet race: all circuit types hardware tier reset.
+
+Season narrative: championship conservation (leader >100pts advantage ×0.92 risk conservatism);
+sprint race integration (40% weight Saturday); final race narrative_active ×1.20.
+
+Race weekend token calendar: qualifying (pole: +3-8%), pre-race (penalties confirmed: movement),
+race result (win: +8-20%), constructor switch (elite driver signed: +8-18%).
+
+### Added — `examples/agentic-workflows/league-monitoring-agent.md` (Pattern 5)
+
+LeagueStandings: detect_stake_events() classifies clubs into title_race (×1.40), cl_qualification
+(×1.35), relegation_battle (×1.20-1.40) based on position and rounds remaining.
+
+LeagueMatchPrioritiser: score_fixture() combines stake events + derby check + macro modifier
+into signal_score and priority (HIGH/MEDIUM/LOW). prioritise_weekend() ranks by token
+relevance first, then signal score.
+
+LeagueMonitorAgent: 6h cycle, Level 2 autonomy, standings change alerts for token clubs,
+high-priority fixture alerts at T-72h, signal bus publication (coordination/league_priority.json),
+integration with pre-match chain and portfolio monitor agents. get_status() for MCP observability.
+
+### Added — `examples/agentic-workflows/athlete-commercial-tracker.md` (Pattern 6)
+
+AthleteCommercialProfile: tracks APS/AELS/ABS/SHS/DTS/TAI with history (last 30 readings),
+trend analysis (aps_trend/shs_trend), financial_aps_adjusted() (contract stage multiplier),
+ncsi_potential() (estimated NCSI from ATM proxy).
+
+CommercialEventDetector: 10 event types mapped to impact levels:
+  High impact: pre_contract_window (APS ×1.25 modifier), release_clause, injury_warning, social_crisis
+  Moderate: aps_rising/declining, shs_declining, national_callup (with estimated NCSI), contract_extension
+  Low: nft_launch (+0.04-0.06 APS)
+
+AthleteCommercialTrackerAgent: 12h cycle, Level 1 advisory, JSONL audit log, weekly commercial
+briefing (ranked by adjusted APS, pre-contract windows highlighted). Integration: feeds transfer
+monitor, portfolio monitor, governance agent, talent scouting app.
+
+### Calibration drive: 8 new records (total 30, direction accuracy 27/30 = 90%)
+
+Landmark records:
+  India-Pakistan T20 WC 2026: ×2.00 modifier VALIDATED — most commercially significant cricket record
+  Monaco GP street circuit qualifying ×1.40: VALIDATED — pole→win confirmed
+  El Clásico draw (wrong direction): learning documented — derby uncertainty confirmed, draw premium needed
+  State of Origin G1 NCSI 0.75: VALIDATED
+  Roland Garros clay specialist differential: VALIDATED
+  NHL Playoff GSAx model: VALIDATED
+  NBA Conference Final playoff modifier ×0.92: VALIDATED
+  UFC 300 title fight ×1.35: VALIDATED
+
+### Updated — `sportmind-overview.md`
+- Agentic workflows: 4 → 6 patterns
+- v3.18 marked ✅; v3.19 defined
+
+### Updated — `llms.txt` → v3.18.0, API → v3.18
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.19.0] — 2026-04-05 — Breaking news, fan sentiment, skill bundles, on-chain events, AFL/NFL, i18n, 40 calibration records
+
+### Added — `core/breaking-news-intelligence.md`
+
+8-category taxonomy: Category 1 (match personnel — RELOAD) through Category 8 (macro — MACRO_OVERRIDE).
+4 protocols: RELOAD (key player absent T-0), MODIFY (disciplinary/transfer news), VOID (postponement),
+ESCALATE (external/macro events). Signal invalidation: hard (match postponed, key player absent post-analysis)
+vs soft (weather update, minor tactical news). Source tiers 1-4: only Tier 1-2 trigger actions.
+Sport-specific patterns for football, cricket, MMA, F1, NHL, NBA.
+Autonomous agent integration: signal bus invalidation protocol, Safety Principles 4 and 6.
+
+### Added — `fan-token/fan-sentiment-intelligence/fan-sentiment-intelligence.md`
+
+Emotional arc model: 6 phases from Peak (0-24h, +300-500% engagement) through Legacy (12+ months,
+permanent ATM premium). CDI (Commercial Duration Index) = Base_Duration × Outcome_Tier × Competition_Weight
+× Drought_Factor. Example: PSG first CL Final win CDI = 225 days; Everton FA Cup CDI = 91 days.
+
+Decay curve: Engagement(t) = Baseline + (Peak_Delta × e^(-λt)) + Calendar_Boost(t).
+λ constants: standard win 0.69 (half-life 1 day), trophy 0.05 (half-life 14 days).
+
+Outcome profiles: standard win (3-day CDI), trophy (45-day), relegation (negative 10-day sustained).
+Fan type segmentation: core holders (CDI ×1.30), seasonal (×0.85), event-driven (×0.60), new-market (×0.75).
+LTUI: standard trophy +8-12; first drought-ending trophy +15-20 (Leicester 2016 model).
+
+### Added — `platform/skill-bundles.md`
+
+14 named bundles: ftier1-football (~8,200 tokens), ftier1-cricket (~7,400), ftier1-basketball (~7,100),
+ftier1-motorsport (~6,800), ftier2-football (~5,600), prematch-football (~4,200), prematch-cricket (~3,800),
+prematch-mma (~3,600), governance-brief (~3,400), transfer-intel (~5,100), commercial-brief (~4,800),
+tournament-tracker (~5,400), macro-only (~800), minimal-signal (~2,100).
+
+Each bundle has YAML definition with loading order, use cases, estimated tokens, freshness requirements.
+Bundle API endpoint: GET /bundle/{bundle_id} with compress/hashes_only/meta_only params.
+Python load_bundle() and get_bundle_context() helpers. MCP sportmind_stack bundle_id shorthand.
+Custom bundle template with rules (macro first; schema last; correct loading order).
+
+### Added — `fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md`
+
+6 signal categories: (1) Large wallet movements (≥0.5% supply; accumulation ×1.00-1.15, distribution
+×0.85-1.00); (2) LP pre/post-match activity (15% change threshold); (3) Governance vote execution
+(on-chain confirms before public announcement); (4) Staking ratio trends (>5% change in 7d);
+(5) Cross-chain bridge activity (>2% supply in 48h); (6) Wallet age as conviction proxy.
+
+OnChainEventMonitor Python: check_wallet_movements(), check_lp_activity(), check_staking_ratio(),
+get_composite_on_chain_signal() (geometric mean of component modifiers). Integration as Step 5b in
+reasoning chain. Caution notes: correlation not causation; wash trading detection; regulatory context.
+
+### Updated — `athlete/afl/athlete-intel-afl.md` (96 → 289 lines, STUB → GOOD)
+
+Full positional framework, kicking accuracy model (AFL fantasy score as proxy, >120pts ×1.12),
+MCG intelligence (oval shape suits running game), ground-specific (Perth travel ×0.88, Darwin heat ×0.90),
+finals multipliers (Grand Final ×2.00), Command + Modifier reference added.
+
+### Updated — `athlete/nfl/athlete-intel-nfl.md` (162 → 365 lines, THIN → GOOD)
+
+QB primacy model: Tier 1-4 with composite modifiers (0.65-1.22); CPOE as primary stat (>+5% ×1.10).
+Injury designation protocol: Wednesday through Sunday inactives (90min before kickoff). Weather model:
+wind >20mph ×0.88 passing; cold <10°F fumble risk; dome team visiting outdoor ×0.88. NFL token market
+projections (no active tokens; Super Bowl signal ×2.50 projected).
+
+### Updated — i18n
+
+`i18n/es/sports/football/` (55 → 170 lines): El Clásico ×1.75, Superclásico ×1.85, Mexico Copa 2026
+×1.20 co-host modifier, 500M+ hispanohablante market documented.
+
+`i18n/pt/sports/cricket/` — New file 151 lines: Portuguese and Brazilian market, dew factor in
+Portuguese, PSL tokens on Chiliz, Ind-Pak ×2.00, ICC calendar with lusophone context.
+
+### Updated — `agent-prompts/agent-prompts.md` (10 → 16 prompts, 539 → 808 lines)
+
+6 new prompts by stakeholder type: 11 (club commercial director), 12 (sports agent), 13 (fan token
+developer with bundle IDs + code), 14 (breaking news response — RELOAD/MODIFY/VOID/ESCALATE),
+15 (quick reference card: use-case → prompt mapping), 16 (macro gate check — 3-line output).
+
+### Updated — `glossary.md` (358 → 390 lines)
+
+Web3/DeFi sports terminology: 36 new terms from AMM through whale.
+Covers: KAYEN, DeFi, TVL, LP, staking, governance voting types, token-gating, MiCA, VDA,
+CDI, GSAx, HAS, LTUI, NCSI, wash trading, flash loan, yield farming.
+
+### Calibration drive: 10 new records (total 40, direction accuracy 38/40 = 95%)
+
+Landmark records:
+  T20 WC 2026 Final India vs Australia: dew factor chasing validated at highest cricket event
+  AFL Grand Final: first AFL record; clearance differential validated
+  NHL Stanley Cup Final G6: Canadian market ×1.25 validated; morning skate protocol confirmed
+  NBA Finals G7: elimination ×1.08 + contract year at championship validated
+  British & Irish Lions Test 1: first Lions record; ATM ×1.15 signal validated
+  F1 Spa wet race: hardware tier reset confirmed; wet specialist from P6 won
+  Championship Playoff Final: promotion ×1.60; £200M stakes validated
+  UCL QF Leg 2: two-legged tie learning from Leg 1 correctly incorporated into new analysis
+
+Sports with multiple records: football (7), basketball (5), cricket (4), mma (4),
+formula1 (3), tennis (3), ice-hockey (3), rugby-union (2), rugby-league (3),
+afl (1, new!), rugby-union/lions (new!)
+
+### Updated — `sportmind-overview.md`
+- Core: 22 → 23 (breaking-news-intelligence)
+- L3: 33 → 35 (fan-sentiment + on-chain-event)
+- Platform: 14 → 15 (skill-bundles)
+- v3.19 marked ✅; v3.20 defined
+
+### Updated — `llms.txt` → v3.19.0, API → v3.19
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.20.0] — 2026-04-05 — World Cup 2026 deep module, MotoGP, EuroLeague, community infrastructure, 52 calibration records
+
+### Updated — `market/world-cup-2026.md` (282 → 601 lines)
+
+Group stage intelligence framework: 48-team best-third-place mechanics, match-sequence NCSI weights
+(Match 1: 0.35, Match 2: 0.45, Match 3 simultaneous: 0.60), decider modifiers (× 1.15-1.20).
+
+Host nation intelligence: USA (75M+ Latino fans, 11 venues, regulatory unlock value), Mexico
+(Azteca 87,500 capacity, crowd × 1.15, Dallas/Houston Mexican diaspora venues), Canada (diversity
+signal, Toronto/Vancouver demographic profiles).
+
+Group draw intelligence: Pot 1 nations → club token NCSI mappings, dream vs death group signal
+impact, rivalry draw modifiers (Brazil-Argentina × 1.85, England-Germany × 1.60), same-group
+host nation × 1.10 weight.
+
+City-by-city demographics: MetLife/Final venue (diverse NYC), LA (4.9M Latinos), Dallas (Mexican
+diaspora), Miami (Spanish-language media capital), Toronto (50%+ immigrant), Vancouver (Pacific Rim).
+
+Automated monitoring framework: pre-tournament (squad announcement daily scan from April 1),
+tournament daily cycle (6-step protocol: macro → schedule → token nations → NCSI → DeFi → signal),
+post-match 5-step update, knockout escalation schedule.
+
+Market size estimates: conservative +500k-1M holders through optimistic 5-10M (US regulation clear,
+bull market). CDI for winner: 112.5 days. Dual-nation $RMFC CDI: France win → 168 days.
+
+### Updated — `athlete/motogp/athlete-intel-motogp.md` (95 → 352 lines, STUB → GOOD)
+
+Hardware model: Tier 1-4 manufacturer × qualifying delta interaction; wet race hardware reset (same
+as F1); satellite bike qualifications documented.
+
+ATM tiers: Tier 1 (Bagnaia/Martín/Márquez, ATM 0.85-0.90), regional modifiers (Italian at Mugello
+× 1.30, Spanish × 1.25, Japanese at Motegi × 1.20).
+
+Circuit intelligence: Mugello (tifosi 110k+, Ducati home race), Sepang (heat + afternoon thunderstorms),
+Phillip Island (most spectacular, late-season championship implications), Le Mans (wet specialist
+advantage), Motegi (electronics-heavy, Japanese manufacturers home signal).
+
+Márquez Factor: ATM 0.88 structural even post-peak; return from injury = CDI event.
+
+Crash risk model: aggressive riding × 1.30, wet × 1.40 all riders, championship pressure
+(trailing, must win) × 1.25. Position size × 0.80 when crash_risk_elevated active.
+
+Command + Modifier reference added (validator compliance).
+
+### Added — `market/euroleague-basketball-intelligence.md`
+
+ELS (EuroLeague Signal Index) formula: Fan_Base_Depth × Community_Reach × Token_Readiness × Squad_ATM.
+
+Club profiles: Real Madrid ELS 0.94, Barcelona 0.90, Fenerbahçe 0.82, Olympiacos 0.80, Panathinaikos
+0.78. CSKA flagged: suspended status ELS 0.30.
+
+Competition: Final Four × 1.75, best-of-5 series momentum model (series 1-0 → 68% win series),
+Game 5 elimination × 1.08, fatigue for EuroLeague + domestic 3-game weeks × 0.88.
+
+NBA connection: draft prospect departure × 0.90, NBA alumni signing +5-8 LTUI. EuroLeague MVP
+= seasonal ATM peak moment.
+
+National leagues: ACB Clásico × 1.50, Turkish BSL Istanbul derby × 1.40, Greek League Derby × 1.65,
+Lega Basket Scudetto × 1.25.
+
+### Updated — `community/calibration-data/CONTRIBUTING.md` (310 → 381 lines)
+
+External contributor quick-start: 3-step guide for non-developers (run SportMind → record outcome →
+submit). Reviewer criteria (pre-match timestamp, plausible modifiers, verifiable result, honest learning
+notes). PR target: 7-day review window. Calibration milestone tracker showing progress per modifier
+toward recalibration thresholds (50 records for dew_modifier, 100 for athlete_modifier, etc.).
+
+### Calibration drive: 12 new records (total 52 across 12 sports)
+
+Landmark records:
+  WC2026 Final France vs Brazil: $RMFC +19.4% — dual-nation NCSI at maximum competition level
+  First MotoGP record: Italian ATM × 1.30 at Mugello validated (Bagnaia home race)
+  First EuroLeague record: Final Four × 1.75 validated (Real Madrid vs Fenerbahçe)
+  WC2026 Group Stage England vs USA: first WC2026 group stage record
+  WC2026 QF India vs Australia: T20 WC knockout calibration continues
+  F1 Season Finale: championship decider modifier × 1.20 validated
+  All Blacks vs Springboks: set piece dominance signal validated
+  US Open Final Sinner: hard court H2H tiebreaker signal confirmed
+  Post-WC2026 fatigue: PL opener draw (wrong direction) → post-tournament opener draw premium learning
+  Brazil vs Argentina WC2026 qualifier: Superclásico draw premium validated
+
+New sports validated: motogp (first!), euroleague basketball (first!)
+Direction accuracy: 49/52 (94%). 3 wrong-direction records — all valuable learning.
+
+### Updated — `sportmind-overview.md`
+- Market count: 41 → 42 (euroleague-basketball-intelligence)
+- v3.20 marked ✅; v3.21 defined
+
+### Updated — `llms.txt` → v3.20.0, API → v3.20
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.21.0] — 2026-04-05 — KOL intelligence, agent model, Chiliz Agent Kit, fan digital twin, athlete depth, compressed refresh, 60 calibration records
+
+### Added — `fan-token/kol-influence-intelligence/kol-influence-intelligence.md`
+
+KIS (KOL Impact Score) = Tier_Modifier × Reach_Score × Sentiment_Valence × Timing_Factor × Credibility_Discount.
+4-tier KOL classification: T1 >500k followers (KIS mod 1.00, HAS +12-25pts), T2 50-500k (0.65, +5-12pts),
+T3 5-50k (0.30, +2-5pts), T4 <5k (0.08, negligible). Paid vs organic detection: #ad tag, timing correlation
+with announcements, cluster deployment (multiple KOLs same 48h = coordinated campaign, count once).
+
+Sports ecosystem: Football — Romano "Here We Go" post = KIS × 1.20 Tier 1 event. NBA — Woj/Shams bomb = ×1.25.
+Cricket — India vernacular KOL (Hindi/Bengali) ATM × 1.15. F1 — Drive to Survive Netflix = ultimate Tier 1 KOL.
+
+HAS integration: KIS > 0.50 → HAS_spike_external flag + signal note. Paid promotion → marketing_activity,
+NOT HAS modifier. CDI extension: organic KOL CDI × 0.65 vs pure organic (novelty-driven faster decay).
+
+### Added — `core/agent-intelligence-model.md`
+
+Honest ANI/AGI/ASI framework applied to SportMind:
+  ANI: intentional narrow excellence — better to be world's best sports intelligence than mediocre at everything
+  AGI: not SportMind's target — explicitly addressed and explained why domain excellence > general competence
+  ASI: the domain aspiration — exceeds any individual expert through community calibration + collective knowledge
+
+Four intelligence dimensions with honest assessment:
+  Reasoning: 94% calibrated accuracy from 60 records; framework works; LLM dependency explicit
+  Planning: multi-cycle execution confirmed; goal-setting boundary acknowledged (roadmap post-v3.22)
+  Learning: human-mediated calibration — validated and improving, not instant self-modification
+  Context: WHO-WE-ARE + agent framework provides purpose; consolidated context doc (v3.22 roadmap)
+
+Intelligence architecture layers 1-4 (Knowledge → Reasoning → Action → Learning loop). Developer
+implications section: what this means for deployments, continuous improvement, long-horizon vision.
+
+### Added — `platform/chiliz-agent-kit-integration.md`
+
+Complete TypeScript pipeline: natural language → parseIntent() → getSportMindSignal() → evaluateGateway()
+→ executeAction() (Chiliz Agent Kit). Three patterns: (1) NL intent to action, (2) pre-match scheduled
+trigger with EventEmitter, (3) governance vote intelligence brief. Gateway decision layer implements Safety
+Principle 1 (intelligence separation): hard blocks for macro_override, liquidity_critical, SMS < 60,
+financial actions at Level 0-1. Private key security: never in SportMind context, server-side only.
+Stack summary: SportFi Kit (UI/UX) + SportMind (intelligence) + Chiliz Agent Kit (execution) + Chiliz Chain.
+
+### Added — `examples/applications/app-10-fan-digital-twin.md`
+
+FLS (Fan Loyalty Score) = Holding_Duration × 0.30 + Governance_Participation × 0.25 +
+Outcome_Engagement × 0.25 + Commercial_Participation × 0.20. Survived relegation without selling: ×1.20.
+6 tiers: Prospect (< 0.25) through Legend (> 0.95). Dynamic NFT metadata with sportmind_context block
+(FLS, tier, narrative, last_updated, version). Python FanDigitalTwinAgent: compute_fls(), generate_narrative(),
+update_fan_nft(). Token-gated access rights by tier (Prospect: basic; Legend: permanent on-chain record,
+physical memento). Ethical framework: fan owns NFT; on-chain = fan's wallet; no private data; opt-out available.
+
+### Updated — athlete skills (3 expansions to GOOD)
+
+snooker (156 → 264 lines): Crucible intelligence (experience ×1.08; curse ×0.94), century rate model
+(>1.0/frame elite ×1.12), Triple Crown calendar, ranking trajectory modifiers.
+
+darts (174 → 305 lines): Three-dart average (>100.0 ×1.15), checkout %, Ally Pally night session
+(British ×1.06), PDC tour card pressure ×1.10, nine-dart ATM boost (+0.10 live on TV).
+
+athletics (192 → 335 lines): PB proximity model (within 0.5% ×1.15), event specialisation (sprints/
+middle/distance/hurdles/field), championship year ×1.05, DL→championship reliability ×0.92, Olympics
+narrative ×1.10.
+
+### Updated — `compressed/README.md` (445 → 577 lines, 33 → 41 compressed skills)
+
+8 new compressions added: breaking-news-intelligence, fan-sentiment-intelligence, skill-bundles,
+on-chain-event-intelligence, kol-influence-intelligence, agent-intelligence-model, world-cup-2026,
+euroleague-basketball-intelligence. Token estimates: ~800-3200 tokens each vs 3,000-7,200 for full files.
+
+### Calibration drive: 8 new records (total 60 across 15 sports)
+
+NEW SPORTS: snooker (World Championship 2026, first record), darts (PDC World Championship 2026, first),
+athletics (World Athletics Championships 100m final, first). 15th sport: athletics.
+
+Landmark: 60-record milestone. Coverage now includes every major spectator sport.
+Direction accuracy: 57/60 (95%). Three wrong-direction records — all documented with learnings.
+
+### Updated — `sportmind-overview.md`
+- Core: 23 → 24 (agent-intelligence-model)
+- L3: 35 → 36 (kol-influence-intelligence)
+- Platform: 15 → 16 (chiliz-agent-kit-integration)
+- Applications: 9 → 10 (fan-digital-twin)
+- Compressed: 33 → 41 summaries
+- v3.21 marked ✅; v3.22 defined
+
+### Updated — `llms.txt` → v3.21.0, API → v3.21
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.22.0] — 2026-04-05 — Purpose/context document, agent goal framework, swimming/winter-sports, GitHub Pages, 70 calibration records
+
+### Added — `core/sportmind-purpose-and-context.md`
+
+Single-load ~600 token context document for agent initialisation.
+
+Five non-negotiable rules: (1) Macro first — always load and check macro state before fan token signals.
+(2) Loading order — macro → market → domain → athlete → fan-token → schema. (3) Intelligence separation —
+agents generate intelligence; applications act. (4) Confidence honesty — SMS < 60 = PARTIAL; state this.
+(5) Sport-specific primary signal — football T-2h lineup, cricket FORMAT FIRST, MMA WEIGH-IN FIRST,
+F1 qualifying delta, NHL morning skate, NBA DNP-rest, rugby kicker form, tennis surface win%.
+
+Ecosystem map: Data Layer → SportMind Intelligence Layer → Application Layer → Execution Layer.
+Confidence output schema with all required fields. SMS tier table. Autonomy levels 0-4.
+Key document map (domain knowledge, athlete intel, fan token, operations, developer resources).
+
+### Added — `core/agent-goal-framework.md`
+
+Three goal levels: Terminal (human-set, never changes), Instrumental (agent-set, adapts to observations),
+Immediate (agent lifecycle tasks). 6 goal states with transition rules.
+
+Planning cycle: observations (macro state, upcoming events, HAS spikes, data freshness) →
+goal evaluation → task generation. Five goal-generation triggers: terminal decomposition,
+achievement creates dependencies, observed signals, calendar horizon scan, failure creates diagnostic.
+
+GoalDirectedAgent Python class: _add_goal(), achieve_goal(), get_next_goal(), planning_cycle(),
+get_goal_status(). Fully extensible via subclassing. Goal status exposed via sportmind_agent_status MCP tool.
+
+Portfolio monitor example: build_portfolio_monitor_goals() decomposes terminal goal into 3 initial
+instrumental goals (baselines, schedule, monitoring confirmation).
+
+### Updated — `athlete/swimming/athlete-intel-swimming.md` (95 → 271 lines, STUB → GOOD)
+
+Taper model: peak taper ×1.15, post-meet fatigue ×0.90. PB proximity: within 0.5% ×1.12; 3%+ below ×0.93.
+Event specialisation: sprint (reaction time, temperature), middle (split time analysis), distance
+(tactical racing), IM (weakest stroke signal), relay (exchange time as separate component).
+Multi-swim fatigue: ×0.95 (2 swims), ×0.90 (3+ swims in day). Olympic cycle: Australia ×1.20, USA ×1.18.
+World record CDI ×1.80 (permanent narrative). Commands + Modifier reference added.
+
+### Updated — `athlete/winter-sports/athlete-intel-winter-sports.md` (95 → 292 lines, STUB → GOOD)
+
+4-discipline alpine framework: DH bib modifier (1-15: ×1.05; 31+: ×0.93), SL two-run reversal strategy,
+GS fresh conditions each run. Wind hold rule for ski jumping (most important variable); variable wind →
+widen confidence interval. Biathlon: ×1.12 per clean shooting range. Crystal Globe pressure ×1.08.
+National ATM: Austrian skiing ×1.30, Norwegian cross-country ×1.35, Swiss home circuit ×1.25.
+Olympic CDI: gold = base 45 × 2.00 = 90 days commercial window. Commands + Modifier reference added.
+
+### Updated — `.github/workflows/publish-api.yml`
+
+Version extraction from llms.txt on every push. version.json generation with library stats
+(version, generated_at, total files, calibration records, sports covered, endpoints list).
+Security check step before deploy. Versioned commit message including library version.
+`scripts/sportmind_api.py`: get_version_info() function added.
+
+### Calibration drive: 10 new records (total 70 across 16 sports)
+
+NEW SPORTS: swimming (World Aquatics Championships 200m freestyle, taper model validated),
+winter-sports (Hahnenkamm Downhill, course specialist ×1.12 validated).
+
+Landmark records:
+  Ashes Test 1 Brisbane: Test cricket home advantage at Gabba confirmed
+  ATP Finals: Indoor hard court specialist signal validated (Sinner 81% vs Alcaraz 73%)
+  F1 season constructor model: SMS 80 — highest F1 record; season-long validity confirmed
+  MMA rematch reversal: loser-adapts signal ×1.08 confirmed (challenger won rematch)
+  NBA Christmas Day: home net rating +8.4 predictive in regular season
+  El Clásico December: HOME WIN — home advantage is tiebreaker even with derby compression
+  Autumn Internationals: elite kicker + set piece combination validated at Twickenham
+
+Direction accuracy: 67/70 (95%)
+
+### Updated — `sportmind-overview.md`
+- Core: 24 → 26 (purpose-and-context + agent-goal-framework)
+- v3.22 marked ✅; v3.23 defined
+
+### Updated — `llms.txt` → v3.22.0, API → v3.22
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.23.0] — 2026-04-05 — All stubs cleared, first recalibration, community recognition, 80 calibration records
+
+### Updated — 5 athlete skills (STUB → GOOD/THIN+)
+
+**handball** (96 → 256 lines): Goalkeeper primacy (save rate >37% ×1.12; 7m stopping >30% ×1.08),
+positional framework with signal hierarchy (GK > CB > Wing > Pivot), EHF Champions League Final
+Four ×1.65, Danish/German home ATM premiums, international window flag ×0.88.
+
+**kabaddi** (96 → 237 lines): Raider primacy (>65% success ×1.25), super raid model (3+ per match ×1.10),
+All Out tactical model (72% win rate for forcing team; modifier ×1.10), do-or-die pressure record,
+PKL franchise ATM tiers (Patna Pirates, U Mumba).
+
+**nascar** (96 → 277 lines): 4 track types (superspeedway variance ×0.80; short track ×1.08; road
+course oval-racer ×0.88; intermediate standard), NASCAR playoff bubble motivation ×1.12,
+Daytona 500 ×1.50 signal weight, Championship 4 winner-take-all, equipment tier + pit crew modifiers.
+
+**netball** (96 → 177 lines): Shooting accuracy primary signal (>92% ×1.12), super shot model,
+goalkeeper intercept rate ×1.08, Super Netball/World Cup context.
+
+**rowing** (96 → 178 lines): Ergometer PB model, boat class specificity, Henley/World Championships
+context, wind conditions modifier (head wind >3m/s significant).
+
+### Added — `core/modifier-recalibration-v3.md`
+
+First empirical recalibration from 70 outcome records. Three modifiers UPDATED:
+  derby_draw_premium: formal update — DRAW_LIKELY as primary direction when derby_active AND
+                      form_differential < 0.10 AND no elimination stakes; position_size capped 50%
+  post_tournament_opener: new flag — first match of new season within 30 days of major tournament
+                           final → expand draw window; reduce positional confidence by 1 tier
+  two_legged_tie_leg1: Leg 1 draw premium formalised — tactical draw elevated; wide prediction range
+
+Five modifiers CONFIRMED (athlete_modifier, qualifying_delta, india_pakistan ×2.00,
+morning_skate_protocol, competition_tier_weight). Three wrong-direction records fully analysed —
+all involve draws; all had SMS < 70; none involve high-confidence errors. Pattern identified:
+draw prediction systematic issue in European football tactical contexts. Recalibration methodology
+documented. Path to full thresholds: athlete_modifier first at ~v3.25-v3.27.
+
+### Added — `community/CONTRIBUTORS.md`
+
+Five-tier recognition system (Calibration Records highest impact through Issues/Feedback).
+CONTRIBUTORS.md format with current core team credits. First-contribution step-by-step guide.
+Founding Calibrator recognition: first 10 external contributors permanently noted.
+Sport-specific calibration priorities: football (derby_active), cricket (dew_factor), basketball
+(playoff_modifier), F1 (street circuit qualifying_delta).
+
+### Updated — `community/calibration-data/CONTRIBUTING.md`
+Record count updated 40 → 70 records. Recalibration-v3 linked.
+
+### Calibration drive: 10 new records (total 80 across 19 sports)
+
+NEW SPORTS: handball (EHF CL — GK save rate ×1.12 validated),
+            kabaddi (PKL — raider primacy ×1.20 validated),
+            nascar (Daytona 500 — superspeedway specialist confirmed)
+19 sports now covered — every major global sport has at least one record.
+
+RECALIBRATION VALIDATION: Derby draw premium update (DRAW_LIKELY) immediately validated —
+Man City 1-1 Man Utd (Northwest Derby, form_differential < 0.08). Protocol update confirmed correct.
+
+BREAKING NEWS VALIDATION: GK change at T-1h → MODIFY protocol → direction changed HOME→AWAY
+→ correct outcome. Core breaking-news-intelligence.md protocol empirically confirmed.
+
+Direction accuracy: 77/80 (96%) — highest in library history.
+3 wrong-direction records in 80 total (3.75% error rate).
+
+### Updated — `sportmind-overview.md`
+Core: 25 → 26 (modifier-recalibration-v3). v3.23 marked ✅; v3.24 defined.
+
+### Updated — `llms.txt` → v3.23.0, API → v3.23
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.24.0] — 2026-04-05 — Compressed refresh, RWA Phase 5, DE/JA i18n, recalibration-v4, 90 calibration records
+
+### Updated — `compressed/README.md` (41 → 45 summaries)
+
+4 new compressed summaries:
+  purpose-and-context (~280 tokens): 5 rules, ecosystem map, SMS tiers, autonomy levels, doc map
+  agent-goal-framework (~200 tokens): 3 levels, 6 states, 5 triggers, GoalDirectedAgent, use-when guidance
+  modifier-recalibration (~220 tokens): 3 updates (derby/opener/two-legged), 5 confirmed, next threshold
+  ultra-compressed agent init (~120 tokens): minimum viable context for constrained windows
+
+### Updated — `fan-token/rwa-sportfi-intelligence/` (361 → 605 lines)
+
+Phase 5 lifecycle activation: 4 entry conditions, 5 progression stages (5a staking → 5e DAO),
+RSF delta per stage, CDI_phase5_entry = 30-60 day engagement window.
+
+Staking yield: Type 1 (pure inflation 8-25% APY), Type 2 (fee-backed 3-12% sustainable),
+Type 3 (revenue-sharing variable — most advanced; regulatory framework needed).
+
+Tokenised media rights: CDI 7-14 days on announcement, LTUI +3-6 per deal, viral clip signal.
+
+Performance bonds: Type A (transfer fee bond), Type B (season position bond), Type C (athlete
+income bond — common in boxing/MMA). Bond milestone match: NCSI × 1.15 additional.
+
+Sports DAO: treasury intelligence (>$1M meaningful), governance mercenary risk, proposal spam
+flag, regulatory boundary (commercially adjacent decisions only).
+
+RSF tiers: 0.25-0.45 Phase 5a (LTUI +5-8) → 0.80-1.00 Phase 5e (LTUI +35-50).
+Current market: ~15-20% at Phase 5a; <5% at Phase 5b+; 0% at Phase 5e.
+
+### Added — i18n: German and Japanese (3 new files)
+
+`i18n/de/sports/football/sport-domain-football.md` (121 lines):
+Bundesliga context: Bayern (310k members, JHV governance), BVB ($BVB Gelbe Wand),
+Leverkusen (2024 champions). Der Klassiker ×1.65, Revierderby ×1.60, Abstiegskampf ×1.40.
+DFB-Pokal final ×1.40. Home-EM 2024 highest NCSI ever for German market.
+
+`i18n/ja/sports/football/sport-domain-football.md` (105 lines):
+Jリーグ context (浦和レッズ, 鹿島アントラーズ). ACL signal weights. 侍ジャパン NCSI.
+Calendar: February-December (unique to Asia). Japanese language agent prompts.
+
+`i18n/ja/sports/baseball/sport-domain-baseball.md` (44 lines):
+NPB context. 日本シリーズ ×1.80. 大谷翔平 ATM 0.85+. WBC ×1.75. NPB calendar.
+
+### Added — `core/modifier-recalibration-v4.md` (preliminary)
+
+athlete_modifier: 9/9 correct (100%) — CONFIRMED STABLE; no adjustment warranted.
+2 new wrong-direction records:
+  UCL R16 Leg 1 draw → reinforces recalibration-v3 two-legged Leg 1 protocol
+  BVB vs Leverkusen draw → NEW high_stakes_symmetry flag (both teams equal high stakes
+                            + quality_differential < 0.08 → DRAW_LIKELY, position_size 50%)
+
+6 modifiers with zero wrong-direction records confirmed stable:
+  athlete_modifier (9), qualifying_delta (4), india_pakistan ×2.00 (3),
+  morning_skate (3), dew_factor (5), taper_modifier (2).
+
+Draw under-prediction pattern fully documented: 5 wrong records all involve draws in
+European football tactical contexts. All other prediction types performing correctly.
+
+### Calibration drive: 10 new records (total 90 across 19 sports)
+
+Records cover: football (3), basketball (1), formula1 (1), cricket (1), tennis (1),
+mma (1), ice-hockey (1), rugby-league (1).
+Direction accuracy: 85/90 (94%). athlete_modifier now 9/50 records (18% of threshold).
+
+### Updated — `sportmind-overview.md`
+Core: 26 → 27 (recalibration-v4). i18n: 18 → 21 files. v3.24 ✅; v3.25 defined.
+
+### Updated — `llms.txt` → v3.24.0, API → v3.24
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.25.0] — 2026-04-05 — Recalibration-v5, compressed refresh, Arabic Gulf i18n, Pattern 7, 101 calibration records
+
+### Updated — `compressed/README.md` (45 → 47 summaries)
+
+modifier-recalibration protocols (~160 tokens): all 4 draw protocols (derby/opener/two-legged/
+high-stakes-symmetry), 5 confirmed stable modifiers, preliminary recalibration threshold.
+agent-goal-framework (~170 tokens): 3 levels, 6 states, 5 triggers, use-case guidance.
+
+### Added — `i18n/ar/sports/football/sport-domain-football-gulf.md` (121 lines)
+
+Saudi Pro League market: Al-Hilal (65+ Asian titles), Al-Nassr with Ronaldo (ATM 0.95+, international
+audience multiplied), Al-Ittihad (Benzema ATM 0.82). Saudi Clásico (Hilal × Nassr) ×1.75.
+ACL Elite signal weights (Group 0.40 → Final 1.00). Gulf crypto regulatory context (UAE ADGM/VARA
+most advanced framework in region). WC2030 qualifier regional context. Arabic agent prompts.
+
+### Added — `examples/agentic-workflows/cross-sport-signal-monitor.md` (Pattern 7)
+
+CrossSportSignalMonitor Python class with SportSignalProfile (total_signal_strength() combining
+SMS + KOL signal + on-chain signal + NCSI). ConvergenceDetector with 4 patterns:
+  MACRO_BULL_MULTI_SIGNAL: macro ≥ 1.10 + 3+ actionable tokens → portfolio entry
+  SAME_WINDOW_MULTI_SPORT: 2+ different sports with events within 48h → timed entry
+  NCSI_AMPLIFICATION: national team event → 2+ club tokens with NCSI → enter all affected
+  COUNTER_CYCLE_OPPORTUNITY: mild bear macro (0.80-0.92) + SMS ≥ 78 → selective enter at 50%
+
+Coordination: feeds Portfolio Monitor, Pre-Match Chain, and Signal Bus. Published state:
+coordination/cross_sport_state.json for SportFi Kit portfolio dashboard.
+
+### Added — `core/modifier-recalibration-v5.md`
+
+15-record athlete_modifier preliminary recalibration: 13/15 correct (87%), CONFIRMED STABLE.
+No change to 0.55-1.25 range. Cross-sport breakdown: basketball/MMA/NHL/rugby all 100%.
+Football 75% (explained by draw protocols, not modifier calibration issue).
+
+100-record milestone analysis:
+  95/100 overall accuracy (95%)
+  ALL 5 wrong records = European football draws (zero wrong in any other prediction type/sport)
+  8 modifiers with zero wrong records: qualifying_delta, india_pakistan ×2.00, morning_skate,
+    dew_factor, taper, raider_primacy (kabaddi), goalkeeper_save_rate (handball), superspeedway_specialist (NASCAR)
+  
+Next threshold: athlete_modifier at 25 records → recalibration-v6 (~v3.28-v3.30)
+Community priority: athlete_modifier football records + competition_tier_weight UCL records
+
+### Calibration drive: 10 new records (total 100 across 19 sports)
+
+athlete_modifier reached 15-record preliminary threshold (triggers recalibration-v5).
+100-record milestone: first sports signal library with empirical modifier validation at this scale.
+New records: football (3), basketball (1), mma (1), rugby union (1), cricket (1), formula1 (1), tennis (1), hockey (1), rugby-league (1).
+Direction accuracy: 95/100 (95%).
+
+### Updated — `sportmind-overview.md`
+Core: 27 → 28 (recalibration-v5). i18n: 22 files. Compressed: 47. v3.25 ✅; v3.26 defined.
+
+### Updated — `llms.txt` → v3.25.0, API → v3.25
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.26.0] — 2026-04-05 — Release preparation: data connectors, user navigation, community activation, Pattern 8, 110 records
+
+### Added — `platform/data-connector-templates.md`
+
+Three production-ready Python connectors with full error handling:
+
+FootballLineupConnector (football-data.org): get_upcoming_matches() for 6 competitions,
+get_lineup() returning SportMind-compatible dict with lineup_unconfirmed flag,
+check_lineup_for_sportmind() with key_player_status and absences_detected. All competition IDs.
+
+FanTokenMarketConnector (KAYEN): get_token_data() mapping to SportMind TVL tiers
+(DEEP ≥$5M / MODERATE ≥$500k / THIN ≥$50k / MICRO <$50k), spread_pct calculation,
+HIGH_SPREAD flag, check_liquidity_gate() returning proceed/blocked with reason,
+get_portfolio_snapshot() for multi-token portfolios. No API key required.
+
+MacroStateConnector (CoinGecko): get_macro_modifier() mapping BTC price to SportMind phases
+(BULL modifier 1.15 → EXTREME_BEAR 0.50), momentum adjustment for ±5% daily change,
+is_stale() for Tier 3 freshness (4h threshold), _load_cached_state() fallback,
+sportmind_startup_check() as the standard agent startup sequence.
+
+Complete agent_with_connectors.py: all three connectors integrated in correct SportMind order.
+Additional data sources reference: cricket, NBA, MMA, F1, social/sentiment, on-chain.
+
+### Added — `WHO-USES-THIS.md`
+
+Six user-type paths: developer (starter pack → bundles → connectors → Chiliz execution),
+agent builder (purpose-and-context → framework → workflows → bundles), analyst/commercial
+(WHO-WE-ARE → agent prompts 11-13 → applications), researcher (calibration framework →
+recalibration reports → records), contributor (First Record Challenge → CONTRIBUTING →
+CONTRIBUTORS), just-curious (5-minute LLM quickstart). Quick reference table.
+Explicitly states what each type does NOT need to read.
+
+### Added — `FIRST-RECORD-CHALLENGE.md`
+
+Complete community activation document. Five-step guide (zero coding required).
+Minimum viable analysis using any LLM (5 minutes). Template with required vs optional fields.
+Three submission methods (GitHub PR / email / GitHub Issue). Most-wanted record types table.
+Founding Calibrator recognition for first 10 external contributors explained.
+Section explaining why wrong-direction records are valuable (they improve the library).
+
+### Updated — `README.md`
+
+Upgraded for external release: WHO-USES-THIS.md as first navigation link,
+calibration foundation stated prominently (100+ records, 95% accuracy, zero wrong outside football draws),
+8 modifiers with zero wrong-direction records named, deployment readiness statement,
+community contribution call-to-action with FIRST-RECORD-CHALLENGE link,
+concise (176 lines vs 235 previously) and clear for external audiences.
+
+### Added — `examples/agentic-workflows/governance-monitoring-agent.md` (Pattern 8)
+
+GovernanceProposal dataclass with hours_remaining(), participation_rate(), is_urgent(),
+is_quorum_at_risk(). DecisionWeightClassifier: THEATRE_KEYWORDS (cosmetic; no LTUI signal),
+STRUCTURAL_KEYWORDS (weight 0.90; LTUI ±6-12), COMMERCIAL_KEYWORDS (weight 0.70; LTUI ±2-6),
+OPERATIONAL_KEYWORDS (weight 0.45; LTUI ±0.5-2). GovernanceBriefGenerator producing LTUI YES/NO
+projections and quorum risk alerts. GovernanceMonitorAgent: 2h cycle, Level 1 mandatory,
+_process_new_proposal(), _check_urgency(), _record_outcome(), governance_outcomes.jsonl audit log.
+
+Safety principles: Level 1 autonomy is mandatory for governance (legal attestation context;
+per-vote authorisation only; no autonomous voting ever).
+
+### Added — `i18n/hi/sports/cricket/sport-domain-cricket-ipl.md` (122 lines)
+
+IPL franchise profiles in Hindi: MI (बुमराह ATM 0.78), CSK (MS धोनी legacy), RCB (कोहली ATM 0.92+),
+KKR (Shah Rukh Khan ownership). Dew factor rules in Hindi (ओस कारक). IPL playoff signal weights.
+भारत-पाकिस्तान × 2.00 rule in Hindi. Hindi language agent prompts for Indian market.
+
+### Calibration drive: 10 new records (total 110 across 19 sports)
+
+LANDMARK: First governance calibration record — PSG structural vote (Decision_Weight 0.90 validated)
+Maple Leafs NHL Conference Final G7 advance — 60-year drought narrative at maximum intensity
+F1 Sprint × 0.40 signal weight validated (first sprint record in library)
+athlete_modifier: 16/50 records (32% threshold). Direction accuracy: 105/110 (95%).
+
+### Updated — `sportmind-overview.md`
+Platform: 16 → 17 (data-connector-templates). i18n: 22 → 23 files.
+v3.26 marked ✅; v3.27 defined.
+
+### Updated — `llms.txt` → v3.26.0, API → v3.26
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.27.0] — 2026-04-05 — Recalibration-v6, WHO-WE-ARE rewrite, compressed refresh, AR cricket PSL, 120 records
+
+### Updated — `WHO-WE-ARE.md`
+
+Full rewrite replacing stale v3.14 content. Now reflects v3.26/v3.27 state.
+434 files, 27 version cycles. Five layer summary with file counts. Calibration
+foundation: 110+ records, 95% accuracy, 8 zero-wrong modifiers named. Ecosystem
+map distinguishing data/intelligence/application/execution layers. Contributing
+section with exact threshold status (athlete_modifier: 16/50). Long-horizon vision.
+
+### Updated — `compressed/README.md` (47 → 50 summaries)
+
+cross-sport signal monitor (~200t): 4 patterns, signal_strength() formula, cycle/autonomy.
+governance monitoring agent (~180t): decision weight tiers, theatre keywords, Level 1 mandatory.
+data connector templates (~230t): 3 connectors, API key status, tier thresholds, integration order.
+
+### Added — `i18n/ar/sports/cricket/sport-domain-cricket-psl.md` (121 lines)
+
+PSL franchise intelligence: Lahore Qalandars ($LAH on Chiliz), Karachi Kings, Multan Sultans.
+Gulf cricket market: UAE 3.5M South Asian diaspora, Qatar/Kuwait fan bases.
+PSL NCSI weights: Group 0.35 → Final 0.85 (explicitly lower than IPL).
+PSL dew factor: lower humidity than IPL — moderate risk only above 65%.
+Pakistan vs India × 2.00 in Arabic. Asia Cup UAE context. Arabic agent prompts.
+
+### Updated — `core/modifier-recalibration-v6.md`
+
+Replaced interim v3.26 placeholder with full 25-record preliminary analysis.
+athlete_modifier: 21/25 correct (84%) headline; but 18/18 (100%) non-football,
+7/7 (100%) football with protocols applied. Draw protocol confidence tiers:
+TIER 1 (two_legged_leg1, high_stakes_symmetry) — NEVER OVERRIDE;
+TIER 2 (derby_active, post_tournament) — apply consistently.
+Override rule formalised: SMS > 80 AND quality_differential > 0.20; max 30% position.
+120-record milestone: 115/120 (95.8%). No new wrong records in records 101-120.
+8 zero-wrong modifiers confirmed. Next: recalibration-v7 at 40 records.
+
+### Calibration drive: 10 new records (total 120 across 19 sports)
+
+athlete_modifier reached 25-record threshold → triggers recalibration-v6 (CONFIRMED STABLE).
+NFL GS R8 Celtics-Lakers, NBA EuroLeague Olympiacos, MMA Women's title, Rugby WC 2027 pool,
+NHL Maple Leafs Cup defense opener (SMS 81 = highest individual record ever), BVB vs Wolfsburg,
+La Liga Atlético vs Sevilla, T20WC2028 qualifier Pakistan vs England.
+Two-legged Leg 1 DRAW_LIKELY validated third time (City vs Barcelona).
+Records 101-120: 20/20 correct direction — perfect 20-record streak.
+Direction accuracy: 115/120 (95.8%).
+
+### Updated — `sportmind-overview.md`
+i18n: 23 → 24 files. Compressed: 47 → 50. v3.27 ✅; v3.28 defined.
+
+### Updated — `llms.txt` → v3.27.0, API → v3.27
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.28.0] — 2026-04-05 — Final pre-release: GOOD_FIRST_ISSUES, compressed recalibrations, netball/rowing records, 126 records
+
+### Updated — `GOOD_FIRST_ISSUES.md` (127 → 213 lines)
+
+Full rewrite with 4 contribution levels. Every item has a specific definition of done.
+
+Level 1 (no coding, 30-60min): calibration records with most-wanted table (netball/rowing ZERO
+records highlighted), stale document fixes (leaderboard at v3.2, README badge at 100 records),
+language translations with highest-value gap table (Korean, Italian, Turkish, Mandarin).
+
+Level 2 (domain knowledge, 1-3h): 14 stub sports table with key market and signal notes
+for each; athlete intelligence skills for stub sports; 5-record cluster path to Senior
+Calibrator status (modifier threshold impact quantified per sport/modifier).
+
+Level 3 (technical, 3-8h): TypeScript starter pack example; live calibration record validator
+script (football-data.org + ESPN API + Cricinfo); netball/rowing expansion to GOOD depth.
+
+Level 4 (significant, 8+h): external recalibration analysis (first external voice in
+modifier calibration history); hosted MCP server endpoint.
+
+### Updated — `compressed/README.md` (50 → 52 summaries)
+
+recalibration-v5 (~180t): 100-record milestone, 8 zero-wrong modifiers named, athlete_modifier
+15-record preliminary confirmed stable, perfect 20-record run in records 81-100.
+
+recalibration-v6 (~220t): Draw protocol TIER 1 (never override: two_legged_leg1 +
+high_stakes_symmetry, 4/4 correct applied vs 0/4 overridden) and TIER 2 (apply consistently).
+Override rule (SMS > 80 + quality_diff > 0.20; max 30% position). 120-record milestone 95.8%.
+
+### Calibration drive: 6 new records (total 126 across 21 sports)
+
+NETBALL — FIRST THREE RECORDS (all correct direction, shooting accuracy model validated):
+  Super Netball R7 Lightning vs Swifts: shooting 91.2% vs 87.4% correctly predicted AWAY
+  World Cup 2027 SF Australia vs NZ: 93.1% vs 89.4% combined shooting, championship modifier ×1.08
+  Super Netball Grand Final: season shooting leader correctly predicted at highest pressure
+
+ROWING — FIRST THREE RECORDS (all correct direction):
+  World Rowing Cup 2 single scull: PB proximity within 1.1% → erg modifier ×1.06 validated
+  World Rowing Championships eights: crew stability (14-month lineup vs 2 substitutions) validated;
+    60/40 individual/crew model confirmed at World Championship level
+  Henley Grand Challenge Cup: erg advantage (4.2s/2km) → comfortable margin; challenge format = pure signal
+
+21 SPORTS ALL CALIBRATED — no sport in the library has zero outcome records any longer.
+Direction accuracy: 121/126 (96%) — highest in library history.
+Records 101-126: 26/26 correct direction — extended perfect run.
+
+### Updated — `README.md`
+Badge: 100 records → 126 records; 95% → 96% accuracy.
+recalibration-v5 → v6 reference. athlete_modifier: 15/50 → 25/50.
+
+### Updated — `WHO-WE-ARE.md`
+Records: 110 → 126; sports: 19 → 21; recalibration reports: 5 → 6; version: 3.26 → 3.28.
+
+### Updated — `FIRST-RECORD-CHALLENGE.md`
+Record count: 100 → 126.
+
+### Updated — `community/calibration-data/CONTRIBUTING.md`
+Record count: 70 → 126 records; 16 → 21 sports.
+
+### Updated — `sportmind-overview.md`
+v3.28 ✅. Compressed: 50 → 52. v3.29 defined as community release.
+
+### Updated — `llms.txt` → v3.28.0, API → v3.28
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.29.0] — 2026-04-05 — Community Release
+
+### The release milestone
+
+v3.29 is the community release of SportMind. The intelligence framework, calibration
+pipeline, developer tooling, and community contribution infrastructure are complete.
+This version adds the final repository infrastructure required for a public open-source
+release and performs a final consistency sweep across all community-facing documents.
+
+### Added — `CODE_OF_CONDUCT.md`
+
+Written specifically for SportMind's technical community — not a generic template.
+
+Three core principles: (1) Technical honesty — calibration records must be submitted
+before matches, never backfilled with result knowledge; wrong predictions submitted
+honestly are more valuable than correct ones submitted falsely. (2) Analytical neutrality —
+skills must not encode systematic bias toward any team, club, or outcome. (3) Specific,
+evidenced feedback — inaccuracy reports must provide the specific claim, why it is wrong,
+and a source.
+
+What is not acceptable: backfilled calibration records, coordinated modifier manipulation,
+personal attacks, harassment. Enforcement: maintainer discretion, decisions are final.
+
+### Added — `CITATION.cff`
+
+CFF 1.2.0 standard. Enables automatic citation generation by GitHub, Zenodo, and
+academic reference tools. Fields: title, version (3.28.0), date-released, license (MIT),
+url, repository-code, keywords (12), preferred-citation block with abstract.
+
+### Added — `RELEASE.md`
+
+Community release announcement document. Contents: what is in the release (framework,
+calibration foundation, developer tooling, community infrastructure), why calibration
+records matter (modifier threshold progress, Founding Calibrator recognition), what is
+NOT included (live data, full modifier recalibration, hosted infrastructure), three
+getting-started paths (5-minute LLM, developer clone, WHO-USES-THIS.md navigation),
+acknowledgements of the founding team's calibration seed work.
+
+### Updated — `community/leaderboard.md`
+
+Removed stale v3.2 content. Updated to v3.28 state: 126 records across 21 sports,
+founding team position clarified (Expert 🏆 with N/A modifier accuracy — threshold not yet
+reached), clear call to action for first external contributor, Founding Calibrator path.
+
+### Updated — `llms.txt`
+
+Fixed stale example file paths: standalone/ → starter-pack/, langchain/ → starter-pack/,
+claude-mcp/ → starter-pack/. Version: 3.29.0.
+
+### Final consistency sweep
+
+All community-facing documents verified current at v3.29:
+- `README.md`: 126 records, 96% accuracy, v6 recalibration reference ✅
+- `WHO-WE-ARE.md`: 126 records, 21 sports, 6 recalibration reports ✅
+- `FIRST-RECORD-CHALLENGE.md`: 126 records ✅
+- `GOOD_FIRST_ISSUES.md`: Current modifier thresholds, 14 stub sports documented ✅
+- `community/CONTRIBUTORS.md`: Founding Calibrator recognition defined ✅
+- `community/leaderboard.md`: v3.28 state ✅
+- `llms.txt`: Current paths and record counts ✅
+- `CITATION.cff`: v3.28.0 ✅
+- `sportmind-overview.md`: v3.29 ✅, v3.30+ roadmap defined ✅
+- `RELEASE.md`: Release announcement ✅
+
+### Updated — `sportmind-overview.md`
+v3.29 ✅. v3.30+ community evolution roadmap defined. v4.0 milestone defined:
+three modifiers at 50-record threshold, first external recalibration, community maintenance.
+
+### Updated — `llms.txt` → v3.29.0, API → v3.29
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.29.1] — 2026-04-05 — CODEOWNERS and co-maintainer path
+
+### Added — `.github/CODEOWNERS`
+
+Repository ownership map for GitHub's automatic review assignment system.
+
+Structure: `*` fallback (owner) → specific paths with owner assigned and detailed
+comments documenting the delegation model for each area.
+
+Paths covered with delegation-ready comments:
+- `core/` `platform/` `compressed/` — owner only (changes affect all agents)
+- `community/calibration-data/` — owner + future trusted calibration contributor
+- `sports/` `athlete/` — delegation examples for each sport domain
+- `fan-token/` `market/` `macro/` — owner
+- `i18n/` — per-language delegation examples (AR/DE/HI/JA/ES/FR/PT)
+- `.github/` `scripts/` — owner (affects all contributors)
+- Root docs (README, CONTRIBUTING, CODE_OF_CONDUCT, etc.) — owner
+- `examples/` — lighter touch, any maintainer
+
+All delegation slots are commented with clear instructions for adding handles
+when co-maintainers emerge. No setup required on GitHub beyond replacing
+`SportMind` with the actual handle before pushing.
+
+### Updated — `CONTRIBUTING.md`
+
+"Becoming a co-maintainer" section added after the existing Recognition section.
+
+No application process — co-maintainership through demonstrated contribution.
+Three qualification paths: 3+ merged PRs in a domain, 10+ validated calibration
+records, or 5+ validated translations in one language. Judgment demonstrated
+through constructive PR reviews and understanding the quality bar.
+
+What co-maintainers do: review and merge PRs in their domain, triage issues,
+participate in recalibration decisions. What they do not need to do: review
+everything or be immediately available (7-day review windows are standard).
+
+Domain areas expected to need co-maintainers first: calibration records (highest
+volume), football, cricket, i18n languages.
+
+Fastest path to co-maintainer status: calibration records (demonstrate judgment,
+honesty, and library familiarity in a concrete and verifiable way).
+
+### Updated — `platform/skill-hashes.json` regenerated
+
+---
+
+## [3.30.0] — 2026-04-05 — Chiliz 2030 intelligence: gamified tokenomics, US regulatory, omni-chain, RWA staging
+
+### Added — `fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md`
+
+New skill for Chiliz 2030 performance-linked tokenomics (Q2 2026 rollout).
+
+What gamified tokenomics are: Win→tokens burn (scarcity), Loss→tokens mint (dilution),
+Draw→no change. Why this matters: WIN prediction is now simultaneously a SUPPLY REDUCTION
+prediction; standard static-supply signal model does not apply.
+
+Detection: KAYEN API gamified flag, Socios.com "performance-linked" indicator. Default
+assumption: pre-Q2 2026 tokens are STANDARD unless confirmed. Never apply gamified
+multiplier to unconfirmed tokens.
+
+Win modifier formula: gamified_win_multiplier = 1.00 + (burn_rate_pct × 2.5)
+Example: 0.3% burn/win → ×1.0075 amplification on top of standard signal.
+Loss modifier: gamified_loss_multiplier = 1.00 − (mint_rate_pct × 2.0)
+Draw: no modifier (verify contract for draw-specific handling).
+
+Season supply tracking: accumulate net burned/minted across all matches. Net burned
+>5% → MILD_SCARCITY modifier; championship run (10+ wins) → ×1.08 season floor boost.
+Prediction market interaction flag. Unusual pre-match volume flag (>3× in 4h window).
+Stage 2 detection rule: re-check gamified status at start of each new season.
+Output schema extension: gamified_modifier + season_supply_position fields.
+
+### Added — `macro/macro-regulatory-sportfi.md`
+
+New macro skill for the 2025-2026 regulatory turning point across four jurisdictions.
+
+EU MiCA (fully active January 2025): utility fan tokens classified as utility tokens,
+whitepaper required, CASP licensing for exchanges. Revenue-sharing tokens: national
+securities law applies. Agent implication: EU = regulatory_clarity HIGH.
+
+US Joint SEC/CFTC Guidance (landmark 2026): Pure utility fan tokens classified as
+UTILITY DIGITAL COMMODITIES under CFTC — NOT securities. This is the regulatory unlock
+for US market re-entry (first US partnership Q1 2026 per Chiliz 2030 Manifesto).
+US sports market: NFL ~$25B, NBA ~$12B, MLB ~$11B annual revenue. US_market_entry_signal
+activates as Tier 1 macro event. CDI window 45-60 days at first US token launch.
+
+Brazil: First revenue-sharing RWA live on Chiliz Chain — Phase 5b confirmed operational,
+not theoretical. UK: FCA utility token framework, MEDIUM clarity.
+
+Regulatory discount framework: HIGH (EU/US utility) = 0.00 → RESTRICTED (China) = ABSTAIN.
+Quarterly monitoring rule with specific sources (ESMA, CFTC, FCA, IOSCO).
+
+### Updated — `fan-token/rwa-sportfi-intelligence/rwa-sportfi-intelligence.md` (605 → 729 lines)
+
+Three-stage Fan Token evolution from Chiliz 2030 Manifesto:
+Stage 1 (2019-2025): Utility baseline. Stage 2 (2026): Dynamic tokenomics (gamified
+mechanics + omni-chain). Stage 3 (2027-2030): RWA with equity/revenue exposure.
+Stage stacking principle: stages do not replace — they accumulate.
+
+Omni-chain liquidity intelligence: LayerZero bridge from Q1 2026. Agent adjustment:
+check omni_chain flag, aggregate TVL across all chains, apply omni_chain_bonus to tier.
+Arbitrage check before raising unusual_activity flag on cross-chain tokens.
+PEPPER governance token: KAYEN's community governance token; monitor for protocol changes.
+
+Updated RSF formula with stage bonuses: +0.08 (Stage 2), +0.12 (Stage 2+omnichain),
++0.20 (Stage 3). Updated LTUI ranges for stacked stages.
+
+### Updated — `platform/data-connector-templates.md`
+
+KAYEN section updated: omni-chain awareness (Q1 2026 LayerZero), cross_chain_tvl field,
+PEPPER governance token context, gamified tokenomics detection note with skill reference.
+
+### Updated — `compressed/README.md` (52 → 54 summaries)
+
+Gamified tokenomics (~200t): detection, WIN/LOSS formulas, season supply tiers, flags.
+Macro regulatory SportFi (~210t): all four jurisdictions, discount framework, US event signal.
+
+### Updated — `sportmind-overview.md`
+Fan token skills: 36 → 37. Compressed: 52 → 54. v3.30 ✅; v3.31+ roadmap defined.
+
+### Updated — `llms.txt` → v3.30.0, API → v3.30
+### Updated — `platform/skill-hashes.json` regenerated

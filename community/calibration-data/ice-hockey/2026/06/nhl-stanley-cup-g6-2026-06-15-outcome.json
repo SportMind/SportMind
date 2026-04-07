@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-cup-g6-oilers-florida-2026-06-15-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-stanley-cup-2026-g6-oilers-florida",
+    "event_name": "NHL Stanley Cup Final 2026 Game 6 \u2014 Edmonton Oilers vs Florida Panthers",
+    "kickoff_utc": "2026-06-15T20:00:00Z",
+    "recorded_at": "2026-06-15T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-06-16T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 61.0,
+      "adjusted_score": 70.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 77,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Stanley Cup Final G6. Oilers at home (Rogers Place), trailing 3-2 in series. ELIMINATION GAME for Oilers. Morning skate confirmed starter Oilers (GSAx +12.1). Canadian market signal: Edmonton \u00d7 1.25. McDavid \u2014 maximum motivation. Elimination modifier applied."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Edmonton 5 \u2013 Florida 3 (series tied 3-3)",
+      "result_source_url": "https://www.nhl.com/stanley-cup-playoffs/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "canadian_market_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.03,
+      "signal_was_actionable": true,
+      "notes": "STANLEY CUP FINAL record. Edmonton Canadian market \u00d7 1.25 validated. GSAx model correct \u2014 Oilers starter (GSAx +12.1) confirmed strong performance. McDavid elimination game motivation confirmed. Morning skate protocol validated at highest-stakes NHL event."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

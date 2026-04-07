@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "tennis-atp-finals-2026-11-15-001",
+    "sport": "tennis",
+    "event_id": "atp-finals-2026-final-sinner-alcaraz",
+    "event_name": "ATP Finals 2026 \u2014 Singles Final, Jannik Sinner vs Carlos Alcaraz",
+    "kickoff_utc": "2026-11-15T15:00:00Z",
+    "recorded_at": "2026-11-15T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-11-16T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 62.3,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.07,
+      "sportmind_score": 71,
+      "modifiers_applied": {
+        "athlete_modifier": 1.07,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "ATP Finals Final. Indoor hard court. Year-end championship. Sinner indoor hard court win rate 81% vs Alcaraz 73%. No fatigue (both had rest day before final). Rivalry \u00d7 1.15 ATM active for both. Year-end finalist status: maximum commercial exposure."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Sinner won 7-6, 6-4",
+      "result_source_url": "https://www.atptour.com/en/scores/archive/nitto-atp-finals/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "indoor_hard_court_specialist",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Indoor hard court specialisation validated. Sinner 81% vs Alcaraz 73% indoor hard correctly predicted ATP Finals winner. Year-end championship \u2014 both players at peak seasonal fitness. Rivalry signal active \u2014 high quality match as expected."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

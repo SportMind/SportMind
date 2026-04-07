@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "darts-pdc-world-championship-final-2026-01-03-001",
+    "sport": "darts",
+    "event_id": "pdc-world-championship-final-2026",
+    "event_name": "PDC World Darts Championship Final 2026 \u2014 Alexandra Palace",
+    "kickoff_utc": "2026-01-03T19:00:00Z",
+    "recorded_at": "2026-01-03T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-01-04T10:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 73.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.15,
+      "sportmind_score": 77,
+      "modifiers_applied": {
+        "average_modifier": 1.15,
+        "venue_modifier": 1.04,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "PDC World Final. Ally Pally night session (New Year finale atmosphere). Predicted winner: 3-dart average 102.4 in tournament (elite > 100). British player: crowd advantage \u00d71.06. Checkout %: 44.2% (very good). SMS 77."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Winner 7-4 sets",
+      "result_source_url": "https://www.pdc.tv/news/2026/01/pdc-world-championship-final"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "three_dart_average_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "FIRST DARTS CALIBRATION RECORD. Three-dart average >100 modifier \u00d71.15 validated. Ally Pally night session crowd advantage (British player) confirmed. Checkout 44.2% = very good tier correctly applied. PDC World Championship highest signal darts event validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

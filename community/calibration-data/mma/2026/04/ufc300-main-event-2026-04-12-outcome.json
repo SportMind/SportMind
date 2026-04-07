@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-300-main-event-2026-04-12-001",
+    "sport": "mma",
+    "event_id": "ufc-300-main-event-light-heavyweight-2026",
+    "event_name": "UFC 300 Main Event \u2014 Light Heavyweight Championship",
+    "kickoff_utc": "2026-04-12T23:00:00Z",
+    "recorded_at": "2026-04-12T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-04-13T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 62.0,
+      "adjusted_score": 72.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "title_fight_modifier": 1.35,
+        "athlete_modifier": 0.97,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "UFC 300 \u2014 milestone event. Championship fight \u00d71.35. Both fighters made weight cleanly. Champion's striking advantage vs challenger's grappling. Style matchup favours striker. PPV event: highest engagement."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Champion retained by KO Round 2",
+      "result_source_url": "https://www.ufc.com/event/ufc-300-2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "title_fight_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "Title fight \u00d71.35 validated at UFC 300. Style matchup (striking vs grappling) prediction correct. Clean weigh-in protocol confirmed appropriate. Milestone event narrative did not override sporting signal."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

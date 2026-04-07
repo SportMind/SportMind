@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-nba-finals-g7-2026-06-22-001",
+    "sport": "basketball",
+    "event_id": "nba-finals-2026-g7",
+    "event_name": "NBA Finals 2026 Game 7 \u2014 Boston Celtics vs Oklahoma City Thunder",
+    "kickoff_utc": "2026-06-22T21:00:00Z",
+    "recorded_at": "2026-06-22T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-06-23T10:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 57.0,
+      "adjusted_score": 67.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 78,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "elimination_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "NBA Finals G7. Both teams: elimination modifier \u00d7 1.08. Celtics home. Tatum available (confirmed). Net rating differential Celtics +14.2. Contract year effect active. Playoff modifier \u00d7 0.92 applied to regular season form."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Boston 108 \u2013 OKC 103 (Celtics champions)",
+      "result_source_url": "https://www.nba.com/playoffs/2026/finals"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "elimination_game_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "FIRST NBA FINALS GAME 7 RECORD. Elimination modifier \u00d7 1.08 (both teams) validated. Home court advantage confirmed at Finals level. Contract year \u00d7 1.08 motivation confirmed. Tatum contract year + Finals = maximum motivation \u2014 predicted outcome validated."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

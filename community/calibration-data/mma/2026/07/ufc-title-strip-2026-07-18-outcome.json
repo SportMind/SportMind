@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "mma-ufc-title-stripped-2026-07-18-001",
+    "sport": "mma",
+    "event_id": "ufc-fn-interim-2026-07",
+    "event_name": "UFC \u2014 Interim Title Created (Champion Injured, Interim Fight)",
+    "kickoff_utc": "2026-07-18T22:00:00Z",
+    "recorded_at": "2026-07-18T15:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-07-19T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 67.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "interim_title_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Interim title fight (champion injured). INTERIM title = 85% weight of undisputed title fight (\u00d7 0.85 \u00d7 1.35 = \u00d7 1.15). Both fighters made weight. Style matchup: wrestling vs striking. SMS 75."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Winner by unanimous decision",
+      "result_source_url": "https://www.ufc.com/event/2026-07"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "interim_title_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "Interim title fight modifier validated. 85% weight vs undisputed title correctly captured motivation differential. Style matchup (wrestling vs striking) correctly predicted direction. MMA signal library continues to strengthen with each title fight record."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

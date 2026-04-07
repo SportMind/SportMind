@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-league-soo-g1-2026-05-27-001",
+    "sport": "rugby-league",
+    "event_id": "state-of-origin-2026-game-1-nsw-qld",
+    "event_name": "State of Origin 2026 Game 1 \u2014 NSW Blues vs Queensland Maroons",
+    "kickoff_utc": "2026-05-27T10:00:00Z",
+    "recorded_at": "2026-05-27T07:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-05-27T15:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 54.0,
+      "adjusted_score": 60.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.05,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.05,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "State of Origin G1. NCSI weight 0.75 (Game 1 not decider). NSW home at Accor Stadium, Sydney. Series opener: both teams full squad. Downstream NRL congestion signal identified: 4 NSW clubs depleted next week."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "NSW 22 \u2013 Queensland 12",
+      "result_source_url": "https://www.nrl.com/state-of-origin/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ncsi_weight",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.06,
+      "signal_was_actionable": true,
+      "notes": "State of Origin NCSI weight 0.75 validated for G1 (non-decider). Downstream NRL congestion signal correctly identified pre-match. NSW home advantage confirmed as real signal. G1 opener provides baseline for G2/G3 comparison."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

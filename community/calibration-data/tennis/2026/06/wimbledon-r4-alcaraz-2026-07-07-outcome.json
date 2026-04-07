@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "tennis-wimbledon-2026-r4-alcaraz-001",
+    "sport": "tennis",
+    "event_id": "wimbledon-2026-r4-alcaraz-djokovic",
+    "event_name": "Wimbledon 2026 Round 4 \u2014 Carlos Alcaraz vs Novak Djokovic",
+    "kickoff_utc": "2026-07-07T13:00:00Z",
+    "recorded_at": "2026-07-07T09:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-07-08T10:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 60.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.04,
+      "sportmind_score": 68,
+      "modifiers_applied": {
+        "athlete_modifier": 1.04,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Wimbledon R4. Grass. Alcaraz grass win% 76% vs Djokovic 86%. H2H Wimbledon: tied 1-1. R4 round modifier \u00d70.95. Djokovic grass specialist advantage \u2014 but Alcaraz age/form counters. SMS 68 reflects genuine uncertainty."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Alcaraz won 6-4, 3-6, 7-6, 6-3",
+      "result_source_url": "https://www.wimbledon.com/en_GB/draws/2026.html"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "grass_surface_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.07,
+      "signal_was_actionable": true,
+      "notes": "Wimbledon grass surface model validated. Alcaraz form (age 23, peak trajectory) correctly weighted vs Djokovic grass experience. R4 round modifier \u00d70.95 confirmed appropriate. Elite vs elite uncertainty (SMS 68) justified by 4-set match."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

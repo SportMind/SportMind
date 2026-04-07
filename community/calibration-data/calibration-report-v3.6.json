@@ -1,0 +1,150 @@
+{
+  "report_generated": "2026-04-03T01:58:05.002135+00:00",
+  "schema_version": "1.0",
+  "summary": {
+    "total_outcome_records": 7,
+    "sports_covered": [
+      "formula1",
+      "football",
+      "cricket",
+      "basketball",
+      "mma",
+      "rugby-league"
+    ],
+    "seed_records": 7,
+    "community_records": 0
+  },
+  "direction_accuracy": {
+    "total_records": 7,
+    "overall_direction_accuracy": 1.0,
+    "by_sport": {
+      "basketball": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "total": 2
+      },
+      "cricket": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1
+      },
+      "football": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1
+      },
+      "formula1": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1
+      },
+      "mma": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1
+      },
+      "rugby-league": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1
+      }
+    },
+    "by_confidence_tier": {
+      "HIGH": {
+        "accuracy": 1.0,
+        "correct": 4,
+        "total": 4,
+        "target": 0.72,
+        "calibrated": null
+      },
+      "MEDIUM": {
+        "accuracy": 1.0,
+        "correct": 1,
+        "total": 1,
+        "target": 0.58,
+        "calibrated": null
+      },
+      "LOW": {
+        "accuracy": 1.0,
+        "correct": 2,
+        "total": 2,
+        "target": 0.48,
+        "calibrated": null
+      }
+    }
+  },
+  "modifier_accuracy": {
+    "player_tier_1_trade_signal": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.7,
+      "mean_magnitude_error": null,
+      "calibrated": null,
+      "min_events_required": 100,
+      "events_until_first_calibration": 99,
+      "status": "INSUFFICIENT_DATA (1/100 events)"
+    },
+    "athlete_modifier": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.7,
+      "mean_magnitude_error": 0.02,
+      "calibrated": null,
+      "min_events_required": 100,
+      "events_until_first_calibration": 99,
+      "status": "INSUFFICIENT_DATA (1/100 events)"
+    },
+    "dew_modifier": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.7,
+      "mean_magnitude_error": 0.05,
+      "calibrated": null,
+      "min_events_required": 50,
+      "events_until_first_calibration": 49,
+      "status": "INSUFFICIENT_DATA (1/50 events)"
+    },
+    "narrative_modifier": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.65,
+      "mean_magnitude_error": 0.04,
+      "calibrated": null,
+      "min_events_required": 100,
+      "events_until_first_calibration": 99,
+      "status": "INSUFFICIENT_DATA (1/100 events)"
+    },
+    "qualifying_delta_modifier": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.7,
+      "mean_magnitude_error": 0.03,
+      "calibrated": null,
+      "min_events_required": 100,
+      "events_until_first_calibration": 99,
+      "status": "INSUFFICIENT_DATA (1/100 events)"
+    },
+    "macro_modifier": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.7,
+      "mean_magnitude_error": 0.0,
+      "calibrated": null,
+      "min_events_required": 200,
+      "events_until_first_calibration": 199,
+      "status": "INSUFFICIENT_DATA (1/200 events)"
+    },
+    "rivalry_form_discount": {
+      "total_events": 1,
+      "direction_accuracy": 1.0,
+      "direction_accuracy_target": 0.65,
+      "mean_magnitude_error": null,
+      "calibrated": null,
+      "min_events_required": 50,
+      "events_until_first_calibration": 49,
+      "status": "INSUFFICIENT_DATA (1/50 events)"
+    }
+  },
+  "calibration_actions_needed": [],
+  "next_review_date": "Monthly \u2014 see core/calibration-framework.md"
+}

@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-r16-city-real-2027-02-18-001",
+    "sport": "football",
+    "event_id": "ucl-2026-27-r16-leg1-mancity-realmadrid",
+    "event_name": "UCL Round of 16 Leg 1 \u2014 Manchester City vs Real Madrid",
+    "kickoff_utc": "2027-02-18T20:00:00Z",
+    "recorded_at": "2027-02-18T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-02-19T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 57.0,
+      "adjusted_score": 65.6,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "UCL R16 Leg 1. Two-legged tie: tactical draw premium applied (Leg 1 protocol from recalibration-v3). But Real Madrid quality edge + Vinicius Jr ATM \u00d7 1.12 + Mbapp\u00e9 away day form \u2192 AWAY favoured despite draw premium. SMS 74."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "direction_correct": false,
+      "final_score": "Manchester City 1 \u2013 Real Madrid 1",
+      "result_source_url": "https://www.uefa.com/uefachampionsleague/match/2027"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "two_legged_tie_leg1_draw_premium",
+      "modifier_direction_correct": false,
+      "modifier_magnitude_error": 0.2,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION \u2014 Draw. Two-legged Leg 1 draw premium from recalibration-v3 was the correct instinct but we overrode it with AWAY prediction. LEARNING: When recalibration-v3 two-legged Leg 1 protocol says DRAW_LIKELY, do not override with directional prediction even when one team appears stronger. The tactical draw is structural in European away-leg dynamics."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

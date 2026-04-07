@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "kabaddi-pkl-s12-patna-mumbai-2026-02-08-001",
+    "sport": "kabaddi",
+    "event_id": "pkl-season12-patna-pirates-vs-u-mumba",
+    "event_name": "Pro Kabaddi League Season 12 \u2014 Patna Pirates vs U Mumba",
+    "kickoff_utc": "2026-02-08T20:00:00Z",
+    "recorded_at": "2026-02-08T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-02-09T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 60.0,
+      "adjusted_score": 72.0,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.2,
+      "sportmind_score": 76,
+      "modifiers_applied": {
+        "raid_success_modifier": 1.2,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "pre_match_note": "PKL Season 12. Patna Pirates star raider: 63% raid success rate last 8 matches (elite tier \u00d71.20). All Out forcing: Patna 2.9/match vs Mumba 2.1/match. SMS 76."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Patna Pirates 42 \u2013 U Mumba 35",
+      "result_source_url": "https://www.prokabaddi.com/season-12/results"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "raider_primacy_model",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "FIRST KABADDI CALIBRATION RECORD. Star raider 63% success rate \u00d71.20 validated. All Out forcing differential (2.9 vs 2.1) correctly predicted team-level dominance. Kabaddi athlete intelligence confirmed \u2014 raider primacy is real and quantifiable."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

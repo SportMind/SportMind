@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-union-ireland-allblacks-2027-11-13-001",
+    "sport": "rugby-union",
+    "event_id": "autumn-int-2027-ireland-nz",
+    "event_name": "Autumn Internationals 2027 \u2014 Ireland vs New Zealand (Dublin)",
+    "kickoff_utc": "2027-11-13T14:30:00Z",
+    "recorded_at": "2027-11-13T11:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-11-13T18:30:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 56.0,
+      "adjusted_score": 63.5,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.08,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.08,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Autumn Int. Ireland vs All Blacks in Dublin. Ireland home at Aviva Stadium (51,700). Ireland ranked #1 globally (2027). Kicker: Sexton-era successor confirmed elite. Set piece: Ireland lineout 91%. All Blacks traditional quality but touring side."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Ireland 27 \u2013 New Zealand 22",
+      "result_source_url": "https://www.irishrugby.ie/results/2027/autumn-internationals"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "13th athlete_modifier record. Ireland #1 ranked vs touring All Blacks. Home advantage + elite kicker + dominant lineout correctly combined into athlete_modifier \u00d71.08. Ireland global #1 status correctly overrides traditional All Blacks quality advantage when touring."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

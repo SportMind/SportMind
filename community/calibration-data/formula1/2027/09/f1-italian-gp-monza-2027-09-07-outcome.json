@@ -1,0 +1,52 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-monza-gp-2027-09-07-001",
+    "sport": "formula1",
+    "event_id": "f1-2027-italian-gp-monza",
+    "event_name": "Formula 1 \u2014 Italian Grand Prix 2027, Monza",
+    "kickoff_utc": "2027-09-07T13:00:00Z",
+    "recorded_at": "2027-09-07T10:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-09-07T17:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 61.0,
+      "adjusted_score": 63.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.0,
+      "sportmind_score": 74,
+      "modifiers_applied": {
+        "qualifying_modifier": 1.0,
+        "power_circuit_note": "qualifying_delta de-emphasised",
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Monza Italian GP \u2014 POWER CIRCUIT. qualifying_delta \u00d70.85 (race pace matters more than qualifying at Monza). Pole position predicted winner. But Monza overtaking possible \u2014 pole not as definitive as Monaco. SMS 74 reflects reduced qualifying confidence."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pole sitter won Italian GP from lights to flag",
+      "result_source_url": "https://www.formula1.com/en/results/2027/races/italian"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "power_circuit_qualifying_deemphasis",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "Monza power circuit \u2014 qualifying_delta \u00d70.85 applied correctly (less definitive than Monaco). Despite de-emphasis, pole still won. This validates: at power circuits, qualifying is a weaker but still valid signal. Not zero weight \u2014 just reduced. Fourth qualifying_delta record."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "tennis-miami-open-sinner-alcaraz-2026-03-28-001",
+    "sport": "tennis",
+    "event_id": "miami-open-qf-sinner-alcaraz-2026-03-28",
+    "event_name": "Miami Open Quarter-Final \u2014 Jannik Sinner vs Carlos Alcaraz",
+    "kickoff_utc": "2026-03-28T20:00:00Z",
+    "recorded_at": "2026-03-28T17:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-29T10:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 54.0,
+      "adjusted_score": 56.8,
+      "confidence_tier": "LOW",
+      "composite_modifier": 0.98,
+      "sportmind_score": 64,
+      "modifiers_applied": {
+        "athlete_modifier": 0.98,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Miami Open QF. Hard court. Both players elite. Sinner hard court win rate marginally higher (62% vs 59%). High variance match \u2014 confidence band very wide. SMS 64 reflects genuine prediction difficulty."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Sinner won 6-4, 7-6",
+      "result_source_url": "https://www.atptour.com/en/scores/2026/atp-miami"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "competition_tier_weight",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.08,
+      "signal_was_actionable": true,
+      "notes": "Low confidence (SMS 64) correctly reflected genuine uncertainty. Hard court surface advantage was real but small. Tennis high-variance nature confirmed \u2014 even correct direction call had wide uncertainty band. Surface win% as primary predictor validated for elite vs elite matchups."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

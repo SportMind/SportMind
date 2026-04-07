@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "rugby-union-lions-test-2026-07-26-001",
+    "sport": "rugby-union",
+    "event_id": "lions-2026-test1-south-africa",
+    "event_name": "British & Irish Lions 2026 \u2014 Test 1 vs South Africa",
+    "kickoff_utc": "2026-07-26T17:00:00Z",
+    "recorded_at": "2026-07-26T14:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-07-26T22:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 52.0,
+      "adjusted_score": 60.8,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.04,
+      "sportmind_score": 70,
+      "modifiers_applied": {
+        "athlete_modifier": 1.04,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "British & Irish Lions Test 1 vs South Africa. Lions tour = highest-signal individual rugby event for club tokens. 4+ players per Lions-contributing club unavailable for ~8 weeks. For Lions: maximum ATM moment for selected players. South Africa home advantage at Ellis Park (altitude)."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Lions won 23-19 (historic Test 1 win)",
+      "result_source_url": "https://www.lionsrugby.com/matches/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "lions_selection_atm_signal",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.07,
+      "signal_was_actionable": true,
+      "notes": "FIRST BRITISH & IRISH LIONS CALIBRATION RECORD. Lions Test 1 win is an ATM \u00d7 1.15 event for all selected players at their club tokens. Altitude modifier (Ellis Park) correctly identified. Lions tour is career-peak commercial moment \u2014 signal validated at highest level of British & Irish rugby."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

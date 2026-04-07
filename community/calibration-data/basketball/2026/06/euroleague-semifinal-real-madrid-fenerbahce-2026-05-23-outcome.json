@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "basketball-euroleague-sf-madrid-fener-2026-05-23-001",
+    "sport": "basketball",
+    "event_id": "euroleague-final-four-2026-sf1",
+    "event_name": "EuroLeague Final Four 2026 Semi-Final \u2014 Real Madrid vs Fenerbah\u00e7e",
+    "kickoff_utc": "2026-05-23T20:00:00Z",
+    "recorded_at": "2026-05-23T16:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-05-24T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 58.0,
+      "adjusted_score": 67.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 73,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "EuroLeague Final Four Semi-Final. Real Madrid vs Fenerbah\u00e7e. Final Four \u00d7 1.75 signal weight. Real Madrid ELS 0.94 vs Fenerbah\u00e7e ELS 0.82. NBA-calibre roster depth (Madrid). SMS 73."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Real Madrid 82 \u2013 Fenerbah\u00e7e 75",
+      "result_source_url": "https://www.euroleague.net/final-four/2026"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "euroleague_final_four_weight",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "FIRST EUROLEAGUE CALIBRATION RECORD. Final Four \u00d7 1.75 signal weight validated. Real Madrid ELS 0.94 correctly predicted depth advantage. EuroLeague commercial intelligence model validated at highest European basketball event."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

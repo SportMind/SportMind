@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "ice-hockey-nhl-leafs-bruins-2026-03-20-001",
+    "sport": "ice-hockey",
+    "event_id": "nhl-toronto-boston-2026-03-20",
+    "event_name": "Toronto Maple Leafs vs Boston Bruins \u2014 NHL Regular Season",
+    "kickoff_utc": "2026-03-20T19:00:00Z",
+    "recorded_at": "2026-03-20T16:30:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2026-03-21T09:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "AWAY",
+      "base_score": 58.0,
+      "adjusted_score": 65.2,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 72,
+      "modifiers_applied": {
+        "athlete_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "Confirmed Boston starter goaltender at morning skate. GSAx +8.4 this season. Leafs starter has GSAx -2.1. Goaltender differential strongly favours Boston."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "direction_correct": true,
+      "final_score": "Toronto 2 \u2013 Boston 4",
+      "result_source_url": "https://www.nhl.com/gamecenter/tor-vs-bos-2026-03-20"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "athlete_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.04,
+      "signal_was_actionable": true,
+      "notes": "GSAx differential as primary goaltender signal validated. Morning skate confirmation protocol correct \u2014 goaltender confirmed 5h before puck drop. athlete_modifier x1.10 for GSAx differential confirmed appropriate."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}

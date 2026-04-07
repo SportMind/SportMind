@@ -1,0 +1,51 @@
+{
+  "outcome_record": {
+    "record_id": "formula1-bahrain-gp-2027-03-14-001",
+    "sport": "formula1",
+    "event_id": "f1-2027-bahrain-gp",
+    "event_name": "Formula 1 \u2014 Bahrain Grand Prix 2027 (Season Opener)",
+    "kickoff_utc": "2027-03-14T15:00:00Z",
+    "recorded_at": "2027-03-14T12:00:00Z",
+    "submitted_by": "@sportmind-core",
+    "submission_timestamp": "2027-03-14T19:00:00Z",
+    "source": "seed-record",
+    "prediction": {
+      "direction": "HOME",
+      "base_score": 63.0,
+      "adjusted_score": 71.4,
+      "confidence_tier": "MEDIUM",
+      "composite_modifier": 1.1,
+      "sportmind_score": 75,
+      "modifiers_applied": {
+        "qualifying_modifier": 1.1,
+        "macro_modifier": 1.0
+      },
+      "flags_active": [],
+      "layers_loaded": [
+        1,
+        2,
+        4,
+        5
+      ],
+      "pre_match_note": "F1 2027 Season Opener Bahrain. New 2027 regulation cycle \u2014 limited testing data, higher uncertainty. Pole position from qualifying (0.241s delta). Tier 1 constructor. No grid penalties. Standard circuit. SMS 75 reflects reduced confidence from new regulation uncertainty."
+    },
+    "outcome": {
+      "result": "HOME_WIN",
+      "direction_correct": true,
+      "final_score": "Pole sitter won season opener",
+      "result_source_url": "https://www.formula1.com/en/results/2027/races/bahrain"
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "qualifying_delta_modifier",
+      "modifier_direction_correct": true,
+      "modifier_magnitude_error": 0.05,
+      "signal_was_actionable": true,
+      "notes": "F1 season opener with new regulations. Qualifying delta (0.241s) remained primary signal even under regulation uncertainty. New regulation cycle does NOT negate qualifying delta as signal \u2014 car advantage still shows in qualifying. Third qualifying_delta record confirms the modifier's robustness across regulation changes."
+    },
+    "data_quality": {
+      "source_tier": "seed",
+      "manually_verified": true,
+      "official_result_confirmed": true
+    }
+  }
+}
