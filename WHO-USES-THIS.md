@@ -110,7 +110,7 @@ what the evidence base looks like, and whether the library's claims are credible
    intelligence SportMind provides and where its boundaries are.
 
 **Specific claims to verify:**
-- 95% calibration accuracy: see `community/calibration-data/` — all 100 records are there
+- 96% calibration accuracy: see `community/calibration-data/` — all 126 records are there
 - Zero wrong-direction records outside European football draws: verifiable in the records
 - Named metrics (HAS, NCSI, ATM, etc.): each has a definition in the relevant skill file
 

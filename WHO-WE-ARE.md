@@ -92,7 +92,7 @@ qualifying_delta (F1), india_pakistan ×2.00 (cricket), morning_skate (NHL), dew
 taper_modifier (swimming), raider_primacy (kabaddi), goalkeeper_save_rate (handball),
 superspeedway_specialist (NASCAR).
 
-This is not a cherry-picked result. All 110 records are in `community/calibration-data/`
+This is not a cherry-picked result. All 126 records are in `community/calibration-data/`
 and publicly verifiable. The modifiers were expert-defined estimates in v3.0 and are now
 empirically validated across multiple sports and competition levels.
 

@@ -1,8 +1,8 @@
-# SportMind v3.28 — Community Release
+# SportMind v3.30 — Community Release
 
 **The open sports intelligence library for AI agents is now publicly available.**
 
-This is the first public release of SportMind — a library built over 28 version cycles
+This is the first public release of SportMind — a library built over 31 version cycles
 to teach AI agents how to reason about sports. Not just predict match outcomes, but
 understand the full commercial, financial, and competitive intelligence that the sports
 industry now runs on.
@@ -16,8 +16,8 @@ industry now runs on.
 42 sport domains, fully documented with event playbooks, risk variables, signal weights,
 and agent reasoning prompts. 29 athlete intelligence skills, all at GOOD or DEEP depth —
 from football at 513 lines to kabaddi's raider primacy model to NASCAR's track-type
-specialisation framework. 36 fan token commercial skills covering the full lifecycle
-from Phase 1 through Phase 5e Sports DAO governance. 8 macro intelligence documents
+specialisation framework. 37 fan token commercial skills covering the full lifecycle
+from Phase 1 through Phase 5e Sports DAO governance. 9 macro intelligence documents
 including the crypto cycle model that every agent must consult first.
 
 ### The calibration foundation
@@ -41,7 +41,27 @@ claim in the library is verifiable against the records in `community/calibration
 - **Agentic workflow patterns** — 8 patterns from portfolio monitoring to governance agents
 - **Application blueprints** — 11 complete application designs
 - **Agent prompts** — 16 prompts organised by stakeholder type
-- **Compressed summaries** — 52 token-efficient skill representations for constrained contexts
+- **Compressed summaries** — 54 token-efficient skill representations for constrained contexts
+
+### Chiliz 2030 intelligence (v3.30)
+
+The library is current with the Chiliz 2030 roadmap published February 2026:
+
+- **Gamified tokenomics intelligence** — Win→tokens burn, Loss→tokens mint.
+  Performance-linked supply mechanics rolling out Q2 2026. A WIN prediction
+  is now simultaneously a SUPPLY REDUCTION prediction. Complete signal model
+  including burn/mint rate modifiers, season supply tracking, and prediction
+  market interaction flags.
+- **SportFi regulatory intelligence** — Joint SEC/CFTC guidance (2026) classifying
+  fan tokens as utility digital commodities under CFTC, enabling US market re-entry.
+  Full four-jurisdiction framework: EU MiCA, US CFTC, UK FCA, Brazil. Regulatory
+  discount model for signal generation by jurisdiction.
+- **Omni-chain liquidity intelligence** — Fan tokens expanding to multiple blockchains
+  via LayerZero from Q1 2026. Aggregate TVL across chains before applying liquidity
+  tier. PEPPER governance token context for KAYEN protocol monitoring.
+- **Three-stage Fan Token evolution** — Stage 1 utility → Stage 2 dynamic tokenomics
+  → Stage 3 RWA with equity exposure. Stage stacking principle. Updated RSF formula
+  with stage bonuses.
 
 ### The community infrastructure
 
@@ -110,7 +130,7 @@ python examples/starter-pack/01-simple-signal.py
 
 ## Acknowledgements
 
-SportMind was built over 28 version cycles as a structured open-source project.
+SportMind was built over 31 version cycles as a structured open-source project.
 The calibration foundation — 126 records across 21 sports — was built by the
 founding team as seed data for the community to build on. Every modifier in the
 library was designed with a recalibration threshold in mind, because the founding
@@ -127,8 +147,8 @@ That is what the calibration pipeline exists for. Now it is the community's turn
 
 ## Version history
 
-Full history in `CHANGELOG.md`. The library has 57 CHANGELOG entries across
-29 version cycles from v3.0 through v3.28.
+Full history in `CHANGELOG.md`. The library has 60 CHANGELOG entries across
+31 version cycles from v3.0 through v3.30.
 
 ---
 

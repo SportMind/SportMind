@@ -38,9 +38,9 @@ Fix it. Submit a PR with label `docs-fix`.
 
 **Known stale references:**
 - `community/leaderboard.md` — references v3.2 first entries; now at v3.27
-- `README.md` badge — still shows "100 records" (now 120)
+- `README.md` badge — verify it shows current record count (126 records, 96% accuracy)
 - Any document citing "84 skill files" (now 220+)
-- Any document citing "40 records" or "60 records" (now 120)
+- Any document citing record counts below 126 (current count is 126 across 21 sports)
 
 ---
 
