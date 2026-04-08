@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.31.0] — 2026-04-08
+
+### Added
+- `MCP-SERVER.md` — complete deployment guide (Claude Desktop, Claude Code, Docker, Render)
+- `requirements.txt` — pip dependencies for MCP server deployment
+- `Dockerfile` — one-command Docker deployment
+- `vercel.json` — Vercel deployment configuration
+- `.github/workflows/validate-mcp.yml` — CI validation for MCP server
+- `scripts/sportmind_mcp.py` upgraded — HTTP/SSE transport, health endpoint, 25+ sports, structured tool schemas
+- `README.md` — MCP server section added
+
+### Changed
+- MCP server now supports 25 sports (up from 17)
+- HTTP mode now exposes `/health` endpoint returning server status and tool list
+- Tool schemas made explicit and validated by CI
+
+### Notes
+- Zero maintenance deployment: serves static skill files from the repository
+- No live data dependency — pure intelligence layer, no API keys required
+- Compatible: Claude Desktop, Claude Code, Anthropic API, any MCP-compatible framework
+
 All notable changes to SportMind are documented here.
 Format follows [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 

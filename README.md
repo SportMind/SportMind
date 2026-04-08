@@ -119,6 +119,30 @@ Full schema: `core/confidence-output-schema.md`
 
 ---
 
+## MCP server
+
+SportMind is available as an MCP tool server — connect any AI agent to the
+full library without loading files manually.
+
+```bash
+# Clone and install
+git clone https://github.com/SportMind/SportMind
+pip install mcp aiohttp
+
+# Run locally — stdio (Claude Desktop / Claude Code)
+python scripts/sportmind_mcp.py
+
+# Run remotely — HTTP/SSE (hosted agents)
+python scripts/sportmind_mcp.py --http --port 3001
+```
+
+Five tools: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
+`sportmind_verify` · `sportmind_agent_status`
+
+**→ Full deployment guide: [MCP-SERVER.md](MCP-SERVER.md)**
+
+---
+
 ## Integration
 
 **Data connections:** `platform/data-connector-templates.md` — copy-paste code for

@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.31 — MCP Server deployment package
+MCP-SERVER.md deployment guide, requirements.txt, Dockerfile, vercel.json,
+validate-mcp.yml CI workflow. Upgraded HTTP/SSE transport with /health endpoint.
+25 sports supported. Zero-maintenance deployment — serves static skill files,
+no live data dependency, no API keys required.
+
 ### ✅ v3.30 — Chiliz 2030 intelligence: gamified tokenomics, US regulatory, omni-chain, RWA staging
 - `fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md` — New skill
   (280+ lines): Chiliz 2030 performance-linked tokenomics model. Detection (KAYEN API gamified flag,

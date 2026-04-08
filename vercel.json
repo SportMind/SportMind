@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "scripts/sportmind_mcp.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/health",
+      "dest": "scripts/sportmind_mcp.py"
+    },
+    {
+      "src": "/mcp",
+      "dest": "scripts/sportmind_mcp.py"
+    },
+    {
+      "src": "/",
+      "dest": "scripts/sportmind_mcp.py"
+    }
+  ],
+  "env": {
+    "SPORTMIND_VERSION": "3.30.0"
+  }
+}
