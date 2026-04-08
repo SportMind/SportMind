@@ -113,7 +113,7 @@ response = client.beta.messages.create(
 
 ---
 
-## The five tools
+## The ten tools
 
 ### `sportmind_signal`
 Generate a pre-match intelligence signal. Returns direction, adjusted_score,
@@ -258,6 +258,39 @@ MCP SERVER (scripts/sportmind_mcp.py)
 Both serve the same intelligence from the same skill files.
 Both can run simultaneously.
 ```
+
+---
+
+## New tools (v3.34)
+
+### `sportmind_pre_match`
+Orchestrated full pre-match reasoning package in one call. Combines sport
+domain signal, macro state, availability check source, disciplinary reminder,
+narrative momentum, and statistical reasoning reference.
+Input: `sport`, `home_team`, `away_team`, `competition`, `kickoff`, `use_case`
+
+### `sportmind_disciplinary`
+Disciplinary check for a player and sport. Returns DSM framework tier,
+regulatory source to verify, flags to set, and commercial rule.
+Input: `player`, `sport`, `club`, `include_framework`
+
+### `sportmind_fan_token_lookup`
+Resolve club name, ticker, or sport to Chiliz Chain fan token context.
+Returns contract address (Chain ID 88888), chiliscan and fantokens.com links,
+market cap tier, and recommended skill stack. 24 verified tokens.
+Input: `query` (e.g. "PSG", "football", "Barcelona"), `include_registry`
+
+### `sportmind_sentiment_snapshot`
+Multi-axis sentiment state for a fan token. Macro sentiment plus references
+for fan sentiment, social lift, commercial, and disciplinary status.
+Input: `token` (ticker or club name), `use_case`
+
+### `sportmind_verifiable_source`
+Authoritative source for a query type and sport.
+Query types: lineup_confirmation, match_result, disciplinary_ban,
+player_stats, transfer_news, rankings
+Input: `query_type`, `sport`
+
 
 ---
 

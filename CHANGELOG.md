@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.34.0] — 2026-04-08
+
+### Added
+- `scripts/sportmind_mcp.py` upgraded to v3.34 — five new MCP tools:
+  - `sportmind_pre_match` — orchestrated full pre-match reasoning package
+    (sport domain + macro + availability source + disciplinary reminder +
+    narrative momentum + statistical reasoning in one call)
+  - `sportmind_disciplinary` — disciplinary check: DSM tier, regulatory source,
+    flags to set, commercial rule (connects to core/athlete-disciplinary-intelligence.md)
+  - `sportmind_fan_token_lookup` — resolve club/ticker/sport to Chiliz Chain
+    fan token context (contract address, Chain ID 88888, chiliscan + fantokens.com
+    links, market cap tier, skill stack recommendation). 24 verified tokens.
+  - `sportmind_sentiment_snapshot` — multi-axis sentiment state for a fan token
+    (macro + fan + social + commercial + disciplinary, composite signal)
+  - `sportmind_verifiable_source` — authoritative source for query type and sport
+    (lineup_confirmation, match_result, disciplinary_ban, player_stats,
+    transfer_news, rankings)
+- Fan token registry embedded in MCP server: 24 verified Chiliz Chain tokens
+  with contract addresses, market cap tiers, chiliscan and fantokens.com links
+- `MCP-SERVER.md` updated — ten tools documented
+
+### Notes
+- All 10 tools pass 24/24 automated tests
+- Zero maintenance — all new tools serve static intelligence from skill files
+- Fan token registry covers all tokens from chiliscan.com/token/top-erc20 (excl. PEPPER)
+- sportmind_pre_match replaces manual multi-step macro → signal → stack sequencing
+- sportmind_disciplinary surfaces v3.32 disciplinary intelligence via MCP
+
 ## [3.33.0] — 2026-04-08
 
 ### Added

@@ -2017,6 +2017,13 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.34 — MCP server: five new tools
+sportmind_pre_match (orchestrated pre-match package), sportmind_disciplinary
+(DSM + regulatory source), sportmind_fan_token_lookup (24 Chiliz Chain tokens,
+contract addresses, chiliscan/fantokens.com links), sportmind_sentiment_snapshot
+(multi-axis sentiment state), sportmind_verifiable_source (authoritative source
+lookup). 24/24 automated tests passing. Fan token registry embedded.
+
 ### ✅ v3.33 — Verifiable sources + statistical reasoning framework
 Verifiable sources quick reference (13 sports, use-case-first, source tier framework).
 Player statistical reasoning framework (8 sports, position-specific benchmarks,
