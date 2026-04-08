@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.33.0] — 2026-04-08
+
+### Added
+- `core/verifiable-sources-by-sport.md` — use-case-first quick reference
+  - 13 sports covered: Football, Rugby Union, Rugby League, Cricket, Formula 1,
+    MMA/UFC, NHL, Tennis, AFL, NBA, Kabaddi, Darts, Snooker
+  - Source tier framework: Tier 1 ground truth → Tier 4 do not use
+  - Fastest verification paths table by query type
+  - Journalist reliability tiers
+- `core/player-statistical-reasoning.md` — statistical interpretation framework
+  - Football: xG/xA reasoning, position-specific benchmarks, pass completion traps,
+    GK GSAx vs save%, progressive action interpretation
+  - Rugby Union: kicker zone performance, set piece metrics, carrying benchmarks
+  - Cricket: format-specific averages, strike rate by batting position, bowling
+    economy by phase (powerplay/death), dew factor modifier on bowler stats
+  - MMA: striking differential, grappling matchup segmentation by opponent type,
+    the style matchup dimension
+  - Formula 1: qualifying delta as primary signal, race vs qualifying pace,
+    tyre management proxy measurement
+  - NHL: CF% with zone-start adjustment, GSAx sourcing from Money Puck
+  - NBA: TS% vs FG%, usage rate / efficiency interaction, on/off net rating
+  - Six cross-sport reasoning rules: rates not counts, position context mandatory,
+    minimum sample sizes, opposition quality adjustment, recency weighting,
+    lying statistic flags
+- `CONTRIBUTING.md` — community modifier extension review note added
+  (structured peer-review process deferred to v4.0)
+
+### Notes
+- verifiable-sources-by-sport.md connects to core/data-sources.md (full catalogue)
+  and core/temporal-awareness.md (freshness)
+- player-statistical-reasoning.md feeds into core/core-athlete-modifier-system.md
+  form sub-modifier calculation
+- Together with v3.32 disciplinary intelligence, athlete intelligence picture
+  is now complete: availability + form + disciplinary + statistical profile
+
 ## [3.32.0] — 2026-04-08
 
 ### Added

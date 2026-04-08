@@ -522,3 +522,171 @@ Example (correct):
 and updated with each major SportMind version.*
 
 *MIT License · SportMind · sportmind.dev*
+
+---
+
+## Disciplinary and regulatory sources
+
+### Football — disciplinary
+```
+Primary (ground truth):
+  FA Disciplinary Procedures: thefa.com/football-rules-governance/disciplinary
+  UEFA CEDB decisions: uefa.com/insideuefa/disciplinary
+  FIFA Disciplinary Committee: fifa.com/legal/disciplinary
+  Premier League suspensions: premierleague.com/news (official match bans)
+  
+Verified aggregators:
+  BBC Sport disciplinary tracker: bbc.co.uk/sport/football
+  Sky Sports ban tracker: skysports.com/football
+  The Athletic (uk.theathletic.com): detailed charge reporting
+
+Agent instruction: FA charge announcements appear on thefa.com within 24h of decision.
+UEFA decisions: published on UEFA.com same day as CEDB meeting.
+```
+
+### Rugby Union — disciplinary
+```
+Primary (ground truth):
+  World Rugby judicial decisions: world.rugby/the-game/judicial-decisions
+  EPCR (Heineken Cup) disciplinary: epcrugby.com/disciplinary
+  World Rugby citing guidelines: world.rugby/the-game/laws/regulation-17
+  
+Verified aggregators:
+  Rugby Pass disciplinary tracker: rugbypass.com
+  BBC Sport Rugby Union: bbc.co.uk/sport/rugby-union
+  The Rugby Paper: therugbypaper.co.uk
+
+Agent instruction: World Rugby publishes all judicial decisions publicly within
+48h of verdict. Citing confirmation appears within 24h of match.
+```
+
+### Rugby League — disciplinary
+```
+Primary:
+  NRL Integrity Unit: nrl.com/news/integrity
+  Super League match review committee: superleague.co.uk
+  RLIF: rlif.com
+
+Agent instruction: NRL match review committee decisions published Monday after weekend matches.
+```
+
+### MMA / Combat sports — disciplinary
+```
+Primary:
+  UFC official suspensions: ufc.com/news
+  USADA testing results: usada.org/sanction (for UFC-contracted fighters)
+  State Athletic Commission results: varies by state (Nevada: nvac.nv.gov)
+  
+Agent instruction: USADA suspensions are published publicly. 
+State commission decisions follow fight events (typically within 72h).
+Do not use suspension status from unofficial sources — verify on USADA.org.
+```
+
+### Cricket — disciplinary
+```
+Primary:
+  ICC Code of Conduct charges: icc-cricket.com/about/cricket/rules-and-regulations
+  ICC demerit point register: icc-cricket.com (published annually)
+  ECB disciplinary: ecb.co.uk/disciplinary
+  BCCI: bcci.tv
+
+Agent instruction: ICC charges announced via official press release within 24h.
+Demerit point history is cumulative and public — check before each international series.
+```
+
+### Formula 1 — disciplinary
+```
+Primary:
+  FIA stewards decisions: fia.com/documents/decisions-and-regulations
+  FIA super licence points: fia.com/motorsport/single-seater/super-licence-points
+  
+Agent instruction: Stewards decisions published on FIA website during/after each race.
+Super licence points: updated after each race weekend. 12 points = 1-race ban trigger.
+```
+
+### General conduct and integrity
+```
+Anti-doping (cross-sport):
+  WADA: wada-ama.org/en/prohibited-list (prohibited substance register)
+  UKAD: ukad.org.uk/sanctions (UK sport sanctions)
+  USADA: usada.org/sanction
+
+Betting integrity:
+  IBIA: ibia.bet/alerts (International Betting Integrity Association)
+  Sports Radar Integrity Services: sportradar.com/integrity-services
+  
+General sports governance:
+  CAS (Court of Arbitration for Sport): tas-cas.org/en/jurisprudence (appeal verdicts)
+  Play the Game: playthegame.org (governance and integrity reporting)
+```
+
+---
+
+## Verifiable sources — cross-sport reference guide
+
+### What "verifiable" means in SportMind context
+```
+GROUND TRUTH (highest trust):
+  Official governing body statements
+  Official competition authority decisions
+  Club official statements (for transfers, injuries, conduct)
+  
+VERIFIED REPORTING (high trust):
+  Established specialist outlets with named journalists
+  Wire services (Reuters, AP) for breaking news
+  Official beat reporters with confirmed direct access
+  
+AGGREGATED DATA (medium trust):
+  Statistical aggregators (FBref, WhoScored, Opta) — accurate for stats
+  Not authoritative for news/events — verify with primary source
+  
+NOT RECOMMENDED:
+  Anonymous sources (for Tier 3/4 disciplinary events)
+  Unverified social media (for lineup confirmations)
+  Tabloid speculation (for injury or conduct events)
+  Prediction/odds sites for factual claims
+```
+
+### Sport-by-sport primary source map
+
+| Sport | Results/standings | Injury/availability | Disciplinary | Transfer/roster |
+|---|---|---|---|---|
+| Football | UEFA.com, FIFA.com, league official | Club official + BBC/Sky | FA/UEFA/FIFA disciplinary | Transfermarkt + Fabrizio Romano |
+| Rugby Union | World Rugby, Premiership Rugby | Club official | World Rugby judicial decisions | Rugby Pass |
+| Rugby League | NRL.com, SuperLeague | Club official | NRL Integrity Unit | NRL.com |
+| Cricket | ICC, ECB, BCCI | Board official | ICC Code of Conduct register | ESPNcricinfo |
+| MMA | UFC.com | UFC.com, Athletic | USADA.org | UFC.com |
+| Formula 1 | FIA.com, Formula1.com | Team official | FIA stewards/decisions | Formula1.com |
+| Basketball (NBA) | NBA.com | NBA.com official injury | NBA.com | ESPN Woj/Shams |
+| American Football | NFL.com | NFL.com official report | NFL.com | NFL.com/transaction |
+| Tennis | ATP/WTA official | ATP/WTA | ITF | No transfer market |
+| Golf | PGA Tour, DP World Tour | Tour official | Tour conduct | No transfer market |
+| Ice Hockey | NHL.com | NHL.com | NHL.com/player-safety | CapFriendly, PuckPedia |
+| Baseball | MLB.com | MLB.com | MLB.com | Baseball Reference |
+| MotoGP | MotoGP.com | Team official | FIM/MotoGP | MotoGP.com |
+| Esports | Liquipedia | Team official | Tournament organiser | Liquipedia |
+
+### Journalist reliability tiers (selected sports)
+```
+TIER 1 — Primary sourcing, break stories, direct club/governing body access:
+  Football:    Fabrizio Romano, David Ornstein (The Athletic)
+  NFL:         Adam Schefter (ESPN), Ian Rapoport (NFL Network)
+  NBA:         Adrian Wojnarowski (ESPN), Shams Charania (The Athletic)
+  F1:          Joe Saward (joesaward.wordpress.com), Lawrence Barretto (F1.com)
+  Rugby Union: Owain Jones (WalesOnline), Liam Heagney (RugbyPass)
+  Cricket:     Cricbuzz (cricbuzz.com), ESPNcricinfo live commentary
+
+TIER 2 — Reliable reporting, may be 30-60 min behind Tier 1:
+  BBC Sport (all UK sports)
+  ESPN (US sports + MMA)
+  Sky Sports (football + rugby + F1)
+  The Guardian (football + cricket)
+  
+TIER 3 — Useful for context and analysis; not for breaking news:
+  Any aggregator site
+  Fan/blog media
+  
+AGENT INSTRUCTION: For time-sensitive pre-match signals, Tier 1 journalists
+on platform X (Twitter) are typically fastest. For disciplinary, governing
+body official releases are required — journalist reports are secondary.
+```

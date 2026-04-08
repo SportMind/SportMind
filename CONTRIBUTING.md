@@ -244,3 +244,20 @@ contributor: "@your-github-handle"
 ```
 
 See `platform/skill-registry.md` for the complete metadata standard.
+---
+
+## Community modifier extension review
+
+When external contributors are regularly active, SportMind will introduce a
+structured peer-review process for new modifier extensions — planned for v4.0.
+
+This will cover:
+- Minimum calibration record requirements for any new modifier proposal
+- Community review before new signal modifiers enter the library
+- GitHub Discussions voting on modifier additions
+- Versioned modifier extension framework
+
+Until then: new modifier proposals should be raised as GitHub Issues with label
+`modifier-proposal`. Maintainers will review within 14 days.
+
+For security concerns about skill file integrity, see `SECURITY.md`.

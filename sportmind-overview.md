@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.33 — Verifiable sources + statistical reasoning framework
+Verifiable sources quick reference (13 sports, use-case-first, source tier framework).
+Player statistical reasoning framework (8 sports, position-specific benchmarks,
+6 cross-sport reasoning rules, lying statistic flags). CONTRIBUTING.md community
+modifier extension note added. v4.0 milestone deferred.
+
 ### ✅ v3.32 — Disciplinary intelligence and sentiment cascade
 Four-tier offence taxonomy. Six sport-specific regulatory frameworks (Football,
 Rugby Union, MMA, Cricket, F1, Rugby League). DSM framework: MINIMAL / MODERATE /
