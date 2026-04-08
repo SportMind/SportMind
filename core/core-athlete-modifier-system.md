@@ -27,6 +27,7 @@ Every athlete skill computes one or more of these components. The `athlete/meta`
 | Weather | Wind, rain, temperature, surface | 0.87–1.00 | Outdoor sports |
 | H2H matchup | Head-to-head advantage score | 0.88–1.18 | All |
 | Psychological | Win/loss streak, controversy, morale | 0.78–1.12 | All |
+| Disciplinary | Offence tier, ban status, process stage (DSM) | 0.72–1.00 | All |
 | Lineup confirmation | Confirmation status, source reliability | 0.90–1.15 | Team sports |
 | Set piece | Specialist availability, dependency | 0.95–1.08 | Football, Rugby |
 | Meta readiness | Patch alignment (esports only) | 0.78–1.10 | Esports |
@@ -47,6 +48,7 @@ Every athlete skill computes one or more of these components. The `athlete/meta`
 | OUT → backup GK / stand-in | 0 | ×0.80 |
 | OUT (multiple key players) | 0 | ×0.55 |
 | SUSPENDED | 0 | ×0.72 |
+| SUSPENDED (Tier 3+) | 0 | ×0.72 + DSM modifier — see core/athlete-disciplinary-intelligence.md |
 
 ---
 

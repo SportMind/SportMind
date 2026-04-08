@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.32.0] — 2026-04-08
+
+### Added
+- `core/athlete-disciplinary-intelligence.md` — full disciplinary framework
+  - Four-tier offence taxonomy (on-field technical → criminal proceedings)
+  - Sport-specific regulatory frameworks: Football (FA/UEFA/FIFA), Rugby Union
+    (World Rugby citing commissioner), MMA (USADA/UFC), Cricket (ICC Code),
+    Formula 1 (FIA), Rugby League (RLIF/NRL)
+  - Disciplinary Sentiment Modifier (DSM): MINIMAL / MODERATE / SEVERE / CATASTROPHIC
+  - Multi-axis sentiment cascade model: fan, social, commercial, competition, broadcast
+  - Three detailed case studies: Rugby citing, Football social media charge, Tier 4 criminal
+  - Seven new flags: CITING_ACTIVE, BAN_CONFIRMED, COMMERCIAL_RISK_ACTIVE,
+    LEGAL_PROCEEDINGS_ACTIVE, SUSPENSION_RISK, CONDUCT_RESIDUAL, INVESTIGATION_ACTIVE
+  - Agent reasoning protocol for disciplinary events
+  - Cross-sport sentiment comparison table
+  - Primary data sources: FA, World Rugby, UFC, ICC, FIA, NRL
+- `fan-token/disciplinary-sentiment-intelligence/disciplinary-sentiment-intelligence.md`
+  — fan token disciplinary signal skill with full JSON output schema and two examples
+- `core/core-athlete-modifier-system.md` — disciplinary sub-modifier row added,
+  DSM reference added to SUSPENDED availability tier
+
+### Notes
+- DSM connects to: fan-sentiment-intelligence, brand-score, narrative-momentum,
+  athlete-modifier-system
+- Rule: Never generate ENTER recommendation when COMMERCIAL_RISK_ACTIVE or
+  LEGAL_PROCEEDINGS_ACTIVE is set
+- Tier 4 events (criminal proceedings) always generate ABSTAIN — do not model outcome
+
 ## [3.31.0] — 2026-04-08
 
 ### Added

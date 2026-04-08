@@ -2017,6 +2017,14 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.32 — Disciplinary intelligence and sentiment cascade
+Four-tier offence taxonomy. Six sport-specific regulatory frameworks (Football,
+Rugby Union, MMA, Cricket, F1, Rugby League). DSM framework: MINIMAL / MODERATE /
+SEVERE / CATASTROPHIC. Multi-axis sentiment cascade across fan, social, commercial,
+competition, broadcast dimensions. Seven new flags. Fan token disciplinary signal
+skill with JSON output schema. Case studies: Rugby citing, Football social media
+charge, Tier 4 criminal proceedings.
+
 ### ✅ v3.31 — MCP Server deployment package
 MCP-SERVER.md deployment guide, requirements.txt, Dockerfile, vercel.json,
 validate-mcp.yml CI workflow. Upgraded HTTP/SSE transport with /health endpoint.
