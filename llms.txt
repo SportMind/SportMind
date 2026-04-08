@@ -24,7 +24,7 @@ markdown document that gives an agent:
 Layer 2 (athlete skills) provides:
 - Player availability and form scores
 - A composite modifier (0.55–1.25) that adjusts base prediction signals
-- Athlete-level intelligence across 19 sports (including darts and cross-sport meta orchestrator)
+- Athlete-level intelligence across 29 sports (including darts, cross-sport meta orchestrator)
 
 Layer 3 (fan-token skills) provides:
 - The foundational value thesis (fan-token-why.md) — why fan tokens exist and what

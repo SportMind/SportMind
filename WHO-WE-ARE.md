@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.26)
+## What the library contains (v3.34)
 
-**434 files.** 27 version cycles since v3.0.
+**465 files.** 34 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -198,7 +198,7 @@ That requires three things working together: the quality of the framework (the l
 itself), the breadth of the calibration (community records), and the depth of the
 application ecosystem (developers building on top).
 
-v3.26 has delivered the framework quality. v3.27 and beyond are about calibration
+v3.34 has delivered a complete intelligence framework. Future versions focus on calibration growth, community expansion, and World Cup 2026 intelligence.
 breadth and application ecosystem depth. Neither of those happens without the community.
 
 ---
