@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.36.0] — 2026-04-09
+
+### Added
+- `platform/api-providers.md` — API providers guide with end-to-end flow (631 lines)
+  - Quickest path to a working signal (under 1 hour from zero)
+  - API-Football (api-sports.io) — primary recommendation: free tier 100 req/day,
+    900+ leagues, lineup confirmation, player stats, form, H2H
+  - Multi-sport API-Sports suite — football, basketball, baseball, rugby, cricket,
+    handball under one account and key pattern
+  - RapidAPI hub — marketplace and unified key management reference
+  - Sport-specific providers: Sportmonks (cricket), Sportradar (rugby),
+    Jolpica/OpenF1 (Formula 1), UFC Stats (MMA), balldontlie (NBA),
+    Open-Meteo (weather, all sports)
+  - API evaluation framework — what to look for and caution flags
+  - Complete end-to-end flow: PSG vs Arsenal UCL QF fan token signal
+    (8 steps: macro gate → pre-match → lineup fetch → disciplinary →
+    fan token context → signal synthesis)
+  - Working Python code for each step using API-Football + SportMind tools
+  - Flow diagram showing SportMind MCP tools + external APIs
+  - API rate limit reference table (8 providers)
+  - Reference to existing data-connector-templates.md (no duplication)
+
+### Notes
+- Answers the complete developer question: "which API, how to start, full example"
+- All recommended free tiers verified at time of writing — check provider
+  sites for current terms as these change
+- PSG vs Arsenal UCL QF used as the worked example throughout
+- Open-Meteo is free with no API key — lowest friction weather source
+
 ## [3.35.0] — 2026-04-09
 
 ### Added

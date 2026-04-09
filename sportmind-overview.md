@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.36 — API providers guide with end-to-end flow
+platform/api-providers.md: quickest path to a working signal, API-Football primary
+recommendation, multi-sport API-Sports suite, RapidAPI hub, sport-specific providers
+(cricket/rugby/F1/MMA/NBA/weather), API evaluation framework, complete PSG vs Arsenal
+UCL QF end-to-end flow with working Python code, rate limit reference table.
+
 ### ✅ v3.35 — Sequential thinking, memory, and fetch MCP integrations
 platform/sequential-thinking-integration.md — five-phase reasoning chain, ENTER/WAIT/ABSTAIN
 conditions, system prompt, portfolio pattern. platform/memory-integration.md — full memory
