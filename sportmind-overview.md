@@ -2017,6 +2017,13 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.38 — Documentation page (docs.html)
+sportmind.dev/docs: 1159-line static documentation page. Ten sections covering
+getting started, five-layer architecture, MCP server (ten tools), usage modes,
+data connectors, intelligence layers, fan tokens, calibration, metric glossary,
+modifier system, and output schema. Left sidebar, dark mode, mobile-responsive.
+Docs link added to index.html nav.
+
 ### ✅ v3.37 — On-chain address intelligence + social intelligence connectors
 platform/chiliz-chain-address-intelligence.md: 6 signals (concentration, smart wallet,
 holder trend, velocity, acquisition, DSM calibration), ChilizAddressIntelligence Python

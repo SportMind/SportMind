@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.38.0] — 2026-04-09
+
+### Added
+- `sportmind.dev/docs` — full documentation page (`docs.html`, 1159 lines)
+  - Ten sections: Getting Started, Architecture, MCP Server, Usage Modes,
+    Data Connectors, Five Layers, Fan Tokens, Calibration, Metric Glossary,
+    Modifier System, Output Schema
+  - Left sidebar navigation with section grouping (Overview, Integration,
+    Intelligence, Reference)
+  - Fan token registry grid — all 24 tokens rendered as interactive chips
+  - MCP tool cards with version badges (original vs v3.34 new tools)
+  - Complete five-layer table with file counts
+  - SMS tier table, modifier range table, DSM values, ENTER/WAIT/ABSTAIN rules
+  - Annotated JSON output schema examples
+  - Pre-match signal workflow as numbered steps
+  - Mobile-responsive: sidebar collapses to toggle button on small screens
+  - Dark/light/system theme toggle matching index.html
+  - Geist + Geist Mono fonts, same design tokens as index.html
+  - No build process — single static HTML file, drop into Netlify
+- `index.html` — Docs link added to navigation bar
+
+### Notes
+- docs.html deploys alongside index.html on Netlify — no configuration needed
+- sportmind.dev/docs routes to the file automatically
+- All ten MCP tools documented with descriptions and version badges
+- Fan token registry renders dynamically from embedded JS array
+
 ## [3.37.0] — 2026-04-09
 
 ### Added
