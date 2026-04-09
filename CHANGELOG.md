@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.39.0] — 2026-04-09
+
+### Added
+- `sportmind.dev/demo` — interactive demo page (`demo.html`, 917 lines)
+  - Six pre-built scenarios with progressive typing animation
+  - sportmind_pre_match — PSG vs Arsenal UCL QF full signal output
+  - sportmind_macro — crypto cycle state and modifier reference
+  - sportmind_fan_token_lookup — PSG Chiliz Chain registry entry
+  - sportmind_disciplinary — citing scenario with DSM framework
+  - sportmind_sentiment_snapshot — BAR multi-axis sentiment state
+  - Sequential five-phase chain — full pipeline from macro gate to ENTER
+  - Real-time JSON syntax highlighting (keys, strings, numbers, booleans)
+  - Copy output button on every scenario
+  - Info panel: skill files loaded and reference documents per scenario
+  - Zero dependencies — no CDN calls, no API calls, no backend
+  - Zero ongoing cost — fully static, deploys on Netlify alongside other pages
+  - Demo link added to nav on index.html and docs.html
+
+### Notes
+- All outputs are real SportMind tool responses generated from the live library
+- Clearly labelled as "Simulated output · real SportMind structure"
+- demo.html also suitable for GitHub Pages deploy from repo demo/ folder
+- No ongoing maintenance required — static HTML, no external dependencies
+
 ## [3.38.0] — 2026-04-09
 
 ### Added

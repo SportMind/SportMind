@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.39 — Interactive demo page
+demo.html: six scenarios (pre_match, macro, fan_token_lookup, disciplinary,
+sentiment_snapshot, sequential chain), progressive typing animation, JSON
+syntax highlighting, copy button, zero dependencies, zero ongoing cost.
+Demo link added to nav on index.html and docs.html.
+
 ### ✅ v3.38 — Documentation page (docs.html)
 sportmind.dev/docs: 1159-line static documentation page. Ten sections covering
 getting started, five-layer architecture, MCP server (ten tools), usage modes,
