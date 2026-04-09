@@ -294,4 +294,38 @@ Input: `query_type`, `sport`
 
 ---
 
+## Extended integrations (v3.35)
+
+SportMind works with three additional MCP servers to create a complete
+reasoning, memory, and verification stack.
+
+**Sequential Thinking MCP** — explicit step-by-step reasoning chain.
+Prevents phase-skipping errors and makes every SportMind decision auditable.
+See `platform/sequential-thinking-integration.md` for the full chain definition
+and system prompt.
+
+**Memory MCP** — persistent cross-session intelligence. Stores signal history,
+DSM status, macro phase at each analysis, and upcoming high-FTIS events.
+Enables pattern detection (consecutive WAITs, repeat disciplinary, macro recovery).
+See `platform/memory-integration.md` for the full memory schema.
+
+**Fetch MCP** — live disciplinary verification. Fetches authoritative sources
+(World Rugby, FA, FIA, USADA, ICC) that `sportmind_verifiable_source` maps out.
+Closes the loop between knowing where to look and actually looking.
+See `platform/fetch-mcp-disciplinary.md` for the full workflow.
+
+**Four-server configuration:**
+```json
+{
+  "mcpServers": {
+    "sportmind":            { "command": "python", "args": ["/path/to/SportMind/scripts/sportmind_mcp.py"] },
+    "sequential-thinking":  { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-sequential-thinking"] },
+    "memory":               { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-memory"] },
+    "fetch":                { "command": "npx", "args": ["-y", "@modelcontextprotocol/server-fetch"] }
+  }
+}
+```
+
+---
+
 *MIT License · SportMind · sportmind.dev · github.com/SportMind/SportMind*

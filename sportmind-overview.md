@@ -2017,6 +2017,13 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.35 — Sequential thinking, memory, and fetch MCP integrations
+platform/sequential-thinking-integration.md — five-phase reasoning chain, ENTER/WAIT/ABSTAIN
+conditions, system prompt, portfolio pattern. platform/memory-integration.md — full memory
+schema (token, macro, disciplinary, portfolio), four reasoning patterns, memory decay rules.
+platform/fetch-mcp-disciplinary.md — Fetch MCP targeting 7 sport disciplinary sources,
+end-to-end workflow, four-server combined configuration. MCP-SERVER.md extended integrations.
+
 ### ✅ v3.34 — MCP server: five new tools
 sportmind_pre_match (orchestrated pre-match package), sportmind_disciplinary
 (DSM + regulatory source), sportmind_fan_token_lookup (24 Chiliz Chain tokens,

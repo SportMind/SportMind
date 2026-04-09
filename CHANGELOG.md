@@ -1,5 +1,46 @@
 # Changelog
 
+## [3.35.0] — 2026-04-09
+
+### Added
+- `platform/sequential-thinking-integration.md` — SportMind sequential reasoning chain
+  - Five-phase chain: macro gate → event context → disciplinary check →
+    fan token context → signal synthesis
+  - ENTER / WAIT / ABSTAIN conditions explicitly defined
+  - System prompt for sequential SportMind agent
+  - Complex failure analysis sequence (trigger → severity → monitor → re-analyse)
+  - Multi-token portfolio sequential pattern
+  - Claude Desktop configuration with sequential-thinking MCP
+- `platform/memory-integration.md` — cross-session persistent memory blueprint
+  - Token memory schema: signal history, DSM history, consecutive signals,
+    lifecycle phase, upcoming events
+  - Macro memory schema: modifier history, phase transitions, recovery detection
+  - Player disciplinary memory: repeat offender detection, resolution timelines
+  - Portfolio summary schema: all token recommendations, active flags
+  - Memory MCP configuration
+  - Four reasoning patterns: macro recovery, repeat disciplinary, consecutive
+    WAIT detection, pre-event preparation
+  - Memory decay rules: what to clear, archive, and never delete
+- `platform/fetch-mcp-disciplinary.md` — Fetch MCP disciplinary verification
+  - Authoritative source URLs for 7 sports: Rugby Union (World Rugby), Football
+    (FA, UEFA), Formula 1 (FIA), MMA (USADA/UFC), Cricket (ICC), Rugby League
+    (NRL), NHL (DOPS)
+  - Sequential workflow: sportmind_disciplinary → sportmind_verifiable_source
+    → fetch → apply DSM → store in memory
+  - Example: Rugby citing check end-to-end workflow
+  - Error handling: unavailable, unparseable, not found, rate limited
+  - Explicit scope: what Fetch MCP is NOT for in SportMind
+  - Four-server combined configuration (sportmind + sequential + memory + fetch)
+- `MCP-SERVER.md` — extended integrations section added (v3.35)
+
+### Notes
+- All three documents are zero-maintenance platform patterns — no new server
+  infrastructure, no API keys, no paid dependencies
+- Sequential Thinking and Memory MCP are available via npx (no install required)
+- Fetch MCP targets Tier 1 authoritative sources only — not general web scraping
+- Together: an agent that reasons correctly (sequential), remembers (memory),
+  and verifies (fetch) — the complete SportMind production deployment stack
+
 ## [3.34.0] — 2026-04-08
 
 ### Added
