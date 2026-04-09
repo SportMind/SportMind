@@ -2017,6 +2017,13 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.37 — On-chain address intelligence + social intelligence connectors
+platform/chiliz-chain-address-intelligence.md: 6 signals (concentration, smart wallet,
+holder trend, velocity, acquisition, DSM calibration), ChilizAddressIntelligence Python
+connector, chiliscan API integration, all 24 fan tokens. 
+platform/social-intelligence-connector.md: X API v2 connector, mindshare 1d/7d/30d
+trends, ecosystem sentiment, smart follower detection, source tier framework.
+
 ### ✅ v3.36 — API providers guide with end-to-end flow
 platform/api-providers.md: quickest path to a working signal, API-Football primary
 recommendation, multi-sport API-Sports suite, RapidAPI hub, sport-specific providers

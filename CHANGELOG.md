@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.37.0] — 2026-04-09
+
+### Added
+- `platform/chiliz-chain-address-intelligence.md` — on-chain wallet analysis (622 lines)
+  - Six address intelligence signals: holder concentration, smart wallet tracking,
+    unique holder count trend, transfer velocity, new wallet acquisition rate,
+    disciplinary event impact measurement
+  - Concentration tiers: LOW / MODERATE / HIGH / EXTREME with signal modifiers
+  - Smart wallet modifier: ×1.08 to ×1.15 (accumulation) or ×0.80 to ×0.88 (distribution)
+  - Full Python connector: ChilizAddressIntelligence class using chiliscan
+    Etherscan-compatible API (no key required for basic queries)
+  - Methods: get_holder_list, get_token_info, get_token_transfers,
+    get_concentration_signal, get_transfer_velocity,
+    get_address_intelligence_snapshot
+  - All 24 fan token contract addresses from FAN_TOKEN_REGISTRY
+  - Integration with Memory MCP for pattern detection over time
+  - DSM calibration protocol: measure holder exit rates to refine DSM values
+  - Connects to: fan-token-pulse, on-chain-event-intelligence,
+    defi-liquidity-intelligence, athlete-disciplinary-intelligence
+
+- `platform/social-intelligence-connector.md` — X API v2 social connector (467 lines)
+  - Feeds existing SportMind skills: kol-influence-intelligence,
+    athlete-social-lift, fan-sentiment-intelligence
+  - Full Python connector: SocialIntelligenceConnector class
+  - Methods: search_recent, get_token_mindshare, get_ct_kol_activity,
+    get_ecosystem_sentiment, get_mindshare_trend
+  - 1d / 7d / 30d mindshare trend analysis with trend direction
+  - Smart follower detection framework with identification method,
+    scoring, and Memory MCP storage instructions
+  - All 24 fan token tickers pre-configured for monitoring
+  - Source tier framework for social data (Tier 1-4)
+  - X API v2 setup instructions and rate limit reference
+
+### Notes
+- chiliz-chain-address-intelligence.md: no API key required for basic queries
+  (chiliscan Etherscan-compatible API is publicly accessible)
+- social-intelligence-connector.md: X API free tier (500K tweets/month) sufficient
+  for development; Basic tier ($100/month) recommended for production
+- Both connectors feed existing SportMind intelligence skills — not new frameworks,
+  but the data layer that makes existing frameworks actionable
+- Address intelligence is the most differentiating: no other sports AI library
+  has on-chain wallet concentration and smart wallet signals
+- DSM calibration protocol enables community to empirically verify and improve
+  disciplinary sentiment modifier values over time
+
 ## [3.36.0] — 2026-04-09
 
 ### Added
