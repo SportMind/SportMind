@@ -803,35 +803,44 @@ NEXT: athlete_modifier at 40 records → recalibration-v7
 
 ---
 
-## [COMPRESSED] Gamified tokenomics intelligence (Chiliz 2030)
+## [COMPRESSED] Gamified tokenomics intelligence — Fan Token Play
 
-**When to use:** Any fan token with performance-linked supply mechanics (Win→burn, Loss→mint).
-Check KAYEN API for `gamified: true` before every analysis from Q2 2026 onwards.
+**When to use:** Any fan token confirmed on Fan Token Play (Path 1 or Path 2).
+$AFC confirmed Path 2 as of 07 April 2026. Check KAYEN API for all others.
 
 ```
-DETECTION: KAYEN API gamified flag OR Socios.com "performance-linked" indicator
-  Default assumption: tokens issued before Q2 2026 are STANDARD unless confirmed gamified
+TWO PATHS — DIFFERENT SIGNAL ARCHITECTURE:
 
-WIN SIGNAL ADJUSTMENT:
-  gamified_win_multiplier = 1.00 + (burn_rate_pct × 2.5)
-  Example: 0.3% burn/win → multiplier = 1.0075
-  Final = standard_adjusted_score × gamified_win_multiplier
+PATH 1 (Protocol-Level, rollout pending trial):
+  Post-match oracle trigger only. No pre-match on-chain event.
+  WIN: burn scaled by GOAL DIFFERENCE (1-goal ×1.00 → 4+ goals ×1.60)
+  LOSS: mint to treasury (new supply created)
+  DRAW: no supply change
+  SAFEGUARDS: 75% net reduction floor | credit burns | 12.5% vesting cap/year
+  gamified_win_modifier = 1.00 + (burn_rate × goal_diff_mult × 2.5)
 
-LOSS SIGNAL ADJUSTMENT:
-  gamified_loss_multiplier = 1.00 − (mint_rate_pct × 2.0)
+PATH 2 (Prediction Market-Based, $AFC trial 07 Apr 2026):
+  PRE-MATCH (T-48h): 1/400th supply pre-liquidated → USDT (detectable on-chain)
+  AT KICKOFF: USDT places WIN bet on-chain (always WIN — not outcome intelligence)
+  WIN (T+48h): 95% proceeds buy back + burn tokens (5% fee)
+  LOSS (T+48h): pre-liquidated amount minted back to treasury ONLY (neutral net)
+  PATH 2 KEY INSIGHT: LOSS = supply neutral (not expanded). WIN = permanently deflationary.
+  gamified_path2_win_modifier = 1.00 + (0.0024 × 2.5) ≈ 1.006 per match
 
-DRAW: no supply change → no modifier (check contract for draw handling)
+ON-CHAIN DETECTION (Path 2):
+  T-48h treasury sell ~0.25% supply → FAN_TOKEN_PLAY_DETECTED (not a whale signal)
+  Post-win burn to 0x0000...0000 → FAN_TOKEN_PLAY_WIN_CONFIRMED
+  Post-loss mint to treasury → FAN_TOKEN_PLAY_LOSS_CONFIRMED (supply neutral)
+  NEVER apply Category 1 distribution_signal to Fan Token Play pre-liquidation
 
-SEASON SUPPLY POSITION:
-  Net burned >5%: MILD_SCARCITY → +season_supply_modifier
-  Net minted >5%: MILD_DILUTION → −season_supply_modifier
+CHZ VIRTUOUS CYCLE:
+  Path 2 WIN also contributes to CHZ burn via 10% ecosystem proceeds rule.
+  TWO deflationary events from one WIN: fan token supply burn + CHZ ecosystem burn.
+  See macro/macro-crypto-market-cycles.md — virtuous cycle section.
 
-PREDICTION MARKET FLAG: if prediction market open + gamified token → correlation_flag
-UNUSUAL VOLUME FLAG: >3× average volume in 4h pre-match → unusual_activity_flag
-
-OUTPUT EXTENSION: adds gamified_modifier + season_supply_position to standard schema
+CONFIRMED: $AFC = PATH_2 (2026-04-07) | All others: check KAYEN API
 ```
-~200 tokens → full file ~3,800 tokens
+~220 tokens → full file: fan-token/gamified-tokenomics-intelligence/ (~370 lines)
 
 ---
 

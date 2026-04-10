@@ -35,6 +35,7 @@ The difference is:
 | [5. League Monitoring Agent](#pattern-5) | Full league signal prioritisation | 6h cycle | Season duration |
 | [6. Athlete Commercial Tracker](#pattern-6) | APS/AELS/SHS commercial monitoring | 12h cycle | Ongoing |
 | [7. Cross-Sport Signal Monitor](#pattern-7) | Correlated signal convergence | 6h cycle | Ongoing |
+| [8. Fan Token Play Monitor](#pattern-8) | PATH_2 match cycle (T-48h → T+48h) | Event-driven (match calendar) | Per match |
 
 ---
 

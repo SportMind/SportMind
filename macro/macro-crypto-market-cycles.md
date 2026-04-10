@@ -352,6 +352,93 @@ MULTI-VALIDATOR SCENARIO (future):
 
 ---
 
+## CHZ virtuous cycle — Vision 2030 deflationary signal
+
+```
+WHAT IT IS:
+  Distinct from BTC/altcoin cycle dynamics, CHZ has a protocol-level deflationary
+  mechanism driven by fan token economic activity. As the fan token ecosystem grows,
+  it generates structured CHZ scarcity independent of broader crypto market conditions.
+
+THE MECHANISM (confirmed active, April 2026):
+  Fan token transactions and marketplace activity generate proceeds
+  → 10% of all proceeds execute CHZ buybacks from the open market
+  → Bought CHZ is permanently burned (sent to 0x0000...0000)
+  → Reduces CHZ circulating supply regardless of market cycle phase
+  
+  Verified: chiliscan.com burn transactions from Chiliz 2030 burn reports
+  Burn address: 0x0000000000000000000000000000000000000000
+
+FAN TOKEN PLAY AMPLIFICATION (Path 2, April 2026):
+  Fan Token Play creates additional CHZ burn vectors beyond the base 10% rule.
+  Path 2 WIN outcomes generate buyback proceeds → portion flows to CHZ burn.
+  More fan tokens adopting Fan Token Play = more CHZ burn events per season.
+  
+  SIGNAL CHAIN:
+    Fan token ecosystem growth → more volume → more 10% buybacks → more CHZ burns
+    Fan Token Play expansion → WIN burns create additional proceeds → CHZ burn
+    More clubs adopt FTP → exponential CHZ burn acceleration
+    CHZ scarcity → CHZ price support → improved macro_modifier
+    Better macro_modifier → better conditions for ALL fan token signals
+
+WHY THIS MATTERS FOR AGENT REASONING:
+  Standard macro analysis: CHZ follows BTC with ~0.80 correlation
+  Virtuous cycle analysis: CHZ has a structural deflationary floor from fan token activity
+  
+  In a NEUTRAL or mild BEAR crypto market:
+    Standard model: CHZ falls with alts, macro_modifier reduced
+    Virtuous cycle model: CHZ burns provide partial price support; floor is higher
+    
+  In a BULL market:
+    Standard model: CHZ rises with BTC
+    Virtuous cycle model: CHZ may outperform peers due to structural deflationary bias
+
+MONITORING SIGNALS:
+  Chiliz publishes quarterly CHZ burn reports (chiliz.com/blog)
+  Track: cumulative CHZ burned per quarter vs prior quarters
+  Rising burn rate → fan token ecosystem growing → structural CHZ support improving
+  
+  BURN RATE TIERS:
+    < 5M CHZ burned per quarter: LOW ecosystem activity
+    5-20M CHZ burned per quarter: MODERATE (current 2026 baseline ~9.2M/quarter)
+    20-50M CHZ burned per quarter: HIGH — ecosystem scaling signal
+    > 50M CHZ burned per quarter: VERY HIGH — significant structural floor
+
+AGENT RULE — TWO-LAYER CHZ ANALYSIS:
+  Layer 1 (standard): BTC/200d MA → macro_modifier (existing framework)
+  Layer 2 (virtuous cycle): quarterly CHZ burn rate → structural_floor_signal
+  
+  Combined:
+    BULL + rising burn rate:   macro_modifier 1.20 + structural_boost = maximum conditions
+    NEUTRAL + rising burn rate: macro_modifier 1.00 + structural floor signal
+    BEAR + rising burn rate:   macro_modifier 0.75 but floor higher than altcoin peers
+    BEAR + falling burn rate:  macro_modifier 0.75 and no structural support
+  
+  Apply structural_floor_signal as a +0.03 to +0.05 modifier on macro_modifier
+  when quarterly CHZ burn rate is MODERATE or above.
+  
+  Example:
+    NEUTRAL macro phase (modifier 1.00) + HIGH burn rate:
+    adjusted_macro_modifier = 1.00 + 0.04 = 1.04
+    
+    BEAR phase (modifier 0.75) + MODERATE burn rate:
+    adjusted_macro_modifier = 0.75 + 0.03 = 0.78 (still below 1.00, still gate applies)
+
+IMPORTANT SEPARATION:
+  CHZ burn = reduction in CHZ native token supply (benefits all CHZ holders)
+  Fan token burn = reduction in a specific token supply (e.g. $AFC supply)
+  These are different assets, different mechanisms, connected economics.
+  Never apply fan token supply changes to CHZ macro analysis or vice versa.
+
+DATA SOURCE:
+  Chiliz CHZ burn reports: chiliz.com/blog (quarterly)
+  Burn verification: chiliscan.com (zero address: 0x0000...0000)
+  Fan Token Play data: fantokens.com/newsroom
+```
+
+
+---
+
 ## Data sources for crypto cycle monitoring
 
 - **TradingView:** BTC/USD with 200-day MA overlay (primary indicator)
@@ -372,4 +459,6 @@ MULTI-VALIDATOR SCENARIO (future):
 
 ---
 
-*MIT License · SportMind · sportmind.dev*
+*SportMind v3.44 · MIT License · sportmind.dev*
+*CHZ virtuous cycle section added April 2026*
+*Source: Chiliz Vision 2030 / CHZ Burn Report March-April 2026*

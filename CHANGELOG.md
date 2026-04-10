@@ -1,5 +1,101 @@
 # Changelog
 
+## [3.45.0] — 2026-04-10
+
+### Added
+- `examples/agentic-workflows/fan-token-play-monitor.md` — Pattern 8
+  Full four-phase Fan Token Play match cycle workflow (T-48h → kickoff → T+48h).
+  Pre-liquidation detection, post-match settlement polling, season supply update.
+  Memory MCP schema for Fan Token Play state. Pattern 1 (Portfolio Monitor)
+  integration guidance. Working Python implementation for $AFC PATH_2.
+
+- `agent-prompts/agent-prompts.md` — Prompt 20: Fan Token Play monitoring agent
+  Specialised system prompt for PATH_2 tokens. Four-phase cycle, classification rules
+  (pre-liquidation ≠ distribution signal, LOSS = supply neutral), gamified modifier
+  application, CHZ echo signal note, Memory MCP update protocol. 20 prompts total.
+
+### Changed
+- `platform/chiliz-chain-address-intelligence.md` — FanTokenPlayMonitor class added
+  Three methods: check_pre_liquidation() (T-48h treasury sell detection, 72h window),
+  check_post_match_settlement() (burn-to-zero for WIN, treasury mint for LOSS),
+  get_season_supply_position() (net burned/minted from season-start transfers).
+  identify_treasury_wallet() guidance. Prevents Category 1 distribution_signal error.
+  Usage example for $AFC. Makes Category 7 (on-chain-event-intelligence) actionable.
+
+- `scripts/sportmind_mcp.py` — sportmind_sentiment_snapshot updated
+  supply_mechanics block added to snapshot output: surfaces fan_token_play_path,
+  confirmed_date, pre_liquidation_check instruction, PATH_2 loss note, CHZ echo note.
+  Tokens without confirmed FTP return NOT_CONFIRMED with KAYEN check guidance.
+
+- `platform/data-connector-templates.md` — KAYEN connector gamified field
+  get_token_data() now reads and returns gamified flag, fan_token_play_path,
+  and gamified_note from KAYEN API response. Closes the gap between the documented
+  "check for gamified: true" instruction and the actual connector code.
+
+- `examples/agentic-workflows/README.md` — Pattern 8 added to table
+
+### Notes
+- All five items make Fan Token Play intelligence actionable for developers:
+  FanTokenPlayMonitor makes Category 7 buildable, not just documented.
+  Sentiment snapshot surfaces FTP status without a separate lookup.
+  KAYEN connector fix means developers get gamified field automatically.
+  Pattern 8 shows the full match cycle timing developers need to implement.
+  Prompt 20 gives developers a ready-made system prompt for PATH_2 agents.
+- $AFC treasury wallet address must be confirmed via chiliscan.com before
+  FanTokenPlayMonitor can operate — documented clearly in all three locations.
+
+## [3.44.0] — 2026-04-10
+
+### Changed
+- `fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md` — full rewrite
+  Path 1 and Path 2 documented as distinct mechanisms with separate signal architectures.
+  Path 1: post-match oracle trigger, goal difference scaling (×1.00→×1.60), three safeguards
+  (75% net reduction floor, credit burns, 12.5% vesting cap), fallback fee model documented.
+  Path 2: four-phase timeline (T-48h pre-liquidation, kickoff bet, T+48h WIN burn or LOSS
+  re-mint). Path 2 LOSS = supply-neutral (pre-liquidated amount restored only, not expanded).
+  CHZ virtuous cycle connection documented — WIN events generate both fan token burn AND
+  CHZ ecosystem burn. $AFC confirmed Path 2 as of 07 April 2026 (first public trial).
+  Output schema extended with fan_token_play_path, pre_liquidation_detected, chz_macro_note.
+
+- `macro/macro-crypto-market-cycles.md` — CHZ virtuous cycle section added
+  Vision 2030 deflationary mechanism: 10% of fan token marketplace proceeds → CHZ buyback
+  → permanent burn (zero address). Fan Token Play amplification: PATH 2 WIN events generate
+  additional CHZ burn beyond the base 10% rule. Structural floor signal: quarterly CHZ burn
+  rate tiers (LOW <5M / MODERATE 5-20M / HIGH 20-50M / VERY HIGH >50M CHZ per quarter).
+  Agent rule: two-layer CHZ analysis (BTC/200d MA + structural floor signal).
+  Structural floor modifier: +0.03 to +0.05 on macro_modifier when burn rate MODERATE+.
+  Important separation: CHZ burn ≠ fan token burn — different assets, connected economics.
+
+- `fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md` — Category 7 added
+  Fan Token Play Events: three detectable on-chain signatures per match for Path 2 tokens.
+  Pre-liquidation (T-48h treasury sell ~0.25% supply): confirmation signal, NOT distribution.
+  Post-win buyback and burn (to 0x0000...0000): FAN_TOKEN_PLAY_WIN_CONFIRMED.
+  Post-loss re-mint to treasury: FAN_TOKEN_PLAY_LOSS_CONFIRMED (supply neutral).
+  Agent error prevention: pre-liquidation must never trigger Category 1 distribution_signal.
+  CHZ echo signal: WIN confirms both fan token burn AND CHZ ecosystem burn.
+
+- `scripts/sportmind_mcp.py` — $AFC registry entry updated
+  fan_token_play: "PATH_2", ftp_confirmed_date: "2026-04-07", ftp_note added.
+  Registry field structure documented: fan_token_play, ftp_confirmed_date, ftp_note.
+  tool_fan_token_lookup now returns fan_token_play object when fields are present.
+
+- `compressed/README.md` — gamified tokenomics compressed skill updated
+  Path 1 and Path 2 architectures. Pre-liquidation detection rules.
+  Agent error prevention (pre-liquidation ≠ whale signal).
+  CHZ virtuous cycle reference. $AFC confirmed Path 2 noted.
+
+### Notes
+- The CHZ virtuous cycle section makes explicit what was implicit in the Vision 2030 docs:
+  fan token ecosystem growth is a LEADING INDICATOR for CHZ scarcity and macro modifier
+  improvement. This is structurally different from the BTC correlation signal.
+- Path 2 LOSS being supply-neutral (not supply-expanding) is the most counterintuitive
+  finding from the source material — it means Path 2 tokens accumulate permanent
+  deflationary pressure on wins without symmetric inflationary pressure on losses.
+- $AFC is the only confirmed Fan Token Play token as of this version. All others require
+  KAYEN API confirmation before gamified framework is applied.
+- Sources: chiliz.com/chz-burn-report-march-april-2026 and
+  fantokens.com/newsroom/chiliz-introduces-gamified-fan-token-play-burn-on-loss-mint-on-win
+
 ## [3.43.0] — 2026-04-10
 
 ### Added

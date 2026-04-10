@@ -616,7 +616,362 @@ CALIBRATION CONTRIBUTION:
 
 ---
 
-*SportMind v3.36 · MIT License · sportmind.dev*
+## Fan Token Play Monitor
+
+The `FanTokenPlayMonitor` class detects and classifies Fan Token Play on-chain events
+for Path 2 tokens. It distinguishes protocol mechanics (pre-liquidation, post-match
+burn/mint) from organic wallet activity, preventing the agent error documented in
+`fan-token/on-chain-event-intelligence/` Category 7.
+
+```python
+# Extends ChilizAddressIntelligence for Fan Token Play detection
+# Requires: contract address, treasury wallet address (from KAYEN or chiliscan metadata)
+# Source: fan-token/gamified-tokenomics-intelligence/ Path 2 mechanics
+
+ZERO_ADDRESS = "0x0000000000000000000000000000000000000000"
+
+class FanTokenPlayMonitor:
+    """
+    Detects Fan Token Play Path 2 on-chain events for SportMind agents.
+
+    Prevents critical agent error: pre-liquidation must NOT trigger
+    Category 1 distribution_signal — it is protocol mechanics, not whale selling.
+
+    Three detectable events per match (Path 2 tokens only):
+      1. Pre-liquidation (T-48h): treasury sells ~0.25% supply → USDT
+      2. Post-win burn: 95% proceeds buy back + burn to zero address
+      3. Post-loss re-mint: treasury receives ~0.25% supply (supply neutral)
+
+    Requirements:
+      - Contract address for the fan token
+      - Treasury wallet address (from chiliscan token metadata or KAYEN API)
+      - ChilizAddressIntelligence instance for transfer queries
+
+    Usage:
+      monitor = FanTokenPlayMonitor(
+          contract   = "0x1d4343d35f0E0e14C14115876D01dEAa4792550b",  # $AFC
+          treasury   = "0x...",   # AFC treasury wallet from chiliscan metadata
+          chiliz_api = "https://api.chiliscan.com/api"
+      )
+      event = await monitor.check_pre_liquidation()
+      result = await monitor.check_post_match_settlement(won=True)
+    """
+
+    def __init__(self, contract: str, treasury: str,
+                 chiliz_api: str = "https://api.chiliscan.com/api"):
+        self.contract    = contract
+        self.treasury    = treasury.lower()
+        self.chiliz_api  = chiliz_api
+        self._session    = None
+
+    async def _get_session(self):
+        import aiohttp
+        if not self._session:
+            self._session = aiohttp.ClientSession()
+        return self._session
+
+    async def _get_transfers(self, limit: int = 50) -> list:
+        """Fetch recent token transfers from Chiliz Chain explorer."""
+        session = await self._get_session()
+        params = {
+            "module":          "account",
+            "action":          "tokentx",
+            "contractaddress": self.contract,
+            "sort":            "desc",
+            "offset":          limit,
+        }
+        try:
+            async with session.get(self.chiliz_api, params=params) as resp:
+                data = await resp.json()
+                return data.get("result", [])
+        except Exception:
+            return []
+
+    async def identify_treasury_wallet(self) -> dict:
+        """
+        Identify the treasury wallet for this token from on-chain patterns.
+        Treasury wallet characteristics:
+          - Holds large % of supply (often 20-40%)
+          - Receives minted tokens after losses
+          - Initiates pre-liquidation sells before matches
+        Manual verification: chiliscan.com/token/{contract} → top holders
+
+        Returns guidance; treasury address must be confirmed manually or via
+        KAYEN API token metadata before FanTokenPlayMonitor can operate.
+        """
+        return {
+            "status":       "MANUAL_CONFIRMATION_REQUIRED",
+            "method":       "Check chiliscan.com/token/{contract} → Holders tab",
+            "look_for":     "Large holder (20-40% supply), labelled 'Treasury' or unlabelled",
+            "verify_via":   "KAYEN API: GET /tokens/{address} → treasury_wallet field (if present)",
+            "once_confirmed": "Pass treasury address to FanTokenPlayMonitor(treasury=...)",
+        }
+
+    async def check_pre_liquidation(self,
+                                     window_hours: int = 72) -> dict:
+        """
+        Detect Fan Token Play pre-liquidation event (T-48h before match).
+
+        Path 2 mechanics: treasury sells exactly 1/400th of supply → USDT
+        This is a PROTOCOL event, not organic selling. Never apply
+        Category 1 distribution_signal to a confirmed pre-liquidation.
+
+        Returns:
+          detected: bool — pre-liquidation found in window
+          event_type: FAN_TOKEN_PLAY_PRE_LIQUIDATION | ORGANIC_SELL | NONE
+          amount_pct: approximate % of supply moved
+          classification_confidence: HIGH | MEDIUM | LOW
+          agent_instruction: what to do with this signal
+        """
+        from datetime import datetime, timezone, timedelta
+        import time
+
+        transfers = await self._get_transfers(limit=100)
+        cutoff = int(time.time()) - (window_hours * 3600)
+
+        pre_liq_candidates = []
+        for tx in transfers:
+            ts = int(tx.get("timeStamp", 0))
+            if ts < cutoff:
+                continue
+            sender = tx.get("from", "").lower()
+            # Pre-liquidation: treasury is the sender
+            if sender == self.treasury:
+                value = int(tx.get("value", 0))
+                decimals = int(tx.get("tokenDecimal", 18))
+                amount = value / (10 ** decimals)
+                pre_liq_candidates.append({
+                    "hash":      tx.get("hash"),
+                    "timestamp": ts,
+                    "amount":    amount,
+                    "to":        tx.get("to", "").lower(),
+                    "datetime":  datetime.fromtimestamp(ts, tz=timezone.utc).isoformat(),
+                })
+
+        if not pre_liq_candidates:
+            return {
+                "detected":    False,
+                "event_type":  "NONE",
+                "window_hours": window_hours,
+                "agent_instruction": "No pre-liquidation detected. Fan Token Play not active for current window.",
+            }
+
+        # Most recent treasury sell in window = likely pre-liquidation
+        latest = sorted(pre_liq_candidates, key=lambda x: x["timestamp"], reverse=True)[0]
+
+        # Confidence: HIGH if single treasury sell in window (clean signal)
+        confidence = "HIGH" if len(pre_liq_candidates) == 1 else "MEDIUM"
+
+        return {
+            "detected":                  True,
+            "event_type":                "FAN_TOKEN_PLAY_PRE_LIQUIDATION",
+            "hash":                      latest["hash"],
+            "datetime":                  latest["datetime"],
+            "amount_tokens":             latest["amount"],
+            "classification_confidence": confidence,
+            "path":                      "PATH_2",
+            "agent_instruction": (
+                "Fan Token Play CONFIRMED for next match. "
+                "DO NOT apply Category 1 distribution_signal. "
+                "Set fan_token_play_active=True. "
+                "Load fan-token/gamified-tokenomics-intelligence/ for Path 2 modifier."
+            ),
+            "verify_url": f"https://chiliscan.com/tx/{latest['hash']}",
+        }
+
+    async def check_post_match_settlement(self, won: bool,
+                                           window_hours: int = 52) -> dict:
+        """
+        Detect post-match Fan Token Play settlement (within T+48h of result).
+
+        WIN: 95% of proceeds buy back + burn to zero address → supply decreases
+        LOSS: pre-liquidated amount minted back to treasury → supply neutral
+
+        Args:
+          won: True if team won; False if lost or drew
+          window_hours: how far back to look (default 52h covers T+48h + buffer)
+        """
+        import time
+        from datetime import datetime, timezone
+
+        transfers = await self._get_transfers(limit=100)
+        cutoff = int(time.time()) - (window_hours * 3600)
+
+        if won:
+            # Look for burn: tokens sent TO zero address
+            burns = []
+            for tx in transfers:
+                ts = int(tx.get("timeStamp", 0))
+                if ts < cutoff:
+                    continue
+                to_addr = tx.get("to", "").lower()
+                if to_addr == ZERO_ADDRESS:
+                    value = int(tx.get("value", 0))
+                    decimals = int(tx.get("tokenDecimal", 18))
+                    burns.append({
+                        "hash":      tx.get("hash"),
+                        "datetime":  datetime.fromtimestamp(ts, tz=timezone.utc).isoformat(),
+                        "amount":    value / (10 ** decimals),
+                    })
+
+            if burns:
+                latest = sorted(burns, key=lambda x: x["datetime"], reverse=True)[0]
+                return {
+                    "event_type":   "FAN_TOKEN_PLAY_WIN_CONFIRMED",
+                    "detected":     True,
+                    "burn_hash":    latest["hash"],
+                    "datetime":     latest["datetime"],
+                    "amount_burned": latest["amount"],
+                    "supply_effect": "PERMANENT_REDUCTION",
+                    "chz_echo":     "WIN proceeds also contribute to CHZ buyback via 10% ecosystem rule.",
+                    "agent_instruction": (
+                        "Apply gamified_path2_win_modifier. "
+                        "Update season_net_burned_pct in Memory MCP. "
+                        "Note CHZ echo signal for macro layer."
+                    ),
+                    "verify_url":   f"https://chiliscan.com/tx/{latest['burn_hash']}",
+                }
+            return {
+                "event_type":  "FAN_TOKEN_PLAY_WIN_PENDING",
+                "detected":    False,
+                "note":        "Settlement within T+48h. Check again if not yet confirmed.",
+            }
+
+        else:
+            # Look for re-mint: treasury receives tokens post-loss
+            mints = []
+            for tx in transfers:
+                ts = int(tx.get("timeStamp", 0))
+                if ts < cutoff:
+                    continue
+                to_addr = tx.get("to", "").lower()
+                if to_addr == self.treasury:
+                    value = int(tx.get("value", 0))
+                    decimals = int(tx.get("tokenDecimal", 18))
+                    mints.append({
+                        "hash":     tx.get("hash"),
+                        "datetime": datetime.fromtimestamp(ts, tz=timezone.utc).isoformat(),
+                        "amount":   value / (10 ** decimals),
+                    })
+
+            if mints:
+                latest = sorted(mints, key=lambda x: x["datetime"], reverse=True)[0]
+                return {
+                    "event_type":    "FAN_TOKEN_PLAY_LOSS_CONFIRMED",
+                    "detected":      True,
+                    "mint_hash":     latest["hash"],
+                    "datetime":      latest["datetime"],
+                    "amount_minted": latest["amount"],
+                    "supply_effect": "NEUTRAL — pre-liquidated amount restored to treasury only",
+                    "agent_instruction": (
+                        "Path 2 LOSS is supply-neutral. Do NOT apply inflation modifier. "
+                        "Apply standard loss sentiment signal only. "
+                        "Season_net_burned_pct unchanged."
+                    ),
+                    "verify_url":    f"https://chiliscan.com/tx/{latest['mint_hash']}",
+                }
+            return {
+                "event_type": "FAN_TOKEN_PLAY_LOSS_PENDING",
+                "detected":   False,
+                "note":       "Settlement within T+48h. Check again if not yet confirmed.",
+            }
+
+    async def get_season_supply_position(self,
+                                          original_supply: float) -> dict:
+        """
+        Calculate season-to-date net supply change from Fan Token Play events.
+        Reads all burns (to zero address) and treasury mints since season start.
+
+        Args:
+          original_supply: total supply at season start (from KAYEN or chiliscan)
+        """
+        transfers = await self._get_transfers(limit=500)
+
+        total_burned = 0.0
+        total_minted = 0.0
+
+        for tx in transfers:
+            value     = int(tx.get("value", 0))
+            decimals  = int(tx.get("tokenDecimal", 18))
+            amount    = value / (10 ** decimals)
+            to_addr   = tx.get("to", "").lower()
+            from_addr = tx.get("from", "").lower()
+
+            if to_addr == ZERO_ADDRESS:
+                total_burned += amount
+            elif to_addr == self.treasury and from_addr != ZERO_ADDRESS:
+                total_minted += amount
+
+        net_burned     = total_burned - total_minted
+        net_burned_pct = (net_burned / original_supply * 100) if original_supply else 0
+
+        if net_burned_pct > 10:
+            supply_signal = "STRONG_SCARCITY"
+        elif net_burned_pct > 5:
+            supply_signal = "MODERATE_SCARCITY"
+        elif net_burned_pct > 0:
+            supply_signal = "MILD_SCARCITY"
+        elif net_burned_pct > -5:
+            supply_signal = "MILD_DILUTION"
+        else:
+            supply_signal = "SIGNIFICANT_DILUTION"
+
+        return {
+            "total_burned_tokens": round(total_burned, 2),
+            "total_minted_tokens": round(total_minted, 2),
+            "net_burned_tokens":   round(net_burned, 2),
+            "net_burned_pct":      round(net_burned_pct, 4),
+            "supply_signal":       supply_signal,
+            "season_modifier_note": (
+                f"Apply season_supply_modifier if net_burned_pct > 5%. "
+                f"Current: {net_burned_pct:.2f}% net burned."
+            ),
+        }
+
+    async def close(self):
+        if self._session:
+            await self._session.close()
+
+
+# ── Usage example ─────────────────────────────────────────────────────────────
+
+async def fan_token_play_example():
+    """
+    Example: Monitor $AFC Fan Token Play for Arsenal UCL fixture.
+    $AFC confirmed PATH_2 as of 07 April 2026.
+    """
+    import json
+
+    monitor = FanTokenPlayMonitor(
+        contract = "0x1d4343d35f0E0e14C14115876D01dEAa4792550b",  # $AFC
+        treasury = "0x_CONFIRM_VIA_CHILISCAN",  # verify at chiliscan.com/token/0x1d43...
+    )
+
+    # 48h before match: check if pre-liquidation has occurred
+    print("=== Checking for pre-liquidation (T-48h) ===")
+    pre_liq = await monitor.check_pre_liquidation(window_hours=72)
+    print(json.dumps(pre_liq, indent=2))
+
+    # After match (if Arsenal won):
+    print("\n=== Checking post-match settlement (WIN) ===")
+    settlement = await monitor.check_post_match_settlement(won=True)
+    print(json.dumps(settlement, indent=2))
+
+    # Season supply position:
+    print("\n=== Season supply position ===")
+    # Get original supply from KAYEN: GET /tokens/{address} → total_supply
+    position = await monitor.get_season_supply_position(original_supply=40_000_000)
+    print(json.dumps(position, indent=2))
+
+    await monitor.close()
+```
+
+---
+
+
+---
+
+*SportMind v3.45 · MIT License · sportmind.dev*
 *Chiliz Chain — Chain ID 88888 · chiliscan.com/documentation/api/etherscan-like/accounts*
 *See also: platform/data-connector-templates.md · fan-token/on-chain-event-intelligence/*
 *platform/memory-integration.md · scripts/sportmind_mcp.py (FAN_TOKEN_REGISTRY)*

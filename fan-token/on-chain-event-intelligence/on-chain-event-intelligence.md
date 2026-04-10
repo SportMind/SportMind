@@ -359,6 +359,89 @@ Example — on-chain modifier incorporation:
   Note: "On-chain signals positive — LP and staking confirm holder confidence"
 ```
 
+
+
+CATEGORY 6 — WALLET AGE AS CONVICTION PROXY
+
+  Long-held wallets (12+ months) that begin actively trading:
+  Signal: Dormant long-term holders reactivating = strong conviction shift
+  Accumulation by old wallets: STRONG_BULL_SIGNAL (conviction accumulation)
+  Distribution by old wallets: STRONG_BEAR_SIGNAL (conviction distribution)
+  
+  Wallet age tiers:
+    < 3 months: Recent entrant — low conviction signal value
+    3-12 months: Established — moderate conviction signal
+    12-24 months: Long-term — high conviction signal
+    24+ months: OG holder — maximum conviction signal weight
+
+
+CATEGORY 7 — FAN TOKEN PLAY EVENTS (Path 2, April 2026+)
+
+  Fan Token Play Path 2 creates PROTOCOL-DRIVEN on-chain events that are
+  detectable before and after every match. These are distinct from organic
+  whale activity — they are scheduled, attributable, and follow a precise pattern.
+  
+  Misreading Fan Token Play events as organic activity is a significant agent error.
+  
+  EVENT 1: PRE-LIQUIDATION (T-48h before match)
+    What happens: Treasury wallet sells 1/400th of circulating supply → USDT
+    On-chain signature: Treasury wallet, exact 0.25% supply amount, T-48h timing
+    Detection method:
+      1. Identify treasury wallet for the token (via KAYEN or chiliscan token metadata)
+      2. Monitor for treasury sells in the T-72h to T-24h window
+      3. If sell size = ~0.25% of supply AND sender = treasury wallet: FAN TOKEN PLAY
+      4. Confirm via fantokens.com or chiliscan token page
+    
+    Signal value: Confirms Fan Token Play is ACTIVE for this specific match
+    Modifier: None to pre-match signal (it is confirmation, not directional)
+    Flag: set fan_token_play_active = true for this match
+    
+    AGENT ERROR TO AVOID:
+      Do NOT treat this as a large whale sell signal (Category 1)
+      Do NOT apply distribution_signal modifier (this is not bearish)
+      Do NOT set liquidity_warning (this is protocol mechanics, not organic exit)
+  
+  EVENT 2: POST-WIN BUYBACK AND BURN (within T+48h of WIN)
+    What happens: Win proceeds → 95% used to buy back tokens → burned to zero address
+    On-chain signature: Buy from KAYEN pool → tokens sent to 0x0000...0000
+    Detection method:
+      1. After a WIN result is confirmed
+      2. Monitor for burn transactions from the token contract
+      3. Burns to 0x0000000000000000000000000000000000000000 = permanent burn
+      4. Attribute to Fan Token Play if timing matches T+48h window
+    
+    Signal value: Confirms WIN + supply reduction — reinforces post-match ENTER
+    Modifier: Apply gamified_win_modifier from gamified-tokenomics-intelligence/
+    
+  EVENT 3: POST-LOSS RE-MINT (within T+48h of LOSS)
+    What happens: Pre-liquidated amount minted back to treasury wallet
+    On-chain signature: New tokens appear in treasury wallet (not to market)
+    Detection method:
+      1. After a LOSS result is confirmed
+      2. Monitor for mint transactions to treasury wallet
+      3. Amount should match pre-liquidation amount (~0.25% of supply)
+      4. Supply returns to pre-match level (neutral, not expanded)
+    
+    Signal value: Confirms LOSS + supply neutral — Path 2 LOSS is less negative than Path 1
+    Modifier: No negative modifier beyond standard loss sentiment
+    
+  MONITORING IMPLEMENTATION:
+    Query: chiliscan.com/token/{contract}/transfers
+    Filter: from_address = treasury_wallet OR to_address = 0x0000...0000
+    Window: T-72h to T+72h around each match
+    Alert conditions:
+      Treasury sell ~0.25% supply at T-48h: FAN_TOKEN_PLAY_DETECTED
+      Burn to zero address post-match: FAN_TOKEN_PLAY_WIN_CONFIRMED
+      Treasury mint ~0.25% post-match: FAN_TOKEN_PLAY_LOSS_CONFIRMED
+  
+  CHZ ECHO SIGNAL:
+    Fan Token Play WIN burns also contribute to CHZ buyback via the 10% ecosystem rule.
+    A confirmed Fan Token Play WIN generates TWO deflationary signals:
+      1. Fan token supply burn (this category)
+      2. CHZ supply burn (see macro/macro-crypto-market-cycles.md — virtuous cycle)
+    Note both in signal output. They are different assets but connected mechanics.
+
+
 ---
 
 ## Caution notes
@@ -401,6 +484,9 @@ ON-CHAIN SIGNAL LIMITATIONS:
 **Sports governance:** `fan-token/sports-governance-intelligence/` — governance vote signals
 **Real-time patterns:** `platform/realtime-integration-patterns.md` — Pattern 3 (base token monitor)
 **RWA/SportFi:** `fan-token/rwa-sportfi-intelligence/` — Phase 5 on-chain mechanics
-**Breaking news:** `core/breaking-news-intelligence.md` — Category 7 (token platform events)
+**Breaking news:** `core/breaking-news-intelligence.md` — Category 8 (token platform events)
+**Fan Token Play:** `fan-token/gamified-tokenomics-intelligence/` — Path 1/2 mechanics detail
+**CHZ macro:** `macro/macro-crypto-market-cycles.md` — virtuous cycle and CHZ burn signal
 
-*MIT License · SportMind · sportmind.dev*
+*SportMind v3.44 · MIT License · sportmind.dev*
+*Category 7 (Fan Token Play events) added April 2026*

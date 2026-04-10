@@ -2017,6 +2017,19 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.45 — Fan Token Play developer toolkit
+FanTokenPlayMonitor: pre-liquidation detection, post-match settlement, season supply.
+sportmind_sentiment_snapshot: supply_mechanics block with FTP status and agent rules.
+KAYEN connector: gamified field now surfaced from API response.
+Pattern 8: full T-48h→T+48h match cycle workflow. Prompt 20: PATH_2 agent.
+
+### ✅ v3.44 — Fan Token Play Path 1/2, CHZ virtuous cycle, on-chain Category 7
+gamified-tokenomics: full rewrite with Path 1 (goal difference scaling, safeguards) and
+Path 2 (T-48h pre-liquidation, 4-phase timeline, supply-neutral LOSS). CHZ virtuous
+cycle added to macro-crypto-market-cycles: structural floor signal, quarterly burn tiers.
+on-chain-event-intelligence: Category 7 Fan Token Play events, pre-liquidation detection,
+agent error prevention. $AFC registry confirmed PATH_2 2026-04-07. Compressed updated.
+
 ### ✅ v3.43 — Post-match framework, prediction market intelligence, verifiable ML, compressed skills
 core/post-match-signal-framework.md: four time windows, result-type modifiers,
 NCSI calculation, calibration protocol. core/prediction-market-intelligence.md:

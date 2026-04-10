@@ -67,7 +67,10 @@ FAN_TOKEN_REGISTRY = {
     "AFC":     {"name": "Arsenal FC",              "sport": "football",    "tier": 1,
                 "contract": "0x1d4343d35f0E0e14C14115876D01dEAa4792550b",
                 "chiliscan": "https://chiliscan.com/token/0x1d4343d35f0E0e14C14115876D01dEAa4792550b",
-                "fantokens": "https://www.fantokens.com/token/afc"},
+                "fantokens": "https://www.fantokens.com/token/afc",
+                "fan_token_play": "PATH_2",
+                "ftp_confirmed_date": "2026-04-07",
+                "ftp_note": "First public Path 2 trial. Pre-liquidation 1/400th supply T-48h."},
     "GAL":     {"name": "Galatasaray S.K.",         "sport": "football",    "tier": 1,
                 "contract": "0x6DaB8Fe8e5d425F2Eb063aAe58540aA04e273E0d",
                 "chiliscan": "https://chiliscan.com/token/0x6DaB8Fe8e5d425F2Eb063aAe58540aA04e273E0d",
@@ -714,6 +717,14 @@ def tool_fan_token_lookup(query, include_registry):
                 ),
             },
         }
+        # Append Fan Token Play fields if confirmed for this token
+        if "fan_token_play" in data:
+            token_info["fan_token_play"] = {
+                "path":           data["fan_token_play"],
+                "confirmed_date": data.get("ftp_confirmed_date"),
+                "note":           data.get("ftp_note"),
+                "skill_ref":      "fan-token/gamified-tokenomics-intelligence/",
+            }
         tokens.append(token_info)
 
     result = {
@@ -813,6 +824,22 @@ def tool_sentiment_snapshot(token, use_case):
                 "action":    "Run sportmind_disciplinary for key players before commercial recommendation",
                 "flags_to_check": ["COMMERCIAL_RISK_ACTIVE", "LEGAL_PROCEEDINGS_ACTIVE"],
             },
+            "supply_mechanics": (
+                {
+                    "fan_token_play_path":   token_data.get("fan_token_play"),
+                    "confirmed_date":        token_data.get("ftp_confirmed_date"),
+                    "status":                "GAMIFIED_CONFIRMED",
+                    "pre_liquidation_check": "Run FanTokenPlayMonitor at T-48h before each match",
+                    "path_2_loss_note":      "PATH_2 LOSS is supply-neutral — pre-liquidated amount restored only.",
+                    "chz_echo":              "PATH_2 WIN contributes to CHZ ecosystem burn via 10% proceeds rule.",
+                    "skill_ref":             "fan-token/gamified-tokenomics-intelligence/",
+                    "agent_rule":            "Never treat pre-liquidation as Category 1 distribution signal.",
+                }
+                if "fan_token_play" in token_data else {
+                    "status": "NOT_CONFIRMED",
+                    "note":   "Check KAYEN API gamified field. Apply standard signal chain if not confirmed.",
+                }
+            ),
         },
         "composite_signal": {
             "sms":              sms,
