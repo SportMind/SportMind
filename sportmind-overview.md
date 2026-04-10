@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.42 — LunarCrush social intelligence connector
+platform/social-intelligence-connector.md: LunarCrushConnector class added —
+Galaxy Score, AltRank, influencer IDs, topic scores, athlete profiles, portfolio
+snapshot. Galaxy Score → commercial modifier table. Non-token sport use cases.
+Connector selection guide (LunarCrush vs X API). data-sources.md updated.
+
 ### ✅ v3.41 — Quickstart, templates, WHO-USES-THIS decision tree
 QUICKSTART.md: three commands to running, 60-second read.
 templates/: fan-token-monitor.py, portfolio-monitor.py, pre-match-signal.py —

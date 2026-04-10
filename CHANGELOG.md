@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.42.0] — 2026-04-10
+
+### Added
+- `platform/social-intelligence-connector.md` — LunarCrush connector section added
+  - LunarCrushConnector Python class with four methods:
+    get_token_galaxy_score() — Galaxy Score, AltRank, sentiment, social volume
+    get_token_influencers() — top influencers with KOL tier estimate
+    get_topic_social_score() — social health for sports without fan tokens
+    get_athlete_social_profile() — cross-platform athlete social metrics for AELS
+    get_portfolio_social_snapshot() — ranked Galaxy Score across multiple tokens
+  - Fan token slug mapping for all available registry tokens
+  - Galaxy Score → HAS signal → commercial modifier table
+  - AltRank direction signal (rising vs falling mindshare)
+  - Non-fan-token sport use cases (MMA, F1, golf, esports, boxing)
+  - Connector selection guide: LunarCrush vs X API decision matrix
+
+### Changed
+- `core/data-sources.md` — social intelligence section updated
+  LunarCrush added as PRIMARY for fan token social intelligence
+  Galaxy Score, AltRank, influencer data, topic scores, athlete profiles documented
+  Closes the gap: 8 sport domain files already reference LunarCrush as a signal
+  source — now there is a formal data source entry and working connector
+
+### Notes
+- LunarCrush complements X API connector — not a replacement
+  X API: real-time narrative, journalist monitoring, breaking news
+  LunarCrush: composite scores, cross-platform aggregation, influencer IDs
+- Free tier available at lunarcrush.com — sufficient for development
+- Fan token slugs must be verified at lunarcrush.com/coins before production use
+  (slugs can change when LunarCrush updates their asset database)
+- Galaxy Score modifier is applied AFTER macro and DSM — social is an amplifier,
+  never a gate, never overrides ABSTAIN
+
 ## [3.41.0] — 2026-04-10
 
 ### Added

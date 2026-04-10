@@ -318,11 +318,24 @@ Validator monitoring:
 
 ### Social intelligence (athlete and club)
 ```
-Twitter/X API — follower counts, engagement rates, mention volume
+LunarCrush (lunarcrush.com) — PRIMARY for fan token social intelligence
+  Galaxy Score: composite social health metric (0-100) for crypto assets
+  AltRank: relative social mindshare vs full crypto market
+  Influencer data: scored influencer list per asset
+  Topic scores: social health for sports topics without dedicated tokens
+  Athlete profiles: cross-platform social metrics for AELS calculation
+  API: lunarcrush.com/developers/api/authentication
+  Coverage: all SportMind fan token registry tokens + sport topics
+  See: platform/social-intelligence-connector.md (LunarCrush connector)
+
+Twitter/X API — real-time narrative and journalist monitoring
+  Follower counts, engagement rates, mention volume
+  Breaking news velocity, transfer rumour tracking
+  See: platform/social-intelligence-connector.md (X API connector)
+
 Instagram Graph API — follower growth, post engagement
 TikTok Research API — video performance, follower growth
 YouTube Data API — subscriber counts, view counts
-Brandwatch / Meltwater — sentiment analysis, social listening
 SocialBlade (socialblade.com) — growth tracking for YouTube, Twitter
 ```
 
