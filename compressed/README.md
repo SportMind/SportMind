@@ -867,4 +867,319 @@ US_MARKET_ENTRY_SIGNAL: Tier 1 macro event when first US token launches
 ~210 tokens → full file ~4,200 tokens
 
 
+---
+
+## [COMPRESSED] Sequential thinking integration
+
+**When to use:** Any agent running the five-phase SportMind chain. Load at
+agent initialisation alongside sportmind_pre_match tool.
+
+```
+5 PHASES: (1)macro_gate → (2)pre_match_signal → (3)disciplinary_check
+          → (4)fan_token_context → (5)signal_synthesis
+STOP CONDITIONS: Phase 1: modifier<0.75→WAIT_MACRO_OVERRIDE
+                 Phase 3: LEGAL_PROCEEDINGS_ACTIVE→ABSTAIN
+                          COMMERCIAL_RISK_ACTIVE→reduce signal, continue
+ENTER CONDITIONS (ALL): macro≥0.75 + SMS≥60 + no commercial flags + lifecycle Phase 2-3
+WAIT CONDITIONS (ANY): SMS 40-59 | CITING_ACTIVE | lineup unconfirmed | Phase 4
+PORTFOLIO RULE: Each token analysis is independent — WAIT on PSG does not flag BAR
+FAILURE ANALYSIS: Phase→Value→Timeline→Monitor condition→Re-analysis trigger
+```
+~180 tokens → full file: platform/sequential-thinking-integration.md
+
+---
+
+## [COMPRESSED] Memory integration
+
+**When to use:** Multi-session agents, portfolio monitoring, pattern detection.
+Load at session start to retrieve prior state.
+
+```
+4 SCHEMAS: token_memory{signal_history, dsm_history, lifecycle, upcoming_events}
+           macro_memory{modifier_history, phase_transitions}
+           player_disciplinary{repeat_offender, resolution_timeline}
+           portfolio_summary{all_recommendations, active_flags}
+SESSION START: retrieve portfolio_summary → macro_state → per-token records → surface changes
+SESSION END: update signal_history + dsm_history + consecutive_signals + upcoming_events
+4 PATTERNS: (1)macro_recovery_detection (2)repeat_disciplinary_signal
+            (3)consecutive_WAIT_detection (4)pre_event_preparation
+DECAY: Clear on resolution | Archive >6mo | NEVER delete repeat_offence_history
+```
+~180 tokens → full file: platform/memory-integration.md
+
+---
+
+## [COMPRESSED] Fetch MCP disciplinary
+
+**When to use:** Phase 3 of sequential chain. After sportmind_disciplinary
+returns regulatory source URL — fetch it to verify current status.
+
+```
+SOURCES BY SPORT:
+  Football:  thefa.com/football-rules-governance/disciplinary + UEFA.com/insideuefa/disciplinary
+  Rugby:     world.rugby/the-game/judicial-decisions (PDF list, search player name)
+  F1:        fia.com/documents/decisions (PDFs indexed; racefans.net for points tracker)
+  MMA:       usada.org/testing/results/sanctions + ufc.com/news
+  Cricket:   icc-cricket.com/about/cricket/rules-and-regulations/code-of-conduct
+  NHL:       nhl.com/news/department-player-safety
+WORKFLOW: sportmind_disciplinary → sportmind_verifiable_source → fetch(URL) → apply DSM → memory
+ERRORS: unavailable→DSM_MODERATE precautionary | not found→NOT_FOUND_IN_DECISIONS flag
+RULE: Fetch follows sportmind_verifiable_source. Does not explore freely.
+```
+~200 tokens → full file: platform/fetch-mcp-disciplinary.md
+
+---
+
+## [COMPRESSED] Chiliz Chain address intelligence
+
+**When to use:** Fan token Tier 1 analysis. Before generating commercial signal —
+check on-chain concentration and velocity via chiliscan API.
+
+```
+6 SIGNALS:
+  (S1) Concentration: top-10 hold >70%=EXTREME(×0.80) >50%=HIGH(×0.90) >30%=MODERATE <30%=LOW(×1.05)
+  (S2) Smart wallet: accumulation ×1.08-1.15 | distribution ×0.80-0.88 | consensus(3+) max multiplier
+  (S3) Holder trend: +5%/7d=strong organic | -5%/7d=significant decline flag
+  (S4) Velocity: >3×baseline=SPIKE(investigate) | <0.7×=QUIET
+  (S5) Acquisition: >500 new wallets/week=HIGH | near zero=Phase 5/6 signal
+  (S6) DSM calibration: measure holder_exit_rate post-disciplinary → calibrate DSM values
+MODIFIER ORDER: macro × DSM × concentration × velocity = final
+API: chiliscan.com Etherscan-compatible, no key required for basic queries
+```
+~200 tokens → full file: platform/chiliz-chain-address-intelligence.md
+
+---
+
+## [COMPRESSED] Social intelligence connector
+
+**When to use:** KOL activity detected pre-match; sentiment snapshot needed;
+AELS calculation for athlete. Choose X API or LunarCrush per scenario.
+
+```
+X API (real-time narrative):
+  search_recent(query) → post volume + engagement scoring
+  get_token_mindshare(ticker) → mention_count + mindshare_tier (VIRAL/HIGH/MODERATE/LOW/MINIMAL)
+  get_ecosystem_sentiment() → top tokens by mention + ecosystem_tweet_count
+  get_mindshare_trend(ticker, [1,7,30]) → trend_direction (ACCELERATING/GROWING/STABLE/DECLINING)
+
+LUNARCRUSH (composite scores):
+  get_token_galaxy_score(ticker) → Galaxy Score(0-100) + AltRank + social_volume_24h
+  get_token_influencers(ticker) → ranked influencer list with KOL tier estimate
+  get_topic_social_score(topic) → social health for sports without fan tokens (MMA/F1/golf)
+  get_athlete_social_profile(id, network) → engagement_rate → AELS tier
+
+GALAXY SCORE MODIFIER: ≥70=×1.08 | 50-69=×1.03 | 30-49=×0.97 | <30=×0.90 + Phase4 flag
+RULE: Social modifier applied AFTER macro + DSM. Never overrides ABSTAIN.
+```
+~220 tokens → full file: platform/social-intelligence-connector.md
+
+---
+
+## [COMPRESSED] API providers guide
+
+**When to use:** Connecting live data to a SportMind agent. Quick provider selection
+before building connectors. Developer onboarding.
+
+```
+QUICKEST PATH (football, <1hr to signal):
+  API-Football: dashboard.api-football.com → 100 req/day free → lineups + stats + standings
+
+MULTI-SPORT (API-Sports suite, one account):
+  football / basketball / baseball / rugby / cricket / handball
+  URL pattern: https://v1.{sport}.api-sports.io/{endpoint}
+
+FREE NO-KEY SOURCES:
+  Jolpica F1: api.jolpi.ca/ergast/ → qualifying delta + results (unlimited)
+  Open-Meteo: api.open-meteo.com → weather all sports (unlimited)
+  balldontlie: balldontlie.io → NBA (60 req/min)
+
+EXISTING TEMPLATES (data-connector-templates.md):
+  football-data.org lineups | KAYEN fan tokens | CoinGecko macro state
+
+END-TO-END FLOW: PSG vs Arsenal UCL QF → 8 phases in platform/api-providers.md
+```
+~180 tokens → full file: platform/api-providers.md
+
+---
+
+## [COMPRESSED] World Cup 2026 intelligence
+
+**When to use:** Any national team token or club token NCSI during WC2026.
+Time-sensitive: tournament June 11 – July 19, 2026.
+
+```
+NCSI AMPLIFIER: ×3.5-4.0 (vs ×1.00 standard, ×2.0-2.5 Euros/Copa)
+WHY HIGHER: US timezone + 48-team format + mature token ecosystem + regulatory clarity
+
+SIGNAL BY ROUND: Group win +3-8% | R32 ×1.4 | R16 ×1.6 | QF ×1.9 | SF ×2.2 | Final ×4+
+WINNER: national +25-60% | club star performer +12-22% | squad player +3-7%
+HOST SIGNALS: USA ×1.30 | Mexico ×1.35 | $CHVS local match ×1.15
+$ARG SPECIAL: defending champion + possible Messi final WC → narrative ×1.25 floor
+
+WC CDI (not standard): Group stage=4d | KO advancement=8d | Winner=45d
+HARD RULES: Never ENTER national token within 4h of elimination result
+            Macro modifier applies regardless of tournament excitement
+OVERLAP: July 1-19 = transfer window open + WC knockouts → dual signal architecture
+```
+~210 tokens → full file: fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md
+
+---
+
+## [COMPRESSED] Transfer window intelligence
+
+**When to use:** During active transfer windows (summer Jul 1–Sep 1, Jan 1–Feb 1).
+Load alongside football-token-intelligence/ for window-aware signal generation.
+
+```
+5 SUMMER PHASES: A=pre-window(+0-5%) B=early(+3-8%) C=peak-speculation(+5-12%)
+                 D=deadline-day(WAIT 6h before close; ±15-20% volatility)
+                 E=post-window(certainty premium +2-5%)
+JANUARY: 60% of summer modifiers. Distress buying (3+ signings) = concern flag -2-4%.
+
+4 CROSS-TOKEN CONTAGION TYPES:
+  (1) Selling club -6-15% / buying club +4-12%
+  (2) Competitor strengthening -1-3% indirect
+  (3) Market valuation benchmark → APS recalibration
+  (4) League-wide narrative: 3+ major signings same week → all active tokens +1-3% for 48h
+
+LIFECYCLE INTERACTION: Phase 3 + strong window = sustained HAS
+                       Phase 4 + window = temporary reversal, faster decay (CDI×0.50)
+SOURCE TIERS: Romano "here we go"=Tier 1 | Athletic/Sky Sports=Tier 2 | tabloid=Tier 3(0.3×)
+WC2026 OVERLAP (Jul 1-19): apply BOTH NCSI signal AND transfer speculation (cap: 1.25× either alone)
+```
+~210 tokens → full file: fan-token/transfer-window-intelligence/transfer-window-intelligence.md
+
+---
+
+## [COMPRESSED] Media intelligence
+
+**When to use:** Any signal that depends on press conference availability statements,
+transfer reports, or news velocity affecting CDI. Load alongside breaking-news-intelligence.
+
+```
+3 SIGNAL TYPES:
+  TYPE 1 Breaking news: hard facts pre-official → Tier 2 confidence; verify Tier 1 ASAP
+  TYPE 2 Directional: "manager plans rotation" → directional modifier only; 0.7× confidence
+  TYPE 3 Narrative: coverage volume → CDI extension (feeds narrative-momentum.md)
+
+JOURNALIST TIERS (football):
+  TIER 1: Romano "here we go" = confirmed | official club/league sources
+  TIER 2: The Athletic | L'Équipe | Marca/AS | Gazzetta | ESPN FC | Sport Bild (0.7× weight)
+  TIER 3: UK tabloids | unverified social → monitoring flag only (0.3× weight)
+
+PRESS CONF AVAILABILITY DECODER:
+  "Fully fit" → CONFIRMED | "In contention" → PROBABLE(×0.95) | "Day by day" → DOUBTFUL(×0.80)
+  "Had a knock" → DOUBT(×0.70) | "Long-term" → OUT extended | No mention → investigate
+
+VELOCITY × CDI: VIRAL(>20 art/day 3+days) → CDI×1.40 | HIGH → ×1.20 | LOW → ×0.75
+SATURATION: >3 weeks same narrative → reduce to ×1.00 (priced in)
+```
+~220 tokens → full file: core/media-intelligence.md
+
+---
+
+## Updated compressed skill index
+
+| Compressed skill | Full skill location | Approx tokens |
+|---|---|---|
+| Sequential thinking | `platform/sequential-thinking-integration.md` | 180 |
+| Memory integration | `platform/memory-integration.md` | 180 |
+| Fetch MCP disciplinary | `platform/fetch-mcp-disciplinary.md` | 200 |
+| Address intelligence | `platform/chiliz-chain-address-intelligence.md` | 200 |
+| Social connector | `platform/social-intelligence-connector.md` | 220 |
+| API providers | `platform/api-providers.md` | 180 |
+| World Cup 2026 | `fan-token/world-cup-2026-intelligence/` | 210 |
+| Transfer window | `fan-token/transfer-window-intelligence/` | 210 |
+| Media intelligence | `core/media-intelligence.md` | 220 |
+
+
+---
+
+## [COMPRESSED] Post-match signal framework
+
+**When to use:** Within 4h of any match result involving a held fan token.
+Governs the commercial signal window after a result is confirmed.
+
+```
+TIME WINDOWS:
+  T+0 to T+2h: confirmation only — do NOT generate commercial signal (price discovery)
+  T+2h to T+24h: primary commercial signal generation window
+  T+24h: CDI confirmation — is elevation sustained or mean-reverting?
+  T+72h: decay assessment — update CDI estimate vs actual
+
+RESULT MODIFIERS:
+  Expected win:     standard CDI | Galaxy Score +8-15pts | ENTER T+2h
+  Unexpected win:   CDI ×1.3-1.5 | Galaxy Score +15-25pts | ENTER T+2h (strongest signal)
+  Expected loss:    negative CDI | WAIT T+24h minimum before reassessing
+  Unexpected loss:  ABSTAIN | mandatory checklist | calibration record required
+  Dominant win(5-0+): dominant_win_multiplier ×1.20-1.35 | NCSI amplification ×1.15-1.25
+
+POST-MATCH NCSI: confirm ATM player performance tier → apply competition amplifier → club token impact
+CALIBRATION: every match = opportunity. Wrong predictions = most valuable records.
+SEQUENCE: verify result(Tier 1) → wait T+2h → macro check → sentiment_snapshot → result modifier → CDI clock
+```
+~200 tokens → full file: core/post-match-signal-framework.md
+
+---
+
+## [COMPRESSED] Prediction market intelligence
+
+**When to use:** Any pre-match analysis for sports with Azuro/Betfair coverage.
+Confirming or contradicting SportMind signal with market consensus.
+
+```
+DIVERGENCE FRAMEWORK:
+  SportMind implied prob = adjusted_score / 100
+  Market implied prob = 1 / decimal_odds
+
+  <10% divergence: ALIGNMENT — full conviction, no adjustment
+  10-20% divergence: INVESTIGATE — check lineup/injury/weather/breaking news
+  >20% divergence: HIGH CONVICTION or MISSING INFO — mandatory 4-check protocol
+  Direction contradiction (>30%): ENTER at 50% sizing only; all checks must pass
+
+POOL DEPTH (market quality):
+  >$500k TVL: INSTITUTIONAL — full weight
+  $50k-$500k: RETAIL — 0.85× weight
+  $5k-$50k: THIN — directional only, 0.5× weight
+  <$5k: NEGLIGIBLE — ignore
+
+AZURO: primary crypto prediction market (EVM, Chiliz-compatible)
+BETFAIR: highest quality signal for football (sharpest peer-to-peer market)
+GAMIFIED TOKENOMICS INTERACTION: prediction market → match outcome probability
+                                 fan token signal → commercial sentiment (different signal)
+RULE: prediction markets do NOT replace fan token commercial signal framework.
+      They confirm/contradict pre-match match outcome probability only.
+```
+~210 tokens → full file: core/prediction-market-intelligence.md
+
+---
+
+## [COMPRESSED] Verifiable ML roadmap
+
+**When to use:** Evaluating SportMind's long-term trust architecture.
+Building on-chain applications requiring signal provenance. v4.0 planning.
+
+```
+CURRENT (v3.x): rules-based framework — social trust (calibration records public)
+TARGET (v4.0+): trained model + ZK proofs — cryptographic trust
+
+PATH:
+  STEP 1: Train SportMind signal model (needs 500+ calibration records; current: 126)
+  STEP 2: EZKL framework — converts ONNX → ZK circuit, EVM/Chiliz-compatible
+  STEP 3: Proof generation → commitment on-chain → permissionless verification
+  STEP 4: Chiliz Chain signal registry contract → queryable by Azuro/DeFi protocols
+
+CRITICAL DEPENDENCY: 500+ calibration records (current: 126)
+  Every v3.x record = training data for v4.x model
+  Community calibration drive is the critical path item
+
+TIMELINE: v4.0 target 2027 (conditional on calibration record milestone)
+BENCHMARK: trained model must match/exceed current 96% direction accuracy
+
+WHY IT MATTERS: verifiable provenance → on-chain signal markets → DeFi collateral
+               → RWA/Phase 5 applications → signal quality commands price premium
+```
+~170 tokens → full file: platform/verifiable-ml-roadmap.md
+
+
 *MIT License · SportMind · sportmind.dev*

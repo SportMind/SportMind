@@ -1,5 +1,46 @@
 # Changelog
 
+## [3.43.0] — 2026-04-10
+
+### Added
+- `core/post-match-signal-framework.md` — structured post-match agent workflow
+  Time windows: T+0-2h (confirmation only), T+2-24h (commercial signal), T+24h
+  (CDI confirmation), T+72h (decay assessment). Result-type commercial modifiers
+  for expected/unexpected win/loss/draw. Post-match NCSI calculation workflow.
+  Post-match calibration record generation protocol. Ten-step agent sequence.
+
+- `core/prediction-market-intelligence.md` — prediction market as signal input
+  Divergence analysis framework: <10% alignment, 10-20% investigate, >20%
+  high-conviction or missing info, >30% direction contradiction. Pool depth
+  quality tiers (>$500k institutional through <$5k negligible). Azuro
+  primary integration, Betfair as football sharp market reference. Gamified
+  tokenomics interaction: prediction market odds ≠ fan token commercial signal.
+
+- `platform/verifiable-ml-roadmap.md` — ZK-verified inference future trajectory
+  What verifiable ML means for SportMind trust model. Technical path: trained
+  model → EZKL ZK framework → Chiliz Chain signal registry. Critical dependency:
+  500+ calibration records (current: 126). Timeline: v4.0 target 2027.
+  Why community calibration records are training data for the future model.
+
+- `compressed/README.md` — nine new compressed skills added (v3.41-v3.43 platform
+  and core capabilities): sequential thinking, memory, fetch MCP, address
+  intelligence, social connector, API providers, World Cup 2026, transfer
+  window, media intelligence. Plus three new additions: post-match framework,
+  prediction market intelligence, verifiable ML roadmap.
+  Total compressed skills: 66
+
+### Notes
+- Post-match framework fills the largest workflow gap in SportMind: all skills
+  were pre-match focused; post-match is when fan token movements are most
+  predictable and most measurable
+- Prediction market intelligence is explicitly framed as confirming/contradicting
+  pre-match signal — NOT as a replacement for fan token commercial signal framework
+- Verifiable ML is a planning document: v4.0 target, conditional on calibration
+  records. Every community record submitted under v3.x is training data for v4.x.
+- Compressed skills now cover all major v3.30-v3.43 capabilities — agents running
+  portfolio monitoring can load all 66 compressed skills in ~14,000 tokens vs
+  200,000+ tokens for the full library
+
 ## [3.42.0] — 2026-04-10
 
 ### Added

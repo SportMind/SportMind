@@ -2017,6 +2017,13 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.43 — Post-match framework, prediction market intelligence, verifiable ML, compressed skills
+core/post-match-signal-framework.md: four time windows, result-type modifiers,
+NCSI calculation, calibration protocol. core/prediction-market-intelligence.md:
+divergence framework, pool depth quality, Azuro/Betfair integration.
+platform/verifiable-ml-roadmap.md: EZKL ZK path, 500 record dependency, v4.0 target.
+compressed/README.md: 66 total compressed skills, all v3.30-v3.43 coverage.
+
 ### ✅ v3.42 — LunarCrush social intelligence connector
 platform/social-intelligence-connector.md: LunarCrushConnector class added —
 Galaxy Score, AltRank, influencer IDs, topic scores, athlete profiles, portfolio
