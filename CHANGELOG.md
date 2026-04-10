@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.40.0] — 2026-04-10
+
+### Added
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md`
+  FIFA World Cup 2026 fan token intelligence module. Tournament signal calendar
+  (pre-tournament through final), NCSI amplification at ×3.5–4.0x, host nation
+  commercial signals (USA/Mexico), token-by-token exposure map, agent reasoning
+  protocol across four tournament phases, World Cup CDI values, hard rules.
+  Time-sensitive: tournament runs June 11 – July 19, 2026.
+
+- `fan-token/transfer-window-intelligence/transfer-window-intelligence.md`
+  Transfer window calendar intelligence — the window as a structural market condition.
+  Summer and January window phases (A through E), deadline day protocol (WAIT 6h
+  before deadline), cross-token contagion (four types), lifecycle phase interaction,
+  World Cup 2026 window overlap (July 1–19 dual signal), verifiable source tiers
+  for transfer reporting.
+
+- `core/media-intelligence.md`
+  Media and journalism intelligence framework. Journalist authority tiers for football
+  (Fabrizio Romano Tier 1 through tabloid Tier 3) and six other sports. Press conference
+  availability language decoder. News velocity as sentiment signal (thresholds and CDI
+  interaction). Coverage duration and CDI multipliers. Integration with the five-phase
+  sequential reasoning chain.
+
+- `agent-prompts/agent-prompts.md` — three new prompts added (17, 18, 19):
+  Prompt 17: Four-server MCP stack agent (production deployment)
+  Prompt 18: Fan token portfolio monitoring agent (multi-token daily review)
+  Prompt 19: World Cup 2026 tournament agent (national token + NCSI focus)
+  Total: 19 production-ready system prompts
+
+### Notes
+- World Cup 2026 intelligence is time-sensitive — tournament starts June 11, 2026
+- Transfer window intelligence is distinct from fan-token/transfer-intelligence/
+  (individual transfers) — covers the window itself as a recurring market condition
+- Media intelligence fills the gap between verifiable-sources (confirmed facts) and
+  social-intelligence-connector (volume) — the middle layer of structured journalism
+- Agent prompts 17-19 cover the three most common production deployment patterns
+  not previously addressed: four-server stack, portfolio monitoring, tournament mode
+
 ## [3.39.0] — 2026-04-09
 
 ### Added

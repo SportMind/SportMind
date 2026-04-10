@@ -2017,6 +2017,15 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.40 — World Cup 2026, transfer window, media intelligence, agent prompts
+fan-token/world-cup-2026-intelligence/: NCSI x3.5-4.0, tournament signal calendar,
+host nation signals, token exposure map, four-phase agent protocol.
+fan-token/transfer-window-intelligence/: window as market condition, deadline day
+protocol, cross-token contagion, World Cup overlap.
+core/media-intelligence.md: journalist authority tiers, press conference decoder,
+news velocity CDI interaction.
+agent-prompts: three new prompts (four-server MCP, portfolio monitoring, WC2026).
+
 ### ✅ v3.39 — Interactive demo page
 demo.html: six scenarios (pre_match, macro, fan_token_lookup, disciplinary,
 sentiment_snapshot, sequential chain), progressive typing animation, JSON
