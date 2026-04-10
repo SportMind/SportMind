@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.34)
+## What the library contains (v3.45)
 
-**465 files.** 34 version cycles since v3.0.
+**481 files.** 49 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -48,7 +48,7 @@ becomes part of every agent that loads it.
   Individual performance models; form; availability; sport-specific modifier (0.55-1.25×);
   venue and conditions intelligence; championship vs circuit reliability
   
-- **Layer 3 — Fan token commercial (36+ skills):**
+- **Layer 3 — Fan token commercial (40 skills):**
   Fan token lifecycle (Phase 1-5e); HAS, FTIS, NCSI, ATM, APS, AELS, CDI, FLS, KIS, RSF
   and 16 other named metrics; DeFi liquidity intelligence; RWA/SportFi framework; governance
   intelligence; KOL influence model; on-chain event intelligence; fan sentiment CDI model
@@ -61,11 +61,11 @@ becomes part of every agent that loads it.
   Crypto market cycles; geopolitical risk; pandemic and public health; economic recession;
   regulatory frameworks (MiCA, VDA, CFTC)
 
-**Core framework (28 files):** Reasoning patterns; autonomous agent framework; goal framework;
+**Core framework (35 files):** Reasoning patterns; autonomous agent framework; goal framework;
 breaking news protocols; modifier recalibration reports; calibration framework; confidence output
 schema; temporal awareness; context window management; security model; purpose and context
 
-**Platform layer (17 files):** MCP server (5 tools); MCP deployment guide; Skills API;
+**Platform layer (21 files):** MCP server (10 tools); MCP deployment guide; Skills API;
 skill bundles (14 named); data connector templates; Chiliz Agent Kit integration; freshness
 strategy; real-time integration patterns
 
@@ -77,13 +77,13 @@ community leaderboard
 8 agentic workflow patterns; 16 agent prompts organised by stakeholder type; 47 compressed
 skill summaries; 5 CI/CD GitHub Actions workflows
 
-**International reach:** 23 i18n skill files across 7 languages (AR, DE, ES, FR, HI, JA, PT)
+**International reach:** 24 i18n skill files across 7 languages (AR, DE, ES, FR, HI, JA, PT)
 
 ---
 
 ## The calibration foundation
 
-110 outcome records. 96% correct direction predictions across 21 sports.
+126 outcome records. 96% correct direction predictions across 21 sports.
 All 5 wrong predictions are European football draws (zero new wrong records in last 46) — fully documented with root-cause
 analysis and protocol responses in `core/modifier-recalibration-v5.md`.
 
@@ -198,7 +198,7 @@ That requires three things working together: the quality of the framework (the l
 itself), the breadth of the calibration (community records), and the depth of the
 application ecosystem (developers building on top).
 
-v3.34 has delivered a complete intelligence framework. Future versions focus on calibration growth, community expansion, and World Cup 2026 intelligence.
+v3.45 has delivered a complete intelligence framework including Fan Token Play (Path 1/2), CHZ virtuous cycle intelligence, developer toolkit (templates, 20 agent prompts, 8 workflow patterns). World Cup 2026 module live.
 breadth and application ecosystem depth. Neither of those happens without the community.
 
 ---

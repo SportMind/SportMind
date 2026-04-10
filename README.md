@@ -74,7 +74,7 @@ python examples/starter-pack/01-simple-signal.py
 |---|---|---|
 | **1 — Sport domain** | `sports/` (42 sports) | How each sport works; event playbooks; risk variables |
 | **2 — Athlete intelligence** | `athlete/` (29 sports) | Who is playing; form; composite modifier (0.55-1.25×) |
-| **3 — Fan token commercial** | `fan-token/` (36 skills) | On-chain signals; lifecycle; DeFi; governance |
+| **3 — Fan token commercial** | `fan-token/` (40 skills) | On-chain signals; lifecycle; DeFi; governance |
 | **4 — Market intelligence** | `market/` (42 docs) | Commercial tier; fanbase; competition calendar |
 | **5 — Macro intelligence** | `macro/` (8 docs) | Crypto cycles; geopolitical; recession |
 
@@ -88,14 +88,14 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-42 sport domains · 29 athlete intelligence skills · 36 fan token skills
+42 sport domains · 29 athlete intelligence skills · 40 fan token skills
 42 market documents · 25 core frameworks · 7 agentic workflow patterns
 11 application blueprints · 7 starter pack examples · 47 compressed summaries
-16 agent prompts · 8 language i18n · 126 calibration records (96% accuracy)
+20 agent prompts · 8 agentic workflow patterns · 126 calibration records (96% accuracy)
 6 recalibration reports · 26 named metrics (HAS, NCSI, ATM, FLS, KIS, CDI...)
 ```
 
-**Empirically validated:** 100 real match outcomes across 19 sports. 95% correct direction.
+**Empirically validated:** 126 real match outcomes across 21 sports. 96% correct direction.
 All 5 wrong predictions are European football draws — documented with root-cause analysis.
 See `core/modifier-recalibration-v6.md`.
 

@@ -261,7 +261,7 @@ Both can run simultaneously.
 
 ---
 
-## New tools (v3.34)
+## New tools (added v3.34)
 
 ### `sportmind_pre_match`
 Orchestrated full pre-match reasoning package in one call. Combines sport

@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.45.1] — 2026-04-10
+
+### Fixed
+- `scripts/sportmind_mcp.py` — VERSION constant updated 3.34.0 → 3.45.0
+  (had been frozen at the version when the MCP server was first built)
+- `demo.html` — all scenario sportmind_version strings updated to 3.45.0
+  (three scenarios still showed 3.39.0, three showed 3.43.0)
+- `docs.html` — sportmind_version string in output example updated to 3.45.0
+- `README.md` — fan token skills 36→40, agent prompts 16→20, calibration
+  stats 100/95%/19 sports → 126/96%/21 sports
+- `WHO-WE-ARE.md` — eight stale figures corrected: version heading v3.34→v3.45,
+  file count 465→481, version cycles 34→49, Layer 3 36+→40, core files 28→35,
+  platform files 17→21, MCP tools 5→10, i18n files 23→24, outcomes 110→126,
+  end-matter future roadmap updated to reflect completed work
+- `docs.html` — Layer 3 count corrected 57→40; Fan Token Play named explicitly
+  in Layer 3 description (was "gamified tokenomics" only)
+- `platform/sportmind-mcp-server.md` — version reference v3.34 → v3.45
+- `GOOD_FIRST_ISSUES.md` — broken reference to non-existent
+  scripts/validate_calibration_record.py replaced with correct path
+  community/calibration-data/CONTRIBUTING.md
+
 ## [3.45.0] — 2026-04-10
 
 ### Added

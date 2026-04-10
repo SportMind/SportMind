@@ -155,7 +155,7 @@ official result from a public sports API.
 
 **Data sources:** football-data.org (football) · ESPN API (NBA/NFL/NHL) · Cricinfo (cricket)
 
-**Output:** `scripts/validate_calibration_record.py`
+**Output:** `community/calibration-data/CONTRIBUTING.md`
 
 **Label:** `tooling`
 
