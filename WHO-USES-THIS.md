@@ -8,6 +8,35 @@ until you are confident in your starting point.
 
 ---
 
+## 30-second decision tree
+
+```
+What do you want to do?
+│
+├── Run a signal RIGHT NOW (copy + paste + go)
+│     └── QUICKSTART.md  →  templates/pre-match-signal.py
+│
+├── Monitor a fan token (ongoing)
+│     └── templates/fan-token-monitor.py
+│
+├── Monitor a portfolio of tokens
+│     └── templates/portfolio-monitor.py
+│
+├── Build something more custom
+│     ├── App developer    → examples/starter-pack/README.md
+│     ├── Agent builder    → examples/agentic-workflows/README.md
+│     ├── Claude Desktop   → MCP-SERVER.md
+│     └── Any LLM          → agent-prompts/agent-prompts.md (19 prompts)
+│
+├── Understand what SportMind is first
+│     └── WHO-WE-ARE.md  →  sportmind.dev/docs
+│
+└── Contribute a calibration record
+      └── FIRST-RECORD-CHALLENGE.md
+```
+
+---
+
 ## Who are you?
 
 ---
@@ -145,18 +174,18 @@ what the evidence base looks like, and whether the library's claims are credible
 **Your goal:** See a real output before committing to anything.
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/sportmind/sportmind.git
-cd sportmind
+# 1. Clone and install
+git clone https://github.com/SportMind/SportMind
+cd SportMind
+pip install aiohttp mcp
 
-# 2. Install requirements
-pip install aiohttp --break-system-packages
+# 2. Start the MCP server
+python scripts/sportmind_mcp.py --http --port 3001
 
-# 3. Start the local API
-python scripts/sportmind_api.py
-
-# 4. In another terminal — your first signal
-python examples/starter-pack/01-simple-signal.py
+# 3. Copy a template and run it
+cp templates/pre-match-signal.py my-signal.py
+python my-signal.py
+# → Edit SPORT, HOME_TEAM, AWAY_TEAM at the top of the file
 ```
 
 If you do not want to run anything locally, paste the contents of
@@ -175,12 +204,12 @@ You will see SportMind working immediately.
 
 | You are | Start with | Skip |
 |---|---|---|
-| App developer | starter-pack + skill-bundles | WHO-WE-ARE, sport domains, calibration |
+| App developer | **templates/** + starter-pack | WHO-WE-ARE, sport domains, calibration |
 | Agent builder | purpose-and-context + agent-framework | Individual sport files (use bundles) |
 | Analyst / commercial | WHO-WE-ARE + agent-prompts | Platform layer, scripts |
 | Researcher | calibration-framework + recalibration reports | Agentic workflows, i18n |
 | Contributor | FIRST-RECORD-CHALLENGE + CONTRIBUTING | Everything else until first record |
-| Just curious | 5-minute quickstart above | Everything |
+| Just curious | **QUICKSTART.md** → templates/ | Everything |
 
 ---
 

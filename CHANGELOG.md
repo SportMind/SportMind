@@ -1,5 +1,42 @@
 # Changelog
 
+## [3.41.0] — 2026-04-10
+
+### Added
+- `QUICKSTART.md` — repo root entry point, under 50 lines
+  Three commands to a running signal. Copy-paste setup for MCP server
+  and templates. "What you will see" output example. Navigation table
+  to every next step. Designed to be read in 60 seconds.
+
+- `templates/fan-token-monitor.py` — single fan token monitor template
+  Copy, set TOKEN + SPORT + KEY_PLAYERS, run. Five-phase pipeline:
+  macro gate → token registry → sentiment snapshot → disciplinary check
+  → final recommendation. All 24 registry tickers documented in config.
+  Clean terminal output with contract address and verification links.
+
+- `templates/portfolio-monitor.py` — multi-token portfolio review template
+  Copy, edit PORTFOLIO list, run. One macro check for all tokens, then
+  sentiment snapshot per token. Ranked output: ENTER / WAIT / ABSTAIN.
+  Efficiency rule: full chain only for ENTER candidates.
+
+- `templates/pre-match-signal.py` — one-shot pre-match signal template
+  Copy, set SPORT + HOME_TEAM + AWAY_TEAM + COMPETITION + KICKOFF, run.
+  Full five-phase chain. Optional token lookup. Reasoning sequence output.
+  No configuration beyond match details required.
+
+### Changed
+- `WHO-USES-THIS.md` — decision tree added at top
+  30-second decision tree routes new developers to the right file in
+  one read. Templates referenced throughout. Quick reference card updated.
+  Five-minute quickstart updated to use MCP server + templates workflow.
+
+### Notes
+- Templates are intentionally distinct from examples/starter-pack/:
+  examples = learn from; templates = copy and deploy
+- All three templates work with the MCP server at localhost:3001
+- Configuration is always at the top of each file, clearly marked
+- No new dependencies beyond what starter-pack already requires
+
 ## [3.40.0] — 2026-04-10
 
 ### Added

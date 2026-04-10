@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.41 — Quickstart, templates, WHO-USES-THIS decision tree
+QUICKSTART.md: three commands to running, 60-second read.
+templates/: fan-token-monitor.py, portfolio-monitor.py, pre-match-signal.py —
+copy-paste deployment templates with configuration at top.
+WHO-USES-THIS.md: 30-second decision tree added, templates referenced.
+
 ### ✅ v3.40 — World Cup 2026, transfer window, media intelligence, agent prompts
 fan-token/world-cup-2026-intelligence/: NCSI x3.5-4.0, tournament signal calendar,
 host nation signals, token exposure map, four-phase agent protocol.
