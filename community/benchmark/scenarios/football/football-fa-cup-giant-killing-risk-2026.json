@@ -1,0 +1,43 @@
+{
+  "scenario_id": "football-fa-cup-giant-killing-risk-2026",
+  "sport": "football",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "FA Cup Round 5 \u2014 Arsenal vs Manchester City (2026)",
+    "date": "2026-03-01",
+    "competition": "FA Cup Round 5",
+    "venue": "Emirates Stadium, London"
+  },
+  "context": {
+    "home_team": "Arsenal",
+    "away_team": "Manchester City",
+    "pre_match_notes": "FA Cup R5. Arsenal home. City squad rotation expected \u2014 manager confirmed in press conference that 4 first-choice starters rested for upcoming UCL leg. Arsenal full strength, league position requires FA Cup progress for European qualification next season. Congestion modifier applicable to City."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "core/core-fixture-congestion.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. How does squad rotation affect the signal for the stronger team?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "2-0",
+    "source_url": "https://www.thefa.com/competitions/fa-cup/results",
+    "key_variable": "fixture_congestion_modifier \u2014 City rotation reduces away_modifier; Arsenal motivation asymmetry"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "rotation",
+      "congestion",
+      "rest",
+      "squad",
+      "motivation",
+      "UCL priority"
+    ]
+  }
+}

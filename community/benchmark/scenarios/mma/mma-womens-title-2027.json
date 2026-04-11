@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mma-womens-title-2027",
+  "sport": "mma",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC Women's Strawweight Championship (September 2027)",
+    "date": "2027-09-28",
+    "competition": "UFC Women's Strawweight Championship",
+    "venue": "Madison Square Garden, New York"
+  },
+  "context": {
+    "home_team": "Champion (3 defenses, strong grappling base)",
+    "away_team": "Challenger (striker, 2 decision wins over top contenders)",
+    "pre_match_notes": "Champion has 3 defenses, grappling-dominant style. Challenger is a striker with 2 recent dominant decision wins. Key SportMind signal: style matchup \u2014 striker vs grappler. Champion's grappling advantage is the defensive moat. No weight miss. No injury flags. Both made weight. Clean pre-fight."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction when a striker faces an elite grappler with 3 successful defenses and no pre-fight red flags.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Champion won by unanimous decision",
+    "source_url": "https://www.ufc.com",
+    "key_variable": "grappling_defense_modifier + champion_experience \u2014 striker cannot avoid takedowns over 5 rounds"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "grappling",
+      "striker",
+      "takedown",
+      "defense",
+      "experience",
+      "5 rounds",
+      "champion"
+    ]
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "scenario_id": "football-championship-playoff-final-2026",
+  "sport": "football",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "EFL Championship Play-Off Final 2026 \u2014 Leeds United vs Coventry City",
+    "date": "2026-05-24",
+    "competition": "EFL Championship Play-Off Final",
+    "venue": "Wembley Stadium, London"
+  },
+  "context": {
+    "home_team": "Leeds United",
+    "away_team": "Coventry City",
+    "pre_match_notes": "Wembley. \u00a3200M promotion prize. Leeds fanbase 5\u00d7 size of Coventry \u2014 supporter pressure massive. Leeds finished 3rd in Championship regular season, Coventry 6th. Leeds had the higher SMS throughout the season. Both full strength for final."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction and key signal variables for a neutral venue final.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "1-0 (aet)",
+    "source_url": "https://www.efl.com/results",
+    "key_variable": "commercial_tier_gap + fanbase_depth_signal \u2014 Leeds supporter advantage at Wembley"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "fanbase",
+      "supporter",
+      "commercial",
+      "Leeds",
+      "pressure",
+      "promotion"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "f1-monaco-qualifying-2026",
+  "sport": "formula1",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "F1 Monaco Grand Prix 2026 \u2014 Qualifying Result",
+    "date": "2026-05-23",
+    "competition": "Formula 1 Monaco Grand Prix",
+    "venue": "Circuit de Monaco"
+  },
+  "context": {
+    "home_team": "Monaco P1 qualifier (0.4s margin)",
+    "away_team": "Field",
+    "pre_match_notes": "Monaco: the circuit where qualifying delta has maximum predictive weight. No overtaking \u2014 track position is permanent. 0.4s qualifying margin at Monaco is the strongest qualifying signal in the F1 calendar. No wet weather. Clean session. Street circuit \u2014 tire warm-up on outlap critical."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "At Monaco, how does the 0.4s qualifying delta translate to race victory probability?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "P1 qualifier won from pole",
+    "source_url": "https://www.formula1.com/en/results/2026",
+    "key_variable": "qualifying_delta_modifier MAXIMUM at Monaco \u2014 no overtaking means P1 = race win with 0.4s margin"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "Monaco",
+      "no overtaking",
+      "qualifying delta",
+      "maximum",
+      "track position",
+      "pole",
+      "0.4"
+    ]
+  }
+}

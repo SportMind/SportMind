@@ -1,0 +1,43 @@
+{
+  "scenario_id": "cricket-wc2026-qf-india-australia",
+  "sport": "cricket",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "T20 World Cup 2026 Quarter-Final \u2014 India vs Australia",
+    "date": "2026-06-22",
+    "competition": "T20 World Cup Quarter-Final",
+    "venue": "Kensington Oval, Barbados (afternoon)"
+  },
+  "context": {
+    "home_team": "India",
+    "away_team": "Australia",
+    "pre_match_notes": "T20 WC QF. NCSI \u00d73.5 tournament modifier active. Afternoon match \u2014 no dew. India vs Australia in knockout cricket: Australia unbeaten in WC knockouts vs India in 50-over, but T20 different. India strong tournament form. Neutral venue."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction in a knockout T20 with NCSI active and no dew factor.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "India won by 8 wickets",
+    "source_url": "https://www.icc-cricket.com/tournaments/t20worldcup",
+    "key_variable": "NCSI \u00d73.5 knockout + India T20 form \u2014 Australia 50-over record irrelevant in T20 format"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "NCSI",
+      "knockout",
+      "T20",
+      "format",
+      "tournament form",
+      "India"
+    ]
+  }
+}

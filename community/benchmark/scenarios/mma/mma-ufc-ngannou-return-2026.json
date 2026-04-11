@@ -1,0 +1,44 @@
+{
+  "scenario_id": "mma-ufc-ngannou-return-2026",
+  "sport": "mma",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC 300-era \u2014 Francis Ngannou Return Fight (May 2026)",
+    "date": "2026-05-02",
+    "competition": "UFC Heavyweight",
+    "venue": "T-Mobile Arena, Las Vegas"
+  },
+  "context": {
+    "home_team": "Francis Ngannou",
+    "away_team": "Opponent (Top 5 Heavyweight)",
+    "pre_match_notes": "Ngannou returning to UFC-affiliated competition after PFL stint. Car accident recovery (knee and leg injuries, 2024). First competitive fight post-recovery. Unknown physical state \u2014 injury_warning_flag active. Ngannou KO power unchanged per training reports but movement and athleticism potentially compromised."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "How does the injury_warning_flag affect the prediction when KO power is retained but mobility may be compromised?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Ngannou KO Round 1 (KO power fully intact)",
+    "source_url": "https://www.ufc.com",
+    "key_variable": "injury_flag partially offset by KO_power_retained \u2014 first round resolved before mobility limitation mattered"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "injury",
+      "KO",
+      "power",
+      "round 1",
+      "mobility",
+      "flag",
+      "offset",
+      "first round"
+    ]
+  }
+}

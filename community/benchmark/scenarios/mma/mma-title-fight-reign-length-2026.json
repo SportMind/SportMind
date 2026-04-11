@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mma-title-fight-reign-length-2026",
+  "sport": "mma",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC Title Fight \u2014 Middleweight Championship (April 2026)",
+    "date": "2026-04-12",
+    "competition": "UFC Middleweight Championship",
+    "venue": "T-Mobile Arena, Las Vegas"
+  },
+  "context": {
+    "home_team": "Champion (5 successful defenses, 890-day reign)",
+    "away_team": "Challenger (unbeaten at UFC level, 8-0)",
+    "pre_match_notes": "Champion has 5 successful defenses over 890 days. SportMind reign length signal: after 800+ day reigns, champion motivation and focus data shows elevated ABSTAIN rate. Challenger 8-0 in UFC, strong momentum. Key SportMind signal: reign length modifier active \u2014 champion may not have the same psychological edge after extended dominance."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does reign length change your prediction? How does the challenger momentum signal compare to the champion's risk profile?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "Challenger won by TKO Round 2",
+    "source_url": "https://www.ufc.com",
+    "key_variable": "reign_length_modifier negative + challenger_momentum \u2014 800+ day reigns show elevated title change probability"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "reign length",
+      "motivation",
+      "focus",
+      "momentum",
+      "challenger",
+      "800 days",
+      "extended"
+    ]
+  }
+}

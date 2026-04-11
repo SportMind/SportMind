@@ -1,0 +1,44 @@
+{
+  "scenario_id": "basketball-euroleague-semifinal-2026",
+  "sport": "basketball",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "EuroLeague Semifinal 2026 \u2014 Real Madrid vs Fenerbah\u00e7e",
+    "date": "2026-05-23",
+    "competition": "EuroLeague Final Four Semifinal",
+    "venue": "Stark Arena, Belgrade (neutral)",
+    "notes": "Final Four neutral venue"
+  },
+  "context": {
+    "home_team": "Real Madrid",
+    "away_team": "Fenerbah\u00e7e",
+    "pre_match_notes": "EuroLeague Final Four at neutral site. Real Madrid 5\u00d7 EuroLeague champions \u2014 institutional experience signal active. Fenerbah\u00e7e finalist experience but fewer titles. Neutral venue removes home advantage. Key signal: European basketball experience modifier vs roster quality."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/basketball/sport-domain-basketball.md",
+    "athlete/basketball/athlete-intel-basketball.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "At a neutral Final Four site, does institutional EuroLeague experience predict direction?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Real Madrid won semifinal",
+    "source_url": "https://www.euroleaguebasketball.net",
+    "key_variable": "institutional_experience_modifier + squad_depth \u2014 EuroLeague pedigree matters in neutral high-pressure finals"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "experience",
+      "EuroLeague",
+      "institutional",
+      "neutral",
+      "pedigree",
+      "Final Four",
+      "pressure"
+    ]
+  }
+}

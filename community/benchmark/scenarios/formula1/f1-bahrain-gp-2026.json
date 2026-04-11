@@ -1,0 +1,43 @@
+{
+  "scenario_id": "f1-bahrain-gp-2026",
+  "sport": "formula1",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "F1 Bahrain Grand Prix 2026 \u2014 Season Opener",
+    "date": "2026-03-15",
+    "competition": "Formula 1 Bahrain Grand Prix",
+    "venue": "Bahrain International Circuit"
+  },
+  "context": {
+    "home_team": "Season favourite (P1 qualifier, 0.2s margin)",
+    "away_team": "Field",
+    "pre_match_notes": "Season opener. New regulation cycle \u2014 2026 regulation changes (new power unit formula). Season favourite qualified P1 but margin smaller than in previous regulations. Bahrain: medium-speed circuit, tire degradation critical. Qualifying delta 0.2s at medium-speed circuit \u2014 moderate signal, not as strong as Silverstone."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict race winner. How does circuit type (medium-speed) affect the qualifying delta signal reliability?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "P1 qualifier won race",
+    "source_url": "https://www.formula1.com/en/results/2026",
+    "key_variable": "qualifying_delta positive but moderate \u2014 0.2s at medium circuit is MEDIUM confidence, not HIGH"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "qualifying delta",
+      "0.2",
+      "circuit type",
+      "medium",
+      "moderate",
+      "confidence",
+      "Bahrain"
+    ]
+  }
+}

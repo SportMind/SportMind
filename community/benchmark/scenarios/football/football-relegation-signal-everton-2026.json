@@ -1,0 +1,43 @@
+{
+  "scenario_id": "football-relegation-signal-everton-2026",
+  "sport": "football",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "Premier League \u2014 Everton vs Manchester United (Match Week 28, 2026)",
+    "date": "2026-03-15",
+    "competition": "Premier League",
+    "venue": "Goodison Park, Liverpool"
+  },
+  "context": {
+    "home_team": "Everton",
+    "away_team": "Manchester United",
+    "pre_match_notes": "Everton in the relegation zone, 3 points from safety with 10 games remaining. Goodison Park last season at old ground before stadium move \u2014 emotional farewell campaign narrative extremely strong. Man United mid-table, inconsistent form, nothing at stake. Relegation survival modifier active for Everton."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "core/core-result-impact-matrices.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction. Note any asymmetric motivation signals.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "1-0",
+    "source_url": "https://www.premierleague.com/results",
+    "key_variable": "relegation_survival_modifier + farewell_ground_narrative \u2014 combined asymmetric motivation"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "relegation",
+      "survival",
+      "motivation",
+      "nothing at stake",
+      "farewell",
+      "Goodison"
+    ]
+  }
+}

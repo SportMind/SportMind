@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mma-pereira-adesanya-ufc281-2022",
+  "sport": "mma",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC 281 \u2014 Alex Pereira vs Israel Adesanya (Middleweight Championship)",
+    "date": "2022-11-12",
+    "competition": "UFC Middleweight Championship",
+    "venue": "Madison Square Garden, New York"
+  },
+  "context": {
+    "home_team": "Alex Pereira",
+    "away_team": "Israel Adesanya",
+    "pre_match_notes": "Pereira challenging Adesanya's middleweight title. Kickboxing H2H: Pereira 3-0 over Adesanya in kickboxing including two KOs. This is MMA \u2014 grappling available to Adesanya. Adesanya the more complete MMA fighter, Pereira's grappling unproven at UFC level. Key SportMind signal: Pereira knockout power vs Adesanya's reach and movement."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction. How does the kickboxing H2H translate to MMA context?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Pereira TKO Round 5",
+    "source_url": "https://www.ufc.com/event/ufc-281",
+    "key_variable": "KO_power_differential + mental_edge_modifier \u2014 H2H KO history creates psychological weight"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "KO",
+      "knockout",
+      "H2H",
+      "psychological",
+      "power",
+      "history",
+      "mental edge"
+    ]
+  }
+}

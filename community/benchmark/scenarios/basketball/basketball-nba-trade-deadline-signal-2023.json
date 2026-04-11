@@ -1,0 +1,44 @@
+{
+  "scenario_id": "basketball-nba-trade-deadline-signal-2023",
+  "sport": "basketball",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "NBA Trade Deadline 2023 \u2014 Kevin Durant to Phoenix Suns",
+    "date": "2023-02-09",
+    "competition": "NBA Regular Season",
+    "venue": "Footprint Center, Phoenix"
+  },
+  "context": {
+    "home_team": "Phoenix Suns (post-KD acquisition)",
+    "away_team": "Dallas Mavericks",
+    "pre_match_notes": "KD traded to Phoenix, first game in Suns uniform. New player integration \u2014 first game chemistry unknown. SportMind signal: superstar addition creates short-term volatility (positive narrative) but first-game integration risk. Suns previously 27-26, now with KD suddenly 'championship contender' narrative."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/basketball/sport-domain-basketball.md",
+    "athlete/basketball/athlete-intel-basketball.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does a superstar trade acquisition immediately translate to match wins, or does integration risk apply?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Suns won KD's debut",
+    "source_url": "https://www.nba.com/game/",
+    "key_variable": "superstar_arrival_narrative + individual_quality_floor \u2014 KD's individual output overcame integration risk"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "superstar",
+      "trade",
+      "narrative",
+      "KD",
+      "Durant",
+      "acquisition",
+      "integration",
+      "first game"
+    ]
+  }
+}

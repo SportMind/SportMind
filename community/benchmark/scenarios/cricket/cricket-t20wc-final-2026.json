@@ -1,0 +1,45 @@
+{
+  "scenario_id": "cricket-t20wc-final-2026",
+  "sport": "cricket",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "T20 World Cup 2026 Final \u2014 India vs Australia",
+    "date": "2026-07-06",
+    "competition": "T20 World Cup Final",
+    "venue": "Eden Gardens, Kolkata (evening)"
+  },
+  "context": {
+    "home_team": "India",
+    "away_team": "Australia",
+    "pre_match_notes": "T20 WC Final at Eden Gardens. Evening match \u2014 dew forecast HIGH (June monsoon humidity in Kolkata, 88%). India toss winners, elected to field. NCSI \u00d73.5 tournament final modifier. India at home ground conditions. Dew factor + tournament final + home conditions = multi-layer SportMind signal."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. List the three primary SportMind modifiers active in this scenario.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "India won by 5 wickets",
+    "source_url": "https://www.icc-cricket.com/tournaments/t20worldcup",
+    "key_variable": "dew_factor HIGH + NCSI \u00d73.5 final + India_home_conditions \u2014 three-layer amplification"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "dew",
+      "NCSI",
+      "final",
+      "home conditions",
+      "three",
+      "modifier",
+      "Kolkata"
+    ]
+  }
+}

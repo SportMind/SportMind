@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mma-weight-miss-signal-2026",
+  "sport": "mma",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC Weight Miss Card \u2014 Main Event Fighter Missed Weight (March 2026)",
+    "date": "2026-03-07",
+    "competition": "UFC Fight Night",
+    "venue": "UFC Apex, Las Vegas"
+  },
+  "context": {
+    "home_team": "Fighter A (missed weight)",
+    "away_team": "Fighter B (made weight)",
+    "pre_match_notes": "Main event fighter missed weight by 3.5lbs \u2014 announced 4 hours before weigh-in window closed. Fighter A: aggressive style, historically strong first-round pressure. Fighter B: endurance-based, strong late rounds. Weight miss signals dehydration, preparation failure, altered body chemistry. SportMind signal: weight miss is categorically different from a team losing a regular game \u2014 it compromises physiology AND psychology."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction given the weight miss signal. What specific physiological and psychological impacts does SportMind model?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "Fighter B won by decision (rounds 3-5 dominated)",
+    "source_url": "https://www.ufc.com",
+    "key_variable": "weight_miss_modifier \u2014 dehydration reduces late-round capacity; Fighter B endurance advantage amplified"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "weight miss",
+      "dehydration",
+      "preparation",
+      "physiology",
+      "psychology",
+      "late rounds",
+      "endurance"
+    ]
+  }
+}

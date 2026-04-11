@@ -1,0 +1,42 @@
+{
+  "scenario_id": "cricket-india-pakistan-t20wc-2026",
+  "sport": "cricket",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "T20 World Cup 2026 \u2014 India vs Pakistan Group Stage",
+    "date": "2026-06-15",
+    "competition": "T20 World Cup Group Stage",
+    "venue": "Nassau County International Cricket Stadium, New York"
+  },
+  "context": {
+    "home_team": "India",
+    "away_team": "Pakistan",
+    "pre_match_notes": "India vs Pakistan at a T20 World Cup. Highest-pressure cricket fixture in the world. India vs Pakistan multiplier \u00d72.0 active. New York venue \u2014 neutral. India slightly stronger squad on rankings. India unbeaten in T20 World Cup vs Pakistan. Morning start \u2014 no dew factor. Pitch: drop-in, unknown characteristics."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction. What does the India-Pakistan multiplier do to the signal?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "India won by 6 runs",
+    "source_url": "https://www.icc-cricket.com/tournaments/t20worldcup",
+    "key_variable": "india_pakistan_multiplier \u00d72.0 + India WC record vs Pakistan \u2014 amplifies India SMS significantly"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "India Pakistan",
+      "multiplier",
+      "\u00d72.0",
+      "pressure",
+      "World Cup record",
+      "rivalry"
+    ]
+  }
+}

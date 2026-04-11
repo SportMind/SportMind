@@ -1,0 +1,43 @@
+{
+  "scenario_id": "mma-middleweight-contender-2027",
+  "sport": "mma",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UFC Middleweight Contender Bout \u2014 Short-Notice Replacement (July 2027)",
+    "date": "2027-07-19",
+    "competition": "UFC Fight Night \u2014 Contender",
+    "venue": "UFC Apex, Las Vegas"
+  },
+  "context": {
+    "home_team": "Fighter A (original booking, 2 weeks prep)",
+    "away_team": "Fighter B (short-notice replacement, 5 days notice, 2 weight classes up)",
+    "pre_match_notes": "Fighter B accepted short-notice replacement, stepping up 2 weight classes on 5 days notice. Normally a massive disadvantage. However: Fighter B is a specialist who has 3 wins at this weight class previously. The short notice means no extended camp \u2014 but Fighter B's natural weight is this division. SportMind flag: short-notice weight class jump requires careful modifier assessment."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/mma/sport-domain-mma.md",
+    "athlete/mma/athlete-intel-mma.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does short notice + weight class jump automatically predict against Fighter B, or does historical weight class experience offset this?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Fighter A won by submission Round 3",
+    "source_url": "https://www.ufc.com",
+    "key_variable": "short_notice_modifier dominant over historical weight class \u2014 5 days too short for full camp regardless"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "short notice",
+      "camp",
+      "preparation",
+      "5 days",
+      "dominant",
+      "override",
+      "weight class"
+    ]
+  }
+}

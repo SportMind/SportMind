@@ -1,0 +1,42 @@
+{
+  "scenario_id": "cricket-psl-final-lahore-karachi-2026",
+  "sport": "cricket",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "PSL 2026 Final \u2014 Lahore Qalandars vs Karachi Kings",
+    "date": "2026-03-22",
+    "competition": "Pakistan Super League Final",
+    "venue": "National Stadium, Karachi"
+  },
+  "context": {
+    "home_team": "Lahore Qalandars",
+    "away_team": "Karachi Kings",
+    "pre_match_notes": "PSL Final at Karachi \u2014 Karachi Kings playing at home ground. Lahore stronger squad, current holders. Evening match at National Stadium \u2014 humidity 71%, some dew expected but moderate (not extreme). Karachi crowd advantage at home venue significant. City rivalry element active."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction when a stronger away team faces home ground final conditions.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Karachi won by 3 wickets",
+    "source_url": "https://www.psl-t20.com",
+    "key_variable": "home_ground_final + crowd_advantage offsets squad_differential \u2014 venue neutralises Lahore edge"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "home ground",
+      "Karachi",
+      "crowd",
+      "venue",
+      "neutralise",
+      "offset"
+    ]
+  }
+}

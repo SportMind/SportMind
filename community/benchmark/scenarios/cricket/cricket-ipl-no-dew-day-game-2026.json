@@ -1,0 +1,44 @@
+{
+  "scenario_id": "cricket-ipl-no-dew-day-game-2026",
+  "sport": "cricket",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "IPL 2026 \u2014 Mumbai Indians vs Royal Challengers Bangalore (Day Game)",
+    "date": "2026-03-30",
+    "competition": "IPL Regular Season",
+    "venue": "Wankhede Stadium, Mumbai (afternoon, 3:30pm IST)"
+  },
+  "context": {
+    "home_team": "Mumbai Indians",
+    "away_team": "Royal Challengers Bangalore",
+    "pre_match_notes": "Afternoon IPL match at Wankhede \u2014 starts 3:30pm. No dew expected (finished before 7:30pm). Standard toss dynamics apply. Mumbai home advantage active. RCB in strong form (4 wins in last 5). Mumbai struggling for consistency. Key: absence of dew factor means batting first team retains standard advantage \u2014 no structural chasing benefit."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. How does the absence of dew factor change your analysis versus an evening match?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "RCB won by 18 runs",
+    "source_url": "https://www.iplt20.com/match/2026",
+    "key_variable": "form_modifier dominates when dew_factor absent \u2014 no chasing advantage; RCB form wins"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "no dew",
+      "afternoon",
+      "form",
+      "day game",
+      "standard",
+      "toss",
+      "batting first"
+    ]
+  }
+}

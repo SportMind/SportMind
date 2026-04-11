@@ -1,0 +1,43 @@
+{
+  "scenario_id": "ice-hockey-stanley-cup-g6-2026",
+  "sport": "ice-hockey",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "NHL Stanley Cup Finals 2026 \u2014 Game 6 (Series 3-2)",
+    "date": "2026-06-15",
+    "competition": "NHL Stanley Cup Finals Game 6",
+    "venue": "Home team arena (leading 3-2)"
+  },
+  "context": {
+    "home_team": "Home team (leading series 3-2, can clinch on home ice)",
+    "away_team": "Away team (must win to force Game 7)",
+    "pre_match_notes": "Stanley Cup Game 6. Home team can clinch. Clinch game on home ice \u2014 crowd intensity maximum. Away team facing elimination \u2014 maximum survival motivation. GSAx (Goals Saved Above Expected): home team goaltender +2.3 in the series; away team -0.4. Goaltender performance is primary NHL variable."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/ice-hockey/sport-domain-ice-hockey.md",
+    "athlete/ice-hockey/athlete-intel-ice-hockey.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict Game 6 direction. Does the GSAx goaltender advantage or the away team elimination motivation dominate?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Home team won and clinched Stanley Cup",
+    "source_url": "https://www.nhl.com/standings/playoffs",
+    "key_variable": "GSAx_advantage + clinch_home_modifier \u2014 elite goaltender performance sustains under pressure"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "GSAx",
+      "goaltender",
+      "clinch",
+      "home",
+      "Stanley Cup",
+      "performance",
+      "pressure"
+    ]
+  }
+}

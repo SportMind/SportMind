@@ -1,0 +1,43 @@
+{
+  "scenario_id": "ice-hockey-morning-skate-signal-2026",
+  "sport": "ice-hockey",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "NHL \u2014 Maple Leafs vs Boston Bruins (March 2026)",
+    "date": "2026-03-20",
+    "competition": "NHL Regular Season",
+    "venue": "TD Garden, Boston"
+  },
+  "context": {
+    "home_team": "Boston Bruins",
+    "away_team": "Toronto Maple Leafs",
+    "pre_match_notes": "Morning skate report: Bruins starting goaltender did NOT skate (stayed off ice). NHL morning skate is the key pre-game signal for goaltender status. Backup goaltender was the one skating. SportMind morning skate protocol: if starter does not skate = starter likely playing (resting); if backup skates without starter = backup likely starting. This is counter-intuitive \u2014 resting is normal for starters."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/ice-hockey/sport-domain-ice-hockey.md",
+    "athlete/ice-hockey/athlete-intel-ice-hockey.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Interpret the morning skate signal. Does starter absence at morning skate mean starter is NOT playing?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Bruins won 3-1 (starter played)",
+    "source_url": "https://www.nhl.com/scores",
+    "key_variable": "morning_skate_signal \u2014 starter absence = starter RESTING (normal); starter played; backup skate = backup starting (if reversed)"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "morning skate",
+      "starter",
+      "resting",
+      "goaltender",
+      "protocol",
+      "counter-intuitive",
+      "backup"
+    ]
+  }
+}

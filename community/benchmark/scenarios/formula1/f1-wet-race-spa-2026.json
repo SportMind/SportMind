@@ -1,0 +1,44 @@
+{
+  "scenario_id": "f1-wet-race-spa-2026",
+  "sport": "formula1",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "F1 Belgian Grand Prix 2026 \u2014 Spa-Francorchamps (Wet Conditions)",
+    "date": "2026-07-28",
+    "competition": "Formula 1 Belgian Grand Prix",
+    "venue": "Circuit de Spa-Francorchamps, Belgium"
+  },
+  "context": {
+    "home_team": "Wet weather specialist (P3 qualifier, known wet specialist)",
+    "away_team": "Dominant qualifier (P1 by 0.4s in dry qualifying)",
+    "pre_match_notes": "Race day: heavy rain at start. Wet weather race conditions. P1 qualifier dominant in dry but not known as wet specialist. P3 qualifier has 4 wet weather wins in last 3 seasons. Spa in wet conditions: Eau Rouge/Raidillon approach changes significantly. Qualifying delta inverted in wet races historically."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does the qualifying delta signal hold in wet conditions, or does the wet specialist modifier override it?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "Wet specialist won from P3",
+    "source_url": "https://www.formula1.com/en/results/2026",
+    "key_variable": "wet_weather_specialist_modifier overrides qualifying_delta \u2014 wet conditions nullify dry pace advantage"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "wet",
+      "specialist",
+      "qualifying delta",
+      "override",
+      "nullify",
+      "conditions",
+      "rain"
+    ]
+  }
+}

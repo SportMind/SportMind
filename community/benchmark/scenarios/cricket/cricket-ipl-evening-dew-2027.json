@@ -1,0 +1,43 @@
+{
+  "scenario_id": "cricket-ipl-evening-dew-2027",
+  "sport": "cricket",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "IPL 2027 \u2014 Mumbai Indians vs Royal Challengers Bangalore (Evening, April)",
+    "date": "2027-04-08",
+    "competition": "IPL Regular Season",
+    "venue": "Wankhede Stadium, Mumbai (7:30pm IST)"
+  },
+  "context": {
+    "home_team": "Mumbai Indians",
+    "away_team": "Royal Challengers Bangalore",
+    "pre_match_notes": "Evening match, Mumbai, April. Pre-match humidity: 79%. Dew forecast: HIGH. Both teams similar strength in this fixture. Toss: Mumbai won, chose to bat first (rare \u2014 went against dew-factor wisdom). Key signal: batting first in high dew conditions is a SportMind contra-indicator."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Mumbai batted first in high dew conditions. Does their home advantage offset this structural disadvantage?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "RCB won chasing in over 17",
+    "source_url": "https://www.iplt20.com/match/2027",
+    "key_variable": "dew_factor overrides home_advantage \u2014 batting first in dew is structural negative regardless of venue"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "dew",
+      "batting first",
+      "structural",
+      "contra-indicator",
+      "overrides",
+      "home advantage"
+    ]
+  }
+}

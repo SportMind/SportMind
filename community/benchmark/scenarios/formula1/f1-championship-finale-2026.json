@@ -1,0 +1,43 @@
+{
+  "scenario_id": "f1-championship-finale-2026",
+  "sport": "formula1",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "F1 Abu Dhabi Grand Prix 2026 \u2014 Championship Decider",
+    "date": "2026-11-29",
+    "competition": "Formula 1 Abu Dhabi Grand Prix (Championship finale)",
+    "venue": "Yas Marina Circuit, Abu Dhabi"
+  },
+  "context": {
+    "home_team": "Championship leader (8-point lead, must finish P2 or higher if rival wins)",
+    "away_team": "Championship rival (must win and hope leader finishes outside P2)",
+    "pre_match_notes": "Championship decider. Leader qualified P1. Rival P2. Narrative pressure maximum on both drivers. Yas Marina: medium-speed, overtaking possible. Leader's 8-point lead means P2 finish secures title even if rival wins. Pressure asymmetry: rival must win AND result goes right; leader has margin."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does the pressure asymmetry between a leader with a points cushion and a rival who must win affect the qualifying delta signal?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "Rival won race but leader finished P3 \u2014 leader won championship",
+    "source_url": "https://www.formula1.com/en/results/2026",
+    "key_variable": "pressure_asymmetry_modifier \u2014 rival had maximum motivation; leader conservative (P3 was enough for title)"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "pressure",
+      "asymmetry",
+      "motivation",
+      "conservative",
+      "points cushion",
+      "must win",
+      "championship"
+    ]
+  }
+}

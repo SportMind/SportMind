@@ -1,0 +1,43 @@
+{
+  "scenario_id": "football-wc2026-final-france-brazil",
+  "sport": "football",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "FIFA World Cup 2026 Final \u2014 France vs Brazil",
+    "date": "2026-07-19",
+    "competition": "FIFA World Cup Final",
+    "venue": "MetLife Stadium, New York"
+  },
+  "context": {
+    "home_team": "France",
+    "away_team": "Brazil",
+    "pre_match_notes": "World Cup Final. NCSI \u00d74.0 modifier active. France tournament form: W6 D0 L0. Brazil W5 D1 L0. Neutral venue. Mbapp\u00e9 golden boot leader with 8 goals. Brazil relying on collective rather than single superstar. France won group stage vs Brazil in 2022 \u2014 H2H edge."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction and identify the NCSI multiplier applicable.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "2-1",
+    "source_url": "https://www.fifa.com/worldcup",
+    "key_variable": "NCSI \u00d74.0 final + tournament_form_modifier + individual_superstar_differential"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "NCSI",
+      "World Cup",
+      "final",
+      "tournament form",
+      "Mbapp\u00e9",
+      "superstar"
+    ]
+  }
+}

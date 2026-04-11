@@ -1,0 +1,44 @@
+{
+  "scenario_id": "cricket-ipl-dew-factor-2023",
+  "sport": "cricket",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "IPL 2023 Qualifier 1 \u2014 Chennai Super Kings vs Mumbai Indians",
+    "date": "2023-05-23",
+    "competition": "IPL Qualifier 1",
+    "venue": "MA Chidambaram Stadium, Chennai (evening T20)"
+  },
+  "context": {
+    "home_team": "Chennai Super Kings",
+    "away_team": "Mumbai Indians",
+    "pre_match_notes": "Evening T20 at Chepauk, Chennai. Pre-match weather: 82% humidity, temperature 34\u00b0C. Dew forecast: HIGH. CSK won toss and chose to field \u2014 standard high-humidity tactic. Dew accumulates from over 12 onward. Batting second team gains structural advantage as ball becomes harder to grip and spin bowling fails. Mumbai batting second."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction. What is the primary structural advantage and why does it favour the chasing team?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "Mumbai won (DLS method due to rain, but chasing team advantage materialised)",
+    "source_url": "https://www.iplt20.com/match/2023",
+    "key_variable": "dew_factor \u2014 evening T20 high humidity makes ball ungrippable, spin fails, chasing team structural advantage"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "dew",
+      "humidity",
+      "evening",
+      "spin",
+      "chasing",
+      "batting second",
+      "grip"
+    ]
+  }
+}

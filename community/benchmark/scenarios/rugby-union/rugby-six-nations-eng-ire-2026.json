@@ -1,0 +1,43 @@
+{
+  "scenario_id": "rugby-six-nations-eng-ire-2026",
+  "sport": "rugby-union",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "Six Nations 2026 \u2014 England vs Ireland (Round 4)",
+    "date": "2026-03-14",
+    "competition": "Six Nations Championship",
+    "venue": "Twickenham Stadium, London"
+  },
+  "context": {
+    "home_team": "England",
+    "away_team": "Ireland",
+    "pre_match_notes": "Six Nations Round 4. Ireland Grand Slam chasing \u2014 won 3 from 3. England at Twickenham \u2014 fortress ground. Ireland ranked World #1 but Twickenham is England's most reliable advantage. Set piece: England superiority in lineout and scrum at home. Ireland must win to keep Grand Slam alive. England must win to avoid wooden spoon."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/rugby-union/sport-domain-rugby-union.md",
+    "athlete/rugby-union/athlete-intel-rugby-union.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction when World #1 away team chases Grand Slam against home fortress.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "England won 23-22",
+    "source_url": "https://www.sixnationsrugby.com/results",
+    "key_variable": "twickenham_fortress_modifier + set_piece_advantage + dual_motivation_symmetry \u2014 home set piece edge decisive"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "Twickenham",
+      "home",
+      "set piece",
+      "fortress",
+      "lineout",
+      "scrum",
+      "Grand Slam"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "football-gk-change-last-minute-serie-a-2027",
+  "sport": "football",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "Serie A \u2014 Inter Milan vs AC Milan (Derby della Madonnina, February 2027)",
+    "date": "2027-02-20",
+    "competition": "Serie A",
+    "venue": "San Siro, Milan"
+  },
+  "context": {
+    "home_team": "Inter Milan",
+    "away_team": "AC Milan",
+    "pre_match_notes": "Derby della Madonnina. Inter's starting GK ruled out 90 minutes before kickoff \u2014 backup GK making first Serie A start. Inter strong favourites on paper but last-minute GK change is a SportMind FLAG \u2014 unconfirmed lineup_warning active. Backup GK conceded in last 3 appearances for Inter reserve team."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. How does the last-minute GK change affect your signal?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "0-2",
+    "source_url": "https://www.legaseriea.it/en/serie-a/results",
+    "key_variable": "lineup_warning_flag \u2014 last-minute GK change reduces home_modifier, backup GK risk materialised"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "goalkeeper",
+      "GK",
+      "lineup",
+      "warning",
+      "flag",
+      "risk",
+      "backup"
+    ]
+  }
+}

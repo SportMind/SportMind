@@ -1,0 +1,43 @@
+{
+  "scenario_id": "basketball-nba-finals-g7-2026",
+  "sport": "basketball",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "NBA Finals 2026 \u2014 Game 7",
+    "date": "2026-06-22",
+    "competition": "NBA Finals Game 7",
+    "venue": "Home team arena (Series tied 3-3)"
+  },
+  "context": {
+    "home_team": "Home team (seed 1, home court throughout)",
+    "away_team": "Away team (seed 3, won Games 5 and 6 on road)",
+    "pre_match_notes": "NBA Finals Game 7. Home court advantage maximum. NCSI equivalent for NBA: championship series finale modifier active. Away team momentum \u2014 won previous 2 games including 2 road wins. Home team crowd at full intensity. Series W-L: Home 3-3 Away. Both teams full health, no injury flags."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/basketball/sport-domain-basketball.md",
+    "athlete/basketball/athlete-intel-basketball.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict Game 7 direction. Does home court advantage or away team momentum dominate the signal?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Home team won Game 7",
+    "source_url": "https://www.nba.com/playoffs",
+    "key_variable": "home_court_game7 + crowd_pressure \u2014 Game 7 home court historically decisive; momentum effect diminishes"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "home court",
+      "Game 7",
+      "crowd",
+      "momentum",
+      "historically",
+      "decisive",
+      "Finals"
+    ]
+  }
+}

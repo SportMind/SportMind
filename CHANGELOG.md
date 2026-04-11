@@ -1,5 +1,77 @@
 # Changelog
 
+## [3.48.0] — 2026-04-11
+
+### Added
+- `examples/agentic-workflows/governance-delegate-agent.md` — Pattern 9
+  Pre-vote commercial intelligence brief for fan token governance proposals.
+  Three vote categories: player signing (APS/AELS/ABS/DTS/LTUI), commercial
+  partnership (PHS/AFS/LTUI), operational/cosmetic (GSI Decision_Weight).
+  Structured governance brief output schema. Python implementation with
+  classify_proposal(), analyse_player_signing(), analyse_commercial_partnership().
+  Memory MCP schema for governance state and vote history. Critical principle:
+  agent produces intelligence only — vote execution belongs to application layer.
+  fetch_active_proposals() stub for developer implementation (Socios API,
+  on-chain query, or manual feed).
+
+- `examples/agentic-workflows/scouting-agent.md` — Pattern 10
+  Transfer target commercial ranking by value-to-fee ratio. Five-tier
+  commercial scouting stack: on-pitch foundation (PI), career trajectory
+  (DTS/TAI), social presence (AELS/SHS), transfer-specific (APS/TVS),
+  token ecosystem impact (LTUI/ABS). Commercial value-to-fee formula:
+  CVS = APS×0.30 + AELS×0.25 + DTS×0.20 + PI_pct×0.15 + LTUI_norm×0.10
+  then FAS = CVS / log10(fee_m + 1). Four tiers: EXCELLENT/GOOD/MODERATE/POOR.
+  Ranked scout report output schema. Clear distinction from Pattern 6
+  (monitors existing athletes; this evaluates candidates).
+
+- `examples/agentic-workflows/README.md` — Pattern 9 and 10 added to table
+
+### Changed
+- `sportmind.dev/demo.html` — signal card visualization added
+  Pre-match and sentiment scenarios now render a visual signal card after
+  typing animation completes. Pre-match card: direction badge (HOME/AWAY/DRAW),
+  animated SportMind Score gauge, animated adjusted score gauge, modifier
+  breakdown grid. Sentiment card: five-axis bars (macro/fan/social/commercial/
+  disciplinary), Fan Token Play supply mechanics block when token is confirmed
+  gamified. All gauges animate on completion via CSS transitions. Card resets
+  on scenario change. No external chart library — pure CSS/JS.
+
+## [3.47.0] — 2026-04-11
+
+### Added
+- `community/benchmark/` — SportMind vs vanilla LLM benchmark framework
+  README.md: methodology, test set structure, scenario selection criteria,
+  bias prevention rules, contribution guidelines.
+  40 scenarios across 8 sports:
+    football (12): UCL Final 2023, PSG vs Arsenal UCL QF 2026, relegation
+    six-pointer, El Clásico, last-minute GK change (counter-intuitive),
+    Championship Play-Off Final, WC2026 Final, FA Cup squad rotation,
+    Bundesliga draw equilibrium, Premier League six-pointer, WC2026 USA
+    group draw, PSG fan token governance signal.
+    cricket (8): IPL dew factor 2023, India-Pakistan T20 WC multiplier,
+    no-dew day game (counter-intuitive), T20 WC Final three-layer, PSL
+    Final home ground offset, IPL evening dew 2027, WC2026 QF no-dew,
+    IPL opener chasing dew.
+    mma (6): Pereira vs Adesanya UFC281, weight miss signal, reign length
+    counter-intuitive, Ngannou return injury flag, womens title grappler
+    vs striker, short-notice replacement.
+    formula1 (6): British GP qualifying delta, wet race Spa specialist
+    override, Bahrain GP medium circuit, Austrian Sprint format modifier,
+    Monaco qualifying maximum signal, Abu Dhabi championship pressure
+    asymmetry.
+    basketball (3): KD trade debut signal, NBA Finals Game 7, EuroLeague
+    Final Four neutral venue.
+    ice-hockey (2): morning skate counter-intuitive, Stanley Cup GSAx.
+    tennis (2): Wimbledon grass/age interaction, US Open hard court.
+    rugby-union (1): Six Nations Twickenham fortress.
+  scripts/run_benchmark.py: async runner, both configs, per-sport filter,
+  rate-limit safe, saves to results/latest.json and history archive.
+  scripts/score_results.py: accuracy table by sport/difficulty/signal type,
+  key variable identification rate, markdown report generator.
+  Scenario design principles: domain-specific (dew factor, weight miss,
+  qualifying delta), counter-intuitive (morning skate, no-dew day game,
+  reign length), fan token commercial, multi-layer signals.
+
 ## [3.46.0] — 2026-04-10
 
 ### Added

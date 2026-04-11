@@ -2017,6 +2017,15 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.48 — Governance Delegate (Pattern 9), Scouting Agent (Pattern 10), demo viz
+Pattern 9: pre-vote commercial brief (APS/LTUI/PHS per vote category).
+Pattern 10: transfer target ranking by CVS/FAS formula.
+demo.html: signal card + sentiment axes visualization after JSON output.
+
+### ✅ v3.47 — Benchmark framework (40 scenarios, 8 sports)
+community/benchmark/: 40 scenarios, run_benchmark.py, score_results.py.
+SportMind vs vanilla LLM. Domain-specific, counter-intuitive, fan token.
+
 ### ✅ v3.46 — Skill discovery protocol and multi-agent context sharing
 platform/skill-discovery-protocol.md: DiscoveryContext + SkillDiscovery class,
 15 context signals, relevance scoring model, budget negotiation algorithm.

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "tennis-us-open-hard-court-semifinal-2027",
+  "sport": "tennis",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "US Open 2027 Men's Semifinal \u2014 Jannik Sinner vs Carlos Alcaraz",
+    "date": "2027-09-05",
+    "competition": "US Open Semifinal",
+    "venue": "Arthur Ashe Stadium, New York (night session)"
+  },
+  "context": {
+    "home_team": "Jannik Sinner",
+    "away_team": "Carlos Alcaraz",
+    "pre_match_notes": "US Open SF on hard court, night session at Ashe. Sinner: hard court win rate 80%, 2\u00d7 US Open champion, dominant in 5-set matches. Alcaraz: hard court win rate 75%, prefers clay/grass, no US Open title. H2H hard court: Sinner leads 4-2. Night session at Ashe \u2014 atmosphere, noise, Sinner accustomed to it."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/tennis/sport-domain-tennis.md",
+    "athlete/tennis/athlete-intel-tennis.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction in a hard court SF between two current top players. What signal variables tip the balance?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Sinner won 6-4, 7-6, 6-3",
+    "source_url": "https://www.usopen.org/en_US",
+    "key_variable": "surface_hard_court_modifier + H2H_record + US_Open_experience \u2014 Sinner structural advantages compound"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "hard court",
+      "H2H",
+      "surface",
+      "US Open",
+      "experience",
+      "compound",
+      "Sinner"
+    ]
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "scenario_id": "f1-sprint-austria-2027",
+  "sport": "formula1",
+  "difficulty": "counter_intuitive",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "F1 Austrian Grand Prix Sprint 2027",
+    "date": "2027-06-28",
+    "competition": "Formula 1 Sprint Race",
+    "venue": "Red Bull Ring, Spielberg"
+  },
+  "context": {
+    "home_team": "Sprint qualifying P1",
+    "away_team": "Sprint qualifying P3 (known to be conservative on tire management)",
+    "pre_match_notes": "Sprint race: 100km, no pit stops. Different strategy dynamic to full race. Sprint qualifying P1 leads but sprint qualifying does not carry same signal weight as full qualifying delta. P3 starter is known for aggressive starts and aggressive tire strategy in sprints specifically. Red Bull Ring: short lap, overtaking possible."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Does P1 sprint qualifying predict sprint race victory the same way as full qualifying predicts races?",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "P3 starter won sprint from aggressive start",
+    "source_url": "https://www.formula1.com/en/results/2027",
+    "key_variable": "sprint_format_modifier \u2014 sprint qualifying delta carries lower signal weight; aggressive start strategy decisive"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "sprint",
+      "format",
+      "qualifying delta",
+      "lower",
+      "strategy",
+      "aggressive",
+      "start"
+    ]
+  }
+}

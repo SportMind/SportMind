@@ -1,0 +1,44 @@
+{
+  "scenario_id": "tennis-wimbledon-grass-surface-split-2027",
+  "sport": "tennis",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "Wimbledon 2027 Quarter-Final \u2014 Carlos Alcaraz vs Novak Djokovic",
+    "date": "2027-07-09",
+    "competition": "Wimbledon Quarter-Final",
+    "venue": "Centre Court, Wimbledon"
+  },
+  "context": {
+    "home_team": "Carlos Alcaraz",
+    "away_team": "Novak Djokovic",
+    "pre_match_notes": "Wimbledon QF on grass. Alcaraz: 2\u00d7 Wimbledon champion, grass win rate 77%, age 24 and at peak. Djokovic: 7\u00d7 Wimbledon champion, grass win rate 87%, but age 40, recent knee surgery recovery. H2H at Wimbledon: Alcaraz leads 2-0 (2023, 2024 finals). SportMind: grass surface specialist modifier must be applied per player, not just surface win rate."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/tennis/sport-domain-tennis.md",
+    "athlete/tennis/athlete-intel-tennis.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. How does surface win rate interact with age/physical state for a player at 40?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Alcaraz won 6-3, 6-4, 7-6",
+    "source_url": "https://www.wimbledon.com/en_GB/draws",
+    "key_variable": "surface_specialist_modifier adjusted for physical_decline \u2014 Djokovic grass expertise offset by age and recovery"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "grass",
+      "surface",
+      "age",
+      "physical",
+      "decline",
+      "recovery",
+      "H2H",
+      "specialist"
+    ]
+  }
+}

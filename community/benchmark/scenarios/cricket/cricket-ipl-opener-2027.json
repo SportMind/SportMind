@@ -1,0 +1,43 @@
+{
+  "scenario_id": "cricket-ipl-opener-2027",
+  "sport": "cricket",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "IPL 2027 Opening Match \u2014 Mumbai Indians vs Chennai Super Kings",
+    "date": "2027-03-22",
+    "competition": "IPL Regular Season (Match 1)",
+    "venue": "Wankhede Stadium, Mumbai (7:30pm)"
+  },
+  "context": {
+    "home_team": "Mumbai Indians",
+    "away_team": "Chennai Super Kings",
+    "pre_match_notes": "IPL opener. Wankhede, evening, humidity 76% \u2014 dew expected MODERATE-HIGH from over 14. Mumbai home. CSK experienced at adapting to dew (MS Dhoni era institutional knowledge). Both teams IPL giants. Toss crucial."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/cricket/sport-domain-cricket.md",
+    "athlete/cricket/athlete-intel-cricket.md",
+    "core/core-weather-match-day.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction if the toss winner elects to bat first despite dew conditions.",
+  "verified_outcome": {
+    "result": "AWAY_WIN",
+    "direction": "AWAY",
+    "score": "CSK won chasing \u2014 dew factor materialised from over 14",
+    "source_url": "https://www.iplt20.com/match/2027",
+    "key_variable": "dew_factor MODERATE-HIGH \u2014 chasing team structural advantage outweighed Mumbai home advantage"
+  },
+  "scoring": {
+    "direction_correct_if": "AWAY",
+    "key_variable_keywords": [
+      "dew",
+      "chasing",
+      "batting first",
+      "structural",
+      "humidity",
+      "over 14"
+    ]
+  }
+}

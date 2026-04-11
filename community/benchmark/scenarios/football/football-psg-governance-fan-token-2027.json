@@ -1,0 +1,43 @@
+{
+  "scenario_id": "football-psg-governance-fan-token-2027",
+  "sport": "football",
+  "difficulty": "fan_token",
+  "signal_type": "fan_token_commercial",
+  "event": {
+    "name": "PSG Fan Token Governance Vote \u2014 Stadium Naming Rights Proposal (August 2027)",
+    "date": "2027-08-20",
+    "competition": "Fan Token Governance",
+    "venue": "On-chain \u2014 Chiliz Chain"
+  },
+  "context": {
+    "token": "$PSG",
+    "lifecycle_phase": 3,
+    "pre_match_notes": "PSG governance vote on stadium naming rights partnership. High-profile vote \u2014 expected high participation. Token in Phase 3 (Active Commercial). PSG Tier 1 commercial partner. Vote outcome affects token utility perception. Macro: neutral. TVL: MODERATE."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "fan-token/psg-token-intelligence/psg-token-intelligence.md",
+    "fan-token/sports-governance-intelligence/sports-governance-intelligence.md",
+    "fan-token/fan-token-lifecycle/fan-token-lifecycle.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Should a holder ENTER, WAIT, or ABSTAIN ahead of this governance vote? What is the signal direction?",
+  "verified_outcome": {
+    "result": "POSITIVE_TOKEN_SIGNAL",
+    "direction": "ENTER",
+    "detail": "High participation governance vote in Phase 3 token = utility signal. Price +8% in 48h post-vote announcement.",
+    "source_url": "https://www.socios.com/psg",
+    "key_variable": "governance_participation_signal + Phase_3_lifecycle_utility_peak"
+  },
+  "scoring": {
+    "direction_correct_if": "ENTER",
+    "key_variable_keywords": [
+      "governance",
+      "utility",
+      "Phase 3",
+      "participation",
+      "lifecycle",
+      "commercial"
+    ]
+  }
+}

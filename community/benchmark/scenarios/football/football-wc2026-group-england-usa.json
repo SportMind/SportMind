@@ -1,0 +1,44 @@
+{
+  "scenario_id": "football-wc2026-group-england-usa",
+  "sport": "football",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "FIFA World Cup 2026 Group Stage \u2014 England vs USA",
+    "date": "2026-06-22",
+    "competition": "FIFA World Cup Group Stage",
+    "venue": "AT&T Stadium, Dallas"
+  },
+  "context": {
+    "home_team": "England",
+    "away_team": "USA",
+    "pre_match_notes": "World Cup group stage. NCSI \u00d73.5 tournament modifier active. Host nation USA \u2014 crowd advantage to away team in US venue. England stronger squad on paper but tournament form inconsistent historically. USA host nation energy a significant unnamed risk variable."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict match direction. Does host nation advantage offset squad quality differential?",
+  "verified_outcome": {
+    "result": "DRAW",
+    "direction": "DRAW",
+    "score": "1-1",
+    "source_url": "https://www.fifa.com/worldcup",
+    "key_variable": "host_nation_atmosphere_modifier offsets England_squad_advantage \u2014 signals converge on DRAW"
+  },
+  "scoring": {
+    "direction_correct_if": "DRAW",
+    "key_variable_keywords": [
+      "host",
+      "USA",
+      "atmosphere",
+      "crowd",
+      "offset",
+      "converge",
+      "DRAW"
+    ]
+  }
+}

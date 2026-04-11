@@ -1,0 +1,41 @@
+{
+  "scenario_id": "football-ucl-qf-psg-arsenal-2026",
+  "sport": "football",
+  "difficulty": "standard",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "UEFA Champions League Quarter-Final 2026 \u2014 PSG vs Arsenal (Leg 1)",
+    "date": "2026-04-08",
+    "competition": "UEFA Champions League QF",
+    "venue": "Parc des Princes, Paris"
+  },
+  "context": {
+    "home_team": "PSG",
+    "away_team": "Arsenal",
+    "pre_match_notes": "PSG home Tier 1 UCL quarter-final. Arsenal strong away record in Europe that season. PSG without key midfielder (suspension). Arsenal full strength. Parc des Princes home advantage significant \u2014 Tier 1 competition modifier active."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/football/sport-domain-football.md",
+    "athlete/football/athlete-intel-football.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict the match direction (HOME/AWAY/DRAW) and the key modifying variable.",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "1-0",
+    "source_url": "https://www.uefa.com/uefachampionsleague/",
+    "key_variable": "home_advantage + competition_tier_modifier \u2014 UCL QF at home Tier 1"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "home advantage",
+      "Parc des Princes",
+      "Tier 1",
+      "competition tier",
+      "UCL"
+    ]
+  }
+}

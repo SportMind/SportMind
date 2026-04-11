@@ -1,0 +1,43 @@
+{
+  "scenario_id": "f1-british-gp-qualifying-delta-2023",
+  "sport": "formula1",
+  "difficulty": "domain_specific",
+  "signal_type": "match_outcome",
+  "event": {
+    "name": "2023 British Grand Prix \u2014 Silverstone",
+    "date": "2023-07-09",
+    "competition": "Formula 1 British Grand Prix",
+    "venue": "Silverstone Circuit, UK"
+  },
+  "context": {
+    "home_team": "Max Verstappen / Red Bull",
+    "away_team": "Field",
+    "pre_match_notes": "Qualifying: Verstappen P1 by 0.3 seconds over nearest rival. Silverstone: high-speed circuit, aerodynamic-dependent. Red Bull strongest car that season, Verstappen dominant (6 wins in 9 races). Qualifying delta of 0.3s at a high-speed track is a SportMind strong signal \u2014 particularly at circuits where overtaking is difficult."
+  },
+  "sportmind_skills": [
+    "macro/macro-overview.md",
+    "sports/formula1/sport-domain-formula1.md",
+    "athlete/formula1/athlete-intel-formula1.md",
+    "core/confidence-output-schema.md"
+  ],
+  "question": "Predict race winner. What does a 0.3s qualifying delta signal at a high-speed circuit like Silverstone?",
+  "verified_outcome": {
+    "result": "HOME_WIN",
+    "direction": "HOME",
+    "score": "Verstappen won from pole",
+    "source_url": "https://www.formula1.com/en/results/2023/races/1141/great-britain/race-result",
+    "key_variable": "qualifying_delta_modifier \u2014 0.3s margin at Silverstone = dominant race pace; hard to overcome on low-overtake circuit"
+  },
+  "scoring": {
+    "direction_correct_if": "HOME",
+    "key_variable_keywords": [
+      "qualifying delta",
+      "0.3",
+      "pole",
+      "aerodynamic",
+      "high speed",
+      "overtake",
+      "Silverstone"
+    ]
+  }
+}
