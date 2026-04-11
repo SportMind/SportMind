@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.48)
+## What the library contains (v3.52)
 
-**528 files.** 53 version cycles since v3.0.
+**533 files.** 56 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -74,7 +74,7 @@ strategy; real-time integration patterns
 community leaderboard
 
 **Developer tooling:** 7 starter pack examples (⭐ to ⭐⭐⭐⭐⭐); 11 application blueprints;
-10 agentic workflow patterns; 20 agent prompts organised by stakeholder type; 66 compressed
+11 agentic workflow patterns; 22 agent prompts organised by stakeholder type; 66 compressed
 skill summaries; 5 CI/CD GitHub Actions workflows
 
 **International reach:** 24 i18n skill files across 7 languages (AR, DE, ES, FR, HI, JA, PT)
@@ -198,7 +198,7 @@ That requires three things working together: the quality of the framework (the l
 itself), the breadth of the calibration (community records), and the depth of the
 application ecosystem (developers building on top).
 
-v3.48 has delivered a complete intelligence framework including Fan Token Play (Path 1/2), CHZ virtuous cycle intelligence, developer toolkit (templates, 20 agent prompts, 10 workflow patterns), benchmark framework (40 scenarios), and governance/scouting agents. World Cup 2026 module live.
+v3.52 has delivered a complete intelligence framework including Fan Token Play (Path 1/2), CHZ virtuous cycle intelligence, developer toolkit (templates, 20 agent prompts, 10 workflow patterns), benchmark framework (40 scenarios), and governance/scouting agents. World Cup 2026 module live.
 breadth and application ecosystem depth. Neither of those happens without the community.
 
 ---

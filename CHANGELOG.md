@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.52.0] — 2026-04-11
+
+### Added
+- `sportmind.dev/index.html` — Agentic intelligence stack diagram + section
+  "How it works" section added between Developer Toolkit and Signal Output.
+  Five-row visual flow: data sources → SportMind intelligence layers (green)
+  → agent patterns → structured output → human decision point (dashed).
+  Engine/transmission framing: "AI agents are powerful. Without structured
+  sports intelligence they produce generic output. SportMind is the transmission
+  layer." Pure CSS, no external libraries. Matches existing design tokens.
+  Toolkit bridge updated: 22 prompts and 11 patterns (was stale at 20/8).
+
+- `sportmind.dev/docs.html` — Full architecture diagram in Architecture section
+  Six-band diagram: data sources → intelligence layers (highlighted in accent)
+  with supporting layer sub-nodes → agent patterns → output types → human
+  decision point (dashed) → application layer. Inline note: "SportMind agents
+  produce intelligence — they do not execute transactions, submit votes, or
+  negotiate contracts. The human decision point is architectural."
+
+- `sportmind.dev/demo.html` — agent_stack_trace scenario (10th scenario)
+  Full pipeline trace: all five phases shown (macro gate → squad intelligence
+  with LQI → historical H2H context → domain + athlete modifier → FTP
+  commercial). Pre-match signal: adjusted_score 42.4, SMS 61, MEDIUM confidence,
+  lineup flag active. Post-match: UNEXPECTED_LOSS, FTP NEUTRAL, calibration flag.
+  Transmission model output block showing agent boundary explicitly.
+
 ## [3.51.0] — 2026-04-11
 
 ### Added

@@ -2017,6 +2017,11 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.52 — Agentic stack diagram, architecture visual, demo agent flow scenario
+index.html: "How it works" stack flow (5 rows, CSS only).
+docs.html: 6-band architecture diagram in Architecture section.
+demo.html: agent_stack_trace — full pipeline trace, all phases, transmission model.
+
 ### ✅ v3.51 — Lineup Quality Index + Historical Intelligence Framework
 LQI: bottom-up team strength from individual player ratings (6 sports).
 Historical: H2H decay formula, probability model, 7 sport-specific rules.
