@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.51.0] — 2026-04-11
+
+### Added
+- `core/lineup-quality-index.md` — bottom-up team strength model
+  Aggregates individual player ratings into a Lineup Quality Index (LQI)
+  for any confirmed or projected starting lineup. Formula: LQI = Σ(rating ×
+  positional_weight × availability_factor) / baseline_XI_score. Positional
+  weight tables for football (11 players, GK weight 1.8), basketball (5
+  starters with star premium), rugby union (15 players, fly-half weight 1.5),
+  cricket (batting order + bowling weights, format-adjusted), ice hockey
+  (GK weight 2.0, GSAx-based), MMA fight card (main event 0.60 weighting).
+  Worked example: Arsenal vs Bournemouth — actual lineup (Saka absent,
+  Gyokeres unexpected, Jesus long-term out) scores LQI 0.919 vs baseline
+  1.00. Matchup score for home/away comparison. LQI_SIGNAL_CONFLICT flag
+  when LQI contradicts primary direction. Data sources (Sofascore Tier 1,
+  TransferMarkt proxy, FIFA/EA FC for baseline). Season baseline maintenance
+  schema. Full pipeline integration: LQI feeds composite_squad_modifier.
+
+- `core/historical-intelligence-framework.md` — H2H decay and probability
+  H2H relevance formula: base_weight × recency_factor × personnel_continuity
+  × context_factor. Recency factor: 1.00 (< 6 months) to 0.20 (36+ months).
+  Personnel continuity: 1.00 (same manager + 7 starters) to 0.10 (newly
+  promoted). Weighted H2H modifier: ×0.92 to ×1.08. Seven sport-specific
+  H2H rules: football (manager tactics decay fastest; derby psychological
+  multiplier), tennis (surface-conditional H2H; psychological dominance
+  patterns), cricket (batter vs bowler H2H; India-Pakistan special case),
+  MMA/boxing (style matchup vs H2H distinction; rematch modifier), F1
+  (circuit performance index; Monaco special case), NBA (playoff series
+  momentum; regular season low weight). Form-based probability conversion:
+  SMS → probability range (SMS 80-100 → 65-75%; ranges not point estimates).
+  Draw probability framework. Tournament bracket prediction with compounding
+  uncertainty model. Combined output schema connecting H2H + LQI.
+
 ## [3.50.0] — 2026-04-11
 
 ### Added

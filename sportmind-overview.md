@@ -2017,6 +2017,10 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.51 — Lineup Quality Index + Historical Intelligence Framework
+LQI: bottom-up team strength from individual player ratings (6 sports).
+Historical: H2H decay formula, probability model, 7 sport-specific rules.
+
 ### ✅ v3.50 — Pre-Match Squad Intelligence, Prompt 22, demo build-up scenario
 pre-match-squad-intelligence.md: 7-step assembly, multi-sport decoder (7 sports).
 Prompt 22: full build-up agent. Demo: Arsenal squad brief with injury decoder.
