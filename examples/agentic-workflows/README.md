@@ -38,6 +38,7 @@ The difference is:
 | [8. Fan Token Play Monitor](#pattern-8) | PATH_2 match cycle (T-48h → T+48h) | Event-driven (match calendar) | Per match |
 | [9. Smart Governance Delegate](#pattern-9) | Pre-vote commercial intelligence brief | New proposal detected + 12h cycle | Ongoing |
 | [10. Moneyball Scouting Agent](#pattern-10) | Transfer target commercial ranking | On-demand (transfer window) | Per window |
+| [11. Post-Match Analysis Agent](#pattern-11) | Result → layers → FTP → plain-English brief | Full-time confirmed | Per match |
 
 ---
 

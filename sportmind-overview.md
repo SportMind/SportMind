@@ -2017,6 +2017,10 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.49 — Post-Match Agent (P11), Fan Brief (Prompt 21), demo scenarios
+Pattern 11: full post-match cycle, all layers connected, plain-English output.
+Prompt 21: fan-facing plain English brief. Demo: Arsenal real result + social signal.
+
 ### ✅ v3.48 — Governance Delegate (Pattern 9), Scouting Agent (Pattern 10), demo viz
 Pattern 9: pre-vote commercial brief (APS/LTUI/PHS per vote category).
 Pattern 10: transfer target ranking by CVS/FAS formula.

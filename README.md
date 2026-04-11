@@ -89,9 +89,9 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 
 ```
 42 sport domains · 29 athlete intelligence skills · 40 fan token skills
-42 market documents · 25 core frameworks · 7 agentic workflow patterns
-11 application blueprints · 7 starter pack examples · 47 compressed summaries
-20 agent prompts · 8 agentic workflow patterns · 126 calibration records (96% accuracy)
+42 market documents · 35 core frameworks · 10 agentic workflow patterns
+11 application blueprints · 7 starter pack examples · 66 compressed summaries
+20 agent prompts · 10 agentic workflow patterns · 126 calibration records (96% accuracy)
 6 recalibration reports · 26 named metrics (HAS, NCSI, ATM, FLS, KIS, CDI...)
 ```
 

@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.49.0] — 2026-04-11
+
+### Added
+- `examples/agentic-workflows/post-match-agent.md` — Pattern 11
+  Full post-match intelligence cycle connecting all five layers after a result.
+  Three time windows: T+0 (confirmation), T+2h (commercial signal), T+24h
+  (consolidation). Classifies result as EXPECTED_WIN, UNEXPECTED_WIN,
+  UNEXPECTED_LOSS, or DRAW. Connects macro → sporting result → athlete
+  performance → fan token commercial → FTP settlement → social signal →
+  plain-English brief → Memory MCP update. FTP Path 2 loss = supply neutral
+  (correctly modelled — no dilution). Calibration flag on unexpected results.
+  Real example: Arsenal 1-2 Bournemouth (11 April 2026) worked through in full.
+  Python implementation with classify_result(), get_signal_recommendation(),
+  run_post_match(). Connection map showing all 10 other patterns.
+
+- `agent-prompts/agent-prompts.md` — Prompt 21: Fan-facing pre-match brief
+  Translates SportMind five-layer intelligence into plain English for fan token
+  holders — no technical knowledge required. Five-section structure: The Match,
+  Key Signal, What to Check Before Kickoff, What it Means for the Token, One
+  Thing to Watch. Fan Token Play note included when active. Explicit tone guide:
+  conversational, honest about uncertainty, no jargon without explanation, no
+  financial advice. Example brief included using Arsenal vs Bournemouth context.
+  21 prompts total.
+
+- `examples/agentic-workflows/README.md` — Pattern 11 added to table
+
+### Changed
+- `sportmind.dev/demo.html` — two new scenarios added
+  post-match scenario: Arsenal 1-2 Bournemouth (11 Apr 2026). Real result,
+  unexpected loss classification, FTP Path 2 supply-neutral modelling, all
+  layers connected, plain-English brief output, calibration flag active.
+  social scenario: manager press conference signal. Media intelligence tier
+  classification, X API social volume, LunarCrush Galaxy Score, injury flag
+  detection, plain-English interpretation. 8 scenarios total.
+
 ## [3.48.0] — 2026-04-11
 
 ### Added
