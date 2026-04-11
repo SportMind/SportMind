@@ -2017,6 +2017,10 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.50 — Pre-Match Squad Intelligence, Prompt 22, demo build-up scenario
+pre-match-squad-intelligence.md: 7-step assembly, multi-sport decoder (7 sports).
+Prompt 22: full build-up agent. Demo: Arsenal squad brief with injury decoder.
+
 ### ✅ v3.49 — Post-Match Agent (P11), Fan Brief (Prompt 21), demo scenarios
 Pattern 11: full post-match cycle, all layers connected, plain-English output.
 Prompt 21: fan-facing plain English brief. Demo: Arsenal real result + social signal.

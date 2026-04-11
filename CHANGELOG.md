@@ -1,5 +1,42 @@
 # Changelog
 
+## [3.50.0] — 2026-04-11
+
+### Added
+- `core/pre-match-squad-intelligence.md` — squad intelligence assembly layer
+  The missing assembly layer connecting all squad, injury, press conference,
+  disciplinary, and social signals into one coherent pre-match brief.
+  Seven-step workflow: confirmed absences → doubtful (press conf) → fitness
+  curve adjustment → physical load → replacement quality delta → social signal
+  → assemble brief. Multi-sport manager language decoder: football (11 phrases
+  with probability ranges), NBA (Q/D/O/GTD system), NHL (morning skate protocol),
+  cricket (rest vs injury distinction), MMA/boxing (fight week language), rugby
+  (citing risk), tennis (retirement risk modifier). Squad brief output schema
+  with technical JSON and plain_english_summary. Sport priority table: when squad
+  intelligence matters most per sport. Full integration map to Patterns 2, 9, 10,
+  11 and Prompts 21, 22. Data source connections across all 7 sports covered.
+  Applies to all team and individual sports with squads, rosters, or fight cards.
+
+- `agent-prompts/agent-prompts.md` — Prompt 22: Pre-match build-up agent
+  Full pre-match build-up brief covering squad, team news, manager signals,
+  opponent context, social signal, and commercial implications. 8-section
+  structure: context → home squad → away squad → what manager said → social
+  signal → key matchup → token implications → one thing to check. Sport-specific
+  squad notes for football, NBA, NHL, cricket, MMA/boxing, rugby, tennis.
+  Explicit distinction from sportmind_pre_match (direction signal) — this prompt
+  is squad and context only. Loads 11-file skill stack in defined order.
+  22 prompts total.
+
+- `sportmind.dev/demo.html` — pre_match_buildup scenario added
+  Full squad status brief for Arsenal vs Bournemouth: confirmed absences
+  (Jesus ACL, Partey suspension), doubtful (Saka 50/50 with manager phrase
+  decoded), available_impaired (Rice return curve ×0.90), suspension_proximity
+  (Gabriel on 4 yellows), manager signals (Arteta decoded as cautious), social
+  signal (elevated Saka concern), composite squad modifier 0.84. 9 scenarios total.
+
+### Changed
+- `examples/agentic-workflows/README.md` — Prompt 22 reference added to Pattern 2
+
 ## [3.49.0] — 2026-04-11
 
 ### Added
