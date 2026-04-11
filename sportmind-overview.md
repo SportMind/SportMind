@@ -2017,6 +2017,12 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.46 — Skill discovery protocol and multi-agent context sharing
+platform/skill-discovery-protocol.md: DiscoveryContext + SkillDiscovery class,
+15 context signals, relevance scoring model, budget negotiation algorithm.
+core/multi-agent-context-sharing.md: signal authority model, 5 coordination rules,
+SharedContextManager, DSM flag propagation, FTP event propagation.
+
 ### ✅ v3.45 — Fan Token Play developer toolkit
 FanTokenPlayMonitor: pre-liquidation detection, post-match settlement, season supply.
 sportmind_sentiment_snapshot: supply_mechanics block with FTP status and agent rules.

@@ -1,5 +1,43 @@
 # Changelog
 
+## [3.46.0] — 2026-04-10
+
+### Added
+- `platform/skill-discovery-protocol.md` — dynamic context-aware skill selection
+  Replaces static bundle loading for agents handling variable query contexts.
+  Context signal taxonomy: 15 boolean/tiered signals across sport, token mechanics,
+  calendar, athlete, macro, and market dimensions. Relevance scoring model: base
+  scores by skill type + context signal bonuses + exclusion penalties. Token budget
+  negotiation algorithm across four tiers (full/standard/constrained/minimal).
+  Full Python implementation (SkillDiscovery class, DiscoveryContext dataclass,
+  DiscoveredStack output). Integration with sequential reasoning chain.
+  When-to-use guide: discovery vs static bundles. Connection to v4.0 verifiable
+  ML roadmap — context-tagged discovery runs are training data for a learned skill
+  selector. Solves: $AFC in August 2026 with Fan Token Play + transfer window active
+  loads 4+ skills that ftier1-football bundle misses entirely.
+
+- `core/multi-agent-context-sharing.md` — shared signal state between concurrent agents
+  Three failure modes addressed: signal contradiction (stale macro divergence),
+  redundant computation (two agents running identical analysis), context blindness
+  (DSM flag visible to one agent but not another). Signal authority model: Tier 1
+  global (macro, CHZ burn), Tier 2 per-token (pre-match signal, DSM flags, FTP status,
+  lifecycle phase), Tier 3 local (reasoning trace, session history). Five coordination
+  rules: macro read-before-analysis, signal ownership check, DSM flag propagation,
+  Fan Token Play event propagation, conflict resolution. SharedContextManager Python
+  class with Memory MCP backing store. DSM flag propagation immediately invalidates
+  any pending ENTER signal across all agents.
+
+### Notes
+- Skill discovery addresses the core scale problem: library grows to 481 files but
+  get_skill_files() still takes only sport + use_case as inputs. Discovery adds
+  13 context signals that dynamically adjust relevance scores and loading priority.
+- Multi-agent context sharing is prerequisite infrastructure for any deployment
+  with 2+ concurrent SportMind agents — portfolio monitor + pre-match agent is
+  the most common combination and previously had no coordination protocol.
+- Both documents connect to the verifiable ML roadmap: skill discovery runs
+  produce context-tagged calibration data; shared context produces consistent
+  signal attribution needed for training data quality.
+
 ## [3.45.1] — 2026-04-10
 
 ### Fixed
