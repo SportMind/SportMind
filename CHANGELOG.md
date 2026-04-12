@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.59.0] — 2026-04-12
+
+### Added
+- `core/transfer-negotiation-intelligence.md` — transfer negotiation framework
+  Four negotiation types: player contract renewal (6 phases from talks open to
+  departure confirmed, with LTUI modifier at each phase), incoming transfer
+  (6 phases from rumour to announcement including fee-agreed collapse at 10%
+  of deals), outgoing transfer (sell-vs-push signal, auction premium, sell-to-
+  rival discount), commercial partner negotiations (sponsor phases, CDI event
+  at announcement, commercial tier upgrade signal). Relocation Adjustment Factor
+  (RAF) formula: (lifestyle_disruption + league_gap) × age_factor — Middle East
+  move at prime age = 0.28 Year 1 modifier, Year 2 partial recovery, Year 3+ full.
+  Cross-sport: NBA free agency, cricket IPL/BBL short-format exception, F1 driver
+  market, MMA camp disruption. Negotiation failure signals: medical failure as
+  chronic injury reveal, fee collapse disappointment window, regulatory failure.
+  Connects to: core/star-departure-intelligence.md, core/squad-cohesion-intelligence.md,
+  core/athlete-motivation-intelligence.md, fan-token/transfer-signal/.
+
+- `core/match-condition-snapshot.md` — condition fingerprint schema
+  Extends calibration record format with a condition_snapshot block capturing
+  the full modifier state at prediction time: macro phase and modifier, competition
+  tier and event type, squad state (LQI, cohesion SCI, manager MgSI), motivation
+  context (active MI drivers), spatial context (formation, pressing system),
+  environmental context (weather, congestion, crowd), fan token state (lifecycle
+  phase, FTP path, LTUI trajectory), active trend phases, negotiation context.
+  Condition Similarity Score (CSS) formula: weighted across 7 components,
+  returns 0.0–1.0, no external database required — arithmetic loop over stored
+  JSON records. CSS ≥ 0.80 = strong match with confidence uplift (+3 SMS) or
+  caution (−5 SMS if SportMind was wrong). LOW_PRECEDENT flag when no record
+  above 0.40. Minimum viable snapshot (6 fields) for backward compatibility.
+  World Cup 2026 connection: every WC match is a snapshot capture opportunity —
+  the 2026 dataset will directly inform 2030 agents. Connects to: community/
+  calibration-data/, platform/memory-integration.md, Pattern 11 post-match agent.
+
+### Fixed
+- `sportmind.dev/agent.html` — three provider switching bugs
+  keyNote DOM: replaced brittle childNodes[0].textContent manipulation with
+  full innerHTML replacement — switching to OpenAI or Gemini now correctly
+  updates the note text and link. keyLink reference: removed detached node
+  updates that silently failed after innerHTML replace. Gemini SSE parser:
+  handle array-wrapped chunk format in addition to direct object format.
+  Unified error message extraction across all three providers.
+
+### Changed
+- `WHO-WE-ARE.md` — 539→541 files, 60→61 version cycles, v3.58→v3.59
+- `README.md` — 43→45 core frameworks (both references)
+- `platform/sportmind-mcp-server.md` — version v3.58→v3.59
+
 ## [3.58.0] — 2026-04-12
 
 ### Added
