@@ -1,5 +1,46 @@
 # Changelog
 
+## [3.57.0] — 2026-04-12
+
+### Added
+- `core/athlete-motivation-intelligence.md` — unified motivation framework
+  Five driver categories: contract/financial (contract year ×1.12, release
+  clause proximity, wage dispute), career milestones (career record ×1.18,
+  seasonal ×1.12, club ×1.06, post-milestone dip ×0.97), competitive context
+  (elimination ×1.12, relegation battle, title decider, ranking pressure,
+  home crowd), personal narrative (revenge, farewell ×1.20, return from injury,
+  personal difficulty — uncertainty flag not direction), career stage (5 stages
+  as amplifier: emerging ×1.15 on drivers → veteran ×0.70 on contract drivers,
+  ×1.30 on legacy). Motivation Index (MI) 0.70–1.30 mapping to modifier
+  0.88–1.18. Anti-stacking rule: never apply multiple desperation modifiers.
+  Output schema with plain_english field. Connects to: core/core-narrative-momentum.md,
+  core/athlete-financial-intelligence.md, core/squad-cohesion-intelligence.md.
+
+- `core/squad-cohesion-intelligence.md` — squad cohesion intelligence
+  Squad Cohesion Index (SCI): manager alignment (×0.30) + leadership quality
+  (×0.25) + recent disruption inverse (×0.25) + cultural continuity (×0.20).
+  SCI 80–100 = ×1.10; SCI 0–19 = ×0.88. Tier 1/2/3 signal classification
+  with noise rules. Five cohesion scenarios with modifiers: new manager phases,
+  post-transfer-window disruption, DSM events, leadership vacuum, bad run.
+  Fan token connections: LTUI stability, FTP PATH_2 win probability (SCI 80+
+  = ×1.02 uplift; SCI <40 = ×0.95 reduction), social engagement quality
+  classification. Cross-sport: football, NBA, cricket (Test), rugby.
+
+- `core/spatial-game-intelligence.md` — spatial game intelligence
+  Football: pressing system modifiers (PPDA-based), low block/high line
+  implications, set piece aerial dominance framework. Basketball: floor spacing
+  and LQI connection (absent shooter → interior star LQI ×0.88), paint
+  dominance, transition pace. Ice hockey: zone entry strategy, line matching
+  home ice amplification, power play spatial signal. Rugby: territorial control,
+  gain line, set piece platform. Scouting connection: SPATIAL_SYSTEM_FIT
+  modifier for Pattern 10 CVS calculation (HIGH FIT ×1.08, LOW FIT ×0.88).
+  Output schema with matchup modifiers and LQI spatial adjustments.
+
+### Changed
+- `WHO-WE-ARE.md` — 536→539 files, 59→60 version cycles, v3.56→v3.57
+- `README.md` — 40→43 core frameworks (both lines)
+- `platform/sportmind-mcp-server.md` — version v3.56→v3.57
+
 ## [3.56.0] — 2026-04-12
 
 ### Changed
