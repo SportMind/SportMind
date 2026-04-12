@@ -1192,3 +1192,36 @@ WHY IT MATTERS: verifiable provenance → on-chain signal markets → DeFi colla
 
 
 *MIT License · SportMind · sportmind.dev*
+
+## [COMPRESSED] Perceptual-Pressure Intelligence (PPI)
+
+```
+PPI = (clutch_record×0.35) + (high_stakes_history×0.30) + (experience_depth×0.20) + (recovery_rate×0.15)
+SCALE: 80-100=Elite(×1.15) | 65-79=Strong(×1.08) | 50-64=Adequate(×1.00) | 35-49=Vulnerable(×0.93) | <35=Fragile(×0.86)
+ELITE SIGNALS: Final-frame win rate >70% (snooker), Q4 passer rating >95 (NFL), major win rate >25% (golf/tennis).
+KEY RULE: First appearance at iconic venue (Crucible, Ally Pally, Wembley final) → uncertainty flag. Never assume elite PPI.
+FAN TOKEN: Elite PPI player = reduced LTUI volatility. Fragile PPI = amplified negative signal on shock loss.
+Full skill: core/perceptual-pressure-intelligence.md
+```
+
+## [COMPRESSED] Game Tempo Intelligence (TCM)
+
+```
+TCM formula: (pace_advantage×0.35) + (transition_speed×0.25) + (set_piece_dependency_inv×0.20) + (congestion_factor×0.20)
+BASKETBALL: Pace >103 possessions/48min = tempo team. Against slow opponent: ×1.06. B2B: ×0.93 (pace first to go).
+CRICKET: DLS scenario = tempo disruption — reload signal. Over-rate <13/hr = slow team, affects last-over pressure.
+FOOTBALL: High press PPDA <8 = tempo-forcing team. Second-half press decline at 60min = away team tempo window.
+TENNIS: Serve+1 pattern (deliberate pace) vs baseline grinder = tempo mismatch. Advantage: server on fast surfaces.
+Full skill: core/game-tempo-intelligence.md
+```
+
+## [COMPRESSED] Athlete Decision Intelligence (DQI)
+
+```
+DQI = (chance_creation_xA×0.30) + (possession_decision×0.25) + (shot_selection×0.25) + (defensive_anticipation×0.20)
+SCALE: 85-100=Elite(×1.12) | 70-84=Strong(×1.06) | 55-69=Good(×1.00) | 40-54=Average(×0.95) | <40=Poor(×0.88)
+SCOUTING: DQI feeds directly into Pattern 10 CVS formula — elite DQI adds ×1.08 to role-appropriate positions.
+KEY METRICS: xA ≥0.20/90 (midfielder), progressive passes ≥7/90, press resistance ≥65% pass completion under pressure.
+ANTI-TRAP: Assists count ≠ DQI. High assists + low xA = dependent on teammates finishing. Use xA only.
+Full skill: core/athlete-decision-intelligence.md
+```

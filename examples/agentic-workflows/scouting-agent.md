@@ -416,3 +416,7 @@ FEEDS INTO:
 *SportMind v3.47 · MIT License · sportmind.dev*
 *See also: app-09-talent-scouting.md · fan-token/transfer-signal/*
 *core/athlete-financial-intelligence.md · examples/agentic-workflows/README.md*
+
+*core/athlete-decision-intelligence.md (DQI feeds CVS — chance creation and shot selection)*
+*core/perceptual-pressure-intelligence.md (PPI for high-pressure role weighting)*
+*core/game-tempo-intelligence.md (TCM for system fit)*

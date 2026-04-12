@@ -1,5 +1,64 @@
 # Changelog
 
+## [3.62.0] — 2026-04-12
+
+### Added
+- `fan-token/fan-holder-profile-intelligence.md` — Fan Holder Profile Intelligence
+  Four holder archetypes: Loyalist (long-term, identity-driven, low crypto-sophistication),
+  Speculator (price-driven, high TVI, short hold), Governor (governance-motivated,
+  high vote participation), Amplifier (social-status driven, KOL-correlated).
+  Detection via on-chain patterns: wallet age, TVI ratio, governance participation,
+  social correlation. Community Health Index (CHI): loyalist_share×0.35 +
+  governance_participation×0.25 + retention×0.25 + organic_volume×0.15.
+  CHI 75+ = healthy; <40 = fragile (LTUI at risk). Churn Risk Score (CRS):
+  price_underperformance, governance_quality_decline, membership_devaluation,
+  community_fracture — the last directly from Ante et al. (2025) German football
+  expert interviews. Personalisation triggers by archetype. FTP PATH_2 connection:
+  Loyalist-majority community compounds long-term scarcity value from burn cycles.
+
+- `platform/fraud-signal-intelligence.md` — Fraud Signal Intelligence
+  Six attack types: wash trading, coordinated wallet accumulation (Sybil-adjacent),
+  pre-event pump and dump, undisclosed paid KOL promotion, governance capture,
+  MEV/sandwich liquidity pool manipulation. Manipulation Risk Score (MRS 0–100):
+  TRUST (<25), CAUTION (25–49), SUSPECT (50–74, downgrade to WAIT), COMPROMISED
+  (75+, ABSTAIN). Python detection class with per-attack scoring. FTP PATH_2 rule:
+  do not apply WIN burn modifier at full weight if MRS ≥ 50. MRS decay rule:
+  SUSPECT → CAUTION after 7 days clean; COMPROMISED requires manual review.
+
+- `core/tactical-matchup-intelligence.md` — Tactical Matchup Intelligence
+  Tactical Matchup Advantage Score (TMAS: -15 to +15, applied directly to SMS).
+  Four dimensions: systemic mismatch (-6 to +6, system pairing advantages),
+  personnel exploitation (-5 to +5, physical/pace mismatches), set piece
+  differential (-3 to +3), transition asymmetry (-3 to +3). Football, basketball,
+  hockey, rugby all covered. Worked example: Arsenal vs PSG UCL — TMAS +7 with
+  Saka, +5 without. Connects to Pattern 10 CVS system fit assessment.
+
+- `examples/agentic-workflows/live-match-agent.md` — Pattern 12: Live Match Agent
+  Pre-match prior + live event updates = adaptive signal. Event modifier framework:
+  goal (+5/+10 or -8), red card (±12, provisional ×0.82 during VAR review), key
+  injury (-8 to -2 by ATM tier), half-time reload, VAR reversal handling.
+  LiveMatchAgent Python class with process_event() and get_current_signal().
+  FTP live rules: do not adjust PATH_2 intra-match; wait T+15 post-WIN for
+  algorithmic rebalancing before applying burn modifier. Free/paid live data
+  sources documented. Fraud check at full-time rule.
+
+### Changed
+- `core/core-officiating-intelligence.md` — VAR/technology-assisted officiating
+  Full section added: VAR league coverage (UCL/EPL/etc.), provisional modifier
+  ×0.70 during VAR review, penalty overturn rate ~15%, automated offside (SAOT),
+  goal-line technology. Rugby TMO: ×0.82 provisional, 12–18% overturn rate.
+  Tennis Hawk-Eye and cricket DRS. Emerging AI judging in MMA noted.
+
+- `fan-token/defi-liquidity-intelligence/defi-liquidity-intelligence.md`
+  Section 10 added: algorithmic market feedback from burn events. T+0 to T+15
+  = AMM rebalancing + arbitrage bots (NOT organic demand). T+15+ = genuine signal.
+  Liquidity depth effect: TVL <$100k reduces WIN modifier weight 30%.
+  Burn signal classification: genuine / algorithmic / manipulated.
+
+- `WHO-WE-ARE.md` — 544→548 files, 62→63 version cycles, v3.61→v3.62
+- `README.md` — 48→50 core frameworks
+- `platform/sportmind-mcp-server.md` — v3.61→v3.62
+
 ## [3.61.0] — 2026-04-12
 
 ### Added
@@ -45,6 +104,9 @@
 - `WHO-WE-ARE.md` — 541→544 files, 61→62 version cycles, v3.60→v3.61
 - `README.md` — 45→48 core frameworks
 - `platform/sportmind-mcp-server.md` — v3.60→v3.61
+- `compressed/README.md` — three new compressed entries: PPI, TCM, DQI
+- `core/pre-match-squad-intelligence.md` — added refs to PPI/TCM/DQI
+- `examples/agentic-workflows/scouting-agent.md` — added DQI/PPI refs
 
 ## [3.60.0] — 2026-04-12
 

@@ -426,6 +426,70 @@ DEVELOPER BUILD PRIORITIES (DeFi context):
 
 ---
 
+## 10. Algorithmic market feedback — how automated systems respond to burn events
+
+```
+WHAT THIS COVERS:
+  When a PATH_2 WIN burn is confirmed on-chain, the supply reduction is real
+  and permanent. But the market price response is mediated by automated
+  systems — market makers, arbitrage bots, and liquidity rebalancers — before
+  human traders can act. Understanding this layer prevents agents from
+  over-interpreting the immediate post-burn price movement.
+
+THE AUTOMATED RESPONSE SEQUENCE (T+0 to T+30 minutes post-WIN):
+
+  T+0 — Burn confirmed on-chain:
+    Transaction visible on Chiliscan. Total supply decreases.
+    Smart wallets monitoring contract events detect this first.
+    
+  T+0 to T+5 — Automated market maker (AMM) rebalancing:
+    If token is in a liquidity pool (KAYEN/Uniswap-compatible):
+    AMM automatically adjusts pool ratio to reflect reduced supply.
+    Price increases algorithmically without any human buying.
+    This is NOT organic demand — it is mechanical pool rebalancing.
+    
+  T+5 to T+15 — Arbitrage bots:
+    Price difference between DEX (post-rebalance) and CEX (Binance/Bybit):
+    Arbitrage bots buy on lower-priced exchange, sell on higher.
+    This closes the spread but creates confusing volume signal.
+    Bot-driven arbitrage volume should NOT be counted as organic demand.
+    
+  T+15 to T+60 — Human market response:
+    Retail holders see Chiliscan notification or social media coverage.
+    First organic buying pressure begins.
+    This is the signal SportMind's commercial modifiers capture.
+
+AGENT IMPLICATIONS:
+
+  DO NOT apply the PATH_2 WIN modifier to the T+0 to T+15 price move.
+  That price move is algorithmic, not commercial signal.
+  
+  APPLY the WIN modifier starting from T+15 onward.
+  The sustained price above pre-match baseline after T+30 is the real signal.
+  
+  RULE: If price spikes immediately post-burn but reverts within 15 minutes,
+  this is likely AMM rebalancing + arbitrage, not genuine demand uplift.
+  
+  RULE: If price sustains above pre-match baseline at T+60, organic demand
+  signal is confirmed. Apply FTP WIN modifier at full weight.
+
+LIQUIDITY DEPTH EFFECT:
+  Low liquidity pools: algorithmic price impact is LARGER
+    (same burn creates bigger price move with less liquidity to absorb it)
+  High liquidity pools: algorithmic price impact is SMALLER
+    (burn absorbed across deeper pool; organic signal cleaner)
+  
+  Check: TVL before applying burn commercial modifier.
+  TVL < $100k: high algorithmic noise. Reduce WIN modifier weight by 30%.
+  TVL $100k–$1M: moderate noise. Reduce by 10%.
+  TVL > $1M: low noise. Full modifier applies.
+
+BURN SIGNAL CLASSIFICATION:
+  GENUINE COMMERCIAL SIGNAL: price sustained T+60, organic volume, TVL adequate
+  ALGORITHMIC REBALANCE ONLY: spike and revert within 15 min, no organic volume
+  MANIPULATED SIGNAL: wash trading detected (see platform/fraud-signal-intelligence.md)
+```
+
 ## Compatibility
 
 **Prerequisites:**
@@ -436,10 +500,11 @@ DEVELOPER BUILD PRIORITIES (DeFi context):
 **Closely related:**
 - `fan-token/blockchain-validator-intelligence/` — validator rewards as DeFi yield
 - `core/confidence-output-schema.md` — output schema (add DeFi flags)
+- `platform/fraud-signal-intelligence.md` — manipulation detection for DEX signals
 
 **Data sources:**
 - `core/data-sources.md` — Layer 3 on-chain sources section
 
 ---
 
-*MIT License · SportMind · sportmind.dev*
+*SportMind v3.62 · MIT License · SportMind · sportmind.dev*

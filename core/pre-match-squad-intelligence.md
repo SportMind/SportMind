@@ -545,6 +545,8 @@ DISCIPLINARY / SUSPENSION:
 ---
 
 *SportMind v3.49 · MIT License · sportmind.dev*
+*core/game-tempo-intelligence.md · core/athlete-decision-intelligence.md*
+*core/perceptual-pressure-intelligence.md*
 *See also: core/injury-intelligence/ · core/athlete-disciplinary-intelligence.md*
 *core/media-intelligence.md · platform/social-intelligence-connector.md*
 *core/core-fixture-congestion.md · core/verifiable-sources-by-sport.md*

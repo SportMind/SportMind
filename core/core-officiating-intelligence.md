@@ -275,6 +275,102 @@ AGENT RULE: If assigned official is unknown at time of analysis,
 
 ---
 
+## Technology-assisted officiating — VAR, Hawk-Eye, TMO
+
+```
+THE FUNDAMENTAL CHANGE:
+  Technology-assisted officiating does not remove human bias — it changes
+  WHERE bias operates and WHEN commercial signals are confirmed.
+  
+  WITHOUT TECHNOLOGY:
+    Controversial red card → immediate commercial event (confirmed in-match)
+    CDI event fires at match time
+    
+  WITH VAR / TMO:
+    Controversial red card → PROVISIONAL commercial event (unconfirmed)
+    Review period: 2–8 minutes of uncertainty
+    Outcome A (upheld): CDI event confirmed, delayed
+    Outcome B (overturned): CDI event cancelled, signal reversal
+
+LEAGUE-LEVEL VAR PRESENCE:
+  
+  VAR ACTIVE (as of 2026):
+    UEFA Champions League, Europa League, Conference League
+    Premier League, Bundesliga, La Liga, Serie A, Ligue 1
+    MLS, Brazilian Série A
+    FIFA World Cup, UEFA Euros
+    
+  NO VAR (significant leagues):
+    Championship (England), League One/Two
+    Scottish Premiership
+    Eredivisie (Netherlands) — VAR introduced then paused
+    Many lower-tier European leagues
+    
+  AGENT RULE: Always check whether VAR is active in the competition being
+  analysed. The officiating modifier applies differently per league.
+
+HOW VAR CHANGES THE OFFICIATING MODIFIER:
+
+  CARD EVENTS WITH VAR:
+    First 3 minutes post-decision: apply provisional modifier only (×0.70)
+    After VAR upholds: full modifier applies
+    After VAR overturns: reverse modifier, flag CDI_REVERSAL
+    
+  PENALTY DECISIONS WITH VAR:
+    Penalty awarded: treat as provisional until VAR completes
+    Expected VAR review duration: 90–180 seconds
+    Overturn rate for penalties (EPL data): ~15% of reviewed penalties reversed
+    Apply: ×0.85 provisional modifier until confirmed
+    
+  OFFSIDE DECISIONS (automated offside lines):
+    Semi-automated offside (SAOT) in UCL/World Cup:
+    No review delay — decision made at same speed as play
+    Marginal offside calls will now be confirmed faster
+    Commercial signal: no change to timing, but accuracy increases
+    
+  GOAL-LINE TECHNOLOGY:
+    No review delay. Decision instant. Signal fires immediately.
+    Overrides all other decision uncertainty.
+
+SPORTS WITH TMO (Rugby Union / League):
+    
+  TMO REVIEW CHARACTERISTICS:
+    Duration: 3–10 minutes for complex decisions
+    Try awarded → commercial event provisional for duration of TMO
+    TMO overturn rate: approximately 12–18% of reviewed decisions
+    Apply: ×0.82 provisional modifier during TMO review
+    After TMO decision: full modifier applies or reversal
+    
+  YELLOW/RED CARD REVIEWS:
+    Rugby citing (post-match): CDI event confirmed in-match but can be
+    extended post-match. See core/post-match-signal-framework.md.
+
+MMA INSTANT REPLAY:
+  Post-fight instant replay review (rare, judges overriding):
+  Apply uncertainty flag until result confirmed.
+  Duration: typically resolved within 30 minutes of bout end.
+
+HAWK-EYE CHALLENGE SYSTEM (Tennis, Cricket):
+  
+  TENNIS:
+    Line challenge: 30-second delay. Overturn rate ~28%.
+    Apply: provisional hold on point-sequence-dependent signal during review.
+    Commercial implication: very low (individual points rarely move token signals)
+    
+  CRICKET (DRS — Decision Review System):
+    Umpire decision reviewed on appeal.
+    Key wickets: wicket of star player → apply provisional ×0.80 until DRS completes
+    Overturn rate for LBW DRS appeals: ~30% successful.
+    
+ALGORITHMIC OFFICIATING (emerging, 2026+):
+  AI-assisted judge systems being trialled in MMA (UFC) and boxing.
+  If AI scoring replaces or supplements human judges:
+    Judge-bias modifier from MMA section REDUCES in weight
+    Shot accuracy and compuStrike data becomes primary signal
+    Current status: advisory only (no competitions with binding AI judging yet)
+    Monitor: UFC, WBO announcements on AI judging programme
+```
+
 ## Contribution guidance
 
 Officials statistics are available publicly for most major sports. Contributors with
@@ -282,4 +378,5 @@ access to structured officiating databases can calibrate the modifier ranges abo
 with historical validation. The current ranges are based on documented tendency
 analysis but are not ML-calibrated (v3.0 roadmap item).
 
-*MIT License · SportMind · sportmind.dev*
+*SportMind v3.62 · MIT License · SportMind · sportmind.dev*
+*See also: core/tactical-matchup-intelligence.md · core/post-match-signal-framework.md*
