@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.61.0] — 2026-04-12
+
+### Added
+- `core/perceptual-pressure-intelligence.md` — Pressure Performance Index
+  PPI (0–100) → modifier 0.88–1.18. Four components: Clutch Record (35%) —
+  sport-specific clutch stats (penalty conversion, tiebreak win rate, final
+  frame record, NBA clutch +/-); High-Stakes History (30%) — Tier A/B/C
+  performance vs career average, small sample caveat and redistribution rule;
+  Experience Depth (20%) — cognitive benefit of high-pressure exposure,
+  debut effect as variance inflator not directional modifier, pressure scar
+  flag for 3+ Tier A failures; Recovery Rate (15%) — bounce-back pattern
+  after negative in-match events, most useful for live analysis. Sport baselines:
+  football (FBref clutch data), tennis (tiebreak differential), snooker
+  (Crucible record), darts (Ally Pally record), MMA (championship round rate),
+  F1 (qualifying variance). FTP connection: PPI_premium on CVS scouting score
+  (±7.5 points); win probability uplift for high-PPI starting XI in UCL/major finals.
+
+- `core/game-tempo-intelligence.md` — Tempo Context Modifier (TCM: 0.90–1.12)
+  Three dimensions: pace (possessions/speed), rhythm (system consistency),
+  momentum (directional flow). Basketball: pace bands, mismatch signal,
+  half-court rhythm disruption, playoff tempo discount (−30% on pace modifiers).
+  Cricket: session rhythm (morning ×0.94 batting, evening reverse swing ×1.04),
+  T20 death bowling specialist signal, partnership momentum reset window.
+  Football: pressing tempo second-half decay (×0.96 after 70 min for high-press
+  teams), transition speed mismatch. Ice hockey: line matching home ice
+  amplification, shift tempo and fatigue. Tennis: serve+1 vs rally tempo by
+  surface, break-back momentum pattern. Anti-stacking rule: TCM + spatial
+  modifier combined cap at ×1.10.
+
+- `core/athlete-decision-intelligence.md` — Decision Quality Index (DQI: 0–100)
+  → modifier 0.90–1.15. Four components: Chance Creation Quality (30%) — xA/90
+  vs position average (FBref); Possession Decision (25%) — pressured pass
+  completion%, progressive action rate; Shot Selection (25%) — xG/shot, TS%
+  for basketball; Defensive Anticipation (20%) — interception rate vs reactive
+  tackle ratio. LQI integration: DQI_modifier multiplies base player rating
+  contribution. Pattern 10 connection: DECISION_QUALITY_UNDERVALUED flag when
+  DQI > 75 but market value below position average — adds 8–12 points to CVS.
+  System fit: high-DQI player in high-decision-demand system (positional play,
+  pick-and-roll) = amplified value. Cross-sport: football/basketball/hockey/
+  cricket/tennis; not applicable to athletics, swimming, individual timed events.
+
+### Changed
+- `WHO-WE-ARE.md` — 541→544 files, 61→62 version cycles, v3.60→v3.61
+- `README.md` — 45→48 core frameworks
+- `platform/sportmind-mcp-server.md` — v3.60→v3.61
+
 ## [3.60.0] — 2026-04-12
 
 ### Fixed
