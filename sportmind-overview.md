@@ -2017,6 +2017,11 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.54 — Sports Trend Intelligence, GFR integration, trend demo
+core/sports-trend-intelligence.md: 3 categories, 4 phases, 8 active trends.
+GFR opponent quality weighting added to verifiable sources.
+Demo: Saudi Pro League Phase 2 trend across all five layers.
+
 ### ✅ v3.53 — API connector examples, api-providers expansion, odds divergence demo
 5 new connectors (MMA, cricket, NBA, NHL, Odds API). api-providers expanded.
 Demo: odds divergence scenario — SportMind vs market structural edge.

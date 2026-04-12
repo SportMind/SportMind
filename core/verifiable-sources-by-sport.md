@@ -67,6 +67,11 @@ Rule: If a source cannot be named, the claim cannot be used as a signal input.
 - **European:** UEFA referee appointments page
 - **FootyStats:** footystats.org/referees — historical referee stats
 
+### Team and league strength (Elo ratings)
+- **Global Football Rankings (GFR):** globalfootballrankings.com — True Elo ratings (0–100) for teams and leagues across 75 competitions, updated weekly. Use for opponent quality weighting in H2H analysis (core/historical-intelligence-framework.md) and commercial tier context (core/sports-trend-intelligence.md).
+- **Club Elo:** clubelo.com — simple Elo ratings for top European club football. Free, well-maintained.
+- **FIFA World Rankings:** fifa.com/ranking — official international team rankings. Use for national team H2H quality weighting.
+
 ### Odds and market
 - **Sharp reference:** Pinnacle (pinnacle.com)
 - **Historical odds:** Oddsportal (oddsportal.com)

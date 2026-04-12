@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.54.0] — 2026-04-11
+
+### Added
+- `core/sports-trend-intelligence.md` — trend intelligence framework
+  Three trend categories: sport-level commercial trajectory (rising/
+  maturing/declining), ecosystem trends (Chiliz/RWA/fan token shifts),
+  competitive structure trends (new leagues, player migration, format changes).
+  Four phase model: emergence (×0.50 modifier) → acceleration (×1.00) →
+  maturation (×0.30) → reversal/plateau (remove). Active trends inventory:
+  8 active trends across Tier A (high impact) and Tier B (moderate), plus
+  Tier C watch list. Current Tier A trends: women's football commercial
+  ascent (Phase 2), Saudi Pro League player migration (Phase 2), Fan Token
+  Play Path 2 expansion (Phase 1), MiCA regulatory clarity (Phase 2).
+  Trend detection signals: broadcast deals, governing body digital
+  announcements, viewership trajectory, marquee player migration, Chiliz
+  announcements, regulatory developments. Trend output schema with
+  composite_trend_modifier, trend_context_for_brief, and watch_list.
+  GFR opponent quality weighting: how globalfootballrankings.com Elo
+  ratings modify H2H win weight in historical-intelligence-framework.md.
+  Equivalent rating sources by sport (clubelo, FIFA, ATP/WTA, UFC, NBA SRS,
+  ICC). Integration with Patterns 1/2/11 and Prompts 21/22.
+
+- `core/verifiable-sources-by-sport.md` — football section expanded
+  New "Team and league strength" subsection: GFR (globalfootballrankings.com),
+  Club Elo (clubelo.com), FIFA World Rankings — each with use case and
+  connection to historical-intelligence-framework.md.
+
+### Changed
+- `sportmind.dev/demo.html` — trend intelligence scenario (12th scenario)
+  Saudi Pro League T-02 trend assessment: Phase 2 acceleration confirmed,
+  why_trending block (PIF investment, 8 top-50 players), all three layer
+  impacts (L4 market tier ×1.25, L2 APS ×0.85, L1 fixture weight ×1.15),
+  GFR Elo growth data (+21 points in 3 seasons), watch list.
+
 ## [3.53.0] — 2026-04-11
 
 ### Added
