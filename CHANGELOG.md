@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.60.0] — 2026-04-12
+
+### Fixed
+- `sportmind.dev/agent.html` — complete rebuild fixing provider switching
+  Root cause: `const I` (theme icon variable) was declared AFTER the
+  `switchProvider('anthropic')` init call in the same script block.
+  JavaScript `const` is not hoisted — the redeclaration caused a
+  SyntaxError that silently killed everything below it in the script,
+  including tab click handlers. OpenAI and Gemini tabs appeared to do
+  nothing because their event listeners never ran. Fix: THEME code moved
+  to a self-contained IIFE that runs immediately; all app code moved into
+  a single `DOMContentLoaded` listener that fires after the DOM is ready
+  and all refs are safely available.
+
+### Added (agent.html)
+- Groq provider — api.groq.com/openai (OpenAI-compatible). Models:
+  Llama 3.3 70B, Llama 3.1 8B, Mixtral 8x7B, Gemma 2 9B. Fast inference,
+  free tier available.
+- Mistral provider — api.mistral.ai/v1. Models: Mistral Large, Small, 7B.
+- Custom endpoint — any OpenAI-compatible API (LM Studio, Ollama, Together
+  AI, Fireworks, Anyscale). Developer supplies endpoint URL and model name.
+  Covers any provider not listed explicitly.
+- Tab click now uses event delegation on the container (not forEach) —
+  more robust across all browsers.
+
 ## [3.59.0] — 2026-04-12
 
 ### Added
@@ -47,6 +72,12 @@
 - `WHO-WE-ARE.md` — 539→541 files, 60→61 version cycles, v3.58→v3.59
 - `README.md` — 43→45 core frameworks (both references)
 - `platform/sportmind-mcp-server.md` — version v3.58→v3.59
+- `sportmind.dev/index.html` — Skill files stat corrected: 536→541
+- `sportmind.dev/docs.html` — Total files 536→541, Markdown 335→340,
+  core/ 40→46, examples/ 33→39. Five stale counts corrected post-release.
+  Root cause: `examples/` layer was not in automated drift monitoring;
+  `core/` accumulated across v3.57–v3.59 without per-release check.
+  Fixed by adding both to the website quality check and known-drift table.
 
 ## [3.58.0] — 2026-04-12
 
