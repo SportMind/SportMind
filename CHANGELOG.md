@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.58.0] — 2026-04-12
+
+### Added
+- `sportmind.dev/agent.html` — SportMind Agent Prototype
+  Browser-based live agent powered by Claude Sonnet via the Anthropic API.
+  Zero setup — developers bring their own API key (stored in memory only,
+  never transmitted to any server except Anthropic directly). Six preset
+  scenarios with one-click triggers: PSG vs Arsenal UCL pre-match (full
+  five-layer analysis), Mumbai vs CSK IPL evening T20 (dew factor, India
+  rule), UFC title fight weight cut signals (weigh-in as primary event),
+  Arsenal $AFC FTP PATH_2 cycle (pre-liquidation, WIN burn, LOSS neutral),
+  F1 qualifying delta (Monaco, wet weather), star departure AELS void
+  (Saka to Real Madrid, supply mechanics). Custom query input for any
+  sports intelligence question. Full conversation history with follow-up
+  questions. Streaming output with live cursor. Token counter per session.
+  System prompt embeds 9 compressed SportMind skills (~900 tokens of
+  domain context). Six-step reasoning chain enforced. ENTER/WAIT/ABSTAIN
+  output enforced. Agent boundary enforced ("SportMind does not execute
+  trades, submit governance votes, or make financial commitments").
+  Dark/light mode matching existing site. Nav link added to all three
+  existing pages.
+
 ## [3.57.0] — 2026-04-12
 
 ### Added
