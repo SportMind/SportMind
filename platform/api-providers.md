@@ -161,21 +161,49 @@ Notable sports APIs on RapidAPI:
 
 ### Sport-specific providers
 
-**Cricket — ESPNcricinfo / Cricbuzz**
+**Cricket — recommended stack**
 ```
-ESPNcricinfo API: No official public API — use web scraping carefully
-                  or Sportmonks Cricket (sportmonks.com/cricket-api)
-Sportmonks Cricket:
-  Free tier:     Limited — trial available
-  Paid:          from €29/month
-  Coverage:      International + IPL + all major T20 leagues
-  Best for:      Format-specific stats, pitch conditions, DLS scenarios
-  
-Cricbuzz: No official public API — community wrappers exist on RapidAPI
-  https://rapidapi.com/cricketapilive/api/cricbuzz-cricket
+CricketData.org:
+  URL:      https://cricketdata.org
+  Cost:     Free tier: 100 req/day | Paid: from $10/month
+  Coverage: International + IPL + BBL + The Hundred + all major leagues
+  Key endpoints:
+    /matches?apikey={key}&offset=0           → upcoming matches
+    /currentMatches?apikey={key}             → live matches
+    /series?apikey={key}                     → active series
+    /players?apikey={key}&search={name}      → player search
+  SportMind fit: Toss data, pitch conditions, playing XI, squad changes
+                 Maps to: athlete/cricket/athlete-intel-cricket.md
 
-For SportMind cricket agents: Sportmonks is the recommended paid option.
-Free option: ESPNcricinfo Statsguru (manual query, not API).
+Cricbuzz (via RapidAPI — community wrapper):
+  URL:      https://rapidapi.com/cricketapilive/api/cricbuzz-cricket
+  Free:     100 requests/day
+  Best for: Live scores, squad news, match commentary (detect DLS triggers)
+  Key endpoints (RapidAPI path):
+    /mcenter/v1/{matchId}/comm              → live commentary
+    /series/v1/{seriesId}/squads/{teamId}   → confirmed squad
+  SportMind fit: T-0 squad confirmation, DLS weather interruption signal
+
+Sportmonks Cricket:
+  URL:      https://sportmonks.com/cricket-api
+  Paid:     from €29/month
+  Best for: Batter vs bowler H2H stats (the most valuable signal in cricket)
+  Key endpoint:
+    /cricket/fixtures/{fixtureId}/scorecard → full scorecard with batter/bowler splits
+  SportMind fit: athlete/cricket/athlete-intel-cricket.md get_batter_vs_bowler
+
+ESPNcricinfo Statsguru:
+  URL:      https://stats.espncricinfo.com/ci/engine/stats/index.html
+  Cost:     Free (manual query only — no API)
+  Best for: Deep historical batter vs bowler records
+  Use with: Fetch MCP for specific player matchup lookups
+  
+Key signals for SportMind cricket agents:
+  1. Toss result:             CricketData.org /currentMatches → toss winner
+  2. Playing XI:              Cricbuzz squad endpoint → confirmed T-0
+  3. Dew factor:              Open-Meteo humidity at venue (see Weather below)
+  4. Batter vs bowler H2H:    Sportmonks or manual Statsguru lookup
+  5. Pitch report:            Commentary via Cricbuzz → detect "spin-friendly" cues
 ```
 
 **Rugby Union — SportRadar**
@@ -214,32 +242,129 @@ OpenF1 API:
   Best for: Real-time race weekend data (practice, qualifying, race)
 ```
 
-**MMA — UFC Stats API**
+**MMA / UFC — recommended stack**
 ```
-UFC Stats (unofficial):
-  URL:      https://ufcstats.com (scrape carefully)
-  RapidAPI: Search "UFC" on rapidapi.com — several wrappers available
-  Coverage: All UFC fight history, fighter stats, fight results
-  
-  For SportMind: fighter strike rate, takedown accuracy, finishing tendency
-  are all available via UFC Stats data.
-  
-Official UFC API: Not publicly available. UFC Stats is the de facto standard.
+UFC Stats (ufcstats.com):
+  URL:      http://ufcstats.com/statistics/events/completed
+  Cost:     Free (scrape or use wrapper)
+  Coverage: All UFC fight history, fighter stats, results
+  Endpoints (via RapidAPI wrappers):
+    Fighter profile: /fighter-details/{fighter_id}
+    Event results:   /event-details/{event_id}
+    Fight stats:     /fight-details/{fight_id}
+  SportMind fit: Strike rate, takedown accuracy, finishing tendency
+                 → maps to core/injury-intelligence/injury-intel-mma.md
+                 → fight camp signals, weight cut history
+
+Best RapidAPI wrapper (stable as of 2026):
+  https://rapidapi.com/api-sports/api/api-mma
+  Free tier: 100 requests/day
+  Paid:      from $9.99/month
+
+Tapology (tapology.com):
+  URL:      https://www.tapology.com (scrape or unofficial API)
+  Best for: Fighter records, opponent quality, betting lines history
+  RapidAPI: https://rapidapi.com/tapology/api/mma-fighters
+  SportMind fit: Opponent quality scoring for style matchup analysis
+                 → historical-intelligence-framework.md (MMA H2H section)
+
+Sherdog (sherdog.com):
+  URL:      https://www.sherdog.com
+  Best for: Deep fight history, amateur records, ranking history
+  No official API — use Fetch MCP for specific fighter pages
+  SportMind fit: Career stage and decline modelling (injury-intel-mma.md)
+
+Key signals for SportMind MMA agents:
+  1. Weight cut history:      Tapology fight page → pre-fight weight
+  2. Finishing rate:           UFC Stats → method of victory breakdown
+  3. Fight camp duration:      Sherdog → fight announcement date vs event
+  4. Style classification:     Manual from UFC Stats grappling/striking ratio
 ```
 
-**Basketball — NBA**
+**Basketball — NBA recommended stack**
 ```
-NBA Official API:
-  URL:      https://stats.nba.com (unofficial access — no key required)
-  Coverage: Full NBA stats, player tracking, advanced metrics
-  
-  Better option: balldontlie API
-  URL:       https://www.balldontlie.io
-  Free tier: 60 requests/minute
-  Coverage:  NBA stats, players, games, standings
+Official NBA injury report (Tier 1 — act on immediately):
+  URL:      https://www.nba.com/players/injuries
+  Cost:     Free — no API key required
+  Format:   Web page updated daily (Wednesday/Thursday for weekend games)
+  Designations: OUT (O), DOUBTFUL (D), QUESTIONABLE (Q), PROBABLE (P), GTD
+  Fetch:    Use Fetch MCP to parse injury report page at T-24h and T-2h
+  SportMind fit: Maps directly to core/pre-match-squad-intelligence.md
+                 NBA Q/D/O/GTD decoder section
 
-  SportMind fit: Load management status, on/off splits, injury reports
-                 all derivable from balldontlie + official NBA injury page.
+balldontlie API:
+  URL:      https://www.balldontlie.io
+  Free:     60 req/min
+  Coverage: Games, players, stats, standings, box scores
+  Key endpoints:
+    GET /v1/games?dates[]={YYYY-MM-DD}           → today's games
+    GET /v1/players?search={name}                → player lookup
+    GET /v1/stats?game_ids[]={id}&player_ids[]={id} → player stats
+  SportMind fit: On/off splits for star player → net_rating → LQI input
+                 (core/lineup-quality-index.md NBA section)
+
+NBA Stats API (unofficial, high detail):
+  URL:      https://stats.nba.com/stats/
+  Cost:     Free — no API key (unofficial access, respect rate limits)
+  Key endpoints:
+    /leaguegamefinder?LeagueID=00    → recent games
+    /boxscoreadvancedv3?GameID={id}  → advanced box score
+    /playerdashboardbygeneralsplits  → player splits (home/away, clutch)
+  Headers required:
+    Referer: https://www.nba.com
+    User-Agent: Mozilla/5.0 ...
+  SportMind fit: Net rating for LQI, clutch performance, rest days
+
+Key signals for SportMind NBA agents:
+  1. Injury designations:     nba.com/players/injuries → Q/D/O/GTD
+  2. Lineup:                  balldontlie /v1/games → starters (post tip-off)
+  3. Net rating:              NBA Stats /playerdashboard → for LQI calculation
+  4. Back-to-back flag:       balldontlie /v1/games → check previous day game
+  5. Load management:         Official injury report "REST" designation
+```
+
+**Ice Hockey — NHL morning skate stack**
+```
+NHL official data:
+  URL:      https://api-web.nhle.com/v1/ (unofficial — no key required)
+  Cost:     Free
+  Key endpoints:
+    /schedule/now                             → today's games
+    /club-schedule/{team}/week/now            → team schedule
+    /roster/{team}/current                    → current roster
+    /player/{playerId}/landing                → player profile + status
+  SportMind fit: Starting goaltender confirmation from morning skate
+                 (athlete/nhl/athlete-intel-nhl.md morning skate section)
+
+NHL injury reserve (official):
+  URL:      https://www.nhl.com/info/ir-list (IR/LTIR designations)
+  Fetch:    Use Fetch MCP to parse at T-24h
+  Designations:
+    IR   = Injured Reserve (minimum 7 days, retroactive allowed)
+    LTIR = Long-Term IR (minimum 24 days / 10 games)
+    DTD  = Day-to-Day (not on IR — monitor morning skate)
+  SportMind fit: core/pre-match-squad-intelligence.md NHL section
+
+Daily Faceoff (projected lineups):
+  URL:      https://www.dailyfaceoff.com/projected-lineups
+  Cost:     Free
+  Best for: Morning skate line combinations and defensive pairs
+  No API — use Fetch MCP at T-3h to T-1h on game day
+  SportMind fit: GK confirmation before morning skate is official
+
+Natural Stat Trick (advanced stats):
+  URL:      https://www.naturalstattrick.com
+  Cost:     Free
+  Best for: GSAx (Goals Saved Above Expected), 5-on-5 shot quality
+  No API — use Fetch MCP for specific game/player pages
+  SportMind fit: GSAx feeds directly into LQI goaltender rating
+
+Key signals for SportMind NHL agents:
+  1. Morning skate GK:        Daily Faceoff at T-3h → primary lineup signal
+  2. IR/LTIR status:          nhl.com IR list at T-24h
+  3. Goaltender GSAx:         Natural Stat Trick → LQI GK component
+  4. Back-to-back:            NHL API /schedule → check previous night game
+  5. Power play unit:         Daily Faceoff lineup page → PP1 specialist
 ```
 
 **Weather (cross-sport)**
@@ -583,6 +708,57 @@ External APIs used:
 
 ---
 
+## Odds and prediction markets
+
+```
+The Odds API (the-odds-api.com):
+  URL:      https://the-odds-api.com
+  Free:     500 requests/month
+  Paid:     from $0/month (usage-based: $0.002 per request above free tier)
+  Coverage: 40+ sports, 70+ bookmakers, live and upcoming markets
+  RapidAPI: https://rapidapi.com/theoddsapi/api/odds-by-api-football
+  
+  Key endpoints:
+    GET /v4/sports                              → list active sports
+    GET /v4/sports/{sport}/odds?regions=uk,eu   → pre-match odds for sport
+    GET /v4/sports/{sport}/scores               → live scores
+    GET /v4/sports/{sport}/events/{eventId}/odds → specific event odds
+  
+  Headers:
+    apiKey={key} (query param, not header)
+  
+  Sample sports keys:
+    soccer_epl         → Premier League
+    basketball_nba     → NBA
+    mma_mixed_martial_arts → MMA
+    cricket_ipl        → IPL
+    icehockey_nhl      → NHL
+  
+  Response structure:
+    {id, sport_key, commence_time, home_team, away_team,
+     bookmakers: [{key, title, markets: [{key, outcomes: [{name, price}]}]}]}
+  
+  SportMind fit:
+    → core/prediction-market-intelligence.md: divergence detection
+    → Convert decimal odds to probability: 1 / decimal_odds
+    → Compare SportMind direction vs market consensus
+    → Flag when SportMind SMS > 70 but market odds contradict signal
+
+Implied probability from odds:
+  Decimal 1.85 HOME → 1/1.85 = 0.541 = 54.1% implied probability
+  Decimal 3.40 AWAY → 1/3.40 = 0.294 = 29.4% implied probability
+  Overround = sum of all implied probs (usually 1.05–1.10 for typical books)
+  Remove overround: prob / sum_of_all_probs × 100
+
+When to use in SportMind agent chain:
+  CONFIRMING signal:  SportMind SMS ≥ 70, market odds agree → increase conviction
+  DIVERGENCE signal:  SportMind SMS ≥ 70, market odds strongly disagree →
+                      highest-value signal (SportMind may have structural edge)
+  LOW LIQUIDITY:      Market depth < $10k → ignore as signal input
+```
+
+---
+
 ## API rate limit reference
 
 | API | Free tier | Rate limit | Best for |
@@ -596,6 +772,13 @@ External APIs used:
 | Open-Meteo | Unlimited | Fair use | Weather (all sports) |
 | balldontlie | 60 req/min | 60/min | NBA advanced stats |
 | CoinGecko | 30 req/min | 30/min | Already in templates |
+| CricketData.org | 100 req/day | 10/min | Cricket squad + fixtures |
+| API-MMA (RapidAPI) | 100 req/day | 10/min | UFC fight history + stats |
+| NHL API (unofficial) | Unlimited | Fair use | NHL rosters + schedule |
+| nba.com (unofficial) | Unlimited | Low | NBA advanced box scores |
+| The Odds API | 500 req/month | 10/min | Multi-sport odds, divergence |
+| Daily Faceoff (Fetch) | Unlimited | Manual | NHL morning skate lineups |
+| Natural Stat Trick (Fetch) | Unlimited | Manual | GSAx for LQI GK rating |
 
 ---
 
@@ -611,6 +794,6 @@ copy-paste integration:
 
 ---
 
-*SportMind v3.35 · MIT License · sportmind.dev*
+*SportMind v3.52 · MIT License · sportmind.dev*
 *See also: platform/data-connector-templates.md · platform/realtime-integration-patterns.md*
 *platform/sequential-thinking-integration.md · platform/fetch-mcp-disciplinary.md*

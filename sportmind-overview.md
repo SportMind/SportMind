@@ -2017,6 +2017,10 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.53 — API connector examples, api-providers expansion, odds divergence demo
+5 new connectors (MMA, cricket, NBA, NHL, Odds API). api-providers expanded.
+Demo: odds divergence scenario — SportMind vs market structural edge.
+
 ### ✅ v3.52 — Agentic stack diagram, architecture visual, demo agent flow scenario
 index.html: "How it works" stack flow (5 rows, CSS only).
 docs.html: 6-band architecture diagram in Architecture section.

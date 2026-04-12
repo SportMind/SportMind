@@ -1,5 +1,43 @@
 # Changelog
 
+## [3.53.0] — 2026-04-11
+
+### Added
+- `platform/api-connector-examples.md` — five working connectors
+  Connector 4: MMA/UFC via API-MMA (RapidAPI) — fight card quality,
+  LQI fight_quality score, replacement flag detection, finishing rate.
+  Connector 5: Cricket via CricketData.org — squad/toss, dew risk
+  assessment (lat/lon + time → HIGH/MODERATE/LOW), format detection.
+  Connector 6: NBA injury report parser — Q/D/O/GTD → SportMind
+  availability modifiers, team-level modifier calculation, GTD check timing.
+  Connector 7: NHL morning skate via NHL API (unofficial) — goaltender
+  identification, GSAx-to-LQI conversion, back-to-back detection.
+  Connector 8: Odds divergence detector via The Odds API — Pinnacle-first
+  sharp market selection, overround removal, STRUCTURAL_EDGE/CONFIRMING/
+  MARKET_CONTRADICTS/NEUTRAL classification, SMS-to-implied-probability
+  mapping. Full wiring example: all five connectors + SportMind MCP in
+  one production pre-match chain.
+
+- `platform/api-providers.md` — five section expansions
+  MMA: API-MMA (RapidAPI), Tapology, Sherdog — fight camp duration,
+  weight cut history, finishing rate, style classification endpoints.
+  Cricket: CricketData.org endpoints, Cricbuzz RapidAPI wrapper with
+  actual paths, Sportmonks batter/bowler H2H endpoint, Statsguru guide.
+  NBA: Official injury report (Q/D/O designations), balldontlie endpoints,
+  NBA Stats API unofficial access pattern with required headers.
+  NHL: NHL API unofficial endpoints (roster, schedule, player landing),
+  Daily Faceoff for morning skate, Natural Stat Trick for GSAx.
+  Odds and prediction markets: The Odds API — free tier 500 req/month,
+  sport keys, response structure, overround removal formula, when to use
+  in SportMind agent chain vs when to ignore.
+  Rate limit table: 7 new APIs added.
+
+### Changed
+- `sportmind.dev/demo.html` — odds divergence scenario (11th scenario)
+  SportMind SMS 78 vs Pinnacle market for Arsenal vs Bournemouth.
+  Shows STRUCTURAL_EDGE classification, overround removal, probability gap
+  calculation, and interpretation guide (confirming/edge/contradicts).
+
 ## [3.52.0] — 2026-04-11
 
 ### Added
