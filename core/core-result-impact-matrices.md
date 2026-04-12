@@ -20,6 +20,15 @@ All ranges are approximate. Actual impact depends on: importance of event, wheth
 | Relegation confirmed | -15–35% | — |
 | UCL group stage exit | -8–15% | — |
 | Derby win (local rival) | +5–12% | -3–8% |
+| Star player departure (Type 1 — cross-league) | -10–25% | N/A |
+| Star player departure (Type 2 — rival transfer) | -15–30% | N/A |
+| Star player retirement | -8–20% | N/A |
+| Star player signing (commercial upgrade) | +8–22% | N/A |
+| ATM void period (T+0 to T+3 months post-departure) | -5–15% ongoing | N/A |
+| Replacement ATM confirmed (commercial equivalent) | +6–14% recovery | N/A |
+
+*See core/star-departure-intelligence.md for full void model, LTUI reset triggers,*
+*and FTP PATH_2 supply mechanics impact.*
 
 ---
 

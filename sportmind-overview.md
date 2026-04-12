@@ -2017,6 +2017,17 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - Final consistency sweep: all version references, record counts, and file counts
   current across all community-facing documents.
 
+### ✅ v3.56 — Website overhaul
+index.html: section reorder, stats fix, toolkit cards, use-case cards.
+docs.html: stats fix, dedup, in-page search, output-schema sidebar link.
+demo.html: grouped scenarios, FTP scenario, intro note.
+
+### ✅ v3.55 — Star Departure Intelligence
+core/star-departure-intelligence.md: 5 departure types, AELS void model,
+LTUI reset triggers, FTP PATH_2 supply impact, social signal classification,
+replacement commercial quality timeline, cross-sport coverage.
+core-result-impact-matrices.md: 6 football departure rows added.
+
 ### ✅ v3.54 — Sports Trend Intelligence, GFR integration, trend demo
 core/sports-trend-intelligence.md: 3 categories, 4 phases, 8 active trends.
 GFR opponent quality weighting added to verifiable sources.

@@ -1,5 +1,67 @@
 # Changelog
 
+## [3.56.0] — 2026-04-12
+
+### Changed
+- `sportmind.dev/index.html` — seven improvements
+  Stats bar: 532→536 (correct file count), "Agent prompts" replaced with
+  "Benchmark scenarios (40)" — more credibility-building and not a count
+  already visible in the toolkit section.
+  Section reorder: How It Works now appears before Library — it provides
+  the transmission-layer framing that makes the library make sense.
+  Developer Toolkit: expanded from a text count to three concrete code
+  card examples — Pattern 10 CVS/FAS formula, Prompt 21 fan-facing output,
+  Pattern 8 FTP monitor pre-liquidation → WIN burn cycle. Counts alone do
+  not convert a skeptical developer.
+  Use-case cards: five cards added before Contribute — pre-match agent,
+  fan token intelligence, transfer/scouting, agentic pipeline, sports
+  research. Each links to the relevant demo scenario.
+
+- `sportmind.dev/docs.html` — five improvements
+  Stats table: total files 532→536, markdown 331→335.
+  Supporting layers: core/ 39→40, platform/ 22→23, arch diagram updated.
+  Duplicate "22 agent prompts" block removed from Developer Toolkit section.
+  In-page search added to sidebar: live filtering of all 12 sections,
+  match highlighting, clear button.
+  Output Schema added to sidebar nav (section existed, link was missing).
+
+- `sportmind.dev/demo.html` — three improvements
+  Scenarios grouped into four categories: Pre-match (5), Fan tokens (3),
+  Agentic (2), Intelligence (4). 14 scenarios total.
+  Fan Token Play scenario added: PATH_2 pre-liquidation (PROTOCOL_EVENT),
+  WIN permanent burn, LOSS supply-neutral, plain-English brief. The most
+  commercially distinctive feature finally has a demo.
+  Intro note added below demo description — explains SMS score, ENTER/
+  WAIT/ABSTAIN, and output schema reference for first-time visitors.
+
+## [3.55.0] — 2026-04-12
+
+### Added
+- `core/star-departure-intelligence.md` — star departure intelligence framework
+  Five departure types (cross-league, rival transfer, retirement, career decline,
+  disciplinary removal) each with commercial void timeline, recovery window, fan
+  token initial impact range, and LTUI impact. AELS void model: four steps —
+  identify AELS contribution, compute share of squad total, determine void
+  magnitude (minor/significant/major/catastrophic), plot three-phase recovery
+  curve (void T+0–3m, transition T+3–12m, new equilibrium T+12m+). LTUI reset
+  triggers: ATM ≥ 0.60, APS ≥ 0.70, AELS void > 25%, commercial partnership
+  specifically featuring the player. FTP PATH_2 impact: LQI delta → win
+  probability adjustment → season wins lost → supply reduction lost (each
+  departure win lost ≈ 0.24% supply reduction per season). Formula:
+  win_prob_adjustment = LQI_delta × 0.15. Social signal classification:
+  tribute arc (first 72h positive), void searching (weeks 3–8 neutral),
+  structural decline (3+ months elevated = distress). Replacement commercial
+  quality timeline: upgrade/equivalent/sporting-upgrade-commercial-downgrade/
+  no-replacement with months-to-recovery. Cross-sport: football, NBA, cricket,
+  F1, rugby, MMA. Full output schema with composite_signal, source_token_modifier,
+  plain_english field, and reentry trigger.
+
+### Changed
+- `core/core-result-impact-matrices.md` — football departure rows added
+  Six new rows: star player departure Type 1 (-10–25%), Type 2 rival (-15–30%),
+  retirement (-8–20%), signing commercial upgrade (+8–22%), ATM void period
+  (-5–15% ongoing), replacement ATM confirmed (+6–14% recovery).
+
 ## [3.54.0] — 2026-04-11
 
 ### Added
