@@ -1,5 +1,16 @@
 # Changelog
 
+## [3.62.1] — 2026-04-12
+
+### Fixed
+- `core/star-departure-intelligence.md` — broken internal link:
+  `core/athlete-disciplinary-intel.md` → `core/athlete-disciplinary-intelligence.md`
+- `platform/sequential-thinking-integration.md` — self-referencing broken link:
+  `core/sequential-thinking-integration.md` → `platform/sequential-thinking-integration.md`
+- `MCP-SERVER.md` — stale version references v3.34/v3.35 updated to v3.62
+- `WHO-WE-ARE.md` — second reference to agentic workflow patterns (10→12) and
+  agent prompts (20→22) corrected. Both references now consistent.
+
 ## [3.62.0] — 2026-04-12
 
 ### Added

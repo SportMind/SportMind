@@ -507,7 +507,7 @@ FEEDS FROM:
   fan-token/transfer-signal/          — APS (mirror: this skill models the inverse)
   fan-token/athlete-social-lift/      — AELS scores for departing player
   core/lineup-quality-index.md        — LQI delta calculation
-  core/athlete-disciplinary-intel.md  — Type 5 (disciplinary) departures
+  core/athlete-disciplinary-intelligence.md  — Type 5 (disciplinary) departures
   fan-token/gamified-tokenomics-intel — FTP PATH_2 mechanics
 
 FEEDS INTO:

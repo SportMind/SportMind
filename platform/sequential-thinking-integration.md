@@ -154,7 +154,7 @@ PHASE 4 — Call sportmind_fan_token_lookup and sportmind_sentiment_snapshot
   for the relevant token.
   
 PHASE 5 — Synthesise all phase outputs into a final recommendation.
-  Apply ENTER / WAIT / ABSTAIN rules from core/sequential-thinking-integration.md.
+  Apply ENTER / WAIT / ABSTAIN rules from platform/sequential-thinking-integration.md.
   Show your reasoning for each phase in the output.
 
 Never skip phases. Never generate ENTER if COMMERCIAL_RISK_ACTIVE or
