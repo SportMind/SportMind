@@ -118,6 +118,30 @@ MONITORING RULE:
   This is a Tier 1 macro event for the entire ecosystem
   Apply: US_market_entry_signal = True on announcement
   CDI amplification: any US sports token launch = elevated engagement 30-45 days
+
+UPDATE — APRIL 2026 (CoinDesk, confirmed):
+  The guidance was formally confirmed and presented at the DC Blockchain Summit
+  on March 17, 2026. The US market shift from BARRIER to OPEN is confirmed.
+  Key commercial signal: "The franchises that move in 2026 will set the standard,
+  capture first-mover advantage in their respective sports and cities and build
+  fan communities that are meaningfully harder to replicate once established."
+  (CoinDesk, April 10, 2026 — opinion but reflects confirmed regulatory context)
+
+  FIRST-MOVER SIGNAL (active from April 2026):
+    US leagues (NFL, NBA, MLB, NHL) now face first-mover commercial incentive.
+    First franchise per league to launch = elevated CDI at launch: ×1.40 modifier
+    (similar to first national team token in a new market — see NCSI framework)
+    Second-to-market per league: ×1.15 launch modifier
+    Third+ per league: standard ×1.05 novelty window
+
+  US SPORTS TEAM FAN TOKEN INTELLIGENCE:
+    When a US team confirms launch intent (Tier 1 source required):
+      Load: fan-token/fan-token-lifecycle/ Phase 1 (pre-launch) immediately
+      Apply: US_market_entry_signal modifier to macro layer
+      Monitor: NBA teams most likely first movers (digital-native fan base)
+              NHL second (strong existing crypto adoption in fan base)
+              NFL third (largest revenue but most conservative on digital assets)
+              MLB fourth (older demographic; slower digital adoption history)
 ```
 
 ### United Kingdom — FCA Framework

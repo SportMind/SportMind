@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.63.0] — 2026-04-12
+
+### Added
+- `core/external-intelligence-intake.md` — External Intelligence Intake Framework
+  Three-tier classification system for incoming articles, papers, and media.
+  Tier 1 (act immediately): regulatory guidance, confirmed token launches, PATH
+  changes, academic papers with empirical findings — update library files same session.
+  Tier 2 (queue for trend review): market analysis, trend confirmations, ecosystem
+  updates — inform next version release.
+  Tier 3 (monitor, no action): opinion pieces, retail guides, unconfirmed rumours.
+  Trusted source registry by tier (Tier A: SEC.gov, Blog.chiliz.com, official bodies;
+  Tier B: CoinDesk news, The Athletic, Sky Sports confirmed; Tier C: retail guides).
+  Decision rules mapping article types to specific library files.
+  Five-step intake workflow: classify → extract facts → impact assessment → human
+  confirmation → implement or queue. Zero automatic library changes.
+  sportmind_ingest_article MCP tool specification (fetch URL → classify → identify
+  impacted files → return structured intake brief — advisory only).
+  Standing intelligence feeds: weekly (Chiliz blog, KAYEN, macro BTC check),
+  monthly (CoinDesk fan token coverage, academic pre-prints), event-specific
+  (World Cup 2026 daily monitoring June–July 2026).
+
+### Changed
+- `macro/macro-regulatory-sportfi.md` — US market intelligence update
+  April 2026 confirmation from CoinDesk (April 10) added: DC Blockchain Summit
+  March 17 guidance confirmed, US market status = OPEN.
+  First-mover signal framework added: first franchise per US league to launch
+  = ×1.40 CDI modifier at launch (first-mover premium). League sequencing:
+  NBA most likely first (digital-native fan base), NHL second, NFL third, MLB fourth.
+
 ## [3.62.1] — 2026-04-12
 
 ### Fixed
