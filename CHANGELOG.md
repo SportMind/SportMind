@@ -29,6 +29,30 @@
   = ×1.40 CDI modifier at launch (first-mover premium). League sequencing:
   NBA most likely first (digital-native fan base), NHL second, NFL third, MLB fourth.
 
+## [3.63.1] — 2026-04-13
+
+### Added
+- `sportmind.dev/autonomous` (`autonomous.html`) — Autonomous Agent Demo
+  Zero API key, zero cost. Uses platform built-in API — no key required from
+  visitor or developer. Six scenarios: PSG vs Arsenal UCL pre-match chain,
+  Arsenal $AFC FTP PATH_2 match cycle, Mumbai vs CSK IPL dew factor, UFC title
+  fight weight cut emergency, Pattern 10 scouting CVS ranking, fraud detection
+  MRS scan. Five-phase pipeline visualisation (Perception → Planning → Reasoning
+  → Action/Escalate → Memory Update) — each phase illuminates in real time as
+  the agent executes. Live agent status panel: cycle count, signals generated,
+  escalations triggered, macro state, autonomy level (0–4 spectrum visualised).
+  Agent boundary enforced and permanently visible. Dark terminal aesthetic
+  (IBM Plex Mono/Sans). Distinct from agent.html: autonomous.html shows the
+  full reasoning pipeline; agent.html is developer LLM-choice tool.
+
+### Changed
+- `sportmind.dev/index.html` — "Pele Roberts" removed from footer copyright line.
+  Footer now reads: © 2026 SportMind.
+- `sportmind.dev/agent.html` — provider·model·version string removed from sidebar
+  info bar. Replaced with clean "SportMind vX.XX.X · MIT License" reference.
+- All five website files — Autonomous nav link added (sportmind.dev/autonomous).
+
+
 ## [3.62.1] — 2026-04-12
 
 ### Fixed
