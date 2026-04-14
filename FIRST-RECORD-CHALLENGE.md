@@ -148,20 +148,18 @@ perfect — the important fields are marked with *.
 
 ### Step 5 — Submit
 
-**Option A (GitHub):**
+**Option A (GitHub Issue — recommended, no technical knowledge required):**
+Open an issue with title: `[Calibration Record] {sport} — {match name}`
+Paste your JSON in the issue body. That is the entire submission.
+Automated checks run immediately. Human review within 30 days — most
+records confirmed faster. You receive full credit via your GitHub handle.
+
+**Option B (GitHub PR — if you are comfortable with git):**
 1. Fork the repository
 2. Save your record as:
    `community/calibration-data/{sport}/{year}/{month}/{your-record-filename}.json`
 3. Open a pull request with label: `calibration-record`
-4. We review and merge within 7 days
-
-**Option B (Email — no GitHub required):**
-Send your filled template to: `calibration@sportmind.dev`
-We will handle the PR and credit you with your submitted_by handle.
-
-**Option C (GitHub Issue):**
-Open an issue with title: `[Calibration Record] {sport} — {match name}`
-Paste your JSON in the issue body.
+4. Automated validation runs immediately. Merged within 30 days.
 
 ---
 

@@ -288,7 +288,7 @@ Step 1: calibration_aggregate.py generates updated modifier accuracy report
 Step 2: Maintainer reviews — is direction accuracy within target range?
   Within range: no change required; document as validated
   Outside range: propose modifier adjustment (requires community review)
-Step 3: Community review period (7 days) — any contributor can comment
+Step 3: Community review — any contributor can comment (no fixed window; proposals close when consensus is reached or after 30 days of inactivity)
 Step 4: If 70% consensus: maintainer updates modifier in relevant skill file
 Step 5: New modifier value is version-controlled and documented in CHANGELOG
 
@@ -332,7 +332,7 @@ Which specific modifier did you test? What did you learn?
 Copy the JSON template from this file. Fill in your data. Submit via:
 - GitHub Pull Request to `community/calibration-data/{sport}/{year}/{month}/`
 - File name format: `{sport}-{event}-{date}-outcome.json`
-- Or email to: calibration@sportmind.dev (we will handle the PR)
+- Or open a GitHub Issue with the record content — a maintainer will create the PR
 
 ### What makes a good calibration record
 
@@ -350,7 +350,7 @@ Every submitted record is reviewed by the SportMind community for:
 3. Official result is verifiable (result_source_url must resolve)
 4. Learning notes are honest (including for wrong-direction records)
 
-Records that pass review are merged within 7 days.
+Records that pass the validity check merge without a fixed review window. If your PR has been open more than 30 days, comment and tag @sportmind-core.
 
 ---
 

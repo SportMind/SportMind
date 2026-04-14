@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.65.2] — 2026-04-14
+
+### Changed
+- `FIRST-RECORD-CHALLENGE.md` — removed email submission option (calibration@sportmind.dev).
+  GitHub Issue is now Option A (recommended, no technical knowledge required).
+  GitHub PR is Option B. Review window changed from "7 days" to "automated checks
+  run immediately, human review within 30 days". Email route removed because it
+  creates private manual workload without adding capability over the Issue path.
+- `CONTRIBUTING.md` — review timelines updated: skill PRs reviewed within 30 days
+  (was 7 days / 14 days). Calibration records note added: automated validation,
+  most merge within 48 hours. Community modifier review now explicitly triggers
+  at 5+ active community calibrators rather than being a v4.0 roadmap item.
+  Automation note added to calibration section explaining what the GitHub Action
+  validates automatically vs what requires human judgment.
+
+## [3.65.2] — 2026-04-14
+
+### Changed
+- `FIRST-RECORD-CHALLENGE.md` — Option B (email to calibration@sportmind.dev)
+  removed. Replaced with GitHub Issue path: open issue, paste record, maintainer
+  creates the PR. Review window changed from "merge within 7 days" to async —
+  records merge when they pass the validity check; 30-day soft backstop.
+- `community/calibration-data/CONTRIBUTING.md` — same email removal and
+  async review window applied. Modifier recalibration vote window changed from
+  "7-day, minimum 5 responses" to "open window, closes at consensus or 30 days
+  inactivity, minimum 3 responses from contributors with validated records".
+- `core/calibration-framework.md` — community vote window updated to match.
+- `CONTRIBUTING.md` — skill PR review changed to async; no fixed window;
+  30-day soft backstop for unanswered PRs.
+
+## [3.65.1] — 2026-04-14
+
+### Fixed
+- `sportmind.dev/autonomous.html` — beta badge invisible in light mode
+  Used hardcoded rgba(255,255,255,0.3) for text colour — white at 30% opacity,
+  invisible against light backgrounds. Fixed to var(--text-3) / var(--bg-3) /
+  var(--border) CSS variables matching all other pages.
+- `sportmind.dev/docs.html` — stale "11 agentic workflow patterns" in examples/
+  table row. Updated to 12. Heading was already correct; table row was not.
+- `sportmind.dev/docs.html` — core/ layer description did not mention
+  contextual-signal-environment.md or travel-timezone-intelligence.md
+  added in v3.65.0. Description updated.
+- `sportmind.dev/index.html` — Layer 3 (fan token) listed as "40 skills" and
+  "Path 1/2". Updated to "61 skills" and "PATH_2 confirmed" to reflect current
+  library state.
+
 ## [3.65.0] — 2026-04-14
 
 ### Added

@@ -72,12 +72,15 @@ Before opening a PR, check every item:
 
 ### Step 4 — Open a PR
 
-Title format: `[Sport] Add football domain skill` or `[Athlete] Improve mma striking profile`
+Title format: `[Sport] Add sport name` or `[Athlete] Improve sport name`
 
 In the PR description, briefly explain:
 - What you added or changed
-- What sources or data informed the result impact matrices
-- Any areas where you were estimating vs citing data
+- What sources informed the result impact matrices
+- Any areas where you estimated rather than cited data
+
+No fixed review window. Skills merge when they meet the quality standards above.
+If your PR has been open more than 30 days, comment to request review.
 
 ---
 
@@ -113,7 +116,12 @@ All PRs are reviewed by at least one maintainer with knowledge of the relevant s
 3. **Agent utility** — would an AI agent following this skill reason correctly?
 4. **Writing quality** — is it clear, concise, and unambiguous?
 
-Target review time is 7 days. If your PR has not been reviewed in 14 days, comment to request a review.
+**Timelines:**
+Skill PRs (new sports, athlete skills, improvements): reviewed within 30 days.
+Calibration records: automated checks run immediately — most merge within 48 hours
+if they pass. If a skill PR has not been reviewed in 30 days, comment to request a review.
+
+Reviews are async — no fixed window. If your PR has not been reviewed in 30 days, comment to request a review.
 
 ---
 
@@ -172,7 +180,7 @@ contribution. The path is:
 
 **What co-maintainers do not need to do:**
 - Review everything — only PRs touching their CODEOWNERS area
-- Be available immediately — 7-day review windows are the standard
+- Be available for async review — no fixed window, but aim to respond within 30 days
 
 **Domain areas that will need co-maintainers first:**
 - Calibration records (highest volume once community is active)
@@ -202,6 +210,16 @@ Format: See community/calibration-data/README.md
 Label: calibration-data
 Reward: +1 leaderboard point per validated record
 ```
+
+Calibration record submissions are automatically validated by a GitHub Action
+(JSON validity, required fields, `recorded_at` before `kickoff_utc`, verifiable
+result URL). Records that pass automated checks are queued for merge — no waiting
+on a maintainer for structural review. Human review is reserved for records that
+fail automated checks or require context judgment.
+
+When 5+ community calibrators are active in a sport, Founding Calibrators with
+10+ validated records in that sport can be granted merge rights for calibration
+records — removing the maintainer bottleneck entirely for that sport domain.
 
 ### Translations (i18n)
 
@@ -248,16 +266,15 @@ See `platform/skill-registry.md` for the complete metadata standard.
 
 ## Community modifier extension review
 
-When external contributors are regularly active, SportMind will introduce a
-structured peer-review process for new modifier extensions — planned for v4.0.
+When 5+ community calibrators are active, SportMind activates structured
+peer-review for new modifier extensions:
 
-This will cover:
 - Minimum calibration record requirements for any new modifier proposal
 - Community review before new signal modifiers enter the library
-- GitHub Discussions voting on modifier additions
+- GitHub Discussions voting on modifier additions (7-day window, minimum 5 responses)
 - Versioned modifier extension framework
 
-Until then: new modifier proposals should be raised as GitHub Issues with label
-`modifier-proposal`. Maintainers will review within 14 days.
+Until that threshold is reached: new modifier proposals should be raised as
+GitHub Issues with label `modifier-proposal`. Maintainers will review within 30 days.
 
 For security concerns about skill file integrity, see `SECURITY.md`.

@@ -227,7 +227,7 @@ STEP 3 — AGGREGATE (monthly):
 STEP 4 — PROPOSE UPDATES (quarterly):
   → Maintainer reviews calibration_report.json
   → Opens GitHub Discussion with proposed modifier range changes
-  → Community votes (7-day window, minimum 5 responses)
+  → Community votes — open window, closes at consensus or 30 days inactivity; minimum 3 responses from contributors with validated records
   → Changes require 70%+ consensus
 
 STEP 5 — MERGE UPDATES:
