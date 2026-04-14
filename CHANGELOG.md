@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.65.3] — 2026-04-14
+
+### Fixed
+- `WHO-WE-ARE.md` — version cycles corrected from 66 to 75 (true v3.x release count).
+  GOOD_FIRST_ISSUES.md — stale file count 465→552, leaderboard v3.27→v3.65 reference.
+  Both files: calibration records temporarily changed 126→127 then reverted after
+  discovering the 127th JSON file is a calibration report (calibration-report-v3.6.json),
+  not an outcome record. True count confirmed: 126 outcome records, 5 wrong-direction,
+  121/126 = 96.0% accuracy.
+
+### Changed
+- `WHO-WE-ARE.md` — version cycles: 66→75 (v3.0 through v3.65.2 = 75 v3.x releases).
+- `GOOD_FIRST_ISSUES.md` — file count 465→552, leaderboard version v3.27→v3.65.
+
 ## [3.65.2] — 2026-04-14
 
 ### Changed

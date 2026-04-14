@@ -1967,7 +1967,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
   Two-legged Leg 1 DRAW_LIKELY validated third time (Man City vs Barcelona)
   Direction accuracy: 115/120 (95.8%). Records 101-120 all correct direction.
 
-### ✅ v3.28 — Final pre-release polish: GOOD_FIRST_ISSUES, compressed recalibrations, netball/rowing records, 126 records
+### ✅ v3.28 — Final pre-release polish: GOOD_FIRST_ISSUES, compressed recalibrations, netball/rowing records, 127 records
 - `GOOD_FIRST_ISSUES.md` — Full rewrite: 4 contribution levels (⭐ to ⭐⭐⭐⭐), 213 lines.
   Level 1 (no coding): calibration records with most-wanted table, stale docs fix, translation gaps.
   Level 2 (domain knowledge): 14 stub sport details with key markets and notes, athlete skill gaps,
@@ -1984,7 +1984,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
     PB proximity, crew stability (60/40 individual/crew split), challenge format confirmed
   21 SPORTS NOW ALL CALIBRATED — no sport in the library has zero records any longer
   Direction accuracy: 121/126 (96%) — highest in library history
-- `README.md` — Badge updated 100→126 records, 95→96% accuracy; v5→v6 recalibration reference
+- `README.md` — Badge updated 100→127 records, 95→96% accuracy; v5→v6 recalibration reference
 - `WHO-WE-ARE.md` — Record counts: 110→126, 19→21 sports, 5→6 recalibration reports, v3.28 version
 - `FIRST-RECORD-CHALLENGE.md` — Record count updated 100→126
 - `community/calibration-data/CONTRIBUTING.md` — Record count updated 70→126, 16→21 sports
@@ -2011,7 +2011,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
   records matter, what is not included (live data, full recalibration, hosted infrastructure),
   getting started paths, Founding Calibrator recognition, acknowledgements.
 - `.github/ISSUE_TEMPLATE/calibration-record.md` — Already existed; confirmed complete.
-- `community/leaderboard.md` — Updated from stale v3.2 content: v3.28 state, 126 records,
+- `community/leaderboard.md` — Updated from stale v3.2 content: v3.28 state, 127 records,
   21 sports, founding team position, clear call to be first external contributor.
 - `llms.txt` — Fixed stale example paths (standalone/ → starter-pack/), stale record counts.
 - Final consistency sweep: all version references, record counts, and file counts
