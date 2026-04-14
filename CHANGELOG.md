@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.65.0] — 2026-04-14
+
+### Added
+- `core/contextual-signal-environment.md` — Contextual Signal Environment (CSE)
+  Unified framework treating day of week, kickoff time, venue capacity/occupancy,
+  broadcast audience reach, schedule density, season position, and territory
+  timezone window as a combined Context Quality Score (CQS: 0.60–1.40) that
+  amplifies or dampens FTIS and CDI calculations. Six scored dimensions with
+  worked examples: UCL QF prime time (CQS 1.27) vs League Cup tie (CQS 0.94)
+  vs dead rubber (CQS 0.73). Critical distinction enforced: CQS modifies
+  commercial signal magnitude (FTIS/CDI/HAS), NOT the on-pitch SMS.
+  FTP PATH_2 note: burn mechanics are fixed per result; CQS determines how
+  many holders are watching and amplifying that burn commercially.
+  Schedule slot scoring: Wednesday 8pm UCL prime (1.35), Saturday evening (1.30),
+  IPL Indian primetime (1.35). Venue weight: capacity tiers with occupancy bands.
+  Audience reach: Global Tier 1 (300M+, 1.40) to niche/emerging (0.70).
+  Season position: title decider (1.40), dead rubber (0.70), relegation fear
+  noted as generating HIGHER engagement than comfortable mid-table.
+  Territory window: European evening + Americas afternoon overlap premium (+0.10).
+
+- `core/travel-timezone-intelligence.md` — Travel and Timezone Intelligence
+  Travel Impact Score (TIS: 0.80–1.00) applied to athlete modifier chain.
+  Eastward travel penalised more heavily than westward (circadian asymmetry).
+  Three penalty components: timezone crossing (1–3 zones: −0.01, 7+: −0.10–0.15),
+  haul duration (<3h: −0.01, 11+h: −0.06), recovery adjustment (< 24h arrival:
+  full penalty; 7+ days: penalty → 0). Sport-specific patterns: UCL European
+  away legs (TIS 0.97–1.00), international break returnees from Americas/Asia
+  (TIS 0.90–0.93), Lions tours first provincial matches (TIS 0.90–0.92),
+  NBA cross-country B2B early slot (TIS 0.90). F1 driver adaptation bonus (50%
+  of standard penalty for experienced grid). Data source guidance: travel
+  confirmed via press conference, club social media, Tier 1 journalists.
+
+### Changed
+- `WHO-WE-ARE.md` — 550→552 files, 65→66 version cycles, v3.64→v3.65
+- `README.md` — 51→53 core frameworks
+
 ## [3.64.0] — 2026-04-14
 
 ### Added
@@ -13,6 +49,13 @@
   all three aggregate outcome paths. Two-legged tie classification rules — away
   goals rule correctly noted as removed from UEFA competitions in 2021. Output
   schema with token signal including plain English summary.
+
+### Fixed
+- `sportmind.dev/autonomous.html` — nav bar stuck in dark mode regardless of theme
+  Root cause: nav background used hardcoded rgba(10,14,11,.95) instead of
+  var(--bg). Light mode CSS variables were correctly defined but the nav
+  rule bypassed them. Fixed to var(--bg) — nav now responds to light/dark/system
+  theme toggle matching all other pages.
 
 ### Changed
 - `core/sports-trend-intelligence.md` — Women's sports commercial maturity added
