@@ -425,3 +425,30 @@ PROMPT 22 (Build-Up Agent):
 *See also: macro/macro-overview.md · market/market-overview.md (tier upgrade signals)*
 *core/historical-intelligence-framework.md · core/core-narrative-momentum.md*
 *fan-token/rwa-sportfi-intelligence/ · macro/macro-regulatory-sportfi.md*
+
+### Trend 8b — Women's sports commercial maturity (EMERGING, 2025–2028)
+
+```
+SIGNAL: Women's sports has crossed the commercial viability threshold.
+  Revenue: $2.4 billion projected 2025 (CAGR 50% since 2022)
+  Viewership: nearly tripled since 2020 (>3% of all live sports audiences)
+  Ad spend: +139% year-over-year to $244 million
+  Sponsorship: growing 12% p.a. — nearly 50% faster than men's leagues
+
+FAN TOKEN IMPLICATION:
+  Women's sports fan tokens are approaching commercial viability
+  Key threshold: sustained viewership + sponsorship = token programme viable
+  WNBA: most advanced US women's league for potential fan token programme
+  Women's Super League (WSL): European football women's tier — watch for Chiliz
+  
+AGENT SIGNAL:
+  First women's league fan token launch = ×1.50 CDI modifier at launch
+  (higher than men's league equivalent due to novelty premium)
+  
+STATUS: No women's sport fan tokens confirmed on Chiliz as of April 2026
+MONITOR: WNBA expansion, WSL commercial partnerships
+
+Source: Houlihan Lokey Sports Market Update (Fall 2025);
+Apollo Sports Capital white paper (December 2025)
+```
+

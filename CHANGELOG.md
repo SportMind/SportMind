@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.64.0] — 2026-04-14
+
+### Added
+- `fan-token/tournament-elimination-intelligence.md` — Tournament Elimination
+  Intelligence for FTP PATH_2 clubs. CALENDAR_COLLAPSE framework: when a team
+  is eliminated, all future WIN burn events in that competition are cancelled —
+  agents must reason about the structural season impact, not just the match loss.
+  Three elimination scenarios by round (group stage, knockout, final). Quantifies
+  projected PATH_2 burns lost, NCSI events cancelled, and LTUI trajectory revision.
+  Arsenal vs Sporting UCL QF Leg 2 (aggregate 1-0) canonical worked example with
+  all three aggregate outcome paths. Two-legged tie classification rules — away
+  goals rule correctly noted as removed from UEFA competitions in 2021. Output
+  schema with token signal including plain English summary.
+
+### Changed
+- `core/sports-trend-intelligence.md` — Women's sports commercial maturity added
+  as Trend 8b: $2.4B revenue projected 2025 (50% CAGR since 2022), viewership
+  tripled since 2020, first women's league fan token = ×1.50 CDI modifier.
+  Sources: Houlihan Lokey Fall 2025, Apollo Sports Capital December 2025.
+- `sportmind.dev/autonomous.html` — full light/dark/system theme support added.
+  Theme toggle button added to nav. Page no longer permanently dark — responds to
+  system preference and user toggle matching all other website pages.
+- `sportmind.dev` (all five pages) — SportMind "beta" badge added to nav logo
+  on every page to signal to visitors that the project is still in active development.
+
+## [3.63.1] — 2026-04-13
+
+### Fixed
+- `sportmind.dev/autonomous.html` — complete rebuild fixing all interaction bugs
+  Root cause 1: Scenario click handlers and run button used per-element
+  addEventListener calls that failed silently on Netlify hosted pages.
+  Replaced with event delegation on container element.
+  Root cause 2: API call to api.anthropic.com is blocked by CORS on any
+  hosted static page — the platform built-in API only exists inside the
+  Claude.ai artifact sandbox environment, not on sportmind.dev. Replaced
+  with pre-scripted authentic SportMind reasoning chains: zero API
+  dependency, zero cost, zero API key required. All six scenarios now
+  execute correctly with animated pipeline phases, live signal cards, and
+  agent status panel. IBM Plex Mono/Sans aesthetic preserved.
+
+### Added
+- `sportmind.dev/agent.html` — hero section added above the provider interface
+  Title, subtitle, and description explain what the page does, how it
+  differs from the autonomous demo, and which providers are supported.
+  Cross-link to /autonomous for zero-key alternative. Four feature pills:
+  6 providers, 6 presets, full conversation, your API key your costs.
+- `sportmind.dev/demo.html` — Autonomous nav link added.
+
+### Changed
+- All five website files — nav link audit and consistency corrections.
+
 ## [3.63.0] — 2026-04-12
 
 ### Added
@@ -28,30 +79,6 @@
   First-mover signal framework added: first franchise per US league to launch
   = ×1.40 CDI modifier at launch (first-mover premium). League sequencing:
   NBA most likely first (digital-native fan base), NHL second, NFL third, MLB fourth.
-
-## [3.63.1] — 2026-04-13
-
-### Added
-- `sportmind.dev/autonomous` (`autonomous.html`) — Autonomous Agent Demo
-  Zero API key, zero cost. Uses platform built-in API — no key required from
-  visitor or developer. Six scenarios: PSG vs Arsenal UCL pre-match chain,
-  Arsenal $AFC FTP PATH_2 match cycle, Mumbai vs CSK IPL dew factor, UFC title
-  fight weight cut emergency, Pattern 10 scouting CVS ranking, fraud detection
-  MRS scan. Five-phase pipeline visualisation (Perception → Planning → Reasoning
-  → Action/Escalate → Memory Update) — each phase illuminates in real time as
-  the agent executes. Live agent status panel: cycle count, signals generated,
-  escalations triggered, macro state, autonomy level (0–4 spectrum visualised).
-  Agent boundary enforced and permanently visible. Dark terminal aesthetic
-  (IBM Plex Mono/Sans). Distinct from agent.html: autonomous.html shows the
-  full reasoning pipeline; agent.html is developer LLM-choice tool.
-
-### Changed
-- `sportmind.dev/index.html` — "Pele Roberts" removed from footer copyright line.
-  Footer now reads: © 2026 SportMind.
-- `sportmind.dev/agent.html` — provider·model·version string removed from sidebar
-  info bar. Replaced with clean "SportMind vX.XX.X · MIT License" reference.
-- All five website files — Autonomous nav link added (sportmind.dev/autonomous).
-
 
 ## [3.62.1] — 2026-04-12
 
