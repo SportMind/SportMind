@@ -1,5 +1,70 @@
 # Changelog
 
+## [3.66.0] — 2026-04-15
+
+### Added
+- `core/athlete-readiness-index.md` — Athlete Readiness Index (ARI: 0.60–1.10)
+  Unified pre-match readiness score combining five components: fatigue trajectory
+  (schedule/congestion-based), motivation state (bridge from athlete-motivation-
+  intelligence), travel and timezone penalty (bridge from travel-timezone-
+  intelligence), injury risk accumulation (predictive ACWR-based load threshold
+  model, not just binary availability), and availability confidence (lineup source
+  reliability weighting). ARI acts as a final readiness gate after the standard
+  modifier chain — backward-compatible with all existing patterns. Cross-sport:
+  football, basketball, cricket, MMA, rugby, F1, tennis. Fan token: ARI < 0.80
+  for ATM-tier players applies direct FTIS dampener (−5 to −10 points). Three
+  worked examples included: Saka at full readiness (0.99), Saka as international
+  returnee (0.94), NBA star on B2B post-hamstring (0.889).
+
+- `core/opponent-tendency-intelligence.md` — Opponent Tendency Profile (OTP)
+  Historical tendency profiling for specific teams, coaches, and athletes.
+  Distinct from TMAS (structural system mismatches) — models what a specific
+  opponent ACTUALLY DOES in specific game states. Four tendency domains:
+  coach in-game decisions (substitution timing, formation shift triggers),
+  situational tendencies (leading, trailing, must-win, elimination), set piece
+  patterns (corner delivery, free kick zones, penalty direction — with explicit
+  privacy rule), athlete micro-tendencies by sport (dribble direction, serve
+  pattern, grappling entry). Tendency half-life documented by category: set
+  piece routines change every 4–8 weeks; must-win situational profile is
+  persistent (character-based). Sample size minimums enforced.
+
+- `core/agent-cognitive-architecture.md` — Agent Cognitive Architecture Map
+  Maps SportMind's components to standard AI cognitive architecture taxonomy
+  (Russell & Norvig): Reactive, Model-Based Reflex, Goal-Based, Utility-Based,
+  Learning, Multi-Agent Systems, and BDI (Belief-Desire-Intention). For each:
+  what it is, how SportMind implements it, which specific files provide the
+  capability, and honest capability ratings. Establishes SportMind's primary
+  architecture as Model-Based Reflex (the skill library as world model) and
+  Utility-Based (ENTER/WAIT/ABSTAIN as terminal utility function). Honest
+  about limitations: learning is library-level not agent-level; agent-level
+  learning is intentionally constrained for auditability reasons.
+
+- `platform/wearable-biometric-connectors.md` — Wearable Data Integration
+  Five connector categories: GPS/load tracking (Catapult, STATSports, Kinexon),
+  recovery monitoring (Whoop, Oura, Garmin, Polar), biomechanics/force
+  (Catapult Vector, Zebra, force plates), physiological monitoring (Zephyr,
+  Polar Team Pro), and match tracking (Hawkeye, StatsBomb 360, Opta Vision).
+  For each: available metrics, translation formula to ARI component inputs,
+  and agent decision rules. Acute:Chronic Workload Ratio (ACWR > 1.50 =
+  injury risk elevated) integrated with ARI injury_risk_threshold component.
+  CMJ decline > 15% = PHYSICAL_FATIGUE_CONFIRMED flag. Zero-dependency
+  principle maintained: connector translates third-party outputs, not raw data.
+
+- `platform/fan-engagement-connector.md` — Fan Engagement Action Bridge
+  Translates SportMind holder archetype intelligence into concrete engagement
+  actions across four channels: push notification triggers (by archetype ×
+  event type × timing window), content targeting matrix (what each archetype
+  responds to and when), CRM integration (segment-based retention and churn
+  signals), and governance alert timing (72h/24h/4h notification sequence,
+  governance topic quality filter). Critical PATH_2 timing rule enforced:
+  Speculator notifications must wait T+15 post-WIN for AMM rebalancing.
+  Loyalist loss notifications minimum 60 min delay. Includes non-fan-token
+  application: archetype model applies to any sports digital community product.
+
+### Changed
+- `WHO-WE-ARE.md` — 552→557 files, 75→76 version cycles, platform 24→26
+- `README.md` — 53→56 core frameworks
+
 ## [3.65.3] — 2026-04-14
 
 ### Fixed
