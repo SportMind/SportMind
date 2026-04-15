@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-04-15T06:33:30.030000+00:00",
+    "generated_at": "2026-04-15T12:11:35.479276+00:00",
     "generated_by": "scripts/security_validator.py --generate-hashes",
     "library_version": "3.5.0",
     "total_files": 266,
@@ -10,1332 +10,1332 @@
     "sports/afl/sport-domain-afl.md": {
       "sha256": "04d441157f254664327b68f994dee79cfa40c8a276a3537c9328ed4eb7c35f38",
       "size_bytes": 12931,
-      "last_verified": "2026-04-15T06:33:30.030398+00:00"
+      "last_verified": "2026-04-15T12:11:35.479672+00:00"
     },
     "sports/american-football/sport-domain-american-football.md": {
       "sha256": "28310aeaebb03ff0f9b9bfa0ac19813059aeb9aa95bfcc29b974ce0f1b9e1919",
       "size_bytes": 10059,
-      "last_verified": "2026-04-15T06:33:30.030749+00:00"
+      "last_verified": "2026-04-15T12:11:35.479983+00:00"
     },
     "sports/athletics/sport-domain-athletics.md": {
       "sha256": "22f57a15a91b3432aafd053a39fbcfc409ebed59786b4716e2ff3f8de95cddbf",
       "size_bytes": 8123,
-      "last_verified": "2026-04-15T06:33:30.031030+00:00"
+      "last_verified": "2026-04-15T12:11:35.480321+00:00"
     },
     "sports/badminton/sport-domain-badminton.md": {
       "sha256": "e802d96266e72c2a37d14e01d9f53383328c0ce6953f5f21a0fa0a4a743237b5",
       "size_bytes": 691,
-      "last_verified": "2026-04-15T06:33:30.031275+00:00"
+      "last_verified": "2026-04-15T12:11:35.480591+00:00"
     },
     "sports/baseball/sport-domain-baseball.md": {
       "sha256": "dcfaea1602fff26c1252e2dd63e8756eb98e9ee7b6e20359ee72a473549a25f1",
       "size_bytes": 21640,
-      "last_verified": "2026-04-15T06:33:30.031556+00:00"
+      "last_verified": "2026-04-15T12:11:35.480917+00:00"
     },
     "sports/basketball/sport-domain-basketball.md": {
       "sha256": "15d66bb599dba3cf912f32f1f1b705de77b051b9ae1da4ee6d40a0e5afac9e6c",
       "size_bytes": 8440,
-      "last_verified": "2026-04-15T06:33:30.031793+00:00"
+      "last_verified": "2026-04-15T12:11:35.481290+00:00"
     },
     "sports/boxing/sport-domain-boxing.md": {
       "sha256": "521a21ebad1fa23c6a3ba9e1b9e17ebe9fc6474bbb3b053aa75eb572aeda00ab",
       "size_bytes": 13150,
-      "last_verified": "2026-04-15T06:33:30.032058+00:00"
+      "last_verified": "2026-04-15T12:11:35.481565+00:00"
     },
     "sports/cricket/sport-domain-cricket.md": {
       "sha256": "923d19a1b44f7a2c239305cfd4ee26256530898a30efa418c2b8674a697443ac",
       "size_bytes": 10089,
-      "last_verified": "2026-04-15T06:33:30.032321+00:00"
+      "last_verified": "2026-04-15T12:11:35.481830+00:00"
     },
     "sports/curling/sport-domain-curling.md": {
       "sha256": "036c7602a49b2bae033b38debb495b840d9468381318d1458fbd03e6ca47c3ff",
       "size_bytes": 689,
-      "last_verified": "2026-04-15T06:33:30.032541+00:00"
+      "last_verified": "2026-04-15T12:11:35.482071+00:00"
     },
     "sports/cycling/sport-domain-cycling.md": {
       "sha256": "46b32d6846b82804154280610eb0aa5efcf7748c9cb348733ab9c117696cd6aa",
       "size_bytes": 9936,
-      "last_verified": "2026-04-15T06:33:30.032760+00:00"
+      "last_verified": "2026-04-15T12:11:35.482355+00:00"
     },
     "sports/darts/sport-domain-darts.md": {
       "sha256": "b58aa87cfb54e8b0ee41341b41065a508e205a7b2557f98d383e8fed5dc9c7d8",
       "size_bytes": 8218,
-      "last_verified": "2026-04-15T06:33:30.032988+00:00"
+      "last_verified": "2026-04-15T12:11:35.482597+00:00"
     },
     "sports/esports/sport-domain-esports.md": {
       "sha256": "7faa769e677f09d6d772fd8c4fe1d9e3077c6033e08ac8e91dc3be96b8a9a256",
       "size_bytes": 11976,
-      "last_verified": "2026-04-15T06:33:30.033236+00:00"
+      "last_verified": "2026-04-15T12:11:35.482840+00:00"
     },
     "sports/fencing/sport-domain-fencing.md": {
       "sha256": "a6eaf050ed96f4d6e681802b10342fd2c7c148553944e976aa2354ded0a9863c",
       "size_bytes": 689,
-      "last_verified": "2026-04-15T06:33:30.033454+00:00"
+      "last_verified": "2026-04-15T12:11:35.483079+00:00"
     },
     "sports/field-hockey/sport-domain-field-hockey.md": {
       "sha256": "04c795757e6eeac8c816b1506d1bbeaa5dbcd8ab38188ab70a5f5d6c7cb1ddde",
       "size_bytes": 694,
-      "last_verified": "2026-04-15T06:33:30.033675+00:00"
+      "last_verified": "2026-04-15T12:11:35.483338+00:00"
     },
     "sports/football/sport-domain-football.md": {
       "sha256": "2ce6326e78b4cb1ab82b092277703188351c714cca3d117a5ddffd037c5c6b64",
       "size_bytes": 9196,
-      "last_verified": "2026-04-15T06:33:30.033914+00:00"
+      "last_verified": "2026-04-15T12:11:35.483575+00:00"
     },
     "sports/formula1/sport-domain-formula1.md": {
       "sha256": "04fb7f8deea5b722a4091821a0641e880f22c159afb834d10b44de4008120925",
       "size_bytes": 12022,
-      "last_verified": "2026-04-15T06:33:30.034246+00:00"
+      "last_verified": "2026-04-15T12:11:35.484012+00:00"
     },
     "sports/golf/sport-domain-golf.md": {
       "sha256": "dde2171e9d5b7fe7f89f50a4545ee97c9f73e6ac895718e2d65bced2990e6813",
       "size_bytes": 14165,
-      "last_verified": "2026-04-15T06:33:30.034517+00:00"
+      "last_verified": "2026-04-15T12:11:35.484411+00:00"
     },
     "sports/gymnastics/sport-domain-gymnastics.md": {
       "sha256": "2db3a7e830e4f57c48f6caacaffc7e15f3333ace07b6b2fd24ee5424e5587a3b",
       "size_bytes": 692,
-      "last_verified": "2026-04-15T06:33:30.034744+00:00"
+      "last_verified": "2026-04-15T12:11:35.484736+00:00"
     },
     "sports/handball/sport-domain-handball.md": {
       "sha256": "b4e87ca17af599afa315ed8a2f8b8812ad7aef2bcc468eeadb9a32bac0da38c6",
       "size_bytes": 12130,
-      "last_verified": "2026-04-15T06:33:30.035037+00:00"
+      "last_verified": "2026-04-15T12:11:35.484991+00:00"
     },
     "sports/horse-racing/sport-domain-horse-racing.md": {
       "sha256": "f9de2ac51dd6f3d117d8bff47e3b9e46176e20fee44bd53ef055b74872ce891a",
       "size_bytes": 9415,
-      "last_verified": "2026-04-15T06:33:30.035306+00:00"
+      "last_verified": "2026-04-15T12:11:35.485311+00:00"
     },
     "sports/ice-hockey/sport-domain-ice-hockey.md": {
       "sha256": "9aa18c46d3ade2d49aece52278e2c45eaef6efd00714c247c2eb31471359a273",
       "size_bytes": 14813,
-      "last_verified": "2026-04-15T06:33:30.035542+00:00"
+      "last_verified": "2026-04-15T12:11:35.485566+00:00"
     },
     "sports/judo/sport-domain-judo.md": {
       "sha256": "aeb50a2f5afdda59f07be6d125acc32e9933dbf761e9dcf84815d215375fd9c6",
       "size_bytes": 686,
-      "last_verified": "2026-04-15T06:33:30.035771+00:00"
+      "last_verified": "2026-04-15T12:11:35.485817+00:00"
     },
     "sports/kabaddi/sport-domain-kabaddi.md": {
       "sha256": "c243f89cc534d506d1366bb339a29de0989a114d28647c511eccb8174a930441",
       "size_bytes": 12862,
-      "last_verified": "2026-04-15T06:33:30.036002+00:00"
+      "last_verified": "2026-04-15T12:11:35.486080+00:00"
     },
     "sports/mma/sport-domain-mma.md": {
       "sha256": "9e0d7b251571ee4e5a53c02a76170eb19d99949e223e383b03555a097be75cb0",
       "size_bytes": 11431,
-      "last_verified": "2026-04-15T06:33:30.036265+00:00"
+      "last_verified": "2026-04-15T12:11:35.486337+00:00"
     },
     "sports/motogp/sport-domain-motogp.md": {
       "sha256": "547db0f7eb6429617a092fecd47c5e74e0d802be632a650bce6114e8d56862e4",
       "size_bytes": 13941,
-      "last_verified": "2026-04-15T06:33:30.036499+00:00"
+      "last_verified": "2026-04-15T12:11:35.486600+00:00"
     },
     "sports/nascar/sport-domain-nascar.md": {
       "sha256": "df988de98d68ae959cb38711024c2083a8de8e9ee9ebefcea7b0a099fa5002f2",
       "size_bytes": 13783,
-      "last_verified": "2026-04-15T06:33:30.036748+00:00"
+      "last_verified": "2026-04-15T12:11:35.486854+00:00"
     },
     "sports/netball/sport-domain-netball.md": {
       "sha256": "c1c8670c61715eaf8214b14fedb17bf7952bbcba602569a7d65407a1c512c126",
       "size_bytes": 6522,
-      "last_verified": "2026-04-15T06:33:30.036982+00:00"
+      "last_verified": "2026-04-15T12:11:35.487132+00:00"
     },
     "sports/rowing/sport-domain-rowing.md": {
       "sha256": "9271f5441beda056e4fd10053713f57d6fce254e1d0e887c7ae48ff64cdaede0",
       "size_bytes": 6831,
-      "last_verified": "2026-04-15T06:33:30.037257+00:00"
+      "last_verified": "2026-04-15T12:11:35.487437+00:00"
     },
     "sports/rugby/sport-domain-rugby-union.md": {
       "sha256": "31b73233e5daa812022428af49d33a74c942178157cdc00ef187a151e869ad81",
       "size_bytes": 14426,
-      "last_verified": "2026-04-15T06:33:30.037493+00:00"
+      "last_verified": "2026-04-15T12:11:35.487703+00:00"
     },
     "sports/rugby-league/sport-domain-rugby-league.md": {
       "sha256": "b39e89c6cb19d8abc51a37926307b285e6737944bf7c45246d331d0ef56fc275",
       "size_bytes": 7011,
-      "last_verified": "2026-04-15T06:33:30.037754+00:00"
+      "last_verified": "2026-04-15T12:11:35.487988+00:00"
     },
     "sports/sailing/sport-domain-sailing.md": {
       "sha256": "f58b01ad0ecc61ad719c5a45a3f5d0619a59565a3f3cf62da5e430c19f2a8570",
       "size_bytes": 689,
-      "last_verified": "2026-04-15T06:33:30.038075+00:00"
+      "last_verified": "2026-04-15T12:11:35.488288+00:00"
     },
     "sports/snooker/sport-domain-snooker.md": {
       "sha256": "6dd2f3d2253210639da734229d739a30c607c2c6fcf4bfcb51887eca874ae929",
       "size_bytes": 8403,
-      "last_verified": "2026-04-15T06:33:30.038346+00:00"
+      "last_verified": "2026-04-15T12:11:35.488635+00:00"
     },
     "sports/squash/sport-domain-squash.md": {
       "sha256": "0fb4e6012fbe0c6cdab9f4e1eac8414caf23f14558dd2a8e6b3edaf6af563033",
       "size_bytes": 688,
-      "last_verified": "2026-04-15T06:33:30.038582+00:00"
+      "last_verified": "2026-04-15T12:11:35.526860+00:00"
     },
     "sports/swimming/sport-domain-swimming.md": {
       "sha256": "839556c4b3568b6bf1ed6cc789998b27d447dfc3b5e5f6b01492f5942c065081",
       "size_bytes": 6637,
-      "last_verified": "2026-04-15T06:33:30.038835+00:00"
+      "last_verified": "2026-04-15T12:11:35.527378+00:00"
     },
     "sports/swimming-open-water/sport-domain-swimming-open-water.md": {
       "sha256": "5fe356ab65612ca46b1c6795b4fadeaa951858cd9a8f898c2fd133593531e8db",
       "size_bytes": 703,
-      "last_verified": "2026-04-15T06:33:30.039071+00:00"
+      "last_verified": "2026-04-15T12:11:35.527689+00:00"
     },
     "sports/table-tennis/sport-domain-table-tennis.md": {
       "sha256": "198b8c771a9ad5259a498d28b183601e2c4c74b7910d36b4e77de2278972e677",
       "size_bytes": 694,
-      "last_verified": "2026-04-15T06:33:30.039317+00:00"
+      "last_verified": "2026-04-15T12:11:35.527929+00:00"
     },
     "sports/taekwondo/sport-domain-taekwondo.md": {
       "sha256": "38f8751925bf05355726366cdd590b2dc290dbd4c62358158c5282847d611974",
       "size_bytes": 691,
-      "last_verified": "2026-04-15T06:33:30.039609+00:00"
+      "last_verified": "2026-04-15T12:11:35.528195+00:00"
     },
     "sports/tennis/sport-domain-tennis.md": {
       "sha256": "704f1822c084930db8c0635a7e480af1062a0af4c66d50641f54749be89975da",
       "size_bytes": 16407,
-      "last_verified": "2026-04-15T06:33:30.039894+00:00"
+      "last_verified": "2026-04-15T12:11:35.528442+00:00"
     },
     "sports/triathlon/sport-domain-triathlon.md": {
       "sha256": "d1c0989ae3ca5707c4accf2d2263968b063048b288faf8a4f6bb58f944955120",
       "size_bytes": 691,
-      "last_verified": "2026-04-15T06:33:30.040123+00:00"
+      "last_verified": "2026-04-15T12:11:35.528692+00:00"
     },
     "sports/volleyball/sport-domain-volleyball.md": {
       "sha256": "520ed5f5eb1a2876b51f1029fbac0bdaa832b74aa2b35a6770286a72f96a91b6",
       "size_bytes": 692,
-      "last_verified": "2026-04-15T06:33:30.040373+00:00"
+      "last_verified": "2026-04-15T12:11:35.528921+00:00"
     },
     "sports/weightlifting/sport-domain-weightlifting.md": {
       "sha256": "306af058748de0a7029678286519ee7ad533a041db31a6dd900322b2cd4bb166",
       "size_bytes": 695,
-      "last_verified": "2026-04-15T06:33:30.040649+00:00"
+      "last_verified": "2026-04-15T12:11:35.529288+00:00"
     },
     "sports/winter-sports/sport-domain-winter-sports.md": {
       "sha256": "b5da8d1834d4c2caedaed8c98dce0091a14d1d085961fa90a8aa43024d393af2",
       "size_bytes": 10668,
-      "last_verified": "2026-04-15T06:33:30.040893+00:00"
+      "last_verified": "2026-04-15T12:11:35.529579+00:00"
     },
     "athlete/afl/athlete-intel-afl.md": {
       "sha256": "82dac5933c8f704c8c93464973cca5b26529ca3a639f1d1064962c3891d15a94",
       "size_bytes": 8740,
-      "last_verified": "2026-04-15T06:33:30.041154+00:00"
+      "last_verified": "2026-04-15T12:11:35.529860+00:00"
     },
     "athlete/athletics/athlete-intel-athletics.md": {
       "sha256": "841e032488a955148c2531d8b5237fb5f318f343ca41bd701e16a6512fecb35c",
       "size_bytes": 12034,
-      "last_verified": "2026-04-15T06:33:30.041383+00:00"
+      "last_verified": "2026-04-15T12:11:35.530141+00:00"
     },
     "athlete/baseball/athlete-intel-baseball.md": {
       "sha256": "53cbfa47335a62effd9d74ab9c47742202c7148b785c2600550537f2989f3103",
       "size_bytes": 16691,
-      "last_verified": "2026-04-15T06:33:30.041617+00:00"
+      "last_verified": "2026-04-15T12:11:35.530392+00:00"
     },
     "athlete/boxing/athlete-intel-boxing.md": {
       "sha256": "6b68993a284cbd9a7f4d972501bbe390e9904cb178417221c0f8f7378a414ce5",
       "size_bytes": 5787,
-      "last_verified": "2026-04-15T06:33:30.041853+00:00"
+      "last_verified": "2026-04-15T12:11:35.530656+00:00"
     },
     "athlete/cricket/athlete-intel-cricket.md": {
       "sha256": "6632d71d0518665e0e3d598688c0a2dd4569adf566924f52e6e3e980b5c7f367",
       "size_bytes": 8321,
-      "last_verified": "2026-04-15T06:33:30.042073+00:00"
+      "last_verified": "2026-04-15T12:11:35.530903+00:00"
     },
     "athlete/cycling/athlete-intel-cycling.md": {
       "sha256": "abe838da54b47e7596df03d2fcdfdd43c0d412c7d353fe8da3289b91bb6d48f2",
       "size_bytes": 5474,
-      "last_verified": "2026-04-15T06:33:30.042318+00:00"
+      "last_verified": "2026-04-15T12:11:35.531156+00:00"
     },
     "athlete/darts/athlete-intel-darts.md": {
       "sha256": "e005e657fd90d5ec9f4d0775af3fa79c8adbe5bdea1cd54a91e6c608d08d5eb6",
       "size_bytes": 8772,
-      "last_verified": "2026-04-15T06:33:30.042548+00:00"
+      "last_verified": "2026-04-15T12:11:35.531409+00:00"
     },
     "athlete/esports/athlete-intel-esports.md": {
       "sha256": "0164c992ead11bdde17d2747e6caea0411e6731a2beaf79856a02e6ad771510e",
       "size_bytes": 7216,
-      "last_verified": "2026-04-15T06:33:30.042820+00:00"
+      "last_verified": "2026-04-15T12:11:35.531641+00:00"
     },
     "athlete/football/athlete-intel-football.md": {
       "sha256": "2a262c549db0b6b2e68915cd35d7a843069b5316b51e58b25c2f675ceeba4c29",
       "size_bytes": 15001,
-      "last_verified": "2026-04-15T06:33:30.043266+00:00"
+      "last_verified": "2026-04-15T12:11:35.531884+00:00"
     },
     "athlete/formula1/athlete-intel-formula1.md": {
       "sha256": "097583dfa57ee2a4a50fdb3b420ad70503cf5bdc41709b6623e4e418bfc3dd46",
       "size_bytes": 10267,
-      "last_verified": "2026-04-15T06:33:30.043522+00:00"
+      "last_verified": "2026-04-15T12:11:35.532150+00:00"
     },
     "athlete/golf/athlete-intel-golf.md": {
       "sha256": "e232b2674a5c488ab87dc8ad7eaaab1515f54c825489cc56e10fc9a8bdbcc4af",
       "size_bytes": 16807,
-      "last_verified": "2026-04-15T06:33:30.043819+00:00"
+      "last_verified": "2026-04-15T12:11:35.532401+00:00"
     },
     "athlete/handball/athlete-intel-handball.md": {
       "sha256": "ba01e1bccb5b414ca3449a7eaaccfcbdfc509f486be066b1674a1c86d6a19b61",
       "size_bytes": 7893,
-      "last_verified": "2026-04-15T06:33:30.044054+00:00"
+      "last_verified": "2026-04-15T12:11:35.532632+00:00"
     },
     "athlete/horse-racing/athlete-intel-horse-racing.md": {
       "sha256": "659aa239a5fe1e72e0c270d4b31a61891a30971d41a72d5808d9fcefa7979507",
       "size_bytes": 6068,
-      "last_verified": "2026-04-15T06:33:30.044316+00:00"
+      "last_verified": "2026-04-15T12:11:35.532866+00:00"
     },
     "athlete/kabaddi/athlete-intel-kabaddi.md": {
       "sha256": "099cc13556f394570fefab34d4c97fb2744c8b53924dbef1cb47cc2f0119f28f",
       "size_bytes": 7340,
-      "last_verified": "2026-04-15T06:33:30.044629+00:00"
+      "last_verified": "2026-04-15T12:11:35.533119+00:00"
     },
     "athlete/meta/athlete-intel-cross-sport-orchestrator.md": {
       "sha256": "5ae13e459d02e31f4b8a54e785e4fb9eb225eb2d6dce8d5fac35b0efb6920d2d",
       "size_bytes": 11138,
-      "last_verified": "2026-04-15T06:33:30.044882+00:00"
+      "last_verified": "2026-04-15T12:11:35.533380+00:00"
     },
     "athlete/mma/athlete-intel-mma.md": {
       "sha256": "9314107d571fbb1742e2e132119a837dc647a25a1a9d8b02e6fe76c9d4726e61",
       "size_bytes": 10736,
-      "last_verified": "2026-04-15T06:33:30.045115+00:00"
+      "last_verified": "2026-04-15T12:11:35.533616+00:00"
     },
     "athlete/motogp/athlete-intel-motogp.md": {
       "sha256": "4cfbe33460acc486a3ecb4e67d6fb6e56b00eb451382151e9010ae9990edbff1",
       "size_bytes": 11833,
-      "last_verified": "2026-04-15T06:33:30.045359+00:00"
+      "last_verified": "2026-04-15T12:11:35.533902+00:00"
     },
     "athlete/nascar/athlete-intel-nascar.md": {
       "sha256": "0055314868f8d4ad23c495edb27ded0b5f48db76e7eaf541f1b618529528ef20",
       "size_bytes": 9067,
-      "last_verified": "2026-04-15T06:33:30.045665+00:00"
+      "last_verified": "2026-04-15T12:11:35.534189+00:00"
     },
     "athlete/nba/athlete-intel-nba.md": {
       "sha256": "6693eba8b0d69ca4b181e276e4266f4b52f33f897ad898866d68bace027e0ffe",
       "size_bytes": 7599,
-      "last_verified": "2026-04-15T06:33:30.045933+00:00"
+      "last_verified": "2026-04-15T12:11:35.534441+00:00"
     },
     "athlete/netball/athlete-intel-netball.md": {
       "sha256": "a79f64705aa1c6c717463601571fac3c67f63f52133fb0b61459c9df45af3ac8",
       "size_bytes": 5058,
-      "last_verified": "2026-04-15T06:33:30.046180+00:00"
+      "last_verified": "2026-04-15T12:11:35.534765+00:00"
     },
     "athlete/nfl/athlete-intel-nfl.md": {
       "sha256": "d806639524ee401b17b171e82774af28841fbb9b0eb72a2c17a2d17ca067d692",
       "size_bytes": 11972,
-      "last_verified": "2026-04-15T06:33:30.046436+00:00"
+      "last_verified": "2026-04-15T12:11:35.535057+00:00"
     },
     "athlete/nhl/athlete-intel-nhl.md": {
       "sha256": "01ca0ebd804620a0ec91083456d726034b397ef46d0adb1af5bbfeb2d77e74ae",
       "size_bytes": 9714,
-      "last_verified": "2026-04-15T06:33:30.046675+00:00"
+      "last_verified": "2026-04-15T12:11:35.535302+00:00"
     },
     "athlete/rowing/athlete-intel-rowing.md": {
       "sha256": "7cdc75de030663e030ad27f8ff3402e38e449237871d722abbad818a68339de7",
       "size_bytes": 5136,
-      "last_verified": "2026-04-15T06:33:30.046904+00:00"
+      "last_verified": "2026-04-15T12:11:35.535538+00:00"
     },
     "athlete/rugby/athlete-intel-rugby-union.md": {
       "sha256": "2c686de8c37eeadae9cfd63da11a44982a7721ce78db494d77d65b34d3ae83b9",
       "size_bytes": 4056,
-      "last_verified": "2026-04-15T06:33:30.047129+00:00"
+      "last_verified": "2026-04-15T12:11:35.535770+00:00"
     },
     "athlete/rugby/athlete-intel-rugby.md": {
       "sha256": "99ece571871cc9b83078a6db044db78608547ffd9945e14d23423fc6b814bae1",
       "size_bytes": 9928,
-      "last_verified": "2026-04-15T06:33:30.047363+00:00"
+      "last_verified": "2026-04-15T12:11:35.536022+00:00"
     },
     "athlete/rugby-league/athlete-intel-rugby-league.md": {
       "sha256": "97b9f8d2445acb2bf1f1fc95bf5546ee1e22cf8141ff973ea5d0d7e851fe799b",
       "size_bytes": 10013,
-      "last_verified": "2026-04-15T06:33:30.047598+00:00"
+      "last_verified": "2026-04-15T12:11:35.536257+00:00"
     },
     "athlete/snooker/athlete-intel-snooker.md": {
       "sha256": "835400d64b43cedb90d7fe2bbf9d7aba6124bacbb36bea7f8bfd4b804895a43d",
       "size_bytes": 7817,
-      "last_verified": "2026-04-15T06:33:30.047838+00:00"
+      "last_verified": "2026-04-15T12:11:35.536497+00:00"
     },
     "athlete/swimming/athlete-intel-swimming.md": {
       "sha256": "1fb82024e318af2c1b64e5fb3620e1ce8aaa09124309ad8250d9079bfbd8c4f4",
       "size_bytes": 8627,
-      "last_verified": "2026-04-15T06:33:30.048080+00:00"
+      "last_verified": "2026-04-15T12:11:35.536750+00:00"
     },
     "athlete/tennis/athlete-intel-tennis.md": {
       "sha256": "3a2d04ad3de0d893f4f0f394b3720cb80a236cf584b027264cc915f882913631",
       "size_bytes": 11282,
-      "last_verified": "2026-04-15T06:33:30.048327+00:00"
+      "last_verified": "2026-04-15T12:11:35.537008+00:00"
     },
     "athlete/winter-sports/athlete-intel-winter-sports.md": {
       "sha256": "e56d04500085ba4e721ce32fffa9e5881a0a92738f002ae7cc9b32d0b71ccae6",
       "size_bytes": 10057,
-      "last_verified": "2026-04-15T06:33:30.048556+00:00"
+      "last_verified": "2026-04-15T12:11:35.537270+00:00"
     },
     "fan-token/afl-token-intelligence/afl-token-intelligence.md": {
       "sha256": "8f9a8bd5673ee77757c54dfa683bb5817ded1124436022e4406912b92ed5ee15",
       "size_bytes": 6227,
-      "last_verified": "2026-04-15T06:33:30.048805+00:00"
+      "last_verified": "2026-04-15T12:11:35.537497+00:00"
     },
     "fan-token/athlete-social-activity/fan-token-athlete-social-activity.md": {
       "sha256": "fcc841a20598152c322535f70cd710ab471655a3df74618fcfe1d0c1fedd97f6",
       "size_bytes": 10455,
-      "last_verified": "2026-04-15T06:33:30.049100+00:00"
+      "last_verified": "2026-04-15T12:11:35.537729+00:00"
     },
     "fan-token/athlete-social-lift/fan-token-athlete-social-lift.md": {
       "sha256": "e71d494e82b17c78663e74b41ee7f9ad853dc1af4d4dc58ac3ab48a0c4cdbb34",
       "size_bytes": 6508,
-      "last_verified": "2026-04-15T06:33:30.049377+00:00"
+      "last_verified": "2026-04-15T12:11:35.537951+00:00"
     },
     "fan-token/athlete-social-lift/references/social-platform-api-setup.md": {
       "sha256": "b7f1ff11f3770db7eaab8d8f80fc11cf68a3ab86c4ca69b99dda39d91eebccca",
       "size_bytes": 1578,
-      "last_verified": "2026-04-15T06:33:30.049687+00:00"
+      "last_verified": "2026-04-15T12:11:35.538267+00:00"
     },
     "fan-token/baseball-token-intelligence/baseball-token-intelligence.md": {
       "sha256": "fbd61abe43c71fb7956c47b857569941572e15e6db29450b8624773e0fb8fcd1",
       "size_bytes": 8186,
-      "last_verified": "2026-04-15T06:33:30.090116+00:00"
+      "last_verified": "2026-04-15T12:11:35.538492+00:00"
     },
     "fan-token/basketball-token-intelligence/basketball-token-intelligence.md": {
       "sha256": "11c43955a3b2e25fa5a1e8df5013aa6721171a312c7481f824433f8332845021",
       "size_bytes": 8086,
-      "last_verified": "2026-04-15T06:33:30.090494+00:00"
+      "last_verified": "2026-04-15T12:11:35.538710+00:00"
     },
     "fan-token/blockchain-validator-intelligence/blockchain-validator-intelligence.md": {
       "sha256": "df56f17cac47a0733698416c8a323b777f75d9a1676babed3051e063e43315ea",
       "size_bytes": 18078,
-      "last_verified": "2026-04-15T06:33:30.090810+00:00"
+      "last_verified": "2026-04-15T12:11:35.538945+00:00"
     },
     "fan-token/brand-score/fan-token-athlete-brand-score.md": {
       "sha256": "b3c1fa7e8b0fe2c126fb689da988bb09c0155c8c8972484718cce934bf200a7f",
       "size_bytes": 8138,
-      "last_verified": "2026-04-15T06:33:30.091049+00:00"
+      "last_verified": "2026-04-15T12:11:35.539193+00:00"
     },
     "fan-token/brand-score/references/social-following-league-medians.md": {
       "sha256": "79ff0d0ca12acf9bce2d6ca98186923be9f2cc88a2ee3a41662d1ec9819db25f",
       "size_bytes": 1125,
-      "last_verified": "2026-04-15T06:33:30.091296+00:00"
+      "last_verified": "2026-04-15T12:11:35.539426+00:00"
     },
     "fan-token/cricket-token-intelligence/cricket-token-intelligence.md": {
       "sha256": "aef4df8c03248ba56812502556160229f776ad859786b7a3683ceee1c73447c1",
       "size_bytes": 7476,
-      "last_verified": "2026-04-15T06:33:30.091528+00:00"
+      "last_verified": "2026-04-15T12:11:35.539640+00:00"
     },
     "fan-token/defi-liquidity-intelligence/defi-liquidity-intelligence.md": {
       "sha256": "191e76211927bcd29e822c5e2760143cf783debcc253a0a72ffe75acc6cd4551",
       "size_bytes": 21165,
-      "last_verified": "2026-04-15T06:33:30.091810+00:00"
+      "last_verified": "2026-04-15T12:11:35.539905+00:00"
     },
     "fan-token/disciplinary-sentiment-intelligence/disciplinary-sentiment-intelligence.md": {
       "sha256": "f7858590234a4c3294286f4427551ab7bb6ac95a4cb6cb7dceaf9342eac0c15e",
       "size_bytes": 11349,
-      "last_verified": "2026-04-15T06:33:30.092061+00:00"
+      "last_verified": "2026-04-15T12:11:35.540152+00:00"
     },
     "fan-token/esports-token-intelligence/references/esports-game-meta-calendar.md": {
       "sha256": "715cf6130ad6843fb4d3c0583165685159bf6d63c6962ed93351953d134e3cea",
       "size_bytes": 5514,
-      "last_verified": "2026-04-15T06:33:30.092350+00:00"
+      "last_verified": "2026-04-15T12:11:35.540413+00:00"
     },
     "fan-token/esports-token-intelligence/token-intelligence-esports.md": {
       "sha256": "cd73cc00e43bdd80e349382459e59d1b1788a8b0ce4107ddeedf29e573dbadd1",
       "size_bytes": 14777,
-      "last_verified": "2026-04-15T06:33:30.092674+00:00"
+      "last_verified": "2026-04-15T12:11:35.540638+00:00"
     },
     "fan-token/fan-holder-profile-intelligence.md": {
       "sha256": "6f3d0dfa92b2c3d9010e3d59d5d60e60c0d9b1b7d891b311e5b43a6afda1ae18",
       "size_bytes": 15864,
-      "last_verified": "2026-04-15T06:33:30.092977+00:00"
+      "last_verified": "2026-04-15T12:11:35.540830+00:00"
     },
     "fan-token/fan-sentiment-intelligence/fan-sentiment-intelligence.md": {
       "sha256": "fc675ebd3088b4bf664cabeda657859f051c7c21cf02ff26db2af1839d9bf45c",
       "size_bytes": 12778,
-      "last_verified": "2026-04-15T06:33:30.093242+00:00"
+      "last_verified": "2026-04-15T12:11:35.541086+00:00"
     },
     "fan-token/fan-token-layer-overview.md": {
       "sha256": "e69bc3b5c4eba649005f17a3178bd325411f7255672d571e1c5174cbdfb11cb4",
       "size_bytes": 15928,
-      "last_verified": "2026-04-15T06:33:30.093461+00:00"
+      "last_verified": "2026-04-15T12:11:35.541295+00:00"
     },
     "fan-token/fan-token-lifecycle/fan-token-lifecycle.md": {
       "sha256": "94094bbaea352a938fc326c8bd4c6248b94dffe901e5fb8f4f645838789e17bf",
       "size_bytes": 22518,
-      "last_verified": "2026-04-15T06:33:30.093714+00:00"
+      "last_verified": "2026-04-15T12:11:35.541525+00:00"
     },
     "fan-token/fan-token-partnership-intelligence/fan-token-partnership-intelligence.md": {
       "sha256": "317242798709f2ac3c0ac3150680eb1bfdbb8a4b6ef2133dac6ea9c26d342441",
       "size_bytes": 29143,
-      "last_verified": "2026-04-15T06:33:30.094029+00:00"
+      "last_verified": "2026-04-15T12:11:35.541775+00:00"
     },
     "fan-token/fan-token-pulse/fan-token-pulse-on-chain-data.md": {
       "sha256": "15de8daa54804c41b794ecb4b34c9660454d991de6ce1ae125b6893c8c005247",
       "size_bytes": 8223,
-      "last_verified": "2026-04-15T06:33:30.094272+00:00"
+      "last_verified": "2026-04-15T12:11:35.541993+00:00"
     },
     "fan-token/fan-token-pulse/references/chiliz-api-response-shapes.md": {
       "sha256": "c9f6a1b0798d14ba7ed20c1e689483474ceb8102021ebc1dc3de364d8f9255d4",
       "size_bytes": 4406,
-      "last_verified": "2026-04-15T06:33:30.094550+00:00"
+      "last_verified": "2026-04-15T12:11:35.542260+00:00"
     },
     "fan-token/fan-token-pulse/references/chiliz-token-registry.md": {
       "sha256": "07d7e69192c9918723e88c98f3016471674a62dff03b793864b2a647b0fb5e61",
       "size_bytes": 3134,
-      "last_verified": "2026-04-15T06:33:30.094790+00:00"
+      "last_verified": "2026-04-15T12:11:35.542503+00:00"
     },
     "fan-token/fan-token-why.md": {
       "sha256": "df177a947be1f3989f8e172bdc645f0ef6db880a368ce5f7de900820bfac7f86",
       "size_bytes": 19500,
-      "last_verified": "2026-04-15T06:33:30.095011+00:00"
+      "last_verified": "2026-04-15T12:11:35.542705+00:00"
     },
     "fan-token/football-token-intelligence/references/football-athlete-token-profiles.md": {
       "sha256": "b93423c250a842c42ec2aa724926234114ab34bef67ea8c52769910fa633ef88",
       "size_bytes": 10821,
-      "last_verified": "2026-04-15T06:33:30.095275+00:00"
+      "last_verified": "2026-04-15T12:11:35.543046+00:00"
     },
     "fan-token/football-token-intelligence/references/football-competition-impact-data.md": {
       "sha256": "a33e3b184e1a1476af18331cffd03efa0ba329a71fe636eea3a05802c9ed25a0",
       "size_bytes": 7192,
-      "last_verified": "2026-04-15T06:33:30.095529+00:00"
+      "last_verified": "2026-04-15T12:11:35.543308+00:00"
     },
     "fan-token/football-token-intelligence/token-intelligence-football.md": {
       "sha256": "da5fe19e5e0b2db8198daf28fa584455a5c7f34e246b528e62e9df7eb7eebdcf",
       "size_bytes": 24570,
-      "last_verified": "2026-04-15T06:33:30.095799+00:00"
+      "last_verified": "2026-04-15T12:11:35.543579+00:00"
     },
     "fan-token/formula1-token-intelligence/references/f1-constructor-token-profiles.md": {
       "sha256": "e782ac6583bbbd8ae90b6a08de628bcdd557b1c5e4d84466ed22ba7cb02c87a2",
       "size_bytes": 5575,
-      "last_verified": "2026-04-15T06:33:30.096074+00:00"
+      "last_verified": "2026-04-15T12:11:35.543824+00:00"
     },
     "fan-token/formula1-token-intelligence/token-intelligence-formula1.md": {
       "sha256": "f94c02951f8ffaada143d57aba2e085c3843b4951a6185b348f143cfb34c4aa8",
       "size_bytes": 15031,
-      "last_verified": "2026-04-15T06:33:30.096336+00:00"
+      "last_verified": "2026-04-15T12:11:35.544108+00:00"
     },
     "fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md": {
       "sha256": "429ae2a77f899f614a208eb487ab44b4c0b12637b69d7a00a98cdf53e415e6dc",
       "size_bytes": 14982,
-      "last_verified": "2026-04-15T06:33:30.096570+00:00"
+      "last_verified": "2026-04-15T12:11:35.544348+00:00"
     },
     "fan-token/handball-token-intelligence/handball-token-intelligence.md": {
       "sha256": "e9ea7ae16b4c2d5ae3bb136784ad405928dcd6c139ad4edc5fd39a7c0669f6b7",
       "size_bytes": 8205,
-      "last_verified": "2026-04-15T06:33:30.096799+00:00"
+      "last_verified": "2026-04-15T12:11:35.544581+00:00"
     },
     "fan-token/ice-hockey-token-intelligence/ice-hockey-token-intelligence.md": {
       "sha256": "296bb8afbea78799ebc7c0c2085447ebac180f3e2f824fc168f176c6ddf82654",
       "size_bytes": 9323,
-      "last_verified": "2026-04-15T06:33:30.097037+00:00"
+      "last_verified": "2026-04-15T12:11:35.544813+00:00"
     },
     "fan-token/kabaddi-token-intelligence/kabaddi-token-intelligence.md": {
       "sha256": "f7fa352438215c41f94e8ee5836e0db7d73cfe5d5562efbe471e3ade15486ad2",
       "size_bytes": 8327,
-      "last_verified": "2026-04-15T06:33:30.097262+00:00"
+      "last_verified": "2026-04-15T12:11:35.545050+00:00"
     },
     "fan-token/kol-influence-intelligence/kol-influence-intelligence.md": {
       "sha256": "3071861eeb90ff8e6a0d573c5bc6ebc9ee0134f25afcea513a6a8cd25cb247cf",
       "size_bytes": 12152,
-      "last_verified": "2026-04-15T06:33:30.097519+00:00"
+      "last_verified": "2026-04-15T12:11:35.545276+00:00"
     },
     "fan-token/mma-token-intelligence/references/mma-fighter-risk-profiles.md": {
       "sha256": "5a43dc44a9413b4c10ba616ca69e0a7632bd0637829d881710f19c04b7cbd7f8",
       "size_bytes": 5322,
-      "last_verified": "2026-04-15T06:33:30.097805+00:00"
+      "last_verified": "2026-04-15T12:11:35.545528+00:00"
     },
     "fan-token/mma-token-intelligence/token-intelligence-mma.md": {
       "sha256": "b802dd2ff17355a035cae7d4e95795505fc79bd46bc8d63974b6839a90f22592",
       "size_bytes": 14858,
-      "last_verified": "2026-04-15T06:33:30.098052+00:00"
+      "last_verified": "2026-04-15T12:11:35.545880+00:00"
     },
     "fan-token/motogp-token-intelligence/motogp-token-intelligence.md": {
       "sha256": "6c42c697e99d0ce97b2b3df21818a1465a17ec585b9331f831584b7c706d3170",
       "size_bytes": 9765,
-      "last_verified": "2026-04-15T06:33:30.098316+00:00"
+      "last_verified": "2026-04-15T12:11:35.546266+00:00"
     },
     "fan-token/nascar-token-intelligence/nascar-token-intelligence.md": {
       "sha256": "ece79f8893d13dd5fcec93a223b850639f23e36f41fd083603a87aa3b9a5d2c8",
       "size_bytes": 8550,
-      "last_verified": "2026-04-15T06:33:30.098567+00:00"
+      "last_verified": "2026-04-15T12:11:35.546513+00:00"
     },
     "fan-token/netball-token-intelligence/netball-token-intelligence.md": {
       "sha256": "9a3e310ded5b7811816a5a8c0efeb917db82eefa47fbe7abbe0df4cf97bf17c8",
       "size_bytes": 8613,
-      "last_verified": "2026-04-15T06:33:30.098784+00:00"
+      "last_verified": "2026-04-15T12:11:35.546744+00:00"
     },
     "fan-token/nfl-token-intelligence/nfl-token-intelligence.md": {
       "sha256": "2932c57af1673f51d40275d6c056a9ebada9a5b15cf5e9dfde87ef019e19c10e",
       "size_bytes": 6877,
-      "last_verified": "2026-04-15T06:33:30.098997+00:00"
+      "last_verified": "2026-04-15T12:11:35.546989+00:00"
     },
     "fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md": {
       "sha256": "703f78eb29200bfddab68fcf06979f6eb9598e2a61ec48c8bfb86e7c484194f3",
       "size_bytes": 19917,
-      "last_verified": "2026-04-15T06:33:30.099252+00:00"
+      "last_verified": "2026-04-15T12:11:35.547256+00:00"
     },
     "fan-token/performance-off-pitch/fan-token-performance-off-pitch.md": {
       "sha256": "c2f3a0b405b9ecec0e27f90e72eb6b3a1913188b552e46af588a4c4ad0d425b1",
       "size_bytes": 13186,
-      "last_verified": "2026-04-15T06:33:30.099482+00:00"
+      "last_verified": "2026-04-15T12:11:35.547493+00:00"
     },
     "fan-token/performance-off-pitch/references/transfer-adaptation-timelines.md": {
       "sha256": "d0e2e3a86ed7b7045b615f1a1b072702c55123458515480ee3f72ecc0a7262dd",
       "size_bytes": 1387,
-      "last_verified": "2026-04-15T06:33:30.099727+00:00"
+      "last_verified": "2026-04-15T12:11:35.547753+00:00"
     },
     "fan-token/performance-on-pitch/fan-token-performance-on-pitch.md": {
       "sha256": "b0a2ba8cdc18634505de0dc6fd86b3e182ec94cdefcd43b5ae82b6a202c86832",
       "size_bytes": 11095,
-      "last_verified": "2026-04-15T06:33:30.099950+00:00"
+      "last_verified": "2026-04-15T12:11:35.547995+00:00"
     },
     "fan-token/performance-on-pitch/references/advanced-metric-definitions.md": {
       "sha256": "aaf152a8609416aec1023d543ce7db2cc5f49fbe953fdb0970d6c3ea9bda296b",
       "size_bytes": 1910,
-      "last_verified": "2026-04-15T06:33:30.100193+00:00"
+      "last_verified": "2026-04-15T12:11:35.548286+00:00"
     },
     "fan-token/rugby-league-token-intelligence/rugby-league-token-intelligence.md": {
       "sha256": "a87cbebf2956cfeb730e37b286ea360a570fcadba4d8f9fbec8f6d89dd3504d2",
       "size_bytes": 7706,
-      "last_verified": "2026-04-15T06:33:30.100426+00:00"
+      "last_verified": "2026-04-15T12:11:35.548569+00:00"
     },
     "fan-token/rugby-token-intelligence/rugby-token-intelligence.md": {
       "sha256": "d5858c11da99885e487b162e43de4f22a6d7a1322b78bcff8abfa3e611192e7c",
       "size_bytes": 6923,
-      "last_verified": "2026-04-15T06:33:30.100652+00:00"
+      "last_verified": "2026-04-15T12:11:35.548912+00:00"
     },
     "fan-token/rwa-sportfi-intelligence/rwa-sportfi-intelligence.md": {
       "sha256": "0701cb01c44d2acc71d4d172c91a0a0907af8761fd7a059d8fb0dd9660fa7f04",
       "size_bytes": 28208,
-      "last_verified": "2026-04-15T06:33:30.100907+00:00"
+      "last_verified": "2026-04-15T12:11:35.549200+00:00"
     },
     "fan-token/sponsorship-match/fan-token-sponsorship-match.md": {
       "sha256": "501173a54fd5f622d268a2025ed078abece665d0dff8f7498097695d5725aeeb",
       "size_bytes": 9331,
-      "last_verified": "2026-04-15T06:33:30.101127+00:00"
+      "last_verified": "2026-04-15T12:11:35.549423+00:00"
     },
     "fan-token/sponsorship-match/references/token-activation-templates.md": {
       "sha256": "1c3c6b8c991b7743c3b19e94cc0bdeb0d3d89d40189af1a580601ae92418df87",
       "size_bytes": 3733,
-      "last_verified": "2026-04-15T06:33:30.101395+00:00"
+      "last_verified": "2026-04-15T12:11:35.549675+00:00"
     },
     "fan-token/sports-brand-sponsorship/fan-token-sports-brand-sponsorship.md": {
       "sha256": "16c72743642242ab7076cf3da13ba2cc751ba1bb5566d7f6ffab079303cb9c40",
       "size_bytes": 14650,
-      "last_verified": "2026-04-15T06:33:30.101626+00:00"
+      "last_verified": "2026-04-15T12:11:35.549930+00:00"
     },
     "fan-token/sports-brand-sponsorship/references/endorsement-contract-clauses.md": {
       "sha256": "0db2792229da531bd23865a5862555efbcb93ad0d12aa9402f455ad7d761eb40",
       "size_bytes": 1812,
-      "last_verified": "2026-04-15T06:33:30.101863+00:00"
+      "last_verified": "2026-04-15T12:11:35.550204+00:00"
     },
     "fan-token/sports-brand-sponsorship/references/sponsorship-deal-benchmarks.md": {
       "sha256": "3e313599cd32aeece14d17b6f61c639f944e3f1cd124affcf93f1529224ea4aa",
       "size_bytes": 1507,
-      "last_verified": "2026-04-15T06:33:30.102088+00:00"
+      "last_verified": "2026-04-15T12:11:35.550439+00:00"
     },
     "fan-token/sports-governance-intelligence/sports-governance-intelligence.md": {
       "sha256": "b74801cb81119eb23223a17d475abc413496922daf80222b623f0c2c94e2201d",
       "size_bytes": 12494,
-      "last_verified": "2026-04-15T06:33:30.102354+00:00"
+      "last_verified": "2026-04-15T12:11:35.550667+00:00"
     },
     "fan-token/tournament-elimination-intelligence.md": {
       "sha256": "05b6cf937d5df4bc10f09e99154cd7aa7c929af1c1321dd523d2b1d8f24d4c4d",
       "size_bytes": 10550,
-      "last_verified": "2026-04-15T06:33:30.102661+00:00"
+      "last_verified": "2026-04-15T12:11:35.550868+00:00"
     },
     "fan-token/transfer-intelligence/fan-token-transfer-intelligence.md": {
       "sha256": "8bcd835a4527c548b0c12a76a1caa5404d8bd6a025b3803ac4abf55b22bd256e",
       "size_bytes": 10564,
-      "last_verified": "2026-04-15T06:33:30.102909+00:00"
+      "last_verified": "2026-04-15T12:11:35.551139+00:00"
     },
     "fan-token/transfer-intelligence/references/contract-clause-templates.md": {
       "sha256": "2222479165908e662cfa8dd065f8ec2d1282136951ea042f160a24bf87cbea43",
       "size_bytes": 1297,
-      "last_verified": "2026-04-15T06:33:30.103173+00:00"
+      "last_verified": "2026-04-15T12:11:35.551408+00:00"
     },
     "fan-token/transfer-intelligence/references/transfer-fee-benchmarks.md": {
       "sha256": "0c4ca0804d9dc842c0e34162ca67472d8d5eb0f44b6854630c95fa0e7f663450",
       "size_bytes": 2357,
-      "last_verified": "2026-04-15T06:33:30.103421+00:00"
+      "last_verified": "2026-04-15T12:11:35.551650+00:00"
     },
     "fan-token/transfer-signal/fan-token-transfer-signal.md": {
       "sha256": "cb5a1454cf4c78b406fd46270f54f91c734687a489ad7c801d65b007f3eda759",
       "size_bytes": 8228,
-      "last_verified": "2026-04-15T06:33:30.103640+00:00"
+      "last_verified": "2026-04-15T12:11:35.551888+00:00"
     },
     "fan-token/transfer-signal/references/journalist-source-tiers.md": {
       "sha256": "778a89f1651030da13111490556915ee943b4852d7a83e303d0221532a1ad213",
       "size_bytes": 1928,
-      "last_verified": "2026-04-15T06:33:30.103882+00:00"
+      "last_verified": "2026-04-15T12:11:35.552167+00:00"
     },
     "fan-token/transfer-window-intelligence/transfer-window-intelligence.md": {
       "sha256": "72edc74f2e67f7038ac95c0ce98464f33dfa87b4a52d60477863c21f017c8518",
       "size_bytes": 11478,
-      "last_verified": "2026-04-15T06:33:30.104099+00:00"
+      "last_verified": "2026-04-15T12:11:35.552413+00:00"
     },
     "fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md": {
       "sha256": "c52a4789620c23cb83db9c1b9c74d3b0a093b4f0b384ef8ded348bf8f5923c05",
       "size_bytes": 12492,
-      "last_verified": "2026-04-15T06:33:30.104383+00:00"
+      "last_verified": "2026-04-15T12:11:35.552640+00:00"
     },
     "core/agent-cognitive-architecture.md": {
       "sha256": "25cf9f88c894e4e442abfde00d0a29e90aa8613c763de9e1b9ddba771fa36587",
       "size_bytes": 18737,
-      "last_verified": "2026-04-15T06:33:30.104603+00:00"
+      "last_verified": "2026-04-15T12:11:35.552882+00:00"
     },
     "core/agent-goal-framework.md": {
       "sha256": "a6de02735735303c911625847a443eb8522bf0f3605fc62137c3c11911c8f08e",
       "size_bytes": 19600,
-      "last_verified": "2026-04-15T06:33:30.104823+00:00"
+      "last_verified": "2026-04-15T12:11:35.553143+00:00"
     },
     "core/agent-intelligence-model.md": {
       "sha256": "b7eb8aa42b1e1a2069826638b13db0a6cec63c1aa26ac8b4f4388e9a35db6a8c",
       "size_bytes": 14219,
-      "last_verified": "2026-04-15T06:33:30.105017+00:00"
+      "last_verified": "2026-04-15T12:11:35.553388+00:00"
     },
     "core/athlete-decision-intelligence.md": {
       "sha256": "895b5aab12a5acfe04386d95fcc62c0c2d28381c43025bb801e8338431da3be7",
       "size_bytes": 15799,
-      "last_verified": "2026-04-15T06:33:30.105357+00:00"
+      "last_verified": "2026-04-15T12:11:35.553626+00:00"
     },
     "core/athlete-disciplinary-intelligence.md": {
       "sha256": "83819f4e6485c8ad360fbdfea1a2b553ce863c9b217e2c01f32de2e54b1fa767",
       "size_bytes": 28970,
-      "last_verified": "2026-04-15T06:33:30.105610+00:00"
+      "last_verified": "2026-04-15T12:11:35.553904+00:00"
     },
     "core/athlete-financial-intelligence.md": {
       "sha256": "208aab7bde8c6e791442358d6e3c926cd297fe1f34c7bcbf9ccec5494d84616b",
       "size_bytes": 12127,
-      "last_verified": "2026-04-15T06:33:30.105843+00:00"
+      "last_verified": "2026-04-15T12:11:35.554142+00:00"
     },
     "core/athlete-motivation-intelligence.md": {
       "sha256": "5bc89e4cc22f91dfcfa7d1637d500b8a5432e86d732932d2dea82cf868dc7df3",
       "size_bytes": 17276,
-      "last_verified": "2026-04-15T06:33:30.106114+00:00"
+      "last_verified": "2026-04-15T12:11:35.554386+00:00"
     },
     "core/athlete-readiness-index.md": {
       "sha256": "0eae17c947a4db88afceea94ed8dc2a8d782df1f2978f27187b9761a6cf745d6",
       "size_bytes": 13911,
-      "last_verified": "2026-04-15T06:33:30.106374+00:00"
+      "last_verified": "2026-04-15T12:11:35.554621+00:00"
     },
     "core/autonomous-agent-framework.md": {
       "sha256": "c6724c6ea7d2b7a2ae10223b9786ce73b0fc4e7c072f7d9f3be1fa4cdf0e9158",
       "size_bytes": 27465,
-      "last_verified": "2026-04-15T06:33:30.106598+00:00"
+      "last_verified": "2026-04-15T12:11:35.554863+00:00"
     },
     "core/breaking-news-intelligence.md": {
       "sha256": "de72ac34f3ada5ee74e1b3b981d8ca44db1bb236499e4c686b3921ecc90629ae",
       "size_bytes": 14425,
-      "last_verified": "2026-04-15T06:33:30.106875+00:00"
+      "last_verified": "2026-04-15T12:11:35.555121+00:00"
     },
     "core/calibration-framework.md": {
       "sha256": "86f79d763d5b8c9324d3fe0c08f4e62f69d33eb66862719808f34f7fde38340a",
       "size_bytes": 9721,
-      "last_verified": "2026-04-15T06:33:30.107078+00:00"
+      "last_verified": "2026-04-15T12:11:35.555356+00:00"
     },
     "core/confidence-output-schema.md": {
       "sha256": "ebd05621571e0922d83cb9eb31b9b6e3fae1dc89a6f204b22f31a40908b84159",
       "size_bytes": 18115,
-      "last_verified": "2026-04-15T06:33:30.107318+00:00"
+      "last_verified": "2026-04-15T12:11:35.555634+00:00"
     },
     "core/context-window-management.md": {
       "sha256": "92ea3a668648cacba694ed711c55a29cfe2b06ecacd698d6c3cfbbba01a3d7c8",
       "size_bytes": 12817,
-      "last_verified": "2026-04-15T06:33:30.107519+00:00"
+      "last_verified": "2026-04-15T12:11:35.555864+00:00"
     },
     "core/contextual-signal-environment.md": {
       "sha256": "46716a815eeefdb46d9df9690dffff01174c0fec71b451373086a5dff4bf76d9",
       "size_bytes": 18720,
-      "last_verified": "2026-04-15T06:33:30.107718+00:00"
+      "last_verified": "2026-04-15T12:11:35.556112+00:00"
     },
     "core/core-athlete-modifier-system.md": {
       "sha256": "1ec79865f66c8aed7d43bdedbabd430277b64207152e96bbb45614381925b89d",
       "size_bytes": 5151,
-      "last_verified": "2026-04-15T06:33:30.107930+00:00"
+      "last_verified": "2026-04-15T12:11:35.556334+00:00"
     },
     "core/core-draft-intelligence.md": {
       "sha256": "b34eb86258af662deac49632ba2d2c84b0a043736ff20bccfc9b6745759faec4",
       "size_bytes": 9870,
-      "last_verified": "2026-04-15T06:33:30.108143+00:00"
+      "last_verified": "2026-04-15T12:11:35.556537+00:00"
     },
     "core/core-fixture-congestion.md": {
       "sha256": "51bb38393f45bc8561f5f17449fbac0417cf7192a16d5f061bb83841b24f70b4",
       "size_bytes": 10250,
-      "last_verified": "2026-04-15T06:33:30.108349+00:00"
+      "last_verified": "2026-04-15T12:11:35.556765+00:00"
     },
     "core/core-narrative-momentum.md": {
       "sha256": "f7e9c7bea1ac9cac70f3085a1bc79ab27b8ff422d7d7a55c10f5ee4cde4a74ba",
       "size_bytes": 13520,
-      "last_verified": "2026-04-15T06:33:30.108562+00:00"
+      "last_verified": "2026-04-15T12:11:35.556981+00:00"
     },
     "core/core-officiating-intelligence.md": {
       "sha256": "fb1c9023e09b15d98f237cda17dceb416bda042d1eb0d05763531d34b6df4c55",
       "size_bytes": 13687,
-      "last_verified": "2026-04-15T06:33:30.108755+00:00"
+      "last_verified": "2026-04-15T12:11:35.557235+00:00"
     },
     "core/core-result-impact-matrices.md": {
       "sha256": "c39610b7194315ee3efac4713de57ea8c41b67be457aa2a3d794f06276bbf332",
       "size_bytes": 7727,
-      "last_verified": "2026-04-15T06:33:30.108952+00:00"
+      "last_verified": "2026-04-15T12:11:35.557445+00:00"
     },
     "core/core-signal-weights-by-sport.md": {
       "sha256": "f3f3540e262f3bfa56e7a913706e3b5a4d8d9e78c80f8e1c1b5d11493b44a106",
       "size_bytes": 6454,
-      "last_verified": "2026-04-15T06:33:30.109168+00:00"
+      "last_verified": "2026-04-15T12:11:35.557760+00:00"
     },
     "core/core-weather-match-day.md": {
       "sha256": "be319b3ee186ea73a0698292ab3a01ee8522edfb67ef977cb0cc8355fd0ffb9a",
       "size_bytes": 11266,
-      "last_verified": "2026-04-15T06:33:30.109360+00:00"
+      "last_verified": "2026-04-15T12:11:35.558073+00:00"
     },
     "core/cup-competition-intelligence.md": {
       "sha256": "8110d7ea6b6c3bc154eceba05233aa29817820c98ab5f0f88be526ad068d8e3e",
       "size_bytes": 11810,
-      "last_verified": "2026-04-15T06:33:30.109548+00:00"
+      "last_verified": "2026-04-15T12:11:35.558326+00:00"
     },
     "core/data-sources.md": {
       "sha256": "0f4eb0de364b2bd276c4ce2534d33f6dc855c994d013ca65dc0e2948d71d145b",
       "size_bytes": 25831,
-      "last_verified": "2026-04-15T06:33:30.109779+00:00"
+      "last_verified": "2026-04-15T12:11:35.558613+00:00"
     },
     "core/derby-intelligence.md": {
       "sha256": "5913ae1234a5b4cfa377fcb2d8b678d34ea84580fa8c00abd2420e90960af469",
       "size_bytes": 12307,
-      "last_verified": "2026-04-15T06:33:30.109994+00:00"
+      "last_verified": "2026-04-15T12:11:35.558867+00:00"
     },
     "core/external-intelligence-intake.md": {
       "sha256": "3141b7ec8ed99400e90f3cbd713f907b32d4e5ee117f196ca548386697efb02e",
       "size_bytes": 13681,
-      "last_verified": "2026-04-15T06:33:30.110219+00:00"
+      "last_verified": "2026-04-15T12:11:35.559123+00:00"
     },
     "core/game-tempo-intelligence.md": {
       "sha256": "6259afedce5da96e882651eb609cd46a0f5b1facd6c1a1df3ce3fd2f3ae626d9",
       "size_bytes": 13261,
-      "last_verified": "2026-04-15T06:33:30.110479+00:00"
+      "last_verified": "2026-04-15T12:11:35.559352+00:00"
     },
     "core/historical-intelligence-framework.md": {
       "sha256": "eefeb6cebb8f758bba9dba1eaa0d359433799fafaf9b12461fd5d3d681d87dfd",
       "size_bytes": 16873,
-      "last_verified": "2026-04-15T06:33:30.110690+00:00"
+      "last_verified": "2026-04-15T12:11:35.559615+00:00"
     },
     "core/lineup-quality-index.md": {
       "sha256": "4e9fcd4a7fcabfaaad2425f17894d34d7a5c678f754485b92af945f74936d9ca",
       "size_bytes": 16281,
-      "last_verified": "2026-04-15T06:33:30.110881+00:00"
+      "last_verified": "2026-04-15T12:11:35.559893+00:00"
     },
     "core/manager-intelligence.md": {
       "sha256": "2a2d5e6b4a7a7919b398f67bbe3d0334c745a5556bad8ce604b94090ef406857",
       "size_bytes": 13108,
-      "last_verified": "2026-04-15T06:33:30.111088+00:00"
+      "last_verified": "2026-04-15T12:11:35.560167+00:00"
     },
     "core/match-condition-snapshot.md": {
       "sha256": "2d34888bfa37bf043889be434c93d84622c8c6703c96042201d8a5f87009969d",
       "size_bytes": 13512,
-      "last_verified": "2026-04-15T06:33:30.111326+00:00"
+      "last_verified": "2026-04-15T12:11:35.560392+00:00"
     },
     "core/media-intelligence.md": {
       "sha256": "41fc13449d09eac496452ba04e0c220049251e55237f0c084db7195117021aef",
       "size_bytes": 12033,
-      "last_verified": "2026-04-15T06:33:30.111515+00:00"
+      "last_verified": "2026-04-15T12:11:35.560682+00:00"
     },
     "core/modifier-recalibration-v3.md": {
       "sha256": "bcd8de29fa19c92757964f5bed411aee0bb3fce8db126c6d757a04fe26a947c5",
       "size_bytes": 12500,
-      "last_verified": "2026-04-15T06:33:30.111713+00:00"
+      "last_verified": "2026-04-15T12:11:35.560900+00:00"
     },
     "core/modifier-recalibration-v4.md": {
       "sha256": "6a5550646835ab401d7c37de8ea0541db3f8e100e0d5561294053fe72250718b",
       "size_bytes": 4659,
-      "last_verified": "2026-04-15T06:33:30.111928+00:00"
+      "last_verified": "2026-04-15T12:11:35.561144+00:00"
     },
     "core/modifier-recalibration-v5.md": {
       "sha256": "57749aa7d67e2083bac96994d164539073055385992a5f5e1236b5658e01c8a4",
       "size_bytes": 5914,
-      "last_verified": "2026-04-15T06:33:30.112124+00:00"
+      "last_verified": "2026-04-15T12:11:35.561346+00:00"
     },
     "core/modifier-recalibration-v6.md": {
       "sha256": "3e49b84e5ef51b0beee89f27ae3430f7df4fb617da39c0c011f4f801bd8fa7cd",
       "size_bytes": 3543,
-      "last_verified": "2026-04-15T06:33:30.112314+00:00"
+      "last_verified": "2026-04-15T12:11:35.561538+00:00"
     },
     "core/multi-agent-context-sharing.md": {
       "sha256": "ab15b6ad336cef98568cf0533c8ffebecffd06de0a7558ec6a6acde1d245795b",
       "size_bytes": 16249,
-      "last_verified": "2026-04-15T06:33:30.112521+00:00"
+      "last_verified": "2026-04-15T12:11:35.561761+00:00"
     },
     "core/multi-agent-coordination.md": {
       "sha256": "0485115974c2fe166ac0058e4a1188b609591b18b4766149bce20b7bd4aea4dd",
       "size_bytes": 20729,
-      "last_verified": "2026-04-15T06:33:30.112731+00:00"
+      "last_verified": "2026-04-15T12:11:35.561980+00:00"
     },
     "core/opponent-tendency-intelligence.md": {
       "sha256": "c304a8f53d98ad18725dfbdd0979acf5f7750c4b138c6ba4392ee15fecdc5454",
       "size_bytes": 14621,
-      "last_verified": "2026-04-15T06:33:30.112923+00:00"
+      "last_verified": "2026-04-15T12:11:35.562258+00:00"
     },
     "core/perceptual-pressure-intelligence.md": {
       "sha256": "854a89e14d98737838c6e658a9cd5d8a85bd15f20f1f84ca210fe8b4426e0469",
       "size_bytes": 15409,
-      "last_verified": "2026-04-15T06:33:30.113130+00:00"
+      "last_verified": "2026-04-15T12:11:35.562519+00:00"
     },
     "core/player-statistical-reasoning.md": {
       "sha256": "b9e8a7e93afbc8b071b37f504b6ad1d7d51f857a7c33fa5f0943433d886b3199",
       "size_bytes": 26516,
-      "last_verified": "2026-04-15T06:33:30.113366+00:00"
+      "last_verified": "2026-04-15T12:11:35.562798+00:00"
     },
     "core/post-match-signal-framework.md": {
       "sha256": "2299822342eab350f733eb703969a1fc86266b9a2b62d3d2378b9e4e1a483a93",
       "size_bytes": 12220,
-      "last_verified": "2026-04-15T06:33:30.113573+00:00"
+      "last_verified": "2026-04-15T12:11:35.563031+00:00"
     },
     "core/pre-match-squad-intelligence.md": {
       "sha256": "e62f8c531fd076226d6320e665d7f37b43c10e14b8089cc7a2a91160c3cd9316",
       "size_bytes": 23126,
-      "last_verified": "2026-04-15T06:33:30.113789+00:00"
+      "last_verified": "2026-04-15T12:11:35.563286+00:00"
     },
     "core/prediction-market-intelligence.md": {
       "sha256": "79da0315640ec7871c61da4bf4d297e10fba229cd9e25a0de92c35821334c6d3",
       "size_bytes": 12254,
-      "last_verified": "2026-04-15T06:33:30.113980+00:00"
+      "last_verified": "2026-04-15T12:11:35.563491+00:00"
     },
     "core/reasoning-patterns.md": {
       "sha256": "0aea7156b32dd397d7005254f0c7c9bbaf5f0b91fac912a340ed112be525d25c",
       "size_bytes": 12269,
-      "last_verified": "2026-04-15T06:33:30.114202+00:00"
+      "last_verified": "2026-04-15T12:11:35.563688+00:00"
     },
     "core/spatial-game-intelligence.md": {
       "sha256": "a586e73386d5c40bd7cb267459dcbd5fa29b35cf8fd80da29cca4e6efa27ab41",
       "size_bytes": 14633,
-      "last_verified": "2026-04-15T06:33:30.114415+00:00"
+      "last_verified": "2026-04-15T12:11:35.563959+00:00"
     },
     "core/sportmind-purpose-and-context.md": {
       "sha256": "d5822b71d0ddacdff77e3a42bdc0e6d537e10b1fefe72996bffb66652f0a3ce3",
       "size_bytes": 7962,
-      "last_verified": "2026-04-15T06:33:30.114635+00:00"
+      "last_verified": "2026-04-15T12:11:35.564301+00:00"
     },
     "core/sportmind-score.md": {
       "sha256": "80711ca46cb59c0cfafe1bf20f609be0ff35a119d087d5bbfc372f9e4ab53523",
       "size_bytes": 9471,
-      "last_verified": "2026-04-15T06:33:30.114866+00:00"
+      "last_verified": "2026-04-15T12:11:35.564632+00:00"
     },
     "core/sports-trend-intelligence.md": {
       "sha256": "79c3a229391653f570127254651fa98f903072ab56c8044c88f9d1a2cc9171f9",
       "size_bytes": 21065,
-      "last_verified": "2026-04-15T06:33:30.115156+00:00"
+      "last_verified": "2026-04-15T12:11:35.564925+00:00"
     },
     "core/squad-cohesion-intelligence.md": {
       "sha256": "a51fb59c6f6a48e75a76bd7e106cad57e09352c0a71f5ee7b44759c0135d52d5",
       "size_bytes": 14522,
-      "last_verified": "2026-04-15T06:33:30.115394+00:00"
+      "last_verified": "2026-04-15T12:11:35.565195+00:00"
     },
     "core/star-departure-intelligence.md": {
       "sha256": "9a984d10c6ed9df5a49e577e1959f3fa95a78acb01a62f5752144b5b2636bbe2",
       "size_bytes": 24008,
-      "last_verified": "2026-04-15T06:33:30.115639+00:00"
+      "last_verified": "2026-04-15T12:11:35.565519+00:00"
     },
     "core/tactical-matchup-intelligence.md": {
       "sha256": "ca29f58a0231f269fa0ecbed930ae45d0088b7c932874cd997ffdad14435ab04",
       "size_bytes": 13923,
-      "last_verified": "2026-04-15T06:33:30.115866+00:00"
+      "last_verified": "2026-04-15T12:11:35.565753+00:00"
     },
     "core/temporal-awareness.md": {
       "sha256": "eb9f7965bf9b35c9ba1c76e6d8df43540528a9b0a965ef909c1c4b57c1e665af",
       "size_bytes": 13342,
-      "last_verified": "2026-04-15T06:33:30.116072+00:00"
+      "last_verified": "2026-04-15T12:11:35.565989+00:00"
     },
     "core/transfer-negotiation-intelligence.md": {
       "sha256": "7afd5c5140a9161abd4b6a80900c4f91a952a43687469bc070c4880ed603a210",
       "size_bytes": 17053,
-      "last_verified": "2026-04-15T06:33:30.116313+00:00"
+      "last_verified": "2026-04-15T12:11:35.566251+00:00"
     },
     "core/travel-timezone-intelligence.md": {
       "sha256": "c80d5481c50679f4f2f387b3b0b0f663a4597416465d43cd9b40d87ad59f4da1",
       "size_bytes": 13652,
-      "last_verified": "2026-04-15T06:33:30.116589+00:00"
+      "last_verified": "2026-04-15T12:11:35.566493+00:00"
     },
     "core/verifiable-sources-by-sport.md": {
       "sha256": "fdb1e8f24351872369396da8fd9ac0d26228f9e0c617bd4b8529ee736126bb29",
       "size_bytes": 15142,
-      "last_verified": "2026-04-15T06:33:30.116799+00:00"
+      "last_verified": "2026-04-15T12:11:35.566705+00:00"
     },
     "market/broadcaster-media-intelligence.md": {
       "sha256": "e69b15c48c0ff6ac6e3af2a1edc86d771c2f1a466dbf60fd392fc738b5ab952c",
       "size_bytes": 13689,
-      "last_verified": "2026-04-15T06:33:30.116999+00:00"
+      "last_verified": "2026-04-15T12:11:35.566941+00:00"
     },
     "market/club-operations-intelligence.md": {
       "sha256": "a000c5bd3c29f60c165b3ada5c649512698211f1bdf5706fff0310dfedac5f13",
       "size_bytes": 11733,
-      "last_verified": "2026-04-15T06:33:30.117222+00:00"
+      "last_verified": "2026-04-15T12:11:35.567318+00:00"
     },
     "market/euroleague-basketball-intelligence.md": {
       "sha256": "833aecb0cd911a2200a79af1b6faa3b47837e53d8ff745ca9f9590381236457b",
       "size_bytes": 9136,
-      "last_verified": "2026-04-15T06:33:30.117423+00:00"
+      "last_verified": "2026-04-15T12:11:35.567605+00:00"
     },
     "market/football-leagues-advanced.md": {
       "sha256": "0208dd85d2c3926b963958b7ade2bc29ffa796a87f1eddf482b37850eb9709ab",
       "size_bytes": 16011,
-      "last_verified": "2026-04-15T06:33:30.117628+00:00"
+      "last_verified": "2026-04-15T12:11:35.567827+00:00"
     },
     "market/international-cricket-cycle.md": {
       "sha256": "d333c674634028a40bc12412870091b225b1321b96e5f030fe8aa5da3085b0d3",
       "size_bytes": 11971,
-      "last_verified": "2026-04-15T06:33:30.117826+00:00"
+      "last_verified": "2026-04-15T12:11:35.568085+00:00"
     },
     "market/international-football-cycle.md": {
       "sha256": "ebcd382e06eb2d1eafb68c7bdad4495a2e5ffe68f7137f95e48ef7e044fbd118",
       "size_bytes": 17807,
-      "last_verified": "2026-04-15T06:33:30.118025+00:00"
+      "last_verified": "2026-04-15T12:11:35.568518+00:00"
     },
     "market/international-rugby-cycle.md": {
       "sha256": "a703f25efbde9bd820c06e535a664733064916f65709b411b99683f24c5e45c0",
       "size_bytes": 12530,
-      "last_verified": "2026-04-15T06:33:30.118233+00:00"
+      "last_verified": "2026-04-15T12:11:35.568753+00:00"
     },
     "market/market-afl.md": {
       "sha256": "c85d89218e8686a477f9e539277fa37ef60753858da61036f403ff2383a3259a",
       "size_bytes": 5034,
-      "last_verified": "2026-04-15T06:33:30.118426+00:00"
+      "last_verified": "2026-04-15T12:11:35.569056+00:00"
     },
     "market/market-american-football.md": {
       "sha256": "09d50b183c0c32ed6d6a301f6fc3084d27ad29fb3f8da53521166f20fc6871b5",
       "size_bytes": 7982,
-      "last_verified": "2026-04-15T06:33:30.118615+00:00"
+      "last_verified": "2026-04-15T12:11:35.569470+00:00"
     },
     "market/market-athletics.md": {
       "sha256": "61e4bc655e4630ff3601d4f6221562c4282d543392dfe1797cccc6ca5092fbc7",
       "size_bytes": 5212,
-      "last_verified": "2026-04-15T06:33:30.118811+00:00"
+      "last_verified": "2026-04-15T12:11:35.569704+00:00"
     },
     "market/market-badminton.md": {
       "sha256": "63a6c4ca84618a95540e3adfc9bb4a13aab5c647e7b19c5bcb9e8dc262d4c4ad",
       "size_bytes": 2980,
-      "last_verified": "2026-04-15T06:33:30.119009+00:00"
+      "last_verified": "2026-04-15T12:11:35.569944+00:00"
     },
     "market/market-baseball.md": {
       "sha256": "8d7259e0dd8c5c19ae61c0e8bd6ab81beb9f557b095e9c2556645e4945a91198",
       "size_bytes": 8022,
-      "last_verified": "2026-04-15T06:33:30.119218+00:00"
+      "last_verified": "2026-04-15T12:11:35.570203+00:00"
     },
     "market/market-basketball.md": {
       "sha256": "79a95de6c232c911332dc3ac952644d645d108f1d34d56a96e2a2f7fe9af1549",
       "size_bytes": 11492,
-      "last_verified": "2026-04-15T06:33:30.119425+00:00"
+      "last_verified": "2026-04-15T12:11:35.570634+00:00"
     },
     "market/market-boxing.md": {
       "sha256": "6cfc4a30ba4cd65bf768e715d6553fcd86c6d29654665b7900663a50e62fba0b",
       "size_bytes": 5555,
-      "last_verified": "2026-04-15T06:33:30.119631+00:00"
+      "last_verified": "2026-04-15T12:11:35.571086+00:00"
     },
     "market/market-cricket.md": {
       "sha256": "8c22f6c9de3c5456f2810cfcc60b14023149c7dfd354a6f5b19af6d16bfd40cc",
       "size_bytes": 11930,
-      "last_verified": "2026-04-15T06:33:30.119854+00:00"
+      "last_verified": "2026-04-15T12:11:35.571403+00:00"
     },
     "market/market-cycling.md": {
       "sha256": "9391eb45b0338ff9d0e029b3a2debba0cb3404e8f913600f40011d08f79bdfbe",
       "size_bytes": 5280,
-      "last_verified": "2026-04-15T06:33:30.120055+00:00"
+      "last_verified": "2026-04-15T12:11:35.571734+00:00"
     },
     "market/market-darts.md": {
       "sha256": "b6eb86aacd6ea0f4dd51c6d3d752d697cf2e446bfde2bb542d345c4d4f79f7ed",
       "size_bytes": 4065,
-      "last_verified": "2026-04-15T06:33:30.120248+00:00"
+      "last_verified": "2026-04-15T12:11:35.572319+00:00"
     },
     "market/market-esports.md": {
       "sha256": "04933a4d19e228c3e60ebbe60abc1131c694573213deb94dbde1cc0468884b78",
       "size_bytes": 11566,
-      "last_verified": "2026-04-15T06:33:30.120451+00:00"
+      "last_verified": "2026-04-15T12:11:35.572561+00:00"
     },
     "market/market-football.md": {
       "sha256": "01df567ca978efd055337cc34378a034ba83801f4e9181dcbc81d52d3ed0232d",
       "size_bytes": 11660,
-      "last_verified": "2026-04-15T06:33:30.120849+00:00"
+      "last_verified": "2026-04-15T12:11:35.573090+00:00"
     },
     "market/market-formula1.md": {
       "sha256": "2c3e79e2c474f9fbe58648049df75041a8e78ec990bd469cbbd0d798683e2705",
       "size_bytes": 11173,
-      "last_verified": "2026-04-15T06:33:30.121068+00:00"
+      "last_verified": "2026-04-15T12:11:35.573375+00:00"
     },
     "market/market-golf.md": {
       "sha256": "6ebd1bc9b84bcd254611364f58ddf398ba1c72a14e8b03d7a0063d2357d50b23",
       "size_bytes": 5619,
-      "last_verified": "2026-04-15T06:33:30.121290+00:00"
+      "last_verified": "2026-04-15T12:11:35.573800+00:00"
     },
     "market/market-handball.md": {
       "sha256": "5294ec92c7bfbfa87ad089f6c49d9f430e52fb597030e017c59abe5f9aaf38ee",
       "size_bytes": 4689,
-      "last_verified": "2026-04-15T06:33:30.121502+00:00"
+      "last_verified": "2026-04-15T12:11:35.574052+00:00"
     },
     "market/market-horse-racing.md": {
       "sha256": "ca9df1bb79a59cd4d52cb3c26a14bffbd01d1d076098b723db0bba3b29b3ee94",
       "size_bytes": 6136,
-      "last_verified": "2026-04-15T06:33:30.121695+00:00"
+      "last_verified": "2026-04-15T12:11:35.574365+00:00"
     },
     "market/market-ice-hockey.md": {
       "sha256": "1a5050693ff954cc981edff8a30dbed1869e92a59e50c02cbaca4f7a49571637",
       "size_bytes": 6078,
-      "last_verified": "2026-04-15T06:33:30.121877+00:00"
+      "last_verified": "2026-04-15T12:11:35.574582+00:00"
     },
     "market/market-kabaddi.md": {
       "sha256": "c854e0e5376d6c78cc25fcbc8ffe5adcc547a014a67ab2f74f7a13eb4128d2c3",
       "size_bytes": 12594,
-      "last_verified": "2026-04-15T06:33:30.122073+00:00"
+      "last_verified": "2026-04-15T12:11:35.574906+00:00"
     },
     "market/market-key-findings.md": {
       "sha256": "dbd04168219b66c83170aa434641606121c81f636cc6152160712f8fa8a950e3",
       "size_bytes": 21022,
-      "last_verified": "2026-04-15T06:33:30.122289+00:00"
+      "last_verified": "2026-04-15T12:11:35.575160+00:00"
     },
     "market/market-mma.md": {
       "sha256": "f9572403aaab1c00be6e12c729b3219d1512d782260f393b288bca3e787b7a71",
       "size_bytes": 9937,
-      "last_verified": "2026-04-15T06:33:30.122482+00:00"
+      "last_verified": "2026-04-15T12:11:35.575438+00:00"
     },
     "market/market-motogp.md": {
       "sha256": "1ac3ce0626e0506ef2ee5b8f1abad92db16ab626bb9779933e258de4b630153e",
       "size_bytes": 5564,
-      "last_verified": "2026-04-15T06:33:30.122706+00:00"
+      "last_verified": "2026-04-15T12:11:35.575738+00:00"
     },
     "market/market-nascar.md": {
       "sha256": "0e8c15fba2448d5a81851369fd1d6055a0f6fb288550b6ffd9f02cc49266307f",
       "size_bytes": 5846,
-      "last_verified": "2026-04-15T06:33:30.122918+00:00"
+      "last_verified": "2026-04-15T12:11:35.576110+00:00"
     },
     "market/market-netball.md": {
       "sha256": "159cf02dcfd2ca73204081fc45667dd5a710b7b842d99f68679d05753ce2301b",
       "size_bytes": 3359,
-      "last_verified": "2026-04-15T06:33:30.123107+00:00"
+      "last_verified": "2026-04-15T12:11:35.576387+00:00"
     },
     "market/market-overview.md": {
       "sha256": "c82c66f7039d1782140e09c05e5806cd0f8a578e3e85a2ac3dd6df7d6d25a4e0",
       "size_bytes": 16301,
-      "last_verified": "2026-04-15T06:33:30.123346+00:00"
+      "last_verified": "2026-04-15T12:11:35.576621+00:00"
     },
     "market/market-rowing.md": {
       "sha256": "369d32f5da39d5c3a551005765284c108468a9e1d80b925b4f55c9a7560e1e75",
       "size_bytes": 2240,
-      "last_verified": "2026-04-15T06:33:30.123541+00:00"
+      "last_verified": "2026-04-15T12:11:35.576814+00:00"
     },
     "market/market-rugby-league.md": {
       "sha256": "14297cc78fdf28c401c2feeef4313902a04ab10122af6cac4a4c1b4d359017cc",
       "size_bytes": 4896,
-      "last_verified": "2026-04-15T06:33:30.123741+00:00"
+      "last_verified": "2026-04-15T12:11:35.577027+00:00"
     },
     "market/market-rugby-union.md": {
       "sha256": "f59ab6514f7e78e3bef1d62f17f4802254735c0b7c21abaf6268ee842c891587",
       "size_bytes": 6146,
-      "last_verified": "2026-04-15T06:33:30.123931+00:00"
+      "last_verified": "2026-04-15T12:11:35.577255+00:00"
     },
     "market/market-snooker.md": {
       "sha256": "b8e526ee495a969f1634d50e5834b8a3abb93cad3a44423d2c0b2f97ca98dffe",
       "size_bytes": 4178,
-      "last_verified": "2026-04-15T06:33:30.124143+00:00"
+      "last_verified": "2026-04-15T12:11:35.577462+00:00"
     },
     "market/market-swimming.md": {
       "sha256": "0b54b65a3ddf54ccfe4b1eb4d2a5372cc593cbc74c6f5e7e78c09cdce736a51b",
       "size_bytes": 2562,
-      "last_verified": "2026-04-15T06:33:30.124325+00:00"
+      "last_verified": "2026-04-15T12:11:35.577660+00:00"
     },
     "market/market-table-tennis.md": {
       "sha256": "7949d1147482339ca1f54fabf772f9f87232952ca5ad4cf0c4b1f96673594927",
       "size_bytes": 2373,
-      "last_verified": "2026-04-15T06:33:30.124504+00:00"
+      "last_verified": "2026-04-15T12:11:35.577867+00:00"
     },
     "market/market-tennis.md": {
       "sha256": "48a6ab285e51edd17a74531008f592a6f3f7e970b7dff21f649a81e3abe41178",
       "size_bytes": 5451,
-      "last_verified": "2026-04-15T06:33:30.124700+00:00"
+      "last_verified": "2026-04-15T12:11:35.578112+00:00"
     },
     "market/market-volleyball.md": {
       "sha256": "b0b9afc8f1790cad89674569d0fd3cf845166ffdeb768d4c0092dd4c6aab3bd0",
       "size_bytes": 2753,
-      "last_verified": "2026-04-15T06:33:30.124897+00:00"
+      "last_verified": "2026-04-15T12:11:35.578312+00:00"
     },
     "market/market-winter-sports.md": {
       "sha256": "b51a95e1121c9d1dc99a00d6f29e7e84e1424388cea2bcd7022930decfb9a562",
       "size_bytes": 2696,
-      "last_verified": "2026-04-15T06:33:30.125095+00:00"
+      "last_verified": "2026-04-15T12:11:35.578515+00:00"
     },
     "market/market-womens-sports.md": {
       "sha256": "e9c366584ab0aaebc2b60028e1ba59221783eb69b3a8d0f64aa3dac85716a352",
       "size_bytes": 11041,
-      "last_verified": "2026-04-15T06:33:30.125303+00:00"
+      "last_verified": "2026-04-15T12:11:35.578728+00:00"
     },
     "market/world-cup-2026.md": {
       "sha256": "d2c8366f2f45421ddcfe2cdd8124c9c518135422c43a51424dde02049997e4d4",
       "size_bytes": 24868,
-      "last_verified": "2026-04-15T06:33:30.125539+00:00"
+      "last_verified": "2026-04-15T12:11:35.578962+00:00"
     },
     "macro/macro-broadcast-disruption.md": {
       "sha256": "8fe17cccc15ebc6fcc7798f4e438f37f523ef5d84224aa13be553c01831aba6d",
       "size_bytes": 6612,
-      "last_verified": "2026-04-15T06:33:30.125749+00:00"
+      "last_verified": "2026-04-15T12:11:35.579177+00:00"
     },
     "macro/macro-climate-weather.md": {
       "sha256": "fe77174aa288b1bf98d5bc4cb26b68a318efb70126a619f4f24a7ffd9e785cfb",
       "size_bytes": 8043,
-      "last_verified": "2026-04-15T06:33:30.125957+00:00"
+      "last_verified": "2026-04-15T12:11:35.579371+00:00"
     },
     "macro/macro-crypto-market-cycles.md": {
-      "sha256": "bc16b6340f5daee65ce28a31663dbe5d631c44648e1fae4ab1b3cdd4177aa769",
-      "size_bytes": 18942,
-      "last_verified": "2026-04-15T06:33:30.126181+00:00"
+      "sha256": "97a90e5b7f59a94d17c6286035b90dc297aac5b01708845e82c719cecbfa791b",
+      "size_bytes": 19262,
+      "last_verified": "2026-04-15T12:11:35.579570+00:00"
     },
     "macro/macro-economic-cycles.md": {
       "sha256": "a8b62809275b4367c475472cb6726695480ff34deae79d5a2f6a33850817b6b0",
       "size_bytes": 6477,
-      "last_verified": "2026-04-15T06:33:30.126377+00:00"
+      "last_verified": "2026-04-15T12:11:35.579769+00:00"
     },
     "macro/macro-geopolitical.md": {
       "sha256": "634c5a608000715583bee86efd534c1fb0304cdd1a044573ea04851b343a4d9c",
       "size_bytes": 11550,
-      "last_verified": "2026-04-15T06:33:30.126574+00:00"
+      "last_verified": "2026-04-15T12:11:35.579956+00:00"
     },
     "macro/macro-governance-scandal.md": {
       "sha256": "d4ea404fc9826699977c141e267d86ef0cc38a421c593beb0665d93b04ffa319",
       "size_bytes": 11009,
-      "last_verified": "2026-04-15T06:33:30.126762+00:00"
+      "last_verified": "2026-04-15T12:11:35.580157+00:00"
     },
     "macro/macro-overview.md": {
       "sha256": "c33166a6719824b993b926a5d3aa04b660b0161694a0a8d643e43a38a9c08af3",
       "size_bytes": 14058,
-      "last_verified": "2026-04-15T06:33:30.126970+00:00"
+      "last_verified": "2026-04-15T12:11:35.580377+00:00"
     },
     "macro/macro-pandemic-public-health.md": {
       "sha256": "33ac703fd1b7c841d37a069449571fde5b51b1ffce6bd39244e42c149699ab4f",
       "size_bytes": 13076,
-      "last_verified": "2026-04-15T06:33:30.127181+00:00"
+      "last_verified": "2026-04-15T12:11:35.580599+00:00"
     },
     "macro/macro-regulatory-sportfi.md": {
-      "sha256": "cf2dfea41a71af940fb40a86ecfc4dc7a857475c2c511f6343aafd739cda8419",
-      "size_bytes": 12867,
-      "last_verified": "2026-04-15T06:33:30.127385+00:00"
+      "sha256": "bbd62696af7a136f7db118b120e3ad9af14923a2a611aa0d6b2f7b286cd16b8f",
+      "size_bytes": 13197,
+      "last_verified": "2026-04-15T12:11:35.580814+00:00"
     },
     "platform/api-connector-examples.md": {
       "sha256": "0ad24a30c8b61045add4acf11b28f36b7b3ca10479c1f014588f7bcdf11253c0",
       "size_bytes": 46927,
-      "last_verified": "2026-04-15T06:33:30.127650+00:00"
+      "last_verified": "2026-04-15T12:11:35.581109+00:00"
     },
     "platform/api-contracts.md": {
       "sha256": "935e41ab69a166322237cb49ed8bf3e06e14c563d9eb52e003ed28181778051b",
       "size_bytes": 14773,
-      "last_verified": "2026-04-15T06:33:30.127857+00:00"
+      "last_verified": "2026-04-15T12:11:35.581310+00:00"
     },
     "platform/api-providers.md": {
       "sha256": "e1c55ce11c4f407b8cb75ec6a6325c60c8dd82b70ae88389f3aa935e2843bfb2",
       "size_bytes": 29659,
-      "last_verified": "2026-04-15T06:33:30.128088+00:00"
+      "last_verified": "2026-04-15T12:11:35.581537+00:00"
     },
     "platform/chiliz-agent-kit-integration.md": {
       "sha256": "96e689c19e04815a721dff2f95d5d41aeb3435c31cac0d7f4ba1300d9c570759",
       "size_bytes": 18026,
-      "last_verified": "2026-04-15T06:33:30.128327+00:00"
+      "last_verified": "2026-04-15T12:11:35.581735+00:00"
     },
     "platform/chiliz-chain-address-intelligence.md": {
       "sha256": "da8e120a392c3ece8cf4f1fbda9d56e24dc7475b84d2c38e2adf2151543f7b12",
       "size_bytes": 36427,
-      "last_verified": "2026-04-15T06:33:30.128576+00:00"
+      "last_verified": "2026-04-15T12:11:35.581990+00:00"
     },
     "platform/data-connector-templates.md": {
       "sha256": "8c8838d9eaf419bedd180edbc3f95f3eac55c4de6945398b777f92d8bc00bcc7",
       "size_bytes": 27974,
-      "last_verified": "2026-04-15T06:33:30.128798+00:00"
+      "last_verified": "2026-04-15T12:11:35.582237+00:00"
     },
     "platform/fan-engagement-connector.md": {
       "sha256": "4f7de3dc3915584e33961eb34cf2f24e000011f756d20256efa68b7e556eee10",
       "size_bytes": 16413,
-      "last_verified": "2026-04-15T06:33:30.129001+00:00"
+      "last_verified": "2026-04-15T12:11:35.582475+00:00"
     },
     "platform/fetch-mcp-disciplinary.md": {
       "sha256": "f8b6df2a95c66b66639980fafcc63a8a3307d8cfa0fa720a895355561875e382",
       "size_bytes": 10380,
-      "last_verified": "2026-04-15T06:33:30.129220+00:00"
+      "last_verified": "2026-04-15T12:11:35.582685+00:00"
     },
     "platform/fraud-signal-intelligence.md": {
       "sha256": "8ffba084918563cb2a40c6236366061fa16b771fcecf53c438c2a4dd7b68980e",
       "size_bytes": 14602,
-      "last_verified": "2026-04-15T06:33:30.129434+00:00"
+      "last_verified": "2026-04-15T12:11:35.582899+00:00"
     },
     "platform/freshness-strategy.md": {
       "sha256": "483189a9903f6fca34cd80c399ea84135a9e78787cdf1b0f89aaaace97d460cb",
       "size_bytes": 22935,
-      "last_verified": "2026-04-15T06:33:30.129652+00:00"
+      "last_verified": "2026-04-15T12:11:35.627198+00:00"
     },
     "platform/integration-partners.md": {
       "sha256": "7344526c3cf0e4ec4cf958e8dee6d231cef2213a92a092c87825f8644d69df33",
       "size_bytes": 24464,
-      "last_verified": "2026-04-15T06:33:30.129868+00:00"
+      "last_verified": "2026-04-15T12:11:35.627595+00:00"
     },
     "platform/live-signals.md": {
       "sha256": "52d89125442d534a2c2b599072d34f6f95df814121db27328d043d8f62226617",
       "size_bytes": 15220,
-      "last_verified": "2026-04-15T06:33:30.130196+00:00"
+      "last_verified": "2026-04-15T12:11:35.627937+00:00"
     },
     "platform/memory-integration.md": {
       "sha256": "ea252ed20f01e311ee012b11829751604c41987ea0f586c739086d0c413b5e12",
       "size_bytes": 10794,
-      "last_verified": "2026-04-15T06:33:30.130516+00:00"
+      "last_verified": "2026-04-15T12:11:35.628198+00:00"
     },
     "platform/monitoring-alerts.md": {
       "sha256": "9d56e55c84dbedae4b20cadaa24dfb9b856861778a9dacc1bee50ae72837bbde",
       "size_bytes": 12183,
-      "last_verified": "2026-04-15T06:33:30.130783+00:00"
+      "last_verified": "2026-04-15T12:11:35.628613+00:00"
     },
     "platform/platform-overview.md": {
       "sha256": "751073590014fda9e31532b66b5081d659b9b27dfda81667ba6254f541632167",
       "size_bytes": 7401,
-      "last_verified": "2026-04-15T06:33:30.130991+00:00"
+      "last_verified": "2026-04-15T12:11:35.628937+00:00"
     },
     "platform/realtime-integration-patterns.md": {
       "sha256": "e18a134670e8ee887b937186ba7af48a8ef3f92adc83ba66dcf647cf6b68e791",
       "size_bytes": 21670,
-      "last_verified": "2026-04-15T06:33:30.131239+00:00"
+      "last_verified": "2026-04-15T12:11:35.629233+00:00"
     },
     "platform/sequential-thinking-integration.md": {
       "sha256": "eeb68f907eac82ae77f18608a1bb32db67fdcca43c29a5117b3a32359cdbd28e",
       "size_bytes": 9137,
-      "last_verified": "2026-04-15T06:33:30.131435+00:00"
+      "last_verified": "2026-04-15T12:11:35.629461+00:00"
     },
     "platform/skill-bundles.md": {
       "sha256": "48a80a3807ca0ee670e423f46edc914f7d74d049a33a6fa4a99ee7b0a1cb585e",
       "size_bytes": 13238,
-      "last_verified": "2026-04-15T06:33:30.131634+00:00"
+      "last_verified": "2026-04-15T12:11:35.629693+00:00"
     },
     "platform/skill-discovery-protocol.md": {
       "sha256": "357dfa0320dcc5332a9580a834aa6171b58473f9d50b0feeb355dd733e3c5802",
       "size_bytes": 30372,
-      "last_verified": "2026-04-15T06:33:30.131864+00:00"
+      "last_verified": "2026-04-15T12:11:35.629978+00:00"
     },
     "platform/skill-registry-api.md": {
       "sha256": "8988a15e341d2218138f27334713e1b997b9c80b0368ed05affdb684ba54966b",
       "size_bytes": 7015,
-      "last_verified": "2026-04-15T06:33:30.132169+00:00"
+      "last_verified": "2026-04-15T12:11:35.630201+00:00"
     },
     "platform/skill-registry.md": {
       "sha256": "81c0360a797551e56ad50e6c39685c5ece65e6fbddf49f760ca59d24244b9b07",
       "size_bytes": 13936,
-      "last_verified": "2026-04-15T06:33:30.132384+00:00"
+      "last_verified": "2026-04-15T12:11:35.630436+00:00"
     },
     "platform/social-intelligence-connector.md": {
       "sha256": "519c59227a302ebc9627f3983c2c0f5766c1390a394d1c315717437901272dde",
       "size_bytes": 36079,
-      "last_verified": "2026-04-15T06:33:30.132635+00:00"
+      "last_verified": "2026-04-15T12:11:35.630702+00:00"
     },
     "platform/sportmind-mcp-deployment.md": {
       "sha256": "bd22e978ca357a10434264d4ce79f81f05131e1cbb42d0735848a17ffe86835d",
       "size_bytes": 11004,
-      "last_verified": "2026-04-15T06:33:30.132839+00:00"
+      "last_verified": "2026-04-15T12:11:35.630935+00:00"
     },
     "platform/sportmind-mcp-server.md": {
       "sha256": "9fd5225c2326a3285ce9bf640a99019c06f364b20904e8eb04c95b3b61e5ee00",
       "size_bytes": 27843,
-      "last_verified": "2026-04-15T06:33:30.133064+00:00"
+      "last_verified": "2026-04-15T12:11:35.631199+00:00"
     },
     "platform/verifiable-ml-roadmap.md": {
       "sha256": "f525d2bb034b5aa3d43bd8501bb9be5b08e217501687c5285a2ff1efaff3c6ae",
       "size_bytes": 9590,
-      "last_verified": "2026-04-15T06:33:30.133266+00:00"
+      "last_verified": "2026-04-15T12:11:35.631506+00:00"
     },
     "platform/wearable-biometric-connectors.md": {
       "sha256": "bb62f0c95d3be4909e02ac672819d47d89a9df24522171f38aeaa888348bbe17",
       "size_bytes": 15079,
-      "last_verified": "2026-04-15T06:33:30.133462+00:00"
+      "last_verified": "2026-04-15T12:11:35.631767+00:00"
     }
   }
 }

@@ -460,5 +460,11 @@ DATA SOURCE:
 ---
 
 *SportMind v3.44 · MIT License · sportmind.dev*
+LIVE CONFIRMATION (April 2026):
+  Chiliz confirmed 9.2M CHZ burned in April 2026 via virtuous cycle mechanism.
+  This confirms the cycle is OPERATIONAL, not just planned.
+  DeFi wallet integration on Socios.com scheduled mid-2026 — will expand the
+  addressable holder base for fan tokens into the DeFi user segment.
+
 *CHZ virtuous cycle section added April 2026*
 *Source: Chiliz Vision 2030 / CHZ Burn Report March-April 2026*

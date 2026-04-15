@@ -23,6 +23,10 @@ adoption and limited market development.
 2025-2026 saw coordinated regulatory clarity emerge across four major markets:
 
   EU (MiCA):        Full implementation from January 2025
+  ESMA:             CHZ MiCA whitepaper registered under ESMA official whitepaper
+                    register (April 2026) — compliance confirmed, not just planned.
+                    Tokens without MiCA-compliant whitepapers face immediate
+                    regulatory_risk_flag; $CHZ is now the benchmark compliant asset.
   UK:               FCA framework for crypto assets, including utility tokens
   US:               Joint SEC/CFTC guidance (landmark — see below)
   Brazil:           First revenue-share RWA tokenization live on Chiliz Chain

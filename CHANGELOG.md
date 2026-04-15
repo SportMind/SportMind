@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.66.1] — 2026-04-15
+
+### Fixed
+- `sportmind.dev/autonomous.html` — favicon missing; added all four favicon links
+  matching other pages (svg, 32px png, 16px png, apple-touch-icon).
+- `sportmind.dev/agent.html` — favicon missing; same four links added.
+- `sportmind.dev/autonomous.html` — run button text unreadable in light mode.
+  Button used hardcoded color:#050f07 (near-black) on var(--accent) background.
+  In light mode --accent = #16663a (dark forest green) + near-black text = illegible.
+  Fixed to color:#ffffff (white) which is readable on both dark green (light mode)
+  and bright green (dark mode). Spinner border colours updated to match.
+
+### Changed
+- `macro/macro-regulatory-sportfi.md` — ESMA confirmation added: CHZ MiCA whitepaper
+  is now officially registered under ESMA's whitepaper register (April 2026).
+  This upgrades the status from "planned/in progress" to "confirmed compliant".
+- `macro/macro-crypto-market-cycles.md` — CHZ virtuous cycle confirmed OPERATIONAL:
+  9.2M CHZ burned in April 2026. DeFi wallet integration on Socios.com noted for
+  mid-2026. Previously these were roadmap projections; now operational confirmations.
+
 ## [3.66.0] — 2026-04-15
 
 ### Added
