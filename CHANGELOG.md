@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.67.0] — 2026-04-15
+
+### Added
+- `scripts/sportmind_ft_mcp.py` — Fan Token MCP Server (port 3002, 8 tools)
+  Dedicated Chiliz/Socios intelligence: ft_token_state, ft_burn_forecast,
+  ft_community_health, ft_fraud_scan, ft_holder_brief, ft_tournament_exit,
+  ft_macro_context, ft_registry. Covers FTP PATH_2 mechanics, holder archetypes,
+  MRS fraud scan, CALENDAR_COLLAPSE, and full fan token registry (24 tokens).
+
+- `scripts/sportmind_pm_mcp.py` — Pre-Match Signal MCP Server (port 3003, 3 tools)
+  Zero-friction entry point: pm_signal (full pre-match package), pm_squad_brief
+  (availability + manager language decoder), pm_readiness (simplified ARI gate).
+  Lowest barrier to entry in the SportMind ecosystem.
+
+- `scripts/sportmind_bc_mcp.py` — Broadcast & Commercial MCP Server (port 3004, 5 tools)
+  Commercial intelligence: bc_broadcast_value (BVS), bc_rights_tier (rights
+  valuations per competition and territory), bc_audience_reach (reach tier +
+  India Rule), bc_context_quality (full 6-dimension CQS), bc_dts_effect
+  (Drive to Survive / content catalyst by sport).
+
+- `scripts/sportmind_gc_mcp.py` — Governance & Competition MCP Server (port 3005, 6 tools)
+  Season-arc and governance intelligence: gc_governance_state (GSI score),
+  gc_vote_alert (72h/24h/4h notification sequence + quality filter),
+  gc_standings (table position + threshold proximity + relegation fear signal),
+  gc_competition_state (knockout rules, two-leg aggregate, away goals note),
+  gc_fixtures (data connector guidance), gc_calendar (season arc by month).
+
+- `scripts/sportmind_sc_mcp.py` — Scouting & Transfer MCP Server (port 3006, 5 tools)
+  Pattern 10 as callable tools: sc_cvs_brief (Composite Value Score + bid range),
+  sc_dqi (Decision Quality Index + UNDERVALUED flag), sc_system_fit (PPDA-based
+  system compatibility), sc_valuation (DQI-adjusted fair value vs market price),
+  sc_transfer_brief (RAF context, window timing, negotiation phases).
+
+- `scripts/sportmind_al_mcp.py` — Agent Lifecycle MCP Server (port 3007, 5 tools)
+  Multi-agent orchestration: al_agent_start (register agent with type/goal/
+  autonomy level), al_agent_status (cycles, signals, escalations), 
+  al_escalation_inbox (retrieve + resolve pending escalations), al_memory_write,
+  al_memory_read. Enables A2A coordination pattern.
+
+- `platform/sportmind-mcp-suite.md` — Complete documentation for all seven MCP
+  servers. Deployment patterns, tool parameters, Claude Desktop configs,
+  and typical use-case combinations per audience.
+
+### Changed
+- `WHO-WE-ARE.md` — 557→570 files, 76→77 version cycles
+
 ## [3.66.1] — 2026-04-15
 
 ### Fixed

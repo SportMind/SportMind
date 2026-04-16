@@ -136,7 +136,7 @@ python scripts/sportmind_mcp.py
 python scripts/sportmind_mcp.py --http --port 3001
 ```
 
-Ten tools: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
+Seven servers, 42 tools: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
 `sportmind_verify` · `sportmind_agent_status` · `sportmind_pre_match` ·
 `sportmind_disciplinary` · `sportmind_fan_token_lookup` ·
 `sportmind_sentiment_snapshot` · `sportmind_verifiable_source`
