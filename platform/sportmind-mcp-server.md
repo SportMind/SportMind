@@ -35,7 +35,7 @@ AFTER MCP (dynamic tool):
 
 ## MCP tool definitions
 
-SportMind exposes ten MCP tools (v3.68.0). Each takes structured inputs and returns
+SportMind exposes ten MCP tools (3.69.0). Each takes structured inputs and returns
 structured SportMind output including SMS, adjusted_score, flags, and reasoning.
 See MCP-SERVER.md for the complete deployment guide and all ten tool specifications.
 

@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.69.0] — 2026-04-17
+
+### Added
+- `compressed/README.md` — Six new compressed skills (75 total, +6):
+  ARI (Athlete Readiness Index): formula, five component weights, FAN TOKEN
+  FTIS dampener rule, ARI label thresholds (500–600 tokens).
+  OTP (Opponent Tendency Intelligence): four domains, sample minimums,
+  tendency half-life table, OTP CONFIRMS vs CONTRADICTS signal chain rule.
+  CQS (Contextual Signal Environment): formula, six dimensions, canonical
+  values (UCL QF=1.27, dead rubber=0.73), DEAD_RUBBER_FLAG, CQS/SMS
+  separation rule.
+  TIS (Travel and Timezone Intelligence): eastward>westward rule, timezone
+  penalty table, haul penalty, recovery penalty, international returnee flags.
+  Agent Cognitive Architecture: seven architecture ratings with library file
+  mappings, honest capability ratings, key honest statements.
+  Web Agent Connectors: architecture flow, three-connector summary, five
+  non-negotiable rules — all under 600 tokens.
+
+- `demo.html` — World Cup 2026 scenario (scenario 15)
+  Argentina vs Brazil · MetLife Stadium · US primetime · $ARG token · NCSI ×3.5
+  Covers: WC2026 structural differences (48-team, US timezone, US market unlock),
+  NCSI amplifier progression (group ×3.5 → final ×4.0), CQS 1.38 context,
+  CALENDAR_COLLAPSE on elimination, CDI ×1.35 US market amplifier. Plain-English
+  brief: why this is the most commercially valuable match in fan token history.
+
+### Changed
+- `WHO-WE-ARE.md` — 573 files, 78 version cycles
+- `scripts/sportmind_mcp.py` — VERSION 3.69.0
+
 ## [3.68.0] — 2026-04-17
 
 ### Added

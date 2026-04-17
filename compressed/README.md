@@ -1225,3 +1225,182 @@ KEY METRICS: xA ≥0.20/90 (midfielder), progressive passes ≥7/90, press resis
 ANTI-TRAP: Assists count ≠ DQI. High assists + low xA = dependent on teammates finishing. Use xA only.
 Full skill: core/athlete-decision-intelligence.md
 ```
+
+---
+
+## [COMPRESSED] Athlete Readiness Index (ARI)
+
+```
+FORMULA: ARI = weighted_product(fatigue×0.30, motivation×0.20, travel×0.20, injury_risk×0.20, availability×0.10)
+RANGE: 0.60–1.10 | 1.00=baseline | 0.90=mild concern | 0.80=significant | 0.70=serious | 0.60=floor
+APPLICATION: composite_athlete_modifier × ARI (final readiness gate — backward compatible)
+
+FATIGUE (0.30): 7+days=1.05 | 3days=0.97 | B2B=0.92 | 3-in-7=0.88 | 4-in-10=0.80
+  Age mult: <23=×0.97 | 29–32=×1.03 | 33+=×1.06
+MOTIVATION (0.20): bridge from MI score → 1.08(peak) to 0.85(disengaged)
+  CONTRACT_YEAR=+0.08 | REVENGE_MATCH=+0.06 | CONFIRMED_DEPARTURE=−0.10
+TRAVEL (0.20): bridge from TIS → 1.00(domestic) to 0.82(floor)
+  International returnee <72h=0.90 | <48h=0.86 | <24h=0.82
+INJURY RISK (0.20): LAS×recurrence_mult | LAS(high_intensity): 0–25matches=0.00 | 46–50=0.18 | 51+=0.25
+  Return <4wk=×1.40 | return <8wk=×1.20 | two soft-tissue=×1.35
+AVAILABILITY (0.10): official_lineup=1.00 | tier2_source=0.93 | doubt=0.72 | out=0.00
+
+FAN TOKEN: ARI<0.80 any ATM-tier player → FTIS dampener −5pts | two+ → −10pts
+LABELS: ≥1.05=PEAK | 0.95–1.04=READY | 0.85–0.94=MINOR | 0.75–0.84=CONCERN | <0.75=ESCALATE
+```
+REF: core/athlete-readiness-index.md
+
+---
+
+## [COMPRESSED] Opponent Tendency Intelligence (OTP)
+
+```
+PURPOSE: Historical behavioural profiles of specific opponents (teams/coaches/athletes)
+DISTINCT FROM TMAS: TMAS=structural system mismatches | OTP=what opponent actually does
+
+FOUR DOMAINS:
+1. COACH IN-GAME: substitution timing (early<55m | standard | late>71m) | formation shift triggers
+   Trailing at 60min: does coach attack or wait? | Leading: does he drop deep?
+2. SITUATIONAL: ELIMINATION_RISER vs ELIMINATION_FALLER | derby changes tendencies?
+   When trailing late: all-out vs managed | win streak behaviour
+3. SET PIECE: corner delivery (inswinger/outswinger, near-post %) | free kick zones
+   PENALTY: direction bias — use privately only (half-life intelligence)
+4. ATHLETE MICRO: dribble direction bias | serve pattern under pressure | grappling entry
+
+SAMPLE MINIMUMS: team tendencies=20 matches | coach=15 matches | athlete=30 situations
+Below minimum → classify as PRELIMINARY (lower confidence)
+
+TENDENCY HALF-LIFE: set piece routines=4–8wk | formation shifts=6–12mo | must-win profile=persistent
+
+SIGNAL CHAIN: Load OTP after TMAS. OTP CONFIRMS structural signal → proceed
+  OTP CONTRADICTS structural signal → FLAG for human review (do not silently suppress)
+```
+REF: core/opponent-tendency-intelligence.md
+
+---
+
+## [COMPRESSED] Contextual Signal Environment (CQS)
+
+```
+FORMULA: CQS = weighted_avg(schedule_slot×0.25, venue_weight×0.20, audience×0.25,
+                              density×0.15, season_position×0.10, territory×0.05)
+RANGE: 0.60–1.40 | 1.00=standard mid-table afternoon match
+
+APPLICATION: FTIS×CQS | CDI×CQS | HAS×√CQS (square root dampens HAS swings)
+CRITICAL: CQS does NOT modify SMS. SMS=outcome probability. CQS=commercial magnitude.
+
+SCHEDULE SLOT: UCL Final primetime=1.40 | Sat 5:30pm EPL=1.20 | Sun 2pm=1.00 | early Sun=0.75
+VENUE: UCL Final neutral=1.35 | Wembley/Bernabeu=1.25 | full Tier1 stadium=1.10 | empty=0.70
+AUDIENCE: UCL Final global=1.40 | international broadcast=1.20 | domestic only=1.00
+DENSITY: isolated (no other top matches)=1.15 | standard weekend=1.00 | crowded=0.85
+SEASON: title decider/relegation final day=1.30 | October–March standard=1.00 | pre-season=0.65
+TERRITORY: US prime time=1.25 | European prime=1.10 | Asian morning=0.75
+
+CANONICAL: UCL QF (Arsenal/PSG) = CQS 1.27 | Dead rubber = 0.73 | Standard PL = 1.00
+
+DEAD_RUBBER_FLAG: if team cannot affect league position → CQS ceiling 0.75
+BEHIND_CLOSED_DOORS: override → CQS floor 0.70 regardless of other dimensions
+```
+REF: core/contextual-signal-environment.md
+
+---
+
+## [COMPRESSED] Travel and Timezone Intelligence (TIS)
+
+```
+FORMULA: TIS = 1.00 − (timezone_penalty + haul_penalty + recovery_penalty − adaptation_bonus)
+RANGE: 0.80–1.00 | 1.00=no impact | 0.85=significant | 0.80=severe
+APPLICATION: athlete_modifier × TIS (per-player or team-wide)
+
+ONLY APPLY when ONE team has materially more travel burden — cancel if both equal.
+
+TIMEZONE PENALTY (eastward > westward rule):
+  Eastward: 1–2TZ=0.00 | 3–4TZ=0.02 | 5–6TZ=0.05 | 7–8TZ=0.08 | 9+TZ=0.12
+  Westward: 1–3TZ=0.00 | 4–6TZ=0.02 | 7–9TZ=0.04 | 10+TZ=0.07
+  
+HAUL PENALTY (flight duration, independent of TZ):
+  <2h=0.00 | 2–4h=0.00 | 5–8h=0.03 | 9–12h=0.06 | 13–16h=0.09 | 17+h=0.12
+
+RECOVERY PENALTY (time between arrival and match):
+  Arrived 5+days before=0.00 | 3–4days=0.01 | 2days=0.04 | 1day=0.08 | same day=0.14
+
+SPORT-SPECIFIC: F1 penalty=0.50× (car-dominated) | NBA B2B road trip=0.95×
+INTERNATIONAL RETURNEE: 5+TZ, return <72h → TIS 0.90 | <48h → 0.86 | <24h → 0.82
+Flag: INTERNATIONAL_RETURNEE_SHORT_PREP
+```
+REF: core/travel-timezone-intelligence.md
+
+---
+
+## [COMPRESSED] Agent Cognitive Architecture
+
+```
+PURPOSE: Maps SportMind to standard AI taxonomy for enterprise evaluation
+
+ARCHITECTURE RATINGS (★=weak, ★★★★★=strong):
+REACTIVE ★★★: breaking news triggers, freshness flags, macro override
+  → Core files: breaking-news-intelligence.md, temporal-awareness.md
+
+MODEL-BASED REFLEX ★★★★★ [PRIMARY]: Six-step chain, tendency profiles, lifecycle models
+  → Skill library IS the world model. Hidden state reasoning is SportMind's core.
+  → Files: reasoning-patterns.md, opponent-tendency-intelligence.md, fan-token-lifecycle/
+
+GOAL-BASED ★★★★: Terminal→Instrumental→Immediate goal hierarchy. Autonomy levels 0–4.
+  → Files: agent-goal-framework.md, autonomous-agent-framework.md
+
+UTILITY-BASED ★★★★★: ENTER/WAIT/ABSTAIN is the terminal utility function.
+  → TMAS, ARI, CQS, MRS are all utility functions. Multi-variable trade-off.
+
+LEARNING ★★★ [INTENTIONALLY CONSTRAINED]: Library-level only (calibration→recalibration)
+  → NOT agent-level. Deliberate — prevents unauditable drift.
+  → Files: calibration-framework.md, modifier-recalibration-v3–v6.md
+
+MAS ★★★★: Signal bus, conflict hierarchy, system orchestrator
+  → Files: multi-agent-coordination.md, multi-agent-context-sharing.md
+
+BDI ★★★★: Beliefs=skill library | Desires=goal framework | Intentions=six-step chain
+  → Intention reconsideration on breaking news events
+
+KEY HONEST STATEMENTS:
+  SportMind is domain-specific AI (sports/fan tokens), not general-purpose
+  Learning is constrained for auditability — this is a feature, not a weakness
+  Agent boundary is architectural — produces intelligence, never executes
+```
+REF: core/agent-cognitive-architecture.md
+
+---
+
+## [COMPRESSED] Web Agent Connectors
+
+```
+ARCHITECTURE: SportMind returns targets+specs → web agent fetches → SportMind interprets
+  Never auto-update library from web agent output. Human confirms all library changes.
+
+CONNECTOR 1 — LINEUP CONFIRMATION:
+  Football T-75min: club official X (@Arsenal etc) | Premier League /match/{id}/lineups
+  NBA T-90min: nba.com/game/{id}/injury-report | status: Available/Questionable/Doubtful/Out
+  Cricket: ESPNcricinfo post-toss | MMA: UFC weigh-in results T-24h
+  Translation: confirmed_starter=1.00 | doubt=0.65–0.72 | absent=0.00
+  On absence: re-run ARI, raise ABSENCE_CONFIRMED, reload TMAS if formation changed
+
+CONNECTOR 2 — PATH_2 SUPPLY VERIFICATION:
+  API: chiliscan.com/api?module=token&action=tokeninfo&contractaddress={contract}
+  Burn tx: same API, address=0x0000...0000, sort=desc
+  Timing: T+15min minimum | T+30min recommended | T+6h definitive | T+24h before BURN_MISSING
+  WIN: delta/pre_supply ≈ 0.0024 (±0.05% tolerance) → BURN_CONFIRMED
+  LOSS: delta = 0 expected → if supply increased: SUPPLY_ANOMALY flag immediately
+
+CONNECTOR 3 — REGULATORY MONITORING:
+  Tier 1 (act 24h): ESMA register | SEC/CFTC press releases | Chiliz blog | Chiliz Twitter
+  Tier 2 (review 72h): Socios fan-tokens page | CoinDesk/The Block regulatory
+  Files at risk: macro-regulatory-sportfi.md | sportmind_ft_mcp.py registry
+
+FIVE NON-NEGOTIABLE RULES:
+  Never treat web output as ground truth without source tier check
+  Never auto-update library — human approves all changes
+  Never apply burn modifier before T+15 post-match
+  Always have fallback for unavailable sources
+  Always log fetch URL + timestamp + extracted content
+```
+REF: platform/web-agent-connectors.md · scripts/sportmind_wa_mcp.py
+

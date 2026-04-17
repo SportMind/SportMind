@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.68)
+## What the library contains (v3.69)
 
-**573 files.** 77 version cycles since v3.0.
+**573 files.** 78 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -65,7 +65,7 @@ becomes part of every agent that loads it.
 breaking news protocols; modifier recalibration reports; calibration framework; confidence output
 schema; temporal awareness; context window management; security model; purpose and context
 
-**Platform layer (21 files):** MCP server (10 tools); MCP deployment guide; Skills API;
+**Platform layer (21 files):** MCP server (45 tools across 8 servers); MCP deployment guide; Skills API;
 skill bundles (14 named); data connector templates; Chiliz Agent Kit integration; freshness
 strategy; real-time integration patterns
 

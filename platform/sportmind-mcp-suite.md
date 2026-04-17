@@ -1,9 +1,9 @@
 ---
 name: sportmind-mcp-suite
 description: >
-  Documentation for the SportMind MCP server suite — seven servers covering
+  Documentation for the SportMind MCP server suite — eight servers covering
   the full intelligence stack. The general-purpose server (sportmind_mcp.py)
-  handles broad sports intelligence. Six domain-specific servers provide
+  handles broad sports intelligence. Seven domain-specific servers provide
   targeted interfaces for fan tokens, pre-match signals, broadcast/commercial
   intelligence, governance/competition, scouting/transfer, and agent lifecycle
   management. Each server runs independently on its own port and can be
