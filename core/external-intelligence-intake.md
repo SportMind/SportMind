@@ -305,6 +305,56 @@ WORLD CUP 2026 SPECIFIC (June–July 2026):
 
 ---
 
+
+---
+
+## Processed intake — Fan Token Play (April 2026)
+
+```
+INTAKE DATE: 17 April 2026
+CLASSIFICATION: TIER 1 — ACT IMMEDIATELY (source: Chiliz official)
+
+ARTICLE 1:
+  Title:  "The Chiliz Group Announces Gamified Fan Tokens Including Disruptive
+           New Mint and Burn Tokenomics"
+  Source: chiliz.com/blog
+  Date:   09 April 2026
+  URL:    https://www.chiliz.com/chiliz-group-announces-gamified-fan-tokens...
+  
+ARTICLE 2:
+  Title:  "Win and They Burn, Lose and They Mint: Fan Token Play Explained"
+  Source: chiliz.com/blog
+  Date:   17 April 2026
+  URL:    https://www.chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/
+
+ACTIONS TAKEN (v3.74.0):
+  1. fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md
+     → Added competitive matches scope section (friendlies/pre-season excluded)
+     → Flagged PATH_1 goal-difference scaling as UNVERIFIED (not in either article)
+     → Fixed annual inflation framing (integral protocol, not fallback)
+     → Added tiered inflation model detail (0% <45% win rate, scales >60%)
+     → Added T+48h execution windows for both WIN and LOSS
+     → Added vesting cap current status (not active for any token — Apr 2026)
+     → Added binary WIN confirmation (no goal-diff confirmed)
+     → Updated sources and version footer
+
+  2. compressed/README.md
+     → FTP compressed skill updated with all corrections
+
+NEW FACTS CONFIRMED:
+  - PATH_1: Binary WIN/LOSS only — no goal-difference scaling in protocol
+  - PATH_2: Both buyback (WIN) and minting (LOSS) execute within 48h of result
+  - Vesting cap: defined in protocol but not currently active for any token
+  - Competitive matches only: friendlies, pre-season, academy, women's excluded
+  - Annual inflation 1-5%: three models under evaluation (variable, static, tiered)
+  - First trial: $AFC vs Sporting Lisbon, UCL, 07 April 2026 (confirmed)
+
+OUTSTANDING UNCERTAINTY:
+  - PATH_1 exact burn rate per win not confirmed in either article
+  - PATH_1 full rollout timeline not specified ("coming months")
+  - Future tokens beyond $AFC not named
+```
+
 *SportMind v3.63 · MIT License · sportmind.dev*
 *See also: macro/macro-regulatory-sportfi.md · core/media-intelligence.md*
 *core/sports-trend-intelligence.md · platform/chiliz-chain-address-intelligence.md*

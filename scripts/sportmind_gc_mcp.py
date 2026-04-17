@@ -24,7 +24,7 @@ import asyncio
 import argparse
 from datetime import datetime, timezone
 
-VERSION = "3.73.0"
+VERSION = "3.74.0"
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()

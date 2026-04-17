@@ -805,44 +805,49 @@ NEXT: athlete_modifier at 40 records → recalibration-v7
 
 ## [COMPRESSED] Gamified tokenomics intelligence — Fan Token Play
 
-**When to use:** Any fan token confirmed on Fan Token Play (Path 1 or Path 2).
-$AFC confirmed Path 2 as of 07 April 2026. Check KAYEN API for all others.
-
 ```
-TWO PATHS — DIFFERENT SIGNAL ARCHITECTURE:
+SOURCES: Chiliz official articles 09 Apr 2026 + 17 Apr 2026
+CONFIRMED TRIAL: $AFC (Arsenal FC) — UCL vs Sporting Lisbon, 07 Apr 2026
 
-PATH 1 (Protocol-Level, rollout pending trial):
-  Post-match oracle trigger only. No pre-match on-chain event.
-  WIN: burn scaled by GOAL DIFFERENCE (1-goal ×1.00 → 4+ goals ×1.60)
-  LOSS: mint to treasury (new supply created)
-  DRAW: no supply change
-  SAFEGUARDS: 75% net reduction floor | credit burns | 12.5% vesting cap/year
-  gamified_win_modifier = 1.00 + (burn_rate × goal_diff_mult × 2.5)
+SCOPE (CRITICAL): Only official men's first-team competitive matches trigger FTP.
+  ❌ Friendlies | Pre-season | Exhibition | Academy | Women's — NO FTP mechanics
 
-PATH 2 (Prediction Market-Based, $AFC trial 07 Apr 2026):
-  PRE-MATCH (T-48h): 1/400th supply pre-liquidated → USDT (detectable on-chain)
-  AT KICKOFF: USDT places WIN bet on-chain (always WIN — not outcome intelligence)
-  WIN (T+48h): 95% proceeds buy back + burn tokens (5% fee)
-  LOSS (T+48h): pre-liquidated amount minted back to treasury ONLY (neutral net)
-  PATH 2 KEY INSIGHT: LOSS = supply neutral (not expanded). WIN = permanently deflationary.
-  gamified_path2_win_modifier = 1.00 + (0.0024 × 2.5) ≈ 1.006 per match
+CORE MECHANICS (both paths):
+  WIN  → tokens burned (supply decreases permanently)
+  LOSS → tokens minted (supply increases / restored)
+  DRAW → supply unchanged
 
-ON-CHAIN DETECTION (Path 2):
-  T-48h treasury sell ~0.25% supply → FAN_TOKEN_PLAY_DETECTED (not a whale signal)
-  Post-win burn to 0x0000...0000 → FAN_TOKEN_PLAY_WIN_CONFIRMED
-  Post-loss mint to treasury → FAN_TOKEN_PLAY_LOSS_CONFIRMED (supply neutral)
-  NEVER apply Category 1 distribution_signal to Fan Token Play pre-liquidation
+PATH 1 — Protocol-Level Treasury Governance:
+  Trigger: on-chain oracle confirms result → smart contract executes
+  WIN: permanent burn at BASE RATE (binary — no goal-diff scaling confirmed)
+  LOSS: new tokens minted to treasury (supply expands)
+  Annual inflation: 1–5% variable linked to season win% (PART OF PROTOCOL, not fallback)
+    Tiered model: 0% below 45% win rate; scales sharply above 60%
+  Stop-loss: 75% net reduction OR treasury = 0% → burning ceases
+  Burn credits: wins at stop-loss generate credits offsetting future minting
+  Vesting cap: 12.5% treasury/year (NOT CURRENTLY ACTIVE for any token — Apr 2026)
 
-CHZ VIRTUOUS CYCLE:
-  Path 2 WIN also contributes to CHZ burn via 10% ecosystem proceeds rule.
-  TWO deflationary events from one WIN: fan token supply burn + CHZ ecosystem burn.
-  See macro/macro-crypto-market-cycles.md — virtuous cycle section.
+PATH 2 — Prediction Market-Based (ACTIVE TRIAL — $AFC only):
+  T-48h: treasury sells 1/400th of supply → USDT (0.25% pre-liquidation)
+  Kickoff: USDT → WIN prediction on prediction market (ALWAYS bets WIN — mechanical)
+  WIN (T+48h): 95% of proceeds → buyback + permanent burn (5% fee deducted)
+  LOSS (T+48h): pre-liquidated amount minted back to treasury (supply-neutral)
+  Path 2 asymmetry: WIN = permanent burn | LOSS = neutral (not Path 1's expansion)
 
-CONFIRMED: $AFC = PATH_2 (2026-04-07) | All others: check KAYEN API
+48H EXECUTION WINDOWS (both directions, per official source):
+  Liquidations (pre-match): within 48h of kickoff
+  Buybacks (WIN): within 48h of final result
+  Minting (LOSS): within 48h of final result
+  Agent verification timing: T+30min minimum | T+6h recommended | T+24h → BURN_MISSING
+
+AGENT HARD RULES:
+  Pre-liquidation = PROTOCOL_EVENT (never bearish distribution signal)
+  Protocol always bets WIN — its bet is NOT outcome intelligence
+  Never apply burn modifier before T+15 post-match (AMM rebalancing)
+  Verify gamified status via KAYEN API before applying this skill
 ```
-~220 tokens → full file: fan-token/gamified-tokenomics-intelligence/ (~370 lines)
+REF: fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md
 
----
 
 ## [COMPRESSED] Macro regulatory SportFi intelligence
 

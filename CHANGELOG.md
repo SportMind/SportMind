@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.74.0] — 2026-04-17
+
+### Changed
+- `fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md`
+  Updated from 370 to 436 lines. Seven targeted fixes based on two official Chiliz
+  articles (April 9 and April 17, 2026). No working mechanics changed — accuracy
+  corrections and gaps filled.
+
+  Fix 1 — Competitive matches scope (new section): Official men's first-team
+  competitive matches only. Friendlies, pre-season, exhibition, academy, and
+  women's matches do not trigger FTP mechanics. Agent rule added: verify match
+  type before applying Path 1 or Path 2 framework. UNEXPECTED_TREASURY_SELL flag
+  defined for pre-liquidation patterns before non-competitive fixtures.
+
+  Fix 2 — PATH_1 goal-difference scaling flagged UNVERIFIED: Neither official
+  article mentions goal-difference scaling. Both describe PATH_1 as responding to
+  binary WIN/LOSS only. The scaling table (1-goal ×1.00 to 4-goal ×1.60) is
+  retained but wrapped in an UNVERIFIED block. Confirmed behaviour added: binary
+  WIN triggers burn at base rate, no goal-diff multiplier confirmed.
+
+  Fix 3 — Annual inflation framing corrected: Previously labelled "FALLBACK FEE
+  MODEL (if Path 2 not adopted ecosystem-wide)" — incorrect. It is an integral
+  component of the PATH_1 protocol regardless of PATH_2 status. New detail added
+  from April 17 article: three evaluation models (variable/static/tiered) with
+  tiered specifics — 0% inflation below 45% win rate, scales sharply above 60%.
+
+  Fix 4 — PATH_2 T+48h execution windows documented for both outcomes:
+  WIN: buybacks executed within 48h of final result.
+  LOSS: minting executed within 48h of final result.
+  Both execution windows now explicit in Phase 3 and Phase 4.
+
+  Fix 5 — Vesting cap current status added: Not currently applicable to any fan
+  token as of April 2026. Protocol mechanism is defined but not yet activated.
+
+  Fix 6 — Mechanism overview summary corrected: Removed "SCALED BY GOAL
+  DIFFERENCE" from the summary table. Replaced with "binary result — no goal diff
+  scaling confirmed."
+
+  Fix 7 — Sources and version footer updated: Both articles cited with dates and
+  context. First trial match named: Arsenal vs Sporting Lisbon, UCL, 07 April 2026.
+
+- `compressed/README.md` — FTP compressed skill rebuilt to reflect all corrections.
+  SCOPE rule prominent. UNVERIFIED flag on goal diff. Both 48h windows. Annual
+  inflation correctly framed. Vesting cap status noted.
+
+- `core/external-intelligence-intake.md` — Both Chiliz articles registered as
+  processed Tier 1 intakes. Actions taken documented. Outstanding uncertainties noted.
+
 ## [3.73.0] — 2026-04-17
 
 ### Changed

@@ -34,7 +34,7 @@ PATH 1 — PROTOCOL-LEVEL TREASURY GOVERNANCE
   Status:          Design confirmed; full rollout pending trial completion
   Trigger:         On-chain oracle verifies match result post full-time
   Pre-match:       No pre-match on-chain event (signal appears post-match only)
-  WIN outcome:     Tokens permanently burned — SCALED BY GOAL DIFFERENCE
+  WIN outcome:     Tokens permanently burned (binary result — no goal diff scaling confirmed)
   LOSS outcome:    New tokens minted to treasury
   DRAW outcome:    Supply unchanged
   Supply changes:  Executed via treasury-controlled smart contracts
@@ -127,6 +127,44 @@ AGENT RULE: $AFC is confirmed Path 2 as of 07 April 2026.
 
 ---
 
+---
+
+## Scope — which matches trigger Fan Token Play
+
+```
+CONFIRMED OFFICIAL SOURCE (Chiliz, April 2026):
+  Fan Token Play mechanics apply ONLY to:
+  ✅ Official men's first-team competitive matches
+
+  Fan Token Play mechanics do NOT apply to:
+  ❌ Friendly matches
+  ❌ Pre-season games
+  ❌ Exhibition matches
+  ❌ Academy / youth team matches
+  ❌ Women's team matches
+
+AGENT RULE:
+  Before applying Path 1 or Path 2 mechanics to any fixture, verify:
+  "Is this an official competitive first-team men's match?"
+  If NO → treat as STANDARD token signal for this fixture
+  If YES → apply gamified tokenomics framework
+
+WHAT COUNTS AS COMPETITIVE:
+  ✅ League matches (Premier League, La Liga, Bundesliga, etc.)
+  ✅ Domestic cups (FA Cup, Copa del Rey, etc.) — from Round 1 onwards
+  ✅ European competition (UCL, UEL, UECL) — qualifying and group stage onwards
+  ✅ International tournaments (World Cup, Euros — national team tokens only)
+  ❌ Club World Cup warm-up or invitational tournaments — verify per event
+
+  Note: The $AFC first trial (07 April 2026) was a UCL match — competitive confirmed.
+
+SIGNAL IMPLICATION:
+  A pre-season Arsenal friendly DOES NOT trigger Path 2 pre-liquidation.
+  If a treasury sell is detected before a friendly: investigate for organic selling,
+  not Fan Token Play activation.
+  Apply UNEXPECTED_TREASURY_SELL flag and investigate source before acting.
+```
+
 ## Path 1 signal model
 
 ```
@@ -134,13 +172,23 @@ TRIGGER: On-chain oracle confirms match result → smart contract executes
 
 WIN OUTCOME — BURN (supply decreases):
   Base burn rate: % of circulating supply per win
-  GOAL DIFFERENCE SCALING (Path 1 specific):
+  
+  OFFICIAL SOURCE: Both Chiliz articles (April 9 and April 17, 2026) describe PATH_1
+  as responding to the BINARY WIN/LOSS result only. No goal-difference scaling
+  is mentioned in any official Chiliz source.
+  
+  [UNVERIFIED — goal-difference scaling below is not confirmed by official sources.
+   It may represent an earlier model or internal inference. Do not apply in production
+   until confirmed. Use binary WIN = burn at base rate until further confirmation.]
+  
+  GOAL DIFFERENCE SCALING (UNVERIFIED — see note above):
     1-goal win: burn_rate × 1.00 (base)
     2-goal win: burn_rate × 1.20
     3-goal win: burn_rate × 1.40
     4+ goal win: burn_rate × 1.60 (capped)
   
-  gamified_win_modifier = 1.00 + (burn_rate_pct × goal_diff_multiplier × 2.5)
+  CONFIRMED BEHAVIOUR: Binary WIN triggers burn at base rate.
+  gamified_win_modifier = 1.00 + (burn_rate_pct × 2.5)  [confirmed — no goal diff]
 
 LOSS OUTCOME — MINT (supply increases):
   gamified_loss_modifier = 1.00 - (mint_rate_pct × 2.0)
@@ -165,11 +213,25 @@ PATH 1 SAFEGUARDS (signal ceiling):
     Limits dilution velocity — LOSS mints are real but release is throttled
     Agent rule: high-loss streaks less damaging than they appear — vesting slows dilution
     
-  FALLBACK FEE MODEL (if Path 2 not adopted ecosystem-wide):
-    Variable 1-5% annual fee tied to Win%
-    Three models under evaluation:
-      Current Supply Pegged | Initial Supply Pegged | Tiered (0-3%, activates >45% Win%)
-    Agent rule: fallback model produces smaller per-match effects than core burn/mint
+    CURRENT STATUS (confirmed April 2026): Vesting cap is not currently applicable
+    to any Fan Token. The mechanism is defined in the protocol but not yet active
+    for any token in the ecosystem. No agent action required until a token
+    activates the vesting cap — monitor Chiliz announcements for activation.
+    
+  ANNUAL INFLATION (integral part of Path 1 protocol — not a fallback):
+    Variable 1–5% annual inflation rate linked to overall season win percentage
+    This is an intrinsic component of Path 1, not contingent on Path 2 adoption.
+    Purpose: keeps the token economy active and responsive throughout the season
+    
+    THREE MODELS UNDER EVALUATION (per Chiliz April 2026):
+      Variable:  inflation pegged to current supply (adjusts as supply changes)
+      Static:    inflation pegged to initial supply (fixed reference point)
+      Tiered:    zero inflation for win rates below 45%;
+                 scaling sharply above 60% win rate
+    
+    Agent rule: annual inflation produces a smaller per-match effect than the
+    match-by-match burn/mint mechanics. Track at season level, not match level.
+    No single match triggers annual inflation — it accrues across the full season.
 ```
 
 ---
@@ -206,6 +268,7 @@ PHASE 2 — AT KICKOFF: WIN Prediction Placed
     not in the bet itself.
 
 PHASE 3 — WIN OUTCOME (within T+48h post full-time):
+  EXECUTION WINDOW: Buyback and burn executed within 48 hours of final result
   Proceeds split: 5% fee deducted | 95% used to buy back and burn fan tokens
   Effect: Circulating supply decreases
   On-chain: Buyback and burn visible on chiliscan.com
@@ -215,6 +278,7 @@ PHASE 3 — WIN OUTCOME (within T+48h post full-time):
   gamified_path2_win_modifier ≈ 1.006 (per match — cumulative effect grows)
 
 PHASE 4 — LOSS OUTCOME (within T+48h post full-time):
+  EXECUTION WINDOW: Minting executed within 48 hours of final result
   Pre-liquidated amount minted back to treasury
   Effect: Circulating supply returns to pre-liquidation level (neutral net)
   On-chain: Mint transaction to treasury wallet visible on chiliscan.com
@@ -364,7 +428,9 @@ USES:
 
 ---
 
-*SportMind v3.44 · MIT License · sportmind.dev*
-*Source: Chiliz Vision 2030 / Fan Token Play (April 2026)*
-*$AFC Path 2 trial confirmed: 07 April 2026*
+*SportMind v3.73 · MIT License · sportmind.dev*
+*Sources: Chiliz Vision 2030 / Fan Token Play announcement (09 April 2026)*
+*         Chiliz "Win and They Burn, Lose and They Mint" explanation (17 April 2026)*
+*$AFC Path 2 trial confirmed: 07 April 2026 (Arsenal vs Sporting Lisbon, UCL)*
 *See: macro/macro-crypto-market-cycles.md · platform/chiliz-chain-address-intelligence.md*
+*fan-token/on-chain-event-intelligence/ · core/external-intelligence-intake.md*
