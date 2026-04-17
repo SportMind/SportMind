@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.70.0] — 2026-04-17
+
+### Added
+- `core/standings-intelligence.md` — Standings Intelligence Brief (SIB, 352 lines)
+  Six season arc phases: Title Race, European Qualification, Relegation Battle,
+  Active Relegation, Confirmed Safety, Mid-Table Stability. Trajectory model
+  (RISING/STABLE/FALLING/VOLATILE) from last-5 vs season PPG delta. Eight
+  proximity threshold flags including TITLE_CLINCH_POSSIBLE (+6 SMS) and
+  RELEGATION_ESCAPE_POSSIBLE (+8 SMS). Cross-sport: football, NBA, NHL, NFL,
+  MLS. Fan token integration: LTUI trajectory from standings phase, CDI
+  adjustment table, holder archetype behaviour by phase. PATH_2 note:
+  standings phase does not change burn mechanics but relegation lowers
+  season win frequency. Backs the gc_standings MCP tool with a full framework.
+
+### Changed
+- `demo.html` — Three new scenarios (15→18 total):
+  governance: $PSG kit vote · GSI 72 · 41% participation · Tier 1 vote quality check
+    notification sequence (T-72h/24h/4h) · archetype targeting rules
+  scouting: Lamine Yamal CVS brief · DQI 84 · ATM 0.85 · system fit 82
+    UNDERVALUED analysis · World Cup NCSI connection · fan token acquisition signal
+  transfer: Gyökeres to Arsenal · TVS 81 · DQI-adjusted valuation gap +€18M
+    system fit 74 · RAF 0.81 · $AFC token acquisition signal · WC2026 NCSI
+
+- `docs.html` — Metric Glossary expanded: 10 entries → 34 entries
+  All 27 named composite metrics from project instructions now defined:
+  core signal (SMS, ARI, LQI, TMAS, PPI, TCM, DQI, MgSI, CQS, TIS, CSS, RAF),
+  fan token (FTIS, HAS, TVI, CDI, LTUI, ATM, AELS, NCSI, CHI, MRS, ABS, APS, DSM, GSAx),
+  transfer/commercial (DTS, TVS, DLVS, PI, PS, TAI, SHS, AFS). Each definition
+  includes formula references, range values, and actionable thresholds.
+
 ## [3.69.0] — 2026-04-17
 
 ### Added
