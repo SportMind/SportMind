@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.68.0] — 2026-04-17
+
+### Added
+- `platform/web-agent-connectors.md` — Web Agent Connectors (3 connectors, 522 lines)
+  Framework for web agent integration at SportMind's three highest-value live data
+  points. Connector 1 (Lineup Confirmation): exact fetch targets by sport (football,
+  basketball, cricket, MMA, ice hockey), extraction spec, availability translation
+  to ARI component inputs, failure modes. Connector 2 (PATH_2 Supply Verification):
+  Chiliscan API endpoints, burn confirmation logic, season supply log schema,
+  timing rules (T+15m minimum / T+6h definitive), SUPPLY_ANOMALY escalation.
+  Connector 3 (Regulatory and Macro Monitoring): ESMA, SEC, CFTC, Chiliz blog,
+  Socios — Tier 1/2 classification, library files at risk, classification workflow.
+  Extends platform/fetch-mcp-disciplinary.md to cover all three connectors.
+  Fragility acknowledgement section: five non-negotiable rules including no
+  auto-updates from web agent output and T+15 burn modifier timing rule.
+
+- `scripts/sportmind_wa_mcp.py` — Web Agent MCP Server (port 3008, 3 tools)
+  wa_lineup_target: returns exact URL, extraction spec, availability translation,
+  and agent rules for lineup confirmation for any supported sport. Includes per-sport
+  source tier rankings, timing windows, and absence-detected action rules.
+  wa_supply_verify: returns Chiliscan API endpoints, burn verification logic, timing
+  rules, and season log schema for PATH_2 token supply confirmation. Context-aware:
+  WIN / LOSS / DRAW each generate different verification instructions.
+  wa_macro_monitor: returns all regulatory monitoring targets with fetch URLs,
+  extraction specs, and classification workflow. Filterable by tier and domain.
+  Zero-dependency principle maintained: server returns targets and specs; the web
+  agent (Fetch MCP / Claude in Chrome / Playwright) does the actual fetching.
+
+### Changed
+- `platform/sportmind-mcp-suite.md` — Web Agent server added: 8 servers total
+- `WHO-WE-ARE.md` — 570→573 files, 76→77 version cycles
+- `README.md` — platform/ count 26→28
+
 ## [3.67.0] — 2026-04-15
 
 ### Added

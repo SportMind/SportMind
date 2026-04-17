@@ -25,6 +25,7 @@ description: >
 | Governance & Competition | `sportmind_gc_mcp.py` | 3005 | 6 | Fan token governors, competition analysts |
 | Scouting & Transfer | `sportmind_sc_mcp.py` | 3006 | 5 | Clubs, agents, analytics teams |
 | Agent Lifecycle | `sportmind_al_mcp.py` | 3007 | 5 | Multi-agent orchestrators |
+| Web Agent | `sportmind_wa_mcp.py` | 3008 | 3 | Web-capable agents, Claude in Chrome, Fetch MCP |
 
 ---
 
@@ -336,6 +337,6 @@ Connect: Scouting & Transfer MCP (port 3006) + General MCP (port 3001)
 
 ---
 
-*SportMind v3.67 · MIT License · sportmind.dev*
+*SportMind v3.68 · MIT License · sportmind.dev*
 *See also: MCP-SERVER.md · platform/sportmind-mcp-server.md*
 *core/agent-cognitive-architecture.md · core/multi-agent-coordination.md*
