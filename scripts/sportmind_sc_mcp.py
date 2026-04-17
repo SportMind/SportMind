@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Scouting & Transfer MCP Server v3.67.0
+SportMind Scouting & Transfer MCP Server v3.71.0
 Player scouting, transfer valuation, and recruitment intelligence.
 Exposes Pattern 10 (CVS scouting formula), DQI, system fit,
 valuation gap detection, and transfer timeline intelligence.
@@ -23,7 +23,7 @@ import asyncio
 import argparse
 from datetime import datetime, timezone
 
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()

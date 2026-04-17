@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Governance & Competition MCP Server v3.67.0
+SportMind Governance & Competition MCP Server v3.71.0
 Competition calendar, standings intelligence, and fan token governance.
 Answers the season-arc question: where are teams in the competition,
 what is the governance state, and what does the table trajectory mean?
@@ -24,7 +24,7 @@ import asyncio
 import argparse
 from datetime import datetime, timezone
 
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()

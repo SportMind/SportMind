@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Agent Lifecycle MCP Server v3.67.0
+SportMind Agent Lifecycle MCP Server v3.71.0
 Manages running SportMind autonomous agents — for orchestrator agents
 and multi-agent system coordinators. Enables an orchestrator to spin
 up, monitor, receive escalations from, and pause SportMind agents
@@ -26,7 +26,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 # In-process agent registry (for stdio session; HTTP mode persists longer)
 _AGENT_REGISTRY = {}

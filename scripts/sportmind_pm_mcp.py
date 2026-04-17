@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Pre-Match Signal MCP Server v3.67.0
+SportMind Pre-Match Signal MCP Server v3.71.0
 Zero-friction signal server. One call returns a complete pre-match intelligence
 package — the lowest barrier-to-entry entry point to SportMind.
 
@@ -22,7 +22,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 SUPPORTED_SPORTS = [
     "football","basketball","cricket","mma","formula1","tennis",

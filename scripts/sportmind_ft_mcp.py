@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Fan Token MCP Server v3.67.0
+SportMind Fan Token MCP Server v3.71.0
 Dedicated fan token intelligence server for Chiliz Chain / Socios ecosystem.
 
 Eight tools:
@@ -29,7 +29,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 # ── Fan token registry (Chiliz Chain 88888) ───────────────────────────────────
 FAN_TOKEN_REGISTRY = {

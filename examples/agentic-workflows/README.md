@@ -39,7 +39,8 @@ The difference is:
 | [9. Smart Governance Delegate](#pattern-9) | Pre-vote commercial intelligence brief | New proposal detected + 12h cycle | Ongoing |
 | [10. Moneyball Scouting Agent](#pattern-10) | Transfer target commercial ranking | On-demand (transfer window) | Per window |
 | [11. Post-Match Analysis Agent](#pattern-11) | Result → layers → FTP → plain-English brief | Full-time confirmed | Per match |
-| [12. Live Match Agent](#pattern-12) | Pre-match prior + live event updates → adaptive signal | Event-driven (in-match) | Per match |
+| [12. Live Match Agent](#pattern-12) | Pre-match prior + live event updates → adaptive signal | Event-driven (in-match) |
+| [13. Web Agent Live Data](#pattern-13) | Autonomous lineup confirmation, supply verification, regulatory monitoring | Scheduled + event-driven | Per match |
 
 ---
 

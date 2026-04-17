@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.70)
+## What the library contains (v3.71)
 
-**574 files.** 79 version cycles since v3.0.
+**575 files.** 80 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;

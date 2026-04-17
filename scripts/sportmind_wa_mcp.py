@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Web Agent MCP Server v3.68.0
+SportMind Web Agent MCP Server v3.71.0
 Exposes SportMind's three web agent connector targets as MCP tools for
 web-capable agents (Fetch MCP, Claude in Chrome, browser-use, Playwright).
 
@@ -30,7 +30,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.68.0"
+VERSION = "3.71.0"
 
 # ── Fan token registry (contract addresses for supply verification) ───────────
 FAN_TOKEN_CONTRACTS = {

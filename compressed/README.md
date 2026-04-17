@@ -1404,3 +1404,54 @@ FIVE NON-NEGOTIABLE RULES:
 ```
 REF: platform/web-agent-connectors.md · scripts/sportmind_wa_mcp.py
 
+---
+
+## [COMPRESSED] Broadcast and commercial intelligence (Prompt 23)
+
+```
+PURPOSE: Commercial context, not match outcome. BVS, CQS, rights tier, audience reach.
+TOOLS: bc_broadcast_value, bc_rights_tier, bc_audience_reach, bc_context_quality, bc_dts_effect
+KEY FILES: market/broadcaster-media-intelligence.md · core/contextual-signal-environment.md
+
+BVS (Broadcast Value Signal): commercial value to broadcasters/rights holders
+CQS: 0.60–1.40 — modifies FTIS, CDI, HAS; NEVER modifies SMS
+RIGHTS TIERS: UCL/WC Final=Tier 1 (global) → domestic mid-table=Tier 4
+DTS EFFECT: documentary/streaming content amplifies commercial signals (Drive to Survive model)
+
+CRITICAL: CQS = commercial magnitude. SMS = outcome probability. Keep strictly separate.
+OUTPUT: BVS score, CQS score, audience reach tier, rights tier, fan token arc, plain English.
+```
+REF: agent-prompts/agent-prompts.md (Prompt 23) · scripts/sportmind_bc_mcp.py
+
+---
+
+## [COMPRESSED] Web agent live data pattern (Pattern 13)
+
+```
+PURPOSE: Autonomous real-time grounding — lineup, supply, regulatory. No manual step.
+
+USE CASE A — LINEUP CONFIRMATION:
+  1. sportmind_pre_match() → expected squad framework
+  2. wa_lineup_target(sport, home_team, kickoff) → Tier 1 fetch URL + extraction spec
+  3. fetch(URL at T-2h) → extract starting XI
+  4. Compare vs expected → ABSENCE_CONFIRMED or LINEUP_CONFIRMED
+  5. If ATM-tier absent: FTIS dampener −5pts, re-run ARI with availability=0.00
+
+USE CASE B — PATH_2 SUPPLY VERIFICATION:
+  1. ft_token_state(token) → confirm PATH_2, get contract_address
+  2. wa_supply_verify(token, result, hours_since) → Chiliscan endpoints
+  3. fetch(chiliscan endpoint at T+30min minimum, T+6h definitive)
+  4. delta = pre_supply − post_supply; burn_pct ≈ 0.0024 (±0.0005) = BURN_CONFIRMED
+  5. LOSS: supply_delta should be 0; if not → SUPPLY_ANOMALY (escalate)
+
+USE CASE C — REGULATORY MONITORING:
+  1. wa_macro_monitor(tier=1) → ESMA/SEC/CFTC/Chiliz targets
+  2. fetch each URL on schedule (Chiliz daily; ESMA weekly)
+  3. Classify: core/external-intelligence-intake.md framework
+  4. Human review required → NO AUTO-UPDATES to library
+
+NEVER: apply burn modifier before T+15 | auto-update library | use Tier 3 sources
+MCP STACK: sportmind + sportmind-ft + sportmind-web-agent + fetch
+```
+REF: examples/agentic-workflows/web-agent-live-data.md · platform/web-agent-connectors.md
+

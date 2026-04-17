@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-SportMind Broadcast & Commercial MCP Server v3.67.0
+SportMind Broadcast & Commercial MCP Server v3.71.0
 Commercial intelligence for broadcasters, rights holders, sponsors, and
 content teams. Distinct from the pre-match signal server — answers the
 commercial question, not the performance question.
@@ -23,7 +23,7 @@ import asyncio
 import argparse
 from datetime import datetime, timezone
 
-VERSION = "3.67.0"
+VERSION = "3.71.0"
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()

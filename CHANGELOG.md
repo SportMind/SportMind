@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.71.0] — 2026-04-17
+
+### Added
+- `examples/agentic-workflows/web-agent-live-data.md` — Pattern 13 (Web Agent Live Data)
+  Three use cases: (A) Autonomous lineup confirmation via wa_lineup_target + Fetch MCP —
+  fetches official lineup at T-2h, compares against pre-match expected squad, raises
+  ABSENCE_CONFIRMED for missing ATM-tier players, re-runs sportmind_pre_match with
+  updated availability. (B) PATH_2 supply verification — fetches Chiliscan post-match,
+  computes supply delta, classifies BURN_CONFIRMED / BURN_PENDING / BURN_ANOMALY /
+  SUPPLY_NEUTRAL_CONFIRMED, logs to season supply record. (C) Regulatory monitoring —
+  scheduled Chiliz/ESMA/SEC fetch, applies external-intelligence-intake.md framework,
+  escalates findings with human_required=True. Failure handling and three-pattern
+  connection map included.
+
+- `agent-prompts/agent-prompts.md` — Prompts 23 and 24 (22 → 24 total)
+  Prompt 23 (Broadcast and commercial intelligence agent): bc_broadcast_value,
+  bc_rights_tier, bc_audience_reach, bc_context_quality, bc_dts_effect. Covers
+  commercial context not match outcome. CQS/SMS separation rule prominent.
+  Prompt 24 (Web agent live data connector): wa_lineup_target + wa_supply_verify +
+  wa_macro_monitor + Fetch MCP. Three workflow sequences with timing rules. Source tier
+  enforcement and no-auto-update rule explicit in prompt.
+
+- `compressed/README.md` — Two new compressed skills (75 → 77 total)
+  Prompt 23 (broadcast/commercial) and Pattern 13 (web agent live data).
+
+### Changed
+- All 8 MCP server scripts: VERSION 3.71.0 (were at v3.70.0 or v3.67.0/v3.68.0)
+- `examples/agentic-workflows/README.md` — Pattern 13 added to table (12 → 13 patterns)
+- `WHO-WE-ARE.md` — 575 files, 80 version cycles
+- Website — v3.71.0, prompts 22→24, patterns 12→13, compressed 75→77, files 575
+
 ## [3.70.0] — 2026-04-17
 
 ### Added
