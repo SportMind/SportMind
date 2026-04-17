@@ -1,5 +1,43 @@
 # Changelog
 
+## [3.72.0] — 2026-04-17
+
+### Added
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` — expanded
+  from 331 lines to 544 lines. Four new sections:
+
+  PATH_2 interaction with World Cup 2026: what changes (commercial significance,
+  CQS 1.35–1.40, NCSI ×3.5–4.0) vs what does not (protocol mechanics identical —
+  0.25% pre-liquidation, WIN=burn, LOSS=neutral). Cumulative supply reduction model
+  (best/expected/worst case). AGENT RULE: pre-liquidation during WC = PROTOCOL_EVENT.
+  Tournament WIN NCSI persistence (60 days post-tournament for winner squad members).
+  DOUBLE EVENT WARNING for PATH_2 clubs losing ATM-tier World Cup winners.
+
+  National team token framework: four structural differences from club tokens —
+  no domestic competition signals (HAS dormant outside tournaments), no PATH_2
+  as of 2026, different CDI decay curve (stage-reached table: group exit=18 days
+  through winner=75 days), higher Speculator archetype share. Entry/exit discipline:
+  T-14 days to T-2h entry window; 4h either side of elimination = hard no-enter.
+  $ARG narrative amplifier ×1.25 (conditional on Messi final WC confirmation).
+
+  CALENDAR_COLLAPSE tournament elimination mechanics: trigger conditions, effects
+  by token type (national vs club with/without PATH_2), 5-step signal chain on
+  elimination, hard rules. Distinguishes national token HAS decay from club token
+  NCSI removal — club tokens continue on domestic cycle, PATH_2 unchanged.
+
+  Post-tournament supply and signal reset: week-by-week reset from July 20,
+  NCSI decay table (winner ×1.5 at day 30 → ×1.0 at day 60), Golden Boot/Ball
+  persistence to Jan 2027, transfer window intersection (Aug 15–31 peak),
+  season supply record close procedure.
+
+### Changed
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` — version
+  footer: v3.40 → v3.72. Agent reasoning protocol updated with Path 2 cross-reference.
+- `compressed/README.md` — WC2026 compressed skill updated to include all four
+  new sections (PATH_2 interaction, national token framework, CALENDAR_COLLAPSE,
+  post-tournament reset).
+- `docs.html` — toolkit/calibration section order in HTML corrected to match sidebar.
+
 ## [3.71.0] — 2026-04-17
 
 ### Added

@@ -29,7 +29,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.71.0"
+VERSION = "3.72.0"
 
 # ── Fan token registry (Chiliz Chain 88888) ───────────────────────────────────
 FAN_TOKEN_REGISTRY = {

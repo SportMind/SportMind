@@ -22,7 +22,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.71.0"
+VERSION = "3.72.0"
 
 SUPPORTED_SPORTS = [
     "football","basketball","cricket","mma","formula1","tennis",

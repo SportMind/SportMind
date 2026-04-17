@@ -267,6 +267,219 @@ WATCH LIST (potential new national token launches):
 
 ---
 
+## PATH_2 interaction with World Cup 2026
+
+The Fan Token Play PATH_2 mechanism (supply burn on WIN, supply neutral on LOSS)
+operates unchanged during the World Cup. Tournament context amplifies the commercial
+significance of each burn event — but the protocol mechanics are identical to
+domestic fixtures. This section defines what changes and what does not.
+
+```
+WHAT DOES NOT CHANGE (protocol mechanics):
+  Pre-liquidation at T-48h: 1/400th of supply → USDT (0.25%)
+  WIN result: 95% of proceeds buyback and permanent burn
+  LOSS result: supply returned to pre-liquidation level (no net change)
+  DRAW result: treated as LOSS for supply mechanics
+
+WHAT CHANGES (commercial significance):
+  Audience multiplier: WC2026 group stage = CQS 1.35–1.40 (vs 1.00 standard)
+  NCSI amplifier: x3.5 group stage → x4.0 final (vs x1.0 standard domestic)
+  Each WIN burn event at the World Cup is commercially 3.5–4x more significant
+  than a domestic WIN burn
+
+PATH_2 + WORLD CUP — CUMULATIVE SUPPLY REDUCTION MODEL:
+
+  If a PATH_2 club has multiple ATM players at WC2026:
+
+  Best case (all nations advance to final):
+    Club plays 38 domestic matches: ~14–16 wins (40% win rate)
+    Each World Cup WIN adds burn events from NATIONAL NCSI uplift to HAS
+    Net: supply reduction accelerates during tournament weeks
+
+  Expected case (ATM nations eliminated QF/SF):
+    4–5 World Cup burn events per ATM-nation-token interaction
+    Supply reduction on track; tournament adds 6–8 week commercial uplift
+
+  Worst case (ATM player eliminated group stage):
+    3 tournament matches only
+    CALENDAR_COLLAPSE signal applies: remainder of tournament = dead period
+    PATH_2 WIN frequency drops to domestic only from this point
+
+TOURNAMENT WIN IMPACT ON SUPPLY TRAJECTORY:
+  If PATH_2 club's #1 ATM player wins World Cup:
+    → NCSI persists 60 days post-tournament
+    → Each subsequent club WIN burn event has elevated commercial weight
+    → LTUI trajectory: STRONGLY POSITIVE through to October 2026
+
+AGENT RULE — PROTOCOL EVENTS:
+  T-48h pre-liquidation during World Cup = PROTOCOL_EVENT (never bearish)
+  Apply same rule as domestic: pre-liquidation is confirmation of PATH_2 active
+  Do NOT treat World Cup pre-liquidations differently to domestic ones
+  The burn amount (0.25%) is unchanged regardless of commercial context
+
+MONITORING:
+  Chiliscan API: same endpoints as domestic supply verification
+  Timing: T+30min minimum; T+6h definitive (same as domestic)
+  WC2026 NOTE: match dates are fixed — schedule the verification cycles in advance
+```
+
+---
+
+## National team token framework
+
+National team tokens behave differently from club tokens in four structural ways.
+Understanding these differences is essential for World Cup 2026 signal quality.
+
+```
+STRUCTURAL DIFFERENCE 1 — NO DOMESTIC COMPETITION SIGNALS
+  Club tokens: weekly domestic matches sustain HAS year-round
+  National tokens: activated only during tournaments and qualification
+  Result: national token HAS baseline = low outside tournaments
+  World Cup impact: HAS goes from near-dormant to maximum in days
+
+STRUCTURAL DIFFERENCE 2 — NO FAN TOKEN PLAY PATH_2 (currently)
+  PATH_2 confirmed: $AFC (club token), not national tokens
+  National tokens have no WIN-linked supply reduction mechanism as of 2026
+  All supply signals for national tokens are holder-driven (buy/sell pressure)
+  NOT protocol-driven
+  Monitor: fantokens.com for any national token PATH_2 announcements pre-tournament
+
+STRUCTURAL DIFFERENCE 3 — CDI DECAY CURVE IS DIFFERENT
+  Club token CDI: sustained by weekly matches + squad narrative
+  National token CDI: tournament-only events → sharp spike / sharp decay
+  Post-group-stage elimination: CDI -30 within 72h (CALENDAR_COLLAPSE equivalent)
+  Post-final elimination: CDI -15 (still positive; tournament run creates lasting narrative)
+
+  CDI WINDOW BY STAGE REACHED:
+    Group stage exit:   CDI window = 18 days (group + 3 days post)
+    Round of 32 exit:   CDI window = 28 days
+    Round of 16 exit:   CDI window = 35 days
+    Quarter-final exit: CDI window = 40 days
+    Semi-final exit:    CDI window = 46 days
+    Runner-up:          CDI window = 52 days
+    Tournament winner:  CDI window = 75 days
+
+STRUCTURAL DIFFERENCE 4 — HOLDER ARCHETYPE IS PRIMARILY SPECULATOR
+  National tokens attract higher Speculator share than club tokens
+  Speculators enter before group stage; exit within 48h of elimination
+  Governors and Loyalists: smaller share for national tokens
+  Implication: CHI is lower, MRS elevated risk during sell-off periods
+  Apply HIGHER fraud detection sensitivity during post-elimination windows
+
+NATIONAL TOKEN — ENTRY AND EXIT DISCIPLINE:
+  ENTRY window: T-14 days to T-2h of first group match
+  EXIT warning: any elimination result → IMMEDIATE reassessment
+  Hard rule: NEVER enter national token 4h either side of elimination match
+  (volatility exceeds signal quality regardless of SportMind score)
+
+$ARG SPECIAL CASE — NARRATIVE AMPLIFIER:
+  Argentina is the defending champion. If this is Messi's final World Cup:
+  APPLY: narrative_amplifier = 1.25 to all signal outputs
+  This amplifier reflects the unique sentimental holder base that
+  protects the floor regardless of performance.
+  CONDITION: activate only if confirmed by credible media T-30 days before tournament
+  Do NOT apply pre-emptively from current session date
+```
+
+---
+
+## CALENDAR_COLLAPSE — tournament elimination mechanics
+
+CALENDAR_COLLAPSE is the fan token equivalent of a relegation event during
+a World Cup. When a nation is eliminated, the remaining tournament becomes
+a commercial dead period for that token.
+
+```
+CALENDAR_COLLAPSE TRIGGER CONDITIONS:
+  Group stage exit:            CALENDAR_COLLAPSE_CONFIRMED on final group match
+  Knockout round exit:         CALENDAR_COLLAPSE_CONFIRMED within 4h of match result
+  Failure to qualify (pre-tournament): CALENDAR_COLLAPSE_CONFIRMED at draw allocation
+
+CALENDAR_COLLAPSE EFFECTS BY TOKEN TYPE:
+
+  NATIONAL TOKEN ($ARG, national tokens):
+    Immediate: HAS decay begins within 6h of elimination
+    24h: Speculator exit driving sell pressure
+    72h: HAS stabilises at new (lower) baseline
+    CDI: reset per stage-reached table above
+    LTUI: tournament run creates lasting positive (better than no tournament)
+    EXCEPTION: runners-up maintain elevated signal for 10–14 days post-final
+
+  CLUB TOKEN with eliminated ATM players:
+    Immediate: NCSI uplift ends — ATM modifier returns to standard domestic level
+    No CALENDAR_COLLAPSE on club token from national elimination alone
+    But: if 3+ ATM players eliminated = NCSI_SILENCE flag for remainder of tournament
+    Club token continues on domestic cycle; World Cup narrative ends early
+
+  CLUB TOKEN with PATH_2 active:
+    Supply mechanics UNCHANGED — PATH_2 continues on domestic schedule
+    No burn is missed because of national team elimination
+    But: commercial weight of each subsequent WIN burn is reduced
+    (CQS returns to domestic baseline ~1.00 from WC amplified level)
+
+CALENDAR_COLLAPSE SIGNAL CHAIN:
+  1. Elimination confirmed (full-time result)
+  2. Raise CALENDAR_COLLAPSE flag for national token
+  3. Apply CDI reset (stage-reached table)
+  4. REMOVE NCSI amplifier from club token calculations
+  5. Club token reverts to standard domestic ATM model
+  6. National token: WAIT 72h before next entry signal assessment
+
+AGENT HARD RULE:
+  Never maintain ENTER signal on a national token after elimination
+  Never blame "temporary dip" for elimination — it is structural
+  CALENDAR_COLLAPSE is permanent for this tournament
+```
+
+---
+
+## Post-tournament supply and signal reset
+
+```
+RESET TIMELINE (starting July 20, 2026):
+
+WEEK 1 (July 20–26):
+  National tokens: HAS normalisation; Speculators completing exit
+  Club tokens: World Cup fatigue assessment begins
+  PATH_2 club tokens: summer transfer window opens (July 1 overlaps tournament)
+  World Cup performers = transfer targets; potential ATM change incoming
+
+WEEK 2–4 (July 27 – August 16):
+  Pre-season and domestic competition restart
+  Key signal: how do ATM World Cup performers return to club form?
+  August fixtures: apply TIS penalty for players with minimal recovery time
+  Tournament winner players: high risk of INTERNATIONAL_RETURNEE_SHORT_PREP
+
+30 DAYS POST-TOURNAMENT:
+  Winner national token: NCSI still at x1.5 (decaying from peak)
+  Finalist national token: NCSI at x1.2
+  Semi-finalist: NCSI at x1.1
+  Earlier exits: NCSI returned to x1.0
+
+60 DAYS POST-TOURNAMENT (mid-September 2026):
+  All tournament NCSI multipliers expired
+  Return to standard domestic NCSI framework
+  Exception: Golden Boot / Ball winner maintains personal NCSI at x1.3 until Jan 2027
+
+TRANSFER WINDOW INTERSECTION:
+  World Cup runs June 11 – July 19
+  Summer window opens July 1 (overlaps last 3 weeks of tournament)
+  Expected peak: August 15–31 (deadline pressure)
+  Any ATM-tier World Cup standout = elevated transfer probability
+  Apply: fan-token/star-departure-intelligence.md if transfer confirmed
+  Apply: core/transfer-negotiation-intelligence.md for negotiation intelligence
+  ALERT: PATH_2 clubs losing ATM-tier World Cup winner = double commercial event
+    (NCSI winner + LTUI star departure simultaneously)
+
+SEASON SUPPLY RECORD:
+  Close the World Cup supply record after all PATH_2 events processed
+  Log: total burns during tournament window
+  Log: which matches had elevated CQS (>1.30)
+  This data feeds into modifier-recalibration when the 150-record milestone is reached
+```
+
+---
+
 ## Agent reasoning protocol
 
 ```
@@ -325,7 +538,7 @@ HARD RULES:
 
 ---
 
-*SportMind v3.40 · MIT License · sportmind.dev*
+*SportMind v3.71 · MIT License · sportmind.dev*
 *Time-sensitive: FIFA World Cup 2026 runs June 11 – July 19, 2026*
 *See: market/world-cup-2026.md · fan-token/football-token-intelligence/*
 *core/core-narrative-momentum.md · fan-token/transfer-window-intelligence/*

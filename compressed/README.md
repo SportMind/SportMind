@@ -1013,26 +1013,45 @@ END-TO-END FLOW: PSG vs Arsenal UCL QF → 8 phases in platform/api-providers.md
 
 ## [COMPRESSED] World Cup 2026 intelligence
 
-**When to use:** Any national team token or club token NCSI during WC2026.
-Time-sensitive: tournament June 11 – July 19, 2026.
-
 ```
-NCSI AMPLIFIER: ×3.5-4.0 (vs ×1.00 standard, ×2.0-2.5 Euros/Copa)
-WHY HIGHER: US timezone + 48-team format + mature token ecosystem + regulatory clarity
+TOURNAMENT: June 11 – July 19, 2026 | 48 teams | 104 matches | USA/Canada/Mexico
+TIME SENSITIVE: tournament is active — load this before any WC2026 analysis
 
-SIGNAL BY ROUND: Group win +3-8% | R32 ×1.4 | R16 ×1.6 | QF ×1.9 | SF ×2.2 | Final ×4+
-WINNER: national +25-60% | club star performer +12-22% | squad player +3-7%
-HOST SIGNALS: USA ×1.30 | Mexico ×1.35 | $CHVS local match ×1.15
-$ARG SPECIAL: defending champion + possible Messi final WC → narrative ×1.25 floor
+NCSI AMPLIFIER: ×3.5 group stage → ×4.0 final (vs ×1.0 standard domestic)
+CQS CONTEXT: US primetime + sold-out venue = 1.35–1.40 (standard match = 1.00)
 
-WC CDI (not standard): Group stage=4d | KO advancement=8d | Winner=45d
-HARD RULES: Never ENTER national token within 4h of elimination result
-            Macro modifier applies regardless of tournament excitement
-OVERLAP: July 1-19 = transfer window open + WC knockouts → dual signal architecture
+PATH_2 + WC2026:
+  Protocol mechanics UNCHANGED — same 0.25% pre-liquidation, WIN=burn, LOSS=neutral
+  What changes: commercial significance of each burn is 3.5–4× more impactful
+  AGENT RULE: T-48h pre-liquidation during WC = PROTOCOL_EVENT (never bearish, same as domestic)
+
+NATIONAL TOKENS (structural differences from club tokens):
+  No domestic matches → HAS dormant outside tournaments → maximum spike at WC
+  No PATH_2 (as of 2026) — supply is holder-driven only
+  CDI windows: Group exit=18 days | QF exit=40 days | Winner=75 days
+  Holder mix: higher Speculator share → elevated MRS risk at elimination
+  Entry window: T-14 days to T-2h of first group match
+  HARD RULE: NEVER enter/maintain national token within 4h of elimination match
+
+CALENDAR_COLLAPSE on elimination:
+  National token: HAS decay in 6h, Speculator exit in 24h, CDI reset
+  Club token: REMOVE NCSI amplifier; domestic cycle continues; PATH_2 unchanged
+  Signal chain: confirm elimination → raise CALENDAR_COLLAPSE → CDI reset → WAIT 72h
+
+POST-TOURNAMENT RESET:
+  Winner NCSI: ×1.5 at day 30 → ×1.0 at day 60
+  Golden Boot/Ball winner: personal NCSI ×1.3 until Jan 2027
+  Transfer window intersection: Aug 15–31 peak; ATM World Cup standout = elevated APS
+  DOUBLE EVENT WARNING: PATH_2 club losing ATM World Cup winner = NCSI_WIN + LTUI_DEPARTURE
+
+TOURNAMENT KNOCKOUT MULTIPLIERS:
+  R32: ×1.4 vs group | R16: ×1.6 | QF: ×1.9 | SF: ×2.2 | Final: max
+  Winner: +25–60% national token | Club star (Golden Boot): +12–22%
+
+$ARG SPECIAL: defending champion + narrative amplifier ×1.25 (if Messi final WC confirmed)
 ```
-~210 tokens → full file: fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md
+REF: fan-token/world-cup-2026-intelligence/ · fan-token/gamified-tokenomics-intelligence/
 
----
 
 ## [COMPRESSED] Transfer window intelligence
 
