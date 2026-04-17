@@ -1474,3 +1474,51 @@ MCP STACK: sportmind + sportmind-ft + sportmind-web-agent + fetch
 ```
 REF: examples/agentic-workflows/web-agent-live-data.md · platform/web-agent-connectors.md
 
+---
+
+## [COMPRESSED] Narrative momentum intelligence
+
+```
+LOAD ORDER: After all quantitative modifiers (athlete, congestion, officiating, weather, macro)
+MAXIMUM MODIFIER: ±8% — never exceed regardless of narrative intensity
+RULE: Never override strong adverse signals with narrative alone
+
+EIGHT TAXONOMY CATEGORIES:
+Cat 1 REVENGE: Significant prior loss rematch | Home+4–6% | Away+3–5% | Valid ≤18 months
+Cat 2 RECORD PROXIMITY: 1 away=+6–8% | 2–3 away=+4–6% | 4–5 away=+2–3%
+Cat 3 COMEBACK: Major adversity return | +3–5% | Injury return: apply injury modifier FIRST then +2%
+Cat 4 CAREER FIRST: Home debut, first trophy match, first cap | +3–5% home amplification
+Cat 5 RIVALRY: Tier 1 (El Clásico, India-Pakistan): 40% discount on form differential
+              Tier 2 (domestic derbies): 20% discount on form differential
+Cat 6 MEMORIAL: Apply ZERO modifier; WIDEN confidence intervals by 15% — abstention signal
+Cat 7 MUST-WIN: Elimination=+5% | Relegation=+4% | Career final=+3% (at-risk team only)
+Cat 8 FATIGUE: Narrative 4+ weeks old → reduce 50% | Athlete addressing pressure → reduce to 0
+
+TOURNAMENT KNOCKOUT AMPLIFIERS (applied to narrative modifier, not base signal):
+  R16=×1.20 | QF=×1.45 | SF=×1.70 | Final=×2.00
+  Defending champion: +5% all tournament matches
+  First-time finalist: +4% breakthrough narrative
+  Compound rule: Cat7 + knockout = Cat7 full + knockout at 70%
+
+CHAMPIONSHIP DECIDER: Title race final 5 matches=×1.15 | Final 3=×1.30 | Last match=×1.50
+  Season finale dead rubber: SUPPRESS narrative; apply DEAD_RUBBER flag instead
+
+CROSS-SPORT DOMINANCE (World Cup active): Non-football AELS × 0.85 during WC group stage
+  Social volume dominated by football; non-football signal compressed 15–25%
+
+TRILOGY FIGHTS (MMA/boxing): × 1.50 narrative — maximum combat sports signal
+  Controversial rematch: × 1.30 | Long gap (2y+): × 1.10
+
+DTS EFFECT (documentary/streaming):
+  DTS = commercial signal only (AELS, CDI) — NEVER modifies SMS
+  Active DTS: × 1.15 AELS | Apply CAUTION flag on social volume (may be noise)
+
+POST-TOURNAMENT: Phase 1 (days 1–7) = do NOT act on residual narrative
+  Phase 2 (days 8–21) = apply 50% modifier | Phase 3 (day 22+) = reset fresh
+
+FAN TOKEN: Narrative-rich WIN = larger token spike | Must-win LOSS = severe compound signal
+  Record-breaking moment = fastest token signal in the library
+```
+REF: core/core-narrative-momentum.md
+
+

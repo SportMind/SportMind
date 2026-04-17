@@ -1,5 +1,45 @@
 # Changelog
 
+## [3.73.0] — 2026-04-17
+
+### Changed
+- `core/core-narrative-momentum.md` — expanded from 344 to 585 lines. Six new sections:
+
+  Tournament knockout narrative amplification: round multipliers (R16 ×1.20 →
+  Final ×2.00 applied to narrative modifier), defending champion +5% per match,
+  first-time finalist +4%, compound rule for overlapping Cat7 + knockout context.
+  WC2026 CALENDAR_COLLAPSE integration: narrative resets to zero on elimination.
+
+  Post-tournament narrative decay: three-phase model (Phase 1 days 1–7 = do not act
+  on residual signal, Phase 2 days 8–21 = 50% modifier, Phase 3 day 22+ = fresh reset).
+  Season-end equivalent. Cross-season relegation/return narrative (Category 3 applies).
+
+  Championship decider and season finale narrative: title race final round multipliers
+  (×1.15 at 5 matches → ×1.50 at final decider). F1, MotoGP, NASCAR finale frameworks.
+  Dead rubber detection: SUPPRESS narrative + DEAD_RUBBER flag.
+
+  Cross-sport narrative dominance: WC active = non-football AELS ×0.85. Olympics =
+  all sports elevated (no compression). Super Bowl = US-market token compression ×0.90.
+  Trigger: social volume 5× baseline for 3+ days = CROSS_SPORT_COMPRESSION flag.
+
+  Trilogy and multi-bout narrative (combat sports): trilogy = ×1.50 (maximum),
+  controversial rematch = ×1.30, long gap ≥2y = ×1.10. Beyond trilogy: fatigue
+  applies ×0.80 per additional fight. Age/physical decline cap: ×1.10 max if
+  fighter 3+ years past peak.
+
+  Drive to Survive / documentary narrative (DTS effect): DTS = commercial signal
+  ONLY (AELS, CDI) — never modifies SMS. Active DTS: ×1.15 AELS + CAUTION flag
+  on social volume (may be noise, not sporting signal). bc_dts_effect MCP tool
+  returns current DTS status per sport.
+
+- `compressed/README.md` — narrative momentum compressed skill added (77→78 total)
+
+### Fixed
+- `docs.html` — two structural HTML bugs causing sections to render outside the
+  grid layout. Bug 1: orphan </div> in mcp-server section was closing <main> early,
+  pushing 9 sections (usage-modes through output-schema) outside the grid. Bug 2:
+  metrics section missing </section> closing tag. All 12 sections now balanced.
+
 ## [3.72.0] — 2026-04-17
 
 ### Added

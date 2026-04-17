@@ -285,6 +285,244 @@ NARRATIVE TIMING:
 
 ---
 
+
+---
+
+## Tournament knockout narrative amplification
+
+Knockout rounds generate narrative momentum that compounds with each advancing
+round. The elimination context (Category 7) already applies — these are the
+additional multipliers that apply specifically in knockout tournament formats.
+
+```
+KNOCKOUT PHASE NARRATIVE MULTIPLIERS:
+  (Applied to the base narrative modifier, not to the base signal directly)
+
+  Round of 16 / Last 16:    × 1.20 narrative amplification
+  Quarter-final:             × 1.45 narrative amplification
+  Semi-final:                × 1.70 narrative amplification
+  Final:                     × 2.00 narrative amplification
+
+  WHY: Each knockout round eliminates half the field. The survivor narrative
+  compounds. A team in a semi-final has already beaten 3+ opponents in direct
+  elimination — each win is part of a story that builds.
+
+DEFENDING CHAMPION NARRATIVE:
+  A defending champion at any knockout competition carries:
+  → +5% additional narrative modifier for every match in the competition
+  → Maximum applies if they're defending a title won against dramatic opposition
+  → EXCEPTION: reduce if they won in forgettable circumstances (walkover, opponent scandal)
+
+FIRST-TIME FINALIST NARRATIVE:
+  Team/athlete reaching their first final in a major competition:
+  → +4% narrative modifier (breakthrough narrative + journey framing)
+  → Opposition: −2% (facing a "first time" opponent is narratively neutral)
+
+COMPOUND NARRATIVE RULE:
+  When Category 7 (must-win) AND knockout amplification both apply:
+  Apply Category 7 at full strength, knockout amplifier at 70%
+  (Avoid double-counting the elimination pressure)
+
+WORLD CUP 2026 SPECIFIC:
+  Group stage: standard narrative taxonomy applies (no multiplier)
+  Knockout from Round of 32: apply knockout phase multipliers above
+  CALENDAR_COLLAPSE on elimination: narrative modifier immediately reverses to zero
+  for national tokens; narrative completes within 72h for club tokens
+```
+
+---
+
+## Post-tournament narrative decay
+
+After a tournament or season concludes, narrative momentum does not end immediately.
+It decays on a defined schedule that agents must respect to avoid acting on
+residual signal.
+
+```
+POST-TOURNAMENT NARRATIVE PHASES:
+
+PHASE 1 — Narrative completion window (Days 1–7 post-final):
+  The winner's narrative is still resolving (celebrations, media, analysis)
+  DO NOT ACT on narrative as a buy signal during Phase 1
+  Residual narrative is NOT new sporting signal — it is completion of existing signal
+  Agent rule: maintain positions; do not open new positions based on narrative alone
+
+PHASE 2 — Narrative normalisation (Days 8–21):
+  Winner narrative fades; loser narrative processed
+  Apply 50% of narrative modifier if carrying from tournament
+  Transfer window activity begins — narrative shifts from performance to commercial
+  New narrative starts forming around squad reconstruction
+
+PHASE 3 — New cycle begins (Day 22+):
+  Domestic season narrative replaces tournament narrative
+  Apply standard narrative taxonomy fresh — do not carry tournament modifiers
+  Exception: tournament MVP retains individual narrative modifier until
+  their first 3 domestic appearances
+
+POST-TOURNAMENT CALENDAR_COLLAPSE RULE:
+  Eliminated teams: narrative = zero from elimination date
+  No "consolation" narrative for teams knocked out early
+  Exception: if elimination was dramatic (last-minute goal, penalty shootout) →
+  apply Category 3 (comeback/adversity) at 30% for the next fixture only
+
+SEASON-END NARRATIVE DECAY:
+  Applies to league seasons, not just tournaments
+  Week 1–2 post-season: narrative complete; do not act
+  Week 3+: new season narrative begins to build
+  Cross-season narrative (relegated team returning): Category 3 applies
+```
+
+---
+
+## Championship decider and season finale narrative
+
+Distinct from knockout elimination — this applies to league-format seasons where
+the title, qualification, or relegation is decided in the final rounds.
+
+```
+SEASON NARRATIVE INTENSITY — FINAL ROUNDS:
+
+TITLE RACE (any team that can still win the title):
+  Final 5 matches: × 1.15 narrative amplifier on all matches
+  Final 3 matches: × 1.30
+  Final 1 match (title decider): × 1.50
+  Maximum: +8% to signal (narrative cap still applies)
+
+FORMULA 1 CHAMPIONSHIP DECIDER:
+  Final race with title undecided: Maximum narrative signal in motorsport
+  Apply: championship_decider flag + × 1.50 narrative amplifier
+  Note: F1 championship narrative is sustained across the entire season
+  — distinguish between "in contention" (× 1.10) and "final race" (× 1.50)
+
+MotoGP EQUIVALENT:
+  Clinch approach: × 1.20 when leader within one win of clinching
+  Final round: × 1.40 if title still undecided
+
+NASCAR FINALE:
+  Championship 4 format creates an artificial finale narrative
+  Apply: × 1.35 for all four championship contenders in finale event
+  Non-contenders: standard signal (no narrative modifier)
+
+SEASON FINALE AGENT RULE:
+  Always check standings before final-round analysis
+  If title / promotion / relegation can change result = apply season finale framework
+  If nothing at stake (confirmed position both ways) = DEAD_RUBBER; suppress narrative
+```
+
+---
+
+## Cross-sport narrative dominance
+
+During major global events, one sport can dominate the narrative landscape in a
+way that compresses signals for all other sports. This is a library-level signal
+that affects all sports simultaneously.
+
+```
+CROSS-SPORT NARRATIVE DOMINANCE EVENTS:
+
+FIFA WORLD CUP (active tournament):
+  Football narrative dominance: MAXIMUM
+  Effect on other sports: media attention redistributed
+  Token signal compression: non-football tokens see 15–25% reduced social volume
+  Agent rule: during WC group stage, apply × 0.85 to AELS for non-football tokens
+  Rationale: social platforms dominated by football; non-football athlete posts
+  receive lower engagement than baseline
+
+OLYMPICS:
+  Cross-sport narrative: all sports elevated during Games period
+  No compression effect — Olympics amplifies ALL sports
+  Agent rule: apply standard narrative taxonomy; no cross-sport modifier needed
+  Exception: direct scheduling conflicts with major domestic leagues
+
+SUPER BOWL WEEK:
+  NFL dominance for 2 full weeks pre-game
+  US-market tokens: apply compression factor to non-NFL tokens (× 0.90)
+  Global tokens: minimal effect (Super Bowl is primarily a US narrative)
+
+DETECTING NARRATIVE DOMINANCE:
+  Trigger: social volume for football/target sport exceeds 5× baseline for 3+ days
+  Source: platform/social-intelligence-connector.md (LunarCrush Galaxy Score)
+  Action: flag CROSS_SPORT_COMPRESSION; apply sport-specific modifiers above
+```
+
+---
+
+## Trilogy and multi-bout narrative (combat sports)
+
+In MMA, boxing, and wrestling, multi-bout series between the same fighters
+create a compound narrative structure unlike anything in team sports.
+
+```
+BOUT SERIES NARRATIVE FRAMEWORK:
+
+REMATCH (second fight):
+  Decisive first fight win: Standard narrative (loser seeking redemption = Category 1)
+  Controversial first fight: × 1.30 narrative amplifier (dispute needs resolution)
+  Long gap since first fight (2+ years): reduce to × 1.10 (narrative has cooled)
+
+TRILOGY (third fight):
+  Any trilogy fight: MAXIMUM narrative signal in combat sports
+  Apply: trilogy_flag + × 1.50 narrative amplifier
+  Examples: Jones vs Cormier III, Fury vs Wilder III, Barrera vs Morales III
+  Rationale: third fight carries weight of entire series; both fighters defined by it
+
+BEYOND TRILOGY (4th fight+):
+  Narrative fatigue begins to apply (Category 8)
+  Reduce modifier: × 0.80 per additional fight beyond trilogy
+  Exception: if a new title or career milestone is at stake — reset to Category 1
+
+AGENT RULE — COMBAT SPORTS:
+  Weight cuts, injury history, and age modifier apply BEFORE narrative
+  Do not let trilogy narrative override significant physical decline signals
+  If fighter is 3+ years past peak ATM: narrative modifier capped at × 1.10
+  regardless of series context
+```
+
+---
+
+## Drive to Survive / documentary narrative (DTS effect)
+
+The documentary and streaming content cycle creates a distinct type of narrative
+momentum that operates separately from in-season sporting performance. Named
+after the Netflix Formula 1 series but applicable across sports.
+
+```
+DTS FRAMEWORK:
+
+WHAT DTS NARRATIVE IS:
+  A narrative that exists because of media content, not sporting events
+  The story is *about* an athlete or team, not *by* their performance
+  Creates new audiences who follow the sport emotionally before understanding it
+
+  DTS-driven fans are:
+  → More likely to be new token holders (lower governance engagement)
+  → More reactive to media narrative than sporting outcomes
+  → Amplifiers for social signal but weaker holders (Speculator archetype)
+
+SIGNAL APPLICATION:
+  Active DTS narrative (series recently released, press coverage high):
+    → × 1.15 to AELS for featured athletes/teams
+    → Elevated social volume unlikely to reflect actual sporting signal quality
+    → Apply CAUTION flag: social volume may be noise, not signal
+
+  Featured team or athlete = new entry (season or series launch):
+    → Apply narrative_active flag for first 4–6 weeks post-release
+    → Distinguish: DTS attention ≠ form improvement; do not modify SMS
+
+SPORTS WHERE DTS EFFECT IS ACTIVE:
+  Formula 1 (Netflix — primary origin): applies every season
+  Tennis (Break Point series): Wimbledon period amplified
+  NFL (various docuseries): training camp window
+  Golf, cycling: emerging DTS signals
+
+AGENT RULE:
+  bc_dts_effect MCP tool returns current DTS narrative status per sport
+  DTS narrative = commercial signal only (AELS, CDI, token volume)
+  DTS narrative = NEVER a sporting outcome signal (no SMS modification)
+```
+
+---
+
 ## Loading instruction
 
 ```
@@ -341,4 +579,7 @@ AGENT RULE:
   Sold-out with resale > 3× = confirm narrative_active and apply × 1.05 modifier.
 ```
 
-*MIT License · SportMind · sportmind.dev*
+*SportMind v3.72 · MIT License · sportmind.dev*
+*See also: core/standings-intelligence.md · core/contextual-signal-environment.md*
+*fan-token/world-cup-2026-intelligence/ · core/game-tempo-intelligence.md*
+*core/perceptual-pressure-intelligence.md · core/opponent-tendency-intelligence.md*
