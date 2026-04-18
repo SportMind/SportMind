@@ -1,5 +1,60 @@
 # Changelog
 
+## [3.75.0] — 2026-04-17
+
+### Added
+- `examples/agent-types/README.md` — Agent Types guide (1,447 lines)
+  Eleven types of agents developers can build with SportMind, with
+  complete Python starter implementations for each.
+
+  Part 1 — Five standard architecture types (Russell & Norvig taxonomy):
+  Type 1 Simple Reflex: breaking news triggers, lineup change reaction,
+  macro override suspension. Under an hour to build. Autonomy level 0–1.
+  Type 2 Model-Based Reflex: SportMind's primary architecture (★★★★★).
+  The skill library is the world model. Every pre-match signal agent is
+  this type. Six-step signal chain. Autonomy level 1–3.
+  Type 3 Goal-Based: portfolio monitor and tournament tracker. Explicit
+  ENTER/WAIT/ABSTAIN goal with autonomy levels 0–4 controlling how
+  independently the goal chain runs.
+  Type 4 Utility-Based: scouting agent ranking transfer targets by CVS
+  across performance/commercial/system_fit/risk. DQI, ARI, CQS, TMAS
+  all framed as utility functions. UNDERVALUED flag bonus built in.
+  Type 5 Learning: honest framing — learning is human-mediated by design.
+  Calibration pipeline submits predictions, records outcomes, feeds
+  modifier recalibration at 100/120/150-record milestones.
+
+  Part 2 — Six SportMind-native agent types (no academic taxonomy name):
+  Type 6 Supply Surveillance: PATH_2 pre-liquidation detection (T-48h
+  PROTOCOL_EVENT), post-match burn verification, BURN_ANOMALY escalation.
+  Autonomy level 3 — surveillance autonomous, anomalies escalate.
+  Type 7 Regulatory Watchdog: monitors ESMA/SEC/CFTC/Chiliz, three-tier
+  classification, HARD RULE — never auto-updates library. Autonomy level 2.
+  Type 8 Narrative Aggregator: detects narrative momentum 48–72h before
+  peak trading. Social volume, KOL Tier 1, media language patterns, ticket
+  demand. Catches the 3–8% signal before market prices it in.
+  Type 9 Governance Participation: vote quality assessment, GSI scoring,
+  archetype-targeted notifications (Governors T-72h, Loyalists T-48h,
+  Speculators never, Amplifiers get result). Drives engagement not churn.
+  Type 10 Commercial Brief: generates ABS/APS/AELS/TVS/BVS documents for
+  clubs, brands, sports agents. Output is a brief not a signal. Uses bc_
+  and sc_ MCP servers. Autonomy level 1–2.
+  Type 11 World Cup Multi-Entity Tracker: manages 8+ tokens across 39 days.
+  NCSI amplifiers per round (×3.5→4.0), CALENDAR_COLLAPSE cascades, PATH_2
+  supply verification, post-tournament reset. The most complex agent type.
+  Autonomy level 3–4.
+
+  Includes: quick routing table, architecture principle, combining agent
+  types (fan token stack, WC2026 stack, commercial stack), and "where to
+  go next" reference table.
+
+### Changed
+- `docs.html` — Agent Types section added (sidebar position 2, between
+  Getting Started and Architecture). 13 sidebar links, 13 sections, all
+  balanced. Routing table + 11 step cards (5 standard + 6 native types).
+  Full implementations pointer to examples/agent-types/README.md.
+- All version files, MCP scripts → v3.75.0
+- Website stats: 576 files, 361 md, 42 examples
+
 ## [3.74.0] — 2026-04-17
 
 ### Changed

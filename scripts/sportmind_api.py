@@ -56,8 +56,8 @@ from urllib.parse import parse_qs, urlparse
 REGISTRY_FILE   = Path("platform/skill-registry.md")
 MACRO_STATE_FILE = Path("platform/macro-state.json")
 BASE_DIR        = Path(".")
-API_VERSION = "3.74.0"
-LIBRARY_VERSION = "3.74.0"
+API_VERSION = "3.75.0"
+LIBRARY_VERSION = "3.75.0"
 
 
 # ── Skill ID → file path mapping ─────────────────────────────────────────────
