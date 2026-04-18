@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.79.1] — 2026-04-18
+
+### Fixed
+- `scripts/sportmind_mcp.py` — Fan token registry rebuilt from authoritative source.
+  Official Chiliz partnership spreadsheet provided by Pele Roberts (April 2026) confirmed
+  16 incorrect contract addresses and 45 missing tokens in the previous registry.
+  Registry now covers 87 total tokens: 63 active Chiliz Chain partnerships (expired=False),
+  18 expired partnerships (token on-chain, Socios utility ended, expired=True),
+  6 multi-chain tokens (BSC/Ethereum, Binance/Paribu issuers, separate MULTICHAIN registry).
+
+  Contracts corrected (16): AVL, HASHTAG, POR, BENFICA, GALO, SPFC, SHARKS, SAN,
+  IBFK, EFC, CHVS, VERDAO, SARRIES, ITA, UFC, SCCP.
+
+  New tokens added (45): ALL, ALPINE, APL, ATLAS, BAHIA, BFC, BJK, BUFC, CAI,
+  DAVIS, DOJO, ENDCEX, FB, FLU, FOR, GFK, JDT, LEG, LEV, MFC, MIBR, NAVI,
+  NOV, PERSIB, PFL, PRSJ, QUINS, RACING, ROUSH, RSO, SACI, SAM, SANTOS, SEVILLA,
+  SFP, STV, TH, TIGERS, TIGRES, UCH, UDI, VCF, VIT, YBO, FLU (Fluminense).
+
+  BFT (Brazil National Team) removed — not in official spreadsheet.
+  VASCO moved to expired=True (confirmed by spreadsheet).
+
+  Multi-chain registry expanded: ALPINE (BSC/Binance), BJK (Ethereum/Paribu),
+  PORTO (BSC/Binance), FB (Ethereum/Paribu), SANTOS (BSC/Binance),
+  LAZIO (BSC/Binance).
+
+  The expired=True field is now present on all tokens, enabling agents to
+  distinguish active utility tokens from on-chain-only legacy tokens.
+
+- `fan-token/fan-token-pulse/references/chiliz-token-registry.md` — Rebuilt
+  using authoritative spreadsheet. Previous version had wrong contracts.
+  Now 202 lines. All 87 tokens documented with correct addresses, grouped
+  by region/sport/status. Expired section clearly separated.
+
+- `docs.html` — fan-tokens count updated 41 → 87.
+
 ## [3.79.0] — 2026-04-18
 
 ### Added
