@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.79.2] — 2026-04-18
+
+### Added
+- `scripts/sportmind_mcp.py` — Three national team fan tokens added to
+  MULTICHAIN_FAN_TOKEN_REGISTRY. Source: fantokens.com trade pages + provided
+  explorer addresses (BiTCI and Ethereum chains — not on Chiliz).
+
+  SNFT (Spain) — BiTCI Chain — 0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C
+  BFT (Brazil) — BiTCI Chain — 0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B
+  VATRENI (Croatia) — Ethereum — 0x4CdA244c7e93045c88f86e6Ec571C223bEc2fc70
+
+  BFT contract address also clarifies the v3.79.0 removal: this is the same
+  address previously misassigned to Chiliz Chain. It is BiTCI-native.
+  All three carry wc2026=True flag. BFT is the World Cup 2026 host nation
+  (NCSI x3.5-4.0 applies for all group and knockout fixtures).
+
+  MULTICHAIN registry: 6 → 9 tokens.
+
+- `fan-token/fan-token-pulse/references/chiliz-token-registry.md` — Three
+  tokens added to multi-chain section. WC2026 note added. Total: 87 → 90.
+
+### Changed
+- `docs.html` — fan-tokens count updated 87 → 90.
+
 ## [3.79.1] — 2026-04-18
 
 ### Fixed

@@ -41,7 +41,7 @@ ROOT        = Path(__file__).parent.parent
 HASHES_FILE = ROOT / "platform" / "skill-hashes.json"
 MACRO_STATE = ROOT / "platform" / "macro-state.json"
 
-VERSION = "3.79.1"
+VERSION = "3.79.2"
 
 SUPPORTED_SPORTS = [
     "football", "basketball", "cricket", "mma", "formula1", "tennis",
@@ -440,6 +440,24 @@ MULTICHAIN_FAN_TOKEN_REGISTRY = {
                 "contract": "0x77d547256a2cd95f32f67ae0313e450ac200648d",
                 "explorer": "https://bscscan.com/token/0x77d547256a2cd95f32f67ae0313e450ac200648d",
                 "issuer": "Binance"},
+    # ── BiTCI Chain tokens ───────────────────────────────────────────────────
+    "SNFT":    {"name": "Spain National Football Team", "sport": "football", "chain": "BiTCI",
+                "contract": "0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C",
+                "explorer": "https://v3.bitciexplorer.com/token/0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C",
+                "fantokens": "https://www.fantokens.com/trade/spain-national-football-team",
+                "issuer": "BiTCI", "wc2026": True},
+    "BFT":     {"name": "Brazil National Football Team", "sport": "football", "chain": "BiTCI",
+                "contract": "0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B",
+                "explorer": "https://v2.bitciexplorer.com/token/0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B",
+                "fantokens": "https://www.fantokens.com/trade/brazil-national-football-team",
+                "issuer": "BiTCI", "wc2026": True,
+                "note": "Host nation WC2026 — NCSI x3.5-4.0 modifier"},
+    # ── Ethereum tokens ──────────────────────────────────────────────────────
+    "VATRENI": {"name": "Croatia Football Federation", "sport": "football", "chain": "Ethereum",
+                "contract": "0x4CdA244c7e93045c88f86e6Ec571C223bEc2fc70",
+                "explorer": "https://etherscan.io/token/0x4CdA244c7e93045c88f86e6Ec571C223bEc2fc70",
+                "fantokens": "https://www.fantokens.com/trade/croatia-football-federation",
+                "issuer": "independent", "wc2026": True},
 }
 
 

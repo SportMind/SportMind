@@ -17,8 +17,8 @@
 |---|---|
 | Chiliz Chain — Active partnerships | 63 |
 | Chiliz Chain — Expired partnerships (token on-chain) | 18 |
-| Multi-chain (BSC/Ethereum) | 6 |
-| **Total** | **87** |
+| Multi-chain (BSC/Ethereum/BiTCI) | 9 |
+| **Total** | **90** |
 
 ---
 
@@ -189,6 +189,12 @@ No Socios governance. Verify via BscScan or Etherscan, not chiliscan.
 | Fenerbahce | FB | Ethereum | Paribu | 0xfb19075d77a0f111796fb259819830f4780f1429 |
 | Santos FC | SANTOS | BSC | Binance | 0xA64455a4553C9034236734FadDAddbb64aCE4Cc7 |
 | SS Lazio | LAZIO | BSC | Binance | 0x77d547256a2cd95f32f67ae0313e450ac200648d |
+| Spain National Football Team | SNFT | BiTCI | BiTCI | 0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C |
+| Brazil National Football Team | BFT | BiTCI | BiTCI | 0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B |
+| Croatia Football Federation | VATRENI | Ethereum | Independent | 0x4CdA244c7e93045c88f86e6Ec571C223bEc2fc70 |
+
+SNFT, BFT, VATRENI carry World Cup 2026 NCSI ×3.5–4.0 modifier.
+BFT (Brazil) is the host nation — modifier applies for all group stage and knockout fixtures.
 
 ---
 
