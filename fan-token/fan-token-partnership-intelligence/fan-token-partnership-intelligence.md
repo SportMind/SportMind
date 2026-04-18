@@ -596,6 +596,148 @@ SPORTMIND AGENT GUIDANCE:
 
 ---
 
+---
+
+## Part 6 — Pre-adoption strategic decision framework
+
+**Source: Ante et al. (2025), *Digital Business* — expert interviews with German professional football clubs.**
+
+SportMind tells you how to reason about a fan token once it exists.
+This section addresses an earlier question: *should a club adopt a fan token at all?*
+
+The framework maps stakeholder attributes against opportunities and challenges
+across six dimensions. A club entering this decision needs to know which
+stakeholder groups hold power, legitimacy, and urgency — and how fan tokens
+affect each group's position.
+
+```
+STAKEHOLDER MAP FOR FAN TOKEN ADOPTION DECISION
+(Based on Mitchell et al. 1997 framework applied to fan tokens)
+
+STAKEHOLDER          POWER TYPE       FAN TOKEN IMPACT
+
+Club management      Utilitarian      Primary decision-maker. Controls issuance.
+                                      Must balance revenue opportunity vs brand risk.
+
+Fans (broad)         Normative        Split response: Governors/Loyalists see value;
+                                      Speculators create noise; some fans resist.
+                     Coercive         Organised fan groups can withdraw support,
+                                      create negative media, or campaign against.
+
+Investors/sponsors   Utilitarian      Generally positive on revenue diversification.
+                                      May push for faster adoption than ideal.
+
+Sports associations  Coercive         Regulatory power over approved platforms.
+                                      Governance oversight on voting structures.
+
+Platform (Socios)    Utilitarian      Alignment of interests in FTO phase;
+                                      ongoing revenue share creates dependency risk.
+```
+
+```
+SIX-DIMENSION OPPORTUNITY / CHALLENGE MATRIX
+(Summarised from expert interview findings)
+
+DIMENSION       OPPORTUNITIES                    CHALLENGES
+
+Economic        Corporate finance via FTO         Market volatility — token value
+                New revenue stream (global fans)  depends on sporting performance
+                Fundraising from fan base         Lack of internal resources
+                Incentivisation / rewards         (human capital, knowledge, budget)
+
+Social          Enhanced fan experience           Membership devaluation risk:
+                Strengthened fan-club bond          clubs with member-ownership
+                Access to exclusive content         structures face perception that
+                New global target groups            fan tokens create a two-tier
+                                                    supporter hierarchy
+                                                  Exclusion of digital-barrier fans
+                                                  (cost, technology, literacy)
+                                                  Resistance from traditional fanbases
+
+Technological   Innovative engagement tools       Infrastructure requirements
+                Secure on-chain transactions      Network scalability concerns
+                NFT + token integration           Internal technical knowledge gap
+
+Political       Fan democratisation signal        Governance regulation uncertainty
+                Greater transparency              Voting fairness (whale concern)
+                Stakeholder alignment tool        Alignment across existing structures
+
+Legal           New digital revenue category      Regulatory framework ambiguity
+                                                  Token issuance compliance risk
+                                                  Jurisdiction variation (MiCA vs US)
+
+Environmental   Energy-efficient PoS blockchain   Energy consumption narrative risk
+                Digital processes reduce paper    Brand perception in ESG context
+```
+
+```
+AGENT RULES FOR CLUB COMMERCIAL STRATEGY ASSESSMENT:
+
+SIGNAL: ADOPT (proceed with Fan Token Play evaluation)
+  ✅ Club has Tier 2+ fan token readiness (market score ≥ 60)
+  ✅ Fanbase has meaningful international reach (global fan index ≥ 40)
+  ✅ Internal digital capability exists or can be acquired
+  ✅ Governing stakeholders (investors, association) are neutral or positive
+  ✅ No active fan group opposition at board level
+
+SIGNAL: CAUTION (additional stakeholder work required before adoption)
+  ⚠️  Membership-based ownership structure with unresolved fan consultation
+  ⚠️  Fan base is predominantly local with low digital engagement
+  ⚠️  Regulatory jurisdiction is ambiguous (await MiCA/US clarity)
+  ⚠️  Club has experienced recent trust events (FFP breach, ownership dispute)
+
+SIGNAL: DO NOT ADOPT (conditions unfavourable)
+  ❌ Active fan group opposition with media exposure
+  ❌ Tier 4 market score — insufficient fanbase depth for viable tokenomics
+  ❌ Legal jurisdiction blocks fan token issuance (e.g., China)
+  ❌ Macro override active (crypto bear — no FTO timing)
+
+MEMBERSHIP DEVALUATION FLAG:
+  Clubs with member-ownership structures (German 50+1, fan-owned clubs)
+  face a specific risk: fan tokens can appear to commodify participation
+  rights that members traditionally hold for free. Before adoption:
+  → Consult member assembly (if applicable)
+  → Design voting rights to complement, not duplicate, member rights
+  → Ensure FTO pricing is accessible to existing supporter base
+  This is not a blocker — it is a sequencing and communication requirement.
+
+TWO-TIER SUPPORTER RISK:
+  If governance votes reward token holders with experiences unavailable
+  to non-holders, non-token fans may feel excluded. Mitigation:
+  → Substantive votes only (not trivial — see governance intelligence)
+  → Free token allocation to season ticket holders (Lincoln dissertation
+     recommendation) as an onboarding mechanism
+  → Clear communication that token holding ≠ better fan status
+```
+
+```
+PRACTICAL DECISION SEQUENCE FOR CLUB COMMERCIAL BRIEF AGENT:
+
+Step 1: Run market score → what tier is this club? (see market/market-{sport}.md)
+Step 2: Check fanbase international reach index
+Step 3: Stakeholder map — identify power/legitimacy/urgency distribution
+Step 4: Run six-dimension matrix — flag any RED items
+Step 5: If member-ownership structure → raise MEMBERSHIP_DEVALUATION_FLAG
+Step 6: Check macro state → crypto bear? Delay FTO recommendation
+Step 7: Output: ADOPT / CAUTION / DO NOT ADOPT with reasoning chain
+
+OUTPUT SCHEMA EXTENSION:
+{
+  "fan_token_adoption_recommendation": "ADOPT | CAUTION | DO NOT ADOPT",
+  "market_tier": 1-4,
+  "stakeholder_risk_flags": [...],
+  "membership_devaluation_flag": true/false,
+  "two_tier_supporter_risk": true/false,
+  "primary_opportunity": "...",
+  "primary_challenge": "...",
+  "recommended_sequencing": "..."
+}
+```
+
+**Source:** Ante L, Henninger L, Bauers SB, Schellinger B (2025). Blockchain-based fan tokens
+as a strategic resource for sports clubs: Opportunities, challenges, and a stakeholder-oriented model.
+*Digital Business* 5(2025):100137. doi: 10.1016/j.digbus.2025.100137
+
 ## Quick reference — partnership event signals
 
 | Event | CHZ impact | Sport impact | Agent action |

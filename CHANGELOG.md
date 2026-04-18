@@ -1,5 +1,63 @@
 # Changelog
 
+## [3.78.0] — 2026-04-18
+
+### Changed
+- `fan-token/fan-token-partnership-intelligence/fan-token-partnership-intelligence.md`
+  628 → 770 lines. Part 6 added: Pre-adoption strategic decision framework.
+  Source: Ante et al. (2025), Digital Business, expert interviews with German
+  professional football clubs. Framework maps stakeholder attributes (power,
+  legitimacy, urgency per Mitchell et al. 1997) against six-dimension
+  opportunity/challenge matrix: Economic, Social, Technological, Political,
+  Legal, Environmental. Agent rules: ADOPT / CAUTION / DO NOT ADOPT signal
+  with explicit conditions. Membership devaluation flag for 50+1 / fan-owned
+  structures. Two-tier supporter exclusion risk defined. Output schema extended
+  with fan_token_adoption_recommendation field. Directly serves App 4 (Sports
+  Brand Token Strategy Tool) and commercial brief agent.
+
+- `core/post-match-signal-framework.md`
+  306 → 369 lines. Loss-effect asymmetry section added.
+  Source: Ante, Schellinger & Demir (2024) intraday event study — 8 fan tokens,
+  325 football matches — synthesised in Zhou et al. (2026) Frontiers thematic
+  review. Finding: fan token returns decline −0.8% during matches and −0.7%
+  post-match on average. Loss effect confirmed: losses trigger larger negative
+  market reactions than wins create positive ones. Calibration rules added for
+  expected vs unexpected wins and losses. PATH_2 interaction: PATH_2 LOSS is
+  supply-neutral on-chain but NOT sentiment-neutral — two separate signals.
+  Draw disappointment discount (0.92) added for pre-match ENTER scenarios.
+
+- `fan-token/fan-token-why.md`
+  457 → 532 lines. Gamification critique and Fan Token Play structural response
+  section added. Source: Lopez-Gonzalez & Griffiths (2023) gambling-like features
+  paper; Zhou et al. (2026) thematic review. Section documents the legitimate
+  original critique (static supply, TOD gamification, CHZ numerosity, leaderboard
+  pressure), then frames Fan Token Play as the architectural response: WIN=burn,
+  LOSS=mint transforms the token from speculative-entertainment hybrid into a
+  performance-sensitive asset with real supply logic. Notes that speculative
+  element persists (MRS framework exists for this reason). Agent implication
+  restatement: WIN prediction = SUPPLY REDUCTION event — standard models see
+  half the signal.
+
+- `examples/application-layer/README.md`
+  756 → 867 lines. Four new actions added to Domain 4 (Operational and club):
+  Action 4.6: Post-match brief delivery — structured output at T+2h minimum,
+  covering result vs prediction, PATH_2 status, CDI trajectory, next fixture.
+  Action 4.7: Continuous squad availability monitoring — rolling watch on ARI,
+  manager language, injury updates; 12h cycle / 6h in 48h pre-match window.
+  Action 4.8: Injury intelligence feed — structured injury register with ARI
+  trajectory, return timeline, recurrence history, congestion warning.
+  Action 4.9: Governance health dashboard — GSI score, participation rate
+  (50% empirical baseline from Ante et al. 2024), archetype distribution,
+  CHI trajectory, upcoming governance calendar.
+
+- `compressed/README.md` — Post-match compressed skill updated with
+  loss-effect asymmetry rules and PATH_2 sentiment vs supply distinction.
+
+- `core/external-intelligence-intake.md` — Three articles registered:
+  Ante et al. Digital Business 2025 (Tier 1 — actions taken),
+  Zhou et al. Frontiers 2026 (Tier 2 — actions taken),
+  Awad Saudi Arabia 2025 (Tier 2 — context only, no actions).
+
 ## [3.77.0] — 2026-04-17
 
 ### Added

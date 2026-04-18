@@ -554,6 +554,117 @@ KEY FILE: platform/wearable-biometric-connectors.md
 
 ---
 
+---
+
+### 4.6 — Post-match brief delivery
+
+```
+What it does:    Generates and delivers a structured post-match brief —
+                 result context, what happened vs what SportMind predicted,
+                 fan token supply event summary, commercial implication,
+                 and what to watch next. Plain English, ready to publish.
+Intelligence:    Post-match signal (result type, win/loss category),
+                 loss-effect asymmetry calibration, PATH_2 burn/mint
+                 confirmation status, NCSI update, CDI trajectory,
+                 narrative close (did the pre-match narrative resolve?)
+Integration:     Club website, fan app, token platform, email digest,
+                 internal analyst tool
+Experience:      "Arsenal 2-1 PSG. Unexpected WIN (pre-match said WAIT).
+                 Upset premium applies. $AFC PATH_2 burn confirmed T+2h
+                 (0.24% supply reduction). LTUI trajectory upgraded.
+                 CDI window now extended to 28 days. Next fixture: Wolves
+                 (h) Saturday — narrative continuation watch active."
+
+TIMING: Generate at T+2h minimum (AMM settling). Definitive at T+6h.
+        Do not publish at T+0 — results may still be provisional.
+
+KEY FILES: core/post-match-signal-framework.md
+           examples/agentic-workflows/post-match-agent.md (Pattern 11)
+           fan-token/gamified-tokenomics-intelligence/ (PATH_2 timing)
+```
+
+---
+
+### 4.7 — Continuous squad availability monitoring
+
+```
+What it does:    Runs a rolling watch on squad availability signals
+                 between matches — manager press conference language,
+                 training ground reports, social media activity, injury
+                 updates — and pushes alerts when availability changes.
+Intelligence:    ARI (Athlete Readiness Index) per player, ATM scores
+                 for key squad members, manager language decoder output,
+                 fixture congestion tier, travel/timezone penalty
+Integration:     Club internal tool, fantasy sport platform, fan app
+Experience:      "Saka downgraded from AVAILABLE to DOUBTFUL (T-48h).
+                 Manager used 'managing carefully' language at presser.
+                 LQI impact: -4 points. ARI: 0.78 → 0.61. Fan token
+                 ATM impact: -0.06 (small, Saka not primary ATM driver)."
+
+FREQUENCY: Check every 12h during season; every 6h in the 48h pre-match
+           window. Event-driven on any Tier 1 breaking news.
+
+KEY FILES: core/pre-match-squad-intelligence.md
+           core/athlete-readiness-index.md
+           core/breaking-news-intelligence.md (Category 1 — injury)
+```
+
+---
+
+### 4.8 — Injury intelligence feed
+
+```
+What it does:    Maintains a structured injury register for monitored
+                 squads — current injuries, expected return dates,
+                 ARI impact, historical injury patterns, fitness flags
+                 for high-congestion periods — and delivers structured
+                 updates when status changes.
+Intelligence:    ARI trajectory, injury category (muscular/structural/
+                 illness), congestion tier risk, return timeline estimate,
+                 historical recurrence pattern, position cover assessment
+Integration:     Club medical team tool, sports analytics platform,
+                 fantasy sport system, agent/club negotiation tool
+Experience:      Injury register shows: "Saka — hamstring (Grade 1).
+                 Expected return: 2-3 weeks. ARI on return: estimated 0.74
+                 (below prime — reinjury risk period). Historical recurrence:
+                 2 hamstring events in prior 18 months. CONGESTION WARNING:
+                 4 matches in 12 days on return — phased reintegration advised."
+
+KEY FILES: core/athlete-readiness-index.md
+           core/core-fixture-congestion.md
+           platform/wearable-biometric-connectors.md (recovery monitoring)
+```
+
+---
+
+### 4.9 — Governance health dashboard
+
+```
+What it does:    Provides a real-time view of fan token governance health —
+                 GSI score, recent vote participation rates, active proposal
+                 quality, archetype distribution trends, CHI trajectory,
+                 and upcoming governance calendar.
+Intelligence:    GSI (Governance Signal Index), CHI (Community Health Index),
+                 vote participation rate (empirical baseline: ~50% of holders
+                 on average — Ante et al. 2024), archetype distribution,
+                 proposal quality score, CRS (community response score)
+Integration:     Token platform dashboard, club governance tool,
+                 investor-facing report, operator monitoring system
+Experience:      Dashboard shows: "GSI: 74/100 (HEALTHY). Last vote
+                 participation: 52% (above 50% empirical baseline).
+                 Next proposal: kit design vote T-8 days (SUBSTANTIVE —
+                 notify Governors and Loyalists). Governor archetype
+                 share: 23% (above threshold). CHI: trending up."
+
+AGENT RULE: GSI < 50 for two consecutive votes = governance health flag.
+            Escalate to club engagement team for archetype review.
+
+KEY FILES: fan-token/sports-governance-intelligence/
+           fan-token/fan-holder-profile-intelligence.md
+           examples/agentic-workflows/governance-monitoring-agent.md
+           scripts/sportmind_gc_mcp.py (gc_governance_state)
+```
+
 ## Domain 5 — Developer and platform actions
 
 Actions for developers building on top of SportMind as an infrastructure

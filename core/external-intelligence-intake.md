@@ -355,6 +355,88 @@ OUTSTANDING UNCERTAINTY:
   - Future tokens beyond $AFC not named
 ```
 
+
+---
+
+## Processed intake — Academic batch (April 2026)
+
+```
+INTAKE DATE: 18 April 2026
+CLASSIFICATION: TIER 1 (Ante et al.) / TIER 2 (Zhou et al., Awad)
+
+ARTICLE 1: ★★★★ HIGH VALUE
+  Title:  "Blockchain-based fan tokens as a strategic resource for sports
+           clubs: Opportunities, challenges, and a stakeholder-oriented model"
+  Source: Digital Business (Elsevier), Volume 5 (2025) 100137
+  Date:   July 2025 (online) / December 2025 (print)
+  DOI:    10.1016/j.digbus.2025.100137
+  Method: Qualitative — expert interviews, German professional football
+
+  KEY FINDINGS USED:
+  - Stakeholder decision framework: power/legitimacy/urgency across
+    clubs, fans, investors, sponsors, associations
+  - Six-dimension opportunity/challenge matrix (Economic/Social/
+    Technological/Political/Legal/Environmental)
+  - Membership devaluation risk (50+1 ownership structure clubs)
+  - Two-tier supporter exclusion risk (digital barriers)
+  - Expert consensus: largest challenges are market volatility, lack of
+    internal resources, and stakeholder alignment
+
+  ACTIONS TAKEN:
+  → fan-token/fan-token-partnership-intelligence/: Part 6 added —
+    Pre-adoption strategic decision framework with stakeholder map,
+    six-dimension matrix, agent rules, and output schema extension
+
+ARTICLE 2: ★★★ MODERATE VALUE
+  Title:  "Cryptocurrency in sport: a thematic review"
+  Source: Frontiers in Psychiatry 16:1745490, January 2026
+  DOI:    10.3389/fpsyt.2025.1745490
+  Method: Thematic review — 30 peer-reviewed studies, 2019–2025
+
+  KEY FINDINGS USED:
+  - Ante, Schellinger & Demir (2024) intraday event study: fan token
+    returns decline −0.8% during matches, −0.7% post-match; LOSS EFFECT
+    asymmetry confirmed — losses trigger larger negative reactions than
+    wins create positive ones
+  - Ante et al. (2024) voting data: ~50% of token holders participate
+    in governance votes on average (empirical baseline for GSI assessment)
+  - Confirms archetype distinction (fans vs speculators) across multiple
+    independent studies
+  - Five research themes mapped — gambling-like risks now multi-study
+    validated, not single-paper finding
+
+  ACTIONS TAKEN:
+  → core/post-match-signal-framework.md: Loss-effect asymmetry section
+    added — calibration rules for expected vs unexpected wins/losses,
+    PATH_2 interaction note, draw disappointment discount
+  → fan-token/fan-holder-profile-intelligence.md: governance participation
+    baseline (50%) now citable from empirical source
+  → examples/application-layer/README.md: governance health dashboard
+    action updated to cite 50% participation empirical baseline
+
+ARTICLE 3: ★★ CONTEXT VALUE ONLY
+  Title:  "Leveraging Digital Fan Engagement for Sports Brand Loyalty:
+           A Study of Emerging Marketing Strategies in Saudi Arabia"
+  Source: University of Bisha academic journal, 2025
+  Method: Quantitative survey — 300 students, University of Bisha
+  
+  KEY FINDINGS:
+  - No statistically significant relationship between digital engagement
+    and brand loyalty in Saudi Arabian university student context
+  - Brand image did not mediate the relationship
+  - Cultural and contextual factors moderate digital engagement → loyalty
+    conversion (not universal)
+  
+  ASSESSMENT: Single-context study, limited generalisability, no novel
+  intelligence for SportMind's current scope. Noted for future context
+  if library expands to MENA fan token markets.
+  
+  ACTIONS TAKEN: None. Registered as context-only intake.
+
+PREVIOUSLY PROCESSED (April 9/17 2026):
+  See intake entry: "Fan Token Play (April 2026)" — Chiliz official articles
+```
+
 *SportMind v3.63 · MIT License · sportmind.dev*
 *See also: macro/macro-regulatory-sportfi.md · core/media-intelligence.md*
 *core/sports-trend-intelligence.md · platform/chiliz-chain-address-intelligence.md*

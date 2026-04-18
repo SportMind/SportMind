@@ -424,6 +424,81 @@ THE COMMERCIAL OPPORTUNITY FOR DEVELOPERS:
 
 ---
 
+---
+
+## The gamification critique — and the Fan Token Play response
+
+Academic research (Lopez-Gonzalez & Griffiths, 2023; synthesised in Zhou et al., 2026)
+identified a legitimate structural problem with the original fan token model:
+
+```
+THE ORIGINAL MODEL'S PROBLEM:
+
+Fan tokens as static-supply, gamification-first instruments shared structural
+features with gambling products:
+  - Intermittent reward systems designed to maximise time-on-platform
+  - Scarcity signals linked to burning, creating price-manipulation incentives
+  - CHZ currency denomination obscuring real costs (numerosity effect)
+  - Leaderboards as social pressure mechanisms
+  - "Being a better fan" framing linking token spending to fan identity
+  
+The critique was not wrong. These features created a product that was
+simultaneously promoted as fan engagement and functioned as speculative
+trading — with no mechanism connecting token economics to sporting reality.
+
+A token could go up because a team was winning. It could also go up because
+of a social media campaign. The sporting signal was mixed in with noise.
+There was no structural reason to hold if you weren't a speculator.
+```
+
+```
+FAN TOKEN PLAY AS THE STRUCTURAL RESPONSE (April 2026):
+
+Fan Token Play directly addresses the core failure: static supply disconnected
+from sporting reality.
+
+The fix is architectural — not cosmetic:
+  BEFORE: Supply was fixed. Price moved on sentiment, speculation, marketing.
+  AFTER:  Supply is algorithmically tied to match outcomes.
+          WIN = tokens burned permanently (supply decreases, scarcity is real)
+          LOSS = tokens minted (supply increases, reflects reality)
+          DRAW = supply unchanged
+
+This creates something the original model never had:
+  → A fundamental reason to hold that is not purely speculative
+  → A supply mechanism that a football fan intuitively understands
+  → On-chain economics that pulse with the rhythm of the sport itself
+
+The gamification critique identified that fan tokens were entertainment
+products pretending to be something else. Fan Token Play transforms
+them into performance-sensitive assets with their own supply logic —
+not entertainment, not speculation, but a new category.
+
+WHETHER THIS FULLY RESOLVES THE CRITIQUE:
+  Partially. The speculative element remains — token prices still respond
+  to crypto market conditions and sentiment dynamics. The MRS (Manipulation
+  Risk Score) framework in SportMind is designed precisely because these
+  vulnerabilities persist.
+  
+  What Fan Token Play resolves: the disconnection between sporting performance
+  and token economics. A winning team's token becoming scarcer is not marketing.
+  It is the protocol encoding sporting value directly into supply.
+
+AGENT IMPLICATION:
+  When reasoning about fan tokens without Fan Token Play: treat as hybrid
+  utility-speculative instrument (standard FTIS framework)
+  
+  When reasoning about Fan Token Play tokens: the sporting outcome IS the
+  supply event. A WIN prediction is simultaneously a SUPPLY REDUCTION event.
+  Standard models see half the signal. SportMind is built to see both.
+```
+
+**Sources:**
+- Lopez-Gonzalez H & Griffiths MD (2023). Gambling-like features in fan tokens.
+  *Journal of Gambling Studies* 39:1579–1596. doi: 10.1007/s10899-023-10215-0
+- Zhou X et al. (2026). Cryptocurrency in sport: a thematic review.
+  *Frontiers in Psychiatry* 16:1745490.
+
 ## The three principles — what fan tokens are, ultimately
 
 ```

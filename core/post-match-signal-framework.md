@@ -176,6 +176,69 @@ DOMINANT WIN (e.g. 5-0, 4-0 football; shutout NHL; UCL winning margin ≥3):
 
 ---
 
+---
+
+## Loss-effect asymmetry — empirical finding
+
+**Source: Ante, Schellinger & Demir (2024), intraday event study, 8 fan tokens / 325 matches.
+Synthesised in Zhou et al. (2026), *Frontiers in Psychiatry* thematic review.**
+
+Fan token markets do not respond symmetrically to wins and losses.
+
+```
+EMPIRICAL FINDING:
+  Fan token returns decline on average −0.8% DURING matches
+  Fan token returns decline a further −0.7% POST-MATCH
+  
+  LOSS EFFECT (asymmetry): losses trigger larger negative market reactions
+  than wins create positive reactions.
+  
+  IMPLICATION: The market prices in expected wins partially in advance
+  (pre-match narrative, lineup confirmation, form) — so a confirmed WIN
+  is less surprising than a LOSS. A loss is a greater information shock.
+
+AGENT CALIBRATION RULES:
+
+  POST-WIN SIGNAL:
+    Expected WIN (pre-match direction was HOME/AWAY, confirmed): 
+      Market reaction is MODERATE — partly priced in
+      Apply standard win modifier
+      CDI extension: standard window
+      
+    Unexpected WIN (pre-match said WAIT or opposite direction):
+      Market reaction is ELEVATED — genuine information shock
+      Apply upset premium modifier (see result-type modifiers above)
+      CDI extension: extended window
+      
+  POST-LOSS SIGNAL:
+    Expected LOSS (pre-match predicted this outcome):
+      Market reaction is STILL SIGNIFICANT — loss effect > win effect
+      Apply loss modifier at FULL strength (not discounted for being expected)
+      CDI compression begins immediately
+      
+    Unexpected LOSS (pre-match said ENTER or predicted WIN):
+      Market reaction is SEVERE — maximum information shock
+      Apply full loss modifier + unexpected_loss_premium
+      LTUI trajectory: immediate downgrade review
+      
+  PATH_2 INTERACTION:
+    PATH_2 LOSS = supply-neutral (pre-liquidated amount minted back)
+    But market sentiment reaction is NOT neutral
+    On-chain supply is restored; off-chain price still reflects loss sentiment
+    Agent rule: PATH_2 LOSS → supply-neutral signal + loss_sentiment_discount
+    These are TWO SEPARATE SIGNALS — do not conflate
+
+PRACTICAL IMPLICATION:
+  Do not assume a draw is symmetric between win and loss for sentiment.
+  Research shows the baseline return drift is already −0.8% during matches.
+  A DRAW produces less negative sentiment than a LOSS but is not neutral
+  relative to the pre-match expectation of a WIN.
+  
+  Recommended: apply draw_disappointment_discount = 0.92 if pre-match
+  signal was ENTER (investor expected a win, DRAW is a negative surprise).
+  If pre-match was WAIT, draw_modifier = 1.00 (no expectation violated).
+```
+
 ## Post-match NCSI calculation
 
 ```

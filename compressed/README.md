@@ -1131,29 +1131,37 @@ SATURATION: >3 weeks same narrative → reduce to ×1.00 (priced in)
 ## [COMPRESSED] Post-match signal framework
 
 **When to use:** Within 4h of any match result involving a held fan token.
-Governs the commercial signal window after a result is confirmed.
+Governs the commercial signal update, PATH_2 verification, and the
+fan token brief output.
 
 ```
 TIME WINDOWS:
-  T+0 to T+2h: confirmation only — do NOT generate commercial signal (price discovery)
-  T+2h to T+24h: primary commercial signal generation window
-  T+24h: CDI confirmation — is elevation sustained or mean-reverting?
-  T+72h: decay assessment — update CDI estimate vs actual
+  T+0 to T+2h:   AMM settling — do NOT verify burns yet; sentiment only
+  T+2h to T+6h:  Primary signal window — generate post-match commercial signal
+  T+6h to T+24h: Definitive — PATH_2 burn confirmed or BURN_MISSING flagged
 
-RESULT MODIFIERS:
-  Expected win:     standard CDI | Galaxy Score +8-15pts | ENTER T+2h
-  Unexpected win:   CDI ×1.3-1.5 | Galaxy Score +15-25pts | ENTER T+2h (strongest signal)
-  Expected loss:    negative CDI | WAIT T+24h minimum before reassessing
-  Unexpected loss:  ABSTAIN | mandatory checklist | calibration record required
-  Dominant win(5-0+): dominant_win_multiplier ×1.20-1.35 | NCSI amplification ×1.15-1.25
+LOSS-EFFECT ASYMMETRY (empirical — Ante et al. 2024, 325 matches):
+  Fan token returns: −0.8% DURING match + −0.7% POST-MATCH on average
+  LOSS EFFECT: losses trigger LARGER negative reactions than wins create positive
+  
+  Expected WIN:    Moderate positive (partly priced in pre-match)
+  Unexpected WIN:  Elevated positive (upset premium — genuine shock)
+  Expected LOSS:   Still significant negative — apply loss modifier at full strength
+  Unexpected LOSS: Severe — loss modifier + unexpected_loss_premium + LTUI review
+  DRAW (pre-match was ENTER): Apply draw_disappointment_discount = 0.92
+  DRAW (pre-match was WAIT):  modifier = 1.00 (no expectation violated)
 
-POST-MATCH NCSI: confirm ATM player performance tier → apply competition amplifier → club token impact
-CALIBRATION: every match = opportunity. Wrong predictions = most valuable records.
-SEQUENCE: verify result(Tier 1) → wait T+2h → macro check → sentiment_snapshot → result modifier → CDI clock
+PATH_2 POST-MATCH:
+  WIN: supply decreases (burn) — 48h execution window
+  LOSS: supply-neutral (mint back) — 48h execution window
+  NOTE: PATH_2 LOSS is supply-neutral ON-CHAIN but NOT sentiment-neutral
+  Market still reacts negatively to loss — two separate signals
+
+POST-MATCH BRIEF OUTPUT: T+2h minimum. Include: result vs prediction,
+PATH_2 status, CDI trajectory, next fixture narrative watch.
 ```
-~200 tokens → full file: core/post-match-signal-framework.md
+REF: core/post-match-signal-framework.md
 
----
 
 ## [COMPRESSED] Prediction market intelligence
 
