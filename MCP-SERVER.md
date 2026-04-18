@@ -261,7 +261,7 @@ Both can run simultaneously.
 
 ---
 
-## New tools (added v3.76.0.0.0.0.0.0.0.0)
+## New tools (added v3.77.0.0.0.0.0.0.0.0.0)
 
 ### `sportmind_pre_match`
 Orchestrated full pre-match reasoning package in one call. Combines sport
@@ -294,7 +294,7 @@ Input: `query_type`, `sport`
 
 ---
 
-## Extended integrations (v3.76.0.0.0.0.0.0.0.0)
+## Extended integrations (v3.77.0.0.0.0.0.0.0.0.0)
 
 SportMind works with three additional MCP servers to create a complete
 reasoning, memory, and verification stack.

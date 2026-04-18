@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.77.0] — 2026-04-17
+
+### Added
+- `examples/application-layer/README.md` — Application layer catalogue (756 lines)
+  Documents the concrete actions the application layer can take with SportMind
+  intelligence, organised into five domains with explicit custom freedom.
+
+  Domain 1 (Fan token actions, 8 actions): trade execution routing, supply event
+  notification, holder-archetype engagement, governance vote campaign, lifecycle
+  phase dashboard, portfolio context report, fraud alert, World Cup tracker.
+  Timing rules, archetype rules, and MRS guards explicit throughout.
+
+  Domain 2 (Commercial and brand actions, 5 actions): athlete commercial brief
+  (ABS/AELS/APS), transfer valuation report (DQI-adjusted gap, UNDERVALUED flag),
+  sponsorship matching (AFS scoring), broadcast value signal (BVS/CQS), narrative
+  commercial window alert (48-72h pre-event opportunity).
+
+  Domain 3 (Prediction market and DeFi actions, 4 actions): pre-match signal
+  publication to Azuro, DeFi liquidity alert, GameFi intelligence layer,
+  collateral health monitor for RWA/SportFi protocols.
+
+  Domain 4 (Operational and club actions, 5 actions): pre-match build-up brief,
+  scouting pipeline output, standings intelligence alert, breaking news response,
+  wearable performance feed (Catapult/Whoop → ARI).
+
+  Domain 5 (Developer and platform actions, 5 actions): MCP tool integration,
+  Intelligence API endpoint, FanTokenIntel + SportMind stack, SportFi Kit
+  full-stack, compressed skill delivery.
+
+  "The most important thing this document doesn't say": 50+ actions are examples
+  not a catalogue. Custom action pattern (7 lines of Python). Domain combination
+  examples (fan token + commercial = investor platform etc). Three-question
+  framework for deciding where to start. Full freedom stated explicitly.
+
+### Changed
+- `docs.html` — Action Layer section added (sidebar position 3, between Agent Types
+  and Architecture). 14 sidebar links, 14 sections, all balanced.
+  "Full freedom" callout. Application layer diagram. Five domain groups with step
+  cards for each action. Custom actions subsection with code pattern and combinations
+  callout. Full catalogue pointer to examples/application-layer/README.md.
+- Website stats: 577 files, 362 md, 43 examples → v3.77.0
+
 ## [3.76.0] — 2026-04-17
 
 ### Added
