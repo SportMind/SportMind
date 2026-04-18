@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.79.0] — 2026-04-18
+
+### Added
+- `scripts/sportmind_mcp.py` — FAN_TOKEN_REGISTRY expanded from 24 → 41 Chiliz Chain tokens.
+  Full deep dive across Coinranking (62-token complete list), chiliscan.com (primary contract
+  verification), holder.io, Gate.io listing announcements, CoinMarketCap, and fantokens.com
+  individual trade pages. 17 new tokens added in two research batches:
+
+  Batch 1 (v3.78.0 partial): NAP (Napoli), POR (Portugal), LUFC (Leeds United), ASM (AS Monaco)
+
+  Batch 2 (v3.79.0 deep dive): SPURS (Tottenham Hotspur), CPFC (Crystal Palace), EFC (Everton),
+  ITA (Italy National Team), SCCP (SC Corinthians), VERDAO (SE Palmeiras), GALO (Atletico
+  Mineiro), SPFC (Sao Paulo FC), VASCO (Vasco da Gama), BFT (Brazil National Team), GOZ
+  (Goztepe), ALA (Alanyaspor), IBFK (Istanbul Basaksehir).
+
+  All contracts verified from primary sources. No exchange data included (changes too
+  frequently). Blockchain address is the canonical identifier. Agent note: BFT and ITA
+  flagged with World Cup 2026 NCSI ×3.5–4.0 note. SCCP partnership status flagged as
+  potentially expired. GOZ/ALA/IBFK flagged: Turkish Socios office closed end of 2024.
+  MULTICHAIN_FAN_TOKEN_REGISTRY created for LAZIO and PORTO (BSC/Binance-issued —
+  different ecosystem, no FTP mechanics).
+
+- `fan-token/fan-token-pulse/references/chiliz-token-registry.md` — Complete rebuild.
+  Previous file had fabricated contract addresses. New file: 160 lines, all 41 Chiliz Chain
+  tokens with verified addresses, grouped by tier/region/sport. Notes on partnership status
+  for Turkish clubs and SCCP. World Cup 2026 flag on ARG, POR, ITA, BFT. Multi-chain section
+  clearly labelled as different ecosystem. "How to verify any token" instructions.
+  Chiliscan.com verification workflow for developers.
+
+### Changed
+- `fan-token/fan-token-pulse/references/chiliz-token-registry.md` — Rebuilt from scratch
+  with verified contracts (72 lines with fabricated addresses → 160 lines fully verified).
+- `docs.html` fan-tokens section — count updated 24 → 41 Chiliz Chain + 2 multi-chain.
+  Lead paragraph updated to explain canonical blockchain address approach and note that
+  exchange listings are not tracked (too volatile).
+
 ## [3.78.0] — 2026-04-18
 
 ### Changed
