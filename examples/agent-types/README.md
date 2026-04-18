@@ -1429,6 +1429,159 @@ Most production systems combine multiple types. Common combinations:
 
 ---
 
+---
+
+## The most important thing this document doesn't say
+
+The eleven types above are **patterns, not constraints**.
+
+SportMind is structured markdown and a set of optional MCP tools. There is
+no required framework, no opinionated runtime, no SDK you have to use. The
+library doesn't know what kind of agent you're building — it just provides
+intelligence when you ask for it.
+
+You can ignore all eleven types and build something entirely your own.
+
+---
+
+## Building a custom agent
+
+**What SportMind provides:**
+
+```
+Skill files     Structured markdown you load into any context
+MCP tools       Optional — 8 servers, 45 tools, all accessible over HTTP
+Skills API      Optional — REST endpoints if you prefer direct calls
+Output schema   A suggestion, not a requirement
+Agent prompts   24 production-ready system prompts to copy and adapt
+```
+
+**What SportMind does not constrain:**
+
+```
+Agent framework     Use Claude, GPT-4o, Gemini, LangChain, CrewAI, or none
+Trigger mechanism   Schedule, webhook, event, manual, continuous — your call
+State management    Memory MCP, your own database, stateless — any approach
+Output format       ENTER/WAIT/ABSTAIN is one option; use whatever your system needs
+Deployment          Local, cloud, serverless, container — SportMind doesn't care
+```
+
+**The only non-negotiable:**
+
+```
+AGENT BOUNDARY — non-negotiable regardless of architecture:
+
+SportMind agents produce intelligence.
+They do not execute trades, submit governance votes, or negotiate contracts.
+
+This is architectural — not a limitation of what you can build, but a
+separation of concerns between intelligence and execution. Your application
+layer decides what to do with the intelligence. SportMind reasons.
+```
+
+**How to build a custom agent from scratch:**
+
+```python
+# Custom agent — minimum viable SportMind integration
+# No framework required. No SDK. Just the skill files and your LLM.
+
+import requests
+
+SPORTMIND_API = "http://localhost:8080"  # Skills API
+
+def build_custom_agent(your_question: str, relevant_skills: list[str]) -> str:
+    """
+    The simplest possible SportMind agent.
+    Load the skills you need. Ask your question. Done.
+    """
+
+    # Step 1: Load whichever skill files are relevant to your use case
+    context_parts = []
+    for skill in relevant_skills:
+        skill_content = requests.get(f"{SPORTMIND_API}/skill/{skill}").json()
+        context_parts.append(skill_content["content"])
+
+    # Step 2: Combine into a single context string
+    system_context = "
+
+---
+
+".join(context_parts)
+
+    # Step 3: Call your LLM of choice with the context + your question
+    # This works with any LLM — Claude, GPT-4o, Gemini, open-source models
+    response = call_your_llm(
+        system_prompt=system_context,
+        user_message=your_question
+    )
+
+    return response
+
+# Example: load exactly the skills you need for your use case
+result = build_custom_agent(
+    your_question="What are the key signals for an Arsenal match tonight?",
+    relevant_skills=[
+        "macro/macro-overview",
+        "sports/football/sport-domain-football",
+        "athlete/football/athlete-intel-football",
+        "fan-token/football-token-intelligence/football-token-intelligence",
+    ]
+)
+```
+
+**Combining SportMind with other data sources:**
+
+SportMind is an intelligence layer, not a data layer. It is designed to
+be combined with whatever data your use case needs:
+
+```
+SportMind intelligence    +    Your data source    =    Your agent
+
+Pre-match signal          +    Live odds feed       =    Odds divergence detector
+Fan token intelligence    +    Chiliz API           =    Portfolio manager
+Athlete brief             +    Contract database    =    Negotiation assistant
+Broadcast value           +    Rights calendar      =    Scheduling tool
+Narrative signal          +    Social API           =    Trend monitor
+```
+
+The library already has connector templates for the most common data
+sources in `platform/api-connector-examples.md` and five working Python
+connectors in `platform/api-providers.md`.
+
+**Adapting the eleven types:**
+
+You don't have to choose one type and stick to it. Every production agent
+in practice is a hybrid. The types in this document are entry points and
+vocabulary — not boxes to build inside.
+
+A pre-match signal agent that *also* monitors KOL signals and *also*
+detects narrative momentum is a Type 2 + Type 8 hybrid. A World Cup
+tracker that *also* runs governance notifications is a Type 11 + Type 9
+hybrid. The types are additive, not exclusive.
+
+---
+
+## Summary — what you're free to do
+
+```
+✅ Build any agent architecture you want
+✅ Use any LLM — Claude, GPT-4o, Gemini, open-source models
+✅ Use any framework — LangChain, CrewAI, AutoGen, none at all
+✅ Load any skill files in any order you choose
+✅ Use the MCP tools, the REST API, or direct file loading
+✅ Define your own output format
+✅ Ignore all eleven types and build something completely new
+✅ Combine multiple types in one agent
+✅ Use SportMind as one layer alongside your own data and logic
+
+❌ Execute trades, votes, or contracts from the agent layer
+   (that's your application — SportMind reasons, you act)
+```
+
+The eleven types exist to give you a starting point and a vocabulary.
+The library exists to give you the intelligence.
+What you build with it is entirely up to you.
+
 ## Where to go next
 
 | Next step | Resource |
@@ -1442,6 +1595,6 @@ Most production systems combine multiple types. Common combinations:
 
 ---
 
-*SportMind v3.74 · MIT License · sportmind.dev*
+*SportMind v3.76.0 · MIT License · sportmind.dev*
 *See also: core/agent-cognitive-architecture.md · core/agent-goal-framework.md*
 *core/autonomous-agent-framework.md · examples/starter-pack/README.md*

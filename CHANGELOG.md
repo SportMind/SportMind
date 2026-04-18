@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.76.0] — 2026-04-17
+
+### Added
+- `examples/agent-types/README.md` — Custom agent section appended
+  (1,447 → 1,600 lines). Three new subsections:
+  "The most important thing this document doesn't say": eleven types
+  are patterns, not constraints. Explicit statement that developers
+  can ignore all of them.
+  "Building a custom agent": minimum viable SportMind integration
+  (seven lines of Python), what SportMind provides vs what it does not
+  constrain, combining SportMind with other data sources (five pairing
+  examples), adapting/combining the eleven types.
+  "Summary — what you're free to do": ✅/❌ checklist making custom
+  freedom and the single non-negotiable explicit side by side.
+
+### Changed
+- `docs.html` — Two additions:
+  Getting Started section: green accent callout "Build anything" —
+  eleven types are patterns not constraints, any LLM, any framework,
+  only non-negotiable is the agent boundary.
+  Agent Types section: "Custom agents — build anything" subsection
+  with a styled callout (what SportMind provides / does not constrain /
+  the one non-negotiable) and a ✅ freedom checklist table.
+  All 13 sections balanced. All 727 divs balanced.
+
 ## [3.75.0] — 2026-04-17
 
 ### Added
