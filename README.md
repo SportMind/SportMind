@@ -7,7 +7,7 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.82.0-green)]()
+[![Version](https://img.shields.io/badge/version-3.86.0-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
 [![Calibration](https://img.shields.io/badge/calibration-126%20records%20%7C%2096%25%20accuracy-green)]()
 [![Fan Tokens](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
@@ -81,7 +81,7 @@ python examples/starter-pack/01-simple-signal.py
 |---|---|---|
 | **1 — Sport domain** | `sports/` (42 sports) | How each sport works; event playbooks; risk variables |
 | **2 — Athlete intelligence** | `athlete/` (29 sports) | Who is playing; form; composite modifier (0.55–1.25×) |
-| **3 — Fan token commercial** | `fan-token/` (62 skills) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
+| **3 — Fan token commercial** | `fan-token/` (64 skills) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
 | **4 — Market intelligence** | `market/` (43 docs) | Commercial tier; fanbase; sports equity signals; competition calendar |
 | **5 — Macro intelligence** | `macro/` (9 docs) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
 
@@ -99,7 +99,7 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
-Fan token:         62 skills · 90 verified tokens (63 active Chiliz + 18 expired + 9 multi-chain)
+Fan token:         64 skills · 90 verified tokens (63 active Chiliz + 18 expired + 9 multi-chain)
                    Lifecycle phases 1–6 · DeFi liquidity · exchange intelligence (EDLI/IPS/RRS)
                    New listing intelligence · Fan Token Play PATH_2 · governance · KOL influence
                    Sports equity signals (GSRAY.IS, MANU, JUVE.MI, FWONK, TKO) · CHZ macro layer

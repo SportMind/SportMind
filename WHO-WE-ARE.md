@@ -82,6 +82,8 @@ community leaderboard; academic-references.md (52 peer-reviewed papers, full evi
 13 agentic workflow patterns; 22 agent prompts organised by stakeholder type; 80 compressed
 skill summaries (including exchange intelligence and sports equity); 5 CI/CD GitHub Actions workflows
 
+**Sport stubs promoted to BASIC:** volleyball, badminton, table tennis (full signal frameworks, 4 playbooks each)
+
 **International reach:** 24 i18n skill files across 7 languages (AR, DE, ES, FR, HI, JA, PT)
 
 ---
