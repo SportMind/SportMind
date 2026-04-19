@@ -26,7 +26,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 
 ROOT    = Path(__file__).parent.parent
-VERSION = "3.86.3"
+VERSION = "3.86.2"
 
 # In-process agent registry (for stdio session; HTTP mode persists longer)
 _AGENT_REGISTRY = {}
