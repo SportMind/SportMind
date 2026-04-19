@@ -64,6 +64,8 @@ This divergence is important context for GAL and TRA fan token analysis:
 equity underperformance signals financial stress that may suppress club
 investment in fan token utility events.
 
+**Academic grounding: Matkovskyy & Jalan (2022), SSRN 4017746 — football vs crypto returns relationship. Turkish-specific: research on GSRAY.IS and FENER.IS confirms strong positive correlation between unexpected match wins and same-day stock returns, with losses generating larger negative returns (loss-effect asymmetry present in equity markets as well as token markets).**
+
 **Match result → stock price correlation (empirically documented):**
 Research on GSRAY.IS and FENER.IS confirms strong positive correlation between
 unexpected match wins and same-day stock returns, with losses generating larger
@@ -310,6 +312,8 @@ expanding) and a negative EDLI factor (broader distribution reduces concentratio
 Add to Phase 3 active signals in lifecycle assessment.
 
 ---
+
+**Academic grounding: Ersan, Demir & Assaf (2022), *Research in International Business and Finance* — statistical connectedness between fan token prices and football club equity documented. Shao & Cheng (2025), *Applied Economics* — time-varying (not static) connectedness via LASSO-VAR; relationship changes across market regimes. Esparcia & Díaz (2024), *Research in International Business and Finance* — portfolio optimisation study treating equities and fan tokens as complementary instruments. These three papers provide the empirical foundation for the three signal types below.**
 
 ## Cross-instrument signal framework
 

@@ -30,6 +30,8 @@ them stay, and what makes them leave?
 
 ---
 
+**Academic grounding: Manoli, Dixon & Antonopoulos (2024), *Leisure Studies* — 60-participant, 10-focus-group qualitative study. The identity-investment duality maps directly onto the Loyalist/Speculator distinction here. Vollero, Sardanelli & Manoli (2025), *Journal of International Marketing* — co-creation (governance participation) is more engagement-sustaining than passive holding; team brand identification moderates engagement depth. Ante et al. (2024), *Electronic Markets* — 3,576 polls, 4,003 average participants: governance participation data underpins CHI scoring.**
+
 ## The four holder archetypes
 
 ```

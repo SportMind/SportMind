@@ -1,5 +1,58 @@
 # Changelog
 
+## [3.83.0] — 2026-04-19
+
+### Added
+- `community/academic-references.md` — Complete structured bibliography of 52
+  peer-reviewed academic papers on fan tokens. Organised into five clusters:
+  Finance/Economics (24 papers), Consumer Behaviour/Marketing (9 papers),
+  Blockchain/IS Frameworks (7 papers), Systematic Reviews (4 papers), and
+  Regulation/Consumer Protection (4 papers). Each entry states the paper's
+  specific contribution to SportMind frameworks and the skill files it validates.
+  Field overview section for agents: most replicated finding (loss-effect
+  asymmetry, confirmed in 6+ independent studies), dominant research method,
+  fastest-growing area, most cited authors, key literature gap (limited US
+  academic work), and library coverage note. First peer-reviewed paper: 2022.
+  Papers registered as of April 2026: 52.
+
+### Changed — Citation blocks added to 8 skill files
+
+- `fan-token/fan-token-exchange-intelligence.md` — Three new citation blocks:
+  (1) Mazur & Vega (2023) — 150% first-day returns, long-run underperformance
+  — empirical basis for the three-phase listing pattern. (2) Saggu, Ante &
+  Demir (2024) — anticipatory gains and event-driven losses — backing for the
+  re-listing amplifier. (3) Assaf, Demir & Ersan (2024) + Lubian (2023) —
+  bubble detection and asymmetric volatility — backing for the EDLI risk model.
+
+- `fan-token/fan-token-why.md` — Two new citation blocks: (1) Scharnowski
+  et al. (2023), Demir et al. (2022), Agnese & Xiao (2025) above the
+  scalability mathematics section. (2) Ante et al. (2024) above the
+  gamification critique section, confirming loss-effect asymmetry.
+
+- `fan-token/fan-sentiment-intelligence/fan-sentiment-intelligence.md` — Two
+  new citation blocks: (1) Ante et al. (2024) + Demir et al. (2022) above the
+  CDI section. (2) Manoli et al. (2024) above the fan type segmentation section.
+
+- `fan-token/fan-holder-profile-intelligence.md` — Citation block above the
+  four archetypes section: Manoli et al. (2024), Vollero et al. (2025),
+  Ante et al. (2024) governance polls (3,576 polls, 4,003 average participants).
+
+- `market/sports-equity-intelligence.md` — Two citation blocks: (1) Ersan et al.
+  (2022), Shao & Cheng (2025), Esparcia & Díaz (2024) above cross-instrument
+  signal framework. (2) Matkovskyy & Jalan (2022) above match result correlation.
+
+- `fan-token/fan-token-lifecycle/fan-token-lifecycle.md` — Citation block above
+  the lifecycle model: Ante, Schellinger & Wazinski (2023) ECIS framework;
+  Stegmann et al. (2023) sustained club commitment requirement.
+
+- `fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md` —
+  Citation block: Ante et al. (2024) Electronic Markets — 3,576 polls,
+  4,003 average participants, governance participation as CHI signal.
+
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` —
+  Citation block above NCSI amplification: Saggu et al. (2024) — anticipatory
+  gains and elimination loss asymmetry as empirical basis for CALENDAR_COLLAPSE.
+
 ## [3.82.0] — 2026-04-19
 
 ### Added

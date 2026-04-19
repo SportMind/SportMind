@@ -169,6 +169,8 @@ THE PARTICIPATION SHIFT:
 
 ---
 
+**Academic grounding: Scharnowski, Scharnowski & Zimmermann (2023), *Journal of International Financial Markets* — first major economic analysis confirming fan tokens function simultaneously as sports engagement tools and speculative financial assets. Demir, Ersan & Popesko (2022), *Finance Research Letters* — quantifies the match outcome → abnormal returns relationship. Agnese & Xiao (2025), *Research in International Business and Finance* — confirms fan-driven (not crypto-speculative) price dynamics dominate in non-bubble periods, with governance participation as a primary driver.**
+
 ## The scalability mathematics
 
 The commercial case for fan tokens becomes most visible when the stadium model
@@ -425,6 +427,8 @@ THE COMMERCIAL OPPORTUNITY FOR DEVELOPERS:
 ---
 
 ---
+
+**Academic grounding: Ante, Schellinger & Demir (2024), *Journal of Business Economics*, intraday event study (8 tokens, 325 matches) — losses generate materially larger negative price impact than wins generate positive impact (loss-effect asymmetry). This is the most replicated finding in the peer-reviewed fan token literature, confirmed independently in at least 6 studies as of 2026. See `community/academic-references.md` Cluster 1.**
 
 ## The gamification critique — and the Fan Token Play response
 

@@ -19,6 +19,8 @@ its pre-match and commercial intelligence.
 
 ---
 
+**Academic grounding: Ante, Saggu, Schellinger & Wazinski (2024), *Electronic Markets* — analysis of 3,576 governance polls across fan token platforms, averaging 4,003 participants per poll. Poll participation rate, participation trend, and poll frequency are the three empirically validated leading indicators of community health. These findings underpin the on-chain governance signals below.**
+
 ## Signal categories
 
 ```
@@ -488,5 +490,5 @@ ON-CHAIN SIGNAL LIMITATIONS:
 **Fan Token Play:** `fan-token/gamified-tokenomics-intelligence/` — Path 1/2 mechanics detail
 **CHZ macro:** `macro/macro-crypto-market-cycles.md` — virtuous cycle and CHZ burn signal
 
-*SportMind v3.44 · MIT License · sportmind.dev*
+*SportMind v3.83.0 · MIT License · sportmind.dev*
 *Category 7 (Fan Token Play events) added April 2026*

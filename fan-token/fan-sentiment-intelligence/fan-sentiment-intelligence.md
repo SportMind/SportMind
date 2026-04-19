@@ -129,6 +129,8 @@ DRAW — DECISIVE CONTEXT:
 
 ---
 
+**Academic grounding: Ante, Schellinger & Demir (2024), *Journal of Business Economics* — documents outcome-specific engagement duration following match results. Demir, Ersan & Popesko (2022), *Finance Research Letters* — UCL match outcomes generate abnormal returns with different duration profiles by outcome type. These empirical findings inform the CDI decay constants below.**
+
 ## Commercial duration index (CDI)
 
 ```
@@ -223,6 +225,8 @@ NEGATIVE DECAY (Elimination/Relegation):
 ```
 
 ---
+
+**Academic grounding: Manoli, Dixon & Antonopoulos (2024), *Leisure Studies* — 60-participant qualitative study (10 focus groups) documenting the identity-investment duality in fan token holders. The four holder archetypes in `fan-token/fan-holder-profile-intelligence.md` are derived from this empirical work. Fan type segmentation below aligns with their identity-first vs investment-first classification.**
 
 ## Fan type segmentation
 

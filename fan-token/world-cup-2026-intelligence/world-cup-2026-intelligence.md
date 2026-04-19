@@ -155,6 +155,8 @@ FINAL (July 19 — MetLife Stadium, New Jersey):
 
 ---
 
+**Academic grounding: Saggu, Ante & Demir (2024), *Research in International Business and Finance* — documented anticipatory price gains in fan tokens before FIFA World Cup fixtures; event-driven losses post-elimination exceed advancement gains (asymmetry confirmed). This is the empirical basis for the pre-tournament amplifier and CALENDAR_COLLAPSE mechanics modelled below.**
+
 ## NCSI amplification at World Cup 2026
 
 The National-Club Spillover Index operates at 3–4x normal strength during

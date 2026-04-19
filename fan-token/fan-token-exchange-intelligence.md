@@ -473,6 +473,8 @@ probability within a 90-day window.
 | 40–69 | Re-listing possible but conditions not yet sufficient. |
 | 0–39 | Re-listing unlikely within 90-day window. |
 
+**Empirical basis: Saggu, Ante & Demir (2024), *Research in International Business and Finance*. Documented anticipatory price gains before FIFA World Cup fixtures; event-driven losses post-elimination exceed advancement gains (asymmetry confirmed).**
+
 **World Cup 2026 re-listing amplifier:**
 For national team tokens (ARG, POR, ITA, SNFT, BFT, VATRENI) and club tokens
 with high WC2026 exposure, the tournament window (June–July 2026) represents a
@@ -754,6 +756,8 @@ predictable price and sentiment patterns that SportMind agents can model.
 ### The listing price pattern
 
 New CEX listings follow a consistent three-phase pattern across fan tokens:
+
+**Empirical basis: Mazur & Vega (2023), *The Journal of Alternative Investments*. Analysis of fan token listing events. 150% average first-day returns documented; long-run underperformance follows announcement spike. Confirms the three-phase pattern modelled here.**
 
 **Phase 1 — Pre-announcement accumulation (T-7d to T-1d):**
 Sophisticated holders accumulate ahead of the public announcement. On-chain

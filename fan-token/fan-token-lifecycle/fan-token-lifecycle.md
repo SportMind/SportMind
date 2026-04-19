@@ -12,6 +12,8 @@ has ended or lapsed.
 
 ---
 
+**Academic grounding: Ante, Schellinger & Wazinski (2023), ECIS — the 3-layer blockchain fan token framework (trust/efficiency, utility, financialization) is the structural precursor to SportMind's lifecycle phase model. Stegmann, Matyas & Ströbel (2023), *International Journal of Sports Marketing and Sponsorship* — value of tokenisation as an engagement platform depends on sustained club commitment; declining club utility investment = plateau phase onset. These frameworks inform the Phase 2→3→4 transition signals below.**
+
 ## The lifecycle model — six phases
 
 ```

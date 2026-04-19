@@ -143,6 +143,12 @@ what the evidence base looks like, and whether the library's claims are credible
 - Zero wrong-direction records outside European football draws: verifiable in the records
 - Named metrics (HAS, NCSI, ATM, etc.): each has a definition in the relevant skill file
 
+**Academic evidence base:**
+→ **`community/academic-references.md`** — 52 peer-reviewed papers (2022–2026) organised
+by cluster. Every quantitative claim in the library that derives from external research
+is traceable to a source here. The most replicated finding (loss-effect asymmetry) is
+confirmed in 6+ independent studies. Field overview, most cited authors, literature gaps.
+
 ---
 
 ### 🌍 I want to contribute to SportMind
