@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.86.4] — 2026-04-19
+
+### Fixed — Mobile navigation and responsive layout
+- All five pages: replaced dropdown nav with off-canvas side drawer. Tapping ☰
+  slides in a 240px panel from the right with a dark overlay backdrop. Panel
+  contains all page links (Home, Docs, Demo, Agent, Autonomous, GitHub), current
+  page highlighted in accent colour with left border indicator. Tapping any link,
+  the backdrop, or ✕ closes the drawer. Body scroll locks while open. Transition:
+  0.25s cubic-bezier. Uses only existing CSS variables — light/dark mode automatic.
+
+- `index.html`: hero padding reduced on mobile, h1 uses tighter clamp,
+  code block font-size 13→11px on mobile, sub text 17→15px.
+
+- `docs.html`: pre blocks get max-width:100% and box-sizing:border-box to prevent
+  horizontal page scroll from code content. Pre font-size 12.5→11px on mobile.
+  doc-section padding reduced. h1, lead, doc-table, step text all scaled down.
+
+- `demo.html`: output box padding reduced, output font-size reduced on mobile.
+
+- `agent.html`: sidebar max-height:50vh removed (was cramping layout). Provider
+  tabs wrap on narrow screens. Hero columns stack to full-width. Key input and
+  run button go full-width. Message bubbles constrained to 95% width. Code/pre
+  gets word-break and overflow-wrap.
+
+- `autonomous.html`: sig-grid (signal cards) collapses to 1 column on mobile.
+  Hero max-width and sub max-width removed. Phase row and agent header wrap.
+  App padding reduced. Pre/code gets word-break.
+
 ## [3.86.3] — 2026-04-19
 
 ### Fixed
