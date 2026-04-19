@@ -1535,3 +1535,49 @@ FAN TOKEN: Narrative-rich WIN = larger token spike | Must-win LOSS = severe comp
 REF: core/core-narrative-momentum.md
 
 
+
+## [COMPRESSED] Fan token exchange intelligence
+
+```
+EXCHANGE TIERS: T1=Binance/OKX (global anchor) · T2=DAXA Korea/Bybit/Gate/MEXC ·
+  T3=regional niche · T4=DEX only (FanX/Kayen)
+KOREAN MARKET: DAXA = 5 exchanges acting as bloc (Upbit,Bithumb,Coinone,Korbit,Gopax).
+  High-exposure tokens: GAL, TRA, SPURS, GOZ, SAM. DAXA warning = coordinated action.
+DAXA LIFECYCLE: S0=pre-warning(vol decay+no polls) · S1=Investment Warning(−15–30% price)
+  → S2a=lifted(+10–20% recovery) or S2b=confirmed(−45–70% cumulative) · S3=stabilisation
+IPS (Intervention Probability Score 0–100): weights Socios poll activity(25%),
+  club social mentions(20%), CHI trajectory(20%), Korean volume trend(15%),
+  sporting calendar(10%), historic response(10%)
+EDLI (Exchange Delisting Likelihood Index 0–100): volume decay=+10–20, no polls 45d=+15,
+  DAXA warning=+25, Binance monitoring tag=+15, deposit suspension=+20
+CDI RULE: cap CDI when EDLI>60. FTP WIN events cannot offset EDLI>60 conditions.
+NEW LISTING: T1 listing=−25 EDLI. Geographic alignment = CDI durable. Misaligned = speculative.
+  Listing phase: hold sport modifiers T-0 to T+3d — price is exchange-driven not sport-driven.
+RRS (Re-listing Readiness Score 0–100): DEX vol trend(25%), Socios polls(20%), CHI(20%),
+  sporting calendar(15%), global CEX presence(10%), club social(10%). WC2026=+15 bonus.
+AGENT RULE: check EDLI before CDI. Listing/delisting events override sport modifier priority.
+```
+REF: fan-token/fan-token-exchange-intelligence.md
+
+## [COMPRESSED] Sports equity intelligence
+
+```
+PURPOSE: Parallel pricing — equity and fan token both price the same underlying club entity.
+  Equity leads on: financial results, sponsorship deals, management changes, stadium news.
+  Token leads on: fan sentiment, governance participation, commercial engagement quality.
+LISTED CLUBS WITH FAN TOKENS: GSRAY.IS/GAL · TSPOR.IS/TRA · JUVE.MI/JUV · ASR.MI/ASR ·
+  SLBEN.LS/BENFICA · FENER.IS/FB · BJKAS.IS/BJK (all Paribu not Chiliz for FB/BJK)
+EQUITY ANOMALY RULE: if equity moves ±5% without match result in 48h → set 72h token alert.
+  Turkish UCL revenue impact: ~€15–25M per season → equity prices this immediately.
+BIST SPORTS INDEX: GAL+FENER+BESIKTAS+TRA combined. Index underperformance vs BIST100
+  = elevated EDLI baseline for Turkish tokens (+10 points).
+CHZ MACRO STATES: bull macro(BTC>+15%)=−20% sport modifier weight · bear macro(BTC<−15%)=
+  −30% modifier weight · CHZ specific positive/negative = investigate before applying sport signal.
+  WC2026 CHZ boost: 10% revenue buyback mechanism → systematic CHZ demand during tournament.
+SPORTS-ADJACENT: FWONK(Liberty/F1)=F1 commercial macro · TKO(UFC+WWE)=UFC token commercial macro
+NO EQUITY = BVB.DE(Dortmund) · MANU(Manchester United) — no Chiliz fan tokens, largest gaps.
+AGENT RULE: check CHZ macro state before applying any sport-specific modifier. If CHZ rising
+  on ecosystem news(not sport), note catalyst before attributing to sport signal.
+```
+REF: market/sports-equity-intelligence.md
+

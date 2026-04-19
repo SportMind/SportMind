@@ -744,9 +744,155 @@ fans. A confirmed neobank listing is a Phase 2→3 lifecycle acceleration signal
 expanding) and a negative EDLI factor (reduced concentration risk). Advance
 lifecycle phase signal toward Phase 3 confirmation on neobank listing.
 
+
+## New listing intelligence
+
+A CEX listing is the structural inverse of a delisting — but it is not simply
+the reverse signal. The mechanics of a new listing are distinct and generate
+predictable price and sentiment patterns that SportMind agents can model.
+
+### The listing price pattern
+
+New CEX listings follow a consistent three-phase pattern across fan tokens:
+
+**Phase 1 — Pre-announcement accumulation (T-7d to T-1d):**
+Sophisticated holders accumulate ahead of the public announcement. On-chain
+wallet activity increases. DEX volume rises without a sporting catalyst.
+Observable signal: rising DEX volume + flat or declining Socios poll activity
+(sport-agnostic buyers entering). This is a leading indicator of an imminent
+listing announcement.
+
+**Phase 2 — Announcement to listing day (T-0 to T+2d):**
+Retail FOMO spike. Price typically rises 40–80% for Tier 1 exchange listings,
+20–40% for Tier 2. Volume surges. New wallet addresses enter the registry.
+Critical agent rule: do not apply FTP or sporting modifiers during this window.
+The price signal is exchange-driven, not sport-driven. Applying sport modifiers
+to an announcement-phase token overstates commercial signal.
+
+**Phase 3 — Post-listing normalisation (T+3d to T+30d):**
+"Sell the news" correction. Retail profit-taking reduces the announcement gain
+by 20–50%. The token finds a new baseline above its pre-announcement price
+if the listing was geographically aligned with the fanbase. If the listing was
+purely speculative (exchange with no fanbase overlap), the token typically
+returns to pre-announcement levels or below within 30 days.
+
+**Upbit post-listing exception:** Upbit has the strongest post-listing 30-day
+performance of any major exchange (67% of newly listed tokens remain in the
+green at 30 days, vs ~50% for Binance and OKX). An Upbit listing of a Korean-
+market-relevant fan token (GAL, TRA, SPURS) carries materially stronger 30-day
+signal durability than a listing on a global general-purpose exchange.
+
+### Geographic alignment signal
+
+The most important listing intelligence variable for fan tokens is whether the
+exchange serves the token's actual fanbase geography.
+
+**Aligned listing (high commercial signal):**
+- GAL listed on a Turkish exchange → Turkish Galatasaray fanbase accessible
+- MENGO listed on a Brazilian exchange → core Flamengo supporters
+- SPURS listed on a Korean exchange → Korean football fan base (already large)
+
+An aligned listing expands the Loyalist and Governance Participant archetypes —
+fans who hold for utility, not speculation. CDI durability increases. CHI is
+likely to improve over the 60-day post-listing window as new utility holders
+enter the ecosystem.
+
+**Misaligned listing (low commercial signal):**
+A listing on an exchange with no overlap with the token's actual fanbase
+geography attracts Speculator archetype buyers only. Price spikes but CHI
+does not improve. CDI extension does not persist beyond the announcement window.
+
+**Agent instruction:** Cross-reference the exchange's primary user geography
+against the club's fanbase geography from `market/market-football.md` (or
+relevant sport market file) before classifying listing commercial signal strength.
+
+### Listing tier → EDLI reduction table
+
+| Listing tier | Exchange examples | EDLI reduction |
+|---|---|---|
+| Tier 1 (global anchor) | Binance, OKX | −25 points |
+| Tier 1 regional dominant | Upbit (Korea) | −20 points (Korean-heavy tokens) |
+| Tier 2 mid-tier global | Gate.io, MEXC, KuCoin | −10 points |
+| Tier 2 regional | Bitget, XT.com, regional CEX | −5 points |
+| Neobank distribution | Revolut, Crypto.com, eToro | −5 points + Phase 3 signal |
+
+Apply EDLI reduction on confirmed listing date, not on announcement. Announcement
+triggers the price response but the listing only reduces structural fragility once
+the new liquidity venue is operational.
+
+### Listing as lifecycle signal
+
+| Listing event | Lifecycle implication |
+|---|---|
+| Tier 1 CEX listing | Phase 2 confirmation or Phase 3 recovery signal |
+| Tier 1 listing of previously DEX-only token | Phase 2 launch event — treat as new token for CDI purposes |
+| Regional CEX aligned with fanbase | Phase 3 commercial expansion — CDI positive |
+| Multiple Tier 2 listings within 30 days | Phase 2 momentum signal |
+| Listing on exchange with no fanbase overlap | Speculative-only — do not extend CDI |
+
+### Re-listing as the highest-value listing signal
+
+A token that was delisted and subsequently re-listed carries the strongest
+combined signal in this framework. The re-listing confirms:
+- The underlying issues that caused the delisting have been resolved
+- The club or Socios has actively engaged to restore exchange support
+- The holder base has been quality-filtered (Speculators exited at delisting)
+- The remaining holders are predominantly Loyalists and Governance Participants
+
+Re-listing on a Tier 1 or Tier 2 exchange after a confirmed delisting is a
+STRONG_POSITIVE classification across CDI, CHI, and EDLI simultaneously.
+Apply full RRS score reassessment and confirm community activity before entering
+the signal chain.
+
+### Agent listing rules
+
+```
+NEW_LISTING_PROTOCOL:
+
+  // Pre-announcement detection
+  IF dex_volume_rising_7d AND no_sporting_catalyst AND no_socios_poll_7d:
+    FLAG potential_listing_accumulation
+    SET enhanced_monitoring = TRUE
+    DO NOT apply FTP or sport modifiers to DEX volume signal
+
+  // Announcement phase
+  IF cex_listing_announced:
+    CLASSIFY exchange_tier
+    ASSESS geographic_alignment (exchange_primary_market vs club_fanbase_geography)
+    SET phase = ANNOUNCEMENT_WINDOW
+    HOLD sport modifiers — price signal is exchange-driven
+    NOTE: Do not apply FTP WIN modifier during announcement window
+    LOG announcement_date, exchange, tier, alignment_classification
+
+  // Listing day
+  IF listing_day_confirmed:
+    CALCULATE edli_reduction (from tier table)
+    APPLY edli_reduction immediately
+    IF geographic_alignment == ALIGNED:
+      SET cdi_extended = TRUE
+      SET chi_improvement_watch = 60_days
+    ELIF geographic_alignment == MISALIGNED:
+      SET cdi_extended = FALSE
+      NOTE "Speculative listing — monitor for 30d normalisation"
+
+  // Post-listing (T+30d)
+  IF days_since_listing >= 30:
+    ASSESS normalisation: price_above_pre_announcement?
+    IF aligned AND price_holds: CONFIRM Phase 3 commercial signal
+    IF misaligned AND price_reverts: CONFIRM speculative-only classification
+    RESUME normal sport + FTP modifier application
+
+  // Re-listing (strongest signal)
+  IF relisting_after_confirmed_delisting:
+    CLASSIFY as STRONG_POSITIVE
+    RECALCULATE rrs_score
+    CONFIRM community_activity_before_signal_entry
+    ADVANCE lifecycle_phase_signal
+```
+
 ---
 
-## See also
+
 
 - `fan-token/fan-token-lifecycle/fan-token-lifecycle.md` — Phase 4/5/6 mapping
 - `fan-token/fan-holder-profile-intelligence.md` — CHI and archetype framework

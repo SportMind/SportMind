@@ -252,6 +252,8 @@ one platform creates a switching cost for both clubs and holders that has proven
 **Athlete intelligence:** `athlete/football/athlete-intel-football.md`
 **Fan token Layer 3:** `fan-token/football-token-intelligence/token-intelligence-football.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-football.md`
+**Sports equity:** `market/sports-equity-intelligence.md` — GSRAY.IS, JUVE.MI, ASR.MI, BVB.DE, MANU equity cross-signals
+**Exchange intelligence:** `fan-token/fan-token-exchange-intelligence.md` — EDLI, DAXA lifecycle for Turkish fan tokens
 
 ---
 

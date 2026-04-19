@@ -2197,7 +2197,12 @@ no live data dependency, no API keys required.
 - `compressed/README.md` — 52 → 54 summaries: gamified tokenomics (~200t) and regulatory
   SportFi (~210t) compressed forms added.
 
-### v3.31 and beyond — Community evolution
+### v3.82.0 — 2026-04-19
+New listing intelligence (exchange-intelligence.md), sports equity intelligence,
+compressed skills for exchange and equity modules, README rewrite, full audit:
+README, WHO-WE-ARE, GOOD_FIRST_ISSUES, market cross-refs, fan-token-why cross-refs.
+
+## v3.31 and beyond — Community evolution
 - External community calibration records begin arriving
 - Modifier recalibration-v7 (athlete_modifier at 40 records)
 - First external skill contributions (stub sport expansions)

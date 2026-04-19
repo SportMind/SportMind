@@ -522,6 +522,12 @@ PRINCIPLE 3 — INFRASTRUCTURE FOR THE FUTURE:
 
 ---
 
+**See also:**
+- `fan-token/fan-token-exchange-intelligence.md` — Exchange delisting and listing lifecycle;
+  EDLI, IPS, RRS; DAXA framework; intervention model; new listing geographic alignment signal
+- `market/sports-equity-intelligence.md` — Sports equity cross-signals; CHZ macro layer;
+  GSRAY.IS/JUVE.MI/MANU parallel pricing of the same underlying club entity
+
 *This document is the philosophical and commercial foundation for the SportMind
 Layer 3 fan token intelligence framework. Every skill in `fan-token/` is built
 on the thesis described here.*
@@ -530,3 +536,4 @@ on the thesis described here.*
 measurements of something that matters.*
 
 *MIT License · SportMind · sportmind.dev*
+

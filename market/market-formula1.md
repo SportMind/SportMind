@@ -229,7 +229,9 @@ is plausible.
 **Sport domain:** `sports/formula1/sport-domain-formula1.md`
 **Fan token Layer 3:** `fan-token/formula1-token-intelligence/token-intelligence-formula1.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
+**Sports equity:** `market/sports-equity-intelligence.md` — FWONK (Liberty Media/F1) as commercial macro signal
 
 ---
 
 *MIT License · SportMind · sportmind.dev*
+

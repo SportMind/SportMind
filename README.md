@@ -4,11 +4,13 @@
 
 SportMind teaches AI agents how to reason about sports — not just react to data.
 Load a skill, and your agent immediately understands the sport, the athlete,
-the commercial landscape, and the external forces acting on both.
+the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-3.82.0-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
 [![Calibration](https://img.shields.io/badge/calibration-126%20records%20%7C%2096%25%20accuracy-green)]()
+[![Fan Tokens](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
 ---
@@ -27,7 +29,12 @@ need more than raw data. They need context:
 
 - That a weigh-in miss in MMA is categorically different from a team losing a regular season game
 - That a cricket match on a Mumbai evening will be affected by dew in the second innings
-- That a crypto bear market can make a Champions League winning club's token fall in fiat terms
+- That a DAXA Investment Warning on a Korean exchange is a staged lifecycle event with
+  a predictable intervention window — not a binary delisting signal
+- That a new Binance listing aligned with a club's actual fanbase geography extends CDI
+  durability; a misaligned listing does not
+- That Galatasaray equity on Borsa Istanbul (GSRAY.IS) leads the GAL fan token by 24–72
+  hours on commercial news — both instruments are pricing the same underlying entity
 - That a liquidity pool with $80k TVL will absorb your signal's value in slippage before you execute
 
 This contextual reasoning is currently rebuilt from scratch by every developer
@@ -73,10 +80,10 @@ python examples/starter-pack/01-simple-signal.py
 | Layer | Directory | What it teaches |
 |---|---|---|
 | **1 — Sport domain** | `sports/` (42 sports) | How each sport works; event playbooks; risk variables |
-| **2 — Athlete intelligence** | `athlete/` (29 sports) | Who is playing; form; composite modifier (0.55-1.25×) |
-| **3 — Fan token commercial** | `fan-token/` (40 skills) | On-chain signals; lifecycle; DeFi; governance |
-| **4 — Market intelligence** | `market/` (42 docs) | Commercial tier; fanbase; competition calendar |
-| **5 — Macro intelligence** | `macro/` (8 docs) | Crypto cycles; geopolitical; recession |
+| **2 — Athlete intelligence** | `athlete/` (29 sports) | Who is playing; form; composite modifier (0.55–1.25×) |
+| **3 — Fan token commercial** | `fan-token/` (62 skills) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
+| **4 — Market intelligence** | `market/` (43 docs) | Commercial tier; fanbase; sports equity signals; competition calendar |
+| **5 — Macro intelligence** | `macro/` (9 docs) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
 
 **Load order:** macro → market → sport domain → athlete → fan token → output schema
 
@@ -88,16 +95,25 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-42 sport domains · 29 athlete intelligence skills · 40 fan token skills
-42 market documents · 56 core frameworks · 12 agentic workflow patterns
-11 application blueprints · 7 starter pack examples · 66 compressed summaries
-22 agent prompts · 12 agentic workflow patterns · 126 calibration records (96% accuracy)
-6 recalibration reports · 26 named metrics (HAS, NCSI, ATM, FLS, KIS, CDI...)
-```
+579 files · 364 markdown skill files
 
-**Empirically validated:** 126 real match outcomes across 21 sports. 96% correct direction.
-All 5 wrong predictions are European football draws — documented with root-cause analysis.
-See `core/modifier-recalibration-v6.md`.
+Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
+Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
+Fan token:         62 skills · 90 verified tokens (63 active Chiliz + 18 expired + 9 multi-chain)
+                   Lifecycle phases 1–6 · DeFi liquidity · exchange intelligence (EDLI/IPS/RRS)
+                   New listing intelligence · Fan Token Play PATH_2 · governance · KOL influence
+                   Sports equity signals (GSRAY.IS, MANU, JUVE.MI, FWONK, TKO) · CHZ macro layer
+Market:            43 documents · club operations · broadcaster intelligence · World Cup 2026
+Macro:             9 documents · MiCA · SEC/CFTC joint guidance (March 2026) · US market opening
+
+Core frameworks:   57 files · reasoning patterns · autonomous agent framework · modifier system
+                   breaking news · squad intelligence · historical framework · contextual signals
+Platform:          28 files · MCP server (45 tools, 8 servers) · data connectors · API providers
+                   Chiliz Agent Kit · social intelligence · web agent connectors · fraud signals
+Community:         177 files · 126 calibration records (96% accuracy, 21 sports) · benchmarks
+Developer tools:   11 application blueprints · 13 agentic workflow patterns · 22 agent prompts
+                   3 copy-paste templates · 69 compressed summaries · Skills API · starter pack
+```
 
 ---
 
@@ -125,21 +141,19 @@ SportMind is available as an MCP tool server — connect any AI agent to the
 full library without loading files manually.
 
 ```bash
-# Clone and install
 git clone https://github.com/SportMind/SportMind
 pip install mcp aiohttp
 
-# Run locally — stdio (Claude Desktop / Claude Code)
+# stdio (Claude Desktop / Claude Code)
 python scripts/sportmind_mcp.py
 
-# Run remotely — HTTP/SSE (hosted agents)
+# HTTP/SSE (hosted agents)
 python scripts/sportmind_mcp.py --http --port 3001
 ```
 
-Seven servers, 42 tools: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
-`sportmind_verify` · `sportmind_agent_status` · `sportmind_pre_match` ·
-`sportmind_disciplinary` · `sportmind_fan_token_lookup` ·
-`sportmind_sentiment_snapshot` · `sportmind_verifiable_source`
+45 tools across 8 servers: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
+`sportmind_fan_token_lookup` · `sportmind_sentiment_snapshot` · `sportmind_pre_match` ·
+`sportmind_disciplinary` · `sportmind_governance` · `sportmind_verifiable_source` · and more.
 
 **→ Full deployment guide: [MCP-SERVER.md](MCP-SERVER.md)**
 
@@ -147,16 +161,19 @@ Seven servers, 42 tools: `sportmind_signal` · `sportmind_macro` · `sportmind_s
 
 ## Integration
 
-**Data connections:** `platform/data-connector-templates.md` — copy-paste code for
-lineup data, fan token TVL, and macro state (the three most important live data sources).
+**Data connections:** `platform/data-connector-templates.md` — lineup data, fan token TVL,
+macro state.
 
 **Execution layer:** `platform/chiliz-agent-kit-integration.md` — SportMind intelligence
 → Chiliz Agent Kit → on-chain execution.
 
+**Web agents:** `platform/web-agent-connectors.md` — lineup confirmation (T-2h), PATH_2
+supply verification, exchange monitoring, regulatory/macro monitoring.
+
 **MCP deployment:** `platform/sportmind-mcp-deployment.md` — live endpoint in 30 minutes.
 
 **Compatible with:** Claude · GPT-4 · Gemini · LangChain · CrewAI · AutoGen ·
-OpenAI Assistants · any LLM (skills are structured markdown, not API wrappers).
+any LLM (skills are structured markdown, not API wrappers).
 
 ---
 
@@ -164,8 +181,9 @@ OpenAI Assistants · any LLM (skills are structured markdown, not API wrappers).
 
 126 records. 96% accuracy. Zero wrong-direction records outside European football draws.
 
-All records are in `community/calibration-data/` — publicly verifiable. Includes all
-5 wrong predictions with full root-cause analysis. Not cherry-picked.
+All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
+before real matches. Includes all 5 wrong predictions with root-cause analysis.
+Not cherry-picked.
 
 Eight modifiers with zero wrong-direction records across their entire evidence base:
 qualifying_delta (F1) · india_pakistan ×2.00 · morning_skate (NHL) · dew_factor (cricket) ·

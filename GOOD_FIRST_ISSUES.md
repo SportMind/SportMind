@@ -39,7 +39,7 @@ Fix it. Submit a PR with label `docs-fix`.
 **Known stale references:**
 - `community/leaderboard.md` — references v3.2 first entries; now at v3.65
 - `README.md` badge — verify it shows current record count (126 records, 96% accuracy)
-- Any document citing stale file counts (now 552 files)
+- Any document citing stale file counts (now 579 files)
 - Any document citing record counts below 126 (current count is 126 across 21 sports)
 
 ---

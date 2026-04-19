@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.79)
+## What the library contains (v3.82)
 
-**579 files.** 92 version cycles since v3.0.
+**579 files.** 95 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -48,24 +48,29 @@ becomes part of every agent that loads it.
   Individual performance models; form; availability; sport-specific modifier (0.55-1.25×);
   venue and conditions intelligence; championship vs circuit reliability
   
-- **Layer 3 — Fan token commercial (40 skills):**
-  Fan token lifecycle (Phase 1-5e); HAS, FTIS, NCSI, ATM, APS, AELS, CDI, FLS, KIS, RSF
-  and 16 other named metrics; DeFi liquidity intelligence; RWA/SportFi framework; governance
-  intelligence; KOL influence model; on-chain event intelligence; fan sentiment CDI model
+- **Layer 3 — Fan token commercial (62 skills):**
+  Fan token lifecycle (Phase 1–6); HAS, FTIS, NCSI, ATM, APS, AELS, CDI, FLS, KIS, RSF,
+  EDLI, IPS, RRS and 19 other named metrics; DeFi liquidity intelligence; exchange delisting
+  and listing intelligence (DAXA lifecycle, CEX tier framework, intervention model, re-listing
+  signals); RWA/SportFi framework; governance intelligence; KOL influence model; on-chain
+  event intelligence; fan sentiment CDI model; 90 verified fan tokens (63 active Chiliz,
+  18 expired, 9 multi-chain across BSC, Ethereum, BiTCI)
   
-- **Layer 4 — Market intelligence (42 documents):**
+- **Layer 4 — Market intelligence (43 documents):**
   Football leagues, cricket cycles, basketball markets, motorsport calendars; club operations;
-  broadcaster intelligence; EuroLeague basketball; World Cup 2026 deep module
+  broadcaster intelligence; EuroLeague basketball; World Cup 2026 deep module;
+  sports equity intelligence (GSRAY.IS, BJKAS.IS, FENER.IS, TSPOR.IS, JUVE.MI, ASR.MI,
+  BVB.DE, MANU/NYSE, FWONK/Nasdaq, TKO/NYSE); CHZ macro layer model
   
-- **Layer 5 — Macro intelligence (8 documents):**
+- **Layer 5 — Macro intelligence (9 documents):**
   Crypto market cycles; geopolitical risk; pandemic and public health; economic recession;
-  regulatory frameworks (MiCA, VDA, CFTC)
+  regulatory frameworks (MiCA, SEC/CFTC March 2026 joint guidance, US market opening)
 
-**Core framework (35 files):** Reasoning patterns; autonomous agent framework; goal framework;
+**Core frameworks (57 files):** Reasoning patterns; autonomous agent framework; goal framework;
 breaking news protocols; modifier recalibration reports; calibration framework; confidence output
 schema; temporal awareness; context window management; security model; purpose and context
 
-**Platform layer (21 files):** MCP server (45 tools across 8 servers); MCP deployment guide; Skills API;
+**Platform layer (28 files):** MCP server (45 tools across 8 servers); MCP deployment guide; Skills API;
 skill bundles (14 named); data connector templates; Chiliz Agent Kit integration; freshness
 strategy; real-time integration patterns
 
@@ -74,8 +79,8 @@ strategy; real-time integration patterns
 community leaderboard
 
 **Developer tooling:** 7 starter pack examples (⭐ to ⭐⭐⭐⭐⭐); 11 application blueprints;
-12 agentic workflow patterns; 22 agent prompts organised by stakeholder type; 66 compressed
-skill summaries; 5 CI/CD GitHub Actions workflows
+13 agentic workflow patterns; 22 agent prompts organised by stakeholder type; 80 compressed
+skill summaries (including exchange intelligence and sports equity); 5 CI/CD GitHub Actions workflows
 
 **International reach:** 24 i18n skill files across 7 languages (AR, DE, ES, FR, HI, JA, PT)
 

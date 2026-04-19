@@ -1,5 +1,93 @@
 # Changelog
 
+## [3.82.0] — 2026-04-19
+
+### Added
+- `fan-token/fan-token-exchange-intelligence.md` — New section: New Listing Intelligence
+  (+156 lines). Documents the positive mirror of delistings: the three-phase listing
+  price pattern (pre-announcement accumulation, announcement spike, post-listing
+  normalisation); geographic alignment signal (aligned listing extends CDI durability,
+  misaligned does not); listing tier → EDLI reduction table (Tier 1 = −25, Tier 2 = −10,
+  neobank = −5); listing as lifecycle signal table; re-listing as the highest-value listing
+  signal (STRONG_POSITIVE across CDI, CHI, EDLI simultaneously); full agent listing
+  protocol with pre-announcement detection, announcement window, listing day, T+30d
+  normalisation, and re-listing rules. Upbit post-listing exception documented
+  (67% 30-day positive rate vs ~50% Binance/OKX).
+
+- `compressed/README.md` — Two new compressed skills added:
+  (1) [COMPRESSED] Fan token exchange intelligence — DAXA lifecycle, EDLI/IPS/RRS
+  scoring, new listing geographic alignment, CDI rule, FTP interaction rule.
+  (2) [COMPRESSED] Sports equity intelligence — parallel pricing model, listed clubs
+  with fan tokens, equity anomaly rule, BIST Sports Index signal, CHZ macro states,
+  WC2026 CHZ boost, sports-adjacent equities (FWONK, TKO).
+  Total compressed entries: 80.
+
+### Changed
+- `README.md` — Complete rewrite. Added version badge (v3.82.0), fan token registry
+  badge (90 tokens), updated five-layer table with correct file counts (fan-token 62,
+  market 43, macro 9), expanded "What the library contains" section listing exchange
+  intelligence, sports equity intelligence, new listing intelligence, 90-token registry,
+  web agent connectors, and current developer tool counts. Added web agents integration
+  reference. Removed stale capability references. Now accurately reflects v3.82 library.
+
+- `WHO-WE-ARE.md` — Version updated v3.79 → v3.82. Layer 3 count 40 → 62 skills with
+  new capabilities listed (EDLI, IPS, RRS, exchange intelligence, listing intelligence,
+  90-token registry). Layer 4 count 42 → 43 with sports equity intelligence listed.
+  Layer 5 count 8 → 9 with SEC/CFTC joint guidance referenced. Core 35 → 57 files.
+  Platform 21 → 28 files. Developer tooling counts updated. Version cycles 94 → 95.
+
+- `GOOD_FIRST_ISSUES.md` — Stale file count 552 → 579.
+
+- `market/market-football.md` — Compatibility section: added cross-references to
+  `market/sports-equity-intelligence.md` and `fan-token/fan-token-exchange-intelligence.md`.
+
+- `market/market-formula1.md` — Compatibility section: added cross-reference to
+  `market/sports-equity-intelligence.md` (FWONK as F1 commercial macro signal).
+
+- `fan-token/fan-token-why.md` — See also section added linking to exchange intelligence
+  and sports equity intelligence as the two new structural layers that extend the
+  foundational fan token thesis.
+
+## [3.81.2] — 2026-04-19
+
+### Changed
+- `docs.html` — Two new sections added to the Build group in the sidebar:
+
+  **Applications** (`#applications`) — 11 application blueprint cards presented
+  as a scannable grid. Two groups: "Fan token and SportFi applications" (01 DeFi
+  Prediction Market, 02 Portfolio Intelligence, 05 WC2026 Dashboard, 06 GameFi,
+  07 SportFi Kit, 08 Governance) and "Commercial and talent applications" (03
+  Athlete Commercial, 04 Brand Token Strategy, 09 Talent Scouting, 10 Fan Digital
+  Twin). Each card shows blueprint number, title, description, layers used, and
+  link to the full spec. "Build your own" callout frames the composability
+  principle — any subset, any stack, any output format.
+
+  **Web Agents** (`#web-agents`) — Developer section explaining the SportMind
+  web agent architecture (SportMind = framework, web agent = sensory layer,
+  application = decision layer). Three production connectors documented: lineup
+  confirmation (T-2h), PATH_2 supply verification (post-match), regulatory/macro
+  monitoring. Four "build your own" connector examples: exchange delisting monitor
+  (DAXA/Binance), transfer window signal monitor, sports equity signal monitor
+  (GSRAY.IS, MANU, JUVE.MI), Socios governance poll monitor. Source tier table
+  (Tier 1 direct / Tier 2 with confidence note / Tier 3 classify first).
+
+  Registry ticker count in toolkit section updated 24 → 90.
+  App-grid and app-card CSS added for blueprint card layout.
+
+## [3.81.1] — 2026-04-19
+
+### Fixed
+- `docs.html` — Total files 577 → 579, Markdown 362 → 364, fan tokens 24 → 90
+  (breakdown: 63 active Chiliz + 18 expired + 9 multi-chain), market layer
+  count 42 → 43 in architecture section.
+- `demo.html` — Stale `sportmind_version: "3.78.0"` in fan token registry
+  scenario corrected to 3.81.0. `registry_size` 24 → 90 in same scenario.
+- `agent.html` — Stale Claude model IDs updated: claude-sonnet-4-20250514 →
+  claude-sonnet-4-6, claude-opus-4-5 → claude-opus-4-6. Haiku already correct.
+- `index.html` — Market layer description updated to 43 documents with
+  reference to equity and exchange intelligence. ✦ markers removed from
+  Autonomous and Agent nav links (both fully live, markers no longer appropriate).
+
 ## [3.81.0] — 2026-04-19
 
 ### Added
