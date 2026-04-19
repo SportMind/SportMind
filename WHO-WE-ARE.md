@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.85)
+## What the library contains (v3.86)
 
-**582 files.** 99 version cycles since v3.0.
+**582 files.** 101 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -48,7 +48,7 @@ becomes part of every agent that loads it.
   Individual performance models; form; availability; sport-specific modifier (0.55-1.25×);
   venue and conditions intelligence; championship vs circuit reliability
   
-- **Layer 3 — Fan token commercial (62 skills):**
+- **Layer 3 — Fan token commercial (64 skills):**
   Fan token lifecycle (Phase 1–6); HAS, FTIS, NCSI, ATM, APS, AELS, CDI, FLS, KIS, RSF,
   EDLI, IPS, RRS and 19 other named metrics; DeFi liquidity intelligence; exchange delisting
   and listing intelligence (DAXA lifecycle, CEX tier framework, intervention model, re-listing

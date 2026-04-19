@@ -2197,7 +2197,13 @@ no live data dependency, no API keys required.
 - `compressed/README.md` — 52 → 54 summaries: gamified tokenomics (~200t) and regulatory
   SportFi (~210t) compressed forms added.
 
-### v3.85.0 — 2026-04-19
+### v3.86.0 — 2026-04-19
+Macro layer depth expansion: broadcast disruption 147→240L, economic cycles 136→258L.
+WC2026 broadcast inflection section, US market timing, fan token economic cycle matrix,
+2026 context by region, WC2026 economic override rule.
+Stub sports promoted to BASIC: volleyball (93L), badminton (92L), table tennis (95L).
+
+## v3.85.0 — 2026-04-19
 League football token intelligence (651L). Seven token-active leagues,
 63 active Chiliz tokens, league fingerprints, post-WC2026 fatigue protocols,
 Bundesliga gap analysis, cross-league monitoring framework.

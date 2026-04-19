@@ -75,6 +75,8 @@ TIER 1 — DIRECT NATIONAL TOKEN EXPOSURE:
     Activation: HAS will begin rising T-30 days (May 12)
     Special condition: Messi final WC narrative — confirm from Tier 1 media
     If confirmed: apply narrative_amplifier = 1.25 to all outputs from T-30
+    CONFIRMED GROUP J: vs Algeria (June 16), vs Austria (June 22), vs Jordan (June 27)
+    All group matches at: Arrowhead Stadium, AT&T Stadium, AT&T Stadium
     Pre-tournament price sensitivity: HIGH
     Monitor daily from: May 1, 2026
 
@@ -82,50 +84,59 @@ TIER 1 — DIRECT NATIONAL TOKEN EXPOSURE:
     WC status: Confirmed qualified.
     Baseline HAS: LOW
     Special condition: Ronaldo retirement-or-not narrative cycle
+    CONFIRMED GROUP K: vs DR Congo (June 17), vs Uzbekistan (June 23), vs Colombia (June 27)
+    All group matches at: NRG Stadium (Houston) × 2, Hard Rock Stadium (Miami)
     Key signal: any confirmed injury to CR7 = CRITICAL negative (−12–20%)
     Monitor daily from: May 1, 2026
 
   $ITA — Italy National Team (Chiliz Chain)
-    WC status: VERIFY — check current qualification status
-    CRITICAL FLAG: Italy failed to qualify for 2022 (Russia → Qatar cycle)
-    If qualified: standard pre-tournament protocol applies
-    If NOT qualified: $ITA has zero tournament exposure; suppress WC2026 signals
-    Also affects: $ACM, $INTER, $JUV, $NAP (reduced NCSI if Italy absent)
-    Verification source: UEFA.com / FIFA.com (Tier 1 only)
-    ACTION: Verify status before loading any WC signal for Italian tokens
+    WC status: CONFIRMED NOT QUALIFIED — Bosnia eliminated Italy in playoffs
+    $ITA token: ZERO World Cup 2026 exposure. Suppress all WC2026 signals.
+    Affected club tokens: $ACM, $INTER, $JUV, $NAP — Italian NCSI suppressed
+    for the full WC2026 tournament window (June 11 – July 19, 2026).
+    These four tokens have no national team spillover during WC2026.
+    Source confirmed: FIFA official draw and playoff results (April 2026)
 
 TIER 2 — CLUB TOKEN NCSI EXPOSURE:
 
   $PSG — France national team NCSI
     Key players: Mbappé (highest ATM in squad)
+    CONFIRMED GROUP I: France vs Senegal (June 16), vs Iraq (June 22), vs Norway (June 26)
+    All matches at: MetLife Stadium, Lincoln Financial Field, Gillette Stadium
     NCSI ceiling: 85 (strong holder nationality overlap with French fans)
-    Mbappé injury before tournament: apply ×0.72 to all France NCSI outputs
+    Mbappé departed PSG — France NCSI routes via replacement ATM player
+    NOTE: confirm current PSG Tier 1 ATM player in France squad before applying
     Pre-tournament monitor: PSG training reports for fitness status
 
   $BAR — Spain national team NCSI
     Key players: Pedri, Yamal, Gavi, Dani Olmo (multiple high-ATM players)
+    CONFIRMED GROUP H: Spain vs Cape Verde (June 15), vs Saudi Arabia (June 21),
+    vs Uruguay (June 26) at Mercedes-Benz Stadium (Atlanta) × 2, Estadio Akron (Mexico)
     NCSI ceiling: 90 (6+ key players — maximum squad representation score)
     Note: Spain are reigning European Champions — form signal STRONG_POSITIVE
-    Pre-tournament sentiment: broadly positive; no suppression signals
 
   $CITY — Multi-national squad exposure
     Covered nations: England (Foden, Walker), Norway (Haaland), Belgium,
     Spain (Rodri), Portugal (Bernardo, Cancelo), Brazil (Ederson)
     NCSI profile: DIVERSIFIED — almost guaranteed uplift from 2–3 nations advancing
     This is the most WC-resilient club token in the registry
+    Norway CONFIRMED GROUP I: vs Iraq (June 16), vs Senegal (June 22), vs France (June 26)
+    England CONFIRMED GROUP L: vs Croatia (June 17), vs Ghana (June 23), vs Panama (June 27)
     Monitor: Haaland fitness specifically (highest ATM contributor for Norway)
 
-  $ACM — Italy NCSI + individual player signals
-    Italian NCSI depends on Italy qualification (see $ITA above)
-    Non-Italian ATM players: also carries individual player NCSI
-    Monitor status: verify $ITA before loading $ACM WC signal
+  $ACM — CONFIRMED: Italian NCSI SUPPRESSED for WC2026
+    Italy did not qualify. No Italian national team NCSI for $ACM.
+    Non-Italian ATM players: carry individual NCSI only (check squad composition)
+    Monitor: any non-Italian ATM player in a qualifying WC2026 nation
 
-  $INTER — Italy NCSI (same condition as $ACM)
-    Additionally: Lautaro Martínez = Argentina squad → $ARG/$INTER dual exposure
-    If Lautaro scores in tournament: club token spillover applies
+  $INTER — CONFIRMED: Italian NCSI SUPPRESSED for WC2026
+    Lautaro Martínez = Argentina squad → $ARG/$INTER dual exposure still active
+    Argentina GROUP J: June 16, 22, 27. Lautaro goals = club token spillover applies.
+    This is $INTER's only WC2026 NCSI route.
 
-  $JUV — Italy NCSI (same condition as $ACM)
-    Also carries Brazil NCSI via Danilo/squad members if applicable
+  $JUV — CONFIRMED: Italian NCSI SUPPRESSED for WC2026
+    No Italian national team exposure. Check individual player squad memberships.
+    Weah (USA, GROUP D), Cambiaso (squad check): only NCSI routes if confirmed.
 
   $AFC — Arsenal FC (Fan Token Play PATH_2)
     WC exposure: individual player NCSI (Saka/England, Havertz/Germany,
@@ -133,7 +144,11 @@ TIER 2 — CLUB TOKEN NCSI EXPOSURE:
     PATH_2 NOTE: WC matches are NOT PATH_2 events — club matches only
     Do not apply supply mechanics to international results for $AFC
     WC signal for $AFC is pure NCSI, not supply-chain signal
-    Monitor: Saka and Saliba fitness (England and France high-ATM contributors)
+    England CONFIRMED GROUP L: vs Croatia (June 17), vs Ghana (June 23), vs Panama (June 27)
+    Germany CONFIRMED GROUP E: vs Curaçao (June 14), vs Ivory Coast (June 20), vs Ecuador (June 25)
+    Havertz (Germany) → $AFC NCSI route via Group E
+    Saka, Bellingham (England) → $AFC NCSI route via Group L
+    Monitor: Saka fitness (England Tier 1 ATM) specifically
 
 TIER 3 — HOST NATION COMMERCIAL EXPOSURE:
 

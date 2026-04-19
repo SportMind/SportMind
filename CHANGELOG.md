@@ -1,5 +1,81 @@
 # Changelog
 
+## [3.86.0] — 2026-04-19
+
+### Added
+- `sports/volleyball/sport-domain-volleyball.md` (93L) — Promoted from 19L
+  contributor placeholder to BASIC functional stub. Event tier system (Olympic
+  final Tier 1 through club competitions Tier 4), primary signal variable (team
+  and set momentum), key risk variables (setter/libero availability modifiers,
+  home advantage ×1.12, fatigue compression ×0.93), fan token commercial
+  potential (Brazil, Italy, Poland, Japan as highest-potential national tokens).
+
+- `sports/badminton/sport-domain-badminton.md` (92L) — Promoted from 19L
+  placeholder to BASIC. Event tier system (BWF Super 1000 through feeder events),
+  primary signal variable (BWF ranking differential), key risk variables
+  (racket arm injury ×0.78, Indonesia/China home advantage ×1.20, fatigue ×0.90),
+  fan token commercial potential (Indonesia, Malaysia, India, Denmark as highest-
+  potential — Indonesian market already proven via $PERSIB/$PRSJ).
+
+- `sports/table-tennis/sport-domain-table-tennis.md` (95L) — Promoted from 19L
+  placeholder to BASIC. Event tier system (WTT Champions through Feeder),
+  primary signal variable (Chinese dominance adjustment — top-5 Chinese vs
+  top-10 non-Chinese: ×0.70 base probability, grounded in 40 years of tournament
+  outcomes), key risk variables (CTTA selection changes, equipment rule changes
+  ×0.85, playing style matchup H2H primacy), fan token commercial potential
+  (WTT digital roadmap, German Bundesliga team model, Japan T-League).
+
+### Changed
+- `macro/macro-broadcast-disruption.md` — Expanded 147L → 240L. Two new sections:
+  (1) "World Cup 2026 — broadcast inflection point for US fan tokens": US broadcast
+  context, key broadcast windows by date (opening match June 11, USA match June 12,
+  Argentina June 16/22/27, knockout July 4–19, Final July 19), direct-to-streaming
+  signal and demographic overlap with token target audience. (2) "Fan token commercial
+  timing — broadcast calendar integration": UCL Final (400–500M viewers), PL final day,
+  Copa Libertadores Final, NFL calendar as US fan token commercial context, broadcast
+  blackout anti-signal (−0.10 CDI adjustment for lost broadcast rights).
+
+- `macro/macro-economic-cycles.md` — Expanded 136L → 258L. Three new sections:
+  (1) "Fan token economic cycle model": four-quadrant matrix (expansion/recession ×
+  crypto bull/bear) with specific agent signals for each condition. Recession +
+  crypto bear = most adverse; Loyalist CHI improvement even as price falls flagged
+  as opportunity signal. (2) "2026 economic context": US (moderate, WC boost),
+  Europe (fragile recovery), Turkey (lira weakness FX artefact warning for CHI
+  signals), Brazil (positive, WC host tailwind). (3) "WC2026 economic override
+  rule": tournament narrative applies 0.50× weight to economic modifier; host
+  nation 0.25×; exception for recession + crypto bear simultaneous condition.
+
+## [3.85.1] — 2026-04-19
+
+### Fixed
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md` —
+  Italy qualification status updated from VERIFY to CONFIRMED NOT QUALIFIED.
+  Bosnia eliminated Italy in the WC2026 playoffs (April 2026). $ITA token:
+  zero WC2026 exposure confirmed. $ACM/$INTER/$JUV/$NAP Italian NCSI
+  suppressed for full WC2026 window (June 11 – July 19, 2026).
+  $INTER exception documented: Lautaro Martínez (Argentina, Group J) is the
+  only $INTER NCSI route via WC2026.
+  Confirmed group fixtures added for all exposed tokens:
+    $ARG: Group J — June 16 vs Algeria, June 22 vs Austria, June 27 vs Jordan
+    $POR: Group K — June 17 vs DR Congo, June 23 vs Uzbekistan, June 27 vs Colombia
+    $PSG NCSI (France): Group I — June 16 vs Senegal, June 22 vs Iraq, June 26 vs Norway
+    $BAR NCSI (Spain): Group H — June 15 vs Cape Verde, June 21 vs Saudi Arabia, June 26 vs Uruguay
+    $CITY NCSI (Norway): Group I same as France — three-way fixture awareness
+    $CITY NCSI (England): Group L — June 17 vs Croatia, June 23 vs Ghana, June 27 vs Panama
+    $AFC NCSI (England/Germany): Group L + Group E confirmed
+  Mbappé departure noted: France $PSG NCSI now routes via replacement ATM player.
+  Final confirmed: July 19, MetLife Stadium, New Jersey.
+
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` —
+  Italian club token section updated: confirmed NOT QUALIFIED replaces
+  "must be confirmed" flag. $INTER Lautaro exception documented.
+
+- `fan-token/league-football-token-intelligence.md` — Serie A post-WC2026
+  fatigue section updated: confirmed no Italian fatigue applies; $INTER
+  Lautaro Martínez exception added with conditional 0.93× modifier.
+
+Source: FIFA official draw results and playoff outcomes (April 2026).
+
 ## [3.85.0] — 2026-04-19
 
 ### Added

@@ -126,6 +126,99 @@ DATA SOURCES:
 
 ---
 
+
+## World Cup 2026 — broadcast inflection point for US fan tokens
+
+The first FIFA World Cup hosted in the United States in 32 years is also the
+first major global tournament since the SEC/CFTC March 2026 guidance opened
+the US fan token market. These two events coincide to create the most
+significant broadcast-commercial alignment in fan token history.
+
+```
+US BROADCAST CONTEXT FOR WC2026:
+
+  Rights holders: Fox Sports (primary), FS1, Univision/TUDN (Spanish language)
+  Projected viewership: 40–50M peak US audience (vs 12–15M for non-host WCs)
+  Digital reach: Fox/Peacock streaming; first WC streamed at scale in the US
+  
+  FAN TOKEN COMMERCIAL TIMING:
+    Broadcast peaks = fan token acquisition windows.
+    US viewers watching their first Argentina or Spain match are the target
+    first-time token holder demographic. The broadcast schedule is the
+    commercial calendar.
+    
+  KEY BROADCAST WINDOWS FOR AGENT MONITORING:
+    Opening match (June 11, Mexico vs South Africa, Estadio Azteca, Fox):
+      Peak US Hispanic market broadcast. $CHVS/$SAN host commercial signal.
+      
+    US opening match (June 12, USA vs Paraguay, SoFi Stadium, Fox):
+      Largest projected single-match US audience. First-mover US franchise
+      launch announcement window — if any US club launches, this is the week.
+      
+    Argentina Group J matches (June 16, 22, 27):
+      $ARG token = primary acquisition event for first-time US token buyers.
+      Messi recognition extends well beyond traditional soccer audience.
+      
+    Knockout stage (July 4–19):
+      July 4 Round of 16 matches: US Independence Day broadcast peak.
+      Any match involving Argentina, Brazil, or Spain: maximum US viewership.
+      
+    Final (July 19, MetLife Stadium, New Jersey):
+      Peak global + US broadcast event. Post-final CDI maximum window.
+
+DIRECT-TO-STREAMING SIGNAL:
+  Fox's streaming strategy for WC2026 is the first US streaming-native WC.
+  Streaming viewers are 3–5 years younger than cable viewers on average.
+  This demographic overlap with fan token target audience (18–34 digital-native)
+  is the strongest commercial signal broadcast and fan tokens have shared.
+  
+  Monitor: Any Fox/Peacock/streaming platform announcing fan engagement product
+  (prediction, fantasy, digital collectible) alongside WC2026 rights.
+  If streaming platform announces Socios or Chiliz integration: MAXIMUM positive signal.
+```
+
+---
+
+## Fan token commercial timing — broadcast calendar integration
+
+```
+GENERAL PRINCIPLE:
+  Broadcast peaks drive token acquisition windows. Not match results —
+  the broadcast moment when a new audience encounters a club or competition
+  for the first time is when token acquisition is easiest.
+
+HIGH-VALUE BROADCAST WINDOWS BY COMPETITION:
+
+  UCL Final (May/June, neutral venue):
+    Global peak broadcast for club football. 400–500M viewers.
+    48–72h post-final: highest CDI extension window of the European season.
+    Token acquisition: any club in the final sees HAS spike from neutral fans.
+    Agent rule: load fan-sentiment-intelligence.md for CDI calculation immediately.
+
+  Premier League final day (May):
+    UK broadcast peak (Sky Sports, BBC highlights).
+    Simultaneous KO means all PL tokens are live simultaneously.
+    US streaming: NBC/Peacock; reaches the US PL fan demographic directly.
+
+  Copa Libertadores Final (November, neutral venue):
+    Peak South American broadcast. $MENGO or any Brazilian/Argentine finalist
+    sees maximum CDI extension. Brazilian free-to-air broadcast = mass market.
+    
+  NFL season opener + Super Bowl (September / February):
+    No direct NFL fan token, but US sports broadcast dominance sets the
+    commercial context for all US fan token launches.
+    Any US franchise launch timed to NFL season opener or Super Bowl week:
+    CDI activation amplifier — maximum US sports media attention.
+
+ANTI-SIGNAL — BROADCAST BLACKOUT:
+  When a broadcaster loses rights mid-season (RSN collapse equivalent):
+    Club token: apply −0.10 CDI adjustment for broadcast revenue uncertainty.
+    Duration: maintain adjustment until new rights deal confirmed.
+    Most likely affected: MLB/NHL clubs in US RSN transition markets.
+```
+
+---
+
 ## Agent Context Summary
 
 - RSN collapse is ongoing; MLB and NHL clubs in former RSN markets are in transition

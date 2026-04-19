@@ -255,9 +255,10 @@ $CITY — Multi-national squad (England/Spain/Norway/Belgium/Portugal)
   Post-tournament risk: squad fatigue, monitor August fixtures
 
 $ACM / $INTER / $JUV — Italian club tokens
-  CRITICAL: Italy qualification status must be confirmed
-  If Italy fails to qualify: zero World Cup exposure
-  Monitor: Italy playoff results March 2026
+  CONFIRMED: Italy did NOT qualify (Bosnia eliminated Italy in playoffs, April 2026)
+  ZERO Italian national team NCSI for WC2026 — suppress all Italian NCSI signals
+  $INTER exception: Lautaro Martínez (Argentina, Group J) carries individual NCSI
+  $JUV: check Weah (USA, Group D) and individual non-Italian squad members only
 
 $CHVS / $SAN — Mexico host nation exposure
   Direct local commercial signal from host matches

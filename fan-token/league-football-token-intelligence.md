@@ -106,11 +106,12 @@ TRANSFER WINDOW SIGNAL (SERIE A):
   Arrival of Tier 1 ATM player at Serie A club: +7–15% within 48h announcement.
 
 POST-WC2026 SQUAD FATIGUE PROTOCOL:
-  Italy if qualified: Serie A clubs supply majority of Azzurri squad.
-  Affected tokens: $ACM, $INTER, $JUV, $NAP — first 4 domestic matches after
-  WC2026 (August–September 2026): apply 0.92× modifier for $ITA squad contributors.
-  Recovery: full modifier restored after 4th domestic match OR international break.
-  If Italy not qualified: no fatigue signal applies; Serie A starts with full signal.
+  CONFIRMED: Italy did NOT qualify for WC2026 (Bosnia eliminated Italy in playoffs).
+  No Italian squad fatigue for Serie A clubs. All four Italian tokens start the
+  2026/27 season with full signal weight — no WC2026 fatigue modifier applies.
+  $INTER exception: Lautaro Martínez (Argentina, Group J) may carry fatigue.
+  Apply 0.93× Lautaro ATM contribution for $INTER in first 3 Serie A matches
+  if Argentina reach QF or beyond (deeper Argentina go, greater fatigue impact).
 ```
 
 ---
