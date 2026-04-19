@@ -1,7 +1,7 @@
 # Fan Token Registry — Complete (Authoritative)
 
-**Last updated: v3.79.1 — April 2026**
-**Source: Official Chiliz partnership spreadsheet (April 2026), chiliscan.com verified**
+**Last updated: v3.79.2 — April 2026**
+**Source: fantokens.com, all contracts verified on-chain**
 
 > The blockchain address is the canonical identifier for each token.
 > Use chiliscan.com with the contract address to get current on-chain state

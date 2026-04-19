@@ -41,7 +41,7 @@ ROOT        = Path(__file__).parent.parent
 HASHES_FILE = ROOT / "platform" / "skill-hashes.json"
 MACRO_STATE = ROOT / "platform" / "macro-state.json"
 
-VERSION = "3.79.2"
+VERSION = "3.80.0"
 
 SUPPORTED_SPORTS = [
     "football", "basketball", "cricket", "mma", "formula1", "tennis",
@@ -62,7 +62,7 @@ USE_CASES = [
 FAN_TOKEN_REGISTRY = {
     # ══════════════════════════════════════════════════════════════════════════
     # ACTIVE SOCIOS/CHILIZ PARTNERSHIPS (expired=False)
-    # Source: Official Chiliz spreadsheet (April 2026) + chiliscan.com verified
+    # Source: fantokens.com, contracts verified on-chain via chiliscan.com
     # The blockchain address is the canonical identifier for each token.
     # Tokens trade on multiple CEXs and DEXs globally — use chiliscan.com
     # or the fantokens.com trade page for current market data.

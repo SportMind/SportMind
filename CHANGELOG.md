@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.80.0] — 2026-04-19
+
+### Added
+- `fan-token/fan-token-exchange-intelligence.md` — New intelligence module covering
+  the complete lifecycle of exchange delisting events for sports-backed fan tokens.
+  678 lines. The first SportMind file to model exchange infrastructure as a live
+  intelligence variable rather than stable background.
+
+  **Scope:**
+  Exchange tier framework (Tier 1–4: Binance/OKX → DAXA Korea → global mid-tier →
+  DEX-only). DAXA delisting lifecycle with stage-by-stage signal classification and
+  price impact ranges (Stage 0 pre-warning through Stage 3 post-delisting stabilisation).
+  Global CEX patterns: Binance Monitoring Tag system, OKX 30-day notice pattern,
+  mid-tier cascade model. Fan token intervention model with IPS (Intervention Probability
+  Score) — structural advantage of sports-backed tokens over generic crypto in delisting
+  scenarios. EDLI (Exchange Delisting Likelihood Index) 0–100 scoring with CDI
+  adjustment table. Sentiment and community impact layers: CDI override rule when
+  EDLI > 60, holder archetype exit rates by delisting stage, governance activity as
+  counter-signal. Re-listing intelligence with RRS (Re-listing Readiness Score) and
+  WC2026 bonus modifier. DEX fallback via FanX/Kayen: LP withdrawal as leading
+  indicator, slippage as health proxy. Korean market concentration map for 30+
+  registry tokens. Full agent decision rules and JSON output schema.
+
+  **Named metrics introduced:** EDLI (Exchange Delisting Likelihood Index),
+  IPS (Intervention Probability Score), RRS (Re-listing Readiness Score).
+
+  **Cross-layer integration documented:** fan-token-lifecycle (Phase 4/5/6 mapping),
+  fan-holder-profile (CHI EDLI modifier), fan-sentiment (CDI cap rule),
+  defi-liquidity (LP monitoring), gamified-tokenomics (FTP cannot offset EDLI > 60),
+  fan-token-partnership (ESRPLE → IPS), fraud-signal (MRS elevation),
+  chiliz-chain-address (on-chain EDLI inputs), macro-regulatory-sportfi
+  (MiCA/SEC-CFTC structural offsets).
+
+  **Real-world anchors used in construction:**
+  SPURS Bithumb/Coinone/Gopax warnings (2025–2026), IoTeX DAXA watchlist removal
+  as intervention precedent, WEMIX double delisting/re-listing cycle, FLOW −50%
+  on Korean delisting confirmation (March 2026), ASR delisted from CoinDCX June 2025,
+  Binance StaFi (FIS) −73% post-delisting (December 2025).
+
 ## [3.79.2] — 2026-04-18
 
 ### Added
