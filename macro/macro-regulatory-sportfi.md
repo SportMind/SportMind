@@ -77,6 +77,8 @@ WHAT MiCA DOES NOT COVER:
 
 ### United States — Joint SEC/CFTC Guidance (Landmark 2026)
 
+**Academic grounding: Lopez-Gonzalez & Petrotta (2024), *International Gambling Studies* — correlational study of US sports bettors consuming fan tokens, NFTs, and crypto. Documents harm potential in the intersection of sports gambling behaviour and fan token acquisition in the US market. This paper is part of the evidence chain that shaped the harm-reduction framing of the March 2026 SEC/CFTC guidance — classifying fan tokens as digital collectibles (not securities) explicitly separates them from gambling products and removes the most significant regulatory risk to US market entry.**
+
 ```
 STATUS: LANDMARK GUIDANCE ISSUED (2026) — ENABLES US MARKET RE-ENTRY
 

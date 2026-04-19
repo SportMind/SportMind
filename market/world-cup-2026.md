@@ -142,6 +142,16 @@ BRACKET SIGNAL AMPLIFICATION:
 
 ---
 
+## Pre-tournament signal protocol
+
+The pre-tournament window (now through June 10) requires dedicated monitoring.
+Load `fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md`
+alongside this file for the full countdown protocol — squad announcement
+intelligence, national token activation sequence, NCSI awakening for club
+tokens, and daily monitoring cycle.
+
+---
+
 ## Signal calendar for agents
 
 ```

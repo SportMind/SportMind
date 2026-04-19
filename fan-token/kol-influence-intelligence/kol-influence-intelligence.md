@@ -13,6 +13,8 @@ or club can move HAS independently of any athlete or match outcome.
 
 ---
 
+**Academic grounding: Baldi, Botti & Carrubbo (2023), *Springer RIIFORUM* — sentiment analysis of fan token platform content confirms that social sentiment metrics predict short-term price movements. Content published by influential accounts generates measurable HAS spikes with distinct decay profiles from organic match-driven spikes. This empirically grounds the KIS (KOL Impact Score) and the paid vs organic signal distinction modelled below.**
+
 ## Why KOL intelligence matters for fan tokens
 
 Fan token markets respond to information asymmetry. When a Tier 1 KOL with

@@ -31,6 +31,8 @@ This skill gives agents the structured framework to tell them apart.
 
 ---
 
+**Academic grounding: Dedousi & Fassas (2025), *Review of Behavioral Finance* — herd behaviour confirmed in digital asset markets including fan tokens; herding is amplified during high-volume sporting events. This creates the conditions where wash trading and coordinated pump attacks are both harder to detect and more impactful: legitimate momentum and manipulated momentum become harder to distinguish. The MRS framework below is calibrated to this regime-dependence — attack thresholds are lower during high-event-volume windows.**
+
 ## The six manipulation attack types
 
 ```

@@ -1,5 +1,79 @@
 # Changelog
 
+## [3.84.0] — 2026-04-19
+
+### Added
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md` —
+  493 lines. Pre-tournament intelligence protocol for the 53-day window from
+  April 19 through June 10, 2026. Signal window opens May 12 (T-30 days).
+
+  Covers: 12-token monitoring setup with tier classification ($ARG/$POR/$ITA
+  national tokens; $PSG/$BAR/$CITY/$AFC/$ACM/$INTER/$JUV club NCSI tokens;
+  $CHVS/$SAN host nation; BFT multi-chain Brazil). Squad announcement protocol
+  — ATM Tier 1 injury = club token ×0.88 modifier + national −8–18%; full
+  impact table for inclusion/exclusion/fitness scenarios. National token
+  activation sequence from T-53 (dormant) through T-0 (tournament transition).
+  NCSI awakening chain for club tokens at 0.70× pre-tournament weight. US
+  market first-mover signal layer (CDI extension +8–15% for US-aligned tokens).
+  MRS elevated vigilance — pre-tournament is second-highest fraud risk period;
+  herding pattern detection; three fraud pattern signatures. Pre-tournament daily
+  monitoring cycle (08:00 UTC, five-step protocol). Exact transition checkpoint
+  to tournament mode (June 11, 15:00 UTC) with carry-forward state values.
+
+- `compressed/README.md` — New compressed skill: [COMPRESSED] World Cup 2026
+  pre-tournament protocol. Total compressed entries: 80 → 81.
+
+### Changed
+- `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` —
+  Pre-tournament protocol section added, pointing to new file. Parent module
+  now explicitly references the countdown protocol.
+- `market/world-cup-2026.md` — Pre-tournament signal protocol section added
+  before signal calendar, pointing to new file.
+
+## [3.83.1] — 2026-04-19
+
+### Changed — Seven additional citation blocks (second pass)
+
+Seven papers from `community/academic-references.md` integrated into
+skill files where they were unregistered but genuinely validate specific
+claims. These are the papers with concrete SportMind relevance beyond
+general validation of the library's premise.
+
+- `platform/fraud-signal-intelligence.md` — Dedousi & Fassas (2025),
+  *Review of Behavioral Finance*. Herding amplified during high-volume
+  sporting events → MRS detection thresholds are regime-dependent.
+
+- `market/sports-equity-intelligence.md` — Foglia, Maci & Pacelli (2024),
+  *Research in International Business and Finance*. Risk spillover between
+  fan tokens and crypto quantified → CHZ macro state modifier discounts
+  are empirically grounded.
+
+- `fan-token/fan-holder-profile-intelligence.md` — Alaminos et al. (2025),
+  *SAGE Journals*. On-chain activity + club social = most predictive neural
+  network features → CHI weighting structure empirically validated.
+
+- `fan-token/kol-influence-intelligence/kol-influence-intelligence.md` —
+  Baldi, Botti & Carrubbo (2023), *Springer RIIFORUM*. Social sentiment
+  predicts short-term price → KIS framework grounded. First citation for
+  the KOL intelligence file.
+
+- `market/market-football.md` — Chen (2025), *IJSMS*. Digital ethnography
+  of Man City, Everton, Crystal Palace holders. Identity-driven motivations
+  dominant; governance valued over price → PL Loyalist-dominant thesis
+  empirically supported.
+
+- `fan-token/fan-token-exchange-intelligence.md` — (1) Marques et al. (2026)
+  purchase intent study above geographic alignment signal. (2) Assaf et al.
+  (2024) + Vidal-Tomás (2023) + Lubian (2023) combined at EDLI bubble section.
+
+- `macro/macro-regulatory-sportfi.md` — Lopez-Gonzalez & Petrotta (2024)
+  US harm study above SEC/CFTC section. Connects academic evidence chain
+  to the March 2026 digital collectibles classification outcome.
+
+### Fixed
+- `WHO-WE-ARE.md` — Version header v3.82 → v3.83. Academic-references.md
+  added to community infrastructure section. Version cycles 96 → 97.
+
 ## [3.83.0] — 2026-04-19
 
 ### Added

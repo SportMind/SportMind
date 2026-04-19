@@ -1581,3 +1581,37 @@ AGENT RULE: check CHZ macro state before applying any sport-specific modifier. I
 ```
 REF: market/sports-equity-intelligence.md
 
+
+## [COMPRESSED] World Cup 2026 pre-tournament protocol
+
+```
+WINDOW: April 19 – June 10, 2026. Signal window opens May 12 (T-30).
+TRANSITION: June 11 → deactivate this, load world-cup-2026-intelligence/ as primary.
+
+12 EXPOSED TOKENS:
+  Tier 1 national: $ARG (def. champion, Messi narrative), $POR (Ronaldo narrative), $ITA (verify qualification)
+  Tier 2 club NCSI: $PSG (France/Mbappé), $BAR (Spain/Yamal+Pedri+Rodri), $CITY (multi-national)
+  Tier 2 club: $AFC (Saka/England, NCSI only — no PATH_2 on WC matches)
+  Tier 2 club Italy: $ACM/$INTER/$JUV (depends on $ITA qualification — verify first)
+  Tier 3 host: $CHVS/$SAN (Mexico — verify expired status before applying)
+  Multi-chain: BFT/Brazil (BiTCI chain, no Socios mechanics)
+
+SQUAD ANNOUNCEMENT (May 1–15):
+  ATM Tier 1 confirmed INJURED: club token ×0.88 for tournament + national −8–18%
+  ATM Tier 1 confirmed FIT: +3–7% relief signal (24h)
+  Pre-tournament NCSI weight: 0.70× (vs 1.00× during tournament)
+
+NATIONAL TOKEN ACTIVATION:
+  T-53 (now): near-dormant. Monitor only.
+  T-30 (May 12): signal window opens. Begin daily cycle.
+  T-14: warm-up matches. Injury = Category 1 breaking news only.
+  T-0: tournament transition. Load parent WC2026 module.
+
+MRS ELEVATED: pre-tournament is second-highest fraud risk period.
+  MRS > 50: apply 0.70× confidence, no entry until MRS < 35.
+
+$ARG SPECIAL: Messi final WC narrative — if confirmed T-30: narrative_amplifier = 1.25
+$ITA CRITICAL: verify qualification status BEFORE loading any Italian token WC signals
+```
+REF: fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md
+

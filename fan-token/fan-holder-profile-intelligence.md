@@ -122,6 +122,8 @@ MIXED ARCHETYPE:
 
 ---
 
+**Academic grounding: Alaminos et al. (2025), *SAGE Journals* — deep neural network analysis of fan token pricing. On-chain activity and club social engagement are the two most predictive features across all model architectures tested. Price data alone is less predictive than the combination of on-chain holder behaviour and club social signals. This empirically validates CHI's weighting of on-chain activity (35% loyalist share, 25% governance participation) over price-derived signals.**
+
 ## Community Health Index (CHI)
 
 ```

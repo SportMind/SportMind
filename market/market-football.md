@@ -239,7 +239,14 @@ one platform creates a switching cost for both clubs and holders that has proven
 - World Cup 2026 is the single largest catalyst event in the near-term football token
   calendar — begin monitoring national team token positions 6+ months in advance
 - The Premier League gap (no major PL club with a liquid token) is the biggest
-  untapped expansion opportunity in the current ecosystem
+  untapped expansion opportunity in the current ecosystem. **Academic grounding:
+  Chen (2025), *International Journal of Sports Marketing and Sponsorship* — digital
+  ethnography of Manchester City, Everton, and Crystal Palace fan token holders
+  (first qualitative study of Premier League fan token communities). Holder motivations
+  are primarily identity-driven with secondary financial interest; governance participation
+  is valued more highly than token price performance among active holders. This confirms
+  that a PL token launched with genuine club utility would attract a Loyalist-dominant
+  holder base — the highest-quality composition for long-term CHI stability.**
 - Turkish Süper Lig clubs have the highest Chiliz concentration; their tokens are
   most sensitive to domestic league outcomes and European competition results
 - Median fan token holder age (29) is significantly younger than general football

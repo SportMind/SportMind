@@ -525,6 +525,22 @@ HARD RULES:
 
 ---
 
+## Pre-tournament protocol
+
+**The signal window is open from T-30 days (May 12, 2026).**
+
+The 53-day pre-tournament window requires a different operating mode from
+tournament match-day signals. Squad announcements, injury news, NCSI awakening
+for club tokens, national token activation, and US market first-mover signals
+all operate on different timing and confidence rules than live match signals.
+
+→ **Load `world-cup-2026-pre-tournament.md` from April 2026 through June 10.**
+  This file covers the full countdown protocol, daily monitoring cycle,
+  squad announcement impact table, MRS elevated vigilance rules, and the
+  exact transition checkpoint to tournament mode on June 11.
+
+---
+
 ## Load order for World Cup 2026 analysis
 
 ```

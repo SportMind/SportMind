@@ -34,9 +34,9 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.82)
+## What the library contains (v3.84)
 
-**580 files.** 96 version cycles since v3.0.
+**581 files.** 98 version cycles since v3.0.
 
 **Five intelligence layers:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
@@ -76,7 +76,7 @@ strategy; real-time integration patterns
 
 **Community infrastructure:** 126 empirically validated calibration records across 21 sports;
 6 recalibration reports (v3-v6); CONTRIBUTING.md; CONTRIBUTORS.md; FIRST-RECORD-CHALLENGE.md;
-community leaderboard
+community leaderboard; academic-references.md (52 peer-reviewed papers, full evidence base)
 
 **Developer tooling:** 7 starter pack examples (⭐ to ⭐⭐⭐⭐⭐); 11 application blueprints;
 13 agentic workflow patterns; 22 agent prompts organised by stakeholder type; 80 compressed

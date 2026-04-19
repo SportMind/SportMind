@@ -161,6 +161,8 @@ ecosystem in the same way that a sector ETF functions for a stock vertical.
 
 ---
 
+**Academic grounding: Foglia, Maci & Pacelli (2024), *Research in International Business and Finance* — risk spillover between fan tokens and broader crypto markets quantified. Fan tokens transmit and receive risk from the crypto ecosystem, not just from sporting events. During broad crypto market stress, spillover dominates sporting signals. This empirically grounds the CHZ macro state model below and the modifier discount rules applied during BTC bull/bear phases.**
+
 ## CHZ as the fan token macro layer
 
 Chiliz (CHZ) is the native token of Chiliz Chain and the currency used to purchase

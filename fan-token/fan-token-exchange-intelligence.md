@@ -320,6 +320,8 @@ constitute a natural volume intervention even without explicit club action.
 
 ---
 
+**Academic grounding: Assaf, Demir & Ersan (2024), *International Review of Economics & Finance* — GSADF-based bubble detection in fan tokens confirms periods of exuberance precede sharp corrections. Vidal-Tomás (2023), *Journal of Economic Studies* — bubble phenomenon and Chiliz ecosystem dynamics documented. Lubian (2023), *Journal of Quantitative Finance and Economics* — asymmetric downside volatility confirmed: negative moves exceed positive moves in magnitude. All three inform the EDLI risk calibration below.**
+
 ## Exchange Delisting Likelihood Index (EDLI)
 
 The EDLI is a 0–100 score for any fan token in the registry, calculated by agents
@@ -787,6 +789,8 @@ market-relevant fan token (GAL, TRA, SPURS) carries materially stronger 30-day
 signal durability than a listing on a global general-purpose exchange.
 
 ### Geographic alignment signal
+
+**Academic grounding: Marques, Sousa & Barbosa (2026), *International Journal of Sports Marketing and Sponsorship* — fan token purchase intent study. Club loyalty and perceived governance influence are the two strongest predictors of token acquisition intent, significantly outweighing financial return expectations. This empirically confirms that aligned listings — those reaching fans who already follow the club — generate durable Loyalist-archetype holders, while misaligned listings attract Speculator-archetype buyers with no loyalty anchor.**
 
 The most important listing intelligence variable for fan tokens is whether the
 exchange serves the token's actual fanbase geography.
