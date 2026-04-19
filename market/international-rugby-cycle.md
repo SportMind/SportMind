@@ -19,8 +19,7 @@ league has the State of Origin as its dominant annual signal — not a bilateral
 but an intra-national competition that disrupts the NRL club calendar more than any
 international series disrupts football.
 
-**2. The token ecosystem is pre-launch but catalyst-ready.** Neither code has active
-Chiliz fan tokens at the time of writing. The CVC Capital Partners investment in Six
+**2. The token ecosystem is pre-launch but catalyst-ready.** Neither code has active fan tokens at the time of writing. The CVC Capital Partners investment in Six
 Nations, Premiership Rugby, and the United Rugby Championship is the structural commercial
 signal that rugby union is building toward the same tokenisation pathway football has
 followed. The World Cup is the activation window. Agents monitoring rugby tokens need

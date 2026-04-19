@@ -3,7 +3,7 @@
 ## At a Glance
 **Tier 2 — High Credibility, Near-Term.** MotoGP is the world's premier motorcycle
 racing championship with a global audience of ~400M and particular strength in Southern
-Europe, Southeast Asia, and Latin America. No active Chiliz fan tokens. Dorna Sports
+Europe, Southeast Asia, and Latin America. No active fan tokens. Dorna Sports
 (MotoGP promoter) has been active in digital fan engagement and the sport's rider-centric
 token model (rather than team-centric like F1) creates natural fan token opportunities.
 

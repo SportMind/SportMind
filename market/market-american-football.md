@@ -2,8 +2,7 @@
 
 ## At a Glance
 **Tier 2 — High Credibility, Near-Term.** The NFL is the highest-revenue single sports
-league in the world (~$20B annually) and the most commercially sophisticated. No active
-Chiliz fan tokens exist as of Q1 2026 — US regulatory environment and NFL's cautious
+league in the world (~$20B annually) and the most commercially sophisticated. No active fan tokens exist as of Q1 2026 — US regulatory environment and NFL's cautious
 institutional stance are the primary barriers. When NFL tokens launch, they will likely
 be among the highest market-cap tokens in the ecosystem.
 

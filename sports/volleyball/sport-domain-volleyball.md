@@ -10,7 +10,7 @@ See GOOD_FIRST_ISSUES.md to contribute additional modifiers or records.
 Volleyball is an Olympic-cycle sport with a significant year-round professional circuit
 (FIVB World League/Nations League, club competitions). Brazil, Italy, Poland, and Japan
 have the deepest fan cultures and strongest potential for fan token ecosystems.
-No current Chiliz fan tokens — but the demographic profile (young, global, digital) makes
+No current fan tokens — but the demographic profile (young, global, digital) makes
 volleyball a plausible future token sport, particularly for national federation tokens.
 
 ---

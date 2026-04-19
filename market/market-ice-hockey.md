@@ -3,7 +3,7 @@
 ## At a Glance
 **Tier 2 — High Credibility, Near-Term.** The NHL generates ~$6.5B in annual revenue
 with a passionate, concentrated fanbase in Canada, the US northern states, and Northern
-Europe. No active Chiliz fan tokens. The sport has strong digital engagement credentials,
+Europe. No active fan tokens. The sport has strong digital engagement credentials,
 a younger median fan age than NFL or MLB, and franchise values that have grown dramatically
 under Gary Bettman's expansion strategy. The primary market concentration in Canada and
 Northern Europe creates a specific geographic token profile distinct from other North

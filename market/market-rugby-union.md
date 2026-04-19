@@ -4,7 +4,7 @@
 **Tier 2 — High Credibility, Near-Term.** Rugby union generates ~$1B+ annually across
 its major competitions. The Six Nations (UK, Ireland, France, Italy, Scotland, Wales)
 is one of Europe's highest-attended annual sporting events; the Rugby World Cup is a
-$600M+ commercial event every four years. No active Chiliz fan tokens at competition
+$600M+ commercial event every four years. No active fan tokens at competition
 level, though some club-level experimentation exists. The sport's European heartland
 overlaps significantly with football's token-active markets.
 

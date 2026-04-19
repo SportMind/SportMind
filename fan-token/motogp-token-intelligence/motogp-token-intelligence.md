@@ -12,7 +12,7 @@ three of the highest crypto-adoption regions in the world.
 
 ```
 TOKEN ECOSYSTEM STATUS: Tier 2 — high credibility, near-term
-  No active Chiliz tokens at time of writing
+  No active fan tokens at time of writing
   Dorna Sports: centralised commercial authority (one deal covers full championship)
   Rider-centric model: Márquez, Bagnaia, Binder — individual rider tokens viable
   Southeast Asia: Indonesia (80M+ fans), Thailand, Malaysia = crypto-native markets

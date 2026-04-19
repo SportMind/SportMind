@@ -12,7 +12,7 @@ the most unique team sports in the world. An oval field, 18 players per side,
 no offside, continuous flow, and a dual scoring system (goals worth 6, behinds
 worth 1) create prediction dynamics unlike any other sport in this library.
 
-The AFL currently has no active Chiliz fan token, but the Australian sports market
+The AFL currently has no active fan token, but the Australian sports market
 is one of the most engaged and tech-forward in the world. Token infrastructure
 expansion toward AFL is a credible near-term scenario, particularly given the
 AFL's existing digital product ambitions and its dominant cultural position in

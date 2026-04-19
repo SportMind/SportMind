@@ -14,7 +14,7 @@ circuits, constructors championship, aerodynamic engineering) or MotoGP
 racing at 200mph+, drafting dynamics, and a playoff structure unique to motorsport.
 
 The sport's audience is predominantly North American, deeply loyal, and increasingly
-digitally engaged. The NASCAR Cup Series currently has no active Chiliz fan token
+digitally engaged. The NASCAR Cup Series currently has no active fan token
 but represents a credible expansion target given the sport's massive commercial
 infrastructure and the 2026 FIFA World Cup's activation of the North American
 sports market.

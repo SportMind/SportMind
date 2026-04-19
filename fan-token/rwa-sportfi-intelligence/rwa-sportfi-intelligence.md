@@ -683,7 +683,7 @@ PHASE 5 TIER THRESHOLDS:
   RSF 0.80-1.00: Phase 5e (DAO governance active)
 
 CURRENT MARKET DISTRIBUTION (2026 estimate):
-  Phase 5a: ~15-20% of active Chiliz tokens
+  Phase 5a: ~15-20% of active fan tokens
   Phase 5b: ~5-8% of active tokens
   Phase 5c+: < 5% (emerging; PSG, Barcelona most advanced)
   Phase 5e: 0% (not yet achieved by any major sports entity)

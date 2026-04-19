@@ -1,5 +1,63 @@
 # Changelog
 
+## [3.86.2] — 2026-04-19
+
+### Fixed
+- `fan-token/league-football-token-intelligence.md` — Premier League section
+  corrected. $AFC (Arsenal) and $CITY (Manchester City) are Premier League clubs
+  with fan tokens on Chiliz Chain — correctly listed alongside $SPURS, $AVL,
+  $EFC, $CPFC, and $LUFC as PL fan tokens. The previous version incorrectly
+  introduced a distinction based on the registry's organisational grouping
+  ("Top European clubs") — a filing category, not a league membership category.
+
+  PL section updated from "5 fan tokens" to "7 fan tokens":
+    $AFC: Tier 1 PL club. PATH_2 confirmed April 2026. UCL regular.
+    $CITY: Tier 1 PL club. UCL winners. Most WC2026-resilient token.
+    $SPURS · $AVL · $EFC · $CPFC · $LUFC: as before.
+
+  $AFC dedicated signal section added (PATH_2 mechanics apply to all $AFC
+  PL signals — win = supply reduction; load gamified-tokenomics-intelligence
+  alongside any $AFC analysis).
+
+  $CITY dedicated signal section added (diversified NCSI, UCL-primary,
+  Haaland fatigue monitoring for August PL start).
+
+  Post-WC2026 fatigue section updated: $AFC and $CITY now included with
+  specific player references (Saka/Bellingham for $AFC, Foden/Haaland for $CITY).
+
+  Transfer window sensitivity updated for all 7 PL tokens.
+
+## [3.86.1] — 2026-04-19
+
+### Fixed — terminology: "fan token" not "Chiliz token"
+
+Fan tokens are a product category. They are not "Chiliz tokens" — they are fan tokens
+that happen to be issued on Chiliz Chain (or in some cases other chains). Corrected
+across 25 files library-wide. Specific fixes:
+
+- "63 active Chiliz tokens" → "63 active fan tokens" (league-football header)
+- "No active Chiliz fan tokens" → "No active fan tokens" (market files: american-football,
+  rugby-union, ice-hockey, baseball, motogp, cricket, esports, international-rugby-cycle)
+- "Chiliz fan token ecosystem" retained where it refers to the platform specifically;
+  removed where it redundantly labels the product
+- "None on Chiliz" in BVB.DE registry row → "No fan token" (sports-equity-intelligence)
+- "MANU has no Chiliz fan token" → "MANU has no fan token" (sports-equity-intelligence)
+- "UFC has an active Chiliz fan token" → "UFC has an active fan token ($UFC)" (×2)
+- "have both BIST equity listings and Chiliz fan tokens" → "fan tokens (on Chiliz Chain)"
+- "multiple esports orgs have active Chiliz fan tokens" → "active fan tokens"
+- "FIFA has no Chiliz fan token" → "FIFA has no fan token" (macro-governance-scandal)
+- "no Chiliz fan tokens, largest gaps" → "no fan tokens" (compressed/README.md)
+- PL gap description: "has a Chiliz fan token" → "has a fan token"
+
+Retained as-is (platform-specific references):
+- "Chiliz fan token ecosystem" when referring to the Chiliz/Socios platform
+- "All active Chiliz fan tokens" when distinguishing from multi-chain tokens
+- "on Chiliz Chain" / "Chiliz ecosystem" / "Chiliz platform" — all correct
+
+Also fixed: Bundesliga gap section — "BVB.DE: no Chiliz token" → "No fan token"
+(sports-equity-intelligence.md). The Bundesliga gap text in
+league-football-token-intelligence.md was already correct ("ZERO ACTIVE FAN TOKENS").
+
 ## [3.86.0] — 2026-04-19
 
 ### Added

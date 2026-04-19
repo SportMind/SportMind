@@ -115,7 +115,7 @@ for general population in developed markets).
 - **Activision Blizzard (CoD):** Microsoft-owned post-2023; enterprise-cautious on crypto.
 
 **Organisation-level activity:**
-- Multiple esports orgs have active Chiliz fan tokens (Team Vitality $VIT, OG Esports, others)
+- Multiple esports orgs have active fan tokens (Team Vitality $VIT, OG Esports, others)
 - FaZe Clan ran a crypto token ($FAZE) — controversial; resulted in SEC investigation
 - Most professional orgs are aware of fan tokens as a revenue stream; adoption varies by org
 

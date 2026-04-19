@@ -518,7 +518,7 @@ POST-TOURNAMENT (July 2026 onwards):
 MARKET SIZE ESTIMATE FOR WC2026 FAN TOKEN COMMERCIAL WINDOW:
 
 CURRENT FAN TOKEN MARKET (pre-WC2026):
-  Active Chiliz tokens: ~50+ club and national tokens
+  Active fan tokens: ~50+ club and national tokens
   Combined market cap: $200-400M range (varies with crypto market cycle)
   Active monthly holders: ~2-3M globally
 

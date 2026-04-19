@@ -15,7 +15,7 @@ description: >
 
 # League Football Token Intelligence
 
-**Seven leagues. 63 active Chiliz tokens. Distinct signal architectures.**
+**Seven leagues. 63 active fan tokens. Distinct signal architectures.**
 
 The FTIS framework and NCSI model in `fan-token/football-token-intelligence/`
 apply universally. This file covers what the universal framework cannot: why
@@ -78,7 +78,7 @@ DOMESTIC VS EUROPEAN SIGNAL RATIO:
     $BFC and $UDI are primarily domestic — Serie A position is the key signal.
 
 INTER-LEAGUE DYNAMICS — THE MILAN DUAL-TOKEN:
-  $ACM vs $INTER are both active Chiliz tokens.
+  $ACM vs $INTER are both active fan tokens.
   Derby della Madonnina = multi-token event (see football-token-intelligence/).
   Signal asymmetry: the losing Milan token typically drops more than the winner gains.
   Loss-effect asymmetry applies here with amplification (identity-holder base).
@@ -116,28 +116,46 @@ POST-WC2026 SQUAD FATIGUE PROTOCOL:
 
 ---
 
-## Premier League — 5 tokens + the PL gap
+## Premier League — 7 fan tokens + the PL gap
 
-**Tokens:** $SPURS · $AVL · $EFC · $CPFC · $LUFC
+**PL fan tokens (all on Chiliz Chain):** $AFC · $CITY · $SPURS · $AVL · $EFC · $CPFC · $LUFC
+
+Seven Premier League clubs have fan tokens on Chiliz Chain. The registry groups
+$AFC (Arsenal) and $CITY (Manchester City) under "Top European clubs" due to their
+UCL profile, but both play in the Premier League and their domestic PL performance
+is a direct signal input. All seven are PL fan tokens.
 
 ```
 LEAGUE TOKEN PROFILE:
-  Highest-revenue league; paradoxically thin Chiliz token representation.
-  No Arsenal (PATH_2 club but no fan token on Chiliz for domestic purposes —
-  $AFC is the commercial token; domestic PL performance is signal for $AFC).
-  No Manchester City domestic fan token ($CITY is the Chiliz token covering them).
-  The PL gap: no Chelsea, Liverpool, Manchester United, Newcastle token.
-  This gap is the largest single commercial opportunity in the Chiliz ecosystem.
-
-  Current PL tokens are all mid-tier clubs:
+  Highest-revenue league. Seven fan tokens across the commercial spectrum:
+    $AFC:  Arsenal — Tier 1 PL club. PATH_2 confirmed April 2026. UCL regular.
+    $CITY: Manchester City — Tier 1 PL club. UCL winners. Multi-national squad.
     $SPURS: Tier 2 PL club — European aspiration, strong global brand
-    $AVL: Rising Tier 2 — Aston Villa's European ambition era (post-2024 UCL)
-    $EFC: Tier 3 PL club — Everton, historically loyal Merseyside fanbase
+    $AVL:  Rising Tier 2 — Aston Villa's European ambition era (post-2024 UCL)
+    $EFC:  Tier 3 PL club — Everton, historically loyal Merseyside fanbase
     $CPFC: Tier 3 PL club — Crystal Palace, London club with identity-strong holders
     $LUFC: Championship/PL oscillating — Leeds United, volatile signal profile
 
-HOLDER ARCHETYPE — PL TOKENS:
-  All five PL tokens skew strongly Loyalist.
+  THE PL GAP: no Chelsea, Liverpool, Manchester United, or Newcastle fan token.
+  Despite being the world's highest-revenue league, its biggest clubs (by global
+  brand) remain absent from Chiliz Chain. This is the largest single commercial
+  opportunity in the fan token ecosystem.
+
+$AFC SIGNAL — PATH_2 PRIORITY:
+  Arsenal is the confirmed Fan Token Play PATH_2 club (April 2026).
+  WIN = permanent supply reduction. PATH_2 mechanics apply to ALL $AFC signals.
+  Load fan-token/gamified-tokenomics-intelligence/ alongside any $AFC analysis.
+  PL performance drives both sporting signal AND supply mechanics simultaneously.
+  UCL participation amplifies $AFC signal beyond standard PL tier weight.
+
+$CITY SIGNAL ARCHITECTURE:
+  Manchester City: diversified NCSI exposure (England, Norway, Spain, Belgium,
+  Portugal players). Almost guaranteed WC2026 NCSI uplift from 2–3 nations.
+  UCL is the primary $CITY signal amplifier — PL title signal secondary.
+  Post-tournament: monitor Haaland and Foden fitness for August PL start.
+
+HOLDER ARCHETYPE — PL FAN TOKENS:
+  All seven PL fan tokens skew Loyalist-dominant.
   Academic grounding: Chen (2025) digital ethnography of PL token holders
   (Man City, Everton, Crystal Palace) — identity motivation dominant;
   governance valued above price performance. Apply Loyalist signal protocols.
@@ -162,33 +180,32 @@ $AVL EMERGING PROFILE:
   Domestic PL position: secondary signal unless top-4 race live.
 
 PL TOKEN TRANSFER WINDOW SENSITIVITY:
-  All five PL tokens are sensitive to summer transfer window arrivals.
-  Reason: PL clubs are the world's primary buyer destination — transfers happen
-  to PL clubs more often than from them.
-  $SPURS arrival of Tier 1 ATM player: +10–18% (expectation pricing begins
-  at credible rumour stage, not just signing).
+  All seven PL tokens are sensitive to summer transfer window arrivals.
+  Reason: PL clubs are the world's primary transfer destination.
+  $AFC and $CITY: arrival of Tier 1 ATM player = PATH_2 and CDI compound signal.
+  $SPURS arrival of Tier 1 ATM player: +10–18% CDI extension.
   Summer window timeline:
-    Rumour (Tier 2 source): +2–4% speculative spike; do not apply full modifier
+    Rumour (Tier 2 source): +2–4% speculative spike; hold full modifier
     Signing confirmed: full ATM modifier applied; CDI extended
     Medical/unveil: HAS peak event; 72h elevated signal window
 
 THE PL GAP — COMMERCIAL INTELLIGENCE:
-  No major PL club (Chelsea, Liverpool, Manchester United, Newcastle) has a
-  Chiliz fan token. If any launches:
+  No Chelsea, Liverpool, Manchester United, or Newcastle fan token exists.
+  If any of these launches:
     Apply ×1.40 first-mover CDI modifier at launch.
-    Liverpool or Manchester United launch: MAXIMUM signal event in the registry.
+    Liverpool or Manchester United: MAXIMUM signal event in the registry.
     Holder archetype at launch: Speculator-heavy initially; Loyalist conversion
     expected within 60–90 days if club utility is genuine.
     US market overlap: Liverpool and Manchester United have the deepest
     US fanbases of any football clubs — immediate US CDI extension applicable.
 
 POST-WC2026 SQUAD FATIGUE:
-  England contributed players from: $SPURS (Son excluded — South Korea),
-  $CITY (Foden, Walker), $AFC (Saka, Bellingham).
-  For $SPURS specifically: Son Heung-min is South Korean —
-  monitor Asian Cup and World Cup qualification separately from WC2026.
-  PL season starts ~August 15: apply 0.93× modifier for WC2026 participants
-  in first 3 PL matches. Recovery after third match.
+  $AFC: Saka (England Group L), Bellingham (England Group L) — apply 0.93×
+    for first 3 PL matches. PATH_2 resumes at full weight after recovery.
+  $CITY: Foden/Walker (England), Haaland (Norway Group I) — apply 0.93×
+    for first 3 PL matches. Haaland fatigue most significant if Norway advance.
+  $SPURS: Son Heung-min (South Korea) — monitor separately; not WC2026 England.
+  PL season starts ~August 15: 27 days after WC2026 final (July 19).
 ```
 
 ---
@@ -279,7 +296,7 @@ $TRA (TRABZONSPOR) SIGNAL:
   $TRA equity listed: TSPOR.IS — apply equity cross-signal protocol for major results.
 
 GALATASARAY vs TRABZONSPOR MULTI-TOKEN DYNAMIC:
-  Both have active Chiliz tokens. Fixture is high-signal multi-token event.
+  Both have active fan tokens. Fixture is high-signal multi-token event.
   Unlike Milan derby (identity-balanced), Gala-Trabzon has clear regional
   identity divide: Istanbul cosmopolitan vs Trabzon provincial.
   Apply: full dual-token FTIS calculation; no compression for this fixture.
@@ -325,7 +342,7 @@ LEAGUE TOKEN PROFILE:
   CDI decay: slower than European leagues (96h baseline vs 48–72h for European).
 
 FLA-FLU MULTI-TOKEN DERBY ($MENGO vs $FLU):
-  Flamengo vs Fluminense: both have active Chiliz tokens.
+  Flamengo vs Fluminense: both have active fan tokens.
   This is the only South American dual-token derby in the registry.
   Fla-Flu is a Tier 1 cultural event in Brazil regardless of league position.
   Signal: apply full dual-token FTIS calculation.
@@ -512,15 +529,15 @@ AFC CHAMPIONS LEAGUE SIGNAL FOR ASIAN TOKENS:
 ## The Bundesliga gap
 
 ```
-BUNDESLIGA: ZERO ACTIVE CHILIZ TOKENS
+BUNDESLIGA: ZERO ACTIVE FAN TOKENS
 
-Germany's top football league has no active Chiliz fan tokens as of 2026.
+Germany's top football league has no active fan tokens as of 2026.
 This is the largest structural gap in the European token ecosystem.
 
 WHY IT MATTERS:
   Bundesliga 50+1 fan ownership rule = highest structural alignment with fan tokens.
   German clubs have existing governance cultures that map to token mechanics.
-  BVB.DE (Borussia Dortmund): listed equity, no Chiliz token.
+  BVB.DE (Borussia Dortmund): listed equity, no fan token.
     FWONK-equivalent: BVB.DE equity moves can precede any future token launch.
   Bayern Munich: global brand with zero Chiliz engagement.
 
@@ -649,4 +666,4 @@ POST-WC2026 TRANSITION (August 2026):
 ---
 
 *SportMind v3.85.0 · MIT License · sportmind.dev*
-*Covers 7 token-active leagues · 63 active Chiliz tokens · August 2026 season context*
+*Covers 7 token-active leagues · 63 active fan tokens · August 2026 season context*

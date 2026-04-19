@@ -11,7 +11,7 @@ pitcher-first analysis, Ohtani-effect franchise catalysts, and Japan-US market b
 
 ```
 TOKEN ECOSYSTEM STATUS: Tier 2 — high credibility, near-term
-  No active Chiliz tokens at time of writing
+  No active fan tokens at time of writing
   MLB digital history: MLB Champions NFTs (2019), MLB Crypto Baseball
   Ohtani/Dodgers Japan catalyst: highest individual commercial value in baseball
   Latin American market: DR, Venezuela, Cuba, Panama = deep token-ready fanbase

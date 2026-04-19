@@ -1575,7 +1575,7 @@ CHZ MACRO STATES: bull macro(BTC>+15%)=−20% sport modifier weight · bear macr
   −30% modifier weight · CHZ specific positive/negative = investigate before applying sport signal.
   WC2026 CHZ boost: 10% revenue buyback mechanism → systematic CHZ demand during tournament.
 SPORTS-ADJACENT: FWONK(Liberty/F1)=F1 commercial macro · TKO(UFC+WWE)=UFC token commercial macro
-NO EQUITY = BVB.DE(Dortmund) · MANU(Manchester United) — no Chiliz fan tokens, largest gaps.
+NO EQUITY = BVB.DE(Dortmund) · MANU(Manchester United) — no fan tokens, largest gaps.
 AGENT RULE: check CHZ macro state before applying any sport-specific modifier. If CHZ rising
   on ecosystem news(not sport), note catalyst before attributing to sport signal.
 ```
@@ -1627,8 +1627,9 @@ SERIE A (7 tokens: $ACM $INTER $JUV $ASR $NAP $BFC $UDI):
   Financial monitoring: UEFA FFP sanctions = immediate −5–12% signal
   Post-WC fatigue: 0.92× for Italy squad participants, first 4 matches
 
-PREMIER LEAGUE (5 tokens: $SPURS $AVL $EFC $CPFC $LUFC):
-  All 5 skew strongly Loyalist (Chen 2025 ethnography confirms identity motivation dominant)
+PREMIER LEAGUE (7 tokens: $AFC $CITY $SPURS $AVL $EFC $CPFC $LUFC):
+  $AFC (PATH_2 club, Tier 1) and $CITY (multi-national squad, most WC-resilient) are Tier 1.
+  $SPURS/$AVL/$EFC/$CPFC/$LUFC skew strongly Loyalist (Chen 2025 confirms identity motivation dominant)
   $LUFC: verify current division (PL/Championship oscillation) before applying FTIS
   PL gap: no Chelsea/Liverpool/Man Utd token — launch of any = MAXIMUM signal event
   Post-WC fatigue: 0.93× for WC participants, first 3 matches
@@ -1657,8 +1658,8 @@ LIGUE 1 (2 tokens: $PSG $ASM):
   Ligue 1 title LOSS for PSG: RARE — would be −10–18% shock
   $PSG post-WC fatigue: 0.90× France WC starters, first 3 Ligue 1 matches (earliest start ~Aug 8)
 
-BUNDESLIGA GAP: zero Chiliz tokens. 50+1 rule = highest structural readiness.
-  Any Bundesliga launch: ×1.40 CDI first-mover modifier. Dortmund most likely.
+BUNDESLIGA GAP: zero fan tokens. 50+1 rule = highest structural readiness.
+  Any Bundesliga fan token launch: ×1.40 CDI first-mover modifier. Dortmund most likely.
 ```
 REF: fan-token/league-football-token-intelligence.md
 

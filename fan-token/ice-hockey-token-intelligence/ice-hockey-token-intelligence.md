@@ -12,7 +12,7 @@ where cryptocurrency is mainstream.
 
 ```
 TOKEN ECOSYSTEM STATUS: Tier 2 — high credibility, near-term
-  No active Chiliz tokens at time of writing
+  No active fan tokens at time of writing
   Canadian crypto adoption: ~30% (among highest per-capita globally)
   Rogers/Bell broadcast deal: major revenue anchor through 2026
   European entry point: Swedish, Finnish, Czech clubs have token readiness

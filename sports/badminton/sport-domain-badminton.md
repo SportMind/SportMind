@@ -11,7 +11,7 @@ Badminton is the world's second-most played sport by participation (after footba
 Dominant markets: China, Indonesia, Malaysia, South Korea, India, Denmark.
 All World Badminton Federation (BWF) events are relevant; the Thomas Cup (men's teams)
 and Uber Cup (women's teams) are the highest-value team competition signals.
-No current Chiliz fan tokens, but the Indonesian market specifically
+No current fan tokens, but the Indonesian market specifically
 ($PERSIB, $PRSJ are already there) suggests national badminton federation tokens
 are commercially plausible — particularly for Indonesia, Malaysia, and India.
 

@@ -39,7 +39,7 @@ Layer 3: Bilateral Series (nation-vs-nation)
 Layer 4: Domestic Leagues (club-level)
   IPL (India, March-May) — largest commercial league
   BBL (Australia, December-February)
-  PSL (Pakistan, February-March) — active Chiliz tokens
+  PSL (Pakistan, February-March) — active fan tokens
   SA20 (South Africa, January-February)
   ILT20 (UAE, January-February)
   CPL (Caribbean, August-September)
@@ -68,7 +68,7 @@ Layer 4: Domestic Leagues (club-level)
 | Major bilateral series (final) | 0.50–0.65 | Various | India bilateral premium |
 | IPL Qualifier/Final | 0.70 | T20 | Domestic but highest-profile |
 | Standard IPL match | 0.35 | T20 | High volume; individual match lower |
-| PSL Final | 0.60 | T20 | Active Chiliz token market |
+| PSL Final | 0.60 | T20 | Active fan token market |
 | Standard bilateral Test | 0.40 | Test | Series-specific |
 | T20I (standalone) | 0.25 | T20 | Low if no tournament context |
 
@@ -198,7 +198,7 @@ BBL (Australia) — December to February:
   Domestic signal; limited fan token relevance currently
   
 PSL (Pakistan) — February to March:
-  Active Chiliz token market — highest cricket token signal currently active
+  Active fan token market — highest cricket token signal currently active
   PSL Final: NCSI 0.60; series highest for active cricket tokens
   
 SA20 (South Africa), ILT20 (UAE), CPL (Caribbean):
@@ -287,7 +287,7 @@ WHEN TO LOAD THIS DOCUMENT:
 Load for:
   Any cricket token or prediction market analysis
   IPL franchise token intelligence (despite no active tokens — monitoring)
-  PSL token signal analysis (active Chiliz tokens)
+  PSL token signal analysis (active fan tokens)
   India-Pakistan match analysis (always load — ×2.00 override)
   Post-ICC tournament APS/transfer intelligence
   Bilateral series signal weighting

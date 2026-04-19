@@ -2210,7 +2210,7 @@ Stub sports promoted to BASIC: volleyball (93L), badminton (92L), table tennis (
 
 ## v3.85.0 — 2026-04-19
 League football token intelligence (651L). Seven token-active leagues,
-63 active Chiliz tokens, league fingerprints, post-WC2026 fatigue protocols,
+63 active fan tokens, league fingerprints, post-WC2026 fatigue protocols,
 Bundesliga gap analysis, cross-league monitoring framework.
 
 ## v3.84.0 — 2026-04-19

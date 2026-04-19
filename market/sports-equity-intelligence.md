@@ -42,7 +42,7 @@ frameworks for AI reasoning agents, not trading guidance.
 ### European football clubs on public exchanges
 
 **The Turkish BIST quartet** — the most fan-token-relevant equity cluster globally.
-All four clubs have both BIST equity listings and Chiliz fan tokens:
+All four clubs have both BIST equity listings and fan tokens (on Chiliz Chain):
 
 | Club | Ticker | Exchange | Fan Token | Notes |
 |---|---|---|---|---|
@@ -88,7 +88,7 @@ moves more slowly (next trading day) and fan token moves more immediately.
 
 | Club | Ticker | Exchange | Fan Token | Notes |
 |---|---|---|---|---|
-| Borussia Dortmund | BVB.DE | Frankfurt (ETR) | None on Chiliz | No fan token — gap in ecosystem |
+| Borussia Dortmund | BVB.DE | Frankfurt (ETR) | No fan token | Largest structural gap in European fan token ecosystem |
 
 BVB.DE has documented +1.03% average daily return on wins and −1.77% on losses
 (2.80% swing). This is the strongest empirically validated match result / equity
@@ -106,7 +106,7 @@ MANU is unique — listed on NYSE, giving US institutional investors direct
 football equity exposure without crypto. In the post-SEC/CFTC March 2026
 guidance environment, MANU's US listing creates a natural bridge between
 traditional sports investors and potential fan token holders. MANU has no
-Chiliz fan token — the largest club-sized gap in the entire ecosystem.
+fan token — the largest club-sized gap in the entire ecosystem.
 If MANU launches a token (confirmed or rumoured), it would represent the
 single largest new token event in the Chiliz ecosystem outside of a WC2026
 national team.
@@ -123,7 +123,7 @@ national team.
 | FC Copenhagen | PARKEN.CO | Nasdaq Copenhagen | None on Chiliz |
 
 Benfica is the only non-Turkish European club with both an active equity listing
-and a Chiliz fan token. The SLBEN.LS / BENFICA signal pairing is therefore
+and a fan token (on Chiliz Chain). The SLBEN.LS / BENFICA signal pairing is therefore
 the cleanest non-Turkish cross-instrument test case in the registry.
 
 ---
@@ -148,7 +148,7 @@ digital engagement expansion, streaming deal announcements, and franchise
 value disclosures. These signal F1's investment in the fan engagement layer.
 
 **TKO Group Holdings (TKO — NYSE):**
-TKO is the parent of both WWE and UFC. UFC has an active Chiliz fan token (UFC).
+TKO is the parent of both WWE and UFC. UFC has an active fan token ($UFC).
 TKO's commercial trajectory — broadcast deals, pay-per-view performance, new
 market expansion — is directly relevant to UFC fan token commercial modelling.
 TKO's stock is the closest available proxy for UFC's corporate health. A major
@@ -407,7 +407,7 @@ Relevant tokens in registry: SAUBER (expired), AM (expired). Relevant to
 any future F1 team token announcement.
 
 **TKO Group Holdings (TKO, NYSE):**
-Parent of UFC and WWE. UFC has an active Chiliz fan token. TKO broadcast
+Parent of UFC and WWE. UFC has an active fan token ($UFC). TKO broadcast
 and commercial performance is the UFC token's macro context. Key signal:
 TKO quarterly earnings — any mention of UFC international expansion (Middle
 East, Asia, Europe) is a positive CDI signal for UFC token, as new audience

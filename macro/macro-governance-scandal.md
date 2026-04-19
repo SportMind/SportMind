@@ -35,7 +35,7 @@ COMMERCIAL CONSEQUENCES:
   The scandal's commercial impact was primarily reputational, not immediately financial
   
 TOKEN MARKET LESSON:
-  FIFA has no Chiliz fan token; but the lesson is clear:
+  FIFA has no fan token; but the lesson is clear:
   Governing body scandals do not immediately destroy the sport's commercial value —
   but they create sustained uncertainty that suppresses new investment, new partnerships,
   and digital product development for 2-4 years after the initial crisis.

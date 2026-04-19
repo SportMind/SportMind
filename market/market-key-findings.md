@@ -132,7 +132,7 @@ sports that are currently blocked by institutional caution:
 | NBA | Tier 1; NBA-gapped | Would unlock NBA team tokens specifically |
 
 **The pattern:** All four major North American leagues (NFL, MLB, NHL, NBA) lack
-comprehensive Chiliz fan token ecosystems despite commercial profiles that would
+comprehensive fan token ecosystems despite commercial profiles that would
 qualify for Tier 1. The common barrier is not commercial — it is regulatory uncertainty
 in the US market and institutional caution about SEC/CFTC classification.
 
