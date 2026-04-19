@@ -665,6 +665,87 @@ EXCHANGE_DELISTING_INTELLIGENCE_PROTOCOL:
 
 ---
 
+## Aggregator trust signal framework
+
+CoinGecko and CoinMarketCap are not live data sources for SportMind agents —
+they are platforms. Their published methodologies encode stable analytical frameworks
+that agents apply as reasoning scaffolding without any API dependency.
+
+### CoinGecko Exchange Trust Score → EDLI calibration
+
+CoinGecko rates exchanges on a 1–10 Trust Score based on traffic, trading
+legitimacy, API quality, and regulatory standing. The Trust Score distribution
+of a fan token's listing venues is more informative than raw venue count:
+
+| Trust Score | Tier | EDLI implication |
+|---|---|---|
+| 9–10 | Tier 1 (Binance, OKX, Coinbase) | Delisting = maximum EDLI severity event |
+| 7–8 | Tier 1–2 boundary (Bybit, Kraken) | Significant but not global anchor |
+| 5–6 | Tier 2 (Gate.io, MEXC, KuCoin) | Important for regional volume |
+| 3–4 | Tier 3 (XT.com, LBank, niche regional) | Delisting is low-severity |
+| 1–2 | Tier 4 (DEX-equivalent CEX) | On-chain signal preferred over volume |
+
+A token listed on 10 Trust Score 3 exchanges is more fragile than a token
+listed on 3 Trust Score 8 exchanges. Apply this distribution test before
+calculating concentration risk in EDLI volume signals.
+
+### CoinMarketCap Liquidity Score as EDLI leading indicator
+
+CMC's Liquidity Score normalises order book depth and spread across venues.
+A declining Liquidity Score trend without a sporting catalyst is an EDLI
+Stage 0 pre-warning signal. It is a leading indicator because it reflects
+institutional market maker withdrawal — market makers reduce depth before
+volume collapses in headline figures.
+
+**Rule:** A 30% Liquidity Score decline over 60 days with flat headline
+volume is a higher-risk configuration than low volume with a stable score.
+The flat volume is being maintained by retail activity without market maker
+depth — a fragile liquidity structure that collapses under any selling pressure.
+
+---
+
+## Institutional flow signals
+
+### OTC and professional market making
+
+Large fan token transactions and club treasury management route through OTC
+desks rather than spot markets. An institutional buy of 500,000 AFC tokens
+OTC does not appear in spot volume but reduces circulating supply available
+to retail. Agents should not interpret low spot volume as low institutional
+interest — OTC activity is systematically invisible to aggregators.
+
+**Observable institutional signal:** Bid-ask spread on major token pairs
+tightening from 0.5%+ to below 0.2% without a volume explanation. This is
+professional market making entering the token. When Galaxy Digital or Cumberland
+begins quoting tight spreads on a fan token pair, the token has reached
+institutional viability. This reduces EDLI baseline by 10 points versus default.
+
+**Coinbase Prime:** The primary institutional onramp for US sports investors
+post-SEC/CFTC guidance (March 2026). Custody announcements in quarterly
+Coinbase Prime disclosures are early signals of institutional accumulation
+before any spot volume change.
+
+### Neobank distribution as lifecycle signal
+
+Revolut (50M+ European users), Crypto.com, and eToro represent mainstream
+distribution channels that expand fan token reach to non-crypto-native sports
+fans. A confirmed neobank listing is a Phase 2→3 lifecycle acceleration signal:
+
+- Neobanks conduct due diligence before listing — confirmation validates
+  the token's commercial standing.
+- Audience expansion to mainstream sports fans (core Revolut demographic
+  is 25–35 European, matching fan token holder profile).
+- Volume uplift is typically short-term (6–12 weeks) followed by baseline
+  stabilisation as the new audience becomes the installed base.
+- Neobank volumes are typically not reflected in CoinGecko or CMC rankings —
+  distribution value is fan acquisition, not trading depth.
+
+**Agent instruction:** Neobank listing is a positive IPS factor (ecosystem
+expanding) and a negative EDLI factor (reduced concentration risk). Advance
+lifecycle phase signal toward Phase 3 confirmation on neobank listing.
+
+---
+
 ## See also
 
 - `fan-token/fan-token-lifecycle/fan-token-lifecycle.md` — Phase 4/5/6 mapping
@@ -676,3 +757,4 @@ EXCHANGE_DELISTING_INTELLIGENCE_PROTOCOL:
 - `platform/fraud-signal-intelligence.md` — MRS elevation protocol
 - `platform/chiliz-chain-address-intelligence.md` — On-chain EDLI inputs
 - `macro/macro-regulatory-sportfi.md` — Structural exchange risk offsets
+- `market/sports-equity-intelligence.md` — Cross-instrument equity signals, CHZ macro layer

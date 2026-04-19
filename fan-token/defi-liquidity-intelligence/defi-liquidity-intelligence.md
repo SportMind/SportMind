@@ -490,6 +490,56 @@ BURN SIGNAL CLASSIFICATION:
   MANIPULATED SIGNAL: wash trading detected (see platform/fraud-signal-intelligence.md)
 ```
 
+## 6. Cross-chain DEX liquidity — BSC and Ethereum multi-chain tokens
+
+Six fan tokens in the registry are not on Chiliz Chain. They operate on BSC
+(Binance Smart Chain) or Ethereum under different issuers (Binance, Paribu).
+Their DEX liquidity mechanics are distinct from Chiliz-native tokens.
+
+**BSC tokens (ALPINE, PORTO, SANTOS, LAZIO):**
+These trade on PancakeSwap, the dominant BSC AMM. PancakeSwap uses the same
+Uniswap V2/V3 constant product formula as FanX/Kayen, but with different pool
+depth, LP incentive structures, and gas cost dynamics.
+
+Key differences from Chiliz-native DEX:
+- **Gas costs:** BSC gas is denominated in BNB and significantly lower than
+  Ethereum but different from Chiliz Chain's CHZ gas model. For small fan token
+  purchases ($50–$200), gas cost as a percentage of trade size is lower on BSC
+  than on Ethereum, which supports retail participation.
+- **LP incentive structure:** PancakeSwap CAKE rewards are independent of
+  any fan token utility. LP providers are purely yield-driven, not fan-motivated.
+  This means LP depth is more volatile in response to CAKE emissions changes —
+  a CAKE tokenomics update can drain fan token LP pools with no sporting event trigger.
+- **Impermanent loss:** Fan token price volatility is higher than most PancakeSwap
+  pairs, creating elevated impermanent loss risk for LPs. This suppresses LP depth
+  relative to what the trading volume might justify, increasing slippage.
+
+**Agent instruction for BSC tokens:**
+When assessing ALPINE, PORTO, SANTOS, or LAZIO DEX liquidity, use PancakeSwap
+pool data rather than FanX/Kayen. CAKE emission changes are an external EDLI
+risk factor — a PancakeSwap rewards reduction can trigger LP withdrawal with
+no fan token-specific cause. Flag any CAKE major tokenomics update as a
+liquidity health check trigger for these four tokens.
+
+**Ethereum tokens (BJK, FB):**
+Beşiktaş (BJK) and Fenerbahçe (FB) are on Ethereum, issued by Paribu (Turkish exchange).
+Their primary DEX venue is Uniswap. Ethereum gas costs are substantially higher
+than BSC or Chiliz Chain — for fan token purchase sizes under $500, gas costs
+are meaningful and actively suppress retail DEX participation.
+
+These tokens' practical liquidity is almost entirely CEX-dependent (Paribu,
+Bitget) rather than DEX-dependent. DEX monitoring for BJK and FB provides
+minimal signal. Default to CEX volume and Paribu platform health as primary
+liquidity indicators.
+
+**Cross-chain bridge signal:**
+Chiliz has announced an omnichain model as part of the Chiliz 2030 roadmap.
+When cross-chain bridges between Chiliz Chain and BSC/Ethereum become operational,
+the BSC and Ethereum fan tokens listed here could migrate liquidity to FanX/Kayen.
+This bridge moment — potentially before or during WC2026 — would materially
+change the DEX intelligence model for ALPINE, PORTO, SANTOS, LAZIO, BJK, and FB.
+Monitor Chiliz chain changelog and governance proposals for bridge activation.
+
 ## Compatibility
 
 **Prerequisites:**
@@ -499,6 +549,8 @@ BURN SIGNAL CLASSIFICATION:
 
 **Closely related:**
 - `fan-token/blockchain-validator-intelligence/` — validator rewards as DeFi yield
+- `fan-token/fan-token-exchange-intelligence.md` — CEX tier framework, EDLI
+- `market/sports-equity-intelligence.md` — CHZ macro layer, cross-instrument signals
 - `core/confidence-output-schema.md` — output schema (add DeFi flags)
 - `platform/fraud-signal-intelligence.md` — manipulation detection for DEX signals
 
@@ -507,4 +559,4 @@ BURN SIGNAL CLASSIFICATION:
 
 ---
 
-*SportMind v3.62 · MIT License · SportMind · sportmind.dev*
+*SportMind v3.81.0 · MIT License · SportMind · sportmind.dev*

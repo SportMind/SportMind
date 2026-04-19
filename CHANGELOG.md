@@ -1,5 +1,63 @@
 # Changelog
 
+## [3.81.0] — 2026-04-19
+
+### Added
+- `market/sports-equity-intelligence.md` — New 500-line market intelligence file.
+  Publicly listed sports clubs and sports-adjacent equities as cross-instrument
+  signal channels for fan token and sports agents. CHZ macro layer model.
+  Institutional market structure. Agent cross-instrument reasoning framework.
+
+  **Complete listed club registry:** Turkish BIST quartet (GSRAY.IS/GAL,
+  FENER.IS/FB, BJKAS.IS/BJK, TSPOR.IS/TRA) with documented match result →
+  stock price correlation. Italian Serie A (JUVE.MI/JUV, ASR.MI/ASR,
+  SSL.MI/LAZIO). German Bundesliga (BVB.DE — no fan token, gap flagged).
+  English Premier League (MANU/NYSE — no Chiliz token, largest ecosystem gap).
+  European clubs (AJAX.AS, SLBEN.LS/BENFICA, FCP.LS/PORTO, OLG.PA, CCP.L).
+  Sports-adjacent equities: Liberty Media/F1 (FWONK/Nasdaq), TKO Group/UFC+WWE
+  (TKO/NYSE).
+
+  **CHZ macro layer:** Three-phase CHZ/fan token relationship model (crypto
+  macro dominance → sporting event decoupling → ecosystem events). CHZ macro
+  state indicator table with modifier discount rules. Chiliz 2030 structural
+  signals including 10% revenue buyback mechanism and WC2026 omnichain model.
+
+  **CoinGecko Trust Score → EDLI calibration table.** CMC Liquidity Score
+  as EDLI leading indicator — market maker withdrawal precedes volume collapse.
+
+  **Three cross-instrument signal types:** Equity leads token (information
+  advantage — financial results, sponsorship, management changes); token leads
+  equity (sentiment advantage — CHI, governance participation); divergence as
+  risk indicator (equity rising / token falling = club deprioritising FT utility;
+  token rising / equity flat = retail not yet pricing institutional risk signal).
+
+  **Agent decision rules:** CHZ macro state check before all fan token analysis,
+  equity anomaly detection with 72h token alert window, Turkish BIST cross-signal
+  protocol, UCL/Europa League → equity lead factor, institutional signal detection,
+  Chiliz 2030 WC2026 CHZ macro boost.
+
+### Changed
+- `fan-token/fan-token-exchange-intelligence.md` — Two new sections added (+82 lines):
+  (1) Aggregator trust signal framework: CoinGecko Exchange Trust Score → EDLI
+  calibration table; CMC Liquidity Score as leading indicator. (2) Institutional
+  flow signals: OTC/market making detection, Coinbase Prime custody signals,
+  neobank listing as Phase 3 accelerator and EDLI reducer. See also updated to
+  include `market/sports-equity-intelligence.md`.
+
+- `fan-token/defi-liquidity-intelligence/defi-liquidity-intelligence.md` — New
+  Section 6 (+52 lines): Cross-chain DEX liquidity for BSC and Ethereum multi-chain
+  tokens (ALPINE, PORTO, SANTOS, LAZIO on PancakeSwap; BJK, FB on Uniswap/Ethereum).
+  PancakeSwap mechanics vs FanX/Kayen differences. CAKE emission changes as
+  external EDLI risk factor for BSC tokens. Ethereum gas cost impact on BJK/FB
+  retail DEX participation. Chiliz omnichain bridge signal for when cross-chain
+  liquidity migration may occur. Version footer updated to v3.81.0.
+
+- `fan-token/fan-token-lifecycle/fan-token-lifecycle.md` — Phase 3 section expanded
+  (+33 lines): Neobank listing signal as Phase 3 accelerator (Revolut/Crypto.com/eToro
+  due diligence = commercial validation, mainstream audience expansion, EDLI reducer).
+  Institutional distribution signal as Phase 3 quality marker (bid-ask spread tightening
+  as professional market making entry confirmation).
+
 ## [3.80.0] — 2026-04-19
 
 ### Added

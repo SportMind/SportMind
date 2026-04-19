@@ -143,9 +143,42 @@ LTUI — Lifetime Token Utility Index:
   Low LTUI + declining holder count = highest termination risk
 ```
 
+**Phase 3 expansion signals — distribution layer:**
+
+Beyond club utility events, two external distribution signals confirm and
+accelerate Phase 3 status:
+
+```
+NEOBANK LISTING SIGNAL (Phase 3 accelerator):
+  A confirmed listing on a major neobank (Revolut, Crypto.com, eToro) is
+  a Phase 3 confirmation event — neobanks conduct due diligence before listing,
+  validating the token's commercial standing.
+
+  Signal implications:
+    Audience expansion: mainstream sports fans, not just crypto-native holders
+    Geographic signal: Revolut user base is 25–35 European (core fan token demographic)
+    Volume uplift: typically short-term (6–12 weeks), then baseline stabilisation
+    Aggregator invisibility: neobank volumes typically not in CoinGecko/CMC
+      — distribution value is fan acquisition, not trading depth
+
+  EDLI impact: reduces concentration risk score
+  IPS impact: positive factor (broader ecosystem distribution)
+  Lifecycle signal: advance toward Phase 3 confirmation
+
+INSTITUTIONAL DISTRIBUTION SIGNAL (Phase 3 quality marker):
+  When a token's primary exchange pairs show bid-ask spreads tightening
+  from 0.5%+ to <0.2% without volume explanation, professional market
+  makers have entered. This confirms the token has reached institutional
+  viability — a Phase 3 quality threshold that most tokens do not reach.
+
+  See: fan-token/fan-token-exchange-intelligence.md — institutional signals
+  See: market/sports-equity-intelligence.md — institutional market structure
+```
+
 ---
 
 ## Phase 4 — Utility plateau intelligence
+
 
 ```
 PLATEAU PHASE CHARACTERISTICS:
