@@ -47,7 +47,7 @@ in the space. **SportMind is the shared layer.**
 **Option A — Paste into any LLM (zero setup)**
 
 ```
-1. Open Claude, GPT-4, or Gemini
+1. Open Claude, GPT-4, Gemini, Groq, Mistral, or any LLM
 2. Paste: contents of core/sportmind-purpose-and-context.md
 3. Paste: contents of sports/football/sport-domain-football.md
 4. Ask: "PSG vs Arsenal UCL tonight. PSG full squad. Arsenal striker injured.
