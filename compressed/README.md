@@ -1615,3 +1615,50 @@ $ITA CRITICAL: verify qualification status BEFORE loading any Italian token WC s
 ```
 REF: fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md
 
+
+## [COMPRESSED] League football token intelligence
+
+```
+7 LEAGUES — SIGNAL FINGERPRINTS:
+
+SERIE A (7 tokens: $ACM $INTER $JUV $ASR $NAP $BFC $UDI):
+  UCL > Serie A for top-3 Milan/Juve/Inter/Napoli (1.30× UCL weight when active)
+  Milan Derby: winner +4–9%, loser −7–14% (loss asymmetry amplified by identity holders)
+  Financial monitoring: UEFA FFP sanctions = immediate −5–12% signal
+  Post-WC fatigue: 0.92× for Italy squad participants, first 4 matches
+
+PREMIER LEAGUE (5 tokens: $SPURS $AVL $EFC $CPFC $LUFC):
+  All 5 skew strongly Loyalist (Chen 2025 ethnography confirms identity motivation dominant)
+  $LUFC: verify current division (PL/Championship oscillation) before applying FTIS
+  PL gap: no Chelsea/Liverpool/Man Utd token — launch of any = MAXIMUM signal event
+  Post-WC fatigue: 0.93× for WC participants, first 3 matches
+
+LA LIGA (5 tokens: $BAR $ATM $VCF $RSO $SEVILLA):
+  $BAR: triple signal chain (UCL + La Liga + Spanish NCSI) — track separately
+  $SEVILLA: UEL specialist — apply 1.15× for UEL matches
+  $RSO: Copa del Rey = identity event, not just a cup
+  Post-WC fatigue: 0.91× Spain squad starters, $BAR first 4 matches
+
+TURKISH SÜPER LIG (7 tokens: $GAL $TRA $GOZ $ALA $IBFK $SAM $GFK):
+  Loyalist-dominant (85–90%). Check EDLI before ANY domestic signal for $GAL/$TRA.
+  $GAL + GSRAY.IS equity cross-signal active (see sports-equity-intelligence.md)
+  BIST Sports Index underperformance vs BIST100 = +10 EDLI baseline for all Turkish tokens
+  Winter break: 0.90× form reliability first 2 matches after return
+
+BRAZILIAN SÉRIE A (8 tokens: $MENGO $FLU $SCCP $VERDAO $GALO $SPFC $SACI $BAHIA):
+  Amplifier-dominant + Loyalist. CDI decay 96h (vs 48h European).
+  Load kol-intelligence BEFORE any major Brazilian fixture.
+  Copa Libertadores > Série A title for $MENGO signal priority
+  Fla-Flu dual-token derby: CDI +48h extension beyond standard for both tokens
+  Série A runs Feb–Dec — overlaps European summer (load both seasonal contexts)
+
+LIGUE 1 (2 tokens: $PSG $ASM):
+  $PSG: UCL = primary signal. Ligue 1 title = +2–5% only (priced in).
+  Ligue 1 title LOSS for PSG: RARE — would be −10–18% shock
+  $PSG post-WC fatigue: 0.90× France WC starters, first 3 Ligue 1 matches (earliest start ~Aug 8)
+
+BUNDESLIGA GAP: zero Chiliz tokens. 50+1 rule = highest structural readiness.
+  Any Bundesliga launch: ×1.40 CDI first-mover modifier. Dortmund most likely.
+```
+REF: fan-token/league-football-token-intelligence.md
+

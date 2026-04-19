@@ -2197,7 +2197,12 @@ no live data dependency, no API keys required.
 - `compressed/README.md` — 52 → 54 summaries: gamified tokenomics (~200t) and regulatory
   SportFi (~210t) compressed forms added.
 
-### v3.84.0 — 2026-04-19
+### v3.85.0 — 2026-04-19
+League football token intelligence (651L). Seven token-active leagues,
+63 active Chiliz tokens, league fingerprints, post-WC2026 fatigue protocols,
+Bundesliga gap analysis, cross-league monitoring framework.
+
+## v3.84.0 — 2026-04-19
 WC2026 pre-tournament intelligence module (493L). 12-token monitoring setup,
 squad announcement protocol, NCSI awakening chain, national token activation
 sequence, MRS elevated vigilance, tournament transition checkpoint.

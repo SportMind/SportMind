@@ -517,6 +517,19 @@ You are a football fan token intelligence agent. Before evaluating any football 
 
 ---
 
+## League token intelligence
+
+For the league-specific fan token signal architecture — how each league's structure,
+holder archetypes, European competition interactions, and post-WC fatigue protocols
+affect the FTIS and NCSI outputs from this file — load:
+
+→ **`fan-token/league-football-token-intelligence.md`**
+  Covers Serie A (7 tokens), Premier League (5 tokens + PL gap), La Liga (5 tokens),
+  Turkish Süper Lig (7 tokens), Brazilian Série A (8 tokens), Ligue 1 (2 tokens),
+  other European (8 clubs), Asian/SEA (4 clubs), and the Bundesliga gap.
+
+---
+
 ## Compatibility
 
 **Layer 1 companion:** `sports/football` — load alongside for full domain context.

@@ -375,6 +375,19 @@ CHAMPIONS LEAGUE QUALIFYING:
 
 ---
 
+## League fan token intelligence
+
+For the fan token-specific signal layer — holder archetypes per league, domestic vs
+European signal ratios, Brazilian Série A KOL amplification, Turkish EDLI interaction,
+post-WC2026 squad fatigue protocols, and the Bundesliga gap — load:
+
+→ **`fan-token/league-football-token-intelligence.md`**
+
+This file covers competition stakes and prize windows. The league token intelligence
+file covers what those stakes mean for each league's specific token ecosystem.
+
+---
+
 ## Agent loading instruction
 
 ```

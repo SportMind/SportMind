@@ -1,5 +1,59 @@
 # Changelog
 
+## [3.85.0] — 2026-04-19
+
+### Added
+- `fan-token/league-football-token-intelligence.md` — 651 lines.
+  League-specific fan token signal intelligence for all seven token-active
+  football leagues. Distinct from football-token-intelligence/ (FTIS mechanics)
+  and football-leagues-advanced.md (competition stakes) — this file covers the
+  league-level token ecosystem fingerprints that neither provides.
+
+  Serie A (7 tokens — $ACM $INTER $JUV $ASR $NAP $BFC $UDI): UCL > domestic for
+  top clubs (1.30× weighting), Milan derby loss asymmetry (+4–9% winner, −7–14%
+  loser), UEFA FFP monitoring signal, Serie A wage publication for APS.
+
+  Premier League (5 tokens — $SPURS $AVL $EFC $CPFC $LUFC): all five Loyalist-
+  dominant (Chen 2025 ethnography), $LUFC division oscillation flag, PL gap
+  commercial analysis (Liverpool/Man Utd/Chelsea launch = maximum signal),
+  $AVL emerging European profile.
+
+  La Liga (5 tokens — $BAR $ATM $VCF $RSO $SEVILLA): $BAR triple-chain signal
+  (UCL + domestic + Spanish NCSI — track separately, not collapsed), $SEVILLA
+  UEL specialist modifier (1.15×), $RSO Copa del Rey identity significance.
+
+  Turkish Süper Lig (7 tokens — $GAL $TRA $GOZ $ALA $IBFK $SAM $GFK): highest
+  Loyalist concentration (85–90%), EDLI-first rule before domestic signal for
+  $GAL/$TRA, GSRAY.IS equity cross-signal, BIST Sports Index underperformance
+  = +10 EDLI baseline, winter break form decay.
+
+  Brazilian Série A (8 tokens — $MENGO $FLU $SCCP $VERDAO $GALO $SPFC $SACI
+  $BAHIA): Amplifier-dominant, 96h CDI decay, KOL-first protocol, Copa
+  Libertadores > Série A for $MENGO, Fla-Flu dual-token CDI extension,
+  Série A calendar offset (Feb–Dec) overlap note.
+
+  Ligue 1 (2 tokens — $PSG $ASM): $PSG UCL-primary signal, domestic title +2–5%
+  only, title loss shock scenario, $PSG post-WC highest fatigue risk
+  (earliest league start ~Aug 8).
+
+  Bundesliga gap: zero active tokens, 50+1 structural readiness, Dortmund
+  most likely first mover, launch protocol documented.
+
+  Cross-league monitoring framework: daily cycle, league calendar by month,
+  post-WC fatigue modifiers per league, priority triage protocol.
+
+  Post-WC2026 squad fatigue protocols for every league: PL 0.93×/3 matches,
+  La Liga 0.91×/$BAR 4 matches, Serie A 0.92×/4 matches, Ligue 1 0.90×/3 matches.
+
+- `compressed/README.md` — [COMPRESSED] League football token intelligence
+  added. Total: 81 → 82 entries.
+
+### Changed
+- `fan-token/football-token-intelligence/token-intelligence-football.md` —
+  League token intelligence cross-reference section added before Compatibility.
+- `market/football-leagues-advanced.md` — Cross-reference to league token
+  intelligence file added before Agent loading instruction.
+
 ## [3.84.0] — 2026-04-19
 
 ### Added
