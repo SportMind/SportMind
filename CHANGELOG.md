@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.86.3] — 2026-04-19
+
+### Fixed
+- `index.html`, `docs.html`, `demo.html`, `agent.html`, `autonomous.html` —
+  Mobile navigation drawer added to all five pages. On mobile (≤720px), a ☰
+  button now appears in the nav. Tapping it opens a full-width dropdown showing
+  all page links (Home, Docs, Demo, Agent, Autonomous, GitHub). Tapping any link
+  or anywhere outside the drawer closes it. The current page is highlighted in
+  accent colour. The drawer uses existing CSS variables and respects light/dark
+  mode automatically. Drawer JS added to each page (self-contained, no
+  dependencies). All pages now navigable on mobile without scrolling or zooming.
+
+- `README.md` — Quickstart Option A updated: "Open Claude, GPT-4, or Gemini"
+  → "Open Claude, GPT-4, Gemini, Groq, Mistral, or any LLM".
+
 ## [3.86.2] — 2026-04-19
 
 ### Fixed
