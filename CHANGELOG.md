@@ -1,5 +1,43 @@
 # Changelog
 
+## [3.86.5] — 2026-04-19
+
+### Fixed — Full mobile responsive pass (autonomous, demo, docs)
+
+Root cause of sideways scroll on all pages: html/body missing
+overflow-x:hidden, combined with fixed-width elements not respecting
+their container bounds. Added html,body{overflow-x:hidden} to all
+five pages as a global safety net.
+
+autonomous.html:
+  - pipeline bar: added max-width:100%, width:100%, box-sizing:border-box
+    (pipeline was overflowing its container and pushing page width)
+  - .log, .agent-hdr, .sbar: added width:100%, box-sizing:border-box
+  - .main: added overflow-x:hidden, width:100%, min-width:0
+  - nav-side .current background: fixed var(--green-bg) → var(--accent-dim)
+    (autonomous uses its own dark theme tokens; --green-bg was undefined)
+  - mobile block: pipeline padding reduced, phase labels smaller font,
+    agent-hdr padding tightened, run-btn and sbar padding reduced
+
+demo.html:
+  - .terminal, .terminal-wrap: added max-width:100%, min-width:0
+  - .term-body: added max-width:100%, box-sizing:border-box
+  - .demo-badge: added flex-shrink:1, max-width:100% (was forcing header wider)
+  - mobile block: page-header padding reduced to 32px 16px, badge hidden on
+    mobile, term-body font reduced to 11px, terminal min-height to 400px
+  - demo-wrap mobile padding: 0 16px (was 0 24px causing tight fit)
+
+docs.html:
+  - .docs-wrap: added box-sizing:border-box
+  - .doc-table: changed to display:block with overflow-x:auto and
+    -webkit-overflow-scrolling:touch (wide tables no longer push page)
+  - .doc-table td:first-child: white-space:normal on mobile
+  - mobile content padding: 32px 20px 64px 20px (was 0 — text was clipping
+    right to screen edge with no breathing room)
+  - mobile docs-wrap padding: 0 16px
+  - Additional mobile rules: callout, tool-card, sg-header, cfg-pane,
+    app-card, metric-row all tightened for narrow screens
+
 ## [3.86.4] — 2026-04-19
 
 ### Fixed — Mobile navigation and responsive layout
