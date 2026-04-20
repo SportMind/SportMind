@@ -1,5 +1,45 @@
 # Changelog
 
+## [3.86.6] — 2026-04-20
+
+### Fixed — Mobile UI/UX full audit pass
+
+autonomous.html:
+  - Theme button was squashed: .th CSS was entirely missing from this page.
+    Added: 34×32px, inline-flex, border, correct colours.
+  - Nav badge ("Autonomous") hidden on mobile to stop logo area overcrowding.
+  - 480px breakpoint added: phase labels hidden, pipeline padding tightened,
+    hero padding reduced.
+
+docs.html:
+  - arch-band-nodes and arch-band-sub: added justify-content:center so
+    architecture diagram pill labels centre-align on all screen widths.
+  - arch-band: added width:100%, box-sizing:border-box.
+  - cfg-pane: added max-width:100%, box-sizing:border-box.
+  - content: added min-width:0, box-sizing:border-box.
+  - sidebar-toggle: improved to text-align:left, box-sizing:border-box.
+
+index.html:
+  - stack-nodes: added justify-content:center (pill labels now centred —
+    matches screenshot request).
+  - stack-node mobile: font-size increased 10→11px for readability.
+  - 480px breakpoint: uc-grid → 1fr, stats-g → 1fr, CTAs stack full-width.
+  - Old footer CSS (.foot-i, .foot-links, .foot-a, .foot-copy, .foot-logo)
+    removed — replaced by .site-footer system.
+
+demo.html:
+  - 480px breakpoint: scenario-list → 1fr, term-body font 10px.
+
+All five pages:
+  - Unified footer: replaced all footer HTML and CSS (inline-styled on 4 pages,
+    class-based on index) with a single consistent .site-footer system.
+    New footer: logo left, links centre, copyright right, flex-wrap, full
+    mobile responsive (stacks to column on ≤720px, 20px horizontal padding).
+    Links: GitHub · Changelog · Contribute · MIT License.
+  - nav-i height: agent.html normalised 50→52px (matches all other pages).
+  - .th button: agent.html normalised to 34×32px inline-flex (matches others).
+  - nav-r gap: autonomous gap:2px → gap:4px for consistent touch targets.
+
 ## [3.86.5] — 2026-04-19
 
 ### Fixed — Full mobile responsive pass (autonomous, demo, docs)
