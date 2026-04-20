@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.86.7] — 2026-04-20
+
+### Fixed — docs overflow root cause, stats layout, nav consistency, OG image
+
+docs.html:
+  - Root cause of "Clone repository" overflow identified and fixed.
+    .step (display:flex) children had no min-width:0 — flex children can
+    grow beyond their container, causing pre blocks to exceed page width.
+    Added min-width:0 and overflow:hidden to .step-body and .step-desc.
+    Added word-break:break-all to pre on mobile (catches long URLs).
+  - Double-padding resolved: .content mobile had padding 32px 20px AND
+    .doc-section had padding 32px 16px — stacking to give only ~255px of
+    text width on a 375px screen. Fixed: docs-wrap padding 0 16px,
+    content padding 24px 0, doc-section padding 0.
+  - Step gap reduced 16→12px on mobile, step-n min-width set.
+
+index.html:
+  - Stats restored to 2-column grid on all mobile widths (removed the
+    480px override that was collapsing them to 1 column).
+  - stat-n font-size scaled to 26px at 480px for readability in 2-col.
+
+All pages — nav-a font-size:
+  - agent.html and autonomous.html: nav-a normalised 12→13px to match
+    index, docs, demo (all pages now consistent at 13px).
+
+og-image.svg / og-image.png:
+  - Added 5th stat: "40 · BENCHMARK SCENARIOS".
+  - Corrected skill files count: 579→582.
+  - Stats row rebalanced: 5 items at x=80, 288, 540, 760, 960.
+    All 5 fit cleanly — not cramped at 1200×630px.
+
 ## [3.86.6] — 2026-04-20
 
 ### Fixed — Mobile UI/UX full audit pass
