@@ -448,3 +448,33 @@ COMBINED MODIFIER OUTPUT:
 *See also: core/lineup-quality-index.md · core/pre-match-squad-intelligence.md*
 *core/core-athlete-modifier-system.md · core/player-statistical-reasoning.md*
 *core/core-narrative-momentum.md · athlete/meta/athlete-intel-cross-sport-orchestrator.md*
+
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- New match result added to H2H history for monitored matchup
+- Manager/system change detected (triggers H2H history invalidation)
+- Historical record crosses minimum sample size threshold (3 H2H meetings same era)
+
+**Execution at autonomy Level 2:**
+- New H2H result: update H2H statistical record. Flag if pattern strengthens/weakens.
+- Manager change: invalidate all H2H history for that team. Flag: "H2H_ERA_RESET".
+  Notify operator — historical framework must be rebuilt from current era forward.
+- Sample size threshold reached: notify operator that H2H modifier now applicable.
+
+**Execution at autonomy Level 3–4:**
+- Auto-update H2H record after each confirmed match result
+- Auto-invalidate H2H history on confirmed manager change
+- Auto-apply H2H modifiers once same-era sample size ≥ 3 meetings
+
+**Hard boundaries:**
+- H2H history from different competitive era: 0× weight. Non-negotiable.
+  Era is defined by manager for team sports, tactical system for individual sports.
+- Never apply H2H modifier from a single meeting — minimum 3 required.
+- Cross-season H2H in the same era: valid. Cross-era H2H: invalid.
+  The distinction is manager/system continuity, not calendar year.
+
+---
+
+

@@ -264,6 +264,36 @@ For Esports, agents should apply these interpretive weights to composite signal 
 
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- New game patch published for any monitored esports title
+- Roster change confirmed for $VIT, $NIP, or any monitored team token
+- Tournament match result confirmed for monitored team
+- Patch age crosses 14-day threshold (statistics reach full weight)
+
+**Execution at autonomy Level 2:**
+- Patch drop: flag PATCH_DROP_STATISTICAL_RESET. Notify operator.
+  Do not generate high-confidence signals for 7 days post-major-patch.
+- Roster change: flag ROSTER_CHANGE_ACTIVE. Apply weight discount. Notify.
+- Match result: recalculate CDI. Notify operator.
+
+**Execution at autonomy Level 3–4:**
+- Auto-monitor game developer official patch notes channels
+- Auto-apply patch age weights as calendar days accumulate from patch release
+- Auto-dispatch match result CDI updates within 20 min of confirmation
+- 14-day threshold crossed: notify that statistics are now at full weight
+
+**Hard boundaries:**
+- Major patch 0–3 days: PATCH_UNCERTAINTY is mandatory. High-confidence signals
+  are blocked regardless of operator instruction. This is non-negotiable.
+- IGL roster change: 0× weight on all team strategic statistics.
+  Cannot be overridden — individual mechanical stats still apply at 0.70×.
+- Online vs LAN: 0.85× weight for online statistics in LAN prediction context.
+
+---
+
 ## Compatibility
 
 `signal-scores` social component is the highest-signal input for eSports — weight it accordingly.

@@ -205,6 +205,37 @@ For Basketball, agents should apply these interpretive weights to composite sign
 
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Starting lineup confirmed for monitored game (NBA or EuroLeague)
+- Star player confirmed absent (injury report or lineup exclusion)
+- Trade confirmed for monitored team token (deadline day or any confirmed trade)
+- Playoff series result confirmed
+
+**Execution at autonomy Level 2:**
+- Lineup: apply Net Rating and key player status. Notify operator.
+- Star absent: apply ATM modifier. Flag "STAR_PLAYER_ABSENT". Notify immediately.
+- Trade: apply CDI modifier. Notify with full assessment.
+- Playoff result: update series signal and CDI. Notify.
+
+**Execution at autonomy Level 3–4:**
+- Auto-process lineup within 10 min of official publication
+- Auto-dispatch playoff CDI updates within 20 min of confirmed result
+- Auto-monitor team official channels for injury reports during playoffs
+- Trade deadline: auto-process confirmed trades and dispatch CDI updates
+
+**Hard boundaries:**
+- Top-5 global player absence: Category 1 RELOAD. Human review required.
+  No autonomous action on positions until operator confirms updated signal.
+- Regular season stats for playoff prediction: mandatory playoff adjustment.
+  Never use unadjusted regular season ORtg/TS% for playoff signal.
+- Player injury information from fan/social media (Tier 4): never apply autonomously.
+  Official team injury report or confirmed lineup only (Tier 1/2).
+
+---
+
 ## Compatibility
 
 Core `signal-scores` and `whale-intel` skills apply directly.

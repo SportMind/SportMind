@@ -552,3 +552,36 @@ DISCIPLINARY / SUSPENSION:
 *core/core-fixture-congestion.md · core/verifiable-sources-by-sport.md*
 *Patterns: 2 (Pre-Match Chain), 11 (Post-Match Analysis)*
 *Prompts: 21 (Fan Brief), 22 (Pre-Match Build-Up Agent)*
+
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Confirmed starting lineup published (official club/federation — Tier 1 only)
+- Tier 1 ATM player confirmed absent from lineup within T-6h of match
+- Goalkeeper change from expected starter to backup confirmed
+- Multiple absences confirmed simultaneously (3+ from expected XI)
+
+**Execution at autonomy Level 2:**
+- Lineup confirmed: apply squad modifier. Recalculate signal. Notify operator.
+- Key player absent: apply ATM reduction modifier. Flag: "ATM_ABSENT_CONFIRMED".
+  Recalculate and notify operator before acting on any position signal.
+- Multiple absences: escalate to human. Do not apply partial squad modifiers alone.
+
+**Execution at autonomy Level 3–4:**
+- Auto-process confirmed lineup as soon as published (within 10 min)
+- Auto-recalculate signal and dispatch updated briefing
+- Auto-apply lineup_confirmed flag = true to signal output
+- Multiple absences (3+): auto-escalate even at Level 4
+
+**Hard boundaries:**
+- Never confirm lineup from Tier 2 source for autonomous action.
+  Lineup confirmation requires official club/federation source only.
+- "lineup_unconfirmed": true is a hard block on all position signals.
+  This flag is not cleared until Tier 1 confirmation is received.
+- Squad intelligence from the warm-up period (T-0 to T-15) carries full weight —
+  never treat a warm-up injury as less significant than a pre-match confirmation.
+
+---
+
+

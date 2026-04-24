@@ -530,6 +530,37 @@ affect the FTIS and NCSI outputs from this file — load:
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Match result confirmed for any of the 7 PL tokens or major European tokens
+- Tier 1 ATM player transfer confirmed for a monitored token club
+- UCL/UEL group stage draw (competition context changes)
+- $AFC PATH_2 event: goal confirmed for Arsenal
+
+**Execution at autonomy Level 2:**
+- Match result: recalculate CDI with result modifier. Notify operator.
+- Transfer confirmed: recalculate ATM. Notify with full modifier impact.
+- $AFC goal: flag PATH_2 supply event. Notify. Log on-chain verification status.
+- UCL draw: update competition tier modifier for all affected tokens.
+
+**Execution at autonomy Level 3–4:**
+- Auto-dispatch match result CDI updates within 15 min of confirmed result
+- Auto-recalculate ATM on confirmed transfer (official club announcement)
+- Auto-monitor $AFC match results for PATH_2 goal events
+- Auto-update competition tier modifiers after group stage draws
+
+**Hard boundaries:**
+- $AFC PATH_2 goal: must be confirmed by on-chain supply change, not match
+  result alone. Goal confirmation + on-chain verification both required.
+- Transfer rumours from Tier 2 sources: do not apply ATM modifier.
+  Only confirmed transfers (official club announcement) trigger ATM change.
+- Italian NCSI for $ACM/$INTER/$JUV/$NAP: SUPPRESSED for WC2026 window.
+  This is a hard confirmed fact — never apply Italian NCSI during June 11–July 19.
+
+---
+
 ## Compatibility
 
 **Layer 1 companion:** `sports/football` — load alongside for full domain context.

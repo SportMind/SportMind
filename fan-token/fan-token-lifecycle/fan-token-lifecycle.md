@@ -472,6 +472,35 @@ INTERPRETATION:
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions — when this skill should self-invoke:**
+- Fan token phase transition detected (any phase change: 1→2, 2→3, 3→4, etc.)
+- CDI crosses a phase-threshold boundary in either direction
+- Token utility event confirmed (new partnership, new feature launch)
+- Phase 5/6 indicators detected: exchange delisting notice, volume collapse > 60%
+
+**Execution at autonomy Level 2:**
+- Recalculate phase position and adjusted CDI weights on trigger
+- Notify operator of phase transition with full context
+- Flag: "PHASE_TRANSITION_DETECTED" with previous and new phase
+- Do not change position signals without operator confirmation
+
+**Execution at autonomy Level 3–4:**
+- Auto-update phase classification in signal state
+- Dispatch phase transition briefing automatically
+- Recalculate all CDI, HAS, and LTUI metrics for new phase weights
+- Log all transitions with timestamp and trigger event
+
+**Hard boundaries:**
+- Never classify a token as Phase 5/6 from a single data point
+  Requires: volume data + exchange data + on-chain data (min 2 of 3)
+- Never apply Phase 2 launch modifiers more than 72h after launch event
+- Phase 5/6 signals always escalate to human — never autonomous position action
+
+---
+
 ## Compatibility
 
 **Partner skill:** `fan-token/fan-token-partnership-intelligence/fan-token-partnership-intelligence.md`

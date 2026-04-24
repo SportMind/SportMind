@@ -367,3 +367,35 @@ USES:
 *SportMind v3.43 · MIT License · sportmind.dev*
 *See also: core/core-result-impact-matrices.md · fan-token/fan-sentiment-intelligence/*
 *platform/memory-integration.md · community/calibration-data/CONTRIBUTING.md*
+
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Match result confirmed (final whistle / official result)
+- Unexpected result for a monitored token (upset — result outside signal direction)
+- Result confirms or denies a pending calibration record
+
+**Execution at autonomy Level 2:**
+- Result confirmed: calculate CDI extension or contraction. Log outcome.
+  Apply result modifier. Notify operator with post-match summary.
+- Upset result: flag "SIGNAL_MISS_DETECTED". Log previous signal state.
+  Do not automatically adjust future signals — flag for review.
+
+**Execution at autonomy Level 3–4:**
+- Auto-calculate CDI extension/contraction within 15 min of confirmed result
+- Auto-dispatch post-match briefing with CDI updated state
+- Auto-log result against any pre-submitted calibration record
+- Upset flag: auto-log with full pre-match signal chain for audit review
+
+**Hard boundaries:**
+- Never adjust signal weights autonomously based on a single result miss.
+  Signal calibration requires human review and documented analysis.
+- Post-match CDI calculation must use confirmed result (Tier 1 source).
+  Not applicable until match is officially confirmed complete.
+- Penalty shootout results require separate CDI protocol —
+  shootout win carries lower CDI extension than regulation win (per calibration).
+
+---
+
+

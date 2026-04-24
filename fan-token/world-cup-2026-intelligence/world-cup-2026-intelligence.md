@@ -561,3 +561,36 @@ all operate on different timing and confidence rules than live match signals.
 *Time-sensitive: FIFA World Cup 2026 runs June 11 – July 19, 2026*
 *See: market/world-cup-2026.md · fan-token/football-token-intelligence/*
 *core/core-narrative-momentum.md · fan-token/transfer-window-intelligence/*
+
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- June 11, 2026: tournament begins — activate tournament monitoring mode
+- Each group stage match result for any of 12 monitored tokens
+- Knockout stage advancement or elimination confirmed
+- Final result confirmed (July 19, MetLife Stadium)
+
+**Execution at autonomy Level 2:**
+- Tournament start: switch from pre-tournament to tournament mode. Notify.
+- Group result: recalculate NCSI and CDI. Notify operator after each match.
+- Elimination: apply tournament_exit_modifier immediately. Notify.
+- Final: maximum CDI event. Full protocol. Notify.
+
+**Execution at autonomy Level 3–4:**
+- Auto-dispatch match result CDI updates within 20 min of confirmed result
+- Auto-apply NCSI step-up modifiers for each round of advancement
+- Auto-flag tournament_exit for eliminated nations
+- Auto-dispatch tournament summary briefing at end of each matchday
+
+**Hard boundaries:**
+- Italy is NOT in WC2026 — Italian NCSI remains suppressed throughout.
+  If any signal suggests Italian NCSI is active: it is an error.
+- $INTER exception: Lautaro Martínez (Argentina) is the ONLY $INTER WC2026 route.
+- Mbappé PSG departure: verify current France ATM player before each match.
+  Never assume France ATM is Mbappé — he is no longer at PSG.
+- Match results must be confirmed from Tier 1 source before CDI update.
+  Real-time score services (Tier 2) are not sufficient for CDI recalculation.
+
+---
+

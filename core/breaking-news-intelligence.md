@@ -348,6 +348,40 @@ ESCALATION COMPLETENESS (Safety Principle 4):
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions — when this skill should self-invoke:**
+- Any Category 1 or Category 2 breaking news event confirmed from Tier 1 source
+  for a monitored token's associated club, athlete, or competition
+- Category 7/8 (governance / regulatory) breaking news for any monitored token
+- Signal invalidation required (RELOAD or VOID protocol triggered)
+
+**Execution at autonomy Level 2:**
+- Category 1: immediately trigger RELOAD protocol. Halt position signals.
+  Notify operator. Recalculate from scratch once trigger is processed.
+- Category 2: apply defined modifier. Flag "CATEGORY_2_ACTIVE" in signal output.
+  Recalculate and notify operator.
+- Category 7/8: escalate immediately to human. Do not proceed with signal.
+- Publish signal invalidation to agent bus for all subscribed agents.
+
+**Execution at autonomy Level 3–4:**
+- Auto-process Category 2-6 events within defined response times
+- Auto-recalculate and dispatch updated signals for Category 2-6 events
+- Category 1 and 7/8 always escalate even at Level 4 — no exception
+- Auto-log all breaking news events with category, source tier, and protocol applied
+
+**Hard boundaries:**
+- Category 1 events (key player injury, manager sacking) always escalate to human.
+  Even at Level 4 autonomy, Category 1 requires human confirmation before action.
+- Tier 2 or lower source confirmation is insufficient for Category 1 RELOAD protocol.
+  Must be confirmed from official club/federation (Tier 1) before RELOAD triggers.
+- VOID protocol (signal discarded entirely) must be logged with explicit reason.
+  Never void a signal silently — the void reason is part of the audit trail.
+- Response time targets are maximums — earlier is always better.
+
+---
+
 ## Compatibility
 
 **Temporal awareness:** `core/temporal-awareness.md` — Tier 4-5 data (match day)

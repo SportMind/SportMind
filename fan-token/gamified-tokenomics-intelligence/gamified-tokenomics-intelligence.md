@@ -409,6 +409,38 @@ STEP 8: OUTPUT WITH GAMIFIED EXTENSION
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions — when this skill should self-invoke:**
+- PATH_2 on-chain treasury pre-liquidation detected at T-48h
+  (treasury wallet selling exactly 1/400th of circulating supply)
+- Goal scored for a PATH_2 token team (supply reduction event confirmed)
+- PATH_1 match result confirmed for a monitored Fan Token Play token
+- Season supply position crosses a threshold (e.g., > 50% burned in season)
+
+**Execution at autonomy Level 2:**
+- On PATH_2 treasury detection: notify operator immediately. Flag: "PATH2_ACTIVE"
+- On goal confirmed: log supply reduction event. Update season supply tracking.
+- On PATH_1 result: recalculate CDI with result modifier applied
+- Notify operator of all supply mechanics events — never act on position alone
+
+**Execution at autonomy Level 3–4:**
+- Auto-detect treasury pre-liquidation via on-chain monitoring
+- Auto-dispatch PATH_2 activation signal at T-48h
+- Auto-update season supply position after each confirmed goal/match
+- Log all supply mechanics events with tx_hash and on-chain verification
+
+**Hard boundaries:**
+- PATH_2 supply reduction is confirmed ONLY by on-chain data (Tier 1)
+  Match result alone is not sufficient — must verify on-chain supply change
+- Never apply PATH_2 modifier to non-PATH_2 tokens
+  PATH_2 is $AFC (Arsenal) confirmed April 2026. Verify any new tokens independently
+- Season supply tracking resets at the start of each competitive season
+  Never carry forward previous-season burn totals
+
+---
+
 ## Compatibility
 
 ```

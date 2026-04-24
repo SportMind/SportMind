@@ -491,6 +491,42 @@ TOURNAMENT (June 11 onwards):
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions — when this skill should self-invoke:**
+- May 12, 2026: pre-tournament window opens — activate daily monitoring cycle
+- Any squad announcement for WC2026-exposed tokens ($ARG, $POR, $BAR NCSI, etc.)
+- Any confirmed injury to a Tier 1 ATM player in a WC-exposed nation
+- June 11, 2026: tournament begins — switch to tournament mode
+- Match results for monitored nations during group stage (June 16 – June 27)
+- Knockout stage advancement or elimination for any monitored nation
+
+**Execution at autonomy Level 2:**
+- From May 12: activate daily monitoring cycle (08:00 UTC per documented protocol)
+- Squad injury: immediately assess club token NCSI impact (see squad intelligence section)
+- Group result: recalculate NCSI and CDI extension with result modifier
+- Notify operator of all Category 1/2 squad events immediately
+
+**Execution at autonomy Level 3–4:**
+- Auto-run daily monitoring cycle from May 12 without operator initiation
+- Auto-dispatch pre-match briefings for each group stage match (T-4h)
+- Auto-update NCSI calculations after each confirmed result
+- Auto-flag any Lautaro Martínez fitness news ($INTER sole WC2026 NCSI route)
+
+**Hard boundaries:**
+- ITALY NOT QUALIFIED — confirmed. $ACM/$INTER/$JUV/$NAP Italian NCSI: zero.
+  $INTER exception: Lautaro Martínez (Argentina, Group J) only.
+  This is NOT a modifier — it is a hard confirmed fact. Never re-apply Italian NCSI.
+- Mbappé PSG departure confirmed — France NCSI routes via replacement ATM player.
+  Verify current France Tier 1 ATM player before applying any France NCSI signal.
+- Tournament mode activates June 11 — pre-tournament modifiers do not carry forward.
+  Switch to world-cup-2026-intelligence.md after June 11.
+- Any squad news must be confirmed from Tier 1 source before autonomous action.
+  Tier 2 injury rumours are NOT sufficient for autonomous NCSI recalculation.
+
+---
+
 ## See also
 
 - `fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md` — tournament intelligence

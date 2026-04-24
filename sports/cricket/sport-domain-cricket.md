@@ -273,6 +273,38 @@ framework. Cricket-specific notes:
 - **Live:** Cricbuzz (cricbuzz.com)
 - **Odds and prediction:** Betfair Exchange, Oddschecker
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Evening T20 match scheduled + humidity forecast > 70% (dew protocol)
+- Toss result confirmed: team elects to field first (dew signal)
+- Rain interruption begins during match (DLS risk activation)
+- Match result confirmed for CDI update
+- India vs Pakistan fixture confirmed in any tournament draw
+
+**Execution at autonomy Level 2:**
+- Dew conditions met: apply dew modifier automatically. Flag DEW_PROTOCOL_ACTIVE. Notify.
+- Toss field + evening + humidity: confirm and apply modifier. Notify.
+- Rain begins: flag WEATHER_DLS_RISK. Reduce confidence. Notify operator.
+- Match result: recalculate CDI. Notify.
+- Ind vs Pak confirmed: activate dual-signal protocol. Notify.
+
+**Execution at autonomy Level 3–4:**
+- Auto-check humidity forecast at T-6h for ALL evening T20 matches
+- Auto-apply dew modifier when both conditions met (calibrated 5/5 — high confidence)
+- Auto-dispatch match result CDI updates within 20 min of confirmed result
+- Dew confirmed in-match by commentary: auto-update with DEW_CONFIRMED_IN_MATCH flag
+
+**Hard boundaries:**
+- Dew modifier requires BOTH conditions: evening > 20:00 local AND humidity > 70%.
+  Neither alone is sufficient. Both must be confirmed.
+- India vs Pakistan × 2.00 CDI: applies to commercial signal ONLY.
+  Never apply to match outcome prediction — they are entirely separate calculations.
+- DLS scenario: all batting statistics carry 0.70× weight maximum. Hard floor.
+
+---
+
 ## Compatibility
 
 **Athlete intelligence:** `athlete/cricket/athlete-intel-cricket.md`

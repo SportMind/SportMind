@@ -1,5 +1,209 @@
 # Changelog
 
+## [3.92.0] — 2026-04-20
+
+### Added — Session D: basketball statistics + 4 critical autonomous sections
+
+sports/basketball/sport-statistics-basketball.md (303L):
+  Net Rating as primary Tier 1 metric (>+8.0 = ×1.12 down to <-4.0 = ×0.92).
+  True Shooting % (>59% = ×1.08), Offensive/Defensive Rating thresholds.
+  Pace differential: fast vs slow team matchup (×0.90 to fast team advantage).
+  Star player ATM framework: superstar absent = ×0.80 (highest ATM reduction
+  of any team sport), tier classification (superstar/starter/rotation).
+  PER and Box Plus/Minus as individual modifiers (BPM >+6.0 = ×1.10).
+  Playoff adjustments: reduce ORtg by 4–6, TS% by 2–3, Net Rating retains 80%.
+  Home court advantage: ×1.06 first round → ×1.03 Finals (quality equalises).
+  Elimination game: ×1.04 for elimination-facing elite team.
+  Series-level signal is more reliable than game-level in basketball.
+  Autonomous execution section added to sport-domain-basketball.md.
+  Four event playbooks including trade deadline acquisition and star injury.
+
+Autonomous Execution sections added to 4 critical files:
+
+fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md
+  Triggers: treasury wallet event, concentration shift >5%, whale wallet activity.
+  Hard boundary: PATH_2 pre-liq requires treasury wallet identity confirmation.
+  Third-party on-chain aggregators: Tier 2, not Tier 1.
+
+fan-token/football-token-intelligence/token-intelligence-football.md
+  Triggers: PL/European match result, confirmed transfer, UCL draw, PATH_2 goal.
+  Hard boundary: $AFC PATH_2 goal requires on-chain supply change verification.
+  Italian NCSI hard suppression note: confirmed during WC2026 window.
+
+fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md
+  Triggers: June 11 tournament start, each group result, knockout advancement,
+  elimination, July 19 final.
+  Hard boundary: Italy NOT qualified — Italian NCSI error check built in.
+  Mbappé verification: confirm current France ATM before each match.
+
+sports/basketball/sport-domain-basketball.md
+  Triggers: lineup confirmation, star absence, trade, playoff result.
+  Hard boundary: top-5 global player absent = Category 1 RELOAD.
+  Playoff stats: mandatory adjustment from regular season baseline.
+
+LIBRARY STATE AFTER v3.92.0:
+  Total autonomous execution sections: 25
+  Files with autonomous execution:
+    Core framework files (6): breaking-news, decentralised-architecture,
+      historical-framework, match-statistics, post-match, pre-match-squad
+    Fan token files (7): agentic-wallet, fan-token-lifecycle,
+      football-token-intelligence, gamified-tokenomics, league-football,
+      on-chain-event, world-cup-2026 (main + pre-tournament)
+    Sport domain files (6): basketball, cricket, esports, formula1, mma (×2 each
+      — domain skill + statistics sub-module both have sections)
+
+## [3.91.0] — 2026-04-20
+
+### Added — Session C: esports + cricket statistics, visual output patterns, 2 autonomous sections
+
+sports/esports/sport-statistics-esports.md (334L):
+  Patch intelligence framework — most novel module in the library.
+  Patch age and statistical weight: 0–3 days (0×, PATCH_UNCERTAINTY mandatory),
+  4–7 days (50% weight), 8–14 days (full weight). Major vs minor patch
+  classification. Meta alignment scoring: team champion pool vs current patch
+  tier list (> 70% aligned = ×1.08, < 50% = ×0.93). Exception for established
+  off-meta specialists (×1.05 instead of penalty).
+  Per-game Tier 1 statistics: CS2 (win rate, KAST%, Rating 2.0, clutch rate,
+  map-specific win rate), LoL (first blood, GD@15, dragon/baron control),
+  Valorant (ACS, first blood, KAST%), Dota 2 (GPM, ward control).
+  Roster change severity: IGL change = 0× strategic stats, 0.70× individual;
+  primary carry = 0× individual, 0.80× team; support = 0.75× team stats.
+  H2H in esports: patch validity rules apply; online vs LAN 0.85× discount.
+  Bootcamp signal: ×1.04 for confirmed pre-major bootcamp.
+  Autonomous execution section added to sport-domain-esports.md.
+  Four event playbooks including live tournament continuous signal.
+
+sports/cricket/sport-statistics-cricket.md (354L):
+  Statistics by format: T20 (economy < 7.0 = ×1.10; SR > 150 = ×1.10; death
+  bowling < 8.0 = ×1.12), ODI (economy < 5.0, middle-overs framework),
+  Test (batting avg > 45, bowling avg < 28, home/away split mandatory).
+  Dew factor statistical grounding: calibrated 5/5, both conditions required
+  (evening > 20:00 local AND humidity > 70%). Spin bowling economy in 2nd
+  innings increases 0.8–1.2 runs/over when dew active.
+  Conditions framework: pace-friendly pitch (batting -10-15%), spin-friendly
+  pitch (spinner ×1.12), neutral (no adjustment).
+  Weather DLS: all batting statistics ×0.70 weight when DLS invoked.
+  India vs Pakistan: ×2.00 CDI multiplier is COMMERCIAL only — separate
+  from match outcome prediction (two distinct outputs required).
+  IPL statistics: 0.85× weight for international prediction.
+  Home/away differential: documented as most reliable individual modifier.
+  Autonomous execution section added to sport-domain-cricket.md.
+  Four event playbooks including dew confirmation in-match update.
+
+platform/visual-output-patterns.md (365L):
+  Six canonical visual patterns for SportMind signal outputs:
+  Pattern 1: CDI Signal Timeline — trajectory with event annotations.
+  Pattern 2: Pre-Match Signal Dashboard — direction, SMS, modifiers, flags.
+  Pattern 3: Multi-Token Comparison Grid — portfolio overview.
+  Pattern 4: Signal vs Price Overlay — signal-price divergence detection.
+  Pattern 5: WC2026 Tournament Tracker — group stage + NCSI by match.
+  Pattern 6: Autonomous Agent Activity Log — audit trail for operators.
+  Each pattern includes data input schema, visual specification, and
+  mobile adaptation notes. Colour palette aligned to SportMind brand.
+
+Library now has 20 files with autonomous execution sections.
+
+## [3.90.0] — 2026-04-20
+
+### Added — Session B: F1 + MMA statistics modules, 5 core autonomous sections
+
+sports/formula1/sport-statistics-formula1.md (313L):
+  Qualifying delta framework: 0.3s threshold calibrated (4/4 SportMind record),
+  circuit-type modifiers (low-downforce ×1.15, street circuit ×1.20, temporary ×0.85),
+  five signal threshold bands (>0.5s = ×1.18 down to behind >0.5s = ×0.85).
+  Tyre compound intelligence: optimal windows by compound, strategic undercut signal,
+  temperature > 45°C modifier, rain tyre signal (wet qualifying = ×0.50 on delta).
+  Sector time analysis: sector advantage mapped to circuit type predictions.
+  FP2 long-run pace as race day predictor (>0.6s/lap deficit = ×0.88).
+  Reliability history: DNF rate modifiers (>3 per season = ×0.88).
+  Circuit history: valid only within same regulation era (cross-era = 0× weight).
+  Teammate comparison as individual signal isolator. Four event playbooks.
+  Autonomous Execution section added to sport-domain-formula1.md.
+
+sports/mma/sport-statistics-mma.md (336L):
+  Striking hierarchy: SLpM (>5.0 = ×1.10), accuracy (>55% = ×1.08),
+  striking defence (>65% = ×1.08), takedown accuracy (>50% = ×1.10),
+  takedown defence (>75% = ×1.08).
+  Weight cut severity matrix: comfortable (neutral), struggling (×0.92),
+  extreme (×0.80), missed weight (×0.72 + Category 1 RELOAD).
+  Rehydration advantage modifier for grappling matchups (×1.06).
+  Style matchup matrix: striker vs wrestler (TD accuracy vs TD defence decisive),
+  striker vs striker (reach as tiebreaker), grappler vs grappler (submission accuracy),
+  orthodox vs southpaw (×0.94 to favourite — stable historical modifier).
+  Fight camp change: ×0.88 confidence. Career state modifiers by age/experience.
+  Recent KO/TKO loss to head: chin concern flag persists.
+  First title shot: ×0.94 challenger modifier (historical pattern). Four playbooks.
+  Autonomous Execution section added to sport-domain-mma.md.
+
+Autonomous Execution sections added to 5 core files:
+  core/pre-match-squad-intelligence.md — lineup confirmation triggers, Tier 1
+    source required, lineup_unconfirmed block is hard (not clearable by Tier 2).
+  core/post-match-signal-framework.md — result confirmation triggers, single
+    result miss never auto-adjusts weights (human review required).
+  core/historical-intelligence-framework.md — H2H update triggers, manager
+    change = H2H_ERA_RESET, cross-era H2H = 0× weight (hard boundary).
+  sports/formula1/sport-domain-formula1.md — qualifying end trigger, wet
+    qualifying forces ×0.50 delta modifier (not configurable).
+  sports/mma/sport-domain-mma.md — weigh-in trigger, missed weight always
+    Category 1 at any autonomy level, KO/TKO chin flag persists.
+
+Library now has 16 files with autonomous execution sections.
+
+## [3.89.0] — 2026-04-20
+
+### Added — Session A: cross-sport statistics framework + 5 autonomous execution sections
+
+core/match-statistics-intelligence.md (437L) — New universal framework.
+  Four-tier statistics hierarchy: Tier 1 (outcome-correlated — xG, qualifying
+  delta, striking efficiency, etc.), Tier 2 (contextual — possession+PPDA,
+  shots+quality), Tier 3 (descriptive — total possession, raw corners).
+  Sample size floors: 5 matches team-level, 10 matches individual, 10 attempts
+  for conversion rates, 3 H2H meetings same-era. Below-minimum: 0.50× discount.
+  Recency weights: 100%/85%/65%/40%/25% with volatility adjustment for high-
+  variance sports (combat, individual). Team rotation caveat.
+  Five-question protocol: tier, sample, era, context, cap — mandatory before
+  any statistical modifier is applied.
+  Universal modifier caps: Tier 1 ±8pts, Tier 2 ±4pts, combined ±12pts.
+  Stacking diminishing returns (2nd modifier 70%, 3rd 40%, 4th+ 20%).
+  H2H protocol: same-era required, 2× weight, H2H_CONTRADICTION flag.
+  Data quality tiers: Official (100%), Validated third-party (95%),
+  Public aggregators (85%), Unverified (50% max).
+  Cross-sport application guide: invasion games, combat, precision, racing,
+  performance, team strategic — each with primary/secondary/contextual stats.
+  Four event playbooks. Autonomous Execution section.
+
+Autonomous Execution sections added to 5 highest-value files:
+
+fan-token/fan-token-lifecycle/fan-token-lifecycle.md
+  Triggers: phase transition, CDI threshold boundary, Phase 5/6 indicators.
+  Hard boundary: Phase 5/6 requires 2 of 3 data sources minimum.
+
+fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md
+  Triggers: PATH_2 treasury pre-liquidation at T-48h, goal confirmed, PATH_1 result.
+  Hard boundary: PATH_2 supply reduction confirmed by on-chain only — not match result.
+  Hard boundary: PATH_2 is $AFC only (confirmed April 2026) — verify new tokens.
+
+fan-token/league-football-token-intelligence.md
+  Triggers: season transition, CDI >20pt in 24h, title/relegation race activation,
+  post-WC2026 fatigue modifier activation (August 15, 2026).
+  Hard boundary: LUFC division verified each season start.
+  Hard boundary: Italy NOT qualified — $ACM/$INTER/$JUV/$NAP Italian NCSI zero.
+
+fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md
+  Triggers: May 12 window opens, squad announcements, Tier 1 injury confirmations,
+  June 11 tournament start transition, group stage results.
+  Hard boundary: Italy confirmed NOT qualified — never re-apply Italian NCSI.
+  Hard boundary: Mbappé PSG departure confirmed — verify current France ATM player.
+  Hard boundary: Tier 1 source required for autonomous NCSI recalculation.
+
+core/breaking-news-intelligence.md
+  Triggers: Category 1/2 confirmed from Tier 1, Category 7/8 governance events.
+  Hard boundary: Category 1 always escalates even at Level 4 autonomy.
+  Hard boundary: Tier 1 source required for RELOAD protocol.
+  Hard boundary: VOID must be logged with explicit reason — never silent.
+
+Library now has 9 files with autonomous execution sections (vs 0 before v3.88.0).
+
 ## [3.88.0] — 2026-04-20
 
 ### Added — Group 2: football statistics intelligence, agentic wallet, decentralised architecture

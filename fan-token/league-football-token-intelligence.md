@@ -652,6 +652,39 @@ POST-WC2026 TRANSITION (August 2026):
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions — when this skill should self-invoke:**
+- League season start/end transition (August–September for European leagues)
+- Any of the 63 monitored tokens shows CDI movement > 20 points in 24h
+- Title race, relegation battle, or European qualification becomes live
+  (typically from matchday 30+ in a 38-game season)
+- Post-WC2026 league restart (August 2026): fatigue modifiers activate automatically
+
+**Execution at autonomy Level 2:**
+- On season transition: reload league fingerprint for the new season
+- On CDI spike: identify which league/token triggered it; check league-specific context
+- On title race activation: increase monitoring frequency for relevant tokens
+- Notify operator of post-WC fatigue modifier activation in August 2026
+
+**Execution at autonomy Level 3–4:**
+- Auto-adjust CDI monitoring frequency as season reaches high-stakes phase
+- Auto-apply post-WC2026 fatigue modifiers from August 15, 2026 onward
+  ($PSG/France: 0.90×; $BAR/Spain: 0.91×; $CITY/$AFC/England: 0.93×, etc.)
+- Auto-log league position changes for all 63 monitored tokens weekly
+- Dispatch league-level briefings at season start, mid-season, and final stretch
+
+**Hard boundaries:**
+- $LUFC division must be verified before FTIS tier is applied — always verify
+  current division at season start; never assume from previous season
+- Post-WC fatigue modifiers apply for FIRST 3-4 MATCHES ONLY per league schedule
+  Do not extend fatigue modifiers beyond documented match count
+- Italian NCSI for $ACM/$INTER/$JUV/$NAP is SUPPRESSED for WC2026
+  Confirmed: Italy did not qualify. This is a hard fact, not a modifier.
+
+---
+
 ## See also
 
 - `fan-token/football-token-intelligence/token-intelligence-football.md` — FTIS, NCSI, ATM

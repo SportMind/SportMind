@@ -259,6 +259,37 @@ For Mixed Martial Arts (MMA), agents should apply these interpretive weights to 
 
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- Official weigh-in result published for monitored fight
+- Missed weight confirmed for any fighter on monitored card
+- Fight result confirmed (official UFC/promotion result)
+- Title fight result confirmed (highest priority CDI event)
+
+**Execution at autonomy Level 2:**
+- Weigh-in: check weight. If within limit: apply weight cut severity modifier.
+  If missed weight: trigger Category 1 RELOAD. Notify operator immediately.
+- Fight result: calculate CDI extension/contraction. Notify operator.
+- Title fight result: maximum CDI protocol. Immediate notification.
+
+**Execution at autonomy Level 3–4:**
+- Auto-monitor UFC official social media for weigh-in results
+- Auto-apply weight cut modifier within 30 min of weigh-in publication
+- Missed weight: auto-trigger RELOAD protocol and auto-dispatch alert
+- Auto-dispatch fight result CDI update within 30 min of confirmation
+
+**Hard boundaries:**
+- Missed weight is ALWAYS Category 1 — human must confirm new signal
+  before any autonomous position action. No exceptions at any autonomy level.
+- KO/TKO finish to the head: apply chin concern flag permanently.
+  This flag persists across all future signals until manually cleared.
+- Weight cut severity from unverified source: apply 0.90× additional
+  confidence reducer. Never treat Tier 3 weigh-in reports as confirmed.
+
+---
+
 ## Compatibility
 
 `prematch-alpha` maps cleanly — treat fight night as "kickoff", weigh-ins as a new signal layer.

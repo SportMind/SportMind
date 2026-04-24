@@ -480,6 +480,35 @@ ON-CHAIN SIGNAL LIMITATIONS:
 
 ---
 
+
+## Autonomous Execution
+
+**Trigger conditions:**
+- On-chain event detected for any monitored token (transfer, mint, burn, governance)
+- Treasury wallet activity detected (PATH_2 pre-liquidation pattern)
+- Wallet concentration change > 5% in top-10 holders
+- Smart contract interaction from known whale wallet
+
+**Execution at autonomy Level 2:**
+- Treasury event: classify (PATH_2 pre-liq vs organic selling). Notify operator.
+- Concentration change: flag "HOLDER_CONCENTRATION_SHIFT". Notify.
+- Whale wallet activity: assess direction (accumulation vs distribution). Notify.
+
+**Execution at autonomy Level 3–4:**
+- Auto-monitor on-chain events for all registered token addresses
+- Auto-classify treasury events using platform/chiliz-chain-address-intelligence.md
+- Auto-dispatch whale alert within 15 min of confirmed on-chain event
+- Auto-update CDI calculation when burn/mint events confirmed
+
+**Hard boundaries:**
+- On-chain data is Tier 1 only when sourced from Chiliz Chain explorer directly.
+  Third-party aggregators for on-chain data: Tier 2 — verify before acting.
+- PATH_2 pre-liquidation: confirm treasury wallet identity before classifying.
+  Misclassifying whale sell as PATH_2 event is a critical error.
+- Never apply on-chain modifier from unverified contract address.
+
+---
+
 ## Compatibility
 
 **DeFi liquidity intelligence:** `fan-token/defi-liquidity-intelligence/` — TVL state (complement)
