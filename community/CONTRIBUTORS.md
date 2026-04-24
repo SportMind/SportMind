@@ -128,7 +128,7 @@ STEP 4 — Fill in the outcome record template
 STEP 5 — Submit via GitHub PR
   Target path: community/calibration-data/{sport}/{year}/{month}/
   File name: {sport}-{event-description}-{date}-outcome.json
-  Or email: calibration@sportmind.dev (we handle the PR for you)
+  Or open a GitHub Issue with the "calibration-submission" label (we handle the PR for you)
 
 STEP 6 — Get credited
   Your handle appears in the record and in CONTRIBUTORS.md

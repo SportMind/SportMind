@@ -3,6 +3,10 @@
 **Six working examples covering the full range from the simplest API call
 to a production-grade autonomous tournament agent.**
 
+These are illustrative starting points — not a prescribed or exhaustive set.
+Developers are free to create their own patterns, workflows, and integrations
+on top of SportMind's intelligence layer.
+
 These are not pseudocode or conceptual outlines — they are working Python
 implementations that you can run, adapt, and build on. Each one is designed
 to be understood in under ten minutes and deployed in under thirty.

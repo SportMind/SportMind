@@ -134,8 +134,33 @@ SportMind Score (SMS), modifiers, and active flags.
 Get the current macro state — crypto cycle phase, macro_modifier, active events.
 **Always call this before fan token or DeFi analysis.**
 
+No input parameters required — macro state is global context.
+
 ```json
+// Request: no parameters needed
 {}
+
+// Response schema:
+{
+  "crypto_cycle_phase":  "bull | bear | neutral | transition",
+  "macro_modifier":      0.85,
+  "cycle_confidence":    "HIGH | MEDIUM | LOW",
+  "active_events": [
+    {
+      "event":     "string — name of active macro event",
+      "impact":    "POSITIVE | NEGATIVE | NEUTRAL",
+      "modifier":  1.10,
+      "expires":   "ISO-8601 date or null"
+    }
+  ],
+  "regulatory_state": {
+    "mica_status":        "string",
+    "sec_cftc_guidance":  "string",
+    "us_market_open":     true
+  },
+  "override_active":     false,
+  "override_reason":     null
+}
 ```
 
 ### `sportmind_stack`
@@ -261,7 +286,7 @@ Both can run simultaneously.
 
 ---
 
-## New tools (added v3.86.7.0.0.0.0.0.0.0.0.0)
+## New tools (added v3.88.0.0.0.0.0.0.0.0.0.0)
 
 ### `sportmind_pre_match`
 Orchestrated full pre-match reasoning package in one call. Combines sport
@@ -294,7 +319,7 @@ Input: `query_type`, `sport`
 
 ---
 
-## Extended integrations (v3.86.7.0.0.0.0.0.0.0.0.0)
+## Extended integrations (v3.88.0.0.0.0.0.0.0.0.0.0)
 
 SportMind works with three additional MCP servers to create a complete
 reasoning, memory, and verification stack.

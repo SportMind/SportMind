@@ -42,7 +42,7 @@ poisoned intelligence. Their agents reason incorrectly without knowing the sourc
 has been tampered with.
 
 **Mitigations in place:**
-- `platform/skill-hashes.json` — SHA-256 hashes for all 179 skill files, updated
+- `platform/skill-hashes.json` — SHA-256 hashes for all 273 skill files, updated
   on every skill change
 - Agents and developers can verify received content by computing its SHA-256 hash
   and comparing against the published registry
@@ -131,7 +131,7 @@ Every PR touching skill files runs `scripts/security_validator.py` via CI:
 
 ### Content integrity hashing
 
-`platform/skill-hashes.json` contains SHA-256 hashes of all 179 skill files.
+`platform/skill-hashes.json` contains SHA-256 hashes of all 273 skill files.
 Updated automatically on every skill change via `.github/workflows/security-check.yml`.
 
 **Agent-side verification:**
@@ -189,8 +189,12 @@ a compromised calibration record, or any other security concern:
 gives bad actors time to act before a fix is deployed.
 
 **Instead, report privately:**
-1. GitHub Security Advisory (preferred): Repository → Security → Advisories
-2. Email: security@sportmind.dev (if configured)
+
+GitHub Security Advisory (sole channel): Repository → Security → Advisories → New draft
+
+This is the only supported reporting channel. We do not operate an email
+security inbox — using GitHub Advisory ensures your report is tracked,
+encrypted, and gets to the right maintainer immediately.
 
 **Include in your report:**
 - Which file(s) are affected
@@ -428,6 +432,7 @@ For developers and agents using SportMind (updated — 9 items):
 
 | Version | Change |
 |---|---|
+| 3.86.8 | Removed email reporting channel — GitHub Security Advisory is sole channel. Corrected hash count 179→273. |
 | 3.10.0 | Added Threat 6 (prompt theft), Threat 7 (meta-injection), updated developer checklist |
 | 3.5.0 | Initial SECURITY.md — Threats 1-5, infrastructure, disclosure process |
 

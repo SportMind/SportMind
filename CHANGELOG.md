@@ -1,5 +1,102 @@
 # Changelog
 
+## [3.88.0] — 2026-04-20
+
+### Added — Group 2: football statistics intelligence, agentic wallet, decentralised architecture
+
+sports/football/sport-statistics-football.md (424L) — New sub-module.
+  Possession intelligence: PPDA-weighted possession modifiers (PPDA < 9.0
+  pressing specialist ×1.06; high possession + low PPDA ×1.08).
+  Passing intelligence: progressive pass rate, key passes per 90 as signal
+  modifiers. Playmaker absence ×0.88 ATM reduction.
+  Defensive statistics: interceptions and clearances with context requirements
+  (high clearances + high xGA = danger signal ×0.92, not strength signal).
+  Set piece intelligence — penalties: individual conversion rate modifiers
+  (>85% specialist ×1.08; <70% converter ×0.94); penalty winning rate;
+  PATH_2 note ($AFC penalty = supply mechanics signal).
+  Set piece intelligence — free kicks: distance band matrix (18–22m highest,
+  >35m negligible); foot/angle matrix (left-foot left-channel = highest value);
+  Tier 1 specialist ×1.12, Tier 2 ×1.05, absence ×0.88.
+  Corner intelligence: inswing/outswing, aerial dominance ×1.06, height
+  mismatch ×1.08. Crossing modifier requires three conditions simultaneously.
+  Historical statistics framework: RAF recency weighting applied to stats;
+  H2H statistics ×2 weight (same-era only); sample size minimums as hard floors.
+  Four event playbooks. Autonomous Execution section (squad news trigger,
+  live xG divergence trigger, PATH_2 goal trigger).
+  Total statistical modifier cap: ±10 points on adjusted_score.
+
+fan-token/agentic-wallet-intelligence/agentic-wallet-intelligence.md (448L) — New file.
+  Three agentic wallet contexts: position monitoring (ceiling: Level 2),
+  governance participation (Level 2 for routine, Level 1 for novel),
+  commercial signal (Level 3 — intelligence only, never financial execution).
+  Signal threshold framework: SMS ≥85 = high confidence; 75-84 = medium;
+  <75 = insufficient. EXIT always requires human. macro_override = hard halt.
+  Position sizing framework: relative size guidance by SMS band.
+  Concentration rules: hard limits for autonomous agents (≤40% per league).
+  Correlation flag: ≥3 simultaneous ENTER signals → human review.
+  Governance mandate framework: Tier A (autonomous), Tier B (recommend),
+  Tier C (never autonomous — constitutional votes). Abstain if operator
+  unreachable before deadline.
+  Three decision trees: pre-match signal, governance vote, CDI declining.
+  Safety rail architecture: six hard rails + three soft rails.
+  Three example implementations: $AFC PATH_2 monitor, PL governance delegate,
+  WC2026 national token agent ($ARG/$POR).
+  Autonomous Execution section: governance proposal trigger, CDI drop trigger,
+  PATH_2 goal trigger, macro_override state change trigger.
+
+core/decentralised-agent-architecture.md (513L) — New file.
+  Distributed SportMind stack: layer agent mapping, four specialisation
+  patterns (layer, sport, function, hybrid).
+  Signal handoff protocol: standardised JSON schema for agent-to-agent
+  handoffs with cumulative signal, blocking flags, and override propagation.
+  Autonomous skills concept formalised: definition, anatomy (trigger
+  conditions, execution by level, hard boundaries, escalation condition),
+  list of current library files with autonomous execution sections.
+  Autonomous skill section template for contributors.
+  Distributed load patterns: cold start sequence (5–8 min), continuous
+  monitoring cycle (macro 4h, market 24h, domain match-driven, fan token 30 min).
+  Agent registration schema with JSON example.
+  Conflict resolution: four conflict types — modifier (normal), flag
+  (macro wins), direction (escalate), stale state (force recalculation).
+  Compatible frameworks: CrewAI, AutoGen, LangChain, custom, MCP integration.
+  Four event playbooks: cold start, Category 1 propagation, macro regime
+  change, agent failure recovery.
+  Staleness discount: modifier applied to layer agents with stale signals
+  (>4h = 0.85×, >8h = 0.70×).
+
+## [3.87.0] — 2026-04-20
+
+### Changed — Group 1 housekeeping: MCP, security, toolkit framing
+
+MCP-SERVER.md — sportmind_macro tool:
+  The empty {} parameter block looked like a documentation error even though
+  it was correct (no parameters required). Added explanatory note "No input
+  parameters required — macro state is global context" and a full response
+  schema showing crypto_cycle_phase, macro_modifier, cycle_confidence,
+  active_events, regulatory_state, override_active, override_reason.
+  Developers can now see what the tool returns, not just that it takes nothing.
+
+SECURITY.md:
+  Removed security@sportmind.dev email reporting channel. GitHub Security
+  Advisory is now the sole reporting channel — described as "sole channel"
+  explicitly to avoid confusion. Email inbox was a potential dead-end that
+  gave reporters false confidence their report was received.
+  Corrected stale hash count: 179 → 273 skill files.
+  SECURITY.md changelog updated with v3.87.0 entry.
+
+community/CONTRIBUTORS.md:
+  Removed calibration@sportmind.dev email submission option.
+  Replaced with: "open a GitHub Issue with the calibration-submission label".
+  Consistent with email removal policy across the library.
+
+docs.html — developer toolkit section:
+  Lead paragraph updated: "These are illustrative starting points. Developers
+  are free to create their own patterns, workflows, and integrations on top of
+  SportMind's intelligence layer."
+
+examples/starter-pack/README.md:
+  Same framing added to opening section.
+
 ## [3.86.7] — 2026-04-20
 
 ### Fixed — docs overflow root cause, stats layout, nav consistency, OG image
