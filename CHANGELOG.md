@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.93.4] — 2026-04-25
+
+### Fixed — demo statistics scenarios not responding
+
+Root cause: the three statistics scenarios added in v3.92.1
+(f1_qualifying_delta, esports_patch_signal, cricket_dew_protocol)
+had their output defined as template literal strings (`{...}`) rather
+than the typed line array format that runScenario() expects
+([ {t:'prompt', v:'...'}, ... ]).
+
+runScenario() calls sc.output.filter(...) which silently fails when
+sc.output is a string — no output rendered, no error thrown.
+
+Fixed all three:
+  f1_qualifying: converted to 19-line typed array with prompt,
+    dim, label, green, and json lines. Shows qualifying delta
+    analysis, tyre strategy, and signal output card.
+  esports_patch: converted to 20-line typed array. Shows patch
+    intelligence, team statistics with partial weight, meta alignment
+    modifier, and signal output.
+  cricket_dew: converted to 20-line typed array. Shows dew protocol
+    conditions check (both required), calibration record, modifier
+    values, and signal output card.
+
+All three now produce typed terminal output and signal visualisation
+cards identical to the 18 working scenarios.
+
 ## [3.93.3] — 2026-04-25
 
 ### Changed — demo.html: collapsible groups, sticky panel, search filter
