@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.93.1] — 2026-04-25
+
+### Fixed + Added — WC2026 TBD resolved, 11 stubs promoted to BASIC
+
+fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md:
+  Last remaining TBD resolved. Transition trigger updated:
+  "Mexico vs [TBD]" → "Mexico vs South Africa, Estadio Azteca, Mexico City"
+  Kickoff time confirmed: June 11, 2026 at 20:00 UTC / 15:00 ET.
+  Source: FIFA official draw (December 6, 2025), confirmed by multiple
+  live sources including Wikipedia, Fox Sports, Olympics.com.
+  The WC2026 pre-tournament file now has zero TBDs — ready for May 12.
+
+sports/gymnastics, squash, triathlon, judo, swimming-open-water, taekwondo,
+curling, fencing, field-hockey, sailing, weightlifting:
+  All 11 stub files promoted from 19L placeholder to BASIC tier (141L each).
+  Each BASIC file includes:
+    - Domain overview with fan token exposure status
+    - Tier 1 / Tier 2 signal hierarchy specific to the sport
+    - Event calendar (Olympic cycle, world championships, tour)
+    - 4 validator-passing playbooks with entry/exit/filter/sizing fields
+    - Signal weight adjustments table
+    - Key Commands table (5 entries)
+    - Agent Reasoning Prompts
+    - Data sources (governing body, Olympic Channel, athlete accounts)
+    - Calibration note (seeking first contributor)
+    - Compatibility block
+    - Clear "Expand this skill" invitation
+  Zero stubs under 50L remaining in the library.
+  Validator: 0 errors. All 85+ sport domain files now pass.
+
 ## [3.93.0] — 2026-04-25
 
 ### Added — Fan Token™ trademark, US regulatory update, CHZ burn intelligence

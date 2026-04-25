@@ -442,7 +442,7 @@ PRE-TOURNAMENT DAILY MONITORING CYCLE (from May 12):
 ## Transition checkpoint — when to switch to tournament mode
 
 ```
-TRANSITION TRIGGER: June 11, 2026 at 15:00 UTC (kickoff: Mexico vs [TBD])
+TRANSITION TRIGGER: June 11, 2026 at 20:00 UTC / 15:00 ET (kickoff: Mexico vs South Africa, Estadio Azteca, Mexico City)
 
   BEFORE TRANSITION (pre-tournament file primary):
     All NCSI weights at 0.70× scale
