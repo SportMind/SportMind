@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.93.3] — 2026-04-25
+
+### Changed — demo.html: collapsible groups, sticky panel, search filter
+
+demo.html — scenario navigation rebuilt:
+
+  STICKY SCROLLABLE PANEL:
+    Left column is now position:sticky, top:64px, max-height:calc(100vh-80px),
+    overflow-y:auto with a thin scrollbar. User stays in place as they switch
+    scenarios — no more full-page scrolling to reach Statistics at the bottom.
+    Scenario panel width increased 260px → 280px.
+
+  COLLAPSIBLE GROUPS WITH COUNT BADGES:
+    All 6 scenario groups are now collapsible. Each group header shows a count
+    badge ("Pre-match · 5", "Statistics · 3" etc). On load, only the group
+    containing the active scenario is expanded — all others collapsed.
+    Clicking a group header toggles expand/collapse with a chevron indicator.
+    Clicking a scenario button in a collapsed group auto-expands that group.
+
+  SEARCH FILTER:
+    "Filter scenarios…" input above the list. As you type, scenarios matching
+    the command name or description text are shown, non-matching hidden.
+    Groups with no matching results are hidden entirely.
+    Groups with matches auto-expand. Clearing the search restores the
+    previous collapse state (active group open, others collapsed).
+
+  WORLDCUP ORPHAN FIXED:
+    world_cup_2026_signal button was accidentally placed outside the
+    Intelligence group label (between Intelligence and Scouting & Governance).
+    Now correctly inside the Intelligence group — 5 scenarios as labelled.
+
+  HTML RESTRUCTURE:
+    Each group is now a .scenario-group div wrapping:
+      .scenario-group-label (clickable header with .sg-left, .sg-count, .sg-chevron)
+      .scenario-group-items (collapsible container)
+    All 21 scenarios confirmed in correct groups with correct counts.
+
+  Scales cleanly to 40+ scenarios without requiring any structural changes.
+
 ## [3.93.2] — 2026-04-25
 
 ### Fixed — website audit: autonomous count, trademark consistency
