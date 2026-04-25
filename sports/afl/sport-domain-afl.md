@@ -317,7 +317,7 @@ sizing:   1.10× on home team — travel fatigue signal is reliable in AFL
 
 ---
 
-## Fan Token Notes
+## Fan Token™ Notes
 
 No AFL fan token is currently active on Chiliz (as of Q1 2026). The AFL is
 included for prediction market, analytics agent, and future token readiness.
@@ -341,6 +341,16 @@ AFL-specific notes:
 - **The Arc (thearcfooty.com)**: Free advanced analytics and expected scores
 - **footywire.com**: Player statistics, historical records
 - **AFL Player Ratings**: Official ratings by position
+
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Pre-match signal | Load this file + `core/sportmind-score.md` | Conditions modifier first |
+| Finals signal | Finals series playbook | Elimination urgency applies |
+| Injury response | `core/breaking-news-intelligence.md` | Key player = Category 2 |
+| Weather conditions | `## Conditions — AFL's dominant variable` | Rain/wind modifiers |
+| Star player absent | `core/athlete-modifier-system.md` | ATM reduction |
 
 ## Compatibility
 

@@ -1,4 +1,4 @@
-# Athlete Token Profiles — Football Fan Token Intelligence
+# Athlete Token Profiles — Football Fan Token™ Intelligence
 # Key athletes across active fan token clubs with documented token correlation patterns
 # Updated: Q1 2026 | Source: Kayen DEX price history, Socios Connect, LunarCrush
 

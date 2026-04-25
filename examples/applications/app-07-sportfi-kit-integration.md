@@ -275,7 +275,7 @@ export function PortfolioIntelligence() {
 
   return (
     <div className="portfolio">
-      <h2>Your Fan Token Portfolio</h2>
+      <h2>Your Fan Token™ Portfolio</h2>
       {tokens.map(token => (
         <TokenIntelligenceCard
           key={token.symbol}

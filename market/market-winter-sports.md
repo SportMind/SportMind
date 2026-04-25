@@ -9,7 +9,7 @@ are the most plausible structure given the individual sport nature.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3/4 — Niche with Geographic Concentration**
 

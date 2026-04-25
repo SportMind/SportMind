@@ -1,7 +1,7 @@
 ---
 name: gamified-tokenomics-intelligence
 description: >
-  Intelligence framework for fan tokens with Fan Token Play mechanics — the Chiliz
+  Intelligence framework for fan tokens with Fan Token™ Play mechanics — the Chiliz
   Vision 2030 model where match results directly trigger on-chain mint or burn events.
   Covers both active mechanisms: Path 1 (Protocol-Level Treasury Governance, oracle-
   triggered post-match) and Path 2 (Prediction Market-Based, currently in trial with

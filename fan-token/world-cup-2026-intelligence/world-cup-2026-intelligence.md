@@ -11,7 +11,7 @@ description: >
   complete token calendar from draw to final.
 ---
 
-# World Cup 2026 Fan Token Intelligence
+# World Cup 2026 Fan Token™ Intelligence
 
 **FIFA World Cup 2026 · USA / Canada / Mexico · 11 June – 19 July 2026**
 

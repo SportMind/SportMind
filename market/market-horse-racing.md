@@ -10,7 +10,7 @@ tokens are all conceptually distinct possibilities.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

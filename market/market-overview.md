@@ -54,7 +54,7 @@ Digital engagement is the most reliable leading indicator of fan token potential
 A sport with 50M fans who primarily engage on mobile beats a sport with 200M fans
 who primarily watch on television for token adoption purposes.
 
-### 4. Institutional Blockchain and Fan Token Interest
+### 4. Institutional Blockchain and Fan Token™ Interest
 Documented actions by the sport's governing body, leagues, and clubs regarding
 blockchain, NFTs, fan tokens, or digital collectibles. Ranges from active Chiliz
 partnerships (highest) to exploratory discussions (medium) to public scepticism or

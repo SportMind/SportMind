@@ -9,7 +9,7 @@ globally but progress is slow.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3/4 — China-Concentrated**
 

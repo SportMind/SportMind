@@ -9,7 +9,7 @@ token model (rather than team-centric like F1) creates natural fan token opportu
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term**
 

@@ -10,7 +10,7 @@ is the same Indian regulatory environment that holds back the IPL.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term (12–36 months)**
 

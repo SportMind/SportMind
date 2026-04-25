@@ -11,7 +11,7 @@ description: >
   layer — always run it first before athlete-social-lift, transfer-signal, or brand-score.
 ---
 
-# Fan Token Pulse
+# Fan Token™ Pulse
 
 Retrieves, normalises, and interprets live fan token ecosystem data for a given club or
 athlete. This is the ground-truth signal layer for SportMind — on-chain data cannot be

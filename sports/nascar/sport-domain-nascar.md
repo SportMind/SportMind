@@ -308,7 +308,7 @@ note:     Championship 4 is the clearest prediction framework in NASCAR.
 
 ---
 
-## Fan Token Notes
+## Fan Token™ Notes
 
 No active NASCAR fan token on Chiliz as of Q1 2026. The NASCAR audience is
 predominantly North American, deeply loyal, and commercially engaged — exactly
@@ -332,6 +332,18 @@ NASCAR-specific notes:
 - **The Athletic NASCAR / NBC Sports**: Race analysis, technical detail
 - **Frontstretch.com**: NASCAR news and strategy analysis
 - **Weather.com**: Forecast for outdoor tracks (rain can cancel/postpone races)
+
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Pre-race signal | Load this file + `core/sportmind-score.md` | Apply track type modifier first |
+| Qualifying signal | `## Track Type Classification` | NASCAR qualifying sets signal context |
+| Playoff race | Playbook 3 or 4 | Elimination urgency modifier applies |
+| Manufacturer signal | `## Manufacturer and Team Advantage` | Superspeedway aero package critical |
+| Pit strategy | `## Pit Strategy` | Stage racing changes standard pit windows |
+
+---
 
 ## Compatibility
 

@@ -1,4 +1,4 @@
-# Fan Token Partnership Intelligence — SportMind Layer 3
+# Fan Token™ Partnership Intelligence — SportMind Layer 3
 
 Commercial intelligence framework for fan token partnerships — from new partnership
 announcement signals through active health monitoring to termination events and

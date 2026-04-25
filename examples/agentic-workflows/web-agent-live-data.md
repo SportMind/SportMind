@@ -351,7 +351,7 @@ AFTER Pattern 13 (match result): Pattern 11 (Post-Match Analysis Agent)
   Pattern 11 receives the Pattern 13 supply verification result
   as one of its inputs alongside the sporting outcome.
 
-ALONGSIDE Pattern 13: Pattern 8 (Fan Token Play Monitor)
+ALONGSIDE Pattern 13: Pattern 8 (Fan Token™ Play Monitor)
   Pattern 8 handles the full PATH_2 match cycle (T-48h → T+48h).
   Pattern 13 provides the on-chain verification that completes
   Pattern 8's supply confirmation step.

@@ -282,5 +282,5 @@ IF verdict = criminal conviction (Tier 4):
 ---
 
 *SportMind v3.32 · MIT License · sportmind.dev*
-*Part of Layer 2 Athlete Intelligence + Layer 3 Fan Token Commercial*
+*Part of Layer 2 Athlete Intelligence + Layer 3 Fan Token™ Commercial*
 *See: core/athlete-disciplinary-intelligence.md for full taxonomy and DSM values*

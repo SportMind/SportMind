@@ -1,4 +1,4 @@
-# Why Fan Tokens — The Foundational Value Thesis
+# Why Fan Tokens™ — The Foundational Value Thesis
 
 **The case for fan tokens over the traditional model. For AI agents and developers.**
 

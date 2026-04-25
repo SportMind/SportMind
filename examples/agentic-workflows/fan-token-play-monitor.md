@@ -1,4 +1,4 @@
-# Agentic Workflow Pattern 8 — Fan Token Play Monitor
+# Agentic Workflow Pattern 8 — Fan Token™ Play Monitor
 
 **Purpose:** Autonomous monitoring of Fan Token Play Path 2 tokens across the full
 T-48h → kickoff → T+48h match cycle. Detects pre-liquidation events, applies correct

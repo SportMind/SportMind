@@ -23,7 +23,7 @@ most single-use-case deployments well.
 The discovery protocol solves the harder cases: a portfolio monitoring agent
 that might encounter any sport, any token lifecycle phase, any macro condition,
 an active transfer window, a World Cup in progress, a disciplinary event, and
-Fan Token Play — all at once. Static bundles cannot handle this. Dynamic
+Fan Token™ Play — all at once. Static bundles cannot handle this. Dynamic
 discovery can.
 
 ---

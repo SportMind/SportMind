@@ -10,7 +10,7 @@ account for game-specific dynamics that don't exist in any other sport.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 1 — Active Token Ecosystem**
 

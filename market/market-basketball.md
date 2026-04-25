@@ -9,7 +9,7 @@ brand culture make it one of the highest-converting sports for fan token engagem
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 1 — Active Token Ecosystem**
 

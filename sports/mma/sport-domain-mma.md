@@ -303,7 +303,7 @@ npx skills add sportmind/fan-token
 ---
 MIT License · SportMind · sportmind.dev
 
-## Fan Token Layer
+## Fan Token™ Layer
 
 For MMA-specific fan token intelligence — fighter token multipliers (FTM), career risk
 index (CRI), fight week signal maps, weigh-in risk assessment, and post-fight token

@@ -138,7 +138,7 @@ TIER 2 — CLUB TOKEN NCSI EXPOSURE:
     No Italian national team exposure. Check individual player squad memberships.
     Weah (USA, GROUP D), Cambiaso (squad check): only NCSI routes if confirmed.
 
-  $AFC — Arsenal FC (Fan Token Play PATH_2)
+  $AFC — Arsenal FC (Fan Token™ Play PATH_2)
     WC exposure: individual player NCSI (Saka/England, Havertz/Germany,
     Saliba/France, Martinelli/Brazil)
     PATH_2 NOTE: WC matches are NOT PATH_2 events — club matches only

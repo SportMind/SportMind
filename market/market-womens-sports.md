@@ -14,7 +14,7 @@ than in separate market files due to the common commercial dynamics across them.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 → Tier 1 Transition (2024–2027)**
 

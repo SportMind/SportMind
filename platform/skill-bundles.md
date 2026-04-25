@@ -32,7 +32,7 @@ and provide a shared vocabulary for common deployments.
 
 ## Bundle definitions
 
-### `ftier1-football` — Fan Token Tier 1: Football
+### `ftier1-football` — Fan Token™ Tier 1: Football
 
 The complete fan token intelligence stack for football. Use for portfolio monitoring,
 pre-match token signal, and governance intelligence for football club tokens.

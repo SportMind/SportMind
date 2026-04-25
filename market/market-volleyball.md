@@ -9,7 +9,7 @@ Brazilian connection is its most commercially distinctive global characteristic.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

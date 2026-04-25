@@ -149,7 +149,7 @@ FOOTBALL TOKEN INTELLIGENCE:
     Haaland contribution to $CITY: estimated 0.28 (highest single-player ATM)
     De Bruyne: 0.18
     
-  FTIS (Fan Token Impact Score) for UCL Final:
+  FTIS (Fan Token™ Impact Score) for UCL Final:
     Pre-final: 0.92 — very high, near maximum
     Expected post-win: +12–18%
     Expected post-loss: −8–14%

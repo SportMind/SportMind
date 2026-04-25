@@ -59,7 +59,7 @@ The library is current with the Chiliz 2030 roadmap published February 2026:
 - **Omni-chain liquidity intelligence** — Fan tokens expanding to multiple blockchains
   via LayerZero from Q1 2026. Aggregate TVL across chains before applying liquidity
   tier. PEPPER governance token context for KAYEN protocol monitoring.
-- **Three-stage Fan Token evolution** — Stage 1 utility → Stage 2 dynamic tokenomics
+- **Three-stage Fan Token™ evolution** — Stage 1 utility → Stage 2 dynamic tokenomics
   → Stage 3 RWA with equity exposure. Stage stacking principle. Updated RSF formula
   with stage bonuses.
 

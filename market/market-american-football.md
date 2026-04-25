@@ -8,7 +8,7 @@ be among the highest market-cap tokens in the ecosystem.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term (12–36 months)**
 

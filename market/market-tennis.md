@@ -9,7 +9,7 @@ than competition tokens — but player career longevity limits token permanence.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon (3–5 years)**
 

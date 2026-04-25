@@ -1,4 +1,4 @@
-# App 2 — Fan Token Portfolio Intelligence
+# App 2 — Fan Token™ Portfolio Intelligence
 
 **A contextual intelligence layer for fan token holders — explaining portfolio movements,
 surfacing upcoming signal events, and providing lifecycle-aware reasoning for each token.**

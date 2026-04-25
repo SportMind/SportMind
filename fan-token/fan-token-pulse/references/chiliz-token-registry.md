@@ -1,4 +1,4 @@
-# Fan Token Registry — Complete (Authoritative)
+# Fan Token™ Registry — Complete (Authoritative)
 
 **Last updated: v3.79.2 — April 2026**
 **Source: fantokens.com, all contracts verified on-chain**

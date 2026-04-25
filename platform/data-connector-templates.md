@@ -339,7 +339,7 @@ class FanTokenMarketConnector:
             "flags":             [f for f in [spread_flag,
                                               "liquidity_warning" if tvl_usd < 50_000 else None]
                                   if f is not None],
-            # Fan Token Play status — read directly from KAYEN API response
+            # Fan Token™ Play status — read directly from KAYEN API response
             # gamified: True means this token has active performance-linked supply mechanics
             # path: "PATH_1" | "PATH_2" — mechansim in use (check fantokens.com if not present)
             "gamified":          data.get("gamified", False),

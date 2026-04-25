@@ -11,7 +11,7 @@ signal institutional readiness.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term**
 

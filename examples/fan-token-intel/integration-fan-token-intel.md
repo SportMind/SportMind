@@ -1,4 +1,4 @@
-# SportMind × Fan Token Intel — Integration Example
+# SportMind × Fan Token™ Intel — Integration Example
 
 SportMind is the reasoning layer. Fan Token Intel is the data layer.
 Together they form a complete sports prediction intelligence stack.

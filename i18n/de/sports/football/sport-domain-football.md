@@ -13,7 +13,7 @@ BUNDESLIGA — DER ZWEITGRÖSSTE FUSSBALLMARKT DER WELT:
   TV-Rechte: Sky Deutschland, DAZN, ARD/ZDF (Pokal/Nationalmannschaft)
   Durchschnittliche Zuschauer pro Spiel: 43.000 (höchster Schnitt in Europa)
   
-  TOP-VEREINE (Fan Token Potential):
+  TOP-VEREINE (Fan Token™ Potential):
   
   FC Bayern München:
     Weltweit bekannt; größter Fanklub in Deutschland (>310.000 Mitglieder)

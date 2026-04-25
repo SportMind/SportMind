@@ -10,7 +10,7 @@ overlaps significantly with football's token-active markets.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term**
 

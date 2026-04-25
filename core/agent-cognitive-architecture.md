@@ -298,7 +298,7 @@ SPORTMIND MAS DESIGN PRINCIPLES:
   4. Escalation is always available — any agent can escalate to human
 
 EXAMPLE MAS DEPLOYMENT:
-  Arsenal Fan Token Intelligence System:
+  Arsenal Fan Token™ Intelligence System:
     Agent A: Macro monitor (Chiliz chain state, regulatory environment)
     Agent B: Match intelligence (Arsenal pre-match SMS, TMAS, ARI)
     Agent C: Fan token commercial (FTIS, PATH_2 state, FTP mechanics)

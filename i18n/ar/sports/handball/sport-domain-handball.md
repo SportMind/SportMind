@@ -79,7 +79,7 @@ Tier 1 (ميزانية عالية جداً):
 
 **مهارة النطاق الإنجليزية:** `sports/handball/sport-domain-handball.md`
 **ذكاء الرياضيين:** `athlete/handball/athlete-intel-handball.md`
-**جسر Fan Token:** `fan-token/handball-token-intelligence/`
+**جسر Fan Token™:** `fan-token/handball-token-intelligence/`
 **تقاطع الرمز:** `fan-token/football-token-intelligence/` (PSG)
 **السوق:** `market/market-handball.md`
 

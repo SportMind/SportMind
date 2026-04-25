@@ -10,7 +10,7 @@ have genuine token potential during the Olympic window.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

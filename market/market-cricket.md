@@ -11,7 +11,7 @@ or remains on the boundary.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 1/2 — Active but Concentrated**
 

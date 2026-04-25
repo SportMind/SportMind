@@ -39,7 +39,7 @@ Organised alphabetically within sport categories, then cross-sport terms.
 | **Derby modifier** | Additional signal weight applied to local rivalry matches where form differential predicts less than usual |
 | **NCSI (National-Club Spillover Index)** | Measure of how national team performances spill over into club fan token prices | `fan-token/football-token-intelligence/` |
 | **ATM (Athlete Token Multiplier)** | Individual athlete's contribution to club-level token price movement | `fan-token/football-token-intelligence/` |
-| **FTIS (Fan Token Impact Score)** | Competition-level token price impact signal | sport-specific bridge skills |
+| **FTIS (Fan Token™ Impact Score)** | Competition-level token price impact signal | sport-specific bridge skills |
 
 ---
 

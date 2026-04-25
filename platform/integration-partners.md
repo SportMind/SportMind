@@ -40,7 +40,7 @@ responsibility is always: your data + SportMind reasoning = better decisions.
 
 ---
 
-## Partner 1 — Fan Token Intel (primary signal partner)
+## Partner 1 — Fan Token™ Intel (primary signal partner)
 
 **URL:** fantokenintel.com
 **Role:** Primary sports signal data provider for Tier 1 fan token markets

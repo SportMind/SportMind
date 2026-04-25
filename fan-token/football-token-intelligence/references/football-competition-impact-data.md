@@ -1,4 +1,4 @@
-# Competition Impact Data — Football Fan Token Intelligence
+# Competition Impact Data — Football Fan Token™ Intelligence
 # Calibrated FTIS and token impact data by competition type and club tier
 # Updated: Q1 2026 | Source: Kayen DEX historical data, Socios Connect, match_price_correlation
 

@@ -17,7 +17,7 @@ these blueprints show what that layer makes possible.
 | # | Application | Primary use case | SportMind layers | Key integration |
 |---|---|---|---|---|
 | 1 | [Decentralised Sports Prediction Finance](#app-1) | Pre-match signal → on-chain market | L1–L5 + DeFi | Azuro |
-| 2 | [Fan Token Portfolio Intelligence](#app-2) | Portfolio context for holders | L1 + L3 + L5 | Chiliz/Socios |
+| 2 | [Fan Token™ Portfolio Intelligence](#app-2) | Portfolio context for holders | L1 + L3 + L5 | Chiliz/Socios |
 | 3 | [Athlete Commercial Intelligence Platform](#app-3) | Athlete valuation for agents/brands | L2 + L3 | FanTokenIntel |
 | 4 | [Sports Brand Token Strategy Tool](#app-4) | Pre-launch due diligence for clubs | L3 + L4 + L5 | Chiliz |
 | 5 | [World Cup 2026 Intelligence Dashboard](#app-5) | Live WC2026 signal and portfolio | L1 + L3 + L4 | FanTokenIntel |

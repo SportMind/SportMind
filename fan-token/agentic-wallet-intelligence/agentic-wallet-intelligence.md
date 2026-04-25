@@ -1,4 +1,4 @@
-# Agentic Fan Token Wallet Intelligence — SportMind
+# Agentic Fan Token™ Wallet Intelligence — SportMind
 
 **The bridge between SportMind signal outputs and autonomous wallet action.**
 

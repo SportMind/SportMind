@@ -150,7 +150,7 @@ sizing:  standard — momentum can be strong but fades quickly
 
 ## Key Commands
 
-All commands route through the Fan Token Intel MCP / API backend.
+All commands route through the Fan Token™ Intel MCP / API backend.
 
 | Command | Skill | Use Case |
 |---|---|---|

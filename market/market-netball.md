@@ -9,7 +9,7 @@ fanbase is its most commercially distinctive characteristic.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3/4 — Niche with Growth Potential**
 

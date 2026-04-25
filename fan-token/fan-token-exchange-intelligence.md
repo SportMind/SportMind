@@ -1,4 +1,4 @@
-# Fan Token Exchange Intelligence
+# Fan Token™ Exchange Intelligence
 
 **Version:** 3.80.0
 **Layer:** Fan Token Commercial (Layer 3)

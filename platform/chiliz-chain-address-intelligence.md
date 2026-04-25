@@ -616,7 +616,7 @@ CALIBRATION CONTRIBUTION:
 
 ---
 
-## Fan Token Play Monitor
+## Fan Token™ Play Monitor
 
 The `FanTokenPlayMonitor` class detects and classifies Fan Token Play on-chain events
 for Path 2 tokens. It distinguishes protocol mechanics (pre-liquidation, post-match

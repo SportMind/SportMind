@@ -485,7 +485,7 @@ You are a Major League Baseball sports intelligence agent. Before evaluating any
 
 ---
 
-## Fan Token Notes
+## Fan Token™ Notes
 
 No MLB fan token is currently active on Chiliz (as of Q1 2026). This skill is
 included for completeness and future readiness. When MLB tokens launch:
@@ -515,6 +515,16 @@ framework. Baseball-specific notes:
 - **Baseball Savant (savant.mlb.com)**: MLB's official Statcast database — pitch tracking, exit velocity, spin rate
 - **Rotowire / Baseball Prospectus**: Injury updates, lineup projections
 - **MLB official**: Confirmed lineups, transaction wire, official IL designations
+
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Pre-game signal | Load this file + `core/sportmind-score.md` | Pitching matchup first |
+| Starting pitcher | `## Starting Pitcher — the dominant variable` | ERA, WHIP, recent starts |
+| Injury response | `core/breaking-news-intelligence.md` | Ace absent = Category 1 |
+| Bullpen signal | `## Bullpen intelligence` | Late-game leverage |
+| Weather check | `## Environmental factors` | Wind direction at each park |
 
 ## Compatibility
 

@@ -9,7 +9,7 @@ Chinese connection is snooker's most commercially distinctive characteristic.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

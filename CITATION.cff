@@ -23,7 +23,7 @@ authors:
     orcid: ''
     url: 'https://github.com/peleroberts'
 
-version: 3.92.2
+version: 3.93.0
 
 date-released: '2026-04-05'
 
@@ -54,7 +54,7 @@ preferred-citation:
     orcid: ''
     url: 'https://github.com/peleroberts'
 
-version: 3.92.2
+version: 3.93.0
   date-released: '2026-04-05'
   license: MIT
   url: 'https://github.com/SportMind/SportMind'

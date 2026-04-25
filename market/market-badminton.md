@@ -10,7 +10,7 @@ this sport more token potential than its Western commercial profile suggests.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Asia-Concentrated with Token Potential**
 

@@ -12,7 +12,7 @@ Reference for parsing API responses from each data source.
   {
     "address": "0x5C7B3A9f2E6d4C8b1A5f3E9d7C2b6A4f8E1d5C3b",
     "symbol": "BAR",
-    "name": "FC Barcelona Fan Token",
+    "name": "FC Barcelona Fan Token™",
     "decimals": 2,
     "club": {
       "name": "FC Barcelona",

@@ -301,7 +301,7 @@ Socios.com — official fan token platform
   - Active token list and utility event calendar
   - Voting history and participation rates
   - Partnership announcements
-  Fan Token Intel (fantokenintel.com) — primary third-party signal platform
+  Fan Token™ Intel (fantokenintel.com) — primary third-party signal platform
 ```
 
 ### Validator intelligence

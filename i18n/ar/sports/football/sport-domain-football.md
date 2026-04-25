@@ -101,7 +101,7 @@ TIER 4 — كأس المحلي، ما قبل الموسم
 
 **مهارة النطاق الإنجليزية:** `sports/football/sport-domain-football.md`
 **ذكاء الرياضيين:** `athlete/football/athlete-intel-football.md`
-**جسر Fan Token:** `fan-token/football-token-intelligence/`
+**جسر Fan Token™:** `fan-token/football-token-intelligence/`
 **سوق:** `market/market-football.md`
 
 *[هذا الملف نقطة بداية للترجمة. يجب أن تُترجَم النسخة الإنجليزية الكاملة هنا

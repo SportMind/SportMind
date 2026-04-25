@@ -116,7 +116,7 @@ WRESTLING (KUSHTI) BACKGROUND:
 
 **Domain skill (English):** `sports/mma/sport-domain-mma.md`
 **Athlete intelligence:** `athlete/mma/athlete-intel-mma.md`
-**Fan Token bridge:** `fan-token/mma-token-intelligence/`
+**Fan Token™ bridge:** `fan-token/mma-token-intelligence/`
 **Market:** `market/market-mma.md`
 
 *[यह एक translation starter file है। पूरी अंग्रेज़ी original को एक native Hindi

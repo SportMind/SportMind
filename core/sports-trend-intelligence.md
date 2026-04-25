@@ -57,7 +57,7 @@ CATEGORY 2 — ECOSYSTEM TRENDS
   Affects: Layer 3 (fan token commercial), Layer 5 (macro), Layer 4 (market tiers)
   
   Examples:
-    Fan Token Play Path 2 ($AFC):     Phase rollout trend — watching for club expansion
+    Fan Token™ Play Path 2 ($AFC):     Phase rollout trend — watching for club expansion
     RWA tokenisation:                  near-term arrival trend (2026-2027)
     Prediction market growth (Azuro):  volume growth trend (signal confidence improvement)
     Regulatory clarity (MiCA):         structural positive trend for EU tokens

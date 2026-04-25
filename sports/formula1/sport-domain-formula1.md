@@ -266,6 +266,16 @@ You are a Formula 1 sports intelligence agent. Before evaluating any F1 event:
 ---
 
 
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Qualifying signal | `sport-statistics-formula1.md` | Apply qualifying delta + circuit type |
+| Race day signal | `sport-statistics-formula1.md` Playbook 2 | Tyre compound strategy |
+| Regulation update | `core/breaking-news-intelligence.md` | REGULATION_UNCERTAINTY flag |
+| Constructor championship | Playbook 4 | Season finale context |
+| DNF response | Breaking news Category 2 | Reliability modifier |
+
 ## Autonomous Execution
 
 **Trigger conditions:**
@@ -306,7 +316,7 @@ You are a Formula 1 sports intelligence agent. Before evaluating any F1 event:
 
 *MIT License · SportMind · sportmind.dev*
 
-## Fan Token Layer
+## Fan Token™ Layer
 
 For Formula 1 fan token intelligence — FTIS, Constructor Token Index (CTI), Driver Token
 Multiplier (DTM), regulation cycle position, silly season transfer scoring, and dual-token

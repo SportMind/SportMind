@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.93.0] — 2026-04-25
+
+### Added — Fan Token™ trademark, US regulatory update, CHZ burn intelligence
+
+macro/macro-regulatory-sportfi.md — TRADEMARK CONFIRMATION section added to
+US regulatory section. The March 17, 2026 joint SEC/CFTC guidance explicitly
+names "Socios.com and Fan Token, trademarks owned by Chiliz" on pages 16 and 17.
+This is the first time US federal regulators have named the Fan Token™ trademark
+in binding official guidance. Asset classification clarified: exact regulatory
+language is "digital collectibles" and "digital tools" (not "utility digital
+commodities" as previously approximated) — both categories under CFTC jurisdiction.
+
+Fan Token™ trademark applied library-wide — 100 markdown files:
+  First use per document now reads "Fan Token™" or "Fan Tokens™".
+  Subsequent uses in same document remain lowercase "fan token" (correct — 
+  trademark only required on first prominent use per document).
+  Applied to all 5 website pages (first use in visible text only).
+  Skipped: CHANGELOG.md (historical record), CITATION.cff, llms.txt.
+  Rule source: SEC/CFTC March 2026 guidance confirms trademark status.
+
+### Fixed
+
+sports/nascar/sport-domain-nascar.md, sports/kabaddi/sport-domain-kabaddi.md,
+sports/formula1/sport-domain-formula1.md, sports/afl/sport-domain-afl.md,
+sports/handball/sport-domain-handball.md, sports/baseball/sport-domain-baseball.md
+  — Missing ## Key Commands sections added to all six files. Validator errors
+  resolved. Each section has 5 entries covering the primary signal commands for
+  that sport. The trademark pass surfaced these pre-existing gaps by triggering
+  re-validation across all skill files.
+
 ## [3.92.2] — 2026-04-20
 
 ### Fixed — docs sidebar restructure and three new advanced sections

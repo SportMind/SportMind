@@ -9,7 +9,7 @@ limited global reach and smaller commercial scale place it between Tier 2 and 3.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2/3 — Moderate Credibility**
 

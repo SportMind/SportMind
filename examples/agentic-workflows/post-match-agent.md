@@ -2,7 +2,7 @@
 
 **Purpose:** Runs the full post-match intelligence cycle after a result
 is confirmed — connecting sporting outcome, fan token commercial impact,
-Fan Token Play settlement, social signal, and plain-English summary for
+Fan Token™ Play settlement, social signal, and plain-English summary for
 fan token holders. Bridges the pre-match signal to the next cycle.
 
 **Trigger:** Match full-time confirmed (manual or calendar-driven)

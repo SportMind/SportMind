@@ -11,7 +11,7 @@ strategy can reshape a sport's commercial profile.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 1 — Active Token Ecosystem**
 

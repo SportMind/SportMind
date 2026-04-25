@@ -307,7 +307,7 @@ npx skills add sportmind/fan-token
 ---
 MIT License · SportMind · sportmind.dev
 
-## Fan Token Layer
+## Fan Token™ Layer
 
 For esports-specific fan token intelligence — OrgTIS, Game Roster Multiplier (GRM),
 Patch Risk Score (PRS), Roster Stability Index (RSI), and multi-game October-November

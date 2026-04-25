@@ -379,7 +379,7 @@ CATEGORY 6 — WALLET AGE AS CONVICTION PROXY
 
 CATEGORY 7 — FAN TOKEN PLAY EVENTS (Path 2, April 2026+)
 
-  Fan Token Play Path 2 creates PROTOCOL-DRIVEN on-chain events that are
+  Fan Token™ Play Path 2 creates PROTOCOL-DRIVEN on-chain events that are
   detectable before and after every match. These are distinct from organic
   whale activity — they are scheduled, attributable, and follow a precise pattern.
   

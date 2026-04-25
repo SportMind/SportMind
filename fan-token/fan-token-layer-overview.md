@@ -1,4 +1,4 @@
-# Fan Token Intelligence — SportMind Layer 3
+# Fan Token™ Intelligence — SportMind Layer 3
 
 > AI-powered sports intelligence connecting on-chain fan token data, transfer markets,
 > athlete social activity, on-pitch performance, off-pitch development, and commercial

@@ -280,7 +280,7 @@ note:     Hot goalkeeper stretches are real but shorter duration than ice hockey
 
 ---
 
-## Fan Token Notes
+## Fan Token™ Notes
 
 No active handball fan token on Chiliz as of Q1 2026. Core European markets
 (Germany, France, Spain, Denmark) represent a credible token audience.
@@ -300,6 +300,16 @@ Handball-specific notes:
 - **Handball-Planet.com**: News, previews, player statistics
 - **IHF official (ihf.info)**: International competition results
 - **Sofascore / Flashscore**: Live stats including save percentages
+
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Pre-match signal | Load this file + `core/sportmind-score.md` | Home advantage strongest factor |
+| Champions League signal | Tier 1 event protocol | Apply UCL modifier |
+| Goalkeeper signal | `## Goalkeeper intelligence` | Elite GK = highest ATM modifier |
+| Fast break specialist | Breaking news if absent | Key player modifier |
+| Set piece specialist | Pre-match squad check | 7-on-6 play capability |
 
 ## Compatibility
 

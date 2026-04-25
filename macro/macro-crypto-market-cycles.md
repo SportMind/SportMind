@@ -370,7 +370,7 @@ THE MECHANISM (confirmed active, April 2026):
   Burn address: 0x0000000000000000000000000000000000000000
 
 FAN TOKEN PLAY AMPLIFICATION (Path 2, April 2026):
-  Fan Token Play creates additional CHZ burn vectors beyond the base 10% rule.
+  Fan Token™ Play creates additional CHZ burn vectors beyond the base 10% rule.
   Path 2 WIN outcomes generate buyback proceeds → portion flows to CHZ burn.
   More fan tokens adopting Fan Token Play = more CHZ burn events per season.
   

@@ -8,7 +8,7 @@ and Asia. This is the reference sport for all fan token commercial intelligence.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 1 — Active Token Ecosystem**
 

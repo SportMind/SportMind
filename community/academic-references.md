@@ -37,7 +37,7 @@ the dual nature (sports engagement + speculative asset). Foundation for
 `fan-token/fan-token-why.md` treatment of the financial layer.
 
 **2. Demir, E., Ersan, O., & Popesko, B. (2022)**
-"Are Fan Tokens Fan Tokens?"
+"Are Fan Tokens™ Fan Tokens?"
 *Finance Research Letters*, 47, 102736.
 — Match outcomes produce abnormal returns. UCL losses generate stronger negative
 returns than wins generate positive returns. Empirical basis for the loss-effect

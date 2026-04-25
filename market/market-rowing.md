@@ -8,7 +8,7 @@ commercial engagement outside the Boat Race and Olympic cycle is minimal.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 4 — Niche / Structurally Distant**
 

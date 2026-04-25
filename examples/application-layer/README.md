@@ -53,7 +53,7 @@ line is yours to build.
 
 ## Domain 1 — Fan token actions
 
-The richest domain. Fan Token Play, supply mechanics, holder archetypes,
+The richest domain. Fan Token™ Play, supply mechanics, holder archetypes,
 lifecycle phases, governance, and on-chain verification all create
 distinct actionable moments.
 

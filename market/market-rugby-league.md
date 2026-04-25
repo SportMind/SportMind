@@ -9,7 +9,7 @@ with strong club identity — similar in structure to football's regional club t
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 2 — High Credibility, Near-Term**
 

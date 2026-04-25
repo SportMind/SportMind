@@ -10,7 +10,7 @@ in sport) create some token potential, primarily in the UK/Netherlands/Germany m
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

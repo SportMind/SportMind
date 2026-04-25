@@ -44,7 +44,7 @@ frameworks for AI reasoning agents, not trading guidance.
 **The Turkish BIST quartet** — the most fan-token-relevant equity cluster globally.
 All four clubs have both BIST equity listings and fan tokens (on Chiliz Chain):
 
-| Club | Ticker | Exchange | Fan Token | Notes |
+| Club | Ticker | Exchange | Fan Token™ | Notes |
 |---|---|---|---|---|
 | Galatasaray | GSRAY.IS | Borsa Istanbul (BIST) | GAL (Chiliz) | Market cap ~₺20.5B ($490M) as of Q4 2025 |
 | Fenerbahçe | FENER.IS | Borsa Istanbul (BIST) | FB (Ethereum/Paribu) | Separate fan token issuer from Chiliz |

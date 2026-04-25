@@ -259,7 +259,7 @@ TEST CHAMPIONSHIP (WTC):
 
 **Domain skill (English):** `sports/cricket/sport-domain-cricket.md`
 **Athlete intelligence:** `athlete/cricket/athlete-intel-cricket.md`
-**Fan Token bridge:** `fan-token/cricket-token-intelligence/`
+**Fan Token™ bridge:** `fan-token/cricket-token-intelligence/`
 **Market:** `market/market-cricket.md`
 **Macro (geopolitical):** `macro/macro-geopolitical.md`
 

@@ -960,7 +960,7 @@ OUTPUT INCLUDES:
 
 ---
 
-## Prompt 20 — Fan Token Play monitoring agent ($AFC and future PATH_2 tokens)
+## Prompt 20 — Fan Token™ Play monitoring agent ($AFC and future PATH_2 tokens)
 
 Specialised for tokens with confirmed Fan Token Play status. Runs the full
 T-48h → kickoff → T+48h cycle with correct pre-liquidation classification.

@@ -9,7 +9,7 @@ single-fight events drive enormous but highly concentrated commercial activity.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 3 — Viable but Longer Horizon**
 

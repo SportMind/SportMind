@@ -352,7 +352,7 @@ Load: core/temporal-awareness.md — Tier 1 update cadence
 
 ---
 
-## The three-stage Fan Token evolution (Chiliz 2030 model)
+## The three-stage Fan Token™ evolution (Chiliz 2030 model)
 
 ```
 STAGE 1 — UTILITY (2019-2025, still the baseline):

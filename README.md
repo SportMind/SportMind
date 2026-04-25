@@ -10,7 +10,7 @@ the commercial landscape, and the external forces acting on it.
 [![Version](https://img.shields.io/badge/version-3.86.0-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
 [![Calibration](https://img.shields.io/badge/calibration-126%20records%20%7C%2096%25%20accuracy-green)]()
-[![Fan Tokens](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
+[![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
 ---

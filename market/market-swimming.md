@@ -9,7 +9,7 @@ sustained token engagement structurally difficult.
 
 ---
 
-## Fan Token Readiness Tier
+## Fan Token™ Readiness Tier
 
 **Tier 4 — Niche / Structurally Distant**
 

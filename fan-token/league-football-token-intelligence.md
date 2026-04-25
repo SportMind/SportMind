@@ -142,7 +142,7 @@ LEAGUE TOKEN PROFILE:
   opportunity in the fan token ecosystem.
 
 $AFC SIGNAL — PATH_2 PRIORITY:
-  Arsenal is the confirmed Fan Token Play PATH_2 club (April 2026).
+  Arsenal is the confirmed Fan Token™ Play PATH_2 club (April 2026).
   WIN = permanent supply reduction. PATH_2 mechanics apply to ALL $AFC signals.
   Load fan-token/gamified-tokenomics-intelligence/ alongside any $AFC analysis.
   PL performance drives both sporting signal AND supply mechanics simultaneously.

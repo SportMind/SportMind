@@ -294,7 +294,7 @@ sizing:   0.90× — meaningful upset signal but playoffs are unpredictable
 
 ---
 
-## Fan Token Notes
+## Fan Token™ Notes
 
 No active kabaddi fan token on Chiliz as of Q1 2026. The Indian market represents
 one of the highest-priority token expansion opportunities globally given: audience
@@ -317,6 +317,18 @@ Kabaddi-specific notes:
 - **Sports18 / Star Sports**: Broadcast statistics and match analysis
 - **Cricbuzz / ESPNcricinfo kabaddi section**: PKL coverage
 - **Player auction results**: Annual PKL auction data
+
+## Key Commands
+
+| Action | Skill | Notes |
+|---|---|---|
+| Pre-match signal | Load this file + `core/sportmind-score.md` | Raider primacy modifier applies |
+| Star raider absent | `core/breaking-news-intelligence.md` | Category 2 — apply ×0.78 |
+| PKL Final / Eliminator | Playbook 2 or 3 | High-stakes modifier active |
+| All Out event | `## All Out — the Game-Changing Event` | Score reset signal |
+| Auction intelligence | `## Auction and Squad Building` | Pre-season team strength signal |
+
+---
 
 ## Compatibility
 

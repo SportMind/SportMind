@@ -19,7 +19,7 @@ description: >
 | Server | Script | Port | Tools | Primary audience |
 |---|---|---|---|---|
 | General | `sportmind_mcp.py` | 3001 | 10 | All developers |
-| Fan Token | `sportmind_ft_mcp.py` | 3002 | 8 | Chiliz devs, clubs, portfolio agents |
+| Fan Token™ | `sportmind_ft_mcp.py` | 3002 | 8 | Chiliz devs, clubs, portfolio agents |
 | Pre-Match Signal | `sportmind_pm_mcp.py` | 3003 | 3 | Any developer — zero-friction entry |
 | Broadcast & Commercial | `sportmind_bc_mcp.py` | 3004 | 5 | Broadcasters, rights holders |
 | Governance & Competition | `sportmind_gc_mcp.py` | 3005 | 6 | Fan token governors, competition analysts |

@@ -151,7 +151,7 @@ Trend: Rising (+8 points in 90 days)
 Peer rank: Top 18% of forwards in Premier League
 
 COMPONENT BREAKDOWN:
-  Fan Token Ecosystem (HAS):   74  Token holders active, voting above avg
+  Fan Token™ Ecosystem (HAS):   74  Token holders active, voting above avg
   Social→Token Lift (AELS):    81  Instagram posts reliably move token holders
   Portability Score (APS):     68  Strong transferable audience
   Social Reach (REACH):        72  2.1× above league median

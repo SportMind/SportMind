@@ -1,4 +1,4 @@
-# Fan Token Lifecycle — SportMind Layer 3
+# Fan Token™ Lifecycle — SportMind Layer 3
 
 The complete temporal framework for fan token intelligence. Covers every stage of a
 fan token's existence — from pre-launch commercial signals through active partnership

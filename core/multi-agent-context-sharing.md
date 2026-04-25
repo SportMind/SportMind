@@ -76,7 +76,7 @@ TIER 1 — GLOBAL SIGNALS (one authoritative source, shared by all agents):
 TIER 2 — TOKEN SIGNALS (one authoritative source per token):
   pre_match_signal:   The pre-match agent for that token's next fixture
   dsm_flags:          The most recent disciplinary check for that token's key players
-  ftp_status:         The Fan Token Play monitor (if active) for that token
+  ftp_status:         The Fan Token™ Play monitor (if active) for that token
   lifecycle_phase:    Updated by portfolio monitor on 24h cycle
   
   RULE: One agent "owns" each token's signal at any given time.

@@ -287,7 +287,7 @@ WEEKLY CHECK:
   Macro crypto: BTC 200-day MA status (macro modifier trigger)
 
 MONTHLY CHECK:
-  CoinDesk Fan Token coverage — market analysis pieces
+  CoinDesk Fan Token™ coverage — market analysis pieces
   Chiliz Chain GitHub — protocol-level changes
   Relevant academic pre-print servers (SSRN: blockchain, sports finance)
 

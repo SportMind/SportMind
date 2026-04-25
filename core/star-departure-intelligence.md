@@ -208,7 +208,7 @@ LTUI RESET CALCULATION:
 
 ---
 
-## Fan Token Play (Path 2) — supply mechanics impact
+## Fan Token™ Play (Path 2) — supply mechanics impact
 
 ```
 This is the most important fan token-specific implication of a star

@@ -634,7 +634,7 @@ originating skill and referenced consistently across the library:
 | **TSI** | Transfer Signal Index | `fan-token/transfer-signal` | Confidence-weighted rumour aggregation for token impact |
 | **ABS** | Athlete Brand Score | `fan-token/brand-score` | Composite commercial brand value; exportable brief |
 | **AFS** | Audience Fit Score | `fan-token/sponsorship-match` | Brand-to-athlete audience alignment for sponsorship |
-| **FTIS** | Fan Token Impact Score | sport-specific bridge skills | Competition-level token price impact signal |
+| **FTIS** | Fan Token™ Impact Score | sport-specific bridge skills | Competition-level token price impact signal |
 | **NCSI** | National-Club Spillover Index | `fan-token/football-token-intelligence` | How national team events affect club token prices |
 | **ATM** | Athlete Token Multiplier | `fan-token/football-token-intelligence` | Individual athlete contribution to club token movement |
 | **CTI** | Constructor Token Index | `fan-token/formula1-token-intelligence` | Constructor-level F1 token commercial health |

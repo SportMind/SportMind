@@ -133,6 +133,26 @@ UPDATE — APRIL 2026 (CoinDesk, confirmed):
   fan communities that are meaningfully harder to replicate once established."
   (CoinDesk, April 10, 2026 — opinion but reflects confirmed regulatory context)
 
+  TRADEMARK CONFIRMATION (SEC/CFTC guidance, March 17, 2026):
+    The joint SEC/CFTC guidance document explicitly names "Socios.com and Fan Token,
+    trademarks owned by Chiliz" on pages 16 and 17 as concrete examples of the
+    newly defined asset categories.
+    
+    This is the first time US federal regulators have named the Fan Token™ trademark
+    in binding official guidance — cementing Chiliz's IP position in the US market.
+    
+    Correct terminology for SportMind: Fan Token™ (first use per document)
+    Subsequent uses in same document: fan token (lowercase, no mark required)
+    
+  ASSET CLASSIFICATION (exact guidance language):
+    "digital collectibles" — Fan Tokens as ownership/access assets
+    "digital tools" — Fan Tokens as governance/voting instruments
+    Both categories: NOT securities; CFTC commodity jurisdiction applies
+    
+    Note: Previous SportMind framing used "utility digital commodities" —
+    the precise regulatory language is "digital collectibles and digital tools".
+    Both framings reflect the same CFTC jurisdiction conclusion.
+
   FIRST-MOVER SIGNAL (active from April 2026):
     US leagues (NFL, NBA, MLB, NHL) now face first-mover commercial incentive.
     First franchise per league to launch = elevated CDI at launch: ×1.40 modifier

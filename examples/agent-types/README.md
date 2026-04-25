@@ -593,7 +593,7 @@ SportMind's intelligence stack.
 <a name="type-6"></a>
 ### Type 6 — Supply Surveillance Agent
 
-**What it is:** Watches PATH_2 Fan Token Play mechanics in real time — detects
+**What it is:** Watches PATH_2 Fan Token™ Play mechanics in real time — detects
 treasury pre-liquidations at T-48h, verifies burn events post-match, and
 raises flags when supply behaviour deviates from protocol expectations.
 
