@@ -5,7 +5,7 @@
 
 Repository: https://github.com/SportMind/SportMind
 License: MIT
-Version: 3.92.1
+Version: 3.92.2
 Maintainer: @SportMind
 
 ---

@@ -1,5 +1,29 @@
 # Changelog
 
+## [3.92.2] — 2026-04-20
+
+### Fixed — docs sidebar restructure and three new advanced sections
+
+docs.html:
+  - Sidebar restructured: "Advanced" group extracted from Intelligence section.
+    Intelligence now contains: Five Layers, Fan Tokens, Calibration.
+    Advanced now contains: Statistics Intelligence, Autonomous Skills,
+    Agentic Wallet, Decentralised Agents, Visual Output.
+    Sidebar now has 6 sections: Overview, Integration, Intelligence,
+    Advanced, Build, Reference.
+  - Three new documentation sections added to Advanced group:
+    agentic-wallet: three wallet contexts table, signal thresholds table,
+      governance mandate tier table (A/B/C), EXIT always requires human
+      callout, file reference (448L, three example agents).
+    decentralised-agents: four patterns table, signal handoff schema code,
+      conflict resolution table (4 types), compatible frameworks list,
+      file reference (513L with agent registration schema).
+    visual-output: six patterns table (CDI timeline, pre-match dashboard,
+      multi-token grid, signal/price overlay, WC2026 tracker, agent log),
+      colour palette callout, file reference (365L).
+
+Project instructions updated to v3.92.1 in Google Drive.
+
 ## [3.92.1] — 2026-04-20
 
 ### Fixed — website content audit: stale counts, new docs sections, statistics demo scenarios
