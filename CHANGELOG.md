@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.93.5] — 2026-04-25
+
+### Fixed — stale file counts in meta tags and OG image
+
+Root cause: the stat bar (592), docs table (592), and visible page content
+were updated correctly across releases, but three locations that are not
+visible on the rendered page were missed:
+
+index.html:
+  - <meta name="description"> said "582 skill files" → fixed to "592"
+  - <meta property="og:description"> said "579 files" → fixed to "592"
+  - <meta name="twitter:description"> said "579 files" → fixed to "592"
+
+og-image.svg / og-image.png:
+  - SKILL FILES stat showed "582" → fixed to "592"
+  - PNG regenerated from updated SVG
+
+demo.html:
+  - <meta name="description"> said "18 scenarios" → fixed to "21"
+  - <meta property="og:description"> said "18 scenarios" → fixed to "21"
+  (Three new statistics scenarios were added in v3.92.1 but meta tags
+  were not updated at the time.)
+
+Full stale-count scan completed: all pages, all meta tags, all table
+values, OG image — all now consistent at 592.
+
 ## [3.93.4] — 2026-04-25
 
 ### Fixed — demo statistics scenarios not responding
