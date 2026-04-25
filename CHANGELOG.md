@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.92.1] — 2026-04-20
+
+### Fixed — website content audit: stale counts, new docs sections, statistics demo scenarios
+
+index.html:
+  - code-foot version v3.86 → v3.92.0
+  - Layer 3 fan-token skill count 61 → 65
+
+docs.html:
+  - Layer 3 fan-token description 40 skills → 65 skills (two places:
+    layer table description and layer count column)
+  - Layer 3 description updated to include "agentic wallet, statistics integration"
+  - sg-tool-badge "new" class removed from v3.34 and v3.67 tool entries
+    (these features are no longer new — badge now plain, not highlighted)
+  - Library at a glance table: three new rows added:
+    6 statistics sub-modules, 25 autonomous execution sections, 52 academic papers
+  - Two new sidebar navigation entries added to Intelligence section:
+    "Statistics Intelligence" and "Autonomous Skills"
+  - Two new documentation sections added:
+    statistics-intelligence: four-tier hierarchy, six sub-modules table with
+    key Tier 1 stats and notable features, universal modifier caps table,
+    load order code block.
+    autonomous-skills: conventional vs autonomous skill comparison table,
+    ## Autonomous Execution anatomy with template, files-with-sections table
+    by category, hard boundaries callout.
+
+demo.html:
+  - New "Statistics" scenario group with three scenarios:
+    f1_qualifying_delta: Monza qualifying, 0.34s gap, circuit-type modifier ×1.15,
+      tyre strategy, autonomous trigger on qualifying_complete.
+    esports_patch_signal: CS2 major patch 5 days old, PATCH_UNCERTAINTY flag,
+      partial statistical weight, meta alignment 62% → ×1.03, WAIT recommended.
+    cricket_dew_protocol: Mumbai T20 evening, humidity 78%, dew protocol active
+      (calibrated 5/5), toss + dew alignment, chasing team ×1.06.
+
 ## [3.92.0] — 2026-04-20
 
 ### Added — Session D: basketball statistics + 4 critical autonomous sections
