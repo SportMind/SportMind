@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.93.2] — 2026-04-25
+
+### Fixed — website audit: autonomous count, trademark consistency
+
+docs.html:
+  - Library at a glance: autonomous execution sections 25 → 26 (true count).
+  - Statistics Intelligence section lead: added "(437L)" to cross-sport
+    framework reference for consistency with other Advanced section entries.
+  - Fan Token™ trademark confirmed correctly applied at first standalone use
+    (sidebar nav). All 16 subsequent instances are "Fan Token Play" compound
+    terms or UI labels — no mark required. Trademark application verified
+    as correct across all 5 pages.
+
+Comprehensive pre-WC2026 website and library audit (v3.93.2):
+  - All 8 website count checks: CLEAN (592/377/59/29/43/82/26)
+  - Fan Token™ present on all 5 pages: CONFIRMED
+  - WC2026 pre-tournament file: 0 TBDs, all key facts locked
+  - Skill validator: 0 errors
+  - Security check: 0 critical/high
+
 ## [3.93.1] — 2026-04-25
 
 ### Fixed + Added — WC2026 TBD resolved, 11 stubs promoted to BASIC
