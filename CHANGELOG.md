@@ -1,5 +1,60 @@
 # Changelog
 
+## [3.94.0] — 2026-04-25
+
+### Added — Intelligence Listener: universal update monitor for all domains
+
+scripts/sportmind_listener.py (904L):
+  Universal intelligence listener covering all SportMind domains.
+  Runtime implementation of core/external-intelligence-intake.md.
+
+  DOMAINS COVERED:
+    fan_token — Chiliz Blog, Socios newsroom, fantokens.com
+    macro — CoinGecko BTC/CHZ, SEC.gov, EU ESMA/MiCA
+    sport_domain — FIFA, BBC Sport (football, F1, cricket, MMA)
+    esports — HLTV (CS2), Liquipedia
+    custom — operator-defined sources (any type)
+
+  THREE-TIER ROUTING:
+    Tier 1 (confirmed facts): exit code 1, immediate action required
+    Tier 2 (credible signals): queue for human/agent review
+    Tier 3 (context): log only
+    Maps directly to core/external-intelligence-intake.md taxonomy.
+
+  29 EVENT TYPES across all domains, each mapped to a target library file.
+
+  4 DISPATCH MODES:
+    print — stdout (development default)
+    file — timestamped JSON + Markdown in --output-dir
+    webhook — Slack/Discord/custom HTTP POST (Slack blocks compatible)
+    github_issue — creates labelled GitHub Issues for Tier 1 + 2
+
+  CUSTOM SOURCES (--custom-sources my_sources.json):
+    Operators define their own RSS feeds, JSON APIs, or local file queues.
+    Any system can write events to a local JSON file; listener picks them up.
+    Full custom source format documented in platform/intelligence-listener.md.
+
+  CONFIDENCE SCORING: base 0.60, +0.08 per keyword match, 0.95 for
+  numeric thresholds. Configurable minimum via --min-confidence.
+
+  Optional dependencies only (graceful degradation without any of them):
+    requests, feedparser, python-dotenv
+
+platform/intelligence-listener.md (383L):
+  Full documentation: quick start, domain coverage table, event taxonomy
+  (all 29 types with tier and target file), dispatch mode specs,
+  webhook payload format, environment variables, custom sources format
+  with three examples (RSS, JSON API, local queue), GitHub Actions
+  integration, confidence scoring, extension guide.
+
+.github/workflows/intelligence-listener.yml (149L):
+  Three automated jobs:
+    daily_sweep — full domain sweep at 08:00 UTC
+    macro_monitor — every 4 hours, Tier 1 only, webhook dispatch
+    wc2026_monitor — hourly June–July when WC2026_ACTIVE=true
+  Manual trigger with domain, dispatch mode, dry-run, and confidence inputs.
+  Artifacts uploaded for all detected events (30-day retention).
+
 ## [3.93.5] — 2026-04-25
 
 ### Fixed — stale file counts in meta tags and OG image
