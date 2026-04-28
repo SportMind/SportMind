@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.95.1] — 2026-04-28
+
+### Fixed — docs: Intelligence Listener section, omnichain fan token update
+
+docs.html — Intelligence Listener added to Advanced sidebar and docs:
+  New "Intelligence Listener" entry in Advanced sidebar (6th item,
+  after Visual Output). New ## intelligence-listener doc section covering:
+  5-domain monitoring table, three-tier routing table, quick start code,
+  four dispatch modes table, custom sources callout, WC2026 intensive mode,
+  file references (scripts/sportmind_listener.py, platform/intelligence-
+  listener.md, .github/workflows/intelligence-listener.yml).
+
+docs.html — fan-tokens section updated for omnichain reality:
+  New "Omnichain expansion (April 2026)" subsection with two elements:
+  (1) Callout: decimal migration active April 27 — new contract addresses,
+  fractional ownership, DeFi compatibility. Verify at app.fantokens.com.
+  (2) Paragraph: Fan Tokens now on Chiliz Chain + Solana + Base via LayerZero.
+  Settlement anchors to Chiliz Chain. PATH_2 only confirms on Chiliz Chain.
+  Cross-chain volume divergence requires MRS review.
+
 ## [3.95.0] — 2026-04-28
 
 ### Added — Omnichain intelligence: decimal migration, LayerZero, DeFi signals
