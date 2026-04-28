@@ -436,6 +436,59 @@ DATA SOURCE:
   Fan Token Play data: fantokens.com/newsroom
 ```
 
+---
+
+## Omnichain expansion — liquidity amplifier (confirmed Q1–Q2 2026)
+
+```
+WHAT HAPPENED:
+  Fan Tokens™ expanded beyond Chiliz Chain to Solana and Base via LayerZero.
+  Simultaneously, all Fan Tokens upgraded to 18-decimal precision (April 27, 2026),
+  enabling fractional ownership and full DeFi protocol compatibility.
+
+MACRO SIGNAL IMPACT:
+  This is a structural liquidity unlock — not a one-time event but a permanent
+  change to the fan token addressable market.
+
+  BEFORE (pre-Q1 2026):
+    Fan token liquidity: isolated to Chiliz Chain / Socios ecosystem
+    DeFi access: limited (0-decimal tokens incompatible with most protocols)
+    Holder base ceiling: ~2M Socios wallet holders
+    
+  AFTER (post-Q1 2026):
+    Fan token liquidity: Chiliz Chain + Solana + Base (LayerZero)
+    DeFi access: full — DEXs, lending protocols, yield strategies, prediction markets
+    Holder base ceiling: entire Solana and Base DeFi user bases (~10M+ wallets)
+
+CHZ FLYWHEEL IMPLICATION:
+  More chains = more trading venues = more transaction volume
+  More volume = more 10% buyback proceeds = more CHZ burned
+  The omnichain expansion structurally accelerates the CHZ virtuous cycle.
+  
+  REVISED BURN RATE TIERS (post-omnichain baseline):
+    < 5M CHZ burned per quarter:   LOW — ecosystem not yet capitalising on expansion
+    5-20M CHZ burned per quarter:  MODERATE (pre-omnichain baseline ~9.2M/quarter)
+    20-50M CHZ burned per quarter: HIGH — omnichain expansion generating volume
+    > 50M CHZ burned per quarter:  VERY HIGH — full multi-chain traction achieved
+    
+  The 9.2M/quarter baseline was pre-omnichain. Post-expansion, a burn rate
+  below 12M/quarter would indicate the omnichain expansion failed to gain traction.
+  A burn rate above 20M/quarter confirms the expansion is working.
+
+MACRO_MODIFIER ADJUSTMENT (post-omnichain):
+  In NEUTRAL or mild BEAR conditions, the expanded liquidity base provides
+  additional structural support. Apply +0.02 to the virtuous cycle floor modifier
+  in recognition of expanded addressable market.
+  
+  NEUTRAL + MODERATE burn + omnichain active: 1.00 + 0.04 + 0.02 = 1.06
+  BEAR + MODERATE burn + omnichain active:    0.75 + 0.03 + 0.02 = 0.80
+
+MONITORING ADDITIONS:
+  Track fan token volume on Solana DEXs (Jupiter aggregator)
+  Track fan token activity on Base DEXs (Aerodrome, Uniswap Base)
+  Cross-chain bridge flows: chiliscan.com LayerZero transactions
+  Compare multi-chain volume vs Chiliz Chain volume as ecosystem health indicator
+```
 
 ---
 

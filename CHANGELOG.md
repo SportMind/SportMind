@@ -1,5 +1,62 @@
 # Changelog
 
+## [3.95.0] — 2026-04-28
+
+### Added — Omnichain intelligence: decimal migration, LayerZero, DeFi signals
+
+Source articles: Chiliz.com (April 27, 2026 — decimal rollout, omnichain launch),
+fantokens.com/newsroom. All intelligence is Tier 1 (confirmed from official source).
+
+fan-token/fan-token-lifecycle/fan-token-lifecycle.md:
+  Decimal migration event added to Phase 3 (April 27, 2026).
+  0 decimal → 18 decimal precision: fractional ownership enabled, full DeFi
+  compatibility unlocked, all Fan Tokens now have NEW contract addresses.
+  Agent critical: monitoring pre-April 2026 addresses will miss events.
+  Omnichain expansion (LayerZero): Fan Tokens now on Chiliz Chain + Solana + Base.
+  Settlement anchors to Chiliz Chain regardless of chain where traded.
+  CDI implication: +5% CHI ceiling uplift for Phase 3 tokens post-migration
+  (expanded liquidity pathways). MRS implication: cross-chain arbitrage now
+  possible — volume divergence between chains requires investigation.
+
+fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md:
+  New ## Omnichain signal intelligence section.
+  Post-migration contract address migration warning for agents.
+  Cross-chain signal interpretation framework: normal pattern (correlated
+  volume), signal flags (Solana-only spike = MRS review, Chiliz Chain spike
+  = standard CDI), LayerZero bridge events as new signal type.
+  Monitoring priority order: Chiliz Chain (Tier 1), Solana (Tier 2), Base (Tier 2).
+  PATH_2: only confirms on Chiliz Chain — bridge copies never trigger supply changes.
+
+macro/macro-crypto-market-cycles.md:
+  New ## Omnichain expansion — liquidity amplifier section.
+  Structural liquidity unlock: from Socios-isolated to multi-chain (10M+ wallets).
+  Revised CHZ burn rate tiers for post-omnichain baseline (9.2M was pre-omnichain).
+  CHZ flywheel accelerator: more chains → more volume → more 10% buybacks → more burn.
+  Macro modifier adjustment: +0.02 additional floor modifier post-omnichain.
+  Monitoring additions: Solana/Base DEX fan token volume as CHZ health indicators.
+
+macro/macro-regulatory-sportfi.md:
+  Omnichain regulatory implication added to US section.
+  Solana and Base are US-accessible, US-familiar chains — fan tokens on these
+  chains fall squarely within the March 17, 2026 SEC/CFTC guidance.
+  US first-mover ×1.40 CDI launch modifier now has operational frictionlessness:
+  first US franchise token can deploy Solana-native without Socios infrastructure.
+  US_MARKET_ENTRY_SIGNAL upgraded: OPEN → ACTIVE.
+
+fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md:
+  New ## Decimal migration and DeFi interaction section.
+  DeFi staking creates new PATH_2 amplifier: if >20% of $AFC circulating supply
+  in yield protocols, apply ×1.05 to PATH_2 burn signal (reduced float effect).
+  Omnichain PATH_2 note: PATH_2 mechanics ONLY on Chiliz Chain. Solana/Base
+  bridge copies never trigger burns. Verification: chiliscan.com zero-address only.
+
+$ITA CLARIFICATION (no library change required):
+  $ITA fan token exists — confirmed Chiliz Chain registry entry.
+  Italy did NOT qualify for WC2026 — $ITA WC2026 NCSI suppression is correct.
+  Both facts are simultaneously true. National team tokens are not exclusively
+  a WC product — $ITA CDI is driven by Nations League, Euro qualifying, friendlies.
+  No library change needed. Existing notes are accurate.
+
 ## [3.94.0] — 2026-04-25
 
 ### Added — Intelligence Listener: universal update monitor for all domains

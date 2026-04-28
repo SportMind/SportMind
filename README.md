@@ -213,14 +213,6 @@ MIT — free to use, modify, and redistribute for any purpose.
 
 ---
 
-## Ecosystem
-
-| Application | What it does | SportMind layers |
-|-------------|-------------|-----------------|
-| [Fan Token Agentic Wallet](https://github.com/SportMind/fan-token-agentic-wallet-starter-kit) | Agentic wallet starter kit for Chiliz Chain | fan-token, sports, athlete, macro |
-
----
-
 *WHO-USES-THIS.md → FIRST-RECORD-CHALLENGE.md → examples/starter-pack/*
 
 *SportMind is an independent open-source project. Not affiliated with Chiliz,

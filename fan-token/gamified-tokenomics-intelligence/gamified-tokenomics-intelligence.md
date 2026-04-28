@@ -98,6 +98,51 @@ RULE: Never conflate fan token supply burns with CHZ burns.
 
 ---
 
+## Decimal migration and DeFi interaction with Fan Token Play
+
+```
+DECIMAL MIGRATION (April 27, 2026) — IMPACT ON FAN TOKEN PLAY:
+
+  Before decimal migration:
+    Fan Tokens™ were 0-decimal (whole units only).
+    Path 2 burn/mint operated in whole units — supply changes in integers.
+    No DeFi protocol could hold or trade Fan Tokens in fractional amounts.
+
+  After decimal migration (18 decimal precision):
+    Path 2 burn/mint can now operate in fractional precision.
+    Supply changes are now expressed in 18-decimal units.
+    Fan Token Play tokens ($AFC and future Path 2 tokens) are now:
+      - Stakeable in DeFi protocols on Solana, Base, and Chiliz Chain
+      - Usable as collateral in lending protocols
+      - Tradeable in fractional amounts on DEXs
+
+  SIGNAL IMPLICATION FOR PATH 2 TOKENS:
+    DeFi yield from staking creates NEW holder incentive beyond sporting performance.
+    Holders may accumulate and stake $AFC for yield in addition to PATH_2 exposure.
+    This structurally increases holder count and reduces available circulating supply.
+    Effect: PATH_2 burn events become MORE significant post-migration because the
+    free float (unstaked supply) is smaller — the same absolute burn removes a larger
+    percentage of tradeable supply.
+
+  AGENT RULE — POST-MIGRATION PATH_2 SIGNAL ADJUSTMENT:
+    If DeFi staking data shows > 20% of circulating $AFC in yield protocols:
+      Apply ×1.05 amplifier to PATH_2 burn signal (reduced float effect)
+    If DeFi staking data shows < 5% staked:
+      Standard PATH_2 signal weight — no adjustment
+
+OMNICHAIN PATH_2 NOTE:
+  PATH_2 supply changes (burns and mints) are ONLY confirmed on Chiliz Chain.
+  Trading on Solana or Base does NOT trigger PATH_2 mechanisms.
+  Solana/Base token bridges represent the same underlying supply — they are
+  representations, not new supply. PATH_2 mechanics never activate on bridge copies.
+  
+  AGENT RULE: Always verify PATH_2 events on chiliscan.com (Chiliz Chain explorer).
+  A price movement on Solana is NOT a supply change. Only the Chiliz Chain
+  zero-address transaction (0x0000...0000) confirms a burn.
+```
+
+---
+
 ## Identifying Fan Token Play tokens
 
 ```

@@ -111,6 +111,59 @@ SUBOPTIMAL LAUNCH WINDOWS:
 
 ## Phase 3 — Active utility intelligence
 
+```
+OMNICHAIN UPGRADE — CONFIRMED ACTIVE (April–Q2 2026):
+
+  DECIMAL MIGRATION (April 27, 2026):
+    All Fan Tokens™ upgraded from 0 decimal places to 18 decimal precision.
+    This is the most significant technical upgrade in Fan Token™ history.
+    
+    Before (0 decimals): tokens tradeable in whole units only.
+    After (18 decimals):  fractional ownership enabled; full DeFi compatibility.
+    
+    WHAT CHANGED FOR AGENTS:
+      1. Contract addresses changed — all Fan Tokens have new contract addresses
+         post-migration. Monitoring the old address will miss events.
+         New addresses: app.fantokens.com (upgrade portal) + chiliscan.com
+         
+      2. Liquidity unlock — tokens now integrate with DEXs, DeFi protocols,
+         and omnichain bridges that require 18-decimal precision.
+         
+      3. Fractional trading enabled — price impact analysis changes.
+         Previous: only whole-unit buy/sell pressure detectable.
+         After: micro-fractional accumulation and distribution detectable.
+    
+    AGENT RULE — CONTRACT ADDRESS CHECK:
+      Any on-chain monitoring must verify it is using the POST-MIGRATION
+      contract address. Pre-migration addresses are legacy and inactive.
+      Verify current contract addresses at: app.fantokens.com or chiliscan.com
+
+  OMNICHAIN EXPANSION (Q1–Q2 2026):
+    Via LayerZero integration, Fan Tokens™ now exist on:
+      Native chain:   Chiliz Chain (primary — all tokens originate here)
+      Extended:       Solana
+      Extended:       Base
+    
+    Settlement anchored on Chiliz Chain regardless of chain where traded.
+    
+    WHY THIS MATTERS FOR SIGNAL:
+      Liquidity is no longer isolated to Chiliz Chain / Socios ecosystem.
+      Cross-chain arbitrage is now possible — PSG, BAR tokens on Solana DEXs.
+      DeFi yield protocols on Base/Solana can hold Fan Tokens.
+      Price discovery is now multi-chain — a price spike on Solana propagates
+      to Chiliz Chain within minutes.
+      
+    MRS IMPLICATION:
+      The fraud signal detection (MRS) must now account for cross-chain volume.
+      A volume spike on Solana that does not appear on Chiliz Chain is a signal
+      that requires investigation — not necessarily fraud, but unusual.
+      
+    CDI IMPLICATION:
+      More accessible tokens = larger potential holder base = higher CHI ceiling.
+      Phase 3 tokens that have completed decimal migration should be modelled with
+      a +5% CHI ceiling uplift as new liquidity pathways become active.
+```
+
 This phase is covered comprehensively by the core Layer 3 skills:
 - `fan-token/fan-token-pulse` — HAS, TVI (on-chain health)
 - `fan-token/performance-on-pitch` — PI (sporting performance → token impact)

@@ -170,6 +170,45 @@ UPDATE — APRIL 2026 (CoinDesk, confirmed):
               MLB fourth (older demographic; slower digital adoption history)
 ```
 
+
+```
+OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
+
+  Fan Tokens™ now trading on Solana and Base (US-accessible chains).
+  This has direct regulatory consequences that differ from Chiliz Chain.
+
+  CHILIZ CHAIN (pre-omnichain status):
+    Non-US chain, non-US jurisdiction for most purposes.
+    SEC/CFTC reached in via the March 17, 2026 guidance document only.
+    US investors accessing Chiliz Chain directly faced regulatory friction.
+
+  SOLANA AND BASE (post-omnichain status):
+    Both chains are US-accessible, US-familiar, and US-regulated networks.
+    US investors and institutions can hold Fan Tokens on familiar infrastructure.
+    No VPN, no unfamiliar wallet, no Socios app required.
+    
+  REGULATORY CONSEQUENCE:
+    Fan Tokens on Solana/Base fall more squarely within the March 17, 2026
+    joint SEC/CFTC guidance — which already classified them as "digital
+    collectibles and digital tools" (not securities).
+    
+    This is POSITIVE: the guidance applies. US investors holding on Solana
+    have the same regulatory clarity as those on Chiliz Chain. US exchanges
+    that list Solana-based Fan Token versions face no additional compliance burden
+    beyond what the guidance already resolved.
+    
+    KEY SIGNAL: US sports franchises (NBA, NFL, MLS) can now issue Fan Tokens
+    that immediately trade on Solana — the chain their US fan base already uses.
+    First US franchise announcement (promised Q1 2026) may now arrive as a
+    Solana-native deployment, not a Chiliz Chain deployment.
+
+  MACRO_MODIFIER IMPACT:
+    US_MARKET_ENTRY_SIGNAL: upgraded from OPEN (guidance confirmed) to 
+    ACTIVE (multi-chain deployment makes entry operationally frictionless).
+    Apply US first-mover ×1.40 CDI launch modifier with increased confidence.
+```
+
+
 ### United Kingdom — FCA Framework
 
 ```

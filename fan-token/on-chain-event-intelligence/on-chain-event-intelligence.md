@@ -446,6 +446,61 @@ CATEGORY 7 — FAN TOKEN PLAY EVENTS (Path 2, April 2026+)
 
 ---
 
+## Omnichain signal intelligence (post-April 2026)
+
+```
+MULTI-CHAIN REALITY (confirmed active Q1–Q2 2026):
+
+  Fan Tokens™ now exist on THREE chains simultaneously:
+    Chiliz Chain  — native, primary, settlement layer
+    Solana        — extended via LayerZero
+    Base          — extended via LayerZero
+  
+  All settlement and canonical supply changes anchor to Chiliz Chain.
+  Trading, liquidity, and holder activity now spans all three chains.
+
+CONTRACT ADDRESS MIGRATION (April 27, 2026):
+  All Fan Tokens upgraded to 18-decimal precision.
+  NEW CONTRACT ADDRESSES — old addresses are legacy and inactive.
+  
+  AGENT CRITICAL: if monitoring pre-April 2026 contract addresses,
+  update to post-migration addresses immediately.
+  Source for current addresses: app.fantokens.com / chiliscan.com
+
+CROSS-CHAIN SIGNAL INTERPRETATION:
+
+  NORMAL PATTERN (post-omnichain):
+    Correlated volume across Chiliz Chain + Solana + Base.
+    Price parity with minor arbitrage spread (< 2%).
+    Mint/burn events visible on Chiliz Chain (Fan Token Play path 2).
+    PATH_2 supply changes: only on Chiliz Chain — never on Solana/Base bridges.
+
+  SIGNAL FLAG — CROSS-CHAIN DIVERGENCE:
+    Volume spike on Solana NOT reflected on Chiliz Chain:
+      → Investigate: possible wash trading on Solana (lower gas, easier to fake)
+      → Apply MRS review before using Solana volume as CDI signal
+    Volume spike on Chiliz Chain NOT reflected on other chains:
+      → More likely genuine (closer to sporting event / Fan Token Play)
+      → Apply standard CDI protocol
+    Price divergence > 5% between chains for > 30 minutes:
+      → Arbitrage opportunity detected — does not affect fundamental CDI
+      → May temporarily suppress price on one chain
+
+  LAYERZERO BRIDGE EVENTS (new signal type, post-Q1 2026):
+    Tokens moving Chiliz Chain → Solana: migration to broader DeFi exposure
+    Tokens moving Solana/Base → Chiliz Chain: returning to native chain
+      (often pre-sporting event, pre-governance vote — watch for this pattern)
+    Large bridge inflows before major matches: potential pre-match accumulation signal
+    Large bridge outflows after match: profit-taking on extended chain
+
+MONITORING PRIORITY ORDER (post-omnichain):
+  1. Chiliz Chain (chiliscan.com) — canonical supply, PATH_2, governance
+  2. Solana DEX volume — liquidity depth, broader holder activity
+  3. Base activity — typically lower volume, DeFi integration focus
+  Never invert this priority. Chiliz Chain events are Tier 1.
+  Solana/Base events are Tier 2 unless corroborated by Chiliz Chain.
+```
+
 ## Caution notes
 
 ```
