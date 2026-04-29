@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.95.2] — 2026-04-28
+
+### Changed — index.html: SportMind Suite section
+
+index.html:
+  New "The SportMind Suite" section inserted between Contribute and CTA.
+  Uses .ww full-width wrapper (matches stats bar width).
+
+  Two kit cards side by side (.suite-grid: 1fr 1fr, gap 16px):
+
+    Fan Token Wallet Kit:
+      "Deploy an agentic wallet with SportMind intelligence built in.
+       Fan token positions, on-chain signals, and match-driven triggers
+       — ready to fork."
+      Tags: On-chain · Chiliz Chain · Forkable
+      Link: https://github.com/SportMind/sportmind-wallet-kit
+
+    Telegram Bot Kit:
+      "Launch a SportMind-powered Telegram bot in minutes. Pre-match
+       signals, fan token sentiment, and macro intelligence — delivered
+       where your community already is."
+      Tags: OpenClaw · Managed Bots · Forkable
+      Link: https://github.com/SportMind/sportmind-telegram-kit
+
+  Footer: "All kits are MIT licensed, zero dependency, and built on
+  the SportMind intelligence layer."
+
+  New CSS: .suite, .suite-grid, .kit-card, .kit-title, .kit-desc,
+  .kit-tags, .kit-tag, .kit-link, .suite-footer. Cards use existing
+  --bg-2, --border, --accent, --text, --text-2, --text-3 tokens.
+  Hover: border-color accent, background --bg.
+  Mobile: collapses to single column at ≤640px.
+  Reveal animation: class="suite r" — fades in on scroll.
+
 ## [3.95.1] — 2026-04-28
 
 ### Fixed — docs: Intelligence Listener section, omnichain fan token update
