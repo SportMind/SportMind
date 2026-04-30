@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.95.4] — 2026-04-28
+
+### Fixed — Suite cards: View site inside card, version badge, correct GitHub repo
+
+index.html — Suite section rebuilt:
+
+  Card structure: converted from <a> wrapper to <div> wrapper.
+    Previous: each card was an <a> wrapping nested <a> links — invalid HTML,
+    required stopPropagation hack to prevent event conflicts.
+    Fixed: cards are now <div class="kit-card"> with explicit action buttons
+    at the bottom. No nested anchors. No JavaScript workarounds.
+
+  Card 1 — Fan Token Wallet Kit:
+    GitHub repo corrected:
+      Was:  https://github.com/SportMind/sportmind-wallet-kit
+      Now:  https://github.com/SportMind/fan-token-agentic-wallet-starter-kit
+      (matches the actual repository name used by the GitHub Pages site)
+    View site → now a green primary button (.kit-btn-primary) inside the card
+    GitHub → is a ghost button (.kit-btn-ghost) alongside it
+    Version badge: v3.95.4 (.kit-tag-ver — accent colour, 0.7 opacity)
+
+  Card 2 — Telegram Bot Kit:
+    GitHub repo unchanged: SportMind/sportmind-telegram-kit (correct)
+    Same button layout as Card 1
+    Version badge: v3.95.4
+
+  CSS changes:
+    Removed: .kit-links, .kit-link, .kit-site (old pattern)
+    Added:   .kit-actions (flex row, gap 8px)
+             .kit-btn-primary (accent bg, btn-text, 6px padding)
+             .kit-btn-ghost (text-2, border, transitions)
+             .kit-tag-ver (accent colour, 0.7 opacity)
+    Moved:   .kit-card:hover (was duplicate, now single declaration)
+
 ## [3.95.3] — 2026-04-28
 
 ### Changed — Suite section: subtitles and View site links
