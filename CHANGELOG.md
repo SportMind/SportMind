@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.95.3] — 2026-04-28
+
+### Changed — Suite section: subtitles and View site links
+
+Note: release requested as v3.65.0 — corrected to v3.95.3 (sequential
+from current v3.95.2; v3.65.0 predates the current library by ~30 versions).
+
+index.html — Suite section cards updated:
+
+  Card 1 — Fan Token Wallet Kit:
+    Subtitle added: "Fan Token Agentic Wallet Starter Kit"
+    (font-family: mono, font-size: 10px, color: text-3)
+    "View site →" link added:
+    https://sportmind.github.io/fan-token-agentic-wallet-starter-kit/
+    Styled as a bordered pill button (.kit-site) in the links row.
+    onclick="event.stopPropagation()" prevents card-level link conflict.
+
+  Card 2 — Telegram Bot Kit:
+    Subtitle added: "Telegram AI Bot Starter Kit"
+    "View site →" link added:
+    https://sportmind.github.io/telegram-ai-bot-starter-kit/
+    Same styling as Card 1.
+
+  New CSS:
+    .kit-subtitle — mono, 10px, text-3, margin-top -4px
+    .kit-links    — flex row, space-between, aligns GitHub link + View site
+    .kit-site     — bordered pill, text-3, accent on hover
+    .kit-link     — moved to kit-links row (removed standalone margin-top)
+
 ## [3.95.2] — 2026-04-28
 
 ### Changed — index.html: SportMind Suite section
