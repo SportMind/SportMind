@@ -179,7 +179,7 @@ note:     Monaco cannot overtake. Pole here = ~75% race win probability.
 trigger:  Final 5 races, Drivers' or Constructors' gap < 50 points
 entry:    Start of final 5-race run
 exit:     Championship mathematically decided (either direction)
-filter:   Leader's token HAS > 50 (actively traded ecosystem)
+filter:   Leader's token HAS > 50 (actively traded suite)
 sizing:   1.25× — sustained multi-event narrative window
 note:     Scale: 30% at trigger, add on each race leader maintained.
           Hard exit: title mathematically decided — narrative collapses instantly.

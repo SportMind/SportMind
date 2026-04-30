@@ -29,7 +29,7 @@ SIGNAL CHARACTERISTICS:
 
 ```
 CricTIS = (Format_Weight × 0.30) + (Match_Importance × 0.30)
-         + (India_Factor × 0.25) + (Token_Ecosystem_Status × 0.15)
+         + (India_Factor × 0.25) + (Token_Suite_Status × 0.15)
 
 FORMAT WEIGHTS:
   ICC T20 World Cup final:        1.00

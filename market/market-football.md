@@ -186,7 +186,7 @@ than shifting revenue between platforms.
 
 ## 7. Token Catalyst Events
 
-For the active Tier 1 ecosystem, the primary catalyst events are **expansion** rather
+For the active Tier 1 suite, the primary catalyst events are **expansion** rather
 than launch:
 
 **Near-term catalysts (2025–2027):**
@@ -202,7 +202,7 @@ than launch:
   expansion event.
 - **La Liga expansion:** Barcelona and Real Madrid tokens remain the largest. A
   formal La Liga-level Chiliz partnership (currently informal/club-by-club) would
-  deepen the ecosystem significantly.
+  deepen the suite significantly.
 
 **Structural catalysts:**
 - UEFA institutional partnership: would unlock Champions League token infrastructure
@@ -239,7 +239,7 @@ one platform creates a switching cost for both clubs and holders that has proven
 - World Cup 2026 is the single largest catalyst event in the near-term football token
   calendar — begin monitoring national team token positions 6+ months in advance
 - The Premier League gap (no major PL club with a liquid token) is the biggest
-  untapped expansion opportunity in the current ecosystem. **Academic grounding:
+  untapped expansion opportunity in the current suite. **Academic grounding:
   Chen (2025), *International Journal of Sports Marketing and Sponsorship* — digital
   ethnography of Manchester City, Everton, and Crystal Palace fan token holders
   (first qualitative study of Premier League fan token communities). Holder motivations

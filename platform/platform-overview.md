@@ -155,7 +155,7 @@ The developer can now:
 ## The open intelligence guarantee
 
 The platform layer does not create a paid tier, a restricted API, or a closed
-ecosystem. Everything documented in `platform/` is MIT licensed, open, and free.
+suite. Everything documented in `platform/` is MIT licensed, open, and free.
 
 ```
 WHAT REMAINS FULLY OPEN:

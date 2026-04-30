@@ -485,7 +485,7 @@ CROSS-SPORT MONITOR RECEIVES:
   → Macro monitor: macro_modifier and phase
   → Pre-match chain: SMS scores for upcoming events
 
-ECOSYSTEM INTEGRATION:
+SUITE INTEGRATION:
   SportFi Kit: reads cross_sport_state.json for portfolio dashboard display
   Fan Digital Twin (App 10): NCSI_AMPLIFICATION events update FLS for national team events
 ```

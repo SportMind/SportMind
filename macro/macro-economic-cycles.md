@@ -126,7 +126,7 @@ characteristics from each in different ways.
 FAN TOKEN CYCLE POSITION MATRIX:
 
   Economic expansion + Crypto bull:
-    IDEAL CONDITIONS. Consumer discretionary rises, CHZ ecosystem expands.
+    IDEAL CONDITIONS. Consumer discretionary rises, CHZ suite expands.
     New token launches succeed. CDI extended. Speculator archetype dominant.
     Agent signal: apply standard modifiers at full weight.
 

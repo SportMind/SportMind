@@ -7,7 +7,7 @@ Covers Super League (UK/Europe), NRL (Australia), State of Origin, and internati
 
 ## Overview
 
-Rugby league is a distinct sport from rugby union — faster, 13-a-side, with a structured 6-tackle-then-hand-over possession system. The sport has two dominant leagues: Super League (UK) and NRL (Australia/New Zealand), which operate in opposite hemispheres and rarely overlap. State of Origin (Queensland vs New South Wales) is the highest-profile domestic series in the NRL ecosystem and generates token/market movements comparable to major football derbies in the UK. The Challenge Cup final at Wembley is the UK's equivalent peak event.
+Rugby league is a distinct sport from rugby union — faster, 13-a-side, with a structured 6-tackle-then-hand-over possession system. The sport has two dominant leagues: Super League (UK) and NRL (Australia/New Zealand), which operate in opposite hemispheres and rarely overlap. State of Origin (Queensland vs New South Wales) is the highest-profile domestic series in the NRL suite and generates token/market movements comparable to major football derbies in the UK. The Challenge Cup final at Wembley is the UK's equivalent peak event.
 
 ---
 

@@ -7,7 +7,7 @@ Pairs with `signal-scores`, `whale-intel`, `prematch-alpha`, and `oracle-signals
 
 ## Overview
 
-MMA is the most event-concentrated sport in this ecosystem. Unlike football or basketball where tokens are
+MMA is the most event-concentrated sport in this suite. Unlike football or basketball where tokens are
 tied to clubs, MMA fan tokens are typically **fighter-centric** — the token IS the athlete. This makes
 MMA uniquely high-risk/high-reward: a single fight card is the equivalent of an entire football season
 compressed into one night.

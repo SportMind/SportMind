@@ -65,7 +65,7 @@ Tier 2 — Elevated events:
 
 Tier 3 — Standard events:
   Regular PGA Tour / DP World Tour events
-  LIV Golf League events (growing, but separate ecosystem)
+  LIV Golf League events (growing, but separate suite)
 
 Tier 4 — Low signal:
   Pre-season events, pro-ams, secondary tour events

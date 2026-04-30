@@ -113,7 +113,7 @@ APS = (
   athlete_global_following / league_median_following * 0.30 +  # raw reach
   AELS_if_available * 0.25 +                                    # social→token conversion
   cross_club_holder_overlap * 0.20 +                            # fans holding BOTH tokens already
-  destination_club_has_token * 0.15 +                           # destination ecosystem exists
+  destination_club_has_token * 0.15 +                           # destination suite exists
   athlete_nationality_in_destination_top_holders * 0.10         # cultural/geographic fit
 ) * 100
 ```
@@ -148,7 +148,7 @@ Transfer Sentiment Index:
 Athlete Portability Score:      68 / 100  [Good portability]
   Global following vs. median:  2.4× above
   Cross-holder overlap:         12% of CLUB A holders also hold CLUB B token
-  Destination ecosystem:        Active token (HAS: 71) — good landing environment
+  Destination suite:        Active token (HAS: 71) — good landing environment
 
 Token spike attribution:
   CLUB A TVI spike (+22, 2 days ago) → Rumour-driven (72% confidence)

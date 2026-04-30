@@ -74,7 +74,7 @@ RULE 5 — SPORT-SPECIFIC PRIMARY SIGNAL:
 
 ---
 
-## The ecosystem SportMind operates within
+## The suite SportMind operates within
 
 ```
 SportMind is the intelligence layer. It sits between data and applications.

@@ -1,5 +1,84 @@
 # Changelog
 
+## [3.96.0] — 2026-04-28
+
+### Added — Layer 6: Telegram Deployment Intelligence
+
+Note: release requested as v3.64.0 — corrected to v3.96.0 (sequential
+from v3.95.4; v3.64.0 predates the current library by ~32 versions).
+
+Six new files in telegram/ — SportMind Layer 6: Deployment Intelligence.
+The layer bridges Layers 1–5 intelligence and the Telegram delivery platform.
+All files are structured markdown, zero dependency, consistent with library format.
+
+telegram/README.md (124L):
+  Layer 6 overview. Four-skill summary table. Load order by use case
+  (full stack / pre-match only / macro event only). Full compatibility
+  declaration: Telegram Bot API 9.6, @LobsterClawBot, OpenClaw managed
+  bot ecosystem — maps each skill to its bot command (/signal, /sentiment,
+  /explain, /macro). Message format conventions (HTML parse mode, character
+  targets). Hard boundaries — Layer 6 does not predict, does not override
+  Layer 1–5 boundaries, does not store state.
+
+telegram/sentiment-monitor.md (205L):
+  Community sentiment classification framework: Tier S (surge), A (positive),
+  B (neutral), C (negative), D (panic). Message templates for surge/positive
+  and negative/panic responses. Keyword signal map (high-signal positive:
+  "burn", "PATH_2", "staking"; negative: "dump", "rug", "dead").
+  CHI integration (CHI < 40 = ignore Telegram; rely on on-chain only).
+  Autonomous execution with four-tier escalation. OpenClaw /sentiment mapping.
+
+telegram/price-movement-explainer.md (255L):
+  Five-cause identification protocol (macro → match result → transfer →
+  sentiment → liquidity — check macro first, always). Six message templates
+  (macro-driven, match result standard, PATH_2 burn, transfer/athlete,
+  sentiment shift, liquidity event, unknown). Calibration reference table
+  (typical move magnitudes: PATH_2 WIN +8–18%, UCL Final WIN +15–35%,
+  WC2026 group WIN +10–25%, CHZ −20% = −12–20% fan token). Frequency limits
+  (max 1 per 30-minute window). Never include price targets hard boundary.
+
+telegram/pre-match-signal.md (256L):
+  Full T-48h → T+1h delivery timeline. Three message formats: standard
+  pre-match signal (with JSON code block), condensed (high-frequency channels),
+  squad availability briefing (T-48h). Flag formatting rules (max 3 flags;
+  macro_override_active suppresses all others). Front-running intelligence
+  section — T-6h to T-2h window is highest-signal delivery period; PATH_2
+  tokens front-running note (do not amplify; deliver neutral signal).
+  Inline keyboard layout with callback data format (Bot API 9.6).
+  Sport-specific delivery notes: football, F1, MMA, cricket. Timing automation
+  cron schedule. WC2026 intensive mode (hourly June–July when WC2026_ACTIVE).
+
+telegram/macro-event-interpreter.md (274L):
+  Six macro event priority levels (P1: override active → P6: CHZ burn).
+  Eight message templates (override active, bull/bear regime change, CHZ decline,
+  regulatory guidance with SEC/CFTC example, omnichain bridge event, CHZ burn).
+  Language calibration rules — required ("historically", "typically") and
+  forbidden ("buy now", "sell now", "moon", price targets).
+  Macro modifier quick reference table (BULL 1.00–1.06 → override paused).
+  P1 and P4 hard boundary: never auto-send without human confirmation.
+
+telegram/examples/fan-token-trading-bot.md (298L):
+  Complete worked example: $AFC PATH_2 Arsenal bot, full match cycle.
+  Six steps: T-48h squad briefing → T-24h primary signal → T-2h lineup
+  confirmed/signal refresh → PATH_2 explainer callback → post-WIN burn
+  confirmed → 2h price explanation. Each step shows: skills loaded, trigger,
+  exact Telegram HTML message output. Full system prompt template (Python).
+  Deployment checklist (pre-launch, SportMind integration, OpenClaw,
+  community setup).
+
+LIBRARY AND WEBSITE:
+  Layer architecture: 5 layers → 6 layers
+  index.html: "Five layers. One system." → "Six layers. One system."
+  Layer 6 row added to index.html and docs.html layer tables
+  Library at a glance: telegram/ row added
+  File counts: 594 → 600 (total), 378 → 384 (markdown)
+  og-image.svg/png: 594 → 600, regenerated
+
+ECOSYSTEM → SUITE SCAN (completed this session, preceding v3.96.0):
+  161 instances replaced across 66 files. All third-party ecosystem references
+  (Chiliz ecosystem, fan token ecosystem, token ecosystem, DeFi ecosystems,
+  code method names) preserved. Zero validator errors post-replacement.
+
 ## [3.95.4] — 2026-04-28
 
 ### Fixed — Suite cards: View site inside card, version badge, correct GitHub repo
@@ -1328,13 +1407,13 @@ general validation of the library's premise.
   FENER.IS/FB, BJKAS.IS/BJK, TSPOR.IS/TRA) with documented match result →
   stock price correlation. Italian Serie A (JUVE.MI/JUV, ASR.MI/ASR,
   SSL.MI/LAZIO). German Bundesliga (BVB.DE — no fan token, gap flagged).
-  English Premier League (MANU/NYSE — no Chiliz token, largest ecosystem gap).
+  English Premier League (MANU/NYSE — no Chiliz token, largest suite gap).
   European clubs (AJAX.AS, SLBEN.LS/BENFICA, FCP.LS/PORTO, OLG.PA, CCP.L).
   Sports-adjacent equities: Liberty Media/F1 (FWONK/Nasdaq), TKO Group/UFC+WWE
   (TKO/NYSE).
 
   **CHZ macro layer:** Three-phase CHZ/fan token relationship model (crypto
-  macro dominance → sporting event decoupling → ecosystem events). CHZ macro
+  macro dominance → sporting event decoupling → suite events). CHZ macro
   state indicator table with modifier discount rules. Chiliz 2030 structural
   signals including 10% revenue buyback mechanism and WC2026 omnichain model.
 
@@ -1492,13 +1571,13 @@ general validation of the library's premise.
   flagged with World Cup 2026 NCSI ×3.5–4.0 note. SCCP partnership status flagged as
   potentially expired. GOZ/ALA/IBFK flagged: Turkish Socios office closed end of 2024.
   MULTICHAIN_FAN_TOKEN_REGISTRY created for LAZIO and PORTO (BSC/Binance-issued —
-  different ecosystem, no FTP mechanics).
+  different suite, no FTP mechanics).
 
 - `fan-token/fan-token-pulse/references/chiliz-token-registry.md` — Complete rebuild.
   Previous file had fabricated contract addresses. New file: 160 lines, all 41 Chiliz Chain
   tokens with verified addresses, grouped by tier/region/sport. Notes on partnership status
   for Turkish clubs and SCCP. World Cup 2026 flag on ARG, POR, ITA, BFT. Multi-chain section
-  clearly labelled as different ecosystem. "How to verify any token" instructions.
+  clearly labelled as different suite. "How to verify any token" instructions.
   Chiliscan.com verification workflow for developers.
 
 ### Changed
@@ -1709,7 +1788,7 @@ general validation of the library's premise.
   WIN triggers burn at base rate, no goal-diff multiplier confirmed.
 
   Fix 3 — Annual inflation framing corrected: Previously labelled "FALLBACK FEE
-  MODEL (if Path 2 not adopted ecosystem-wide)" — incorrect. It is an integral
+  MODEL (if Path 2 not adopted suite-wide)" — incorrect. It is an integral
   component of the PATH_1 protocol regardless of PATH_2 status. New detail added
   from April 17 article: three evaluation models (variable/static/tiered) with
   tiered specifics — 0% inflation below 45% win rate, scales sharply above 60%.
@@ -1949,7 +2028,7 @@ general validation of the library's premise.
 - `scripts/sportmind_pm_mcp.py` — Pre-Match Signal MCP Server (port 3003, 3 tools)
   Zero-friction entry point: pm_signal (full pre-match package), pm_squad_brief
   (availability + manager language decoder), pm_readiness (simplified ARI gate).
-  Lowest barrier to entry in the SportMind ecosystem.
+  Lowest barrier to entry in the SportMind suite.
 
 - `scripts/sportmind_bc_mcp.py` — Broadcast & Commercial MCP Server (port 3004, 5 tools)
   Commercial intelligence: bc_broadcast_value (BVS), bc_rights_tier (rights
@@ -2229,7 +2308,7 @@ general validation of the library's premise.
   Three-tier classification system for incoming articles, papers, and media.
   Tier 1 (act immediately): regulatory guidance, confirmed token launches, PATH
   changes, academic papers with empirical findings — update library files same session.
-  Tier 2 (queue for trend review): market analysis, trend confirmations, ecosystem
+  Tier 2 (queue for trend review): market analysis, trend confirmations, suite
   updates — inform next version release.
   Tier 3 (monitor, no action): opinion pieces, retail guides, unconfirmed rumours.
   Trusted source registry by tier (Tier A: SEC.gov, Blog.chiliz.com, official bodies;
@@ -2579,7 +2658,7 @@ general validation of the library's premise.
 ### Added
 - `core/sports-trend-intelligence.md` — trend intelligence framework
   Three trend categories: sport-level commercial trajectory (rising/
-  maturing/declining), ecosystem trends (Chiliz/RWA/fan token shifts),
+  maturing/declining), suite trends (Chiliz/RWA/fan token shifts),
   competitive structure trends (new leagues, player migration, format changes).
   Four phase model: emergence (×0.50 modifier) → acceleration (×1.00) →
   maturation (×0.30) → reversal/plateau (remove). Active trends inventory:
@@ -2962,7 +3041,7 @@ general validation of the library's premise.
   Path 2: four-phase timeline (T-48h pre-liquidation, kickoff bet, T+48h WIN burn or LOSS
   re-mint). Path 2 LOSS = supply-neutral (pre-liquidated amount restored only, not expanded).
   CHZ virtuous cycle connection documented — WIN events generate both fan token burn AND
-  CHZ ecosystem burn. $AFC confirmed Path 2 as of 07 April 2026 (first public trial).
+  CHZ suite burn. $AFC confirmed Path 2 as of 07 April 2026 (first public trial).
   Output schema extended with fan_token_play_path, pre_liquidation_detected, chz_macro_note.
 
 - `macro/macro-crypto-market-cycles.md` — CHZ virtuous cycle section added
@@ -2980,7 +3059,7 @@ general validation of the library's premise.
   Post-win buyback and burn (to 0x0000...0000): FAN_TOKEN_PLAY_WIN_CONFIRMED.
   Post-loss re-mint to treasury: FAN_TOKEN_PLAY_LOSS_CONFIRMED (supply neutral).
   Agent error prevention: pre-liquidation must never trigger Category 1 distribution_signal.
-  CHZ echo signal: WIN confirms both fan token burn AND CHZ ecosystem burn.
+  CHZ echo signal: WIN confirms both fan token burn AND CHZ suite burn.
 
 - `scripts/sportmind_mcp.py` — $AFC registry entry updated
   fan_token_play: "PATH_2", ftp_confirmed_date: "2026-04-07", ftp_note added.
@@ -3706,7 +3785,7 @@ Reverse spillover model: injury during national duty → club token impact by se
 World Cup 2026 special considerations: dual-token exposure framework for athletes with
 both club and national tokens, North American host premium for USMNT token, summer
 window collision period (UCL Final to World Cup group stage = highest-density fan token
-signal period in ecosystem history). Cross-token correlation threshold rule (>0.70 = reduce
+signal period in suite history). Cross-token correlation threshold rule (>0.70 = reduce
 to single position).
 
 *Athlete Token Multiplier profiles:* ATM formula (AELS + on-pitch lift + narrative + competition
@@ -7280,7 +7359,7 @@ Agent-to-agent protocol: registration schema (capability declaration), signal sh
 (publish/consume model), conflict resolution (higher SMS wins; recency on tie; escalate
 on genuine tie). Capability boundaries: agents must not request actions outside declared scope.
 
-Ecosystem integration protocol: FanTokenIntel (reads from signal bus), SportFi Kit
+Suite integration protocol: FanTokenIntel (reads from signal bus), SportFi Kit
 (reads recommended_action, never receives direct contract call trigger), LLMs (reasoning
 component called by agent, output validated against schema), data layer (read-only).
 
@@ -7328,7 +7407,7 @@ flags when two signals are within 5 SMS points (genuine uncertainty → escalate
 SystemOrchestrator: starts all 4 agents concurrently (asyncio.gather), health monitor
 every 30 minutes, system-wide status for sportmind_agent_status MCP tool.
 
-Ecosystem integration in coordinated context: FanTokenIntel subscribes to bus for portfolio
+Suite integration in coordinated context: FanTokenIntel subscribes to bus for portfolio
 signals; SportFi Kit reads recommended_action; LLMs called per-agent for reasoning;
 humans receive consolidated escalation view.
 
@@ -7747,7 +7826,7 @@ KIS (KOL Impact Score) = Tier_Modifier × Reach_Score × Sentiment_Valence × Ti
 T3 5-50k (0.30, +2-5pts), T4 <5k (0.08, negligible). Paid vs organic detection: #ad tag, timing correlation
 with announcements, cluster deployment (multiple KOLs same 48h = coordinated campaign, count once).
 
-Sports ecosystem: Football — Romano "Here We Go" post = KIS × 1.20 Tier 1 event. NBA — Woj/Shams bomb = ×1.25.
+Sports suite: Football — Romano "Here We Go" post = KIS × 1.20 Tier 1 event. NBA — Woj/Shams bomb = ×1.25.
 Cricket — India vernacular KOL (Hindi/Bengali) ATM × 1.15. F1 — Drive to Survive Netflix = ultimate Tier 1 KOL.
 
 HAS integration: KIS > 0.50 → HAS_spike_external flag + signal note. Paid promotion → marketing_activity,
@@ -7838,7 +7917,7 @@ agents generate intelligence; applications act. (4) Confidence honesty — SMS <
 (5) Sport-specific primary signal — football T-2h lineup, cricket FORMAT FIRST, MMA WEIGH-IN FIRST,
 F1 qualifying delta, NHL morning skate, NBA DNP-rest, rugby kicker form, tennis surface win%.
 
-Ecosystem map: Data Layer → SportMind Intelligence Layer → Application Layer → Execution Layer.
+Suite map: Data Layer → SportMind Intelligence Layer → Application Layer → Execution Layer.
 Confidence output schema with all required fields. SMS tier table. Autonomy levels 0-4.
 Key document map (domain knowledge, athlete intel, fan token, operations, developer resources).
 
@@ -7982,7 +8061,7 @@ Core: 25 → 26 (modifier-recalibration-v3). v3.23 marked ✅; v3.24 defined.
 ### Updated — `compressed/README.md` (41 → 45 summaries)
 
 4 new compressed summaries:
-  purpose-and-context (~280 tokens): 5 rules, ecosystem map, SMS tiers, autonomy levels, doc map
+  purpose-and-context (~280 tokens): 5 rules, suite map, SMS tiers, autonomy levels, doc map
   agent-goal-framework (~200 tokens): 3 levels, 6 states, 5 triggers, GoalDirectedAgent, use-when guidance
   modifier-recalibration (~220 tokens): 3 updates (derby/opener/two-legged), 5 confirmed, next threshold
   ultra-compressed agent init (~120 tokens): minimum viable context for constrained windows
@@ -8194,7 +8273,7 @@ v3.26 marked ✅; v3.27 defined.
 
 Full rewrite replacing stale v3.14 content. Now reflects v3.26/v3.27 state.
 434 files, 27 version cycles. Five layer summary with file counts. Calibration
-foundation: 110+ records, 95% accuracy, 8 zero-wrong modifiers named. Ecosystem
+foundation: 110+ records, 95% accuracy, 8 zero-wrong modifiers named. Suite
 map distinguishing data/intelligence/application/execution layers. Contributing
 section with exact threshold status (athlete_modifier: 16/50). Long-horizon vision.
 

@@ -6,7 +6,7 @@ description: >
   intelligence layers. Answers: what is trending, why is it trending,
   what phase is the trend in, and how does it modify Layer 1–5 signals?
   Covers three trend categories: sport-level commercial trajectory (rising,
-  maturing, declining), ecosystem trends (Chiliz/RWA/fan token industry
+  maturing, declining), suite trends (Chiliz/RWA/fan token industry
   shifts), and competitive structure trends (new leagues, format changes,
   player migration patterns). Produces a trend_modifier per layer and a
   trend_context block for the plain-English brief. Use when: evaluating
@@ -26,7 +26,7 @@ what macro forces are active. All of that intelligence is grounded in
 calibrated, verified data.
 
 What it does not automatically capture is **trajectory** — the direction
-a sport or ecosystem is moving, and whether the current signal should be
+a sport or suite is moving, and whether the current signal should be
 amplified or dampened based on where things are heading. A sport in rapid
 commercial ascent (women's football, Saudi Pro League in 2022–2025) has
 different signal dynamics than a sport in plateau or decline. A fan token
@@ -52,8 +52,8 @@ CATEGORY 1 — SPORT-LEVEL COMMERCIAL TRAJECTORY
     Horse racing:       contraction phase (declining youth audience, streaming gaps)
     Traditional esports leagues: maturation/contraction (viewership plateau post-COVID peak)
 
-CATEGORY 2 — ECOSYSTEM TRENDS
-  What is shifting in the Chiliz/fan token/RWA ecosystem specifically?
+CATEGORY 2 — SUITE TRENDS
+  What is shifting in the Chiliz/fan token/RWA suite specifically?
   Affects: Layer 3 (fan token commercial), Layer 5 (macro), Layer 4 (market tiers)
   
   Examples:
@@ -157,7 +157,7 @@ T-02: Saudi Pro League elite player migration [PHASE 2]
   Source: Transfermarkt, Saudi Pro League official, Reuters sports desk
   Review: Semi-annual — if marquee signings continue, Phase 3 by end 2027
 
-T-03: Fan Token Play Path 2 ecosystem expansion [PHASE 1]
+T-03: Fan Token Play Path 2 suite expansion [PHASE 1]
   Trigger: $AFC PATH_2 confirmed 07 April 2026 (first public trial)
   What: Performance-linked supply mechanics rolling out to more tokens
   Why: Chiliz Vision 2030 roadmap — FTP is the core utility differentiator
@@ -360,7 +360,7 @@ SIGNAL TYPE 6 — REGULATORY DEVELOPMENTS
   "active_trends": [
     {
       "trend_id":     "T-03",
-      "name":         "Fan Token Play Path 2 ecosystem expansion",
+      "name":         "Fan Token Play Path 2 suite expansion",
       "phase":        "PHASE_1",
       "phase_confidence": 0.50,
       "affected_layers": ["L3", "L5"],
@@ -368,7 +368,7 @@ SIGNAL TYPE 6 — REGULATORY DEVELOPMENTS
         "L3": 1.05,
         "L5": 1.03
       },
-      "plain_english": "Arsenal are the first club on Fan Token Play. The supply mechanics are new and the ecosystem is still proving itself — watch for more clubs joining before treating this as a confirmed structural feature."
+      "plain_english": "Arsenal are the first club on Fan Token Play. The supply mechanics are new and the suite is still proving itself — watch for more clubs joining before treating this as a confirmed structural feature."
     }
   ],
 

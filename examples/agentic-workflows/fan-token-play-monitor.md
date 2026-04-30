@@ -204,7 +204,7 @@ async def check_post_match_settlement(contract: str, treasury: str,
                     "event":   "FAN_TOKEN_PLAY_WIN_CONFIRMED",
                     "hash":    tx["hash"],
                     "note":    "Supply permanently reduced. Update season_net_burned_pct.",
-                    "chz_echo": "WIN also contributes to CHZ ecosystem burn.",
+                    "chz_echo": "WIN also contributes to CHZ suite burn.",
                 }
             elif not won and tx.get("to", "").lower() == treasury_l:
                 return {

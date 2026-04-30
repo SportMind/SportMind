@@ -18,7 +18,7 @@ description: >
 # Transfer Intelligence
 
 Full-lifecycle transfer analysis — from the first rumour to post-signing impact
-assessment. Covers football business, athlete development, and fan ecosystem angles.
+assessment. Covers football business, athlete development, and fan suite angles.
 
 ## What this skill produces
 

@@ -4,7 +4,7 @@
 **Tier 2 — High Credibility, Near-Term.** The NFL is the highest-revenue single sports
 league in the world (~$20B annually) and the most commercially sophisticated. No active fan tokens exist as of Q1 2026 — US regulatory environment and NFL's cautious
 institutional stance are the primary barriers. When NFL tokens launch, they will likely
-be among the highest market-cap tokens in the ecosystem.
+be among the highest market-cap tokens in the suite.
 
 ---
 
@@ -107,7 +107,7 @@ sport's strong female fanbase — both younger and more digitally engaged than t
 **Potential:** An NFL team Chiliz token would likely be the largest single token launch
 in North American sport. The Dallas Cowboys or New England Patriots would generate
 immediate global interest. Combined value of all 32 NFL team tokens could exceed the
-entire current Chiliz football ecosystem within 24 months of launch.
+entire current Chiliz football suite within 24 months of launch.
 
 ---
 

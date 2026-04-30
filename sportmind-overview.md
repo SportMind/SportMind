@@ -655,7 +655,7 @@ originating skill and referenced consistently across the library:
 | **NBATIS** | NBA Token Impact Score | `fan-token/basketball-token-intelligence` | Composite NBA signal: game importance, star player tier, playoff position, market sentiment |
 | **CricTIS** | Cricket Token Impact Score | `fan-token/cricket-token-intelligence` | Composite cricket signal: format weight, match importance, India factor (×1.40), India-Pakistan (×2.00) |
 | **VSI** | Validator Status Indicator | `fan-token/rwa-sportfi-intelligence` | ✅ Complete | RSF (RWA Signal Framework), Phase 5 spectrum, staking yield taxonomy, outcome-linked supply, media rights, player bonds, CollateralFi |
-| `fan-token/kol-influence-intelligence` | ✅ Complete | KIS formula, 4-tier KOL classification, paid vs organic detection, sports-specific KOL ecosystem map, HAS integration, Python KOL monitor |
+| `fan-token/kol-influence-intelligence` | ✅ Complete | KIS formula, 4-tier KOL classification, paid vs organic detection, sports-specific KOL suite map, HAS integration, Python KOL monitor |
 | `fan-token/fan-sentiment-intelligence` | ✅ Complete | Emotional arc model (6 phases), CDI formula, decay curve (λ constants), fan type segmentation, LTUI integration |
 | `fan-token/on-chain-event-intelligence` | ✅ Complete | 6 signal categories: wallet movements, LP activity, governance execution, staking ratio, cross-chain bridges, wallet age |
 | `fan-token/sports-governance-intelligence` | ✅ Complete | GSI (Governance Signal Index), Socios model, DAO patterns, voting mechanics, lifecycle governance signals |
@@ -864,7 +864,7 @@ for the full infrastructure setup. Only applicable to Tier 1 sports (active toke
 | `fan-token/fan-token-lifecycle` | ✅ Complete | Six-phase lifecycle model | Phase trajectory assessment, non-contractual token framework, CEX/DEX model, lifecycle-adjusted signal weights |
 | `fan-token/fan-token-partnership-intelligence` | ✅ Complete | Partnership Health Score (PHS + VSI) | New partnership due diligence, termination patterns, Type A/B/C case study taxonomy, relaunch signals |
 | `fan-token/rwa-sportfi-intelligence` | ✅ Complete | RSF (RWA Signal Framework), Phase 5 spectrum, staking yield taxonomy, outcome-linked supply, media rights, player bonds, CollateralFi |
-| `fan-token/kol-influence-intelligence` | ✅ Complete | KIS formula, 4-tier KOL classification, paid vs organic detection, sports-specific KOL ecosystem map, HAS integration, Python KOL monitor |
+| `fan-token/kol-influence-intelligence` | ✅ Complete | KIS formula, 4-tier KOL classification, paid vs organic detection, sports-specific KOL suite map, HAS integration, Python KOL monitor |
 | `fan-token/fan-sentiment-intelligence` | ✅ Complete | Emotional arc model (6 phases), CDI formula, decay curve (λ constants), fan type segmentation, LTUI integration |
 | `fan-token/on-chain-event-intelligence` | ✅ Complete | 6 signal categories: wallet movements, LP activity, governance execution, staking ratio, cross-chain bridges, wallet age |
 | `fan-token/sports-governance-intelligence` | ✅ Complete | GSI (Governance Signal Index), Socios model, DAO patterns, voting mechanics, lifecycle governance signals |
@@ -1610,7 +1610,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
   agent lifecycle (7 states: INITIALISING → MONITORING → ANALYSING → ACTING/ESCALATING
   → WAITING → PAUSED → TERMINATED), decision framework matrix (SMS × flags → autonomous/
   advisory/escalate), agent-to-agent protocol (registration, signal sharing, conflict
-  resolution), ecosystem integration protocol (FanTokenIntel/SportFi Kit/LLMs/data layer),
+  resolution), suite integration protocol (FanTokenIntel/SportFi Kit/LLMs/data layer),
   6 safety principles, Python SportMindAgent base class (300+ lines, production-ready)
 - `platform/sportmind-mcp-server.md` — 5th MCP tool added: `sportmind_agent_status`
   returns running agent state, health, cycle counts, pending escalations, upcoming events,
@@ -1620,7 +1620,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
   system: SignalBus (thread-safe shared signal store, conflict resolution by SMS then
   recency), trigger chain documentation (portfolio monitor → pre-match chain, pre-match →
   tournament tracker NCSI, transfer monitor → signal invalidation), ConflictResolver class,
-  SystemOrchestrator (starts all 4 agents concurrently + health monitor), ecosystem
+  SystemOrchestrator (starts all 4 agents concurrently + health monitor), suite
   integration in coordinated context (FanTokenIntel/SportFi Kit/LLMs as consumers)
 - Calibration drive: 12 new records added; total 22 across 11 sports
 - `examples/starter-pack/` — 6 working examples: 01-simple-signal.py (10 lines, minimum viable),
@@ -1753,7 +1753,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 - `fan-token/kol-influence-intelligence/` — KIS (KOL Impact Score): Tier × Reach × Sentiment
   × Timing × Credibility_Discount. 4-tier KOL classification (T1 >500k through T4 <5k).
   Paid vs organic detection (cluster deployment, timing correlation, #ad disclosure).
-  Sports-specific KOL ecosystem (Romano "Here We Go" as Tier 1 event × 1.20; DTS = ultimate T1 KOL).
+  Sports-specific KOL suite (Romano "Here We Go" as Tier 1 event × 1.20; DTS = ultimate T1 KOL).
   Python KOL monitor. HAS integration: T1 KOL event = +12-25 HAS points; paid = marketing_activity only.
 - `core/agent-intelligence-model.md` — Honest ANI/AGI/ASI framing: ANI (narrow excellence,
   intentional), AGI (not SportMind's target — domain excellence > general competence), ASI
@@ -1793,7 +1793,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 ### ✅ v3.22 — Purpose/context document, agent goal framework, swimming/winter-sports, GitHub Pages, 70 calibration records
 - `core/sportmind-purpose-and-context.md` — Single-load ~600 token context document:
   5 non-negotiable rules (macro first, loading order, intelligence separation, confidence
-  honesty, sport-specific primary signal), ecosystem map (data→SportMind→application→execution),
+  honesty, sport-specific primary signal), suite map (data→SportMind→application→execution),
   confidence output schema, SMS tiers, autonomy levels, key document map. Any agent loading
   this single file has complete operational context.
 - `core/agent-goal-framework.md` — Three-level goal hierarchy (Terminal/Instrumental/Immediate),
@@ -1945,7 +1945,7 @@ See [GOOD_FIRST_ISSUES.md](./GOOD_FIRST_ISSUES.md) for detailed contribution gui
 ### ✅ v3.27 — Recalibration-v6, WHO-WE-ARE rewrite, compressed refresh, AR cricket PSL, 120 records
 - `WHO-WE-ARE.md` — Full rewrite (was stale at v3.14): v3.26 state, 434 files, 110+ records,
   five intelligence layers summary, calibration foundation, eight zero-wrong-record modifiers,
-  ecosystem map (data→SportMind→application→execution), contributing section, long-horizon vision.
+  suite map (data→SportMind→application→execution), contributing section, long-horizon vision.
 - `compressed/README.md` — 47 → 50 summaries: cross-sport signal monitor (~200t, 4 patterns),
   governance monitoring agent (~180t, decision weight tiers, Level 1 mandatory), data connector
   templates (~230t, 3 connectors with API key status and tier thresholds).
@@ -2128,7 +2128,7 @@ platform/chiliz-chain-address-intelligence.md: 6 signals (concentration, smart w
 holder trend, velocity, acquisition, DSM calibration), ChilizAddressIntelligence Python
 connector, chiliscan API integration, all 24 fan tokens. 
 platform/social-intelligence-connector.md: X API v2 connector, mindshare 1d/7d/30d
-trends, ecosystem sentiment, smart follower detection, source tier framework.
+trends, suite sentiment, smart follower detection, source tier framework.
 
 ### ✅ v3.36 — API providers guide with end-to-end flow
 platform/api-providers.md: quickest path to a working signal, API-Football primary

@@ -39,7 +39,7 @@ existing statistical scouting products.
 ## Core value proposition
 
 > *"The first scouting tool that tells you what a player is worth to your token
-> ecosystem — not just what they are worth on the pitch."*
+> suite — not just what they are worth on the pitch."*
 
 The APS (Athlete Portability Score) combined with the DTS (Development Trajectory
 Score) gives sporting directors a picture that no traditional scouting tool provides:

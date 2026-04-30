@@ -480,10 +480,10 @@ class SportMindOrchestrator:
 
 ---
 
-## Ecosystem integration in the coordinated system
+## Suite integration in the coordinated system
 
 ```
-HOW THE COORDINATED SYSTEM SITS IN THE BROADER ECOSYSTEM:
+HOW THE COORDINATED SYSTEM SITS IN THE BROADER SUITE:
 
 FanTokenIntel
   ← consumes portfolio_signal from signal bus
@@ -519,6 +519,6 @@ Human operators
 **Individual patterns:** `examples/agentic-workflows/README.md` — four base patterns
 **MCP tools:** `platform/sportmind-mcp-server.md` — including sportmind_agent_status
 **Real-time patterns:** `platform/realtime-integration-patterns.md` — live data integration
-**Ecosystem:** `platform/integration-partners.md` — FanTokenIntel, SportFi Kit, LLMs
+**Suite:** `platform/integration-partners.md` — FanTokenIntel, SportFi Kit, LLMs
 
 *MIT License · SportMind · sportmind.dev*

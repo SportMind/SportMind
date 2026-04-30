@@ -15,7 +15,7 @@ description: >
 MMA fan tokens are structurally unlike any other sport in the Chiliz ecosystem.
 Where football and F1 have *club* or *constructor* tokens, MMA tokens are **fighter-centric
 — the token IS the athlete**. This creates the highest-upside and highest-risk token
-profile in the entire ecosystem. A single fight can double a fighter token or send it
+profile in the entire suite. A single fight can double a fighter token or send it
 to near-zero. A retirement announcement can permanently collapse a token that no team
 sport equivalent can replicate.
 
@@ -93,12 +93,12 @@ Pattern: FTM activates strongly in title eliminator bouts. A win here is the
 "next step" narrative that drives holder accumulation ahead of a title shot.
 
 **Standard FTM (0.65–0.89) — The Ranked Fighter**
-Profile: Ranked but not title contention. Token exists but ecosystem is relatively thin.
+Profile: Ranked but not title contention. Token exists but suite is relatively thin.
 Pattern: Token responds to results but lacks the narrative premium of higher tiers.
 
 **Low FTM (0.50–0.64) — The Journeyman**
 Profile: Unranked or early-career fighter. Token barely active.
-Pattern: Results have limited ecosystem impact. Token may spike on major upset win.
+Pattern: Results have limited suite impact. Token may spike on major upset win.
 
 ---
 

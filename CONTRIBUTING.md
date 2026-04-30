@@ -64,7 +64,7 @@ Before opening a PR, check every item:
 - [ ] Result impact matrix has at least 5 distinct result scenarios with % ranges
 - [ ] Risk variables section covers at least 3 sport-specific risks with token impact
 - [ ] Minimum 4 playbooks, each with trigger / entry / exit / filter / sizing / note
-- [ ] Key commands table references real skills from the ecosystem
+- [ ] Key commands table references real skills from the suite
 - [ ] Agent reasoning prompts section has 5–8 numbered rules
 - [ ] Data sources section is complete
 - [ ] Compatibility section is complete

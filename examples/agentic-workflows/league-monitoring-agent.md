@@ -444,7 +444,7 @@ League Monitor RECEIVES:
   → Standings updates (from your data source)
   → Nothing from other SportMind agents (it is a data intake agent)
 
-ECOSYSTEM INTEGRATION:
+SUITE INTEGRATION:
   FanTokenIntel: reads league_priority.json for portfolio context
   SportFi Kit: reads token-relevant high-signal fixture list for UI prioritisation
   Human operators: receive consolidated weekly priority briefing

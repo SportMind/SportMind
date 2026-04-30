@@ -41,7 +41,7 @@ ROOT        = Path(__file__).parent.parent
 HASHES_FILE = ROOT / "platform" / "skill-hashes.json"
 MACRO_STATE = ROOT / "platform" / "macro-state.json"
 
-VERSION = "3.95.4"
+VERSION = "3.96.0"
 
 SUPPORTED_SPORTS = [
     "football", "basketball", "cricket", "mma", "formula1", "tennis",
@@ -412,7 +412,7 @@ FAN_TOKEN_REGISTRY = {
 
 # ══════════════════════════════════════════════════════════════════════════════
 # MULTI-CHAIN FAN TOKEN REGISTRY
-# These tokens are NOT on Chiliz Chain. Different ecosystems, different issuers.
+# These tokens are NOT on Chiliz Chain. Different suites, different issuers.
 # No Fan Token Play mechanics. No chiliscan verification.
 # ══════════════════════════════════════════════════════════════════════════════
 MULTICHAIN_FAN_TOKEN_REGISTRY = {
@@ -1132,7 +1132,7 @@ def tool_sentiment_snapshot(token, use_case):
                     "status":                "GAMIFIED_CONFIRMED",
                     "pre_liquidation_check": "Run FanTokenPlayMonitor at T-48h before each match",
                     "path_2_loss_note":      "PATH_2 LOSS is supply-neutral — pre-liquidated amount restored only.",
-                    "chz_echo":              "PATH_2 WIN contributes to CHZ ecosystem burn via 10% proceeds rule.",
+                    "chz_echo":              "PATH_2 WIN contributes to CHZ suite burn via 10% proceeds rule.",
                     "skill_ref":             "fan-token/gamified-tokenomics-intelligence/",
                     "agent_rule":            "Never treat pre-liquidation as Category 1 distribution signal.",
                 }

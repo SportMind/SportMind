@@ -534,7 +534,7 @@ INTELLIGENCE TYPE: ANI (narrow excellence in sports domain) — intentional, not
 REASONING: 6-step chain applied by LLM to SportMind domain knowledge — ~94% calibrated accuracy
 PLANNING: Multi-cycle autonomous operation (Level 0-4 autonomy); goal-execution not goal-setting
 LEARNING: Human-mediated calibration pipeline — validated improvement, not instant self-modification
-CONTEXT: WHO-WE-ARE.md + autonomous-agent-framework.md provides full purpose/ecosystem context
+CONTEXT: WHO-WE-ARE.md + autonomous-agent-framework.md provides full purpose/suite context
 ASPIRATION: Domain ASI — exceeds any individual expert through community calibration + collective knowledge
 ```
 ~220 tokens → full file ~3,200 tokens
@@ -586,7 +586,7 @@ WHO-WE-ARE.md + agent-framework purpose sections separately. Single ~600 token l
 (3) intelligence separation — never execute (4) confidence honesty — state SMS < 60 as PARTIAL
 (5) sport primary signal: football T-2h lineup / cricket FORMAT FIRST / MMA WEIGH-IN FIRST /
     F1 qualifying delta / NHL morning skate / NBA DNP-rest / rugby kicker / tennis surface win%
-ECOSYSTEM: Data → SportMind intelligence → Application → Execution (SportMind never touches execution)
+SUITE: Data → SportMind intelligence → Application → Execution (SportMind never touches execution)
 SMS TIERS: 80-100 HIGH_QUALITY | 60-79 GOOD | 40-59 PARTIAL | 20-39 INCOMPLETE | 0-19 INSUFFICIENT
 AUTONOMY: Level 0 supervised → Level 4 autonomous; financial/governance always Level 0-1
 ```
@@ -876,7 +876,7 @@ REGULATORY_DISCOUNT (apply to signal):
   RESTRICTED (China): ABSTAIN — do not generate signal
   
 US_MARKET_ENTRY_SIGNAL: Tier 1 macro event when first US token launches
-  CDI window: 45-60 days (longer than standard) across ecosystem
+  CDI window: 45-60 days (longer than standard) across suite
 ```
 ~210 tokens → full file ~4,200 tokens
 
@@ -1577,7 +1577,7 @@ CHZ MACRO STATES: bull macro(BTC>+15%)=−20% sport modifier weight · bear macr
 SPORTS-ADJACENT: FWONK(Liberty/F1)=F1 commercial macro · TKO(UFC+WWE)=UFC token commercial macro
 NO EQUITY = BVB.DE(Dortmund) · MANU(Manchester United) — no fan tokens, largest gaps.
 AGENT RULE: check CHZ macro state before applying any sport-specific modifier. If CHZ rising
-  on ecosystem news(not sport), note catalyst before attributing to sport signal.
+  on suite news(not sport), note catalyst before attributing to sport signal.
 ```
 REF: market/sports-equity-intelligence.md
 

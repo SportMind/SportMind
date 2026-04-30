@@ -123,7 +123,7 @@ OrgTIS, Game Roster Multiplier (GRM), Patch Risk Score (PRS), Roster Stability I
 
 ### Synthesis layers
 
-**`transfer-signal`** — Token-native transfer intelligence. Rumour confidence scoring with source tier weighting (Romano = Tier 1), spike attribution, athlete portability to fan ecosystems.
+**`transfer-signal`** — Token-native transfer intelligence. Rumour confidence scoring with source tier weighting (Romano = Tier 1), spike attribution, athlete portability to fan suites.
 
 **`brand-score`** — Synthesis skill. Combines HAS + AELS + APS + REACH + SENTI into ABS. Exportable commercial brief with peer comparison and trend signal.
 

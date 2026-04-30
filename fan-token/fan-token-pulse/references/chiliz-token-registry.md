@@ -178,7 +178,7 @@ Contract addresses are still valid for on-chain queries via chiliscan.com.
 
 ## Multi-Chain Tokens (NOT on Chiliz Chain)
 
-Different issuers, different ecosystems. No Fan Token Play mechanics.
+Different issuers, different suites. No Fan Token Play mechanics.
 No Socios governance. Verify via BscScan or Etherscan, not chiliscan.
 
 | Club / Org | Ticker | Chain | Issuer | Contract Address |

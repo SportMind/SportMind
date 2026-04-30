@@ -399,9 +399,9 @@ MONITORING SIGNALS:
   Rising burn rate → fan token ecosystem growing → structural CHZ support improving
   
   BURN RATE TIERS:
-    < 5M CHZ burned per quarter: LOW ecosystem activity
+    < 5M CHZ burned per quarter: LOW suite activity
     5-20M CHZ burned per quarter: MODERATE (current 2026 baseline ~9.2M/quarter)
-    20-50M CHZ burned per quarter: HIGH — ecosystem scaling signal
+    20-50M CHZ burned per quarter: HIGH — suite scaling signal
     > 50M CHZ burned per quarter: VERY HIGH — significant structural floor
 
 AGENT RULE — TWO-LAYER CHZ ANALYSIS:
@@ -466,7 +466,7 @@ CHZ FLYWHEEL IMPLICATION:
   The omnichain expansion structurally accelerates the CHZ virtuous cycle.
   
   REVISED BURN RATE TIERS (post-omnichain baseline):
-    < 5M CHZ burned per quarter:   LOW — ecosystem not yet capitalising on expansion
+    < 5M CHZ burned per quarter:   LOW — suite not yet capitalising on expansion
     5-20M CHZ burned per quarter:  MODERATE (pre-omnichain baseline ~9.2M/quarter)
     20-50M CHZ burned per quarter: HIGH — omnichain expansion generating volume
     > 50M CHZ burned per quarter:  VERY HIGH — full multi-chain traction achieved
@@ -487,7 +487,7 @@ MONITORING ADDITIONS:
   Track fan token volume on Solana DEXs (Jupiter aggregator)
   Track fan token activity on Base DEXs (Aerodrome, Uniswap Base)
   Cross-chain bridge flows: chiliscan.com LayerZero transactions
-  Compare multi-chain volume vs Chiliz Chain volume as ecosystem health indicator
+  Compare multi-chain volume vs Chiliz Chain volume as suite health indicator
 ```
 
 ---

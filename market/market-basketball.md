@@ -151,7 +151,7 @@ single untapped opportunity in the North American fan token market. The NBA's au
 demographics, digital engagement, and institutional openness make it the highest-value
 potential expansion for Chiliz after football.
 
-**Existing partial ecosystem:**
+**Existing partial suite:**
 - Dapper Labs / NBA Top Shot: moment collectibles (not governance/utility tokens)
 - Several international club tokens through minor platforms
 - Player-specific crypto ventures (not standardised fan tokens)
@@ -183,7 +183,7 @@ Tencent deal was worth ~$1.5B over 5 years.
 
 ## 7. Token Catalyst Events
 
-**For existing ecosystem expansion:**
+**For existing suite expansion:**
 - **NBA team fan token launch:** The first NBA team to launch a Chiliz-style token
   would be the most significant basketball token event since NBA Top Shot. Most likely
   candidates: Los Angeles Lakers, Golden State Warriors, Brooklyn Nets (ownership

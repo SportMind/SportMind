@@ -48,7 +48,7 @@ Phase 6 — POST-PARTNERSHIP / NON-CONTRACTUAL
   Trades on CEX (if volume maintained) and/or DEX (permissionlessly).
   Prediction market and third-party use cases become primary value drivers.
   Intelligence: Predictive utility model; CEX/DEX trajectory; third-party
-  ecosystem health; on-chain holder data as persistent fan sentiment proxy
+  suite health; on-chain holder data as persistent fan sentiment proxy
 
 THE KEY PRINCIPLE:
   Fan tokens cannot be cancelled. They are on-chain assets.
@@ -217,7 +217,7 @@ NEOBANK LISTING SIGNAL (Phase 3 accelerator):
       — distribution value is fan acquisition, not trading depth
 
   EDLI impact: reduces concentration risk score
-  IPS impact: positive factor (broader ecosystem distribution)
+  IPS impact: positive factor (broader suite distribution)
   Lifecycle signal: advance toward Phase 3 confirmation
 
 INSTITUTIONAL DISTRIBUTION SIGNAL (Phase 3 quality marker):
@@ -485,10 +485,10 @@ WHAT THIS MEANS FOR SPORTMIND AGENTS:
 
 A non-contractual token with active third-party development is more
 valuable as an intelligence source than an active-partnership token
-with low club engagement (Phase 4 plateau). The ecosystem health
+with low club engagement (Phase 4 plateau). The suite health
 around the token matters more than the presence of official utility.
 
-THIRD-PARTY ECOSYSTEM HEALTH INDICATORS:
+THIRD-PARTY SUITE HEALTH INDICATORS:
   GitHub repositories referencing the token contract: Developer interest
   DeFi protocol integration (Uniswap, Curve, etc.): Financial infrastructure
   Discord/Telegram community size post-termination: Community persistence
@@ -520,7 +520,7 @@ INTERPRETATION:
   In Phase 4: Reduce Layer 3 weight by 30-40%; increase sporting weight
   In Phase 6: Layer 3 metrics largely inapplicable; rely on on-chain holder
               data, sporting performance correlation, and third-party
-              ecosystem signals instead
+              suite signals instead
 ```
 
 ---

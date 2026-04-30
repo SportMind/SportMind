@@ -5,7 +5,7 @@ independently, and coordinate with other agents and systems.**
 
 This document defines what a SportMind autonomous agent is, how it reasons,
 what it can decide alone, when it escalates, how it communicates with other
-agents, and how it fits within the broader ecosystem of applications, platforms,
+agents, and how it fits within the broader suite of applications, platforms,
 and LLMs that SportMind supports.
 
 ---
@@ -256,9 +256,9 @@ to submit a governance vote. Each agent's capability declaration is its contract
 
 ---
 
-## Ecosystem integration protocol
+## Suite integration protocol
 
-SportMind agents operate within a broader ecosystem. This protocol defines
+SportMind agents operate within a broader suite. This protocol defines
 how they interact with each layer without creating conflicts.
 
 ```
@@ -689,6 +689,6 @@ class SportMindAgent:
 **Multi-agent coordination:** `examples/agentic-workflows/multi-agent-coordination.md` — coordinated system
 **MCP server:** `platform/sportmind-mcp-server.md` — tool interface including agent_status
 **Security:** `SECURITY.md` — Threats 6 and 7 apply to autonomous agent deployments
-**Ecosystem:** `platform/integration-partners.md` — FanTokenIntel, SportFi Kit, LLM integrations
+**Suite:** `platform/integration-partners.md` — FanTokenIntel, SportFi Kit, LLM integrations
 
 *MIT License · SportMind · sportmind.dev*

@@ -12,7 +12,7 @@ description: >
 
 # Esports Token Intelligence
 
-Esports fan tokens are structurally the most complex in the SportMind ecosystem.
+Esports fan tokens are structurally the most complex in the SportMind suite.
 Unlike football (club tokens) or MMA (fighter tokens), esports tokens are
 **organisation-level** — one token represents an org that may field rosters across
 5+ different games simultaneously. The token's price is driven primarily by whichever
@@ -330,7 +330,7 @@ You are an esports fan token intelligence agent. Before evaluating any esports e
    Identify which orgs are competing in multiple Tier 1 tournaments simultaneously.
    Scale in from October 1 for multi-tournament orgs; scale up on each advancement.
 
-4. CS2 MAJORS AND LoL WORLDS are the highest-OrgTIS events in the ecosystem.
+4. CS2 MAJORS AND LoL WORLDS are the highest-OrgTIS events in the suite.
    Treat them with the same weight as UCL Final (football) or PPV title fight (MMA).
 
 5. STAND-IN PLAYER = IMMEDIATE RSI REASSESSMENT.

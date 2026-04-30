@@ -128,7 +128,7 @@ is a safety principle, not just a rule.
 
 **What this produces in practice:** An agent that loads `WHO-WE-ARE.md` and
 `core/autonomous-agent-framework.md` before operating understands that it is
-part of a larger ecosystem (FanTokenIntel, SportFi Kit, LLMs), that its role
+part of a larger suite (FanTokenIntel, SportFi Kit, LLMs), that its role
 is intelligence not execution, that it serves specific stakeholders with specific
 needs, and that the library it uses has been empirically validated. This contextual
 understanding produces better outputs than an agent that only loads sport domain skills.
@@ -253,7 +253,7 @@ If you want to build toward the long-horizon vision:
   → Build applications that surface SportMind intelligence to sports practitioners
   → Share what you learn — the library improves from community knowledge
   → The more agents run SportMind analysis and record outcomes, the more
-    accurate the modifiers become, and the better every agent in the ecosystem gets
+    accurate the modifiers become, and the better every agent in the suite gets
 
 What SportMind will not do:
   → Execute financial transactions autonomously
@@ -271,6 +271,6 @@ What SportMind will not do:
 **Agent framework:** `core/autonomous-agent-framework.md` — full lifecycle and safety model
 **Reasoning patterns:** `core/reasoning-patterns.md` — the six-step chain
 **Calibration pipeline:** `community/calibration-data/CONTRIBUTING.md` — how learning happens
-**Ecosystem context:** `platform/integration-partners.md` — how SportMind fits the broader stack
+**Suite context:** `platform/integration-partners.md` — how SportMind fits the broader stack
 
 *MIT License · SportMind · sportmind.dev*

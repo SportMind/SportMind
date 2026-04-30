@@ -109,7 +109,7 @@ This asymmetry is the single most important insight in MMA token management.
 
 | Promotion | Token relevance | Audience | Note |
 |---|---|---|---|
-| UFC (PPV) | Highest | Global | Primary ecosystem |
+| UFC (PPV) | Highest | Global | Primary suite |
 | UFC (Fight Night) | High | Global | Secondary but meaningful |
 | PFL (season) | Moderate | US-heavy | Season format creates multi-event arc |
 | Bellator | Moderate | US/Europe | Declining since Paramount deal ended |

@@ -133,11 +133,11 @@ HAS = (
 ) * 100
 ```
 Score bands:
-- 80–100: Highly active ecosystem
+- 80–100: Highly active suite
 - 60–79: Healthy engagement
 - 40–59: Moderate — watch for decay
 - 20–39: Low engagement — warning signal
-- 0–19: Dormant ecosystem
+- 0–19: Dormant suite
 
 ### Step 6 — Format output
 Return structured response covering:

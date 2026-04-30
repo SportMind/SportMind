@@ -117,7 +117,7 @@ def tool_token_state(token: str, include_supply: bool):
                 "loss_event": "Supply NEUTRAL — re-mint to treasury only (NOT inflationary)",
                 "pre_liquidation_t48h": "PROTOCOL_EVENT — never classify as bearish distribution",
                 "amm_delay": "Wait T+15 post-WIN for AMM rebalancing before applying burn modifier",
-                "chz_echo":  "CHZ ecosystem burn echo fires after WIN burn",
+                "chz_echo":  "CHZ suite burn echo fires after WIN burn",
             } if ftp == "PATH_2" else {
                 "path": ftp,
                 "note": "PATH_1 mechanics — standard win/utility event model",

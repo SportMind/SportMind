@@ -182,7 +182,7 @@ For [sport], agents should apply these interpretive weights to composite signal 
 ## Key Commands
 
 <!--
-  Map the key agent actions for this sport to the commands available in the ecosystem.
+  Map the key agent actions for this sport to the commands available in the suite.
   Reference real skill names from SportMind or Fan Token™ Intel.
 -->
 

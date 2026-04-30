@@ -69,18 +69,18 @@ WHY PATH 2 CHANGES THE SIGNAL ARCHITECTURE:
 FAN TOKEN PLAY CONNECTS TO CHZ MACRO SIGNAL:
 
 Fan Token Play generates transaction activity → some proceeds flow through
-the ecosystem → 10% of fan token marketplace proceeds execute CHZ buybacks
+the suite → 10% of fan token marketplace proceeds execute CHZ buybacks
 → CHZ permanently burned → CHZ supply decreases → CHZ price supported
 
 This is the Vision 2030 "virtuous cycle":
-  Team performance → fan token supply adjustment → ecosystem activity
+  Team performance → fan token supply adjustment → suite activity
   → CHZ buyback & burn → CHZ scarcity → improved macro modifier
   → better conditions for all fan token signals
 
 WHAT THIS MEANS FOR AGENT REASONING:
   Path 2 generates TWO deflationary events from a single WIN:
     1. Fan token burn (95% buyback from WIN proceeds)
-    2. CHZ ecosystem burn (via 10% marketplace proceeds rule)
+    2. CHZ suite burn (via 10% marketplace proceeds rule)
 
   These are DIFFERENT assets but CONNECTED mechanisms.
   An agent analysing $AFC post-win should note both:
@@ -260,7 +260,7 @@ PATH 1 SAFEGUARDS (signal ceiling):
     
     CURRENT STATUS (confirmed April 2026): Vesting cap is not currently applicable
     to any Fan Token. The mechanism is defined in the protocol but not yet active
-    for any token in the ecosystem. No agent action required until a token
+    for any token in the suite. No agent action required until a token
     activates the vesting cap — monitor Chiliz announcements for activation.
     
   ANNUAL INFLATION (integral part of Path 1 protocol — not a fallback):

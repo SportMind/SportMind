@@ -178,7 +178,7 @@ After a major positive event, token HAS elevation decays on a predictable curve:
 
 **Implication for agents:**
 - UCL knockout and title events justify holding positions for 3–5 days
-- World Cup wins sustain for 2+ weeks (longest decay curve in the ecosystem)
+- World Cup wins sustain for 2+ weeks (longest decay curve in the suite)
 - Standard league wins require quick exit — signal fades rapidly
 - Summer signing debuts are front-loaded — exit within 24h for maximum capture
 

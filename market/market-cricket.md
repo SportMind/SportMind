@@ -6,7 +6,7 @@ primarily through the Pakistan Super League (PSL) on Chiliz, with India (IPL-adj
 as the largest untapped expansion opportunity in the entire fan token ecosystem. The
 sport's commercial weight is almost entirely driven by India — the BCCI generates more
 revenue than all other cricket boards combined — and Indian regulatory stance toward
-crypto is the single variable that determines whether cricket becomes a Tier 1 ecosystem
+crypto is the single variable that determines whether cricket becomes a Tier 1 suite
 or remains on the boundary.
 
 ---
@@ -203,7 +203,7 @@ remains the highest single-match sports event globally by social engagement.
 commercial, entertainment-forward product. If ECB/The Hundred pursues a digital
 fan engagement layer, it would validate the UK cricket market for token investment.
 
-**PSL ecosystem deepening:** Continued PSL token growth and inter-franchise token utility
+**PSL suite deepening:** Continued PSL token growth and inter-franchise token utility
 programmes would establish cricket's token infrastructure credentials ahead of IPL entry.
 
 ---

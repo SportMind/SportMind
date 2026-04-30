@@ -14,7 +14,7 @@ who can't compete eliminates the fight entirely — the event reshuffles,
 the other fighter faces a replacement, and the entire prediction context changes.
 
 But MMA injury intelligence goes far beyond "can they fight?". The sport has
-a unique pre-fight injury signal ecosystem that agents can read **before** any
+a unique pre-fight injury signal suite that agents can read **before** any
 official announcement:
 
 - Weight cut distress often signals underlying physical problems

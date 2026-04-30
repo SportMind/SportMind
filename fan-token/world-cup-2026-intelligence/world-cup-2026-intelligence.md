@@ -32,13 +32,13 @@ See `fan-token/football-token-intelligence/` for the underlying NCSI and ATM fra
 ```
 PREVIOUS WORLD CUPS (Qatar 2022):
   32 teams · 64 matches · ~28 days · Middle East timezone (poor for Europe/Americas)
-  Fan tokens: nascent ecosystem, 3 national tokens live
+  Fan tokens: nascent suite, 3 national tokens live
   Total viewer unique reach: ~5B
 
 WORLD CUP 2026:
   48 teams · 104 matches · 39 days
   Three host nations (USA/Canada/Mexico) — Americas primetime
-  Fan tokens: mature ecosystem, 8+ national tokens, 40+ club tokens active
+  Fan tokens: mature suite, 8+ national tokens, 40+ club tokens active
 
   THE STRUCTURAL DIFFERENCES THAT CHANGE EVERYTHING:
 

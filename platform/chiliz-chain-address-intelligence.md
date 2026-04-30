@@ -823,7 +823,7 @@ class FanTokenPlayMonitor:
                     "datetime":     latest["datetime"],
                     "amount_burned": latest["amount"],
                     "supply_effect": "PERMANENT_REDUCTION",
-                    "chz_echo":     "WIN proceeds also contribute to CHZ buyback via 10% ecosystem rule.",
+                    "chz_echo":     "WIN proceeds also contribute to CHZ buyback via 10% suite rule.",
                     "agent_instruction": (
                         "Apply gamified_path2_win_modifier. "
                         "Update season_net_burned_pct in Memory MCP. "

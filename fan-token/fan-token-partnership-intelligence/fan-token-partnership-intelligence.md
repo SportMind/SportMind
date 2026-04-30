@@ -16,7 +16,7 @@ between a club/athlete/sport and a fan token platform (primarily Chiliz/Socios).
 THREE TYPES OF PARTNERSHIP EVENTS — ALL ARE SIGNIFICANT SIGNALS:
 
 1. NEW PARTNERSHIP ANNOUNCEMENT
-   A sport, club, or athlete previously without a token enters the ecosystem.
+   A sport, club, or athlete previously without a token enters the suite.
    Signal type: Strong positive for CHZ; moderate-to-strong positive for related tokens
    Agent action: Assess launch quality indicators; model initial holder acquisition curve
    
@@ -28,7 +28,7 @@ THREE TYPES OF PARTNERSHIP EVENTS — ALL ARE SIGNIFICANT SIGNALS:
 3. PARTNERSHIP TERMINATION OR LAPSE
    Official partnership ends. Token continues on-chain non-contractually.
    Signal type: Negative for affected token; neutral-to-positive for non-contractual
-               token long-term if third-party ecosystem develops
+               token long-term if third-party suite develops
    Agent action: Transition to non-contractual token framework (lifecycle skill)
 ```
 
@@ -53,7 +53,7 @@ SPORT/CLUB TOKEN IMPACT:
   Launch day: Highest single-day volume in the token's life (usually)
   Post-launch: Holder acquisition curve begins
 
-ECOSYSTEM IMPACT:
+SUITE IMPACT:
   Large partnership (Premier League club, UFC fighter, F1 constructor):
     Positive spillover to related tokens in same sport
   New sport category entry (first NBA team, first NASCAR team):
@@ -81,7 +81,7 @@ TIER 3 — STANDARD CLUB ADDITIONS (moderate):
   Mid-table or lower clubs in already-tokenised leagues
   Examples: Newly promoted Bundesliga club adding token
   CHZ impact: +1–5%
-  Sport impact: Minor; increases ecosystem breadth
+  Sport impact: Minor; increases suite breadth
 
 TIER 4 — ATHLETE INDIVIDUAL TOKENS (variable):
   Individual athlete token (not club/team-level)
@@ -295,7 +295,7 @@ SHORT-TERM (1–6 months):
 
 MEDIUM-TERM (6–18 months):
   BIFURCATION POINT: Tokens either:
-  PATH A — Develop non-contractual ecosystem (third-party use cases, prediction markets)
+  PATH A — Develop non-contractual suite (third-party use cases, prediction markets)
             → Sustained value; potential for new utility layer
             → Possible re-rating as independent community asset
   PATH B — Gradual abandonment (volume declines to de minimis)
@@ -752,7 +752,7 @@ as a strategic resource for sports clubs: Opportunities, challenges, and a stake
 | Forced termination (regulatory/legal) | -40–70% (token) | Negative | Immediate position reduction; monitor underlying event |
 | Third-party prediction market integration | +5–20% (token) | Positive | Path A confirmed; hold |
 | CEX delisting | -25–50% (liquidity) | Neutral | Assess DEX liquidity; Path B risk |
-| Community DAO formation | +3–10% (sentiment) | Positive | Path A signal; third-party ecosystem forming |
+| Community DAO formation | +3–10% (sentiment) | Positive | Path A signal; third-party suite forming |
 | Relaunch / re-partnership signal | +15–35% (anticipation) | Positive | High-conviction early entry; validate quickly |
 
 ---

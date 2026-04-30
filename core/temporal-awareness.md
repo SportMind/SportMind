@@ -56,7 +56,7 @@ AGENT RULE:
 ```
 WHAT:
   Commercial tier assessments — is cricket Tier 1 or Tier 2 for fan tokens?
-  Market structure — how many clubs have tokens, which sports have active ecosystems
+  Market structure — how many clubs have tokens, which sports have active suites
   Athlete career trajectory — DTS (Development Trajectory Score)
   Partnership health scores — PHS at a structural level
   Regulatory framework summaries — India VDA status, UK FCA stance on fan tokens

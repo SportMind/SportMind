@@ -36,7 +36,7 @@ and driver transfer market create token dynamics that no other motorsport
 FTIS = (
   race_tier_weight        * 0.30 +   # which circuit / event type?
   championship_stakes     * 0.30 +   # how much does this race matter?
-  constructor_token_health * 0.20 +  # is the ecosystem active?
+  constructor_token_health * 0.20 +  # is the suite active?
   driver_token_multiplier * 0.20     # are high-DTM drivers involved?
 ) * 100
 ```
@@ -69,7 +69,7 @@ CTI = (
 
 **CTI tier implications for agent sizing:**
 - CTI 75+: Full position sizing applicable
-- CTI 50–74: Standard sizing — ecosystem active but not elite
+- CTI 50–74: Standard sizing — suite active but not elite
 - CTI 25–49: Reduce sizing 30% — thinner liquidity, wider spreads
 - CTI <25: Avoid — insufficient token ecosystem for reliable signal
 
@@ -83,7 +83,7 @@ CTI = (
 | McLaren | 60–74 | Rising — results and fan base both growing |
 | Aston Martin | 45–60 | Alonso factor; UK premium base |
 | Alpine | 38–52 | French-heavy; limited global spread |
-| Others | 15–35 | Small ecosystems — exercise caution |
+| Others | 15–35 | Small suites — exercise caution |
 
 ---
 

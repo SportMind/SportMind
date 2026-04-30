@@ -121,7 +121,7 @@ CFTC vs SEC DISTINCTION:
 
 MONITORING RULE:
   Watch for first US fan token announcement (Q1 2026 per Chiliz roadmap)
-  This is a Tier 1 macro event for the entire ecosystem
+  This is a Tier 1 macro event for the entire suite
   Apply: US_market_entry_signal = True on announcement
   CDI amplification: any US sports token launch = elevated engagement 30-45 days
 
@@ -302,9 +302,9 @@ THE OPPORTUNITY:
 SPORTMIND SIGNAL IMPLICATIONS:
 
   PRE-LAUNCH (announcement phase):
-    First US partnership announcement = Tier 1 ecosystem event
-    All existing fan tokens: NCSI_amplification = True (ecosystem excitement)
-    Duration: 30-45 day elevated engagement across whole ecosystem
+    First US partnership announcement = Tier 1 suite event
+    All existing fan tokens: NCSI_amplification = True (suite excitement)
+    Duration: 30-45 day elevated engagement across whole suite
     
   LAUNCH PHASE (first US token live):
     New token CDI window: 45-60 days (longer than standard 30 days)

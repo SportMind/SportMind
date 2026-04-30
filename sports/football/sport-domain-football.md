@@ -79,7 +79,7 @@ Use `get_price_correlation` and `get_match_impact` to retrieve token-specific hi
 ### Tier 1 Competitions (highest token impact)
 - **UEFA Champions League** — group stage draw and knockout rounds are major catalysts
 - **Premier League** — highest liquidity tokens (BAR, PSG adjacents, Man City-linked)
-- **La Liga** — El Clásico is the single highest-impact fixture in the ecosystem
+- **La Liga** — El Clásico is the single highest-impact fixture in the suite
 - **Serie A** — Juventus, Inter, AC Milan tokens; Derby della Madonnina and Derby d'Italia
 
 ### Tier 2 Competitions (moderate impact)

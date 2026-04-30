@@ -179,7 +179,7 @@ AGENT RULE: When multiple KOLs post about the same token simultaneously:
 
 ---
 
-## Sports-specific KOL ecosystem map
+## Sports-specific KOL suite map
 
 ```
 FOOTBALL:

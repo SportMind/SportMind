@@ -167,7 +167,7 @@ TIER 3 — HOST NATION COMMERCIAL EXPOSURE:
     BFT carries both host commercial signal AND tournament performance NCSI
     Not on Chiliz Chain — no Socios governance mechanics apply
     NCSI modifier: ×3.5–4.0 applies from tournament start
-    Monitoring: same protocol as $ARG/$POR but via BiTCI ecosystem signals
+    Monitoring: same protocol as $ARG/$POR but via BiTCI suite signals
 ```
 
 ---

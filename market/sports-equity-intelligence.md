@@ -93,7 +93,7 @@ moves more slowly (next trading day) and fan token moves more immediately.
 BVB.DE has documented +1.03% average daily return on wins and −1.77% on losses
 (2.80% swing). This is the strongest empirically validated match result / equity
 price relationship in European football. BVB has no fan token — this is a notable
-commercial gap. Agents assessing ecosystem expansion should flag BVB as a
+commercial gap. Agents assessing suite expansion should flag BVB as a
 Tier 1 candidate.
 
 **English clubs:**
@@ -106,7 +106,7 @@ MANU is unique — listed on NYSE, giving US institutional investors direct
 football equity exposure without crypto. In the post-SEC/CFTC March 2026
 guidance environment, MANU's US listing creates a natural bridge between
 traditional sports investors and potential fan token holders. MANU has no
-fan token — the largest club-sized gap in the entire ecosystem.
+fan token — the largest club-sized gap in the entire suite.
 If MANU launches a token (confirmed or rumoured), it would represent the
 single largest new token event in the Chiliz ecosystem outside of a WC2026
 national team.
@@ -166,7 +166,7 @@ ecosystem in the same way that a sector ETF functions for a stock vertical.
 ## CHZ as the fan token macro layer
 
 Chiliz (CHZ) is the native token of Chiliz Chain and the currency used to purchase
-fan tokens on the Socios platform. Its price and ecosystem health are the single
+fan tokens on the Socios platform. Its price and suite health are the single
 largest macro variable affecting all Chiliz-native fan tokens simultaneously.
 
 ### The CHZ relationship to individual fan tokens
@@ -185,7 +185,7 @@ FTP WIN burn), the affected fan token decouples upward from CHZ. This is the
 signal SportMind is designed to model. The decoupling magnitude is the commercial
 modifier at work. After the sporting event, the token re-correlates with CHZ.
 
-**Phase 3 — Ecosystem events:**
+**Phase 3 — Suite events:**
 New partnership announcements, Chiliz 2030 strategic updates, MiCA authorisation
 milestones, and US market opening signals cause CHZ to move, which carries all
 fan tokens. These moves are CHZ-driven, not sport-specific, but they create
@@ -202,7 +202,7 @@ modifiers:
 | Crypto bull macro | BTC >+15% 30d, CHZ rising with market | Apply 20% discount to sport-specific modifier — macro likely dominant |
 | Stable / sideways | BTC ±10% 30d, CHZ flat | Full modifier weight applicable |
 | Crypto bear macro | BTC <−15% 30d, CHZ falling | Apply 30% discount to modifier — macro headwind compresses sport signal |
-| CHZ-specific positive | CHZ rising while BTC flat — new partnership, ecosystem announcement | Note CHZ catalyst before attributing to sport signal |
+| CHZ-specific positive | CHZ rising while BTC flat — new partnership, suite announcement | Note CHZ catalyst before attributing to sport signal |
 | CHZ-specific negative | CHZ falling while BTC flat — Socios controversy, regulatory concern | EDLI risk increases for all tokens; reduce CDI baseline |
 
 ### Chiliz 2030 and structural CHZ signals
@@ -309,7 +309,7 @@ acceleration — it expands the accessible audience to non-crypto-native sports 
 are typically not reflected in CoinGecko or CMC rankings, making the volume invisible
 to standard aggregators. The distribution value is fan acquisition, not trading depth.
 
-**Agent instruction:** Neobank listing is a positive IPS factor (exchange ecosystem
+**Agent instruction:** Neobank listing is a positive IPS factor (exchange suite
 expanding) and a negative EDLI factor (broader distribution reduces concentration risk).
 Add to Phase 3 active signals in lifecycle assessment.
 
@@ -399,7 +399,7 @@ fan token segments:
 **Liberty Media / Formula 1 (FWONK, Nasdaq):**
 F1 commercial rights holder. Fan token signal relevance: any FWONK commercial
 announcement (new race, new broadcast deal, franchise expansion) is a positive
-ecosystem signal for the F1 fan token category. FWONK earnings calls contain
+suite signal for the F1 fan token category. FWONK earnings calls contain
 digital engagement KPIs — when Liberty reports growing F1 digital audience,
 it is background support for any future F1 team fan token launch.
 
@@ -426,7 +426,7 @@ markets are potential new token holder pools.
 | TKO earnings — UFC expansion mentioned | NYSE | Moderate | UFC token positive macro |
 | FWONK — new F1 race/deal announced | Nasdaq | Moderate | F1 fan token category positive |
 | BIST Sports Index underperforms BIST 100 | BIST macro | Moderate | Turkish token EDLI baseline elevated |
-| CHZ +20% (ecosystem announcement) | Chiliz | Strong | All Chiliz tokens baseline rises |
+| CHZ +20% (suite announcement) | Chiliz | Strong | All Chiliz tokens baseline rises |
 | CHZ −15% (macro crypto move) | Crypto macro | Strong | All tokens suppressed, modifiers discounted |
 | Neobank fan token listing confirmed | Distribution | Moderate | Phase 3 confirmation, IPS positive |
 | Institutional market maker spread tightens | OTC/market structure | Strong | EDLI reduction, liquidity quality improved |

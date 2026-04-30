@@ -7,7 +7,7 @@ Covers Flat racing, Jump racing (National Hunt), and the major international fes
 
 ## Overview
 
-Horse racing is the most data-rich individual prediction sport. Unlike athlete tokens, horse racing markets focus on individual horse and jockey combinations — the two are inseparable. The UK has the most sophisticated horse racing betting ecosystem in the world; Cheltenham Festival and Royal Ascot are cultural events that generate enormous market liquidity. Key variables include going (ground conditions), trainer form, jockey booking, and draw bias — none of which have equivalents in other sports.
+Horse racing is the most data-rich individual prediction sport. Unlike athlete tokens, horse racing markets focus on individual horse and jockey combinations — the two are inseparable. The UK has the most sophisticated horse racing betting suite in the world; Cheltenham Festival and Royal Ascot are cultural events that generate enormous market liquidity. Key variables include going (ground conditions), trainer form, jockey booking, and draw bias — none of which have equivalents in other sports.
 
 ---
 

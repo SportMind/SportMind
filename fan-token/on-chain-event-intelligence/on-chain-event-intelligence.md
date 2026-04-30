@@ -437,7 +437,7 @@ CATEGORY 7 — FAN TOKEN PLAY EVENTS (Path 2, April 2026+)
       Treasury mint ~0.25% post-match: FAN_TOKEN_PLAY_LOSS_CONFIRMED
   
   CHZ ECHO SIGNAL:
-    Fan Token Play WIN burns also contribute to CHZ buyback via the 10% ecosystem rule.
+    Fan Token Play WIN burns also contribute to CHZ buyback via the 10% suite rule.
     A confirmed Fan Token Play WIN generates TWO deflationary signals:
       1. Fan token supply burn (this category)
       2. CHZ supply burn (see macro/macro-crypto-market-cycles.md — virtuous cycle)

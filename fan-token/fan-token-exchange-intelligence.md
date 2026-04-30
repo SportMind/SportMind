@@ -744,7 +744,7 @@ fans. A confirmed neobank listing is a Phase 2→3 lifecycle acceleration signal
 - Neobank volumes are typically not reflected in CoinGecko or CMC rankings —
   distribution value is fan acquisition, not trading depth.
 
-**Agent instruction:** Neobank listing is a positive IPS factor (ecosystem
+**Agent instruction:** Neobank listing is a positive IPS factor (suite
 expanding) and a negative EDLI factor (reduced concentration risk). Advance
 lifecycle phase signal toward Phase 3 confirmation on neobank listing.
 
@@ -803,7 +803,7 @@ exchange serves the token's actual fanbase geography.
 An aligned listing expands the Loyalist and Governance Participant archetypes —
 fans who hold for utility, not speculation. CDI durability increases. CHI is
 likely to improve over the 60-day post-listing window as new utility holders
-enter the ecosystem.
+enter the suite.
 
 **Misaligned listing (low commercial signal):**
 A listing on an exchange with no overlap with the token's actual fanbase

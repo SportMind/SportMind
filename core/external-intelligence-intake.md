@@ -72,14 +72,14 @@ TIER 2 — QUEUE FOR TREND REVIEW (inform next version, not urgent update)
     → Regulatory developments that are confirmed but whose impact is still evolving
     → New data or research that suggests a modifier value needs recalibration
     → Documented market behaviour patterns across multiple events
-    → Ecosystem development updates (Chiliz roadmap updates, new platform features)
+    → Suite development updates (Chiliz roadmap updates, new platform features)
     → World Cup 2026 intelligence (token launches, Chiliz programme updates)
 
   Library files updated (at next version release):
     Trend confirmation    → core/sports-trend-intelligence.md (new trend entry)
     Macro evolution       → macro/macro-overview.md + relevant specific macro file
     Modifier recalibration→ core/modifier-recalibration-vN.md (new recalibration record)
-    Ecosystem update      → fan-token/fan-token-lifecycle/ + gamified-tokenomics
+    Suite update      → fan-token/fan-token-lifecycle/ + gamified-tokenomics
 
   Verification required:
     Multiple independent sources (minimum 2 Tier 1/2 sources)
@@ -281,7 +281,7 @@ All output is advisory — no automatic file writes.
 These sources should be checked regularly regardless of incoming articles:
 
 WEEKLY CHECK:
-  Blog.chiliz.com — ecosystem announcements, new token launches
+  Blog.chiliz.com — suite announcements, new token launches
   KAYEN.finance — token registry updates, new listings
   Socios.com newsroom — official partner announcements
   Macro crypto: BTC 200-day MA status (macro modifier trigger)

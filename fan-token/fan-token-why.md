@@ -308,7 +308,7 @@ The media rights token creates revenue participation. The RWA layer connects it 
 to the global financial system.
 
 This is not speculative fiction. It is the documented roadmap of what is being
-built right now. Chiliz, Socios, and the broader ecosystem are explicitly moving
+built right now. Chiliz, Socios, and the broader suite are explicitly moving
 toward Phases 2 and 3. The infrastructure is being built.
 
 ---

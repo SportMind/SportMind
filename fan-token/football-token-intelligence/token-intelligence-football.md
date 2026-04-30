@@ -45,7 +45,7 @@ FTIS = (
   competition_weight     * 0.35 +   # what competition is this?
   fixture_stakes         * 0.25 +   # what are the consequences?
   athlete_multiplier     * 0.25 +   # are high-ATM players involved?
-  token_ecosystem_health * 0.15     # is the club's token active right now?
+  token_suite_health * 0.15     # is the club's token active right now?
 ) * 100
 ```
 
@@ -91,7 +91,7 @@ Key signal windows:
 - Knockout rounds: exponential uplift as nations advance — see NCSI multipliers
 - Winner token: +30–60% for national token; +5–15% spillover to key club tokens
 
-**Agent rule:** World Cup 2026 is the highest-FTIS national team event in this ecosystem's
+**Agent rule:** World Cup 2026 is the highest-FTIS national team event in this suite's
 history. Eight national tokens are live for the first time. The US, Canada, and Mexico
 host nations add a new geographic dimension to holder demographics.
 
@@ -226,14 +226,14 @@ Always check injury news on the day national duty fixtures complete.
 
 ### World Cup 2026 — special considerations
 
-The 2026 World Cup (USA / Canada / Mexico) is uniquely significant for this ecosystem:
+The 2026 World Cup (USA / Canada / Mexico) is uniquely significant for this suite:
 
 **Eight live national tokens:** ARG, BRA, FFF, POR, ENG, GER, ESP, USMNT — the first
 World Cup where multiple national tokens exist simultaneously.
 
 **North American host premium:** The US, Canada, and Mexico as hosts create an
 amplified USMNT and new geographic holder demographic (North American holders entering
-the ecosystem for the first time).
+the suite for the first time).
 
 **Dual-signal trading windows:** For a player like a top Brazilian forward at PSG —
 his BRA national token AND the PSG club token both move on the same performance.
@@ -243,7 +243,7 @@ concentration.
 **Summer window collision:** The period between the Champions League Final and
 World Cup group stage (approximately May to June 2026) will see elevated token
 activity across club and national tokens simultaneously — the highest-density fan
-token signal period in the ecosystem's history.
+token signal period in the suite's history.
 
 **Agent rule for World Cup 2026 double exposure:**
 ```
@@ -407,7 +407,7 @@ dramatically on an upset than the favourite's token moves on an expected win.
 ### Key recurring multi-token fixtures
 
 **El Clásico** (Barcelona BAR vs Real Madrid)
-The single most token-significant regular fixture in the ecosystem. Both clubs have
+The single most token-significant regular fixture in the suite. Both clubs have
 large, globally distributed token holder bases with significant overlap in Latin American
 markets. El Clásico is the only domestic fixture that reliably generates UCL-level
 token movements. Treat as FTIS ≥ 88 regardless of league position context.

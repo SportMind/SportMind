@@ -7,7 +7,7 @@ description: >
   engagement triggers. Covers four holder archetypes (Loyalist, Speculator,
   Governor, Amplifier) with detection signals, churn risk scoring, and
   what each archetype responds to commercially. Community Health Index
-  (CHI: 0–100) measures collective holder ecosystem quality beyond volume
+  (CHI: 0–100) measures collective holder suite quality beyond volume
   metrics. Directly relevant to the Ante et al. (2025) finding that fans
   are not homogeneous and token programmes that treat them as one group
   will underperform on both engagement and governance dimensions.
@@ -128,7 +128,7 @@ MIXED ARCHETYPE:
 
 ```
 PURPOSE:
-  A single composite score measuring the quality of a token's holder ecosystem —
+  A single composite score measuring the quality of a token's holder suite —
   not just volume but the distribution and stability of holder types.
 
 CHI = (loyalist_share × 0.35)

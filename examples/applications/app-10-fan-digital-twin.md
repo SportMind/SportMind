@@ -6,7 +6,7 @@ SportMind intelligence signals.**
 
 This is the tenth SportMind application blueprint. It represents the
 intersection of fan identity, AI intelligence, and on-chain dynamic NFTs —
-the "Agentic Fan Identity" model first outlined in the SportFi ecosystem.
+the "Agentic Fan Identity" model first outlined in the SportFi suite.
 
 ---
 

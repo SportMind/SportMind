@@ -4,7 +4,7 @@
 **Tier 1 — Active Token Ecosystem.** Esports has active fan tokens across multiple
 organisations on Chiliz, with the sport's structurally young, digital-native, globally
 distributed fanbase making it the highest social sentiment weight sport alongside MMA.
-The ecosystem is uniquely multi-game — CS2, League of Legends, Valorant, and Dota2
+The suite is uniquely multi-game — CS2, League of Legends, Valorant, and Dota2
 organisations each carry different commercial profiles — and token intelligence must
 account for game-specific dynamics that don't exist in any other sport.
 
@@ -61,7 +61,7 @@ traditional brands (Mercedes-Benz, Louis Vuitton for LoL Worlds skin) dominate.
 **Global esports audience (2024):** ~540M (occasional viewers); ~230M (enthusiast/regular)
 
 **Top 5 markets by esports revenue:**
-1. **China** — ~$500M market; dominant in mobile esports and LoL; Tencent controls much of the ecosystem
+1. **China** — ~$500M market; dominant in mobile esports and LoL; Tencent controls much of the suite
 2. **United States** — ~$250M market; CS2, Valorant, and North American LoL dominant
 3. **South Korea** — ~$150M market; LoL heartland; highest per-capita esports engagement globally
 4. **Germany** — ~$120M market; CS2 historically strong; ESL (now ESL FACEIT Group) is headquartered here

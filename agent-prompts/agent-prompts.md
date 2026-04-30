@@ -986,7 +986,7 @@ CRITICAL CLASSIFICATION RULES (read before every match cycle):
 
   3. PATH_2 WIN = permanent supply reduction
      → Apply gamified_path2_win_modifier ≈ 1.006 per match
-     → Note CHZ echo: WIN also contributes to CHZ ecosystem burn (virtuous cycle)
+     → Note CHZ echo: WIN also contributes to CHZ suite burn (virtuous cycle)
      → Update season_net_burned_pct in Memory MCP
 
 FOUR-PHASE MATCH CYCLE:
@@ -1021,9 +1021,9 @@ PHASE 4 — Season supply update
 
 MACRO CONTEXT:
   Always run sportmind_macro first.
-  PATH_2 WIN also contributes to CHZ ecosystem burn:
+  PATH_2 WIN also contributes to CHZ suite burn:
   → Fan token supply burn (direct: this match)
-  → CHZ ecosystem burn (indirect: via 10% marketplace proceeds rule)
+  → CHZ suite burn (indirect: via 10% marketplace proceeds rule)
   → See: macro/macro-crypto-market-cycles.md — virtuous cycle section
 
 OUTPUT FORMAT (Fan Token Play extension):
@@ -1036,7 +1036,7 @@ OUTPUT FORMAT (Fan Token Play extension):
     "final_adjusted_score":  ...,
     "season_supply_signal":  "MILD_SCARCITY | MODERATE_SCARCITY | NEUTRAL",
     "settlement_status":     "WIN_CONFIRMED | LOSS_CONFIRMED | PENDING",
-    "chz_echo_note":         "WIN contributes to CHZ ecosystem burn.",
+    "chz_echo_note":         "WIN contributes to CHZ suite burn.",
     "recommendation":        "ENTER | WAIT | ABSTAIN"
   }
 
