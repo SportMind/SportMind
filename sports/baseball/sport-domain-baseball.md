@@ -15,7 +15,7 @@ Baseball currently has no active fan token on Chiliz. It is included in SportMin
 2. **North American host market** — the 2026 FIFA World Cup hosts (USA, Canada, Mexico) are
    all major baseball markets; any expansion of fan token infrastructure in North America
    will likely include MLB teams
-3. **The richest data ecosystem in sport** — Statcast provides pitch-by-pitch tracking data
+3. **The richest data suite in sport** — Statcast provides pitch-by-pitch tracking data
    for every MLB game; no sport has deeper publicly accessible performance data
 4. **Token readiness** — MLB franchises have some of the most valuable sports brands globally
    (Yankees, Dodgers, Red Sox, Cubs); if MLB tokens launch, this skill is ready

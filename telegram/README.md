@@ -13,7 +13,7 @@ to **deliver** that reasoning inside Telegram — the platform where most sports
 fan token communities actually live.
 
 The four skills in this layer map to the four most common Telegram bot use cases
-in the SportMind ecosystem:
+in the SportMind suite:
 
 | Skill | What it does | Primary audience |
 |---|---|---|

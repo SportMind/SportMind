@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.96.4] — 2026-04-28
+
+### Fixed — ecosystem scan, website audit, visual improvements
+
+Note: release requested as v3.68.0 — corrected to v3.96.4 (sequential
+from v3.96.3; v3.68.0 predates the current library by ~28 versions).
+
+ECOSYSTEM → SUITE SCAN (second pass — preceding v3.96.4):
+  5 instances replaced across 5 files:
+    fan-token/baseball-token-intelligence/baseball-token-intelligence.md (1)
+      "most data-rich sport ecosystem" → "most data-rich sport suite"
+    sports/baseball/sport-domain-baseball.md (1)
+      "The richest data ecosystem in sport" → "The richest data suite"
+    market/market-baseball.md (2)
+      "data-rich sport ecosystem in the world" → "data-rich sport suite"
+      "Active Fan Token Ecosystem" section header → "Active Fan Token Suite"
+    telegram/README.md (1)
+      "Telegram bot use cases in the SportMind ecosystem" → "...suite"
+  
+  Confirmed KEPT (third-party — do not change):
+    CHANGELOG.md "OpenClaw managed bot ecosystem" (OpenClaw is third-party)
+    CHANGELOG.md "ECOSYSTEM → SUITE SCAN" (historical record — must not alter)
+    CHANGELOG.md "Socios.com ecosystem" (Socios.com is third-party)
+    telegram/README.md "OpenClaw managed bot ecosystem" (third-party)
+    platform/integration-partners.md "Socios.com ecosystem" (third-party)
+    market/market-kabaddi.md "Jio digital ecosystem strategy" (Jio is third-party)
+    market/market-key-findings.md "sponsor ecosystem" (industry term, not SportMind)
+
+WEBSITE AUDIT — improvements applied:
+  index.html:
+    Hero badge restored (was absent from current HTML):
+      "Open source · MIT License · v3.96.4"
+    Load order text updated with Layer 6:
+      "macro → market → sport domain → athlete → fan token → telegram delivery"
+  
+  docs.html:
+    Meta descriptions: "Five-layer" → "Six-layer" (4 instances)
+    "Five-layer intelligence architecture" → "Six-layer intelligence architecture"
+
+AUDIT RESULTS (v3.96.4):
+  21/21 content checks clean
+  7/7 file count checks clean
+  Skill validator: 0 errors
+  Security check: 0 critical/high
+
 ## [3.96.3] — 2026-04-28
 
 ### Fixed — Intelligence Agent card: View site URL corrected

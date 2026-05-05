@@ -1,7 +1,7 @@
 # Baseball (MLB) — Token Intelligence
 
 Bridge skill connecting MLB events to fan token and prediction market signals.
-Baseball is the most data-rich sport ecosystem on the planet — Statcast generates
+Baseball is the most data-rich sport suite on the planet — Statcast generates
 over 30 million data points per season. The signal model is built on this richness:
 pitcher-first analysis, Ohtani-effect franchise catalysts, and Japan-US market bridges.
 

@@ -3,7 +3,7 @@
 ## At a Glance
 **Tier 2 — High Credibility, Near-Term.** MLB is one of the four major North American
 sports leagues with ~$11B in annual revenue. No active fan tokens exist. Baseball
-has the most data-rich sport ecosystem in the world (Statcast), a globally distributed
+has the most data-rich sport suite in the world (Statcast), a globally distributed
 fanbase with strong Latin American and Asian components, and franchise values among the
 highest in sport. The barrier to tokens is the same as NFL: US regulatory environment
 and league-level institutional caution.
@@ -99,7 +99,7 @@ likely entry point for baseball tokens given Japanese market sophistication
 
 ---
 
-## 5. Active Fan Token Ecosystem
+## 5. Active Fan Token Suite
 
 **Current status:** No active MLB team tokens on Chiliz
 

@@ -41,7 +41,7 @@ ROOT        = Path(__file__).parent.parent
 HASHES_FILE = ROOT / "platform" / "skill-hashes.json"
 MACRO_STATE = ROOT / "platform" / "macro-state.json"
 
-VERSION = "3.96.3"
+VERSION = "3.96.4"
 
 SUPPORTED_SPORTS = [
     "football", "basketball", "cricket", "mma", "formula1", "tennis",
