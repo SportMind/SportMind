@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.96.3] — 2026-04-28
+
+### Fixed — Intelligence Agent card: View site URL corrected
+
+Note: release requested as v3.68.0 — corrected to v3.96.3 (sequential
+from v3.96.2).
+
+index.html — Intelligence Agent suite card:
+  View site URL corrected:
+    Was: https://sportmind.github.io/sportmind-intelligence-agent/
+    Now: https://sportmind.github.io/intelligence-agent/
+  View site → button confirmed present (kit-btn-primary, green).
+  All three suite cards now have identical button structure:
+    View site → (kit-btn-primary) + GitHub → (kit-btn-ghost).
+
 ## [3.96.2] — 2026-04-28
 
 ### Fixed — Intelligence Agent card: View site link added
