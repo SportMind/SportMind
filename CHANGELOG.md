@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.96.1] — 2026-04-28
+
+### Changed — Suite section: three cards, correct kit versions, Intelligence Agent
+
+Note: release requested as v3.66.0 — corrected to v3.96.1 (sequential
+from v3.96.0; v3.66.0 predates the current library by ~30 versions).
+
+index.html — Suite section rebuilt with three cards:
+
+  Layout: suite-grid updated to 1fr 1fr 1fr (three columns).
+  Responsive: 900px breakpoint collapses to 1fr 1fr (two columns).
+              640px breakpoint collapses to 1fr (single column).
+
+  Version badges corrected to kit-specific versions (not library version):
+    Fan Token Wallet Kit:  v1.0.0
+    Telegram Bot Kit:      v1.2.0
+    Intelligence Agent:    v1.0.0
+
+  Card 1 — Fan Token Wallet Kit (unchanged except version):
+    Version: v3.96.0 → v1.0.0
+    View site + GitHub buttons: unchanged
+
+  Card 2 — Telegram Bot Kit (unchanged except version):
+    Version: v3.96.0 → v1.2.0
+    View site + GitHub buttons: unchanged
+
+  Card 3 — Intelligence Agent (new):
+    Title:       Intelligence Agent
+    Subtitle:    sportmind-intelligence-agent
+    Description: "Monitors public sources on a schedule, classifies signals
+                  against the SportMind intake framework, and delivers a
+                  structured briefing with reasoning. You decide what gets
+                  added to the library."
+    Tags:        Scheduled · RSS · GitHub Issues · v1.0.0
+    Buttons:     GitHub → only (no View site — repository only, no Pages site)
+    GitHub:      https://github.com/SportMind/sportmind-intelligence-agent
+
+  Visual consistency: all three cards use identical structure
+  (.kit-card > kit-title > kit-subtitle > kit-desc > kit-tags > kit-actions).
+  Cards with site links: two kit-actions buttons (primary View site +
+  ghost GitHub). Cards without site link: one kit-actions button (ghost GitHub).
+
 ## [3.96.0] — 2026-04-28
 
 ### Added — Layer 6: Telegram Deployment Intelligence
