@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.96.6] — 2026-04-28
+
+### Fixed — full site audit: badge removed, copyright cleaned, responsive improvements
+
+Note: release requested as v3.69.0 — corrected to v3.96.6 (sequential
+from v3.96.5; v3.69.0 predates the current library by ~27 versions).
+
+HERO BADGE:
+  index.html: "Open source · MIT License · v3.96.5" badge removed entirely
+  from hero section. Version references belong in footer/changelog only.
+
+FOOTER COPYRIGHT (all 5 pages):
+  "© 2026 SportMind — Pele Roberts" → "© 2026 SportMind"
+  Name removed per site policy — attribution via GitHub only.
+
+RESPONSIVE / VIEWPORT IMPROVEMENTS (index.html):
+  Added 768px tablet breakpoint:
+    .cal-g single column, .suite-grid 2 columns, .stats-g 2×2 grid
+  Unified 720px mobile block now includes:
+    Touch targets: .btn-p, .btn-s, .nav-a, .nav-gh, .kit-btn-primary,
+    .kit-btn-ghost all have min-height: 44px (WCAG minimum tap target)
+    Suite cards: .suite-grid collapses to 1fr on mobile
+    Overflow guard: .code-box overflow-x hidden, pre scrollable within box
+  Removed redundant standalone 900px and 640px suite-grid blocks
+  (now handled by unified 768px and 720px blocks)
+  overflow-x: hidden added to body and html elements to prevent
+  horizontal scrolling at any viewport width.
+
+AUDIT RESULTS (v3.96.6):
+  7/7 file count checks clean
+  13/13 content checks clean
+  Skill validator: 0 errors
+  Security check: 0 critical/high
+
+PREVIOUSLY CONFIRMED CORRECT (from v3.96.5 audit):
+  Nav logo links to / on all pages ✓
+  Theme toggle present and functional ✓
+  All nav hrefs correct ✓
+  All footer GitHub links correct ✓
+  3 suite cards with correct URLs and versions ✓
+  View site buttons inside card boundaries ✓
+  No ecosystem refs in SportMind contexts ✓
+  All stats bar values accurate ✓
+  All 6 layer descriptions correct ✓
+
 ## [3.96.5] — 2026-04-28
 
 ### Fixed — full site audit: nav consistency, footer copyright, GitHub link classes
