@@ -1,5 +1,39 @@
 # Changelog
 
+## [3.96.5] — 2026-04-28
+
+### Fixed — full site audit: nav consistency, footer copyright, GitHub link classes
+
+Note: release requested as v3.69.0 — corrected to v3.96.5 (sequential
+from v3.96.4; v3.69.0 predates the current library by ~27 versions).
+
+NAVIGATION:
+  All 5 pages:
+    "Autonomous ✦" → "Autonomous" (decorative ✦ removed from nav links)
+    "Agent ✦" → "Agent" (decorative ✦ removed from nav links)
+    Note: ✦ in autonomous.html reasoning chain UI is intentional — kept.
+  agent.html:
+    GitHub nav link: class="nav-a" → class="nav-gh" (correct styling)
+  autonomous.html:
+    GitHub nav link: class="nav-a" → class="nav-gh" (correct styling)
+
+FOOTER:
+  All 5 pages:
+    "© 2026 SportMind" → "© 2026 SportMind — Pele Roberts"
+
+AUDIT RESULTS (v3.96.5):
+  7/7 file count checks clean
+  12/12 content checks clean (✦ check scoped to nav sections only)
+  Skill validator: 0 errors
+  Security check: 0 critical/high
+
+ISSUES CONFIRMED CORRECT (not changed):
+  index.html nav: Library/Calibration/Contribute anchors — correct for homepage
+  index.html: no "Home" in desktop nav — correct (it IS the home page)
+  agent.html: no "Agent" in desktop nav — correct (it IS the agent page)
+  autonomous.html: no "Autonomous" in desktop nav — correct (it IS autonomous page)
+  autonomous.html ✦ at lines 816, 840 — UI phase icon, not a nav decorator
+
 ## [3.96.4] — 2026-04-28
 
 ### Fixed — ecosystem scan, website audit, visual improvements
