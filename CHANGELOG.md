@@ -1,5 +1,49 @@
 # Changelog
 
+## [3.97.1] — 2026-05-07
+
+### Added — $PSG and $AFC UCL 2025-26 Finalist status; demand signal updates
+
+Source: Al Jazeera, CNN, PSG.fr official, TNT Sports, UEFA — VERIFIED
+Action: IMMEDIATE (Tier 1 — confirmed match result from multiple sources)
+
+fan-token/league-football-token-intelligence.md:
+
+  $PSG UCL STATUS (confirmed 6 May 2026):
+    ucl_standing:          FINALIST (2025–26 UCL)
+    ucl_final_opponent:    Arsenal ($AFC)
+    ucl_final_date:        30 May 2026, Puskás Aréna, Budapest
+    ucl_final_context:     Second consecutive UCL Final (defending champions)
+    demand_pressure_index: +0.25 applied (maximum catalyst tier)
+    Semi-final result:     Bayern Munich 1–1 PSG (PSG win 6–5 on aggregate)
+    
+    CDI projection: +12–22% from pre-semi baseline into final.
+    Post-final WIN: +15–30% sustained; LOSS: −10–20% decay over 48–72h.
+
+    SUPPLY MECHANIC NOTE: fan_token_play_minting NOT applied for $PSG.
+    $PSG has no confirmed PATH_2 or supply-change mechanic. The briefing
+    recommended enabling this logic — not applied as it is unverified.
+    Only $AFC has confirmed PATH_2 mechanics as of v3.97.1.
+
+  $AFC UCL STATUS (confirmed 5 May 2026):
+    ucl_standing:          FINALIST (2025–26 UCL — first final since 2006)
+    ucl_final_opponent:    PSG ($PSG)
+    ucl_final_date:        30 May 2026, Puskás Aréna, Budapest
+    Semi-final result:     Arsenal 1–0 Atlético Madrid (2–1 on aggregate)
+    Saka confirmed fit per match reports — ATM modifier applies.
+
+    PATH_2 + UCL FINAL COMBINED:
+    A UCL Final WIN would be the largest single PATH_2 supply reduction in
+    $AFC history. Agent rule: load gamified-tokenomics-intelligence/ alongside
+    any $AFC analysis. UCL Final tier modifier applied to all CDI calculations.
+    CDI projection: +15–30% into final; WIN = PATH_2 burn + trophy +20–40%;
+    LOSS = −10–20% decay.
+
+  NOTE ON BRIEFING vs LIBRARY:
+    The briefing referenced fan-token/psg.md and fan-token/arsenal.md —
+    these are not standalone files. The intelligence lives in
+    league-football-token-intelligence.md. Applied to correct file.
+
 ## [3.97.0] — 2026-04-28
 
 ### Changed — Layer 1 description, Tier A chip highlighting, CONTRIBUTING calibration priority

@@ -148,6 +148,37 @@ $AFC SIGNAL — PATH_2 PRIORITY:
   PL performance drives both sporting signal AND supply mechanics simultaneously.
   UCL participation amplifies $AFC signal beyond standard PL tier weight.
 
+$AFC UCL STATUS UPDATE — CONFIRMED 5–7 MAY 2026:
+  ucl_standing:             FINALIST (2025–26 UEFA Champions League)
+  ucl_final_opponent:       PSG ($PSG)
+  ucl_final_date:           30 May 2026
+  ucl_final_venue:          Puskás Aréna, Budapest
+  ucl_final_context:        Arsenal's first UCL Final since 2006 (19-year wait)
+
+  SEMI-FINAL RESULT (verified — multiple Tier 1 sources):
+    Arsenal 1–0 Atlético Madrid (Arsenal win 2–1 on aggregate)
+    Venue: Emirates Stadium | Date: 5 May 2026
+    Scorer: Saka for Arsenal (aggregate)
+    Source: UEFA official, Al Jazeera, PSG.fr confirmed opponent — all verified
+
+  PATH_2 + UCL FINAL COMBINED SIGNAL:
+    The UCL Final is the highest-tier event for $AFC supply mechanics.
+    WIN in the UCL Final = PATH_2 burn at maximum competitive magnitude.
+    A UCL Final WIN would be the largest single PATH_2 supply reduction in
+    $AFC history — significantly above a standard PL match burn.
+    
+    AGENT RULE FOR UCL FINAL:
+      Load: fan-token/gamified-tokenomics-intelligence/ (PATH_2 mechanics)
+      Load: fan-token/world-cup-2026-intelligence/ (NCSI context if applicable)
+      Apply: UCL Final tier modifier to all $AFC CDI calculations
+      Note: Saka return confirmed per match reports — ATM modifier applies
+
+  CDI IMPLICATION:
+    UCL Final = highest competitive window in club football.
+    Expected $AFC signal range into final: +15–30% from pre-semi baseline.
+    WIN: PATH_2 burn + UCL trophy = sustained +20–40% over 72–96h.
+    LOSS: −10–20% decay, but PATH_2 mechanics remain for future matches.
+
 $CITY SIGNAL ARCHITECTURE:
   Manchester City: diversified NCSI exposure (England, Norway, Spain, Belgium,
   Portugal players). Almost guaranteed WC2026 NCSI uplift from 2–3 nations.
@@ -409,6 +440,37 @@ $PSG SIGNAL ARCHITECTURE — THE MOST UCL-DEPENDENT TOKEN:
     French national team performance (Mbappé → NCSI linkage)
   Ligue 1 title: +2–5% only (already priced in for most seasons).
   Ligue 1 title loss: RARE — would be −10–18% (signal shock).
+
+$PSG UCL STATUS UPDATE — CONFIRMED 7 MAY 2026:
+  ucl_standing:             FINALIST (2025–26 UEFA Champions League)
+  ucl_final_opponent:       Arsenal ($AFC)
+  ucl_final_date:           30 May 2026
+  ucl_final_venue:          Puskás Aréna, Budapest
+  ucl_final_context:        Second consecutive UCL Final (defending champions)
+  demand_pressure_index:    +0.25 (applied immediately — maximum catalyst tier)
+  
+  SIGNAL REASONING:
+    Reaching a second consecutive UCL final is the highest-tier competitive
+    catalyst for $PSG. Demand pressure is elevated at maximum competitive urgency.
+    PSG are defending champions — repeat would be historic (first since Real Madrid
+    2016–2018). This amplifies speculator entry and identity holder engagement.
+
+  SUPPLY MECHANICS NOTE:
+    $PSG has no confirmed PATH_2 or supply-change mechanic tied to results.
+    Do NOT apply fan_token_play_minting logic — this is unconfirmed for $PSG.
+    The demand signal is real and applied; the supply mechanic is NOT confirmed.
+    Only $AFC has confirmed PATH_2 supply mechanics as of v3.97.0.
+
+  SEMI-FINAL RESULT (verified — multiple Tier 1 sources):
+    Bayern Munich 1–1 PSG (PSG win 6–5 on aggregate)
+    Venue: Allianz Arena, Munich | Date: 6 May 2026
+    Scorer: Dembélé (3') for PSG; Kane (90') for Bayern
+    Source: Al Jazeera, CNN, PSG.fr official, UEFA — all verified
+
+  CDI IMPLICATION:
+    UCL Final = maximum competitive window. Apply UCL Final tier modifier.
+    Expected $PSG signal range into final: +12–22% from pre-semi baseline.
+    Post-final: win → sustained +15–30%; loss → −10–20% decay over 48–72h.
 
 $ASM (AS MONACO) SIGNAL:
   Monaco's unique financial structure (tax advantage) allows sustained spending.
