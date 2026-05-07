@@ -1,5 +1,62 @@
 # Changelog
 
+## [3.97.2] — 2026-05-07
+
+### Added — fan-token/ftp-path2.md + 3 calibration records; calibration 126→129
+
+Source: fantokens.com/fan-token-play — VERIFIED
+Action: IMMEDIATE (Tier 1 — official FTP model documentation)
+
+fan-token/ftp-path2.md (270L) — NEW FILE:
+  Dedicated FTP model documentation file. Complements gamified-tokenomics-
+  intelligence/ with explicit model-level disambiguation for agents.
+
+  MODEL 1 — TREASURY/SMART CONTRACT:
+    Smart contract reads verified match result via on-chain oracle (post-match).
+    WIN: permanent burn | LOSS: treasury mint | DRAW: no change.
+    Pre-match: NO on-chain signal. Model 1 is post-match only.
+    Agent rule: do not look for pre-match on-chain signal with Model 1 tokens.
+
+  MODEL 2 — PREDICTION MARKET SETTLEMENT (active trial — $AFC confirmed):
+    Four-phase sequence: pre-match liquidation → match → settlement → burn/mint.
+    WIN: buyback from market then burn (permanent supply reduction).
+    LOSS: new tokens minted to treasury (supply INCREASE — negative signal).
+    DRAW: no supply change (confirm absence of on-chain transaction).
+
+  PRE-MATCH LIQUIDATION SIGNAL (Model 2 ONLY):
+    T-12h to T-2h: losing-side positions liquidated pre-match.
+    This is a DETECTABLE ON-CHAIN SIGNAL that Model 1 does not produce.
+    Elevated liquidation = larger potential burn IF WIN occurs.
+    Agent rule: treat as WIN scenario magnitude indicator only.
+    Never treat pre-match liquidation as a confirmed burn signal.
+
+  SIGNAL TIMING COMPARISON TABLE: Model 1 vs Model 2 across all event types.
+  MODEL IDENTIFICATION: how to confirm which model is active for a token.
+  $AFC confirmed Model 2. All other FTP tokens default to Model 1.
+
+community/calibration-data/football/2026/04/ — THREE NEW RECORDS:
+  All verified: fantokens.com/fan-token-play — VERIFIED on-chain.
+  All Model 2 — prediction/mint/burn.
+
+  RECORD 1: UCL 07/04/2026 — Sporting CP vs Arsenal — Arsenal WIN (0-1)
+    FTP: 159,025 $AFC BURNED (permanent supply reduction)
+    direction_correct: true
+
+  RECORD 2: PL 11/04/2026 — Arsenal vs Bournemouth — Arsenal LOSS (1-2)
+    FTP: 100,000 $AFC MINTED (supply INCREASE — negative signal)
+    direction_correct: false
+    NOTE: PATH_2 LOSS = minting. Each LOSS mints tokens future WINs must re-burn.
+
+  RECORD 3: UCL 15/04/2026 — Arsenal vs Sporting CP — DRAW (0-0)
+    FTP: 0 burned, 0 minted (confirmed no on-chain transaction)
+    direction_correct: false
+
+  CUMULATIVE April 2026 $AFC FTP:
+    Burned: 159,025 | Minted: 100,000 | Net reduction: 59,025 $AFC
+
+Website: calibration count 126 → 129. Files 601 → 605. md 385 → 386.
+OG image regenerated.
+
 ## [3.97.1] — 2026-05-07
 
 ### Added — $PSG and $AFC UCL 2025-26 Finalist status; demand signal updates

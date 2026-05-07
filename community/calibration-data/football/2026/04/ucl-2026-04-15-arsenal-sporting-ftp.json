@@ -1,0 +1,56 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-2026-04-15-arsenal-sporting-ftp-001",
+    "sport": "football",
+    "event_id": "ucl-2025-26-qf-leg1-arsenal-sporting-2026-04-15",
+    "event_name": "UEFA Champions League 2025-26 \u2014 Arsenal vs Sporting CP",
+    "kickoff_utc": "2026-04-15T19:00:00Z",
+    "recorded_at": "2026-04-15T17:00:00Z",
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-05-07T12:00:00Z",
+    "source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain",
+    "prediction": {
+      "direction": "HOME",
+      "confidence_tier": "MEDIUM",
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ftp_model": "Model 2 \u2014 prediction/mint/burn",
+      "pre_match_note": "Arsenal vs Sporting CP, UCL. $AFC PATH_2 Model 2 active. Draw outcome = no supply change per FTP model."
+    },
+    "outcome": {
+      "result": "DRAW",
+      "score": "0-0",
+      "direction_correct": false,
+      "result_source_url": "https://www.fantokens.com/fan-token-play",
+      "token_symbol": "AFC",
+      "ftp_event": {
+        "model": "Model 2",
+        "result": "DRAW",
+        "supply_action": "NONE",
+        "amount": 0,
+        "unit": "AFC",
+        "supply_change_direction": "NEUTRAL",
+        "on_chain_verified": true,
+        "verification_source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain",
+        "signal_note": "DRAW = no supply change. Zero burned, zero minted. Confirmed absence of on-chain transaction on chiliscan.com."
+      }
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ftp_path2_draw_neutral",
+      "modifier_direction_correct": false,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION. 0-0 draw. No FTP supply change \u2014 DRAW = neutral per Model 2 mechanics. Zero burned, zero minted. Confirmed no on-chain transaction. Direction prediction was HOME WIN \u2014 incorrect. UCL draw is a meaningful calibration point for DRAW probability in European matches."
+    },
+    "data_quality": {
+      "source_tier": "tier1",
+      "manually_verified": true,
+      "official_result_confirmed": true,
+      "ftp_on_chain_verified": true
+    }
+  }
+}

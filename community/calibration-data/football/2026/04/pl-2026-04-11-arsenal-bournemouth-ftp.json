@@ -1,0 +1,56 @@
+{
+  "outcome_record": {
+    "record_id": "football-pl-2026-04-11-arsenal-bournemouth-ftp-001",
+    "sport": "football",
+    "event_id": "pl-2025-26-arsenal-bournemouth-2026-04-11",
+    "event_name": "Premier League 2025-26 \u2014 Arsenal vs Bournemouth",
+    "kickoff_utc": "2026-04-11T14:00:00Z",
+    "recorded_at": "2026-04-11T11:00:00Z",
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-05-07T12:00:00Z",
+    "source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain",
+    "prediction": {
+      "direction": "HOME",
+      "confidence_tier": "MEDIUM",
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ftp_model": "Model 2 \u2014 prediction/mint/burn",
+      "pre_match_note": "Arsenal home vs Bournemouth, PL. $AFC PATH_2 Model 2 active."
+    },
+    "outcome": {
+      "result": "HOME_LOSS",
+      "score": "1-2",
+      "direction_correct": false,
+      "result_source_url": "https://www.fantokens.com/fan-token-play",
+      "token_symbol": "AFC",
+      "ftp_event": {
+        "model": "Model 2",
+        "result": "LOSS",
+        "supply_action": "MINT",
+        "amount": 100000,
+        "unit": "AFC",
+        "supply_change_direction": "INCREASE",
+        "on_chain_verified": true,
+        "verification_source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain",
+        "signal_note": "LOSS = minting (supply INCREASE). Negative supply signal. Each LOSS mints tokens that future WINs must re-burn. PATH_2 LOSS is not neutral \u2014 it is a negative supply signal."
+      }
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ftp_path2_mint_on_loss",
+      "modifier_direction_correct": false,
+      "signal_was_actionable": true,
+      "notes": "WRONG DIRECTION. Arsenal lost 1-2 to Bournemouth. 100,000 $AFC minted to treasury per Model 2 LOSS mechanics. Important calibration: PATH_2 LOSS = supply increase (negative signal). Direction prediction was HOME WIN \u2014 incorrect. FTP LOSS minting confirmed on-chain."
+    },
+    "data_quality": {
+      "source_tier": "tier1",
+      "manually_verified": true,
+      "official_result_confirmed": true,
+      "ftp_on_chain_verified": true
+    }
+  }
+}

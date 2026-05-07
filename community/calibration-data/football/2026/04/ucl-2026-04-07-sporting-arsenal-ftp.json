@@ -1,0 +1,55 @@
+{
+  "outcome_record": {
+    "record_id": "football-ucl-2026-04-07-sporting-arsenal-ftp-001",
+    "sport": "football",
+    "event_id": "ucl-2025-26-qf-leg2-sporting-arsenal-2026-04-07",
+    "event_name": "UEFA Champions League 2025-26 QF Leg 2 \u2014 Sporting CP vs Arsenal",
+    "kickoff_utc": "2026-04-07T19:00:00Z",
+    "recorded_at": "2026-04-07T17:00:00Z",
+    "submitted_by": "sportmind-core",
+    "submission_timestamp": "2026-05-07T12:00:00Z",
+    "source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain",
+    "prediction": {
+      "direction": "AWAY",
+      "confidence_tier": "HIGH",
+      "layers_loaded": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ftp_model": "Model 2 \u2014 prediction/mint/burn",
+      "pre_match_note": "Arsenal away at Sporting CP, UCL QF Leg 2. $AFC PATH_2 Model 2 active. Pre-match liquidation window monitored per FTP protocol."
+    },
+    "outcome": {
+      "result": "AWAY_WIN",
+      "score": "0-1",
+      "direction_correct": true,
+      "result_source_url": "https://www.fantokens.com/fan-token-play",
+      "token_symbol": "AFC",
+      "ftp_event": {
+        "model": "Model 2",
+        "result": "WIN",
+        "supply_action": "BURN",
+        "amount": 159025,
+        "unit": "AFC",
+        "supply_change_direction": "DECREASE",
+        "on_chain_verified": true,
+        "verification_source": "fantokens.com/fan-token-play \u2014 VERIFIED on-chain"
+      }
+    },
+    "calibration_flags": {
+      "key_modifier_validated": "ftp_path2_burn",
+      "modifier_direction_correct": true,
+      "signal_was_actionable": true,
+      "notes": "Arsenal WIN confirmed. 159,025 $AFC burned via Model 2 prediction market settlement. Largest verified $AFC burn record. PATH_2 WIN = permanent supply reduction confirmed. Direction correct."
+    },
+    "data_quality": {
+      "source_tier": "tier1",
+      "manually_verified": true,
+      "official_result_confirmed": true,
+      "ftp_on_chain_verified": true
+    }
+  }
+}
