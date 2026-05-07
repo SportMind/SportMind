@@ -1,5 +1,59 @@
 # Changelog
 
+## [3.96.9] — 2026-04-28
+
+### Added — core/sport-tiers.md: fan token tier classification for all 42 sports
+
+Note: release requested as v3.70.0 — corrected to v3.96.9 (sequential
+from v3.96.8; v3.70.0 predates the current library by ~27 versions).
+
+core/sport-tiers.md (199L):
+  New classification framework for all 42 sports in the SportMind library.
+  Determines calibration priority, monitoring cadence, and agent signal
+  weighting by fan token relationship.
+
+  TIER A — FAN TOKEN ACTIVE (6 sports):
+    Condition: Live fan token on Chiliz Chain or FanToken.com
+    Intelligence: Full 5-layer stack. Active calibration. Priority SMI.
+    Sports: football, basketball, mma, formula1, motogp, cricket
+    Priority order: Football > MMA > Formula 1 > Cricket > Basketball > MotoGP
+
+  TIER B — FAN TOKEN ADJACENT (5 sports):
+    Condition: No current token, but credible near-term launch prospect
+    Intelligence: Layer 1 + 2 maintained. Token launch watch active.
+    Sports: rugby-union, tennis, athletics, esports, rugby-league
+    Promotion trigger: any confirmed launch → immediate Tier A reclassification
+
+  TIER C — STUB SPORTS (32 sports):
+    Condition: No token, low near-term prospect
+    Intelligence: BASIC stub maintained. Community contribution territory.
+    Monitoring: Monthly token launch scan only.
+    Sports: all remaining 32 sports in library not in Tier A or B
+
+  QUARTERLY REVIEW:
+    Schedule: January, April, July, October
+    Promotion criteria documented for C→B and B→A
+    Demotion criteria documented for A→B and B→C
+    All tier changes: human confirmation required, logged in CHANGELOG
+
+  INTELLIGENCE LISTENER ROUTING:
+    Tier A events: Tier 1 (act immediately)
+    Tier B new_fan_token: IMMEDIATE (triggers B→A reclassification)
+    Tier C events: Tier 3 (context only)
+
+  SMI MONITORING SCHEDULE:
+    Tier A: 1h breaking news, daily squad, 4h CDI, 1h WC2026 window
+    Tier B: daily token watch, monthly domain skill freshness
+    Tier C: quarterly stub review, monthly token scan
+
+  COMPATIBILITY:
+    Extends: core/external-intelligence-intake.md
+    Used by: scripts/sportmind_listener.py
+    Related: fan-token/fan-token-layer-overview.md
+
+Library: files 600→601, markdown 384→385, core 59→60.
+OG image regenerated.
+
 ## [3.96.8] — 2026-04-28
 
 ### Added — UK statutory crypto regime: SI 2026/102, STATUTORY_REGIME_ENACTED
