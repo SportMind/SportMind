@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.96.8] — 2026-04-28
+
+### Added — UK statutory crypto regime: SI 2026/102, STATUTORY_REGIME_ENACTED
+
+Source: legislation.gov.uk/uksi/2026/102/contents/made — VERIFIED
+Action: IMMEDIATE (Tier 1 — confirmed statutory legislation)
+
+macro/macro-regulatory-sportfi.md:
+  UK section rebuilt to reflect enacted statutory regime.
+  Previous status: ACTIVE (consultative FCA registration framework)
+  New status:      STATUTORY_REGIME_ENACTED
+
+  LEGISLATIVE REFERENCE ADDED:
+    SI_2026_102: Financial Services Markets Act 2000 (Cryptoassets) Regs 2026
+    Made: 4 February 2026 (HM Treasury)
+    legislative_references: ["FSMA_2000", "SI_2026_102", "FCA_Financial_Promotions_2023"]
+
+  DATES RECORDED:
+    fca_gateway_date: 2026-09-30 (FCA application period opens)
+    Application window: 30 September 2026 – 28 February 2027
+    Regime commencement: 25 October 2027 (full statutory regime live)
+
+  WHAT THE REGIME ESTABLISHES:
+    Nine new FCA-regulated cryptoasset activities (dealing, safeguarding,
+    staking, platform operation, stablecoin issuance, arranging, others).
+    Market abuse framework (inside information, insider dealing, manipulation).
+    Qualifying cryptoasset disclosure document (prospectus-equivalent).
+    Territorial: applies to UK-resident offerings regardless of issuer location.
+
+  AGENT IMPLICATIONS:
+    uk_regulatory_status: STATUTORY_REGIME_ENACTED
+    uk regulatory_clarity: MEDIUM → HIGH (statutory, not consultative)
+    PL fan token clubs ($AFC $CITY $SPURS $AVL $EFC $CPFC $LUFC):
+      All have UK retail exposure — FCA authorisation planning required
+      before September 2026 gateway opens.
+    First-mover signal: clubs engaging FCA pre-Sept 2026 = structural advantage.
+
+  PRECISION NOTE (from source verification):
+    The briefing cites fca_gateway_date: 2026-09-30 — confirmed as the
+    application period open date (30 Sept 2026), not the full commencement
+    date (25 Oct 2027). Both dates recorded accurately in the library.
+
 ## [3.96.7] — 2026-04-28
 
 ### Added — Chiliz Bridge live: MULTICHAIN_ACTIVE + BRIDGE_LIVE for 18 tokens

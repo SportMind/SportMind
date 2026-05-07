@@ -209,24 +209,72 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 ```
 
 
-### United Kingdom — FCA Framework
+### United Kingdom — FSMA 2000 (Cryptoassets) Regulations 2026
 
 ```
-STATUS: ACTIVE (Financial Promotions regime 2023+; crypto asset registration)
+STATUS: STATUTORY_REGIME_ENACTED
 
-CLASSIFICATION:
-  Utility tokens: regulated financial promotion but not securities
-  Exchange tokens (like CHZ): crypto asset category
+LEGISLATIVE REFERENCE:
+  SI_2026_102: Financial Services and Markets Act 2000 (Cryptoassets) Regulations 2026
+  Made:               4 February 2026 (HM Treasury)
+  Application period: fca_gateway_date = 2026-09-30 (opens 30 September 2026)
+  Application window: 30 September 2026 – 28 February 2027
+  Regime commencement: 25 October 2027 (full statutory regime live)
+  Source: https://www.legislation.gov.uk/uksi/2026/102/contents/made — VERIFIED
+
+  legislative_references: ["FSMA_2000", "SI_2026_102", "FCA_Financial_Promotions_2023"]
+
+WHAT SI 2026/102 ESTABLISHES:
+  Nine new regulated cryptoasset activities requiring FCA authorisation:
+    - Issuing qualifying stablecoin
+    - Safeguarding qualifying cryptoassets
+    - Operating a qualifying cryptoasset trading platform
+    - Dealing in qualifying cryptoassets (principal or agent)
+    - Arranging deals in qualifying cryptoassets
+    - Qualifying cryptoasset staking (and others)
+  Market abuse framework for qualifying cryptoassets (inside information,
+    insider dealing, market manipulation prohibitions)
+  Qualifying cryptoasset disclosure document (analogous to a prospectus)
+  Territorial scope: applies to offerings to persons in the UK regardless
+    of whether the issuer is incorporated in the UK
+
+TRANSITION FROM PREVIOUS STATUS:
+  Previous: ACTIVE (consultative FCA registration + financial promotions regime)
+  Current:  STATUTORY_REGIME_ENACTED — full FSMA authorisation pathway defined
+  This is the definitive transition from consultative to statutory crypto regime.
+
+CLASSIFICATION (confirmed):
+  Utility tokens (incl. fan tokens): qualifying cryptoassets under the new RAO
+  Exchange tokens (CHZ): qualifying cryptoasset category
+  Fan Token™ classification: subject to FCA final rules (to be consulted 2026)
   
-RELEVANT GUIDANCE:
-  UK sports fan tokens: treated as utility tokens under FCA guidance
-  Marketing to UK retail: requires FCA-registered firm involvement
+MANDATORY COMPLIANCE DEADLINES:
+  30 September 2026: FCA application gateway opens — firms must apply
+  28 February 2027:  Application window closes
+  25 October 2027:   Full regime commencement — unauthorised activity illegal
   
 AGENT IMPLICATIONS:
-  UK fan token market: apply regulatory_clarity = MEDIUM
-  UK Premier League clubs with fan tokens: commercially significant market
-  UK regulatory developments: monitor for Financial Services and Markets Act updates
+  uk_regulatory_status: STATUTORY_REGIME_ENACTED
+  Any fan token platform or club promoting digital assets to UK residents
+    must obtain FCA authorisation or rely on a narrowly drawn exemption.
+  UK Premier League fan token clubs ($AFC $CITY $SPURS $AVL $EFC $CPFC $LUFC):
+    All have UK retail exposure — compliance planning mandatory before Sept 2026.
+  UK regulatory_clarity: upgraded from MEDIUM → HIGH (statutory, not consultative)
+  Marketing to UK retail: FCA-authorised firm involvement required (unchanged)
+  Firms marketing pre-4 Feb 2026: must obtain authorisation or cease regulated
+    activity (no grandfathering outside narrow transitional provisions)
 ```
+
+UPDATE — APRIL 2026:
+  SI 2026/102 enacted February 2026. FCA now consulting on detailed rules
+  throughout 2026 to supplement the statutory framework. A draft amending
+  SI has also been published to address stablecoin payments and competitive
+  UK regime adjustments. The statutory framework is confirmed and locked —
+  only implementation details remain consultative.
+  
+  First-mover signal for UK-exposed fan token clubs: clubs that begin FCA
+  authorisation engagement in advance of the September 2026 gateway open
+  will have a structural advantage in the UK market.
 
 ### Brazil — First Revenue-Share RWA Live
 
