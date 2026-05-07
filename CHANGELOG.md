@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.97.0] — 2026-04-28
+
+### Changed — Layer 1 description, Tier A chip highlighting, CONTRIBUTING calibration priority
+
+Three coordinated changes flowing from the core/sport-tiers.md framework
+introduced in v3.96.9.
+
+index.html — Layer 1 description updated:
+  Was: "42 sports. Event playbooks, risk variables, signal weights, and
+        agent reasoning prompts."
+  Now: "42 sports. Event playbooks, risk variables, signal weights, and
+        agent reasoning prompts. Six Tier A sports with full fan token
+        intelligence integration."
+
+index.html — Calibration section chips restructured:
+  Tier A sports (football, cricket, basketball, mma, formula1, motogp)
+  now display with accent colour + green background (.chip-a class):
+    color: var(--accent), border-color: var(--accent),
+    background: var(--green-bg)
+  Tier B & C sports remain in existing muted style.
+  Two tier labels added above each group:
+    "Tier A — fan token active" (above the 6 Tier A chips)
+    "Tier B & C — monitored" (above the remaining 15 chips)
+  New CSS: .chip-a, .chips-tier-label
+
+CONTRIBUTING.md — Calibration data section:
+  New priority paragraph added:
+  "Priority sports for calibration records are Tier A fan token active
+  sports — football, basketball, MMA, Formula 1, MotoGP, and cricket.
+  Records from these sports have the highest immediate value to the
+  library. Tier B and C sport records are welcome but Tier A records
+  are reviewed and merged first."
+
 ## [3.96.9] — 2026-04-28
 
 ### Added — core/sport-tiers.md: fan token tier classification for all 42 sports

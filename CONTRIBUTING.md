@@ -211,6 +211,11 @@ Label: calibration-data
 Reward: +1 leaderboard point per validated record
 ```
 
+**Priority sports for calibration records are Tier A fan token active sports —
+football, basketball, MMA, Formula 1, MotoGP, and cricket.** Records from these
+sports have the highest immediate value to the library. Tier B and C sport records
+are welcome but Tier A records are reviewed and merged first.
+
 Calibration record submissions are automatically validated by a GitHub Action
 (JSON validity, required fields, `recorded_at` before `kickoff_utc`, verifiable
 result URL). Records that pass automated checks are queued for merge — no waiting
