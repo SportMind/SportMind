@@ -1,5 +1,48 @@
 # Changelog
 
+## [3.96.7] — 2026-04-28
+
+### Added — Chiliz Bridge live: MULTICHAIN_ACTIVE + BRIDGE_LIVE for 18 tokens
+
+Source: @Chiliz official X account — VERIFIED
+Signal received: 2026-04-28
+Action: IMMEDIATE (Tier 1 — confirmed factual event)
+
+fan-token/fan-token-lifecycle/fan-token-lifecycle.md:
+  New CHILIZ BRIDGE — CONFIRMED LIVE section added to Phase 3.
+  Distinct from the general omnichain/LayerZero framework documented
+  in v3.95.0 — this is the named Chiliz Bridge going live for specific tokens.
+
+  EVENT: Chiliz Bridge live for $CHZ, $PEPPER, and 18 Fan Tokens™
+  on Solana and Base (source: @Chiliz official X, verified).
+
+  TOKENS UPDATED — 18 confirmed BRIDGE_LIVE:
+    $ACM $AFC $ARG $ASR $ATM $BAR $CITY $FLU $GAL $INTER
+    $JUV $MENGO $NAP $OG $POR $PSG $SPURS $VCF
+
+  LIQUIDITY STATUS CHANGE:
+    liquidity_status: "MULTICHAIN_ACTIVE"
+    flags: ["BRIDGE_LIVE", "SOLANA_ACTIVE", "BASE_ACTIVE"]
+
+  AGENT CHANGES:
+    DEX liquidity active on Solana (Jupiter, Raydium) and Base
+    (Aerodrome, Uniswap Base) — live price discovery, not future.
+    Volume on Solana/Base is now a live signal — cross-chain monitoring
+    required for all 18 tokens immediately.
+    CDI ceiling uplift confirmed: +5% for all BRIDGE_LIVE tokens.
+    Bridge-routed volume treated as NEUTRAL until corroborated by
+    Chiliz Chain holder activity (to avoid false signals).
+
+  PATH_2 RULE UNCHANGED:
+    PATH_2 supply burns are still Chiliz Chain only.
+    Bridge activity for $AFC does NOT trigger PATH_2 events.
+
+  MONITORING ADDITIONS (immediate):
+    Solana: Jupiter aggregator volume / holder count
+    Base: Aerodrome / Uniswap Base TVL and volume
+    Bridge flow direction: net inflow pre-match = accumulation signal
+    Bridge outflow post-match = profit-taking signal
+
 ## [3.96.6] — 2026-04-28
 
 ### Fixed — full site audit: badge removed, copyright cleaned, responsive improvements

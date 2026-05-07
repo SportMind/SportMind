@@ -164,6 +164,68 @@ OMNICHAIN UPGRADE — CONFIRMED ACTIVE (April–Q2 2026):
       a +5% CHI ceiling uplift as new liquidity pathways become active.
 ```
 
+---
+
+```
+CHILIZ BRIDGE — CONFIRMED LIVE (Source: @Chiliz official X, verified):
+
+  EVENT: Chiliz Bridge is now live for $CHZ, $PEPPER, and 18 Fan Tokens™
+  on Solana and Base. This is a named, confirmed liquidity infrastructure
+  event — distinct from the general omnichain framework above.
+
+  BRIDGE_LIVE STATUS — 18 FAN TOKENS CONFIRMED:
+    Football:   $ACM  $AFC  $ARG  $ASR  $ATM  $BAR
+                $CITY $FLU  $GAL  $INTER $JUV  $MENGO
+                $NAP  $OG   $POR  $PSG  $SPURS $VCF
+
+  LIQUIDITY STATUS UPDATE:
+    Before bridge live:  MULTICHAIN_AVAILABLE (bridge deployment pending)
+    After bridge live:   MULTICHAIN_ACTIVE + BRIDGE_LIVE flag set
+
+  WHAT CHANGED FOR AGENTS:
+
+    liquidity_status: "MULTICHAIN_ACTIVE"
+    flags: ["BRIDGE_LIVE", "SOLANA_ACTIVE", "BASE_ACTIVE"]
+
+    1. DEX LIQUIDITY NOW ACTIVE — Solana and Base
+       Tokens are now actively tradeable on Solana DEXs (Jupiter, Raydium)
+       and Base DEXs (Aerodrome, Uniswap Base). This is live liquidity,
+       not future liquidity. Price discovery is genuinely multi-chain.
+
+    2. VOLUME SIGNAL UPGRADE
+       Volume on Solana/Base is now a live signal, not a future indicator.
+       Cross-chain volume correlation (Chiliz Chain vs Solana vs Base)
+       is now an active monitoring requirement for all 18 listed tokens.
+
+    3. CDI CEILING UPLIFT — CONFIRMED
+       Bridge live = addressable holder base expansion is now real.
+       Apply +5% CDI ceiling uplift for all 18 BRIDGE_LIVE tokens.
+       (This upgrades the earlier +5% CHI ceiling estimate to confirmed.)
+
+    4. MRS FRAMEWORK — BRIDGE LIVE ADDS NEW SIGNAL TYPE
+       Cross-chain arbitrage via the named Chiliz Bridge is now traceable.
+       Volume arriving via bridge (Chiliz Chain → Solana/Base) is
+       distinguishable from volume native to each chain.
+       A volume spike on Solana that arrived via bridge ≠ organic demand.
+       Treat bridge-routed volume as NEUTRAL until corroborated by
+       Chiliz Chain holder activity.
+
+    5. PATH_2 RULE UNCHANGED
+       PATH_2 supply burns are still Chiliz Chain only.
+       The Chiliz Bridge moves liquidity; it does not trigger PATH_2 events.
+       Bridge activity for $AFC does NOT count as a PATH_2 signal.
+
+  MONITORING ADDITIONS (immediate, for all 18 BRIDGE_LIVE tokens):
+    Solana:  track via Jupiter aggregator volume / holder count
+    Base:    track via Aerodrome / Uniswap Base TVL and volume
+    Bridge:  track net flow direction (CHZ Chain → Solana or reverse)
+    Signal:  net inflow to Solana/Base before match day = accumulation signal
+             net outflow from Solana/Base after match = profit-taking signal
+
+  SOURCE: @Chiliz official X account — VERIFIED
+  DATE:   Confirmed live (signal received 2026-04-28)
+```
+
 This phase is covered comprehensively by the core Layer 3 skills:
 - `fan-token/fan-token-pulse` — HAS, TVI (on-chain health)
 - `fan-token/performance-on-pitch` — PI (sporting performance → token impact)
