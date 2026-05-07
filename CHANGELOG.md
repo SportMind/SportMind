@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.97.3] — 2026-05-07
+
+### Fixed — kit-subtitle CSS missing from suite cards
+
+index.html:
+  .kit-subtitle CSS class was absent from the stylesheet. The class was
+  applied in HTML to all three suite card subtitles but had no style
+  definition, causing the text to inherit the parent card font and render
+  at full card size — visually indistinguishable from a second title.
+  
+  Most visible on "sportmind-intelligence-agent" (Card 3, Intelligence Agent)
+  where the short subtitle rendered at heading weight. Also affected Cards 1
+  and 2 but was less obvious due to longer subtitle text.
+
+  Fix: .kit-subtitle added to stylesheet:
+    font-family: var(--mono)
+    font-size: 10px
+    color: var(--text-3)
+    letter-spacing: .03em
+    margin-top: -4px
+
+  All three subtitles now render correctly in small monospace muted style:
+    Card 1: "Fan Token Agentic Wallet Starter Kit"
+    Card 2: "Telegram AI Bot Starter Kit"
+    Card 3: "sportmind-intelligence-agent"
+
 ## [3.97.2] — 2026-05-07
 
 ### Added — fan-token/ftp-path2.md + 3 calibration records; calibration 126→129
