@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.97.6] — 2026-05-08
+
+### Added — US CLARITY Act markup signal (Tier 2 / UNVERIFIED — MONITOR)
+
+Source: US Senate Banking Committee via specialist industry press
+Source URL: https://www.banking.senate.gov/hearings
+Verification: UNVERIFIED — committee record pending official update
+Signal date: 2026-05-08
+
+macro/macro-regulatory-sportfi.md:
+  New CLARITY ACT — LEGISLATIVE MARKUP IN PROGRESS section added
+  to the US regulatory section.
+
+  TIER 2 TREATMENT (not Tier 1):
+    The alert was received as Tier 1 priority but verification status is
+    UNVERIFIED. The library applies Tier 2 treatment: documented as a
+    monitoring signal, not a confirmed status change. Confirmed intelligence
+    (LEGALLY_DEFINED/NON_SECURITY from March 17, 2026 SEC/CFTC guidance)
+    is never displaced by an unverified signal.
+
+  WHAT WAS ADDED:
+    Legislative_milestone: LEGISLATIVE_MARKUP_IN_PROGRESS (conditional)
+    Milestone_date: 2026-05-08 (reported; unconfirmed)
+    Source: banking.senate.gov (monitoring target)
+    
+    The CLARITY Act markup, if confirmed, represents the first official
+    committee-level movement toward a US statutory digital asset regime.
+    It would shift the US from guidance-based (current) toward statutory
+    (analogous to UK STATUTORY_REGIME_ENACTED post-SI 2026/102).
+
+  WHAT WAS NOT CHANGED:
+    US_regulatory_status: LEGALLY_DEFINED/NON_SECURITY — UNCHANGED
+    SEC/CFTC joint guidance (March 17, 2026): UNCHANGED
+    Fan Token™ classification (digital collectibles/digital tools): UNCHANGED
+
+  AGENT RULES DOCUMENTED:
+    Apply LEGISLATIVE_MARKUP_IN_PROGRESS ONLY IF confirmed Tier 1 source.
+    If confirmed: upgrade US regulatory_clarity MEDIUM_HIGH → HIGH.
+    If not confirmed/stalls: maintain current status, remove flag.
+    Monitoring action: banking.senate.gov hearings + congress.gov record.
+    When confirmed Tier 1: upgrade to STATUTORY_REGIME_IN_PROGRESS.
+
 ## [3.97.5] — 2026-05-07
 
 ### Added — core/smi-digest.md: SportMind Intelligence State Digest

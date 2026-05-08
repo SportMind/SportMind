@@ -209,6 +209,62 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 ```
 
 
+```
+CLARITY ACT — LEGISLATIVE MARKUP IN PROGRESS (UNVERIFIED — MONITOR)
+
+  Source:       US Senate Banking Committee via specialist industry press
+  Source URL:   https://www.banking.senate.gov/hearings
+  Signal date:  2026-05-08
+  Verification: UNVERIFIED — committee record pending official update
+  Tier:         2 (credible signal requiring interpretation — not Tier 1
+                   due to unverified status; do NOT treat as confirmed law)
+
+  WHAT IS REPORTED:
+    The US Senate Banking Committee is reportedly moving to a markup of the
+    CLARITY Act (digital asset market structure legislation) as early as
+    May 8–9, 2026. A markup is the formal committee-level process of reviewing,
+    amending, and voting on a bill before it advances to the full Senate.
+
+  WHAT THIS MEANS IF CONFIRMED:
+    Legislative_milestone: LEGISLATIVE_MARKUP_IN_PROGRESS
+    Milestone_date: 2026-05-08 (if markup proceeds as reported)
+    Significance: First official committee-level movement on the CLARITY Act.
+    Shifts US from guidance-based regime toward a statutory framework.
+    Reduces long-term regulatory tail risk for US digital asset markets.
+
+  WHAT THIS DOES NOT CHANGE (confirmed intelligence is not displaced):
+    US_regulatory_status:    LEGALLY_DEFINED / NON_SECURITY — UNCHANGED
+    SEC/CFTC joint guidance: CONFIRMED (March 17, 2026) — UNCHANGED
+    Fan Token™ classification: digital collectibles / digital tools — UNCHANGED
+    
+    The March 2026 guidance is confirmed Tier 1 and remains the operative
+    framework. The CLARITY Act markup, if confirmed, would add a statutory
+    layer on top of — not instead of — the existing guidance.
+
+  AGENT IMPLICATIONS (conditional — apply only if markup confirmed):
+    If CLARITY Act markup confirmed (Tier 1 source required):
+      → Apply LEGISLATIVE_MARKUP_IN_PROGRESS flag to US macro state
+      → Upgrade US regulatory_clarity: MEDIUM_HIGH → HIGH
+      → Probability of US statutory regime by Q4 2026: elevated
+      → US fan token first-mover advantage window: narrowing (statutory
+         regime creates clearer rules but also compliance costs for latecomers)
+    
+    If markup not confirmed or stalls:
+      → Maintain current US status (LEGALLY_DEFINED/NON_SECURITY)
+      → No macro modifier change
+      → Remove LEGISLATIVE_MARKUP_IN_PROGRESS flag
+
+  MONITORING ACTION:
+    Watch: https://www.banking.senate.gov/hearings for official committee record
+    Watch: Congressional press releases for markup confirmation
+    Watch: Senate Banking Committee voting record (May 8–9, 2026 window)
+    Tier 1 confirmation sources: banking.senate.gov, congress.gov, official press releases
+    
+    When confirmed → upgrade to Tier 1 and update US regulatory status to
+    include STATUTORY_REGIME_IN_PROGRESS (analogous to UK STATUTORY_REGIME_ENACTED)
+```
+
+
 ### United Kingdom — FSMA 2000 (Cryptoassets) Regulations 2026
 
 ```
