@@ -6,6 +6,7 @@
 > Updated after every versioned release.
 
 **Last updated:** v3.97.8 — 2026-05-08
+**Library state:** 610 files · 391 markdown · 177 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -247,6 +248,9 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   @Chiliz (official X)             Bridge live confirmation, omnichain launch
   banking.senate.gov/hearings      CLARITY Act — monitoring (UNVERIFIED)
   athlete/football/athlete-intel-football.md   Knockout modifier confirmed
+  Arab News Sport (arabnews.com/sport)  SPL fixtures, results, signings — v3.97.8
+  spl.com.sa                       Saudi Pro League official standings/schedules — v3.97.8
+  pif.gov.sa                       PIF investment decisions and announcements — v3.97.8
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -256,6 +260,7 @@ MACRO EVENTS PROCESSED:
   UCL 2025-26 Final confirmed — PSG vs Arsenal, May 30, Budapest
   CLARITY Act markup — UNVERIFIED/MONITOR (2026-05-08)
   UCL Final pre-match signal published — v3.97.7 (2026-05-08)
+  Saudi Pro League intelligence built — Layers 1, 2, 3 — v3.97.8 (2026-05-08)
 ```
 
 ---

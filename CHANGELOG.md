@@ -1,5 +1,62 @@
 # Changelog
 
+## [3.97.9] — 2026-05-08
+
+### Added — fan-token/ftp-path2.md: seven confirmed mechanics from Chiliz official
+
+Source: chiliz.com/chiliz-group-announces-gamified-fan-tokens-including-disruptive-new-mint-and-burn-tokenomics/
+Secondary: chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/
+Date: 09 April 2026 (Chiliz Group official announcement)
+Verification: VERIFIED — Chiliz Group primary source
+
+fan-token/ftp-path2.md fully rewritten (270L → 378L) with seven confirmed additions:
+
+1. PRE-LIQUIDATION RATIO (Model 2):
+   Exactly 1/400 of total Fan Token supply is pre-liquidated before each
+   qualifying match. This is the fixed, precise mechanism behind the
+   pre-match detectable signal. Amount is calculable: total_supply ÷ 400.
+
+2. MINIMUM SUPPLY STOP-LOSS:
+   Burning ceases when total supply reaches 75% net reduction OR treasury
+   hits 0%. No further burns regardless of subsequent wins.
+   Applies to both Model 1 and Model 2.
+
+3. CREDIT BURN SYSTEM:
+   Wins achieved while at the stop-loss limit generate "burn credits."
+   Credits offset future minting on losses — team at stop-loss that loses
+   does NOT automatically trigger minting if credits are held.
+   Agent rule: check credit balance before applying any loss/mint signal.
+
+4. VESTING CAP:
+   Treasury token releases capped at 12.5% of current treasury/year
+   where applicable. Not active for any confirmed FTP club as of April 2026.
+
+5. MODEL 1 ANNUAL INFLATION:
+   Variable 1–5% annual inflation rate linked to overall season performance.
+   Background seasonal rate — NOT a per-match event.
+
+6. SCOPE LIMITATION:
+   New ## Scope section. FTP applies ONLY to official men's first-team
+   competitive matches. Excluded: friendlies, pre-season, exhibition,
+   academy, women's team matches.
+   Agent rule: scope check is now step 0 in all FTP reasoning chains.
+
+7. EXECUTION WINDOWS:
+   Liquidations: within 48h of kickoff.
+   Buybacks: within 48h of final result.
+   Guards against market manipulation; ensures timely execution.
+
+STRUCTURE IMPROVEMENTS:
+  New ## Scope section (before Model 1)
+  New ## Safeguards — summary reference section
+  Timing comparison table updated with all new columns
+  Signal source updated from fantokens.com to chiliz.com primary
+
+PRECISION CORRECTION vs BRIEFING:
+  Vesting cap note: "not active for any team as yet" confirmed from
+  chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/
+  Applied as-documented rather than as-described in briefing.
+
 ## [3.97.8] — 2026-05-08
 
 ### Added — Saudi Pro League intelligence: Layers 1, 2, 3 (highest priority gap filled)

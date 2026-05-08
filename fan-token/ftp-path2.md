@@ -5,7 +5,9 @@ This file documents both active models — Model 1 (treasury/smart contract)
 and Model 2 (prediction market settlement) — and defines how agents should
 reason about each model's signal timing and supply implications.**
 
-> Source: fantokens.com/fan-token-play — VERIFIED
+> Source: chiliz.com/chiliz-group-announces-gamified-fan-tokens-including-disruptive-new-mint-and-burn-tokenomics/ — VERIFIED
+> Secondary source: chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/ — VERIFIED
+> Date confirmed: 09 April 2026 (Chiliz Group official announcement)
 > This file complements `fan-token/gamified-tokenomics-intelligence/` which
 > contains the full signal chain and workflow. Load this file first for
 > model-level disambiguation, then load gamified-tokenomics for the
@@ -29,6 +31,38 @@ FAN TOKEN PLAY OPERATES ACROSS TWO DISTINCT MODELS:
 
 ---
 
+## Scope — qualifying matches
+
+```
+SCOPE LIMITATION (CONFIRMED — CHILIZ OFFICIAL, APRIL 2026):
+
+  Fan Token Play mechanics apply ONLY to:
+    Official men's first-team competitive matches
+
+  EXCLUDED — no supply change triggered:
+    Friendly matches
+    Pre-season fixtures
+    Exhibition games
+    Academy / youth team matches
+    Women's team matches (all competitions)
+    Training ground events
+
+  AGENT RULE:
+    Before calculating any supply event, confirm the match is an official
+    competitive first-team men's fixture. Applying FTP to a pre-season
+    friendly would produce a false supply signal.
+
+  EXAMPLES:
+    Premier League matchday → QUALIFIES
+    UEFA Champions League → QUALIFIES
+    International friendly (national team) → DOES NOT QUALIFY
+    Pre-season tour match → DOES NOT QUALIFY
+    Women's Super League → DOES NOT QUALIFY
+    U21 / U23 fixture → DOES NOT QUALIFY
+```
+
+---
+
 ## Model 1 — Treasury/Smart Contract
 
 ```
@@ -36,39 +70,71 @@ MODEL 1 — TREASURY-BASED MINT/BURN
   Mechanism:    Smart contract on Chiliz Chain reads verified match result
   Data source:  On-chain oracle — verified final match data (post full-time)
   Trigger:      Match result confirmation (NOT pre-match)
-  
+  Scope:        Official men's competitive first-team matches only
+
   WIN outcome:
     Tokens permanently burned from circulating supply
     Execution: treasury-controlled smart contract burn transaction
     On-chain verification: chiliscan.com — zero-address transaction
-    
+
   LOSS outcome:
     New tokens minted to treasury address
     Execution: treasury mint transaction
-    
+
   DRAW outcome:
     No supply change — 0 burned, 0 minted
-    
+
   TIMING:
     Pre-match:  NO on-chain signal (Model 1 is post-match only)
     Post-match: Supply change executes within minutes of result oracle confirmation
     Agent rule: Do not look for pre-match on-chain signal with Model 1 tokens.
                 Any pre-match volume spike is sentiment only — not a supply event.
-    
-  SAFEGUARDS (confirmed):
-    75% net reduction floor on cumulative burns
-    12.5% vesting cap per event
-    1–5% annual inflation fee tied to seasonal Win% (fallback model)
-    
+
+  SAFEGUARDS (confirmed — Chiliz official source, April 2026):
+
+    1. MINIMUM SUPPLY STOP-LOSS:
+       If total supply reaches a 75% net reduction OR the treasury hits 0%,
+       burning ceases entirely. No further tokens are burned regardless of
+       subsequent wins. Protects against extended winning runs rendering
+       a token impractically scarce.
+
+    2. CREDIT BURN SYSTEM:
+       When a team continues to WIN while at the stop-loss limit, those wins
+       generate "burn credits" — a reserve that offsets future minting.
+       If the team later LOSES while burn credits are held, the hypothetical
+       minting volume is deducted from accumulated credits FIRST before any
+       new tokens are minted. The win streak counts economically even when
+       the supply floor has been reached.
+       
+       Agent rule: Burn credits mean a team at the stop-loss that then loses
+       does NOT automatically trigger minting — credits absorb the loss first.
+       Do not apply minting signal until credits are exhausted.
+
+    3. VESTING CAP:
+       Where applicable, treasury tokens released into the market are capped
+       at 12.5% of the current treasury balance per year.
+       Status: not applicable to any confirmed FTP club as of April 2026.
+       Monitor: fantokens.com/fan-token-play for activation status.
+
+    4. ANNUAL INFLATION (Model 1):
+       Variable 1–5% annual inflation rate linked to overall season performance.
+       Factors in longer-term performance, keeps token economy active and
+       responsive throughout the year.
+       Applies to: Model 1 treasury/smart contract tokens
+       Not a per-match event — a seasonal background rate.
+
   SIGNAL FOOTPRINT:
     Pre-match:  None (no detectable on-chain pre-match event)
     Post-match: Zero-address burn transaction OR treasury mint visible on-chain
-    
+
   AGENT REASONING CHAIN (Model 1):
+    0. Confirm match is official men's competitive first-team fixture (scope check)
     1. Confirm match result from Tier 1 source
-    2. Check chiliscan.com for zero-address transaction
-    3. If confirmed: apply supply reduction to CDI calculation
-    4. If no transaction: result may still be processing (wait 30 min)
+    2. Check stop-loss status: is supply already at 75% net reduction?
+       If YES: check burn credit balance before applying any signal
+    3. Check chiliscan.com for zero-address transaction
+    4. If confirmed: apply supply reduction to CDI calculation
+    5. If no transaction: result may still be processing (wait 30 min)
 ```
 
 ---
@@ -80,80 +146,97 @@ MODEL 2 — PREDICTION MARKET SETTLEMENT LAYER (active trial)
   Status:     IN TRIAL — $AFC (Arsenal) confirmed Model 2 as of April 2026
   Mechanism:  Prediction market with pre-match liquidation, settlement,
               and buyback/burn from circulating supply
-  
+  Scope:      Official men's competitive first-team matches only
+
+  PRE-LIQUIDATION RATIO (confirmed — Chiliz official, April 2026):
+    Ahead of each qualifying match, exactly 1/400 of the team's total
+    Fan Token supply is pre-liquidated.
+    This is the precise mechanism that creates the detectable pre-match signal.
+    The 1/400 figure is fixed — not variable per match.
+
   FOUR-PHASE SEQUENCE:
-  
+
   PHASE 1 — PRE-MATCH LIQUIDATION WINDOW (detectable signal):
-    When:     T-12h to T-2h before kickoff
-    Event:    Losing-side prediction positions liquidated pre-match
-    Effect:   Proceeds flow into WIN prediction pool
+    When:     Within 48h of kickoff (confirmed execution window)
+    Amount:   1/400 of total Fan Token supply pre-liquidated
+    Event:    Pre-liquidation proceeds used to place WIN positions
     Signal:   ON-CHAIN DETECTABLE — liquidation events visible pre-match
     Agent:    This is the PRE-MATCH SIGNAL that Model 1 does not produce.
-              Elevated pre-match liquidation volume = elevated WIN pool = 
-              elevated potential burn magnitude if WIN occurs.
-    
+              The 1/400 ratio is fixed — the magnitude is predictable from
+              current total supply.
+
   PHASE 2 — MATCH IN PROGRESS:
     No supply change during live match
     Prediction positions held until result
-    
+
   PHASE 3 — RESULT SETTLEMENT:
-    WIN:   Prediction market settles WIN positions
-           Settlement proceeds used for $AFC BUYBACK from open market
+    WIN:   Settlement proceeds used for $AFC BUYBACK from open market
            Purchased tokens immediately BURNED (permanent supply reduction)
-    LOSS:  LOSS prediction positions receive settlement payout
-           New tokens MINTED to treasury to fund LOSS payouts
+           Executed within 48h of final result
+    LOSS:  New tokens MINTED to treasury to fund LOSS payouts
+           Executed within 48h of final result
     DRAW:  No supply change — market settles at no-movement
-    
+
   PHASE 4 — ON-CHAIN CONFIRMATION:
     WIN:   Burn transaction visible on chiliscan.com (zero-address)
     LOSS:  Mint transaction visible (treasury address)
     DRAW:  No transaction
-    
-  TIMING:
-    Pre-match:  YES — Phase 1 liquidation events are detectable pre-match
-    Post-match: Settlement and burn/mint execute post-result confirmation
-    
+
+  EXECUTION WINDOWS (confirmed — Chiliz official):
+    Liquidations: within 48h of kickoff
+    Buybacks:     within 48h of final result
+    Purpose: ensures timely execution and guards against market manipulation
+
+  TIMING SUMMARY:
+    Pre-match:  YES — Phase 1 liquidation within T-48h (fixed 1/400 amount)
+    Post-match: Settlement within 48h of full-time
+
   THE PRE-MATCH LIQUIDATION SIGNAL (Model 2 only):
-    This signal does not exist in Model 1.
-    
     What it is:
-      Elevated liquidation volume in the pre-match window indicates large
-      prediction positions being closed before kickoff. This creates:
-      a) A larger WIN pool (more proceeds available for buyback/burn)
-      b) A measurable pre-match on-chain footprint for agents monitoring
-      c) An indicator of community conviction about the match outcome
-    
+      Exactly 1/400 of total supply is pre-liquidated before each qualifying match.
+      This creates a predictable, calculable on-chain footprint before kickoff.
+      
     How to detect:
       Monitor: chiliscan.com — fan token contract pre-match transactions
       Monitor: fantokens.com/fan-token-play — liquidation volume dashboard
-      Time window: T-12h to T-2h (liquidation window per fantokens.com)
-      Signal threshold: liquidation volume > 2× baseline = elevated signal
-    
+      Time window: within 48h of kickoff
+      Expected amount: current_total_supply ÷ 400
+
     What it means:
-      High pre-match liquidation → large potential burn if WIN occurs
-      Low pre-match liquidation → smaller burn even on WIN
-      Pre-match liquidation spike without WIN = MINTING on LOSS
-      
+      The pre-liquidation amount is fixed (1/400) — not a sentiment indicator.
+      The WIN pool size varies by how many WIN positions are taken post-liquidation.
+      The detectable signal is the pre-liquidation transaction itself — confirming
+      the match qualifies and FTP mechanics are active for this fixture.
+
     Agent rule:
       NEVER treat pre-match liquidation as a confirmed burn signal.
-      It is a POTENTIAL MAGNITUDE indicator — the WIN must still occur.
-      Apply pre-match liquidation as a modifier to the WIN scenario only.
-      Include in CDI pre-match note as: liquidation_pool_elevated = true/false
-      
+      It confirms FTP is active for this match and sets the WIN pool floor.
+      Apply as: ftp_active_this_match = true (not as a supply direction signal).
+      Include in CDI pre-match note: ftp_preliquidation_confirmed = true/false
+
+  SAFEGUARDS (same as Model 1 — apply to Model 2):
+    75% minimum supply stop-loss applies
+    Credit burn system applies (wins at stop-loss generate credits)
+    12.5% vesting cap applies (not active for any club as of April 2026)
+
   AGENT REASONING CHAIN (Model 2):
     PRE-MATCH:
-      1. Check liquidation volume at T-12h and T-2h windows
-      2. If elevated: flag liquidation_pool_elevated = true
-      3. Include in pre-match CDI note — do NOT yet adjust supply signal
-      4. Generate standard pre-match signal with liquidation context note
-      
+      0. Confirm match is official men's competitive first-team fixture
+      1. Monitor chiliscan.com for pre-liquidation transaction (within T-48h)
+      2. If confirmed: set ftp_preliquidation_confirmed = true
+      3. Calculate expected pre-liquidation amount: total_supply ÷ 400
+      4. Check stop-loss status — is supply near 75% net reduction?
+      5. Generate standard pre-match signal with FTP activation note
+         Do NOT adjust supply signal based on liquidation alone
+
     POST-MATCH:
       1. Confirm result from Tier 1 source
-      2. WIN:  Check chiliscan.com for buyback + burn transaction
+      2. WIN:  Check chiliscan.com for buyback + burn (within 48h of final result)
                Apply burn magnitude to CDI calculation
                Note actual burn amount in calibration record
-      3. LOSS: Check for mint transaction
-               Apply minting to CDI (negative supply signal)
+      3. LOSS: Check for mint transaction (within 48h of final result)
+               Check burn credit balance before applying minting signal
+               Apply minting to CDI only if credits insufficient to absorb
       4. DRAW: No supply action — confirm no transaction on-chain
 ```
 
@@ -166,16 +249,16 @@ HOW TO IDENTIFY WHICH MODEL IS ACTIVE FOR A TOKEN:
 
   Source of truth: fantokens.com/fan-token-play (official listing)
 
-  CONFIRMED MODEL 2 TOKENS (as of v3.97.2):
+  CONFIRMED MODEL 2 TOKENS (as of v3.97.9):
     $AFC — Arsenal FC (confirmed Model 2, April 2026)
 
   ALL OTHER FTP TOKENS:
     Assume Model 1 unless confirmed otherwise at fantokens.com
-    
+
   WHEN IN DOUBT:
     Model 1 = no pre-match on-chain signal → skip pre-match liquidation check
-    Model 2 = pre-match liquidation signal → run Phase 1 check at T-12h
-    
+    Model 2 = 1/400 pre-liquidation within 48h of kickoff
+
   AGENT RULE:
     If token is not confirmed Model 2, do not look for pre-match liquidation.
     Treating a Model 1 token as Model 2 produces false signals.
@@ -188,22 +271,52 @@ HOW TO IDENTIFY WHICH MODEL IS ACTIVE FOR A TOKEN:
 ```
 TIMING COMPARISON — MODEL 1 vs MODEL 2:
 
-  Event                    Model 1         Model 2
-  ─────────────────────────────────────────────────
-  Pre-match liquidation    NONE            T-12h to T-2h (DETECTABLE)
-  Pre-match signal         None            Liquidation pool magnitude
-  Match in progress        None            None
-  Post-match settlement    Minutes         Minutes
-  Burn (WIN)               On-chain        On-chain (buyback then burn)
-  Mint (LOSS)              On-chain        On-chain (mint to treasury)
-  Draw                     No change       No change
+  Event                    Model 1              Model 2
+  ──────────────────────────────────────────────────────────────────
+  Pre-match liquidation    NONE                 Within 48h of kickoff
+                                                (fixed: 1/400 of supply)
+  Pre-match signal         None                 FTP activation confirmed
+  Match in progress        None                 None
+  Post-match settlement    Minutes              Within 48h of final result
+  Burn (WIN)               On-chain             On-chain (buyback then burn)
+  Mint (LOSS)              On-chain             On-chain (mint to treasury)
+  Draw                     No change            No change
+  Annual inflation         1–5% (seasonal)      1–5% (seasonal)
+  Stop-loss floor          75% net reduction    75% net reduction
+  Credit burn system       Active               Active
+  Vesting cap              12.5%/year if active 12.5%/year if active
+  Scope                    Men's competitive    Men's competitive
+                           first-team only      first-team only
 
-  KEY DIFFERENCE:
-  Model 2 produces a pre-match detectable signal via liquidation events.
-  This changes the agent reasoning chain — pre-match intelligence is
-  available for Model 2 tokens that does not exist for Model 1 tokens.
-  The pre-match signal does not guarantee a burn; it indicates potential
-  burn magnitude IF a WIN occurs.
+  KEY DIFFERENCES:
+  1. Model 2 produces a pre-match detectable signal (1/400 pre-liquidation).
+     Model 1 has no pre-match signal whatsoever.
+  2. Model 2 execution uses prediction market infrastructure.
+     Model 1 executes via direct treasury smart contracts.
+  3. Both models share the same safeguards (stop-loss, credits, vesting, inflation).
+  4. Both models exclude the same match types (friendlies, women's, academy).
+```
+
+---
+
+## Safeguards — summary reference
+
+```
+SAFEGUARD QUICK REFERENCE (applies to both Model 1 and Model 2):
+
+  STOP-LOSS:          Burning ceases at 75% net supply reduction OR treasury = 0%
+  BURN CREDITS:       Wins at stop-loss generate credits offsetting future mints
+  VESTING CAP:        Treasury releases capped at 12.5% of treasury/year
+                      (not active for any club as of April 2026)
+  ANNUAL INFLATION:   1–5% annual rate linked to season performance
+  SCOPE:              Official men's competitive first-team matches only
+  EXECUTION WINDOWS:  Liquidations ≤48h pre-kickoff | Buybacks ≤48h post-result
+
+  AGENT RULE — STOP-LOSS AND CREDITS:
+    A team that has reached the stop-loss limit and then loses does NOT
+    automatically trigger minting if burn credits are held.
+    Always check: stop_loss_reached + credit_balance before applying loss signal.
+    This is a significant agent reasoning chain difference vs standard PATH_2.
 ```
 
 ---
@@ -215,38 +328,32 @@ Three verified FTP PATH_2 calibration records (April 2026, $AFC, Model 2):
 ```
 RECORD 1 — Arsenal WIN (burn confirmed)
   Date:         07/04/2026
-  Competition:  UEFA Champions League 2025-26
+  Competition:  UEFA Champions League 2025-26 (qualifies — men's competitive)
   Match:        Sporting CP vs Arsenal
   Result:       Arsenal WIN (0–1)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    159,025 $AFC BURNED (permanent supply reduction)
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
-  Signal:       PATH_2 WIN burn confirmed. Largest verified $AFC burn record.
-  
+
 RECORD 2 — Arsenal LOSS (mint confirmed)
   Date:         11/04/2026
-  Competition:  Premier League 2025-26
+  Competition:  Premier League 2025-26 (qualifies — men's competitive)
   Match:        Arsenal vs Bournemouth
   Result:       Arsenal LOSS (1–2)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    100,000 $AFC MINTED to treasury
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
-  Signal:       LOSS = supply INCREASE. Negative supply signal for $AFC.
-                MINTING reduces the deflationary effect of PATH_2 for this
-                match period. CDI: apply as negative supply signal.
-  Note:         PATH_2 LOSS = minting is a NEGATIVE signal — not neutral.
+  Note:         PATH_2 LOSS = minting is a NEGATIVE supply signal.
                 Each LOSS mints tokens that future WINs must re-burn.
-  
+
 RECORD 3 — Arsenal DRAW (no supply change)
   Date:         15/04/2026
-  Competition:  UEFA Champions League 2025-26
+  Competition:  UEFA Champions League 2025-26 (qualifies — men's competitive)
   Match:        Arsenal vs Sporting CP
   Result:       DRAW (0–0)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    No change — 0 burned, 0 minted
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
-  Signal:       DRAW = supply neutral. No on-chain transaction expected.
-                Confirm absence of transaction on chiliscan.com.
 
 CUMULATIVE $AFC FTP SUPPLY MOVEMENT (April 2026 records):
   Total burned:  159,025 $AFC (Record 1 — UCL WIN)
@@ -266,5 +373,6 @@ CUMULATIVE $AFC FTP SUPPLY MOVEMENT (April 2026 records):
 
 ---
 
-*SportMind v3.97.2 · MIT License · sportmind.dev*
-*Source: fantokens.com/fan-token-play — VERIFIED*
+*SportMind v3.97.9 · MIT License · sportmind.dev*
+*Primary source: chiliz.com/chiliz-group-announces-gamified-fan-tokens-including-disruptive-new-mint-and-burn-tokenomics/ — VERIFIED*
+*Announced: 09 April 2026 — Chiliz Group official*
