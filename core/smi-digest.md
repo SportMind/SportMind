@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.8 — 2026-05-08
-**Library state:** 610 files · 391 markdown · 177 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.9 — 2026-05-08
+**Library state:** 610 files · 391 markdown · 178 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -61,10 +61,30 @@ FTP PATH_2 status:
   Model 1 — Treasury/Smart Contract:    DOCUMENTED (gamified-tokenomics-intelligence/)
   Model 2 — Prediction Market:          DOCUMENTED (fan-token/ftp-path2.md)
   $AFC PATH_2 confirmed:                Model 2 — April 2026
+  Mechanics fully confirmed (v3.97.9 — Chiliz official, April 2026):
+    Pre-liquidation ratio: 1/400 of total supply per qualifying match
+    Stop-loss: burns cease at 75% net reduction or treasury = 0%
+    Credit burns: wins at stop-loss generate credits offsetting future mints
+    Vesting cap: 12.5%/year of treasury (not active for any club yet)
+    Annual inflation (Model 1): 1–5% linked to season performance
+    Scope: men's competitive first-team only (no friendlies/pre-season/women's)
+    Execution windows: liquidations ≤48h pre-kickoff · buybacks ≤48h post-result
+  
+  CONFIRMED MECHANICS (v3.97.9 — Chiliz official, April 2026):
+    Pre-liquidation ratio:  1/400 of total supply per qualifying match
+    Stop-loss floor:        75% net supply reduction OR treasury = 0%
+    Credit burn system:     Wins at stop-loss generate credits offsetting future mints
+    Vesting cap:            12.5% of treasury/year (not active for any club yet)
+    Annual inflation:       1–5% seasonal rate (Model 1, linked to season performance)
+    Scope:                  Official men's first-team competitive matches only
+                            Friendlies, pre-season, women's, academy — excluded
+    Execution windows:      Liquidations ≤48h pre-kickoff | Buybacks ≤48h post-result
 
 Known gaps:
-  - Model 2 pre-liquidation signal timing: calibration records needed
-    (T-12h to T-2h liquidation window — only $AFC records exist so far)
+  - Model 2 pre-liquidation mechanics: FILLED (v3.97.9) — 1/400 ratio
+    confirmed from Chiliz official. Remaining gap: pre-match liquidation
+    volume calibration records (the timing window is now confirmed; actual
+    on-chain volume records during the window are still needed)
   - Middle East fan token market: thin; no Gulf/Saudi-specific intelligence
   - Women's football fan tokens: not modelled
   - Esports fan tokens: intelligence exists but thinner than football tier
@@ -221,10 +241,11 @@ Upcoming calibration events:
 5. Latin America regulatory status — macro layer thin
    Action: Brazil partial; Argentina, Colombia, Mexico not covered
    
-6. FanToken.com Model 2 pre-liquidation calibration records needed
-   Action: T-12h to T-2h liquidation window records for $AFC — 3 post-match
-   records exist (Apr 7/11/15) but no pre-match liquidation volume records
-   yet. Pre-match timing window records are the remaining gap.
+6. Model 2 pre-liquidation calibration records needed
+   Mechanics now fully confirmed (v3.97.9). Remaining gap: empirical records
+   documenting actual pre-liquidation amounts on chiliscan.com to verify the
+   1/400 ratio in live conditions and build WIN pool size prediction models.
+   Action: collect pre-match chiliscan.com data for next $AFC qualifying match.
    
 7. UCL Final T-48h, T-24h, T-2h signal updates
    Action: v3.97.7 signal is PLANNING quality (T-22 days). Execution-quality
@@ -251,6 +272,10 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   Arab News Sport (arabnews.com/sport)  SPL fixtures, results, signings — v3.97.8
   spl.com.sa                       Saudi Pro League official standings/schedules — v3.97.8
   pif.gov.sa                       PIF investment decisions and announcements — v3.97.8
+  chiliz.com (FTP announcement)    Fan Token Play mechanics — primary source — v3.97.9
+  chiliz.com (FTP explainer)       Win-and-burn explainer — secondary source — v3.97.9
+  chiliz.com/chiliz-group-announces-gamified-fan-tokens-...  FTP mechanics — v3.97.9
+  chiliz.com/win-and-they-burn-lose-and-they-mint-...        FTP explainer — v3.97.9
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -261,6 +286,8 @@ MACRO EVENTS PROCESSED:
   CLARITY Act markup — UNVERIFIED/MONITOR (2026-05-08)
   UCL Final pre-match signal published — v3.97.7 (2026-05-08)
   Saudi Pro League intelligence built — Layers 1, 2, 3 — v3.97.8 (2026-05-08)
+  FTP PATH_2 seven mechanics confirmed — v3.97.9 (2026-05-08)
+  FTP PATH_2 seven confirmed mechanics — Chiliz Group official — v3.97.9 (2026-05-08)
 ```
 
 ---
@@ -285,11 +312,13 @@ FIELD PRIORITIES:
   Calibration count:    Always accurate — check community/calibration-data/
   Regulatory status:    Always current — check macro/macro-regulatory-sportfi.md
   FTP PATH_2 tokens:    Always current — check fan-token/ftp-path2.md
+                        Key: 1/400 pre-liquidation ratio now confirmed (calculable)
+                        Key: credit burn check required before any loss/mint signal
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.8 · MIT License · sportmind.dev*
+*SportMind v3.97.9 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*

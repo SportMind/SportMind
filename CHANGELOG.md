@@ -1,5 +1,57 @@
 # Changelog
 
+## [3.97.10] — 2026-05-08
+
+### Added — fan-token/arsenal.md + fan-token/supply-intelligence.md
+
+Two new fan-token/ root files providing supply intelligence infrastructure.
+
+fan-token/supply-intelligence.md (190L):
+  Template and framework for supply intelligence across all active tokens.
+  Template fields:
+    circulating_supply, total_supply, circulation_ratio,
+    last_ftp_event (amount, direction, date, match),
+    net_ftp_change_ytd, pre_liquidation_pool (1/400 calculated),
+    stop_loss_status, credit_balance, supply_source_url, verified_date
+  $AFC populated block with live data (verified 2026-05-08).
+  Signal implications by supply state (circulation ratio, stop-loss,
+    deflationary/inflationary status, pre-liquidation pool size).
+  Update protocol: when to update, fields to update after FTP events,
+    data freshness rule (7-day for active tokens, flag >14 days stale).
+  Calculation formulas: pre-liquidation pool, stop-loss threshold,
+    net YTD interpretation, circulation ratio context.
+
+fan-token/arsenal.md (208L):
+  Single-token reference file for $AFC (Arsenal FC Fan Token).
+  Consolidates supply intelligence, FTP PATH_2 mechanics, competition
+  standing, athlete flags, CDI weights, and regulatory context.
+
+  SUPPLY DATA (source: fantokens.com/trade/arsenal-fan-token, 2026-05-08):
+    circulating_supply:    ~44,600,000 tokens
+    total_supply:          ~84,100,000 tokens
+    circulation_ratio:     53%
+    last_ftp_event:        −159,025 burned (UCL Apr 7, Arsenal WIN)
+    net_ftp_change_ytd:    −59,025 (deflationary — net burn > net mint)
+    pre_liquidation_pool:  ~111,500 tokens (44.6M ÷ 400)
+    stop_loss_status:      CLEAR
+    verified_date:         2026-05-08
+
+  FTP PATH_2 SIGNAL CHAIN:
+    Complete 4-step reasoning chain including scope check (step 0),
+    pre-liquidation monitoring, result confirmation, supply update.
+    UCL Final context: 250–500k estimated burn if Arsenal WIN.
+
+  COMPETITION STANDING:
+    UCL 2025-26 FINALIST | opponent: PSG | 30 May 2026
+    FTP calibration records: April 2026 (3 records — WIN/LOSS/DRAW)
+
+  CDI WEIGHTS:
+    Sports catalyst 30% | Supply mechanics 25% (unique to $AFC) |
+    Market flows 20% | Social 15% | Macro 10%
+    Note: 25% supply mechanics weight is unique — PATH_2 Model 2 confirmed.
+
+Library: 610→612 files, 391→393 md. OG image regenerated.
+
 ## [3.97.9] — 2026-05-08
 
 ### Added — fan-token/ftp-path2.md: seven confirmed mechanics from Chiliz official
