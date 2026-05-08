@@ -1,5 +1,94 @@
 # Changelog
 
+## [3.97.8] — 2026-05-08
+
+### Added — Saudi Pro League intelligence: Layers 1, 2, 3 (highest priority gap filled)
+
+Note: release requested as v3.73.0 — corrected to v3.97.8 (sequential
+from v3.97.7; v3.73.0 predates the current library by ~25 versions).
+
+THREE NEW FILES — Saudi Pro League intelligence across three layers:
+
+sports/football/sport-domain-football-saudi-pro-league.md (474L):
+  Layer 1 supplementary domain file. Extends sport-domain-football.md.
+  League overview: PIF ownership structure, 18-club format, season rhythm.
+  Summer transfer window as primary SPL signal (35% signal weight — unique).
+  Signal variables: star acquisitions, high-profile performance, PIF news.
+  Risk variables: extreme heat (Aug–Sep modifier ×0.90), Ramadan scheduling
+    (pre-Iftar ×0.92 / post-Iftar ×1.00), travel fatigue (×0.92 for 2 matches).
+  4 playbooks: star signing, PIF derby, Ramadan compression, fan token launch.
+  Key Commands: get_spl_star_availability, get_spl_transfer_signal,
+    get_spl_match_signal, get_heat_modifier, get_ramadan_modifier.
+  Signal weight table: transfer 35%, star availability 25%, match result 20%.
+  Calibration notes: broadcast_reach_modifier = 0.75 (0.90 for PIF derby).
+  Fan token status: no active tokens; PIF Four are highest probability launchers.
+
+athlete/football/athlete-intel-saudi-pro-league.md (349L):
+  Layer 2 supplementary athlete intelligence. Extends athlete-intel-football.md.
+  Three high-profile player profiles:
+    Ronaldo (Al Nassr): ATM ×0.55–1.50 (widest range in library).
+      Fit+scoring: ×1.50 | Absent: ×0.65 | Age load: monitor closely.
+    Benzema (Al Ittihad): ATM ×0.70–1.35.
+      Volatile availability — do not assume fit without confirmation.
+    Neymar (Al Hilal): ATM ×0.75–1.45.
+      ASSUME UNAVAILABLE until Tier 1 confirmation. ACL history.
+      Return announcement = signal event before fitness confirmed.
+  Form translation table: SPL stats ×0.65 vs European equivalents.
+  Heat injury risk modifier (Aug–Sep, first season): ×1.15 elevated risk.
+  Composite modifier range: 0.55 (Ronaldo absent) to 1.50 (Ronaldo fit+form).
+
+market/market-saudi-pro-league.md (321L):
+  Layer 3 market intelligence.
+  Fan Token™ readiness: Tier B → Tier A (near-term, high probability).
+  Addressable market: 10–15M globally; GCC crypto adoption HIGH.
+  PIF structure: 75% ownership of four clubs; Vision 2030 mandate.
+  FT launch probability: Al Nassr first (35% by 2026, 60% by 2027).
+  ×1.40 first-mover CDI modifier on confirmed launch.
+  KSA regulatory blocker: CMA/SAMA clearance required — single biggest risk.
+  Transfer market impact on European tokens: 4–8 week signal window.
+  PIF commercial mandate: unlimited backing; long-term strategic; no debt ceiling.
+
+UPDATES:
+  core/sport-tiers.md: Tier B count 5→6; saudi-pro-league added with
+  HIGHEST PROMOTION PROBABILITY note; SPL promotion trigger documented.
+  core/smi-digest.md: Version updated to v3.97.8; SPL gap marked PARTIALLY
+  FILLED across Layers 1, 2, 3; remaining gaps noted (KSA macro, calibration).
+
+Library: 607→610 files, 388→391 md, market 43→44. OG image regenerated.
+
+## [3.97.7-digest] — 2026-05-08
+
+### Fixed — core/smi-digest.md updated for v3.97.7
+
+core/smi-digest.md:
+  Last updated: v3.97.5 → v3.97.7 | date: 2026-05-08
+  
+  Layer 3 updated:
+    UCL Final pre-match signal referenced:
+      examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+    $AFC WIN → ~300–500k burned noted (largest potential burn in history)
+    fan-token/ftp-path2.md referenced as model documentation source
+  
+  Gaps updated:
+    Gap 6 (Model 2 pre-liquidation): clarified that post-match records exist
+    (Apr 7/11/15) — remaining gap is pre-match liquidation volume records.
+    Gap 7 NEW: UCL Final T-48h/T-24h/T-2h signal updates required before
+    May 30. v3.97.7 signal is PLANNING quality only. Saka is critical flag.
+    Gap 8 (was 7): Women's football market renumbered.
+  
+  Sources added:
+    banking.senate.gov/hearings — CLARITY Act monitoring (UNVERIFIED)
+    athlete/football/athlete-intel-football.md — knockout modifier confirmed
+    UCL Final pre-match signal — v3.97.7 production example noted
+  
+  Macro events updated:
+    CLARITY Act markup — UNVERIFIED/MONITOR (2026-05-08) added
+    UCL Final pre-match signal published — noted
+  
+  Calibration upcoming events added:
+    UCL Final 30 May — $AFC PATH_2 record (WIN/LOSS/DRAW)
+    Pre-match liquidation window to collect (T-12h to T-2h, 30 May)
+
 ## [3.97.7] — 2026-05-08
 
 ### Added — UCL Final 2026 pre-match signal: PSG vs Arsenal

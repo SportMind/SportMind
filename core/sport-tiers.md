@@ -56,16 +56,27 @@ TIER B DEFINITION:
                 If a new fan token launches, immediately reclassify to
                 Tier A and run Phase 1 CDI baseline protocol within 72h.
 
-CURRENT TIER B SPORTS (5):
-  rugby-union       — Large global fanbase, premiership clubs Chiliz-adjacent
-  tennis            — ATP/WTA commercial scale; individual player tokens possible
-  athletics         — World Athletics; national federation token potential
-  esports           — Multiple game titles with existing token activity via Chiliz
-  rugby-league      — Super League; regional fanbase with digital engagement
+CURRENT TIER B SPORTS (6):
+  rugby-union        — Large global fanbase, premiership clubs Chiliz-adjacent
+  tennis             — ATP/WTA commercial scale; individual player tokens possible
+  athletics          — World Athletics; national federation token potential
+  esports            — Multiple game titles with existing token activity via Chiliz
+  rugby-league       — Super League; regional fanbase with digital engagement
+  saudi-pro-league   — HIGHEST PROMOTION PROBABILITY in Tier B. PIF-owned clubs
+                       (Al Nassr, Al Hilal, Al Ittihad, Al Ahli), global stars
+                       (Ronaldo, Benzema), explicit Vision 2030 digital mandate.
+                       KSA crypto regulatory position is the primary blocker.
+                       See: sports/football/sport-domain-football-saudi-pro-league.md
 
 TIER B PROMOTION TRIGGERS:
   Any confirmed fan token announcement from Chiliz, Socios, or FanToken.com
   for a Tier B sport → immediately reclassify to Tier A
+  
+  SAUDI PRO LEAGUE SPECIFIC:
+    Promotion trigger = PIF club fan token launch announcement (Tier 1 source)
+    OR KSA regulatory clearance for fan tokens + PIF partnership announcement
+    When confirmed: load market/market-saudi-pro-league.md immediately
+    Apply ×1.40 first-mover CDI modifier (largest unserved GCC market)
   Apply new_fan_token event type in Intelligence Listener:
     event_type: "new_fan_token" → tier_upgrade: "B → A"
   Load fan-token-lifecycle.md Phase 1 protocol within 72h of launch

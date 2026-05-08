@@ -5,7 +5,7 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.5 — May 2026
+**Last updated:** v3.97.8 — 2026-05-08
 
 ---
 
@@ -20,8 +20,9 @@ Tier C (stubs):  32 remaining sports
 Known gaps:
   - Esports: sport domain playbook incomplete (multiple game titles need
     individual playbooks — CSGO, LoL, Dota 2 not fully differentiated)
-  - Saudi Pro League: no dedicated sport domain file; coverage via football
-    domain only — thin signal for SPL-specific variables
+  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
+    sports/football/sport-domain-football-saudi-pro-league.md created.
+    Remaining gap: zero calibration records; modifiers unverified.
   - MLS: covered via american-football domain; club-level intelligence thin
 
 Modifiers needing update: none flagged
@@ -37,8 +38,10 @@ Source: core/sport-tiers.md (quarterly review: Jan/Apr/Jul/Oct)
 Coverage:        29 sports
 
 Known gaps:
-  - Saudi Pro League: athlete profiles sparse (Ronaldo, Benzema era intelligence
-    built; broader SPL roster intelligence thin)
+  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
+    athlete/football/athlete-intel-saudi-pro-league.md created.
+    Covers Ronaldo, Benzema, Neymar profiles and heat/load modifiers.
+    Remaining gap: composite modifier values unverified (0 calibration records).
   - MLS: athlete modifier profiles thin for non-DP (Designated Player) slots
   - Esports: player-level intelligence at roster level only; individual
     performance modifiers not built for most titles
@@ -72,10 +75,14 @@ Active tokens tracked (Tier A — BRIDGE_LIVE confirmed):
   + $CHZ (native chain token) + $PEPPER
 
 FTP PATH_2 live data source: fantokens.com/fan-token-play
+FTP model documentation: fan-token/ftp-path2.md (Model 1 + Model 2)
 UCL 2025-26 context:
   $AFC ucl_standing: FINALIST | opponent: PSG
   $PSG ucl_standing: FINALIST | opponent: Arsenal
   UCL Final: 30 May 2026, Puskás Aréna, Budapest
+  Pre-match signal: examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+  $AFC WIN → ~300–500k burned (largest potential $AFC burn in history)
+  $PSG: demand-only signal — no confirmed supply mechanic
   
 Omnichain status (confirmed April 2026):
   18 tokens: MULTICHAIN_ACTIVE + BRIDGE_LIVE
@@ -92,8 +99,10 @@ Omnichain status (confirmed April 2026):
 Coverage:        43 documents
 
 Known gaps:
-  - Saudi Pro League: commercial tier not assessed; SPL TV deal and
-    sponsorship structure not modelled
+  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
+    market/market-saudi-pro-league.md created.
+    Covers PIF structure, fanbase, FT launch probability, transfer impact.
+    Remaining gap: KSA regulatory position not fully mapped in macro layer.
   - MLS: fanbase depth thin; US market post-fan-token regulatory
     clarity not fully modelled
   - Middle East market expansion: not modelled (UAE, Qatar, Saudi
@@ -180,6 +189,11 @@ Cumulative $AFC FTP (April 2026):
   Net supply reduction: 59,025 $AFC (159,025 burned − 100,000 minted)
 
 Modifiers flagged for recalibration: none
+
+Upcoming calibration events:
+  UCL Final 30 May 2026 — $AFC PATH_2 result (WIN/LOSS/DRAW)
+  Expected largest single $AFC PATH_2 record if Arsenal WIN (~300–500k burned)
+  Pre-match liquidation data to collect May 30 T-12h to T-2h window
 ```
 
 ---
@@ -187,8 +201,11 @@ Modifiers flagged for recalibration: none
 ## KNOWN LIBRARY GAPS — PRIORITY ORDER
 
 ```
-1. Saudi Pro League — sport domain, athlete, and market layers all thin
-   Action: community contribution priority; stub files exist in sports/
+1. Saudi Pro League — PARTIALLY FILLED (v3.97.8)
+   Filled: Layer 1 (sport domain), Layer 2 (athlete intel), Layer 3 (market)
+   Remaining: KSA macro regulatory (macro layer), calibration records (0),
+   MLS intelligence, esports playbook completion
+   Immediate next: submit first 5 SPL calibration records (PIF derby outcomes)
    
 2. Middle East regulatory framework — macro layer missing
    Action: monitor UAE VARA and Saudi SAMA for classification guidance
@@ -204,10 +221,16 @@ Modifiers flagged for recalibration: none
    Action: Brazil partial; Argentina, Colombia, Mexico not covered
    
 6. FanToken.com Model 2 pre-liquidation calibration records needed
-   Action: T-12h to T-2h liquidation window records for $AFC; expand to
-   other Model 2 tokens when confirmed
+   Action: T-12h to T-2h liquidation window records for $AFC — 3 post-match
+   records exist (Apr 7/11/15) but no pre-match liquidation volume records
+   yet. Pre-match timing window records are the remaining gap.
    
-7. Women's football market and fan tokens — not modelled
+7. UCL Final T-48h, T-24h, T-2h signal updates
+   Action: v3.97.7 signal is PLANNING quality (T-22 days). Execution-quality
+   signals required at T-48h (lineups emerging), T-24h (team news), T-2h
+   (confirmed lineups). Saka availability is the critical athlete flag.
+   
+8. Women's football market and fan tokens — not modelled
    Action: WSL, NWSL, Liga F fan token pipeline monitoring needed
 ```
 
@@ -222,6 +245,8 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   chiliscan.com                    On-chain verification (Chiliz Chain explorer)
   legislation.gov.uk               UK SI 2026/102 regulatory source
   @Chiliz (official X)             Bridge live confirmation, omnichain launch
+  banking.senate.gov/hearings      CLARITY Act — monitoring (UNVERIFIED)
+  athlete/football/athlete-intel-football.md   Knockout modifier confirmed
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -229,6 +254,8 @@ MACRO EVENTS PROCESSED:
   Decimal migration — all Fan Tokens 0 → 18 decimal (April 27, 2026)
   $AFC PATH_2 Model 2 confirmed — April 2026
   UCL 2025-26 Final confirmed — PSG vs Arsenal, May 30, Budapest
+  CLARITY Act markup — UNVERIFIED/MONITOR (2026-05-08)
+  UCL Final pre-match signal published — v3.97.7 (2026-05-08)
 ```
 
 ---
@@ -259,5 +286,5 @@ FIELD PRIORITIES:
 
 ---
 
-*SportMind v3.97.5 · MIT License · sportmind.dev*
+*SportMind v3.97.8 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*
