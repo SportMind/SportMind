@@ -1,5 +1,66 @@
 # Changelog
 
+## [3.97.5] — 2026-05-07
+
+### Added — core/smi-digest.md: SportMind Intelligence State Digest
+
+Note: release requested as v3.71.0 — corrected to v3.97.5 (sequential
+from v3.97.4; v3.71.0 predates the current library by ~27 versions).
+
+core/smi-digest.md (263L) — NEW FILE:
+  Agent reference state summary. Lightweight context load before full layer
+  skills. Designed for SMI agent reference context. Updated each release.
+
+  LAYER COVERAGE SUMMARY:
+    Layer 1: 42 sports | Tier A: 6 | Tier B: 5 | Tier C: 32
+    Layer 2: 29 sports
+    Layer 3: 65 skills | FTP Model 1 + Model 2 documented | 18 BRIDGE_LIVE
+    Layer 4: 43 documents
+    Layer 5: 9 documents | UK STATUTORY_REGIME_ENACTED | US NON_SECURITY | EU MiCA
+    Layer 6: 6 skills (Telegram deployment intelligence)
+
+  CALIBRATION STATE:
+    129 records | 96% accuracy | Tier A priority active
+    Last FTP PATH_2 records: $AFC April 2026 (WIN/LOSS/DRAW confirmed)
+
+  KNOWN GAPS (7, priority ordered):
+    1. Saudi Pro League (all layers thin)
+    2. Middle East regulatory framework (macro missing)
+    3. MLS (market/athlete thin)
+    4. Esports playbook (incomplete)
+    5. Latin America regulatory (thin)
+    6. Model 2 pre-liquidation calibration records
+    7. Women's football market (not modelled)
+
+  CURRENT INTELLIGENCE STATE SNAPSHOTS:
+    UCL Final: PSG vs Arsenal, 30 May 2026, Budapest
+    $AFC/$PSG ucl_standing: FINALIST
+    UK: STATUTORY_REGIME_ENACTED (SI 2026/102, gateway 2026-09-30)
+    US: LEGALLY_DEFINED/NON_SECURITY (Mar 17, 2026)
+    18 tokens: MULTICHAIN_ACTIVE + BRIDGE_LIVE
+    Decimal migration: complete (April 27, 2026)
+
+  ACCURACY CORRECTIONS vs BRIEFING:
+    Layer 3: 65 skills (briefing said 37 — stale count from earlier release)
+    Layer 4: 43 documents (briefing said 42)
+    Calibration: 129 records (briefing said "126 plus recent additions")
+    Version: v3.97.5 (briefing said v3.71.0 — sequential correction applied)
+
+Library: files 605→606, md 386→387, core 60→61. OG image regenerated.
+
+## [3.97.4] — 2026-05-07
+
+### Fixed — Intelligence Agent card subtitle: repo slug → display name
+
+index.html — Suite section, Card 3 subtitle:
+  Was: "sportmind-intelligence-agent" (GitHub repository slug)
+  Now: "Intelligence Agent" (correct display name, space-separated)
+
+All three subtitles now use consistent display names:
+  Card 1: Fan Token Agentic Wallet Starter Kit
+  Card 2: Telegram AI Bot Starter Kit
+  Card 3: Intelligence Agent
+
 ## [3.97.3] — 2026-05-07
 
 ### Fixed — kit-subtitle CSS missing from suite cards
