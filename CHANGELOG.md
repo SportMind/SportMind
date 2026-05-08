@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.97.7] — 2026-05-08
+
+### Added — UCL Final 2026 pre-match signal: PSG vs Arsenal
+
+examples/calibration/ucl-final-2026-psg-arsenal-signal.md (313L):
+  Full SportMind pre-match signal for the 2026 UEFA Champions League Final.
+  Match: PSG vs Arsenal · Puskás Aréna, Budapest · 30 May 2026 · 18:00 CEST
+
+  SIGNAL OUTPUT:
+    direction:          DRAW/HOME (marginal PSG edge at T-22 days)
+    adjusted_score:     61.8 / 100
+    sms:                58
+    recommended_action: HOLD — monitor T-48h update
+    composite_modifier: 1.08 (match importance ×1.25, athlete ×1.05,
+                         macro ×1.04, UCL Final tier ×1.15)
+    flags:              lineup_unconfirmed, high_importance_match, ucl_final,
+                        path2_active_afc, signal_requires_t48h_update
+
+  FTP PATH_2 ANALYSIS:
+    $PSG: NOT CONFIRMED for supply mechanics. Demand-only signal.
+    $AFC: Model 2 confirmed. WIN = largest $AFC burn in library history.
+    Pre-match liquidation window: 06:00–16:00 CEST, 30 May.
+    Arsenal WIN estimate: 250,000–500,000 $AFC burned permanently.
+    Arsenal LOSS estimate: 120,000–180,000 $AFC minted.
+    Probability-weighted net: −108,000 $AFC expected supply reduction.
+    Arsenal WIN probability: 42% | PSG WIN: 40% | Draw: 18%
+
+  MACRO CONTEXT:
+    Cycle phase: NEUTRAL → mild BULL | macro_modifier: 1.04
+    CHZ virtuous cycle active; omnichain expansion in effect.
+    UK: STATUTORY_REGIME_ENACTED — no friction for UK $AFC holders pre-May 30.
+    US: LEGALLY_DEFINED/NON_SECURITY — largest accessible audience in fan token history.
+    BTC dominance context: UCL Final can produce uncorrelated fan token moves.
+
+  ATHLETE INTELLIGENCE:
+    PSG ATM modifier: ×1.05 — expected full squad; Ramos physical load watch.
+    Arsenal ATM modifier: ×1.05 — Saka the critical flag.
+    Saka FIT → Arsenal ×1.10 (+4–6 points to adjusted score).
+    Saka ABSENT → Arsenal ×0.85 (−8–10 points to adjusted score).
+    No confirmed suspensions either side at library state (May 8, 2026).
+
+  PLAIN ENGLISH SUMMARY (community channel ready):
+    3 paragraphs. No jargon. PSG marginal edge. $AFC PATH_2 stakes explained.
+    Omnichain context. Largest potential $AFC supply event in history.
+
+  NOTE: Signal is PLANNING quality at T-22 days.
+  EXECUTION quality requires T-48h, T-24h, T-2h re-runs with confirmed lineups.
+
+Library: 606→607 files, 387→388 md, examples 43→44. OG image regenerated.
+Note: v3.72.0 requested — corrected to v3.97.7 (sequential from v3.97.6).
+
 ## [3.97.6] — 2026-05-08
 
 ### Added — US CLARITY Act markup signal (Tier 2 / UNVERIFIED — MONITOR)
