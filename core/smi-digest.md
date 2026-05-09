@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.10 — 2026-05-08
-**Library state:** 612 files · 393 markdown · 179 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.12 — 2026-05-09
+**Library state:** 613 files · 394 markdown · 181 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -252,6 +252,10 @@ Upcoming calibration events:
    1/400 ratio in live conditions and build WIN pool size prediction models.
    Action: collect pre-match chiliscan.com data for next $AFC qualifying match.
    
+6b. Tier A supply intelligence — other tokens:
+   $AFC populated in supply-intelligence.md (v3.97.10). Remaining Tier A
+   tokens ($PSG $BAR $JUV $ACM $CITY $INTER etc.) need supply blocks added.
+   
 7. UCL Final T-48h, T-24h, T-2h signal updates
    Action: v3.97.7 signal is PLANNING quality (T-22 days). Execution-quality
    signals required at T-48h (lineups emerging), T-24h (team news), T-2h
@@ -295,6 +299,8 @@ MACRO EVENTS PROCESSED:
   FTP PATH_2 seven mechanics confirmed — v3.97.9 (2026-05-08)
   FTP PATH_2 seven confirmed mechanics — Chiliz Group official — v3.97.9 (2026-05-08)
   $AFC supply intelligence verified — fan-token/arsenal.md — v3.97.10 (2026-05-08)
+  CLARITY Act markup alert — FALSE TRIGGER resolved — v3.97.11 (2026-05-09)
+  Intelligence briefing agent protocol published — v3.97.12 (2026-05-09)
 ```
 
 ---
@@ -324,11 +330,14 @@ FIELD PRIORITIES:
   $AFC CDI weights:     Supply mechanics 25% (unique — PATH_2 Model 2 confirmed)
                         Pre-liquidation pool: ~111,500 tokens (44.6M ÷ 400)
                         UCL Final pool: 250–500k estimated burn if Arsenal WIN
+  False signal protocol: check core/intelligence-briefing-agent.md
+                        Scenario 1 (not actioned): documentation note only
+                        Scenario 2 (already actioned): revert prompt to build chat
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.10 · MIT License · sportmind.dev*
+*SportMind v3.97.12 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*

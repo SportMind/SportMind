@@ -210,97 +210,91 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 
 
 ```
-CLARITY ACT — LEGISLATIVE MARKUP IN PROGRESS (UNVERIFIED — MONITOR)
+CLARITY ACT — LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
 
-  Source:       US Senate Banking Committee via specialist industry press
-  Source URL:   https://www.banking.senate.gov/hearings
-  Signal date:  2026-05-08
-  Verification: UNVERIFIED — committee record pending official update
-  Tier:         2 (credible signal requiring interpretation — not Tier 1
-                   due to unverified status; do NOT treat as confirmed law)
+  Source:           US Senate Banking Committee — official committee ledger
+  Source URL:       https://www.banking.senate.gov/hearings/05/08/2026/executive-session
+  Confirmed:        2026-05-09 (published 2026-05-08 on committee website)
+  Verification:     VERIFIED — Tier 1 primary source (official committee record)
+  Bill:             H.R.3633 — Digital Asset Market Clarity Act of 2025
 
-  WHAT IS REPORTED:
-    The US Senate Banking Committee is reportedly moving to a markup of the
-    CLARITY Act (digital asset market structure legislation) as early as
-    May 8–9, 2026. A markup is the formal committee-level process of reviewing,
-    amending, and voting on a bill before it advances to the full Senate.
+  WHAT IS CONFIRMED:
+    The Senate Banking Committee has officially scheduled an executive session
+    to consider H.R.3633, the Digital Asset Market Clarity Act of 2025.
+    Date:     Thursday, 14 May 2026
+    Time:     10:30 AM EST
+    Location: 538 Dirksen Senate Office Building
+    Format:   Executive session (markup — committee debate and amendment process)
+    Broadcast: Webcast live (available once proceedings begin)
+    Chairman: Tim Scott — targeting completion before 21 May (Memorial Day recess)
 
-  WHAT THIS MEANS IF CONFIRMED:
-    Legislative_milestone: LEGISLATIVE_MARKUP_IN_PROGRESS
-    Milestone_date: 2026-05-08 (if markup proceeds as reported)
-    Significance: First official committee-level movement on the CLARITY Act.
-    Shifts US from guidance-based regime toward a statutory framework.
-    Reduces long-term regulatory tail risk for US digital asset markets.
+  LEGISLATIVE CONTEXT:
+    House passage: July 2025 — bipartisan 294–134 vote
+    Senate delay: Stalled since January 2026 — Coinbase withdrew support over
+                  stablecoin yield provisions, DeFi, SEC/CFTC balance
+    Compromise: Senators Thom Tillis and Angela Alsobrooks (May 1, 2026) —
+                bans passive stablecoin yield; permits activity-based rewards
+    Text status: Still being finalised — additional Democratic edits expected
+    White House target: July 4, 2026 (US 250th anniversary) for signature
 
-  WHAT THIS DOES NOT CHANGE (confirmed intelligence is not displaced):
-    US_regulatory_status:    LEGALLY_DEFINED / NON_SECURITY — UNCHANGED
-    SEC/CFTC joint guidance: CONFIRMED (March 17, 2026) — UNCHANGED
+  WHAT THIS MEANS:
+    legislative_milestone:  LEGISLATIVE_MARKUP_IN_PROGRESS
+    milestone_date:         2026-05-14
+    regulatory_direction:   US moving from guidance-based → statutory framework
+    Significance:           First formal Senate committee-level action on CLARITY Act
+                            Reduces long-term regulatory tail risk for US digital assets
+    Remaining hurdles:      60-vote Senate floor threshold | Senate Agriculture Committee
+                            reconciliation | Democratic caucus alignment | White House
+
+  WHAT THIS DOES NOT CHANGE (confirmed intelligence remains operative):
+    US_regulatory_status:     LEGALLY_DEFINED / NON_SECURITY — UNCHANGED
+    SEC/CFTC joint guidance:  CONFIRMED (March 17, 2026) — UNCHANGED
     Fan Token™ classification: digital collectibles / digital tools — UNCHANGED
-    
-    The March 2026 guidance is confirmed Tier 1 and remains the operative
-    framework. The CLARITY Act markup, if confirmed, would add a statutory
-    layer on top of — not instead of — the existing guidance.
+    The March 2026 guidance is Tier 1 confirmed and remains the operative
+    framework. The CLARITY Act adds a statutory layer — it does not replace
+    existing guidance.
 
-  AGENT IMPLICATIONS (conditional — apply only if markup confirmed):
-    If CLARITY Act markup confirmed (Tier 1 source required):
-      → Apply LEGISLATIVE_MARKUP_IN_PROGRESS flag to US macro state
-      → Upgrade US regulatory_clarity: MEDIUM_HIGH → HIGH
-      → Probability of US statutory regime by Q4 2026: elevated
-      → US fan token first-mover advantage window: narrowing (statutory
-         regime creates clearer rules but also compliance costs for latecomers)
-    
-    If markup not confirmed or stalls:
-      → Maintain current US status (LEGALLY_DEFINED/NON_SECURITY)
-      → No macro modifier change
-      → Remove LEGISLATIVE_MARKUP_IN_PROGRESS flag
+  AGENT IMPLICATIONS (apply immediately — Tier 1 confirmed):
+    legislative_markup_in_progress: true
+    markup_date: 2026-05-14
+    regulatory_clarity: MEDIUM_HIGH → HIGH (statutory process formally underway)
+    US fan token first-mover advantage window: NARROWING
+      Statutory regime creates clear rules but also compliance costs —
+      clubs and platforms that engaged early are structurally advantaged.
+    Macro modifier adjustment: apply +0.02 additional US market confidence
+      modifier alongside existing NEUTRAL/BULL base modifier.
 
-  MONITORING ACTION:
-    Watch: https://www.banking.senate.gov/hearings for official committee record
-    Watch: Congressional press releases for markup confirmation
-    Watch: Senate Banking Committee voting record (May 8–9, 2026 window)
-    Tier 1 confirmation sources: banking.senate.gov, congress.gov, official press releases
-    
-    When confirmed → upgrade to Tier 1 and update US regulatory status to
-    include STATUTORY_REGIME_IN_PROGRESS (analogous to UK STATUTORY_REGIME_ENACTED)
+  MONITOR POST-MARKUP:
+    Outcome A — Bill passes committee: upgrade to STATUTORY_REGIME_IN_PROGRESS
+                → next milestone is Senate floor vote (60-vote threshold)
+    Outcome B — Bill stalled/amended significantly: revert to MONITOR status
+    Source: https://www.banking.senate.gov/hearings (live webcast 14 May)
 ```
 
 ```
-CLARITY ACT — FALSE POSITIVE CALIBRATION NOTE
+CLARITY ACT — SIGNAL HISTORY (calibration record)
 
-  Date of false signal:   2026-05-08 (received ~01:10 UTC via specialist press)
-  Date of self-correction: 2026-05-09 03:40 UTC
-  Resolved by:            SMI verification protocol — primary source audit
-  Primary source audited: US Senate Banking Committee official ledger
-                          (banking.senate.gov)
+  SIGNAL 1: 2026-05-08 01:10 UTC
+    Source:   Specialist industry press (no primary source at time of receipt)
+    Tier:     2 — UNVERIFIED (correctly held — banking.senate.gov not yet updated)
+    Outcome:  Held at Tier 2; no library update
 
-  WHAT HAPPENED:
-    At 01:10 UTC on 2026-05-09, an alert was received claiming the CLARITY Act
-    markup was scheduled for May 14, 2026.
-    SMI classified it as Tier 2 (UNVERIFIED — MONITOR) rather than Tier 1,
-    consistent with the SportMind intake framework (specialist press without
-    committee record = Tier 2 maximum).
-    At 03:40 UTC, SMI audited banking.senate.gov directly and found no
-    confirmation of a scheduled markup in the committee's official record.
-    Signal was reclassified as FALSE TRIGGER — RESOLVED.
+  FALSE TRIGGER: 2026-05-09 03:40 UTC
+    SMI audited banking.senate.gov — no committee record found at that time
+    Reclassified: FALSE TRIGGER — RESOLVED
+    Note: The committee published the official notice on 2026-05-08 EST;
+          the false trigger audit was conducted before banking.senate.gov
+          fully reflected the scheduling (US timezone lag)
+    Calibration: Documented in macro-regulatory-sportfi.md and
+                 core/intelligence-briefing-agent.md
 
-  CALIBRATION VALUE:
-    This event confirms the verification protocol is functioning correctly.
-    The two-tier classification (Tier 2 for unverified press, Tier 1 required
-    for library update) caught the error before any confirmed intelligence was
-    altered.
-    No changes were made to US_regulatory_status or CLARITY Act milestone fields.
-    LEGALLY_DEFINED / NON_SECURITY status remains operative and unchanged.
-
-  WHAT THIS MEANS FOR FUTURE CLARITY ACT SIGNALS:
-    The CLARITY Act remains a credible legislative priority (multiple press
-    reports and industry attention are consistent). The false positive does
-    not mean the markup will not happen — it means this specific alert was
-    unconfirmed.
-    Continue monitoring: banking.senate.gov/hearings (official committee record)
-    Tier 1 confirmation still required before any library update.
-
-  US regulatory status (confirmed):  LEGALLY_DEFINED / NON_SECURITY
-  CLARITY Act status (current):      UNVERIFIED — MONITOR
+  SIGNAL 2: 2026-05-09 08:05 UTC
+    Source:   banking.senate.gov/hearings (official committee website) — TIER 1
+    Verification: VERIFIED — executive session officially published
+    Action:   Library updated to LEGISLATIVE_MARKUP_IN_PROGRESS
+    Notes:    This confirms Signal 1 was accurate but arrived before official
+              publication. Verification protocol correctly required primary source.
+              False trigger was a timing issue, not a misinformation issue.
 ```
 
 

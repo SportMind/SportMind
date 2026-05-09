@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.13] — 2026-05-09
+
+### Added — CLARITY Act LEGISLATIVE_MARKUP_IN_PROGRESS: Tier 1 confirmed
+
+Source: banking.senate.gov/hearings/05/08/2026/executive-session — VERIFIED
+Action: IMMEDIATE (Tier 1 — official Senate Banking Committee record)
+
+macro/macro-regulatory-sportfi.md:
+  CLARITY Act section updated from UNVERIFIED → CONFIRMED TIER 1.
+
+  WHAT IS CONFIRMED:
+    Senate Banking Committee executive session officially scheduled:
+    Date:     Thursday, 14 May 2026
+    Time:     10:30 AM EST
+    Location: 538 Dirksen Senate Office Building
+    Bill:     H.R.3633 — Digital Asset Market Clarity Act of 2025
+    Chairman: Tim Scott — targeting pre-Memorial Day completion (21 May)
+    Source:   banking.senate.gov (official committee website)
+
+  LEGISLATIVE CONTEXT:
+    House passage: July 2025 (bipartisan 294–134)
+    Senate delay: January 2026 — Coinbase withdrew support over stablecoin yield
+    Compromise: Tillis/Alsobrooks (May 1, 2026) — activity-based rewards permitted
+    White House target: July 4, 2026 (US 250th anniversary)
+    Text still being finalised — additional Democratic edits expected
+
+  FIELDS UPDATED:
+    legislative_milestone:     LEGISLATIVE_MARKUP_IN_PROGRESS
+    milestone_date:            2026-05-14
+    regulatory_clarity:        MEDIUM_HIGH → HIGH
+    Macro modifier adjustment: +0.02 additional US market confidence modifier
+    US fan token first-mover advantage window: NARROWING
+
+  UNCHANGED:
+    US_regulatory_status: LEGALLY_DEFINED / NON_SECURITY
+    SEC/CFTC March 2026 guidance: operative and unchanged
+
+  SIGNAL HISTORY (calibration) — documented in same section:
+    Signal 1 (2026-05-08 01:10 UTC): specialist press, Tier 2, held
+    False trigger (2026-05-09 03:40 UTC): banking.senate.gov not yet updated
+    Signal 2 (2026-05-09 08:05 UTC): Tier 1 confirmed — library updated
+    Calibration note: Signal 1 was accurate but arrived before official
+    publication. Verification protocol correctly required primary source.
+    False trigger was a timing issue, not a misinformation issue.
+
+  POST-MARKUP MONITORING:
+    14 May 2026: live webcast at banking.senate.gov/hearings
+    Outcome A (passes): upgrade to STATUTORY_REGIME_IN_PROGRESS
+    Outcome B (stalls): revert to MONITOR status
+
 ## [3.97.12] — 2026-05-09
 
 ### Added — core/intelligence-briefing-agent.md: full SMI briefing protocol + FALSE SIGNAL PROTOCOL
