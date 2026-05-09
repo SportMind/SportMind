@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.97.11] — 2026-05-09
+
+### Fixed — macro/regulatory.md: CLARITY Act false positive calibration note
+
+No library intelligence changed. US regulatory status remains unchanged.
+
+macro/macro-regulatory-sportfi.md:
+  CLARITY ACT FALSE POSITIVE CALIBRATION NOTE added after the existing
+  CLARITY ACT — LEGISLATIVE MARKUP IN PROGRESS section.
+
+  WHAT HAPPENED:
+    2026-05-09 01:10 UTC: Alert received claiming CLARITY Act markup
+    scheduled May 14, 2026. SMI correctly classified as Tier 2 (UNVERIFIED)
+    per SportMind intake framework.
+    2026-05-09 03:40 UTC: SMI audited banking.senate.gov primary source
+    directly. No confirmation of scheduled markup found in official record.
+    Signal reclassified: FALSE TRIGGER — RESOLVED.
+
+  CALIBRATION VALUE:
+    Confirms verification protocol is functioning correctly.
+    Tier 2 classification (vs Tier 1) caught the error before any library
+    change was made. No confirmed intelligence was altered.
+    Documentation of false positives adds protocol calibration value.
+
+  STATUS UNCHANGED:
+    US_regulatory_status: LEGALLY_DEFINED / NON_SECURITY
+    CLARITY Act: UNVERIFIED — MONITOR
+    Monitoring target: banking.senate.gov/hearings
+
 ## [3.97.10] — 2026-05-08
 
 ### Added — fan-token/arsenal.md + fan-token/supply-intelligence.md

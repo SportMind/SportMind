@@ -264,6 +264,45 @@ CLARITY ACT — LEGISLATIVE MARKUP IN PROGRESS (UNVERIFIED — MONITOR)
     include STATUTORY_REGIME_IN_PROGRESS (analogous to UK STATUTORY_REGIME_ENACTED)
 ```
 
+```
+CLARITY ACT — FALSE POSITIVE CALIBRATION NOTE
+
+  Date of false signal:   2026-05-08 (received ~01:10 UTC via specialist press)
+  Date of self-correction: 2026-05-09 03:40 UTC
+  Resolved by:            SMI verification protocol — primary source audit
+  Primary source audited: US Senate Banking Committee official ledger
+                          (banking.senate.gov)
+
+  WHAT HAPPENED:
+    At 01:10 UTC on 2026-05-09, an alert was received claiming the CLARITY Act
+    markup was scheduled for May 14, 2026.
+    SMI classified it as Tier 2 (UNVERIFIED — MONITOR) rather than Tier 1,
+    consistent with the SportMind intake framework (specialist press without
+    committee record = Tier 2 maximum).
+    At 03:40 UTC, SMI audited banking.senate.gov directly and found no
+    confirmation of a scheduled markup in the committee's official record.
+    Signal was reclassified as FALSE TRIGGER — RESOLVED.
+
+  CALIBRATION VALUE:
+    This event confirms the verification protocol is functioning correctly.
+    The two-tier classification (Tier 2 for unverified press, Tier 1 required
+    for library update) caught the error before any confirmed intelligence was
+    altered.
+    No changes were made to US_regulatory_status or CLARITY Act milestone fields.
+    LEGALLY_DEFINED / NON_SECURITY status remains operative and unchanged.
+
+  WHAT THIS MEANS FOR FUTURE CLARITY ACT SIGNALS:
+    The CLARITY Act remains a credible legislative priority (multiple press
+    reports and industry attention are consistent). The false positive does
+    not mean the markup will not happen — it means this specific alert was
+    unconfirmed.
+    Continue monitoring: banking.senate.gov/hearings (official committee record)
+    Tier 1 confirmation still required before any library update.
+
+  US regulatory status (confirmed):  LEGALLY_DEFINED / NON_SECURITY
+  CLARITY Act status (current):      UNVERIFIED — MONITOR
+```
+
 
 ### United Kingdom — FSMA 2000 (Cryptoassets) Regulations 2026
 

@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.9 — 2026-05-08
-**Library state:** 610 files · 391 markdown · 178 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.10 — 2026-05-08
+**Library state:** 612 files · 393 markdown · 179 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -85,7 +85,12 @@ Known gaps:
     confirmed from Chiliz official. Remaining gap: pre-match liquidation
     volume calibration records (the timing window is now confirmed; actual
     on-chain volume records during the window are still needed)
-  - Middle East fan token market: thin; no Gulf/Saudi-specific intelligence
+  - Middle East fan token market: PARTIALLY ADDRESSED (v3.97.8 SPL market
+    intelligence). Gulf/Saudi-specific fan token intelligence thin;
+    no confirmed active tokens. KSA regulatory position not in macro layer.
+  - Tier A supply intelligence: $AFC populated (v3.97.10) — remaining
+    Tier A tokens ($PSG $BAR $JUV $ACM $CITY $INTER etc.) need supply
+    blocks added to fan-token/supply-intelligence.md
   - Women's football fan tokens: not modelled
   - Esports fan tokens: intelligence exists but thinner than football tier
 
@@ -276,6 +281,7 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   chiliz.com (FTP explainer)       Win-and-burn explainer — secondary source — v3.97.9
   chiliz.com/chiliz-group-announces-gamified-fan-tokens-...  FTP mechanics — v3.97.9
   chiliz.com/win-and-they-burn-lose-and-they-mint-...        FTP explainer — v3.97.9
+  fantokens.com/trade/arsenal-fan-token                      $AFC supply data — v3.97.10
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -288,6 +294,7 @@ MACRO EVENTS PROCESSED:
   Saudi Pro League intelligence built — Layers 1, 2, 3 — v3.97.8 (2026-05-08)
   FTP PATH_2 seven mechanics confirmed — v3.97.9 (2026-05-08)
   FTP PATH_2 seven confirmed mechanics — Chiliz Group official — v3.97.9 (2026-05-08)
+  $AFC supply intelligence verified — fan-token/arsenal.md — v3.97.10 (2026-05-08)
 ```
 
 ---
@@ -314,11 +321,14 @@ FIELD PRIORITIES:
   FTP PATH_2 tokens:    Always current — check fan-token/ftp-path2.md
                         Key: 1/400 pre-liquidation ratio now confirmed (calculable)
                         Key: credit burn check required before any loss/mint signal
+  $AFC CDI weights:     Supply mechanics 25% (unique — PATH_2 Model 2 confirmed)
+                        Pre-liquidation pool: ~111,500 tokens (44.6M ÷ 400)
+                        UCL Final pool: 250–500k estimated burn if Arsenal WIN
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.9 · MIT License · sportmind.dev*
+*SportMind v3.97.10 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*
