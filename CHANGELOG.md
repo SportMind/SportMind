@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.97.12] — 2026-05-09
+
+### Added — core/intelligence-briefing-agent.md: full SMI briefing protocol + FALSE SIGNAL PROTOCOL
+
+core/intelligence-briefing-agent.md (246L) — NEW FILE:
+
+  Complete protocol document for SMI briefing agents. Covers the full
+  signal lifecycle from receipt to library update, and defines explicit
+  handling for false positives via the FALSE SIGNAL PROTOCOL.
+
+  SECTIONS:
+    Signal lifecycle overview (flowchart: receipt → tier → gate → action → monitor)
+    Verification gate — minimum thresholds per tier
+    Actioning rules — actioned / held / rejected behaviour
+    
+    FALSE SIGNAL PROTOCOL:
+    
+      Scenario 1 — Signal not yet actioned:
+        Do not make any library changes.
+        Paste documentation note only:
+        "False positive detected and self-corrected by SMI on [date].
+         Signal: [description]. No library changes made."
+        Includes CLARITY Act 2026-05-09 as canonical example.
+      
+      Scenario 2 — Signal already actioned:
+        Paste correction prompt to build chat immediately:
+        "Intelligence correction required. Signal [description] was actioned
+         on [date] but has since been self-corrected by SMI as a false positive.
+         Please revert [affected file] to previous state and document the
+         correction in the changelog."
+        Full revert procedure documented (6 steps).
+        CHANGELOG format for reverts specified.
+        Escalation path if false positive passed Tier 1 gate.
+    
+    Calibration value of false positives:
+      "False positives that were caught are calibration events."
+      Documents why silent discard loses calibration value.
+      Running calibration records list (CLARITY Act 2026-05-09 first entry).
+    
+    Integration with intake framework:
+      Load order for full signal pipeline (5 steps).
+      Relationship to external-intelligence-intake.md clarified.
+
+Library: 612→613 files, 393→394 md, core 61→62. OG image regenerated.
+
 ## [3.97.11] — 2026-05-09
 
 ### Fixed — macro/regulatory.md: CLARITY Act false positive calibration note
