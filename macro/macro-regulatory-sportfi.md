@@ -269,6 +269,28 @@ CLARITY ACT — LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
                 → next milestone is Senate floor vote (60-vote threshold)
     Outcome B — Bill stalled/amended significantly: revert to MONITOR status
     Source: https://www.banking.senate.gov/hearings (live webcast 14 May)
+
+  THIS WEEK — ACTION REQUIRED AFTER MARKUP (2026-05-14):
+    Date:     Thursday 14 May 2026 | 10:30 AM EST | 538 Dirksen
+    Webcast:  banking.senate.gov/hearings (monitor live)
+    
+    IF BILL ADVANCES (passes committee):
+      Update macro/macro-regulatory-sportfi.md:
+        US_regulatory_milestone: STATUTORY_REGIME_IN_PROGRESS
+        Next watch: Senate floor vote (60-vote supermajority threshold)
+        Update smi-digest.md Layer 5 US section
+        CHANGELOG ### Changed entry required
+    
+    IF BILL STALLS OR FAILS:
+      Update macro/macro-regulatory-sportfi.md:
+        CLARITY Act: revert to UNVERIFIED — MONITOR
+        Revert regulatory_clarity: HIGH → MEDIUM_HIGH
+        Revert macro modifier: remove +0.02 addition
+        Update smi-digest.md Layer 5 US section
+        CHANGELOG ### Changed entry required
+
+    NO LIBRARY CHANGE NEEDED TODAY — current status LEGISLATIVE_MARKUP_IN_PROGRESS
+    is accurate and confirmed. Action required only after markup outcome known.
 ```
 
 ```

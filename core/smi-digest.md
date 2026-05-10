@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.13 — 2026-05-09
-**Library state:** 613 files · 394 markdown · 182 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.14 — 2026-05-11
+**Library state:** 613 files · 394 markdown · 183 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -99,6 +99,14 @@ Active tokens tracked (Tier A — BRIDGE_LIVE confirmed):
   $CITY  $FLU   $GAL   $INTER $JUV   $MENGO
   $NAP   $OG    $POR   $PSG   $SPURS $VCF
   + $CHZ (native chain token) + $PEPPER
+
+  BINANCE CAP20 V2 MIGRATION — ACTIVE FROM 2026-05-11 01:00 UTC (v3.97.14):
+    V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION (Binance deposits/withdrawals):
+    $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
+    Trading UNAFFECTED | Swap ratio 1:1 | $AFC NOT affected
+    migration_suspension_modifier = 0.85 for 8 tokens during window
+    Monitor: Binance completion announcement → remove flag, restore CDI
+    UCL FINAL RISK: $PSG in migration list — monitor completion vs May 30
 
 FTP PATH_2 live data source: fantokens.com/fan-token-play
 FTP model documentation: fan-token/ftp-path2.md (Model 1 + Model 2)
@@ -267,10 +275,17 @@ Upcoming calibration events:
    signals required at T-48h (lineups emerging), T-24h (team news), T-2h
    (confirmed lineups). Saka availability is the critical athlete flag.
    
-7b. CLARITY Act markup outcome — 14 May 2026 (NEW — monitor immediately)
+7b. CLARITY Act markup outcome — 14 May 2026 (monitor immediately)
    Passes committee: upgrade to STATUTORY_REGIME_IN_PROGRESS
    Stalls/fails: revert to MONITOR status
    Source: banking.senate.gov/hearings (live webcast 10:30 AM EST May 14)
+
+7c. Binance CAP20 V2 migration completion (NEW — v3.97.14)
+   When Binance announces completion: remove V2_MIGRATION_ACTIVE flags
+   from $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
+   Restore CDI modifiers to baseline (remove 0.85 suspension modifier)
+   Verify new CAP20 contract addresses at chiliscan.com for all 8 tokens
+   PRIORITY: $PSG completion must be confirmed well before May 30 UCL Final
    
 8. Women's football market and fan tokens — not modelled
    Action: WSL, NWSL, Liga F fan token pipeline monitoring needed
@@ -298,6 +313,7 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   chiliz.com/win-and-they-burn-lose-and-they-mint-...        FTP explainer — v3.97.9
   fantokens.com/trade/arsenal-fan-token                      $AFC supply data — v3.97.10
   banking.senate.gov/hearings/05/08/2026/executive-session   CLARITY Act Tier 1 — v3.97.13
+  binance.com/en/support/announcement                         CAP20 V2 migration — v3.97.14
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -315,6 +331,8 @@ MACRO EVENTS PROCESSED:
   Intelligence briefing agent protocol published — v3.97.12 (2026-05-09)
   CLARITY Act LEGISLATIVE_MARKUP_IN_PROGRESS — Tier 1 confirmed — v3.97.13 (2026-05-09)
     markup: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
+  Binance CAP20 V2 migration — 8 tokens suspended — v3.97.14 (2026-05-11 01:00 UTC)
+    V2_MIGRATION_ACTIVE: $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
 ```
 
 ---
@@ -350,11 +368,14 @@ FIELD PRIORITIES:
   CLARITY Act modifier: +0.02 US market confidence (LEGISLATIVE_MARKUP_IN_PROGRESS)
                         regulatory_clarity: MEDIUM_HIGH → HIGH (apply immediately)
                         US first-mover advantage window: NARROWING
+  Binance migration:    migration_suspension_modifier = 0.85 for 8 tokens
+                        $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG — Binance only
+                        $AFC unaffected | trading continues | deposits/withdrawals suspended
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.13 · MIT License · sportmind.dev*
+*SportMind v3.97.14 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*

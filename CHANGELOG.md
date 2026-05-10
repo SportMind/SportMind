@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.97.15] — 2026-05-11
+
+### Added — athlete/injury-log.md (UCL Final HIGH_RISK flags: Hakimi + Timber)
+### Changed — macro/regulatory.md: CLARITY Act May 14 outcome action notes
+
+Two items batched from THIS WEEK briefing.
+
+ITEM 1 — macro/macro-regulatory-sportfi.md:
+  CLARITY Act section updated with THIS WEEK action note.
+  No status change — current LEGISLATIVE_MARKUP_IN_PROGRESS is accurate.
+  Added explicit outcome action paths for after May 14 markup:
+    IF BILL ADVANCES: update to STATUTORY_REGIME_IN_PROGRESS
+    IF BILL STALLS:   revert to UNVERIFIED — MONITOR; remove +0.02 modifier
+  Confirmed no library change needed today — status already correct from v3.97.13.
+
+ITEM 2 — athlete/injury-log.md (NEW FILE, 178L):
+  Dedicated log for time-sensitive HIGH_RISK athlete flags ahead of
+  named major competition fixtures.
+
+  ACTIVE FLAGS — UCL FINAL 2026 (PSG vs Arsenal, 30 May 2026):
+
+  Achraf Hakimi (PSG, RB):
+    Status:         HIGH_RISK_FOR_FINAL
+    Injury:         Thigh (muscular)
+    Source:         culturepsg.com — VERIFIED (2026-05-11)
+    ATM impact:     PSG ×1.05 → ×1.00 if confirmed absent
+    Signal:         Arsenal attacking vs weakened PSG right flank
+    $PSG CDI:       Limited (demand only — no PATH_2)
+    Reassessment:   28 May 2026 (T-48h)
+
+  Jurrien Timber (Arsenal, CB/RB):
+    Status:         HIGH_RISK_FOR_FINAL
+    Injury:         Groin (muscular)
+    Source:         arsenal.com — VERIFIED (2026-05-11)
+    ATM impact:     Arsenal ×1.05 → ×1.00 if confirmed absent
+    $AFC CDI:       Secondary modifier — PATH_2 burn probability reduced marginally
+    Priority vs Saka: SECONDARY (Saka remains CRITICAL flag for $AFC)
+    Combined:       Saka + Timber both absent = compound modifier applied
+    Reassessment:   28 May 2026 (T-48h)
+
+  COMBINED ATM TABLE (current library state):
+    Priority 1 — Saka: CRITICAL ×1.10 fit / ×0.85 absent
+    Priority 2 — Timber: SECONDARY ×1.00 if absent (from ×1.05 base)
+    Priority 3 — Hakimi: TERTIARY ×1.00 if absent (from ×1.05 base)
+
+  FILE ALSO CONTAINS:
+    Closed flags section (empty — no closed flags)
+    Standard log format template for future HIGH_RISK entries
+
+Library: 613→614 files, 394→395 md. OG image regenerated.
+
 ## [3.97.14] — 2026-05-09
 
 ### Added — Binance CAP20 V2 migration: V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION for 8 tokens
