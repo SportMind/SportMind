@@ -1,5 +1,48 @@
 # Changelog
 
+## [3.97.14] — 2026-05-09
+
+### Added — Binance CAP20 V2 migration: V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION for 8 tokens
+
+Source: Binance official announcement — binance.com/en/support/announcement — VERIFIED
+Confirmed via: PANews (2026-05-08); Binance primary source
+Action: IMMEDIATE (Tier 1 — Binance official announcement)
+
+fan-token/fan-token-lifecycle/fan-token-lifecycle.md:
+  New BINANCE CAP20 V2 MIGRATION section added to Phase 3.
+  
+  Distinct from 2023 CAP20 migration — this is a 2026 second-phase swap.
+  Note: the briefing referenced fan-token/lifecycle.md — applied to the
+  correct file fan-token/fan-token-lifecycle/fan-token-lifecycle.md.
+
+  TOKENS — V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION (8 tokens):
+    $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
+    Suspension: 2026-05-11 at 01:00 UTC (deposits + withdrawals on Binance)
+    Trading: UNAFFECTED — Binance trading pairs continue during swap
+    Swap ratio: 1:1 (CAP20 migration — no supply change)
+
+  AGENT IMPLICATIONS:
+    migration_suspension_modifier = 0.85 for all 8 tokens (Binance only)
+    Do NOT project normal Binance deposit/withdrawal liquidity during window
+    On-chain: DEX activity may spike as holders move off Binance
+    
+  PRECISION NOTES:
+    $AFC is NOT in this list — $AFC unaffected
+    FTP/PATH_2 mechanics unchanged for all tokens
+    UCL FINAL RISK FLAG: $PSG is in the migration list — May 30 final
+    If migration extends, $PSG Binance liquidity constrained pre-final
+    
+  CONTRACT ADDRESS NOTE:
+    Post-migration: new CAP20 contract addresses on Chiliz Chain
+    Verify at chiliscan.com before resuming on-chain monitoring
+    
+  MONITOR: Binance announcement for completion date
+  When suspension lifts: remove V2_MIGRATION_ACTIVE flag; restore CDI
+
+  HISTORICAL CONTEXT:
+    Original CAP20 migration: October–November 2023 (Binance)
+    This event: second-phase or additional token migration, May 2026
+
 ## [3.97.13] — 2026-05-09
 
 ### Added — CLARITY Act LEGISLATIVE_MARKUP_IN_PROGRESS: Tier 1 confirmed

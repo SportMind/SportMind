@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.12 — 2026-05-09
-**Library state:** 613 files · 394 markdown · 181 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.13 — 2026-05-09
+**Library state:** 613 files · 394 markdown · 182 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -150,10 +150,16 @@ Current regulatory status (confirmed):
         fca_gateway_date: 2026-09-30 (application period opens)
         Application window: 30 Sep 2026 – 28 Feb 2027
         Regime commencement: 25 October 2027
-  US:   LEGALLY_DEFINED / NON_SECURITY
+  US:   LEGALLY_DEFINED / NON_SECURITY (unchanged — operative framework)
         Joint SEC/CFTC guidance March 17, 2026
         Classification: digital collectibles and digital tools
         Fan Tokens™ not securities — US market open
+        CLARITY Act: LEGISLATIVE_MARKUP_IN_PROGRESS (v3.97.13 — CONFIRMED)
+          markup_date: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
+          regulatory_clarity: MEDIUM_HIGH → HIGH
+          Macro modifier: +0.02 additional US market confidence applied
+          first_mover_window: NARROWING (statutory regime creating compliance costs)
+          Post-markup: STATUTORY_REGIME_IN_PROGRESS if passes committee
   EU:   MiCA ACTIVE — Markets in Crypto-Assets Regulation operative
   ASIA: Monitoring — no single confirmed framework
 
@@ -261,6 +267,11 @@ Upcoming calibration events:
    signals required at T-48h (lineups emerging), T-24h (team news), T-2h
    (confirmed lineups). Saka availability is the critical athlete flag.
    
+7b. CLARITY Act markup outcome — 14 May 2026 (NEW — monitor immediately)
+   Passes committee: upgrade to STATUTORY_REGIME_IN_PROGRESS
+   Stalls/fails: revert to MONITOR status
+   Source: banking.senate.gov/hearings (live webcast 10:30 AM EST May 14)
+   
 8. Women's football market and fan tokens — not modelled
    Action: WSL, NWSL, Liga F fan token pipeline monitoring needed
 ```
@@ -286,6 +297,7 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   chiliz.com/chiliz-group-announces-gamified-fan-tokens-...  FTP mechanics — v3.97.9
   chiliz.com/win-and-they-burn-lose-and-they-mint-...        FTP explainer — v3.97.9
   fantokens.com/trade/arsenal-fan-token                      $AFC supply data — v3.97.10
+  banking.senate.gov/hearings/05/08/2026/executive-session   CLARITY Act Tier 1 — v3.97.13
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -301,6 +313,8 @@ MACRO EVENTS PROCESSED:
   $AFC supply intelligence verified — fan-token/arsenal.md — v3.97.10 (2026-05-08)
   CLARITY Act markup alert — FALSE TRIGGER resolved — v3.97.11 (2026-05-09)
   Intelligence briefing agent protocol published — v3.97.12 (2026-05-09)
+  CLARITY Act LEGISLATIVE_MARKUP_IN_PROGRESS — Tier 1 confirmed — v3.97.13 (2026-05-09)
+    markup: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
 ```
 
 ---
@@ -333,11 +347,14 @@ FIELD PRIORITIES:
   False signal protocol: check core/intelligence-briefing-agent.md
                         Scenario 1 (not actioned): documentation note only
                         Scenario 2 (already actioned): revert prompt to build chat
+  CLARITY Act modifier: +0.02 US market confidence (LEGISLATIVE_MARKUP_IN_PROGRESS)
+                        regulatory_clarity: MEDIUM_HIGH → HIGH (apply immediately)
+                        US first-mover advantage window: NARROWING
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.12 · MIT License · sportmind.dev*
+*SportMind v3.97.13 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*

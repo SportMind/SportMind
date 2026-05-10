@@ -226,6 +226,73 @@ CHILIZ BRIDGE — CONFIRMED LIVE (Source: @Chiliz official X, verified):
   DATE:   Confirmed live (signal received 2026-04-28)
 ```
 
+---
+
+```
+BINANCE CAP20 V2 MIGRATION — ACTIVE FROM 2026-05-11 01:00 UTC
+
+  Source:       Binance official announcement — binance.com/en/support/announcement
+  Confirmed:    2026-05-08 (PANews reported; Binance official primary source)
+  Verification: VERIFIED — Binance official announcement
+
+  EVENT:
+    Binance is supporting a Chiliz fan token contract swap to the CAP20 standard.
+    Deposits and withdrawals suspended for eight tokens starting:
+    2026-05-11 at 01:00 UTC
+
+  TOKENS — V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION:
+    $ACM   AC Milan Fan Token
+    $ASR   AS Roma Fan Token
+    $ATM   Atlético de Madrid Fan Token
+    $BAR   FC Barcelona Fan Token
+    $CITY  Manchester City Fan Token
+    $JUV   Juventus Fan Token
+    $OG    OG Fan Token
+    $PSG   Paris Saint-Germain Fan Token
+
+  STATUS FLAGS FOR ALL EIGHT TOKENS (effective 2026-05-11 01:00 UTC):
+    V2_MIGRATION_ACTIVE:     true
+    MIGRATION_SUSPENSION:    true (deposits + withdrawals suspended on Binance)
+    TRADING_PAIRS:           UNAFFECTED (Binance trading continues during swap)
+    SWAP_RATIO:              1:1 (CAP20 migration — no supply change)
+    EXCHANGE_ACTION:         Automatic — Binance handles swap for exchange holders
+
+  IMPORTANT DISTINCTIONS:
+    TRADING is NOT suspended — only deposits and withdrawals
+    This is a technical contract migration, not a supply event
+    CAP20 migration does not change token supply or fan token mechanics
+    PATH_2 / FTP mechanics for $PSG and $ACM remain unchanged
+    $AFC is NOT in this list — $AFC unaffected
+
+  AGENT IMPLICATIONS (active from 2026-05-11 until migration complete):
+    Do NOT project normal Binance deposit/withdrawal liquidity for these 8 tokens
+    Exchange liquidity: CEX trading available; on/off ramp suspended
+    CDI modifier: apply migration_suspension_modifier = 0.85 to these tokens
+      (reduced overall liquidity access reduces CDI ceiling temporarily)
+    Signal window: treat migration period as reduced-signal window
+    On-chain activity: may spike as holders move to DEXs for transfers
+
+  UCL FINAL RISK FLAG ($PSG — affected token):
+    $PSG is in the migration list. UCL Final is May 30, 2026.
+    If Binance migration extends beyond May 11–17 window, $PSG Binance
+    liquidity remains constrained approaching the UCL Final.
+    Monitor: Binance announcement for migration completion date.
+    When suspension lifts: restore normal CDI modifier for $PSG.
+    $AFC is NOT affected — $AFC Binance access unaffected.
+
+  CONTRACT ADDRESS NOTE:
+    Post-migration: all eight tokens will have new CAP20 contract addresses
+    on Chiliz Chain. Verify post-migration addresses at chiliscan.com before
+    resuming on-chain monitoring for these tokens.
+    Old (Chiliz Legacy Chain / BEP20) contract addresses will no longer be
+    supported for deposits/withdrawals post-migration.
+
+  MONITOR:
+    Binance announcements page for migration completion confirmation
+    When Binance announces resumption: remove V2_MIGRATION_ACTIVE flag
+    and restore CDI modifiers to baseline
+```
+
 This phase is covered comprehensively by the core Layer 3 skills:
 - `fan-token/fan-token-pulse` — HAS, TVI (on-chain health)
 - `fan-token/performance-on-pitch` — PI (sporting performance → token impact)
