@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.97.17] — 2026-05-11
+
+### Removed — athlete/injury-log.md: expiring operational data
+
+Removed expiring operational data in compliance with the SportMind Library Rule.
+
+athlete/injury-log.md (178L) — DELETED:
+  The file contained current injury status flags for named players ahead of
+  a specific fixture (UCL Final, 30 May 2026):
+    - Hakimi (PSG): HIGH_RISK_FOR_FINAL — thigh injury, T-48h reassessment 28 May
+    - Timber (Arsenal): HIGH_RISK_FOR_FINAL — groin injury, T-48h reassessment 28 May
+  
+  This is expiring operational data — it fails the SportMind Library Rule:
+  "Will this intelligence still be true and useful in six months?" → NO.
+
+  The enduring injury reasoning framework is unaffected and lives correctly at:
+    core/injury-intelligence/core-injury-intelligence.md
+    core/injury-intelligence/injury-intel-football.md
+  
+  HOW TO HANDLE THIS INTELLIGENCE GOING FORWARD:
+    If Hakimi or Timber absence proves significant to the UCL Final outcome,
+    that intelligence will be captured in the post-match calibration record:
+    examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+    A completed match result with pre-match signal + verified outcome +
+    confirmed athlete impact = enduring calibration record.
+
+Library: 614→612 files, 395→393 md. OG image regenerated.
+
 ## [3.97.16] — 2026-05-11
 
 ### Added — THE SPORTMIND LIBRARY RULE: CONTRIBUTING.md, README.md, llms.txt

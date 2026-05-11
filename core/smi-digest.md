@@ -5,8 +5,29 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.15 — 2026-05-11
-**Library state:** 614 files · 395 markdown · 184 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.16 — 2026-05-11
+**Library state:** 614 files · 395 markdown · 185 CHANGELOG entries · Tier B sports: 6
+
+---
+
+## THE SPORTMIND LIBRARY RULE (v3.97.16 — now in CONTRIBUTING.md, README.md, llms.txt)
+
+```
+Core question: Will this intelligence still be true and useful in six months?
+  YES → belongs in the library
+  NO  → does not belong
+
+ENDURING (belongs): reasoning patterns · structural mechanics ·
+  regulatory frameworks · calibration records · gap fills
+EXPIRING (does not): injury status · live prices · standings ·
+  scheduled dates · transfer rumours · short-term conditions
+
+Three tests: (1) framework or data point? (2) true in six months?
+  (3) teaches how to think or tells what is true now?
+  
+Load CONTRIBUTING.md for the full rule before submitting any contribution.
+Load llms.txt for the agent-facing compact version.
+```
 
 ---
 
@@ -357,6 +378,7 @@ MACRO EVENTS PROCESSED:
   UCL Final injury flags raised — v3.97.15 (2026-05-11)
     Hakimi (PSG) HIGH_RISK thigh | Timber (Arsenal) HIGH_RISK groin
     T-48h reassessment: 28 May 2026
+  SportMind Library Rule formalised — CONTRIBUTING.md + README.md + llms.txt — v3.97.16
 ```
 
 ---
@@ -400,11 +422,14 @@ FIELD PRIORITIES:
     Timber absent (Asc):  ×1.05 → ×1.00 (from base)
     Saka absent (Asc):    ×1.05 → ×0.85 — CRITICAL (highest impact)
     All flags: T-48h confirmation required (28 May 2026)
+  Library rule (v3.97.16): CONTRIBUTING.md · README.md · llms.txt
+                        "Will this still be true in six months?" — the test
+                        for every contribution and every file in this digest
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.15 · MIT License · sportmind.dev*
+*SportMind v3.97.16 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*
