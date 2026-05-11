@@ -1,5 +1,79 @@
 # Changelog
 
+## [3.97.26] — 2026-05-11
+
+### Added — Tier A club athlete intelligence: 6 club files + cross-club framework
+
+Note: release requested as v3.97.25 — corrected to v3.97.26 (v3.97.25 already
+used for UAE/VARA section). Version corrected automatically.
+
+7 new files. 1,499 lines total. All pass Library Rule: no named players,
+no current injury status, no transfer rumours.
+
+Library: 622→629 files, 403→410 markdown.
+
+athlete/football/tier-a-clubs-framework.md (261L) — CROSS-CLUB FRAMEWORK:
+  Load before any club-specific file.
+  FTP PATH_2 athlete chain: $AFC only — all other clubs demand-only (table).
+  Universal modifiers: captain absent ×0.97 | manager uncertain ×0.95 |
+    3+ absences → HOLD | international return ×0.97 | injury return ×0.97/×0.99
+  Fan token demand links: signing arrival premium (2-4 weeks, +8-40% by tier),
+    departure decay (4-8 weeks, -8-25%), milestone spikes (24-72h, transient only)
+  Position weight by club identity: attacking/defensive/possession/balanced clubs
+
+athlete/football/arsenal-afc.md (254L) — $AFC / FTP PATH_2:
+  UNIQUE: dual-dimension reasoning — match outcome AND supply mechanic.
+  Right winger: −8 to −10 pts absent; PATH_2 burn materially reduced.
+  Captain/creative mid: −4 to −6 pts; cohesion ×0.97; set piece loss.
+  CB partnership: both available ×1.05; one absent ×0.95; both absent ×0.85.
+  Defensive mid: pressing engine; absence affects transitions, ×0.90 pressing.
+  Compound framework: Level 1/2/3 (single/double/triple absence) with PATH_2 chain.
+  Squad depth evolution: how individual modifier weight decreases as depth grows.
+
+athlete/football/psg-psg.md (218L) — $PSG / demand only:
+  Demand signal only — no PATH_2 supply chain.
+  Right back: −3 to −4 pts, sentiment weight 0.4.
+  Striker: −5 to −7 pts, sentiment weight 1.0 (maximum).
+  Wingers: −2 to −4 pts one absent; −5 to −7 both absent.
+  Post-marquee-departure framework: Phase 1 (system uncertain ×0.95),
+    Phase 2 (recalibration), Phase 3 (new identity). Demand decay -15 to -25%.
+  UCL pedigree modifier: ×1.05 when defending champion, knockout only.
+
+athlete/football/barcelona-bar.md (209L) — $BAR / demand only:
+  Possession club — midfield absence higher modifier than most clubs.
+  Full midfield: ×1.12 possession, ×1.08 tempo.
+  One mid absent: ×1.00 possession (neutralised); −4 to −6 pts.
+  Two mid absent: ×0.88; −7 to −10 pts; HOLD consideration.
+  False nine: available ×1.08 midfield overload; absent → system reconfiguration.
+  Full backs: −3 to −5 pts (higher than average due to system role).
+  La Masia discount: ×0.85 for non-elite positions only.
+  FFP constraint: when active, apply ×1.10 amplifier on individual modifiers.
+
+athlete/football/juventus-juv.md (186L) — $JUV / demand only:
+  Defensive identity — defensive absences amplified vs attacking clubs.
+  GK absent: −5 to −7 pts (vs average −3 to −4); ×0.88 defensive.
+  Both CBs absent: −7 to −10 pts; HOLD consideration.
+  Serie A amplifier: defensive modifiers ×1.10; attacking modifiers ×0.90.
+  Serie A set piece amplifier: ×1.10 for specialist in Italian context.
+  Squad cycle reasoning: peak/transition/recovery cycle identification.
+
+athlete/football/acmilan-acm.md (168L) — $ACM / demand only:
+  Trequartista (number ten) is highest individual modifier at Milan.
+  Number ten absent: −5 to −7 pts; system_disruption_flag = true.
+  Striker + trequartista both absent: −8 to −12 pts; HOLD.
+  San Siro compound modifier: ×1.08 base; ×1.12 when full squad available.
+  Milan Derby: match importance ×1.15 multiplies deviation from baseline;
+    demand amplifier ×1.20 for all derby demand calculations.
+
+athlete/football/mancity-city.md (203L) — $CITY / demand only:
+  Elite striker absent: −4 to −6 pts (lower than average due to depth).
+  False nine fallback: ×0.93 (vs standard ×0.88 — system absorbs better).
+  Vs deep block without striker: ×0.95 additional vulnerability modifier.
+  Tactical continuity (long-tenure manager 3+ seasons): ×0.15 reduction
+    in individual modifier impact across all positions except elite striker.
+  Squad depth premium: ×0.85 discount on all non-elite-striker modifiers.
+  Manager departure: system_reset_modifier ×0.90 for first 15 matches.
+
 ## [3.97.25] — 2026-05-11
 
 ### Added — macro/macro-regulatory-sportfi.md: UAE/Dubai VARA section
