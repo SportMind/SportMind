@@ -763,6 +763,70 @@ REGULATORY TIGHTENING — LIQUIDITY MODIFIER FRAMEWORK:
 
 ---
 
+### Middle East — UAE/Dubai VARA Regulatory Framework
+
+```
+UAE / DUBAI STATUS: ENACTED — VARA FRAMEWORK ACTIVE
+  Primary regulator: Virtual Assets Regulatory Authority (VARA)
+  Jurisdiction:      Dubai (VARA) | Federal: Securities and Commodities Authority (SCA)
+  Framework type:    Activity-based licensing (not entity-based)
+
+VARA CLASSIFICATION FRAMEWORK:
+
+  UTILITY TOKEN (VARA classification):
+    Definition: token providing access to a product or service
+    Fan Token treatment: classified as utility tokens under VARA
+    Licensing: lighter-touch than security classification
+    Exchange listing: permitted on VARA-licensed exchanges without
+      securities registration requirements
+
+  SECURITY TOKEN (SCA / federal classification):
+    Fan Token treatment: NOT classified as securities under VARA
+    Note: federal SCA guidance may differ from VARA in edge cases
+
+  VASP LICENSING — DISTRIBUTION REQUIRES VARA AUTHORISATION:
+    Any entity distributing, exchanging, or custodying virtual assets in Dubai
+    must hold a VARA VASP licence.
+    Categories: Exchange | Broker-dealer | Custody | Investment
+    Fan token platforms: VASP licence required for UAE/Dubai distribution
+    Chiliz/Socios: must hold or partner with a VARA-licensed VASP for UAE ops
+
+AML AND TRAVEL RULE:
+  AML:          Mandatory — UAE is FATF member; full AML/CFT requirements
+  Travel Rule:  Mandatory — VASPs must transmit originator/beneficiary data
+                for virtual asset transfers above threshold (FATF-aligned)
+  KYC:          Mandatory for all VASP customers
+  Reporting:    Suspicious transaction reporting to UAE Financial Intelligence Unit
+
+VARA vs OTHER GULF STATES:
+  Dubai (VARA):   ENACTED — comprehensive, activity-based (this section)
+  Abu Dhabi (ADGM): Separate FSR Authority framework — progressive; not VARA
+  Saudi Arabia:   SAMA/CMA — less developed; no VARA equivalent yet
+  Qatar (QFC):    Limited crypto coverage
+  Bahrain (CBB):  Progressive but smaller market
+
+MARKET SIGNIFICANCE:
+  VARA is one of the most developed dedicated crypto regulatory frameworks
+  globally — often cited alongside MiCA as a model jurisdiction.
+  Dubai represents a high-net-worth, institutional-adjacent holder profile.
+  Regulatory clarity (VARA enacted) = positive for Gulf fan token adoption.
+
+AGENT IMPLICATIONS:
+  UAE regulatory_clarity:    HIGH (VARA enacted and operational)
+  Fan token distribution:    VARA VASP licence required
+  Holder profile:            High-net-worth; institutional-adjacent
+  Utility classification:    Confirmed — no securities compliance burden
+  AML/Travel Rule:           FATF-standard; apply for UAE-based holder signals
+  Middle East gap remaining: Saudi, Qatar, Bahrain frameworks not yet modelled
+
+MONITORING:
+  vara.ae — official VARA publications and licence registry
+  Watch: VARA Rulebook updates (issued per activity category)
+  Watch: Federal SCA guidance (federal vs emirate jurisdiction tension)
+```
+
+---
+
 ## Compatibility
 
 **Macro overview:** `macro/macro-overview.md` — always load first

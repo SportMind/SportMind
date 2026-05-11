@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.97.25] — 2026-05-11
+
+### Added — macro/macro-regulatory-sportfi.md: UAE/Dubai VARA section
+
+SMI LIBRARY ADDITIONS SUMMARY received with three ACTION blocks.
+Library Rule applied to all three. Two blocks failed and were skipped.
+
+SKIPPED (Library Rule FAIL):
+  Block 1 — UCL Final referee record (Daniel Siebert): named referee +
+    specific fixture + specific date = expiring operational data.
+    Referee intelligence framework already in core/referee-intelligence.md.
+  Block 3 — Binance CAP20 migration completion date: operational event
+    with specific date (May 11 2026) = not enduring reasoning framework.
+    Already documented in lifecycle file with monitoring instructions.
+
+ACTIONED (Library Rule PASS):
+  Block 2 — UAE/Dubai VARA regulatory framework:
+    Enduring regulatory reasoning framework. True and useful indefinitely.
+
+macro/macro-regulatory-sportfi.md (777L → 841L):
+  New section: ### Middle East — UAE/Dubai VARA Regulatory Framework
+
+  STATUS: ENACTED — VARA FRAMEWORK ACTIVE
+  
+  CLASSIFICATION:
+    Fan Tokens: UTILITY TOKEN under VARA (not securities)
+    Distribution: VASP licence required from VARA
+    AML/Travel Rule: Mandatory (FATF-aligned)
+  
+  VARA vs GULF COMPARISON:
+    Dubai (VARA): ENACTED — model jurisdiction
+    Abu Dhabi (ADGM): separate framework, similarly progressive
+    Saudi, Qatar, Bahrain: not yet modelled — identified as remaining gap
+  
+  AGENT IMPLICATIONS:
+    UAE regulatory_clarity: HIGH
+    Utility classification confirmed — no securities compliance burden
+    High-net-worth holder profile — institutional-adjacent market
+    vara.ae monitoring source added
+  
+  Library Rule: "Will this still be true in six months?" → YES.
+  VARA framework is enacted law, not a current status.
+
+Library: unchanged (622 files, 403 markdown).
+
 ## [3.97.24] — 2026-05-11
 
 ### Added — Referee intelligence, four regional tournament frameworks, calibration leaderboard
