@@ -1,5 +1,93 @@
 # Changelog
 
+## [3.97.18] — 2026-05-11
+
+### Added — World Cup intelligence layer: three enduring reasoning frameworks
+
+Library Rule check: all three files contain only enduring reasoning frameworks.
+No specific dates, named players, current prices, or expiring operational data.
+Every element is true and useful beyond six months.
+
+sports/football/sport-domain-football-world-cup.md (763L):
+  Enduring World Cup reasoning framework — applies to every future World Cup.
+  
+  DOMAIN MODEL: 48-team format, national team vs club distinctions, FTP scope.
+  
+  TOURNAMENT STRUCTURE REASONING:
+    Dead rubber identification framework — modifier ×0.55/×0.75/×1.00
+    Dead rubber FTP exception: PATH_2 fires regardless of dead rubber status
+    Three-team simultaneous final round — intra-match strategy signals
+    Knockout bracket positioning — path difficulty demand multipliers
+    Extra time and penalty probability — confidence reduction framework
+  
+  HOST NATION REASONING:
+    Home continent advantage modifier ×1.10–×1.20
+    Neutral venue and intercontinental travel modifiers
+    Time zone fatigue (3–5h: ×0.96 | 6–8h: ×0.92 | 9h+: ×0.88)
+  
+  TOURNAMENT FATIGUE:
+    Match cadence modelling — accumulated fatigue by round (R16: ×0.92, SF: ×0.88)
+    Squad rotation as a signal — rotation reads fresher knockouts
+    Climate acclimatisation — compound modifier for heat + altitude
+  
+  NATIONAL TEAM VS CLUB:
+    Why national team form diverges from club ATM — 4 structural reasons
+    Post-World Cup club impact — squad disruption modifier framework
+    International break disruption signal for club tokens
+  
+  EVENT PLAYBOOKS (4): group stage, knockout, dead rubber, national token signal
+  SIGNAL WEIGHT ADJUSTMENTS: 18-row table with all tournament modifiers
+  KEY COMMANDS: 5 commands with return types
+  AGENT REASONING PROMPTS: full load order and question framework
+  DATA SOURCES: FIFA, confederations, venue, national token sources
+
+fan-token/national-team-tokens.md (329L):
+  Enduring national team token reasoning — applies to every World Cup, Euros,
+  Copa America, AFCON, Asian Cup, and future major international tournaments.
+  
+  DEMAND CYCLE (5 phases):
+    Phase 1: qualification/announcement (qualification_risk discount)
+    Phase 2: squad announcement (inclusion/exclusion modifiers ±10–30%)
+    Phase 3: group draw (demand recalibration, 24–48h duration)
+    Phase 4: tournament progression (stage-scaled WIN/LOSS demand impacts)
+    Phase 5: exit decay curves (Group: −30–40% | SF: −15–20% | Final loss: −10–20%)
+  
+  NATIONAL VS CLUB TOKEN FRAMEWORK:
+    Demand-only (no PATH_2 confirmed for any national token)
+    Tournament concentration: 4–8 weeks vs 9–10 month club season
+    Cross-token confederation correlation: 0.3–0.5 during tournament
+  
+  WORLD CUP YEAR MODIFIER:
+    Historical range: 300–1,000% for nations reaching knockouts
+    Qualification failure: −40–60% collapse
+    Host nation amplifier: ×1.20
+  
+  POST-TOURNAMENT BASELINE:
+    Market permanently 10–30% above pre-tournament baseline after each WC
+
+macro/tournament-macro.md (358L):
+  Enduring tournament macro framework — all major international tournaments.
+  
+  VOLUME AMPLIFICATION: 2.0–7.0× during knockout rounds
+  CROSS-TOKEN CORRELATION: HIGH to VERY HIGH during tournament
+  SIGNAL DECAY ACCELERATION: ×1.5 (signals resolve faster in high volume)
+  PLATFORM AMPLIFICATION: new_entrant_concentration ×1.15 for top-5 tokens
+  
+  POST-TOURNAMENT DECAY TIMELINE: weeks 1–10+ with permanent baseline expansion
+  FOUR-YEAR CYCLE REASONING: Year 0/1/2/3/4 demand phase framework
+  
+  TOURNAMENT CALENDAR INTERACTIONS:
+    AFCON (January): disrupts European club season — AFCON_disruption ×0.90
+    EUROS/COPA (June): post-season — minimal club disruption
+    FTP PATH_2 + tournament timing: PATH_2 fires on club matches only,
+    not on international tournament matches (even for PATH_2 confirmed clubs)
+  
+  NEW TOKEN LAUNCH TIMING: tournament window ×1.40 first-mover modifier
+  TOURNAMENT MACRO OVERLAY: quick reference for overlay application and removal
+
+Library: 613→616 files, 394→397 md, macro 9→10, fan-token-root 9→10.
+OG image regenerated.
+
 ## [3.97.17] — 2026-05-11
 
 ### Removed — athlete/injury-log.md: expiring operational data

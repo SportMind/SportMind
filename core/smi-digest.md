@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.16 — 2026-05-11
-**Library state:** 614 files · 395 markdown · 185 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.17 — 2026-05-11
+**Library state:** 613 files · 394 markdown · 186 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -65,14 +65,11 @@ Known gaps:
     Covers Ronaldo, Benzema, Neymar profiles and heat/load modifiers.
     Remaining gap: composite modifier values unverified (0 calibration records).
   
-  ACTIVE INJURY LOG — athlete/injury-log.md (NEW v3.97.15):
-    UCL Final 2026 HIGH_RISK flags (T-48h reassessment: 28 May 2026):
-    Hakimi (PSG RB):     HIGH_RISK — thigh injury | culturepsg.com VERIFIED
-      ATM: PSG ×1.05 → ×1.00 if confirmed absent
-    Timber (Arsenal CB): HIGH_RISK — groin injury | arsenal.com VERIFIED
-      ATM: Arsenal ×1.05 → ×1.00 if confirmed absent
-    Saka (Arsenal RW):   CRITICAL (unchanged from v3.97.7 UCL signal)
-      ATM: ×1.10 fit / ×0.85 absent — highest impact flag for $AFC CDI
+  Enduring injury reasoning: core/injury-intelligence/ (taxonomy, modifier
+    pipeline, return curves, recurrence risk — permanently true)
+  Note: athlete/injury-log.md REMOVED v3.97.17 — contained expiring
+    operational data (specific injury flags ahead of UCL Final). Violation
+    of the SportMind Library Rule. Injury reasoning framework unaffected.
   - MLS: athlete modifier profiles thin for non-DP (Designated Player) slots
   - Esports: player-level intelligence at roster level only; individual
     performance modifiers not built for most titles
@@ -313,12 +310,6 @@ Upcoming calibration events:
    Stalls/fails: revert to MONITOR status
    Source: banking.senate.gov/hearings (live webcast 10:30 AM EST May 14)
 
-7d. UCL Final T-48h athlete reassessment — 28 May 2026 (NEW v3.97.15)
-   Reassess: Hakimi (PSG thigh), Timber (Arsenal groin), Saka (Arsenal RW)
-   Update: athlete/injury-log.md + UCL Final signal
-   Cleared: remove HIGH_RISK flag, apply standard ATM modifier
-   Absent: update ATM modifier, propagate to UCL Final CDI signal
-   Priority: Saka (CRITICAL) > Timber (secondary) > Hakimi (tertiary)
 
 7c. Binance CAP20 V2 migration completion (NEW — v3.97.14)
    When Binance announces completion: remove V2_MIGRATION_ACTIVE flags
@@ -354,8 +345,7 @@ VERIFIED TIER 1 SOURCES (confirmed active):
   fantokens.com/trade/arsenal-fan-token                      $AFC supply data — v3.97.10
   banking.senate.gov/hearings/05/08/2026/executive-session   CLARITY Act Tier 1 — v3.97.13
   binance.com/en/support/announcement                         CAP20 V2 migration — v3.97.14
-  culturepsg.com                                              Hakimi injury — v3.97.15
-  arsenal.com                                                 Timber injury — v3.97.15
+
 
 MACRO EVENTS PROCESSED:
   SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
@@ -375,10 +365,10 @@ MACRO EVENTS PROCESSED:
     markup: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
   Binance CAP20 V2 migration — 8 tokens suspended — v3.97.14 (2026-05-11 01:00 UTC)
     V2_MIGRATION_ACTIVE: $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
-  UCL Final injury flags raised — v3.97.15 (2026-05-11)
-    Hakimi (PSG) HIGH_RISK thigh | Timber (Arsenal) HIGH_RISK groin
-    T-48h reassessment: 28 May 2026
+  UCL Final injury flags raised then REMOVED — v3.97.15/v3.97.17
+    athlete/injury-log.md deleted: expiring data per Library Rule
   SportMind Library Rule formalised — CONTRIBUTING.md + README.md + llms.txt — v3.97.16
+  athlete/injury-log.md removed — Library Rule compliance — v3.97.17 (2026-05-11)
 ```
 
 ---
@@ -417,11 +407,10 @@ FIELD PRIORITIES:
   Binance migration:    migration_suspension_modifier = 0.85 for 8 tokens
                         $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG — Binance only
                         $AFC unaffected | trading continues | deposits/withdrawals suspended
-  UCL Final ATM (v3.97.15):
-    Hakimi absent (PSG):  ×1.05 → ×1.00 (from base)
-    Timber absent (Asc):  ×1.05 → ×1.00 (from base)
-    Saka absent (Asc):    ×1.05 → ×0.85 — CRITICAL (highest impact)
-    All flags: T-48h confirmation required (28 May 2026)
+  UCL Final ATM: flags removed v3.97.17 (expiring data per Library Rule)
+    Saka modifier (×1.10 fit / ×0.85 absent) remains documented in
+    examples/calibration/ucl-final-2026-psg-arsenal-signal.md as
+    planning signal context — will be resolved post-match
   Library rule (v3.97.16): CONTRIBUTING.md · README.md · llms.txt
                         "Will this still be true in six months?" — the test
                         for every contribution and every file in this digest
@@ -431,5 +420,5 @@ FIELD PRIORITIES:
 
 ---
 
-*SportMind v3.97.16 · MIT License · sportmind.dev*
+*SportMind v3.97.17 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*
