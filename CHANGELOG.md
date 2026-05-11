@@ -1,5 +1,61 @@
 # Changelog
 
+## [3.97.28] — 2026-05-11
+
+### Added — Five gap fills: transfer window, social sentiment, governance, portfolio, women's football
+
+5 new files. 1,016 lines total. All Library Rule compliant.
+635→640 files, 416→421 markdown, core 65→67.
+
+core/transfer-window-intelligence.md (209L):
+  Window calendar: summer ×0.92 match uncertainty | winter ×0.97.
+  Deadline day: ×1.15 demand spike (24h) | cap ×1.40 combined.
+  Post-window stability premium: ×1.02 for 2 weeks.
+  Arrivals: marquee +15-25% (€50M+ threshold) | notable +8-15% | depth ×1.00.
+  Departures: marquee -10-20% | forced sale -15-25% + club_health_flag |
+    sale to rival ×0.97 rivalry modifier | loan ×0.99.
+  $AFC PATH_2 chain: arrival/departure propagates to win probability
+    → supply event magnitude (×0.60 conversion factor).
+  References: fan-token/transfer-window-intelligence/ + transfer-intelligence/.
+
+core/social-sentiment-intelligence.md (211L):
+  4 types: structural (×1.05/×0.95, 72h+) | event (×1.03/×0.97, 24-48h) |
+    noise (filter) | manipulated (ignore/invert).
+  Platform weights: official ×1.5 | journalist ×1.3 | Socios ×1.2 |
+    Telegram ×1.0 | Twitter ×0.8-1.0 | Reddit ×0.8 | Instagram ×0.6.
+  Cross-platform (3+ platforms): upgrade to structural immediately.
+  Match result asymmetry: win 48h | loss 96h (2:1 ratio).
+  Compound cap: max ×1.15 / min ×0.85.
+
+fan-token/governance-intelligence.md (189L):
+  Proposal tiers: high engagement ×1.05 | medium ×1.02 | low ×1.00 | emergency ×1.03/×0.94.
+  Turnout: >20% → ×1.03 sustained 2 weeks | <5% → ×0.97 sustained 4 weeks.
+  Declining turnout (3 consecutive): community_health_flag CAUTION ×0.95.
+  Failed quorum: ×0.96 for 1 week.
+  Governance frequency: monthly ×1.02 | quarterly ×1.00 | irregular ×0.98.
+  Path2 note: governance does NOT affect FTP supply mechanics — demand only.
+  Extends: fan-token/sports-governance-intelligence/.
+
+fan-token/portfolio-intelligence.md (200L):
+  Same league correlation: ~0.85 normal | CHZ risk-off: ×0.90+ all tokens.
+  5 same-league tokens ≈ 1.5-2 effective independent signals.
+  Geographic diversification (3+ regions): ×1.05 portfolio CDI stability.
+  Calendar: UCL knockouts = peak $AFC PATH_2 density | international breaks = none.
+  Post-season rebalancing signal | pre-tournament rotation framework.
+  UCL elimination: -15-25% demand drop; rotate toward advancing clubs.
+
+sports/womens-football.md (207L):
+  No confirmed women's football fan tokens — framework ready for launch.
+  International disruption: ×1.20 (more frequent windows than men's).
+  Transfer fee thresholds recalibrated: marquee >€500k (vs men's €50M+).
+  Growth trajectory modifier: ×1.05 for 3+ seasons attendance growth.
+  UWCL: same demand premium framework as UCL (×1.10/×1.15/×1.40).
+  Dual UCL brand (men's + women's): ×1.05 club token modifier.
+  Fan token launch readiness: Tier 1 = Arsenal, Barcelona, City, Lyon, Chelsea.
+  Existing men's token launch bonus: ×1.15 community awareness head start.
+  Women's World Cup (July-Aug): minimal fatigue disruption (post-season timing).
+  Club brand modifier from women's finalists: ×1.02 (2 weeks).
+
 ## [3.97.27] — 2026-05-11
 
 ### Added — Six gap fills: venue, injury reasoning, weather, rugby, combat sports, motorsport
