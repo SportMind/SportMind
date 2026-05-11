@@ -3,6 +3,8 @@
 **The open sports intelligence library for AI agents and developers.**
 
 SportMind teaches AI agents how to reason about sports — not just react to data.
+
+> **SportMind is a reasoning library, not a data feed. Every file teaches an agent how to think — not what is true right now.**
 Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 

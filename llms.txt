@@ -5,8 +5,43 @@
 
 Repository: https://github.com/SportMind/SportMind
 License: MIT
-Version: 3.97.15
+Version: 3.97.16
 Maintainer: @SportMind
+
+---
+
+## THE SPORTMIND LIBRARY RULE — Load this first
+
+One question determines whether something belongs in SportMind:
+
+Will this intelligence still be true and useful in six months?
+
+If yes — it belongs in the library.
+If no — it does not.
+
+SportMind is a reasoning library, not a data feed. It teaches AI agents how to
+think about sports, fan tokens, and the commercial intelligence the industry
+runs on. It does not store live data, current standings, or temporary states.
+
+ENDURING (belongs in SportMind):
+  Sport domain reasoning patterns (dew factor, qualifying delta, weight miss)
+  Structural mechanics (1/400 FTP ratio, 75% stop-loss, Model 1/2 distinction)
+  Regulatory frameworks (how MiCA/SI 2026/102/SEC-CFTC affects agent reasoning)
+  Calibration records (completed events: pre-match signal + verified outcome)
+  Intelligence gap fills (new domains that teach agents how to reason)
+
+EXPIRING (does not belong in SportMind):
+  Current injury/availability status (who is injured today)
+  Live prices and market data (current BTC price)
+  Current standings (who is top of the league today)
+  Scheduled dates and process status (when a bill is scheduled)
+  Transfer rumours and unconfirmed moves
+  Short-term conditions (tonight's weather forecast)
+
+THE THREE TESTS (before using any SportMind file):
+  1. Is this a reasoning framework or a data point? → frameworks only
+  2. Will this be true in six months? → if yes, trust it
+  3. Does this teach how to think or tell what is true now? → thinking only
 
 ---
 

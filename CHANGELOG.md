@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.97.16] — 2026-05-11
+
+### Added — THE SPORTMIND LIBRARY RULE: CONTRIBUTING.md, README.md, llms.txt
+
+The single most important principle in the library — now formally documented
+in all three entry-point files.
+
+CONTRIBUTING.md (285L → 387L):
+  New section added immediately after introduction, before all contribution
+  guidelines: ## THE SPORTMIND LIBRARY RULE
+
+  Core question: "Will this intelligence still be true and useful in six months?"
+  
+  ENDURING (belongs in SportMind):
+    Sport domain reasoning patterns (dew factor, qualifying delta, weight miss)
+    Structural mechanics (1/400 FTP ratio, 75% stop-loss, Model 1/2)
+    Regulatory frameworks (how MiCA/SI 2026/102/SEC-CFTC affects reasoning)
+    Calibration records (completed events: pre-match signal + verified outcome)
+    Intelligence gap fills (new domains that teach reasoning)
+
+  EXPIRING (does not belong):
+    Current injury/availability status
+    Live prices and market data
+    Current league standings
+    Scheduled dates and process status
+    Transfer rumours and unconfirmed moves
+    Short-term conditions (tonight's weather)
+
+  THREE TESTS for every contribution:
+    1. Reasoning framework or data point? → frameworks only
+    2. Will this be true in six months? → if yes, submit
+    3. Teaches how to think or tells what is true now? → thinking only
+
+  EXPIRING INTELLIGENCE EXCEPTION:
+    Submit as calibration record AFTER the event is complete.
+    A completed match result with pre-match signal + verified outcome =
+    calibration record — enduring, verifiable, permanently useful.
+
+README.md (219L → 221L):
+  One-line principle added under project description:
+  "SportMind is a reasoning library, not a data feed. Every file teaches
+   an agent how to think — not what is true right now."
+
+llms.txt (375L → 410L):
+  ## THE SPORTMIND LIBRARY RULE — Load this first
+  Added as the FIRST section after the manifest header — before all
+  other content — so agents load this principle before any SportMind skill.
+  Includes compact versions of enduring/expiring lists and three tests.
+
 ## [3.97.15] — 2026-05-11
 
 ### Added — athlete/injury-log.md (UCL Final HIGH_RISK flags: Hakimi + Timber)

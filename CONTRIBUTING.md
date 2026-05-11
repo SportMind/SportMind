@@ -4,6 +4,108 @@ Thank you for wanting to contribute. SportMind's value comes entirely from the q
 
 ---
 
+## THE SPORTMIND LIBRARY RULE
+
+One question determines whether something belongs in SportMind:
+
+**Will this intelligence still be true and useful in six months?**
+
+If yes — it belongs in the library.
+If no — it does not.
+
+SportMind is a reasoning library, not a data feed. It teaches AI agents
+how to think about sports, fan tokens, and the commercial intelligence the
+industry runs on. It does not store live data, current standings, or
+temporary states.
+
+### Enduring intelligence — belongs here
+
+**Sport domain reasoning patterns**
+How to reason about a UCL Final as a fan token supply event.
+How qualifying delta predicts race outcomes on specific circuit types.
+How dew factor changes T20 outcomes in evening matches.
+These are permanently true.
+
+**Structural mechanics**
+The 1/400 FTP pre-liquidation ratio.
+The 75% stop-loss minimum supply.
+The Model 1 and Model 2 distinction.
+These are true until officially changed.
+
+**Regulatory frameworks**
+Not the current status of a bill — but how a regulatory framework
+affects market access and what it means for agent reasoning.
+The framework for reasoning about MiCA, SI 2026/102, SEC/CFTC guidance.
+These are enduring reasoning tools.
+
+**Calibration records**
+Completed real-world events with verified outcomes. Pre-match signal,
+post-match result, supply event confirmed. Permanently on the record.
+These never expire.
+
+**Intelligence gap fills**
+New layers that teach agents how to reason about domains SportMind
+does not yet cover. Referee intelligence. Venue intelligence.
+Tournament structure. Transfer window frameworks. Weather modifiers.
+These are permanently useful.
+
+### Expiring intelligence — does not belong here
+
+**Current injury and availability status**
+Who is injured today is not SportMind intelligence. How to reason about
+injury type, return timeline, and recurrence risk is.
+
+**Live prices and market data**
+What Bitcoin is trading at right now is not SportMind intelligence.
+How Bitcoin dominance affects fan token altcoin season probability is.
+
+**Current league standings**
+Who is top of the Premier League today is not SportMind intelligence.
+How title race position affects fan token demand in the final weeks of
+a season is.
+
+**Scheduled dates and process status**
+When a regulatory markup is scheduled is not SportMind intelligence.
+What a markup outcome means for market access and how to reason about it is.
+
+**Transfer rumours and unconfirmed moves**
+Today's transfer gossip is not SportMind intelligence. How a marquee
+signing affects fan token demand curves and for how long is.
+
+**Short-term conditions**
+Tonight's weather forecast is not SportMind intelligence. How humidity
+above 75% in an evening T20 changes dew accumulation and spin bowling
+effectiveness is.
+
+### The test for every contribution
+
+Before submitting anything to SportMind ask yourself three questions:
+
+1. **Is this a reasoning framework or a data point?**
+   Frameworks belong here. Data points do not.
+
+2. **Will this be true in six months?**
+   If yes — submit it. If no — do not.
+
+3. **Does this teach an agent how to think, or does it tell an agent
+   what is true right now?**
+   Teaching belongs here. Current states do not.
+
+If you are uncertain — ask in the GitHub Discussions before submitting.
+The maintainers will help you determine whether your contribution is
+enduring intelligence or expiring data.
+
+### What happens to expiring intelligence
+
+Expiring intelligence is not worthless — it is just not library material.
+The SportMind automation agent uses expiring intelligence in its live
+reasoning layer. If you have signal data that is current and relevant
+but not enduring, submit it as a calibration record after the event is
+complete. A completed match result with a pre-match signal and a verified
+outcome is a calibration record — enduring, verifiable, permanently useful.
+
+---
+
 ## What we're looking for
 
 ### High priority
