@@ -38,6 +38,14 @@ Source:          [URL]
 
   credit_balance:          [N] tokens  (if applicable)
     (accrued burn credits from wins at stop-loss — offsets future mints)
+
+  chain_support (Fan Tokens V2.0 — confirmed April 2026):
+    chiliz_chain:  ACTIVE (native — settlement anchor, FTP supply events)
+    solana:        ACTIVE (via LayerZero bridge — Jupiter/Raydium DEXs)
+    base:          ACTIVE (via LayerZero bridge — Aerodrome/Uniswap Base DEXs)
+    bridge_status: BRIDGE_LIVE
+    decimal_standard: 18 (V2.0 — upgraded from 0-decimal legacy)
+    contract_note: Verify current addresses at chiliscan.com (post-April 27, 2026)
 ```
 
 ---
@@ -115,6 +123,14 @@ Source:          fantokens.com/trade/arsenal-fan-token
   ftp_model:               Model 2 — Prediction Market Settlement (confirmed)
   path2_confirmed:         true
   ucl_standing:            FINALIST (2025-26) | opponent: PSG | final: 30 May 2026
+
+  chain_support (Fan Tokens V2.0):
+    chiliz_chain:  ACTIVE (FTP supply events settle here — chiliscan.com)
+    solana:        ACTIVE (Jupiter/Raydium — BRIDGE_LIVE)
+    base:          ACTIVE (Aerodrome/Uniswap Base — BRIDGE_LIVE)
+    bridge_status: BRIDGE_LIVE
+    decimal_standard: 18 (V2.0 — upgraded April 27, 2026)
+    binance_status: UNAFFECTED (not in May 2026 Binance CAP20 migration list)
 ```
 
 ---
@@ -170,8 +186,17 @@ FIELDS TO UPDATE AFTER FTP EVENT:
 
 DATA SOURCES (priority order):
   1. fantokens.com/trade/[token-slug]  — official supply dashboard
-  2. chiliscan.com                     — on-chain verification
+  2. chiliscan.com                     — on-chain verification (Chiliz Chain)
   3. fantokens.com/fan-token-play      — FTP event confirmation
+  4. birdeye.so / Jupiter.ag           — Solana chain data (post-V2.0)
+  5. basescan.org / Aerodrome          — Base chain data (post-V2.0)
+
+CROSS-CHAIN NOTE (Fan Tokens V2.0 — active April 2026):
+  All confirmed BRIDGE_LIVE tokens operate on Chiliz Chain, Solana, and Base.
+  Supply figures always refer to TOTAL supply across all three chains combined.
+  FTP supply events (burns/mints) settle on Chiliz Chain regardless of where
+  the token is currently held. Bridging does not change supply — it moves tokens.
+  See fan-token/registry/bridge-supported.md for full chain support details.
 ```
 
 ---
@@ -181,10 +206,11 @@ DATA SOURCES (priority order):
 **Mechanics:**    `fan-token/ftp-path2.md` — Model 1 and Model 2 definitions
 **Calibration:**  `community/calibration-data/football/2026/04/`
 **On-chain:**     `fan-token/on-chain-event-intelligence/`
+**Bridge:**       `fan-token/registry/bridge-supported.md` — V2.0 multi-chain registry
 **Token files:**  `fan-token/arsenal.md` · (additional token files TBD)
 
 ---
 
-*SportMind v3.97.10 · MIT License · sportmind.dev*
+*SportMind v3.97.22 · MIT License · sportmind.dev*
 *Supply data verified: 2026-05-08*
 *Source: fantokens.com/trade/arsenal-fan-token*

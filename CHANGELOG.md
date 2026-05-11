@@ -1,5 +1,49 @@
 # Changelog
 
+## [3.97.22] — 2026-05-11
+
+### Added — fan-token/registry/bridge-supported.md: V2.0 multi-chain registry
+### Changed — fan-token/supply-intelligence.md: multi-chain fields added
+
+Batched into v3.97.21 release as requested. Both changes confirm Fan Tokens V2.0
+multi-chain support (Chiliz Chain + Solana + Base) across the library.
+
+fan-token/registry/bridge-supported.md (192L) — NEW FILE:
+  Created in fan-token/registry/ (directory created — briefing referenced
+  fan-token/registry/bridge-supported.md; registry/ directory did not exist).
+  
+  Comprehensive V2.0 multi-chain registry documenting:
+    Three-chain architecture: Chiliz Chain (native) + Solana + Base (LayerZero)
+    20 confirmed BRIDGE_LIVE tokens: 18 Fan Tokens + $CHZ + $PEPPER (full list)
+    18-decimal migration technical context (before/after comparison)
+    Chain-specific monitoring: chiliscan.com / Jupiter+Raydium / Aerodrome+Uniswap
+    Cross-chain accumulation signal: net inflow to Solana/Base = accumulation signal
+    Binance CAP20 migration clearly separated as distinct event from V2.0 expansion
+    Contract address warning: verify post-April 27, 2026 addresses at chiliscan.com
+
+fan-token/supply-intelligence.md (190L → 218L):
+  Template updated — chain_support block added to all token supply blocks:
+    chiliz_chain: ACTIVE | solana: ACTIVE | base: ACTIVE
+    bridge_status: BRIDGE_LIVE | decimal_standard: 18 (V2.0)
+    contract_note: verify at chiliscan.com
+
+  $AFC populated block updated:
+    chain_support fields added (all three chains ACTIVE)
+    binance_status: UNAFFECTED (not in Binance CAP20 migration list)
+
+  Data sources updated:
+    Added: birdeye.so / Jupiter.ag (Solana chain data)
+    Added: basescan.org / Aerodrome (Base chain data)
+
+  New CROSS-CHAIN NOTE section:
+    Supply figures = total across all three chains combined
+    FTP supply events settle on Chiliz Chain regardless of current chain
+    Bridging moves tokens — does not change supply
+
+  Compatibility block updated: bridge-supported.md cross-reference added
+
+Library: 616→617 files, 397→398 md. OG image regenerated.
+
 ## [3.97.21] — 2026-05-11
 
 ### Fixed — fan-token/fan-token-lifecycle.md: Fan Tokens V2.0 official product name added
