@@ -1,5 +1,73 @@
 # Changelog
 
+## [3.97.27] — 2026-05-11
+
+### Added — Six gap fills: venue, injury reasoning, weather, rugby, combat sports, motorsport
+
+6 new files. 1,468 lines total. All Library Rule compliant.
+629→635 files, 410→416 markdown, core 63→65.
+
+core/venue-intelligence.md (300L):
+  Neutral venue: crowd composition proxy ×1.03-1.05; geographic proximity ×1.02;
+    tournament final venue reasoning.
+  Home advantage by sport: football +0.10 | rugby +0.12 | basketball +0.08 |
+    cricket +0.15 | MMA +0.05 | ice hockey +0.09.
+  Capacity amplification: sell-out confirmed ×1.05; sparse (<50%) ×0.80.
+  Artificial pitch: first visit ×0.94; occasional ×0.97; style interaction.
+  Altitude: <1,500m none; 1,500-2,500m ×0.95; >2,500m ×0.90; acclimatisation halves.
+  South American altitude: La Paz ×0.82; Quito ×0.88; Bogotá ×0.90.
+  Pitch conditions: soft/firm/wet by style. Cricket: dusty/seamer/flat/crumbling.
+  Stadium familiarity: first visit ×0.97; European hostile ×0.95.
+
+core/injury-intelligence/injury-reasoning-framework.md (255L):
+  Muscular: hamstring recurrence ×1.35 (4 matches); calf ×1.20 (3); thigh ×1.20.
+  Structural: ankle ×0.90 match 1; ACL ×0.85 matches 1-2, extended 6-match return.
+  Fatigue: congested schedule ×0.96 match 3; international long-haul ×0.97.
+  Universal return: ×0.88 / ×0.93 / ×0.97 / full (matches 1-2-3-4+).
+  Position weights: GK ×0.90 | CB ×0.93 | striker ×0.93 | CM ×0.95 | FB ×0.97.
+  Fan token demand: minor absence −2-5%; moderate −5-10%; severe −8-15%;
+    season-ending −10-20%. Return recovery asymmetric (slower than decay).
+  $AFC compound: demand decay × PATH_2 burn reduction (multiply, not add).
+
+core/weather-intelligence.md (289L):
+  Extends core-weather-match-day.md — load both.
+  Temperature: extreme heat ×0.94 (60min+); cold ×0.97 technical / ×1.02 physical.
+  Rain: heavy ×0.94 technical / ×1.04 physical; wet ball ×0.96 both.
+  Wind: rugby kicking ×0.88 against / ×1.10 with; cricket swing ×1.15; NFL kicks ×0.82.
+  Humidity >80%: ×0.95 both teams from 60min.
+  Compound: multiply (not add); cap at ×0.75 floor; flag confidence ×0.90.
+  MotoGP rain: ×1.20 wet specialists; intermediate ×1.50 confidence widen.
+  F1: tyre performance modifier; safety car ×2.5 probability in rain.
+
+sports/rugby-union-specific.md (211L):
+  $SARRIES $SHARKS $QUINS $SFP — all demand-only.
+  Set piece dominance: scrum ×1.08 | lineout ×1.05 | combined ×1.12 (primary signal).
+  Kicking game: elite kicker ×1.08; wind interaction ×0.92/×1.15.
+  Home advantage: +0.12 baseline; fortress ×1.15; closed roof ×1.05.
+  Competition demand: European Champions Cup ×1.10/×1.20/×1.40.
+  $SARRIES StoneX sell-out: ×1.08.
+
+sports/combat-sports-specific.md (210L):
+  $UFC $PFL — all demand-only.
+  Weight transition: up ×0.96; down ×1.03.
+  Championship rounds: grappling late-round ×1.05; cardio ×1.08 in 5R.
+  Southpaw advantage: ×1.04 vs orthodox.
+  Reach 6"+: striking ×1.03.
+  Home country: ×1.05.
+  PPV demand weight: ×1.20 vs Fight Night.
+  Title change: highest demand event (+15-25% spike).
+  $PFL Championship night: ×1.35 vs standard.
+
+sports/motorsport-specific.md (203L):
+  $SAUBER $AM $ROUSH $ALPINE — all team tokens, demand-only.
+  Team token distinction: constructor championship > individual race wins.
+  Rising through standings: ×1.08 | Falling: ×0.93 | Championship challenge: ×1.20.
+  Midfield development trajectory: ×1.10 for confirmed improving teams.
+  MotoGP wet: ×1.20 specialists; intermediate volatility ×1.50.
+  NASCAR superspeedway: variance ×1.80; demand weight ×0.70 ($ROUSH).
+  NASCAR road course: experienced drivers ×1.05.
+  $SAUBER Audi transition: ×1.10 manufacturer narrative modifier.
+
 ## [3.97.26] — 2026-05-11
 
 ### Added — Tier A club athlete intelligence: 6 club files + cross-club framework
