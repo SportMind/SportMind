@@ -1,5 +1,70 @@
 # Changelog
 
+## [3.97.23] — 2026-05-11
+
+### Added — macro/macro-regulatory-sportfi.md: APAC section + US Project Crypto MOU
+
+Five queued intelligence items batched into one release. All content passes
+Library Rule: enduring reasoning frameworks, no expiring data.
+
+Note: release requested as v3.97.20 — corrected to v3.97.23 (sequential
+from v3.97.22; v3.97.20 was already used for index.html accuracy fixes).
+
+SOURCES — ALL VERIFIED:
+  Japan FSA: fsa.go.jp/en/newsletter/accessfsa2025/269.pdf
+  South Korea FSC: fsc.go.kr (April 2026 directives)
+  SEC-CFTC MOU: sec.gov/newsroom/press-releases — VERIFIED Tier 1
+
+NEW CONTENT: macro/macro-regulatory-sportfi.md (526L → 777L):
+
+  ### APAC — Japan and South Korea (NEW SECTION):
+
+  APAC market context:
+    SK + Japan estimated 20-30% of Chiliz ecosystem trading volume
+    Both are highest-volume APAC markets for fan tokens
+    Both moving toward institutional-grade frameworks
+
+  #### Japan — FSA Regulatory Framework:
+    Status: LEGISLATIVE_IN_PROGRESS (FIEA bill pending Diet approval)
+    PSA → FIEA transition: crypto "payment instrument" → "financial instrument"
+    Current PSA: lighter regulation, ~55% tax (miscellaneous income)
+    Proposed FIEA: full securities oversight, 20% flat tax rate
+    FIEA also adds: mandatory disclosure (~105 tokens), custody registration,
+      first insider trading prohibition for crypto, derivatives framework
+    Effect date: FY2027 if Diet approves
+    Agent implications: positive demand_modifier if FIEA passes (55% → 20% tax)
+
+  #### South Korea — FSC Regulatory Framework:
+    22% CGT: ENACTED — effective from fiscal year beginning 2027
+      22% moderate by global standards; no negative modifier applied
+      Removes uncertainty — apply korean_cgt_clarity = true
+    5-minute asset-matching mandate: ENACTED — operational by end-May 2026
+      Triggered by Bithumb incident (Feb 2026 — 620,000 BTC payout error)
+      Four requirements: 5-min reconciliation, daily disclosure, monthly audits,
+        automated trade-halting; high-risk process controls
+      First regulator to apply bank-grade high-frequency audit to crypto
+      Short-term: korean_exchange_liquidity_modifier = 0.92 (implementation)
+      Long-term: operational risk reduced; restore to 1.00 post-implementation
+    Digital Asset Basic Act (Phase 2): LEGISLATIVE_IN_PROGRESS
+      Comprehensive framework — stablecoin rules, corporate investment, licensing
+
+  #### APAC Reasoning Framework for Agents (NEW):
+    Tightening vs Clarity distinction: explicitly documented
+    Holder depth modifier: ×1.05 when regulatory clarity improves
+    Korean/Japanese volume significance: global CDI implications
+    Liquidity modifier framework: short-term tightening, long-term normalisation
+
+  US section — Project Crypto MOU added (AFTER existing content):
+    SEC-CFTC MOU signed March 2026
+    6 areas: product definitions, clearing, dual-registration, crypto framework,
+      reporting, cross-market examination
+    Fan Token classification: digital collectibles/digital tools — UNCHANGED
+    Does NOT create legally binding obligations for market participants
+    Not a substitute for CLARITY Act legislation
+    Agent implication: US_regulatory_clarity += 0.05
+
+Library: unchanged (617 files, 398 markdown) — existing file expanded.
+
 ## [3.97.22] — 2026-05-11
 
 ### Added — fan-token/registry/bridge-supported.md: V2.0 multi-chain registry

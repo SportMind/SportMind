@@ -320,6 +320,56 @@ CLARITY ACT — SIGNAL HISTORY (calibration record)
 ```
 
 
+```
+PROJECT CRYPTO MOU — SEC AND CFTC (SIGNED MARCH 2026)
+
+  Document:   Memorandum of Understanding Regarding Harmonization in Areas
+              of Common Regulatory Interest
+  Parties:    US Securities and Exchange Commission + Commodity Futures
+              Trading Commission
+  Supersedes: Prior July 2018 MOU (information sharing only)
+  Source:     sec.gov/newsroom/press-releases — VERIFIED
+
+  PURPOSE:
+    Formalises agency coordination on shared regulatory interests in digital
+    assets. The prior MOU covered information sharing only; this MOU
+    establishes active joint policy development.
+
+  SIX AREAS OF COORDINATION:
+    1. Clarifying product definitions via joint interpretations and rulemakings
+    2. Modernising clearing, margin, and collateral frameworks
+    3. Reducing frictions for dually registered exchanges and intermediaries
+    4. Providing a fit-for-purpose regulatory framework for crypto assets
+    5. Streamlining regulatory reporting for trade data, funds, intermediaries
+    6. Coordinating cross-market examinations, economic analyses, enforcement
+
+  JOINT HARMONISATION INITIATIVE:
+    Co-led staff-level initiative producing joint interpretive releases.
+    First output: joint crypto asset taxonomy release (five categories).
+    Fan Token classification: digital collectibles and digital tools — UNCHANGED.
+
+  WHAT THE MOU DOES NOT DO:
+    Does not create legally binding obligations for market participants
+    Does not alter, expand, or limit either agency's statutory authority
+    Not a substitute for the CLARITY Act — legislation remains required
+    for a full statutory framework
+
+  ENFORCEMENT COORDINATION:
+    Agencies coordinate investigations where jurisdictional overlap exists.
+    Joint or aligned examinations to avoid regulatory duplication.
+    Duplicative enforcement actions explicitly flagged as undesirable.
+
+  AGENT IMPLICATIONS:
+    US enforcement risk: reduced (coordinated rather than competing agencies)
+    Platform registration: path toward single registration covering both
+      securities and derivatives — positive for Socios/Chiliz US market entry
+    Fan token platforms: operational uncertainty reduced; no new compliance
+      obligations created directly — but coordination signals direction of travel
+    Complements CLARITY Act legislative track — not a substitute
+    Apply: US_regulatory_clarity += 0.05 (institutional framework now confirmed)
+```
+
+
 ### United Kingdom — FSMA 2000 (Cryptoassets) Regulations 2026
 
 ```
@@ -514,6 +564,205 @@ QUARTERLY REVIEW TRIGGER:
 
 ---
 
+### APAC — Japan and South Korea Regulatory Frameworks
+
+```
+APAC REGULATORY OVERVIEW (fan token market context):
+
+  MARKET SIGNIFICANCE:
+    South Korea and Japan are among the highest per-capita crypto
+    adoption markets globally. Together they represent a substantial
+    share of fan token trading volume — estimated 20-30% of Chiliz
+    ecosystem activity.
+    
+    South Korea: ~11 million crypto users (roughly 1 in 5 adults)
+    Japan: one of the first countries to legalise and regulate crypto
+    Both markets are key for fan token holder base depth and CDI signals.
+```
+
+---
+
+#### Japan — FSA Regulatory Framework
+
+```
+JAPAN CURRENT STATUS: LEGISLATIVE_IN_PROGRESS
+  Regulatory body: Financial Services Agency (FSA)
+  Primary law (current): Payment Services Act (PSA) — treats crypto as payment instrument
+  Proposed transition: Financial Instruments and Exchange Act (FIEA)
+
+PSA → FIEA CLASSIFICATION TRANSITION:
+
+  CURRENT FRAMEWORK (PSA):
+    Classification: crypto assets as "payment instruments"
+    Oversight: lighter-touch; exchange registration required
+    Tax treatment: up to 55% (classified as miscellaneous income)
+    DeFi/derivatives: limited regulated framework
+    Fan token treatment: utility token classification; exchange rules apply
+
+  PROPOSED FRAMEWORK (FIEA):
+    Classification: tradable tokens → "financial instruments"
+    Oversight: full securities-level FIEA registration requirements
+    Tax treatment: proposed 20% flat rate (vs current ~55% miscellaneous)
+    DeFi/derivatives: explicit regulated framework introduced
+    Insider trading: first explicit prohibition applied to crypto assets
+    Disclosure: mandatory annual disclosures for tokens on licensed exchanges
+    Custody: mandatory custodian and system provider registration
+    Effect: FY2027 (pending Diet approval)
+
+  WHAT THE TRANSITION MEANS:
+    The shift from PSA to FIEA elevates crypto from payment infrastructure
+    to a financial product. This creates higher compliance costs but also
+    higher institutional legitimacy. Fan tokens classified as "tradable
+    tokens" under FIEA would require platforms to hold FIEA registration
+    rather than just PSA exchange registration.
+
+  TAX REFORM (proposed — if FIEA passes):
+    Current: up to 55% (miscellaneous income, applies to crypto gains)
+    Proposed: 20% flat rate (aligned with equities and other financial instruments)
+    Impact: 20% rate would significantly improve Japanese retail holder economics
+    Timeline: FY2027 if legislation passes; no guarantee of passage
+
+  AGENT IMPLICATIONS:
+    Japan regulatory_clarity: IMPROVING (legislative direction confirmed)
+    Pre-FIEA: treat Japan as PSA-regulated market — lighter but uncertain
+    Post-FIEA (if passed): treat as FIEA-regulated — higher compliance, higher legitimacy
+    Fan token platform entry: monitor FIEA registration requirements before launch
+    Tax change impact: 55% → 20% would materially increase net holder returns
+      in Japan — apply positive demand_modifier if FIEA passes
+    
+  MONITORING:
+    Source: fsa.go.jp — FSA official announcements
+    Watch: Diet legislative calendar for FIEA crypto amendment progress
+    Watch: FSA newsletter for implementation guidance as bill progresses
+```
+
+---
+
+#### South Korea — FSC Regulatory Framework
+
+```
+SOUTH KOREA STATUS: ENACTED + LEGISLATIVE_IN_PROGRESS
+  Primary regulator: Financial Services Commission (FSC) + Financial Supervisory Service (FSS)
+  Enforcement body:  Digital Asset Exchange Alliance (DAXA — industry SRO)
+  Key legislation:   Virtual Asset User Protection Act (Phase 1 — active)
+                     Digital Asset Basic Act / Framework Act (Phase 2 — in progress)
+
+CAPITAL GAINS TAX — ENACTED:
+  Rate:     22% on cryptocurrency profits
+  Applies:  All crypto income above threshold
+  Effect:   From fiscal year beginning January 2027
+  Status:   ENACTED — confirmed in legislation
+  
+  AGENT IMPLICATIONS:
+    22% CGT is moderate by global standards — below UK, EU, and US rates
+    Likely to sustain Korean retail participation vs higher-tax jurisdictions
+    Holder behaviour: no immediate exit expected — rate competitive
+    Apply: korean_cgt_clarity = true (uncertainty removed; rate confirmed)
+    Plan for FY2027: Korean holder economics improve vs prior uncertainty
+
+5-MINUTE ASSET-MATCHING STANDARD — ENACTED (operational by end-May 2026):
+  Regulator: FSC, following emergency audit after Bithumb incident
+  Trigger: February 2026 operational failure at Bithumb (major exchange)
+  
+  FOUR REQUIREMENTS:
+    1. Five-minute reconciliation: exchanges must verify internal ledgers
+       against actual asset holdings every five minutes
+       (prior practice: some exchanges reconciled only once per 24 hours)
+    2. Daily public disclosure: asset balance breakdown by wallet and ledger
+    3. Monthly external audits: independent accounting firm (from quarterly)
+    4. Automated trade-halting: systems must halt on large asset mismatches
+
+  ADDITIONAL OPERATIONAL STANDARDS:
+    High-risk process controls: promotional payouts require multi-level approval
+    Separation of high-risk accounts
+    Third-party cross-checks for large transfers
+    
+  SIGNIFICANCE:
+    First major regulator to apply bank-grade, high-frequency internal audit
+    requirements directly to crypto exchanges.
+    Precedent-setting: if adopted by other jurisdictions, becomes the global
+    floor standard for crypto exchange operational risk management.
+    Integration planned into Phase 2 Digital Asset Basic Act.
+
+DIGITAL ASSET BASIC ACT (Phase 2 — LEGISLATIVE_IN_PROGRESS):
+  Scope: comprehensive framework elevating Korean crypto exchanges to the
+         same regulatory tier as conventional financial institutions
+  Status: draft in progress; debate delayed pending electoral cycle
+  Includes: stablecoin rules, corporate investment allowances, exchange licensing
+
+  AGENT IMPLICATIONS:
+    5-minute standard: reduces systemic exchange failure risk for Korean holders
+    Short-term: implementation costs may compress Korean exchange liquidity
+    Long-term: institutional confidence in Korean venues elevated
+    Fan token liquidity: Korean exchange depth signal strengthened over time
+    Apply: korean_exchange_reliability_modifier = improving (structural risk reduced)
+    Phase 2 Act passage: would create comprehensive Korean DeFi + exchange framework
+
+APAC REGULATORY TRAJECTORY:
+  Direction:   Both Japan and Korea moving toward institutional-grade regulation
+  Speed:       Fast relative to other APAC jurisdictions
+  Convergence: Both aligning toward financial instruments classification
+               and lower/flat tax rates for crypto assets
+  Impact:      APAC regulatory clarity positive for fan token holder base depth
+```
+
+---
+
+#### APAC Reasoning Framework for Agents
+
+```
+HOW TO REASON ABOUT APAC REGULATORY RISK AS A FAN TOKEN MODIFIER:
+
+MARKET STRUCTURE:
+  Korea and Japan together represent a significant share of Chiliz/Socios volume.
+  Both markets have established regulatory frameworks (unlike Southeast Asia).
+  Regulatory developments in either market affect liquidity, holder depth, CDI.
+
+REGULATORY TIGHTENING vs REGULATORY CLARITY:
+  There is a critical distinction between:
+    Regulatory tightening (restrictions): may reduce short-term liquidity
+    Regulatory clarity (rules established): increases long-term holder confidence
+
+  Japan PSA → FIEA: regulatory CLARITY (rules become clearer, more certain)
+  Korea 5-minute mandate: regulatory TIGHTENING short-term, CLARITY long-term
+  Korea 22% CGT: regulatory CLARITY (rate confirmed; uncertainty removed)
+
+  Agent rule: Distinguish the type of regulatory development before applying modifier.
+    CLARITY events: apply positive demand_modifier to Korean/Japanese fan token demand
+    TIGHTENING events: apply temporary liquidity_modifier reduction, then normalise
+
+HOLDER BEHAVIOUR PATTERNS (APAC):
+  Japanese holders: historically long-term; regulatory clarity increases participation
+  Korean holders: active traders; 22% CGT is moderate; likely sustained engagement
+  Both markets: institutional adoption accelerating with financial instrument classification
+  
+  Apply holder_depth_modifier = ×1.05 for Japan/Korea when regulatory clarity improves.
+
+WHICH MARKETS ARE HIGHEST VOLUME FOR CHILIZ AND SOCIOS:
+  TIER 1 (confirmed high volume): South Korea, Japan, Turkey, Brazil
+  TIER 2 (significant volume): Spain, France, Italy, UK
+  APAC concentration: SK and Japan combined represent a substantial volume share
+  
+  Agent rule: Korean and Japanese regulatory events carry global CDI implications —
+  not just regional ones. A major disruption to Korean exchange operations would
+  affect global fan token liquidity signals.
+
+REGULATORY TIGHTENING — LIQUIDITY MODIFIER FRAMEWORK:
+  Exchange operational disruption (e.g. 5-minute mandate implementation):
+    Short-term: apply korean_exchange_liquidity_modifier = 0.92 (during implementation)
+    Post-implementation: restore to 1.00 (operational risk reduced)
+  
+  Tax regime change (confirmed):
+    22% CGT ENACTED: no negative modifier — rate is moderate and competitive
+    If rate had been >40%: apply holder_depth_modifier = 0.85
+    
+  Regulatory uncertainty (unresolved status):
+    Apply uncertainty_modifier = 0.92 until resolution
+    Remove when ENACTED or CONFIRMED status established
+```
+
+---
+
 ## Compatibility
 
 **Macro overview:** `macro/macro-overview.md` — always load first
@@ -523,4 +772,6 @@ QUARTERLY REVIEW TRIGGER:
 
 *MIT License · SportMind · sportmind.dev*
 *Based on: MiCA (EU, January 2025), Joint SEC/CFTC Guidance (US, 2026),*
-*Chiliz 2030 Manifesto (February 2026), Brazil RWA precedent (2025/2026)*
+*Chiliz 2030 Manifesto (February 2026), Brazil RWA precedent (2025/2026),*
+*Japan FSA FIEA framework (2026), South Korea FSC directives (2026),*
+*SEC-CFTC Project Crypto MOU (March 2026)*
