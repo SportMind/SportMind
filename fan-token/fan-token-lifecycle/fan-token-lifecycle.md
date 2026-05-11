@@ -167,11 +167,15 @@ OMNICHAIN UPGRADE — CONFIRMED ACTIVE (April–Q2 2026):
 ---
 
 ```
-CHILIZ BRIDGE — CONFIRMED LIVE (Source: @Chiliz official X, verified):
+CHILIZ BRIDGE — FAN TOKENS V2.0 — CONFIRMED LIVE:
+  Official product name: Fan Tokens V2.0 (Chiliz official designation)
+  Source: chiliz.com/chiliz-brings-fan-tokens-to-solana-and-base/ — VERIFIED
 
   EVENT: Chiliz Bridge is now live for $CHZ, $PEPPER, and 18 Fan Tokens™
   on Solana and Base. This is a named, confirmed liquidity infrastructure
   event — distinct from the general omnichain framework above.
+  Technical standard: 18-decimal V2.0 tokenomics (upgraded from 0-decimal legacy)
+  Networks: Chiliz Chain (native) + Solana + Base (via LayerZero)
 
   BRIDGE_LIVE STATUS — 18 FAN TOKENS CONFIRMED:
     Football:   $ACM  $AFC  $ARG  $ASR  $ATM  $BAR

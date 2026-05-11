@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.97.21] — 2026-05-11
+
+### Fixed — fan-token/fan-token-lifecycle.md: Fan Tokens V2.0 official product name added
+
+SMI IMMEDIATE alert received for Chiliz Fan Tokens V2.0 Solana/Base expansion.
+
+AUDIT FINDING BEFORE ACTING:
+  All substantive content was already in the library from previous releases:
+  Solana ✓ | Base ✓ | 18-decimal ✓ | BRIDGE_LIVE ✓ | LayerZero ✓
+  DEX liquidity (Jupiter/Raydium/Aerodrome/Uniswap Base) ✓
+  Cross-chain volume correlation monitoring ✓
+  
+  The one genuine addition: "Fan Tokens V2.0" as Chiliz's official product name
+  for this infrastructure expansion (from chiliz.com/chiliz-brings-fan-tokens-to-solana-and-base/)
+
+CHANGE APPLIED:
+  fan-token/fan-token-lifecycle/fan-token-lifecycle.md:
+  CHILIZ BRIDGE section header updated:
+    Added: Official product name "Fan Tokens V2.0"
+    Added: Source URL (chiliz.com — VERIFIED)
+    Added: Technical standard reference (18-decimal V2.0 tokenomics)
+    Added: Network summary line (Chiliz Chain + Solana + Base via LayerZero)
+
+  No structural changes — all underlying intelligence was already present.
+  This is a terminology label addition to existing correct content.
+
+Library: unchanged (616 files, 397 markdown).
+
 ## [3.97.20] — 2026-05-11
 
 ### Fixed — index.html: four accuracy corrections
