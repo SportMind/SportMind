@@ -1,5 +1,69 @@
 # Changelog
 
+## [3.97.24] — 2026-05-11
+
+### Added — Referee intelligence, four regional tournament frameworks, calibration leaderboard
+
+Three items. All enduring reasoning frameworks. All pass Library Rule.
+617→622 files, 398→403 markdown, core 62→63.
+
+ITEM 1 — core/referee-intelligence.md (386L) — NEW FILE:
+  Officiating as a pre-match PROBABILITY RANGE MODIFIER — not a direction signal.
+  Modifier cap: ±5 points adjusted score; flag for review if exceeded.
+
+  FOOTBALL: card-tendency (strict/permissive), home-away bias, penalty award rate,
+    VAR weighting (card modifier ×0.60 in VAR competitions), UCL Final appointment
+    reasoning (reduce modifier ×0.50 for finals — deliberate neutral selection),
+    T-2h confirmation protocol before applying modifier.
+  RUGBY UNION: breakdown interpretation, penalty count tendency, scrum variance.
+  MMA: standing-up tendency (benefits grapplers vs strikers differently),
+    stoppage threshold variance (early/late referees affect iron-chin fighters).
+  CRICKET: DRS usage, LBW tendency variance, spinner vs seamer signal weight.
+  GENERAL: 5-step application framework, when NOT to apply, when direction shifts.
+
+ITEM 2 — Four regional tournament files:
+
+  sports/football/sport-domain-euros.md (285L) — NEW:
+    Two-year cycle vs World Cup. 24-team 4-team group format (fewer dead rubbers).
+    All European time zones — reduced travel/time zone modifiers for all.
+    No national European team tokens — demand flows through club proxies.
+    $AFC $SPURS $CITY $ACM $INTER $JUV $PSG $BAR $ATM all Euros-exposed.
+    FTP PATH_2 does not fire during Euros (no club competitive matches June–July).
+    Proxy modifier: ×1.03 per knockout round for club associated with leading nation.
+
+  sports/football/sport-domain-copa-america.md (290L) — NEW:
+    Altitude modifier CRITICAL: extreme venues up to 3,600m (×0.82 first 2 matches).
+    CONCACAF guest motivation ×0.88 vs CONMEBOL (exception: USA/Mexico competitive).
+    CONMEBOL automatic qualification — skip Phase 1 national token demand check.
+    $ARG primary token; Brazil proxy through $FLU/$MENGO (×1.03 per knockout round).
+    Post-European-season timing — South American players arrive fresh (vs AFCON).
+
+  sports/football/sport-domain-afcon.md (289L) — NEW (HIGHEST PRIORITY):
+    January timing = European club season disruption at peak.
+    EPL and Ligue 1 most affected leagues. Predictable, biennial, pre-flaggable.
+    AFCON depth modifier: 1 player ×0.96 | 2 players ×0.92 | 3+ ×0.88.
+    Position criticality amplifiers for GK, defensive partnership, playmaker.
+    FTP PATH_2: adjust win probability input, never suppress the mechanic.
+    Return modifier: ×0.97 for first 2 matches post-AFCON.
+    No confirmed African national tokens — signal flows through European club tokens.
+
+  sports/football/sport-domain-asian-cup.md (255L) — NEW:
+    Lighter European club disruption than AFCON (fewer Asian Tier A starters).
+    Asian Cup depth modifier: ×0.97 per player (lighter scale than AFCON).
+    Gulf winter conditions: January moderate — no heat modifier typically.
+    SEA market engagement: sea_engagement_modifier = ×1.03 during tournament.
+    No confirmed Asian national tokens — monitor for launches.
+
+ITEM 3 — sportmind.dev calibration leaderboard:
+  New section inserted between Calibration and Contribute sections.
+  Section tag: "Community" | Heading: "Calibration leaderboard."
+  5-column table: Rank · Contributor · Records · Accuracy · Status
+  1 populated row (SportMind: 129 records, 96%, Maintainer — accent green)
+  9 open rows (Founding Calibrator — muted style)
+  CSS: lb-table, lb-rank, lb-name, lb-status-maintainer, lb-status-founding
+  Link: Read the First Record Challenge → (btn-s style)
+  OG image regenerated.
+
 ## [3.97.23] — 2026-05-11
 
 ### Added — macro/macro-regulatory-sportfi.md: APAC section + US Project Crypto MOU
