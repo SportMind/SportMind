@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.97.20] — 2026-05-11
+
+### Fixed — index.html: four accuracy corrections
+
+index.html:
+  SIGNAL OUTPUT code block:
+    Version reference: v3.97.18 → v3.97.19 (current)
+
+  CALIBRATION section:
+    acc-sub: "121 of 126 records correct" → "124 of 129 records correct"
+    bar-meta: "121 / 126" → "124 / 129"
+    Basis: 96% × 129 = ~124 correct, ~5 wrong (previous figures used stale 126 base)
+
+  SUITE section — Telegram Bot Kit GitHub link corrected:
+    Was: github.com/SportMind/sportmind-telegram-kit
+    Now: github.com/SportMind/telegram-ai-bot-starter-kit
+
+  STATS BAR: already correct at 616 / 129 / 96% / 21 — no changes needed.
+
 ## [3.97.18] — 2026-05-11
 
 ### Added — World Cup intelligence layer: three enduring reasoning frameworks

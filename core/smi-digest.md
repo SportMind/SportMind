@@ -5,8 +5,8 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.17 — 2026-05-11
-**Library state:** 613 files · 394 markdown · 186 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.19 — 2026-05-11
+**Library state:** 616 files · 397 markdown · 188 CHANGELOG entries · Tier B sports: 6
 
 ---
 
@@ -46,6 +46,11 @@ Known gaps:
     sports/football/sport-domain-football-saudi-pro-league.md created.
     Remaining gap: zero calibration records; modifiers unverified.
   - MLS: covered via american-football domain; club-level intelligence thin
+
+  NEW (v3.97.18): World Cup reasoning framework built
+    sports/football/sport-domain-football-world-cup.md (763L)
+    Dead rubber, fatigue, host nation, time zone, national vs club reasoning.
+    Applies to every future World Cup — enduring framework.
 
 Modifiers needing update: none flagged
 
@@ -120,6 +125,12 @@ Known gaps:
     blocks added to fan-token/supply-intelligence.md
   - Women's football fan tokens: not modelled
   - Esports fan tokens: intelligence exists but thinner than football tier
+
+  NEW (v3.97.18): National team token reasoning framework built
+    fan-token/national-team-tokens.md (329L)
+    5-phase demand cycle, exit decay curves, WC year modifier.
+    Demand-only (no PATH_2 confirmed for any national token).
+    Applies to every World Cup, Euros, Copa America, AFCON, Asian Cup.
 
 Active tokens tracked (Tier A — BRIDGE_LIVE confirmed):
   $AFC   $ACM   $ARG   $ASR   $ATM   $BAR
@@ -206,6 +217,12 @@ Known gaps:
     (UAE VARA, Saudi SAMA positions not modelled)
   - Latin America: regulatory status thin (Brazil partial coverage only)
   - India: regulatory position unclear; not modelled despite large fan base
+
+  NEW (v3.97.18): Tournament macro reasoning framework built
+    macro/tournament-macro.md (358L)
+    Volume amplification 2-7×, cross-token correlation, four-year cycle,
+    AFCON club disruption, post-tournament baseline expansion.
+    Applies to every major international tournament — enduring framework.
 
 Modifiers needing update: none flagged
 
@@ -320,6 +337,18 @@ Upcoming calibration events:
    
 8. Women's football market and fan tokens — not modelled
    Action: WSL, NWSL, Liga F fan token pipeline monitoring needed
+
+9. Regional tournament reasoning frameworks — FORMALISED (v3.97.19)
+   Euros, Copa America, AFCON, and Asian Cup each have structural differences
+   from the World Cup framework that warrant supplementary files. These are
+   enduring reasoning frameworks not captured by the current World Cup layer.
+   Specific gaps:
+     Euros: 24-team format, European nations only, different host dynamics
+     Copa America: rotating host nations, conmebol structure, different fatigue
+     AFCON: January timing (disrupts European club season), biennial cadence
+     Asian Cup: 24-team format, Asian confederation structure, diverse climates
+   Action: one supplementary file per tournament type — lower priority than WC
+   Priority: AFCON highest (club season disruption impact), then Euros
 ```
 
 ---
@@ -369,6 +398,11 @@ MACRO EVENTS PROCESSED:
     athlete/injury-log.md deleted: expiring data per Library Rule
   SportMind Library Rule formalised — CONTRIBUTING.md + README.md + llms.txt — v3.97.16
   athlete/injury-log.md removed — Library Rule compliance — v3.97.17 (2026-05-11)
+  World Cup intelligence layer — three enduring reasoning frameworks — v3.97.18 (2026-05-11)
+    sports/football/sport-domain-football-world-cup.md (763L)
+    fan-token/national-team-tokens.md (329L)
+    macro/tournament-macro.md (358L)
+  README.md updated — purpose, structure, Library Rule, suite overview — v3.97.19 (2026-05-11)
 ```
 
 ---
@@ -412,13 +446,22 @@ FIELD PRIORITIES:
     examples/calibration/ucl-final-2026-psg-arsenal-signal.md as
     planning signal context — will be resolved post-match
   Library rule (v3.97.16): CONTRIBUTING.md · README.md · llms.txt
+                        README.md (v3.97.19): updated with purpose statement,
+                        library structure, Library Rule, suite overview, cal base
                         "Will this still be true in six months?" — the test
                         for every contribution and every file in this digest
+  World Cup modifiers (v3.97.18 — enduring):
+    Dead rubber: ×0.55 (full) / ×0.75 (partial) — FTP still fires
+    Time zone fatigue: 3-5h ×0.96 | 6-8h ×0.92 | 9h+ ×0.88
+    Tournament fatigue: R16 ×0.92 | QF ×0.90 | SF ×0.88 | prev.ET ×0.95
+    Host nation: ×1.20 | Host confederation: ×1.10
+    Tournament volume overlay: 2.0-7.0× by phase (macro/tournament-macro.md)
+    National token exit decay: Group −30-40% | QF −20-30% | SF −15-20%
   UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
   Gap priority order:   Reassess quarterly (aligns with tier review schedule)
 ```
 
 ---
 
-*SportMind v3.97.17 · MIT License · sportmind.dev*
+*SportMind v3.97.19 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary*
