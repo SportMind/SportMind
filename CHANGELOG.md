@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.35] — 2026-05-12
+
+### Added — Gap A, B, C: Psychological, Coaching, Seasonal Intelligence
+
+3 new core files. 816 lines total. All Library Rule compliant.
+652→655 files, 433→436 markdown, core 67→70.
+
+core/psychological-intelligence.md (323L) — GAP A:
+  Pressure performance: choking pattern ×0.92 | clutch pattern ×1.08
+    (minimum 5 comparable situations required before applying either modifier)
+  Win streak: 3 wins ×1.03 | 5 wins ×1.06 | 7+ wins ×1.08 ceiling
+    Opponent quality discount ×0.75 when streak built vs bottom-half opposition
+  Loss streak: 3 losses ×0.96 | 5 losses ×0.93 | 7+ losses ×0.90 floor
+    Amelioration when losses were vs top-half opposition
+  Rivalry: H2H 70%+ dominance ×1.04 | 30% or below ×0.96
+  Derby: home advantage ×1.10 amplifier | form signals ×0.80 discount
+  First goal: scorer ×1.06 | conceder ×0.94
+  Half-time deficit: trailing by one ×0.85
+  Post-trophy: hangover ×0.96 within 7 days
+  Post-near-miss: following season motivation ×1.05 for first 5-8 matches
+  Fan token: win streak demand amplification | loss streak acceleration ×1.30-1.70
+    Trophy extended premium: +2-4 weeks; choking disappointment ×1.40 on loss decay
+
+core/coaching-intelligence.md (271L) — GAP B:
+  New manager: matches 1-5 ×1.06 | matches 6-15 ×1.02 | match 16+ baseline
+  Caretaker: ×1.02 only (shorter, less pronounced effect)
+  Interim-to-permanent: restart count from permanent appointment date
+  Long-tenure stability: 2+ seasons ×1.03 | 4+ seasons ×1.05
+  Instability (3+ managers in 2 seasons): ×0.94 discount
+  Tactical system × absence interaction: possession ×1.15 midfield weight |
+    counter-attack ×1.15 striker/wide weight | high-press fitness signal elevated
+  Assistant manager continuity: ×0.97 uplift (vs ×1.06) when assistant stays
+  GK coach specialist: ×1.02 GK modifier for clubs with specialist GK coach
+  Fight camp stability (3+ fights same camp): ×1.04 | camp change: ×0.94 first fight
+  Manager demand: high-profile appointment +10-20% (1-2 weeks)
+    departure -8-15% (2-3 weeks) | contract extension ×1.02 sustained
+
+core/seasonal-intelligence.md (222L) — GAP C:
+  Annual cycle table: summer ×1.20 | season start ×1.10 | regular ×1.00 |
+    winter window ×1.10 | end of season ×1.10-1.15 | dead period ×0.85
+  Title race ×1.15 | relegation battle ×0.88 | European qualification ×1.08
+  National token pattern INVERTS dead period during WC/Euros years
+  Match day: ×1.08 | day-after-win ×1.05 | day-after-loss ×0.92 decay
+  Fixture congestion: third match in 7-day window ×0.94
+  International break: first match back ×0.97
+  Early cup exit: ×1.03 to league signal for remainder of season
+  Deep cup run net: ×0.97 (congestion ×0.94 + morale ×1.03)
+  Crypto cycle overlay: bull ×1.15 | bear ×0.85 | alt season ×1.20 (all tokens)
+    Cycle is the OUTERMOST layer — applied before sport-specific signals
+
 ## [3.97.34] — 2026-05-12
 
 ### Added — OVERVIEW.md at repository root
