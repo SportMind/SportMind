@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.97.34] — 2026-05-12
+
+### Added — OVERVIEW.md at repository root
+
+OVERVIEW.md added to the repository root (233L, 10,997 chars).
+
+Content: complete library overview for first-time visitors, developers, and
+contributors. Covers: the Library Rule, six intelligence layers, FTP PATH_2
+mechanics, signal output format, use cases, the SportMind Suite (with current
+sportmind.dev/suite/* links), SMI reference implementation, key numbers
+(651 files, 432 markdown, 129 calibration records, 96% accuracy), quick start,
+and contribution paths.
+
+Two ACTION blocks in the same submission were skipped (Library Rule FAIL):
+  Block 1 — Ben White MCL OUT rest of season: named player + specific injury.
+  Block 2 — UCL domain file −3pt modifier for May 30 fixture: named player
+    injury driving a match-specific modifier for a specific date.
+  CB absence framework already self-applying from v3.97.33 (one CB absent:
+    −3 to −5pts, defensive_modifier ×0.94).
+
+Library: 651→652 files, 432→433 markdown (OVERVIEW.md added).
 ## [3.97.33] — 2026-05-12
 
 ### Changed — KSA status upgrade, CLARITY header update, Arsenal left CB framework
