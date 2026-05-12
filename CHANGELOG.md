@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.97.37] — 2026-05-12
+
+### Added — Gap G/H + Oman/Kuwait regulatory + website audit
+
+2 new core files + regulatory update + website fully audited.
+658→660 files, 439→441 markdown, core 72→74.
+
+Website audit: index and docs updated from 658→660, 439→441, core 72→74.
+All suite pages confirmed present and versioned. No github.io links in
+primary suite card actions. OG image regenerated.
+
+ACTION BLOCKS — Library Rule applied to 4 blocks, 2 passed:
+  SKIPPED Block 2 (named manager + unconfirmed appointment + specific date = expiring)
+  SKIPPED Block 4 (pending ownership transfer / "pending CSD" = unconfirmed operational data)
+  CONFIRMED Block 1 (CLARITY): already DRAFT_RELEASED in file — no change needed
+  ACTIONED Block 3 (Oman OIFC + Kuwait FATF): both pass Library Rule
+
+core/financial-sustainability-intelligence.md (246L) — GAP G:
+  UEFA FFP: investigation ×0.94 | breach ×0.88 | clean + strong backing ×1.05
+  Premier League PSR: forced sale ×0.88 | academy sale ×0.95
+  Ownership signals: new high-net-worth ×1.15 (4-6wks) | uncertainty = ×1.20 variance
+  State-backed ×1.05 sustained | regulatory challenge ×0.96
+  Relegation financial: zone ×0.82 | post-relegation −25-40% month 1
+    Settled 60-70% of pre-relegation baseline
+    Promotion challenge from lower division ×1.05 + ×1.03/round
+  Newly promoted: first promotion ×1.25 spike → ×1.10 first season
+
+core/crowd-intelligence.md (220L) — GAP H:
+  Crowd effect on officiating: home penalty rate +15% | away cards +12%
+  VAR mitigates reviewable decisions; retains full effect on non-reviewable
+  High-noise venues: ×1.05 amplifier on crowd pressure signals
+  Capacity table: below 60% ×0.88 | 80-95% standard | 95-100% ×1.03 | sell-out ×1.05
+  Away support (away end sold out): ×1.02 to away team signal
+  New stadium first match: ×0.98 uncertainty | first season: ×1.08 sustained
+  Stadium opening spike: ×1.20 (48-72h)
+  Holder events at stadium: ×1.03 (48-72h) | naming rights ecosystem: ×1.05 sustained
+
+REGULATORY — macro/macro-regulatory-sportfi.md (1085L → 1162L):
+  Block 1 (CLARITY DRAFT_RELEASED + yield framework): ALREADY IN FILE — confirmed
+  Block 3 — Oman OIFC Royal Decree 8/2026:
+    Status: ENACTED | regulatory_clarity: MEDIUM_HIGH
+    OIFC framework for digital asset investment activities
+    VASP-equivalent authorisation required
+  Block 3 — Kuwait FATF Grey List (February 2026):
+    Status: RESTRICTIVE | regulatory_clarity: LOW
+    Added to FATF grey list February 2026 (AML/CFT deficiencies)
+    Apply CAUTION — do not model Kuwait as available fan token market
+  GCC Regulatory Clarity Summary table added (all 6 GCC markets):
+    UAE (VARA): HIGH | Qatar (QFC): HIGH | Bahrain (CBB): HIGH
+    Saudi (M/121): HIGH | Oman (OIFC): MEDIUM_HIGH | Kuwait: LOW
+
 ## [3.97.36] — 2026-05-12
 
 ### Added — Gap D, E, F: Historical Pattern, Broadcast/Media, Emerging Sports Pipeline

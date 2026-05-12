@@ -971,9 +971,86 @@ MONITORING:
   Watch: CBB Rulebook Volume 6 updates
 
 REMAINING GCC GAPS:
-  Kuwait:       Capital Markets Authority — crypto largely restricted; no fan token clarity
-  Oman:         Capital Market Authority — limited crypto framework; monitoring only
-  These two remain unmapped GCC markets.
+  Kuwait:       NOW DOCUMENTED — see section below (RESTRICTIVE / FATF grey list)
+  Oman:         NOW DOCUMENTED — see section below (OIFC enacted, Royal Decree 8/2026)
+```
+
+---
+
+#### Oman — OIFC Royal Decree 8/2026
+
+```
+OMAN STATUS: ENACTED — OIFC FRAMEWORK (Royal Decree 8/2026)
+  Regulator:    Oman Investment Fund Commission (OIFC)
+                (Note: Oman also has the Capital Market Authority (CMA) for
+                securities; OIFC handles investment fund and digital asset regulation)
+  Instrument:   Royal Decree 8/2026 — creates formal regulatory framework
+                for investment and digital asset activities under OIFC
+  regulatory_clarity: MEDIUM_HIGH (framework enacted; fan token-specific guidance developing)
+
+OIFC FRAMEWORK SCOPE:
+  Investment fund regulation: comprehensive
+  Digital asset scope: investment vehicles, tokenised assets
+  Fan token classification: utility token treatment likely (not yet explicitly confirmed)
+  VASP licensing: entities providing digital asset services require OIFC authorisation
+  AML/CFT: standard FATF-aligned requirements
+
+MARKET CONTEXT:
+  Oman is a smaller GCC market than UAE or Saudi Arabia.
+  OIFC framework signals regulatory intent to attract digital investment activity.
+  Fan token platforms: OIFC authorisation required for compliant operations.
+  
+AGENT IMPLICATIONS:
+  Oman regulatory_clarity: MEDIUM_HIGH
+  Digital asset framework: enacted via Royal Decree 8/2026
+  VASP-equivalent authorisation required
+  Apply: oman_oifc_clarity = improving (framework enacted; implementation continuing)
+
+MONITORING:
+  oifc.gov.om — OIFC official publications and authorisation registry
+  Watch: explicit fan token / utility token guidance under OIFC framework
+```
+
+---
+
+#### Kuwait — RESTRICTIVE (FATF Grey List)
+
+```
+KUWAIT STATUS: RESTRICTIVE — FATF GREY LIST (February 2026)
+  Primary regulator: Capital Markets Authority (CMA)
+                     Central Bank of Kuwait (CBK)
+  FATF Grey List:    Kuwait added to FATF grey list February 2026
+                     (enhanced monitoring due to AML/CFT deficiencies)
+  regulatory_clarity: LOW (restrictive crypto environment + FATF grey listing)
+
+CURRENT FRAMEWORK:
+  Crypto assets: largely restricted under CMA and CBK guidance
+  Fan tokens: no explicit framework; utility token treatment uncertain
+  FATF grey list implications:
+    Financial institutions face enhanced due diligence requirements for
+    Kuwait-linked transactions
+    Crypto-friendly platforms may restrict Kuwait access during grey list period
+    
+GREY LIST SIGNAL IMPLICATIONS:
+  FATF grey listing creates a negative signal for any fan token platform
+  considering Kuwait market expansion.
+  Apply: kuwait_restricted_modifier = CAUTION
+    → Do not model Kuwait as an available fan token demand market
+    → Kuwait-based holders face increased friction for transactions
+    → Platform operations in Kuwait face regulatory uncertainty
+    
+MONITORING:
+  FATF official list — fatf-gafi.org — grey list status updates
+  Watch: Kuwait action plan completion (FATF removal from grey list)
+  When removed from grey list: upgrade Kuwait status and revisit framework
+  
+GCC REGULATORY CLARITY SUMMARY:
+  UAE (VARA):        HIGH — enacted, comprehensive
+  Qatar (QFC):       HIGH — enacted within QFC jurisdiction  
+  Bahrain (CBB):     HIGH — enacted, stablecoin clarity included
+  Saudi Arabia (M/121): HIGH — Unified Sports Law enacted
+  Oman (OIFC):      MEDIUM_HIGH — Royal Decree 8/2026 enacted
+  Kuwait (CMA/CBK): LOW — restrictive + FATF grey list
 ```
 
 ---
