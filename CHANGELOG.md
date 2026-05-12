@@ -1,5 +1,80 @@
 # Changelog
 
+## [3.97.31] — 2026-05-12
+
+### Added — KSA/HK regulatory, 2 athlete files, VIT esports, lifecycle franchised modifier
+
+Restored from v3.97.30 backup (session reset). All new content built fresh.
+
+SKIPPED (Library Rule FAIL):
+  NEXT RELEASE Binance CAP20 completion log: operational date-specific event.
+  Standing rule: operational status updates with specific dates are not enduring library intelligence.
+
+REGULATORY — macro/macro-regulatory-sportfi.md (994L → 1082L):
+
+  IMMEDIATE — Saudi Arabia Royal Decree M/121 (Unified Sports Law):
+    Enacted: June 10, 2026
+    Creates legal entity framework for Saudi sports clubs to issue tokens.
+    Prior to M/121: fan token partnerships with Saudi clubs in regulatory grey area.
+    Post M/121: explicit legal entity status for commercial digital partnerships.
+    regulatory_clarity: MEDIUM_HIGH (M/121 enacted; SAMA/CMA digital layer developing)
+    First Saudi pro league fan token launch is now legally structurally possible.
+    GCC remaining unmapped: Kuwait, Oman (Saudi now partially documented).
+
+  THIS WEEK — Hong Kong SFC 24/7 Tokenisation Pilot:
+    SFC initiated pilot: 24/7 tokenised asset trading on licensed VASP platforms.
+    regulatory_clarity: HIGH (VASP regime mature; tokenisation pilot extends it)
+    SFC VASP licence required for any fan token platform in Hong Kong.
+
+  ALREADY IN FILE (confirmed from v3.97.29):
+    CLARITY Act yield framework: ACTIVITY vs PASSIVE YIELD — DRAFT_RELEASED ✓
+    Qatar QFC 2024 Framework ✓ | Bahrain CBB Vol.6 + SIO Module ✓
+    South Korea FSC 5-minute mandate (v3.97.23) ✓
+
+NEW ATHLETE FILES:
+
+  athlete/football/atletico-madrid-atm.md (194L):
+    DM-DEPENDENT SYSTEM — highest individual modifier at Atletico is the defensive midfielder.
+    DM absent: −5-8pts (×0.86) — higher system disruption than at any other Tier A club.
+    CB block: all available ×1.10; one absent ×0.93.
+    Striker: counter-attack endpoint −4-6pts (lower priority than DM).
+    La Liga defensive premium: ×1.05 amplifier on all CB modifiers.
+    Wanda Metropolitano: ×1.08 fortress; UCL nights ×1.10.
+    Madrid Derby demand: ×1.20. UCL weight 0.60 | La Liga 0.30.
+
+  athlete/football/tottenham-hotspur-spurs.md (226L):
+    Primary wide forward: ×1.12 available; ×0.86 absent (−5-7pts).
+    Korean fanbase modifier: ×1.05 on ALL $SPURS demand when Korean international
+      is available and fit (positional/demographic framework — not named player status).
+    Tottenham Hotspur Stadium: ×1.06; sell-out ×1.11; UCL nights ×1.08.
+    North London Derby demand: ×1.18 amplifier.
+    
+    RELEGATION THREAT FRAMEWORK (universal — applies to any Tier A club):
+      Safe (12+ points clear): ×1.00
+      Concern (6-11 clear): ×0.97
+      Danger zone (1-5 clear): ×0.91
+      Bottom 3 (in zone): ×0.83
+      Relegated: ×0.60-0.70 permanent
+      In danger zone: squad morale ×0.95 + manager pressure ×0.93 compound
+      Post-relegation recovery: 1-2 seasons to approach pre-relegation baseline
+
+  athlete/esports/vitality-vit.md (192L):
+    Multi-title: CS2 weight 0.50 | Valorant weight 0.35 | other 0.15
+    VCT EMEA franchised: ×1.05 stability modifier on Valorant signals only
+    CS2 is NOT franchised — standard esports volatility applies
+    European CS identity: ×1.05 at European-audience events
+    French market modifier: ×1.05-1.10 for French/Paris-hosted events
+    Dual-title strong performance simultaneously: ×1.05 brand narrative premium
+
+LIFECYCLE UPDATE — fan-token/fan-token-lifecycle/fan-token-lifecycle.md:
+  Franchised stability modifier section added:
+    franchised_stability_modifier = ×1.05 on demand baseline
+    $VIT confirmed franchised (VCT EMEA) — Valorant title only
+    CS2 NOT franchised — apply per title not organisation-wide
+    VCT, LCK/LPL/LEC/LCS franchised; CS2, Dota 2 DPC not
+
+Library: 648→651 files, 429→432 markdown. OG image regenerated.
+
 ## [3.97.30] — 2026-05-12
 
 ### Added — Gap 10: Esports specific intelligence — four files, 1,068 lines

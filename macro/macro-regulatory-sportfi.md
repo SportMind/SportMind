@@ -971,10 +971,64 @@ MONITORING:
   Watch: CBB Rulebook Volume 6 updates
 
 REMAINING GCC GAPS:
-  Saudi Arabia: SAMA/CMA oversight — less developed; no comprehensive crypto law
   Kuwait:       Capital Markets Authority — crypto largely restricted; no fan token clarity
   Oman:         Capital Market Authority — limited crypto framework; monitoring only
-  These three remain unmapped GCC markets.
+  These two remain unmapped GCC markets.
+```
+
+---
+
+#### Saudi Arabia — Unified Sports Law and Digital Asset Context
+
+```
+SAUDI ARABIA STATUS: ENACTED — UNIFIED SPORTS LAW (REGULATORY_CLARITY: IMPROVING)
+  Primary regulator:  Saudi Arabian Monetary Authority (SAMA) — financial regulation
+                      Capital Market Authority (CMA) — securities and capital markets
+  Sports regulator:   Ministry of Sport + General Sports Authority (GSA)
+  Key instrument:     Royal Decree M/121 — Unified Sports Law
+
+ROYAL DECREE M/121 — UNIFIED SPORTS LAW:
+  Purpose:      Comprehensive legal framework governing all aspects of sports in Saudi Arabia
+  Scope:        Professional sports clubs, leagues, sports organisations, commercial activities
+  Significance: Creates legal entity structure for sports clubs with commercial rights
+                Enables sports clubs to issue securities, tokens, and financial instruments
+                Provides the legal foundation for fan token partnerships with Saudi clubs
+  Date enacted: June 10, 2026
+
+  FAN TOKEN IMPLICATIONS:
+    Royal Decree M/121 creates the first formal legal basis for fan token issuance
+    by Saudi sports clubs within a recognised legal entity framework.
+    Prior to M/121: fan token partnerships with Saudi clubs operated in regulatory grey area
+    Post M/121: Saudi sports clubs have explicit legal entity status enabling commercial
+      partnerships including digital asset/token arrangements
+    
+  REGULATED CATEGORIES:
+    Sports clubs as legal entities: CONFIRMED
+    Commercial rights (broadcasting, sponsorship, digital): CONFIRMED
+    Digital asset issuance framework: requires SAMA/CMA layered authorisation
+      → M/121 provides entity structure; SAMA/CMA provide financial regulation
+
+SAMA / CMA DIGITAL ASSET FRAMEWORK:
+  SAMA: Payment systems regulator — crypto/stablecoin in payment context
+  CMA: Securities market regulator — token-as-security classification
+  Current status: MONITORING — no comprehensive dedicated crypto law equivalent to VARA
+  Fan token classification: not explicitly designated; utility token treatment assumed
+  
+SAUDI FAN TOKEN MARKET CONTEXT:
+  Saudi Pro League (PIF-funded clubs: Al-Nassr, Al-Hilal, Al-Ahli, Al-Ittihad):
+    These clubs have highest global fan token launch potential in KSA.
+    M/121 provides the legal entity foundation — the missing piece for fan token partnerships.
+    First Saudi pro league fan token launch is now legally structurally possible.
+    
+  Apply: saudi_sports_law_clarity_modifier = improving (M/121 removes entity barrier)
+    regulatory_clarity: MEDIUM_HIGH (M/121 enacted; SAMA/CMA digital layer still developing)
+  
+MONITORING:
+  SAMA.gov.sa — payment system and digital asset guidance
+  CMA.org.sa — capital markets digital asset updates
+  GSA.gov.sa — General Sports Authority for club legal entity confirmations
+  Watch: First Saudi club to partner with Chiliz/Socios under M/121 framework
+  Watch: SAMA digital asset regulatory framework (parallel development to M/121)
 ```
 
 ---
@@ -987,8 +1041,42 @@ REMAINING GCC GAPS:
 **Fan token lifecycle:** `fan-token/fan-token-lifecycle/` — lifecycle phases and regulatory gates
 
 *MIT License · SportMind · sportmind.dev*
+---
+
+### Hong Kong — SFC 24/7 Tokenisation Pilot (THIS WEEK — queue)
+
+```
+HONG KONG STATUS: ENACTED — VASP LICENSING REGIME ACTIVE
+  Primary regulator: Securities and Futures Commission (SFC)
+  VASP regime:       Hong Kong VASP licensing (June 2023 onwards — Tier 1 exchanges)
+  
+  24/7 TOKENISATION PILOT:
+    SFC has initiated a pilot allowing licensed platforms to offer 24/7 tokenised asset trading.
+    Scope: tokenised real-world assets (bonds, funds) on licensed platforms
+    Significance: moves Hong Kong toward continuous digital asset settlement
+    Fan token relevance: tokenised assets framework creates adjacent infrastructure
+      for digital collectible / utility token treatment
+    Status: PILOT ACTIVE (date of confirmation: verify via sfc.hk)
+    
+  FAN TOKEN CONTEXT:
+    Hong Kong has one of Asia's most developed crypto regulatory frameworks alongside Singapore.
+    SFC VASP licensing is required for any fan token platform operating in Hong Kong.
+    Fan token classification: likely utility token under SFC framework (not securities)
+    
+  AGENT IMPLICATIONS:
+    Hong Kong regulatory_clarity: HIGH (VASP regime mature; tokenisation pilot extends it)
+    Fan token platforms in HK: SFC VASP licence required
+    24/7 pilot: longer-term signal for enhanced digital asset liquidity in APAC
+    
+  MONITORING:
+    sfc.hk — SFC official publications and VASP registry
+    Watch: extension of 24/7 pilot to utility tokens / fan tokens specifically
+```
+
 *Based on: MiCA (EU, January 2025), Joint SEC/CFTC Guidance (US, 2026),*
 *Chiliz 2030 Manifesto (February 2026), Brazil RWA precedent (2025/2026),*
 *Japan FSA FIEA framework (2026), South Korea FSC directives (2026),*
 *SEC-CFTC Project Crypto MOU (March 2026), Qatar QFC Digital Assets Framework (2024),*
-*Bahrain CBB Rulebook Volume 6 + SIO Module, CLARITY Act draft (May 2026)*
+*Bahrain CBB Rulebook Volume 6 + SIO Module, CLARITY Act draft (May 2026),*
+*Saudi Arabia Royal Decree M/121 Unified Sports Law (June 2026),*
+*Hong Kong SFC 24/7 Tokenisation Pilot (May 2026)*

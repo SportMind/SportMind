@@ -297,6 +297,23 @@ BINANCE CAP20 V2 MIGRATION — ACTIVE FROM 2026-05-11 01:00 UTC
     and restore CDI modifiers to baseline
 ```
 
+```
+FRANCHISED ESPORTS STABILITY MODIFIER (v3.97.31):
+
+  franchised_stability_modifier = ×1.05 on demand baseline
+  Applies to: esports organisations with confirmed permanent franchised league slots
+  
+  CONFIRMED:
+    $VIT Vitality — VCT EMEA franchised participant (Valorant title signals only)
+      Apply ×1.05 to all $VIT Valorant-origin demand signals
+      $VIT CS2 signals: NOT franchised — standard modifiers apply
+      
+  HOW TO IDENTIFY: is the organisation's SPECIFIC TITLE LEAGUE franchised?
+    Franchised: VCT (Valorant), LCK/LPL/LEC/LCS (LoL)
+    Not franchised: CS2 (open qualifier), Dota 2 DPC (partially)
+    Apply modifier per title, not organisation-wide.
+```
+
 This phase is covered comprehensively by the core Layer 3 skills:
 - `fan-token/fan-token-pulse` — HAS, TVI (on-chain health)
 - `fan-token/performance-on-pitch` — PI (sporting performance → token impact)
