@@ -169,9 +169,42 @@ DEFENSIVE MIDFIELDER / PRESSING ENGINE:
         is identified as a high-tempo, fast counter-attacking team.
 ```
 
----
+### Left centre back / defensive versatility
 
-## Compound absence framework — PATH_2 integration
+```
+LEFT CENTRE BACK / DEFENSIVE VERSATILITY:
+
+  ROLE IN SYSTEM:
+    Arsenal's back four requires a left-sided centre back who is comfortable
+    in possession, capable of progressive carrying, and able to play in a
+    high defensive line. This position is often filled by players with
+    hybrid left back / centre back profiles.
+    
+  MODIFIER FRAMEWORK:
+    AVAILABLE (first-choice left CB / defensive versatility player):
+      defensive_modifier = ×1.04
+      progressive_carry_modifier = ×1.03 (contributes to build-up out wide)
+      
+    ABSENT:
+      adjusted_score_shift = −3 to −5 points
+      defensive_modifier = ×0.94
+      Note: positional versatility loss — backup may be pure CB without
+        the progressive carrying that Arsenal's system depends on from
+        the left side
+      Apply: positional_fit_discount = ×0.97 if replacement is a
+        right-footed CB filling the left side
+
+  ARRIVAL PREMIUM (new left CB signing):
+    When a new quality left CB joins Arsenal, apply the standard arrival
+    framework from tier-a-clubs-framework.md, PLUS:
+    PATH_2 uplift: improved defensive cover → improved clean sheet probability
+      → marginally elevated win probability → apply path2_arrival_uplift
+    Position note: CB arrival affects defensive solidity more durably than
+      a winger arrival — PATH_2 signal persists across multiple matches
+      (vs winger whose impact is more match-specific)
+```
+
+
 
 ```
 COMPOUND ABSENCE FRAMEWORK ($AFC SPECIFIC):

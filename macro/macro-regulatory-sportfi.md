@@ -210,7 +210,7 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 
 
 ```
-CLARITY ACT — LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
+CLARITY ACT — DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
 
   Source:           US Senate Banking Committee — official committee ledger
   Source URL:       https://www.banking.senate.gov/hearings/05/08/2026/executive-session
@@ -981,7 +981,9 @@ REMAINING GCC GAPS:
 #### Saudi Arabia — Unified Sports Law and Digital Asset Context
 
 ```
-SAUDI ARABIA STATUS: ENACTED — UNIFIED SPORTS LAW (REGULATORY_CLARITY: IMPROVING)
+SAUDI ARABIA STATUS: ENACTED — UNIFIED SPORTS LAW (REGULATORY_CLARITY: HIGH)
+  Classification:   REGULATED — M/121 creates formal legal entity framework
+                    for Saudi sports clubs to issue and partner on digital assets
   Primary regulator:  Saudi Arabian Monetary Authority (SAMA) — financial regulation
                       Capital Market Authority (CMA) — securities and capital markets
   Sports regulator:   Ministry of Sport + General Sports Authority (GSA)
@@ -1020,8 +1022,9 @@ SAUDI FAN TOKEN MARKET CONTEXT:
     M/121 provides the legal entity foundation — the missing piece for fan token partnerships.
     First Saudi pro league fan token launch is now legally structurally possible.
     
-  Apply: saudi_sports_law_clarity_modifier = improving (M/121 removes entity barrier)
-    regulatory_clarity: MEDIUM_HIGH (M/121 enacted; SAMA/CMA digital layer still developing)
+  Apply: saudi_sports_law_clarity_modifier = positive (M/121 creates formal legal basis)
+    regulatory_clarity: HIGH (M/121 enacted and in force; creates full sports entity framework)
+    Note: SAMA/CMA digital asset financial regulation layer continues to develop separately
   
 MONITORING:
   SAMA.gov.sa — payment system and digital asset guidance

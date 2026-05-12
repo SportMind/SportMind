@@ -1,5 +1,96 @@
 # Changelog
 
+## [3.97.33] — 2026-05-12
+
+### Changed — KSA status upgrade, CLARITY header update, Arsenal left CB framework
+
+SMI briefing with 7 ACTION blocks received. Library Rule applied independently to each.
+
+SKIPPED (Library Rule FAIL — 4 blocks):
+  Block 2 (vitality.md with ZywOo/Jamppi/Profek + 2026 titles):
+    Named players + specific tournament results = expiring data.
+  Block 3 (Spurs injury list — Xavi Simons, Kulusevski, Odobert):
+    Named player injury list = current operational data.
+    Relegation modifier framework already self-applying from v3.97.31.
+  Block 4 (Atletico Cardoso ankle surgery):
+    Named player + specific injury = current operational data.
+  Block 5 (lifecycle franchised ×1.05 + 18-decimal + multi-chain):
+    Franchised ×1.05: already applied in v3.97.31.
+    18-decimal + multi-chain: already fully documented in lifecycle file.
+    Nothing to add.
+
+ACTIONED (Library Rule PASS — 3 blocks):
+
+  Block 1 — macro/macro-regulatory-sportfi.md: KSA status upgrade:
+    Saudi Arabia regulatory_clarity: IMPROVING → HIGH
+    Status: REGULATED (M/121 creates formal legal entity framework)
+    Apply line updated: from "MEDIUM_HIGH" to "HIGH"
+    Note: SAMA/CMA digital asset financial layer documented as continuing separately
+
+  Block 6 — macro/macro-regulatory-sportfi.md: CLARITY Act header:
+    Status header: LEGISLATIVE_MARKUP_IN_PROGRESS → DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS
+    Activity vs passive yield section: already present (v3.97.29)
+    HK SFC: already present (v3.97.31)
+    SK FSC 5-minute mandate: already present (v3.97.23)
+    No additional content needed — confirmation only
+
+  Block 7 — athlete/football/arsenal-afc.md: left CB framework:
+    New section: "Left centre back / defensive versatility"
+    No named players — positional reasoning only
+    Framework: hybrid left back/CB profile, progressive carrying modifier ×1.03
+    Arrival framework: CB arrival has more durable PATH_2 signal than winger arrival
+    Right-footed CB at left CB: positional_fit_discount ×0.97
+
+Library: 651 files unchanged (no new files — updates to existing files only).
+## [3.97.32] — 2026-05-12
+
+### Added — sportmind.dev website consolidation: three suite pages + nav update
+
+WEBSITE-ONLY RELEASE. No library files changed.
+GitHub repositories unchanged. GitHub Pages sites unchanged.
+
+THREE NEW PAGES — all match index.html design tokens exactly:
+
+  /suite/telegram/index.html:
+    Content: 5-step Managed Bots flow, 5 use case cards, Path A/B quick start,
+      4 prompt files, governance section
+    New: SMI reference implementation section
+    New: ⚠️ BETA badge
+    Stats: 4 prompts · 5 use cases · 0 paid dependencies · MIT
+    Suite section: 4 cards with /suite/* internal links
+    Footer: © 2026 SportMind (no name) | Managed Bots Docs link included
+
+  /suite/wallet/index.html:
+    Content: 4-layer intelligence stack, 5 runnable examples, guardrails section,
+      4-command quick start
+    CRITICAL FIX: Fan token registry corrected
+      FROM: "Six tokens. All FTP PATH_2 active." (factually wrong)
+      TO:   "Active fan tokens. One PATH_2 confirmed."
+      Table: $AFC Confirmed ✓ Model 2 | $BAR $CITY $PSG $JUV $ACM Demand only
+      Note added: "FTP PATH_2 is currently confirmed for $AFC only..."
+    New: ⚠️ BETA badge
+    Stats: 4 layers · 5 examples · 0 dependencies · MIT
+    "suite" not "ecosystem" throughout
+
+  /suite/intelligence-agent/index.html:
+    Content: 5-step pipeline (Monitor→Filter→Classify→Map→Deliver), 5 source
+      categories, 7-field briefing format with full worked example,
+      3 delivery options, governing principle section
+    New: "The governing principle" section — Library Rule stated in full
+    New: "SMI — running in production" reference implementation section
+    Fixed: stale stats (651 files, 129 records — current figures)
+    Fixed: correct GitHub URL (SportMind/intelligence-agent not old slug)
+    Fixed: suite cards styled to match index.html kit-card pattern
+    New: ⚠️ BETA badge
+
+HOMEPAGE UPDATES (index.html):
+  Nav: "Suite" link added pointing to #suite
+  Suite section: all three kit cards updated
+    "View site →" links now point to /suite/* (not GitHub Pages URLs)
+    GitHub links corrected (intelligence-agent slug fixed)
+    Stale version badges removed
+    No GitHub Pages references remain in suite card primary actions
+
 ## [3.97.31] — 2026-05-12
 
 ### Added — KSA/HK regulatory, 2 athlete files, VIT esports, lifecycle franchised modifier
