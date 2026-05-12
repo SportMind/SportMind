@@ -1,5 +1,56 @@
 # Changelog
 
+## [3.97.36] — 2026-05-12
+
+### Added — Gap D, E, F: Historical Pattern, Broadcast/Media, Emerging Sports Pipeline
+
+3 new files. 819 lines total. All Library Rule compliant.
+655→658 files, 436→439 markdown, core 70→72.
+
+core/historical-pattern-intelligence.md (293L) — GAP D:
+  Minimum sample tiers: <5 (don't apply) | 5-9 (×0.50 weight) | 10+ (full)
+  Enduring pattern qualification: must span different squads AND managers.
+  Competition stage patterns:
+    Cup team overperformance: ×1.06 (5+ cup runs documented)
+    Final anxiety underperformance: ×0.94 (3+ comparable finals)
+  Tactical matchup patterns:
+    High-press vs low-block goalless at 30min: ×0.93 | at 60min: ×0.90
+    Possession vs transition on firm surface: ×0.96
+  Seasonal position patterns:
+    Christmas congestion by squad depth: deep ×0.97 | standard ×0.94 | shallow ×0.91
+    Final day motivation: nothing-to-play-for ×0.93 | survival ×1.05
+  Fan token historical:
+    Title drought narrative amplifier: ×1.05 additional
+    Holder fatigue (2+ below-expectation seasons): ×0.92 | floor ×0.88
+    Recovery from extended low period: ×1.03 above pre-fatigue baseline
+
+core/broadcast-media-intelligence.md (234L) — GAP E:
+  Broadcast reach: global ×1.10 | FTA ×1.08 | streaming deal ×1.05 sustained
+  Media narrative: title contender ×1.05 (4-6 weeks) | crisis ×0.93
+    Combined with seasonal: capped at ×1.25
+    Star player concentration risk: ×1.20 weight on availability modifier
+  Chiliz/Socios official marketing: major campaign ×1.15 (7-14d) | standard ×1.05
+  New club partnership: Tier A ×1.05 | mid-tier ×1.03 | niche ×1.01 ecosystem growth
+  Platform feature launch: ×1.08 (5-10 days)
+  Crypto media positive: ×1.04 | negative: ×0.96 (both 48-72h)
+
+fan-token/emerging-sports-pipeline.md (292L) — GAP F:
+  4-phase launch demand profile:
+    Phase 1 pre-launch (4-8wks): existing same-sport tokens ×1.08
+    Phase 2 launch (days 1-7): Tier A +60-80% | standard +40-60% | weak +20-35%
+    Phase 3 settling (wks 2-8): new baseline 15-25% above pre-launch
+    Phase 4 first event: WIN extends phase 2 2-3wks | LOSS accelerates decay
+  Sport readiness framework (5 criteria, scored 0-10):
+    8-10 HIGH | 5-7 MODERATE | 0-4 LOW
+    High readiness not yet active: IPL cricket, additional NBA, tennis, NFL, women's football
+  First mover premium: ×1.40 CDI (new sport vertical) | ×1.25 (new geographic market)
+    Permanent first-mover legacy: +5-8% structural demand floor above peers
+  Individual athlete tokens (distinct framework):
+    Primary demand signal: career trajectory (not match results)
+    Retirement announcement: −40-60% demand cliff
+    Major personal milestone: +25-50% 48-72h spike
+    Volatility: ×1.25 wider confidence interval vs club tokens
+
 ## [3.97.35] — 2026-05-12
 
 ### Added — Gap A, B, C: Psychological, Coaching, Seasonal Intelligence
