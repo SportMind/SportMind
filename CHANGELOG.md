@@ -1,5 +1,74 @@
 # Changelog
 
+## [3.97.30] — 2026-05-12
+
+### Added — Gap 10: Esports specific intelligence — four files, 1,068 lines
+
+Genuine depth gap fill. Four new files extending existing esports base files.
+644→648 files, 425→429 markdown.
+
+Extends (does not duplicate):
+  sports/esports/sport-domain-esports.md (existing base domain)
+  fan-token/esports-token-intelligence/ (existing CDI framework)
+
+sports/esports-framework.md (317L) — OVERARCHING FRAMEWORK:
+  Confirmed active tokens registry: $OG BRIDGE_LIVE | $ALL verify | $NAVI LEGACY CONTRACT
+  $NAVI explicitly flagged: legacy on-chain contract only — not active partnership.
+  
+  PATCH META (unique to esports):
+    0-7 days (fresh): ×0.85 confidence on all historical data
+    8-30 days (settling): ×0.93 | 31+ days (stable): ×1.00
+    Major vs minor patch distinction. Fast-adapter premium ×1.06.
+    
+  ROSTER CHANGE IMPACT (2-5× traditional sports magnitude):
+    Star carry departure: ×0.75 | IGL: ×0.82 | Support: ×0.92 | Coach: ×0.94
+    Integration timeline: 0-30d ×0.88 | 31-60d ×0.94 | 61-90d ×0.97 | 91d+ ×1.00
+    Full rebuild (3+ changes): new team confidence ×0.75; reset all historical data
+    
+  LAN vs ONLINE:
+    Online modifier: ×0.92 vs LAN baseline. LAN specialist ×1.05.
+    
+  REGIONAL DOMINANCE (enduring patterns):
+    CIS/EEU heritage: ×1.08 in CS | LCK/LPL: ×1.10 at LoL Worlds
+    Western LoL: ×0.85 vs LCK/LPL | Valorant: ×0.90 confidence (newer)
+    
+  PRIZE POOL MOTIVATION:
+    World championship: ×1.20 | Major: ×1.10 | Regular season: ×1.00
+    
+  DEMAND CYCLE (universal):
+    R16: ×1.05 | QF: ×1.10 | SF: ×1.15 | Final: ×1.25
+    Major victory: +30-50% | World championship: +60-100%
+
+sports/esports-dota2.md (221L):
+  TI signal weight: ×2.0 | Majors: ×1.50 | DPC: ×1.00
+  Hero meta: flexibility ×1.05 | signature hero nerf ×0.90 | buff ×1.08
+  Carry dominance in Dota 2: ×1.15 weight factor (higher than other titles)
+  $OG: permanent prestige modifier ×1.10 (only two-time consecutive TI winner)
+    TI victory: ×1.60-2.00 spike | Off-season: ×1.00 base
+  $ALL: prestige ×1.05 | Scandinavian regional ×1.05 | historic TI3 victory
+
+sports/esports-cs2.md (242L):
+  $NAVI explicitly stated: LEGACY CONTRACT ONLY — do not apply partnership signals
+  CS Major signal weight: ×1.80 | IEM Katowice: ×1.60 | ESL/BLAST: ×1.20
+  AWPer: primary role — absence ×0.82 (highest individual modifier in CS2)
+    AWP-map presence: ×1.08 | Elite replacement: ×0.95 | Unproven: ×0.85
+  Map pool: strong map ×1.08 | weak map ×0.87 | forced weak map ×0.87
+  Veto intelligence: optimal veto decision ×1.03
+  Pistol win rate: >60% → ×1.06 | <40% → ×0.94
+  Organisation prestige tiers: multi-Major ×1.15 floor → regional only ×1.00
+
+sports/esports-moba-tactical.md (288L):
+  No active LoL or Valorant tokens — framework for future launches.
+  LoL: Worlds ×2.0 | MSI ×1.50 | LCK/LPL ×1.20 regional
+  LCK/LPL international modifier ×1.10 | Western teams ×0.85 at Worlds
+  Regional meta identity: LCK methodical | LPL aggressive | LEC flexible | LCS volatile
+  Patch: LEC fast-adaptor ×1.04 in fresh meta | LCK slow-adaptor ×0.96 in fresh meta
+  LoL carry departure: ×0.80 | Shotcaller: ×0.88 | Duo lane new pairing: ×0.96 (5 matches)
+  Korean LoL org international prestige: ×1.10
+  Valorant: Champions ×1.80 | Masters ×1.40 | franchised ×1.05 demand stability
+  Valorant duelist departure: ×0.83 | Controller: ×0.88 | Franchise stability modifier ×1.05
+  Riot Games / Chiliz title partnership (if confirmed): ×1.30 ecosystem signal
+
 ## [3.97.29] — 2026-05-12
 
 ### Added — Qatar/Bahrain regulatory frameworks, CLARITY Act yield constraint, 4 athlete files
