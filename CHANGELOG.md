@@ -1,5 +1,81 @@
 # Changelog
 
+## [3.97.29] — 2026-05-12
+
+### Added — Qatar/Bahrain regulatory frameworks, CLARITY Act yield constraint, 4 athlete files
+
+Three SMI briefing items actioned. Item 3 batched into same release for efficiency.
+640→644 files, 421→425 markdown.
+
+ITEM 1 — macro/macro-regulatory-sportfi.md: Qatar QFC + Bahrain CBB (IMMEDIATE):
+  Middle East section expanded. UAE/VARA already documented; Qatar and Bahrain added.
+  Remaining GCC unmapped: Saudi Arabia, Kuwait, Oman.
+
+  Qatar — QFC Digital Assets Framework 2024 (ENACTED):
+    Regulator: QFCRA (Qatar Financial Centre Regulatory Authority)
+    QFC jurisdiction: special economic zone — separate from Qatar state law
+    Legal recognition: token ownership legally recognised; smart contracts enforceable
+    TSP licensing: Token Service Provider licence required for all digital asset services
+    Fan tokens: utility token classification — no securities burden within QFC
+    regulatory_clarity: HIGH (within QFC jurisdiction)
+    Monitoring: qfcra.com
+
+  Bahrain — CBB Rulebook Volume 6 + SIO Module (ENACTED):
+    Regulator: Central Bank of Bahrain (CBB)
+    Crypto-Asset Module: covers fan tokens as utility tokens; CBB Category 4 licence
+    SIO Module: fully-backed fiat stablecoins explicitly permitted (1:1 backing required)
+    Fan tokens: utility token classification — no securities burden
+    Stablecoin pairs: explicitly regulated and permissible (unique among GCC)
+    regulatory_clarity: HIGH
+    Monitoring: cbb.gov.bh
+
+ITEM 2 — macro/macro-regulatory-sportfi.md: CLARITY Act yield framework (IMMEDIATE):
+  309-page draft released 2026-05-12 by Senate Banking Committee (Tier 1 — VERIFIED).
+  Status update: DRAFT_RELEASED added alongside LEGISLATIVE_MARKUP_IN_PROGRESS.
+
+  ENDURING DESIGN CONSTRAINT (activity vs passive yield):
+    PROHIBITED: interest/yield paid "solely in connection with holding" a stablecoin
+      — economically equivalent to bank deposit interest; "buy and hold" APY model
+    PERMITTED: activity-based rewards — governance voting, engagement, predictions,
+      event activation, loyalty participation; "buy and use" model
+
+  FAN TOKEN IMPLICATIONS:
+    COMPLIANT: governance voting rewards, match predictions, event activation,
+      engagement-linked distributions
+    NON-COMPLIANT: holding bonuses, APY-style staking yield, passive balance yield
+    Socios/Chiliz existing utility model: structurally COMPLIANT with this boundary
+    Apply conservative interpretation now — do not wait for enactment
+
+ITEM 3 — Four athlete intelligence files (THIS WEEK, batched):
+
+  athlete/football/inter-milan-inter.md (166L):
+    Three-CB / 3-5-2 system — wing-backs carry ALL attacking width.
+    Wing-back absent: −4-6pts (higher than standard fullback ×0.88).
+    Three-CB block: all available ×1.10; two absent → HOLD.
+    Striker: counter-attack focal point −5-7pts absent.
+    Milan Derby ×1.15 | Derby d'Italia ×1.12.
+    European weight 0.60 | Domestic 0.40 for $INTER demand.
+
+  athlete/football/galatasaray-gal.md (157L):
+    Türk Telekom fortress: ×1.12 base; European nights ×1.15; sell-out ×1.17 combined.
+    Individual quality dependency: attacking absent −5-8pts (×0.84).
+    Turkish national team sentiment modifier ×1.03 during EURO qualification.
+    UCL qualification: ×1.15 seasonal premium | missed: ×0.90 season.
+
+  athlete/football/napoli-nap.md (171L):
+    Striker = press trigger + goal threat (compound absence −6-8pts).
+    system_disruption_flag = true on striker absence.
+    Maradona sell-out: ×1.13 combined.
+    Post-championship baseline: +10-20% permanent after Scudetto/UCL run.
+    Serie A attacking discount: ×0.95 (half of standard ×0.90 — pressing premium).
+
+  athlete/football/porto-por.md (163L):
+    Academy depth discount: ×0.80 on all non-elite positions (deepest in library).
+    Expected summer sales: apply reduced departure decay ×0.95 (not full ×0.88).
+    talent_factory_brand_modifier = ×1.05 sustained (export brand value).
+    UCL demand weight 0.70 | Domestic 0.30 ($POR is European-demand-dominant).
+    Dragão European nights: ×1.10 fortress modifier.
+
 ## [3.97.28] — 2026-05-11
 
 ### Added — Five gap fills: transfer window, social sentiment, governance, portfolio, women's football

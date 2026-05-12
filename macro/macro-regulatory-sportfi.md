@@ -270,27 +270,81 @@ CLARITY ACT — LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
     Outcome B — Bill stalled/amended significantly: revert to MONITOR status
     Source: https://www.banking.senate.gov/hearings (live webcast 14 May)
 
-  THIS WEEK — ACTION REQUIRED AFTER MARKUP (2026-05-14):
-    Date:     Thursday 14 May 2026 | 10:30 AM EST | 538 Dirksen
-    Webcast:  banking.senate.gov/hearings (monitor live)
+  309-PAGE DRAFT RELEASED — 2026-05-12 (day of markup):
+    Source: US Senate Banking Committee — VERIFIED (Tier 1)
+    Status update: DRAFT_RELEASED (in addition to LEGISLATIVE_MARKUP_IN_PROGRESS)
     
-    IF BILL ADVANCES (passes committee):
-      Update macro/macro-regulatory-sportfi.md:
-        US_regulatory_milestone: STATUTORY_REGIME_IN_PROGRESS
-        Next watch: Senate floor vote (60-vote supermajority threshold)
-        Update smi-digest.md Layer 5 US section
-        CHANGELOG ### Changed entry required
+    Key provision confirmed in draft text:
+      ACTIVITY vs PASSIVE YIELD DISTINCTION:
+        PROHIBITED: interest or yield paid "solely in connection with the holding"
+          of a stablecoin (passive/balance yield — economically equivalent to bank deposit)
+        PERMITTED: activity-based rewards, engagement-linked incentives, bona fide
+          activity rewards ("buy and use" model, not "buy and hold")
+      This distinction is the primary stablecoin compliance boundary in the CLARITY Act.
+      See: CLARITY ACT YIELD DESIGN CONSTRAINT section below for fan token implications.
     
-    IF BILL STALLS OR FAILS:
-      Update macro/macro-regulatory-sportfi.md:
-        CLARITY Act: revert to UNVERIFIED — MONITOR
-        Revert regulatory_clarity: HIGH → MEDIUM_HIGH
-        Revert macro modifier: remove +0.02 addition
-        Update smi-digest.md Layer 5 US section
-        CHANGELOG ### Changed entry required
+  MARKUP OUTCOME MONITORING (14 May 2026):
+    IF BILL ADVANCES: update to STATUTORY_REGIME_IN_PROGRESS
+    IF BILL STALLS: revert to UNVERIFIED MONITOR; remove +0.02 modifier
+```
 
-    NO LIBRARY CHANGE NEEDED TODAY — current status LEGISLATIVE_MARKUP_IN_PROGRESS
-    is accurate and confirmed. Action required only after markup outcome known.
+```
+CLARITY ACT — YIELD DESIGN CONSTRAINT (ENDURING — applies if enacted):
+
+  DISTINCTION: ACTIVITY-BASED REWARDS vs PASSIVE YIELD
+
+  PROHIBITED (passive yield model):
+    Interest or yield paid to token/stablecoin holders solely for holding
+    Economically or functionally equivalent to bank deposit interest
+    Balance-based APY programs (the "hold to earn" / APY model)
+    Any yield whose receipt requires no action beyond maintaining a balance
+    
+  PERMITTED (activity-based rewards model):
+    Rewards linked to engagement, participation, or use:
+      Governance voting participation → token rewards
+      Event attendance or activation → fan token utility
+      Gaming, prediction, or activity completion → reward distribution
+      Loyalty program engagement → earned rewards (not passive income)
+    The "buy and use" model is explicitly preserved
+    Bona fide activity rewards remain compliant
+
+  FAN TOKEN DESIGN IMPLICATIONS (enduring — true regardless of exact passage date):
+    Fan token utility design for the US market must be activity-linked, not balance-linked.
+    
+    COMPLIANT fan token utility (activity-based):
+      Governance voting rewards → COMPLIANT
+      Match prediction rewards → COMPLIANT
+      Event activation / VIP access → COMPLIANT
+      Engagement-linked token burns or distribution → COMPLIANT
+      
+    NON-COMPLIANT fan token utility (passive/balance-based):
+      Holding bonus (earn tokens for holding N days) → NON-COMPLIANT
+      APY-style staking yield on fan token balances → NON-COMPLIANT
+      Passive balance yield of any kind → NON-COMPLIANT
+      
+  CHILIZ / SOCIOS PLATFORM IMPLICATION:
+    The Socios platform's reward model (governance voting, predictions, activations)
+    is structurally aligned with the CLARITY Act permitted activity-based model.
+    The existing FanToken.com utility framework is COMPLIANT with this boundary.
+    Any new US-linked fan token utility features must be tested against this constraint.
+    
+  AGENT REASONING APPLICATION:
+    When assessing US fan token market strategy:
+      Check: is the utility model activity-based or passive yield?
+      Activity-based → US-compliant → apply US first-mover demand signal
+      Passive/balance yield → US non-compliant → cannot apply US market demand signal
+      
+  SCOPE:
+    This constraint applies to consumer-facing stablecoin instruments AND by
+    extension to any US-regulated digital asset utility program.
+    Fan tokens classified as digital collectibles/digital tools are not stablecoins —
+    but fan token reward programs that mimic passive yield will face the same scrutiny.
+    Apply conservative interpretation: design all US-linked utility as activity-based.
+    
+  STATUS: DRAFT_RELEASED (not yet enacted)
+    This constraint is enduring once enacted.
+    The activity/passive yield distinction is stable across all draft versions.
+    Apply to design reasoning NOW — do not wait for enactment.
 ```
 
 ```
@@ -817,12 +871,110 @@ AGENT IMPLICATIONS:
   Holder profile:            High-net-worth; institutional-adjacent
   Utility classification:    Confirmed — no securities compliance burden
   AML/Travel Rule:           FATF-standard; apply for UAE-based holder signals
-  Middle East gap remaining: Saudi, Qatar, Bahrain frameworks not yet modelled
+  Middle East gap remaining: Saudi, Kuwait, Oman — frameworks not yet modelled
+  Qatar and Bahrain: NOW DOCUMENTED (see sections below)
 
 MONITORING:
   vara.ae — official VARA publications and licence registry
   Watch: VARA Rulebook updates (issued per activity category)
   Watch: Federal SCA guidance (federal vs emirate jurisdiction tension)
+```
+
+---
+
+#### Qatar — QFC Digital Assets Framework 2024
+
+```
+QATAR STATUS: ENACTED — QFC DIGITAL ASSETS FRAMEWORK 2024
+  Regulator:    Qatar Financial Centre Regulatory Authority (QFCRA)
+  Jurisdiction: Qatar Financial Centre (QFC) — special economic zone framework
+                Note: QFC jurisdiction is distinct from Qatar state law;
+                entities must be QFC-registered to benefit from this framework
+  Framework:    QFC Digital Assets Framework (QDAF) 2024
+  regulatory_clarity: HIGH (within QFC jurisdiction)
+
+LEGAL RECOGNITION:
+  Token ownership: legally recognised within QFC framework
+  Smart contracts: legally enforceable within QFC jurisdiction
+  Digital asset classification: utility tokens, security tokens, payment tokens —
+    all explicitly defined in QDAF
+
+TOKEN SERVICE PROVIDER (TSP) LICENSING:
+  Any entity providing digital asset services within QFC must hold a TSP licence.
+  TSP licence categories:
+    Dealing in digital assets
+    Arranging deals in digital assets
+    Operating a digital asset exchange
+    Safeguarding digital assets (custody)
+  Fan token platforms operating in Qatar: must obtain QFCRA TSP licence.
+
+FAN TOKEN CLASSIFICATION UNDER QFC:
+  Utility tokens (fan tokens): regulated as non-security digital assets within QFC
+  Subject to: anti-market-manipulation rules, AML/CFT, KYC obligations
+  Not subject to: full securities regulation (lighter-touch than security tokens)
+
+AGENT IMPLICATIONS:
+  Qatar regulatory_clarity: HIGH (QFC jurisdiction — clear rules for token services)
+  Fan token distribution in Qatar: TSP licence required via QFCRA
+  Geographic scope: QFC entities only — wider Qatar state law remains separate
+  High-net-worth market: QFC is a premium financial centre; institutional holder profile
+  Apply: qatar_qfc_clarity_modifier = positive for QFC-registered fan token platforms
+
+MONITORING:
+  qfcra.com — QFCRA official framework and TSP registry
+  Watch: QDAF updates and guidance notes
+```
+
+---
+
+#### Bahrain — CBB Digital Asset Framework
+
+```
+BAHRAIN STATUS: ENACTED — CBB RULEBOOK VOLUME 6 (CRYPTO-ASSET MODULE)
+  Regulator:    Central Bank of Bahrain (CBB)
+  Framework:    CBB Rulebook Volume 6 — Crypto-Asset Module
+                + Stablecoin Issuance and Offering (SIO) Module
+  regulatory_clarity: HIGH (comprehensive, activity-based)
+  Market note:  Bahrain is a smaller market than UAE/Qatar but was an
+                early mover in GCC crypto regulation — framework well-established
+
+CRYPTO-ASSET CLASSIFICATION:
+  CBB classifies crypto-assets into:
+    Crypto-asset (general): covers fan tokens and utility tokens
+    Investment tokens: security-equivalent regulation
+    Utility tokens: lighter regulation (fan token category)
+  Fan Tokens: utility token classification under CBB framework
+
+CBB LICENSING REQUIREMENTS:
+  Crypto-Asset Module: any firm offering crypto-asset services in Bahrain
+    must hold a CBB licence under Volume 6
+  Services covered: exchange, custody, brokerage, portfolio management
+  Fan token platforms in Bahrain: CBB Category 4 licence (crypto-asset services)
+
+STABLECOIN ISSUANCE AND OFFERING (SIO) MODULE:
+  Bahrain explicitly permits fully-backed fiat stablecoins under SIO.
+  Requirements: 1:1 backing with eligible fiat assets; segregated reserves; audit
+  Relevance for fan tokens: stablecoin liquidity pairs on fan token platforms
+    that are CBB-licensed are explicitly regulated and permissible
+  This is distinct from most jurisdictions where stablecoin status is ambiguous.
+
+AGENT IMPLICATIONS:
+  Bahrain regulatory_clarity: HIGH
+  Fan token utility: utility token classification — no securities burden
+  Stablecoin pairs: explicitly permitted if CBB SIO-compliant
+  Market profile: smaller than UAE but progressive regulatory environment;
+    institutional and retail crypto adoption present
+  Apply: bahrain_cbb_clarity_modifier = positive for CBB-licensed platforms
+
+MONITORING:
+  cbb.gov.bh — CBB official publications
+  Watch: CBB Rulebook Volume 6 updates
+
+REMAINING GCC GAPS:
+  Saudi Arabia: SAMA/CMA oversight — less developed; no comprehensive crypto law
+  Kuwait:       Capital Markets Authority — crypto largely restricted; no fan token clarity
+  Oman:         Capital Market Authority — limited crypto framework; monitoring only
+  These three remain unmapped GCC markets.
 ```
 
 ---
@@ -838,4 +990,5 @@ MONITORING:
 *Based on: MiCA (EU, January 2025), Joint SEC/CFTC Guidance (US, 2026),*
 *Chiliz 2030 Manifesto (February 2026), Brazil RWA precedent (2025/2026),*
 *Japan FSA FIEA framework (2026), South Korea FSC directives (2026),*
-*SEC-CFTC Project Crypto MOU (March 2026)*
+*SEC-CFTC Project Crypto MOU (March 2026), Qatar QFC Digital Assets Framework (2024),*
+*Bahrain CBB Rulebook Volume 6 + SIO Module, CLARITY Act draft (May 2026)*
