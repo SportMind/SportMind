@@ -1,5 +1,45 @@
 # Changelog
 
+## [3.97.39] — 2026-05-12
+
+### Added — Crypto/digital asset intelligence and institutional intelligence
+
+2 new macro files. 557 lines total. All Library Rule compliant.
+664→666 files, 445→447 markdown, macro layer now 12 files.
+
+macro/crypto-digital-asset-intelligence.md (290L):
+  Extends macro-crypto-market-cycles.md — do not duplicate; reference only.
+  BTC dominance: >60% ×0.88 | 50-60% neutral | <50% ×1.15
+  Compound ceiling ×1.30 | compound floor ×0.75
+  Accumulation phase ×0.95 | distribution phase ×1.10 + CAUTION flag
+  Alt season: 75%+ top-50 alts outperform BTC over 90 days
+    Fan tokens in alt season ×1.20 | dominance expansion ×0.82
+    Alt season lags BTC bull by 3-6 months — do not conflate
+  Ethereum gas: high gas ×0.96 | low gas ×1.02 (both marginal)
+  Base/Solana activity: L2 amplifier ×1.05 | DeFi TVL growth ×1.05
+  Stablecoin market cap growth: demand precursor signal ×1.05
+  CLARITY Act yield boundary referenced (design constraint for US-linked tokens)
+  CHZ bull ×1.05 | CHZ bear ×0.96
+  CHZ virtuous cycle (all 3 conditions active): ×1.12
+  Virtuous cycle breakdown (2+ absent): ×0.93 headwind
+  Major exchange CHZ listing: ×1.08-1.12 | delisting: ×0.88
+  Spot BTC ETF legitimacy: ×1.03 sustained | each altcoin ETF ×1.02 (cap ×1.08)
+
+macro/institutional-intelligence.md (267L):
+  SWF ownership: ×1.05 stability sustained | velocity (3+ in 12mo): ×1.10
+  Saudi PIF: enduring strategic commitment; no active tokens yet; M/121 framework in place
+  Abu Dhabi (ADUG) → $CITY: ×1.05 sustained
+  Qatar (QIA) → $PSG: ×1.05 sustained
+  PE acquisition: phase 1 ×0.95 uncertainty → phase 2 ×1.10 growth (if growth thesis)
+    PE exit: strategic buyer ×1.05 | distressed ×0.88
+  PE ecosystem investment: ×1.08 | adjacent sports tech PE: ×1.04
+  VC core investment: ×1.10 ecosystem confidence
+  VC withdrawal pattern (2+ confirmed in 6mo): ×0.92
+  Institutional custody launch: ×1.15 (rare, high-magnitude)
+  Trading desk coverage: ×1.08
+  Ownership map: Abu Dhabi→$CITY ×1.05 | Qatar→$PSG ×1.05 | Saudi→[none, monitor]
+  Tier 1 source required before applying any institutional modifier
+
 ## [3.97.38] — 2026-05-12
 
 ### Added — Four anchor files: agent reasoning chains, confidence framework, onboarding, context bridge
