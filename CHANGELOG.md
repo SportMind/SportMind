@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.38] — 2026-05-12
+
+### Added — Four anchor files: agent reasoning chains, confidence framework, onboarding, context bridge
+
+4 new core files. 1,077 lines total. All Library Rule compliant.
+660→664 files, 441→445 markdown, core 74→78.
+
+These four files form the primary agent interface layer of the SportMind library.
+They do not add new intelligence — they make all existing intelligence usable
+by any AI agent or developer in a structured, reproducible way.
+
+core/agent-reasoning-chains.md (327L):
+  Five complete end-to-end reasoning chains:
+  Chain 1: Key player absence → sport signal → PATH_2 chain → demand signal
+  Chain 2: Regulatory signal → Library Rule test → macro layer → demand impact
+  Chain 3: FTP PATH_2 pre-match → pre-liq calculation → WIN probability →
+    supply event magnitude → probability-weighted net supply change
+  Chain 4: Demand-only token → match outcome → demand signal mapping →
+    competition tier amplifier
+  Chain 5: Weather confirmation → sport-specific modifiers → compound modifier →
+    T-2h confidence interaction
+  All chains: step-by-step, no interpretation required, structured output at end
+
+core/signal-confidence-framework.md (242L):
+  HIGH / MEDIUM / LOW confidence levels with explicit criteria for each
+  Automatic HOLD conditions: macro override | 3+ unconfirmed absences |
+    PATH_2 with lineup unconfirmed | adjusted score 48-52 | compound weather ×0.75
+  Uncertainty stacking: 3+ unconfirmed variables → automatic HOLD
+  Confidence decay by time: T-72h LOW | T-48h LOW-MEDIUM | T-24h MEDIUM |
+    T-2h HIGH (primary execution signal)
+  Layer conflict resolution hierarchy (Priority 1-6)
+  Required output structure (all fields specified; layers_loaded mandatory)
+
+core/agent-onboarding.md (218L):
+  8-step mandatory loading order with purpose for each step
+  Layer weighting summary (points to confidence framework for full detail)
+  Common mistakes: 7 explicitly named errors that invalidate a signal
+  Output format with all required fields including layers_loaded
+  Minimum layers rule: Steps 1-5 required for any actionable signal
+
+core/fan-token-context-bridge.md (290L):
+  Sport domain → fan token: result signals, competition tier multipliers
+  Athlete intelligence → fan token: availability, transfer, PATH_2 chain
+  Macro intelligence → fan token: regulatory signals, crypto cycle overlay
+  Psychological → fan token: win/loss streak community amplifiers
+  Governance → fan token: vote engagement signals
+  Seasonal → fan token: annual cycle connector with quantified modifiers
+  Venue/weather → fan token: indirect connection only (via match outcome)
+  PATH_2 summary: ×0.60 conversion factor, all layers affect supply magnitude
+
 ## [3.97.37] — 2026-05-12
 
 ### Added — Gap G/H + Oman/Kuwait regulatory + website audit
