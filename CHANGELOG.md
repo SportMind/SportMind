@@ -1,5 +1,46 @@
 # Changelog
 
+## [3.97.41] — 2026-05-12
+
+### Added — Blockchain/on-chain intelligence, sports technology intelligence, ecosystem health intelligence
+
+3 new files. 734 lines total. All Library Rule compliant.
+668→671 files, 449→452 markdown, core 78→80.
+Website audited and updated: 668→671 files, 449→452 md, core 78→80. OG image regenerated.
+
+core/blockchain-onchain-intelligence.md (245L):
+  Wallet concentration: >50% ×0.90 confidence | 25-50% standard | <25% ×1.05
+  Transaction velocity: rising unique wallets ×1.08 | wash trading ×0.85 | disengagement ×0.92
+  Bridge activity: cross-chain growth ×1.05 | pre-match $AFC bridge spike = PATH_2 engagement flag
+  Smart contract upgrade: ×0.95 during window | ×1.05 post-completion (1-2 weeks)
+  New token deployment: ×1.03 to all existing token baselines (2-4 weeks)
+  Emergency pause: ×0.75 to all affected tokens immediately — HOLD triggered
+  Supply event verification: chiliscan.com primary source for burn/mint confirmation
+  Pre-liquidation monitoring: T-12h to T-2h; activity divergence recalibrates estimate
+  LTH ratio >60%: ×1.05 confidence | <30%: ×0.92 confidence | new wallet pre-match = organic signal
+
+core/sports-technology-intelligence.md (212L):
+  Player tracking data available: ×1.05 calibration confidence modifier for that league
+  xG/process metrics adoption (high): process ×1.10 | result ×0.90 discount
+  High adoption leagues: PL, Bundesliga, La Liga, Serie A, Ligue 1
+  VAR full: card modifier ×0.75 weight | penalty ×0.80 weight | no VAR: full weight
+  SAOT: ×0.02 reduction to match outcome uncertainty modifier
+  Smart stadium fan token integration: ×1.08 sustained community health signal
+  AI analytics adoption: process metrics ×1.10 | form signals ×0.90 at AI-confirmed clubs
+  Calibration network effect: 129 records; 200+ target for high-confidence modifiers
+  Sports with 10+: HIGH confidence | 5-9: MODERATE (×0.50) | <5: STUB
+
+fan-token/ecosystem-health-intelligence.md (277L):
+  New partnership: ×1.03 all baselines (Tier A ×1.05; mid ×1.03; niche ×1.01)
+  Single termination: ×0.96 | multiple (2+ in 3 months): ×0.92 + review flag
+  User growth >10% annually: ×1.05 | declining 3+ months: ×0.93
+  Developer activity growth: ×1.03 | TVL growth: ×1.03
+  V2.0 completion >80%: ×1.03 | <50%: ×0.94 fragmentation risk
+  Cross-chain volume growing: ×1.05 | exchange concentration >50%: ×0.92 confidence
+  Regulatory concentration: ×0.90 ecosystem assessment
+  Five-dimension maturity scoring: 8-10 ×1.10 MATURE | 5-7 standard | 0-4 ×0.88 EARLY
+  Quarterly assessment; trigger reassessment on major ecosystem event
+
 ## [3.97.40] — 2026-05-12
 
 ### Added — Exchange intelligence and government intelligence
