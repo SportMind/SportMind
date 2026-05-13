@@ -1,5 +1,43 @@
 # Changelog
 
+## [3.97.42] — 2026-05-13
+
+### Fixed — CLARITY Act Section 404 label; 7 of 8 blocks skipped (Library Rule)
+
+8 ACTION blocks received across two sets. 7 skipped. 1 minor update.
+
+ACTIONED (1 block):
+  Section 404 label added to CLARITY Act activity vs passive yield section:
+    Before: "ACTIVITY vs PASSIVE YIELD DISTINCTION"
+    After:  "SECTION 404 — ACTIVITY vs PASSIVE YIELD DISTINCTION"
+  Content was already present from v3.97.29 — label precision added only.
+
+SKIPPED (Library Rule FAIL — 5 blocks):
+  Block: Ben White INACTIVE_SEASON_END / HOLD_3
+    Named player + specific injury status = expiring operational data.
+    Arsenal left CB framework (v3.97.33) is already self-applying.
+  Block (×2): Sevilla FC / Five Eleven Capital — both "ACQUIRED" and "AGREED" versions
+    Conflicting statuses across same session (one says ACQUIRED, one says AGREED).
+    Previous session had "pending CSD." No confirmed Tier 1 source.
+    Unconfirmed pending transaction → Library Rule FAIL.
+    Will not create market/governance/sevilla_takeover_2026.md.
+  Block: Create market/governance/sevilla_takeover_2026.md OWNER=FIVE_ELEVEN_CAPITAL
+    Same as above. AGREED ≠ enacted. Library Rule FAIL.
+
+CONFIRMED ALREADY IN FILE (3 blocks — no change needed):
+  Block: CLARITY_ACT_STATUS = DRAFT_RELEASED
+    Already in file as "DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS" from v3.97.33.
+  Block: Oman OIFC PENDING_REGULATIONS
+    Already documented as ENACTED MEDIUM_HIGH from v3.97.37.
+    Brief requests PENDING_REGULATIONS — this would DOWNGRADE an enacted Royal Decree.
+    No change applied — current file is more accurate.
+  Block: BINANCE_CHILIZ_V2 = COMPLETED / 18-decimal CAP20
+    18-decimal standard, CAP20, and Binance V2 migration already documented in
+    fan-token/fan-token-lifecycle/ from prior sessions.
+
+Website audit: CLEAN — no file count changes this release.
+Library: unchanged at 671 files, 452 markdown.
+
 ## [3.97.41] — 2026-05-12
 
 ### Added — Blockchain/on-chain intelligence, sports technology intelligence, ecosystem health intelligence
