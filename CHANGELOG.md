@@ -1,5 +1,49 @@
 # Changelog
 
+## [3.97.44] — 2026-05-13
+
+### Added — Verification and Fraud Risk Intelligence layer + Section 404 DRAFT_STABLE
+
+2 new files. 518 lines total. All Library Rule compliant.
+671→673 files, 452→454 markdown.
+Website audited and fixed: 671→673 files, 452→454 md. OG image regenerated.
+
+3 ACTION blocks received. 2 skipped (Library Rule FAIL). 1 actioned.
+  SKIPPED: Rasmus Hojlund PERMANENT — named player + specific status = expiring
+  SKIPPED: governance/sevilla.md AGREED_PENDING_APPROVAL with Sergio Ramos + €450m —
+    named individual, specific deal value, pending approval = unconfirmed operational data
+    (third refusal — same governance/ownership block has been refused in every session)
+  ACTIONED: Section 404 DRAFT_STABLE status added to macro-regulatory-sportfi.md
+
+fan-token/official-verification-framework.md (194L):
+  Fan Token™ trademark: Mediarex Enterprises Limited via Socios/Chiliz
+  Four defining characteristics of an official Fan Token™
+  Four-source verification methodology (club website → socios.com → chiliscan → fantokens.com)
+  Outcome table: all 4 = OFFICIAL | 3 = LIKELY | ≤2 = UNVERIFIED | 0 = NOT OFFICIAL
+  Registry reference: bridge-supported.md and complete-registry.md
+  Confirmed national team tokens: $ARG, $POR, $SNFT, $BFT only
+  All others: UNVERIFIED until confirmed via four-source methodology
+  Important framing: verification reasoning frameworks — not legal determinations
+
+fan-token/fraud-risk-intelligence.md (324L):
+  Three-tier red flag system:
+    Tier 1 (any single): anonymous team | no org endorsement | no chiliscan contract |
+      passive yield promises | event-timed launch with no prior announcement
+  Tier 2 (two or more): copycat name | urgency messaging | unverifiable claims |
+    wallet concentration + unverifiable team | social-media-only presence |
+    unverified celebrity endorsement
+  Tier 3 (monitor): new token <30 days | low holder count | price-event mismatch |
+    obscure exchange only
+  Passive yield as dual red flag: fraud signal + CLARITY Act Section 404 potential violation
+  Tournament fraud amplification: 4 weeks before/after major events = highest risk window
+  World Cup 2026 specific: 48-team format creates national team fraud proliferation risk
+  Agent output structure: full JSON specification for UNVERIFIED and OFFICIAL assets
+  Five-step agent verification workflow
+  Clear scope boundaries: what SportMind does and does not do
+
+macro/macro-regulatory-sportfi.md:
+  Section 404 status updated: DRAFT_STABLE
+
 ## [3.97.43] — 2026-05-13
 
 ### Changed — OVERVIEW.md replaced at repository root

@@ -275,7 +275,7 @@ CLARITY ACT — DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — T
     Status update: DRAFT_RELEASED (in addition to LEGISLATIVE_MARKUP_IN_PROGRESS)
     
     Key provision confirmed in draft text:
-      SECTION 404 — ACTIVITY vs PASSIVE YIELD DISTINCTION:
+      SECTION 404 — ACTIVITY vs PASSIVE YIELD DISTINCTION (Status: DRAFT_STABLE):
         PROHIBITED: interest or yield paid "solely in connection with the holding"
           of a stablecoin (passive/balance yield — economically equivalent to bank deposit)
         PERMITTED: activity-based rewards, engagement-linked incentives, bona fide
