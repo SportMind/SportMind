@@ -5,12 +5,12 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.19 — 2026-05-11
-**Library state:** 616 files · 397 markdown · 188 CHANGELOG entries · Tier B sports: 6
+**Last updated:** v3.97.44 — 2026-05-13
+**Library state:** 673 files · 454 markdown · 212 CHANGELOG entries · 181 version cycles
 
 ---
 
-## THE SPORTMIND LIBRARY RULE (v3.97.16 — now in CONTRIBUTING.md, README.md, llms.txt)
+## THE SPORTMIND LIBRARY RULE
 
 ```
 Core question: Will this intelligence still be true and useful in six months?
@@ -18,237 +18,241 @@ Core question: Will this intelligence still be true and useful in six months?
   NO  → does not belong
 
 ENDURING (belongs): reasoning patterns · structural mechanics ·
-  regulatory frameworks · calibration records · gap fills
+  regulatory frameworks · calibration records · modifier weights
 EXPIRING (does not): injury status · live prices · standings ·
-  scheduled dates · transfer rumours · short-term conditions
+  scheduled dates · transfer rumours · named player current form ·
+  pending/unconfirmed transactions · specific match predictions
 
 Three tests: (1) framework or data point? (2) true in six months?
   (3) teaches how to think or tells what is true now?
-  
+
 Load CONTRIBUTING.md for the full rule before submitting any contribution.
 Load llms.txt for the agent-facing compact version.
 ```
 
 ---
 
-## LAYER 1 — SPORT DOMAIN
+## MANDATORY LOADING ORDER
 
 ```
-Coverage:        42 sports
-Tier A (full):   football, basketball, mma, formula1, motogp, cricket
-Tier B (monitored): rugby-union, tennis, athletics, esports, rugby-league
-Tier C (stubs):  32 remaining sports
+Before any signal or analysis:
+  1. core/smi-digest.md           (this file — library state)
+  2. macro/macro-regulatory-sportfi.md
+  3. macro/macro-crypto-market-cycles.md
+  4. fan-token/ftp-path2.md
+  5. sports/[relevant-sport]/sport-domain-[sport].md
+  6. athlete/[club].md
+  7. core/agent-reasoning-chains.md
+  8. core/signal-confidence-framework.md (check before output)
 
-Known gaps:
-  - Esports: sport domain playbook incomplete (multiple game titles need
-    individual playbooks — CSGO, LoL, Dota 2 not fully differentiated)
-  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
-    sports/football/sport-domain-football-saudi-pro-league.md created.
-    Remaining gap: zero calibration records; modifiers unverified.
-  - MLS: covered via american-football domain; club-level intelligence thin
-
-  NEW (v3.97.18): World Cup reasoning framework built
-    sports/football/sport-domain-football-world-cup.md (763L)
-    Dead rubber, fatigue, host nation, time zone, national vs club reasoning.
-    Applies to every future World Cup — enduring framework.
-
-Modifiers needing update: none flagged
-
-Source: core/sport-tiers.md (quarterly review: Jan/Apr/Jul/Oct)
+Priority conflict resolution: macro override > PATH_2 supply >
+  athlete absences > sport domain > venue/weather > psychological/historical
 ```
 
 ---
 
-## LAYER 2 — ATHLETE INTELLIGENCE
+## SEVEN INTELLIGENCE DOMAINS — CURRENT STATE
+
+### DOMAIN 1 — Sport Domain (`sports/`)
 
 ```
-Coverage:        29 sports
+Coverage:          42 sports — 62 markdown files
+FULL (200L+):      football (8 files incl. WC/Euros/AFCON/Copa/Saudi PL),
+                   cricket (2), basketball (2), formula1 (2), mma (2),
+                   esports (6), ice-hockey, kabaddi, handball, tennis,
+                   golf, horse-racing, cycling, darts, baseball, afl,
+                   motogp, nascar, athletics, boxing, snooker,
+                   winter-sports, american-football, womens-football,
+                   combat-sports-specific, rugby-union-specific, motorsport-specific
+
+MEDIUM/STUB:       badminton, curling, fencing, field-hockey, gymnastics,
+                   judo, netball, rowing, rugby-league, sailing, squash,
+                   swimming, swimming-open-water, table-tennis, taekwondo,
+                   triathlon, volleyball, weightlifting
+                   (all structurally present; 141–199L; not fully calibrated)
+
+Known gaps (not yet actioned):
+  - Rugby-league: stub level (183L) despite calibration data and active token file
+  - Netball: stub level (175L) despite calibration data and token file
+  - Rowing: stub level (178L) despite calibration data
+  - Basketball: no NBA-specific or EuroLeague-specific competition file
+  - Tennis: no ATP/WTA circuit-specific file; no Grand Slam surface differentiation
+  - Cricket: no IPL, BBL, or CPL-specific file (highest future fan token potential)
+  - NFL: no playoff/bye-week/draft intelligence despite CLARITY Act opening US market
+  - Esports: Valorant missing (VIT $VIT active); LoL missing; mobile esports absent
+  - Women's sport: womens-football.md exists; women's cricket, WNBA, WTA, women's rugby absent
+```
+
+### DOMAIN 2 — Athlete Intelligence (`athlete/`)
+
+```
+Coverage:          29 sports — 45 markdown files
+Football clubs:    arsenal-afc (deepest — full PATH_2 integration)
+                   mancity-city, psg-psg, barcelona-bar, atletico-madrid-atm,
+                   juventus-juv, acmilan-acm, inter-milan-inter, napoli-nap,
+                   porto-por, galatasaray-gal, tottenham-hotspur-spurs
+                   + tier-a-clubs-framework + athlete-intel-football
+                   + athlete-intel-saudi-pro-league
+Esports:           vitality-vit, athlete-intel-esports
+All other sports:  one generic intelligence file per sport
+
+Key frameworks (enduring):
+  Tier A absence modifiers: defined per position per club
+  New manager effect: 1-5 matches ×1.06 | 6-15 ×1.02 | 16+ baseline
+  Relegation framework (universal Tier A): bottom 3 ×0.83 | relegated ×0.60-0.70
+  Left CB / defensive versatility (Arsenal): right-footed at left CB ×0.97 discount
 
 Known gaps:
-  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
-    athlete/football/athlete-intel-saudi-pro-league.md created.
-    Covers Ronaldo, Benzema, Neymar profiles and heat/load modifiers.
-    Remaining gap: composite modifier values unverified (0 calibration records).
-  
-  Enduring injury reasoning: core/injury-intelligence/ (taxonomy, modifier
-    pipeline, return curves, recurrence risk — permanently true)
-  Note: athlete/injury-log.md REMOVED v3.97.17 — contained expiring
-    operational data (specific injury flags ahead of UCL Final). Violation
-    of the SportMind Library Rule. Injury reasoning framework unaffected.
-  - MLS: athlete modifier profiles thin for non-DP (Designated Player) slots
-  - Esports: player-level intelligence at roster level only; individual
-    performance modifiers not built for most titles
-
-Modifiers needing update: none flagged
+  - $BAR, $CITY, $PSG, $JUV, $ACM club files less developed than arsenal-afc.md
+  - No PATH_2 integration in any club file except arsenal-afc.md (correct — $AFC only)
+  - NBA, NFL, NHL — generic intelligence only; no franchise-specific files
+  - Agent/representative intelligence: absent (player agent activity as transfer signal)
+  - Press conference intelligence: absent (manager language patterns as pre-match signal)
 ```
 
----
-
-## LAYER 3 — FAN TOKEN COMMERCIAL
+### DOMAIN 3 — Fan Token Commercial (`fan-token/`)
 
 ```
-Coverage:        65 skills across 41 subdirectories + 7 root files
+Coverage:          76 markdown files across 40+ directories
+Root:              ftp-path2.md, governance-intelligence.md, portfolio-intelligence.md,
+                   supply-intelligence.md, national-team-tokens.md, arsenal.md,
+                   ecosystem-health-intelligence.md, emerging-sports-pipeline.md,
+                   official-verification-framework.md, fraud-risk-intelligence.md,
+                   league-football-token-intelligence.md, tournament-elimination-intelligence.md,
+                   fan-holder-profile-intelligence.md, fan-token-exchange-intelligence.md,
+                   fan-token-layer-overview.md, fan-token-why.md
 
 FTP PATH_2 status:
-  Model 1 — Treasury/Smart Contract:    DOCUMENTED (gamified-tokenomics-intelligence/)
-  Model 2 — Prediction Market:          DOCUMENTED (fan-token/ftp-path2.md)
-  $AFC PATH_2 confirmed:                Model 2 — April 2026
-  Mechanics fully confirmed (v3.97.9 — Chiliz official, April 2026):
-    Pre-liquidation ratio: 1/400 of total supply per qualifying match
-    Stop-loss: burns cease at 75% net reduction or treasury = 0%
-    Credit burns: wins at stop-loss generate credits offsetting future mints
-    Vesting cap: 12.5%/year of treasury (not active for any club yet)
-    Annual inflation (Model 1): 1–5% linked to season performance
-    Scope: men's competitive first-team only (no friendlies/pre-season/women's)
-    Execution windows: liquidations ≤48h pre-kickoff · buybacks ≤48h post-result
-  
-  CONFIRMED MECHANICS (v3.97.9 — Chiliz official, April 2026):
-    Pre-liquidation ratio:  1/400 of total supply per qualifying match
-    Stop-loss floor:        75% net supply reduction OR treasury = 0%
-    Credit burn system:     Wins at stop-loss generate credits offsetting future mints
-    Vesting cap:            12.5% of treasury/year (not active for any club yet)
-    Annual inflation:       1–5% seasonal rate (Model 1, linked to season performance)
-    Scope:                  Official men's first-team competitive matches only
-                            Friendlies, pre-season, women's, academy — excluded
-    Execution windows:      Liquidations ≤48h pre-kickoff | Buybacks ≤48h post-result
+  Confirmed:        $AFC (Arsenal) — Model 2 — April 2026
+  Mechanics:        Pre-liquidation ratio: 1/400 of circulating supply
+                    Stop-loss: 75% net reduction or treasury = 0%
+                    Credit burns: wins at stop-loss generate offsetting credits
+                    Scope: men's competitive first-team only
+                    Execution: liquidations ≤48h pre-kickoff | buybacks ≤48h post-result
+  Multiplier:       April 2026 calibration: 1/400 → ×1.59 actual
+                    Central estimate: ×1.50 | Range: ×1.40–×2.0
+  All other tokens: demand-only signals — no supply mechanics confirmed
+  Source:           fan-token/ftp-path2.md | fantokens.com/fan-token-play
+
+Active tokens (BRIDGE_LIVE — Chiliz Chain + Solana + Base via LayerZero):
+  $AFC $ACM $ARG $ASR $ATM $BAR $CITY $FLU $GAL $INTER $JUV $MENGO
+  $NAP $OG $POR $PSG $SPURS $VCF + $CHZ (native) + $PEPPER
+
+Verification (v3.97.44):
+  Confirmed national team tokens: $ARG · $POR · $SNFT · $BFT only
+  All other national team claims: UNVERIFIED until four-source verification
+  Four-source method: club official → socios.com → chiliscan.com → fantokens.com
+  Framework: fan-token/official-verification-framework.md
+  Red flags: fan-token/fraud-risk-intelligence.md
+
+Ecosystem health modifier (quarterly assessment):
+  Load: fan-token/ecosystem-health-intelligence.md
+  Five-dimension maturity: MATURE (8-10) ×1.10 | DEVELOPING standard | EARLY ×0.88
 
 Known gaps:
-  - Model 2 pre-liquidation mechanics: FILLED (v3.97.9) — 1/400 ratio
-    confirmed from Chiliz official. Remaining gap: pre-match liquidation
-    volume calibration records (the timing window is now confirmed; actual
-    on-chain volume records during the window are still needed)
-  - Middle East fan token market: PARTIALLY ADDRESSED (v3.97.8 SPL market
-    intelligence). Gulf/Saudi-specific fan token intelligence thin;
-    no confirmed active tokens. KSA regulatory position not in macro layer.
-  - Tier A supply intelligence: $AFC populated (v3.97.10) — remaining
-    Tier A tokens ($PSG $BAR $JUV $ACM $CITY $INTER etc.) need supply
-    blocks added to fan-token/supply-intelligence.md
-  - Women's football fan tokens: not modelled
-  - Esports fan tokens: intelligence exists but thinner than football tier
-
-  NEW (v3.97.18): National team token reasoning framework built
-    fan-token/national-team-tokens.md (329L)
-    5-phase demand cycle, exit decay curves, WC year modifier.
-    Demand-only (no PATH_2 confirmed for any national token).
-    Applies to every World Cup, Euros, Copa America, AFCON, Asian Cup.
-
-Active tokens tracked (Tier A — BRIDGE_LIVE confirmed):
-  $AFC   $ACM   $ARG   $ASR   $ATM   $BAR
-  $CITY  $FLU   $GAL   $INTER $JUV   $MENGO
-  $NAP   $OG    $POR   $PSG   $SPURS $VCF
-  + $CHZ (native chain token) + $PEPPER
-
-  BINANCE CAP20 V2 MIGRATION — ACTIVE FROM 2026-05-11 01:00 UTC (v3.97.14):
-    V2_MIGRATION_ACTIVE + MIGRATION_SUSPENSION (Binance deposits/withdrawals):
-    $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
-    Trading UNAFFECTED | Swap ratio 1:1 | $AFC NOT affected
-    migration_suspension_modifier = 0.85 for 8 tokens during window
-    Monitor: Binance completion announcement → remove flag, restore CDI
-    UCL FINAL RISK: $PSG in migration list — monitor completion vs May 30
-
-FTP PATH_2 live data source: fantokens.com/fan-token-play
-FTP model documentation: fan-token/ftp-path2.md (Model 1 + Model 2)
-UCL 2025-26 context:
-  $AFC ucl_standing: FINALIST | opponent: PSG
-  $PSG ucl_standing: FINALIST | opponent: Arsenal
-  UCL Final: 30 May 2026, Puskás Aréna, Budapest
-  Pre-match signal: examples/calibration/ucl-final-2026-psg-arsenal-signal.md
-  $AFC WIN → ~300–500k burned (largest potential $AFC burn in history)
-  $PSG: demand-only signal — no confirmed supply mechanic
-  
-Omnichain status (confirmed April 2026):
-  18 tokens: MULTICHAIN_ACTIVE + BRIDGE_LIVE
-  Chains: Chiliz Chain (native) + Solana + Base (via LayerZero)
-  Decimal migration: 0 → 18 decimal precision (April 27, 2026)
-  All 18 have new post-migration contract addresses
+  fan-token/registry/complete-registry.md — MISSING (HIGH PRIORITY)
+    official-verification-framework.md references this file.
+    bridge-supported.md exists; complete-registry.md does not.
+    Positive match lookups have no reference target.
 ```
 
----
-
-## LAYER 4 — MARKET INTELLIGENCE
+### DOMAIN 4 — Market Intelligence (`market/`)
 
 ```
-Coverage:        43 documents
+Coverage:          44 markdown files
+Per-sport:         Market intelligence for 34 sports
+Cross-sport:       broadcaster-media-intelligence, club-operations-intelligence,
+                   euroleague-basketball-intelligence, three international cycle files
 
 Known gaps:
-  - Saudi Pro League: PARTIALLY FILLED (v3.97.8) —
-    market/market-saudi-pro-league.md created.
-    Covers PIF structure, fanbase, FT launch probability, transfer impact.
-    Remaining gap: KSA regulatory position not fully mapped in macro layer.
-  - MLS: fanbase depth thin; US market post-fan-token regulatory
-    clarity not fully modelled
-  - Middle East market expansion: not modelled (UAE, Qatar, Saudi
-    fan token demand not assessed)
-  - Women's football market: not modelled
-
-Modifiers needing update: none flagged
+  - Women's sport market: not modelled
+  - i18n layer (20 files): Arabic, French, Spanish, German, Hindi, Japanese,
+    Portuguese translations of selected files. Not maintained since early builds.
+    Likely contains stale modifier values from pre-v3.97.20.
+    Action needed: systematic update or explicit deprecation notice.
 ```
 
----
-
-## LAYER 5 — MACRO INTELLIGENCE
+### DOMAIN 5 — Macro Intelligence (`macro/`)
 
 ```
-Coverage:        9 documents
+Coverage:          14 markdown files (COMPLETE — full layer)
 
-Current regulatory status (confirmed):
-  UK:   STATUTORY_REGIME_ENACTED — SI 2026/102 (FSMA 2000 Cryptoassets)
-        fca_gateway_date: 2026-09-30 (application period opens)
-        Application window: 30 Sep 2026 – 28 Feb 2027
-        Regime commencement: 25 October 2027
-  US:   LEGALLY_DEFINED / NON_SECURITY (unchanged — operative framework)
-        Joint SEC/CFTC guidance March 17, 2026
-        Classification: digital collectibles and digital tools
-        Fan Tokens™ not securities — US market open
-        CLARITY Act: LEGISLATIVE_MARKUP_IN_PROGRESS (v3.97.13 — CONFIRMED)
-          markup_date: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
-          regulatory_clarity: MEDIUM_HIGH → HIGH
-          Macro modifier: +0.02 additional US market confidence applied
-          first_mover_window: NARROWING (statutory regime creating compliance costs)
-          Post-markup: STATUTORY_REGIME_IN_PROGRESS if passes committee
-          THIS WEEK: monitor May 14 10:30 AM EST — banking.senate.gov/hearings
-            Passes → update to STATUTORY_REGIME_IN_PROGRESS
-            Stalls → revert to UNVERIFIED MONITOR + remove +0.02 modifier
-  EU:   MiCA ACTIVE — Markets in Crypto-Assets Regulation operative
-  ASIA: Monitoring — no single confirmed framework
+Files:             macro-regulatory-sportfi.md (primary — 1162L)
+                   macro-crypto-market-cycles.md · crypto-digital-asset-intelligence.md
+                   institutional-intelligence.md · exchange-intelligence.md
+                   government-intelligence.md · tournament-macro.md
+                   macro-broadcast-disruption.md · macro-climate-weather.md
+                   macro-economic-cycles.md · macro-geopolitical.md
+                   macro-governance-scandal.md · macro-pandemic-public-health.md
+                   macro-overview.md
 
-Known gaps:
-  - Middle East regulatory framework: not documented
-    (UAE VARA, Saudi SAMA positions not modelled)
-  - Latin America: regulatory status thin (Brazil partial coverage only)
-  - India: regulatory position unclear; not modelled despite large fan base
+Regulatory status (confirmed):
+  UK:   STATUTORY_REGIME_ENACTED — SI 2026/102 — FCA gateway Sep 2026
+  US:   LEGALLY_DEFINED / NON_SECURITY (SEC/CFTC March 2026)
+        CLARITY Act: DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS
+        Section 404 (DRAFT_STABLE): activity-based rewards PERMITTED
+                                    passive yield PROHIBITED
+  EU:   MiCA ACTIVE
+  UAE:  VARA — HIGH (enacted, comprehensive)
+  Qatar: QFC — HIGH (within QFC jurisdiction)
+  Bahrain: CBB — HIGH (stablecoin clarity included)
+  Saudi: M/121 Unified Sports Law — HIGH (enacted)
+  Oman: OIFC Royal Decree 8/2026 — MEDIUM_HIGH (enacted)
+  Kuwait: RESTRICTIVE — LOW (FATF grey list February 2026)
+  India: not modelled (regulatory position unclear — large fanbase gap)
+  Latin America: Brazil partial; Argentina, Colombia, Mexico not covered
 
-  NEW (v3.97.18): Tournament macro reasoning framework built
-    macro/tournament-macro.md (358L)
-    Volume amplification 2-7×, cross-token correlation, four-year cycle,
-    AFCON club disruption, post-tournament baseline expansion.
-    Applies to every major international tournament — enduring framework.
+Crypto cycle modifiers (load macro-crypto-market-cycles.md for current phase):
+  BTC dominance >60%: ×0.88 all tokens | <50%: ×1.15 | alt season: ×1.20
+  Bull market: ×1.15 | Bear: ×0.85
+  CHZ virtuous cycle (all 3 conditions): ×1.12 | Breakdown: ×0.93
 
-Modifiers needing update: none flagged
-
-CHZ macro state (current):
-  Load macro/macro-crypto-market-cycles.md for live modifier
-  CHZ virtuous cycle: buyback/burn programme active
-  Omnichain expansion: liquidity amplifier confirmed active
+Exchange signals:
+  Tier 1 new listing: +20-40% spike | +15-25% new baseline
+  CHZ delisting from major exchange: ×0.82 ALL fan tokens
 ```
 
----
-
-## LAYER 6 — DEPLOYMENT INTELLIGENCE
+### DOMAIN 6 — Blockchain / On-Chain Intelligence (`core/`)
 
 ```
-Coverage:        6 skills (telegram/)
+Coverage:          core/blockchain-onchain-intelligence.md
+Primary source:    chiliscan.com (Chiliz Chain explorer)
+Data source:       fantokens.com/fan-token-play (FTP PATH_2 monitoring)
 
-Skills:
-  README.md                     Layer overview, OpenClaw/LobsterClawBot compatibility
-  sentiment-monitor.md          Community sentiment Tier S/A/B/C/D classification
-  price-movement-explainer.md   Five-cause identification protocol
-  pre-match-signal.md           T-48h → T+1h delivery timeline
-  macro-event-interpreter.md    P1–P6 macro event message templates
-  examples/fan-token-trading-bot.md  $AFC PATH_2 worked example
+Key modifiers:
+  Wallet concentration >50%: ×0.90 confidence | <25%: ×1.05
+  Rising tx count + rising unique wallets: ×1.08 (genuine demand)
+  Rising tx count + static wallets: ×0.85 (wash trading risk)
+  Falling tx count: ×0.92 (disengagement)
+  Bridge volume growing: ×1.05 | Pre-match $AFC bridge spike: PATH_2 flag
+  Smart contract upgrade window: ×0.95 | Post-completion: ×1.05
+  Emergency contract pause: ×0.75 ALL affected tokens — HOLD triggered
+  LTH ratio >60%: ×1.05 confidence | <30%: ×0.92
+```
 
-Compatibility: Telegram Bot API 9.6 · OpenClaw · @LobsterClawBot
-Known gaps: Only football ($AFC) worked example exists
+### DOMAIN 7 — Agent Reasoning Architecture (`core/`)
+
+```
+Coverage:          80 markdown files in core/ (includes injury-intelligence/ 8 files)
+Anchor files:
+  core/agent-onboarding.md          Entry point — loading order + common mistakes
+  core/agent-reasoning-chains.md    5 complete chains (absence/regulatory/PATH2/demand/weather)
+  core/signal-confidence-framework.md HOLD triggers + layer conflict hierarchy
+  core/fan-token-context-bridge.md   Every layer → fan token signal connection
+
+HOLD trigger conditions (automatic — check before any output):
+  1. macro_override_active = true
+  2. Three or more key absences unconfirmed
+  3. PATH_2 with lineup unconfirmed ($AFC only)
+  4. Adjusted score between 48-52 (coin flip)
+  5. Compound weather modifier below ×0.75
+  6. Emergency contract pause active
+
+Confidence timing: T-72h LOW | T-48h LOW-MEDIUM | T-24h MEDIUM | T-2h HIGH
+
+Required output fields: direction · adjusted_score · sms · recommended_action ·
+  composite_modifier · modifiers_applied · flags · confidence_level ·
+  signal_class · layers_loaded
 ```
 
 ---
@@ -256,31 +260,115 @@ Known gaps: Only football ($AFC) worked example exists
 ## CALIBRATION BASE
 
 ```
-Total records:   129
-Direction accuracy: 96% (across 21 sports)
-Calibration format: community/calibration-data/{sport}/{year}/{month}/
+Total records:     129 verified pre-event submissions (130 data files; 1 is a report)
+Direction accuracy: 96%
+Sports covered:    21
 
-Tier A sports priority: ACTIVE
-Priority queue: football > mma > formula1 > cricket > basketball > motogp
+Records by sport:
+  football:     33  formula1:  10  mma:      11  cricket:   13
+  basketball:   15  tennis:     8  ice-hockey: 8 rugby-union: 7
+  rugby-league:  6  rowing:     3  netball:    3  athletics:  2
+  swimming:      2  winter-sports: 2  handball: 1  kabaddi:  1
+  darts:         1  snooker:    1  motogp:     1  nascar:    1
 
-Last FTP PATH_2 records added (April 2026 — Model 2 verified):
-  UCL 07/04/2026: Sporting CP vs Arsenal → Arsenal WIN (0-1)
-    FTP: 159,025 $AFC BURNED — direction correct ✓
-  PL  11/04/2026: Arsenal vs Bournemouth → Arsenal LOSS (1-2)
-    FTP: 100,000 $AFC MINTED — direction wrong ✗
-    Note: LOSS = supply INCREASE (negative signal — important calibration)
-  UCL 15/04/2026: Arsenal vs Sporting CP → DRAW (0-0)
-    FTP: 0 burned / 0 minted — direction wrong ✗
+FTP PATH_2 calibration (April 2026 — Model 2 verified):
+  UCL 07/04/2026: Sporting CP vs Arsenal → WIN — 159,025 $AFC BURNED ✓
+  PL  11/04/2026: Arsenal vs Bournemouth → LOSS — 100,000 $AFC MINTED ✗
+  UCL 15/04/2026: Arsenal vs Sporting CP → DRAW — 0 burned / 0 minted ✗
+  Net April: 59,025 $AFC net reduction (159,025 burned − 100,000 minted)
+  Multiplier calibration: ×1.59 actual | ×1.50 central estimate | ×1.40–2.0 range
 
-Cumulative $AFC FTP (April 2026):
-  Net supply reduction: 59,025 $AFC (159,025 burned − 100,000 minted)
+PENDING calibration record:
+  UCL Final 30 May 2026 — PSG vs Arsenal — Budapest
+  Pre-match signal: examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+  STATUS: PENDING OUTCOME
+  If Arsenal WIN: largest single $AFC PATH_2 burn in history (~250-500k)
+  Collect: chiliscan.com T-12h to T-2h pre-liquidation data + post-match burn/mint
+  Action: submit calibration record after match; update direction accuracy count
+```
 
-Modifiers flagged for recalibration: none
+---
 
-Upcoming calibration events:
-  UCL Final 30 May 2026 — $AFC PATH_2 result (WIN/LOSS/DRAW)
-  Expected largest single $AFC PATH_2 record if Arsenal WIN (~300–500k burned)
-  Pre-match liquidation data to collect May 30 T-12h to T-2h window
+## ACTIVE MONITORING FLAGS
+
+```
+FLAG 1 — fan-token/registry/complete-registry.md MISSING
+  official-verification-framework.md references this file for positive match lookups.
+  bridge-supported.md exists; complete-registry.md does not.
+  Agents cannot complete Step 1 of the verification workflow without this file.
+  Status: OPEN — HIGH PRIORITY
+  Action: build complete-registry.md listing all confirmed official Fan Tokens™
+          with contract addresses, chain status, verification sources
+
+FLAG 2 — i18n layer STATUS UNKNOWN
+  20 files across Arabic, French, Spanish, German, Hindi, Japanese, Portuguese.
+  Last updated: pre-v3.97.20 (unknown exact version).
+  May contain stale modifier values (pre-v3.97.35 psychological and coaching modifiers).
+  Status: OPEN — MEDIUM PRIORITY
+  Action: systematic review and update OR add explicit deprecation notice to i18n/
+
+FLAG 3 — CLARITY Act final status pending
+  Current: DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS
+  Section 404 (Activity-based vs passive yield): DRAFT_STABLE
+  Committee markup was scheduled May 14, 2026.
+  Update macro/macro-regulatory-sportfi.md when enacted status confirmed.
+  Status: MONITORING
+
+FLAG 4 — UCL Final calibration record pending
+  Match: PSG vs Arsenal, May 30, Budapest, Puskás Aréna
+  Pre-match signal published: examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+  Calibration record: collect post-match; submit to calibration base
+  $AFC PATH_2 data to collect: T-12h to T-2h on chiliscan.com + post-match supply event
+  Status: MONITORING — awaiting outcome
+
+FLAG 5 — Fan token registry research pending
+  Research task: compile complete-registry.md from Socios official sources
+  Sources: socios.com/club-list + chiliscan.com/tokens + fantokens.com
+  Scope: all current and historical official Fan Tokens™ with verified contract addresses
+  Status: OPEN — linked to FLAG 1
+```
+
+---
+
+## KEY MODIFIER QUICK REFERENCE
+
+```
+SPORT DOMAIN:
+  New manager 1-5 matches: ×1.06 | 6-15: ×1.02 | caretaker: ×1.02
+  Manager stability 2yr: ×1.03 | 4yr: ×1.05 | instability (3+ in 2yr): ×0.94
+  Win streak 3: ×1.03 | 5: ×1.06 | 7+: ×1.08 ceiling
+  Loss streak 3: ×0.96 | 5: ×0.93 | 7+: ×0.90 floor
+  Derby: home advantage ×1.10 | form ×0.80 discount
+  Historical pattern min sample: <5 skip | 5-9 ×0.50 weight | 10+ full
+  Choking pattern: ×0.92 | Clutch: ×1.08 (both require min 5 situations)
+  Cup team overperformance: ×1.06 | Final anxiety: ×0.94
+
+ATHLETE:
+  GK absent: ×0.90 | Primary striker: ×0.93 | Left CB (Arsenal): ×0.94
+  Right-footed replacement at left CB: ×0.97 positional fit discount
+  Star player absent (high-profile): −10-15% demand | standard: −5-10%
+  New signing arrival: +15-25% demand (2-4 weeks)
+
+FAN TOKEN / DEMAND:
+  Summer window: ×1.20 | Dead period: ×0.85 | Winter window: ×1.10
+  Title race: ×1.15 | Relegation battle: ×0.88
+  Bull market: ×1.15 | Bear: ×0.85 | Alt season: ×1.20
+  CHZ virtuous cycle: ×1.12 | Breakdown: ×0.93
+  SWF ownership: ×1.05 | New Tier A club to ecosystem: ×1.05
+  Tier 1 exchange listing: +20-40% spike | +15-25% new baseline
+  CHZ major exchange delisting: ×0.82 ALL tokens
+
+FINANCIAL:
+  FFP investigation: ×0.94 | FFP breach: ×0.88
+  PE acquisition phase 1: ×0.95 | phase 2 (growth): ×1.10
+  Relegated club demand: −25-40% month 1 | settled 60-70%
+  Post-trophy hangover: ×0.96 (within 7 days) | Near-miss motivation: ×1.05
+
+FRAUD RISK:
+  Passive yield promise: Tier 1 red flag + CLARITY Section 404 violation signal
+  No chiliscan.com contract: Tier 1 red flag — NOT AN OFFICIAL FAN TOKEN™
+  Event-timed launch (no prior announcement): Tier 1 red flag
+  Two or more Tier 2 flags: UNVERIFIED classification required
 ```
 
 ---
@@ -288,121 +376,62 @@ Upcoming calibration events:
 ## KNOWN LIBRARY GAPS — PRIORITY ORDER
 
 ```
-1. Saudi Pro League — PARTIALLY FILLED (v3.97.8)
-   Filled: Layer 1 (sport domain), Layer 2 (athlete intel), Layer 3 (market)
-   Remaining: KSA macro regulatory (macro layer), calibration records (0),
-   MLS intelligence, esports playbook completion
-   Immediate next: submit first 5 SPL calibration records (PIF derby outcomes)
-   
-2. Middle East regulatory framework — macro layer missing
-   Action: monitor UAE VARA and Saudi SAMA for classification guidance
-   
-3. MLS — market and athlete layers thin
-   Action: US fan token regulatory clarity now confirmed; MLS intelligence
-   can be built with LEGALLY_DEFINED / NON_SECURITY foundation
-   
-4. Esports — sport domain playbook incomplete
-   Action: game-title-specific playbooks needed (CSGO, LoL, Dota 2, Valorant)
-   
-5. Latin America regulatory status — macro layer thin
-   Action: Brazil partial; Argentina, Colombia, Mexico not covered
-   
-6. Model 2 pre-liquidation calibration records needed
-   Mechanics now fully confirmed (v3.97.9). Remaining gap: empirical records
-   documenting actual pre-liquidation amounts on chiliscan.com to verify the
-   1/400 ratio in live conditions and build WIN pool size prediction models.
-   Action: collect pre-match chiliscan.com data for next $AFC qualifying match.
-   
-6b. Tier A supply intelligence — other tokens:
-   $AFC populated in supply-intelligence.md (v3.97.10). Remaining Tier A
-   tokens ($PSG $BAR $JUV $ACM $CITY $INTER etc.) need supply blocks added.
-   
-7. UCL Final T-48h, T-24h, T-2h signal updates
-   Action: v3.97.7 signal is PLANNING quality (T-22 days). Execution-quality
-   signals required at T-48h (lineups emerging), T-24h (team news), T-2h
-   (confirmed lineups). Saka availability is the critical athlete flag.
-   
-7b. CLARITY Act markup outcome — 14 May 2026 (monitor immediately)
-   Passes committee: upgrade to STATUTORY_REGIME_IN_PROGRESS
-   Stalls/fails: revert to MONITOR status
-   Source: banking.senate.gov/hearings (live webcast 10:30 AM EST May 14)
+PRIORITY 1 — STRUCTURAL (fix immediately):
+  1. fan-token/registry/complete-registry.md — MISSING
+     Referenced by official-verification-framework.md (v3.97.44).
+     Fraud risk layer has broken positive-match reference.
+     Build: full registry of confirmed official Fan Tokens™ with
+     contract addresses, chain status (native/bridge), verification sources
 
+  2. core/smi-digest.md — NOW CURRENT (v3.97.44)
 
-7c. Binance CAP20 V2 migration completion (NEW — v3.97.14)
-   When Binance announces completion: remove V2_MIGRATION_ACTIVE flags
-   from $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
-   Restore CDI modifiers to baseline (remove 0.85 suspension modifier)
-   Verify new CAP20 contract addresses at chiliscan.com for all 8 tokens
-   PRIORITY: $PSG completion must be confirmed well before May 30 UCL Final
-   
-8. Women's football market and fan tokens — not modelled
-   Action: WSL, NWSL, Liga F fan token pipeline monitoring needed
+  3. Thin sport domain files with active token/calibration data:
+     rugby-league (183L), netball (175L), rowing (178L)
 
-9. Regional tournament reasoning frameworks — FORMALISED (v3.97.19)
-   Euros, Copa America, AFCON, and Asian Cup each have structural differences
-   from the World Cup framework that warrant supplementary files. These are
-   enduring reasoning frameworks not captured by the current World Cup layer.
-   Specific gaps:
-     Euros: 24-team format, European nations only, different host dynamics
-     Copa America: rotating host nations, conmebol structure, different fatigue
-     AFCON: January timing (disrupts European club season), biennial cadence
-     Asian Cup: 24-team format, Asian confederation structure, diverse climates
-   Action: one supplementary file per tournament type — lower priority than WC
-   Priority: AFCON highest (club season disruption impact), then Euros
+PRIORITY 2 — COMMERCIAL IMPORTANCE:
+  4. Basketball: no NBA or EuroLeague competition-specific file
+  5. Tennis: no ATP/WTA circuit or Grand Slam surface differentiation
+  6. Cricket: no IPL/BBL/CPL file (highest future fan token potential)
+  7. NFL/American football: no playoff/draft/bye-week intelligence
+     (CLARITY Act opens US market — elevated priority)
+  8. Esports: Valorant missing (VIT active); LoL missing; mobile esports absent
+  9. Women's sport: women's cricket, WNBA, WTA, women's rugby all absent
+
+PRIORITY 3 — INTELLIGENCE LAYERS ABSENT ENTIRELY:
+  10. Betting odds as signal input — no framework for line moves, sharp money
+      (significant gap for complete Mind for Sports)
+  11. Injury classification index — enduring type → timeline → modifier reference
+  12. Competition-specific referee pool intelligence
+  13. Venue-specific microclimate weather patterns
+  14. Anti-doping / drug testing intelligence (positive tests, CAS timelines)
+  15. Player agent/representative intelligence (agent activity as transfer signal)
+  16. Press conference and manager media intelligence
+
+PRIORITY 4 — COMPLETENESS:
+  17. i18n layer (20 files) — likely stale, update or deprecate
+  18. India: regulatory position not modelled (large fanbase, zero coverage)
+  19. Latin America: Brazil partial; Argentina, Colombia, Mexico absent
+  20. Club-specific depth uneven ($BAR, $CITY, $PSG, $JUV, $ACM)
+  21. examples/ — some files may contain stale modifier values
 ```
 
 ---
 
-## SOURCES ADDED SINCE LAST UPDATE
+## SOURCES — VERIFIED TIER 1
 
 ```
-VERIFIED TIER 1 SOURCES (confirmed active):
-  fantokens.com/fan-token-play     Official FTP data — Model 1 and Model 2
-  fantokens.com                    Fan token registry, supply data
-  chiliscan.com                    On-chain verification (Chiliz Chain explorer)
-  legislation.gov.uk               UK SI 2026/102 regulatory source
-  @Chiliz (official X)             Bridge live confirmation, omnichain launch
-  banking.senate.gov/hearings      CLARITY Act — monitoring (UNVERIFIED)
-  athlete/football/athlete-intel-football.md   Knockout modifier confirmed
-  Arab News Sport (arabnews.com/sport)  SPL fixtures, results, signings — v3.97.8
-  spl.com.sa                       Saudi Pro League official standings/schedules — v3.97.8
-  pif.gov.sa                       PIF investment decisions and announcements — v3.97.8
-  chiliz.com (FTP announcement)    Fan Token Play mechanics — primary source — v3.97.9
-  chiliz.com (FTP explainer)       Win-and-burn explainer — secondary source — v3.97.9
-  chiliz.com/chiliz-group-announces-gamified-fan-tokens-...  FTP mechanics — v3.97.9
-  chiliz.com/win-and-they-burn-lose-and-they-mint-...        FTP explainer — v3.97.9
-  fantokens.com/trade/arsenal-fan-token                      $AFC supply data — v3.97.10
-  banking.senate.gov/hearings/05/08/2026/executive-session   CLARITY Act Tier 1 — v3.97.13
-  binance.com/en/support/announcement                         CAP20 V2 migration — v3.97.14
-
-
-MACRO EVENTS PROCESSED:
-  SI 2026/102 enacted — UK STATUTORY_REGIME_ENACTED (February 2026)
-  Chiliz Bridge LIVE — 18 tokens MULTICHAIN_ACTIVE + BRIDGE_LIVE
-  Decimal migration — all Fan Tokens 0 → 18 decimal (April 27, 2026)
-  $AFC PATH_2 Model 2 confirmed — April 2026
-  UCL 2025-26 Final confirmed — PSG vs Arsenal, May 30, Budapest
-  CLARITY Act markup — UNVERIFIED/MONITOR (2026-05-08)
-  UCL Final pre-match signal published — v3.97.7 (2026-05-08)
-  Saudi Pro League intelligence built — Layers 1, 2, 3 — v3.97.8 (2026-05-08)
-  FTP PATH_2 seven mechanics confirmed — v3.97.9 (2026-05-08)
-  FTP PATH_2 seven confirmed mechanics — Chiliz Group official — v3.97.9 (2026-05-08)
-  $AFC supply intelligence verified — fan-token/arsenal.md — v3.97.10 (2026-05-08)
-  CLARITY Act markup alert — FALSE TRIGGER resolved — v3.97.11 (2026-05-09)
-  Intelligence briefing agent protocol published — v3.97.12 (2026-05-09)
-  CLARITY Act LEGISLATIVE_MARKUP_IN_PROGRESS — Tier 1 confirmed — v3.97.13 (2026-05-09)
-    markup: 2026-05-14 | 10:30 AM EST | 538 Dirksen | H.R.3633
-  Binance CAP20 V2 migration — 8 tokens suspended — v3.97.14 (2026-05-11 01:00 UTC)
-    V2_MIGRATION_ACTIVE: $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG
-  UCL Final injury flags raised then REMOVED — v3.97.15/v3.97.17
-    athlete/injury-log.md deleted: expiring data per Library Rule
-  SportMind Library Rule formalised — CONTRIBUTING.md + README.md + llms.txt — v3.97.16
-  athlete/injury-log.md removed — Library Rule compliance — v3.97.17 (2026-05-11)
-  World Cup intelligence layer — three enduring reasoning frameworks — v3.97.18 (2026-05-11)
-    sports/football/sport-domain-football-world-cup.md (763L)
-    fan-token/national-team-tokens.md (329L)
-    macro/tournament-macro.md (358L)
-  README.md updated — purpose, structure, Library Rule, suite overview — v3.97.19 (2026-05-11)
+fantokens.com/fan-token-play     FTP PATH_2 official data
+fantokens.com                    Fan token registry, supply data
+chiliscan.com                    On-chain verification (Chiliz Chain explorer)
+socios.com                       Official fan token platform and club listings
+legislation.gov.uk               UK SI 2026/102
+banking.senate.gov               CLARITY Act — US Senate Banking Committee
+fatf-gafi.org                    FATF grey list (Kuwait February 2026)
+oifc.gov.om                      Oman OIFC Royal Decree 8/2026
+chiliz.com                       Ecosystem announcements + FTP mechanics
+vara.ae                          UAE VARA regulatory publications
+pif.gov.sa                       Saudi PIF investment decisions
+spl.com.sa                       Saudi Pro League official
 ```
 
 ---
@@ -410,58 +439,27 @@ MACRO EVENTS PROCESSED:
 ## UPDATE INSTRUCTIONS
 
 ```
-This file is updated after every versioned release. Update the following:
+Update after every versioned release:
+  · Last updated: version and date (line 8)
+  · Library state counts (line 9)
+  · Domain coverage counts if files added
+  · Known gaps: remove filled, add newly identified
+  · Active monitoring flags: add/close/update
+  · Calibration base count (check community/calibration-data/)
+  · Regulatory status changes (check macro/macro-regulatory-sportfi.md)
+  · FTP PATH_2 status (check fan-token/ftp-path2.md)
+  · Modifier quick reference if values changed
+  · Active HOLD triggers if any new conditions
 
-  - Last updated: version and date (top of file)
-  - Layer coverage counts if changed (new files added to any layer)
-  - Known gaps filled by the release (remove from gaps list)
-  - New gaps identified in the release (add to priority ordered gaps list)
-  - Modifier values changed (recalibration events)
-  - New official sources added or verified
-  - Calibration base count (update total and add recent records)
-  - Regulatory status changes (key macro events)
-  - Active token UCL/competition standing if changed
-  - FTP PATH_2 status if any new tokens confirmed
-
-FIELD PRIORITIES:
-  Calibration count:    Always accurate — check community/calibration-data/
-  Regulatory status:    Always current — check macro/macro-regulatory-sportfi.md
-  FTP PATH_2 tokens:    Always current — check fan-token/ftp-path2.md
-                        Key: 1/400 pre-liquidation ratio now confirmed (calculable)
-                        Key: credit burn check required before any loss/mint signal
-  $AFC CDI weights:     Supply mechanics 25% (unique — PATH_2 Model 2 confirmed)
-                        Pre-liquidation pool: ~111,500 tokens (44.6M ÷ 400)
-                        UCL Final pool: 250–500k estimated burn if Arsenal WIN
-  False signal protocol: check core/intelligence-briefing-agent.md
-                        Scenario 1 (not actioned): documentation note only
-                        Scenario 2 (already actioned): revert prompt to build chat
-  CLARITY Act modifier: +0.02 US market confidence (LEGISLATIVE_MARKUP_IN_PROGRESS)
-                        regulatory_clarity: MEDIUM_HIGH → HIGH (apply immediately)
-                        US first-mover advantage window: NARROWING
-  Binance migration:    migration_suspension_modifier = 0.85 for 8 tokens
-                        $ACM $ASR $ATM $BAR $CITY $JUV $OG $PSG — Binance only
-                        $AFC unaffected | trading continues | deposits/withdrawals suspended
-  UCL Final ATM: flags removed v3.97.17 (expiring data per Library Rule)
-    Saka modifier (×1.10 fit / ×0.85 absent) remains documented in
-    examples/calibration/ucl-final-2026-psg-arsenal-signal.md as
-    planning signal context — will be resolved post-match
-  Library rule (v3.97.16): CONTRIBUTING.md · README.md · llms.txt
-                        README.md (v3.97.19): updated with purpose statement,
-                        library structure, Library Rule, suite overview, cal base
-                        "Will this still be true in six months?" — the test
-                        for every contribution and every file in this digest
-  World Cup modifiers (v3.97.18 — enduring):
-    Dead rubber: ×0.55 (full) / ×0.75 (partial) — FTP still fires
-    Time zone fatigue: 3-5h ×0.96 | 6-8h ×0.92 | 9h+ ×0.88
-    Tournament fatigue: R16 ×0.92 | QF ×0.90 | SF ×0.88 | prev.ET ×0.95
-    Host nation: ×1.20 | Host confederation: ×1.10
-    Tournament volume overlay: 2.0-7.0× by phase (macro/tournament-macro.md)
-    National token exit decay: Group −30-40% | QF −20-30% | SF −15-20%
-  UCL/competition:      Update on confirmed results — check league-football-token-intelligence.md
-  Gap priority order:   Reassess quarterly (aligns with tier review schedule)
+FIELD PRIORITIES (always keep accurate):
+  Calibration count:    community/calibration-data/ — count data files
+  Regulatory status:    macro/macro-regulatory-sportfi.md
+  FTP PATH_2 tokens:    fan-token/ftp-path2.md
+  Active flags:         this file — monitoring flags section
+  Gap priority order:   reassess quarterly
 ```
 
 ---
 
-*SportMind v3.97.19 · MIT License · sportmind.dev*
-*SMI Digest — agent reference state summary*
+*SportMind v3.97.45 · MIT License · sportmind.dev*
+*SMI Digest — agent reference state summary · load this file first*

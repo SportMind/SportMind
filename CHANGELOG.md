@@ -1,5 +1,42 @@
 # Changelog
 
+## [3.97.45] — 2026-05-13
+
+### Changed — core/smi-digest.md: full refresh at v3.97.44 (patch)
+
+core/smi-digest.md rebuilt from scratch — was at v3.97.19 (25 versions stale).
+465 lines. All 7 intelligence domains documented. Full gap registry included.
+
+WHAT IS IN THE NEW DIGEST:
+  · Mandatory loading order (8 steps) with conflict resolution hierarchy
+  · Seven intelligence domains: Sport/Athlete/Fan Token/Market/Macro/
+    Blockchain/Agent Reasoning — each with current state, file counts, known gaps
+  · FTP PATH_2 mechanics: 1/400 ratio, ×1.50 central multiplier, ×1.40-2.0 range
+  · Active monitoring flags (5):
+      FLAG 1: fan-token/registry/complete-registry.md MISSING (HIGH PRIORITY)
+      FLAG 2: i18n layer likely stale (MEDIUM PRIORITY)
+      FLAG 3: CLARITY Act final status pending
+      FLAG 4: UCL Final calibration record pending (May 30 — PSG vs Arsenal)
+      FLAG 5: Fan token registry research task pending
+  · Calibration base: 129 records across 21 sports (by sport breakdown)
+  · All 6 automatic HOLD triggers documented
+  · Key modifier quick reference (sport, athlete, fan token, financial, fraud)
+  · 21-item gap priority list (structural → commercial → absent → completeness)
+  · All active tokens (BRIDGE_LIVE) listed
+  · Verified national team tokens: $ARG $POR $SNFT $BFT only
+  · GCC full regulatory status (all 6 markets)
+  · Verified Tier 1 sources
+
+WHAT WAS REMOVED:
+  · Stale v3.97.14 migration flags (Binance CAP20 V2 — resolved)
+  · Stale UCL Final "May 30" as an upcoming date (now a pending calibration record)
+  · Stale Saka availability flag (expiring operational data — Library Rule)
+  · All v3.97.8-v3.97.19 gap items that have since been filled
+  · Layer 6 "Deployment Intelligence" (now Domain 7 — Agent Reasoning Architecture)
+
+Library: 673 files, 454 markdown (no new files — digest update only).
+Website audit: CLEAN (no count changes).
+
 ## [3.97.44] — 2026-05-13
 
 ### Added — Verification and Fraud Risk Intelligence layer + Section 404 DRAFT_STABLE
