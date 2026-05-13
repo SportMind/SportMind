@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.97.43] — 2026-05-13
+
+### Changed — OVERVIEW.md replaced at repository root
+
+OVERVIEW.md replaced at repository root (215L, 11,618 chars).
+Replaces v3.97.34 version (233L, 10,997 chars).
+
+Key changes in new version:
+  Intelligence domains: 6 → 7 (Blockchain and On-Chain Intelligence added as named domain)
+  Signal output: confidence_level and signal_class fields added to the example JSON
+  Key numbers: 671 files, 452 markdown, 129 calibration records (updated to current state)
+  Version reference: v3.97.41 (was not versioned in previous OVERVIEW.md)
+  Loading order quick start: now references agent-reasoning-chains.md and
+    signal-confidence-framework.md explicitly
+  Agent Reasoning Architecture: now named as a distinct domain in the table
+
+Library: unchanged at 671 files, 452 markdown (replacement, not addition).
+Website audit: CLEAN — no count changes.
+
 ## [3.97.42] — 2026-05-13
 
 ### Fixed — CLARITY Act Section 404 label; 7 of 8 blocks skipped (Library Rule)
