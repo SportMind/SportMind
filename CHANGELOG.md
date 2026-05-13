@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.97.40] — 2026-05-12
+
+### Added — Exchange intelligence and government intelligence
+
+2 new macro files. 573 lines total. All Library Rule compliant.
+666→668 files, 447→449 markdown, macro layer now 14 files.
+
+macro/exchange-intelligence.md (287L):
+  Exchange tier classification: Tier 1 (Binance/Coinbase/Kraken) | Tier 2 | Tier 3 | Socios native
+  Fan token Tier 1 listing: +20-40% spike | new baseline +15-25% | 1-2 week duration
+  Fan token Tier 2 listing: +10-20% spike | new baseline +5-10% | 5-10 day duration
+  CHZ Tier 1 listing: ×1.08-1.12 sustained (see crypto-digital-asset-intelligence.md entry)
+  Delisting: Tier 1 −20-35% sustained | Tier 2 −10-20% | CHZ delisting ×0.82 all tokens
+  Recovery: Tier 1 relisting 8-16 weeks | Tier 2 4-8 weeks
+  Migration: <7 days neutral | 7-14 days ×0.97 | >14 days ×0.94 uncertainty
+  Post-migration completion: ×1.03 (1-2 weeks) | 18-decimal: ×1.03 sustained
+  Bridge upgrade (new chain): ×1.05 at launch → ×1.02 sustained
+  Exchange licence loss: ×0.88 for affected jurisdiction
+  Exchange regulatory approval: ×1.05 for tokens on that exchange
+  TradFi: stock at 52w high ×1.03 | stock at 52w low ×0.96 (sentiment bridge)
+  Market maker confirmed: ×1.03 signal reliability | withdrawal: ×0.94 sustained
+
+macro/government-intelligence.md (286L):
+  National strategies: Saudi Vision 2030 | UAE sports hub | Qatar legacy | China cycle
+  Saudi: enduring commitment; no active fan tokens; first launch = ×1.40 first mover
+  UAE: uae_sports_hub_signal ×1.05 | most likely MENA launch jurisdiction
+  China: active phase ×1.05 | restriction phase ×0.92 | cyclical (not structural)
+  UK: SI 2026/102 statutory gateway | uk_regulatory_clarity_demand_modifier ×1.05 for EPL tokens
+  US: CLARITY Act "buy and use" model | sports betting adjacent ×1.03 | NIL athlete token opportunity
+  FIFA WC 48 teams: world_cup_expansion_demand_premium ×1.05 (permanent from 2026)
+  UEFA FFP changes: reassess all affected clubs against new framework
+  IOC new sport inclusion: first fan token in new Olympic sport = ×1.40 first mover
+  European competition ban: ×0.75 | partial sanctions: ×0.88
+  Country sanctions: ×0.88 for tokens with significant holder concentration in sanctioned jurisdiction
+  Tournament relocation: ×0.90 | fixture cancellation: remove match-day signal entirely
+
 ## [3.97.39] — 2026-05-12
 
 ### Added — Crypto/digital asset intelligence and institutional intelligence
