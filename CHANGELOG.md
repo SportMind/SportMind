@@ -1,5 +1,51 @@
 # Changelog
 
+## [3.97.48] — 2026-05-14
+
+### Changed — Website: seven visual/content fixes from full visual audit
+
+WEBSITE-ONLY RELEASE. No library files changed.
+Library: 679 files, 460 markdown (unchanged).
+
+All seven fixes applied to index.html:
+
+FIX 1 — Meta description: already at 129 (confirmed no change needed)
+
+FIX 2 — HOW IT WORKS transmission diagram updated:
+  SportMind intelligence layer: Layer 6 · Blockchain + Layer 7 · Reasoning added
+  Data sources: fantokens.com, chiliscan.com, Regulatory sources added
+  Output row: Verification signal · fraud flags added
+
+FIX 3 — Loading order prose updated:
+  FROM: "macro → market → sport domain → athlete → fan token → telegram delivery"
+  TO:   "core digest → macro → fan token → sport domain → athlete →
+         reasoning chains → confidence framework"
+  Reflects the 7-step mandatory loading order from agent-onboarding.md
+
+FIX 4 — Fan token WHO USES card:
+  FROM: "ENTER/WAIT/ABSTAIN logic for 24 verified tokens"
+  TO:   "ENTER/WAIT/ABSTAIN logic for verified official Fan Tokens™"
+  Removes unconfirmed specific count pending registry research completion
+
+FIX 5 — WHO USES: Fraud and verification card added (6th card):
+  Icon: 🛡
+  Title: "Fraud and verification"
+  Body: official registry, four-source methodology, three-tier red flags, WC 2026
+  Link: official-verification-framework.md
+
+FIX 6 — THE PROBLEM: World Cup example row added (5th row):
+  Label: WORLD CUP
+  "$ARG and $POR are confirmed Fan Tokens™. Hundreds of fraudulent tokens
+   will proliferate around the 2026 World Cup."
+  Bold: "SportMind's verification framework teaches agents to tell the difference."
+
+FIX 7 — Seven domains note added below layers table:
+  "The library extends beyond these six core layers..."
+  Lists 7 additional domains
+  Links to OVERVIEW.md ("Full intelligence map →")
+
+CONSISTENCY CHECK: PASSED ✓ (26/26)
+
 ## [3.97.47] — 2026-05-14
 
 ### Full consistency audit — website, README, i18n, examples, smi-digest
