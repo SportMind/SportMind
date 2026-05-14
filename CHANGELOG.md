@@ -1,5 +1,71 @@
 # Changelog
 
+## [3.97.46] — 2026-05-13
+
+### Added — Six gap fills: stablecoin/CBDC, CLARITY Act complete, trending signals,
+###         legislation process, odds market, sports integrity
+
+6 new files. 1,175 lines total. All Library Rule compliant.
+673→679 files, 454→460 markdown, macro 14→17, core 80→83.
+Website audited: 673→679, 454→460, core 80→83. OG regenerated.
+
+7 ACTION blocks. 4 skipped (Library Rule FAIL). 3 actioned.
+
+SKIPPED:
+  CSD_Approval_Status: Pending — Sevilla/Five Eleven Capital, fourth refusal
+  Yamal_Out: Season — named player + injury status = expiring
+  Ben White White_Out: Season — named player + injury, fifth refusal
+  volume_spike_event 126× $PSG — live market data = expiring
+
+ACTIONED (library + regulatory):
+  Section 501 + 801 added to macro-regulatory-sportfi.md:
+    Joint_Rulemaking_Window: 12m, Modifier: ×0.94 during window
+    Mature_Blockchain_Pathway: 24m, Modifier: ×1.08 when confirmed
+  FLAG 5 in smi-digest.md: RESEARCH_INITIATED (National Teams priority)
+
+macro/stablecoin-cbdc-intelligence.md (189L):
+  CLARITY Act three-tier classification for stablecoin-relevant categories
+  Fan token stablecoin interaction: PATH_2 settlement ×0.95 low liquidity signal
+  On-ramp by jurisdiction: USDT restriction ×0.88 | USDC expansion ×1.05
+  CBDC framework: e-CNY ×1.15 | digital dirham ×1.08 | CBDC crypto restriction ×0.82
+  GENIUS Act connection: compliant platform ×1.05 US holder confidence
+
+macro/clarity-act-complete-framework.md (223L):
+  Legislative path weighting: 8 stages from draft (×0.25) to enacted (×1.00)
+  Joint rulemaking window (months 6-12): ×0.94 US market signals
+  Mature blockchain pathway (24m): ×1.08 when Chiliz Chain qualifies
+  Day 1 enactment: ×1.15 US market access signal
+  Institutional provision: ×1.10 (opens institutional holder category)
+  DeFi developer protection: ×1.05 ecosystem developer signal
+  Conflict of interest provision: binary legislative risk flag
+
+macro/trending-signal-intelligence.md (192L):
+  Tier 1 structural (3+ platforms, 72h): ×1.08 | Tier 2 event: ×1.04 | Tier 3: filter
+  Velocity: explosive (<2h): ×0.70 | organic (6-24h): full weight
+  Platform weights: official club ×1.50 | Twitter/X crypto ×1.20 | Telegram ×1.10
+  Manufactured detection: ×0.90 | confirmed manufactured + Tier 1 → net cancel
+  Tournament trending: ×1.15 amplifier + elevated manufactured filter
+
+core/legislation-process-intelligence.md (192L):
+  8-stage framework: draft ×0.25 to enacted ×1.00
+  Implementation rulemaking: enacted ×0.85 until rules effective
+  Bipartisan signal: upgrade stage weight by one tier
+  Enforcement states: active ×1.00 | unclear ×0.75 | absent ×0.50
+  Missing jurisdictions: India (HIGH), Nigeria, Indonesia, Australia
+
+core/odds-market-intelligence.md (182L):
+  Sharp movement (10+ pts in 6h): ×1.08 confidence | public money: ×0.90
+  Reverse line movement: HIGH confidence signal (×1.08 equivalent)
+  PATH_2 connection: sharp movement recalculates supply event probability
+  Demand-only: sharp win movement ×1.05 | sharp loss movement ×0.96
+  Integrity filter: suspicious + Tier 3 + dead rubber = HOLD
+
+core/sports-integrity-intelligence.md (197L):
+  Tier 1 competitions: ×1.00 (full weight) | Tier 2: ×0.97 | Tier 3: ×0.88
+  Dead rubber + Tier 3: HOLD (not directional) | Dead rubber + Tier 1: ×0.93
+  INTEGRITY_TRIPLE_FLAG: suspicious odds + Tier 3 + dead rubber = HOLD (highest override)
+  Official investigation (Tier 1 source): HOLD immediately — overrides all modifiers
+
 ## [3.97.45] — 2026-05-13
 
 ### Changed — core/smi-digest.md: full refresh at v3.97.44 (patch)

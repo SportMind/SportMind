@@ -5,7 +5,7 @@
 > Tells agents what is current, what is complete, and where the gaps are.
 > Updated after every versioned release.
 
-**Last updated:** v3.97.44 — 2026-05-13
+**Last updated:** 3.97.46 — 2026-05-13
 **Library state:** 673 files · 454 markdown · 212 CHANGELOG entries · 181 version cycles
 
 ---
@@ -321,11 +321,13 @@ FLAG 4 — UCL Final calibration record pending
   $AFC PATH_2 data to collect: T-12h to T-2h on chiliscan.com + post-match supply event
   Status: MONITORING — awaiting outcome
 
-FLAG 5 — Fan token registry research pending
+FLAG 5 — Fan token registry research: INITIATED (National Teams priority)
   Research task: compile complete-registry.md from Socios official sources
   Sources: socios.com/club-list + chiliscan.com/tokens + fantokens.com
   Scope: all current and historical official Fan Tokens™ with verified contract addresses
-  Status: OPEN — linked to FLAG 1
+  Priority starting point: national team tokens (highest fraud risk during WC 2026)
+  Confirmed so far: $ARG · $POR · $SNFT · $BFT (see official-verification-framework.md)
+  Status: RESEARCH_INITIATED — linked to FLAG 1
 ```
 
 ---
@@ -461,5 +463,5 @@ FIELD PRIORITIES (always keep accurate):
 
 ---
 
-*SportMind v3.97.45 · MIT License · sportmind.dev*
+*SportMind v3.97.46 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary · load this file first*

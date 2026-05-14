@@ -276,6 +276,15 @@ CLARITY ACT — DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — T
     
     Key provision confirmed in draft text:
       SECTION 404 — ACTIVITY vs PASSIVE YIELD DISTINCTION (Status: DRAFT_STABLE):
+      SECTION 501 — JOINT RULEMAKING WINDOW (12 months post-enactment):
+        SEC and CFTC must jointly publish implementing rules within 12 months.
+        During this window: joint_rulemaking_uncertainty_modifier = ×0.94 on US signals.
+        Reduces to ×1.00 when joint rulemaking final rules become effective.
+      SECTION 801 — MATURE BLOCKCHAIN PATHWAY (24 months post-enactment):
+        Established blockchains with sufficient decentralisation qualify as
+        digital commodities without ongoing classification risk.
+        Chiliz Chain eligible for this pathway — 24-month confirmation timeline.
+        mature_blockchain_pathway: OPEN (applies when enacted):
         PROHIBITED: interest or yield paid "solely in connection with the holding"
           of a stablecoin (passive/balance yield — economically equivalent to bank deposit)
         PERMITTED: activity-based rewards, engagement-linked incentives, bona fide
