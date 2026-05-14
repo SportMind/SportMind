@@ -218,6 +218,13 @@ CLARITY ACT — DRAFT_RELEASED + COMMITTEE_PASSED (CONFIRMED — TIER 1)
   Legislative weight:    Stage 4 → ×0.75 (see core/legislation-process-intelligence.md)
   Signal upgrade:        COMMITTEE_PASSED increases enactment probability materially
   Conflict-of-interest provision: status at passage — monitor for floor vote risk
+  Section 404 at committee passage: PRESERVED — activity-based reward safe harbour
+    confirmed intact through committee markup; no substantive amendment to core
+    activity vs passive yield distinction
+  Senate floor risk: Democratic opposition bloc active — ethics/conflict-of-interest
+    provision is the primary unresolved obstacle for floor vote passage
+    Floor vote requires 60 votes; opposition bloc size makes this the critical gate
+    Historical reference: GENIUS Act passed 68-30 — bipartisan achievable but not certain
 
   Source:           US Senate Banking Committee — official committee ledger
   Source URL:       https://www.banking.senate.gov/hearings/05/08/2026/executive-session

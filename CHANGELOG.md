@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.97.51] — 2026-05-14
+
+### Fixed — CLARITY Act Section 404 preserved; floor vote risk bloc; 2 of 3 blocks skipped
+
+3 ACTION blocks. 2 skipped (Library Rule FAIL). 1 partial pass.
+Library: 680 files, 461 markdown (unchanged — update to existing file only).
+Website audit: CLEAN (no file count changes).
+
+SKIPPED:
+  BTC_PHASE: ANXIETY | NUPL: 0.315 | RISK: DISTRIBUTION
+    Current NUPL value + named market phase + current risk label = live market data
+    NUPL 0.315 changes daily — Library Rule FAIL
+  AFC_FTO_DATE: 2026-06-24
+    Specific future Fan Token Offering date = scheduled event = expiring
+    Named club + specific future date = Library Rule FAIL
+
+PARTIAL PASS — Block 1 actioned (enduring elements only):
+  macro/macro-regulatory-sportfi.md:
+    Section 404 at committee passage: PRESERVED
+      Activity-based reward safe harbour confirmed intact through markup
+      No substantive amendment to core activity vs passive yield distinction
+    Senate floor risk documented (enduring framework, no named individuals):
+      Democratic opposition bloc active — ethics provision is the floor vote gate
+      60-vote threshold required; opposition bloc size is the critical variable
+      GENIUS Act 68-30 historical reference added for probability framing
+    
+  NOT added (Library Rule FAIL):
+    15-9 vote tally — specific vote count = expiring political data
+    Warren-led block — named senator = expiring political data
+      (replaced with "Democratic opposition bloc" — enduring structural description)
+
 ## [3.97.50] — 2026-05-14
 
 ### Changed — CLARITY Act committee passed; $ARG AFA integration; Section 404 duration-scaling
