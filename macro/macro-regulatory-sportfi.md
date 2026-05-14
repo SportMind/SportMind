@@ -211,6 +211,7 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 
 ```
 CLARITY ACT — DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
+  Committee markup status: MARKUP_IN_PROGRESS — Senate Banking Committee
 
   Source:           US Senate Banking Committee — official committee ledger
   Source URL:       https://www.banking.senate.gov/hearings/05/08/2026/executive-session

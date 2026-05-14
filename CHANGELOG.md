@@ -1,5 +1,42 @@
 # Changelog
 
+## [3.97.49] — 2026-05-14
+
+### Added — CLARITY Act Section 404 dedicated file; regulatory markup label
+
+2 changes. 1 new file (228L). 679→680 files, 460→461 markdown, macro 17→18.
+Website audited: 679→680, 460→461. OG regenerated.
+
+4 ACTION blocks. 2 skipped (Library Rule FAIL). 2 actioned.
+
+SKIPPED:
+  fan-token/sevilla.md OWNERSHIP_STATUS: AGREED_PENDING_APPROVAL
+    Fifth refusal — named company + pending regulatory approval = unconfirmed operational data
+    Permanent standing refusal until transaction COMPLETED + Tier 1 source + no named individuals
+  market/fan-token/psg.md MARKET_DEPTH: FUTURES_ACTIVE_GATE
+    Current live market depth status = expiring operational data
+
+ACTIONED:
+
+  macro/macro-regulatory-sportfi.md:
+    CLARITY Act committee markup label clarified:
+    Added: "Committee markup status: MARKUP_IN_PROGRESS — Senate Banking Committee"
+    No status change — was already LEGISLATIVE_MARKUP_IN_PROGRESS; label made explicit
+
+  macro/clarity-act-sec404.md (228L) — NEW FILE:
+    Complete Section 404 activity-based reward safe harbour reasoning framework.
+    Core provision: passive yield prohibited | activity-based rewards = safe harbour
+    Fan token classification: digital commodities — not subject to passive yield prohibition
+    PATH_2 mechanics: explicitly NOT yield (fires on match result, not holding duration)
+    Permitted structures: governance votes, predictions, match engagement, platform activity
+    Prohibited structures: passive APY, guaranteed returns, equity/revenue sharing
+    Dual-purpose fraud signal:
+      Passive yield promise = Tier 1 fraud red flag + Section 404 violation signal
+    Agent output structure for passive yield detection
+    Decision tree: activity-based → compliant | passive → prohibited + flag
+    Platform compliance signal: ×1.05 US market confidence if confirmed compliant
+    Monitoring framework: how to watch for Section 404 amendments in markup
+
 ## [3.97.48] — 2026-05-14
 
 ### Changed — Website: seven visual/content fixes from full visual audit
