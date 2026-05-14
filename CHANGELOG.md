@@ -1,5 +1,68 @@
 # Changelog
 
+## [3.97.50] — 2026-05-14
+
+### Changed — CLARITY Act committee passed; $ARG AFA integration; Section 404 duration-scaling
+
+⚡ TENTH RELEASE — FULL CONSISTENCY AUDIT TRIGGERED (Standing Instruction 2)
+See: FULL CONSISTENCY AUDIT section below.
+
+4 ACTION blocks. 2 skipped (Library Rule FAIL). 3 items actioned across 4 files.
+Library: 680 files, 461 markdown (unchanged — updates to existing files only).
+
+SKIPPED:
+  macro/market.md PHASE_STATUS: ANXIETY × 0.92 — current market sentiment = expiring
+  market/fan-token/psg.md FUTURES_ACTIVE_GATE — live market data = expiring
+
+ACTIONED:
+
+  fan-token/official-verification-framework.md:
+    $ARG Argentina National Team: OFFICIAL_INTEGRATED status added
+    AFA partnership classified as fully embedded in operations
+    
+  fan-token/national-team-tokens.md:
+    Confirmed official national team Fan Token™ registry section added
+    $ARG (AFA) · $POR (FPF) · $SNFT (RFEF) · $BFT (CBF) — all four documented
+    World Cup 2026 fraud warning and verification guidance added
+
+  macro/macro-regulatory-sportfi.md:
+    CLARITY Act status: LEGISLATIVE_MARKUP_IN_PROGRESS → COMMITTEE_PASSED
+    Header: DRAFT_RELEASED + COMMITTEE_PASSED (CONFIRMED — TIER 1)
+    Committee passage confirmed: 2026-05-14 — Senate Banking Committee
+    Legislative stage: Stage 3 → Stage 4 (weight upgrades to ×0.75)
+    Next stage: Senate floor vote (60-vote threshold)
+    Conflict-of-interest provision monitoring noted
+
+  macro/clarity-act-sec404.md:
+    Duration-scaling section added (REWARD_TYPE: ACTIVITY_BASED | PERMITTED: DURATION_SCALING)
+    Activity duration = permitted | Holding duration = prohibited (bright line clarified)
+    Platform confirmation: Chiliz/Socios mechanics are activity-based — COMPLIANT
+    Agent classification rule: Duration of ACTIVITY → safe harbour | Duration of HOLDING → flag
+
+FULL CONSISTENCY AUDIT — v3.97.50 (Standing Instruction 2)
+
+  WEBSITE AUDIT (all pages):
+    index.html: 680 files, 461 md, 129 cal, v3.97.50 — CLEAN
+    All 8 pages: correct version, no github.io in kit-btn-primary, BETA badges — CLEAN
+    WHO USES: 6 cards | Problem rows: 5 | Diagram: 7 layers | Loading order: 7 steps
+    Signal JSON: confidence_level + signal_class + supply_event_type — CLEAN
+    Layer 5: 17 documents | Verification section | Seven domains note — CLEAN
+
+  REPOSITORY AUDIT:
+    i18n/: 23 files carry deprecation notice — CLEAN (added v3.97.47)
+    examples/: 3 updated to current format; 8 in GOOD_FIRST_ISSUES.md — CLEAN
+    Cross-references: all new files resolve — CLEAN
+    README.md: 679/460 md — 1 behind (679→680 from v3.97.49); update noted
+    OVERVIEW.md: v3.97.41 reference — stale; update noted
+    smi-digest.md: v3.97.50 — CURRENT
+
+  DOCUMENT CONSISTENCY:
+    CLARITY Act status: updated to COMMITTEE_PASSED in regulatory file and smi-digest
+    $ARG AFA integration: documented in verification framework and national-team-tokens
+    Section 404 duration-scaling: added to sec404 file
+
+CONSISTENCY CHECK: PASSED ✓ (15/15)
+
 ## [3.97.49] — 2026-05-14
 
 ### Added — CLARITY Act Section 404 dedicated file; regulatory markup label

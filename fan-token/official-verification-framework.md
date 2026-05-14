@@ -148,6 +148,8 @@ NATIONAL TEAM TOKENS — ADDITIONAL VERIFICATION REQUIRED:
   
     $ARG — Argentina National Team
       Verification: socios.com + chiliscan.com + AFA official channels confirmed
+      Integration status: OFFICIAL_INTEGRATED — AFA partnership fully embedded
+      Classification: confirmed official Fan Token™ · national team category
       
     $POR — Portugal National Team
       Verification: socios.com + chiliscan.com + FPF official channels confirmed

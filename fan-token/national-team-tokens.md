@@ -327,3 +327,40 @@ SUPPLY MECHANICS — NATIONAL TEAM TOKENS:
 
 *SportMind v3.97.18 · MIT License · sportmind.dev*
 *Enduring framework — applies to every major international tournament*
+
+---
+
+## Confirmed official national team Fan Tokens™
+
+```
+SPORTMIND VERIFIED REGISTRY — NATIONAL TEAM TOKENS:
+
+  $ARG — Argentina National Team
+    Partnership: Asociación del Fútbol Argentino (AFA) × Socios/Chiliz
+    Integration: OFFICIAL_INTEGRATED — AFA partnership fully embedded in
+      club operations, squad activation, and fan engagement programmes
+    Verification: socios.com · chiliscan.com · AFA official channels
+    Classification: confirmed official Fan Token™ · national team category
+    Source: fan-token/official-verification-framework.md
+
+  $POR — Portugal National Team
+    Partnership: Federação Portuguesa de Futebol (FPF) × Socios/Chiliz
+    Verification: socios.com · chiliscan.com · FPF official channels
+    Classification: confirmed official Fan Token™ · national team category
+
+  $SNFT — Spain National Team
+    Partnership: Real Federación Española de Fútbol (RFEF) × Socios/Chiliz
+    Verification: socios.com · chiliscan.com · RFEF official channels
+    Classification: confirmed official Fan Token™ · national team category
+
+  $BFT — Brazil National Team
+    Partnership: Confederação Brasileira de Futebol (CBF) × Socios/Chiliz
+    Verification: socios.com · chiliscan.com · CBF official channels
+    Classification: confirmed official Fan Token™ · national team category
+
+  ALL OTHER NATIONAL TEAM TOKEN CLAIMS: UNVERIFIED
+    Any token claiming national team affiliation not listed above must be
+    verified through the four-source methodology before any signal is applied.
+    World Cup 2026 fraud risk: heightened — verify all national team tokens
+    before tournament. See fan-token/fraud-risk-intelligence.md.
+```

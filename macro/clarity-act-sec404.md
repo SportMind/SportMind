@@ -139,6 +139,46 @@ PASSIVE YIELD PROMISE = DUAL RED FLAG:
 
 ---
 
+## Duration-scaling of activity-based rewards
+
+```
+REWARD_TYPE: ACTIVITY_BASED | PERMITTED: DURATION_SCALING
+
+  DEFINITION:
+    Duration-scaling: rewards that increase in proportion to the DURATION or
+    FREQUENCY of eligible user activity — not the duration of passive holding.
+
+  THE CRITICAL DISTINCTION:
+    Passive yield (prohibited):
+      Reward accrues automatically for holding X tokens for Y days.
+      User takes NO action — tokens sit, yield accumulates.
+      
+    Activity-based with duration scaling (permitted):
+      Reward scales with how long or how consistently a user has ACTIVELY engaged.
+      Examples: 10 governance votes earns a higher reward weight than 2 votes.
+      The scaling factor is activity volume or frequency, not holding duration.
+
+  PERMITTED DURATION-SCALING EXAMPLES:
+    ✓ Governance reward scaling with number of votes cast (activity count)
+    ✓ Prediction reward scaling with accuracy track record (activity quality)
+    ✓ Platform loyalty reward based on cumulative interactions (activity volume)
+    ✓ Match engagement reward scaling with matches engaged in (activity frequency)
+
+  NOT PERMITTED (passive yield framing):
+    ✗ Reward scaling purely with days tokens held, no action required
+    ✗ "Loyalty bonus" for not selling — passive yield by another name
+    ✗ Yield that increases automatically without user taking any action
+
+  AGENT CLASSIFICATION:
+    Duration of ACTIVITY → ACTIVITY_BASED → Section 404 safe harbour → COMPLIANT
+    Duration of HOLDING  → PASSIVE YIELD  → Section 404 prohibited   → FLAG
+
+  PLATFORM CONFIRMATION:
+    Chiliz/Socios governance, prediction, and engagement mechanics are structured
+    as activity-based — duration scaling within these systems is COMPLIANT.
+    Apply: activity_duration_scaling_signal = COMPLIANT for confirmed Socios mechanics.
+```
+
 ## Design guidance for US market compliance
 
 ```

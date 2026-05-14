@@ -189,7 +189,7 @@ Files:             macro-regulatory-sportfi.md (primary — 1162L)
 Regulatory status (confirmed):
   UK:   STATUTORY_REGIME_ENACTED — SI 2026/102 — FCA gateway Sep 2026
   US:   LEGALLY_DEFINED / NON_SECURITY (SEC/CFTC March 2026)
-        CLARITY Act: DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS
+        CLARITY Act: DRAFT_RELEASED + COMMITTEE_PASSED (Senate Banking 2026-05-14)
         Section 404 (DRAFT_STABLE): activity-based rewards PERMITTED
                                     passive yield PROHIBITED
   EU:   MiCA ACTIVE
@@ -310,7 +310,7 @@ FLAG 2 — i18n layer STATUS UNKNOWN
   Action: systematic review and update OR add explicit deprecation notice to i18n/
 
 FLAG 3 — CLARITY Act final status pending
-  Current: DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS
+  Current: DRAFT_RELEASED + COMMITTEE_PASSED (Senate Banking 2026-05-14)
   Section 404 (Activity-based vs passive yield): DRAFT_STABLE
   Committee markup was scheduled May 14, 2026.
   Update macro/macro-regulatory-sportfi.md when enacted status confirmed.
@@ -465,5 +465,5 @@ FIELD PRIORITIES (always keep accurate):
 
 ---
 
-*SportMind v3.97.49 · MIT License · sportmind.dev*
+*SportMind v3.97.50 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary · load this file first*

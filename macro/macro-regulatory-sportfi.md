@@ -210,8 +210,14 @@ OMNICHAIN EXPANSION — REGULATORY IMPLICATION (confirmed Q1–Q2 2026):
 
 
 ```
-CLARITY ACT — DRAFT_RELEASED + LEGISLATIVE_MARKUP_IN_PROGRESS (CONFIRMED — TIER 1)
-  Committee markup status: MARKUP_IN_PROGRESS — Senate Banking Committee
+CLARITY ACT — DRAFT_RELEASED + COMMITTEE_PASSED (CONFIRMED — TIER 1)
+  Committee status:      PASSED_SENATE_BANKING — Senate Banking Committee
+  Committee passage:     2026-05-14 (confirmed)
+  Prior status:          LEGISLATIVE_MARKUP_IN_PROGRESS (markup began 2026-05-08)
+  Next stage:            Senate floor vote (60-vote threshold required)
+  Legislative weight:    Stage 4 → ×0.75 (see core/legislation-process-intelligence.md)
+  Signal upgrade:        COMMITTEE_PASSED increases enactment probability materially
+  Conflict-of-interest provision: status at passage — monitor for floor vote risk
 
   Source:           US Senate Banking Committee — official committee ledger
   Source URL:       https://www.banking.senate.gov/hearings/05/08/2026/executive-session
