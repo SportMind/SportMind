@@ -1,5 +1,15 @@
 # क्रिकेट — IPL फ्रेंचाइज़ इंटेलिजेंस (हिंदी)
 
+> ⚠️ **DEPRECATION NOTICE — Community Translation**
+> This file may contain modifier values and frameworks from an earlier version
+> of the SportMind library (pre-v3.97.x). For current modifier values, signal
+> weights, and reasoning frameworks, always reference the English source files.
+> Community translations are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> **Current version:** v3.97.46
+
+---
+
+
 *`sports/cricket/sport-domain-cricket.md` का विस्तार — IPL पर ध्यान*
 *सभी फील्ड नाम, मेट्रिक्स और कोड अंग्रेज़ी में रहते हैं*
 

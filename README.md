@@ -9,9 +9,9 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.86.0-green)]()
+[![Version](https://img.shields.io/badge/version-3.97.46-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
-[![Calibration](https://img.shields.io/badge/calibration-126%20records%20%7C%2096%25%20accuracy-green)]()
+[![Calibration](https://img.shields.io/badge/calibration-129%20records%20%7C%2096%25%20accuracy-green)]()
 [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
@@ -97,7 +97,7 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-579 files · 364 markdown skill files
+679 files · 460 markdown skill files
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
@@ -106,13 +106,13 @@ Fan token:         64 skills · 90 verified tokens (63 active Chiliz + 18 expire
                    New listing intelligence · Fan Token Play PATH_2 · governance · KOL influence
                    Sports equity signals (GSRAY.IS, MANU, JUVE.MI, FWONK, TKO) · CHZ macro layer
 Market:            43 documents · club operations · broadcaster intelligence · World Cup 2026
-Macro:             9 documents · MiCA · SEC/CFTC joint guidance (March 2026) · US market opening
+Macro:             17 documents · MiCA · SEC/CFTC joint guidance (March 2026) · US market opening
 
 Core frameworks:   57 files · reasoning patterns · autonomous agent framework · modifier system
                    breaking news · squad intelligence · historical framework · contextual signals
 Platform:          28 files · MCP server (45 tools, 8 servers) · data connectors · API providers
                    Chiliz Agent Kit · social intelligence · web agent connectors · fraud signals
-Community:         177 files · 126 calibration records (96% accuracy, 21 sports) · benchmarks
+Community:         177 files · 129 calibration records (96% accuracy, 21 sports) · benchmarks
 Developer tools:   11 application blueprints · 13 agentic workflow patterns · 22 agent prompts
                    3 copy-paste templates · 69 compressed summaries · Skills API · starter pack
 ```
@@ -123,13 +123,27 @@ Developer tools:   11 application blueprints · 13 agentic workflow patterns · 
 
 ```json
 {
-  "sportmind_score":   {"sms": 79, "sms_tier": "GOOD"},
-  "signal":            {"adjusted_score": 72.4, "direction": "HOME",
-                        "recommended_action": "ENTER"},
-  "modifiers_applied": {"athlete_modifier": 1.10, "macro_modifier": 1.00,
-                        "composite_modifier": 1.08},
-  "flags":             {"lineup_unconfirmed": false,
-                        "macro_override_active": false}
+  "direction":           "HOME",
+  "adjusted_score":      72.4,
+  "sms":                 79,
+  "recommended_action":  "ENTER",
+  "composite_modifier":  1.10,
+  "confidence_level":    "HIGH",
+  "signal_class":        "EXECUTION",
+
+  "modifiers_applied": {
+    "athlete_modifier":     1.10,
+    "macro_modifier":       1.00,
+    "venue_modifier":       1.05,
+    "officiating_modifier": 1.02
+  },
+
+  "flags": {
+    "lineup_unconfirmed":    false,
+    "ftp_path2_active":      true,
+    "supply_event_type":     "REDUCTION",
+    "macro_override_active": false
+  }
 }
 ```
 
@@ -181,7 +195,7 @@ any LLM (skills are structured markdown, not API wrappers).
 
 ## The calibration record
 
-126 records. 96% accuracy. Zero wrong-direction records outside European football draws.
+129 records. 96% accuracy. Zero wrong-direction records outside European football draws.
 
 All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
 before real matches. Includes all 5 wrong predictions with root-cause analysis.

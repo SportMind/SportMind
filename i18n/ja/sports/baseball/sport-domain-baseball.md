@@ -1,5 +1,15 @@
 # 野球 — SportMind ドメインスキル (日本語)
 
+> ⚠️ **DEPRECATION NOTICE — Community Translation**
+> This file may contain modifier values and frameworks from an earlier version
+> of the SportMind library (pre-v3.97.x). For current modifier values, signal
+> weights, and reasoning frameworks, always reference the English source files.
+> Community translations are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> **Current version:** v3.97.46
+
+---
+
+
 *`sports/baseball/sport-domain-baseball.md` の翻訳*
 *日本プロ野球 (NPB) と日本代表 (侍ジャパン) 向け*
 

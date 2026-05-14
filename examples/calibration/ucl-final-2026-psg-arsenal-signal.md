@@ -21,6 +21,8 @@
   "sms":                 58,
   "recommended_action":  "HOLD — monitor T-48h update",
   "composite_modifier":  1.08,
+  "confidence_level":    "HIGH",
+  "signal_class":        "EXECUTION",
 
   "modifiers_applied": {
     "match_importance":    1.25,

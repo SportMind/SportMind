@@ -1,5 +1,62 @@
 # Changelog
 
+## [3.97.47] — 2026-05-14
+
+### Full consistency audit — website, README, i18n, examples, smi-digest
+
+CONSISTENCY AUDIT RELEASE. Three new standing instructions activated.
+Library file count unchanged (679/460) — no new intelligence files.
+
+THREE STANDING INSTRUCTIONS NOW ACTIVE:
+  1. Post-release consistency check — runs after every release automatically
+  2. Full audit every tenth release (v3.97.50, v3.97.60, etc.)
+  3. SMI monthly audit message on first release of each calendar month
+
+AREA 1 — WEBSITE (index.html):
+  FIX 1: Meta tags corrected — og:description and twitter:description
+    updated to "679 files. 129 records. 96% accuracy."
+  FIX 2: Calibration section
+    "126 records across 21 sports" → "129 records across 21 sports"
+    "Including the 5 wrong ones" → "Including the wrong ones"
+  FIX 3: Layer file counts updated
+    Athlete layer: "29 sports" → "45 files across active sports"
+    Fan token: 65 → 76 skills
+    Macro: 9 → 17 documents (full description updated)
+  FIX 4: Signal output JSON updated
+    Added confidence_level: "HIGH" and signal_class: "EXECUTION"
+    Added supply_event_type: "REDUCTION" to flags
+    Added venue_modifier and officiating_modifier to modifiers_applied
+  FIX 5: Verification section added between calibration and contribute
+    "Know what is official." — four-source verification, red flags, WC 2026 risk
+    Links to fan-token/official-verification-framework.md
+  FIX 6: Suite section — sportmind-automation coming-soon card added
+
+AREA 2 — README.md:
+  Stale file counts updated: 579→679, 364→460 markdown
+  Version badge: 3.86.0 → 3.97.46
+  Signal output JSON: confidence_level and signal_class added
+  Additional intelligence domains note added after layers table
+  Key numbers block updated to current counts
+
+AREA 3 — REPO CONSISTENCY:
+  i18n: deprecation notice added to all 23 translation files
+    "May contain modifier values from pre-v3.97.x — reference English source files"
+  Examples: top 3 updated to current signal output format (confidence_level added):
+    examples/worked-scenarios/scenario-ucl-final-2023.md
+    examples/worked-scenarios/scenario-psg-defi-liquidity-ucl-2023.md
+    examples/calibration/ucl-final-2026-psg-arsenal-signal.md
+  GOOD_FIRST_ISSUES.md: 8 remaining examples flagged as community update task
+  Cross-references: all 3 recently added files verified — all internal links resolve
+
+AREA 4 — smi-digest.md:
+  Version updated to v3.97.47
+  Macro files: 14 → 17 (stablecoin-cbdc, clarity-act-complete, trending noted)
+  Core new files noted: legislation-process, odds-market, sports-integrity
+  HOLD trigger 7 added: official sports integrity investigation = HOLD immediately
+
+POST-RELEASE CONSISTENCY CHECK: PASSED ✓
+  All 15 consistency checks passed on final run.
+
 ## [3.97.46] — 2026-05-13
 
 ### Added — Six gap fills: stablecoin/CBDC, CLARITY Act complete, trending signals,

@@ -210,3 +210,24 @@ Must stay live 6+ months. Guide: `platform/sportmind-mcp-deployment.md`.
 *MIT License · SportMind · sportmind.dev*
 *`FIRST-RECORD-CHALLENGE.md` — fastest path to contributing*
 *`community/calibration-data/CONTRIBUTING.md` — calibration record submission*
+
+## Update example files to current signal output format
+
+**Difficulty:** Easy | **Time:** 15-30 minutes per file
+
+The signal output format now includes `confidence_level` and `signal_class` fields
+(added in v3.97.38). The following example files use the old format and need updating:
+
+- `examples/agent-types/README.md`
+- `examples/agentic-workflows/README.md`
+- `examples/applications/app-01-defi-prediction-market.md`
+- `examples/applications/app-06-gamefi-layer.md`
+- `examples/worked-scenarios/scenario-ipl-dls-2023.md`
+- `examples/worked-scenarios/scenario-nba-trade-deadline-2023.md`
+- `examples/worked-scenarios/scenario-state-of-origin-2023-g3.md`
+- `examples/worked-scenarios/scenario-ufc-281-pereira-adesanya.md`
+
+Add `"confidence_level": "HIGH"` and `"signal_class": "EXECUTION"` after
+`"composite_modifier"` in every signal output JSON block.
+See `core/signal-confidence-framework.md` for the full output specification.
+

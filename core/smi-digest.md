@@ -6,7 +6,7 @@
 > Updated after every versioned release.
 
 **Last updated:** 3.97.46 — 2026-05-13
-**Library state:** 673 files · 454 markdown · 212 CHANGELOG entries · 181 version cycles
+**Library state:** 679 files · 460 markdown · 214 CHANGELOG entries · 181 version cycles
 
 ---
 
@@ -175,7 +175,7 @@ Known gaps:
 ### DOMAIN 5 — Macro Intelligence (`macro/`)
 
 ```
-Coverage:          14 markdown files (COMPLETE — full layer)
+Coverage:          17 markdown files (COMPLETE — full layer)
 
 Files:             macro-regulatory-sportfi.md (primary — 1162L)
                    macro-crypto-market-cycles.md · crypto-digital-asset-intelligence.md
@@ -247,6 +247,8 @@ HOLD trigger conditions (automatic — check before any output):
   4. Adjusted score between 48-52 (coin flip)
   5. Compound weather modifier below ×0.75
   6. Emergency contract pause active
+  7. Official sports integrity investigation confirmed (Tier 1 source)
+     — see core/sports-integrity-intelligence.md
 
 Confidence timing: T-72h LOW | T-48h LOW-MEDIUM | T-24h MEDIUM | T-2h HIGH
 
@@ -463,5 +465,5 @@ FIELD PRIORITIES (always keep accurate):
 
 ---
 
-*SportMind v3.97.46 · MIT License · sportmind.dev*
+*SportMind v3.97.47 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary · load this file first*

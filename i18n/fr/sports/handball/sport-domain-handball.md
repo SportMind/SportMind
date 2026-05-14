@@ -1,5 +1,15 @@
 # Handball — SportMind Domain Skill (Français)
 
+> ⚠️ **DEPRECATION NOTICE — Community Translation**
+> This file may contain modifier values and frameworks from an earlier version
+> of the SportMind library (pre-v3.97.x). For current modifier values, signal
+> weights, and reasoning frameworks, always reference the English source files.
+> Community translations are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> **Current version:** v3.97.46
+
+---
+
+
 *Traduction de `sports/handball/sport-domain-handball.md`*
 *Traduction de l'original anglais. Tous les noms de champs, métriques et code en anglais.*
 

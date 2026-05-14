@@ -1,5 +1,15 @@
 # كرة القدم — SportMind الدوري السعودي وأسواق الخليج (العربية)
 
+> ⚠️ **DEPRECATION NOTICE — Community Translation**
+> This file may contain modifier values and frameworks from an earlier version
+> of the SportMind library (pre-v3.97.x). For current modifier values, signal
+> weights, and reasoning frameworks, always reference the English source files.
+> Community translations are welcome — see [CONTRIBUTING.md](../../CONTRIBUTING.md).
+> **Current version:** v3.97.46
+
+---
+
+
 *ترجمة `sports/football/sport-domain-football.md` — تركيز على الخليج العربي*
 *جميع أسماء الحقول والمقاييس والكود تبقى باللغة الإنجليزية*
 
