@@ -1,5 +1,37 @@
 # Changelog
 
+## [3.97.53] — 2026-05-15
+
+### Changed — Website: three visual/content fixes (FIX 1 styling, FIX 2 duplicate, FIX 3 language)
+
+WEBSITE-ONLY. Library: 692 files, 473 markdown (unchanged).
+
+FIX 1 — Card text size inconsistency:
+  "Fraud and verification" use case card was using class="uc-body" for body text.
+  All other five cards use class="uc-desc". Changed to uc-desc — rendering now consistent.
+  No content change.
+
+FIX 2 — Duplicate text:
+  "Compatible with any LLM. Skills are structured markdown, not API wrappers."
+  appeared twice consecutively in the library section loading order prose.
+  Second instance removed. Single clean occurrence remains.
+
+FIX 3 — Language refresh: "intelligence, reasoning, and context" theme applied:
+  Hero subheading: "teaches AI agents how to reason about sports"
+    → "gives AI agents the intelligence, reasoning, and context to understand sports"
+  Library heading: "Six layers. One system."
+    → "Six layers of intelligence, reasoning, and context."
+  Library prose: sentence added: "Each layer adds intelligence about the domain,
+    reasoning frameworks for interpreting signals, and context for understanding
+    why outcomes happen — not just what happened."
+  Who uses subheading: "the reasoning layer"
+    → "the intelligence, reasoning, and context layer"
+  Signal output section: tagline added before heading:
+    "Every signal includes not just a direction — but the reasoning chain
+    and context behind it."
+  CTA: "The library is ready."
+    → "Intelligence, reasoning, and context — ready to deploy."
+
 ## [3.97.52] — 2026-05-15
 
 ### Added — DeFi/yield intelligence layer (Session A) + reasoning depth layer (Session B)
