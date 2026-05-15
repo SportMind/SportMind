@@ -1,5 +1,135 @@
 # Changelog
 
+## [3.97.52] — 2026-05-15
+
+### Added — DeFi/yield intelligence layer (Session A) + reasoning depth layer (Session B)
+
+12 new files. 1,070 lines. All Library Rule compliant.
+680→692 files, 461→473 markdown, fan-token 76→80, core 83→90, macro 18→19.
+Website audited: CLEAN (counts matched). OG regenerated.
+
+Most significant reasoning architecture additions since agent-reasoning-chains.md.
+
+SESSION A — DeFi STAKING AND YIELD INTELLIGENCE (5 files):
+  fan-token/yield-compliance-framework.md (104L):
+    Three compliance categories under CLARITY Act Section 404
+    Category 1 (compliant): governance, attendance, transaction, duration-loyalty, PATH_2
+    Category 2 (non-compliant): passive APY, interest-bearing, guaranteed returns, revenue sharing
+    Category 3 (grey area): liquidity provision, governance distributions, bridge rewards
+    Three-step agent reasoning for new utility feature announcements
+    FTP PATH_2 compliance clarity: categorically not yield — no Section 404 restriction applies
+
+  fan-token/defi-integration-intelligence.md (93L):
+    Thin liquidity (<5% of CEX volume): x0.90 PATH_2 timing confidence
+    Deep liquidity (>20% of CEX volume): x1.05 demand baseline
+    Concentration risk (top 3 wallets >60% of pool): x0.85 confidence
+    Yield farming >15% locked: x0.85 sports demand confidence
+    Cross-chain yield APR >15%: x0.85 sports demand confidence
+    Wrapped token supply adjustment for PATH_2 pool calculation
+    DeFi signal priority hierarchy: CFTC action = HOLD | LP withdrawal = x0.88
+
+  fan-token/staking-intelligence.md (76L):
+    Platform staking (Socios native): COMPLIANT; above 20% = x1.05 demand
+    DeFi staking: x0.90 confidence weight when significant
+    Staking unlock events: above 5% = x0.92 for 48-72h window
+    $AFC staking-adjusted PATH_2: (circulating x (1-rate)) / 400
+    Compliance distinction: platform governance staking vs passive yield DeFi staking
+
+  fan-token/token-classification-framework.md (74L):
+    Three-tier CLARITY Act classification: Digital Commodity | Stablecoin | Investment Contract
+    Reclassification risk by level: HIGH (x0.75) | MEDIUM (x0.90) | LOW (x1.05-1.15)
+    HIGH risk: revenue sharing, guaranteed returns, equity convertibility
+    LOW risk: governance, experience access, activity rewards, duration bonuses, PATH_2
+    Four-step agent reasoning for new feature announcements
+
+  macro/defi-macro-intelligence.md (76L):
+    DeFi TVL: growing = x1.03 ecosystem | declining 20%+ = x0.92 demand baseline
+    DEX/CEX ratio: above 30% = x1.05 confidence | below 5% = standard weights
+    Protocol exploit: major (>$10M) = x0.82 for 48-72h | ecosystem = x0.90
+    CFTC enforcement on DeFi with fan token exposure = HOLD (highest priority override)
+
+SESSION B — REASONING DEPTH LAYER (7 files):
+  core/signal-interaction-reasoning.md (86L):
+    Four-level signal hierarchy: Level 1 override (HOLD) > 2 high confidence > 3 standard > 4 weak
+    Contradictory signal resolution: weighted average; within +-0.03 = SIGNAL_CONFLICT_NEUTRAL
+    Negative signal asymmetry: x1.15 precedence over equal positive signal
+    Stacking caps: x1.25 positive ceiling | x0.75 negative floor
+    Signal independence check: shared-cause pairs (athlete + psychology etc.)
+
+  core/causality-correlation-reasoning.md (91L):
+    Causal = full modifier weight | Correlational = x0.75
+    Three causality tests: mechanism clarity | temporal precedence | sample robustness
+    Causal signal register: dew factor, weight miss, altitude, rain (all confirmed causal)
+    Calibration feedback loop: 10 records = provisional causal | 20 = confirmed causal
+
+  core/counterfactual-reasoning.md (85L):
+    Four-step framework: identify variable > calculate both > weight > communicate range
+    Standard ranges: lineup +-4-8pts | elite player +-8-16pts | weather +-4-8pts (sensitive)
+    PATH_2 three-scenario output: WIN/LOSS/DRAW all calculated and communicated
+
+  core/temporal-reasoning.md (99L):
+    Signal decay: new manager | form recency weights | injury return | transfer integration
+    Momentum: win streak logarithmic to x1.08 ceiling at 7+
+    Fatigue: match 2 in 4 days x0.97 -> match 4+ in 10 days x0.91
+    In-match: first goal conceded = WIN prob 65% of pre-match
+
+  core/uncertainty-communication.md (83L):
+    Three uncertainty types: data | model | event (irreducible)
+    Quantification: 0 unconfirmed = LOW +-4pts | 1-2 = MEDIUM +-8pts | 3+ = HIGH +-12pts
+    NO_SIGNAL conditions: 3+ unconfirmed | macro override | integrity investigation
+
+  core/fan-token-reasoning-chains-extended.md (123L):
+    Chain A: new fan token launch (5 steps)
+    Chain B: relegation battle token (4 steps)
+    Chain C: World Cup national token (4 steps + fraud filter)
+    Chain D: macro anxiety + PATH_2 — supply mechanics are PATH_2-independent from demand
+
+  core/multi-horizon-reasoning.md (80L):
+    Four horizons: match (hours) | season (months) | multi-season (years) | crypto cycle
+    Horizon 1 confirmed information overrides Horizons 2-4 pattern estimates
+    Exception: Level 1 override signals override all horizons
+
+## [3.97.52] — 2026-05-14
+
+### Added — DeFi/yield intelligence layer + reasoning depth layer (12 files, 1,126L)
+
+12 new files. 1,126 lines total. All Library Rule compliant.
+680->692 files, 461->473 markdown, fan-token 76->80, core 83->90, macro 18->19.
+Website audited: 680->692, 461->473, core 83->90. OG regenerated.
+
+SESSION A — DeFi STAKING AND YIELD INTELLIGENCE (5 files):
+  fan-token/yield-compliance-framework.md (104L)
+  fan-token/defi-integration-intelligence.md (93L)
+  fan-token/staking-intelligence.md (76L)
+  fan-token/token-classification-framework.md (74L)
+  macro/defi-macro-intelligence.md (76L)
+
+SESSION B — REASONING DEPTH LAYER (7 files):
+  core/signal-interaction-reasoning.md (86L)
+  core/causality-correlation-reasoning.md (91L)
+  core/counterfactual-reasoning.md (85L)
+  core/temporal-reasoning.md (105L)
+  core/uncertainty-communication.md (94L)
+  core/fan-token-reasoning-chains-extended.md (146L)
+  core/multi-horizon-reasoning.md (96L)
+
+Key new intelligence:
+  PATH_2 categorically not yield under CLARITY Act Section 404
+  Three compliance categories: fully compliant / non-compliant / grey area
+  $AFC staking-adjusted PATH_2: (circulating x (1-staking_rate)) / 400
+  DeFi signal hierarchy: CFTC action -> HOLD overrides all sports signals
+  4-level signal hierarchy: Level 1 HOLD | 2 high confidence | 3 standard | 4 weak
+  Negative signal asymmetry: x1.15 precedence over equal positive
+  Stacking caps: x1.25 positive ceiling | x0.75 negative floor
+  Causal vs correlational: causal full weight | correlational x0.75
+  Calibration feedback loop: 10 records -> provisional causal | 20 -> confirmed
+  Counterfactual: PATH_2 three-scenario output (WIN/LOSS/DRAW always communicated)
+  Form decay: older than 20 matches = x0.25 weight (discard)
+  Win streak ceiling: x1.08 at 7+ wins (logarithmic, not linear)
+  NO_SIGNAL conditions documented
+  4 complete extended fan token reasoning chains
+  4 time horizons: match / season / multi-season / crypto cycle
+
 ## [3.97.51] — 2026-05-14
 
 ### Fixed — CLARITY Act Section 404 preserved; floor vote risk bloc; 2 of 3 blocks skipped

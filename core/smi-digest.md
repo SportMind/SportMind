@@ -6,7 +6,7 @@
 > Updated after every versioned release.
 
 **Last updated:** 3.97.46 — 2026-05-13
-**Library state:** 679 files · 460 markdown · 214 CHANGELOG entries · 181 version cycles
+**Library state:** 692 files · 473 markdown · 214 CHANGELOG entries · 181 version cycles
 
 ---
 
@@ -465,5 +465,5 @@ FIELD PRIORITIES (always keep accurate):
 
 ---
 
-*SportMind v3.97.51 · MIT License · sportmind.dev*
+*SportMind v3.97.52 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary · load this file first*
