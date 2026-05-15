@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.97.54] — 2026-05-15
+
+### Added — /use-cases/index.html + Use-cases nav link across all pages
+
+WEBSITE-ONLY. Library: 692 files, 473 markdown (unchanged).
+
+New page: /use-cases/index.html (814L)
+  Exact design system match — same fonts, tokens, components, nav, footer.
+  Hero: "What SportMind makes possible."
+  Open playground notice: highlighted callout with green left border.
+  Filter row: 6 pills (All/Fan Tokens/Sports Analysis/Compliance/Community/Journalism)
+    with JS-driven card filtering by data-categories attribute.
+  8 use-case cards in 2-column responsive grid:
+    1. SMI Intelligence Briefing Agent — LIVE
+    2. Pre-Match Signal Bot — BUILD THIS
+    3. Fan Token Fraud Checker — BUILD THIS
+    4. Daily Fan Token Digest — BUILD THIS
+    5. Weekly Fan Token Portfolio Brief — BUILD THIS
+    6. Fan Token Compliance Checker — BUILD THIS
+    7. Calibration Record Submitter — BUILD THIS
+    8. Sports Intelligence Research Tool — BUILD THIS
+  Build your own section: 5 developer directions, 2 action buttons.
+  Model choice section: 3-column grid (cost-efficient / balanced / deep reasoning).
+  Bottom CTA: "The library is ready. What will you build?"
+
+Nav updated on all 8 existing pages: "Use-cases" link added between Suite and Docs.
+  index.html | docs.html | demo.html | agent.html | autonomous.html
+  suite/telegram/ | suite/wallet/ | suite/intelligence-agent/
+
+index.html WHO USES section: "See all use-cases →" link added below cards.
+
 ## [3.97.53] — 2026-05-15
 
 ### Changed — Website: three visual/content fixes (FIX 1 styling, FIX 2 duplicate, FIX 3 language)
