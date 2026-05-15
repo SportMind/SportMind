@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.97.55] — 2026-05-15
+
+### Fixed — use-cases 404, sticky nav backdrop-filter, deployment completeness
+
+WEBSITE-ONLY. Library: 692 files, 473 markdown (unchanged).
+
+TASK 1 — use-cases/index.html 404:
+  File exists at correct path (use-cases/index.html) and is a complete standalone page.
+  Root cause: the use-cases/ directory was not included in any previous deployment package.
+  Fix: all pages including use-cases/index.html now in deployment zip.
+  File verified: DOCTYPE ✓ | meta tags ✓ | nav ✓ | footer ✓ | 814L complete page.
+
+TASK 2 — Homepage stale values:
+  All values were already correct in the working files from v3.97.47 onwards.
+  meta description: 692 files, 129 records ✓
+  og:description: 692 files, 129 records ✓
+  Calibration prose: 129 records, "Including the wrong ones" ✓
+  Layer counts: athlete 45, fan-token 76, macro 17 ✓
+  Signal output JSON: confidence_level, signal_class, supply_event_type ✓
+  Version: v3.97.55 ✓
+  Root cause: previous deployments used stale files. Fix: deploy current working files.
+
+TASK 3 — Sticky nav backdrop-filter:
+  Added backdrop-filter: blur(8px) and z-index: 100 to all 9 pages.
+  Pages updated: index.html | docs.html | demo.html | agent.html | autonomous.html
+    suite/telegram/ | suite/wallet/ | suite/intelligence-agent/ | use-cases/
+
+TASK 4 — Use-cases in nav:
+  Already completed in v3.97.54. All 9 pages confirmed.
+
+Deployment note: This release includes the complete use-cases/ directory in outputs
+for the first time, ensuring GitHub Pages can serve /use-cases/ correctly.
+
 ## [3.97.54] — 2026-05-15
 
 ### Added — /use-cases/index.html + Use-cases nav link across all pages
