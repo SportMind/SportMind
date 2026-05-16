@@ -1,5 +1,122 @@
 # Changelog
 
+## [3.97.58] — 2026-05-15
+
+### Added — Three gap fills: anti-doping, Valorant reference framework, press conference intelligence
+
+3 new library files. 587 lines. 692→695 files, 473→476 markdown, core 90→92.
+Plus: suite/telegram/index.html quick start section updated (website, no library change).
+Website audited: 692→695, 473→476, core 90→92. OG regenerated.
+
+IMPORTANT CORRECTION APPLIED (FILE 2):
+$VIT (Team Vitality) and $NAVI (Natus Vincere) partnerships with Chiliz
+are INACTIVE. Brief initially described $VIT as BRIDGE_LIVE — corrected
+before building. File built as Valorant reasoning framework reference model,
+not as active token intelligence.
+
+core/anti-doping-intelligence.md (183L):
+  Four suspension tiers: <6m (×0.94 return) | 1-2yr (×0.88) | 2-4yr (×0.82) | lifetime (=retirement)
+  Whereabouts failure ladder: 1=FLAG | 2=×0.97 | 3=equivalent to positive test
+  CAS appeal framework: pending=×0.50 | successful=recalculate | upheld=full tier
+  Return from suspension: psychological readiness curve matches 1-3 / 4-8 / 9+
+  Fan token demand: key player violation ×0.85 | club-level ×0.88 sustained | national team ×0.88/cycle
+  Integrity interaction: Tier 3 competition + active doping investigation = HOLD
+
+sports/esports-valorant-vit.md (180L):
+  Token status: $VIT INACTIVE | $NAVI INACTIVE — legacy contracts only
+  VCT EMEA franchised structure: ×1.05 stability modifier vs non-franchised
+  VCT signal weights: regular ×1.00 | playoffs ×1.20 | Champions qual ×1.35 | Champions ×1.80
+  IGL absence: ×0.84 (more impactful than CS2 AWPer ×0.87)
+  Patch modifier: ×0.85 confidence within 7 days of major patch
+  Dual-title framework: both performing ×1.12 | both underperforming ×0.88
+  Annual demand cycle: January through December documented
+
+core/press-conference-intelligence.md (224L):
+  Manager presence signals: expected=baseline | assistant=×0.96 | absent=×0.94
+  Six injury disclosure language patterns with precise availability probabilities
+  Tactical signal language: 7 patterns with modifiers (+×1.02 to −×0.97)
+  Squad morale: positive ×1.02 (2+ signals) | negative ×0.94 | crisis ×0.88 + SQUAD_CRISIS_SIGNAL
+  Source reliability: Tier 1 ×1.00 official → Tier 5 ×0.50 social media
+  Integration timing: T-72h → T-48h → T-24h → T-2h resolution hierarchy
+
+suite/telegram/index.html quick start:
+  Section heading: "Two paths. One kit." → "Three ways to deploy."
+  New subheading: "From five minutes to fully custom..."
+  Path A: Managed Bot (~5 min) — LobsterClawBot and equivalents
+  Path B: BotFather (~15 min, Recommended) — 4 steps, link to t.me/BotFather
+  Path C: Custom (your timeline) — Telegram Bot API link
+
+## [3.97.57] — 2026-05-15
+
+### Confirmed — sticky nav CSS correct on all pages; deployment package output
+
+WEBSITE-ONLY. Library: 692 files, 473 markdown (unchanged).
+
+All four pages confirmed correct — sticky nav CSS was already applied
+from v3.97.55. The issue is a deployment gap, not a code gap.
+
+Nav CSS confirmed on all pages:
+  position: sticky | top: 0 | z-index: 100
+  border-bottom | background: var(--bg)
+  backdrop-filter: blur(8px) | -webkit-backdrop-filter: blur(8px)
+
+overflow:hidden audit:
+  All instances on content sections only (.ex-list, .code-box, .bar-t,
+  .use-case-list, .cmd-block, .guardrail-list, .briefing-box).
+  None on body, html, or any nav parent element.
+  Sticky positioning is NOT affected by any of these.
+
+Files output with flat naming for Netlify upload as requested.
+
+## [3.97.56] — 2026-05-15
+
+### Changed — Netlify deployment package: all 5 pages verified and output
+
+WEBSITE-ONLY. Library: 692 files, 473 markdown (unchanged).
+
+Complete Netlify-ready deployment package for all 5 pages.
+All pages verified against full requirement checklist before output.
+
+PAGES VERIFIED AND OUTPUT:
+
+index.html:
+  meta description: 692 files, 129 calibration records ✓
+  og:description + twitter:description: 692 files, 129 records ✓
+  Calibration prose: 129 records | "Including the wrong ones" ✓
+  Layer 2: 45 files across active sports ✓
+  Layer 3: 76 skills ✓
+  Layer 5: 17 documents (full expanded description) ✓
+  Signal output JSON: confidence_level + signal_class + venue_modifier +
+    officiating_modifier + ftp_path2_active + supply_event_type ✓
+  Sticky nav: position:sticky | z-index:100 | backdrop-filter:blur(8px) ✓
+  Use-cases in nav ✓
+  Fraud verification section ("Know what is official.") ✓
+  World Cup fraud example row ✓
+  6 WHO USES cards (including fraud card) ✓
+  "See all use-cases →" link ✓
+
+use-cases/index.html:
+  Complete standalone HTML (DOCTYPE + meta + nav + footer) ✓
+  8 use-case cards (1 LIVE, 7 BUILD THIS) ✓
+  Filter pills + JS filtering ✓
+  3-column model grid ✓
+  Sticky nav: position:sticky | z-index:100 | backdrop-filter:blur(8px) ✓
+  Use-cases link active in nav ✓
+  No named copyright ✓
+
+suite/telegram/index.html:
+  Sticky nav ✓ | Use-cases link ✓
+
+suite/wallet/index.html:
+  Sticky nav ✓ | Use-cases link ✓
+
+suite/intelligence-agent/index.html:
+  Sticky nav ✓ | Use-cases link ✓
+
+overflow:hidden audit: all instances are on content sections (.ex-list,
+  .code-box, .bar-t, .use-case-list) — none on nav parent elements.
+  Sticky positioning confirmed unaffected.
+
 ## [3.97.55] — 2026-05-15
 
 ### Fixed — use-cases 404, sticky nav backdrop-filter, deployment completeness
