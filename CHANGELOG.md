@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.97.59] — 2026-05-16
+
+### Added — Commercial intelligence layer complete: sponsorship, marketing, partnership (3 files)
+
+3 new library files. 482 lines. 695→698 files, 476→479 markdown, market 44→47.
+Website audited: 695→698, 476→479. OG regenerated (x=80 coordinate fix applied).
+Completes the commercial intelligence layer of SportMind.
+
+market/sponsorship-endorsement-intelligence.md (206L):
+  Four sponsorship tiers: Tier 1 global ×1.08 | Tier 2 regional ×1.04 |
+    Tier 3 local ×1.00 | Tier 4 no sponsor ×0.92 (if financial difficulty)
+  Sponsorship event signals: new shirt (Tier 1 ×1.08) | termination COMMERCIAL_RISK_FLAG ×0.85 |
+    stadium naming ×1.08 | kit manufacturer downgrade ×0.94 | Chiliz direct sponsor ×1.10
+  Individual athlete endorsement: portfolio depth ×1.15 ceiling | termination ×0.88 | crypto ×1.05
+  Section 3B — Athlete sponsorship as club/fan token signal:
+    Boot/apparel deal: CDI ×1.04 | lifestyle: ×1.03 | multiple endorsements: ×1.06
+    Commercial concentration: above 40% of club sponsorship value → departure modifier ×1.15
+    Fan token ambassador: Tier 1 contracted ×1.15→×1.06 | organic ×1.10
+    New geography advertising: ×1.04 to demand from that region
+    World Cup tournament advertising: ×1.08 compound signal
+  Tournament sponsorship: club as sponsor ×1.06 | platform as partner ×1.12
+  FTP PATH_2 interaction: sponsorship affects demand response, not supply mechanics
+
+market/marketing-advertising-intelligence.md (148L):
+  Annual marketing cycles: pre-season ×1.15 | post-trophy ×1.05 | end of season ×1.03
+  Ecosystem signals: major platform campaign ×1.10 | new market entry ×1.05 |
+    platform withdrawal ×0.92
+  Viral vs sustained distinction: viral = 48-72h Tier 2 trend | sustained = CDI modifier
+  Co-marketing: club + platform ×1.12 | club + crypto ×1.05 | derby rivals ×1.05 (both)
+  Marketing spend proxy: increase ×1.04 | contraction ×0.94 | dark period ×0.88 + MARKETING_DARK_PERIOD
+
+market/commercial-partnership-intelligence.md (128L):
+  Technology: major tech partner ×1.05 | AI partnership ×1.04 | cloud ×1.03
+  Crypto: additional blockchain partner ×1.05 | pattern termination ×0.90
+  Retail: global retail ×1.06 | regional concentration ×0.95 | e-commerce ×1.03
+  COMMERCIAL_DISTRESS_SIGNAL: 2+ major partnerships lost in 6 months → ×0.82 sustained
+  Partnership renewal ×1.08 | new partner in difficult period ×1.05
+  Cross-reference map to 6 connected files
+
 ## [3.97.58] — 2026-05-15
 
 ### Added — Three gap fills: anti-doping, Valorant reference framework, press conference intelligence
