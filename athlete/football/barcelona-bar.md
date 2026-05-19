@@ -197,6 +197,47 @@ FINANCIAL FAIR PLAY / SQUAD BUILDING CAPACITY:
 
 ---
 
+
+## Long-term key position absence framework
+
+```
+HOW TO REASON ABOUT EXTENDED MIDFIELD ABSENCE AT BARCELONA:
+
+  Barcelona's possession system is midfield-dependent above all positions.
+  A long-term absence (4+ months) of a key midfield player creates:
+
+  IMMEDIATE IMPACT:
+    System coherence reduces — apply ×0.90 to tactical modifier confidence
+    Rotation burden increases on remaining midfielders — fatigue accumulates
+    Apply fixture congestion modifier ×1.10 amplification (see core-fixture-congestion.md)
+
+  CUMULATIVE IMPACT (match 10+):
+    If no adequate replacement established: sustained ×0.92 on adjusted score
+    If rotation solution found in first 8 matches: ×0.96 sustained (adapted)
+
+  MULTI-COMPETITION IMPACT:
+    Long-term absence reduces rotation depth across all competitions simultaneously.
+    Barcelona typically compete in La Liga + Copa del Rey + Champions League.
+    When a key midfielder is absent across all three simultaneously:
+    Apply ×0.88 squad depth modifier — rotation options are structurally reduced.
+
+  WORLD CUP 2026 CONTEXT (using Q4 2026 as reasoning horizon):
+    For any player unavailable through Q4 2026:
+    World Cup squad inclusion probability: LOW
+    $BAR demand impact: muted — player contributes to demand but
+      World Cup absence removes international tournament amplifier.
+    $SNFT (Spain) demand impact: position gap in Spain midfield requires
+      squad adaptation — see athlete/national-teams/spain-snft.md for
+      full Spain national team position framework.
+
+  REASONING RULE:
+    Do not log specific return dates.
+    Use Q4 2026 as the outer reasoning horizon for "extended absence."
+    If confirmed return before Q4 2026: adjust modifier proportionally.
+    If return unclear: apply full extended absence framework above.
+```
+
+---
 ## Compatibility
 
 **Base framework:**   `athlete/football/athlete-intel-football.md`

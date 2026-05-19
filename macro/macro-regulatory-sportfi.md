@@ -218,6 +218,21 @@ CLARITY ACT — DRAFT_RELEASED + COMMITTEE_PASSED (CONFIRMED — TIER 1)
   Legislative weight:    Stage 4 → ×0.75 (see core/legislation-process-intelligence.md)
   Signal upgrade:        COMMITTEE_PASSED increases enactment probability materially
   Conflict-of-interest provision: status at passage — monitor for floor vote risk
+
+CLARITY ACT — PRE-FLOOR VOTE PROCEDURAL MILESTONE:
+  Phase:                 COMMITTEE_MERGER_PENDING
+  Milestone:             Banking Committee text + Agriculture Committee text must be
+                           reconciled before Senate floor vote can proceed
+  Why Agriculture:       Agriculture Committee holds CFTC oversight jurisdiction —
+                           digital commodity provisions require their sign-off
+  Procedural nature:     This is a standard multi-committee legislative step,
+                           not a signal of opposition to the bill
+  Agent reasoning:       Do not treat committee merger as a negative signal.
+                           It is a required procedural hurdle — enduring US legislative fact.
+                           Monitor for: reconciliation completion or breakdown
+  Signal when reconciled: Upgrade to PRE_FLOOR_VOTE — remove COMMITTEE_MERGER_PENDING flag
+  Signal if breakdown:   Downgrade legislative weight; extend uncertainty phase
+  Floor vote threshold:  60-vote supermajority still required after reconciliation
   Section 404 at committee passage: PRESERVED — activity-based reward safe harbour
     confirmed intact through committee markup; no substantive amendment to core
     activity vs passive yield distinction

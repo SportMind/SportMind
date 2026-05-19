@@ -1,5 +1,75 @@
 # Changelog
 
+## [3.97.61] — 2026-05-16
+
+### Added — Infrastructure layer, Man City transition, Spain/Barcelona frameworks + CLARITY merger
+
+700→703 files, 481→484 markdown. 3 new files, 2 updated files.
+Website audited: 700→703, 481→484. OG regenerated.
+
+ACTION BLOCKS ASSESSED (7 received — 3 skipped Library Rule):
+  PASS: CLARITY_ACT_PHASE: COMMITTEE_MERGER_PENDING | BANKING_AG_RECONCILIATION
+    Updated macro/macro-regulatory-sportfi.md with procedural milestone.
+    Agriculture Committee reconciliation required before Senate floor vote.
+    Enduring US legislative process fact — not a date, not an opinion.
+  PASS: CHILIZ_CHAIN_V2_WALLET_SUPPORT: BITGET_WALLET | ACTIVE
+    Built new macro/infrastructure.md with Bitget as Tier 1 confirmed integration.
+  SKIP: CHILIZ_CHAIN_NAVER_WALLETS: 900K+ | HIGH_VELOCITY — live metric = expiring (refused previously)
+  PARTIAL PASS: MANAGER_STATUS: DEPARTING / SUCCESSOR: ENZO_MARESCA
+    Named successor + specific contract + PENDING verification = expiring.
+    Enduring element applied: coaching TRANSITION_PHASE_ACTIVE framework
+    built into new manchester-city-city.md without named individuals.
+  SKIP: TOKYO_VERDY MOU (duplicate) — already in library from v3.97.60
+  PARTIAL PASS: spain.md + barcelona-bar.md long-term absence framework
+    No named player, no injury log. Q4 2026 as reasoning horizon only.
+    Long-term midfield absence framework added to barcelona-bar.md.
+    New spain-snft.md built with full national team framework.
+
+SKIPPED ATHLETE GAPS (already exist):
+  j-league.md: built v3.97.60 | inter-milan-inter.md: built v3.97.29
+
+NEW FILES:
+  macro/infrastructure.md (150L):
+    Chiliz Chain infrastructure intelligence framework.
+    Wallet support tier system: Tier 1 ×1.08 | Tier 2 ×1.05 | Tier 3 ×1.04 | Tier 4 ×1.02
+    Bitget Wallet: ACTIVE | CAP20 mainnet | Tier 1 | ×1.08 sustained (permanent fact)
+    Infrastructure maturity composite: 0-1 integrations ×0.90 | 2-3 baseline | 4+ ×1.05
+    Regional mainstream integration: ×1.10 sustained
+    PATH_2 interaction: infrastructure affects demand side only — not supply mechanics
+
+  athlete/football/manchester-city-city.md (175L):
+    Tactical identity: positional play, high-press, false nine capable
+    DLP absence: ×0.88 (highest modifier — system foundation)
+    Inverted fullback absence: ×0.93 (specialist role)
+    Sweeper GK absence: ×0.91 (high defensive line requires specific profile)
+    TRANSITION_PHASE_ACTIVE: coaching transition framework applied throughout
+    Matches 1-5: ×0.98 net (honeymoon ×1.06 × uncertainty ×0.92)
+    First 10 matches: suspend position modifier confidence ×0.85
+    $CITY transition demand: ×0.94 uncertainty | high-profile appointment ×1.08
+    No named manager or successor referenced — enduring transition framework only
+
+  athlete/national-teams/spain-snft.md (192L) — NEW DIRECTORY:
+    Tactical identity: possession play, aggressive press, midfield-dependent
+    Creative 8 absence: ×0.88 (highest modifier in Spain system)
+    DM/anchor absence: ×0.92 | Box-to-box: ×0.94 | Left forward: ×0.92
+    Euro 2024 pedigree: ×1.08 sustained on $SNFT demand baseline
+    World Cup 2026 framework: participation ×1.20 | Final ×1.50 | Victory ×1.80-2.20
+    Defending champion modifier: ×1.08 compounding with tournament progression
+    Long-term absence: Q4 2026 horizon | Path A ×0.96 | Path B ×0.92
+    $SNFT demand floor: ×0.90 — Spain's global scale prevents full collapse
+
+UPDATED FILES:
+  macro/macro-regulatory-sportfi.md:
+    CLARITY_ACT_PHASE: COMMITTEE_MERGER_PENDING added as pre-floor procedural milestone
+    Agriculture Committee jurisdiction over CFTC digital commodity provisions documented
+    Agent rule: committee merger is procedural — not a negative signal
+
+  athlete/football/barcelona-bar.md (209→250L):
+    Long-term midfield absence framework added
+    Multi-competition ×0.88 squad depth modifier
+    Q4 2026 as outer reasoning horizon
+    $BAR/$SNFT cross-reference documented
+
 ## [3.97.60] — 2026-05-16
 
 ### Added — J-League regional intelligence layer (2 files) + 4 ACTION blocks assessed
