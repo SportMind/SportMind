@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.97.62] — 2026-05-16
+
+### Added — Indonesia regional intelligence framework
+
+1 new file. 201 lines. 703→704 files, 484→485 markdown.
+Website audited: 703→704, 484→485. OG regenerated.
+
+ACTION BLOCKS ASSESSED (5 received — 3 skipped Library Rule):
+  PASS:    Indonesia ACTIVE_PIPELINE → built as fan-token/regional-intelligence/indonesia.md
+  SKIP:    US_STATUS: LAUNCH_PREPARATION — current operational label, no source = expiring
+  SKIP:    SUCCESSOR_STATUS: VERBAL_AGREEMENT / CONTRACT_DURATION: 3_YEARS —
+             named successor + unconfirmed contract = expiring (refused v3.97.61)
+  SKIP:    athlete/city.md GAP — manchester-city-city.md already built v3.97.61
+
+fan-token/regional-intelligence/indonesia.md (201L):
+  ACTIVE_PIPELINE — Persija Jakarta as trigger signal (Liga 1, Jakarta)
+  Market priority: HIGH — 270M+ population, fourth largest globally
+  Football engagement: highest per-capita in Southeast Asia
+  Crypto adoption: among highest retail rates in Southeast Asia
+  Loyalty depth: ×1.10 (higher than Japan ×1.08 — football intensity)
+  No localisation penalty: ×0.80 (higher than Japan ×0.85 — language barrier stronger)
+  First Liga 1 launch: ×1.18 validation signal (vs J-League ×1.15 — larger market)
+  Persija pipeline modifier: ×1.06 for existing active tokens
+  OJK / BAPPEBTI regulatory framework documented
+  Jakarta derby signals: pre-derby ×1.10 | WIN ×1.15 | LOSS ×0.90
+  Fraud risk note: high-engagement markets attract fraudulent tokens
+    — elevated filter applies when new Indonesian football tokens announced
+  Agent rule: PIPELINE only — do not model Persija demand as live token
+
 ## [3.97.61] — 2026-05-16
 
 ### Added — Infrastructure layer, Man City transition, Spain/Barcelona frameworks + CLARITY merger
