@@ -1,5 +1,49 @@
 # Changelog
 
+## [3.97.60] — 2026-05-16
+
+### Added — J-League regional intelligence layer (2 files) + 4 ACTION blocks assessed
+
+2 new library files. 343 lines. 698→700 files, 479→481 markdown.
+New directory created: fan-token/regional-intelligence/
+Website audited: 698→700, 479→481. OG regenerated (x=80 coordinate).
+
+ACTION BLOCKS ASSESSED (4 of 6 skipped Library Rule):
+  SKIP: HOJLUND_STATUS: PERMANENT / FEE: 44M — named player + specific fee = expiring
+  SKIP: SEVILLA_STATUS: AGREED_PENDING_APPROVAL — named club governance = expiring + standing refusal
+  SKIP: BTC_PHASE: HOPE_FEAR / NUPL: 0.20 — live market data, source URL unconfirmed, refused previously
+  SKIP: HINCAPIE_STATUS: SIGNED / FEE: 45M — named player + specific fee = expiring
+  SKIP: SQUAD_STATUS: SIMONS_ACL, ODOBERT_ACL — named players + current injury = expiring
+  SKIP: OMAN_STATUS: REGULATED_OIFC_ZONE — no source, no decree number, OIFC framing does not
+    match known Omani regulatory structure (CMA/CBO); cannot document without verifiable instrument
+  PASS: TOKYO_VERDY_STATUS: MOU_SIGNED | PARTNER: SBI_CHILIZ — enduring partnership fact
+    integrated into japan.md as PIPELINE signal (not active token)
+  SKIP: CHILIZ_CHAIN_NAVER_WALLETS: 900K+ — live adoption metric, changes continuously
+
+GAP BUILDS:
+  fan-token/regional-intelligence/japan.md (154L) — NEW DIRECTORY:
+    Japan market entry: ACTIVE via SBI Chiliz partnership
+    Tokyo Verdy MOU: MOU_SIGNED | SBI Chiliz | PIPELINE signal (not active token)
+    FSA regulatory context: utility token framing, ×1.05 confidence weight
+    Cultural engagement: loyalty depth ×1.08 | limited edition ×1.12 | localisation ×1.05
+    SBI Holdings partnership: institutional credibility signal ×1.10 ecosystem modifier
+    J-League pipeline staging: Stage 1 MOU ×1.05 | Stage 2 launch ×1.15 | Stage 3 mature
+    Agent rule: do not model demand as if $VERDY token is live
+
+  fan-token/regional-intelligence/j-league.md (189L):
+    J1/J2/J3 tier structure with promotion/relegation (not franchised)
+    Club commercial tiers: Tier A (×1.08 CDI) | Tier B (×1.04) | Tier C (×1.00)
+    Tokyo Verdy: Tier B-to-A with ×1.04 Tokyo market premium
+    Annual calendar: February–December (not European winter structure)
+    ACLE qualification: ×1.15 | ACLE title: ×1.50
+    Title win: ×1.30 (first/rare) | ×1.20 (repeat) | Relegation: −25 to −35%
+    Stage 1/2/3 market entry framework with modifier progression
+
+GAP FILES ALREADY EXIST (no action taken):
+  athlete/football/inter-milan-inter.md: 166L — exists from v3.97.29
+  athlete/football/atletico-madrid-atm.md: 194L — exists from v3.97.31
+  athlete/football/tottenham-hotspur-spurs.md: 226L — exists with relegation framework
+
 ## [3.97.59] — 2026-05-16
 
 ### Added — Commercial intelligence layer complete: sponsorship, marketing, partnership (3 files)

@@ -465,5 +465,5 @@ FIELD PRIORITIES (always keep accurate):
 
 ---
 
-*SportMind v3.97.59 · MIT License · sportmind.dev*
+*SportMind v3.97.60 · MIT License · sportmind.dev*
 *SMI Digest — agent reference state summary · load this file first*
