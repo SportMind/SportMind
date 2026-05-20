@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.97.70] — 2026-05-21
+
+### Fixed — Website consistency fixes (surgical)
+
+WEBSITE ONLY — no library changes. Library count unchanged: 713 files.
+
+FIX 2a: Layer 3 Fan token commercial — 76 skills → 21 skills (accurate fan-token/ count)
+FIX 2b: Layer 4 Market intelligence — 43 documents → 48 documents (accurate market/ count)
+FIX 2c: Layer 5 Macro intelligence — 17 documents → 20 documents (accurate macro/ count)
+FIX 8:  use-cases/index.html — removed "built by the SportMind team and community" from
+        the open playground notice. Replacement text: examples — not a ceiling (clean).
+
+Already correct (verified, no changes needed):
+  FIX 1: Stats bar 713 ✓ | FIX 3: OpenClaw gone ✓ | FIX 4: Signal v3.97.69 ✓
+  FIX 5/6/7: Meta/OG 713 ✓
+
+ALL VERIFICATION CHECKS PASSED (7/7):
+  CHECK 1 — File count consistency (713): PASS
+  CHECK 2 — OpenClaw removed: PASS
+  CHECK 3 — Layer counts (21/48/20): PASS
+  CHECK 4 — Signal output v3.97.69: PASS
+  CHECK 5 — Use-cases page text: PASS
+  CHECK 6 — Sticky nav backdrop-filter: PASS
+  CHECK 7 — Calibration 129: PASS
+
+TASK 3 — PERSIJA TICKER CHECK:
+  Registry ticker: PERSIJA
+  fantokens.com URL: https://www.fantokens.com/trade/persija
+  Consistency: PASS (ticker PERSIJA, URL slug /persija — consistent)
+  Action needed: NO
+
 ## [3.97.69] — 2026-05-20
 
 ### Added — Ownership transition intelligence + homepage layout fixes + OpenClaw removal + full audit
