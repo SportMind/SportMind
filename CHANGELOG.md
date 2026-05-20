@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.97.67] — 2026-05-20
+
+### Fixed — Calibration leaderboard responsive redesign + full homepage viewport audit
+
+WEBSITE ONLY — no library changes. Library count unchanged: 711 files.
+
+LEADERBOARD — replaced HTML table with flex-based list:
+  Problem: plain HTML table with 5 columns + white-space:nowrap badges
+    caused horizontal scroll on all mobile screen sizes
+  Fix: removed <table> entirely — replaced with .lb-list / .lb-row flex grid
+  New structure: 4-col grid (rank | name | records | status)
+  Mobile 720px: collapses to 3-col, status badge wraps below name
+  Records column merged into single stats cell ("129 · 96%" for row 1)
+  No white-space overflow possible — grid min-width: 0 on all cells
+
+HOMEPAGE FULL VIEWPORT AUDIT — all sections checked:
+  ✓ Stats bar: 2×2 grid at 720px — correct
+  ✓ Problem examples: 1-col at 720px — correct
+  ✓ Library layers: 1-col at 720px — correct
+  ✓ Signal output code box: 11px font + overflow-x:auto at 720px — correct
+  ✓ Calibration grid (.cal-g): 1-col at 768px and 720px — correct
+  ✓ Contribute rows (.c-row): 1-col, .c-time hidden at 720px — correct
+  ✓ Suite grid: 1fr at 768px + 1fr !important at 720px — fixed in v3.97.66
+  ✓ Suite footer text: overflow-wrap set — fixed in v3.97.66
+  ✓ Use-cases grid (.uc-grid): 3-col → 2-col at 720px — acceptable
+  ✓ Toolkit cards: 1-col at 720px — correct
+  ✓ CTA buttons: flex-wrap, full-width — correct
+  ✓ Nav: links hidden on mobile, GitHub + theme toggle remain — correct
+  ✓ Footer links: hidden on mobile — correct
+
 ## [3.97.66] — 2026-05-20
 
 ### Added — Eight-dimension Mind architecture + homepage mobile overflow fixes
