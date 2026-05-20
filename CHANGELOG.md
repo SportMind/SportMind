@@ -1,5 +1,52 @@
 # Changelog
 
+## [3.97.69] — 2026-05-20
+
+### Added — Ownership transition intelligence + homepage layout fixes + OpenClaw removal + full audit
+
+2 new library files (418L). 4 website fixes. OpenClaw removed from docs.html.
+Full library audit: 56 files checked — all 56 present.
+711→713 files, 492→494 markdown.
+
+ACTION BLOCK ASSESSED:
+  SEVILLA_STATUS: FUNDING_DOUBTS | DEADLINE: 2026-05-31 — Library Rule partial pass.
+  Specific deadline date (2026-05-31) = expiring — NOT documented.
+  Named entity current status = expiring — NOT documented.
+  Enduring frameworks built: what TAKEOVER_COLLAPSED means for governance
+  and CDI signals — enduring reasoning, no specific dated status.
+
+NEW LIBRARY FILES:
+  fan-token/governance-takeover-framework.md (193L):
+    Enduring framework for how ownership transitions affect fan token governance.
+    TAKEOVER_COLLAPSED → ×0.82 CDI sustained (minimum 90 days).
+    Governance votes during ownership uncertainty: ×0.80 credibility weight.
+    Supply modification votes during uncertainty: ×0.70 confidence weight.
+    Wave 1/2 holder behaviour framework documented (not modelled).
+    FTP PATH_2 interaction: mechanics unaffected; demand response ×0.92.
+    Resolution paths: new buyer ×1.10 | owner stabilises ×1.04 | no resolution ONGOING_DISTRESS.
+
+  market/club-ownership-intelligence.md (225L):
+    Three-channel ownership signal framework (commercial, governance, sporting).
+    Stage 1-4 transition modifiers across all three channels.
+    TAKEOVER_COLLAPSED compound signal: CDI ×0.82 | Governance ×0.80 | Sporting ×0.94.
+    Commercial pipeline freeze modifier: ×0.94 stacks with stage modifier.
+    Honeymoon period: standard ×1.12 | strategic ×1.20 | distressed ×1.08.
+    Honeymoon delivery assessment at 90 days.
+    Distressed sale vs strategic acquisition classification framework.
+    Sevilla reference as canonical case study ($SEVILLA active partner).
+
+WEBSITE FIXES (4):
+  FIX 1: "Exploring a use-case" text wrapped in .w div (was outside all wrappers
+    — no left padding on mobile, text bled to edge of screen)
+  FIX 2: suite-footer max-width:100% + box-sizing:border-box (overflow fix)
+  FIX 3: chips-tier-label display:block + flex-basis:100% (tier labels now
+    sit on own line in the calibration chips section, not inline with chips)
+  FIX 4: OpenClaw & Telegram Bot API 9.6 removed from docs.html Layer 6 description
+
+LIBRARY AUDIT RESULT:
+  All 56 specific files checked — ALL PRESENT ✓
+  No missing files in core/, fan-token/, fan-token/registry/, market/, macro/
+
 ## [3.97.68] — 2026-05-20
 
 ### Fixed — Complete homepage responsive audit: toolkit, stats, uc-grid, ww overflow
