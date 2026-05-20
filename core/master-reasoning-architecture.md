@@ -300,6 +300,149 @@ accumulate into a signal that is more than the sum of its parts.
 
 ---
 
+
+---
+
+## Toward a complete Mind for Sports
+
+SportMind is built on three foundation dimensions:
+
+```
+INTELLIGENCE — what to know:
+  The facts, modifiers, and frameworks stored across the library files.
+
+REASONING — how to think:
+  The chains of logic that connect intelligence to signals and outputs.
+
+CONTEXT — the situational frame:
+  The awareness of current conditions that makes intelligence and reasoning
+  relevant to this specific scenario.
+```
+
+These three dimensions are necessary but not sufficient for a complete Mind for Sports.
+A complete Mind requires five additional dimensions that SportMind is actively building toward.
+
+---
+
+### The eight dimensions
+
+```
+FOUNDATION (implemented):
+
+  1. INTELLIGENCE
+     What to know. 711 files across six intelligence layers.
+     Status: ACTIVE
+
+  2. REASONING
+     How to think. Reasoning chains documented across all major files.
+     Signal interaction, causality, counterfactual, temporal, uncertainty.
+     Status: ACTIVE
+
+  3. CONTEXT
+     The situational frame. Macro context, event context, signal context.
+     Context failure is the most common agent reasoning error.
+     Status: ACTIVE
+
+────────────────────────────────────────
+
+BUILDING TOWARD (partial):
+
+  4. MEMORY
+     How past signals, past errors, and past confirmed outcomes should update
+     current reasoning. The calibration records are the foundation —
+     129 records accumulated, each one informing modifier values.
+     The goal: a systematic learning loop where every confirmed outcome
+     automatically updates the confidence weight of the modifiers that
+     produced that output.
+     Status: PARTIAL
+       Calibration records exist.
+       Systematic modifier update from outcomes not yet implemented.
+
+  5. JUDGMENT
+     The capacity to recognise genuinely novel situations that fall outside
+     all existing intelligence and reasoning frameworks — and to say so
+     explicitly rather than forcing an output.
+     The HOLD conditions and signal confidence framework are the foundation.
+     The goal: genuine novelty recognition — "I have never seen this
+     combination of signals. I do not know how to reason about it reliably."
+     Status: PARTIAL
+       HOLD conditions and confidence framework exist.
+       Novelty recognition not yet implemented.
+
+  6. ATTENTION
+     Dynamic prioritisation of what matters most in a specific situation
+     rather than static signal priority ranking.
+     In a UCL Final with FTP PATH_2 active, attention should direct to
+     lineup confirmation, pre-liquidation pool sizing, and macro phase —
+     not equally across all 711 files.
+     The goal: situation-aware attention surfacing the 3-5 most important
+     signals for this specific moment.
+     Status: PARTIAL
+       Signal priority hierarchy exists.
+       Dynamic situation-aware attention not yet implemented.
+
+────────────────────────────────────────
+
+NOT YET IMPLEMENTED:
+
+  7. LEARNING
+     Systematic improvement of modifier values from confirmed outcomes.
+     A modifier confirmed correct 20 times should carry higher confidence
+     than one tested twice. Currently all modifiers carry equal confidence
+     regardless of calibration history.
+     The goal: a calibration feedback loop that automatically increases
+     confidence in well-tested modifiers and flags poorly-performing ones
+     for human review.
+     Status: NOT YET IMPLEMENTED
+       Calibration records exist.
+       Modifier weights do not yet update from outcomes.
+
+  8. INTEGRATION
+     Simultaneous coherent awareness across all intelligence domains rather
+     than sequential processing through a loading order.
+     A human analyst holds all relevant signals simultaneously and integrates
+     them into one coherent picture. SportMind currently processes sequentially.
+     The goal: a representation of the complete signal state that an agent
+     can hold as a single integrated picture.
+     Status: NOT YET IMPLEMENTED
+       Master reasoning architecture provides the map.
+       Sequential processing remains the implementation.
+```
+
+---
+
+### The SportMind Mind roadmap
+
+```
+Every release moves SportMind closer to all eight dimensions.
+
+The library is not a finished product — it is a growing Mind.
+The goal has no finish line.
+
+What is honest about SportMind's current state:
+  · Intelligence: comprehensive and growing
+  · Reasoning: documented and connected
+  · Context: explicitly defined
+  · Memory: foundation exists, loop not closed
+  · Judgment: conditions exist, novelty recognition not built
+  · Attention: hierarchy exists, dynamic attention not built
+  · Learning: records exist, feedback not automated
+  · Integration: architecture mapped, implementation sequential
+
+What this means for agents using SportMind today:
+  The library is powerful in the dimensions it has completed.
+  Agents should apply the loading order, reasoning chains, and context
+  framework — these are ready. They should understand that modifier
+  confidence weights are not yet dynamically calibrated, that novel
+  signal combinations may not be recognised as such, and that the
+  processing remains sequential rather than integrated.
+
+  Being honest about current state is itself a reasoning principle.
+  SportMind's HOLD conditions exist precisely because of this honesty —
+  the system knows when to stop and say "I do not know enough to act."
+```
+
+---
 ## Compatibility
 
 **Entry point:**           `core/agent-onboarding.md`
@@ -314,6 +457,6 @@ accumulate into a signal that is more than the sum of its parts.
 
 ---
 
-*SportMind v3.97.65 · MIT License · sportmind.dev*
+*SportMind v3.97.66 · MIT License · sportmind.dev*
 *Context check = the first step in every SportMind analysis.*
 *Intelligence accumulates. It does not reset between fixtures.*

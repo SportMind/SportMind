@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.97.66] — 2026-05-20
+
+### Added — Eight-dimension Mind architecture + homepage mobile overflow fixes
+
+Library: 1 file updated (master-reasoning-architecture.md, 319→462L).
+Website: index.html mobile overflow fixes applied.
+No new library files. No count changes.
+
+core/master-reasoning-architecture.md (319→462L — UPDATED):
+  "Toward a Complete Mind for Sports" section added (143 lines).
+  Eight-dimension Mind architecture documented:
+
+  FOUNDATION (implemented):
+    1. Intelligence — ACTIVE: 711 files across six layers
+    2. Reasoning — ACTIVE: chains documented, layers connected
+    3. Context — ACTIVE: macro/event/signal context framework
+
+  BUILDING TOWARD (partial):
+    4. Memory — PARTIAL: 129 calibration records exist;
+       systematic modifier update from outcomes not yet implemented
+    5. Judgment — PARTIAL: HOLD conditions and confidence framework exist;
+       novelty recognition not yet implemented
+    6. Attention — PARTIAL: priority hierarchy exists;
+       dynamic situation-aware attention not yet implemented
+
+  NOT YET IMPLEMENTED:
+    7. Learning — NOT YET: calibration records exist but do not feed
+       back into modifier weights automatically
+    8. Integration — NOT YET: architecture mapped; processing sequential
+
+  Honesty principle documented: SportMind's HOLD conditions exist
+  precisely because the system knows when to stop.
+
+index.html — Mobile overflow fixes (3 changes):
+  FIX 1: .suite-grid → 1fr at @media 768px breakpoint
+  FIX 2: .suite-grid → 1fr !important at @media 720px breakpoint
+  FIX 3: .ww → padding: 0 16px at 720px breakpoint
+  FIX 4: .suite-footer → padding: 0 16px + overflow-wrap: break-word
+  Root cause: 2-column/3-column kit grid not collapsing to single column
+    on mobile. The "All kits are MIT licensed..." text overflowing because
+    .ww width not constrained on mobile without overflow-x:hidden.
+
 ## [3.97.65] — 2026-05-20
 
 ### Added — Reasoning architecture layer: 6 new files + reasoning chains + master architecture
