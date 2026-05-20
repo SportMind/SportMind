@@ -382,6 +382,51 @@ ESCALATION COMPLETENESS (Safety Principle 4):
 
 ---
 
+## REASONING CHAIN — BREAKING NEWS
+
+```
+STEP 1 — Classify the news category:
+  Apply the five-category framework.
+  Which category is this? Injury/availability, transfer, managerial,
+  regulatory, or ecosystem.
+
+STEP 2 — Assess source tier:
+  Who broke this news?
+  Anonymous:               ×0.30
+  Named journalist Tier 1: ×0.60
+  Official account:        ×0.90
+
+STEP 3 — Apply confidence decay:
+  T+0 to T+30m:                     ×0.40 — do not act
+  T+30m to T+2h with second source: ×0.70
+  T+2h with three sources:          ×0.90
+  T+6h with official confirmation:  ×1.00
+
+STEP 4 — Cross-reference scenario intelligence:
+  Load core/scenario-intelligence.md.
+  How does this news change the existing scenario map?
+  Rebuild scenario probabilities with the new information.
+
+STEP 5 — Apply category-specific modifier:
+  Injury:     core/anti-doping-intelligence.md or relevant athlete file
+  Transfer:   market/transfer-window-intelligence.md
+  Managerial: core/coaching-intelligence.md
+  Regulatory: core/legislation-process-intelligence.md
+  Ecosystem:  fan-token/ecosystem-health-intelligence.md
+
+STEP 6 — Flag confidence level in output:
+  "breaking_news_active": true,
+  "confidence_weight":    [calculated value],
+  "resolution_trigger":   [what confirms it]
+
+Cross-reference:
+  core/signal-confidence-framework.md
+  core/scenario-intelligence.md
+  macro/trending-signal-intelligence.md
+```
+
+---
+
 ## Compatibility
 
 **Temporal awareness:** `core/temporal-awareness.md` — Tier 4-5 data (match day)

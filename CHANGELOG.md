@@ -1,5 +1,72 @@
 # Changelog
 
+## [3.97.65] — 2026-05-20
+
+### Added — Reasoning architecture layer: 6 new files + reasoning chains + master architecture
+
+SESSION A: Reasoning chains added to breaking-news-intelligence.md + 5 new files.
+SESSION B: Master reasoning architecture file created.
+7 files. 1,596 new lines. 705→711 files, 486→492 markdown, core 92→98.
+Website audited: 705→711, 486→492, core 92→98. OG regenerated.
+
+MOST SIGNIFICANT REASONING ARCHITECTURE ADDITIONS SINCE v3.97.52.
+The complete 13-step reasoning sequence and context framework are now documented.
+
+SESSION A — REASONING CHAINS (7 files: 1 updated, 6 new):
+
+core/breaking-news-intelligence.md (394→439L — UPDATED):
+  REASONING CHAIN added: 6-step breaking news processing
+  Classify → source tier → confidence decay → scenario update →
+  category modifier → flag output with breaking_news_active/confidence_weight
+
+core/post-match-intelligence.md (180L — NEW):
+  Complete post-match cycle: result processing, demand signals, PATH_2 settlement,
+  press conference signals, form update, pre-match reset
+  REASONING CHAIN: 6 steps T+0 through T+24h+
+  Key rule: intelligence accumulates between fixtures — does not reset
+
+core/scenario-intelligence.md (187L — NEW):
+  Scenario construction framework: max 4 scenarios, min 2
+  $AFC reference template: 3 mandatory scenarios (WIN/LOSS/DRAW)
+  Probability weighting and resolution trigger framework
+  REASONING CHAIN: 7 steps from base signal to resolution trigger
+
+core/trajectory-intelligence.md (165L — NEW):
+  Trajectory classification: ascending/plateauing/descending/mixed
+  Duration-scaled modifiers: 6-11 months half | 12+ months full
+  Ascending: ×1.025 → ×1.05 | Descending: ×0.975 → ×0.95
+  Inflection signal detection with transition period rule
+  Fan token demand trajectory as distinct from club trajectory
+
+core/anticipatory-intelligence.md (135L — NEW):
+  30-day event horizon scanning
+  14-day preparation timeline for major events
+  Anticipatory demand modifiers: ×1.05 (positive) | ×0.95 (negative)
+  70% probability threshold required before applying anticipatory modifier
+  Execution switch: from anticipatory to confirmed at T-2h
+
+core/state-space-reasoning.md (171L — NEW):
+  5 competitive states: TITLE_CONTENDER | EUROPEAN_QUALIFICATION |
+    MID_TABLE_STABLE | RELEGATION_BATTLE | RELEGATED
+  3 commercial states: GROWTH | STABLE | DECLINE
+  Fan token state from registry (ACTIVE/PIPELINE/LEGACY/DELISTED)
+  Transition confidence weight: ×0.90 during state transitions
+
+SESSION B — MASTER REASONING ARCHITECTURE (319L — NEW):
+
+core/master-reasoning-architecture.md (319L):
+  Complete layer connection map: macro → sport → athlete → fan token →
+    market → psychological → coaching → scenario → trajectory →
+    breaking news → post-match — all connections documented
+  Signal priority hierarchy: Level 1-5 (override through planning only)
+  Complete 13-step reasoning sequence: onboarding through post-match
+  CONTEXT FRAMEWORK (three layers):
+    Macro context: crypto cycle, regulatory, institutional, ecosystem
+    Event context: competition, teams, stakes, timing
+    Signal context: accumulated intelligence from smi-digest.md
+  CONTEXT FAILURE documented: two canonical examples
+  Intelligence accumulation principle: intelligence does not reset between fixtures
+
 ## [3.97.64] — 2026-05-20
 
 ### Fixed — Two factual corrections in official-verification-framework.md
