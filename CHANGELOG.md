@@ -1,5 +1,52 @@
 # Changelog
 
+## [3.97.68] — 2026-05-20
+
+### Fixed — Complete homepage responsive audit: toolkit, stats, uc-grid, ww overflow
+
+WEBSITE ONLY — no library changes. Library count unchanged: 711 files.
+Full homepage responsive audit — every section checked. 6 fixes applied.
+
+FIX 1 — tk-card-code: white-space pre → pre-wrap + word-break: break-all
+  Problem: toolkit code blocks used white-space:pre — long formula strings
+    (CVS = APS×0.30 + AELS×0.25...) could not wrap on mobile card width
+  Fix: pre-wrap allows lines to wrap; word-break: break-all as fallback
+
+FIX 2 — stats-g at 768px: repeat(5,1fr) → repeat(3,1fr)
+  Problem: 5-column stats bar had no collapse at tablet width (768px)
+  Fix: 3-col at 768px (2+2+1 layout), stays 2-col at 720px
+
+FIX 3 — .ww overflow-x: hidden at 720px
+  Problem: ww wrapper (max-width:1200px) used by toolkit section had no
+    overflow guard — internal content could propagate horizontal scroll to page
+  Fix: overflow-x: hidden added at 720px breakpoint
+
+FIX 4 — uc-grid: 1fr 1fr → 1fr at 720px
+  Problem: use-case cards stayed 2-col at 720px (too narrow on small phones)
+  Fix: single column at 720px — all 6 use-case cards stack cleanly
+
+FIX 5 — tk-card-code font-size: 10px on mobile
+  Problem: code block text at 11px in single-column card still created pressure
+  Fix: reduced to 10px on mobile — more breathing room in narrow cards
+
+CHECK 6 — nav links mobile hiding confirmed: .nav-r .nav-a display:none — correct
+
+COMPLETE SECTION AUDIT RESULTS:
+  ✓ Hero — padding reduced at 720px, clamp font-size
+  ✓ Stats bar — 5-col desktop → 3-col 768px → 2-col 720px (fixed in this release)
+  ✓ Problem examples — 1-col at 720px
+  ✓ Library layers — 1-col at 720px, label/dir hidden
+  ✓ Signal output — font reduced, overflow-x:auto on pre
+  ✓ Calibration grid — 1-col at 768px
+  ✓ Contribute rows — 1-col, time hidden at 720px
+  ✓ Leaderboard — rebuilt from table to flex (v3.97.67)
+  ✓ Developer toolkit — code blocks now wrap (fixed in this release)
+  ✓ Use-cases grid — 1-col at 720px (fixed in this release)
+  ✓ Suite section — 1-col at 768px/720px, footer overflow-wrap (v3.97.66)
+  ✓ CTA — flex-wrap, full-width buttons
+  ✓ Nav — links hidden on mobile, GitHub + theme remain
+  ✓ Footer — links hidden on mobile
+
 ## [3.97.67] — 2026-05-20
 
 ### Fixed — Calibration leaderboard responsive redesign + full homepage viewport audit
