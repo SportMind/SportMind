@@ -1,5 +1,49 @@
 # Changelog
 
+## [3.97.63] — 2026-05-20
+
+### Added — Complete verified fan token registry (2 files, 342 lines)
+
+THE MOST SIGNIFICANT SINGLE RELEASE IN SPORTMIND'S HISTORY.
+The complete verified fan token registry is now live.
+
+2 files. 342 lines. 704→705 files, 485→486 markdown.
+Website audited: 704→705. OG regenerated.
+
+fan-token/registry/complete-registry.md (223L) — NEW:
+  84 tokens documented across 5 sections
+  Section 1: Active Chiliz Chain tokens (57 confirmed active partnerships)
+  Section 2: Not Active legacy on-chain (13 tokens — including $VIT, $NAVI)
+  Section 3: Delisted (2 tokens — DAVIS, ENDCEX)
+  Section 4: Other chains (9 tokens — BNB, BITCI, Ethereum)
+  Section 5: Chiliz ecosystem tokens ($CHZ, $PEPPER — not Fan Tokens)
+  246 contract addresses verified at 42-character format (0x + 40 hex)
+  All addresses reproduced verbatim from primary sources
+  $AFC: only confirmed FTP PATH_2 token — clearly marked
+  $ARG: VERIFIED_OFFICIAL_INTEGRATION with AFA confirmed May 2026
+  $VIT, $NAVI: Not Active — legacy contracts only
+  $SPURS: Active partnership — under monitoring (Premier League position)
+  $PERSIJA: Present — native to Chiliz Chain (no old address)
+  $PERSIB: Present
+  Verification disclaimer: prominent, four-source methodology, primary sources listed
+  Omnichain note: April 28 2026 LayerZero bridge to Solana and Base
+  5 confirmed omnichain tokens: $AFC, $BAR, $CITY, $JUV, $PSG
+
+fan-token/registry/bridge-supported.md (119L) — REPLACED:
+  Previous content (192L) was partial and pre-omnichain
+  New content: full omnichain bridge registry
+  5 confirmed omnichain tokens documented
+  Bridge mechanics: LayerZero multi-DVN, app.fantokens.com
+  Revenue model: 10% cross-chain Fan Token revenue to $CHZ buybacks (permanent)
+  DeFi: Meteora + Jupiter (Solana) | EVM DEXs (Base) | FanX/Kayen (Chiliz Chain)
+  Agent intelligence notes: ×1.05 addressable market premium for omnichain tokens
+  $CHZ buyback mechanic distinct from FTP PATH_2 — agent rule documented
+
+MISSING FLAG RESOLVED:
+  complete-registry.md was flagged as MISSING in monitoring flags since v3.97.44
+  official-verification-framework.md references this file — broken positive-match
+  reference is now resolved.
+
 ## [3.97.62] — 2026-05-16
 
 ### Added — Indonesia regional intelligence framework
