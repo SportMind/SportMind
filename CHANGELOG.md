@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.97.64] — 2026-05-20
+
+### Fixed — Two factual corrections in official-verification-framework.md
+
+PATCH RELEASE. 1 file edited. Library count unchanged (705 files).
+No new files. No website count changes.
+
+fan-token/official-verification-framework.md (196L → 218L):
+
+CORRECTION 1 — $SNFT and $BFT verification sources:
+  ERROR: file stated socios.com + chiliscan.com as verification sources
+  for $SNFT (Spain) and $BFT (Brazil).
+  FACT: Both tokens are on the BITCI chain, NOT Chiliz Chain.
+  Neither socios.com NOR chiliscan.com applies to BITCI chain tokens.
+
+  Corrected to:
+    $SNFT — Spain National Team:
+      Chain: BITCI (NOT Chiliz Chain)
+      Sources: fantokens.com | BITCI chain explorer | RFEF official channels
+      socios.com: NOT APPLICABLE | chiliscan.com: NOT APPLICABLE
+
+    $BFT — Brazil National Team:
+      Chain: BITCI (NOT Chiliz Chain)
+      Sources: fantokens.com | BITCI chain explorer | CBF official channels
+      socios.com: NOT APPLICABLE | chiliscan.com: NOT APPLICABLE
+
+  BITCI chain verification note added: four-source framework applies to
+  Chiliz Chain tokens only — modified three-source framework for BITCI tokens.
+
+CORRECTION 2 — ITA Italy/FIGC World Cup reference:
+  Searched file thoroughly — ITA, FIGC, Italy, and World Cup in relation to ITA
+  are NOT PRESENT in official-verification-framework.md.
+  No correction required in this file.
+  NOTE: If ITA World Cup references exist elsewhere in the library (e.g. in
+  national team token reasoning files), those should be flagged separately.
+
 ## [3.97.63] — 2026-05-20
 
 ### Added — Complete verified fan token registry (2 files, 342 lines)

@@ -155,11 +155,33 @@ NATIONAL TEAM TOKENS — ADDITIONAL VERIFICATION REQUIRED:
       Verification: socios.com + chiliscan.com + FPF official channels confirmed
       
     $SNFT — Spain National Team
-      Verification: socios.com + chiliscan.com + RFEF official channels confirmed
-      
+      Chain: BITCI (NOT Chiliz Chain)
+      NOT listed on socios.com — socios.com verification does NOT apply
+      NOT verifiable on chiliscan.com — chiliscan.com verification does NOT apply
+      Correct verification sources:
+        Source 1: fantokens.com/trade/spain-national-football-team
+        Source 2: BITCI chain explorer
+        Source 3: RFEF official channels
+        Source 4: socios.com NOT applicable | chiliscan.com NOT applicable
+
     $BFT — Brazil National Team
-      Verification: socios.com + chiliscan.com + CBF official channels confirmed
-      
+      Chain: BITCI (NOT Chiliz Chain)
+      NOT listed on socios.com — socios.com verification does NOT apply
+      NOT verifiable on chiliscan.com — chiliscan.com verification does NOT apply
+      Correct verification sources:
+        Source 1: fantokens.com/trade/brazil-national-football-team
+        Source 2: BITCI chain explorer
+        Source 3: CBF official channels
+        Source 4: socios.com NOT applicable | chiliscan.com NOT applicable
+
+  BITCI CHAIN VERIFICATION NOTE:
+    The four-source verification framework in this file applies to Chiliz Chain
+    tokens only. For BITCI chain tokens ($SNFT, $BFT) apply this modified framework:
+      Source 1: fantokens.com listing
+      Source 2: BITCI chain explorer
+      Source 3: Organisation official channels (RFEF for $SNFT, CBF for $BFT)
+      Source 4: socios.com NOT applicable | chiliscan.com NOT applicable
+
   IMPORTANT — SCOPE OF THIS LIST:
     As of current library state, no other national team Fan Tokens™ have been
     confirmed in SportMind's verified dataset.
