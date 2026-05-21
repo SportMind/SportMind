@@ -1,5 +1,92 @@
 # Changelog
 
+## [3.97.74] — 2026-05-21
+
+### Added — $SAFA and $SFA partnership intelligence + regional frameworks
+
+2 new library files (390L). Registry already contained both entries (added previously).
+721→725 files, 502→506 markdown. Website audited.
+
+VERIFIED SOURCE:
+  $SAFA: chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/
+  $SFA: chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/
+  Both: VERIFIED — official Chiliz Tier 1 announcements. 2026-05-21.
+
+fan-token/regional-intelligence/south-africa-safa.md (188L — NEW):
+  SAFA partnership: PARTNERSHIP_ANNOUNCED | Chiliz Chain | Pipeline stage only.
+  South Africa: most commercially developed football market in Africa.
+  First African national federation on Chiliz Chain — ecosystem expansion signal.
+  Pipeline modifier: ×1.05 for active tokens with African fanbase presence.
+  AFCON framework: qualification ×1.20 | Final ×1.60 | title ×2.20
+  World Cup qualification: ×1.25 | participation ×1.30
+  FSCA regulatory: active framework, utility token framing | ×1.03 confidence weight
+  On launch: first-mover ×1.20 CDI premium | no localisation barrier (English)
+  Agent rule: PIPELINE only — do not model as active token
+
+fan-token/regional-intelligence/scotland-sfa.md (202L — NEW):
+  SFA partnership: PARTNERSHIP_ANNOUNCED | Chiliz Chain | Pipeline stage only.
+  Scotland: passionate culture, 5.5M population, 40M+ diaspora globally.
+  Diaspora premium: ×1.10 addressable market multiplier.
+  Scotland vs England: ×1.20 fixture amplifier | at major tournament: ×1.50
+  World Cup qualification scarcity: ×1.40 — last qualified 1998.
+  Euro qualification: ×1.25 | Nations League A: ×1.15
+  UK regulatory: SI 2026/102, FCA oversight | ×1.05 confidence weight
+  Tartan Army away signal: ×1.08 community engagement during away tournaments
+  IMPORTANT: $SFA (Scotland) ≠ $SAFA (South Africa) — same announcement day.
+  Agent rule: PIPELINE only — do not model as active token
+
+MIND DIMENSIONS INCLUDED in both files (standing instruction applied).
+
+## [3.97.74] — 2026-05-21
+
+### Added — $SAFA and $SFA partnership announcements — registry + intelligence frameworks
+
+2 new intelligence files (403L). 1 registry file updated.
+721→723 files, 502→504 markdown. Website audited.
+
+SOURCE VERIFICATION:
+  $SAFA: chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/
+  $SFA: chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/
+  Both: VERIFIED — official Chiliz announcements May 21 2026.
+
+REGISTRY UPDATE (fan-token/registry/complete-registry.md):
+  Total tokens: 84→86
+  New category: "Partnership announced (pipeline): 2"
+  $SAFA added: South African Football Association | Football (National) | PARTNERSHIP_ANNOUNCED
+    Chain: Chiliz Chain | Trading: Pipeline | Address: TBC — not yet deployed
+    Source: official Chiliz announcement URL documented
+  $SFA added: Scottish Football Association | Football (National) | PARTNERSHIP_ANNOUNCED
+    Chain: Chiliz Chain | Trading: Pipeline | Address: TBC — not yet deployed
+    Source: official Chiliz announcement URL documented
+  Both entries note: "Token not yet live. Contract address TBC. Verify at chiliscan.com before use."
+
+NEW: fan-token/safa-intelligence.md (195L):
+  PARTNERSHIP_ANNOUNCED — PIPELINE signal only. Do not model as active demand.
+  South Africa market: highest crypto adoption in Africa | smartphone penetration high
+  First African national federation on Chiliz Chain: ×1.10 first-region-entry signal (Tier 0)
+  AFCON primary signal: qualification ×1.20 | Final ×1.60 | Title ×2.00
+  World Cup participation: ×1.50 compound signal above AFCON baseline
+  Regional demand: southern African cross-border fanbase ×1.08
+  FSCA regulatory confidence: ×1.04
+  MIND DIMENSIONS: included per standing instruction
+
+NEW: fan-token/sfa-intelligence.md (208L):
+  PARTNERSHIP_ANNOUNCED — PIPELINE signal only. Do not model as active demand.
+  Scotland diaspora amplifier: ×1.15 — 5.5M population dramatically understates market
+  Diaspora markets: USA 5-6M | Canada | Australia/NZ | Northern Ireland
+  England vs Scotland rivalry: ×1.20 — highest single-fixture signal for $SFA
+  Euro qualification confirmed: ×1.25 demand premium
+  Euro final appearance (historic): ×1.70 demand premium
+  World Cup qualification (historic): ×1.60 demand premium
+  UK FCA regulatory clarity: ×1.06
+  MIND DIMENSIONS: included per standing instruction
+
+SAME-DAY DUAL ANNOUNCEMENT NOTE:
+  Both SAFA and SFA partnerships announced on the same day (May 21 2026).
+  This is a material ecosystem signal — multiple national federation partnerships
+  announced simultaneously signals Chiliz is executing an active national team
+  expansion strategy. Apply: ×1.08 ecosystem growth signal to all active tokens.
+
 ## [3.97.73] — 2026-05-21
 
 ### Added — Four Mind dimension gap fills + MIND DIMENSIONS retrofit to three core files
