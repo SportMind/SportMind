@@ -1,5 +1,26 @@
 # Changelog
 
+## [3.97.75] — 2026-05-21
+
+### Fixed — National Football Fan Token™ designation added to SAFA and SFA entries
+
+PATCH — 3 files edited. No new files. Library count unchanged: 725 files.
+
+fan-token/registry/complete-registry.md:
+  SAFA notes: added "National Football Fan Token™ product class" to notes field.
+  SFA notes: standardised to same format — "National Football Fan Token™ product class".
+
+fan-token/regional-intelligence/south-africa-safa.md:
+  PRODUCT CLASS field: added explanation — National Football Fan Tokens™ are
+  a Chiliz product category for national football federation partnerships,
+  distinct from club fan tokens.
+
+fan-token/regional-intelligence/scotland-sfa.md:
+  Same explanation added as SAFA file above.
+
+Source: Chiliz blog post confirms National Football Fan Tokens™ is the official
+product branding for national federation partnerships.
+
 ## [3.97.74] — 2026-05-21
 
 ### Added — $SAFA and $SFA partnership intelligence + regional frameworks

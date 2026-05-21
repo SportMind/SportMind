@@ -25,7 +25,11 @@ PARTNER:            Scottish Football Association (SFA)
 TYPE:               National football federation
 CHAIN:              Chiliz Chain (pending deployment)
 STATUS:             PARTNERSHIP_ANNOUNCED — 2026-05-21
-TRADING:            Not yet live
+  PRODUCT CLASS:      National Football Fan Token™
+    National Football Fan Tokens™ are a Chiliz product category for national
+    football federation partnerships — distinct from club fan tokens.
+    The ™ designation reflects Chiliz's official product branding.
+  TRADING:            Not yet live
 CONTRACT:           TBC — not yet deployed
 SOCIOS LISTED:      TBC
 
