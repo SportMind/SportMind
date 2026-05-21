@@ -275,6 +275,26 @@ FOR $AFC ONLY — SUPPLY EVENT CHAIN:
 
 ---
 
+## MIND DIMENSIONS
+
+**Intelligence:** Teaches how every SportMind intelligence layer — macro, market, sport domain, athlete, post-match — connects to fan token demand signals and CDI modifiers.
+
+**Reasoning:** Provides the bridging logic that converts sport intelligence outputs into fan token demand signals — the translation layer between match prediction and token demand reasoning.
+
+**Context:** Applies whenever a fan token analysis is being performed — this file must be loaded to ensure sport domain signals are correctly converted into fan token demand implications.
+
+**Memory:** Draws on the established modifier values from calibration records to validate the connection weights between sport events and demand signals.
+
+**Judgment:** Agents should not apply fan token demand modifiers from sport signals without confirming the token is an active partner (not legacy on-chain) — this file's bridging logic only applies to active partnerships.
+
+**Attention:** This file is the connective tissue of SportMind — it should be loaded in every fan token analysis regardless of which specific sport domain is being analysed.
+
+**Learning:** Each confirmed sport event that produces a measurable fan token demand response validates the bridge connection weights. UCL Final outcomes are the most data-rich validation events for bridge calibration.
+
+**Integration:** Fan token context bridging is inherently integrative — it simultaneously connects macro conditions, sport domain signals, athlete intelligence, and post-match outcomes into unified demand signals.
+
+---
+
 ## Compatibility
 
 **Full signal chain:**  `core/agent-reasoning-chains.md`

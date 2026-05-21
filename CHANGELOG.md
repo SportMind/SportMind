@@ -1,5 +1,60 @@
 # Changelog
 
+## [3.97.73] — 2026-05-21
+
+### Added — Four Mind dimension gap fills + MIND DIMENSIONS retrofit to three core files
+
+4 new library files (846L). 3 existing files updated (+90L).
+717→721 files, 498→502 markdown. Website audited.
+Standing instruction established: all future files must include ## MIND DIMENSIONS.
+
+STANDING INSTRUCTION ESTABLISHED IN THIS RELEASE:
+  Every new library file must include a ## MIND DIMENSIONS section as the final
+  section before any cross-reference list. Format maps the file explicitly to
+  all eight dimensions: Intelligence, Reasoning, Context, Memory, Judgment,
+  Attention, Learning, Integration.
+
+NEW FILES — MIND DIMENSIONS INCLUDED:
+
+  core/error-correction-framework.md (191L):
+    Error classification: Type 1 (Direction) | Type 2 (Magnitude) | Type 3 (Timing) | Type 4 (Context)
+    Direction error modifier discount: ×0.85 for next 3 comparable fixtures
+    Pattern detection: 3/10 → MODIFIER_REVIEW_REQUIRED (×0.75) | 5+ → MODIFIER_SUSPENSION
+    6-step error correction reasoning chain
+    Calibration record as error log — wrong predictions are as valuable as correct ones
+    MIND: Judgment and Learning dimensions primary
+
+  core/calibration-feedback-loop.md (188L):
+    Confidence tier framework: Tier 0 (×0.70 theoretical) through Tier 5 (×1.10 benchmark)
+    Accuracy adjustment: below 80% → ×0.10 penalty | below 70% → MODIFIER_REVIEW_REQUIRED
+    Current SportMind modifiers mapped to tiers
+    Recalibration triggers: 3 errors in 10 consecutive tests
+    6-step calibration reasoning chain
+    MIND: Memory and Learning dimensions primary
+
+  core/multi-signal-fan-token-chain.md (200L):
+    Five signal interaction rules: supply independence, macro→demand only, governance compound,
+      tournament compound, athlete→supply probability
+    Positive stacking cap: ×1.25 | Negative floor: ×0.75
+    UCL Final $AFC complete multi-signal template
+    Probability-weighted expected demand and supply output calculation
+    HOLD condition: 5+ simultaneously uncertain signals
+    MIND: Integration dimension primary
+
+  core/referee-pool-depth.md (267L):
+    Extends referee-pool-intelligence.md with pool sizes and deep profiles:
+    UCL: ×1.00 | PL: ×1.00 (15% home penalty bias) | Bundesliga: ×1.00
+    La Liga: ×0.95 | Serie A: ×0.95 | Ligue 1: ×0.85 (higher home bias)
+    Individual ×0.60 weight vs pool ×0.40 weight (individual wins)
+    MLS: ×0.80 | Lower tier: ×0.75 | International FIFA: ×0.90
+    6-step referee pool reasoning chain
+    MIND: Intelligence and Context dimensions primary
+
+RETROFIT — MIND DIMENSIONS ADDED TO THREE EXISTING FILES:
+  core/agent-reasoning-chains.md (327→347L): Reasoning and Integration primary
+  core/signal-confidence-framework.md (242→262L): Judgment primary
+  core/fan-token-context-bridge.md (290→310L): Integration primary
+
 ## [3.97.72] — 2026-05-21
 
 ### Fixed — MCP version/registry + homepage wording + layout improvements

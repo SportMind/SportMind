@@ -229,6 +229,26 @@ EVERY SPORTMIND SIGNAL MUST INCLUDE THESE FIELDS:
 
 ---
 
+## MIND DIMENSIONS
+
+**Intelligence:** Teaches what makes a signal actionable versus what triggers a HOLD — the threshold framework that prevents agents from acting on insufficient evidence.
+
+**Reasoning:** Provides the structured output schema and confidence level classification system that every SportMind analysis must produce before being acted upon.
+
+**Context:** Applies to every analysis at the output stage — confidence level and HOLD conditions must be assessed after all modifiers are applied, before any output is finalised.
+
+**Memory:** Draws on calibration tier data (from calibration-feedback-loop.md) to assign appropriate confidence levels — a signal built on Tier 0 modifiers cannot be HIGH confidence.
+
+**Judgment:** This file IS the Judgment framework at the output level — knowing when to say HOLD rather than forcing a LOW confidence output is the core Judgment function.
+
+**Attention:** Confidence level determines how much agent attention the output deserves — HIGH confidence warrants action, MEDIUM warrants monitoring, LOW warrants explicit uncertainty communication, HOLD warrants stopping.
+
+**Learning:** Each confirmed HIGH confidence signal that was correct reinforces the confidence threshold calibration. Each incorrect HIGH confidence signal triggers review of what elevated it prematurely.
+
+**Integration:** Confidence assessment must account for all simultaneously active modifiers — a signal may be HIGH on sport domain alone but LOW when macro uncertainty and missing lineup data are integrated.
+
+---
+
 ## Compatibility
 
 **Reasoning chains:**   `core/agent-reasoning-chains.md`

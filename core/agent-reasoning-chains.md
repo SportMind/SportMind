@@ -314,6 +314,26 @@ STEP 5 — OUTPUT:
 
 ---
 
+## MIND DIMENSIONS
+
+**Intelligence:** Teaches the complete end-to-end reasoning sequences that connect raw inputs to structured signal outputs — the operational workflows agents follow for every SportMind analysis.
+
+**Reasoning:** This file IS the Reasoning dimension — it provides the explicit chains of logic connecting intelligence layers to actionable outputs across pre-match, fan token, post-match, and autonomous agent scenarios.
+
+**Context:** Applies to every SportMind analysis — this is the primary reference for how to sequence the loading and application of all intelligence layers in any specific scenario.
+
+**Memory:** Draws on the accumulated calibration records and modifier confidence tiers established in calibration-feedback-loop.md to ensure each chain step applies correctly weighted modifiers.
+
+**Judgment:** Agents should pause the reasoning chain when a HOLD condition fires at any step — the chain is not a mandate to complete every step regardless of signal quality. HOLD overrides chain completion.
+
+**Attention:** This is the highest-priority file for agent operation — if only one file could be loaded, this would be it. The reasoning chains define SportMind's operational behaviour.
+
+**Learning:** Each completed chain that produces a correct direction outcome validates the chain structure. Each error reveals which chain step diverged — reference core/error-correction-framework.md for chain-level error analysis.
+
+**Integration:** Reasoning chains are inherently integrative — they are the mechanism by which all SportMind layers are combined into a single coherent output rather than processed independently.
+
+---
+
 ## Compatibility
 
 **Loading order:**      `core/agent-onboarding.md`
