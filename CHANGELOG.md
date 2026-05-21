@@ -1,5 +1,72 @@
 # Changelog
 
+## [3.97.71] — 2026-05-21
+
+### Added — Four gap fills + WHO-WE-ARE update + two partial-pass action blocks
+
+4 new library files (774L). 2 updated files. 1 document updated. 1 website fix.
+713→717 files, 494→498 markdown. Website audited.
+
+FIX 1 — WHO-WE-ARE.md:
+  "585 files. 205 version cycles" → "713 files. 210+ version cycles"
+  "v3.86" → "v3.97.70"
+  "Five intelligence layers" → "Eight intelligence domains"
+
+GAP FILLS (4 new files):
+
+  core/player-agent-intelligence.md (184L — NEW):
+    Agent activity as leading indicator of transfer/contract events.
+    Contract expiry framework with departure probability modifiers:
+      24+ months: standard | 12-24: ×1.08 | <12: ×1.20 | <6: ×1.35 | expired: full departure
+    Key player under 12 months: ×0.94 demand discount until resolved.
+    Agent network intelligence: same-agent ×1.15 destination | agent change ×1.10 probability.
+    Fan token demand connection: renewal ×1.06 | ambassador departure ×0.85 CDI.
+
+  sports/american-football-nfl.md (209L — NEW):
+    NFL season structure: 18 weeks, 17 games, Super Bowl ×2.50 event signal.
+    QB absence modifier ×0.72 — highest single-position modifier in SportMind.
+    Home field ×1.08 (highest in major team sports).
+    TNF short week ×0.94 | Dome vs outdoor ×0.93 | Bye week ×1.04.
+    Salary cap intelligence: hard cap, dead cap ×0.94 if above 15%.
+    Draft intelligence: top-5 pick ×1.15 3-year trajectory.
+    Post-CLARITY Act: NFL is the largest addressable fan token market.
+
+  sports/cricket-ipl.md (179L — NEW):
+    IPL season structure: 10 teams, 74 matches, March-May.
+    Playoff signal weights: Q1 ×1.30 | Eliminator ×1.35 | Q2 ×1.40 | Final ×1.80.
+    Overseas player unavailability ×0.88 — highest cricket unavailability discount.
+    Toss advantage (evening, dew): ×1.06.
+    Auction intelligence: mega auction = full squad reset required.
+    Fan token pipeline: first mover premium ×1.40 CDI | Championship win ×2.00.
+
+  core/referee-pool-intelligence.md (202L — NEW):
+    Extends core/referee-intelligence.md with competition pool frameworks.
+    UCL pool characteristics: ×1.00 confidence | 12% lower card rate than domestic.
+    PL pool: ×1.00 confidence | 15% more home penalties | PGMOL oversight.
+    Ligue 1 pool: ×0.85 confidence (reduced — less international profiling).
+    Bundesliga: ×1.00 | La Liga: ×0.95 | Serie A: ×0.95.
+    Competition confidence weights quick reference table.
+
+ACTION BLOCKS (2 partial passes):
+
+  fan-token/governance-takeover-framework.md (193→226L UPDATED):
+    LIQUIDITY_FAILURE sub-type added to collapse cause framework.
+    LIQUIDITY_FAILURE: CDI ×0.78 | Governance ×0.75 (worse than standard).
+    Rationale: buyer was never genuinely funded — collapse was avoidable.
+    Repeat signal: second consecutive LIQUIDITY_FAILURE: ×0.70/×0.65.
+    Also documented: DUE_DILIGENCE_FAILURE (standard) | REGULATORY_BLOCK (×0.88 lighter)
+      | PRICE_DISAGREEMENT (standard + ×1.04 next recovery).
+    SKIPPED: specific entity name, specific date — expiring operational data.
+
+  macro/crypto-digital-asset-intelligence.md (290→362L UPDATED):
+    BTC sentiment regime framework added with full HOPE_FEAR documentation.
+    Five regimes: CAPITULATION (×0.70) | HOPE_FEAR (×0.88) | OPTIMISM (×0.95)
+      | BELIEF_THRILL (×1.10) | EUPHORIA_GREED (×1.20).
+    HOPE_FEAR specifically: governance vote participation ×0.90 | PATH_2 demand ×0.90.
+    Regime transition signals documented.
+    Sourcing rule: Glassnode/CryptoQuant — do not log specific NUPL readings.
+    SKIPPED: specific NUPL value 0.24 — expiring operational data.
+
 ## [3.97.70] — 2026-05-21
 
 ### Fixed — Website consistency fixes (surgical)

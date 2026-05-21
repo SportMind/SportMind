@@ -94,6 +94,39 @@ MEDIUM-TERM SIGNALS (T+14 to T+90 days):
     Apply: ONGOING_DISTRESS — maintain ×0.82 CDI, reassess quarterly.
     Governance votes: treat all major decisions with ×0.75 confidence weight.
 
+TAKEOVER COLLAPSE CAUSE — MODIFIER PROFILES BY CAUSE TYPE:
+
+  LIQUIDITY_FAILURE (buyer unable to provide proof of funds):
+    Most severe collapse cause — buyer was never genuinely funded.
+    CDI:          ×0.78 sustained (worse than standard ×0.82)
+    Governance:   ×0.75 credibility weight (worse than standard ×0.80)
+    Rationale:    LIQUIDITY_FAILURE signals the deal was speculative from the outset.
+      Commercial partners lose confidence in the club's ownership vetting process —
+      the collapse was avoidable. Governance stakeholders lose confidence in
+      the board's due diligence capability.
+    Recovery:     requires next buyer to proactively provide proof of funds
+      BEFORE exclusivity — otherwise market applies a repeat-risk discount.
+    Repeat signal: second consecutive LIQUIDITY_FAILURE:
+      CDI: ×0.70 | Governance: ×0.65 — systematic due diligence failure signal.
+
+  DUE_DILIGENCE_FAILURE (buyer fails regulatory or legal checks):
+    Standard TAKEOVER_COLLAPSED modifiers apply.
+    CDI: ×0.82 | Governance: ×0.80
+    Recovery: faster than LIQUIDITY_FAILURE — failure may reflect regulatory
+      complexity rather than buyer weakness. Path to remedy often exists.
+
+  REGULATORY_BLOCK (deal blocked by competition or financial authority):
+    Lightest collapse cause — neither buyer nor club at fault.
+    CDI: ×0.88 (lighter than standard) | Governance: ×0.85
+    Rationale: regulatory block may be resolved by remedies or structures.
+    Recovery signal is faster — regulatory resolution is a defined path forward.
+
+  PRICE_DISAGREEMENT (valuation gap — seller and buyer cannot agree):
+    Standard modifiers: CDI ×0.82 | Governance ×0.80
+    Positive sub-signal: club was valued — not distressed.
+    Apply: ×1.04 to next recovery signal when next buyer emerges
+      (demonstrates club has real commercial value).
+
 HOLDER BEHAVIOUR PATTERN:
   Takeover collapse typically triggers two waves:
   Wave 1 (T+0 to T+7): panic selling by sentiment-driven holders

@@ -34,11 +34,11 @@ becomes part of every agent that loads it.
 
 ---
 
-## What the library contains (v3.86)
+## What the library contains (v3.97.70)
 
-**585 files.** 205 version cycles since v3.0.
+**713 files.** 210+ version cycles since v3.0.
 
-**Five intelligence layers:**
+**Eight intelligence domains:**
 - **Layer 1 — Sport domain (42 sports):** How each sport works; competition structures;
   event playbooks; risk variables; the sport-specific primary signal variable that agents
   must check first (lineup confirmation for football, format for cricket, weigh-in for MMA,

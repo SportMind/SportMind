@@ -84,6 +84,78 @@ ADDITIONAL PHASE MODIFIERS NOT IN BASE FILE:
 
 ---
 
+
+---
+
+## BTC sentiment regime framework
+
+```
+BTC CYCLE SENTIMENT REGIMES:
+  The NUPL (Net Unrealized Profit/Loss) metric defines which sentiment
+  regime is active. Each regime has a distinct demand modifier for fan tokens.
+  Regimes are enduring framework categories — not daily metrics.
+
+  CAPITULATION / DEPRESSION (NUPL < 0):
+    Market is in extreme fear — most holders at a loss.
+    Fan token demand modifier: ×0.70
+    Rationale: risk-off behaviour is near-total. Only committed holders active.
+    Signal duration: regime typically lasts weeks to months.
+
+  HOPE / FEAR (NUPL 0.0 to 0.25):
+    Market recovering from lows but uncertainty is high.
+    Fan token demand modifier: ×0.88
+    Rationale: downside correlation is elevated — fan tokens fall with BTC.
+      Sentiment is fragile. Positive sporting events can still move demand,
+      but the macro floor is lower than in neutral conditions.
+    Key characteristic: governance signal weighting should be reduced by ×0.90
+      in HOPE_FEAR regime — holder participation in votes is reduced.
+    FTP PATH_2 interaction: WIN burn still fires, but demand response
+      to the supply event is muted — apply ×0.90 to expected demand premium.
+
+  OPTIMISM / ANXIETY (NUPL 0.25 to 0.50):
+    Market in positive territory but anxiety about sustainability is present.
+    Fan token demand modifier: ×0.95
+    Rationale: improving sentiment but not yet confident.
+    Standard modifiers apply with mild upward bias.
+
+  BELIEF / THRILL (NUPL 0.50 to 0.75):
+    Bull market in progress — holders in significant profit.
+    Fan token demand modifier: ×1.10
+    Rationale: risk appetite elevated, discretionary allocation to fan tokens grows.
+    FTP PATH_2 WIN burns generate stronger demand responses in this regime.
+
+  EUPHORIA / GREED (NUPL > 0.75):
+    Late-cycle conditions — maximum retail participation.
+    Fan token demand modifier: ×1.20 (short-term) then rapid reversal risk.
+    Warning: apply this modifier cautiously — euphoria regimes are unstable.
+    Agent rule: do not project euphoria modifier more than 2 weeks forward.
+
+REGIME TRANSITION SIGNALS:
+  Regime shifts are significant macro events — not incremental changes.
+  When regime shifts from OPTIMISM to HOPE_FEAR:
+    Apply ×0.88 modifier immediately on confirmed shift.
+    Governance votes active during transition: apply ×0.85 participation weight.
+    Commercial partnership signals launched in OPTIMISM may not land as expected.
+
+  When regime shifts from HOPE_FEAR to OPTIMISM:
+    Recovery signal — apply ×1.08 recovery premium for 7-14 days.
+    Governance participation expected to recover.
+
+REGIME IDENTIFICATION:
+  Do not attempt to determine current regime from inference.
+  Source: Glassnode, CryptoQuant — Tier 1 on-chain data providers.
+  The regime label (HOPE_FEAR, OPTIMISM_ANXIETY, etc.) is a category framework.
+  Apply the modifier for the labelled regime when a Tier 1 source confirms it.
+  Do not log specific NUPL readings — those are expiring operational data.
+
+FAN TOKEN DEMAND DURING HOPE_FEAR SPECIFICALLY:
+  Standard demand modifier: ×0.88
+  Governance votes: apply ×0.90 participation weight
+  PATH_2 WIN burn demand response: multiply expected premium by ×0.90
+  Duration signal: HOPE_FEAR is typically a multi-week to multi-month regime.
+    Do not assume regime will resolve within a single fixture cycle.
+```
+
 ## Altcoin season framework
 
 ```
