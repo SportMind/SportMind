@@ -302,7 +302,7 @@ Input: `player`, `sport`, `club`, `include_framework`
 ### `sportmind_fan_token_lookup`
 Resolve club name, ticker, or sport to Chiliz Chain fan token context.
 Returns contract address (Chain ID 88888), chiliscan and fantokens.com links,
-market cap tier, and recommended skill stack. 24 verified tokens.
+market cap tier, and recommended skill stack. 84 verified tokens.
 Input: `query` (e.g. "PSG", "football", "Barcelona"), `include_registry`
 
 ### `sportmind_sentiment_snapshot`

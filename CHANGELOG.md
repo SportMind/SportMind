@@ -1,5 +1,30 @@
 # Changelog
 
+## [3.97.72] — 2026-05-21
+
+### Fixed — MCP version/registry + homepage wording + layout improvements
+
+PATCH RELEASE — 2 files changed in library (MCP scripts), 1 website file updated.
+No new library files. Library count unchanged: 717 files.
+
+MCP FIXES (scripts/sportmind_mcp.py + MCP-SERVER.md):
+  FIX 1: Version string — VERSION variable confirmed at 3.97.72 (was 3.97.71, bumped)
+    Brief noted "3.30.0" hardcode — not found; VERSION variable was already correct.
+  FIX 2: Fan token count — 24 verified tokens → 84 verified tokens (2 instances in mcp.py, 1 in MCP-SERVER.md)
+    Corrected to match complete-registry.md (84 tokens documented).
+
+HOMEPAGE — index.html (4 changes):
+  CHANGE 1: Library section heading updated:
+    "Six layers of intelligence, reasoning, and context." → "Six layers. Expanding intelligence."
+    Description updated to: macro → market → sport domain → athlete → fan token → deployment.
+    "building toward a complete Mind for Sports" language added.
+  CHANGE 2: Who uses heading updated:
+    "Five types of builder. One intelligence layer." → "Built for every builder."
+    Subheading updated — "The possibilities are endless." added.
+  CHANGE 3: "See all use-cases →" link added after 6 builder cards (before leaderboard).
+    Uses btn-s class for visual consistency.
+  CHANGE 4: Stats bar confirmed 717 (already correct from v3.97.71 audit — no change needed).
+
 ## [3.97.71] — 2026-05-21
 
 ### Added — Four gap fills + WHO-WE-ARE update + two partial-pass action blocks

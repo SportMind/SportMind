@@ -41,7 +41,7 @@ ROOT        = Path(__file__).parent.parent
 HASHES_FILE = ROOT / "platform" / "skill-hashes.json"
 MACRO_STATE = ROOT / "platform" / "macro-state.json"
 
-VERSION = "3.97.71"
+VERSION = "3.97.72"
 
 SUPPORTED_SPORTS = [
     "football", "basketball", "cricket", "mma", "formula1", "tennis",
@@ -990,7 +990,7 @@ def tool_fan_token_lookup(query, include_registry):
             "found":   False,
             "message": (
                 f"No fan token found for '{query}' in the SportMind registry. "
-                "Registry covers 24 verified Chiliz Chain tokens. "
+                "Registry covers 84 verified tokens across all chains. "
                 "Check chiliscan.com/token/top-erc20 for the full on-chain list."
             ),
             "registry_size":     len(FAN_TOKEN_REGISTRY),
@@ -1346,7 +1346,7 @@ TOOL_DESCRIPTIONS = {
         "Resolve a club name, token ticker, or sport to its Chiliz Chain fan token "
         "context. Returns contract address, chain ID 88888, chiliscan verification "
         "link, fantokens.com market data link, market cap tier, and recommended "
-        "SportMind skill stack. Registry covers 24 verified tokens."
+        "SportMind skill stack. Registry covers 84 verified tokens."
     ),
     "sportmind_sentiment_snapshot": (
         "Multi-axis sentiment state for a fan token. Returns macro sentiment, and "
