@@ -132,14 +132,43 @@ BTC CYCLE SENTIMENT REGIMES:
 
 REGIME TRANSITION SIGNALS:
   Regime shifts are significant macro events — not incremental changes.
+
   When regime shifts from OPTIMISM to HOPE_FEAR:
     Apply ×0.88 modifier immediately on confirmed shift.
     Governance votes active during transition: apply ×0.85 participation weight.
     Commercial partnership signals launched in OPTIMISM may not land as expected.
 
-  When regime shifts from HOPE_FEAR to OPTIMISM:
-    Recovery signal — apply ×1.08 recovery premium for 7-14 days.
-    Governance participation expected to recover.
+  When regime shifts from HOPE_FEAR to ANXIETY (partial recovery):
+    HOPE_FEAR suppressor (×0.88) is LIFTED.
+    Apply ANXIETY/OPTIMISM modifier (×0.95) — not yet back to full neutral.
+    This is an important intermediate stage — do not skip straight to OPTIMISM.
+    Defensive positioning is easing but conviction is not yet restored.
+    Governance participation begins recovering — apply ×0.95 participation weight.
+    FAN TOKEN DEMAND: ×0.95 replaces ×0.88 — meaningful improvement but not neutral.
+    PATH_2 WIN burn demand response: returns to ×0.97 (vs ×0.90 in HOPE_FEAR).
+    Duration: ANXIETY regime typically persists for weeks before resolving
+      either upward (OPTIMISM) or downward (return to HOPE_FEAR).
+
+  When regime shifts from ANXIETY to OPTIMISM (full recovery):
+    Recovery signal — apply ×1.05 recovery premium for 7-14 days.
+    Governance participation fully restored.
+    FAN TOKEN DEMAND: returns to ×1.00 baseline, then ×1.05 with recovery premium.
+
+  When regime shifts from HOPE_FEAR to OPTIMISM (direct, bypassing ANXIETY):
+    Rare but possible — sharp V-shape recovery.
+    Apply ×1.08 recovery premium for 7-14 days.
+    Governance participation expected to fully recover.
+
+  ANXIETY ZONE — AGENT REASONING RULES:
+    ANXIETY is NOT neutral. It is a cautious recovery state.
+    Do not apply bull-market reasoning in ANXIETY zone.
+    Do not apply HOPE_FEAR suppressor in ANXIETY zone.
+    Apply ×0.95 to fan token demand signals — modest headwind, not crisis.
+    Monitor for: return to HOPE_FEAR (watch for deteriorating on-chain signals)
+      or progression to OPTIMISM (watch for improving momentum signals).
+    The direction of travel matters — ascending ANXIETY is different from
+      descending ANXIETY. Ascending: ×0.97 cautious optimism bias.
+      Descending: ×0.93 — re-entering HOPE_FEAR is more likely than OPTIMISM.
 
 REGIME IDENTIFICATION:
   Do not attempt to determine current regime from inference.

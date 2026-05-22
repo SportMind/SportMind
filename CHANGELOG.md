@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.97.76] — 2026-05-22
+
+### Updated — BTC ANXIETY regime framework added to crypto-digital-asset-intelligence.md
+
+PATCH — 1 file edited. No new files. Library count unchanged: 725 files.
+
+macro/crypto-digital-asset-intelligence.md (362→391L):
+
+ACTION BLOCK: NUPL ~0.29 and specific recovery values — SKIPPED (expiring data).
+Enduring framework built: ANXIETY zone as a distinct regime between HOPE_FEAR and OPTIMISM.
+
+NEW CONTENT — ANXIETY REGIME TRANSITION FRAMEWORK:
+  HOPE_FEAR → ANXIETY transition:
+    HOPE_FEAR suppressor (×0.88) is explicitly LIFTED on this transition.
+    Apply ANXIETY modifier: ×0.95 (improvement but not neutral).
+    Governance participation: ×0.95 (recovering but not fully restored).
+    PATH_2 WIN burn demand response: ×0.97 (vs ×0.90 in HOPE_FEAR).
+
+  ANXIETY directional reasoning:
+    Ascending ANXIETY (improving): ×0.97 cautious optimism bias.
+    Descending ANXIETY (deteriorating): ×0.93 — re-entry to HOPE_FEAR more likely.
+
+  ANXIETY agent rules:
+    NOT neutral — do not apply bull reasoning.
+    Do not apply HOPE_FEAR suppressor — that has been lifted.
+    Apply ×0.95 modest headwind to all fan token demand signals.
+    Monitor for HOPE_FEAR return or OPTIMISM progression.
+
+  Added: HOPE_FEAR → ANXIETY → OPTIMISM three-stage recovery path
+    (previously the framework jumped directly from HOPE_FEAR to OPTIMISM).
+
+SKIPPED: specific NUPL value (~0.29) and prior low (~0.21) — expiring data.
+
 ## [3.97.75] — 2026-05-21
 
 ### Fixed — National Football Fan Token™ designation added to SAFA and SFA entries
