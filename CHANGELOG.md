@@ -1,5 +1,59 @@
 # Changelog
 
+## [3.97.78] — 2026-05-22
+
+### Fixed — Large multi-page website audit (5 pages + new OG image)
+
+WEBSITE ONLY. No library changes. Library count unchanged: 728 files.
+
+CATEGORY 1 — HOMEPAGE:
+  FIX 1: Stats bar 728 ✓ | signal output v3.97.77→v3.97.78 ✓ | meta 728 ✓ (all already correct)
+  FIX 2: Transmission diagram — "Layer 6 · Blockchain" → "Core intelligence"
+          "Layer 7 · Reasoning" → "Reasoning architecture" (not official layer numbers)
+  FIX 3: Mind architecture paragraph — eight dimensions text added:
+          "eight dimensions of Intelligence, Reasoning, Context, Memory, Judgment,
+           Attention, Learning, and Integration"
+  FIX 4: og:image and twitter:image → og-brand.png (new static brand image)
+          Meta description — file counts removed. Now: "The open sports intelligence
+          library for AI agents. Intelligence, reasoning, and context..." 
+          og:description and twitter:description — simplified, count-free.
+
+CATEGORY 2 — USE-CASES PAGE:
+  FIX 1: Version v3.97.77 ✓ (already correct)
+  FIX 2: Nav links /docs and /demo ✓ (already present)
+  FIX 3: SMI card — "Agent reasoning" → "Extended reasoning architecture" +
+          new chip "Eight Mind dimensions"
+  FIX 4: All cost estimates removed — 7 instances replaced with
+          "Cost: Minimal — see model provider pricing"
+
+CATEGORY 3 — TELEGRAM KIT PAGE:
+  FIX 1: 651 → 728 skill files (2 instances)
+  FIX 2: Path A — added "@LobsterClawBot" as example managed bot service
+  FIX 3: Hero subheading — "calibrated sports intelligence layer" →
+          "open intelligence, reasoning, and context layer —
+           728 calibrated files across 42 sports"
+
+CATEGORY 4 — WALLET KIT PAGE:
+  FIX 1: 651 → 728 skill files
+  FIX 2: 6-token table → 84-token registry reference
+          ($AFC PATH_2 confirmed | all others demand only | full registry link)
+  FIX 3: CHI/AFS/TAI metrics — clarifying note added:
+          "These are SportMind metrics within the fan token and sports layers —
+           not separate layers."
+
+CATEGORY 5 — INTELLIGENCE AGENT PAGE:
+  FIX 1: 651 → 728 skill files
+  FIX 2: Stale file paths replaced:
+          macro/sec-cftc-overview.md → macro/clarity-act-complete-framework.md
+          fan-token/regulatory-risk-layer.md → fan-token/official-verification-framework.md
+
+CATEGORY 6 — NEW OG BRAND IMAGE:
+  og-brand.png generated: 1200×630px, background #0d2b1a, green dot + wordmark,
+  "Sports intelligence / for AI agents" centred, "sportmind.dev" bottom right.
+  No numbers. No stats. Clean, minimal, timeless.
+
+VERIFICATION: PASSED ✓ (27/27)
+
 ## [3.97.77] — 2026-05-22
 
 ### Added — Three financial intelligence gap fills
