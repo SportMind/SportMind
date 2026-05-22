@@ -1,5 +1,44 @@
 # Changelog
 
+## [3.97.77] — 2026-05-22
+
+### Added — Three financial intelligence gap fills
+
+3 new library files (556L). 725→728 files, 506→509 markdown. Website audited.
+MIND DIMENSIONS included in all three per standing instruction.
+
+market/club-revenue-intelligence.md (175L — NEW):
+  Three revenue streams: broadcast, matchday, commercial.
+  UCL participation: ×1.15 CDI | Europa League drop: ×0.85 CDI.
+  Full stadium: ×1.03 | Below 80% utilisation: ×0.94 | New stadium: ×1.08 sustained.
+  Broadcast-dependent (>60%): ×1.25 weight to relegation signal.
+  Commercial-dominant (>50%): ×1.05 CDI stability.
+  UCL winner prize money: ×1.10 CDI for following transfer window.
+  Relegated club parachute period: ×0.88 CDI sustained.
+  Agent rule: never log specific revenue figures — use structural proxies.
+
+market/financial-fair-play-intelligence.md (172L — NEW):
+  Three frameworks: UEFA FSFP | PL PSR (£105m/3yr) | La Liga hard salary cap.
+  PSR-limited: ×0.92 squad trajectory | ×0.88 transfer ambition.
+  PSR headroom: ×1.05 squad trajectory.
+  PSR violation/points deduction: ×0.78 competitive trajectory.
+  Transfer embargo: ×0.85 squad quality sustained.
+  Compound signal: PSR-limited + relegation = ×0.72 effective CDI (most negative).
+  Compound signal: PSR headroom + UCL = ×1.21 CDI.
+  Rule change signal: ×0.90 confidence for 12 months during framework transitions.
+  Observable proxies framework: use transfer patterns, not estimated accounts.
+
+fan-token/fan-token-revenue-intelligence.md (209L — NEW):
+  Circular loop: token success → club revenue → investment → performance → demand.
+  Novel domain not covered elsewhere in the library.
+  Three revenue streams: initial fee, trading revenue, governance revenue.
+  Club promotion signal: heavy ×1.08 | minimal ×0.94 | none ×0.85 LEGACY_CONTRACT risk.
+  CDI boost: ×1.05 for clubs where fan token is significant commercial product.
+  World Cup national token revenue: ×1.20 governance/engagement signal.
+  Loop activation: all three promotion signals present → sustained ×1.08.
+  Loop disruption: confirmed → ×0.90 immediate.
+  Circular loop hypothesis: Tier 1-2 evidence — flagged as EMERGING framework.
+
 ## [3.97.76] — 2026-05-22
 
 ### Updated — BTC ANXIETY regime framework added to crypto-digital-asset-intelligence.md
