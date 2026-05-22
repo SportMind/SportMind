@@ -109,7 +109,22 @@ TAKEOVER COLLAPSE CAUSE — MODIFIER PROFILES BY CAUSE TYPE:
     Repeat signal: second consecutive LIQUIDITY_FAILURE:
       CDI: ×0.70 | Governance: ×0.65 — systematic due diligence failure signal.
 
-  DUE_DILIGENCE_FAILURE (buyer fails regulatory or legal checks):
+  INVESTOR_WITHDRAWAL_COLLAPSE (investor withdraws from consortium during exclusivity):
+    A specific sub-type of LIQUIDITY_FAILURE.
+    Distinguishing feature: the failure originates inside the buyer consortium —
+      not from regulatory rejection or valuation disagreement.
+    The lead investor or anchor investor withdraws, creating a funding gap.
+    Why it is distinct: consortium dissolution is harder to resolve than
+      price disagreement — the buyer must either find a replacement anchor investor
+      or restructure the entire deal within the exclusivity window.
+    Apply: same modifiers as LIQUIDITY_FAILURE:
+      CDI: ×0.78 | Governance: ×0.75 (worse than standard collapse)
+    Recovery signals:
+      New anchor investor confirmed: CDI ×1.05 partial recovery
+      Deal restructured (smaller consortium confirmed): CDI ×1.02
+      No replacement at end of exclusivity: TAKEOVER_COLLAPSED — full collapse modifiers
+
+
     Standard TAKEOVER_COLLAPSED modifiers apply.
     CDI: ×0.82 | Governance: ×0.80
     Recovery: faster than LIQUIDITY_FAILURE — failure may reflect regulatory

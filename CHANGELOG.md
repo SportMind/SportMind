@@ -1,5 +1,106 @@
 # Changelog
 
+## [3.97.80] — 2026-05-22
+
+### Fixed + Added — Suite page improvements + SMI signal intake (2 library updates)
+
+WEBSITE: 3 suite pages updated. Library count unchanged: 728 files.
+LIBRARY: 2 files updated (no new files). 509 md unchanged.
+
+─────────────────────────
+SUITE PAGES (3 pages):
+─────────────────────────
+
+CHANGE 1 — Suite cards section removed from all 3 pages:
+  Replaced large 3-card "Part of a larger system" section on each page
+  with a single minimal footer nav line:
+  "Part of the SportMind suite · Telegram Kit · Wallet Kit · Intelligence Agent · sportmind.dev"
+
+CHANGE 2 — Mobile responsive fixes (all 3 pages):
+  body { overflow-x: hidden } added.
+  Grid collapse to 1fr at max-width: 640px.
+  Code blocks: overflow-x: auto, max-width: 100%.
+  Stats bars: flex-wrap on mobile.
+
+CHANGE 3 — Nav sticky blur (all 3 pages):
+  backdrop-filter: blur(12px) !important applied to nav.
+
+TELEGRAM SPECIFIC:
+  C4: 651 → 728 (file count already correct from v3.97.78 — no instances)
+  C5: PATH A/B/C already correct — @LobsterClawBot and BotFather steps present.
+  C6: Hero subheading → "open intelligence, reasoning, and context layer — 728 files across 42 sports"
+
+WALLET SPECIFIC:
+  C7: 651 → 728 (already correct from v3.97.78)
+  C8: 6-token table → 84-token registry reference ($AFC PATH_2 confirmed, 83 others demand only)
+  C9: Guardrails note added: "These are example defaults. Configure for your use case..."
+  C10: Layer clarification already present from v3.97.78
+
+INTELLIGENCE AGENT SPECIFIC:
+  C11: 651 → 728 (already correct from v3.97.78)
+  C12: sec-cftc-overview.md → clarity-act-complete-framework.md (already done v3.97.78)
+  C12: regulatory-risk-layer.md → official-verification-framework.md (already done v3.97.78)
+
+─────────────────────────
+SMI LIBRARY INTAKE (from 2026-05-22 briefing):
+─────────────────────────
+
+SIGNAL 1 (TIER 1) — PASSED (partial): INVESTOR_WITHDRAWAL_COLLAPSE added to
+  fan-token/governance-takeover-framework.md (193L→241L):
+  New consortium dissolution sub-type within LIQUIDITY_FAILURE framework.
+  Distinguishing feature: failure originates inside the buyer consortium.
+  CDI ×0.78 | Governance ×0.75 (same as LIQUIDITY_FAILURE).
+  Recovery: new anchor investor ×1.05 | restructured deal ×1.02.
+  Skipped: Five Eleven Capital, €150m gap, May 31 deadline — expiring data.
+
+SIGNAL 2 (TIER 2) — PASSED (partial): COMMITTEE_MERGER_PENDING added to
+  macro/clarity-act-complete-framework.md (223L→272L):
+  Bicameral committee reconciliation framework — enduring legislative pattern.
+  COMMITTEE_MERGER_PENDING: ×0.95 confidence during reconciliation period.
+  DOCUMENTATION_DELAY: ×0.95 timing suppressor for US-linked tokens.
+  Section 404 conflict (Banking vs Agriculture) documented as named bottleneck.
+  Skipped: June 2 date, "Memorial Day" reference — expiring data.
+
+SIGNAL 3 (TIER 2) — FAILED Library Rule: Guardiola/Maresca manager status.
+  Named current managers, specific contract status ("ready to sign"), 48-72h timing.
+  All expiring operational data. POST_LEGACY_LIMBO framework already exists.
+  No library change required.
+
+VERIFICATION: 27/27 suite pages | 9/9 library checks
+
+## [3.97.79] — 2026-05-22
+
+### Fixed — Global nav overhaul, unified footer, stats bar centering, suite border
+
+WEBSITE ONLY. No library changes. 728 files unchanged.
+
+NAV — complete overhaul across all 7 pages:
+  Architecture: Logo left · 4 primary links centre (Library/Docs/Demo/Use-cases)
+    · GitHub + ☰ menu button + theme toggle right.
+  ☰ opens a full-screen overlay with all links: Home, Library, Calibration,
+    Contribute, Suite, Use-cases, Docs, Demo, Autonomous, Agent.
+  On mobile (<640px): primary centre links collapse into ☰ only.
+  Escape key and background click close the overlay.
+  Suite pages: keep page-specific anchor links visible in nav bar;
+    global links accessible via ☰ overlay.
+  Removed: nav-toggle class (replaced by nav-menu-btn).
+  Removed: inconsistent page-specific nav lists from main nav bar.
+
+FOOTER — unified across all 7 pages:
+  Shared template: sportmind.dev logo · GitHub/Changelog/Contribute/MIT · © 2026 SportMind
+  Suite pages: logo shows kit-specific name, GitHub links to kit repo.
+  Removed: inconsistent inline styles, version number from use-cases copy.
+
+STATS BAR — centering fixed:
+  grid-template-columns: repeat(5,1fr) → repeat(4,1fr)
+  Stats bar was spreading 4 items across 5 columns, pushing them left.
+  Now correctly centred with 4 equal columns.
+
+SUITE SECTION — border fixed:
+  Removed inline style="margin-top:48px; border-top:..." from ww wrapper div.
+  border-top now lives in .suite CSS rule — respects max-width, looks correct.
+  Suite heading now has proper vertical rhythm and separation.
+
 ## [3.97.78] — 2026-05-22
 
 ### Fixed — Large multi-page website audit (5 pages + new OG image)

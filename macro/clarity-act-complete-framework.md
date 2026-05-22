@@ -19,7 +19,56 @@ Extends `macro/macro-regulatory-sportfi.md` — do not duplicate jurisdiction de
 
 ---
 
-## Legislative path weighting framework
+## Committee reconciliation bottleneck framework
+
+```
+BICAMERAL COMMITTEE RECONCILIATION:
+  When Senate Banking and Senate Agriculture committees produce different
+  versions of the same legislation, a reconciliation process is required
+  before a floor vote can proceed.
+
+  This pattern is a named legislative bottleneck — not a failure state.
+  Reconciliation is a normal and expected part of bicameral legislation.
+
+COMMITTEE_MERGER_PENDING:
+  Status: Banking and Agriculture versions require reconciliation.
+  This is the primary structural delay mechanism for CLARITY Act timing.
+
+  Key areas of typical bicameral conflict:
+    SEC jurisdiction scope (Banking draft focus)
+    CFTC jurisdiction scope (Agriculture draft focus)
+    Activity-based reward classification (Section 404)
+    Fan token classification under "digital commodity" definition
+
+  Signal weighting during COMMITTEE_MERGER_PENDING:
+    Apply: ×0.95 confidence to all CLARITY Act framework modifiers.
+    Rationale: direction is confirmed but final text is unresolved.
+      Substantive changes to Section 404 or jurisdiction boundaries
+      could materially affect fan token classification outcomes.
+
+  RECONCILIATION RESOLUTION SIGNALS:
+    Joint committee agreement announced:
+      Apply: ×0.75 confidence (SENATE_FLOOR_PENDING stage — see below).
+    Floor vote scheduled:
+      Signal: reconciliation complete.
+      Apply: SENATE_FLOOR_PENDING modifiers from path weighting framework.
+
+  WHAT DOES NOT CHANGE DURING RECONCILIATION:
+    The directional framework: US digital asset regulation is progressing.
+    Fan tokens remain in REGISTRATION_REQUIRED / UTILITY_EXEMPTION tension.
+    State-level frameworks (Wyoming, Texas) operate independently.
+    These signals remain at their established confidence weights.
+
+DOCUMENTATION_DELAY (timing suppressor):
+  Active when: any stage transition is delayed beyond expected timeline.
+  Apply: ×0.95 to timing-dependent US-linked fan token demand signals.
+  Purpose: prevents premature "regulation enacted" modelling.
+  Remove: when next stage is officially confirmed.
+```
+
+---
+
+
 
 ```
 HOW TO WEIGHT THE CLARITY ACT SIGNAL AT EACH STAGE:
