@@ -1,5 +1,61 @@
 # Changelog
 
+## [3.97.82] — 2026-05-23
+
+### Added — CLARITY Act ethics friction framework + Arsenal squad architecture
+
+1 new file (218L). 1 updated file. 728→729 files, 509→510 md. Website audited.
+
+LIBRARY RULE DECISIONS:
+  ACTION 1 (CLARITY Act): PARTIAL PASS — ethics blocker framework built.
+    Skipped: June/July 2026 timeline reference — expiring.
+  ACTION 2 (Arsenal squad): PASS — enduring squad architecture framework built.
+    No player names. No fee values. Structural reasoning only.
+
+macro/clarity-act-complete-framework.md (272→319L UPDATED):
+  RECONCILIATION_BLOCKER_2: ADMINISTRATIVE_ETHICS_FRICTION added.
+  Second class of legislative blocker — distinct from COMMITTEE_MERGER_PENDING.
+  Ethics/conflict-of-interest provisions require supermajority Democrat support.
+  Signal weighting: ×0.92 confidence (stricter than COMMITTEE_MERGER ×0.95).
+  Dual-blocker compound (both active): ×0.90 confidence.
+  Enduring pattern: ethics provisions in financial legislation create
+    supermajority requirements — recurring across financial reform cycles.
+  Resolution signals: bipartisan ethics agreement → ADMINISTRATIVE_ETHICS_FRICTION lifted.
+  DOCUMENTATION_DELAY interaction: ADMINISTRATIVE_ETHICS_FRICTION amplifies timing suppressor.
+
+athlete/football/arsenal.md (218L NEW):
+  SQUAD_STATUS: CONSOLIDATION_PHASE — permanent Tier A defensive commitment.
+  DEFENSIVE_ANCHOR: CONFIRMED — structural defensive stability for 2026/27.
+  AGE_OPTIMISATION_ACTIVE — intentional profile management, not reactive.
+  Competitive trajectory modifier: ×1.02 sustained (2026/27 planning horizon).
+  $AFC CDI compound: CONSOLIDATION + ANCHOR + AGE_OPT = ×1.04 combined.
+  PATH_2 supply event probability elevated by UCL run depth correlation.
+  Post-title consolidation bonus: ×1.03 compound (when both conditions met).
+  MIND DIMENSIONS included (standing instruction).
+
+## [3.97.81] — 2026-05-23
+
+### Added + Fixed — Unified suite page + homepage kit link updates
+
+WEBSITE: new suite/index.html created. index.html kit links updated.
+No library changes. 728 files unchanged.
+
+suite/index.html (NEW — 1017L):
+  Three suite pages consolidated into one unified page at /suite/.
+  Three kit sections with anchor IDs: #telegram, #wallet, #agent.
+  Full kit content: deployment paths, cards, prompts, pipeline steps.
+  JavaScript: zero duplicate const/let/var declarations.
+  Single navOverlay variable. closeNavMenu() handles all close events.
+  Mobile: overflow-x hidden, grids collapse to 1fr at 640px, flex-wrap stats.
+  Nav overlay closes on any link tap, Escape key, and outside click.
+  Consistent design tokens, fonts, theme toggle, sticky blur nav, footer.
+
+index.html kit links updated:
+  href="/suite/wallet/" → href="/suite/#wallet"
+  href="/suite/telegram/" → href="/suite/#telegram"
+  href="/suite/intelligence-agent/" → href="/suite/#agent"
+  Kit cards on homepage now anchor directly to the correct section.
+
 ## [3.97.80] — 2026-05-22
 
 ### Fixed + Added — Suite page improvements + SMI signal intake (2 library updates)

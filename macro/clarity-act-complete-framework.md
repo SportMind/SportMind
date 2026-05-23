@@ -46,6 +46,53 @@ COMMITTEE_MERGER_PENDING:
       Substantive changes to Section 404 or jurisdiction boundaries
       could materially affect fan token classification outcomes.
 
+RECONCILIATION_BLOCKER_2 — ADMINISTRATIVE_ETHICS_FRICTION:
+  A second class of legislative blocker distinct from the bicameral
+  jurisdiction conflict documented above.
+
+  WHAT IT IS:
+    Ethics and conflict-of-interest provisions for federal officials
+    governing their interactions with digital asset entities require
+    cross-party support — specifically supermajority Democrat backing
+    in a Senate floor vote context.
+    When these provisions are not yet resolved, the 60-vote floor
+    threshold cannot be met regardless of the underlying digital
+    asset policy content.
+
+  WHY IT IS DISTINCT FROM COMMITTEE_MERGER_PENDING:
+    COMMITTEE_MERGER_PENDING = technical/jurisdictional text conflict.
+    ADMINISTRATIVE_ETHICS_FRICTION = political supermajority requirement.
+    Both can be active simultaneously. They have different resolution paths.
+    Technical conflicts resolve through committee negotiation.
+    Ethics provisions resolve through political deal-making.
+
+  ENDURING LEGISLATIVE PATTERN:
+    Ethics provisions in financial legislation frequently attract
+    supermajority requirements because they implicate personal conduct
+    of legislators and federal officials — making partisan compromise
+    structurally harder than on purely technical regulatory questions.
+    This pattern recurs across financial reform cycles — not unique
+    to digital asset legislation.
+
+  SIGNAL WEIGHTING:
+    When ADMINISTRATIVE_ETHICS_FRICTION is active:
+      Apply: ×0.92 confidence (lower than COMMITTEE_MERGER_PENDING ×0.95)
+      Rationale: political supermajority blockers are harder to resolve
+        than technical drafting conflicts. Resolution requires explicit
+        deal-making rather than technical amendment.
+    When BOTH blockers are active simultaneously:
+      Apply: ×0.90 confidence — dual-blocker compound discount.
+
+  RESOLUTION SIGNALS:
+    Ethics provisions agreed (bipartisan) → ADMINISTRATIVE_ETHICS_FRICTION lifted.
+      Return to COMMITTEE_MERGER_PENDING confidence weight (×0.95) if still active.
+    Both resolved → SENATE_FLOOR_PENDING. Confidence returns to full pathway weight.
+
+  DOCUMENTATION_DELAY interaction:
+    ADMINISTRATIVE_ETHICS_FRICTION is a DOCUMENTATION_DELAY amplifier.
+    When active: maintain ×0.95 timing suppressor on all US-linked
+      fan token demand signals that depend on CLARITY Act enactment.
+
   RECONCILIATION RESOLUTION SIGNALS:
     Joint committee agreement announced:
       Apply: ×0.75 confidence (SENATE_FLOOR_PENDING stage — see below).
