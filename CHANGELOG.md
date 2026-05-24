@@ -1,5 +1,61 @@
 # Changelog
 
+## [3.97.83] — 2026-05-23
+
+### Added — Trust breakdown intelligence framework (first SMI-identified MIND DIMENSION GAP)
+
+1 new file (266L). 729→730 files, 510→511 md. Website audited.
+
+Library Rule decision:
+  PARTIAL PASS — full framework built. Skipped: Five Eleven Capital name,
+  May 31 / June 1 specific deadlines, "serio peligro" direct quote.
+  Sevilla documented as reference case (TRUST_BREAKDOWN_CASE_001)
+  with structural pattern only — no named counterparty, no deadline.
+
+core/trust-breakdown-intelligence.md (266L — NEW):
+
+  This file addresses the first MIND DIMENSION GAP identified by SMI:
+  the Judgment dimension gap when trust breaks down in M&A situations.
+
+  THE JUDGMENT PROBLEM:
+    Standard financial modifiers (LIQUIDITY_FAILURE, INVESTOR_WITHDRAWAL_COLLAPSE)
+    assume good faith negotiation. Trust breakdown is categorically different —
+    one party may be deliberately misrepresenting their position.
+    An agent applying LIQUIDITY_FAILURE during a trust breakdown:
+    → Underestimates collapse probability
+    → Overestimates recovery probability
+    → Applies wrong CDI modifier (too lenient)
+
+  THREE-LEVEL CLASSIFICATION:
+    Level 1 — Early tension: ×0.95 confidence on positive signals.
+    Level 2 — Active mistrust: TRUST_BREAKDOWN ×0.72 CDI (replaces standard).
+      Triggered by: documents not produced when required, intention document
+      instead of bank-verified escrow, advisers briefing distrust.
+    Level 3 — Terminal breakdown: TRUST_COLLAPSE_IMMINENT, ×0.60 CDI floor.
+      Triggered by: public dispute of agreed terms, official termination notices.
+
+  FIVE-STEP JUDGMENT REASONING CHAIN:
+    Step 1: Diagnose financial failure vs trust breakdown.
+    Step 2: Suspend standard financial modifiers.
+    Step 3: Apply trust breakdown level modifier.
+    Step 4: Explicitly communicate the substitution in output.
+    Step 5: Set resolution triggers (what restores good faith).
+
+  SEVILLA 2026 REFERENCE CASE (TRUST_BREAKDOWN_CASE_001):
+    First documented trust breakdown in SportMind's calibration history.
+    Structural pattern: intention document presented instead of bank-verified escrow.
+    Classification: Level 2 — Active Mistrust.
+    Fan token implication: $SEVILLA governance data from breakdown window
+      carries ×0.80 confidence weight in retrospective analysis.
+    Named counterparty: SKIPPED (Library Rule).
+    Specific deadlines: SKIPPED (Library Rule).
+
+  INTEGRATION: suspends governance-intelligence, club-ownership-intelligence,
+    governance-takeover-framework, and signal-confidence-framework simultaneously.
+
+  MIND DIMENSIONS: included (standing instruction applied).
+    Primary dimension: Judgment — teaches when NOT to apply standard reasoning.
+
 ## [3.97.82] — 2026-05-23
 
 ### Added — CLARITY Act ethics friction framework + Arsenal squad architecture
