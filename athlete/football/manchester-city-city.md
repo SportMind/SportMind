@@ -161,6 +161,53 @@ DEMAND FLOOR:
 
 ---
 
+
+---
+
+## Competitive status — 2025/26 season (confirmed enduring facts)
+
+```
+SEASON OUTCOME 2025/26:
+  COMPETITIVE_STATUS:     POST_LEGACY_LIMBO_CONFIRMED
+  FINAL_POSITION:         2ND — 78 POINTS
+  UCL_2026_27:            CONFIRMED — Champions League qualification secured
+  GUARDIOLA_TENURE:       CLOSED — 2016 to 2026 (10 seasons)
+  FINAL_MATCH:            LOSS 1-2 vs Aston Villa (season close)
+
+SUCCESSION STATUS:
+  SUCCESSOR:              ENZO_MARESCA
+  SUCCESSOR_STATUS:       VERBAL_AGREEMENT (pending official confirmation)
+  TRANSITION_PHASE:       LIMBO_TO_TRANSITION
+
+TRANSITION CLASSIFICATION — SOFT_LANDING:
+  Definition: POST_LEGACY_LIMBO resolving with UCL qualification and a named
+  successor. The outgoing manager closes with Champions League-eligible status.
+  Incoming manager inherits a UCL club, not a rebuild situation.
+
+  Why SOFT_LANDING matters for $CITY:
+    UCL confirmation neutralises the fan token demand floor risk.
+    Named successor removes the extended uncertainty discount.
+    SOFT_LANDING transitions carry lower governance volatility than HARD_RESET.
+
+  Apply: ×0.85 governance modifier during transition phase.
+    Duration: from verbal agreement to first 5 competitive results under Maresca.
+    Review: after 5 results — if Maresca's tactical imprint is clear,
+      upgrade to standard governance weight (×1.00).
+
+  Contrast with HARD_RESET (for reference):
+    HARD_RESET occurs when: legacy manager exits without UCL qualification,
+      or without a named successor for an extended period.
+    Apply: ×0.78 governance modifier (deeper uncertainty).
+    $CITY 2025/26 is NOT a HARD_RESET case.
+
+GUARDIOLA TENURE CLOSE MODIFIER:
+  10-season tenure creates an elevated community psychological attachment.
+  Even SOFT_LANDING exit produces a short-term community sentiment shift.
+  Apply: ×0.96 community engagement modifier for first 4-6 weeks of new tenure.
+  Rationale: fans processing era transition. Not a negative signal long-term.
+  Reference: core/coaching-succession-intelligence.md for full succession model.
+```
+
 ## Compatibility
 
 **Coaching intelligence:**   `core/coaching-intelligence.md`

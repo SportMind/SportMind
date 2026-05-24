@@ -93,6 +93,35 @@ RECONCILIATION_BLOCKER_2 — ADMINISTRATIVE_ETHICS_FRICTION:
     When active: maintain ×0.95 timing suppressor on all US-linked
       fan token demand signals that depend on CLARITY Act enactment.
 
+ETHICS_AMENDMENT_VOTE — CONFIRMED OUTCOME:
+  Vote result: REJECTED — 11 votes in favour, 13 votes against.
+  PARTISAN_SPLIT: CONFIRMED — vote fell along partisan lines.
+  FAST_TRACK_STATUS: REMOVED — the amendment process has been formally abandoned.
+
+  Why this is enduring:
+    An 11-13 partisan vote is a documented legislative outcome — not a process delay.
+    It confirms that ADMINISTRATIVE_ETHICS_FRICTION cannot be resolved through
+    amendment alone. A broader legislative deal or procedural change is required.
+    This is a qualitatively different signal from "amendment pending" —
+    the amendment pathway is closed.
+
+  FLOOR_VOTE_TIMELINE: Q3_2026
+    The floor vote window has been extended. Q3_2026 is the current planning horizon.
+    Note: this is a framework anchor, not a prediction. The timeline may extend further.
+
+  SIGNAL WEIGHT IMPLICATIONS:
+    Maintain dual-blocker compound confidence: ×0.90.
+    Extend DOCUMENTATION_DELAY suppressor through Q3_2026:
+      Apply ×0.95 timing suppressor to all US-linked fan token demand signals
+      that depend on CLARITY Act enactment.
+    Do not assume Q3_2026 floor vote — treat as earliest possible window.
+
+  RESOLUTION SIGNALS (updated):
+    Amendment pathway closed: a new broader deal is required.
+    Bipartisan agreement on ethics provisions: most likely resolution path.
+    Procedural route (reconciliation, simple majority): constitutional questions apply.
+    Monitor: Senate floor scheduling announcements as primary leading signal.
+
   RECONCILIATION RESOLUTION SIGNALS:
     Joint committee agreement announced:
       Apply: ×0.75 confidence (SENATE_FLOOR_PENDING stage — see below).

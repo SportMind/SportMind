@@ -202,6 +202,52 @@ DURATION:
 
 ---
 
+
+---
+
+## Competitive status — 2025/26 season (confirmed enduring facts)
+
+```
+SEASON OUTCOME 2025/26:
+  COMPETITIVE_STATUS:     2025_26_PL_CHAMPIONS
+  FINAL_POSITION:         1ST — 85 POINTS
+  UCL_2026_27:            CONFIRMED — Champions League qualification secured
+  CHAMPION_PREMIUM:       ACTIVE
+
+CHAMPION PREMIUM FRAMEWORK:
+  When Arsenal confirms a major title, the following modifiers activate:
+
+  CHAMPION_PREMIUM: ×1.15 CDI
+    Duration: PREMIUM_HORIZON — Q3 2026 (pre-season planning period)
+    Rationale: title win is the peak commercial event. Squad confidence,
+      transfer market position, sponsorship leverage, and community sentiment
+      all reach maximum simultaneously.
+
+  SENTIMENT_FLOOR: RESET
+    A title win resets the sentiment floor to its highest historical level.
+    Previous periods of underperformance are structurally de-weighted.
+    Apply: holder sentiment baseline elevated for the following 12 months.
+
+  UCL 2026/27 COMPOUND:
+    Title win + UCL confirmation = compound positive signal.
+    ×1.15 (champion premium) × ×1.15 (UCL participation CDI) = ×1.32 peak.
+    This is the highest compound CDI modifier documented for $AFC.
+    Apply the peak during Q3 2026 (pre-season, maximum anticipation period).
+    Reduce to ×1.15 single UCL participation modifier from season start.
+
+STACKING NOTE:
+  Champion premium (×1.15) stacks with squad architecture modifiers
+  from the CONSOLIDATION_PHASE framework (×1.02-×1.04).
+  Combined peak: ×1.15 × ×1.04 = ×1.20 effective CDI.
+  Global stacking cap applies (×1.25 maximum). This stack is within cap.
+
+FTP PATH_2 IMPLICATION:
+  PL title + UCL entry = highest expected PATH_2 activity season for $AFC.
+  UCL run probability elevated from a position of squad strength.
+  Apply: ×1.10 to expected PATH_2 supply event frequency for 2026/27.
+  (Upgrade from ×1.03 documented in DEFENSIVE_ANCHOR section.)
+```
+
 ## Compatibility
 
 **Arsenal fan token:**         `fan-token/arsenal.md`

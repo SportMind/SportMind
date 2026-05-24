@@ -212,6 +212,49 @@ $SPURS DEMAND SENSITIVITY:
 
 ---
 
+
+---
+
+## Competitive status — 2025/26 season (confirmed enduring facts)
+
+```
+SEASON OUTCOME 2025/26:
+  COMPETITIVE_STATUS:     PL_SURVIVAL_CONFIRMED
+  FINAL_POSITION:         17TH — 41 POINTS
+  POINTS_ABOVE_RELEGATION: 2 POINTS
+  NEXT_SEASON:            PREMIER_LEAGUE CONFIRMED
+
+SURVIVAL MODIFIER — RELIEF RALLY:
+  When a club with an active fan token survives relegation by a narrow margin:
+  Apply: ×1.05 short-term demand signal (SURVIVAL_MODIFIER).
+  Duration: 2-4 weeks post-season confirmation.
+  Rationale: relief from maximum negative scenario produces a demand rally.
+    Relegation would have triggered a severe demand collapse (×0.45 CDI floor).
+    Survival — even narrow — removes that tail risk.
+
+SURVIVAL CONTEXT — EXTREMELY NARROW:
+  2 points above relegation is the minimum viable survival margin.
+  This is not a comfortable mid-table position — it is a cliff-edge outcome.
+
+  What this signals for 2026/27:
+    SUMMER_REBUILD_REQUIRED: the squad that nearly survived will not be sufficient.
+    Squad investment signals in the summer window carry elevated diagnostic weight.
+    Monitor: transfer activity quality and volume as squad quality proxy.
+
+  CDI implication for 2026/27 pre-season:
+    Do not apply survival relief beyond Q3 2026.
+    From August 2026: return to standard competitive trajectory modifiers.
+    If significant summer investment confirmed: ×1.05 trajectory signal.
+    If minimal investment: ×0.92 — narrow survival squad unchanged.
+
+RELEGATION RISK FRAMEWORK (carried forward):
+  The core relegation risk demand modifier framework from this file remains.
+  Narrow survival in 2025/26 raises the baseline probability of future
+  relegation threat appearing again in 2026/27.
+  Apply: ×1.10 weight to relegation signal if Spurs enter the bottom 6
+  in the first 10 weeks of 2026/27 (elevated risk context from prior season).
+```
+
 ## Compatibility
 
 **Base framework:**    `athlete/football/athlete-intel-football.md`

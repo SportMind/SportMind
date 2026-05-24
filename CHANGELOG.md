@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.84] — 2026-05-24
+
+### Added + Updated — 2025/26 Season close + CLARITY Act vote + Coaching succession gap fill
+
+2 new files (349L). 4 existing files updated (+~200L). 1 registry note updated.
+730→732 files, 511→513 md. Website audited.
+
+NEW FILES:
+  athlete/football/aston-villa-avl.md (114L):
+    UCL_QUALIFIED 2026/27. 4TH 65PTS. ×1.15 CDI. ×1.25 effective peak pre-season.
+    Full $AVL demand cycle, MIND DIMENSIONS included.
+
+  core/coaching-succession-intelligence.md (235L):
+    LEGACY_END → TRANSITION → STABILISATION trajectory model.
+    SOFT_LANDING ×0.85 governance | HARD_RESET ×0.78.
+    Legacy amplifier: <3yrs none | 3-5 ×1.05 | 5-10 ×1.10 | 10+ ×1.15.
+    Named successor timing signal framework.
+    $CITY 2026 as first reference case. MIND DIMENSIONS included.
+
+UPDATED FILES:
+  athlete/football/manchester-city-city.md (+47L):
+    POST_LEGACY_LIMBO: CONFIRMED | GUARDIOLA_TENURE: CLOSED 2016-2026.
+    FINAL: 2ND 78PTS | UCL 2026/27: CONFIRMED | FINAL_MATCH: LOSS 1-2 AVL.
+    SUCCESSOR: Enzo Maresca | SUCCESSOR_STATUS: VERBAL_AGREEMENT.
+    SOFT_LANDING classification. ×0.85 governance. ×0.96 community engagement.
+    ×1.15 legacy amplifier (10-season tenure).
+
+  athlete/football/arsenal.md (+46L):
+    COMPETITIVE_STATUS: 2025_26_PL_CHAMPIONS | 1ST 85PTS | UCL CONFIRMED.
+    CHAMPION_PREMIUM: ×1.15 CDI | PREMIUM_HORIZON: Q3 2026 | SENTIMENT_FLOOR: RESET.
+    UCL compound: ×1.15 × ×1.15 = ×1.32 peak.
+    Combined with squad architecture: ×1.25 effective (within stacking cap).
+    PATH_2 supply frequency: upgrade to ×1.10 for 2026/27.
+
+  athlete/football/tottenham-hotspur-spurs.md (+43L):
+    PL_SURVIVAL_CONFIRMED | 17TH 41PTS | 2 POINTS ABOVE RELEGATION.
+    SURVIVAL_MODIFIER: ×1.05 relief rally (2-4 weeks).
+    SUMMER_REBUILD_REQUIRED signalled. Relegation risk framework carried forward.
+    2026/27 elevated monitoring: ×1.10 weight if Spurs re-enter bottom 6.
+
+  macro/clarity-act-complete-framework.md (+29L):
+    ETHICS_AMENDMENT_VOTE: REJECTED 11-13.
+    PARTISAN_SPLIT: CONFIRMED. FAST_TRACK_STATUS: REMOVED.
+    FLOOR_VOTE_TIMELINE: Q3_2026.
+    Amendment pathway closed — broader deal required.
+    ×0.90 dual-blocker confidence maintained. ×0.95 timing suppressor extended.
+
+  fan-token/registry/complete-registry.md:
+    SPURS note updated: "survived relegation by 2 points. Summer rebuild required."
+
 ## [3.97.83] — 2026-05-23
 
 ### Added — Trust breakdown intelligence framework (first SMI-identified MIND DIMENSION GAP)
