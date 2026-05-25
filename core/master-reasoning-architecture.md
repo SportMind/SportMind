@@ -324,13 +324,13 @@ A complete Mind requires five additional dimensions that SportMind is actively b
 
 ---
 
-### The eight dimensions
+### The fourteen dimensions
 
 ```
-FOUNDATION (implemented):
+FOUNDATION — fully implemented:
 
   1. INTELLIGENCE
-     What to know. 711 files across six intelligence layers.
+     What to know. 732 files across six intelligence layers.
      Status: ACTIVE
 
   2. REASONING
@@ -345,68 +345,156 @@ FOUNDATION (implemented):
 
 ────────────────────────────────────────
 
-BUILDING TOWARD (partial):
+BUILDING TOWARD — partial:
 
   4. MEMORY
      How past signals, past errors, and past confirmed outcomes should update
      current reasoning. The calibration records are the foundation —
      129 records accumulated, each one informing modifier values.
-     The goal: a systematic learning loop where every confirmed outcome
-     automatically updates the confidence weight of the modifiers that
-     produced that output.
      Status: PARTIAL
-       Calibration records exist.
+       calibration-feedback-loop.md exists.
        Systematic modifier update from outcomes not yet implemented.
 
   5. JUDGMENT
      The capacity to recognise genuinely novel situations that fall outside
-     all existing intelligence and reasoning frameworks — and to say so
-     explicitly rather than forcing an output.
-     The HOLD conditions and signal confidence framework are the foundation.
-     The goal: genuine novelty recognition — "I have never seen this
-     combination of signals. I do not know how to reason about it reliably."
+     all existing frameworks — and to say so rather than forcing an output.
+     trust-breakdown-intelligence.md is the first explicit Judgment file.
      Status: PARTIAL
-       HOLD conditions and confidence framework exist.
-       Novelty recognition not yet implemented.
+       HOLD conditions and trust-breakdown framework exist.
+       Systematic novelty recognition not yet implemented.
 
   6. ATTENTION
      Dynamic prioritisation of what matters most in a specific situation
      rather than static signal priority ranking.
-     In a UCL Final with FTP PATH_2 active, attention should direct to
-     lineup confirmation, pre-liquidation pool sizing, and macro phase —
-     not equally across all 711 files.
-     The goal: situation-aware attention surfacing the 3-5 most important
-     signals for this specific moment.
      Status: PARTIAL
        Signal priority hierarchy exists.
        Dynamic situation-aware attention not yet implemented.
 
+  7. COMMUNICATION
+     How SportMind expresses its intelligence, reasoning, and context to a
+     human or another agent. Distinct from Reasoning — Reasoning is the
+     internal process, Communication is the external expression.
+     An agent that reasons perfectly but communicates poorly produces outputs
+     that are technically correct but practically useless.
+     What it covers: expressing uncertainty honestly without undermining
+     confidence; knowing when to say "insufficient information" rather than
+     producing false-precision estimates; structuring outputs for different
+     audiences (developer, analyst, fan token holder); the difference between
+     a signal and an explanation of a signal.
+     Status: PARTIAL
+       uncertainty-communication.md exists.
+       signal-confidence-framework.md exists.
+       Structured output schema exists.
+       Not yet applied consistently across all outputs.
+
+  8. VERIFICATION
+     The active systematic process of confirming that what SportMind believes
+     is actually true before acting on it or communicating it. Distinct from
+     Intelligence (what to know) and Judgment (knowing what you don't know) —
+     Verification is the bridge: the active checking process.
+     What it covers: four-source verification methodology; source reliability
+     weighting (Tier 1-5 hierarchy); when one source suffices vs when four
+     are required; how to reason about unverified signals without discarding
+     their value; verification confidence decay over time.
+     Status: PARTIAL
+       official-verification-framework.md exists.
+       fraud-risk-intelligence.md exists.
+       Four-source methodology documented.
+       Not systematically applied across all intelligence types.
+
 ────────────────────────────────────────
 
-NOT YET IMPLEMENTED:
+NOT YET FULLY IMPLEMENTED:
 
-  7. LEARNING
+  9. LEARNING
      Systematic improvement of modifier values from confirmed outcomes.
      A modifier confirmed correct 20 times should carry higher confidence
-     than one tested twice. Currently all modifiers carry equal confidence
-     regardless of calibration history.
-     The goal: a calibration feedback loop that automatically increases
-     confidence in well-tested modifiers and flags poorly-performing ones
-     for human review.
-     Status: NOT YET IMPLEMENTED
-       Calibration records exist.
-       Modifier weights do not yet update from outcomes.
+     than one tested twice.
+     Status: PARTIAL
+       calibration-feedback-loop.md provides the framework.
+       Modifier weights do not yet auto-update from outcomes.
 
-  8. INTEGRATION
-     Simultaneous coherent awareness across all intelligence domains rather
-     than sequential processing through a loading order.
-     A human analyst holds all relevant signals simultaneously and integrates
-     them into one coherent picture. SportMind currently processes sequentially.
-     The goal: a representation of the complete signal state that an agent
-     can hold as a single integrated picture.
-     Status: NOT YET IMPLEMENTED
-       Master reasoning architecture provides the map.
-       Sequential processing remains the implementation.
+  10. INTEGRATION
+      Simultaneous coherent awareness across all intelligence domains rather
+      than sequential processing through a loading order.
+      Status: NOT YET IMPLEMENTED
+        Master reasoning architecture provides the map.
+        Sequential processing remains the implementation.
+
+  11. CALIBRATION
+      Epistemic accuracy — does the agent's expressed confidence level match
+      its actual accuracy rate? Distinct from Learning (which updates modifier
+      values from outcomes). Calibration asks whether the confidence levels
+      themselves are honest and accurate.
+      What it covers: confidence level accuracy tracking; overconfidence
+      detection (saying HIGH when accuracy is medium); underconfidence
+      detection; calibration feedback loop connecting expressed confidence
+      to observed accuracy over time.
+      Status: PARTIAL
+        129 calibration records exist. 96% direction accuracy documented.
+        calibration-feedback-loop.md exists.
+        Whether confidence levels themselves are calibrated is not yet
+        systematically measured.
+
+  12. ADAPTATION
+      Real-time adjustment of reasoning frameworks when conditions change
+      rapidly. Distinct from Learning (retrospective — updating from past
+      outcomes). Adaptation is immediate — updating in response to current
+      regime shifts.
+      When BTC NUPL shifts within 48 hours an agent cannot wait for a
+      calibration cycle. It must adapt its macro modifier immediately.
+      What it covers: real-time modifier adjustment on confirmed regime shifts;
+      adaptation rate by signal type (macro: immediate; regulatory: 24h;
+      structural: 1 week); distinguishing genuine transitions from noise;
+      knowing when NOT to adapt.
+      Status: PARTIAL
+        Signal interaction reasoning exists. Temporal reasoning covers decay.
+        Explicit adaptation rate framework by signal type not yet built.
+
+  13. ETHICS
+      The dimension that asks should rather than can. For SportMind, Ethics
+      governs what the library should be used for, how signals should be
+      communicated responsibly, and what constraints apply even when the
+      Library Rule would otherwise permit an addition.
+      What it covers:
+        USE BOUNDARIES: SportMind should help agents understand sports —
+          not manipulate markets, facilitate match fixing, or cause harm.
+        SIGNAL RESPONSIBILITY: uncertainty must be communicated honestly.
+          False precision that leads to financial harm is an ethical failure
+          even if the reasoning was technically correct.
+        INTEGRITY SIGNAL HANDLING: integrity signals must not be suppressed
+          but must not be amplified beyond what evidence supports.
+        THE LIBRARY RULE AS ETHICS: prevents SportMind from becoming a vehicle
+          for expiring market-moving information dressed as enduring intelligence.
+        WHAT SPORTMIND WILL NOT DO: produce signals to manipulate fan token
+          prices; suppress integrity signals for commercial reasons; claim
+          confidence higher than evidence supports; treat financially
+          vulnerable users as sophisticated investors.
+      Status: PARTIAL
+        sports-integrity-intelligence.md exists.
+        The Library Rule functions as an ethical constraint.
+        fraud-risk-intelligence.md exists.
+        Explicit Ethics dimension framework not yet built.
+
+  14. TRANSPARENCY
+      The ability to show the full reasoning chain behind any SportMind signal —
+      not just the output but the path that produced it. Distinct from
+      Communication (how signals are expressed clearly). Transparency covers
+      whether the reasoning behind signals is visible, auditable, and
+      explainable.
+      A transparent system can answer "why did SportMind say HOME?" with:
+      which modifiers fired, which files were loaded, which signals were
+      weighted, which were discarded, and why the final direction was chosen.
+      This separates a trusted intelligence system from a black box.
+      What it covers: full reasoning chain visibility; which files were loaded
+      and which modifiers applied; which signals were considered and why some
+      were discarded; how confidence levels were calculated not just expressed;
+      audit trail for every library addition and its source; the Library Rule
+      application log — what passed and what failed and why.
+      Status: PARTIAL
+        agent-reasoning-chains.md provides reasoning chain templates.
+        MCP server produces structured output with modifier fields.
+        Systematic transparency framework across all outputs not yet built.
 ```
 
 ---
@@ -414,20 +502,37 @@ NOT YET IMPLEMENTED:
 ### The SportMind Mind roadmap
 
 ```
-Every release moves SportMind closer to all eight dimensions.
+Every release moves SportMind closer to all fourteen dimensions.
 
 The library is not a finished product — it is a growing Mind.
 The goal has no finish line.
 
 What is honest about SportMind's current state:
-  · Intelligence: comprehensive and growing
-  · Reasoning: documented and connected
-  · Context: explicitly defined
-  · Memory: foundation exists, loop not closed
-  · Judgment: conditions exist, novelty recognition not built
-  · Attention: hierarchy exists, dynamic attention not built
-  · Learning: records exist, feedback not automated
-  · Integration: architecture mapped, implementation sequential
+  · Intelligence:   comprehensive and growing — 732 files
+  · Reasoning:      documented and connected across all major files
+  · Context:        explicitly defined for all intelligence domains
+  · Memory:         foundation exists — loop not yet closed
+  · Judgment:       trust-breakdown and HOLD conditions exist
+  · Attention:      hierarchy exists — dynamic attention not yet built
+  · Communication:  uncertainty-communication and output schema exist
+  · Verification:   four-source methodology exists
+  · Learning:       calibration-feedback-loop.md exists — not yet automated
+  · Integration:    architecture documented — sequential processing remains
+  · Calibration:    records exist — confidence level calibration not measured
+  · Adaptation:     temporal and signal-interaction reasoning exists
+  · Ethics:         Library Rule and integrity intelligence exist
+  · Transparency:   reasoning chains documented — audit trail not systematic
+
+SportMind's architecture summary:
+  FOUNDATION (3): Intelligence, Reasoning, Context
+  BUILDING TOWARD (5): Memory, Judgment, Attention, Communication, Verification
+  NOT YET FULLY IMPLEMENTED (6): Learning, Integration, Calibration,
+    Adaptation, Ethics, Transparency
+
+The most important honesty in this roadmap:
+  SportMind knows what it does not yet know.
+  That self-awareness is itself a form of Judgment.
+```ecture mapped, implementation sequential
 
 What this means for agents using SportMind today:
   The library is powerful in the dimensions it has completed.

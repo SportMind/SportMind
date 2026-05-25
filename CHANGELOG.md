@@ -1,5 +1,74 @@
 # Changelog
 
+## [3.97.85] — 2026-05-24
+
+### Updated — Fourteen-dimension Mind architecture (eight → fourteen)
+
+1 file updated. No new files. Library count unchanged: 732 files.
+
+core/master-reasoning-architecture.md (462→567L UPDATED):
+
+  Six new dimensions added to the SportMind Mind architecture:
+  Total: 8 → 14 dimensions.
+
+  NEW DIMENSIONS (7-14):
+
+  7. COMMUNICATION (PARTIAL)
+     How SportMind expresses intelligence to humans and agents.
+     Distinct from Reasoning (internal) — Communication is external expression.
+     Existing: uncertainty-communication.md, signal-confidence-framework.md,
+       structured output schema.
+     Gap: not yet applied consistently across all outputs.
+
+  8. VERIFICATION (PARTIAL)
+     Active systematic confirmation that what SportMind believes is true.
+     Bridge between Intelligence (what to know) and Judgment (knowing limits).
+     Existing: official-verification-framework.md, fraud-risk-intelligence.md,
+       four-source methodology.
+     Gap: not systematically applied across all intelligence types.
+
+  9. LEARNING (moved from 7, now fully described) (PARTIAL)
+     Systematic improvement of modifier values from confirmed outcomes.
+
+  10. INTEGRATION (moved from 8) (NOT YET IMPLEMENTED)
+      Simultaneous coherent awareness across all domains.
+
+  11. CALIBRATION (NOT YET FULLY IMPLEMENTED)
+      Epistemic accuracy — does expressed confidence match actual accuracy rate?
+      Distinct from Learning. Calibration asks whether confidence levels
+      themselves are honest and accurate, not just whether modifiers are right.
+      Existing: 129 records, 96% accuracy, calibration-feedback-loop.md.
+      Gap: confidence level calibration not systematically measured.
+
+  12. ADAPTATION (NOT YET FULLY IMPLEMENTED)
+      Real-time modifier adjustment when conditions change rapidly.
+      Distinct from Learning (retrospective). Adaptation is immediate.
+      Adaptation rate framework by signal type not yet built.
+
+  13. ETHICS (NOT YET FULLY IMPLEMENTED)
+      Should rather than can. Use boundaries, signal responsibility,
+      integrity signal handling, the Library Rule as ethics.
+      What SportMind will not do: manipulate prices, suppress integrity
+      signals, claim false confidence, treat vulnerable users as sophisticates.
+
+  14. TRANSPARENCY (NEW — added in same session)
+      Full reasoning chain visibility — why SportMind said what it said.
+      Distinct from Communication (how output is expressed clearly).
+      Transparency makes the process that produced the output visible.
+      Existing: reasoning chain templates, MCP structured output.
+      Gap: systematic transparency framework not yet built.
+
+STANDING INSTRUCTION UPDATED:
+  All future files must map ## MIND DIMENSIONS against all 14 dimensions.
+  Use [NOT APPLICABLE] or [EMERGING] for dimensions not relevant or implemented.
+  Making gaps visible rather than hiding them.
+
+ROADMAP UPDATED:
+  FOUNDATION (3): Intelligence, Reasoning, Context
+  BUILDING TOWARD (5): Memory, Judgment, Attention, Communication, Verification
+  NOT YET FULLY IMPLEMENTED (6): Learning, Integration, Calibration,
+    Adaptation, Ethics, Transparency
+
 ## [3.97.84] — 2026-05-24
 
 ### Added + Updated — 2025/26 Season close + CLARITY Act vote + Coaching succession gap fill
