@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.97.87] — 2026-05-25
+
+### Added — Lazio coaching intelligence ($LAZIO BNB Chain)
+
+1 new file (210L). 733→734 files, 514→515 md. Website audited.
+
+Library Rule: FULL PASS. Gattuso named as confirmed appointment (same precedent
+as Maresca in v3.97.84). HIGH_INTENSITY style, BNB Chain discount, all enduring.
+
+athlete/football/lazio.md (210L — NEW):
+
+  COACHING_STATUS: STABILIZED
+  MANAGER: GENNARO_GATTUSO
+  CONTRACT: 2_YEARS (2026/27)
+  STYLE: HIGH_INTENSITY
+  TRANSITION_MODIFIER: ×1.04
+
+  THREE-STATE COACHING FRAMEWORK:
+    LIMBO: no confirmed coach → ×0.88 governance.
+    TRANSITION: confirmed but first 5 results pending → ×0.92.
+    STABILIZED: 2+ year contract, identity established → ×1.04.
+
+  HIGH_INTENSITY TACTICAL INTELLIGENCE:
+    Primary form signal: PPDA (not possession or pass accuracy).
+    Fixture congestion amplifier: ×0.88 SEVERE (vs ×0.91 standard).
+    Opponent adjustment: high vulnerability for slow build-up teams.
+
+  $LAZIO BNB CHAIN FRAMEWORK:
+    Chain: BNB (not Chiliz). CHZ weight: ×0.70 discount.
+    Primary macro weight: BTC NUPL phase (standard weight).
+    FTP PATH_2: NOT CONFIRMED — demand-only framework.
+    Derby della Capitale: ×1.25 demand premium (highest single fixture).
+    Appointment signal: ×1.08 short-term (decays to ×1.04 structural at 4 weeks).
+
+  ALL 14 MIND DIMENSIONS mapped (standing instruction applied).
+
 ## [3.97.86] — 2026-05-24
 
 ### Added — Competition calendar intelligence + Season Intelligence Agent use-case
