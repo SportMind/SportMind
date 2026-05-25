@@ -1,5 +1,37 @@
 # Changelog
 
+## [3.97.86] — 2026-05-24
+
+### Added — Competition calendar intelligence + Season Intelligence Agent use-case
+
+1 new file (348L). 1 website update. 732→733 files, 513→514 md. Website audited.
+
+market/competition-calendar-intelligence.md (348L — NEW):
+  Enduring reasoning framework for how competition fixture calendars affect
+  fan token demand, FTP PATH_2 supply event timing, and seasonal patterns.
+  Designed for Season Intelligence Agent development.
+  SportMind provides the reasoning. Developer provides live fixture data.
+
+  SIX SECTIONS:
+    1. Competition structure signal weights (UCL ×1.10-×2.00, domestic cup ×1.02-×1.60)
+    2. Fixture congestion framework (SEVERE ×0.91, MODERATE ×0.94, MILD ×0.97)
+    3. International break intelligence (pre-break ×0.97, post-break ×0.93 confidence)
+    4. Season arc demand patterns (pre-season ×1.15, run-in ×1.30 to ×0.72)
+    5. FTP PATH_2 calendar framework (25-35 expected burns per UCL season)
+    6. Seven-step reasoning chain with structured fixture brief template
+
+  ALL 14 MIND DIMENSIONS explicitly mapped.
+  False positive Library Rule check: "specific date" appears as enforcement
+    text ("not specific date") — not a violation.
+
+use-cases/index.html:
+  "Season Intelligence Agent" card added after card 3 (before Daily Digest).
+  Status: BUILD THIS | Category: fan-tokens sports-analysis | Icon: 📅
+  Layers: Sport domain, Athlete, Fan token, Market, Seasonal, FTP PATH_2,
+    All 14 Mind dimensions.
+  Built on: intelligence-agent kit | Cost: Minimal (no dollar figure).
+  Link: /suite/#agent
+
 ## [3.97.85] — 2026-05-24
 
 ### Updated — Fourteen-dimension Mind architecture (eight → fourteen)
