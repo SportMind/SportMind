@@ -227,6 +227,20 @@ Recognition: `community/CONTRIBUTORS.md`
 
 MIT — free to use, modify, and redistribute for any purpose.
 
+## Privacy
+
+SportMind does not collect or process personal data.
+
+Some SportMind frameworks reason about holder behaviour and on-chain wallet
+activity. Developers building applications that combine these frameworks with
+identifying information may be processing personal data under GDPR, UK GDPR,
+CCPA, or applicable local law.
+
+See `core/privacy-notice.md` for a full developer privacy reference.
+
+SportMind is MIT licensed. Developers are responsible for their own compliance
+with data protection law when building on this library.
+
 ---
 
 *WHO-USES-THIS.md → FIRST-RECORD-CHALLENGE.md → examples/starter-pack/*

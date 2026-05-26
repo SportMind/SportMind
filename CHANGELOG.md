@@ -1,5 +1,35 @@
 # Changelog
 
+## [3.97.88] — 2026-05-26
+
+### Added — Developer privacy notice
+
+1 new file (197L). 1 README update. 1 docs footer update.
+734→735 files, 515→516 md.
+
+Library Rule: FULL PASS. GDPR/CCPA/UK GDPR as enacted laws — enduring.
+No specific dates, no expiring regulatory status.
+
+core/privacy-notice.md (197L — NEW):
+  Developer reference document. Not a reasoning framework.
+  Covers four SportMind frameworks that may involve personal data:
+    fan-token/fan-holder-profile-intelligence.md (holder archetype — profiling)
+    fan-token/governance-intelligence.md (CHI scoring + vote tracking)
+    platform/chiliz-chain-address-intelligence.md (wallet pseudonymity)
+  Covers: GDPR/UK GDPR/CCPA developer obligations. On-chain pseudonymity note.
+  SportMind position: privacy is Ethics dimension expression, not a new dimension.
+  All 14 MIND DIMENSIONS mapped (most [NOT APPLICABLE] — by design for a ref doc).
+  Not legal advice. MIT licensed. Developer compliance is developer responsibility.
+
+README.md:
+  ## Privacy section added after ## License.
+  Points to core/privacy-notice.md.
+  One paragraph statement of SportMind's position.
+
+docs-index.html:
+  Privacy notice link added to footer.
+  GDPR/CCPA compliance note added to footer copy.
+
 ## [3.97.87] — 2026-05-25
 
 ### Added — Lazio coaching intelligence ($LAZIO BNB Chain)
