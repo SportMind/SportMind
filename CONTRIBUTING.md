@@ -2,6 +2,8 @@
 
 Thank you for wanting to contribute. SportMind's value comes entirely from the quality and breadth of its skills — every sport expert who contributes makes every AI agent that uses SportMind smarter.
 
+Looking to report a framework gap rather than submit a calibration record? See [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md).
+
 ---
 
 ## THE SPORTMIND LIBRARY RULE

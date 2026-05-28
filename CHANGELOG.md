@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.97.89] — 2026-05-28
+
+### Added — CONTRIBUTING-GAPS.md (community gap intake framework)
+
+1 new file (97L). 2 files updated (README.md, CONTRIBUTING.md). 735→736 files, 516→517 md.
+
+Library Rule: FULL PASS. Enduring contribution framework — no expiring data.
+
+CONTRIBUTING-GAPS.md (97L — NEW):
+  Structured gap report format for developers and agents building on SportMind.
+  Covers: what qualifies as a gap, the Library Rule applied to gaps,
+  GitHub Issue template (8 fields), what happens to accepted gaps,
+  what SportMind will never add from gap reports.
+  Issue template includes: gap type, sport/domain, situation, what SportMind
+  could not do, why it matters, affected files, affected Mind dimension,
+  suggested resolution, evidence, and contributor context.
+  First 10 external gap contributors resulting in library additions
+  will be permanently credited in SportMind's contribution history.
+
+README.md: "Found a gap?" line added to Contributing section.
+CONTRIBUTING.md: Gap document reference added after opening paragraph.
+
+Commit message: "Add CONTRIBUTING-GAPS.md — structured gap report format for
+developers and agents building on SportMind. Zero-cost placeholder for
+community intelligence intake. Automated guardrails deferred until
+community scale justifies them."
+
 ## [3.97.88] — 2026-05-26
 
 ### Added — Developer privacy notice

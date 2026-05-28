@@ -213,6 +213,8 @@ superspeedway_specialist (NASCAR)
 **The fastest contribution: one calibration record.** No coding required.
 See **[FIRST-RECORD-CHALLENGE.md](FIRST-RECORD-CHALLENGE.md)**.
 
+**Found a gap?** If SportMind cannot reason about something you need — see [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md).
+
 What the community needs most:
 - Football calibration records (athlete_modifier: 25/50 threshold)
 - Cricket dew_factor records (evening T20 matches)
