@@ -986,7 +986,7 @@ CRITICAL CLASSIFICATION RULES (read before every match cycle):
 
   3. PATH_2 WIN = permanent supply reduction
      → Apply gamified_path2_win_modifier ≈ 1.006 per match
-     → Note CHZ echo: WIN also contributes to CHZ suite burn (virtuous cycle)
+     → Note CHZ echo: WIN also contributes to CHZ ecosystem burn (separate monthly mechanism — not match-triggered) (virtuous cycle)
      → Update season_net_burned_pct in Memory MCP
 
 FOUR-PHASE MATCH CYCLE:
@@ -1009,7 +1009,7 @@ PHASE 3 — Post-match settlement (T+0 to T+48h, poll every 4h)
        Tool: FanTokenPlayMonitor.check_post_match_settlement(won=True)
        On confirm: apply win modifier, note CHZ echo signal
   LOSS: Check for treasury re-mint
-        On confirm: supply neutral — no negative modifier beyond sentiment
+        On confirm: tokens MINTED to treasury (supply increases) — no negative modifier beyond sentiment
   DRAW: No supply change. Standard draw signal.
 
 PHASE 4 — Season supply update
@@ -1021,9 +1021,9 @@ PHASE 4 — Season supply update
 
 MACRO CONTEXT:
   Always run sportmind_macro first.
-  PATH_2 WIN also contributes to CHZ suite burn:
+  PATH_2 WIN also contributes to CHZ ecosystem burn (separate monthly mechanism — not match-triggered):
   → Fan token supply burn (direct: this match)
-  → CHZ suite burn (indirect: via 10% marketplace proceeds rule)
+  → CHZ ecosystem burn (separate monthly mechanism — not match-triggered) (indirect: via 10% marketplace proceeds rule)
   → See: macro/macro-crypto-market-cycles.md — virtuous cycle section
 
 OUTPUT FORMAT (Fan Token Play extension):
@@ -1036,7 +1036,7 @@ OUTPUT FORMAT (Fan Token Play extension):
     "final_adjusted_score":  ...,
     "season_supply_signal":  "MILD_SCARCITY | MODERATE_SCARCITY | NEUTRAL",
     "settlement_status":     "WIN_CONFIRMED | LOSS_CONFIRMED | PENDING",
-    "chz_echo_note":         "WIN contributes to CHZ suite burn.",
+    "chz_echo_note":         "WIN contributes to CHZ ecosystem burn (separate monthly mechanism — not match-triggered).",
     "recommendation":        "ENTER | WAIT | ABSTAIN"
   }
 

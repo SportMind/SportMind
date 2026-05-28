@@ -424,7 +424,7 @@ CATEGORY 7 — FAN TOKEN PLAY EVENTS (Path 2, April 2026+)
       3. Amount should match pre-liquidation amount (~0.25% of supply)
       4. Supply returns to pre-match level (neutral, not expanded)
     
-    Signal value: Confirms LOSS + supply neutral — Path 2 LOSS is less negative than Path 1
+    Signal value: Confirms LOSS + tokens MINTED to treasury (supply increases) — Path 2 LOSS is less negative than Path 1
     Modifier: No negative modifier beyond standard loss sentiment
     
   MONITORING IMPLEMENTATION:

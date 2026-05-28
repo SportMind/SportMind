@@ -112,9 +112,9 @@ LOSS RESULT — No PATH_2 supply change:
 
   SPECULATOR:
     Trigger window: T+60 to T+90
-    Message brief:  "Result: [score]. Supply neutral — no burn event."
+    Message brief:  "Result: [score]. MINTING event — tokens minted to treasury."
     Tone:          Factual. Reassurance that supply did not inflate.
-    Include:       Confirmation that LOSS = supply neutral (not dilutive)
+    Include:       Confirmation that LOSS = tokens MINTED to treasury (supply increases) (not dilutive)
     Key education: Many Speculators incorrectly expect supply INCREASE on loss
 
   GOVERNOR / AMPLIFIER:

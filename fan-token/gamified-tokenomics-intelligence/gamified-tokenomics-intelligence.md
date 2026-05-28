@@ -80,7 +80,7 @@ This is the Vision 2030 "virtuous cycle":
 WHAT THIS MEANS FOR AGENT REASONING:
   Path 2 generates TWO deflationary events from a single WIN:
     1. Fan token burn (95% buyback from WIN proceeds)
-    2. CHZ suite burn (via 10% marketplace proceeds rule)
+    2. CHZ ecosystem burn (separate monthly mechanism — not match-triggered) (via 10% marketplace proceeds rule)
 
   These are DIFFERENT assets but CONNECTED mechanisms.
   An agent analysing $AFC post-win should note both:
@@ -328,7 +328,7 @@ PHASE 4 — LOSS OUTCOME (within T+48h post full-time):
   Effect: Circulating supply returns to pre-liquidation level (neutral net)
   On-chain: Mint transaction to treasury wallet visible on chiliscan.com
   
-  Modifier: gamified_path2_loss_modifier = 1.00 (loss = supply restored, not expanded)
+  Modifier: gamified_path2_loss_modifier = 1.00 (loss = tokens MINTED to treasury (supply increases), not expanded)
   
   IMPORTANT: Path 2 LOSS is less damaging than Path 1 LOSS:
     Path 1 loss: NEW tokens minted beyond original supply
@@ -437,7 +437,7 @@ STEP 8: OUTPUT WITH GAMIFIED EXTENSION
     "direction": "HOME",
     "adjusted_score": 72.8,
     "recommended_action": "ENTER",
-    "gamified_amplification": "WIN = 95% buyback + burn. Path 2 supply neutral on LOSS."
+    "gamified_amplification": "WIN = 95% buyback + burn. Path 2 MINTING event on LOSS (supply increases)."
   },
 
   "flags": {

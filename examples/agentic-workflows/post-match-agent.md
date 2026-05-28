@@ -120,8 +120,8 @@ WINDOW 2 — T+2h to T+24h: PRIMARY COMMERCIAL SIGNAL
   
   LOSS result (expected):
     Signal: WAIT — CDI negative window, T+24h minimum before next entry
-    FTP (Path 2): confirm re-mint to treasury; supply neutral, no punishment
-    Brief tone: honest, note supply neutrality, point to next fixture
+    FTP (Path 2): confirm re-mint to treasury; tokens MINTED to treasury (supply increases), no punishment
+    Brief tone: honest, note minting event (supply increased), point to next fixture
   
   LOSS result (unexpected — pre-match said HOME win):
     Signal: ABSTAIN — unexpected loss, full review before next position
@@ -161,7 +161,7 @@ T+2h COMMERCIAL SIGNAL:
 
 FAN TOKEN PLAY (PATH 2 — $AFC):
   Result: LOSS
-  Settlement: re-mint to treasury (~0.25% supply) — supply NEUTRAL
+  Settlement: re-mint to treasury (~0.25% supply) — MINTING event (supply increases)
   NOT a dilution event. Season net burned position: unchanged.
   Next match prep: FTP monitoring resets at T-48h next fixture.
 

@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.97.90] — 2026-05-28
+
+### CRITICAL CORRECTIONS — FTP factual errors corrected from Chiliz primary sources
+
+0 new files. 10 files corrected. Counts unchanged: files=736, md=517.
+
+SOURCES:
+  chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/ — VERIFIED
+  chiliz.com/chz-burn-report-may2026/ — VERIFIED
+
+CORRECTION 1 — LOSS outcome language (9 files):
+  WRONG (removed from all files):
+    "LOSS = supply neutral"
+    "LOSS = supply restored"
+  CORRECT (now in all files):
+    LOSS = tokens MINTED to treasury (supply increases)
+  Files corrected: platform/fan-engagement-connector.md,
+    platform/chiliz-chain-address-intelligence.md,
+    agent-prompts/agent-prompts.md,
+    examples/agentic-workflows/live-match-agent.md,
+    examples/agentic-workflows/fan-token-play-monitor.md,
+    examples/agentic-workflows/post-match-agent.md,
+    fan-token/gamified-tokenomics-intelligence/gamified-tokenomics-intelligence.md,
+    fan-token/on-chain-event-intelligence/on-chain-event-intelligence.md,
+    fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md
+
+CORRECTION 2 — WIN outcome fee split (fan-token/ftp-path2.md):
+  Added: 5% fee deducted from proceeds.
+  Added: Remaining 95% buys and permanently burns the Fan Token.
+  Added: This burns the FAN TOKEN directly — not CHZ.
+  Added: CHZ burn is a separate monthly mechanism — not match-triggered.
+  Also corrected: "CHZ suite burn" → "CHZ ecosystem burn (separate monthly
+    mechanism)" in agent-prompts, fan-token-play-monitor,
+    gamified-tokenomics-intelligence (3 files).
+
+CORRECTION 3 — MODEL 1 framework:
+  Already correctly documented. No change required.
+
+CORRECTION 4 — CHZ Monthly Ecosystem Burn (fan-token/ftp-path2.md):
+  New section added: "CHZ ECOSYSTEM BURN — SEPARATE FROM FTP"
+  Documents: 10% of ALL Fan Token proceeds → monthly CHZ buyback and burn.
+  Confirmed executions: March 2026, April 2026, May 2026 (4,660,013 CHZ, ~$165,356).
+  Burn address: 0x000...dead. Part of Chiliz 2030 deflationary strategy.
+  Three-mechanism distinction table added:
+    FTP Model 1 | FTP Model 2 (PATH_2) | CHZ Ecosystem Burn
+
+ZERO incorrect FTP terms remaining across all library files.
+
 ## [3.97.89] — 2026-05-28
 
 ### Added — CONTRIBUTING-GAPS.md (community gap intake framework)

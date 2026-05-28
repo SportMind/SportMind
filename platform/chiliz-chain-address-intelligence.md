@@ -640,7 +640,7 @@ class FanTokenPlayMonitor:
     Three detectable events per match (Path 2 tokens only):
       1. Pre-liquidation (T-48h): treasury sells ~0.25% supply → USDT
       2. Post-win burn: 95% proceeds buy back + burn to zero address
-      3. Post-loss re-mint: treasury receives ~0.25% supply (supply neutral)
+      3. Post-loss re-mint: treasury receives ~0.25% supply (MINTING — supply increases on LOSS)
 
     Requirements:
       - Contract address for the fan token
@@ -785,7 +785,7 @@ class FanTokenPlayMonitor:
         Detect post-match Fan Token Play settlement (within T+48h of result).
 
         WIN: 95% of proceeds buy back + burn to zero address → supply decreases
-        LOSS: pre-liquidated amount minted back to treasury → supply neutral
+        LOSS: pre-liquidated amount minted back to treasury → tokens MINTED to treasury (supply increases)
 
         Args:
           won: True if team won; False if lost or drew

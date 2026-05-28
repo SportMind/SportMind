@@ -204,13 +204,13 @@ async def check_post_match_settlement(contract: str, treasury: str,
                     "event":   "FAN_TOKEN_PLAY_WIN_CONFIRMED",
                     "hash":    tx["hash"],
                     "note":    "Supply permanently reduced. Update season_net_burned_pct.",
-                    "chz_echo": "WIN also contributes to CHZ suite burn.",
+                    "chz_echo": "WIN also contributes to CHZ ecosystem burn (separate monthly mechanism — not match-triggered).",
                 }
             elif not won and tx.get("to", "").lower() == treasury_l:
                 return {
                     "event":  "FAN_TOKEN_PLAY_LOSS_CONFIRMED",
                     "hash":   tx["hash"],
-                    "note":   "Supply neutral — pre-liquidated amount restored to treasury only.",
+                    "note":   "tokens MINTED to treasury (supply increases) — pre-liquidated amount restored to treasury only.",
                 }
     return {"event": "PENDING", "note": "Settlement not yet confirmed. Check again in 4h."}
 

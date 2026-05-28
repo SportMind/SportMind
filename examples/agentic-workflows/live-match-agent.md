@@ -296,7 +296,7 @@ FTP PATH_2 LIVE RULES:
     See: fan-token/defi-liquidity-intelligence/ Section 10 (algo feedback timing)
     
   FULL-TIME LOSS:
-    Supply neutral. Do not apply any negative modifier.
+    tokens MINTED to treasury (supply increases). Do not apply any negative modifier.
     See: fan-token/gamified-tokenomics-intelligence/ LOSS = supply-neutral rule.
 
   FRAUD CHECK AT FULL-TIME:

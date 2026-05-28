@@ -272,7 +272,7 @@ WATCH LIST (potential new national token launches):
 
 ## PATH_2 interaction with World Cup 2026
 
-The Fan Token Play PATH_2 mechanism (supply burn on WIN, supply neutral on LOSS)
+The Fan Token Play PATH_2 mechanism (supply burn on WIN, MINTING event on LOSS (supply increases))
 operates unchanged during the World Cup. Tournament context amplifies the commercial
 significance of each burn event — but the protocol mechanics are identical to
 domestic fixtures. This section defines what changes and what does not.

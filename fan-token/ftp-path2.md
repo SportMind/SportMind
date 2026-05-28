@@ -6,7 +6,8 @@ and Model 2 (prediction market settlement) — and defines how agents should
 reason about each model's signal timing and supply implications.**
 
 > Source: chiliz.com/chiliz-group-announces-gamified-fan-tokens-including-disruptive-new-mint-and-burn-tokenomics/ — VERIFIED
-> Secondary source: chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/ — VERIFIED
+> Source: chiliz.com/win-and-they-burn-lose-and-they-mint-fan-token-play-explained/ — VERIFIED
+> Source: chiliz.com/chz-burn-report-may2026/ — VERIFIED (CHZ ecosystem burn, May 2026 execution)
 > Date confirmed: 09 April 2026 (Chiliz Group official announcement)
 > This file complements `fan-token/gamified-tokenomics-intelligence/` which
 > contains the full signal chain and workflow. Load this file first for
@@ -171,8 +172,11 @@ MODEL 2 — PREDICTION MARKET SETTLEMENT LAYER (active trial)
 
   PHASE 3 — RESULT SETTLEMENT:
     WIN:   Settlement proceeds used for $AFC BUYBACK from open market
+           FEE SPLIT: 5% fee deducted from proceeds
+           Remaining 95% used to buy and permanently BURN the Fan Token ($AFC)
            Purchased tokens immediately BURNED (permanent supply reduction)
            Executed within 48h of final result
+           NOTE: This burns the FAN TOKEN directly — not CHZ
     LOSS:  New tokens MINTED to treasury to fund LOSS payouts
            Executed within 48h of final result
     DRAW:  No supply change — market settles at no-movement
@@ -320,6 +324,58 @@ SAFEGUARD QUICK REFERENCE (applies to both Model 1 and Model 2):
 ```
 
 ---
+
+
+---
+
+## CHZ ECOSYSTEM BURN — SEPARATE FROM FTP
+
+```
+MECHANISM:     CHZ Monthly Buyback and Burn
+DISTINCT FROM: Fan Token Play (Model 1 and Model 2)
+OPERATOR:      Chiliz ecosystem-level — not token-specific
+
+WHAT IT IS:
+  10% of ALL Fan Token proceeds (transactions and marketplace activities)
+  is allocated monthly to buy CHZ from the open market.
+  These CHZ tokens are then permanently burned.
+
+WHAT IT IS NOT:
+  This is NOT triggered by match results.
+  This does NOT burn Fan Tokens ($AFC, $BAR etc.).
+  This is NOT part of FTP Model 1 or Model 2.
+  This is a separate deflationary mechanism for the CHZ ecosystem token.
+
+CADENCE:       Monthly — independent of fixture calendar
+SCOPE:         ALL Fan Token activity (not just FTP clubs)
+BURNS:         CHZ — not the specific Fan Token
+BURN ADDRESS:  0x000...dead (zero-address permanent burn)
+
+CONFIRMED EXECUTION HISTORY:
+  March 2026:  First execution
+  April 2026:  Second execution
+  May 2026:    4,660,013 CHZ burned (~$165,356 USD value)
+
+STRATEGIC CONTEXT:
+  Part of Chiliz 2030 deflationary strategy.
+  Creates indirect correlation between Fan Token ecosystem activity
+  and CHZ supply reduction — but through a monthly aggregated mechanism,
+  not per-match supply events.
+
+AGENT RULE — DO NOT CONFLATE:
+  A WIN for an FTP club burns the FAN TOKEN (e.g. $AFC).
+  The monthly CHZ burn is a separate event driven by total ecosystem volume.
+  Never attribute the CHZ monthly burn to a specific match result.
+  Never attribute the Fan Token burn (WIN) to the CHZ burn mechanism.
+```
+
+**THREE MECHANISMS — ALWAYS KEEP DISTINCT:**
+
+| Mechanism | Triggered by | Burns | Cadence |
+|---|---|---|---|
+| FTP Model 1 | Match result (WIN) | Fan Token (from treasury) | Per match |
+| FTP Model 2 (PATH_2) | Match result (WIN = buyback) | Fan Token (from market) | Per match |
+| CHZ Ecosystem Burn | Total Fan Token volume | CHZ | Monthly |
 
 ## Calibration records — FTP PATH_2
 
