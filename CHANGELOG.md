@@ -1,5 +1,23 @@
 # Changelog
 
+## [3.97.91] — 2026-05-28
+
+### Added — Verified on-chain transaction hashes to CHZ ecosystem burn section
+
+0 new files. 1 file updated (fan-token/ftp-path2.md). Counts unchanged: 736/517.
+
+fan-token/ftp-path2.md — CHZ ECOSYSTEM BURN section updated:
+  VERIFIED ON-CHAIN TRANSACTIONS block added:
+    March 2026: 0x8a2408971ffd48381d3f3a218cbddcdcaa71ac294f0c1aeaeec1cee97a7a4320
+    April 2026: 0x68059fb62539b3bfdf942b5e97751a8c36bc374aad682090250514f5a3f662e1
+    May 2026:   0x3f2dea807d47753442b287b316fd681707f6ee183ac87c8330a24b0e3a66f484
+    Burn address: 0x000000000000000000000000000000000000dead
+    Explorer: scan.chiliz.com
+  May 2026 amounts updated to precise figures:
+    4,660,013.33 CHZ | $165,356.19 USD
+  Pattern note: monthly cadence confirmed across three consecutive months.
+  Future burns instruction: burns to be appended as confirmed on-chain.
+
 ## [3.97.90] — 2026-05-28
 
 ### CRITICAL CORRECTIONS — FTP factual errors corrected from Chiliz primary sources

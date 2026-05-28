@@ -354,7 +354,18 @@ BURN ADDRESS:  0x000...dead (zero-address permanent burn)
 CONFIRMED EXECUTION HISTORY:
   March 2026:  First execution
   April 2026:  Second execution
-  May 2026:    4,660,013 CHZ burned (~$165,356 USD value)
+  May 2026:    4,660,013.33 CHZ burned ($165,356.19 USD value)
+
+VERIFIED ON-CHAIN TRANSACTIONS:
+  March 2026:  0x8a2408971ffd48381d3f3a218cbddcdcaa71ac294f0c1aeaeec1cee97a7a4320
+  April 2026:  0x68059fb62539b3bfdf942b5e97751a8c36bc374aad682090250514f5a3f662e1
+  May 2026:    0x3f2dea807d47753442b287b316fd681707f6ee183ac87c8330a24b0e3a66f484
+  Burn address: 0x000000000000000000000000000000000000dead
+  Explorer:    scan.chiliz.com
+
+  Pattern: monthly cadence confirmed across three consecutive months.
+  These transactions confirm the mechanism is live and executing monthly.
+  Future burns should be appended here as they are confirmed on-chain.
 
 STRATEGIC CONTEXT:
   Part of Chiliz 2030 deflationary strategy.
