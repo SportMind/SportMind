@@ -119,11 +119,15 @@ CONFIRMED PATTERN:
     Result: $PSG WIN
   2026 UCL Final: Paris Saint-Germain ($PSG) vs Arsenal ($AFC)
     Scheduled: 30 May 2026, Puskás Aréna, Budapest
-    Status: Fan token clubs in BOTH positions — first occurrence
+    Status: Fan token clubs in BOTH positions
+    FTP PATH_2: ACTIVE ($AFC) — first UCL Final with live supply event mechanism
 
 PATTERN SIGNIFICANCE:
   Fan token clubs are DISPROPORTIONATELY represented in UCL finals.
-  Three consecutive UCL finals have featured at least one (or two) fan token clubs.
+  All three consecutive UCL finals featured BOTH clubs with active fan tokens.
+  The 2026 distinction: $AFC has FTP PATH_2 ACTIVE — making it the first UCL Final
+  where a live burn/mint supply event fires based on the match result.
+  2023 and 2025 finals had fan tokens but no active FTP burn/mint mechanics.
   This is not random — fan token clubs tend to be the highest-funded, most
   commercially active clubs in European football. Commercial investment and
   sporting success are correlated.
@@ -143,9 +147,11 @@ AGENT RULE:
     This asymmetry is the highest-stakes supply signal in the fan token ecosystem.
 
 CALIBRATION NOTE:
-  2026 UCL Final ($PSG vs $AFC) is the first final where BOTH clubs have confirmed
-  active fan tokens on the same platform. This provides the first calibration data
-  point for dual-fan-token final dynamics.
+  All three finals featured clubs with active fan tokens.
+  The genuine 2026 distinction: $AFC has FTP PATH_2 ACTIVE — this is the FIRST UCL
+  Final where a live supply event mechanism (burn on WIN, mint on LOSS) fires based
+  on the match result. 2023 and 2025 had fan tokens but no active FTP mechanics.
+  Token launch dates: $PSG January 2020 | $CITY March 2021 | $INTER September 2021 | $AFC 2021
   Monitor: relative price performance of $AFC and $PSG in the 72h window around
   the 2026 UCL Final for calibration baseline.
 ```

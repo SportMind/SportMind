@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.97.94] — 2026-05-29
+
+### Fixed — UCL Final fan token pattern factual correction + calibration draft
+
+1 new file. 1 file corrected. 738→739 files, 519→520 md.
+
+SMI: NOT REQUIRED — factual correction to reference data + draft calibration file.
+
+fan-token/registry/bridge-supported.md — CORRECTED:
+  REMOVED (factually wrong):
+    "2026 UCL Final is the first final where BOTH clubs have confirmed active fan tokens"
+    "Fan token clubs in BOTH positions — first occurrence"
+  CORRECT:
+    All three UCL finals in the pattern (2023, 2025, 2026) featured clubs with
+    active fan tokens in BOTH positions.
+    $PSG: January 2020 | $CITY: March 2021 | $INTER: September 2021 | $AFC: 2021
+  GENUINE 2026 DISTINCTION (now correctly documented):
+    $AFC has FTP PATH_2 ACTIVE — making 2026 the FIRST UCL Final where a live
+    supply event mechanism (burn on WIN, mint on LOSS) fires based on the result.
+    2023 and 2025 finals had fan tokens but NO active FTP burn/mint mechanics.
+
+calibration/2026/ucl-final-psg-vs-arsenal-2026-05-30.md (162L — NEW, DRAFT):
+  Pre-match calibration record for 2026 UCL Final.
+  All known fields completed. Result fields blank — to be filled post-match.
+  Signal: PSG (HOME admin) | Score: 55 | MEDIUM | ENTER | SMS: 100
+  Macro: ANXIETY ×1.00 | Venue: NEUTRAL (no home advantage)
+  FTP: $AFC PATH_2 ACTIVE — supply event pending on result
+  Historical note: first UCL Final with live FTP supply event mechanism.
+
 ## [3.97.93] — 2026-05-29
 
 ### Updated — FTP PATH_2 corrections + omnichain + UCL Final pattern
