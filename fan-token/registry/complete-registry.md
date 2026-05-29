@@ -56,6 +56,16 @@ are confirmed available on Solana and Base in addition to their primary Chiliz C
 All other Chiliz Chain tokens are available for bridging but are not yet confirmed
 as actively traded on Solana or Base.
 
+OMNICHAIN CONFIRMED — MAY 2026:
+$AFC and $PSG are the first two tokens confirmed on all three chains simultaneously:
+  CHAINS: Chiliz Chain (primary) + Solana + Base
+  SUPPLY MODEL: UNIFIED — single supply across all three chains
+  MECHANISM: Burns and mints on Chiliz Chain affect total supply regardless of
+    holding chain. No wrapped tokens. No supply fragmentation.
+  SIGNIFICANCE: First deployment of Chiliz omnichain architecture at this scale.
+    $AFC (Arsenal) and $PSG (Paris Saint-Germain) are the reference tokens
+    for this architecture. UCL Final 2026 participants.
+
 ---
 
 ## Section 1 — Active Chiliz Chain Tokens

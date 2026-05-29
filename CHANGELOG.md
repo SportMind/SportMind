@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.93] — 2026-05-29
+
+### Updated — FTP PATH_2 corrections + omnichain + UCL Final pattern
+
+0 new files. 3 files updated. Counts unchanged: 738/519.
+
+Source: fantokens.com/fan-token-play — VERIFIED
+
+fan-token/ftp-path2.md:
+  CORRECTION 1 — WIN outcome nuance:
+    BEFORE: "95% of proceeds used to buy and permanently BURN the Fan Token"
+    AFTER:  WIN proceeds repurchase the fan token; exact burn/return split is
+            IMPLEMENTATION-SPECIFIC per club:
+              BURN: tokens permanently burned (most common)
+              TREASURY: part or all returned to treasury
+              SPLIT: partial burn + partial treasury
+            Arsenal PATH_2 trial showed ~95% burned — not guaranteed for all clubs.
+
+  CORRECTION 2 — DRAW outcome explicit wording:
+    Updated: "DRAW: No buyback, burn, or mint triggered — supply unchanged (0 burned, 0 minted)"
+
+  CORRECTION 3 — Calibration records enhanced:
+    Three existing records (April 2026, $AFC) updated with full verified data:
+      Record 1 (WIN vs Sporting CP 07/04/2026):
+        Pre-liquidation: 100,000 $AFC / 49,600 USDC | Payout: 90,604 USDC
+        Burned: 159,025 $AFC | Supply change: -159,025
+      Record 2 (LOSS vs Bournemouth 11/04/2026):
+        Pre-liquidation: 100,000 $AFC / 57,538 USDC | Payout: 0 USDC
+        Minted: 100,000 $AFC | Supply change: +100,000
+      Record 3 (DRAW vs Sporting CP 15/04/2026):
+        Pre-liquidation: 100,000 $AFC / 46,755 USDC | Payout: 0 USDC
+        Burned/Minted: 0 | Supply change: 0
+    Net: -59,025 $AFC across three matches (first verified FTP calibration dataset)
+
+fan-token/registry/complete-registry.md:
+  $AFC: already Omnichain: Yes (confirmed)
+  $PSG: Omnichain No → confirmed Yes (already was Yes — confirmed)
+  Omnichain note updated: $AFC and $PSG confirmed on Chiliz Chain + Solana + Base
+    UNIFIED supply model — burns/mints on Chiliz Chain affect total supply
+    No wrapped tokens. No supply fragmentation.
+    First Chiliz omnichain architecture deployment at this scale.
+
+fan-token/registry/bridge-supported.md:
+  New section: "UCL Final Fan Token Club Pattern"
+    2023: $CITY vs $INTER | 2025: $PSG vs $INTER | 2026: $PSG vs $AFC
+    Three consecutive UCL finals with fan token club participation.
+    Enduring signal: CDI amplifier for top-tier fan token club competitive trajectory.
+    2026 first dual-fan-token final — both clubs have active PATH_2-eligible tokens.
+    Asymmetry documented: WIN token burns at peak demand, LOSS token mints at peak demand.
+
 ## [3.97.92] — 2026-05-29
 
 ### Added — KSA and UAE regulatory frameworks (macro/regulatory/)

@@ -171,15 +171,19 @@ MODEL 2 — PREDICTION MARKET SETTLEMENT LAYER (active trial)
     Prediction positions held until result
 
   PHASE 3 — RESULT SETTLEMENT:
-    WIN:   Settlement proceeds used for $AFC BUYBACK from open market
+    WIN:   Settlement proceeds used for FAN TOKEN BUYBACK from open market
            FEE SPLIT: 5% fee deducted from proceeds
-           Remaining 95% used to buy and permanently BURN the Fan Token ($AFC)
-           Purchased tokens immediately BURNED (permanent supply reduction)
+           Remaining 95% used to repurchase the Fan Token ($AFC) — then either:
+             BURN:     Tokens permanently burned (supply reduction) — most common
+             TREASURY: Part or all returned to club treasury (implementation-specific)
+             SPLIT:    Partial burn + partial treasury return
+           The exact burn/return split is IMPLEMENTATION-SPECIFIC per club.
+           Arsenal PATH_2 trial: ~95% burned. Not guaranteed for all clubs.
            Executed within 48h of final result
-           NOTE: This burns the FAN TOKEN directly — not CHZ
+           NOTE: This burns/returns the FAN TOKEN directly — not CHZ
     LOSS:  New tokens MINTED to treasury to fund LOSS payouts
            Executed within 48h of final result
-    DRAW:  No supply change — market settles at no-movement
+    DRAW:  No buyback, burn, or mint triggered — supply unchanged (0 burned, 0 minted)
 
   PHASE 4 — ON-CHAIN CONFIRMATION:
     WIN:   Burn transaction visible on chiliscan.com (zero-address)
@@ -398,8 +402,11 @@ RECORD 1 — Arsenal WIN (burn confirmed)
   Competition:  UEFA Champions League 2025-26 (qualifies — men's competitive)
   Match:        Sporting CP vs Arsenal
   Result:       Arsenal WIN (0–1)
+  Pre-liquidation:  100,000 $AFC / 49,600 USDC
+  Payout:           90,604 USDC (to prediction market winners)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    159,025 $AFC BURNED (permanent supply reduction)
+  Supply change: -159,025 $AFC
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
 
 RECORD 2 — Arsenal LOSS (mint confirmed)
@@ -407,8 +414,11 @@ RECORD 2 — Arsenal LOSS (mint confirmed)
   Competition:  Premier League 2025-26 (qualifies — men's competitive)
   Match:        Arsenal vs Bournemouth
   Result:       Arsenal LOSS (1–2)
+  Pre-liquidation:  100,000 $AFC / 57,538 USDC
+  Payout:           0 USDC (all prediction market proceeds retained)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    100,000 $AFC MINTED to treasury
+  Supply change: +100,000 $AFC
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
   Note:         PATH_2 LOSS = minting is a NEGATIVE supply signal.
                 Each LOSS mints tokens that future WINs must re-burn.
@@ -418,8 +428,11 @@ RECORD 3 — Arsenal DRAW (no supply change)
   Competition:  UEFA Champions League 2025-26 (qualifies — men's competitive)
   Match:        Arsenal vs Sporting CP
   Result:       DRAW (0–0)
+  Pre-liquidation:  100,000 $AFC / 46,755 USDC
+  Payout:           0 USDC (DRAW — no supply event triggered)
   FTP model:    Model 2 — prediction/mint/burn
   FTP event:    No change — 0 burned, 0 minted
+  Supply change: 0 $AFC
   Source:       fantokens.com/fan-token-play — VERIFIED on-chain
 
 CUMULATIVE $AFC FTP SUPPLY MOVEMENT (April 2026 records):
