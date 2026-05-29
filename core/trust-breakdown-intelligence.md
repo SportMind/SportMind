@@ -97,6 +97,62 @@ LEVEL ESCALATION RULE:
   the exclusivity or negotiating window: escalate to Level 3 automatically.
   Do not wait for explicit confirmation — absence of resolution is itself
   a signal when a deadline is structurally embedded in the situation.
+
+CONSORTIUM_COLLAPSE — SUB-TYPE OF TRUST_BREAKDOWN LEVEL 3:
+  Definition: trust breakdown where the acquiring party is a multi-entity
+  consortium rather than a single buyer. Consortium insolvency differs
+  from single-buyer failure in three structurally distinct ways:
+
+  1. BLAME DIFFUSION:
+     Multiple parties can deflect responsibility between themselves.
+     This extends the uncertainty window — no single party is forced
+     to formally acknowledge failure while others can still claim viability.
+     The public narrative fractures across multiple parties simultaneously.
+
+  2. REPUTATION SEPARATION:
+     Individual consortium members may attempt to distance their own
+     reputation from the failed deal. Each member has independent
+     incentive to protect their standing. This creates competing
+     public narratives and makes resolution signals harder to read —
+     a positive signal from one member may be contradicted by silence
+     from another.
+
+  3. DISTRIBUTED LEGAL LIABILITY:
+     Recovery paths are more complex and less predictable than single-buyer
+     failure. Creditors, competition authorities, and the selling club must
+     negotiate with multiple parties simultaneously. Legal proceedings may
+     run in parallel across different jurisdictions if members are
+     incorporated in different countries.
+
+  CONSORTIUM_COLLAPSE CDI MODIFIER:
+    Apply ×0.65 CDI (vs ×0.72 for standard TRUST_BREAKDOWN_L2).
+    The uncertainty compounds with each additional party involved.
+    Rationale: the standard Level 2 modifier (×0.72) assumes a
+    two-party negotiation with a clear resolution path. Multi-party
+    collapse has no such clarity — the uncertainty premium is higher.
+
+  RESOLUTION TIMELINE:
+    Single buyer failure: typically 30 days to clear resolution signal.
+    Consortium collapse:  typically 60-90 days.
+    Rationale: each additional party adds negotiation complexity.
+    Do not apply Level 1 restoration signals until ALL consortium members
+    have either formally confirmed withdrawal or confirmed continued
+    participation. Partial resolution is not resolution.
+
+  ESCALATION RULE FOR CONSORTIUM_COLLAPSE:
+    If one consortium member publicly disputes another's claims of viability:
+    escalate to CONSORTIUM_COLLAPSE immediately.
+    Do not wait for formal insolvency filing — the public blame diffusion
+    IS the confirmation signal.
+
+  AGENT REASONING:
+    When a trust breakdown involves multiple named parties on one side:
+    1. Apply CONSORTIUM_COLLAPSE modifier (×0.65 CDI) immediately.
+    2. Set resolution timeline expectation to 60-90 days not 30.
+    3. Do not process any positive signal from a single consortium member
+       as resolution — all members must confirm a consistent position.
+    4. Track each member's public statements independently.
+       Divergence between members is itself a signal of deeper collapse.
 ```
 
 ---
@@ -245,6 +301,18 @@ WHEN TRUST BREAKDOWN (LEVEL 2 OR 3) IS CONFIRMED:
 **Attention:** Trust breakdown signals require elevated Attention — they are rare but high-impact. When Level 2 or Level 3 signals are present, all governance and financial signals for the affected entity should be treated as unreliable until trust is restored. Do not process these signals through standard frameworks.
 
 **Learning:** Each trust breakdown case that reaches a confirmed outcome (deal collapsed / trust restored / extended limbo) directly validates or challenges the modifier values in this framework. TRUST_BREAKDOWN_CASE_001 (Sevilla 2026) is the first such calibration data point.
+
+**Communication:** Trust breakdown conclusions must be stated explicitly — not implied through modifier changes alone. When Level 2 or Level 3 is confirmed, communicate the classification, the specific signals that triggered it, and the modifier applied. Do not allow the suppression of positive signals to be the only indication that trust breakdown reasoning is active.
+
+**Calibration:** The three modifier values (×0.95 Level 1 / ×0.72 Level 2 / ×0.60 Level 3) and the CONSORTIUM_COLLAPSE modifier (×0.65) should be validated against confirmed case outcomes. If cases consistently resolve faster or slower than the 30-day / 60-90 day windows, recalibrate the timeline thresholds.
+
+**Adaptation:** Trust breakdown classification must update immediately when new signals arrive — do not wait for a scheduled review cycle. A Level 2 situation can deteriorate to Level 3 within hours if terminal signals fire. The framework adapts to signal velocity, not calendar cadence.
+
+**Verification:** Before applying Level 2 or Level 3 modifiers, verify that at least two independent sources confirm the triggering signals. A single media report without corroboration does not meet the verification threshold. Official filings, club communications, or regulatory notifications are Tier 1 sources. Media speculation is Tier 2.
+
+**Ethics:** Trust breakdown intelligence must not be used to amplify negative sentiment beyond what the verified evidence supports. The framework exists to protect agents from misapplying positive modifiers in bad-faith situations — not to generate bearish signals beyond the evidence base. Apply the framework precisely — no more, no less.
+
+**Transparency:** Every trust breakdown conclusion must show its reasoning chain: which signals triggered classification, which level was assigned, which modifier was applied, and what restoration conditions are set. Do not apply TRUST_BREAKDOWN modifiers silently. The suppression of standard positive signals requires explicit acknowledgment — agents and holders using the output must be able to see why standard signals are not being processed.
 
 **Integration:** Trust breakdown integrates simultaneously with governance intelligence (fan-token/governance-intelligence.md), financial intelligence (market/club-ownership-intelligence.md), scenario intelligence (core/scenario-intelligence.md), and the takeover framework (fan-token/governance-takeover-framework.md). All four must be recalibrated under trust breakdown conditions when Level 2 or above is confirmed.
 

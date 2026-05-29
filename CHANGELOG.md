@@ -1,5 +1,83 @@
 # Changelog
 
+## [3.97.92] — 2026-05-29
+
+### Added — KSA and UAE regulatory frameworks (macro/regulatory/)
+
+2 new files. New directory: macro/regulatory/. 736→738 files, 517→519 md.
+
+Library Rule: FULL PASS — both are enacted statutory frameworks with
+2026+ applicability. Enactment dates (2026-06-10 KSA, Q1 2026 UAE) are
+statutory dates, not expiring operational data.
+
+macro/regulatory/ (NEW DIRECTORY)
+
+macro/regulatory/ksa.md (304L — NEW):
+  Saudi Arabia Unified Sports Law 2026 (Royal Decree M/121)
+  Effective June 10 2026. 2026-2030 governance cycle.
+  MODIFIER: UNIFIED_SPORTS_LAW_2026 ACTIVE
+  FAN TOKEN ENVIRONMENT: TRANSITIONING
+
+  Covers:
+    Centralised governance (Ministry of Sport / GSA / SAMA / CMA)
+    Private and foreign investment now ENABLED in KSA sports clubs
+    Licensing requirements (three-layer: M/121 + SAMA + CMA)
+    Athlete valuation modifiers: +0.05 APS commercial tier, uncertainty discount lifted
+    Fan token viability: TRANSITIONING — entity framework clear, financial layer developing
+    Chiliz/SPL partnership signal hierarchy (three monitoring signals)
+    Agent verification checklist (entity + payment + securities layers)
+    UAE comparison: KSA MEDIUM vs UAE HIGH regulatory clarity
+  All 14 Mind dimensions. Sources: spl.com.sa, GSA.gov.sa, SAMA.gov.sa, CMA.org.sa
+
+macro/regulatory/uae.md (332L — NEW):
+  UAE CMA/VARA Unified Virtual Assets Framework — Q1 2026
+  Issued jointly: UAE Federal CMA + Dubai VARA (February-April 2026)
+  MODIFIER: CMA_VARA_UNIFIED_FRAMEWORK ACTIVE
+  REGULATORY CLARITY: HIGH. FAN TOKEN LAUNCH PATHWAY: DEFINED.
+
+  Covers:
+    Mandatory whitepaper requirement (pre-launch review by VARA/CMA)
+    ARVA legal opinion requirement before token launch
+    VARA classification: fan tokens = UTILITY confirmed
+    FTP PATH_2 mechanics confirmed as utility (not security) under VARA
+    VASP licensing requirements for UAE/Dubai distribution
+    UAE as primary Middle East SportFi hub (HIGH vs KSA MEDIUM vs US LOW)
+    Regulatory uncertainty: reduced HIGH → LOW for compliant token issuances
+    MiCA comparison: comparable clarity, different market profile
+    CLARITY Act comparison: UAE materially clearer current path than US
+    Agent compliance verification checklist (whitepaper + ARVA + VASP)
+  All 14 Mind dimensions. Sources: vara.ae, UAE Federal CMA
+
+## [3.97.92] — 2026-05-28
+
+### Added — CONSORTIUM_COLLAPSE sub-type + docs fixes
+
+0 new files. 1 library file updated, 1 website file updated.
+Counts unchanged: files=736, md=517.
+
+core/trust-breakdown-intelligence.md (334L — UPDATED):
+  CONSORTIUM_COLLAPSE — SUB-TYPE OF TRUST_BREAKDOWN LEVEL 3 added.
+  Three structural differences from single-buyer failure:
+    1. Blame diffusion — multiple parties deflect between themselves,
+       extending the uncertainty window.
+    2. Reputation separation — individual members distance from failed deal,
+       creating competing narratives and unreliable resolution signals.
+    3. Distributed legal liability — recovery more complex, multi-jurisdiction.
+  CDI modifier: ×0.65 (vs ×0.72 standard TRUST_BREAKDOWN_L2).
+  Resolution timeline: 60-90 days (vs 30 days single buyer).
+  Escalation rule: public blame diffusion between consortium members
+    IS the confirmation signal — escalate immediately.
+  Agent reasoning chain: 4-step process for consortium collapse scenarios.
+  Communication, Calibration, Adaptation, Verification, Ethics,
+    Transparency dimensions added (completing all 14).
+
+docs-index.html (UPDATED — website only):
+  FIX 3: PATH_2 LOSS wording corrected (3 instances):
+    "supply neutral" → "supply INCREASES / mint event" in PATH_2 context.
+  FIX 5: ft_registry token count: 24 → 84 verified tokens (2 instances).
+  FIX 6: Modal footer version updated to v3.97.91.
+  (FIX 1 sidebar, FIX 2 showSection, FIX 4 counts: already correct.)
+
 ## [3.97.91] — 2026-05-28
 
 ### Added — Verified on-chain transaction hashes to CHZ ecosystem burn section
