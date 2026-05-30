@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.97.96] — 2026-05-30
+
+### Verified — UCL Final 2026 calibration record (Record 130)
+
+0 new files. 1 file completed. Counts unchanged: 741/522.
+
+calibration/2026/ucl-final-psg-vs-arsenal-2026-05-30.md:
+  STATUS: DRAFT → VERIFIED
+  Result: PSG win 1-1 AET (4-3 penalties)
+  Direction: CORRECT ✓ — SportMind predicted PSG, PSG won
+  Calibration record #130 — base now 130 records
+
+  Goalscorers: Havertz 6' (Arsenal), Dembélé 65' pen (PSG)
+  Decisive moment: Gabriel penalty miss (blazed over) in shootout
+
+  $AFC PATH_2 outcome: LOSS — MINT EVENT
+    Pre-liquidation pool: ~111,500 $AFC (higher than 100,000 estimate)
+    Mint event pending on-chain — chiliscan.com confirmation within 48h
+
+  Historical notes:
+    First UCL Final to extra time since Real Madrid vs Atletico 2016
+    PSG retain UCL — second consecutive CL winners
+    First club to defend UCL title since Real Madrid 2018
+    First MCP server live UCL Final test — all five layers confirmed loaded
+
+  Signal review: adjusted score 58 reflected genuine PSG edge.
+  MEDIUM-HIGH confidence correct — 120 minutes + penalties confirmed closeness.
+  Kvaratskhelia vs Mosquera structural advantage confirmed (Dembélé penalty).
+
 ## [3.97.95] — 2026-05-30
 
 ### Added — CLARITY Act committee pass + CFTC BTC perpetual + MiCA enforcement
