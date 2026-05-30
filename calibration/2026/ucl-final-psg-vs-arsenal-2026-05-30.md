@@ -140,6 +140,14 @@ FAN TOKEN DEMAND CONTEXT:
   This is the highest compound signal possible in the SportMind framework.
   WIN: ×2.00 demand × burn event = peak signal
   LOSS: ×2.00 demand × mint event = worst supply outcome at worst moment
+
+T-24h UPDATE (2026-05-29):
+  Adjusted score revised to 56-57
+  Reason: Hakimi and Dembélé both confirmed fit and in squad.
+  Both DSM gates cleared.
+  Ben White OUT confirmed.
+  Timber status unresolved but minor relative to PSG fitness boost.
+  Signal locked at T-24h.
 ```
 
 ---

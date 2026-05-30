@@ -30,6 +30,15 @@ BICAMERAL COMMITTEE RECONCILIATION:
   This pattern is a named legislative bottleneck — not a failure state.
   Reconciliation is a normal and expected part of bicameral legislation.
 
+COMMITTEE_PASSED — CONFIRMED 2026-05-30:
+  Vote: 15 FOR — 9 AGAINST (Senate Banking Committee)
+  Bipartisan: CONFIRMED (both parties represented in FOR votes)
+  Status: COMMITTEE_PASSED — reconciliation complete, cleared for floor
+  Next gate: Senate floor scheduling
+  Floor date: UNSCHEDULED (do not add specific dates — expiring data)
+  Timeline target: Q3_2026 (planning horizon, not a confirmed date)
+
+  Previous status (now superseded):
 COMMITTEE_MERGER_PENDING:
   Status: Banking and Agriculture versions require reconciliation.
   This is the primary structural delay mechanism for CLARITY Act timing.
@@ -105,7 +114,10 @@ ETHICS_AMENDMENT_VOTE — CONFIRMED OUTCOME:
     This is a qualitatively different signal from "amendment pending" —
     the amendment pathway is closed.
 
-  FLOOR_VOTE_TIMELINE: Q3_2026
+  FLOOR_VOTE_TIMELINE: Q3_2026_TARGET (UNSCHEDULED)
+    Committee passed 15-9 (bipartisan) — floor scheduling is next gate.
+    No floor date confirmed. Q3_2026 remains planning horizon.
+    Monitor: Senate Majority Leader scheduling announcements.
     The floor vote window has been extended. Q3_2026 is the current planning horizon.
     Note: this is a framework anchor, not a prediction. The timeline may extend further.
 
@@ -140,6 +152,12 @@ DOCUMENTATION_DELAY (timing suppressor):
   Apply: ×0.95 to timing-dependent US-linked fan token demand signals.
   Purpose: prevents premature "regulation enacted" modelling.
   Remove: when next stage is officially confirmed.
+BIPARTISAN_CONFIRMED:
+  The 15-9 committee vote included cross-party support.
+  Bipartisan passage is a positive signal for eventual enactment probability.
+  Single-party legislation faces higher floor amendment and procedural risk.
+  Bipartisan = lower CLARITY_ACT_FAIL_RISK modifier weight than single-party passage.
+
 ```
 
 ---

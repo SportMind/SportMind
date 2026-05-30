@@ -1,5 +1,36 @@
 # Changelog
 
+## [3.97.95] — 2026-05-30
+
+### Added — CLARITY Act committee pass + CFTC BTC perpetual + MiCA enforcement
+
+2 new files. 1 updated. 739→741 files, 520→522 md.
+
+macro/clarity-act-complete-framework.md — UPDATED:
+  CLARITY_ACT_STATUS: COMMITTEE_MERGER_PENDING → COMMITTEE_PASSED
+  Vote: 15 FOR — 9 AGAINST (Senate Banking Committee)
+  Bipartisan: CONFIRMED
+  BIPARTISAN_CONFIRMED signal block added
+  FLOOR_VOTE_TIMELINE: Q3_2026_TARGET (UNSCHEDULED)
+  Historical COMMITTEE_MERGER_PENDING references preserved as reasoning framework
+  Source: banking.senate.gov — primary government source
+
+macro/market-structure.md (169L — NEW):
+  CFTC_KALSHI_BTC_PERPETUAL: APPROVED · 2026-05-30
+  First federally regulated Bitcoin perpetual futures product in the US
+  INCREASED_BTC_LIQUIDITY_POTENTIAL + REDUCED_VOLATILITY_POTENTIAL modifiers
+  INSTITUTIONAL_VENUE_EXPANDED ≠ INSTITUTIONAL_INFLOW_CONFIRMED (distinction)
+  All 14 Mind dimensions. Source: CFTC.gov
+
+macro/regulatory/eu.md (205L — NEW):
+  MICA_ENFORCEMENT: TRANSITIONAL_DEADLINE_ACTIVE · June 30 2026
+  France AMF explicit warning issued — prosecution without authorisation
+  EU_LIQUIDITY_RISK ×0.94 during June 1-July 14 2026 transition window
+  Three-phase transition framework (pre-deadline / execution / stable)
+  Fan token secondary market liquidity impact documented
+  CHZ ESMA whitepaper registration April 2026 confirmed compliant
+  All 14 Mind dimensions. Source: ESMA europa.eu / AMF France
+
 ## [3.97.94] — 2026-05-29
 
 ### Fixed — UCL Final fan token pattern factual correction + calibration draft
