@@ -1,5 +1,34 @@
 # Changelog
 
+## [3.97.97] — 2026-05-30
+
+### Updated — Registry, homepage stats, signal output, wording corrections
+
+0 new files. 2 files updated. Counts unchanged: 741/522.
+
+SMI: NOT REQUIRED — website and registry updates only, no new intelligence files.
+
+fan-token/registry/complete-registry.md:
+  $SAFA: PARTNERSHIP_ANNOUNCED → ACTIVE
+    LAUNCH_DATE: 2026-05-21
+    LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026
+    TRADING_STATUS: Active
+    Source: Chiliz Official / Socios.com — verified fantokens.com newsroom May 21 2026
+  $SFA: PARTNERSHIP_ANNOUNCED → ACTIVE (same launch details)
+
+calibration/2026/ucl-final-psg-vs-arsenal-2026-05-30.md:
+  Footer version: v3.97.95 → v3.97.96 (correction)
+
+Homepage and website updates (index.html, first-record-index.html):
+  Calibration stat: 129 → 130
+  Accuracy: 124/129 → 125/130
+  Signal output venue: Parc des Princes → Puskás Arena, Budapest
+  Signal output version: v3.97.89 → v3.97.96
+  Leaderboard: 129·96% → 130·96%
+  Fan token LOSS wording: "restores supply to neutral" → "mints tokens to treasury"
+  FTP monitor: supply_neutral → mint_to_treasury
+  Modal versions: v3.97.95 (index) and v3.97.92 (first-record) → v3.97.96
+
 ## [3.97.96] — 2026-05-30
 
 ### Verified — UCL Final 2026 calibration record (Record 130)

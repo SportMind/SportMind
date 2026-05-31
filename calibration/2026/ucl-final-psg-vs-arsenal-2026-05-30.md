@@ -220,7 +220,7 @@ Calibration record: #130 — SportMind calibration base
 
 ---
 
-*SportMind v3.97.95 · MIT License · sportmind.dev*
+*SportMind v3.97.96 · MIT License · sportmind.dev*
 *STATUS: VERIFIED — PSG win 1-1 AET (4-3 pens) · Direction CORRECT ✓ · Record 130*
 *$AFC PATH_2 LOSS — mint event pending on-chain confirmation (chiliscan.com)*
 *First MCP server live UCL Final test — all five layers confirmed loaded*
