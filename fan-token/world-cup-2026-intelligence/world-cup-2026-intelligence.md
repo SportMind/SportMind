@@ -592,5 +592,142 @@ all operate on different timing and confidence rules than live match signals.
 - Match results must be confirmed from Tier 1 source before CDI update.
   Real-time score services (Tier 2) are not sufficient for CDI recalculation.
 
+## World Cup 2026 demand catalyst framework
+
+```
+TOURNAMENT WINDOW: June 11 — July 19 2026
+
+WORLD CUP AS DEMAND CATALYST:
+  The FIFA World Cup is the single highest demand catalyst period for
+  national team fan tokens in the SportMind framework.
+
+  SUSTAINED ELEVATED DEMAND:
+    All participating nation fan tokens receive elevated demand across
+    the full tournament window (June 11-July 19 2026).
+    This is not a one-match signal — demand sustains across the window
+    with peaks at each nation's knockout stage matches.
+
+  STAGGERED LAUNCH STRATEGY:
+    Chiliz confirmed strategy: launch national team tokens throughout
+    the tournament window to capture peak demand at maximum engagement.
+    Agent rule: new national team token launches during the World Cup
+    window should be assessed with TOURNAMENT_DEMAND_ACTIVE modifier.
+    Apply ×1.40 demand premium for tokens launching during active tournament.
+
+  POST-TOURNAMENT DEMAND DECAY:
+    National team tokens experience significant demand reduction after
+    tournament exit or final conclusion.
+    DECAY MODIFIERS (by tournament performance):
+      GROUP_STAGE_EXIT:    ×0.70 — rapid demand collapse
+      ROUND_OF_16_EXIT:    ×0.75 — moderate decay
+      QUARTER_FINAL_EXIT:  ×0.80 — gradual decay
+      SEMI_FINAL_EXIT:     ×0.83 — slower decay (strong run narrative)
+      RUNNER_UP:           ×0.85 — significant but slower decay
+      TOURNAMENT_WINNER:   ×0.88 — sustained demand, historical glory narrative
+    Apply decay modifier from day after elimination/conclusion.
+    Decay fully resolves to baseline within 90-120 days post-tournament.
+```
+
+---
+
+## FRAUD AMPLIFICATION — World Cup peak risk window
+
+```
+PERIOD: 4 weeks before tournament start + full tournament window
+        (approximately May 14 — July 19 2026)
+
+WHY WORLD CUP IS THE HIGHEST FRAUD RISK PERIOD:
+  The combination of:
+    · Maximum global fan engagement
+    · National team token launches (legitimate and fraudulent)
+    · General population unfamiliar with fan token verification
+    · High-velocity social media amplification of token launches
+  ...creates the highest-density fraud environment in the fan token calendar.
+
+FRAUDULENT PATTERNS DURING WORLD CUP:
+  UNOFFICIAL NATIONAL TEAM TOKENS:
+    Hundreds of tokens claiming national team affiliation will launch.
+    Most will have no Chiliz/Socios partnership.
+    Apply ELEVATED_VERIFICATION_REQUIREMENTS to ALL national team token signals
+    in this window — regardless of apparent legitimacy.
+
+  IMPERSONATION TOKENS:
+    Tokens using near-identical names/symbols to legitimate tokens.
+    e.g. $BRA vs $BRAZIL — only ONE will be the official Chiliz/Socios token.
+    Always verify against fan-token/registry/complete-registry.md first.
+
+  RUSHED LAUNCH PATTERNS:
+    Fraudulent tokens exploit tournament timing to create urgency.
+    "Limited time during World Cup" framing is a primary fraud signal.
+
+FOUR-SOURCE VERIFICATION — ELEVATED DURING WORLD CUP:
+  Standard verification: 2-3 sources sufficient
+  World Cup window: ALL FOUR sources required before applying signal
+    1. Chiliz official announcement (chiliz.com)
+    2. Socios.com partnership confirmation
+    3. fantokens.com registry entry
+    4. Chiliz Chain on-chain token contract verification
+  If any source missing during World Cup window: UNVERIFIED — do not signal.
+
+AGENT RULE:
+  During World Cup fraud amplification window:
+    Apply FRAUD_RISK_ELEVATED to any national team token not in the
+    SportMind verified registry.
+    Zero tolerance for single-source verification.
+    "Tournament urgency" framing in any token description = FRAUD_SIGNAL_HIGH.
+```
+
+---
+
+## Locker Room token launch framework
+
+```
+MECHANISM: Socios Locker Room — primary vehicle for new national team token launches
+
+LAUNCH PHASES (enduring framework):
+  Phase 1: PARTNERSHIP_ANNOUNCED
+    Official announcement from Chiliz/Socios + national federation.
+    Token ticker confirmed. Chain confirmed.
+    No token exists yet — do not signal on pre-launch price.
+
+  Phase 2: SUBSCRIPTION_WINDOW (typically 7 days)
+    Users subscribe/register for the token launch.
+    Demand signal: subscription volume indicates interest.
+    No secondary market yet.
+
+  Phase 3: CLAIM_PERIOD (typically 7-14 days)
+    Subscribed users claim their tokens.
+    Token exists on-chain but secondary market liquidity is thin.
+    Apply THIN_LIQUIDITY_DISCOUNT to early price signals.
+
+  Phase 4: ACTIVE_TRADEABLE
+    Secondary market active. Standard fan token framework applies.
+    First 30 days: apply NOVEL_TOKEN modifier (×0.90 confidence).
+    After 30 days: full signal stack applicable.
+
+FIRST CONFIRMED EXAMPLES (May-June 2026):
+  $SAFA — South African Football Association
+    Launch: May 21 2026 (Locker Room Internationals subscription window)
+    Window: May 21-28 2026
+    Status: ACTIVE as of v3.97.97
+
+  $SFA — Scottish Football Association
+    Launch: May 21 2026 (same window as $SAFA)
+    Window: May 21-28 2026
+    Status: ACTIVE as of v3.97.97
+
+  Both are the first confirmed examples of the Locker Room Internationals
+  framework in operation ahead of the World Cup 2026 window.
+  Source: Chiliz Official / Socios.com — verified fantokens.com newsroom May 21 2026
+
+AGENT RULE:
+  When a new national team token is announced during World Cup window:
+    Phase 1 (announced): verify four sources — add to PENDING_MAPPING queue
+    Phase 2 (subscription): TOURNAMENT_DEMAND_ACTIVE — subscription volume signal
+    Phase 3 (claim): add to registry — THIN_LIQUIDITY_DISCOUNT applies
+    Phase 4 (active): full framework — confirm via complete-registry.md first
+```
+
+
 ---
 

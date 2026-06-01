@@ -1,5 +1,52 @@
 # Changelog
 
+## [3.97.98] — 2026-06-01
+
+### Added — US token taxonomy + World Cup demand catalyst framework
+
+1 new file. 1 file expanded. 741→742 files, 522→523 md.
+
+macro/regulatory/us-token-taxonomy.md (247L — NEW):
+  SEC/CFTC Joint Interpretive Release — March 17 2026
+  Five-category US federal token taxonomy:
+    DIGITAL COMMODITIES (BTC/ETH/SOL/XRP — CFTC primary)
+    DIGITAL COLLECTIBLES (fan tokens, NFTs, meme coins — neither SEC nor CFTC primary)
+    DIGITAL TOOLS (credentials, utility — neither primary)
+    STABLECOINS (pending GENIUS Act)
+    DIGITAL SECURITIES (tokenized instruments — SEC full)
+  KEY RULING: Fan Tokens = DIGITAL COLLECTIBLES
+    No SEC registration required absent fractionalization
+    Howey test does not apply to base token
+    US regulatory uncertainty: HIGH → LOW for compliant tokens
+  FRACTIONALIZATION BOUNDARY:
+    Fractionalized/yield-bearing tokens: HIGHEST RISK (securities + fraud)
+    Existing passive yield red flag framework validated at federal level
+  CLARITY ACT INTERACTION:
+    Guidance (not statute) — CLARITY Act would confirm as statute
+    Guidance effective immediately regardless of CLARITY Act timing
+  All 14 Mind dimensions. Sources: sec.gov, cftc.gov, Ropes & Gray, Pillsbury,
+  Jenner & Block, A&O Shearman.
+
+fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md (596→733L):
+  Three new sections appended:
+
+  World Cup 2026 demand catalyst framework:
+    Tournament window: June 11-July 19 2026
+    TOURNAMENT_DEMAND_ACTIVE modifier: ×1.40 for new tokens launching during window
+    Post-tournament decay modifiers: ×0.70 (group stage) to ×0.88 (winner)
+    90-120 day decay resolution timeline
+
+  FRAUD AMPLIFICATION — World Cup peak risk window:
+    Highest fraud risk period in the fan token calendar
+    Elevated verification: ALL FOUR sources required (not 2-3)
+    Tournament urgency framing = FRAUD_SIGNAL_HIGH
+    Unofficial national team token patterns documented
+
+  Locker Room token launch framework:
+    Four-phase lifecycle: PARTNERSHIP_ANNOUNCED → SUBSCRIPTION → CLAIM → ACTIVE
+    First confirmed examples: $SAFA and $SFA (May 21 2026, Locker Room Internationals)
+    Source: Chiliz Official / Socios.com — verified fantokens.com newsroom
+
 ## [3.97.97] — 2026-05-30
 
 ### Updated — Registry, homepage stats, signal output, wording corrections
