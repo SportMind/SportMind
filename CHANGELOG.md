@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.97.99] — 2026-06-01
+
+### Added — $BELG registry entry + FTO framework
+
+1 new file. 1 registry updated. 742→743 files, 523→524 md.
+
+fan-token/fto-framework.md (255L — NEW):
+  Fan Token Offering mechanics framework.
+  Standard single-wave FTO documented.
+  TWO-WAVE FTO FORMAT (first documented: $BELG, 2026-06-03):
+    Wave 1: limited cap per user (6h) — community distribution window
+    Wave 2: unlimited purchases (~18h) — open market access
+    Agent signals: COMMUNITY_DISTRIBUTION_POSITIVE + EARLY_SELL_PRESSURE_REDUCED
+  SUPPLY SCARCITY TIERS:
+    ULTRA_LOW (<5M) | LOW (5-12M) | STANDARD (12-25M) | HIGH (>25M)
+    $BELG at 2M: SUPPLY_SCARCITY_AMPLIFIER applies
+  Locker Room loyalty bonus mechanics (10% typical, snapshot-based)
+  UK jurisdiction exclusion pattern documented
+  FTO signal timing framework (pre-FTO through Day 30+)
+  All 14 Mind dimensions. Source: chiliz.com official ✓
+
+fan-token/registry/complete-registry.md — $BELG ADDED:
+  Partner:   Royal Belgian Football Association
+  Ticker:    $BELG
+  Chain:     Chiliz Chain
+  Contract:  0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657
+  Status:    ACTIVE
+  FTO:       2026-06-03 — first documented two-wave FTO in registry
+  Supply:    2,000,000 (ULTRA_LOW — 10× below 20M typical)
+  Format:    Wave 1 (100 BELG cap, 6h) + Wave 2 (unlimited, ~18h)
+  Loyalty:   10% bonus for qualifying holders at snapshot
+  Exclusion: UK users excluded from loyalty bonus
+  Notes:     Announced 2026-06-01 ahead of World Cup 2026
+  Source:    chiliz.com official — verified ✓
+
 ## [3.97.98] — 2026-06-01
 
 ### Added — US token taxonomy + World Cup demand catalyst framework
