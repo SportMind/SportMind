@@ -137,6 +137,27 @@ is extraordinary.
 **Sport domain:** `sports/motogp/sport-domain-motogp.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MotoGP market intelligence: manufacturer commercial tiers and championship signal context |
+| Reasoning | ACTIVE | MotoGP market reasoning chain from manufacturer tier to CDI modifier |
+| Context | ACTIVE | Context: manufacturer championship value, circuit-specific advantage, Spanish market dominance |
+| Memory | ACTIVE | Historical MotoGP market patterns and manufacturer performance correlation data |
+| Judgment | ACTIVE | Judgment on MotoGP signal hierarchy — championship deciders are highest-impact windows |
+| Attention | ACTIVE | Elevated attention during title-deciding race weekends and manufacturer announcements |
+| Communication | ACTIVE | MotoGP market output with manufacturer tier, championship context, and CDI modifier |
+| Verification | ACTIVE | MotoGP market data from FIM and Dorna official commercial sources |
+| Learning | EMERGING | MotoGP fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/motogp domain files |
+| Calibration | EMERGING | MotoGP CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | MotoGP market intelligence adapts as manufacturer line-up and regulation changes occur |
+| Ethics | NOT APPLICABLE | MotoGP market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Manufacturer tier, championship context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

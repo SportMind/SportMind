@@ -362,6 +362,27 @@ Ice hockey-specific notes:
 **Athlete intelligence:** `athlete/nhl/athlete-intel-nhl.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Ice hockey event playbook: morning skate signals, goaltender, and line matchup intelligence |
+| Reasoning | ACTIVE | Ice hockey reasoning chain from morning skate and goaltender to outcome prediction |
+| Context | ACTIVE | Ice hockey context: NHL playoffs vs regular season, back-to-back, travel fatigue |
+| Memory | ACTIVE | Historical ice hockey outcome patterns and morning skate signal accuracy data |
+| Judgment | ACTIVE | Judgment on ice hockey signal hierarchy — morning skate goaltender signal is primary |
+| Attention | ACTIVE | Maximum attention for morning skate reports — final goaltender confirmation |
+| Communication | ACTIVE | Ice hockey signal output with morning skate status, goaltender, and direction |
+| Verification | ACTIVE | Ice hockey data from NHL official sources and beat reporter morning skate reports |
+| Learning | ACTIVE | Ice hockey calibration — morning_skate signal (3/3 ✓) is well-validated |
+| Integration | ACTIVE | Integrates with fan-token/ice-hockey-token-intelligence/ |
+| Calibration | ACTIVE | morning_skate modifier: 3/3 correct — one of SportMind's highest-certainty signals |
+| Adaptation | ACTIVE | Ice hockey intelligence adapts as NHL format and playoff structure evolve |
+| Ethics | NOT APPLICABLE | Ice hockey sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Morning skate signal, goaltender source, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -501,6 +501,27 @@ SPORTS_EQUITY_CROSS_INSTRUMENT_PROTOCOL:
 - `market/market-formula1.md` — F1 commercial context
 - `platform/chiliz-chain-address-intelligence.md` — On-chain CHZ signals
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports equity intelligence: private equity, sovereign wealth fund, and ownership investment signals |
+| Reasoning | ACTIVE | Equity reasoning chain from investment signals to CDI modifier and long-term stability assessment |
+| Context | ACTIVE | Context: PE/SWF entry timing, multi-club ownership models, regulatory landscape |
+| Memory | ACTIVE | Historical sports equity investment patterns and CDI impact data |
+| Judgment | ACTIVE | Judgment on equity signal materiality — controlling stake vs minority investment differ |
+| Attention | ACTIVE | Elevated attention for ownership change announcements and financial stress signals |
+| Communication | ACTIVE | Equity signal output with ownership type, investment size context, and CDI modifier |
+| Verification | ACTIVE | Equity transactions require regulatory filing and official confirmation |
+| Learning | EMERGING | Sports equity-to-CDI calibration requires more ownership change case data |
+| Integration | ACTIVE | Integrates with club-ownership-intelligence, financial-sustainability, and CDI framework |
+| Calibration | EMERGING | Sports equity CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Sports equity intelligence adapts as PE/SWF activity in sports accelerates globally |
+| Ethics | ACTIVE | State-owned entity ownership (sportswashing risk) handled factually with source transparency |
+| Transparency | ACTIVE | Ownership type, investment scale, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.82.0 · MIT License · SportMind · sportmind.dev*

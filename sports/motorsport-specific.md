@@ -197,6 +197,27 @@ $ALPINE — RENAULT F1 BRAND:
 **NASCAR base:** `sports/nascar/sport-domain-nascar.md`
 **Weather:**     `core/weather-intelligence.md` (MotoGP rain modifiers)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Motorsport cross-domain framework: shared signal methodology for F1, MotoGP, and NASCAR |
+| Reasoning | ACTIVE | Motorsport cross-domain reasoning chain with series-specific override hierarchy |
+| Context | ACTIVE | Motorsport context: shared qualifying/form signals vs series-specific circuit/tyre differences |
+| Memory | ACTIVE | Cross-motorsport outcome patterns and inter-series comparison data |
+| Judgment | ACTIVE | Judgment on when cross-motorsport framework applies vs series-specific override |
+| Attention | ACTIVE | Attention allocation framework across simultaneous motorsport events |
+| Communication | ACTIVE | Cross-motorsport output with series identifier and framework version |
+| Verification | ACTIVE | Motorsport verification — FIA (F1), FIM (MotoGP), NASCAR.com official sources |
+| Learning | ACTIVE | Cross-motorsport calibration from accumulated series-specific outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-formula1.md, sport-domain-motogp.md, and sport-domain-nascar.md |
+| Calibration | ACTIVE | Motorsport cross-series calibration: F1 qualifying_delta (4/4) as benchmark |
+| Adaptation | ACTIVE | Motorsport framework adapts as new series enter the ecosystem |
+| Ethics | NOT APPLICABLE | Motorsport framework is analytical — no ethical dimension |
+| Transparency | ACTIVE | Series type, applied framework, and override rationale explicit in output |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

@@ -293,6 +293,27 @@ Template note:
   See market/international-cricket-cycle.md for the cricket equivalent.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | International rugby cycle intelligence: World Rugby calendar, RWC, Six Nations, and Super Rugby signals |
+| Reasoning | ACTIVE | Rugby cycle reasoning chain from calendar position to fan token CDI and demand modifier |
+| Context | ACTIVE | Context: RWC year vs non-RWC year, Six Nations window, Super Rugby season overlap |
+| Memory | ACTIVE | Historical rugby cycle demand patterns and RWC amplifier data |
+| Judgment | ACTIVE | Judgment on rugby cycle hierarchy — RWC signals dominate all club competition signals |
+| Attention | ACTIVE | Elevated attention during Rugby World Cup and Six Nations windows |
+| Communication | ACTIVE | Rugby cycle output with calendar position, tournament type, and CDI modifier |
+| Verification | ACTIVE | World Rugby calendar from World Rugby official sources |
+| Learning | EMERGING | Rugby cycle fan token calibration records are developing |
+| Integration | ACTIVE | Integrates with market-rugby-union, market-rugby-league, and competition calendar |
+| Calibration | EMERGING | Rugby cycle CDI modifier calibration is emerging |
+| Adaptation | ACTIVE | Rugby cycle intelligence adapts as World Rugby format and competition structures evolve |
+| Ethics | NOT APPLICABLE | International rugby cycle is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Cycle position, tournament type, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

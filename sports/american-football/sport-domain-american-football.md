@@ -230,6 +230,27 @@ For American Football (NFL), agents should apply these interpretive weights to c
 npx skills add sportmind/fan-token
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | American football event playbook: NFL/college signal weights and game intelligence |
+| Reasoning | ACTIVE | American football reasoning chain from game signals to direction and modifier |
+| Context | ACTIVE | American football context: conference, playoff seeding, weather, home field advantage |
+| Memory | ACTIVE | Historical American football outcome patterns and situational baselines |
+| Judgment | ACTIVE | Judgment on American football signal hierarchy — QB matchup and injury designations |
+| Attention | ACTIVE | Elevated attention for injury designation reports and playoff seeding implications |
+| Communication | ACTIVE | American football signal output with direction and modifier stack |
+| Verification | ACTIVE | American football data from NFL.com official sources |
+| Learning | ACTIVE | American football modifier calibration from historical outcome data |
+| Integration | ACTIVE | Integrates with injury-intel-nfl.md and fan-token/nfl-token-intelligence/ |
+| Calibration | ACTIVE | American football modifiers calibrated against historical outcome data |
+| Adaptation | ACTIVE | American football intelligence adapts as rule changes and playoff formats evolve |
+| Ethics | NOT APPLICABLE | American football sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Signal weights and modifier basis explicit in output |
+
+
 ---
 MIT License · SportMind · sportmind.dev
 

@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Judo event playbook: weight category signals, ranking, technique preference, and draw |
+| Reasoning | ACTIVE | Judo reasoning chain from ranking and head-to-head to bout outcome prediction |
+| Context | ACTIVE | Judo context: weight category, IJF Grand Slam vs World Championship, Golden Score rules |
+| Memory | ACTIVE | Historical judo championship patterns and weight category baselines |
+| Judgment | ACTIVE | Judgment on judo signal hierarchy — IJF ranking and head-to-head are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification |
+| Communication | ACTIVE | Judo signal output with weight category, ranking context, and direction |
+| Verification | ACTIVE | Judo data from IJF official sources |
+| Learning | EMERGING | Judo calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Judo is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Judo intelligence adapts as IJF ranking and rule changes evolve |
+| Ethics | NOT APPLICABLE | Judo sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and weight category context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

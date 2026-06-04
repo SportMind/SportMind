@@ -128,6 +128,27 @@ For Rowing, agents should apply these interpretive weights to composite signal s
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rowing event playbook: boat class signals, wind/water conditions, and lane draw |
+| Reasoning | ACTIVE | Rowing reasoning chain from crew profile and conditions to race outcome prediction |
+| Context | ACTIVE | Rowing context: boat class (single/pair/eight), headwind/crosswind, water temperature |
+| Memory | ACTIVE | Historical rowing outcome patterns by boat class and conditions |
+| Judgment | ACTIVE | Judgment on rowing signal hierarchy — crew strength and conditions are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification regattas |
+| Communication | ACTIVE | Rowing signal output with boat class, conditions modifier, and direction |
+| Verification | ACTIVE | Rowing data from World Rowing official sources |
+| Learning | EMERGING | Rowing calibration records are limited |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Rowing calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rowing intelligence adapts as World Rowing format and qualification evolve |
+| Ethics | NOT APPLICABLE | Rowing sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Boat class, conditions source, and modifier basis explicit in output |
+
+
 ---
 
 ## Key Commands

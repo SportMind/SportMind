@@ -192,6 +192,27 @@ ATHLETE TOKEN POTENTIAL (individual):
 **Core frameworks:** `core/sportmind-score.md` · `core/athlete-modifier-system.md`
 **Market:** `market/market-badminton.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Badminton event playbook: BWF World Tour signal weights, draw, and surface signals |
+| Reasoning | ACTIVE | Badminton reasoning chain from ranking and form to tournament prediction |
+| Context | ACTIVE | Badminton context: BWF ranking, surface (indoor), head-to-head, draw bracket |
+| Memory | ACTIVE | Historical badminton tournament patterns and ranking-to-outcome correlation data |
+| Judgment | ACTIVE | Judgment on badminton signal materiality — draw and ranking are primary signals |
+| Attention | ACTIVE | Elevated attention during BWF Super 1000 and Olympic qualification windows |
+| Communication | ACTIVE | Badminton signal output with direction and tournament context modifier |
+| Verification | ACTIVE | Badminton data from BWF official sources |
+| Learning | EMERGING | Badminton calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Badminton is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Badminton intelligence adapts as tour format and ranking system evolve |
+| Ethics | NOT APPLICABLE | Badminton sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and limited calibration data disclosed in output |
+
+
 ---
 
 *SportMind v3.86.0 · MIT License · sportmind.dev*

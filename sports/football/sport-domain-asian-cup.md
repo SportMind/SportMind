@@ -249,6 +249,27 @@ fantokens.com                    — Asian national token launches
 **National tokens:** `fan-token/national-team-tokens.md`
 **Tournament macro:** `macro/tournament-macro.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Asian Cup-specific signal intelligence: AFC qualification, host nation advantage, squad signals |
+| Reasoning | ACTIVE | Asian Cup reasoning chain from squad composition and AFC context to outcome prediction |
+| Context | ACTIVE | Asian Cup context: host nation advantage, Middle East tournaments, J.League and K-League player base |
+| Memory | ACTIVE | Historical Asian Cup outcome patterns and host nation advantage data |
+| Judgment | ACTIVE | Judgment on Asian Cup signal hierarchy — host nation advantage is significant |
+| Attention | ACTIVE | Elevated attention for squad announcements and group stage draw |
+| Communication | ACTIVE | Asian Cup signal output with host context, squad status, and direction |
+| Verification | ACTIVE | Asian Cup data from AFC official sources |
+| Learning | ACTIVE | Asian Cup modifier calibration from historical tournament outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md and national team framework |
+| Calibration | ACTIVE | Asian Cup modifiers calibrated against historical tournament data |
+| Adaptation | ACTIVE | Asian Cup intelligence adapts as AFC tournament format evolves |
+| Ethics | NOT APPLICABLE | Asian Cup sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Host nation context and squad source explicit in output |
+
+
 ---
 
 *SportMind v3.97.24 · MIT License · sportmind.dev*

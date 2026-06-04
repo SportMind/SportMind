@@ -323,5 +323,26 @@ sports/esports                              ← domain context (this skill)
   + fan-token/athlete-social-lift           ← social signal (fastest in esports)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Esports event playbook: game-specific signal weights, roster changes, and meta signals |
+| Reasoning | ACTIVE | Esports reasoning chain from roster and meta to tournament outcome prediction |
+| Context | ACTIVE | Esports context: game title, major vs minor tournament, patch version, team chemistry |
+| Memory | ACTIVE | Historical esports outcome patterns by game title and tournament tier |
+| Judgment | ACTIVE | Judgment on esports signal hierarchy — roster changes are highest-impact signal |
+| Attention | ACTIVE | Elevated attention during major tournament windows and roster announcement periods |
+| Communication | ACTIVE | Esports signal output with game title, meta context, and modifier |
+| Verification | ACTIVE | Esports roster data from official team announcements and tournament operators |
+| Learning | EMERGING | Esports calibration records are limited — young domain |
+| Integration | ACTIVE | Integrates with sport-statistics-esports.md and fan-token/esports-token-intelligence/ |
+| Calibration | EMERGING | Esports calibration is emerging — rapid meta changes complicate historical patterns |
+| Adaptation | ACTIVE | Esports intelligence adapts as game metas and tournament formats change rapidly |
+| Ethics | NOT APPLICABLE | Esports sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Game title, patch version, and roster source explicit in output |
+
+
 ---
 MIT License · SportMind · sportmind.dev

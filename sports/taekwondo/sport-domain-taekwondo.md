@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Taekwondo event playbook: weight category signals, ranking, kicking style, and draw |
+| Reasoning | ACTIVE | Taekwondo reasoning chain from ranking and style to bout outcome prediction |
+| Context | ACTIVE | Taekwondo context: weight category, WTF Grand Prix vs World Championship, electronic scoring |
+| Memory | ACTIVE | Historical taekwondo championship patterns and weight category baselines |
+| Judgment | ACTIVE | Judgment on taekwondo signal hierarchy — WT ranking and head-to-head are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification |
+| Communication | ACTIVE | Taekwondo signal output with weight category, ranking context, and direction |
+| Verification | ACTIVE | Taekwondo data from World Taekwondo official sources |
+| Learning | EMERGING | Taekwondo calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Taekwondo is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Taekwondo intelligence adapts as WT scoring rules evolve |
+| Ethics | NOT APPLICABLE | Taekwondo sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and weight category context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

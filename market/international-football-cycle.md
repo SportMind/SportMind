@@ -399,6 +399,27 @@ LOAD SEQUENCE when international cycle is relevant:
   5. core/temporal-awareness.md (freshness tier for each data type)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | International football cycle intelligence: FIFA/UEFA calendar, WC qualifiers, and major tournament signals |
+| Reasoning | ACTIVE | International football reasoning chain from cycle position to CDI and national team token demand |
+| Context | ACTIVE | Context: WC qualifier windows, continental tournaments, break impact on club signals |
+| Memory | ACTIVE | Historical international cycle demand patterns and national team token performance data |
+| Judgment | ACTIVE | Judgment on international cycle materiality — major tournament participation vs qualifier differ |
+| Attention | ACTIVE | Elevated attention during WC qualifier windows and major tournament group draws |
+| Communication | ACTIVE | International football output with cycle position, tournament stage, and CDI impact |
+| Verification | ACTIVE | FIFA/UEFA calendar data from official sources |
+| Learning | ACTIVE | International cycle calibration is well-represented in football calibration records |
+| Integration | ACTIVE | Integrates with market-football, world-cup-2026, and national team token framework |
+| Calibration | ACTIVE | International cycle CDI modifiers calibrated from historical tournament qualification data |
+| Adaptation | ACTIVE | International football cycle adapts as FIFA format changes and World Cup expands |
+| Ethics | NOT APPLICABLE | International football cycle is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Cycle position, tournament stage, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -143,6 +143,27 @@ entry opportunity.
 **Athlete intelligence:** `athlete/rugby/athlete-intel-rugby-union.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby union market intelligence: Premiership/URC/Top 14 commercial tiers and international cycle |
+| Reasoning | ACTIVE | Rugby union market reasoning chain from competition tier to CDI modifier |
+| Context | ACTIVE | Context: Six Nations premium, RWC year amplifier, South African/NZ commercial weight |
+| Memory | ACTIVE | Historical rugby union market patterns and RWC cycle data |
+| Judgment | ACTIVE | Judgment on rugby union signal hierarchy — RWC year signals dominate club competition |
+| Attention | ACTIVE | Elevated attention during Rugby World Cup and Six Nations windows |
+| Communication | ACTIVE | Rugby union market output with competition tier, international cycle, and CDI modifier |
+| Verification | ACTIVE | Rugby union data from World Rugby and national union official commercial sources |
+| Learning | EMERGING | Rugby union fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with international-rugby-cycle and sports/rugby domain files |
+| Calibration | EMERGING | Rugby union CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rugby union market intelligence adapts as professionalisation and commercial rights evolve |
+| Ethics | NOT APPLICABLE | Rugby union market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition tier, RWC cycle status, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

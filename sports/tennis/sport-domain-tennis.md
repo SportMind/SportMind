@@ -321,6 +321,27 @@ framework. Tennis-specific notes:
 
 *MIT License · SportMind · sportmind.dev*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tennis event playbook: surface signals, H2H patterns, ranking, and serve/return statistics |
+| Reasoning | ACTIVE | Tennis reasoning chain from surface and player profile to match outcome prediction |
+| Context | ACTIVE | Tennis context: Grand Slam vs ATP/WTA event, surface (clay/grass/hard), best-of-three vs five |
+| Memory | ACTIVE | Historical tennis outcome patterns by surface type and player head-to-head |
+| Judgment | ACTIVE | Judgment on tennis signal hierarchy — surface fit and H2H record are primary |
+| Attention | ACTIVE | Elevated attention for Grand Slam events and surface-specific form shifts |
+| Communication | ACTIVE | Tennis signal output with surface modifier, H2H context, and direction |
+| Verification | ACTIVE | Tennis data from ATP/WTA official rankings and match statistics |
+| Learning | ACTIVE | Tennis modifier calibration from historical surface-specific outcome data |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | ACTIVE | Tennis is a calibrated sport in SportMind library — surface modifiers validated |
+| Adaptation | ACTIVE | Tennis intelligence adapts as player styles and court speed conditions evolve |
+| Ethics | NOT APPLICABLE | Tennis sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Surface type, H2H source, and modifier basis explicit in output |
+
+
 ---
 
 ## Event Playbooks

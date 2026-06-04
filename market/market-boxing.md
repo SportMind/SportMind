@@ -129,6 +129,27 @@ retirement announcement creates immediate token market event risk.
 **Athlete intelligence:** `athlete/boxing/athlete-intel-boxing.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-boxing.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Boxing market intelligence: promotional landscape, PPV value, and championship belt signals |
+| Reasoning | ACTIVE | Boxing market reasoning chain from bout significance to CDI modifier |
+| Context | ACTIVE | Context: unified championship vs interim belt, PPV buyrate tier, promotional rivalry |
+| Memory | ACTIVE | Historical boxing market patterns and PPV demand correlation data |
+| Judgment | ACTIVE | Judgment on boxing signal hierarchy — unified world title bouts are highest impact |
+| Attention | ACTIVE | Elevated attention for unified title fight announcements and weight class movements |
+| Communication | ACTIVE | Boxing market output with bout tier, PPV context, and CDI modifier |
+| Verification | ACTIVE | Boxing championship status from sanctioning body official sources |
+| Learning | EMERGING | Boxing fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/boxing domain files and injury-intel-boxing |
+| Calibration | EMERGING | Boxing CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Boxing market intelligence adapts as Saudi Arabia transforms the promotional landscape |
+| Ethics | NOT APPLICABLE | Boxing market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Bout tier, belt status, and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

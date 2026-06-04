@@ -242,6 +242,27 @@ Agents should weight women's sport token opportunities higher than raw audience 
 **Fan token lifecycle:** `fan-token/fan-token-lifecycle/fan-token-lifecycle.md`
 **Cross-sport key findings:** `market/market-key-findings.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Women's sports market intelligence: commercial growth signals, broadcast rights, and CDI modifiers |
+| Reasoning | ACTIVE | Women's sports reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: Women's World Cup amplifier, WSL/NWSL commercial growth, broadcast rights expansion |
+| Memory | ACTIVE | Historical women's sports commercial patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on women's sports signal hierarchy — Women's World Cup dominates all other signals |
+| Attention | ACTIVE | Elevated attention during Women's World Cup and UWCL Final windows |
+| Communication | ACTIVE | Women's sports market output with competition tier, commercial growth context, and CDI modifier |
+| Verification | ACTIVE | Women's sports data from FIFA Women's, WSL, and NWSL official commercial sources |
+| Learning | ACTIVE | Women's sports market calibration is growing rapidly as commercial landscape develops |
+| Integration | ACTIVE | Integrates with market-football, sports/womens-football, and international-football-cycle |
+| Calibration | EMERGING | Women's sports CDI modifier calibration is developing — commercial growth is recent |
+| Adaptation | ACTIVE | Women's sports intelligence adapts as broadcast rights and commercial investment accelerate |
+| Ethics | ACTIVE | Women's sports pay equity and commercial parity signals handled factually |
+| Transparency | ACTIVE | Competition tier, commercial growth stage, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

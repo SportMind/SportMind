@@ -409,6 +409,27 @@ LOADING SEQUENCE FOR COMPLEX LEAGUE ANALYSIS:
   4. core/manager-intelligence.md (if managerial pressure relevant)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Advanced football league intelligence: multi-league signal comparison and cross-competition CDI |
+| Reasoning | ACTIVE | Advanced league reasoning chain from multi-league signals to comparative CDI modifier |
+| Context | ACTIVE | Context: domestic vs European competition priority, financial doping signals, super league risk |
+| Memory | ACTIVE | Historical multi-league performance patterns and advanced CDI comparison data |
+| Judgment | ACTIVE | Judgment on league signal interactions — Champions League vs domestic title priorities |
+| Attention | ACTIVE | Elevated attention for cross-competition squad rotation and priority signals |
+| Communication | ACTIVE | Advanced league output with multi-competition CDI weighting and priority assessment |
+| Verification | ACTIVE | Advanced league claims require multi-source official data |
+| Learning | ACTIVE | Advanced league calibration is the most data-rich in the library |
+| Integration | ACTIVE | Integrates with market-football, international-football-cycle, and CDI framework |
+| Calibration | ACTIVE | Advanced league CDI modifiers calibrated from extensive football calibration records |
+| Adaptation | ACTIVE | Advanced league intelligence adapts as European Super League and format discussions evolve |
+| Ethics | NOT APPLICABLE | Advanced league intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Multi-league context and CDI weighting rationale explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

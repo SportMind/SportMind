@@ -172,6 +172,27 @@ IPL DEMAND CYCLE (for any future IPL token):
 **Emerging pipeline:**        `fan-token/emerging-sports-pipeline.md`
 **India regulatory:**         `macro/macro-regulatory-sportfi.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | IPL-specific signal intelligence: auction dynamics, home advantage, pitch patterns by venue |
+| Reasoning | ACTIVE | IPL reasoning chain from team composition and venue to match outcome prediction |
+| Context | ACTIVE | IPL context: home venue conditions, player retention vs auction, form across phases |
+| Memory | ACTIVE | Historical IPL outcome patterns by venue, phase, and team composition |
+| Judgment | ACTIVE | Judgment on IPL signal hierarchy — venue-specific pitch behaviour dominates T20 signals |
+| Attention | ACTIVE | Elevated attention during IPL playoff qualification and eliminator stages |
+| Communication | ACTIVE | IPL signal output with venue modifier, phase context, and direction |
+| Verification | ACTIVE | IPL data from BCCI and official IPL sources |
+| Learning | ACTIVE | IPL modifier calibration from historical venue and phase outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-cricket.md and fan-token/cricket-token-intelligence/ |
+| Calibration | ACTIVE | IPL venue modifiers calibrated against historical venue-specific outcome data |
+| Adaptation | ACTIVE | IPL intelligence adapts as auction rules and franchise dynamics evolve |
+| Ethics | NOT APPLICABLE | IPL sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | IPL venue source, phase context, and modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.71 · MIT License · sportmind.dev*

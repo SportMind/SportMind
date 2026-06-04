@@ -349,6 +349,27 @@ NASCAR-specific notes:
 
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NASCAR event playbook: track type signals, plate racing, Playoff stage, and manufacturer |
+| Reasoning | ACTIVE | NASCAR reasoning chain from track type and practice data to race outcome prediction |
+| Context | ACTIVE | NASCAR context: superspeedway vs short track vs road course, Playoff stage, restarts |
+| Memory | ACTIVE | Historical NASCAR outcome patterns by track type and Playoff stage |
+| Judgment | ACTIVE | Judgment on NASCAR signal hierarchy — track type is the dominant signal |
+| Attention | ACTIVE | Elevated attention for Playoff stage races and superspeedway events |
+| Communication | ACTIVE | NASCAR signal output with track type modifier, Playoff context, and direction |
+| Verification | ACTIVE | NASCAR data from NASCAR.com official sources |
+| Learning | ACTIVE | NASCAR modifier calibration from historical track type outcome data |
+| Integration | ACTIVE | Integrates with fan-token/nascar-token-intelligence/ |
+| Calibration | ACTIVE | NASCAR is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | NASCAR intelligence adapts as stage format and Next Gen car regulations evolve |
+| Ethics | NOT APPLICABLE | NASCAR sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Track type, Playoff stage context, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

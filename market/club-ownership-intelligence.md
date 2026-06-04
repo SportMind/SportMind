@@ -218,6 +218,27 @@ $SEVILLA as reference case:
 **Registry:**                   `fan-token/registry/complete-registry.md`
 **Ecosystem health:**           `fan-token/ecosystem-health-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Club ownership intelligence: owner profile, investment signals, and ownership stability |
+| Reasoning | ACTIVE | Ownership reasoning chain from ownership signals to CDI modifier and long-term stability |
+| Context | ACTIVE | Context: ownership type (state/private/consortium), jurisdiction, financial depth |
+| Memory | ACTIVE | Historical ownership change impact patterns and CDI recovery data |
+| Judgment | ACTIVE | Judgment on ownership signal materiality — state ownership vs private equity differ |
+| Attention | ACTIVE | Elevated attention for ownership change announcements and financial stress signals |
+| Communication | ACTIVE | Ownership output with owner profile, CDI modifier, and stability rating |
+| Verification | ACTIVE | Ownership changes require regulatory and official club confirmation |
+| Learning | EMERGING | Ownership-to-CDI calibration requires more ownership change case data |
+| Integration | ACTIVE | Integrates with CDI framework, club-operations, and financial-sustainability |
+| Calibration | EMERGING | Ownership stability modifier calibration is developing |
+| Adaptation | ACTIVE | Ownership intelligence adapts as private equity and sovereign wealth activity grows |
+| Ethics | ACTIVE | Ownership due diligence signals (sanctions, money laundering) require careful handling |
+| Transparency | ACTIVE | Ownership type, jurisdiction, and stability assessment basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.69 · MIT License · sportmind.dev*

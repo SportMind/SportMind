@@ -125,6 +125,27 @@ consistently generate global media coverage — the most reliable recurring posi
 **Athlete intelligence:** `athlete/athletics/athlete-intel-athletics.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athletics market intelligence: track and field commercial signals and major championship context |
+| Reasoning | ACTIVE | Athletics market reasoning chain from championship signals to CDI modifier |
+| Context | ACTIVE | Context: Olympics, World Athletics Championships, Diamond League tier |
+| Memory | ACTIVE | Historical athletics market patterns and championship demand data |
+| Judgment | ACTIVE | Judgment on athletics signal materiality — Olympics year vs non-Olympics year differs |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification windows |
+| Communication | ACTIVE | Athletics market output with championship tier and CDI modifier |
+| Verification | ACTIVE | Athletics data from World Athletics official sources |
+| Learning | EMERGING | Athletics fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/athletics domain files and Olympic cycle intelligence |
+| Calibration | EMERGING | Athletics CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Athletics intelligence adapts as professional athletics commercial landscape evolves |
+| Ethics | ACTIVE | Athletics doping context is flagged — historical doping records affect athlete signal reliability |
+| Transparency | ACTIVE | Championship tier, cycle position, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

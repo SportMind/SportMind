@@ -193,6 +193,27 @@ Signal on launch: apply standard Phase 1 lifecycle protocol.
 **Core frameworks:** `core/sportmind-score.md` · `core/athlete-modifier-system.md`
 **Market:** `market/market-volleyball.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Volleyball event playbook: indoor and beach volleyball signals, rotation, and serve patterns |
+| Reasoning | ACTIVE | Volleyball reasoning chain from squad composition and form to outcome prediction |
+| Context | ACTIVE | Volleyball context: indoor vs beach, VNL vs World Championship, block/serve dominance |
+| Memory | ACTIVE | Historical volleyball championship patterns and rotation impact data |
+| Judgment | ACTIVE | Judgment on volleyball signal hierarchy — serving strength and blocking are primary |
+| Attention | ACTIVE | Elevated attention during FIVB World Championship and VNL Finals |
+| Communication | ACTIVE | Volleyball signal output with format context, serve modifier, and direction |
+| Verification | ACTIVE | Volleyball data from FIVB official sources |
+| Learning | EMERGING | Volleyball calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Volleyball is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Volleyball intelligence adapts as FIVB format and ranking system evolve |
+| Ethics | NOT APPLICABLE | Volleyball sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Format type and FIVB source explicit in output |
+
+
 ---
 
 *SportMind v3.86.0 · MIT License · sportmind.dev*

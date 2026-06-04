@@ -273,6 +273,27 @@ framework. Rugby union-specific notes:
 
 *MIT License · SportMind · sportmind.dev*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby union event playbook: set piece signals, scrum dominance, and tournament dynamics |
+| Reasoning | ACTIVE | Rugby union reasoning chain from set piece and squad composition to outcome prediction |
+| Context | ACTIVE | Rugby union context: Premiership/URC/World Cup, home advantage, set piece form |
+| Memory | ACTIVE | Historical rugby union outcome patterns and set piece impact data |
+| Judgment | ACTIVE | Judgment on rugby union signal hierarchy — scrum and lineout dominance are primary |
+| Attention | ACTIVE | Elevated attention during Six Nations, Rugby World Cup, and Lions tours |
+| Communication | ACTIVE | Rugby union signal output with set piece context, squad status, and direction |
+| Verification | ACTIVE | Rugby union data from World Rugby and national union official sources |
+| Learning | ACTIVE | Rugby union modifier calibration from historical set piece outcome data |
+| Integration | ACTIVE | Integrates with rugby-union-specific.md and fan-token/rugby-token-intelligence/ |
+| Calibration | ACTIVE | Rugby union is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | Rugby union intelligence adapts as law changes and tactical evolution continue |
+| Ethics | NOT APPLICABLE | Rugby union sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Set piece context and World Rugby source explicit in output |
+
+
 ---
 
 ## Event Playbooks

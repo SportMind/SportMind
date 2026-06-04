@@ -231,6 +231,27 @@ is plausible.
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 **Sports equity:** `market/sports-equity-intelligence.md` — FWONK (Liberty Media/F1) as commercial macro signal
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Formula 1 market intelligence: constructor commercial tiers, prize fund, and title sponsor signals |
+| Reasoning | ACTIVE | F1 market reasoning chain from constructor tier to CDI modifier |
+| Context | ACTIVE | Context: prize fund structure, constructor standings, title sponsor activation |
+| Memory | ACTIVE | Historical F1 market patterns and constructor CDI data |
+| Judgment | ACTIVE | Judgment on F1 market signal hierarchy — championship position drives all commercial signals |
+| Attention | ACTIVE | Elevated attention during constructor championship battles and title sponsor announcements |
+| Communication | ACTIVE | F1 market output with constructor tier, championship context, and CDI modifier |
+| Verification | ACTIVE | F1 market data from FOM/FIA official commercial sources |
+| Learning | ACTIVE | F1 market calibration — qualifying_delta is well-calibrated (4/4) |
+| Integration | ACTIVE | Integrates with sports/formula1 domain files and market-overview |
+| Calibration | ACTIVE | F1 CDI modifiers calibrated — qualifying_delta and constructor tier are validated signals |
+| Adaptation | ACTIVE | F1 market intelligence adapts as Concorde Agreement and prize structures evolve |
+| Ethics | NOT APPLICABLE | F1 market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Constructor tier, championship position, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

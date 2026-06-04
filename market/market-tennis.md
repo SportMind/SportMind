@@ -136,6 +136,27 @@ token programme specifically (not mixed ATP/WTA) could target the sport's 50% fe
 **Athlete intelligence:** `athlete/tennis/athlete-intel-tennis.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tennis market intelligence: Grand Slam commercial tiers, ranking points value, and ATP/WTA signals |
+| Reasoning | ACTIVE | Tennis market reasoning chain from Grand Slam tier to CDI modifier |
+| Context | ACTIVE | Context: Grand Slam hierarchy (Wimbledon/US Open/Roland Garros/AO), surface specialisation |
+| Memory | ACTIVE | Historical tennis market patterns and Grand Slam demand correlation data |
+| Judgment | ACTIVE | Judgment on tennis signal hierarchy — Grand Slams dominate all other signal windows |
+| Attention | ACTIVE | Elevated attention during Grand Slam draws and finals weeks |
+| Communication | ACTIVE | Tennis market output with Grand Slam tier, surface context, and CDI modifier |
+| Verification | ACTIVE | Tennis data from ATP, WTA, and Grand Slam official commercial sources |
+| Learning | EMERGING | Tennis fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/tennis domain files |
+| Calibration | EMERGING | Tennis CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Tennis market intelligence adapts as WTA and ATP prize parity evolves |
+| Ethics | NOT APPLICABLE | Tennis market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Grand Slam tier, surface context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

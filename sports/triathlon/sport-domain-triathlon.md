@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Triathlon event playbook: swim/bike/run split signals, drafting rules, and transition data |
+| Reasoning | ACTIVE | Triathlon reasoning chain from athlete speciality and course profile to outcome prediction |
+| Context | ACTIVE | Triathlon context: Sprint vs Olympic vs Ironman, drafting rules, course terrain |
+| Memory | ACTIVE | Historical triathlon championship patterns and discipline split correlation data |
+| Judgment | ACTIVE | Judgment on triathlon signal hierarchy — run split and transition speed are primary |
+| Attention | ACTIVE | Elevated attention during World Triathlon Series and Ironman World Championship |
+| Communication | ACTIVE | Triathlon signal output with discipline context, course modifier, and direction |
+| Verification | ACTIVE | Triathlon data from World Triathlon official sources |
+| Learning | EMERGING | Triathlon calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Triathlon is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Triathlon intelligence adapts as format rules and course configurations evolve |
+| Ethics | NOT APPLICABLE | Triathlon sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and discipline context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

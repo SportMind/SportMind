@@ -92,6 +92,27 @@ includes digital product development as standard practice
 **Sport domain:** `sports/snooker/sport-domain-snooker.md`
 **Athlete intelligence:** `athlete/snooker/athlete-intel-snooker.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Snooker market intelligence: World Championship, ranking event tiers, and player profile signals |
+| Reasoning | ACTIVE | Snooker market reasoning chain from event tier to CDI modifier |
+| Context | ACTIVE | Context: World Championship > Masters > UK Championship hierarchy, Chinese market weight |
+| Memory | ACTIVE | Historical snooker market patterns and ranking event demand data |
+| Judgment | ACTIVE | Judgment on snooker signal hierarchy — World Championship is the dominant annual signal |
+| Attention | ACTIVE | Elevated attention during World Championship and ranking event finals |
+| Communication | ACTIVE | Snooker market output with ranking event tier and CDI modifier |
+| Verification | ACTIVE | Snooker data from World Snooker Tour official sources |
+| Learning | EMERGING | Snooker fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/snooker domain files |
+| Calibration | EMERGING | Snooker CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Snooker market intelligence adapts as Chinese commercial market grows |
+| Ethics | NOT APPLICABLE | Snooker market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Event tier, Chinese market context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

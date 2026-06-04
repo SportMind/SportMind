@@ -595,6 +595,27 @@ For European club tokens, it is equivalent in signal weight to this World Cup.
 Reference: market/international-football-cycle.md — Euro 2028 planning framework
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | World Cup 2026 market intelligence: 48-team format, commercial impact, and North America host signals |
+| Reasoning | ACTIVE | World Cup 2026 reasoning chain from host/format signals to national team CDI and demand modifier |
+| Context | ACTIVE | Context: 48-team format (first), USA/Canada/Mexico hosting, June 11-July 19 2026 window |
+| Memory | ACTIVE | Historical World Cup commercial demand patterns and host nation CDI data |
+| Judgment | ACTIVE | Judgment on World Cup 2026 signal hierarchy — host nation and group stage draw dominate |
+| Attention | ACTIVE | Maximum attention during group draw, tournament window, and knockout stage signals |
+| Communication | ACTIVE | World Cup 2026 output with host context, format impact, national team CDI, and demand modifier |
+| Verification | ACTIVE | World Cup data from FIFA official commercial and competition sources |
+| Learning | ACTIVE | World Cup 2026 commercial calibration building from historical World Cup data |
+| Integration | ACTIVE | Integrates with world-cup-2026-intelligence (fan-token/), international-football-cycle, national-team-tokens |
+| Calibration | ACTIVE | World Cup demand modifiers calibrated from historical tournament-to-token demand data |
+| Adaptation | ACTIVE | World Cup 2026 intelligence adapts as tournament progresses and format effects become clear |
+| Ethics | NOT APPLICABLE | World Cup market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Host nation context, format impacts, and CDI modifier explicit in all World Cup 2026 outputs |
+
+
 ---
 
 ## Cycle context

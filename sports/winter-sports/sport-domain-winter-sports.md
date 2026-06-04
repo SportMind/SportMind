@@ -236,6 +236,27 @@ You are a winter sports intelligence agent. Before evaluating any winter sports 
 ---
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Winter sports event playbook: alpine skiing, biathlon, cross-country, and snowboard signals |
+| Reasoning | ACTIVE | Winter sports reasoning chain from snow conditions and athlete form to outcome prediction |
+| Context | ACTIVE | Winter sports context: course type, snow conditions, altitude, equipment regulations |
+| Memory | ACTIVE | Historical winter sports championship patterns and snow condition correlation data |
+| Judgment | ACTIVE | Judgment on winter sports signal hierarchy — course conditions and form are primary |
+| Attention | ACTIVE | Elevated attention during FIS World Championships and Biathlon World Cup Finals |
+| Communication | ACTIVE | Winter sports signal output with discipline context, conditions modifier, and direction |
+| Verification | ACTIVE | Winter sports data from FIS and IBU official sources |
+| Learning | ACTIVE | Winter sports calibration from historical snow condition outcome data |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | ACTIVE | Winter sports is a calibrated domain in SportMind library |
+| Adaptation | ACTIVE | Winter sports intelligence adapts as climate patterns affect snow conditions |
+| Ethics | NOT APPLICABLE | Winter sports domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Discipline type, conditions source, and modifier basis explicit in output |
+
+
 ---
 
 ## Key Commands

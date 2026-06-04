@@ -308,6 +308,27 @@ For F1 statistics sub-module — adds to the `sport-domain-formula1.md` weights:
 **Fan token layer:** `fan-token/formula1-token-intelligence/token-intelligence-formula1.md`
 **Breaking news:** `core/breaking-news-intelligence.md` (DNF, regulation directive)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | F1 advanced statistics: sector times, DRS effectiveness, tyre degradation, pit stop data |
+| Reasoning | ACTIVE | F1 statistical reasoning chain from telemetry data to performance signal |
+| Context | ACTIVE | Statistics context: circuit-specific metrics, weather-adjusted times, compound selection |
+| Memory | ACTIVE | Historical F1 statistical baselines by circuit and team |
+| Judgment | ACTIVE | Judgment on F1 statistics — sector time deltas are more predictive than lap time |
+| Attention | ACTIVE | Elevated attention for practice session statistical outliers |
+| Communication | ACTIVE | F1 statistical output with sector deltas, tyre context, and confidence |
+| Verification | ACTIVE | F1 statistics from FIA timing data and constructor press releases |
+| Learning | ACTIVE | F1 statistical calibration from historical telemetry-to-outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-formula1.md |
+| Calibration | ACTIVE | F1 statistical modifiers calibrated against historical qualifying-race correlation |
+| Adaptation | ACTIVE | F1 statistical framework adapts as car regulations change |
+| Ethics | NOT APPLICABLE | F1 statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | FIA timing data source and circuit context explicit in output |
+
+
 ---
 
 *SportMind v3.89.0 · MIT License · sportmind.dev*

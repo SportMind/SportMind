@@ -298,6 +298,27 @@ For basketball statistics sub-module:
 **Athlete layer:** `core/athlete-modifier-system.md` (star player ATM)
 **Breaking news:** `core/breaking-news-intelligence.md` (star absence = Category 1)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Basketball advanced statistics framework: PER, TS%, ORTG/DRTG, lineup data |
+| Reasoning | ACTIVE | Statistical reasoning chain from advanced metrics to performance signal |
+| Context | ACTIVE | Statistics context: sample size, opponent quality, pace-adjusted metrics |
+| Memory | ACTIVE | Historical statistical baseline profiles for player and team comparison |
+| Judgment | ACTIVE | Judgment on statistical signal — small sample metrics require uncertainty flag |
+| Attention | ACTIVE | Elevated attention for significant statistical outliers from established baselines |
+| Communication | ACTIVE | Statistical output with context-adjusted metrics and confidence level |
+| Verification | ACTIVE | Basketball statistics from NBA Stats API and official data providers |
+| Learning | ACTIVE | Statistical baseline learning from accumulated performance data |
+| Integration | ACTIVE | Integrates with sport-domain-basketball.md and player statistical reasoning |
+| Calibration | ACTIVE | Statistical modifiers calibrated against historical performance-outcome correlation |
+| Adaptation | ACTIVE | Statistical framework adapts as advanced metrics evolve |
+| Ethics | NOT APPLICABLE | Statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Statistical source and sample size explicit in all statistical outputs |
+
+
 ---
 
 *SportMind v3.91.0 · MIT License · sportmind.dev*

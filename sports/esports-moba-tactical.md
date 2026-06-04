@@ -281,6 +281,27 @@ DEMAND FRAMEWORK — LOL AND VALORANT TOKENS (when they launch):
 **CS2:**             `sports/esports-cs2.md`
 **CDI:**             `fan-token/esports-token-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MOBA and tactical shooter cross-genre signal framework |
+| Reasoning | ACTIVE | MOBA/tactical reasoning chain from team composition to genre-specific outcome prediction |
+| Context | ACTIVE | Genre context: MOBA (Dota 2, LoL) vs tactical shooter (CS2, Valorant) signal differences |
+| Memory | ACTIVE | Historical genre-specific outcome patterns and team composition baselines |
+| Judgment | ACTIVE | Judgment on genre-specific signal applicability — MOBA draft vs tactical economy differ |
+| Attention | ACTIVE | Elevated attention for genre-defining events (TI for MOBA, Major for tactical) |
+| Communication | ACTIVE | MOBA/tactical signal output with genre identifier and relevant signal framework |
+| Verification | ACTIVE | Genre-specific data from official tournament and game operator sources |
+| Learning | EMERGING | MOBA/tactical calibration is developing across titles |
+| Integration | ACTIVE | Integrates with esports-framework.md, esports-dota2.md, and esports-cs2.md |
+| Calibration | EMERGING | Genre-level calibration is emerging |
+| Adaptation | ACTIVE | Genre framework adapts as new titles emerge and existing titles evolve |
+| Ethics | NOT APPLICABLE | MOBA/tactical sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Genre type, game title, and signal framework identifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.30 · MIT License · sportmind.dev*

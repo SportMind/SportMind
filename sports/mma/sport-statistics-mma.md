@@ -331,6 +331,27 @@ For MMA statistics sub-module — adds to the `sport-domain-mma.md` weights:
 **Athlete layer:** `athlete/athlete-modifier-mma.md`
 **Breaking news:** `core/breaking-news-intelligence.md` (missed weight = Category 1)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA advanced statistics: significant strikes, takedown %, submission attempts, and reach data |
+| Reasoning | ACTIVE | MMA statistical reasoning chain from fight metrics to style and performance signal |
+| Context | ACTIVE | Statistics context: opponent quality, fight duration, weight class adjustments |
+| Memory | ACTIVE | Historical MMA statistical baseline profiles by weight class and fighting style |
+| Judgment | ACTIVE | Judgment on MMA statistics — takedown rate vs submission threat creates complex interaction |
+| Attention | ACTIVE | Elevated attention for significant statistical outliers from fighter baselines |
+| Communication | ACTIVE | MMA statistical output with context-adjusted metrics and confidence |
+| Verification | ACTIVE | MMA statistics from UFC Stats and Fight Metric official data |
+| Learning | ACTIVE | MMA statistical calibration from historical metric-to-outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-mma.md |
+| Calibration | ACTIVE | MMA statistical modifiers calibrated against historical metric-outcome correlation |
+| Adaptation | ACTIVE | MMA statistical framework adapts as tracking data quality improves |
+| Ethics | NOT APPLICABLE | MMA statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Fight data source and weight class context explicit in output |
+
+
 ---
 
 *SportMind v3.89.0 · MIT License · sportmind.dev*

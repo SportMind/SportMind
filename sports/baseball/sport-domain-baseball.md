@@ -532,6 +532,27 @@ framework. Baseball-specific notes:
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 **Fan token layer:** No active token — `fan-token/fan-token-pulse` when available
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Baseball event playbook: MLB signal weights, pitching matchups, and analytics framework |
+| Reasoning | ACTIVE | Baseball reasoning chain from starting pitcher to game outcome prediction |
+| Context | ACTIVE | Baseball context: park factors, bullpen fatigue, lineup vs pitching handedness |
+| Memory | ACTIVE | Historical baseball outcome patterns and pitching matchup baselines |
+| Judgment | ACTIVE | Judgment on baseball signal hierarchy — starting pitcher is the dominant signal |
+| Attention | ACTIVE | Elevated attention for pitching lineup confirmations and bullpen availability |
+| Communication | ACTIVE | Baseball signal output with direction, pitcher matchup, and park factor modifier |
+| Verification | ACTIVE | Baseball data from MLB official sources and Statcast |
+| Learning | ACTIVE | Baseball modifier calibration from historical pitching matchup outcome data |
+| Integration | ACTIVE | Integrates with athlete/baseball/ files and fan-token/baseball-token-intelligence/ |
+| Calibration | ACTIVE | Baseball pitching matchup modifiers calibrated against historical outcome data |
+| Adaptation | ACTIVE | Baseball intelligence adapts as analytics and rule changes evolve |
+| Ethics | NOT APPLICABLE | Baseball sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Pitching matchup source and park factor basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

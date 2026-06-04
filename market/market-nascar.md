@@ -140,6 +140,27 @@ fans under 35. Fan tokens could be part of a broader digital-native fan engageme
 **Sport domain:** `sports/nascar/sport-domain-nascar.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NASCAR market intelligence: Cup Series commercial tiers and US racing market signals |
+| Reasoning | ACTIVE | NASCAR market reasoning chain from series tier to CDI modifier |
+| Context | ACTIVE | Context: Charter system value, Playoff stages, sponsor activation, manufacturer support |
+| Memory | ACTIVE | Historical NASCAR market patterns and Playoff demand data |
+| Judgment | ACTIVE | Judgment on NASCAR signal hierarchy — Daytona 500 and Playoff stages are primary windows |
+| Attention | ACTIVE | Elevated attention during NASCAR Playoffs and championship race windows |
+| Communication | ACTIVE | NASCAR market output with series tier, Playoff stage, and CDI modifier |
+| Verification | ACTIVE | NASCAR market data from NASCAR official commercial sources |
+| Learning | EMERGING | NASCAR fan token market calibration is limited — US market expanding |
+| Integration | ACTIVE | Integrates with sports/nascar domain files |
+| Calibration | EMERGING | NASCAR CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | NASCAR market intelligence adapts as Next Gen car and international expansion develop |
+| Ethics | NOT APPLICABLE | NASCAR market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Series tier, Playoff stage, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -204,6 +204,27 @@ PFL FAN TOKEN ($PFL) — SEASON STRUCTURE SIGNAL:
 **Athlete modifiers:**  `core/core-athlete-modifier-system.md`
 **Venue:**              `core/venue-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Combat sports cross-domain framework: boxing, MMA, wrestling, and martial arts signals |
+| Reasoning | ACTIVE | Combat sports reasoning chain from fighter attributes to bout outcome prediction |
+| Context | ACTIVE | Combat context: rule set, weight class, promotion tier, grappling vs striking signals |
+| Memory | ACTIVE | Historical combat sport outcome patterns across disciplines |
+| Judgment | ACTIVE | Judgment on combat discipline differences — MMA signals differ from boxing signals |
+| Attention | ACTIVE | Elevated attention for weight cut signals across all combat disciplines |
+| Communication | ACTIVE | Combat sports signal output with discipline identifier and modifier |
+| Verification | ACTIVE | Combat sports data from athletic commission and promotion official sources |
+| Learning | ACTIVE | Combat sports calibration from historical discipline-specific outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-boxing.md, sport-domain-mma.md, and injury files |
+| Calibration | ACTIVE | Combat sports modifiers calibrated by discipline — not interchangeable |
+| Adaptation | ACTIVE | Combat sports intelligence adapts as rule sets and hybrid disciplines evolve |
+| Ethics | ACTIVE | Fighter safety signals require highest accuracy — medical clearance is paramount |
+| Transparency | ACTIVE | Discipline type and rule set context always explicit in combat sports output |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

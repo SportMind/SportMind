@@ -206,6 +206,27 @@ You are a snooker sports intelligence agent. Before evaluating any snooker event
 ---
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Snooker event playbook: form signals, match format, psychological momentum, and table speed |
+| Reasoning | ACTIVE | Snooker reasoning chain from form and format to match outcome prediction |
+| Context | ACTIVE | Snooker context: ranking vs invitational event, best-of format length, TV pressure |
+| Memory | ACTIVE | Historical snooker outcome patterns by format and player profile |
+| Judgment | ACTIVE | Judgment on snooker signal hierarchy — recent form and match format length are primary |
+| Attention | ACTIVE | Elevated attention during World Championship and UK Championship finals |
+| Communication | ACTIVE | Snooker signal output with format context, form modifier, and direction |
+| Verification | ACTIVE | Snooker data from World Snooker Tour official sources |
+| Learning | ACTIVE | Snooker modifier calibration from historical format-specific outcome data |
+| Integration | ACTIVE | Integrates with core sport domain framework and psychological intelligence |
+| Calibration | ACTIVE | Snooker is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | Snooker intelligence adapts as tour format and ranking system evolve |
+| Ethics | NOT APPLICABLE | Snooker sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Format context, form source, and modifier basis explicit in output |
+
+
 ---
 
 ## Key Commands

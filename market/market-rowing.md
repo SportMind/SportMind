@@ -58,6 +58,27 @@ interesting but commercially unproven.
 
 **Sport domain:** `sports/rowing/sport-domain-rowing.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rowing market intelligence: World Rowing commercial signals and Olympic cycle context |
+| Reasoning | ACTIVE | Rowing market reasoning chain from event tier to CDI modifier |
+| Context | ACTIVE | Context: Olympic qualification cycle, Henley Royal Regatta, World Rowing Championships |
+| Memory | ACTIVE | Historical rowing market patterns and Olympic cycle demand data |
+| Judgment | ACTIVE | Judgment on rowing signal materiality — Olympics year is dominant demand window |
+| Attention | ACTIVE | Elevated attention during Olympic qualification and championship windows |
+| Communication | ACTIVE | Rowing market output with event tier and CDI modifier |
+| Verification | ACTIVE | Rowing data from World Rowing official sources |
+| Learning | EMERGING | Rowing fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/rowing domain files |
+| Calibration | EMERGING | Rowing CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Rowing market intelligence adapts as commercial landscape grows beyond Olympic windows |
+| Ethics | NOT APPLICABLE | Rowing market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Event tier and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

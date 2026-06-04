@@ -1,5 +1,72 @@
 # Changelog
 
+## [3.97.103] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: market/ directory
+
+0 new files. 48 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to 48 market/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section (3 files — preserved unchanged):
+  market/club-revenue-intelligence.md
+  market/competition-calendar-intelligence.md
+  market/financial-fair-play-intelligence.md
+
+Skipped (exempt): 0 — no README.md or pure data files in market/
+
+48 files updated across all market/ subdirectories including:
+  Commercial intelligence (broadcaster, club operations, ownership, partnerships,
+  marketing, sponsorship, equity)
+  Sport-specific market files (AFL, American football, athletics, badminton,
+  baseball, basketball, boxing, cricket, cycling, darts, esports, football,
+  F1, golf, handball, horse racing, ice hockey, kabaddi, MMA, MotoGP, NASCAR,
+  netball, rowing, rugby league, rugby union, snooker, swimming, table tennis,
+  tennis, volleyball, winter sports, women's sports)
+  Cross-sport intelligence (market-overview, market-key-findings)
+  Competition cycle intelligence (international cricket/football/rugby cycles,
+  EuroLeague basketball, football-leagues-advanced, Saudi Pro League)
+  World Cup 2026 market intelligence
+
+## [3.97.103] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: sports/ directory
+
+0 new files. 65 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to all 65 sports/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note for each dimension.
+
+No exempt files — all 65 sports/ files are reasoning frameworks.
+No files previously had the section.
+
+65 files updated across all sports/ subdirectories including:
+  AFL, American football/NFL, Athletics, Badminton (stub), Baseball, Basketball
+  (domain + statistics), Boxing, Combat sports (cross-domain), Cricket (domain
+  + statistics + IPL), Curling (stub), Cycling, Darts, Esports (domain,
+  statistics, CS2, Dota2, framework, MOBA/tactical, Valorant), Fencing (stub),
+  Field hockey (stub), Football (core + AFCON + Asian Cup + Copa America +
+  Euros + Saudi Pro League + World Cup + statistics), Formula 1 (domain +
+  statistics), Golf, Gymnastics (stub), Handball, Horse racing, Ice hockey,
+  Judo (stub), Kabaddi, MMA (domain + statistics), MotoGP, Motorsport
+  cross-domain, NASCAR, Netball, Rowing, Rugby union (domain + cross-domain),
+  Rugby league, Sailing (stub), Snooker, Squash (stub), Swimming (pool + open
+  water), Table tennis (stub), Taekwondo (stub), Tennis, Triathlon (stub),
+  Volleyball (stub), Weightlifting (stub), Winter sports, Women's football.
+
+Stub sports (limited calibration data) noted with EMERGING calibration status
+and transparency disclosure of stub status in output.
+Calibrated sports with verified SportMind records note specific signal
+accuracies (dew_factor 5/5, qualifying_delta 4/4, morning_skate 3/3,
+raider_primacy 1/1, india_pakistan 3/3).
+
 ## [3.97.102] — 2026-06-04
 
 ### Added — MIND DIMENSIONS backfill: fan-token/ directory

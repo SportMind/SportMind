@@ -467,6 +467,27 @@ get_ramadan_modifier(kickoff_time, player_religion)
 **Athlete:** `athlete/football/athlete-intel-saudi-pro-league.md`
 **Tiers:**   `core/sport-tiers.md` — Tier B (Fan Token Adjacent)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Saudi Pro League-specific signal intelligence: mega-signing impact, development trajectory |
+| Reasoning | ACTIVE | SPL reasoning chain from squad composition and commercial context to outcome prediction |
+| Context | ACTIVE | SPL context: mega-signing motivation signals, league development phase, Asian Champions League |
+| Memory | ACTIVE | Historical SPL outcome patterns and mega-signing performance data |
+| Judgment | ACTIVE | Judgment on SPL signal uniqueness — motivation of elite players is a primary signal |
+| Attention | ACTIVE | Elevated attention for player motivation signals and club commercial announcements |
+| Communication | ACTIVE | SPL signal output with motivation modifier, squad context, and direction |
+| Verification | ACTIVE | SPL data from Saudi Pro League official sources |
+| Learning | ACTIVE | SPL modifier calibration from historical mega-signing performance data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md, CDI framework, and KSA regulatory intelligence |
+| Calibration | ACTIVE | SPL motivation modifiers calibrated against historical player performance data |
+| Adaptation | ACTIVE | SPL intelligence adapts as league development phase and player acquisition evolve |
+| Ethics | NOT APPLICABLE | SPL sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Player motivation context, source, and modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.8 · MIT License · sportmind.dev*

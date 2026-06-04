@@ -262,6 +262,27 @@ one platform creates a switching cost for both clubs and holders that has proven
 **Sports equity:** `market/sports-equity-intelligence.md` — GSRAY.IS, JUVE.MI, ASR.MI, BVB.DE, MANU equity cross-signals
 **Exchange intelligence:** `fan-token/fan-token-exchange-intelligence.md` — EDLI, DAXA lifecycle for Turkish fan tokens
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Football market intelligence: club commercial tiers across five major leagues and CDI framework |
+| Reasoning | ACTIVE | Football market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: Big Six/Big Five structure, UEFA coefficients, transfer market valuation |
+| Memory | ACTIVE | Historical football market patterns and CDI baseline data — most data-rich market file |
+| Judgment | ACTIVE | Judgment on football market signal hierarchy — UCL participation is the primary CDI driver |
+| Attention | ACTIVE | Elevated attention during UCL group draw, transfer windows, and title races |
+| Communication | ACTIVE | Football market output with commercial tier, CDI modifier, and competition context |
+| Verification | ACTIVE | Football market data from UEFA, FIFA, and official league commercial sources |
+| Learning | ACTIVE | Football market calibration is the most developed in the library — 100+ records |
+| Integration | ACTIVE | Integrates with football-leagues-advanced, international-football-cycle, and CDI framework |
+| Calibration | ACTIVE | Football market CDI modifiers most calibrated — 96% direction accuracy |
+| Adaptation | ACTIVE | Football market intelligence adapts as financial landscape and super league discussions evolve |
+| Ethics | NOT APPLICABLE | Football market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Commercial tier, UCL participation status, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

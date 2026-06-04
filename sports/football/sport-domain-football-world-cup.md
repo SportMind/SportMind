@@ -757,6 +757,27 @@ STEPS:
 **Tournament macro:** `macro/tournament-macro.md`
 **Existing WC intelligence:** `fan-token/world-cup-2026-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | FIFA World Cup signal intelligence: 48-team format, group dynamics, host effects, and squad signals |
+| Reasoning | ACTIVE | World Cup reasoning chain from squad composition, group draw, and conditions to outcome prediction |
+| Context | ACTIVE | World Cup context: 2026 North America hosts, 48-team format, extended squad size |
+| Memory | ACTIVE | Historical World Cup outcome patterns and tournament stage baselines |
+| Judgment | ACTIVE | Judgment on World Cup signal hierarchy — squad depth and tournament form are primary |
+| Attention | ACTIVE | Maximum attention during World Cup — highest demand amplifier in SportMind |
+| Communication | ACTIVE | World Cup signal output with tournament phase, group context, and direction |
+| Verification | ACTIVE | World Cup data from FIFA official sources |
+| Learning | ACTIVE | World Cup modifier calibration from historical tournament outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md, national team tokens, and World Cup 2026 fan token framework |
+| Calibration | ACTIVE | World Cup modifiers calibrated against historical stage and format outcome data |
+| Adaptation | ACTIVE | World Cup intelligence adapts for 2026 48-team format changes |
+| Ethics | NOT APPLICABLE | World Cup sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament stage, group context, and format change implications explicit in output |
+
+
 ---
 
 *SportMind v3.97.18 · MIT License · sportmind.dev*

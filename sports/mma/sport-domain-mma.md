@@ -319,6 +319,27 @@ sports/mma                            ← domain context (this skill)
   + fan-token/athlete-social-lift     ← live FTM confirmation
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA event playbook: style matchup, weight cut, reach/age analysis, and promotion tier |
+| Reasoning | ACTIVE | MMA reasoning chain from fighter attributes and weight cut to bout outcome prediction |
+| Context | ACTIVE | MMA context: championship vs PPV vs Fight Night, weight class, finishing vs decision patterns |
+| Memory | ACTIVE | Historical MMA outcome patterns by weight class and fighting style matchup |
+| Judgment | ACTIVE | Judgment on MMA signal hierarchy — weight cut and style matchup are primary |
+| Attention | ACTIVE | Maximum attention for weight cut signals and missed weight |
+| Communication | ACTIVE | MMA signal output with style matchup, weight cut status, and direction |
+| Verification | ACTIVE | MMA data from athletic commission and official UFC/Bellator announcements |
+| Learning | ACTIVE | MMA modifier calibration from historical style matchup outcome data |
+| Integration | ACTIVE | Integrates with sport-statistics-mma.md, injury-intel-mma.md, and fan-token/mma-token-intelligence/ |
+| Calibration | ACTIVE | MMA is a calibrated sport in SportMind library — style matchup signals validated |
+| Adaptation | ACTIVE | MMA intelligence adapts as weight class structures and promotional landscape evolve |
+| Ethics | ACTIVE | Fighter safety signals — weight cut extremes and medical suspension — require accurate handling |
+| Transparency | ACTIVE | Weight cut status, athletic commission source, and style matchup basis explicit in output |
+
+
 ---
 MIT License · SportMind · sportmind.dev
 

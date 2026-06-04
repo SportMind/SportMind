@@ -66,6 +66,27 @@ means one deal covers the entire world tour.
 
 **Sport domain:** `sports/badminton/sport-domain-badminton.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Badminton market intelligence: BWF calendar, commercial signals, and Asian market dominance |
+| Reasoning | ACTIVE | Badminton market reasoning chain from BWF signals to CDI modifier |
+| Context | ACTIVE | Context: Thomas/Uber Cup, BWF World Championships, Chinese/Indonesian market weight |
+| Memory | ACTIVE | Historical badminton market patterns and tournament demand data |
+| Judgment | ACTIVE | Judgment on badminton signal materiality — Asian market signals dominate globally |
+| Attention | ACTIVE | Elevated attention during All England, World Championships, and Olympic badminton |
+| Communication | ACTIVE | Badminton market output with BWF event type and CDI modifier |
+| Verification | ACTIVE | Badminton data from BWF official sources |
+| Learning | EMERGING | Badminton fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/badminton domain files |
+| Calibration | EMERGING | Badminton CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Badminton intelligence adapts as commercial landscape evolves beyond Asian dominance |
+| Ethics | NOT APPLICABLE | Badminton market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | BWF event tier and market context explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

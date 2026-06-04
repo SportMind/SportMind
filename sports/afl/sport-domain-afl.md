@@ -356,6 +356,27 @@ AFL-specific notes:
 
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AFL event playbook: signal weights, scoring system, finals structure, and weather modifiers |
+| Reasoning | ACTIVE | AFL reasoning chain from form/conditions to direction signal and confidence |
+| Context | ACTIVE | AFL context: home ground advantage, interstate travel, finals vs home-and-away |
+| Memory | ACTIVE | Historical AFL outcome patterns and seasonal baseline data |
+| Judgment | ACTIVE | Judgment on AFL signal hierarchy — finals proximity amplifies all signals |
+| Attention | ACTIVE | Elevated attention during AFL finals series and elimination matches |
+| Communication | ACTIVE | AFL signal output with direction, SMS, and active modifier stack |
+| Verification | ACTIVE | AFL data from AFL.com.au official sources |
+| Learning | ACTIVE | AFL modifier calibration from historical outcome data |
+| Integration | ACTIVE | Integrates with athlete/afl/ files and fan-token/afl-token-intelligence/ |
+| Calibration | ACTIVE | AFL modifiers calibrated against historical match outcome data |
+| Adaptation | ACTIVE | AFL intelligence adapts as competition format and scoring rules evolve |
+| Ethics | NOT APPLICABLE | AFL sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | AFL signal weights and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -142,6 +142,27 @@ MARKETING DARK PERIOD (7+ days complete silence on all channels, no announced re
 **Seasonal cycles:**       `core/seasonal-intelligence.md`
 **Financial health:**      `core/financial-sustainability-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports marketing and advertising intelligence: campaign signals, activation, and brand value |
+| Reasoning | ACTIVE | Marketing reasoning chain from campaign signal to CDI and demand modifier |
+| Context | ACTIVE | Context: campaign scale, tournament activation windows, celebrity endorsement timing |
+| Memory | ACTIVE | Historical marketing campaign impact patterns and CDI correlation data |
+| Judgment | ACTIVE | Judgment on marketing signal materiality — jersey naming rights vs minor campaign differ |
+| Attention | ACTIVE | Elevated attention for major campaign launches and tournament activation announcements |
+| Communication | ACTIVE | Marketing output with campaign tier, activation type, and CDI modifier |
+| Verification | ACTIVE | Marketing campaigns require official brand and club announcement confirmation |
+| Learning | EMERGING | Marketing-to-CDI calibration requires more cross-campaign data |
+| Integration | ACTIVE | Integrates with commercial-partnership-intelligence, broadcaster, and sponsorship intelligence |
+| Calibration | EMERGING | Marketing CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Marketing intelligence adapts as digital and social activation models evolve |
+| Ethics | NOT APPLICABLE | Marketing intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Campaign tier, activation type, and CDI modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.59 · MIT License · sportmind.dev*

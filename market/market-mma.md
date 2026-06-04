@@ -216,6 +216,27 @@ lower here than in almost any other sport.
 **Fan token Layer 3:** `fan-token/mma-token-intelligence/token-intelligence-mma.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-mma.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA market intelligence: UFC/Bellator commercial tiers, PPV value, and promotion landscape |
+| Reasoning | ACTIVE | MMA market reasoning chain from bout significance to CDI modifier |
+| Context | ACTIVE | Context: UFC dominance, PPV buyrate tier, Saudi Arabia crossover events |
+| Memory | ACTIVE | Historical MMA market patterns and PPV demand correlation data |
+| Judgment | ACTIVE | Judgment on MMA market signal hierarchy — UFC title fights are highest CDI signal |
+| Attention | ACTIVE | Elevated attention for UFC title fight announcements and PPV cards |
+| Communication | ACTIVE | MMA market output with bout tier, PPV context, and CDI modifier |
+| Verification | ACTIVE | MMA market data from UFC official commercial sources |
+| Learning | EMERGING | MMA fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/mma domain files and injury-intel-mma |
+| Calibration | EMERGING | MMA CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | MMA market intelligence adapts as Saudi Arabia transforms the promotional landscape |
+| Ethics | NOT APPLICABLE | MMA market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Bout tier, PPV context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

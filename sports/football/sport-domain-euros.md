@@ -279,6 +279,27 @@ Fan token monitoring:
 **Tournament macro:** `macro/tournament-macro.md`
 **Club tokens:** `fan-token/league-football-token-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | UEFA Euros-specific signal intelligence: tournament structure, host nation, and squad signals |
+| Reasoning | ACTIVE | Euros reasoning chain from squad composition and tournament stage to outcome prediction |
+| Context | ACTIVE | Euros context: 24-team format, host nation advantage, fatigue after club season |
+| Memory | ACTIVE | Historical Euros outcome patterns and tournament stage data |
+| Judgment | ACTIVE | Judgment on Euros signal hierarchy — squad form and physical freshness are primary |
+| Attention | ACTIVE | Elevated attention for squad news, injury updates, and key group stage fixtures |
+| Communication | ACTIVE | Euros signal output with tournament stage modifier, squad context, and direction |
+| Verification | ACTIVE | Euros data from UEFA official sources |
+| Learning | ACTIVE | Euros modifier calibration from historical tournament outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md and national team framework |
+| Calibration | ACTIVE | Euros modifiers calibrated against historical tournament stage outcome data |
+| Adaptation | ACTIVE | Euros intelligence adapts as UEFA format and tournament structure evolve |
+| Ethics | NOT APPLICABLE | Euros sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament stage context and squad source explicit in output |
+
+
 ---
 
 *SportMind v3.97.24 · MIT License · sportmind.dev*

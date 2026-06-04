@@ -78,6 +78,27 @@ regulatory environment + high crypto adoption). The Netball World Cup is the act
 
 **Sport domain:** `sports/netball/sport-domain-netball.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Netball market intelligence: Super Netball/ANZ commercial tiers and national team signals |
+| Reasoning | ACTIVE | Netball market reasoning chain from competition tier to CDI modifier |
+| Context | ACTIVE | Context: Super Netball Australian market, Netball World Cup amplifier, broadcast rights |
+| Memory | ACTIVE | Historical netball market patterns and tournament demand data |
+| Judgment | ACTIVE | Judgment on netball signal materiality — World Cup and Super Netball finals dominate |
+| Attention | ACTIVE | Elevated attention during Super Netball finals and Netball World Cup |
+| Communication | ACTIVE | Netball market output with competition tier and CDI modifier |
+| Verification | ACTIVE | Netball data from Netball Australia and World Netball official sources |
+| Learning | EMERGING | Netball fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/netball domain files |
+| Calibration | EMERGING | Netball CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Netball market intelligence adapts as the sport grows commercially |
+| Ethics | NOT APPLICABLE | Netball market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition tier and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

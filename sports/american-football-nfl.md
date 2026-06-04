@@ -202,6 +202,27 @@ PIPELINE SIGNAL MONITORING:
 **Emerging pipeline:**     `fan-token/emerging-sports-pipeline.md`
 **CLARITY Act:**           `macro/clarity-act-complete-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NFL-specific signal playbook: salary cap, injury designation system, and draft intelligence |
+| Reasoning | ACTIVE | NFL reasoning chain with injury designation integration and playoff probability |
+| Context | ACTIVE | NFL context: AFC/NFC conference, Wild Card vs Division seeds, bye week advantages |
+| Memory | ACTIVE | Historical NFL outcome patterns and injury designation accuracy baselines |
+| Judgment | ACTIVE | Judgment on NFL injury designation materiality — Doubtful vs Questionable differ significantly |
+| Attention | ACTIVE | Elevated attention for Friday/Saturday practice reports — final designation indicators |
+| Communication | ACTIVE | NFL signal output with designation history, playoff context, and modifier |
+| Verification | ACTIVE | NFL injury reports from official NFL.com release — beat reporter observations Tier 2 |
+| Learning | ACTIVE | NFL injury designation calibration: historical designation-to-actual-play accuracy rates |
+| Integration | ACTIVE | Integrates with injury-intel-nfl.md and fan-token/nfl-token-intelligence/ |
+| Calibration | ACTIVE | NFL injury designation accuracy calibrated — most structured injury signal in library |
+| Adaptation | ACTIVE | NFL intelligence adapts as salary cap rules and playoff formats evolve |
+| Ethics | NOT APPLICABLE | NFL sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | NFL injury designation source and historical accuracy explicit in output |
+
+
 ---
 
 *SportMind v3.97.71 · MIT License · sportmind.dev*

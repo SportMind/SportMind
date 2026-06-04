@@ -233,6 +233,27 @@ and the audience already understands the mechanics.
 **Fan token Layer 3:** `fan-token/esports-token-intelligence/token-intelligence-esports.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Esports market intelligence: game title commercial tiers, tournament prize pools, and streaming metrics |
+| Reasoning | ACTIVE | Esports market reasoning chain from tournament signals to CDI modifier |
+| Context | ACTIVE | Context: game title lifecycle, publisher control, viewership metrics, roster volatility |
+| Memory | ACTIVE | Historical esports market patterns and major tournament demand data |
+| Judgment | ACTIVE | Judgment on esports signal hierarchy — game meta changes can invalidate historical patterns |
+| Attention | ACTIVE | Elevated attention for major tournament windows and roster announcement periods |
+| Communication | ACTIVE | Esports market output with title tier, tournament stage, and CDI modifier |
+| Verification | ACTIVE | Esports data from tournament operator and publisher official sources |
+| Learning | EMERGING | Esports fan token market calibration is limited — young domain |
+| Integration | ACTIVE | Integrates with sports/esports domain files and fan-token esports intelligence |
+| Calibration | EMERGING | Esports CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Esports market intelligence adapts rapidly as game meta and publisher relationships evolve |
+| Ethics | NOT APPLICABLE | Esports market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Game title tier, viewership context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

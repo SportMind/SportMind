@@ -305,6 +305,27 @@ Template note:
   template for all tournament-structured sports.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | International cricket cycle intelligence: ICC calendar, bilateral series, and WC amplifier signals |
+| Reasoning | ACTIVE | Cricket cycle reasoning chain from ICC calendar position to fan token demand modifier |
+| Context | ACTIVE | Context: ICC event type, India involvement, format (T20/ODI/Test), bilateral series rank |
+| Memory | ACTIVE | Historical cricket cycle demand patterns and ICC event amplifier data |
+| Judgment | ACTIVE | Judgment on cricket cycle signal hierarchy — India fixtures dominate all others globally |
+| Attention | ACTIVE | Elevated attention during ICC T20 World Cup and India bilateral series windows |
+| Communication | ACTIVE | Cricket cycle output with ICC event type, India involvement modifier, and demand signal |
+| Verification | ACTIVE | ICC calendar data from ICC official sources |
+| Learning | ACTIVE | Cricket cycle calibration — dew factor and India signals are well-calibrated |
+| Integration | ACTIVE | Integrates with market-cricket, sports/cricket domain files, and competition calendar |
+| Calibration | ACTIVE | Cricket cycle modifiers well-calibrated — india_pakistan ×2.00 is one of the strongest signals |
+| Adaptation | ACTIVE | Cricket cycle intelligence adapts as ICC format changes and bilateral schedules evolve |
+| Ethics | NOT APPLICABLE | International cricket cycle is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | ICC event type, India involvement status, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -315,6 +315,27 @@ SAUDI PRO LEAGUE IN THE SPORTMIND FRAMEWORK:
 **Football:**     `market/market-football.md`
 **Macro:**        `macro/macro-regulatory-sportfi.md` (KSA section TBD)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Saudi Pro League market intelligence: PIF investment signals, star player acquisition impact |
+| Reasoning | ACTIVE | SPL reasoning chain from star acquisition or PIF signal to CDI modifier |
+| Context | ACTIVE | Context: Public Investment Fund strategy, Vision 2030 context, global star recruitment |
+| Memory | ACTIVE | Historical SPL commercial patterns and star acquisition CDI impact data |
+| Judgment | ACTIVE | Judgment on SPL signal hierarchy — marquee signings are the primary CDI driver |
+| Attention | ACTIVE | Elevated attention for PIF-backed signings and SPL broadcast rights announcements |
+| Communication | ACTIVE | SPL market output with player acquisition tier, PIF context, and CDI modifier |
+| Verification | ACTIVE | SPL data from Saudi Football Federation and PIF official announcements |
+| Learning | ACTIVE | SPL market calibration is developing — Ronaldo/Benzema/Neymar acquisition impact data |
+| Integration | ACTIVE | Integrates with sports/football/sport-domain-football-saudi-pro-league.md |
+| Calibration | EMERGING | SPL CDI modifier calibration is developing — limited pre-2023 data |
+| Adaptation | ACTIVE | SPL market intelligence adapts rapidly as PIF investment strategy evolves |
+| Ethics | ACTIVE | SPL state ownership via PIF carries sportswashing context — factual assessment only |
+| Transparency | ACTIVE | PIF involvement, acquisition tier, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.8 · MIT License · sportmind.dev*

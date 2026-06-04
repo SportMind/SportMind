@@ -334,6 +334,27 @@ DO NOT CONFLATE:
   Streaming growth ≠ fan token growth (enabler, not guarantor)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Broadcaster rights landscape, rights cycle signals, and revenue impact on club CDI |
+| Reasoning | ACTIVE | Rights deal reasoning chain from broadcast value to CDI modifier and fan token demand |
+| Context | ACTIVE | Context: rights cycle phase, streaming disruption, regional market variation |
+| Memory | ACTIVE | Historical broadcast deal patterns and club revenue correlation data |
+| Judgment | ACTIVE | Judgment on deal materiality — rights renewal vs new deal impacts differ |
+| Attention | ACTIVE | Elevated attention during broadcast rights renewal and new platform entry windows |
+| Communication | ACTIVE | Broadcaster signal output with CDI modifier and revenue implication |
+| Verification | ACTIVE | Broadcast figures require official announcement — estimates carry uncertainty flag |
+| Learning | EMERGING | Broadcast revenue-to-CDI calibration requires more cross-league data |
+| Integration | ACTIVE | Integrates with CDI framework, club-revenue-intelligence, and market-overview |
+| Calibration | EMERGING | Broadcast CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Broadcaster intelligence adapts as streaming disrupts traditional rights models |
+| Ethics | NOT APPLICABLE | Broadcast intelligence is commercial data — no ethical dimension |
+| Transparency | ACTIVE | Revenue estimate vs confirmed deal distinction explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -312,6 +312,27 @@ You are a Formula 1 sports intelligence agent. Before evaluating any F1 event:
 **Fan token layer:** `fan-token/formula1-token-intelligence`
 **Recommended:** `signal-scores`, `athlete/meta` (weather overlay essential in F1)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | F1 event playbook: qualifying delta, circuit type, tyre strategy, and DRS zones |
+| Reasoning | ACTIVE | F1 reasoning chain from qualifying position and circuit type to race outcome prediction |
+| Context | ACTIVE | F1 context: circuit characteristics, tyre compound, safety car probability, DRS effectiveness |
+| Memory | ACTIVE | Historical F1 outcome patterns by circuit type and qualifying delta |
+| Judgment | ACTIVE | Judgment on F1 signal hierarchy — qualifying_delta on certain circuits is the highest-certainty signal |
+| Attention | ACTIVE | Elevated attention for qualifying sessions and pre-race tyre strategy announcements |
+| Communication | ACTIVE | F1 signal output with qualifying delta, circuit modifier, and direction |
+| Verification | ACTIVE | F1 data from FIA official timing and constructor announcements |
+| Learning | ACTIVE | F1 calibration — qualifying_delta (4/4 ✓) is one of the most calibrated signals |
+| Integration | ACTIVE | Integrates with sport-statistics-formula1.md and fan-token/formula1-token-intelligence/ |
+| Calibration | ACTIVE | qualifying_delta modifier: 4/4 correct — one of SportMind's highest-certainty signals |
+| Adaptation | ACTIVE | F1 intelligence adapts as regulation changes affect constructor hierarchy |
+| Ethics | NOT APPLICABLE | F1 sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Qualifying delta value, circuit type, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

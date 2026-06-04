@@ -242,6 +242,27 @@ SIGNAL HIERARCHY FOR EUROPEAN BASKETBALL:
   5. Fatigue/congestion check (three-game weeks in EuroLeague/domestic double)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | EuroLeague basketball market intelligence: club profiles, competition structure, and CDI signals |
+| Reasoning | ACTIVE | EuroLeague reasoning chain from competition signals to fan token CDI modifier |
+| Context | ACTIVE | Context: Final Four amplifier, license structure, club commercial tiers, Turkish/Spanish dominance |
+| Memory | ACTIVE | Historical EuroLeague performance patterns and fan token demand correlation data |
+| Judgment | ACTIVE | Judgment on EuroLeague signal materiality — Final Four is the peak demand window |
+| Attention | ACTIVE | Elevated attention during EuroLeague playoff and Final Four windows |
+| Communication | ACTIVE | EuroLeague output with competition stage, CDI modifier, and Final Four amplifier |
+| Verification | ACTIVE | EuroLeague data from EuroLeague official sources |
+| Learning | EMERGING | EuroLeague fan token calibration records are developing |
+| Integration | ACTIVE | Integrates with market-basketball.md and sports/basketball domain files |
+| Calibration | EMERGING | EuroLeague CDI modifier calibration is emerging |
+| Adaptation | ACTIVE | EuroLeague intelligence adapts as competition format and licensing evolve |
+| Ethics | NOT APPLICABLE | EuroLeague market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition stage, license tier, and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

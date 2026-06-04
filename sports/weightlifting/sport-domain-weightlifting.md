@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Weightlifting event playbook: weight category signals, attempt selection, and peak timing |
+| Reasoning | ACTIVE | Weightlifting reasoning chain from attempt history and weight class to outcome prediction |
+| Context | ACTIVE | Weightlifting context: IWF weight category, snatch vs clean and jerk, peak timing cycle |
+| Memory | ACTIVE | Historical weightlifting championship patterns and attempt success data |
+| Judgment | ACTIVE | Judgment on weightlifting signal hierarchy — attempt selection strategy and PB trajectory |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification |
+| Communication | ACTIVE | Weightlifting signal output with weight category, attempt context, and direction |
+| Verification | ACTIVE | Weightlifting data from IWF official sources |
+| Learning | EMERGING | Weightlifting calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Weightlifting is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Weightlifting intelligence adapts as IWF weight categories and rules evolve |
+| Ethics | ACTIVE | Weightlifting has elevated anti-doping context — doping signals require careful handling |
+| Transparency | ACTIVE | Stub status and weight category context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

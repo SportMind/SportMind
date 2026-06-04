@@ -136,6 +136,27 @@ a natural migration path to fan token mechanics.
 **Athlete intelligence:** `athlete/horse-racing/athlete-intel-horse-racing.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-horse-racing.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Horse racing market intelligence: race class tiers, prize money signals, and owner/trainer CDI |
+| Reasoning | ACTIVE | Horse racing market reasoning chain from race class to CDI modifier |
+| Context | ACTIVE | Context: Group 1/2/3 hierarchy, seasonal racing calendar, going preference signals |
+| Memory | ACTIVE | Historical horse racing market patterns and seasonal demand data |
+| Judgment | ACTIVE | Judgment on horse racing signal hierarchy — Classic season and major handicaps differ |
+| Attention | ACTIVE | Elevated attention during Classic season and major festival windows |
+| Communication | ACTIVE | Horse racing market output with race class tier and CDI modifier |
+| Verification | ACTIVE | Racing data from British Horseracing Authority and official racing calendars |
+| Learning | EMERGING | Horse racing fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/horse-racing domain files and injury-intel-horse-racing |
+| Calibration | EMERGING | Horse racing CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Horse racing market intelligence adapts as prize money and international racing grow |
+| Ethics | ACTIVE | Horse welfare signals (distress, vet inspections) are safety-relevant — handled carefully |
+| Transparency | ACTIVE | Race class tier, seasonal context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

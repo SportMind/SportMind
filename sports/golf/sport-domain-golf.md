@@ -335,6 +335,27 @@ You are a golf sports intelligence agent. Before evaluating any golf tournament 
 - `backtest-engine` — simulate Major week strategies on historical data
 - `oracle-signals` — bearish distribution ahead of withdrawal risk
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Golf event playbook: course fit signals, form on surface, scoring average, and weather |
+| Reasoning | ACTIVE | Golf reasoning chain from course characteristics and player profile to outcome prediction |
+| Context | ACTIVE | Golf context: Major vs Tour event, course conditions, wind direction, cut implications |
+| Memory | ACTIVE | Historical golf outcome patterns by course type and player profile |
+| Judgment | ACTIVE | Judgment on golf signal hierarchy — course fit is the dominant signal for Majors |
+| Attention | ACTIVE | Elevated attention for weather forecasts and Thursday/Friday cut line position |
+| Communication | ACTIVE | Golf signal output with course fit, weather context, and direction |
+| Verification | ACTIVE | Golf data from Official World Golf Ranking and tour official sources |
+| Learning | ACTIVE | Golf modifier calibration from historical course type outcome data |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | ACTIVE | Golf course fit modifiers calibrated against historical Major outcome data |
+| Adaptation | ACTIVE | Golf intelligence adapts as tour formats and LIV Golf impact evolve |
+| Ethics | NOT APPLICABLE | Golf sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Course fit basis and scoring source explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

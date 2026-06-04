@@ -215,6 +215,27 @@ $ALL DEMAND CYCLE:
 **LoL/Valorant:**    `sports/esports-moba-tactical.md`
 **CDI:**             `fan-token/esports-token-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Dota 2-specific signal intelligence: hero meta, draft analysis, and team composition |
+| Reasoning | ACTIVE | Dota 2 reasoning chain from draft and meta to match outcome prediction |
+| Context | ACTIVE | Dota 2 context: patch version, hero pool, draft order advantage, tournament format |
+| Memory | ACTIVE | Historical Dota 2 outcome patterns by team and patch era |
+| Judgment | ACTIVE | Judgment on Dota 2 signal hierarchy — draft is the dominant signal |
+| Attention | ACTIVE | Elevated attention during The International and Majors |
+| Communication | ACTIVE | Dota 2 signal output with draft context and meta modifier |
+| Verification | ACTIVE | Dota 2 data from official Valve and tournament operator sources |
+| Learning | EMERGING | Dota 2 calibration records are limited |
+| Integration | ACTIVE | Integrates with sport-domain-esports.md and esports-framework.md |
+| Calibration | EMERGING | Dota 2 calibration is emerging — patch-era data partially applicable |
+| Adaptation | ACTIVE | Dota 2 intelligence adapts as each patch changes hero meta significantly |
+| Ethics | NOT APPLICABLE | Dota 2 sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Patch version, draft data source, and meta context explicit in output |
+
+
 ---
 
 *SportMind v3.97.30 · MIT License · sportmind.dev*

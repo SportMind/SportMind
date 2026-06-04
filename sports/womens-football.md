@@ -201,6 +201,27 @@ WOMEN'S WORLD CUP — CALENDAR CONTEXT:
 **Tournament macro:**      `macro/tournament-macro.md`
 **AFCON comparison:**      `sports/football/sport-domain-afcon.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Women's football signal intelligence: WSL, NWSL, UEFA Women's Championship signals |
+| Reasoning | ACTIVE | Women's football reasoning chain from squad composition and form to outcome prediction |
+| Context | ACTIVE | Women's football context: competition tier growth, depth of squad, FIFA Women's World Cup |
+| Memory | ACTIVE | Historical women's football outcome patterns and tournament baselines |
+| Judgment | ACTIVE | Judgment on women's football signal differences from men's — squad depth is more impactful |
+| Attention | ACTIVE | Elevated attention during FIFA Women's World Cup and UEFA Women's EURO |
+| Communication | ACTIVE | Women's football signal output with competition context and direction |
+| Verification | ACTIVE | Women's football data from FIFA/UEFA official sources |
+| Learning | ACTIVE | Women's football calibration growing as data availability improves |
+| Integration | ACTIVE | Integrates with sport-domain-football.md for shared framework with women's-specific overrides |
+| Calibration | EMERGING | Women's football calibration is emerging — growing dataset |
+| Adaptation | ACTIVE | Women's football intelligence adapts as professional standards and competition depth evolve |
+| Ethics | NOT APPLICABLE | Women's football sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and women's-specific signal differences noted in output |
+
+
 ---
 
 *SportMind v3.97.28 · MIT License · sportmind.dev*

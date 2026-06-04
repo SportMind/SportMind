@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Open water swimming event playbook: water conditions, distance, drafting, and navigation |
+| Reasoning | ACTIVE | Open water reasoning chain from conditions and swimmer profile to outcome prediction |
+| Context | ACTIVE | Open water context: water temperature, currents, pack vs breakaway tactics |
+| Memory | ACTIVE | Historical open water championship patterns and conditions impact data |
+| Judgment | ACTIVE | Judgment on open water signal hierarchy — conditions and drafting tactics are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic open water events |
+| Communication | ACTIVE | Open water signal output with conditions modifier and distance context |
+| Verification | ACTIVE | Open water data from World Aquatics official sources |
+| Learning | EMERGING | Open water calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with sport-domain-swimming.md and core sport domain framework |
+| Calibration | EMERGING | Open water is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Open water intelligence adapts as World Aquatics format and distances evolve |
+| Ethics | NOT APPLICABLE | Open water sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and conditions context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

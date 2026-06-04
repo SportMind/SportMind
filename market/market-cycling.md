@@ -129,6 +129,27 @@ earn token-adjacent rewards), it would reach cycling's most digitally engaged fa
 **Athlete intelligence:** `athlete/cycling/athlete-intel-cycling.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-cycling.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cycling market intelligence: Grand Tour commercial signals and team sponsor dynamics |
+| Reasoning | ACTIVE | Cycling market reasoning chain from Grand Tour stage to CDI modifier |
+| Context | ACTIVE | Context: Grand Tour hierarchy (TDF>Giro>Vuelta), WorldTour team tier, sponsor activation |
+| Memory | ACTIVE | Historical cycling market patterns and Grand Tour demand correlation data |
+| Judgment | ACTIVE | Judgment on cycling signal materiality — Tour de France dominates global cycling market |
+| Attention | ACTIVE | Elevated attention during Tour de France and Grand Tour general classification battles |
+| Communication | ACTIVE | Cycling market output with Grand Tour stage, team tier, and CDI modifier |
+| Verification | ACTIVE | Cycling data from UCI WorldTour and Grand Tour official sources |
+| Learning | EMERGING | Cycling fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/cycling domain files and injury-intel-cycling |
+| Calibration | EMERGING | Cycling CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Cycling market intelligence adapts as team sponsorship and broadcast rights evolve |
+| Ethics | ACTIVE | Cycling doping history context is noted — doping signals require careful handling |
+| Transparency | ACTIVE | Grand Tour tier, stage context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

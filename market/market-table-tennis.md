@@ -57,6 +57,27 @@ it is the sport's highest-impact commercial event globally.
 
 **Sport domain:** `sports/table-tennis/sport-domain-table-tennis.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Table tennis market intelligence: WTT commercial signals and Chinese market dominance |
+| Reasoning | ACTIVE | Table tennis market reasoning chain from WTT event tier to CDI modifier |
+| Context | ACTIVE | Context: Chinese national team dominance, WTT Grand Smash tier, global expansion |
+| Memory | ACTIVE | Historical table tennis market patterns and WTT demand data |
+| Judgment | ACTIVE | Judgment on table tennis signal hierarchy — Chinese national team participation drives all signals |
+| Attention | ACTIVE | Elevated attention during WTT Grand Smash and World Championships |
+| Communication | ACTIVE | Table tennis market output with WTT tier and CDI modifier |
+| Verification | ACTIVE | Table tennis data from World Table Tennis official sources |
+| Learning | EMERGING | Table tennis fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/table-tennis domain files |
+| Calibration | EMERGING | Table tennis CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Table tennis market intelligence adapts as WTT commercial model matures |
+| Ethics | NOT APPLICABLE | Table tennis market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Event tier, Chinese dominance context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -122,6 +122,27 @@ fan-token/fan-token-context-bridge.md
   How all commercial signals connect to fan token demand output.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Commercial partnership intelligence: sponsor deals, naming rights, and partnership signals |
+| Reasoning | ACTIVE | Partnership reasoning chain from deal signals to CDI modifier |
+| Context | ACTIVE | Context: deal size, exclusivity, multi-year term, activation rights |
+| Memory | ACTIVE | Historical partnership deal patterns and CDI contribution data |
+| Judgment | ACTIVE | Judgment on partnership signal hierarchy — naming rights vs secondary sponsor differ |
+| Attention | ACTIVE | Elevated attention for major partnership announcements and expiry signals |
+| Communication | ACTIVE | Partnership output with deal tier, CDI modifier, and timeline |
+| Verification | ACTIVE | Partnership deals require official club and partner announcements |
+| Learning | EMERGING | Partnership-to-CDI calibration requires more cross-club deal data |
+| Integration | ACTIVE | Integrates with CDI framework, broadcaster intelligence, and sponsorship intelligence |
+| Calibration | EMERGING | Commercial partnership CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Partnership intelligence adapts as commercial models and activation rights evolve |
+| Ethics | NOT APPLICABLE | Commercial partnership intelligence is business analysis — no ethical dimension |
+| Transparency | ACTIVE | Deal tier, source, and CDI modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.59 · MIT License · sportmind.dev*

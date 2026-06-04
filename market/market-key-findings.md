@@ -379,6 +379,27 @@ early warning signals for PHS reassessment.
 | CVC Capital Partners digital strategy execution (rugby) | Rugby Union | Tier 2 → Tier 1 acceleration |
 | Single centralised-rights sport partnership (Dorna/EHF/BWF) | MotoGP, Handball, Badminton | Rapid full-championship deployment |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Market key findings: cross-sport commercial intelligence synthesis and comparative CDI signals |
+| Reasoning | ACTIVE | Key findings reasoning: cross-sport pattern extraction from market intelligence data |
+| Context | ACTIVE | Context: findings synthesised from all sport market files — comparative and cross-sport |
+| Memory | ACTIVE | Key findings distil historical market intelligence into a referenceable synthesis |
+| Judgment | ACTIVE | Judgment on which findings are cross-sport generalisable vs sport-specific |
+| Attention | ACTIVE | Key findings guide attention allocation across sport market signals |
+| Communication | ACTIVE | Key findings output serves as executive summary for market intelligence layer |
+| Verification | ACTIVE | Key findings claims require support from underlying sport-specific market files |
+| Learning | ACTIVE | Key findings updated as sport market calibration data accumulates |
+| Integration | ACTIVE | Integrates all market/ files as the synthesis layer for the market intelligence tier |
+| Calibration | ACTIVE | Key findings reflect calibrated commercial tier rankings across all sports |
+| Adaptation | ACTIVE | Key findings updated as market structures and sport commercial landscapes evolve |
+| Ethics | NOT APPLICABLE | Market key findings is commercial synthesis — no ethical dimension |
+| Transparency | ACTIVE | Key findings clearly linked to underlying sport market source files |
+
+
 ---
 
 *This file is updated as new cross-sport patterns emerge. Individual sport context

@@ -205,6 +205,27 @@ You are a darts sports intelligence agent. Before evaluating any darts event:
 ---
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Darts event playbook: format signals, crowd dynamics, and player form patterns |
+| Reasoning | ACTIVE | Darts reasoning chain from player form and format to outcome prediction |
+| Context | ACTIVE | Darts context: PDC vs BDO history, format (legs/sets), venue atmosphere, walk-on |
+| Memory | ACTIVE | Historical darts outcome patterns by format and player pressure history |
+| Judgment | ACTIVE | Judgment on darts signal hierarchy — player head-to-head and format experience are primary |
+| Attention | ACTIVE | Elevated attention during World Championship and Premier League finals |
+| Communication | ACTIVE | Darts signal output with format context and player profile modifier |
+| Verification | ACTIVE | Darts data from PDC official sources |
+| Learning | ACTIVE | Darts modifier calibration from historical format-specific outcome data |
+| Integration | ACTIVE | Integrates with core sport domain framework and psychological intelligence |
+| Calibration | ACTIVE | Darts is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | Darts intelligence adapts as PDC format and ranking systems evolve |
+| Ethics | NOT APPLICABLE | Darts sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Format context and player profile source explicit in output |
+
+
 ---
 
 ## Key Commands

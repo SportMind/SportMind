@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Gymnastics event playbook: discipline signals, difficulty score, and peak timing |
+| Reasoning | ACTIVE | Gymnastics reasoning chain from difficulty and execution to competition prediction |
+| Context | ACTIVE | Gymnastics context: apparatus (floor/vault/rings), championship vs qualifying, peak timing |
+| Memory | ACTIVE | Historical gymnastics championship patterns and difficulty baseline data |
+| Judgment | ACTIVE | Judgment on gymnastics signal hierarchy — difficulty score plus execution history |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification |
+| Communication | ACTIVE | Gymnastics signal output with discipline context and difficulty modifier |
+| Verification | ACTIVE | Gymnastics data from FIG official sources |
+| Learning | EMERGING | Gymnastics calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Gymnastics is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Gymnastics intelligence adapts as FIG code of points evolves |
+| Ethics | NOT APPLICABLE | Gymnastics sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and difficulty score basis disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

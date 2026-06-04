@@ -334,6 +334,27 @@ Kabaddi-specific notes:
 
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Kabaddi event playbook: raider primacy signal, PKL dynamics, and defensive schemes |
+| Reasoning | ACTIVE | Kabaddi reasoning chain from raider profile and defensive setup to outcome prediction |
+| Context | ACTIVE | Kabaddi context: PKL auction dynamics, raider vs defender primacy, home crowd |
+| Memory | ACTIVE | Historical kabaddi outcome patterns and raider_primacy signal data |
+| Judgment | ACTIVE | Judgment on kabaddi signal uniqueness — raider_primacy is the dominant signal |
+| Attention | ACTIVE | Elevated attention for PKL playoff and elimination rounds |
+| Communication | ACTIVE | Kabaddi signal output with raider_primacy modifier and PKL context |
+| Verification | ACTIVE | Kabaddi data from PKL official sources |
+| Learning | ACTIVE | Kabaddi calibration — raider_primacy (1/1 ✓) confirmed in SportMind records |
+| Integration | ACTIVE | Integrates with fan-token/kabaddi-token-intelligence/ |
+| Calibration | ACTIVE | raider_primacy modifier: 1/1 correct — confirmed as valid signal |
+| Adaptation | ACTIVE | Kabaddi intelligence adapts as PKL format and team composition evolve |
+| Ethics | NOT APPLICABLE | Kabaddi sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Raider_primacy signal basis and PKL source explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

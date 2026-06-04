@@ -359,6 +359,27 @@ MotoGP-specific notes:
 
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MotoGP event playbook: circuit signals, qualifying gap, tyre compound, and weather |
+| Reasoning | ACTIVE | MotoGP reasoning chain from qualifying position and circuit type to race outcome prediction |
+| Context | ACTIVE | MotoGP context: circuit characteristics, tyre choice, sprint vs GP format, weather sensitivity |
+| Memory | ACTIVE | Historical MotoGP outcome patterns by circuit and manufacturer |
+| Judgment | ACTIVE | Judgment on MotoGP signal hierarchy — qualifying and circuit fit are dominant signals |
+| Attention | ACTIVE | Elevated attention for qualifying sessions and pre-race tyre selection signals |
+| Communication | ACTIVE | MotoGP signal output with circuit modifier, qualifying context, and direction |
+| Verification | ACTIVE | MotoGP data from FIM and official MotoGP.com sources |
+| Learning | ACTIVE | MotoGP modifier calibration from historical circuit outcome data |
+| Integration | ACTIVE | Integrates with fan-token/motogp-token-intelligence/ |
+| Calibration | ACTIVE | MotoGP circuit modifiers calibrated against historical qualifying-race correlation |
+| Adaptation | ACTIVE | MotoGP intelligence adapts as regulation changes and sprint format evolve |
+| Ethics | NOT APPLICABLE | MotoGP sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Circuit modifier, qualifying source, and tyre context explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

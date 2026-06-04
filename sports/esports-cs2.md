@@ -235,6 +235,27 @@ DEMAND FRAMEWORK FOR ANY CS2 ORGANISATION TOKEN:
 **LoL/Valorant:**    `sports/esports-moba-tactical.md`
 **CDI:**             `fan-token/esports-token-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | CS2-specific signal intelligence: map pool, economy, AWP usage, and round patterns |
+| Reasoning | ACTIVE | CS2 reasoning chain from map pool and economy to match outcome prediction |
+| Context | ACTIVE | CS2 context: map veto, pistol round precedence, CT vs T side, economy state |
+| Memory | ACTIVE | Historical CS2 outcome patterns by map and team composition |
+| Judgment | ACTIVE | Judgment on CS2 signal hierarchy — map veto and economy are primary signals |
+| Attention | ACTIVE | Elevated attention during Major championships and qualifying events |
+| Communication | ACTIVE | CS2 signal output with map pool context and economy modifier |
+| Verification | ACTIVE | CS2 data from official HLTV and Valve tournament sources |
+| Learning | EMERGING | CS2 calibration records are limited |
+| Integration | ACTIVE | Integrates with sport-domain-esports.md and esports-framework.md |
+| Calibration | EMERGING | CS2 calibration is emerging — CS:GO historical data partially applicable |
+| Adaptation | ACTIVE | CS2 intelligence adapts as map pool and game updates change meta |
+| Ethics | NOT APPLICABLE | CS2 sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Map pool, economy state, and data source explicit in output |
+
+
 ---
 
 *SportMind v3.97.30 · MIT License · sportmind.dev*

@@ -239,6 +239,27 @@ sports/football                          ← domain context (this skill)
   + fan-token/athlete-social-lift        ← live ATM confirmation
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Core football signal intelligence: event playbook, signal weights, and reasoning prompts |
+| Reasoning | ACTIVE | Football reasoning chain from squad and conditions to direction signal |
+| Context | ACTIVE | Football context: competition tier, home advantage, European vs domestic competition |
+| Memory | ACTIVE | Historical football outcome patterns — largest calibration dataset in SportMind |
+| Judgment | ACTIVE | Judgment on football signal hierarchy — lineup quality index is the primary signal |
+| Attention | ACTIVE | Maximum attention for confirmed lineups and injury news before kickoff |
+| Communication | ACTIVE | Football signal output with LQI, modifier stack, and confidence level |
+| Verification | ACTIVE | Football data from official club/league/UEFA sources |
+| Learning | ACTIVE | Football is the most calibrated sport in the library — 96% direction accuracy |
+| Integration | ACTIVE | Integrates with all football-specific files, LQI, APS, and fan-token/football/ framework |
+| Calibration | ACTIVE | Football modifiers are the most calibrated in SportMind — 100+ records |
+| Adaptation | ACTIVE | Football intelligence adapts as competition formats and tactical evolution continues |
+| Ethics | NOT APPLICABLE | Football sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Modifier stack, signal weights, and source hierarchy explicit in football outputs |
+
+
 ---
 MIT License · SportMind · sportmind.dev
 

@@ -196,6 +196,27 @@ You are an athletics sports intelligence agent. Before evaluating any athletics 
 ---
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athletics event playbook: track and field signal weights, form, and championship patterns |
+| Reasoning | ACTIVE | Athletics reasoning chain from qualification times to championship outcome prediction |
+| Context | ACTIVE | Athletics context: championship vs Diamond League, lane draw, season peak timing |
+| Memory | ACTIVE | Historical athletics championship patterns and seasonal peak baseline data |
+| Judgment | ACTIVE | Judgment on athletics signal reliability — qualifying times vs championship performance differ |
+| Attention | ACTIVE | Elevated attention for athletics championship rounds and known peak timing windows |
+| Communication | ACTIVE | Athletics signal output with direction and event-specific modifier |
+| Verification | ACTIVE | Athletics data from World Athletics official results |
+| Learning | ACTIVE | Athletics modifier calibration from historical championship outcome data |
+| Integration | ACTIVE | Integrates with athlete/ athletics files and core sport domain framework |
+| Calibration | EMERGING | Athletics fan token calibration records are limited |
+| Adaptation | ACTIVE | Athletics intelligence adapts as records, standards, and competition formats evolve |
+| Ethics | ACTIVE | Anti-doping context is elevated in athletics — doping signals require careful handling |
+| Transparency | ACTIVE | Athletics qualifying time source and peak timing basis explicit in output |
+
+
 ---
 
 ## Key Commands

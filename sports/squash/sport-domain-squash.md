@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Squash event playbook: PSA ranking signals, court surface, form, and draw bracket |
+| Reasoning | ACTIVE | Squash reasoning chain from ranking and court preference to match outcome prediction |
+| Context | ACTIVE | Squash context: PSA tour tier, court surface (glass vs traditional), round format |
+| Memory | ACTIVE | Historical squash championship patterns and ranking correlation data |
+| Judgment | ACTIVE | Judgment on squash signal hierarchy — PSA ranking and form are primary |
+| Attention | ACTIVE | Elevated attention during PSA World Championship and CIB PSA World Tour Finals |
+| Communication | ACTIVE | Squash signal output with ranking context, surface modifier, and direction |
+| Verification | ACTIVE | Squash data from PSA World Tour official sources |
+| Learning | EMERGING | Squash calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Squash is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Squash intelligence adapts as PSA format and ranking evolve |
+| Ethics | NOT APPLICABLE | Squash sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and ranking context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

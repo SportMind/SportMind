@@ -248,6 +248,27 @@ moat in India is significant and should not be underestimated.
 **Fan token Layer 3:** `fan-token/fan-token-pulse` (PSL tokens active)
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cricket market intelligence: IPL franchise values, BCCI dominance, and ICC commercial signals |
+| Reasoning | ACTIVE | Cricket market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: IPL franchise auction values, BCCI revenue dominance, bilateral series rank |
+| Memory | ACTIVE | Historical cricket market patterns and IPL commercial data |
+| Judgment | ACTIVE | Judgment on cricket market hierarchy — India-facing signals dominate global cricket market |
+| Attention | ACTIVE | Elevated attention during IPL window and ICC major event commercial cycles |
+| Communication | ACTIVE | Cricket market output with commercial tier, India premium, and CDI modifier |
+| Verification | ACTIVE | Cricket market data from BCCI, ICC, and IPL official commercial sources |
+| Learning | ACTIVE | Cricket market calibration is well-developed — india_pakistan modifier is among most tested |
+| Integration | ACTIVE | Integrates with international-cricket-cycle and sports/cricket domain files |
+| Calibration | ACTIVE | Cricket market CDI modifiers calibrated — dew factor and India signals well-validated |
+| Adaptation | ACTIVE | Cricket market intelligence adapts as IPL expansion and franchise values evolve |
+| Ethics | NOT APPLICABLE | Cricket market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Commercial tier, India premium weight, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

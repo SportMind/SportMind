@@ -349,6 +349,27 @@ For cricket statistics sub-module:
 **Breaking news:** `core/breaking-news-intelligence.md` (key player injury)
 **Conditions already calibrated:** dew factor 5/5 in SportMind calibration records
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cricket advanced statistics: strike rates, bowling economy, partnerships, and DLS system |
+| Reasoning | ACTIVE | Statistical reasoning chain from cricket metrics to performance signal |
+| Context | ACTIVE | Statistics context: format-adjusted metrics, pitch conditions, match situation |
+| Memory | ACTIVE | Historical cricket statistical baseline profiles by format and playing conditions |
+| Judgment | ACTIVE | Judgment on cricket statistics — T20 economy differs from Test match economy |
+| Attention | ACTIVE | Elevated attention for statistical outliers that indicate form shifts |
+| Communication | ACTIVE | Cricket statistical output with format-adjusted values and context |
+| Verification | ACTIVE | Cricket statistics from ESPNcricinfo and official board data |
+| Learning | ACTIVE | Cricket statistical baseline learning from accumulated match data |
+| Integration | ACTIVE | Integrates with sport-domain-cricket.md and athlete/cricket/ files |
+| Calibration | ACTIVE | Cricket statistical modifiers calibrated against format-specific outcome data |
+| Adaptation | ACTIVE | Cricket statistical framework adapts as advanced analytics evolve |
+| Ethics | NOT APPLICABLE | Cricket statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Cricket statistical source and format context explicit in output |
+
+
 ---
 
 *SportMind v3.90.0 · MIT License · sportmind.dev*

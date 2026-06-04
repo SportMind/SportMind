@@ -242,6 +242,27 @@ Basketball's digital audience is ready — the platform is the missing piece.
 **Fan token Layer 3:** No sport-specific bridge skill yet — use `fan-token/fan-token-pulse`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Basketball market intelligence: NBA/EuroLeague commercial tiers and global market signals |
+| Reasoning | ACTIVE | Basketball market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: NBA franchise value, EuroLeague license tier, international player premium |
+| Memory | ACTIVE | Historical basketball market patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on basketball signal hierarchy — NBA playoff and Finals signals dominate |
+| Attention | ACTIVE | Elevated attention during NBA playoff seeding races and trade deadline |
+| Communication | ACTIVE | Basketball market output with league tier, CDI modifier, and season stage |
+| Verification | ACTIVE | NBA/EuroLeague market data from official commercial sources |
+| Learning | EMERGING | Basketball fan token market calibration is developing |
+| Integration | ACTIVE | Integrates with euroleague-basketball-intelligence and sports/basketball domain files |
+| Calibration | EMERGING | Basketball CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Basketball intelligence adapts as global basketball commercial market grows |
+| Ethics | NOT APPLICABLE | Basketball market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | League tier, franchise value context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

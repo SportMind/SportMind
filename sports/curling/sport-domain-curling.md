@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Curling event playbook: draw weight, ice conditions, skip profile, and end strategy |
+| Reasoning | ACTIVE | Curling reasoning chain from team profile and conditions to outcome prediction |
+| Context | ACTIVE | Curling context: ice conditions, hammer advantage, draw weight reputation |
+| Memory | ACTIVE | Historical curling outcome patterns and team profile baselines |
+| Judgment | ACTIVE | Judgment on curling signal hierarchy — skip quality and hammer possession are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification rounds |
+| Communication | ACTIVE | Curling signal output with team profile and ice conditions modifier |
+| Verification | ACTIVE | Curling data from World Curling Federation official sources |
+| Learning | EMERGING | Curling calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Curling is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Curling intelligence adapts as competitive landscape evolves |
+| Ethics | NOT APPLICABLE | Curling sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and limited calibration data disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

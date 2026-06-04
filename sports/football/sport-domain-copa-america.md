@@ -284,6 +284,27 @@ fantokens.com                     — $ARG supply and FTP status
 **National tokens:** `fan-token/national-team-tokens.md`
 **Tournament macro:** `macro/tournament-macro.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Copa America-specific signal intelligence: CONMEBOL dynamics, altitude, and squad signals |
+| Reasoning | ACTIVE | Copa America reasoning chain from squad composition and venue conditions to outcome prediction |
+| Context | ACTIVE | Copa America context: altitude venues, South American press style, squad fatigue from MLS/European season |
+| Memory | ACTIVE | Historical Copa America outcome patterns and altitude impact data |
+| Judgment | ACTIVE | Judgment on Copa America signal hierarchy — altitude and squad freshness are primary |
+| Attention | ACTIVE | Elevated attention for altitude venues and squad confirmation signals |
+| Communication | ACTIVE | Copa America signal output with altitude modifier, squad context, and direction |
+| Verification | ACTIVE | Copa America data from CONMEBOL official sources |
+| Learning | ACTIVE | Copa America modifier calibration from historical tournament outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md and national team framework |
+| Calibration | ACTIVE | Copa America altitude modifiers calibrated against historical venue outcome data |
+| Adaptation | ACTIVE | Copa America intelligence adapts as CONMEBOL format and venue rotation evolve |
+| Ethics | NOT APPLICABLE | Copa America sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Altitude context, venue data source, and modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.24 · MIT License · sportmind.dev*

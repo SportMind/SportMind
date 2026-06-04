@@ -256,6 +256,27 @@ The challenge is not creating demand — it is regulatory permission and distrib
 **Fan token Layer 3:** No active token — monitor for launch signals
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Kabaddi market intelligence: Pro Kabaddi League commercial tiers and Indian market signals |
+| Reasoning | ACTIVE | Kabaddi market reasoning chain from PKL tier to CDI modifier |
+| Context | ACTIVE | Context: PKL franchise structure, Indian regional fan base, BCCI crossover audience |
+| Memory | ACTIVE | Historical kabaddi market patterns and PKL commercial data |
+| Judgment | ACTIVE | Judgment on kabaddi signal materiality — PKL franchise Mumbai Indians/Patna have largest fanbases |
+| Attention | ACTIVE | Elevated attention during PKL playoff and final windows |
+| Communication | ACTIVE | Kabaddi market output with PKL tier and CDI modifier |
+| Verification | ACTIVE | Kabaddi data from PKL official commercial sources |
+| Learning | EMERGING | Kabaddi fan token market calibration is limited — niche market |
+| Integration | ACTIVE | Integrates with sports/kabaddi domain files |
+| Calibration | EMERGING | Kabaddi CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Kabaddi market intelligence adapts as PKL commercial landscape matures |
+| Ethics | NOT APPLICABLE | Kabaddi market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | PKL tier, Indian market context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

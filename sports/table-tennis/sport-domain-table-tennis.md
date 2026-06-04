@@ -195,6 +195,27 @@ COMMERCIAL NOTE: Table tennis has the largest global participant base of any
 **Core frameworks:** `core/sportmind-score.md` · `core/athlete-modifier-system.md`
 **Market:** `market/market-table-tennis.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Table tennis event playbook: ITTF ranking signals, playing style, and surface signals |
+| Reasoning | ACTIVE | Table tennis reasoning chain from ranking and style matchup to match outcome prediction |
+| Context | ACTIVE | Table tennis context: WTT tier, rubber preference, playing style matchup (attacker/defender) |
+| Memory | ACTIVE | Historical table tennis championship patterns and ranking correlation data |
+| Judgment | ACTIVE | Judgment on table tennis signal hierarchy — ITTF ranking and style matchup are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and WTT Grand Smash events |
+| Communication | ACTIVE | Table tennis signal output with style matchup context and ranking modifier |
+| Verification | ACTIVE | Table tennis data from ITTF official sources |
+| Learning | EMERGING | Table tennis calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Table tennis is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Table tennis intelligence adapts as WTT circuit format evolves |
+| Ethics | NOT APPLICABLE | Table tennis sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and ranking context disclosed in output |
+
+
 ---
 
 *SportMind v3.86.0 · MIT License · sportmind.dev*

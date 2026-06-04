@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Field hockey event playbook: surface signals, national team cycle, and astroturf factors |
+| Reasoning | ACTIVE | Field hockey reasoning chain from surface and team composition to outcome prediction |
+| Context | ACTIVE | Field hockey context: FIH Pro League, World Cup cycles, astroturf vs natural surface |
+| Memory | ACTIVE | Historical field hockey outcome patterns and surface-specific baselines |
+| Judgment | ACTIVE | Judgment on field hockey signal hierarchy — surface type and national team form are primary |
+| Attention | ACTIVE | Elevated attention during FIH World Cup and Olympic qualification windows |
+| Communication | ACTIVE | Field hockey signal output with surface type and tournament context |
+| Verification | ACTIVE | Field hockey data from FIH official sources |
+| Learning | EMERGING | Field hockey calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Field hockey is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Field hockey intelligence adapts as FIH format and competition calendar evolves |
+| Ethics | NOT APPLICABLE | Field hockey sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and surface type context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

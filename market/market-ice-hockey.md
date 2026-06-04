@@ -147,6 +147,27 @@ franchise in Canada. An Oilers fan token would have clear national narrative.
 **Athlete intelligence:** `athlete/nhl/athlete-intel-nhl.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Ice hockey market intelligence: NHL franchise values, Canadian market weight, and Stanley Cup signals |
+| Reasoning | ACTIVE | Ice hockey market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: Canadian market premium, franchise value structure, Stanley Cup amplifier |
+| Memory | ACTIVE | Historical ice hockey market patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on ice hockey signal hierarchy — Stanley Cup playoff series momentum is primary |
+| Attention | ACTIVE | Elevated attention during NHL playoffs and Stanley Cup Finals |
+| Communication | ACTIVE | Ice hockey market output with franchise tier, Canadian premium, and CDI modifier |
+| Verification | ACTIVE | NHL market data from NHL official commercial sources |
+| Learning | EMERGING | Ice hockey fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/ice-hockey domain files and core morning_skate signal |
+| Calibration | EMERGING | Ice hockey CDI modifier calibration is developing — morning_skate signal is well-validated |
+| Adaptation | ACTIVE | Ice hockey market intelligence adapts as European market and international expansion grow |
+| Ethics | NOT APPLICABLE | Ice hockey market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Franchise tier, Canadian premium context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

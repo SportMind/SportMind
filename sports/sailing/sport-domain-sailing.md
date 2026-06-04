@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sailing event playbook: wind conditions, boat class, regatta format, and crew signals |
+| Reasoning | ACTIVE | Sailing reasoning chain from conditions and boat profile to race outcome prediction |
+| Context | ACTIVE | Sailing context: wind strength and direction, boat class (keelboat/dinghy), tidal factors |
+| Memory | ACTIVE | Historical sailing outcome patterns by conditions and boat class |
+| Judgment | ACTIVE | Judgment on sailing signal hierarchy — wind conditions are the dominant signal |
+| Attention | ACTIVE | Elevated attention during Olympic qualification and America's Cup events |
+| Communication | ACTIVE | Sailing signal output with conditions modifier, boat class context, and direction |
+| Verification | ACTIVE | Sailing data from World Sailing official sources |
+| Learning | EMERGING | Sailing calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Sailing is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Sailing intelligence adapts as boat class regulations and regatta formats evolve |
+| Ethics | NOT APPLICABLE | Sailing sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and conditions context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

@@ -200,6 +200,27 @@ SPONSORSHIP AFFECTS THE DEMAND SIDE OF FTP PATH_2 — NOT THE SUPPLY MECHANIC:
 **FTP PATH_2:**           `fan-token/ftp-path2.md`
 **Context bridge:**       `fan-token/fan-token-context-bridge.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sponsorship and endorsement intelligence: deal signals, brand fit, and CDI contribution |
+| Reasoning | ACTIVE | Sponsorship reasoning chain from deal signals to CDI modifier |
+| Context | ACTIVE | Context: deal structure, exclusivity category, brand tier, contract length |
+| Memory | ACTIVE | Historical sponsorship deal impact patterns and CDI contribution data |
+| Judgment | ACTIVE | Judgment on sponsorship signal hierarchy — shirt sponsor vs sleeve sponsor CDI impact differs |
+| Attention | ACTIVE | Elevated attention for major sponsorship announcements and deal expiry signals |
+| Communication | ACTIVE | Sponsorship output with deal tier, exclusivity, and CDI modifier |
+| Verification | ACTIVE | Sponsorship deals require official club and sponsor confirmation |
+| Learning | EMERGING | Sponsorship-to-CDI calibration requires more cross-club deal data |
+| Integration | ACTIVE | Integrates with commercial-partnership-intelligence and broadcaster intelligence |
+| Calibration | EMERGING | Sponsorship CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Sponsorship intelligence adapts as brand categories and activation models evolve |
+| Ethics | NOT APPLICABLE | Sponsorship intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Deal tier, exclusivity category, and CDI modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.59 · MIT License · sportmind.dev*

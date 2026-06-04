@@ -132,6 +132,27 @@ No calibration records — seeking first contributor.
 **Breaking news:** `core/breaking-news-intelligence.md`
 **Macro:** `macro/macro-crypto-market-cycles.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fencing event playbook: weapon discipline signals, ranking, and championship patterns |
+| Reasoning | ACTIVE | Fencing reasoning chain from ranking and head-to-head to bout outcome prediction |
+| Context | ACTIVE | Fencing context: weapon (foil/epee/sabre), gender, individual vs team event |
+| Memory | ACTIVE | Historical fencing championship patterns and ranking correlation data |
+| Judgment | ACTIVE | Judgment on fencing signal hierarchy — FIE ranking is primary signal |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic qualification |
+| Communication | ACTIVE | Fencing signal output with weapon discipline and ranking context |
+| Verification | ACTIVE | Fencing data from FIE official sources |
+| Learning | EMERGING | Fencing calibration records are limited — stub sport |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Fencing is a stub sport — limited calibration data |
+| Adaptation | ACTIVE | Fencing intelligence adapts as FIE rules and scoring systems evolve |
+| Ethics | NOT APPLICABLE | Fencing sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Stub status and weapon discipline context disclosed in output |
+
+
 ---
 
 > **Expand this skill:** See [GOOD_FIRST_ISSUES.md](../../GOOD_FIRST_ISSUES.md).

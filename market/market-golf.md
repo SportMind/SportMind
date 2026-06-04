@@ -137,6 +137,27 @@ with 20+ year career runways who have grown up with social media.
 **Athlete intelligence:** `athlete/golf/athlete-intel-golf.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Golf market intelligence: PGA Tour/DP World Tour/LIV commercial signals and major championship |
+| Reasoning | ACTIVE | Golf market reasoning chain from tournament tier to CDI modifier |
+| Context | ACTIVE | Context: PGA/LIV competitive tension, major championship hierarchy, world ranking impact |
+| Memory | ACTIVE | Historical golf market patterns and major championship demand data |
+| Judgment | ACTIVE | Judgment on golf market signal hierarchy — Masters > US Open > The Open > PGA Championship |
+| Attention | ACTIVE | Elevated attention during the four major championships and Ryder Cup |
+| Communication | ACTIVE | Golf market output with tournament tier, world ranking context, and CDI modifier |
+| Verification | ACTIVE | Golf data from R&A, USGA, and PGA Tour official sources |
+| Learning | EMERGING | Golf fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/golf domain files |
+| Calibration | EMERGING | Golf CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Golf market intelligence adapts as LIV/PGA merger negotiations evolve |
+| Ethics | NOT APPLICABLE | Golf market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament tier, world ranking context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

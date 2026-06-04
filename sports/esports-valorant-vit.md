@@ -174,6 +174,27 @@ EUROPEAN ORGANISATION DIMENSION:
 **MOBA/tactical:**         `sports/esports-moba-tactical.md`
 **Fan token verification:** `fan-token/official-verification-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Valorant-specific signal intelligence with VIT team profile integration |
+| Reasoning | ACTIVE | Valorant reasoning chain from agent composition and economy to match prediction |
+| Context | ACTIVE | Valorant context: VCT tier, map pool, agent meta, economy management |
+| Memory | ACTIVE | Historical Valorant outcome patterns by team and agent meta era |
+| Judgment | ACTIVE | Judgment on Valorant signal hierarchy — agent composition and VCT tier are primary |
+| Attention | ACTIVE | Elevated attention during VCT Masters and Champions events |
+| Communication | ACTIVE | Valorant signal output with agent comp context and map pool modifier |
+| Verification | ACTIVE | Valorant data from official Riot Games VCT and VLRINGG sources |
+| Learning | EMERGING | Valorant calibration records are limited — young competitive title |
+| Integration | ACTIVE | Integrates with esports-moba-tactical.md and esports-framework.md |
+| Calibration | EMERGING | Valorant calibration is emerging — limited historical depth |
+| Adaptation | ACTIVE | Valorant intelligence adapts as agents and map pool change with each Act |
+| Ethics | NOT APPLICABLE | Valorant sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | VCT tier, agent composition source, and map pool explicit in output |
+
+
 ---
 
 *SportMind v3.97.58 · MIT License · sportmind.dev*

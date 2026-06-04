@@ -329,6 +329,27 @@ For esports statistics sub-module:
 **Breaking news:** `core/breaking-news-intelligence.md` (roster change = Category 2)
 **Athlete layer:** `athlete/athlete-modifier-esports.md` (individual player ATM)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Esports advanced statistics: KDA, win rate, map pool, and team composition data |
+| Reasoning | ACTIVE | Esports statistical reasoning chain from metrics to performance signal |
+| Context | ACTIVE | Statistics context: game-specific metrics, patch-adjusted values, team composition |
+| Memory | ACTIVE | Historical esports statistical baselines by game and team |
+| Judgment | ACTIVE | Judgment on esports statistics — patch changes can invalidate historical patterns |
+| Attention | ACTIVE | Elevated attention for statistical outliers after major patch changes |
+| Communication | ACTIVE | Esports statistical output with game-specific metrics and patch context |
+| Verification | ACTIVE | Esports statistics from tournament API data and official game statistics |
+| Learning | EMERGING | Esports statistical calibration requires more cross-title data |
+| Integration | ACTIVE | Integrates with sport-domain-esports.md |
+| Calibration | EMERGING | Esports statistical calibration is limited by rapid meta changes |
+| Adaptation | ACTIVE | Esports statistical framework adapts as metrics evolve by game title |
+| Ethics | NOT APPLICABLE | Esports statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Game title, statistical source, and patch version context explicit in output |
+
+
 ---
 
 *SportMind v3.90.0 · MIT License · sportmind.dev*

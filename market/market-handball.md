@@ -121,6 +121,27 @@ standalone club token launch.
 **Sport domain:** `sports/handball/sport-domain-handball.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Handball market intelligence: EHF commercial tiers and European club market signals |
+| Reasoning | ACTIVE | Handball market reasoning chain from competition tier to CDI modifier |
+| Context | ACTIVE | Context: EHF Champions League tier structure, national league strength, Scandinavian dominance |
+| Memory | ACTIVE | Historical handball market patterns and EHF demand data |
+| Judgment | ACTIVE | Judgment on handball signal materiality — Final Four is the peak demand window |
+| Attention | ACTIVE | Elevated attention during EHF Final Four and World Championship windows |
+| Communication | ACTIVE | Handball market output with competition tier and CDI modifier |
+| Verification | ACTIVE | Handball data from EHF official commercial sources |
+| Learning | EMERGING | Handball fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/handball domain files |
+| Calibration | EMERGING | Handball CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Handball market intelligence adapts as global handball commercial landscape grows |
+| Ethics | NOT APPLICABLE | Handball market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition tier and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

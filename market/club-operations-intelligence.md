@@ -320,6 +320,27 @@ Community:
 FRESHNESS TIER: Monthly (Tier 1 — slow change, high impact when it happens)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Club operations intelligence: stadium, training facilities, ownership structure, and operational signals |
+| Reasoning | ACTIVE | Operations reasoning chain from operational signals to CDI modifier |
+| Context | ACTIVE | Context: stadium ownership vs leasehold, training quality, operational efficiency |
+| Memory | ACTIVE | Historical club operations patterns and CDI correlation data |
+| Judgment | ACTIVE | Judgment on operational signal materiality — stadium disputes vs routine operations |
+| Attention | ACTIVE | Elevated attention for ownership changes, stadium crises, and financial stress signals |
+| Communication | ACTIVE | Operations output with CDI modifier and operational risk assessment |
+| Verification | ACTIVE | Operational signals require official club or regulatory confirmation |
+| Learning | EMERGING | Club operations-to-CDI calibration requires more case data |
+| Integration | ACTIVE | Integrates with CDI framework, financial-sustainability, and market-overview |
+| Calibration | EMERGING | Operations CDI modifier calibration is developing |
+| Adaptation | ACTIVE | Operations intelligence adapts as club structures and ownership models evolve |
+| Ethics | NOT APPLICABLE | Operations intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Operations signal source and CDI modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

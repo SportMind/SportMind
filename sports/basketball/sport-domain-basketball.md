@@ -246,5 +246,26 @@ Core `signal-scores` and `whale-intel` skills apply directly.
 npx skills add sportmind/fan-token
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Basketball event playbook: NBA/EuroLeague signal weights and game intelligence |
+| Reasoning | ACTIVE | Basketball reasoning chain from lineup to pace, shooting, and outcome prediction |
+| Context | ACTIVE | Basketball context: playoff vs regular season, back-to-back fatigue, home court |
+| Memory | ACTIVE | Historical basketball outcome patterns and situational performance baselines |
+| Judgment | ACTIVE | Judgment on basketball signal hierarchy — injury to star player is highest impact |
+| Attention | ACTIVE | Elevated attention for injury news and playoff seeding implications |
+| Communication | ACTIVE | Basketball signal output with direction, pace context, and modifier stack |
+| Verification | ACTIVE | Basketball data from NBA.com official sources |
+| Learning | ACTIVE | Basketball modifier calibration from historical outcome data |
+| Integration | ACTIVE | Integrates with athlete/basketball/ files and fan-token/basketball-token-intelligence/ |
+| Calibration | ACTIVE | Basketball modifiers calibrated against historical matchup outcome data |
+| Adaptation | ACTIVE | Basketball intelligence adapts as play style and rule changes evolve |
+| Ethics | NOT APPLICABLE | Basketball sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Signal weights and pace context basis explicit in output |
+
+
 ---
 MIT License · SportMind · sportmind.dev

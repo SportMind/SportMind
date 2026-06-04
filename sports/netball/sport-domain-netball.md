@@ -134,6 +134,27 @@ For Netball, agents should apply these interpretive weights to composite signal 
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Netball event playbook: Super Netball and international competition signals |
+| Reasoning | ACTIVE | Netball reasoning chain from squad composition and form to outcome prediction |
+| Context | ACTIVE | Netball context: Super Netball vs international, home/away, defensive strategy |
+| Memory | ACTIVE | Historical netball outcome patterns and Super Netball seasonal baselines |
+| Judgment | ACTIVE | Judgment on netball signal hierarchy — squad composition and recent form are primary |
+| Attention | ACTIVE | Elevated attention during Super Netball finals and World Cup windows |
+| Communication | ACTIVE | Netball signal output with competition context and direction |
+| Verification | ACTIVE | Netball data from Netball Australia and World Netball official sources |
+| Learning | EMERGING | Netball calibration records are limited |
+| Integration | ACTIVE | Integrates with fan-token/netball-token-intelligence/ |
+| Calibration | EMERGING | Netball calibration is an emerging dataset |
+| Adaptation | ACTIVE | Netball intelligence adapts as Super Netball format evolves |
+| Ethics | NOT APPLICABLE | Netball sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and source explicit in output |
+
+
 ---
 
 

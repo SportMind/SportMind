@@ -205,6 +205,27 @@ SARACENS ($SARRIES) — TOKEN-SPECIFIC REASONING:
 **Weather:**           `core/weather-intelligence.md`
 **Travel fatigue:**    `sports/football/sport-domain-football-world-cup.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby union cross-competition framework: URC, Premiership, and European Cup signals |
+| Reasoning | ACTIVE | Rugby union cross-competition reasoning with competition-specific override hierarchy |
+| Context | ACTIVE | Cross-competition context: shared set piece signals vs competition-specific modifiers |
+| Memory | ACTIVE | Cross-competition rugby union outcome patterns |
+| Judgment | ACTIVE | Judgment on cross-competition rugby signal applicability |
+| Attention | ACTIVE | Attention allocation across simultaneous rugby union competitions |
+| Communication | ACTIVE | Cross-competition output with competition identifier and framework version |
+| Verification | ACTIVE | Rugby union cross-competition data from World Rugby and competition operators |
+| Learning | ACTIVE | Cross-competition calibration from accumulated rugby union outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-rugby-union.md and all competition-specific files |
+| Calibration | ACTIVE | Cross-competition rugby union calibration consistent with sport-domain framework |
+| Adaptation | ACTIVE | Rugby union framework adapts as competition formats and law changes evolve |
+| Ethics | NOT APPLICABLE | Rugby union framework is analytical — no ethical dimension |
+| Transparency | ACTIVE | Competition type and applied framework explicit in output |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

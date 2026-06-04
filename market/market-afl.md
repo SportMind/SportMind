@@ -122,6 +122,27 @@ trigger league-wide discussion given their commercial sophistication.
 **Sport domain:** `sports/afl/sport-domain-afl.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AFL market intelligence: club commercial tiers, fanbase depth, and Australian market signals |
+| Reasoning | ACTIVE | AFL market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: AFL market structure, state rivalry dynamics, finals series amplifier |
+| Memory | ACTIVE | Historical AFL market performance patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on AFL market signal materiality — finals proximity elevates all signals |
+| Attention | ACTIVE | Elevated attention during AFL finals and grand final windows |
+| Communication | ACTIVE | AFL market output with commercial tier, CDI modifier, and fanbase depth |
+| Verification | ACTIVE | AFL market data from AFL official commercial sources |
+| Learning | EMERGING | AFL fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/afl domain files and fan-token AFL intelligence |
+| Calibration | EMERGING | AFL CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | AFL market intelligence adapts as fan token ecosystem matures in Australian market |
+| Ethics | NOT APPLICABLE | AFL market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Commercial tier, fanbase size, and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -310,6 +310,27 @@ framework. Cricket-specific notes:
 **Athlete intelligence:** `athlete/cricket/athlete-intel-cricket.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cricket event playbook: format-specific signal weights, dew factor, toss intelligence |
+| Reasoning | ACTIVE | Cricket reasoning chain from toss/conditions to chase vs defend prediction |
+| Context | ACTIVE | Cricket context: format (T20/ODI/Test), pitch behaviour, dew factor, day/night |
+| Memory | ACTIVE | Historical cricket outcome patterns and format-specific condition baselines |
+| Judgment | ACTIVE | Judgment on cricket signal hierarchy — dew factor in T20 evening matches is dominant |
+| Attention | ACTIVE | Elevated attention for evening T20 humidity and pitch condition reports |
+| Communication | ACTIVE | Cricket signal output with format context, dew factor status, and modifier |
+| Verification | ACTIVE | Cricket data from official cricket boards and ICC sources |
+| Learning | ACTIVE | Cricket calibration — dew_factor (5/5 ✓) is one of the most calibrated SportMind signals |
+| Integration | ACTIVE | Integrates with sport-statistics-cricket.md and fan-token/cricket-token-intelligence/ |
+| Calibration | ACTIVE | Cricket dew factor and pitch modifiers calibrated against historical outcome data |
+| Adaptation | ACTIVE | Cricket intelligence adapts as T20 format rules and DRS technology evolve |
+| Ethics | NOT APPLICABLE | Cricket sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Dew factor assessment, pitch report source, and format context explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -282,6 +282,27 @@ Transfermarkt.com                — African international profiles per club
 **Tournament macro:** `macro/tournament-macro.md`
 **Club CDI:** `fan-token/league-football-token-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AFCON-specific signal intelligence: African football cycle, squad availability, neutral venues |
+| Reasoning | ACTIVE | AFCON reasoning chain from squad composition and continental signals to outcome prediction |
+| Context | ACTIVE | AFCON context: club release issues, travelling conditions, player disruption from European leagues |
+| Memory | ACTIVE | Historical AFCON outcome patterns and squad availability impact data |
+| Judgment | ACTIVE | Judgment on AFCON signal uniqueness — European club disruption is a primary signal |
+| Attention | ACTIVE | Elevated attention for squad confirmation and injury news during AFCON window |
+| Communication | ACTIVE | AFCON signal output with squad context, travel modifier, and direction |
+| Verification | ACTIVE | AFCON data from CAF official sources |
+| Learning | ACTIVE | AFCON modifier calibration from historical tournament outcome data |
+| Integration | ACTIVE | Integrates with sport-domain-football.md and national team framework |
+| Calibration | ACTIVE | AFCON modifiers calibrated against historical tournament data |
+| Adaptation | ACTIVE | AFCON intelligence adapts as tournament format and hosting rotation evolve |
+| Ethics | NOT APPLICABLE | AFCON sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Squad release context and travel modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.24 · MIT License · sportmind.dev*

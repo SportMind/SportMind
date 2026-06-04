@@ -177,6 +177,27 @@ integration.
 **Athlete intelligence:** `athlete/baseball/athlete-intel-baseball.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Baseball market intelligence: MLB club commercial tiers and US/Japanese market signals |
+| Reasoning | ACTIVE | Baseball market reasoning chain from commercial tier to CDI modifier |
+| Context | ACTIVE | Context: MLB payroll structure, playoff picture, trade deadline amplifier |
+| Memory | ACTIVE | Historical baseball market patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on baseball signal materiality — World Series and playoff signals dominate |
+| Attention | ACTIVE | Elevated attention during MLB playoff seeding and trade deadline windows |
+| Communication | ACTIVE | Baseball market output with commercial tier, CDI modifier, and season stage |
+| Verification | ACTIVE | MLB market data from MLB official commercial sources |
+| Learning | EMERGING | Baseball fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/baseball domain files and international baseball cycle |
+| Calibration | EMERGING | Baseball CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Baseball intelligence adapts as Japanese NPB and international markets grow |
+| Ethics | NOT APPLICABLE | Baseball market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Commercial tier, season stage, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

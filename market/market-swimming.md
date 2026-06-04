@@ -59,6 +59,27 @@ in the near term — possible token adjacent activity.
 
 **Sport domain:** `sports/swimming/sport-domain-swimming.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Swimming market intelligence: World Championship and Olympic cycle commercial signals |
+| Reasoning | ACTIVE | Swimming market reasoning chain from event tier to CDI modifier |
+| Context | ACTIVE | Context: Olympic cycle dominance, FINA World Championship, national federation weight |
+| Memory | ACTIVE | Historical swimming market patterns and Olympic cycle demand data |
+| Judgment | ACTIVE | Judgment on swimming signal materiality — Olympics year is the dominant demand window |
+| Attention | ACTIVE | Elevated attention during Olympics and World Championship windows |
+| Communication | ACTIVE | Swimming market output with event tier and CDI modifier |
+| Verification | ACTIVE | Swimming data from World Aquatics official sources |
+| Learning | EMERGING | Swimming fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/swimming domain files |
+| Calibration | EMERGING | Swimming CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Swimming market intelligence adapts as professional swim leagues develop |
+| Ethics | ACTIVE | Swimming doping history context flagged — doping signals require careful handling |
+| Transparency | ACTIVE | Event tier, Olympic cycle status, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

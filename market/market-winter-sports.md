@@ -63,6 +63,27 @@ ongoing record-breaking generates consistent media coverage.
 
 **Sport domain:** `sports/winter-sports/sport-domain-winter-sports.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Winter sports market intelligence: FIS World Cup commercial signals and Olympics cycle |
+| Reasoning | ACTIVE | Winter sports market reasoning chain from event tier to CDI modifier |
+| Context | ACTIVE | Context: Olympic cycle dominance, FIS World Cup circuit, national federation weight |
+| Memory | ACTIVE | Historical winter sports market patterns and Olympic cycle demand data |
+| Judgment | ACTIVE | Judgment on winter sports signal hierarchy — Olympics year is the dominant window |
+| Attention | ACTIVE | Elevated attention during Winter Olympics and FIS World Championship windows |
+| Communication | ACTIVE | Winter sports market output with event tier and CDI modifier |
+| Verification | ACTIVE | Winter sports data from FIS official sources |
+| Learning | EMERGING | Winter sports fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/winter-sports domain files |
+| Calibration | EMERGING | Winter sports CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Winter sports market intelligence adapts as climate and venue concerns affect the calendar |
+| Ethics | ACTIVE | Climate impact on winter sports venues noted — environmental signals may affect event viability |
+| Transparency | ACTIVE | Event tier, Olympic cycle status, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

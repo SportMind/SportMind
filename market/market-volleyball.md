@@ -64,6 +64,27 @@ many Olympic sports.
 
 **Sport domain:** `sports/volleyball/sport-domain-volleyball.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Volleyball market intelligence: VNL commercial signals and Olympic cycle context |
+| Reasoning | ACTIVE | Volleyball market reasoning chain from tournament tier to CDI modifier |
+| Context | ACTIVE | Context: VNL Nations League tier, Olympic qualification cycle, Italian/Brazilian market weight |
+| Memory | ACTIVE | Historical volleyball market patterns and VNL demand data |
+| Judgment | ACTIVE | Judgment on volleyball signal materiality — Olympics year dominates all other windows |
+| Attention | ACTIVE | Elevated attention during Olympic qualification and VNL Finals windows |
+| Communication | ACTIVE | Volleyball market output with tournament tier and CDI modifier |
+| Verification | ACTIVE | Volleyball data from FIVB official sources |
+| Learning | EMERGING | Volleyball fan token market calibration is very limited |
+| Integration | ACTIVE | Integrates with sports/volleyball domain files |
+| Calibration | EMERGING | Volleyball CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Volleyball market intelligence adapts as club volleyball league commercial model grows |
+| Ethics | NOT APPLICABLE | Volleyball market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament tier, Olympic cycle status, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

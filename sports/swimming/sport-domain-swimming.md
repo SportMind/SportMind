@@ -125,6 +125,27 @@ For Swimming, agents should apply these interpretive weights to composite signal
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Swimming event playbook: pool vs open water signals, qualifying time, and peak timing |
+| Reasoning | ACTIVE | Swimming reasoning chain from qualifying time and peak timing to championship prediction |
+| Context | ACTIVE | Swimming context: pool event, lane draw, taper phase, world record contention |
+| Memory | ACTIVE | Historical swimming championship patterns and qualifying time correlation data |
+| Judgment | ACTIVE | Judgment on swimming signal hierarchy — personal best trajectory and taper are primary |
+| Attention | ACTIVE | Elevated attention during World Championships and Olympic finals |
+| Communication | ACTIVE | Swimming signal output with qualifying time context and peak timing modifier |
+| Verification | ACTIVE | Swimming data from World Aquatics official results |
+| Learning | EMERGING | Swimming calibration records are limited |
+| Integration | ACTIVE | Integrates with core sport domain framework |
+| Calibration | EMERGING | Swimming calibration is an emerging dataset |
+| Adaptation | ACTIVE | Swimming intelligence adapts as super-suits and record standards evolve |
+| Ethics | ACTIVE | Anti-doping context in swimming requires careful handling of doping-adjacent signals |
+| Transparency | ACTIVE | Qualifying time source, taper context, and modifier basis explicit in output |
+
+
 ---
 
 ## Key Commands

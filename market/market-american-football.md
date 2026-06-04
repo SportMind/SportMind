@@ -176,6 +176,27 @@ digital engagement cohort that doesn't fit the traditional NFL fan profile.
 **Athlete intelligence:** `athlete/nfl/athlete-intel-nfl.md`
 **Injury intelligence:** `core/injury-intelligence/injury-intel-nfl.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | American football market intelligence: NFL/CFL club commercial tiers and US market signals |
+| Reasoning | ACTIVE | NFL market reasoning chain from commercial tier to CDI modifier and fan token demand |
+| Context | ACTIVE | Context: NFL franchise value, Super Bowl amplifier, international series signal |
+| Memory | ACTIVE | Historical NFL market performance patterns and CDI baseline data |
+| Judgment | ACTIVE | Judgment on NFL market signal hierarchy — Super Bowl and playoff signals dominate |
+| Attention | ACTIVE | Elevated attention during NFL playoff seeding and Super Bowl window |
+| Communication | ACTIVE | NFL market output with commercial tier, CDI modifier, and season stage |
+| Verification | ACTIVE | NFL market data from NFL official commercial sources |
+| Learning | EMERGING | NFL fan token market calibration is limited — US market expanding |
+| Integration | ACTIVE | Integrates with sports/american-football domain files and injury-intel-nfl |
+| Calibration | EMERGING | NFL CDI modifier calibration is developing |
+| Adaptation | ACTIVE | NFL market intelligence adapts as US fan token market grows |
+| Ethics | NOT APPLICABLE | NFL market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Franchise tier, market context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

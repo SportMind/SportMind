@@ -310,6 +310,27 @@ ESPORTS vs TRADITIONAL SPORTS DEMAND COMPARISON:
 **CS2:**                `sports/esports-cs2.md`
 **LoL / Valorant:**     `sports/esports-moba-tactical.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cross-esports framework: shared signal methodology applicable across all game titles |
+| Reasoning | ACTIVE | Esports cross-domain reasoning framework with game-specific override hierarchy |
+| Context | ACTIVE | Framework context: shared principles (roster, meta, tournament tier) vs game-specific signals |
+| Memory | ACTIVE | Cross-esports baseline patterns and inter-title comparison data |
+| Judgment | ACTIVE | Judgment on when cross-esports framework applies vs game-specific override |
+| Attention | ACTIVE | Attention allocation framework across simultaneous esports events |
+| Communication | ACTIVE | Cross-esports output format with game title identifier and framework version |
+| Verification | ACTIVE | Cross-esports verification hierarchy — official tournament operators are Tier 1 |
+| Learning | EMERGING | Cross-esports calibration is developing as game-specific data accumulates |
+| Integration | ACTIVE | Integrates with all game-specific esports files and fan-token/esports-token-intelligence/ |
+| Calibration | EMERGING | Cross-esports framework calibration requires more multi-title outcome data |
+| Adaptation | ACTIVE | Framework adapts as new game titles enter the competitive esports ecosystem |
+| Ethics | NOT APPLICABLE | Esports framework is analytical — no ethical dimension |
+| Transparency | ACTIVE | Game title, applied framework version, and override rationale explicit in output |
+
+
 ---
 
 *SportMind v3.97.30 · MIT License · sportmind.dev*

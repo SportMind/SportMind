@@ -368,6 +368,27 @@ enables agents to navigate any sport market file without relearning the layout.
 | `market/market-volleyball.md` | Volleyball | 3 | ✅ Complete |
 | `market/market-table-tennis.md` | Table Tennis | 3 | ✅ Complete |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Market overview: cross-sport commercial intelligence framework and CDI tier structure |
+| Reasoning | ACTIVE | Market overview reasoning framework: how commercial tier feeds into CDI modifier calculation |
+| Context | ACTIVE | Context: global sports commercial landscape, tier 1-4 classification, fanbase depth matrix |
+| Memory | ACTIVE | Market overview provides baseline commercial data for all sport-specific market files |
+| Judgment | ACTIVE | Judgment framework: how to weight market tier signals relative to on-pitch signals |
+| Attention | ACTIVE | Market overview guides attention toward the highest CDI-impact commercial signals |
+| Communication | ACTIVE | Market overview defines the commercial tier communication standard used across all outputs |
+| Verification | ACTIVE | Market tier classifications require multi-source commercial validation |
+| Learning | ACTIVE | Market overview updated as commercial data accumulates across sport calibration |
+| Integration | ACTIVE | Market overview integrates with all 44 sport-specific market files |
+| Calibration | ACTIVE | Commercial tier rankings calibrated against historical CDI-to-outcome correlation data |
+| Adaptation | ACTIVE | Market overview adapts as global sports commercial landscape evolves |
+| Ethics | NOT APPLICABLE | Market overview is commercial framework — no ethical dimension |
+| Transparency | ACTIVE | CDI tier classification criteria and source standards explicit in overview |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

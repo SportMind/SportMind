@@ -419,6 +419,27 @@ remain the primary signal drivers.
 **Breaking news:** `core/breaking-news-intelligence.md` (Category 2 for specialist absence)
 **PATH_2 tokens:** `fan-token/gamified-tokenomics-intelligence/` ($AFC set piece goals)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Football advanced statistics framework: xG, xGA, PPDA, progressive passes, and defensive metrics |
+| Reasoning | ACTIVE | Football statistical reasoning chain from advanced metrics to signal and APS modifier |
+| Context | ACTIVE | Statistics context: sample size, opponent quality, tactical context, positional role |
+| Memory | ACTIVE | Historical football statistical baseline profiles for team and player comparison |
+| Judgment | ACTIVE | Judgment on football statistics — context-adjusted xG vs raw shots differ significantly |
+| Attention | ACTIVE | Elevated attention for significant statistical outliers from established baselines |
+| Communication | ACTIVE | Football statistical output with context-adjusted values and confidence |
+| Verification | ACTIVE | Football statistics from StatsBomb, FBref, and official data providers |
+| Learning | ACTIVE | Football statistical calibration from historical metric-to-outcome correlation |
+| Integration | ACTIVE | Integrates with sport-domain-football.md and player statistical reasoning |
+| Calibration | ACTIVE | Football statistical modifiers calibrated against historical metric-outcome data |
+| Adaptation | ACTIVE | Football statistical framework adapts as advanced metrics and tracking data evolve |
+| Ethics | NOT APPLICABLE | Football statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Statistical source, sample size, and context adjustments explicit in output |
+
+
 ---
 
 *SportMind v3.87.0 · MIT License · sportmind.dev*

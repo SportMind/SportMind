@@ -122,6 +122,27 @@ to an AFL Grand Final — peak commercial moment.
 **Athlete intelligence:** `athlete/rugby-league/athlete-intel-rugby-league.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby league market intelligence: NRL/Super League commercial tiers and State of Origin signals |
+| Reasoning | ACTIVE | Rugby league market reasoning chain from competition tier to CDI modifier |
+| Context | ACTIVE | Context: NRL commercial dominance, State of Origin amplifier, Super League UK market |
+| Memory | ACTIVE | Historical rugby league market patterns and State of Origin demand data |
+| Judgment | ACTIVE | Judgment on rugby league signal hierarchy — State of Origin is highest demand amplifier |
+| Attention | ACTIVE | Elevated attention during NRL finals and State of Origin series |
+| Communication | ACTIVE | Rugby league market output with competition tier and CDI modifier |
+| Verification | ACTIVE | Rugby league data from NRL and Super League official commercial sources |
+| Learning | EMERGING | Rugby league fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/rugby-league domain files |
+| Calibration | EMERGING | Rugby league CDI modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rugby league market intelligence adapts as World Cup and international competition grow |
+| Ethics | NOT APPLICABLE | Rugby league market intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition tier, State of Origin context, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

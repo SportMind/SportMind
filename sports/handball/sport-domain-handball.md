@@ -315,6 +315,27 @@ Handball-specific notes:
 
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Handball event playbook: EHF competition signals, squad strength, and playing style |
+| Reasoning | ACTIVE | Handball reasoning chain from squad composition and head-to-head to outcome prediction |
+| Context | ACTIVE | Handball context: EHF Champions League, national team cycles, goalkeeping as key signal |
+| Memory | ACTIVE | Historical handball outcome patterns and EHF competition baselines |
+| Judgment | ACTIVE | Judgment on handball signal hierarchy — goalkeeper performance is the highest-variance signal |
+| Attention | ACTIVE | Elevated attention during EHF Final Four and World Championship windows |
+| Communication | ACTIVE | Handball signal output with squad context, goalkeeper rating, and direction |
+| Verification | ACTIVE | Handball data from EHF official sources |
+| Learning | ACTIVE | Handball modifier calibration from historical EHF outcome data |
+| Integration | ACTIVE | Integrates with fan-token/handball-token-intelligence/ |
+| Calibration | ACTIVE | Handball is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | Handball intelligence adapts as EHF competition format evolves |
+| Ethics | NOT APPLICABLE | Handball sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Goalkeeper signal basis and EHF source explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

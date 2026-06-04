@@ -92,6 +92,27 @@ superstar status and triggers full commercial engagement
 **Sport domain:** `sports/darts/sport-domain-darts.md`
 **Athlete intelligence:** `athlete/darts/athlete-intel-darts.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Darts market intelligence: PDC commercial signals, World Championship, and Premier League |
+| Reasoning | ACTIVE | Darts market reasoning chain from tournament tier to CDI modifier |
+| Context | ACTIVE | Context: World Championship > Premier League > Players Championship hierarchy |
+| Memory | ACTIVE | Historical darts market patterns and tournament demand data |
+| Judgment | ACTIVE | Judgment on darts signal materiality — World Championship is the dominant signal window |
+| Attention | ACTIVE | Elevated attention during PDC World Championship and Premier League finals |
+| Communication | ACTIVE | Darts market output with tournament tier and CDI modifier |
+| Verification | ACTIVE | Darts data from PDC official sources |
+| Learning | EMERGING | Darts fan token market calibration is limited |
+| Integration | ACTIVE | Integrates with sports/darts domain files |
+| Calibration | EMERGING | Darts CDI modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Darts market intelligence adapts as PDC expands internationally |
+| Ethics | NOT APPLICABLE | Darts market intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament tier and CDI modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

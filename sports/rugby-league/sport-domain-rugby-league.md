@@ -142,6 +142,27 @@ For Rugby League, agents should apply these interpretive weights to composite si
 *See `core/core-signal-weights-by-sport.md` for full signal weight rationale.*
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby league event playbook: NRL/Super League signals, State of Origin, and momentum patterns |
+| Reasoning | ACTIVE | Rugby league reasoning chain from form and physical condition to outcome prediction |
+| Context | ACTIVE | Rugby league context: NRL vs Super League, State of Origin amplifier, back-to-back |
+| Memory | ACTIVE | Historical rugby league outcome patterns and NRL seasonal baselines |
+| Judgment | ACTIVE | Judgment on rugby league signal hierarchy — State of Origin is the peak demand signal |
+| Attention | ACTIVE | Elevated attention during NRL Finals and State of Origin series |
+| Communication | ACTIVE | Rugby league signal output with competition context and direction |
+| Verification | ACTIVE | Rugby league data from NRL and Super League official sources |
+| Learning | ACTIVE | Rugby league modifier calibration from historical NRL outcome data |
+| Integration | ACTIVE | Integrates with fan-token/rugby-league-token-intelligence/ |
+| Calibration | ACTIVE | Rugby league is a calibrated sport in SportMind library |
+| Adaptation | ACTIVE | Rugby league intelligence adapts as NRL format and salary cap rules evolve |
+| Ethics | NOT APPLICABLE | Rugby league sport domain is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and NRL source explicit in output |
+
+
 ---
 
 ## Key Commands
