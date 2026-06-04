@@ -283,6 +283,27 @@ APPLYING COMPOUND ENVIRONMENTAL CONDITIONS:
 **Copa altitude:**      `sports/football/sport-domain-copa-america.md`
 **Cricket dew:**        `sports/cricket/sport-domain-cricket.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Weather intelligence: real-time conditions, sport-specific impact, and match-day modifier |
+| Reasoning | ACTIVE | Weather reasoning chain from conditions to performance modifier by sport and context |
+| Context | ACTIVE | Weather context: sport type, playing surface, competition importance, adaptation time |
+| Memory | ACTIVE | Historical weather-performance correlation patterns by sport and condition type |
+| Judgment | ACTIVE | Weather judgment: threshold conditions vs marginal conditions — not all weather is material |
+| Attention | ACTIVE | Elevated attention for extreme weather forecasts near match day |
+| Communication | ACTIVE | Weather output with condition type, severity, and modifier applied |
+| Verification | ACTIVE | Weather data from meteorological services (Met Office, AccuWeather) — not social media |
+| Learning | ACTIVE | Weather modifier calibration from historical condition-to-outcome data |
+| Integration | ACTIVE | Integrates with venue intelligence, cricket dew factor, and match conditions |
+| Calibration | ACTIVE | Weather modifiers calibrated — dew factor (cricket) is the most calibrated weather signal |
+| Adaptation | ACTIVE | Weather intelligence adapts as climate patterns affect seasonal baseline conditions |
+| Ethics | NOT APPLICABLE | Weather signals are factual environmental data — no ethical dimension |
+| Transparency | ACTIVE | Weather source, forecast confidence, and modifier value explicit in output |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

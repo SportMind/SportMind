@@ -209,6 +209,27 @@ For developers:
   platform/sportmind-mcp-server.md — five MCP tool definitions
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | SportMind purpose definition: what the library is, what it is for, and its scope |
+| Reasoning | NOT APPLICABLE | Purpose and context is an orientation document — not a reasoning framework |
+| Context | ACTIVE | Library context: MIT licensed, open source, 742 files, 130 calibration records |
+| Memory | NOT APPLICABLE | Purpose document is static — not memory-dependent |
+| Judgment | NOT APPLICABLE | Purpose document is descriptive — no judgment framework |
+| Attention | NOT APPLICABLE | Purpose document is static reference — not an attention framework |
+| Communication | ACTIVE | Purpose document defines what SportMind communicates and how |
+| Verification | NOT APPLICABLE | Purpose claims are internal definitions, not external verifiable facts |
+| Learning | NOT APPLICABLE | Purpose document is static — updated only when scope changes |
+| Integration | ACTIVE | Purpose document contextualises all five intelligence layers |
+| Calibration | NOT APPLICABLE | Purpose document is not subject to accuracy calibration |
+| Adaptation | NOT APPLICABLE | Purpose document is stable — major revisions only on scope changes |
+| Ethics | ACTIVE | Purpose document establishes scope and ethical boundaries of the library |
+| Transparency | ACTIVE | Purpose document is public — full transparency on library scope and limitations |
+
+
 ---
 
 *This document: ~600 tokens. Loads the full purpose/context in one call.*

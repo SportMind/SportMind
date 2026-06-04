@@ -158,6 +158,27 @@ Cross-reference:
 **Temporal reasoning:**    `core/temporal-reasoning.md`
 **Scenario intelligence:** `core/scenario-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Trajectory intelligence: performance trend analysis, form arc, and momentum signals |
+| Reasoning | ACTIVE | Trajectory reasoning chain from trend data to form modifier and APS adjustment |
+| Context | ACTIVE | Trajectory context: window length, opposition quality, competition context of results |
+| Memory | ACTIVE | Historical trajectory pattern data and their predictive accuracy |
+| Judgment | ACTIVE | Trajectory judgment: distinguishing genuine form shift from statistical noise |
+| Attention | ACTIVE | Elevated attention for significant trajectory changes in either direction |
+| Communication | ACTIVE | Trajectory output: trend direction, window, and form modifier value |
+| Verification | ACTIVE | Result data for trajectory calculation requires official sources |
+| Learning | ACTIVE | Trajectory pattern calibration from historical trend-to-outcome data |
+| Integration | ACTIVE | Integrates with APS modifier, post-match intelligence, and form tracking |
+| Calibration | ACTIVE | Trajectory modifiers calibrated against historical form-outcome correlation |
+| Adaptation | ACTIVE | Trajectory windows adapt by sport domain and competition type |
+| Ethics | NOT APPLICABLE | Trajectory analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Trajectory window, result set, and trend basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.65 · MIT License · sportmind.dev*

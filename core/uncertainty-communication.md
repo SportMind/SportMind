@@ -77,6 +77,27 @@ reliable signal threshold. An agent that produces NO_SIGNAL appropriately
 is better calibrated than one that produces false-confidence signals.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Uncertainty communication is a methodology file — not a domain intelligence file |
+| Reasoning | ACTIVE | Uncertainty quantification and communication standards for all reasoning outputs |
+| Context | ACTIVE | Context affects uncertainty — lineup unconfirmed and neutral venue both raise uncertainty |
+| Memory | NOT APPLICABLE | Uncertainty communication is a structural standard — not memory-dependent |
+| Judgment | ACTIVE | Judgment on appropriate uncertainty level for different signal types |
+| Attention | ACTIVE | Attention to signals that require elevated uncertainty flagging |
+| Communication | ACTIVE | This file defines the communication standard for uncertainty expression |
+| Verification | ACTIVE | Verification gaps directly increase uncertainty level in output |
+| Learning | ACTIVE | Uncertainty thresholds calibrated from historical accuracy at different confidence levels |
+| Integration | ACTIVE | Uncertainty communication standard applied across all five layers |
+| Calibration | ACTIVE | Confidence calibration is the empirical basis for uncertainty thresholds |
+| Adaptation | ACTIVE | Uncertainty standards adapt as new signal types and edge cases are encountered |
+| Ethics | ACTIVE | Understating uncertainty is an ethics failure — overconfidence harms decision quality |
+| Transparency | ACTIVE | This file IS a transparency tool — defining how uncertainty is made visible |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

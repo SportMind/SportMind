@@ -345,6 +345,27 @@ Applications bridge this gap by fetching live data and applying SportMind's mode
 See platform/live-signals.md for the complete boundary specification.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Temporal awareness: time-sensitive signal handling, decay rates, and validity windows |
+| Reasoning | ACTIVE | Temporal reasoning: signals interpreted differently based on time proximity to event |
+| Context | ACTIVE | Temporal context: T-48h, T-24h, T-2h, T+0 signal validity distinctions |
+| Memory | ACTIVE | Historical signal decay patterns by signal type and sport domain |
+| Judgment | ACTIVE | Temporal judgment: which signals are still valid vs stale at time of analysis |
+| Attention | ACTIVE | Elevated attention as competition approaches — signal update frequency increases |
+| Communication | ACTIVE | Temporal context (T-Xh) included in all time-sensitive signal outputs |
+| Verification | ACTIVE | Time-sensitive signals require verification timestamp — stale verification is invalid |
+| Learning | ACTIVE | Signal decay rate learning from historical validity window data |
+| Integration | ACTIVE | Temporal awareness applies across all five intelligence layers |
+| Calibration | ACTIVE | Signal validity windows calibrated against historical accuracy at different time horizons |
+| Adaptation | ACTIVE | Temporal framework adapts as sports information ecosystems change speed |
+| Ethics | NOT APPLICABLE | Temporal signal handling is procedural — no ethical dimension |
+| Transparency | ACTIVE | Signal timestamp and validity window always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

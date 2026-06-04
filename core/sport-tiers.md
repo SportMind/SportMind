@@ -204,6 +204,27 @@ SPORTMIND INTELLIGENCE (SMI) MONITORING SCHEDULE:
 **Related:** `fan-token/fan-token-layer-overview.md` — fan token skill map
 **Templates:** `templates/template-new-sport-skill.md` — for Tier C expansion
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sport tier classification: coverage depth, calibration density, and signal confidence by tier |
+| Reasoning | NOT APPLICABLE | Sport tier classification is reference data — not a reasoning framework |
+| Context | ACTIVE | Tier context: calibration record count, domain expert coverage, data availability |
+| Memory | NOT APPLICABLE | Tier classification is static reference — not memory-dependent |
+| Judgment | ACTIVE | Tier assignment requires judgment on coverage quality and calibration density |
+| Attention | NOT APPLICABLE | Sport tiers are static reference — not an attention framework |
+| Communication | ACTIVE | Tier level disclosed in all outputs for that sport |
+| Verification | NOT APPLICABLE | Tier classification is an internal assessment, not a verifiable external claim |
+| Learning | ACTIVE | Tier upgrades as calibration records accumulate for lower-tier sports |
+| Integration | ACTIVE | Sport tier affects confidence calibration across all intelligence layers |
+| Calibration | ACTIVE | Tier classification directly determines calibration confidence threshold |
+| Adaptation | ACTIVE | Tier system adapts as sports are added and calibration data grows |
+| Ethics | NOT APPLICABLE | Sport tier classification is structural — no ethical dimension |
+| Transparency | ACTIVE | Sport tier level and calibration record count disclosed in output |
+
+
 ---
 
 *SportMind v3.96.9 · MIT License · sportmind.dev*

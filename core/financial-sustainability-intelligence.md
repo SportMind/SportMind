@@ -240,6 +240,27 @@ NEWLY PROMOTED CLUBS:
 **Seasonal demand:**        `core/seasonal-intelligence.md`
 **Emerging pipeline:**      `fan-token/emerging-sports-pipeline.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Club financial sustainability signals: FFP compliance, debt ratios, ownership stability |
+| Reasoning | ACTIVE | Financial sustainability reasoning chain to CDI modifier and long-term stability signal |
+| Context | ACTIVE | Context: league financial regulations, ownership structure, revenue diversification |
+| Memory | ACTIVE | Historical club financial distress patterns and recovery trajectories |
+| Judgment | ACTIVE | Judgment on financial signal materiality — distress threshold identification |
+| Attention | ACTIVE | Elevated attention for FFP sanctions, ownership disputes, and reported financial stress |
+| Communication | ACTIVE | Financial sustainability output with CDI modifier and risk level |
+| Verification | ACTIVE | Financial figures require official club accounts or regulatory announcements |
+| Learning | EMERGING | Financial distress-to-performance correlation learning from historical cases |
+| Integration | ACTIVE | Integrates with CDI framework, market intelligence, and ownership signals |
+| Calibration | EMERGING | CDI financial modifier calibration requires more cross-club data |
+| Adaptation | ACTIVE | Financial intelligence adapts as league financial rules and oversight evolve |
+| Ethics | ACTIVE | Financial signals are factual — no speculation about private financial matters |
+| Transparency | ACTIVE | Financial signal source and confidence level explicit in output |
+
+
 ---
 
 *SportMind v3.97.37 · MIT License · sportmind.dev*

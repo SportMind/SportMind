@@ -74,6 +74,27 @@ HORIZON CONFLICT RESOLUTION:
     See: core/signal-interaction-reasoning.md
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Multi-horizon reasoning: signals evaluated across short, medium, and long time horizons |
+| Reasoning | ACTIVE | Horizon-aware reasoning: different signals have different predictive windows |
+| Context | ACTIVE | Horizon context: competition calendar, signal decay rates, planning window |
+| Memory | ACTIVE | Horizon baseline patterns: historical signal decay and validity windows by type |
+| Judgment | ACTIVE | Judgment on which horizon is primary for a given analysis |
+| Attention | ACTIVE | Attention allocation varies by horizon — short-horizon signals require immediate attention |
+| Communication | ACTIVE | Multi-horizon output: signals labelled by time horizon and validity window |
+| Verification | ACTIVE | Short-horizon signals require more current verification than long-horizon structural signals |
+| Learning | EMERGING | Horizon decay rate learning from historical signal validity data |
+| Integration | ACTIVE | Multi-horizon reasoning integrates all five layers with time-awareness |
+| Calibration | EMERGING | Horizon-specific accuracy calibration is an emerging framework |
+| Adaptation | ACTIVE | Horizon framework adapts as competition calendars and signal patterns evolve |
+| Ethics | NOT APPLICABLE | Time-horizon analysis is structural — no ethical dimension |
+| Transparency | ACTIVE | Time horizon and validity window explicit in all multi-horizon outputs |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

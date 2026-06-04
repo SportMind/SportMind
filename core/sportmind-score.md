@@ -283,6 +283,27 @@ AGENT USAGE:
       action = response["sizing"]["recommended_action"]
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | SportMind Score (SMS): five-layer composite signal completeness measure (0-100) |
+| Reasoning | ACTIVE | SMS reasoning: score reflects how many layers are loaded and contributing |
+| Context | ACTIVE | SMS context: which layers are active determines score floor and ceiling |
+| Memory | NOT APPLICABLE | SMS is a point-in-time measurement — not memory-dependent |
+| Judgment | ACTIVE | Judgment on SMS threshold — signals below SMS 60 require elevated uncertainty flag |
+| Attention | ACTIVE | Low SMS scores trigger attention to missing layer context |
+| Communication | ACTIVE | SMS value included in every SportMind signal output |
+| Verification | NOT APPLICABLE | SMS is internally calculated — not a verifiable external claim |
+| Learning | NOT APPLICABLE | SMS formula is stable — not subject to learning adjustments |
+| Integration | ACTIVE | SMS directly measures integration quality — five loaded layers = SMS 100 |
+| Calibration | ACTIVE | SMS thresholds calibrated against historical signal accuracy at different score levels |
+| Adaptation | ACTIVE | SMS thresholds adapt if new layers are added to the library |
+| Ethics | NOT APPLICABLE | SMS is a technical metric — no ethical dimension |
+| Transparency | ACTIVE | SMS value and layer composition are always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

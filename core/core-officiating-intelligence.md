@@ -273,6 +273,27 @@ AGENT RULE: If assigned official is unknown at time of analysis,
   use zero modifier — do not assume average. Unknown = neutral.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Officiating patterns, referee tendencies, and VAR system intelligence |
+| Reasoning | ACTIVE | Officiating reasoning chain from referee assignment to signal modifier |
+| Context | ACTIVE | Context: competition tier, referee experience, home bias patterns, VAR availability |
+| Memory | ACTIVE | Referee decision history and calibration data by competition context |
+| Judgment | ACTIVE | Judgment on officiating signal materiality — known bias patterns vs random variance |
+| Attention | ACTIVE | Elevated attention for high-profile referee assignments and VAR controversy history |
+| Communication | ACTIVE | Officiating signal output with historical pattern data and confidence level |
+| Verification | ACTIVE | Referee assignment verification from official competition sources |
+| Learning | ACTIVE | Officiating pattern learning from historical decision data and calibration outcomes |
+| Integration | ACTIVE | Integrates with match conditions, pre-match intelligence, and CDI |
+| Calibration | ACTIVE | Referee bias modifiers calibrated against historical decision pattern data |
+| Adaptation | ACTIVE | Officiating intelligence adapts as rule changes and VAR implementation evolve |
+| Ethics | ACTIVE | Officiating signals are factual pattern analysis — not allegations of corruption |
+| Transparency | ACTIVE | Referee assignment and historical pattern basis explicit in output |
+
+
 ---
 
 ## Technology-assisted officiating — VAR, Hawk-Eye, TMO

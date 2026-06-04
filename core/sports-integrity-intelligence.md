@@ -191,6 +191,27 @@ CONNECTION TO ODDS INTELLIGENCE:
 **Confidence framework:**    `core/signal-confidence-framework.md`
 **PATH_2 mechanics:**        `fan-token/ftp-path2.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports integrity signals: match-fixing patterns, suspicious betting movements, integrity alerts |
+| Reasoning | ACTIVE | Integrity reasoning chain from suspicious signal to elevated caution modifier |
+| Context | ACTIVE | Integrity context: competition vulnerability, odds movement pattern, reporting source |
+| Memory | ACTIVE | Historical integrity incident patterns by competition and region |
+| Judgment | ACTIVE | Judgment on integrity signal threshold — false positive risk is high in this domain |
+| Attention | ACTIVE | Maximum attention for official integrity alerts from governing bodies |
+| Communication | ACTIVE | Integrity signal output with caution flag and confidence — never definitive accusation |
+| Verification | ACTIVE | Integrity signals require official governing body alerts — all other sources are Tier 4 |
+| Learning | EMERGING | Integrity pattern learning is constrained by limited confirmed case data |
+| Integration | ACTIVE | Integrates with odds market intelligence and competition intelligence |
+| Calibration | EMERGING | Integrity signal calibration is severely limited — most suspected cases go unconfirmed |
+| Adaptation | ACTIVE | Integrity intelligence adapts as governing body detection systems evolve |
+| Ethics | ACTIVE | Highest ethics sensitivity: integrity allegations require official confirmation before flagging |
+| Transparency | ACTIVE | Source tier and caution flag status always explicit — never present as confirmed corruption |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*

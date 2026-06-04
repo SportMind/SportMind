@@ -98,6 +98,27 @@ COMMUNITY CALL: contributors submitting 5+ such standard football records
   will receive explicit credit in recalibration-v7.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | V6 modifier recalibration record |
+| Reasoning | NOT APPLICABLE | Recalibration record — not a reasoning framework |
+| Context | ACTIVE | Recalibration context: record count and accuracy at v6 |
+| Memory | ACTIVE | Audit trail of modifier changes from v5 to v6 |
+| Judgment | ACTIVE | Judgment on v6 modifier adjustments |
+| Attention | NOT APPLICABLE | Periodic recalibration process |
+| Communication | ACTIVE | V6 change documentation for transparency |
+| Verification | ACTIVE | V6 values derived from calibration records |
+| Learning | ACTIVE | V6 recalibration reflects learning from post-v5 outcomes |
+| Integration | ACTIVE | V6 modifier values propagated across library |
+| Calibration | ACTIVE | This file IS a calibration output — v6 recalibration results |
+| Adaptation | NOT APPLICABLE | Historical record |
+| Ethics | ACTIVE | Modifier change transparency is required |
+| Transparency | ACTIVE | All v6 changes documented with justification |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

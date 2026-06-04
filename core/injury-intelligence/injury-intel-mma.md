@@ -275,6 +275,27 @@ Under 28 (early career):
 - **Fighter social media**: Training camp monitoring (Instagram, X/Twitter)
 - **ESPN MMA / The Athletic MMA**: Credible camp reports
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA-specific injury patterns: weight cut, sparring damage, late withdrawal patterns |
+| Reasoning | ACTIVE | MMA injury reasoning chain to fight availability and performance modifier |
+| Context | ACTIVE | MMA context: weight class, training camp reports, promotional announcement timing |
+| Memory | ACTIVE | Historical MMA injury and weight-cut complication patterns |
+| Judgment | ACTIVE | Judgment on MMA injury signal uniqueness — weight cut as preparation failure signal |
+| Attention | ACTIVE | Maximum attention for missed weight — preparation failure signal, not just injury |
+| Communication | ACTIVE | MMA injury output: injury type, fight status, weight cut status, modifier |
+| Verification | ACTIVE | Athletic commission medical findings are Tier 1 — promotional statements are Tier 3 |
+| Learning | ACTIVE | MMA injury calibration from historical fight outcome correlation |
+| Integration | ACTIVE | Integrates with core injury framework and MMA sport domain intelligence |
+| Calibration | ACTIVE | Weight cut modifiers calibrated — missed weight is categorically distinct signal |
+| Adaptation | ACTIVE | MMA injury intelligence adapts as commission medical testing standards evolve |
+| Ethics | ACTIVE | MMA fighter safety is paramount — injury signals that risk fighter safety are escalated |
+| Transparency | ACTIVE | Weight cut status and medical commission findings explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

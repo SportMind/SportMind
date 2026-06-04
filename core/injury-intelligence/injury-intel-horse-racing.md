@@ -307,6 +307,27 @@ INJURY-ADJUSTED RACE ASSESSMENT WORKFLOW:
 - **Trainer social media**: Instagram and X for stable condition updates
 - **Bloodstock.com / breeding data**: Physical background and family injury history
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Horse racing injury and veterinary signals: lameness, going concerns, health reports |
+| Reasoning | ACTIVE | Racing injury reasoning chain from horse health signal to performance modifier |
+| Context | ACTIVE | Racing context: track going, distance, race class, trainer communication patterns |
+| Memory | ACTIVE | Historical horse health pattern data and going preference baselines |
+| Judgment | ACTIVE | Judgment on horse health signal reliability — trainer communication is strategic |
+| Attention | ACTIVE | Elevated attention for non-runner declarations and late going changes |
+| Communication | ACTIVE | Racing health output: horse status, going suitability, performance modifier |
+| Verification | ACTIVE | Official race day declarations are Tier 1 — trainer interviews are Tier 2 |
+| Learning | ACTIVE | Horse racing health signal calibration from historical form and outcome data |
+| Integration | ACTIVE | Integrates with core injury framework and horse racing sport domain intelligence |
+| Calibration | ACTIVE | Going preference modifiers calibrated against historical performance-going correlation |
+| Adaptation | ACTIVE | Racing intelligence adapts as going classification standards evolve |
+| Ethics | ACTIVE | Horse welfare signals (distress, vet inspections) are factual — safety-relevant |
+| Transparency | ACTIVE | Going assessment source and trainer communication context explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

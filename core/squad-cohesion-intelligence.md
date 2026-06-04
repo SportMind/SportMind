@@ -325,6 +325,27 @@ INDIVIDUAL SPORTS (tennis, golf, darts, snooker):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Squad cohesion signals: team chemistry, dressing room dynamics, collective performance |
+| Reasoning | ACTIVE | Cohesion reasoning chain from observable signals to collective performance modifier |
+| Context | ACTIVE | Cohesion context: managerial stability, squad turnover, high-profile departures/arrivals |
+| Memory | ACTIVE | Historical cohesion pattern data and collective performance correlation |
+| Judgment | ACTIVE | Judgment on cohesion signal reliability — highly subjective, requires multiple sources |
+| Attention | ACTIVE | Elevated attention for dressing room conflict reports and manager-player tension signals |
+| Communication | ACTIVE | Cohesion signal output with AELS modifier and evidence base |
+| Verification | ACTIVE | Cohesion signals are soft — very high verification threshold, multiple sources required |
+| Learning | ACTIVE | Cohesion modifier calibration from historical team dynamics-to-outcome data |
+| Integration | ACTIVE | Integrates with psychological intelligence, motivation, and squad intelligence |
+| Calibration | EMERGING | Cohesion modifier calibration is challenging — limited directly measurable data |
+| Adaptation | ACTIVE | Cohesion baseline adapts after major personnel changes |
+| Ethics | ACTIVE | Dressing room signals involve private information — only publicly observable signals used |
+| Transparency | ACTIVE | Cohesion modifier flagged as SOFT_SIGNAL with explicit uncertainty in output |
+
+
 ---
 
 *SportMind v3.56 · MIT License · sportmind.dev*

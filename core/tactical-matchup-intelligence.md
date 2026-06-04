@@ -352,6 +352,27 @@ LIVE MATCH CONTEXT (Pattern 12 — future):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tactical matchup intelligence: TMAS calculation, formation matchup analysis |
+| Reasoning | ACTIVE | TMAS reasoning chain from formation and tactical signals to advantage score |
+| Context | ACTIVE | Matchup context: formation history, tactical flexibility, key individual matchups |
+| Memory | ACTIVE | Historical tactical matchup outcome data for comparable formation matchups |
+| Judgment | ACTIVE | Judgment on TMAS contribution — not all tactical mismatches produce outcomes |
+| Attention | ACTIVE | Elevated attention for confirmed lineup matchup signals near match day |
+| Communication | ACTIVE | TMAS output with value, key matchup, and confidence level |
+| Verification | ACTIVE | Confirmed lineup required for reliable TMAS calculation |
+| Learning | ACTIVE | TMAS calibration from historical formation matchup-to-outcome data |
+| Integration | ACTIVE | Integrates with spatial game, game tempo, opponent tendency, and LQI |
+| Calibration | ACTIVE | TMAS values calibrated against historical tactical advantage-outcome correlation |
+| Adaptation | ACTIVE | TMAS framework adapts as tactical evolution changes formation effectiveness |
+| Ethics | NOT APPLICABLE | Tactical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | TMAS value and key matchup basis explicit in pre-match output |
+
+
 ---
 
 *SportMind v3.62 · MIT License · sportmind.dev*

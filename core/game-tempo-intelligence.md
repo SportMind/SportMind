@@ -340,6 +340,27 @@ ANTI-STACKING:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Game tempo signals: pace of play, transition speed, pressing intensity, set-piece frequency |
+| Reasoning | ACTIVE | Tempo reasoning chain from playing style signals to match outcome modifiers |
+| Context | ACTIVE | Tempo context: tactical matchup, referee style, weather conditions, competition stakes |
+| Memory | ACTIVE | Historical tempo pattern data by team and competition context |
+| Judgment | ACTIVE | Judgment on tempo signal materiality — tactical shifts can override historical patterns |
+| Attention | ACTIVE | Elevated attention for significant tempo changes within a match signal |
+| Communication | ACTIVE | Tempo signal output with TCM (Tempo Context Modifier) value |
+| Verification | ACTIVE | Tempo signals from match statistics require official data sources |
+| Learning | ACTIVE | Tempo modifier calibration from historical pattern-to-outcome data |
+| Integration | ACTIVE | Integrates with tactical matchup, coaching intelligence, and spatial game |
+| Calibration | ACTIVE | TCM values calibrated against historical tempo-outcome correlation data |
+| Adaptation | ACTIVE | Tempo intelligence adapts as tactical evolution changes sport norms |
+| Ethics | NOT APPLICABLE | Tempo signals are tactical analysis — no ethical dimension |
+| Transparency | ACTIVE | TCM value and tempo pattern basis explicit in output |
+
+
 ---
 
 *SportMind v3.61 · MIT License · sportmind.dev*

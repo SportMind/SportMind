@@ -239,6 +239,27 @@ NEW WALLET CREATION RATE AROUND MATCH EVENTS:
 **Ecosystem health:**       `fan-token/ecosystem-health-intelligence.md`
 **Exchange signals:**       `macro/exchange-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | On-chain signal intelligence: wallet activity, token flows, smart contract events |
+| Reasoning | ACTIVE | On-chain reasoning chain from transaction data to fan token signal |
+| Context | ACTIVE | Chain context: network state, gas prices, liquidity pool depth, bridge status |
+| Memory | ACTIVE | Historical on-chain event patterns for anomaly detection |
+| Judgment | ACTIVE | Judgment on on-chain signal materiality — not all transactions are signals |
+| Attention | ACTIVE | Elevated attention for large wallet movements, burn events, and bridge transactions |
+| Communication | ACTIVE | On-chain signal output with transaction hash and explorer link |
+| Verification | ACTIVE | On-chain data is primary source — verify via chiliscan.com before signalling |
+| Learning | EMERGING | Pattern learning from historical on-chain events and subsequent price movements |
+| Integration | ACTIVE | Integrates with fan token registry, FTP framework, and supply intelligence |
+| Calibration | EMERGING | On-chain signal calibration requires more records across multiple token events |
+| Adaptation | ACTIVE | On-chain intelligence adapts as smart contract mechanics and bridge architecture evolve |
+| Ethics | ACTIVE | Wallet address privacy — pseudonymous data handled per privacy-notice.md |
+| Transparency | ACTIVE | On-chain source and transaction reference explicit in all outputs |
+
+
 ---
 
 *SportMind v3.97.41 · MIT License · sportmind.dev*

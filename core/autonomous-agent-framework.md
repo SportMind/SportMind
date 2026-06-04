@@ -678,6 +678,27 @@ class SportMindAgent:
         )
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Framework for autonomous sports intelligence agent operation without human-in-loop |
+| Reasoning | ACTIVE | Autonomous reasoning cycles: perception → inference → action → reflection |
+| Context | ACTIVE | Autonomous context management across extended multi-event sessions |
+| Memory | ACTIVE | Persistent memory architecture for autonomous multi-session agents |
+| Judgment | ACTIVE | Autonomous judgment gates — escalation triggers and abstention conditions |
+| Attention | ACTIVE | Autonomous attention allocation across concurrent signals and events |
+| Communication | ACTIVE | Autonomous output format for unsupervised signal broadcast |
+| Verification | ACTIVE | Mandatory verification gates before autonomous action — no unverified signals acted on |
+| Learning | ACTIVE | Autonomous learning from outcome feedback without human intervention |
+| Integration | ACTIVE | Full five-layer integration in autonomous operation mode |
+| Calibration | ACTIVE | Confidence calibration gates that pause autonomous operation below threshold |
+| Adaptation | ACTIVE | Runtime adaptation to unexpected signal states in autonomous mode |
+| Ethics | ACTIVE | Hard autonomy limits: prohibited action types, scope enforcement, escalation requirements |
+| Transparency | ACTIVE | Autonomous operation audit log — all decisions traceable |
+
+
 ---
 
 ## Compatibility

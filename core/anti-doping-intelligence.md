@@ -177,6 +177,27 @@ Anti-doping signals interact with the sports integrity framework.
 **Confidence framework:**  `core/signal-confidence-framework.md`
 **Press conference:**      `core/press-conference-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Anti-doping regulatory landscape, test schedules, and violation patterns |
+| Reasoning | ACTIVE | Reasoning chain from anti-doping event to athlete availability and performance modifier |
+| Context | ACTIVE | Competition-specific anti-doping context — testing frequency varies by event tier |
+| Memory | ACTIVE | Violation history and suspension records for athlete profile |
+| Judgment | ACTIVE | Judgment on materiality — not all violations are equal in impact |
+| Attention | ACTIVE | Elevated attention when anti-doping news breaks near competition |
+| Communication | ACTIVE | Signal communication: provisional suspension vs confirmed ban distinction |
+| Verification | ACTIVE | Source verification — only WADA/national agency announcements are Tier 1 |
+| Learning | EMERGING | Pattern learning from historical violation-performance correlation |
+| Integration | ACTIVE | Integrates with athlete availability, APS modifier, and competition intelligence |
+| Calibration | EMERGING | Limited calibration data for anti-doping impact on fan token signals |
+| Adaptation | ACTIVE | Modifier adapts as anti-doping case progresses through stages |
+| Ethics | ACTIVE | Anti-doping violations are factual signals — no editorialising |
+| Transparency | ACTIVE | Distinction between alleged, provisional, and confirmed violations must be visible |
+
+
 ---
 
 *SportMind v3.97.58 · MIT License · sportmind.dev*

@@ -1,5 +1,40 @@
 # Changelog
 
+## [3.97.101] — 2026-06-02
+
+### Added — MIND DIMENSIONS backfill: core/ directory
+
+0 new files. 102 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to 102 core/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note for each dimension.
+
+Skipped (3 files — exempt):
+  core/data-sources.md — admin reference file, not a reasoning framework
+  core/smi-digest.md — operational digest, not a reasoning framework
+  core/privacy-notice.md — already had MIND DIMENSIONS (added v3.97.88)
+
+Already had MIND DIMENSIONS (10 files):
+  core/agent-reasoning-chains.md
+  core/calibration-feedback-loop.md
+  core/coaching-succession-intelligence.md
+  core/error-correction-framework.md
+  core/fan-token-context-bridge.md
+  core/multi-signal-fan-token-chain.md
+  core/privacy-notice.md
+  core/referee-pool-depth.md
+  core/signal-confidence-framework.md
+  core/trust-breakdown-intelligence.md
+
+Updated 102 files across:
+  agent architecture, athlete modifiers, injury intelligence (7 sport files),
+  match intelligence, prediction market, psychological, social sentiment,
+  tactical, transfer, venue, weather, calibration, temporal, coaching,
+  manager, squad, standings, referee, media, odds, and 60+ additional files.
+
 ## [3.97.100] — 2026-06-02
 
 ### Fixed — $BELG total supply corrected to 20,000,000 (STANDARD tier)

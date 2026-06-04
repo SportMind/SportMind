@@ -356,6 +356,27 @@ OUTSTANDING UNCERTAINTY:
 ```
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | External intelligence intake: triage, classification, and library addition protocol |
+| Reasoning | NOT APPLICABLE | Intake framework is procedural — not a reasoning intelligence file |
+| Context | ACTIVE | Intake context: Library Rule (six-month test), source verification, domain classification |
+| Memory | NOT APPLICABLE | Intake framework processes new information — not memory-dependent |
+| Judgment | ACTIVE | Central function is judgment: does external intelligence meet library standards |
+| Attention | ACTIVE | Intake attention: monitoring for signals from US fan token markets and new jurisdictions |
+| Communication | ACTIVE | Intake output format: classification decision and library addition recommendation |
+| Verification | ACTIVE | Source verification is required before intake — primary sources only for regulatory claims |
+| Learning | ACTIVE | Intake framework itself improves as new categories and gaps are identified |
+| Integration | ACTIVE | Intake framework connects external signals to relevant library layers |
+| Calibration | NOT APPLICABLE | Intake is a quality gate — not subject to predictive calibration |
+| Adaptation | ACTIVE | Intake criteria adapt as new domains (e.g. US fan token market) emerge |
+| Ethics | ACTIVE | Intake ethical gate: reject intelligence that enables harm or violates library scope |
+| Transparency | ACTIVE | Intake decisions documented — what was accepted and why is recorded |
+
+
 ---
 
 ## Processed intake — Academic batch (April 2026)

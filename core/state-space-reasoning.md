@@ -164,6 +164,27 @@ Cross-reference:
 **Financial:**             `core/financial-sustainability-intelligence.md`
 **Commercial:**            `market/commercial-partnership-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | State space reasoning: comprehensive system state mapping for complex multi-factor analysis |
+| Reasoning | ACTIVE | This file defines state space methodology — the structured multi-state reasoning standard |
+| Context | ACTIVE | State space context: all relevant variables and their current values |
+| Memory | ACTIVE | State space history: previous states and transitions for pattern analysis |
+| Judgment | ACTIVE | Judgment on relevant state variables — not all variables are equally important |
+| Attention | ACTIVE | Attention allocation across multiple simultaneous state dimensions |
+| Communication | ACTIVE | State space output: structured representation of all active signal states |
+| Verification | ACTIVE | Each state variable value requires independent verification |
+| Learning | ACTIVE | State space patterns learn from historical state-to-outcome correlation |
+| Integration | ACTIVE | State space reasoning integrates signals from all five layers simultaneously |
+| Calibration | ACTIVE | State space probability weights calibrated against historical outcome data |
+| Adaptation | ACTIVE | State space framework adapts as new variable types are identified as material |
+| Ethics | NOT APPLICABLE | State space analysis is structural — no ethical dimension |
+| Transparency | ACTIVE | All state variables and their values explicit in state space output |
+
+
 ---
 
 *SportMind v3.97.65 · MIT License · sportmind.dev*

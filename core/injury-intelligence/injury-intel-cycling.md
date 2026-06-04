@@ -277,6 +277,27 @@ During race (live):
 - **TV broadcast**: Commissaire radio and team car radio commentary
 - **cycling-info.com / Procyclingstats**: Historical head-to-head and course performance
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cycling-specific injury patterns: crashes, overuse, altitude illness, cumulative fatigue |
+| Reasoning | ACTIVE | Cycling injury reasoning chain from crash/illness to stage and GC impact |
+| Context | ACTIVE | Cycling context: grand tour phase, stage type (mountain/TT/sprint), team support |
+| Memory | ACTIVE | Historical cycling injury patterns and abandon rates by race type |
+| Judgment | ACTIVE | Judgment on cycling injury materiality — minor crashes vs race-ending injuries |
+| Attention | ACTIVE | Elevated attention for crash reports during race stages |
+| Communication | ACTIVE | Cycling injury output: severity, stages affected, GC implication, APS modifier |
+| Verification | ACTIVE | Team doctor confirmation preferred over race reports for injury assessment |
+| Learning | ACTIVE | Cycling injury pattern learning from historical finish/abandon correlation |
+| Integration | ACTIVE | Integrates with core injury framework and cycling sport domain intelligence |
+| Calibration | ACTIVE | Cycling injury modifiers calibrated against historical performance impact data |
+| Adaptation | ACTIVE | Cycling injury intelligence adapts as race medicine protocols evolve |
+| Ethics | ACTIVE | Cycling has historical doping context — injury signals that obscure doping are flagged |
+| Transparency | ACTIVE | Crash severity assessment basis and source explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

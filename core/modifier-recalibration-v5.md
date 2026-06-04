@@ -157,6 +157,27 @@ EXTERNAL COMMUNITY CALL:
   specific modifiers will have the highest direct impact on library accuracy.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | V5 modifier recalibration record |
+| Reasoning | NOT APPLICABLE | Recalibration record — not a reasoning framework |
+| Context | ACTIVE | Recalibration context: record count and accuracy at v5 |
+| Memory | ACTIVE | Audit trail of modifier changes from v4 to v5 |
+| Judgment | ACTIVE | Judgment on v5 modifier adjustments |
+| Attention | NOT APPLICABLE | Periodic recalibration process |
+| Communication | ACTIVE | V5 change documentation for transparency |
+| Verification | ACTIVE | V5 values derived from calibration records |
+| Learning | ACTIVE | V5 recalibration reflects learning from post-v4 outcomes |
+| Integration | ACTIVE | V5 modifier values propagated across library |
+| Calibration | ACTIVE | This file IS a calibration output — v5 recalibration results |
+| Adaptation | NOT APPLICABLE | Historical record |
+| Ethics | ACTIVE | Modifier change transparency is required |
+| Transparency | ACTIVE | All v5 changes documented with justification |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

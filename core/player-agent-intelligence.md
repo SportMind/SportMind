@@ -177,6 +177,27 @@ AGENT ACTIVITY DURING FAN TOKEN GOVERNANCE WINDOW:
 **Transfer negotiation:**  `core/transfer-negotiation-intelligence.md`
 **Governance:**            `fan-token/governance-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Player agent intelligence: agent networks, transfer influence, and negotiation patterns |
+| Reasoning | ACTIVE | Agent influence reasoning chain from agent signals to transfer probability |
+| Context | ACTIVE | Agent context: agent portfolio, club relationships, negotiation history |
+| Memory | ACTIVE | Historical agent-driven transfer patterns and outcome data |
+| Judgment | ACTIVE | Judgment on agent signal reliability — agent-placed stories are strategic communication |
+| Attention | ACTIVE | Elevated attention for agent activity near transfer windows |
+| Communication | ACTIVE | Agent signal output with source tier and strategic communication flag |
+| Verification | ACTIVE | Agent signals are Tier 3 — require independent confirmation before acting |
+| Learning | EMERGING | Agent influence pattern learning from historical transfer outcome data |
+| Integration | ACTIVE | Integrates with transfer intelligence, athlete financial intelligence, and CDI |
+| Calibration | EMERGING | Agent signal calibration is limited — high variance and strategic noise |
+| Adaptation | ACTIVE | Agent intelligence adapts as agent networks and influence patterns shift |
+| Ethics | ACTIVE | Agent signals must be clearly labelled as strategic communications — not objective intelligence |
+| Transparency | ACTIVE | Agent source and strategic interest noted in all agent-sourced signal outputs |
+
+
 ---
 
 *SportMind v3.97.71 · MIT License · sportmind.dev*

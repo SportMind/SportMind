@@ -419,6 +419,27 @@ PROMPT 22 (Build-Up Agent):
   Frame competition significance in light of the sport's current trend phase.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports trend intelligence: tactical evolution, format changes, participation trends |
+| Reasoning | ACTIVE | Trend reasoning chain from identified trend to long-horizon signal modifier |
+| Context | ACTIVE | Trend context: trend age, adoption rate, reversibility, competitive implications |
+| Memory | ACTIVE | Historical trend tracking and adoption pattern data across sports |
+| Judgment | ACTIVE | Judgment on trend materiality — not all trends affect signal quality |
+| Attention | ACTIVE | Elevated attention for trends that may invalidate historical signal patterns |
+| Communication | ACTIVE | Trend signal output with trend stage, adoption level, and signal implications |
+| Verification | ACTIVE | Trend claims require multiple observation points — single event is not a trend |
+| Learning | ACTIVE | Trend library grows as new patterns are identified and confirmed |
+| Integration | ACTIVE | Trend intelligence integrates with all domain-specific files as baseline context |
+| Calibration | EMERGING | Long-horizon trend calibration requires extended observation periods |
+| Adaptation | ACTIVE | Trend intelligence is inherently adaptive — trends by definition change baselines |
+| Ethics | NOT APPLICABLE | Sports trend analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Trend identification basis and observation count explicit in output |
+
+
 ---
 
 *SportMind v3.53 · MIT License · sportmind.dev*

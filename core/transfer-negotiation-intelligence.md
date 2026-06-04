@@ -395,6 +395,27 @@ PATTERN 2 (Pre-Match Chain):
   T-72h window — could amplify social signal before match.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Transfer negotiation intelligence: deal stage, fee signals, and timeline analysis |
+| Reasoning | ACTIVE | Negotiation reasoning chain from deal stage to transfer probability and CDI impact |
+| Context | ACTIVE | Negotiation context: window timing, club financial state, player contract status |
+| Memory | ACTIVE | Historical negotiation pattern data and deal completion rates by stage |
+| Judgment | ACTIVE | Negotiation judgment: distinguishing strategic leaks from genuine deal progress |
+| Attention | ACTIVE | Elevated attention during transfer windows when negotiation signals are highest |
+| Communication | ACTIVE | Negotiation signal output with deal stage, probability, and RAF modifier |
+| Verification | ACTIVE | Negotiation signals are Tier 2-3 — official confirmation required for certainty |
+| Learning | ACTIVE | Negotiation pattern calibration from historical stage-to-completion data |
+| Integration | ACTIVE | Integrates with transfer window intelligence, CDI, and player agent intelligence |
+| Calibration | ACTIVE | RAF (Relocation Adjustment Factor) calibrated from historical transfer outcome data |
+| Adaptation | ACTIVE | Negotiation intelligence adapts as transfer market dynamics and regulations evolve |
+| Ethics | ACTIVE | Transfer signals about minors require additional care and verification |
+| Transparency | ACTIVE | Deal stage, source tier, and probability basis explicit in negotiation outputs |
+
+
 ---
 
 *SportMind v3.59 · MIT License · sportmind.dev*

@@ -345,6 +345,27 @@ ARI < 0.65: HIGH CONCERN — ESCALATE
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete readiness composite index integrating physical, mental, and contextual signals |
+| Reasoning | ACTIVE | Readiness reasoning chain: input signals → composite score → APS modifier |
+| Context | ACTIVE | Readiness context: training load, travel, recovery time, match importance |
+| Memory | ACTIVE | Historical readiness pattern data for return-from-injury and fatigue baselines |
+| Judgment | ACTIVE | Readiness judgment: threshold below which availability signals should override readiness |
+| Attention | ACTIVE | Elevated attention for morning skate / pre-match training indicators |
+| Communication | ACTIVE | Readiness index output with composite score and component breakdown |
+| Verification | ACTIVE | Physical readiness signals require Tier 1 confirmation — social media is insufficient |
+| Learning | ACTIVE | Readiness baseline learning from calibration records across sport domains |
+| Integration | ACTIVE | Integrates with injury intelligence, availability signals, and APS modifier |
+| Calibration | ACTIVE | Readiness composite calibrated against actual performance outcomes |
+| Adaptation | ACTIVE | Readiness index updates dynamically as new signals arrive pre-match |
+| Ethics | ACTIVE | Medical information is sensitive — only publicly confirmed readiness data used |
+| Transparency | ACTIVE | Readiness index components and data sources explicit in output |
+
+
 ---
 
 *SportMind v3.66 · MIT License · sportmind.dev*

@@ -81,6 +81,27 @@ INDEPENDENCE CONFIRMED -> stack both within caps.
 **Confidence framework:** `core/signal-confidence-framework.md`
 **Uncertainty output:** `core/uncertainty-communication.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Signal interaction reasoning: how multiple simultaneous signals combine and conflict |
+| Reasoning | ACTIVE | This file defines signal interaction methodology — the multi-signal reasoning standard |
+| Context | ACTIVE | Interaction context: signal directions, weights, and conflict resolution rules |
+| Memory | ACTIVE | Historical signal interaction patterns and their combined outcome accuracy |
+| Judgment | ACTIVE | Primary judgment function: resolving conflicting signals and amplifying aligned signals |
+| Attention | ACTIVE | Attention to signal combination patterns that historically produce strong outcomes |
+| Communication | ACTIVE | Signal interaction output: individual signals, combination logic, composite result |
+| Verification | ACTIVE | Each individual signal verified before combination — garbage-in prevents |
+| Learning | ACTIVE | Interaction pattern learning from historical multi-signal combination outcomes |
+| Integration | ACTIVE | Applied across all five layers when signals from different sources are combined |
+| Calibration | ACTIVE | Signal interaction modifier values calibrated from historical combined signal outcomes |
+| Adaptation | ACTIVE | Interaction rules adapt as new signal types are added to the library |
+| Ethics | ACTIVE | Signal combination must not amplify unverified or speculative signals |
+| Transparency | ACTIVE | Signal combination logic and individual signal weights explicit in composite output |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

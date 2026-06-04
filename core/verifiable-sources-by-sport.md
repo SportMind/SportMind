@@ -399,6 +399,27 @@ must flag: SOURCE_UNVERIFIED. Do not treat as confirmed input.
 | Doping suspension | USADA.org or governing body | 1 |
 | Criminal charge | National news outlet + club statement | 1+2 |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Verified source hierarchy by sport domain: Tier 1-4 classification for each sport |
+| Reasoning | NOT APPLICABLE | Source hierarchy is reference data — not a reasoning framework |
+| Context | ACTIVE | Source context: each sport has different primary authoritative sources |
+| Memory | NOT APPLICABLE | Source hierarchy is static reference — not memory-dependent |
+| Judgment | ACTIVE | Source tier judgment: applies when source type must be assessed for a signal |
+| Attention | NOT APPLICABLE | Source hierarchy is static reference — not an attention framework |
+| Communication | ACTIVE | Source tier included in all outputs — Tier 1 vs Tier 3 distinction is visible |
+| Verification | ACTIVE | This file IS the verification standard — it defines what counts as verified |
+| Learning | ACTIVE | Source hierarchy updated as new authoritative sources are identified |
+| Integration | ACTIVE | Applied across all five layers whenever source quality must be assessed |
+| Calibration | NOT APPLICABLE | Source hierarchy is a classification standard — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Source hierarchy adapts as new platforms and authoritative bodies emerge |
+| Ethics | ACTIVE | Source integrity is an ethics requirement — low-tier sources must not be presented as authoritative |
+| Transparency | ACTIVE | Source tier always disclosed alongside any claim in SportMind output |
+
+
 ---
 
 *SportMind v3.33 · MIT License · sportmind.dev*

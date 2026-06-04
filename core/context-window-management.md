@@ -337,6 +337,27 @@ WHAT TO DROP:
   Reference content not cited in final analysis
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Context window budgeting strategies for loading SportMind intelligence efficiently |
+| Reasoning | ACTIVE | Reasoning quality degrades with context overload — management prevents this |
+| Context | ACTIVE | This file defines context management — it is the context layer standard |
+| Memory | ACTIVE | Context window is the working memory — management determines what fits |
+| Judgment | ACTIVE | Judgment on which layers and files to load given task and window budget |
+| Attention | ACTIVE | Attention allocation is constrained by context window — management optimises this |
+| Communication | NOT APPLICABLE | Context management is internal — does not directly affect output format |
+| Verification | NOT APPLICABLE | Context management is a loading strategy — not a verification process |
+| Learning | EMERGING | Load order optimisation learning from task performance |
+| Integration | ACTIVE | Context management applies to all five intelligence layers |
+| Calibration | NOT APPLICABLE | Context management is operational, not subject to accuracy calibration |
+| Adaptation | ACTIVE | Context strategy adapts based on task type and available window |
+| Ethics | NOT APPLICABLE | Context management is a technical concern — no ethical dimension |
+| Transparency | ACTIVE | Which files are loaded should be declared in output for reproducibility |
+
+
 ---
 
 ## Compatibility

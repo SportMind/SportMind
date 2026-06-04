@@ -263,6 +263,27 @@ What SportMind will not do:
   These limits are features, not limitations. They are what makes the library trustworthy.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Core intelligence model defining what SportMind agents know and reason about |
+| Reasoning | ACTIVE | Structured reasoning model for sports signal analysis |
+| Context | ACTIVE | Intelligence context: layers loaded, domain, competition, signal environment |
+| Memory | ACTIVE | Intelligence state persistence and layer-specific knowledge retention |
+| Judgment | ACTIVE | Intelligence quality judgment — when to trust, caveat, or reject signals |
+| Attention | ACTIVE | Intelligence focus allocation by signal priority and layer weight |
+| Communication | ACTIVE | Intelligence output format and structured signal communication |
+| Verification | ACTIVE | Intelligence verification against calibration records |
+| Learning | ACTIVE | Intelligence model improvement from calibration feedback |
+| Integration | ACTIVE | Intelligence model integrates all five SportMind layers |
+| Calibration | ACTIVE | 96% direction accuracy baseline — all intelligence outputs calibrated against |
+| Adaptation | ACTIVE | Intelligence model adapts to new sport domains and signal types |
+| Ethics | ACTIVE | Intelligence scope boundaries — what agents should not reason about |
+| Transparency | ACTIVE | Intelligence provenance — which layers and sources underpin each output |
+
+
 ---
 
 ## Compatibility

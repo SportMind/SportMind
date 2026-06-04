@@ -443,6 +443,27 @@ def validate_sportmind_output(output: dict) -> tuple[bool, list[str]]:
 # See examples/langchain/ for full integration
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Confidence output schema defining how certainty is communicated in all SportMind outputs |
+| Reasoning | ACTIVE | Reasoning confidence is quantified and structured by this schema |
+| Context | ACTIVE | Context affects confidence — neutral venue, short time horizon, unconfirmed lineups |
+| Memory | NOT APPLICABLE | Output schema is structural — not memory-dependent |
+| Judgment | ACTIVE | Confidence levels are judgment outputs — schema structures that judgment |
+| Attention | ACTIVE | Confidence flags direct elevated attention to low-confidence signals |
+| Communication | ACTIVE | This file defines the communication standard for confidence expression |
+| Verification | ACTIVE | Verification status directly feeds into confidence level calculation |
+| Learning | ACTIVE | Confidence calibration improves as prediction vs outcome accuracy accumulates |
+| Integration | ACTIVE | Confidence schema applied consistently across all intelligence layers |
+| Calibration | ACTIVE | 96% direction accuracy is the empirical foundation for confidence calibration |
+| Adaptation | ACTIVE | Confidence thresholds adapt as new sport domains are added |
+| Ethics | ACTIVE | Overconfident outputs are an ethics failure — schema enforces appropriate uncertainty |
+| Transparency | ACTIVE | Confidence level and basis for confidence are always explicit in output |
+
+
 ---
 
 ## Changelog

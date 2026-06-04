@@ -544,6 +544,27 @@ Narrative is a real but bounded signal; it cannot override large quantitative de
 ```
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Narrative momentum signals: winning streaks, media narratives, psychological momentum |
+| Reasoning | ACTIVE | Narrative reasoning chain from storyline signals to performance modifier |
+| Context | ACTIVE | Narrative context: competition importance, public profile, media amplification |
+| Memory | ACTIVE | Historical narrative arc patterns and their performance outcome correlations |
+| Judgment | ACTIVE | Judgment on narrative signal strength — not all narratives affect performance |
+| Attention | ACTIVE | Elevated attention for high-profile narratives near major competitions |
+| Communication | ACTIVE | Narrative signal output with modifier and confidence level |
+| Verification | ACTIVE | Narrative signals are soft — higher verification threshold than hard statistics |
+| Learning | ACTIVE | Narrative momentum calibration from historical signal-to-outcome accuracy |
+| Integration | ACTIVE | Integrates with psychological intelligence, press conference, and media intelligence |
+| Calibration | EMERGING | Narrative momentum is the most difficult signal category to calibrate accurately |
+| Adaptation | ACTIVE | Narrative signals adapt rapidly — often within hours of new developments |
+| Ethics | ACTIVE | Narrative signals must not be amplified or manufactured — observe only |
+| Transparency | ACTIVE | Narrative signal flagged as SOFT_SIGNAL with low mechanical correlation in output |
+
+
 ---
 
 ## Ticket demand as a pre-event narrative signal

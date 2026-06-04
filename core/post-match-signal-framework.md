@@ -396,6 +396,27 @@ USES:
 - Penalty shootout results require separate CDI protocol —
   shootout win carries lower CDI extension than regulation win (per calibration).
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Post-match signal extraction framework: what to observe and record after each result |
+| Reasoning | ACTIVE | Post-match signal reasoning chain from observations to updated intelligence state |
+| Context | ACTIVE | Post-match context: result margin, performance vs expectation, next fixture timing |
+| Memory | ACTIVE | Post-match signals feed into the long-term memory and pattern library |
+| Judgment | ACTIVE | Post-match judgment: signal significance relative to pre-match expectations |
+| Attention | ACTIVE | Priority attention order for post-match signals by relevance and time sensitivity |
+| Communication | ACTIVE | Post-match signal output schema for consistent intelligence updates |
+| Verification | ACTIVE | Post-match injury and lineup data requires official confirmation |
+| Learning | ACTIVE | Post-match framework is the primary learning input mechanism |
+| Integration | ACTIVE | Post-match signals integrate with calibration framework and all intelligence layers |
+| Calibration | ACTIVE | Post-match outcomes drive modifier recalibration across the library |
+| Adaptation | ACTIVE | Post-match framework adapts as new signal types prove material |
+| Ethics | NOT APPLICABLE | Post-match signal extraction is factual — no ethical dimension |
+| Transparency | ACTIVE | Post-match signal source and timing explicit in all post-event outputs |
+
+
 ---
 
 

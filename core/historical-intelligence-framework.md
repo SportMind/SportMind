@@ -475,6 +475,27 @@ COMBINED MODIFIER OUTPUT:
 - Cross-season H2H in the same era: valid. Cross-era H2H: invalid.
   The distinction is manager/system continuity, not calendar year.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Historical intelligence framework: pattern extraction, precedent library, temporal reasoning |
+| Reasoning | ACTIVE | Historical reasoning: current signals interpreted against historical pattern library |
+| Context | ACTIVE | Historical context: era adjustment, rule changes, playing environment evolution |
+| Memory | ACTIVE | This file defines the historical memory architecture — it is the memory standard |
+| Judgment | ACTIVE | Judgment on historical relevance — not all historical patterns apply to current context |
+| Attention | ACTIVE | Attention to historical analogues when current signals match known patterns |
+| Communication | ACTIVE | Historical precedent output with similarity score and era adjustment |
+| Verification | ACTIVE | Historical claims require verifiable records — not general impressions |
+| Learning | ACTIVE | Historical pattern library grows continuously from new calibration records |
+| Integration | ACTIVE | Historical intelligence integrates with all five layers as baseline context |
+| Calibration | ACTIVE | Historical calibration: how well do historical patterns predict current outcomes |
+| Adaptation | ACTIVE | Historical framework adapts as new patterns emerge and old ones become less relevant |
+| Ethics | NOT APPLICABLE | Historical pattern analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Historical precedent and similarity score explicit in all historical-based outputs |
+
+
 ---
 
 

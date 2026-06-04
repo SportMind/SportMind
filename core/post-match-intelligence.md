@@ -174,6 +174,27 @@ Cross-reference:
 **PATH_2 mechanics:**     `fan-token/ftp-path2.md`
 **Reasoning chains:**     `core/agent-reasoning-chains.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Post-match intelligence: result analysis, performance signals, and forward-looking implications |
+| Reasoning | ACTIVE | Post-match reasoning chain from result to updated signals and modifier adjustments |
+| Context | ACTIVE | Post-match context: competition stage, injury updates, manager reaction, form trend |
+| Memory | ACTIVE | Post-match result records feed into historical pattern library and calibration base |
+| Judgment | ACTIVE | Post-match judgment: distinguishing one-off performance from trend signals |
+| Attention | ACTIVE | Post-match attention priority: injury news, performance outliers, signal confirmation |
+| Communication | ACTIVE | Post-match output with result, form update, and signal implications |
+| Verification | ACTIVE | Post-match injury and performance data requires official confirmation |
+| Learning | ACTIVE | Post-match outcomes verify or refute pre-match signals — core calibration input |
+| Integration | ACTIVE | Post-match intelligence integrates with calibration framework and form tracking |
+| Calibration | ACTIVE | Post-match outcomes are the primary calibration data source |
+| Adaptation | ACTIVE | Post-match modifiers adapt immediately — form is recalculated after each result |
+| Ethics | NOT APPLICABLE | Post-match analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Pre-match prediction vs post-match outcome comparison explicit in calibration output |
+
+
 ---
 
 *SportMind v3.97.65 · MIT License · sportmind.dev*

@@ -294,6 +294,27 @@ STADIUM FAMILIARITY AS A SIGNAL MODIFIER:
 **Referee:**        `core/referee-intelligence.md`
 **Tournament:**     `sports/football/sport-domain-football-world-cup.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Venue intelligence: pitch dimensions, surface, altitude, capacity, and home advantage data |
+| Reasoning | ACTIVE | Venue reasoning chain from conditions to performance modifier and home advantage |
+| Context | ACTIVE | Venue context: neutral vs home, recent pitch quality, renovation history |
+| Memory | ACTIVE | Historical venue performance patterns and home advantage data by stadium |
+| Judgment | ACTIVE | Venue judgment: neutral venue removes home advantage — applied to UCL Final analysis |
+| Attention | ACTIVE | Elevated attention for unusual venue conditions (poor surface, altitude, extreme heat) |
+| Communication | ACTIVE | Venue signal output with condition type and modifier value |
+| Verification | ACTIVE | Venue condition data from official match day sources — not historical generalisation |
+| Learning | ACTIVE | Venue modifier calibration from historical venue-to-outcome correlation data |
+| Integration | ACTIVE | Integrates with weather intelligence, crowd intelligence, and match conditions |
+| Calibration | ACTIVE | Venue modifiers calibrated against historical venue-specific performance data |
+| Adaptation | ACTIVE | Venue intelligence adapts as stadiums are renovated and conditions change |
+| Ethics | NOT APPLICABLE | Venue analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Venue type (home/neutral), condition source, and modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

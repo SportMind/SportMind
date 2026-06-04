@@ -216,6 +216,27 @@ CRYPTO CYCLE OVERLAY ON FAN TOKEN DEMAND:
 **Social sentiment:**       `core/social-sentiment-intelligence.md`
 **Portfolio calendar:**     `fan-token/portfolio-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Seasonal intelligence: competition phase patterns, form cycles, and seasonal modifiers |
+| Reasoning | ACTIVE | Seasonal reasoning chain from competition phase to performance modifier adjustment |
+| Context | ACTIVE | Seasonal context: fixture density, fatigue accumulation, prize motivation, form trajectory |
+| Memory | ACTIVE | Historical seasonal pattern data by competition and club profile |
+| Judgment | ACTIVE | Judgment on seasonal signal applicability — not all clubs follow typical seasonal patterns |
+| Attention | ACTIVE | Elevated attention for season transition points (early season, mid-season crisis, run-in) |
+| Communication | ACTIVE | Seasonal signal output with phase identifier and modifier value |
+| Verification | ACTIVE | Seasonal pattern claims require sufficient historical sample to be reliable |
+| Learning | ACTIVE | Seasonal pattern calibration from historical phase-to-outcome correlation |
+| Integration | ACTIVE | Integrates with competition calendar, fixture congestion, and form intelligence |
+| Calibration | ACTIVE | Seasonal modifiers calibrated against historical phase performance data |
+| Adaptation | ACTIVE | Seasonal patterns adapt as competition formats and calendar structures change |
+| Ethics | NOT APPLICABLE | Seasonal analysis is structural — no ethical dimension |
+| Transparency | ACTIVE | Seasonal phase identifier and pattern basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.35 · MIT License · sportmind.dev*

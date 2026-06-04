@@ -218,6 +218,27 @@ AGENT RULE:
 **Signal interaction:**    `core/signal-interaction-reasoning.md`
 **Anti-doping:**           `core/anti-doping-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Press conference intelligence: manager and player statements as soft signals |
+| Reasoning | ACTIVE | Press conference reasoning chain from statement content to signal modifier |
+| Context | ACTIVE | Press conference context: pre-match vs post-match, win/loss emotional state, strategic motivation |
+| Memory | ACTIVE | Historical press conference signal accuracy data by manager communication style |
+| Judgment | ACTIVE | Judgment on press conference signal reliability — some managers consistently mislead |
+| Attention | ACTIVE | Elevated attention for unusual hedging, positive/negative injury language changes |
+| Communication | ACTIVE | Press conference output with statement summary and SOFT_SIGNAL flag |
+| Verification | ACTIVE | Press conference signals require cross-reference with training observations |
+| Learning | ACTIVE | Manager communication style learning — building individual manager signal accuracy profiles |
+| Integration | ACTIVE | Integrates with media intelligence, injury intelligence, and manager intelligence |
+| Calibration | EMERGING | Press conference signal calibration shows manager-specific accuracy varies widely |
+| Adaptation | ACTIVE | Press conference patterns adapt as individual managers evolve communication strategies |
+| Ethics | ACTIVE | Press conference statements are public — no privacy concerns in analysis |
+| Transparency | ACTIVE | Press conference source, date, and SOFT_SIGNAL flag explicit in output |
+
+
 ---
 
 *SportMind v3.97.58 · MIT License · sportmind.dev*

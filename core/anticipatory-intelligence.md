@@ -128,6 +128,27 @@ Cross-reference:
 **Post-match:**            `core/post-match-intelligence.md`
 **Seasonal patterns:**     `core/seasonal-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Pre-event signal detection and early warning pattern recognition |
+| Reasoning | ACTIVE | Forward-looking reasoning from current signals to probable future states |
+| Context | ACTIVE | Anticipation context: competition schedule, known upcoming events, injury status |
+| Memory | ACTIVE | Historical pattern library used to identify anticipatory signals |
+| Judgment | ACTIVE | Judgment on signal strength — not all early signals justify anticipatory action |
+| Attention | ACTIVE | Attention elevated for high-probability future events |
+| Communication | ACTIVE | Anticipatory signal output with probability and time horizon |
+| Verification | ACTIVE | Source verification for anticipatory claims — rumours vs confirmed |
+| Learning | ACTIVE | Learning from anticipatory signal accuracy to improve early detection |
+| Integration | ACTIVE | Integrates across all five layers for full anticipatory picture |
+| Calibration | EMERGING | Anticipatory accuracy tracking separate from post-event calibration |
+| Adaptation | ACTIVE | Anticipatory framework adapts as new information confirms or denies |
+| Ethics | ACTIVE | Anticipatory signals must not be presented as confirmed facts |
+| Transparency | ACTIVE | Time horizon and confidence level explicit in all anticipatory outputs |
+
+
 ---
 
 *SportMind v3.97.65 · MIT License · sportmind.dev*

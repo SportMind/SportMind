@@ -265,6 +265,27 @@ RAIN:
   Throws (discus, hammer): Generally unaffected except in extreme conditions
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Match-day weather intelligence: conditions, sport-specific impact, modifier values |
+| Reasoning | ACTIVE | Weather reasoning chain from conditions to performance and signal modifier |
+| Context | ACTIVE | Weather context: sport type, playing surface, time of day, humidity |
+| Memory | ACTIVE | Historical weather-performance correlation patterns by sport and condition type |
+| Judgment | ACTIVE | Judgment on weather materiality — not all adverse conditions are equal signals |
+| Attention | ACTIVE | Elevated attention for extreme weather near match day |
+| Communication | ACTIVE | Weather signal output with condition description and modifier applied |
+| Verification | ACTIVE | Weather data from meteorological services — not social media reports |
+| Learning | ACTIVE | Weather modifier calibration from historical outcome correlation |
+| Integration | ACTIVE | Integrates with venue intelligence, cricket dew factor, and conditions modifier |
+| Calibration | ACTIVE | Dew factor (cricket) and weather modifiers calibrated against historical outcomes |
+| Adaptation | ACTIVE | Weather intelligence adapts as climate patterns affect seasonal norms |
+| Ethics | NOT APPLICABLE | Weather signals are factual — no ethical dimension |
+| Transparency | ACTIVE | Weather condition source and modifier value explicit in output |
+
+
 ---
 
 ## Weather monitoring — agent workflow

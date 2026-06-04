@@ -283,6 +283,27 @@ PRE-OUTPUT VALIDATION:
   [ ] recommended_action matches SMS tier (no ENTER at SMS < 60)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Reasoning patterns is a methodology reference — not a domain intelligence file |
+| Reasoning | ACTIVE | Core reasoning pattern library: templates for common sports intelligence reasoning tasks |
+| Context | ACTIVE | Pattern context: each pattern is annotated with its appropriate application context |
+| Memory | ACTIVE | Pattern library serves as procedural memory for common reasoning tasks |
+| Judgment | ACTIVE | Pattern selection requires judgment on which template fits the current situation |
+| Attention | ACTIVE | Attention pattern: which signals to prioritise in common scenario types |
+| Communication | ACTIVE | Communication pattern templates for structured output generation |
+| Verification | ACTIVE | Verification patterns for common signal types and source tiers |
+| Learning | ACTIVE | Pattern library expands as new reasoning scenarios are calibrated |
+| Integration | ACTIVE | Reasoning patterns apply across all five intelligence layers |
+| Calibration | ACTIVE | Patterns are grounded in calibration data — not theoretical templates |
+| Adaptation | ACTIVE | Pattern library adapts as sport conditions and signal types evolve |
+| Ethics | ACTIVE | Ethical reasoning patterns included for handling sensitive signal types |
+| Transparency | ACTIVE | Pattern attribution in output: which pattern was applied to reach conclusion |
+
+
 ---
 
 ## Compatibility

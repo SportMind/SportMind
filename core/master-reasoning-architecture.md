@@ -560,6 +560,27 @@ What this means for agents using SportMind today:
 **Breaking news:**         `core/breaking-news-intelligence.md`
 **Registry:**              `fan-token/registry/complete-registry.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Master architecture defining all 14 Mind dimensions and their integration |
+| Reasoning | ACTIVE | This file defines the reasoning architecture — it is the reasoning standard |
+| Context | ACTIVE | Master context framework: five-layer hierarchy and load order |
+| Memory | ACTIVE | Memory architecture standards: working, episodic, and persistent memory |
+| Judgment | ACTIVE | Judgment standards: threshold definitions, escalation triggers, abstention conditions |
+| Attention | ACTIVE | Attention allocation framework across competing signals |
+| Communication | ACTIVE | Communication standards: output format, confidence expression, source citation |
+| Verification | ACTIVE | Verification hierarchy: four-tier source classification system |
+| Learning | ACTIVE | Learning architecture: calibration feedback loop and modifier update process |
+| Integration | ACTIVE | Integration standards: how all layers and files work together |
+| Calibration | ACTIVE | Calibration standards: 96% accuracy baseline, record submission protocol |
+| Adaptation | ACTIVE | Adaptation standards: how the library evolves as new intelligence is added |
+| Ethics | ACTIVE | Ethics framework: scope limits, prohibited outputs, privacy standards |
+| Transparency | ACTIVE | Transparency standards: source attribution, confidence disclosure, provenance |
+
+
 ---
 
 *SportMind v3.97.66 · MIT License · sportmind.dev*

@@ -368,6 +368,27 @@ DATA SOURCES:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Travel and timezone intelligence: fatigue from travel, timezone disruption, and recovery |
+| Reasoning | ACTIVE | Travel reasoning chain from journey data to fatigue modifier and APS adjustment |
+| Context | ACTIVE | Travel context: distance, timezone differential, days between fixtures, class of travel |
+| Memory | ACTIVE | Historical travel fatigue patterns by distance category and sport |
+| Judgment | ACTIVE | Travel judgment: recovery time vs competition proximity determines signal weight |
+| Attention | ACTIVE | Elevated attention for intercontinental travel near major competitions |
+| Communication | ACTIVE | Travel signal output with fatigue modifier and recovery window assessment |
+| Verification | ACTIVE | Travel schedule from official fixture and club announcement data |
+| Learning | ACTIVE | Travel modifier calibration from historical journey-to-outcome correlation |
+| Integration | ACTIVE | Integrates with fixture congestion, athlete readiness, and pre-match squad intelligence |
+| Calibration | ACTIVE | Travel fatigue modifiers calibrated against historical performance impact data |
+| Adaptation | ACTIVE | Travel intelligence adapts as charter flight norms and recovery protocols improve |
+| Ethics | NOT APPLICABLE | Travel signals are factual — no ethical dimension |
+| Transparency | ACTIVE | Travel details and fatigue modifier basis explicit in pre-match output |
+
+
 ---
 
 *SportMind v3.64 · MIT License · sportmind.dev*

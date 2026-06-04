@@ -287,6 +287,27 @@ RECOVERY FROM EXTENDED LOW PERIOD:
 **Demand baselines:**       `fan-token/fan-token-lifecycle/`
 **Relegation patterns:**    `athlete/football/tottenham-hotspur-spurs.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Pattern recognition across historical sports data for predictive intelligence |
+| Reasoning | ACTIVE | Pattern-to-prediction reasoning chain with confidence weighting by pattern strength |
+| Context | ACTIVE | Pattern context: recency, frequency, sample size, era relevance |
+| Memory | ACTIVE | Pattern library with frequency, success rate, and context conditions |
+| Judgment | ACTIVE | Judgment on pattern applicability — small sample patterns require uncertainty flag |
+| Attention | ACTIVE | Attention elevation when current signal matches a historically strong pattern |
+| Communication | ACTIVE | Pattern match output with sample size, success rate, and confidence |
+| Verification | ACTIVE | Pattern frequency data requires verifiable historical records |
+| Learning | ACTIVE | Pattern library updated continuously from calibration outcome data |
+| Integration | ACTIVE | Pattern intelligence integrates with domain-specific files across all sports |
+| Calibration | ACTIVE | Pattern success rates are calibration outputs — empirically derived |
+| Adaptation | ACTIVE | Patterns deprecated when sport conditions change enough to invalidate them |
+| Ethics | NOT APPLICABLE | Pattern recognition is analytical — no ethical dimension |
+| Transparency | ACTIVE | Pattern sample size and recency explicit in all pattern-based outputs |
+
+
 ---
 
 *SportMind v3.97.36 · MIT License · sportmind.dev*

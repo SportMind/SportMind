@@ -285,6 +285,27 @@ DATA PRIVACY:
   Only: prediction values, modifier values, actual outcome.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Calibration methodology: pre-event submission, outcome verification, accuracy tracking |
+| Reasoning | NOT APPLICABLE | Calibration is a measurement framework, not a reasoning chain |
+| Context | ACTIVE | Calibration context: 130 records across 21 sports as of v3.97.96 |
+| Memory | ACTIVE | Cumulative calibration record store — the library's empirical foundation |
+| Judgment | ACTIVE | Judgment on calibration record quality and edge case classification |
+| Attention | ACTIVE | Attention to submission timing — records must be before event, not after |
+| Communication | ACTIVE | Calibration output format: direction, confidence, result, verdict |
+| Verification | ACTIVE | Calibration verification requires primary source result confirmation |
+| Learning | ACTIVE | Calibration records are the primary learning mechanism for modifier improvement |
+| Integration | ACTIVE | Calibration framework applies across all sports and intelligence layers |
+| Calibration | ACTIVE | This file defines calibration — it is the calibration standard itself |
+| Adaptation | ACTIVE | Calibration thresholds adapt as record base grows |
+| Ethics | ACTIVE | Calibration transparency requires publishing wrong predictions — not just correct ones |
+| Transparency | ACTIVE | All 130 records including 5 incorrect are publicly available in the repository |
+
+
 ---
 
 *Calibration data powers SportMind's improvement over time.

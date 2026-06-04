@@ -195,6 +195,27 @@ HOW TO APPLY:
 **Sport domain:**           `sports/football/sport-domain-football.md`
 **Venue intelligence:**     `core/venue-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Referee pool intelligence: pool composition, assignment patterns, and pool-level signals |
+| Reasoning | ACTIVE | Pool-level reasoning chain from pool characteristics to competition-wide modifier |
+| Context | ACTIVE | Pool context: competition tier, pool quality, appointment rotation patterns |
+| Memory | ACTIVE | Historical referee pool patterns by competition and season |
+| Judgment | ACTIVE | Judgment on pool-level signal vs individual referee signal — which is more predictive |
+| Attention | ACTIVE | Elevated attention for pool changes (new appointments, retirements, suspensions) |
+| Communication | ACTIVE | Pool signal output with pool quality assessment and appointment pattern |
+| Verification | ACTIVE | Pool composition verified from official competition/federation sources |
+| Learning | ACTIVE | Pool-level pattern learning from historical decision and outcome data |
+| Integration | ACTIVE | Integrates with referee intelligence and core officiating intelligence |
+| Calibration | EMERGING | Pool-level calibration requires more cross-competition data |
+| Adaptation | ACTIVE | Pool intelligence adapts as referees are promoted, demoted, or retired |
+| Ethics | ACTIVE | Pool analysis is statistical — no individual misconduct allegations |
+| Transparency | ACTIVE | Pool composition source and appointment pattern basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.71 · MIT License · sportmind.dev*

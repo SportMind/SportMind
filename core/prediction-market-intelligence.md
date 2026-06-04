@@ -301,6 +301,27 @@ USES:
   platform/fetch-mcp-disciplinary.md      → verifying disciplinary info market lacks
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Prediction market intelligence: Kalshi, Polymarket, and regulated market signals |
+| Reasoning | ACTIVE | Prediction market reasoning chain from market consensus to intelligence signal |
+| Context | ACTIVE | Market context: liquidity depth, market creation date, resolution conditions |
+| Memory | ACTIVE | Historical prediction market accuracy patterns by market type and event |
+| Judgment | ACTIVE | Judgment on prediction market signal weight — shallow markets are unreliable |
+| Attention | ACTIVE | Elevated attention for significant prediction market position shifts |
+| Communication | ACTIVE | Prediction market output with implied probability, market depth, and confidence |
+| Verification | ACTIVE | Prediction market data from platform APIs — not social media screenshots |
+| Learning | ACTIVE | Prediction market accuracy calibration from historical resolution data |
+| Integration | ACTIVE | Integrates with odds market intelligence and CFTC-regulated market framework |
+| Calibration | ACTIVE | Prediction market calibration: deep liquid markets are directionally reliable |
+| Adaptation | ACTIVE | Prediction market intelligence adapts as CFTC-regulated markets expand |
+| Ethics | ACTIVE | Prediction market signals are intelligence — not endorsement of speculation |
+| Transparency | ACTIVE | Market platform, liquidity depth, and creation date explicit in output |
+
+
 ---
 
 *SportMind v3.43 · MIT License · sportmind.dev*

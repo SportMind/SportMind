@@ -242,6 +242,27 @@ GRAND TOUR CONGESTION IS PROGRESSIVE:
   For domestiques: Apply from Stage 12 onward (higher daily workload)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fixture congestion patterns, squad rotation intelligence, and fatigue accumulation |
+| Reasoning | ACTIVE | Congestion reasoning chain from fixture density to performance and rotation signals |
+| Context | ACTIVE | Congestion context: competition calendar, travel schedule, squad depth |
+| Memory | ACTIVE | Historical congestion patterns and performance degradation baselines by sport |
+| Judgment | ACTIVE | Judgment on congestion severity threshold — when does it become material signal |
+| Attention | ACTIVE | Elevated attention when congestion schedule exceeds historical fatigue thresholds |
+| Communication | ACTIVE | Congestion output with severity level, rotation likelihood, and APS adjustment |
+| Verification | ACTIVE | Fixture schedule verification from official league calendars only |
+| Learning | ACTIVE | Congestion-to-performance correlation learning from calibration records |
+| Integration | ACTIVE | Integrates with athlete readiness, pre-match squad, and travel intelligence |
+| Calibration | ACTIVE | Congestion modifier values calibrated against historical rotation and fatigue data |
+| Adaptation | ACTIVE | Congestion thresholds adapt by sport — football different from basketball |
+| Ethics | NOT APPLICABLE | Fixture congestion is structural analysis — no ethical dimension |
+| Transparency | ACTIVE | Congestion severity level and modifier applied explicit in output |
+
+
 ---
 
 ## Agent integration

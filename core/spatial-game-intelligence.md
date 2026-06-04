@@ -345,6 +345,27 @@ SPATIAL_SYSTEM_FIT modifier for scouting:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Spatial game intelligence: territorial control, pressing systems, positional play analysis |
+| Reasoning | ACTIVE | Spatial reasoning chain from territorial signals to performance modifier |
+| Context | ACTIVE | Spatial context: formation matchup, pitch dimensions, tactical instructions |
+| Memory | ACTIVE | Historical spatial pattern data by team and tactical system |
+| Judgment | ACTIVE | Judgment on spatial signal materiality — opponent-specific spatial advantages |
+| Attention | ACTIVE | Elevated attention for spatial mismatches identified in pre-match analysis |
+| Communication | ACTIVE | Spatial signal output with TMAS contribution and key spatial advantage |
+| Verification | ACTIVE | Spatial data from official match statistics and tracking data sources |
+| Learning | ACTIVE | Spatial pattern calibration from historical positional-to-outcome correlation |
+| Integration | ACTIVE | Integrates with tactical matchup intelligence, game tempo, and opponent tendency |
+| Calibration | ACTIVE | Spatial modifiers calibrated against historical territorial dominance data |
+| Adaptation | ACTIVE | Spatial intelligence adapts as tactical innovations change positional norms |
+| Ethics | NOT APPLICABLE | Spatial analysis is tactical — no ethical dimension |
+| Transparency | ACTIVE | Spatial pattern basis and data source explicit in output |
+
+
 ---
 
 *SportMind v3.56 · MIT License · sportmind.dev*

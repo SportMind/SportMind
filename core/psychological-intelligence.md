@@ -317,6 +317,27 @@ PSYCHOLOGICAL MOMENTUM AND FAN TOKEN DEMAND:
 **MMA pressure:**      `sports/mma/sport-domain-mma.md`
 **Fan token demand:**  `fan-token/fan-token-lifecycle/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Psychological intelligence: mental state, confidence signals, trauma and recovery patterns |
+| Reasoning | ACTIVE | Psychological reasoning chain from observable signals to psychological modifier |
+| Context | ACTIVE | Psychological context: competition history, personal circumstances, team environment |
+| Memory | ACTIVE | Historical psychological pattern data for comparable athlete and team situations |
+| Judgment | ACTIVE | Judgment on psychological signal materiality — most uncertain modifier category |
+| Attention | ACTIVE | Elevated attention for psychological momentum shifts and crisis signals |
+| Communication | ACTIVE | Psychological signal output with high uncertainty flag and confidence level |
+| Verification | ACTIVE | Psychological signals are inherently soft — very high verification threshold applies |
+| Learning | ACTIVE | Psychological pattern calibration from historical signal-to-outcome accuracy |
+| Integration | ACTIVE | Integrates with motivation intelligence, perceptual pressure, and squad cohesion |
+| Calibration | EMERGING | Psychological modifier calibration is the library's most uncertain signal category |
+| Adaptation | ACTIVE | Psychological baselines adapt as athlete career stage and team environment change |
+| Ethics | ACTIVE | Private psychological information is never used — only publicly observable signals |
+| Transparency | ACTIVE | Psychological signals always flagged as SOFT_SIGNAL with maximum uncertainty disclosure |
+
+
 ---
 
 *SportMind v3.97.35 · MIT License · sportmind.dev*

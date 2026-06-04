@@ -582,6 +582,27 @@ DISCIPLINARY / SUSPENSION:
 - Squad intelligence from the warm-up period (T-0 to T-15) carries full weight —
   never treat a warm-up injury as less significant than a pre-match confirmation.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Pre-match squad intelligence: availability confirmation, lineup signals, squad state |
+| Reasoning | ACTIVE | Squad intelligence reasoning chain to LQI and adjusted score modifier |
+| Context | ACTIVE | Squad context: competition importance, rotation signals, injury and suspension list |
+| Memory | ACTIVE | Historical squad selection patterns for rotation and priority fixture analysis |
+| Judgment | ACTIVE | Squad intelligence judgment: probable vs confirmed lineup — different confidence weights |
+| Attention | ACTIVE | Maximum pre-match attention for lineup confirmation signals |
+| Communication | ACTIVE | Pre-match squad output: confirmed players, injuries, suspension, LQI value |
+| Verification | ACTIVE | Official squad announcement (1h pre-kickoff) is Tier 1 — predicted lineups are Tier 3 |
+| Learning | ACTIVE | Squad selection pattern learning from historical rotation and selection data |
+| Integration | ACTIVE | Integrates with LQI, injury files, APS modifier, and tactical matchup |
+| Calibration | ACTIVE | Pre-match squad intelligence is the single highest-impact calibration input |
+| Adaptation | ACTIVE | Squad intelligence adapts each window as personnel changes |
+| Ethics | NOT APPLICABLE | Squad selection is factual — no ethical dimension |
+| Transparency | ACTIVE | Lineup confidence level (confirmed/probable/predicted) explicit in output |
+
+
 ---
 
 

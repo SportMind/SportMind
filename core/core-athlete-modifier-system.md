@@ -124,6 +124,27 @@ When building a new athlete skill, any new modifier component must:
 
 New components are reviewed by maintainers for mathematical consistency before merging.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete modifier system: composite score calculation, range (0.55–1.25×), input sources |
+| Reasoning | ACTIVE | Modifier reasoning chain from input signals to composite APS output |
+| Context | ACTIVE | Modifier context: competition type, form window, availability status |
+| Memory | ACTIVE | Modifier history tracking for trend analysis and decay calculation |
+| Judgment | ACTIVE | Judgment on which modifier components dominate in a given context |
+| Attention | ACTIVE | Attention for modifier input changes — form shifts, injuries, suspension |
+| Communication | ACTIVE | Structured modifier output: composite score, component breakdown, confidence |
+| Verification | ACTIVE | Input signal verification before modifier application |
+| Learning | ACTIVE | Modifier weight learning from calibration record performance correlation |
+| Integration | ACTIVE | Core modifier system applied by athlete intelligence files across all sports |
+| Calibration | ACTIVE | 0.55–1.25× range calibrated against historical performance impact data |
+| Adaptation | ACTIVE | Modifier weights adapt by sport domain and competition context |
+| Ethics | NOT APPLICABLE | Modifier system is computational — no ethical dimension |
+| Transparency | ACTIVE | Modifier components and weights explicit in every output |
+
+
 ---
 
 ## Injury intelligence integration

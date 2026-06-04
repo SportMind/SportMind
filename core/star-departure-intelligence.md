@@ -531,6 +531,27 @@ PLAIN ENGLISH RULE (Prompt 21/22):
   structural decline (3+ months still elevated with no recovery).
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Star player departure intelligence: CDI impact, squad void, commercial implications |
+| Reasoning | ACTIVE | Departure reasoning chain from player loss to CDI modifier and fan token signal |
+| Context | ACTIVE | Departure context: replacement quality, timing, contract circumstances, player profile |
+| Memory | ACTIVE | Historical star departure impact patterns and recovery trajectories |
+| Judgment | ACTIVE | Departure judgment: not all star departures are equal — replacement quality matters |
+| Attention | ACTIVE | Elevated attention for star departure confirmation signals |
+| Communication | ACTIVE | Departure output with CDI modifier, commercial impact, and recovery timeline |
+| Verification | ACTIVE | Departure requires official transfer or contract termination confirmation |
+| Learning | ACTIVE | Star departure calibration from historical CDI recovery pattern data |
+| Integration | ACTIVE | Integrates with CDI framework, fan token demand signals, and squad intelligence |
+| Calibration | ACTIVE | CDI departure modifiers calibrated against historical post-departure performance data |
+| Adaptation | ACTIVE | Departure intelligence adapts as replacement quality and squad context changes |
+| Ethics | NOT APPLICABLE | Departure analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Departure stage (confirmed/rumoured) and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.54 · MIT License · sportmind.dev*

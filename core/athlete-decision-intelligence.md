@@ -407,6 +407,27 @@ SPORTS WHERE DQI IS LESS APPLICABLE:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete decision-making patterns: contract, career, commercial, performance |
+| Reasoning | ACTIVE | Decision reasoning chains connecting athlete decisions to signal outcomes |
+| Context | ACTIVE | Decision context: contract status, age, form, market conditions |
+| Memory | ACTIVE | Historical athlete decision patterns and outcomes for comparable situations |
+| Judgment | ACTIVE | Judgment on decision materiality — which decisions affect performance signals |
+| Attention | ACTIVE | Elevated attention during decision windows (transfer periods, contract expiry) |
+| Communication | ACTIVE | Decision signal output with impact assessment and timeline |
+| Verification | ACTIVE | Source verification for athlete decision reporting — only primary sources |
+| Learning | ACTIVE | Decision outcome patterns feed back into future decision signal weighting |
+| Integration | ACTIVE | Integrates with transfer, commercial, and athlete availability intelligence |
+| Calibration | EMERGING | Calibration of decision-to-outcome prediction accuracy |
+| Adaptation | ACTIVE | Decision signals adapt as negotiation or situation evolves |
+| Ethics | ACTIVE | Athlete privacy boundary — personal decisions are signals only when publicly confirmed |
+| Transparency | ACTIVE | Decision stage clearly stated (rumour, negotiating, confirmed) in output |
+
+
 ---
 
 *SportMind v3.61 · MIT License · sportmind.dev*

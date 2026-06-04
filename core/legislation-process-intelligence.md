@@ -186,6 +186,27 @@ JURISDICTIONS WITH MATERIAL FAN TOKEN EXPOSURE BUT NOT YET DOCUMENTED:
 **Government strategy:**      `macro/government-intelligence.md`
 **Exchange implications:**    `macro/exchange-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Legislative process intelligence: tracking regulatory bills and their sports/crypto impact |
+| Reasoning | ACTIVE | Legislative reasoning chain from bill status to regulatory uncertainty modifier |
+| Context | ACTIVE | Context: legislative stage, bipartisan support, amendment risk, timeline |
+| Memory | ACTIVE | Historical legislative process patterns for comparable bills |
+| Judgment | ACTIVE | Judgment on legislative signal materiality — committee pass differs from floor vote |
+| Attention | ACTIVE | Elevated attention for key legislative gates: committee votes, floor scheduling |
+| Communication | ACTIVE | Legislative signal output with current status and next gate |
+| Verification | ACTIVE | Official government sources only (congress.gov, banking.senate.gov) are Tier 1 |
+| Learning | EMERGING | Legislative outcome prediction learning from historical bill trajectories |
+| Integration | ACTIVE | Integrates with CLARITY Act framework, macro regulatory files, and fan token signals |
+| Calibration | EMERGING | Legislative timeline prediction calibration is a new tracking category |
+| Adaptation | ACTIVE | Legislative intelligence adapts as new bills and amendments emerge |
+| Ethics | ACTIVE | Legislative signals are factual — no endorsement or opposition to specific bills |
+| Transparency | ACTIVE | Legislative bill reference and source explicit in all regulatory outputs |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*

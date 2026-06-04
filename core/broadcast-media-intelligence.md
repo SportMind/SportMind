@@ -228,6 +228,27 @@ CRYPTO MEDIA COVERAGE OF FAN TOKEN ECOSYSTEM:
 **Portfolio correlation:**  `fan-token/portfolio-intelligence.md`
 **Lifecycle demand:**       `fan-token/fan-token-lifecycle/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Broadcast rights, media deal signals, and their impact on club commercial intelligence |
+| Reasoning | ACTIVE | Broadcast deal reasoning chain: rights value → club revenue → CDI modifier |
+| Context | ACTIVE | Broadcast context: rights cycle, streaming disruption, regional market dynamics |
+| Memory | ACTIVE | Historical broadcast deal patterns and club revenue correlation |
+| Judgment | ACTIVE | Judgment on broadcast signal materiality — deal expiry vs new deal impact differs |
+| Attention | ACTIVE | Elevated attention during broadcast rights renewal windows |
+| Communication | ACTIVE | Broadcast signal output with CDI modifier and revenue implication |
+| Verification | ACTIVE | Broadcast deal figures require official announcement — estimates carry uncertainty flag |
+| Learning | EMERGING | Broadcast deal impact learning from historical CDI correlation |
+| Integration | ACTIVE | Integrates with market intelligence, CDI framework, and commercial partnership signals |
+| Calibration | EMERGING | Broadcast revenue-to-CDI calibration requires more cross-league data |
+| Adaptation | ACTIVE | Broadcast intelligence adapts as streaming disrupts traditional rights models |
+| Ethics | NOT APPLICABLE | Broadcast intelligence is commercial data — no personal information involved |
+| Transparency | ACTIVE | Revenue estimate vs confirmed deal distinction explicit in output |
+
+
 ---
 
 *SportMind v3.97.36 · MIT License · sportmind.dev*

@@ -459,6 +459,27 @@ WHEN TO USE WHICH:
   Both use the same safety principles from autonomous-agent-framework.md
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Goal decomposition and sub-goal generation for sports intelligence tasks |
+| Reasoning | ACTIVE | Goal-directed reasoning chain from objective to action |
+| Context | ACTIVE | Goal context: competition calendar, signal state, constraint environment |
+| Memory | ACTIVE | Goal persistence and progress tracking across multi-step tasks |
+| Judgment | ACTIVE | Goal prioritisation and conflict resolution between competing objectives |
+| Attention | ACTIVE | Attention directed by active goal hierarchy |
+| Communication | ACTIVE | Goal status communication and progress reporting |
+| Verification | ACTIVE | Goal completion verification and success criteria validation |
+| Learning | EMERGING | Goal refinement from outcome feedback |
+| Integration | ACTIVE | Goal framework integrates with all intelligence layers |
+| Calibration | ACTIVE | Confidence calibration against goal completion probability |
+| Adaptation | ACTIVE | Goal adaptation when context or constraints change |
+| Ethics | ACTIVE | Goal boundary enforcement — prohibited objective types |
+| Transparency | ACTIVE | Goal state and reasoning chain visible in output |
+
+
 ---
 
 ## Compatibility

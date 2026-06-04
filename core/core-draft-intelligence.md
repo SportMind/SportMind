@@ -260,6 +260,27 @@ AGENT MONITORING RULE:
   Player commercial value: Update brand score (ABS) within 24h of pick announcement
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Draft intelligence: pick value, team need, prospect profiling, trade implications |
+| Reasoning | ACTIVE | Draft reasoning chain from prospect profile to team performance prediction |
+| Context | ACTIVE | Draft context: salary cap, roster gaps, team strategy, league draft rules |
+| Memory | ACTIVE | Historical draft outcome patterns and comparable player development trajectories |
+| Judgment | ACTIVE | Judgment on draft signal materiality — not all picks affect near-term performance |
+| Attention | ACTIVE | Elevated attention during draft windows and pre-draft prospect news |
+| Communication | ACTIVE | Draft signal output with team impact and timeline to contribution |
+| Verification | ACTIVE | Draft information requires official league announcement for certainty |
+| Learning | ACTIVE | Draft outcome learning from player development and team performance post-draft |
+| Integration | ACTIVE | Integrates with squad intelligence, market intelligence, and fan token CDI |
+| Calibration | EMERGING | Draft-to-performance prediction calibration has limited records |
+| Adaptation | ACTIVE | Draft intelligence adapts as league rules, salary structures, and markets change |
+| Ethics | NOT APPLICABLE | Draft intelligence is strategic analysis — no personal ethical dimension |
+| Transparency | ACTIVE | Draft signal confidence and basis for projection explicit in output |
+
+
 ---
 
 ## Draft intelligence and fan token interaction

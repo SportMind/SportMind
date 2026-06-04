@@ -264,6 +264,27 @@ WHAT DOES NOT TRIGGER RECALIBRATION:
   - Records from unusual circumstances (force majeure, abandoned match)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | V3 modifier recalibration record: historical update to modifier weight values |
+| Reasoning | NOT APPLICABLE | Recalibration records document decisions — not reasoning frameworks |
+| Context | ACTIVE | Recalibration context: record count at v3, sport distribution, accuracy data |
+| Memory | ACTIVE | Historical modifier values before v3 recalibration — provides change audit trail |
+| Judgment | ACTIVE | Judgment on which modifiers required recalibration and by how much |
+| Attention | NOT APPLICABLE | Recalibration is a periodic process — not ongoing attention |
+| Communication | ACTIVE | Recalibration output documents changes for transparency and reproducibility |
+| Verification | ACTIVE | Recalibration values derived from calibration records — verifiable |
+| Learning | ACTIVE | Recalibration is the primary learning mechanism — modifiers updated from outcomes |
+| Integration | ACTIVE | V3 recalibration affects modifier values used across all library files |
+| Calibration | ACTIVE | This file IS a calibration output — it records the v3 recalibration results |
+| Adaptation | NOT APPLICABLE | Recalibration records are historical — not adaptive |
+| Ethics | ACTIVE | Recalibration transparency is an ethics requirement — changes must be documented |
+| Transparency | ACTIVE | All modifier value changes with justification are documented in this record |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

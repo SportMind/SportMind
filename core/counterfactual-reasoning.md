@@ -80,6 +80,27 @@ ALWAYS CALCULATE AND COMMUNICATE ALL THREE SCENARIOS:
 **Signal interaction:** `core/signal-interaction-reasoning.md`
 **PATH_2 mechanics:** `fan-token/ftp-path2.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Counterfactual reasoning is a methodology, not a domain intelligence file |
+| Reasoning | ACTIVE | Core reasoning method: what-if analysis and alternative scenario evaluation |
+| Context | ACTIVE | Counterfactuals are context-dependent — same event has different counterfactuals by situation |
+| Memory | ACTIVE | Historical counterfactual baselines for common scenario types |
+| Judgment | ACTIVE | Judgment on which counterfactuals are plausible vs speculative |
+| Attention | ACTIVE | Counterfactual attention: identifies what to watch for that would change signal |
+| Communication | ACTIVE | Counterfactual output: explicit statement of alternative scenarios considered |
+| Verification | NOT APPLICABLE | Counterfactuals are hypothetical — verification applies to inputs, not the counterfactual itself |
+| Learning | ACTIVE | Counterfactual model improves as actual outcomes validate or refute scenarios |
+| Integration | ACTIVE | Counterfactual reasoning applied across all intelligence layers |
+| Calibration | EMERGING | Counterfactual accuracy is difficult to calibrate — no direct outcome measurement |
+| Adaptation | ACTIVE | Counterfactual scenarios adapt as real-world conditions evolve |
+| Ethics | ACTIVE | Counterfactuals must be presented as hypothetical — not predictive certainties |
+| Transparency | ACTIVE | Counterfactual scenarios explicitly labelled as alternative scenarios in output |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

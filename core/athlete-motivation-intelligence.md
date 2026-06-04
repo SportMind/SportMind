@@ -389,6 +389,27 @@ ANTI-PATTERN:
   can you cite a specific verifiable reason? If not, baseline applies.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete motivation framework: intrinsic, extrinsic, situational motivation signals |
+| Reasoning | ACTIVE | Motivation reasoning chain from observable signals to performance prediction |
+| Context | ACTIVE | Motivation context: contract status, team environment, personal events, career stage |
+| Memory | ACTIVE | Historical motivation pattern data for comparable athlete profiles |
+| Judgment | ACTIVE | Judgment on motivation signal strength — subjective signals require elevated scrutiny |
+| Attention | ACTIVE | Attention for motivation red flags: public statements, body language, media reports |
+| Communication | ACTIVE | Motivation signal output with APS modifier and confidence level |
+| Verification | ACTIVE | Motivation signals are inherently soft — apply higher verification threshold |
+| Learning | ACTIVE | Motivation pattern learning from press conference and behavioural signal history |
+| Integration | ACTIVE | Integrates with APS, psychological intelligence, and squad cohesion |
+| Calibration | EMERGING | Motivation-to-performance calibration is the library's most uncertain modifier |
+| Adaptation | ACTIVE | Motivation signals adapt rapidly — press conference statements can shift within hours |
+| Ethics | ACTIVE | Motivation assessment from public signals only — no private speculation |
+| Transparency | ACTIVE | Motivation modifier flagged as SOFT_SIGNAL in all outputs |
+
+
 ---
 
 *SportMind v3.56 · MIT License · sportmind.dev*

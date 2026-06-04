@@ -282,6 +282,27 @@ AGENT RULE: In a derby, always present adjusted_score as a range, never a point.
 The form compression introduces genuine uncertainty that a point estimate misrepresents.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Derby match intelligence: rivalry patterns, upset probability, demand amplifiers |
+| Reasoning | ACTIVE | Derby reasoning chain from rivalry context to signal modifier and CDI amplification |
+| Context | ACTIVE | Derby context: historical rivalry data, local significance, competition stakes |
+| Memory | ACTIVE | Historical derby outcome patterns and upset frequency data |
+| Judgment | ACTIVE | Judgment on derby signal premium — applies only to confirmed rivalry fixtures |
+| Attention | ACTIVE | Elevated attention for all pre-derby signals — noise is higher in rivalry periods |
+| Communication | ACTIVE | Derby signal output with rivalry modifier and fan token demand amplifier |
+| Verification | ACTIVE | Derby classification requires confirmed rivalry status — not all local matches qualify |
+| Learning | ACTIVE | Derby pattern learning from historical outcome calibration data |
+| Integration | ACTIVE | Integrates with CDI, fan token demand modifiers, and competition calendar |
+| Calibration | ACTIVE | Derby outcome modifiers calibrated against historical rivalry data by sport |
+| Adaptation | ACTIVE | Derby modifiers adapt as rivalry intensity and squad composition changes |
+| Ethics | NOT APPLICABLE | Derby intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Derby classification and modifier premium explicit in output |
+
+
 ---
 
 ## Compatibility

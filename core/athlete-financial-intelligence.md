@@ -314,6 +314,27 @@ SEQUENCE:
   4. Output: APS_adjusted with financial_confidence note
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete financial signals: contract value, sponsorship, investment, financial distress |
+| Reasoning | ACTIVE | Financial signal reasoning — how financial context affects performance and availability |
+| Context | ACTIVE | Financial context: contract year, market value, league financial environment |
+| Memory | ACTIVE | Contract history and financial event timeline for multi-year pattern analysis |
+| Judgment | ACTIVE | Financial signal materiality — not all financial events affect performance signals |
+| Attention | ACTIVE | Elevated attention during contract expiry windows and reported financial distress |
+| Communication | ACTIVE | Financial signal output with performance and availability implications |
+| Verification | ACTIVE | Financial figures require verified source — reported amounts are estimates |
+| Learning | EMERGING | Financial pattern learning: contract year underperformance, distress patterns |
+| Integration | ACTIVE | Integrates with transfer intelligence, commercial signals, and APS modifier |
+| Calibration | EMERGING | Limited calibration data for financial signal-to-performance correlation |
+| Adaptation | ACTIVE | Financial signals adapt as contract and market conditions change |
+| Ethics | ACTIVE | Athlete financial information is sensitive — only publicly confirmed data used |
+| Transparency | ACTIVE | Financial signal source and confidence level explicit in output |
+
+
 ---
 
 ## Compatibility

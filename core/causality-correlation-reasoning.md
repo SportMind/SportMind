@@ -86,6 +86,27 @@ Modifiers with fewer than 5 records remain correlational.
 **Calibration:** `core/calibration-framework.md`
 **Historical patterns:** `core/historical-pattern-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | This is a reasoning methodology file, not a domain intelligence file |
+| Reasoning | ACTIVE | Core reasoning methodology: distinguishing causation from correlation in sports signals |
+| Context | ACTIVE | Context dependency — causation vs correlation varies by sport and signal type |
+| Memory | ACTIVE | Pattern library for known causal relationships vs spurious correlations |
+| Judgment | ACTIVE | Primary judgment tool: causal mechanism test before applying modifier |
+| Attention | ACTIVE | Attention flag for high-correlation signals lacking causal mechanism |
+| Communication | ACTIVE | Output must distinguish: causal modifier vs correlated signal |
+| Verification | ACTIVE | Causal claims require mechanism verification — not just statistical association |
+| Learning | ACTIVE | Causality library grows from calibration records demonstrating causal relationships |
+| Integration | ACTIVE | Applied across all intelligence layers when signal relationships are assessed |
+| Calibration | ACTIVE | Calibration records validate or invalidate assumed causal relationships |
+| Adaptation | ACTIVE | Causal models adapt as sport rules, player pools, and conditions change |
+| Ethics | ACTIVE | Misleading correlation-as-causation outputs are an integrity failure |
+| Transparency | ACTIVE | Reasoning must explicitly state whether a relationship is causal or correlational |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

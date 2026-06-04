@@ -117,6 +117,27 @@ STEP 4: Communicate clearly.
    Supply mechanics and demand signals are independent — communicate separately."
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Extended fan token reasoning chains across all intelligence layers |
+| Reasoning | ACTIVE | Full reasoning chain examples from signal input to fan token output |
+| Context | ACTIVE | Context-specific reasoning variations by competition, lifecycle phase, and macro regime |
+| Memory | ACTIVE | Reasoning chain precedents from historical calibration records |
+| Judgment | ACTIVE | Judgment examples: when to enter, wait, abstain across different signal combinations |
+| Attention | ACTIVE | Attention priorities demonstrated in extended chain examples |
+| Communication | ACTIVE | Extended chain output format demonstrations |
+| Verification | ACTIVE | Verification gates embedded in extended reasoning chains |
+| Learning | ACTIVE | Extended chains updated as calibration records provide new pattern data |
+| Integration | ACTIVE | All five layers integrated in extended chain examples |
+| Calibration | ACTIVE | Chain outputs are calibration-grounded — not theoretical |
+| Adaptation | ACTIVE | Extended chains include adaptive examples for changing signal environments |
+| Ethics | ACTIVE | Ethical boundaries demonstrated in chains — prohibited output types shown |
+| Transparency | ACTIVE | All chain steps and their evidence base explicit in extended examples |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

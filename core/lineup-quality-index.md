@@ -397,6 +397,27 @@ BASELINE STORAGE (Memory MCP schema):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Lineup quality index (LQI): composite pre-match squad strength measurement |
+| Reasoning | ACTIVE | LQI reasoning chain from squad composition to adjusted score modifier |
+| Context | ACTIVE | LQI context: opposition quality, competition importance, rotation likelihood |
+| Memory | ACTIVE | Historical LQI baseline values for each club at full strength |
+| Judgment | ACTIVE | LQI judgment: accounting for confirmed vs probable lineup |
+| Attention | ACTIVE | Maximum attention for lineup confirmation signals near kickoff |
+| Communication | ACTIVE | LQI output: index value, deviation from baseline, and key absences flagged |
+| Verification | ACTIVE | Official lineup confirmation (1h before kickoff) is Tier 1 — predicted lineups are Tier 3 |
+| Learning | ACTIVE | LQI values calibrated from historical lineup-to-outcome correlation data |
+| Integration | ACTIVE | Integrates with pre-match squad intelligence, injury files, and APS modifier |
+| Calibration | ACTIVE | LQI modifier values most calibrated framework in the library |
+| Adaptation | ACTIVE | LQI baselines adapt as squad composition changes across transfer windows |
+| Ethics | NOT APPLICABLE | Lineup analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | LQI components and lineup source explicit in pre-match output |
+
+
 ---
 
 *SportMind v3.50 · MIT License · sportmind.dev*

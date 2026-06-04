@@ -752,6 +752,27 @@ The reasoning steps:
   8. Combine with availability, disciplinary, and other sub-modifiers
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Player statistical reasoning: advanced metrics interpretation and signal extraction |
+| Reasoning | ACTIVE | Statistical reasoning chain from raw metrics to performance signal and APS modifier |
+| Context | ACTIVE | Statistical context: opposition quality, position role, tactical system, sample size |
+| Memory | ACTIVE | Historical statistical baseline profiles for player performance comparison |
+| Judgment | ACTIVE | Statistical judgment: distinguishing genuine performance shifts from noise |
+| Attention | ACTIVE | Elevated attention for significant statistical outliers from established baselines |
+| Communication | ACTIVE | Statistical reasoning output with context-adjusted values and confidence |
+| Verification | ACTIVE | Statistical claims require official data sources — broadcast statistics are unverified |
+| Learning | ACTIVE | Statistical reasoning framework improves from accumulating performance records |
+| Integration | ACTIVE | Integrates with APS modifier, athlete intelligence files, and calibration framework |
+| Calibration | ACTIVE | Statistical modifier values calibrated against historical performance outcomes |
+| Adaptation | ACTIVE | Statistical reasoning adapts as advanced metric standards evolve by sport |
+| Ethics | NOT APPLICABLE | Statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Statistical source, sample size, and context adjustments explicit in output |
+
+
 ---
 
 *SportMind v3.33 · MIT License · sportmind.dev*

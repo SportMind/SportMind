@@ -661,6 +661,27 @@ Do NOT use:
 - Pre-verdict speculation as signal inputs
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Disciplinary event taxonomy: red cards, bans, off-pitch incidents, regulatory actions |
+| Reasoning | ACTIVE | Reasoning chain from disciplinary event to availability, APS, and CDI impact |
+| Context | ACTIVE | Context: competition rules, club policy, prior record, appeal status |
+| Memory | ACTIVE | Disciplinary history for cumulative risk assessment and pattern identification |
+| Judgment | ACTIVE | Materiality judgment — suspension length vs competition timing determines signal weight |
+| Attention | ACTIVE | Immediate attention trigger on red card or ban announcement |
+| Communication | ACTIVE | Clear output: suspension length, matches missed, return date, APS adjustment |
+| Verification | ACTIVE | Only club/league/governing body official announcements are Tier 1 verification |
+| Learning | EMERGING | Pattern learning from disciplinary history to predictive risk flagging |
+| Integration | ACTIVE | Integrates with lineup quality index, pre-match squad, and APS modifier |
+| Calibration | ACTIVE | APS reduction values calibrated against historical performance impact data |
+| Adaptation | ACTIVE | Suspension status updates dynamically as appeals resolve |
+| Ethics | ACTIVE | Off-pitch incidents are signals only when officially confirmed — no speculation |
+| Transparency | ACTIVE | Distinction between pending appeal and confirmed ban must be explicit in output |
+
+
 ---
 
 *SportMind v3.32 · MIT License · sportmind.dev*

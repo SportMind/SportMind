@@ -292,6 +292,27 @@ WIND (> 15mph):
 - **Twitter/X beat reporters**: Fastest injury news (team-specific beat reporters)
 - **Fantasy football platforms**: Often fastest aggregators for practice report news
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NFL-specific injury patterns: practice reports, injury designations, IR status |
+| Reasoning | ACTIVE | NFL injury reasoning chain from practice report to game day availability modifier |
+| Context | ACTIVE | NFL context: injury designation system (Out/Doubtful/Questionable/Limited/Full) |
+| Memory | ACTIVE | Historical NFL injury designation-to-actual-availability correlation data |
+| Judgment | ACTIVE | Judgment on NFL practice report reliability — teams strategically obscure status |
+| Attention | ACTIVE | Elevated attention for Friday/Saturday practice reports — final availability indicators |
+| Communication | ACTIVE | NFL injury output: designation, historical designation accuracy, APS modifier |
+| Verification | ACTIVE | Official NFL injury report is Tier 1 — beat reporter observations are Tier 2 |
+| Learning | ACTIVE | NFL injury designation calibration: historical designation-to-play probability rates |
+| Integration | ACTIVE | Integrates with core injury framework and NFL sport domain intelligence |
+| Calibration | ACTIVE | NFL injury designations are the most structured injury signal in SportMind |
+| Adaptation | ACTIVE | NFL injury intelligence adapts as practice report rules evolve |
+| Ethics | ACTIVE | NFL injury report gaming by teams is noted but factual reports used as primary signal |
+| Transparency | ACTIVE | NFL injury designation history and team communication patterns explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

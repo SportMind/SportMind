@@ -286,6 +286,27 @@ Football injuries feed directly into Layer 3 fan token skills:
 - **Official club websites**: Team news section (most reliable but latest)
 - **Twitter/X club accounts**: Pre-match squad announcements
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Football-specific injury patterns: muscle, hamstring, ACL, knock, fatigue |
+| Reasoning | ACTIVE | Football injury reasoning chain to availability, APS modifier, and lineup signal |
+| Context | ACTIVE | Football context: position, fixture congestion, international duty, pitch conditions |
+| Memory | ACTIVE | Historical football injury patterns by position, age, and injury type |
+| Judgment | ACTIVE | Judgment on football injury signal reliability — clubs routinely obscure injury details |
+| Attention | ACTIVE | Elevated attention for training reports, morning scrimmage observations, press conference hedging |
+| Communication | ACTIVE | Football injury output: position impact, lineup probability, APS modifier |
+| Verification | ACTIVE | Training ground observations and official squad lists are Tier 1 for football |
+| Learning | ACTIVE | Football injury pattern calibration from historical return timeline accuracy |
+| Integration | ACTIVE | Integrates with lineup quality index, pre-match squad, and APS modifier |
+| Calibration | ACTIVE | Football APS reduction values most calibrated — largest injury record base |
+| Adaptation | ACTIVE | Football injury intelligence adapts as injury prevention science and protocols evolve |
+| Ethics | ACTIVE | Player medical privacy respected — only publicly confirmed injury information used |
+| Transparency | ACTIVE | Club communication strategy context noted — strategic vagueness flagged in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

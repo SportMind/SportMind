@@ -384,6 +384,27 @@ WHY PPI MATTERS FOR FAN TOKENS:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Perceptual pressure intelligence: how pressure affects athlete decision-making and performance |
+| Reasoning | ACTIVE | Pressure reasoning chain from situational signals to PPI (Pressure Performance Index) |
+| Context | ACTIVE | Pressure context: competition stakes, public expectation, historical performance under pressure |
+| Memory | ACTIVE | Historical pressure performance data by athlete and competition type |
+| Judgment | ACTIVE | Judgment on pressure signal materiality — chronic vs acute pressure differ |
+| Attention | ACTIVE | Elevated attention for high-stakes pressure situations near competition |
+| Communication | ACTIVE | Pressure signal output with PPI modifier and pressure source identification |
+| Verification | ACTIVE | Pressure signals are soft — multiple source types required before applying modifier |
+| Learning | ACTIVE | PPI calibration from historical pressure situation-to-performance outcomes |
+| Integration | ACTIVE | Integrates with psychological intelligence, motivation, and squad cohesion |
+| Calibration | ACTIVE | PPI modifier calibrated against historical clutch performance data |
+| Adaptation | ACTIVE | Pressure baseline adapts as athlete career stage and experience changes |
+| Ethics | ACTIVE | Pressure assessment from observable signals only — no private psychological speculation |
+| Transparency | ACTIVE | PPI value and pressure sources flagged as SOFT_SIGNAL in output |
+
+
 ---
 
 *SportMind v3.61 · MIT License · sportmind.dev*

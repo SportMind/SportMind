@@ -416,6 +416,27 @@ Load alongside this file for full injury intelligence.
 | `core/injury-intelligence/injury-intel-horse-racing.md` | Horse Racing | Pre-race signals, paddock observation, trainer language patterns |
 | `core/injury-intelligence/injury-intel-cycling.md` | Cycling | Crash probability, cumulative fatigue, Grand Tour degradation curve |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Core injury intelligence framework: injury classification, return timelines, APS impact |
+| Reasoning | ACTIVE | Injury reasoning chain from injury type to availability prediction and APS modifier |
+| Context | ACTIVE | Injury context: competition importance, squad depth, club pressure to rush return |
+| Memory | ACTIVE | Historical injury timeline patterns by injury type and sport |
+| Judgment | ACTIVE | Judgment on injury signal reliability — club communication is often strategic |
+| Attention | ACTIVE | Elevated attention for injury signals near competition windows |
+| Communication | ACTIVE | Injury output: type, timeline, APS modifier, and return confidence level |
+| Verification | ACTIVE | Club statements are Tier 2 — independent medical reports or training observations preferred |
+| Learning | ACTIVE | Injury timeline learning from historical return date accuracy vs prediction |
+| Integration | ACTIVE | Core injury framework applied by all sport-specific injury intelligence files |
+| Calibration | ACTIVE | APS reduction values calibrated against historical injury-performance correlation |
+| Adaptation | ACTIVE | Injury intelligence adapts as medical protocols and return standards evolve |
+| Ethics | ACTIVE | Medical information is sensitive — only publicly confirmed injury data is used |
+| Transparency | ACTIVE | Injury source, confidence level, and APS modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

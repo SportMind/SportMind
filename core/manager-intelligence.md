@@ -327,6 +327,27 @@ You are a manager intelligence agent. Before incorporating manager signals:
    Always separate: manager signal ≠ squad quality signal (they interact but differ).
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Manager/coach intelligence: tactical profile, MgSI modifier, appointment signals |
+| Reasoning | ACTIVE | Manager reasoning chain from appointment/change to performance signal modifier |
+| Context | ACTIVE | Manager context: contract length, board relationship, squad familiarity, tactical fit |
+| Memory | ACTIVE | Historical manager performance patterns and tactical profile data |
+| Judgment | ACTIVE | MgSI judgment: differentiated by manager experience, squad context, competition type |
+| Attention | ACTIVE | Elevated attention for managerial press conferences and contract news |
+| Communication | ACTIVE | Manager signal output with MgSI value and appointment stage |
+| Verification | ACTIVE | Manager appointment requires official club confirmation — not journalist reports |
+| Learning | ACTIVE | MgSI calibration from historical manager appointment-outcome correlation |
+| Integration | ACTIVE | Integrates with coaching intelligence, tactical matchup, and squad cohesion |
+| Calibration | ACTIVE | MgSI modifier values calibrated against historical appointment performance data |
+| Adaptation | ACTIVE | Manager intelligence adapts as tactical evolution changes benchmark profiles |
+| Ethics | NOT APPLICABLE | Manager intelligence is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | MgSI value and appointment stage explicit in all manager-related outputs |
+
+
 ---
 
 ## Compatibility

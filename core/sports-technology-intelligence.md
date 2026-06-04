@@ -206,6 +206,27 @@ SPORTMIND CALIBRATION NETWORK EFFECT:
 **Governance participation:**   `fan-token/governance-intelligence.md`
 **Calibration records:**        `calibration/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports technology signals: VAR, Hawkeye, goal-line technology, wearables impact |
+| Reasoning | ACTIVE | Technology reasoning chain from system implementation to signal modifier adjustment |
+| Context | ACTIVE | Technology context: competition tier with technology access, implementation quality |
+| Memory | ACTIVE | Historical technology impact patterns on officiating and match outcomes |
+| Judgment | ACTIVE | Judgment on technology signal materiality — VAR availability changes referee behaviour |
+| Attention | ACTIVE | Elevated attention for technology failure signals during competition |
+| Communication | ACTIVE | Technology signal output with implementation status and modifier impact |
+| Verification | ACTIVE | Technology availability confirmed from official competition/governing body sources |
+| Learning | ACTIVE | Technology impact calibration from historical pre/post-implementation outcome data |
+| Integration | ACTIVE | Integrates with officiating intelligence, match conditions, and sport domain files |
+| Calibration | ACTIVE | Technology modifiers calibrated against historical implementation-outcome correlation |
+| Adaptation | ACTIVE | Technology intelligence adapts as new sports technology is deployed |
+| Ethics | NOT APPLICABLE | Technology analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Technology status and modifier basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.41 · MIT License · sportmind.dev*

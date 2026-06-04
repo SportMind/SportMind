@@ -442,6 +442,27 @@ SportMind output applied to real events with calibration analysis.*
 
 *MIT License · SportMind · sportmind.dev*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Multi-agent coordination: task distribution, specialisation, and result aggregation |
+| Reasoning | ACTIVE | Coordinated reasoning: multiple agents reasoning in parallel on different signal streams |
+| Context | ACTIVE | Coordination context: task assignment, agent specialisation map, aggregation rules |
+| Memory | ACTIVE | Coordination memory: task state, agent assignments, partial results |
+| Judgment | ACTIVE | Coordination judgment: conflict resolution when agents produce conflicting outputs |
+| Attention | ACTIVE | Distributed attention coordination — prevents gaps and overlap in signal monitoring |
+| Communication | ACTIVE | Coordination communication protocols: task assignment and result aggregation |
+| Verification | ACTIVE | Multi-agent verification: independent agent confirmation before acting on critical signals |
+| Learning | ACTIVE | Coordination pattern learning from task completion efficiency and accuracy |
+| Integration | ACTIVE | Coordination integrates all five layers across distributed agent deployment |
+| Calibration | ACTIVE | Coordinated output calibration: aggregated agent confidence |
+| Adaptation | ACTIVE | Coordination adapts as agent network size and capabilities change |
+| Ethics | ACTIVE | Coordination ethics: no agent can override the hard ethics constraints of the framework |
+| Transparency | ACTIVE | Coordination audit: which agents contributed to each output is traceable |
+
+
 ---
 
 ## 7. Production deployment patterns

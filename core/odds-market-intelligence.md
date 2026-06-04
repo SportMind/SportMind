@@ -175,6 +175,27 @@ CROSS-REFERENCE WITH SPORTS INTEGRITY INTELLIGENCE:
 **Demand modifiers:**        `core/fan-token-context-bridge.md`
 **Confidence framework:**    `core/signal-confidence-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Odds and prediction market signals as meta-intelligence on market consensus |
+| Reasoning | ACTIVE | Odds reasoning chain from market movement to implied probability and signal |
+| Context | ACTIVE | Odds context: market depth, liquidity, sharp vs recreational bettor composition |
+| Memory | ACTIVE | Historical odds movement patterns and their signal accuracy data |
+| Judgment | ACTIVE | Judgment on odds signal materiality — significant line movement vs noise |
+| Attention | ACTIVE | Elevated attention for sharp line movements near event time |
+| Communication | ACTIVE | Odds signal output with implied probability, movement context, and confidence |
+| Verification | ACTIVE | Odds data requires licensed exchange sources — social media odds claims are unverified |
+| Learning | ACTIVE | Odds signal calibration from historical movement-to-outcome accuracy |
+| Integration | ACTIVE | Integrates with prediction market intelligence and fan token signal framework |
+| Calibration | ACTIVE | Odds-as-signal calibration shows sharp money moves are directionally reliable |
+| Adaptation | ACTIVE | Odds intelligence adapts as regulated prediction markets expand globally |
+| Ethics | ACTIVE | Odds signals are market data — not endorsement of betting activity |
+| Transparency | ACTIVE | Odds source, timestamp, and movement magnitude explicit in output |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*

@@ -307,6 +307,27 @@ June:
   Europa League Final, Conference League Final
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cup competition intelligence: single-leg elimination dynamics, upset probability |
+| Reasoning | ACTIVE | Cup reasoning chain from competition format to signal modifier differences vs league |
+| Context | ACTIVE | Context: competition stage, home/away leg balance, squad rotation strategy |
+| Memory | ACTIVE | Historical cup upset patterns and giant-killing probability data |
+| Judgment | ACTIVE | Judgment on cup-specific signal weighting — form is less predictive than in league |
+| Attention | ACTIVE | Elevated attention for single-leg finals and cup-specific lineup decisions |
+| Communication | ACTIVE | Cup signal output with format-specific modifier and upset probability |
+| Verification | ACTIVE | Cup fixture schedule verification from official competition sources |
+| Learning | ACTIVE | Cup outcome pattern learning from historical data by sport and format |
+| Integration | ACTIVE | Integrates with competition calendar, squad rotation, and CDI modifier |
+| Calibration | ACTIVE | Cup upset probability calibrated against historical data by competition tier |
+| Adaptation | ACTIVE | Cup intelligence adapts as competition formats evolve (e.g. VAR introduction) |
+| Ethics | NOT APPLICABLE | Cup competition intelligence is structural analysis — no ethical dimension |
+| Transparency | ACTIVE | Cup format context and modified signal weighting explicit in output |
+
+
 ---
 
 ## Compatibility

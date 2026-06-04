@@ -370,6 +370,27 @@ BENCHMARK CONNECTION:
   provides more reliable evidence than one tested on outcome-only records.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Match condition snapshot: capturing pre-match state for calibration and comparison |
+| Reasoning | ACTIVE | Snapshot reasoning: recording conditions that explain post-match outcomes |
+| Context | ACTIVE | Snapshot context: venue, weather, lineup, macro regime at moment of capture |
+| Memory | ACTIVE | Match condition snapshots are the primary memory artefact for historical comparison |
+| Judgment | ACTIVE | Judgment on which conditions to capture — not all context is snapshot-relevant |
+| Attention | ACTIVE | Snapshot timing attention — must capture at T-48h or T-2h not after |
+| Communication | ACTIVE | Snapshot output format: structured JSON with all condition fields |
+| Verification | ACTIVE | Snapshot conditions require source verification before recording |
+| Learning | ACTIVE | Match condition snapshots drive calibration learning — the empirical record |
+| Integration | ACTIVE | Integrates with all intelligence layers as the calibration record anchor |
+| Calibration | ACTIVE | Snapshots are how calibration records are created — central to calibration process |
+| Adaptation | ACTIVE | Snapshot format adapts as new condition fields are identified as material |
+| Ethics | NOT APPLICABLE | Condition snapshots are factual records — no ethical dimension |
+| Transparency | ACTIVE | Snapshot timestamp and source for each field explicit in record |
+
+
 ---
 
 *SportMind v3.59 · MIT License · sportmind.dev*

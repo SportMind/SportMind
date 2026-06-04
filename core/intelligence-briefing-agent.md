@@ -240,6 +240,27 @@ RELATIONSHIP TO core/external-intelligence-intake.md:
 **Related:** `macro/macro-regulatory-sportfi.md` — regulatory signal examples
 **CHANGELOG:** All actioned and reverted signals documented here
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Intelligence briefing agent: structured morning/pre-match briefing generation |
+| Reasoning | ACTIVE | Briefing reasoning: prioritising signals, structuring narrative, applying confidence |
+| Context | ACTIVE | Briefing context: time window, active competitions, priority signals |
+| Memory | ACTIVE | Briefing history: tracking what was signalled vs what occurred for calibration |
+| Judgment | ACTIVE | Briefing judgment: what to include, exclude, and flag as uncertain |
+| Attention | ACTIVE | Briefing attention allocation by signal priority and time sensitivity |
+| Communication | ACTIVE | This file defines structured briefing communication format |
+| Verification | ACTIVE | Briefing signals require verification before inclusion |
+| Learning | ACTIVE | Briefing accuracy learning from outcome comparison |
+| Integration | ACTIVE | Briefing integrates all active intelligence layers |
+| Calibration | ACTIVE | Briefing confidence levels are calibration outputs |
+| Adaptation | ACTIVE | Briefing format adapts to user context and signal environment |
+| Ethics | ACTIVE | Briefing must not present unconfirmed signals as confirmed facts |
+| Transparency | ACTIVE | Briefing signal sources and confidence levels explicit throughout |
+
+
 ---
 
 *SportMind v3.97.12 · MIT License · sportmind.dev*

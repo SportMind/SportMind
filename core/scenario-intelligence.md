@@ -181,6 +181,27 @@ Cross-reference:
 **PATH_2 mechanics:**      `fan-token/ftp-path2.md`
 **State-space:**           `core/state-space-reasoning.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Scenario intelligence: structured what-if analysis across sport and fan token contexts |
+| Reasoning | ACTIVE | Scenario reasoning: branching logic from trigger events to probability-weighted outcomes |
+| Context | ACTIVE | Scenario context: current state, trigger conditions, probability distribution |
+| Memory | ACTIVE | Historical scenario outcome data for comparable trigger-event patterns |
+| Judgment | ACTIVE | Judgment on scenario probability weights — not all scenarios are equally likely |
+| Attention | ACTIVE | Attention to scenario trigger signals — the moment a scenario becomes active |
+| Communication | ACTIVE | Scenario output: trigger, branches, probability weights, and recommended action |
+| Verification | ACTIVE | Scenario trigger verification required before activating scenario framework |
+| Learning | ACTIVE | Scenario accuracy learning from historical trigger-to-outcome calibration |
+| Integration | ACTIVE | Scenario intelligence integrates with all layers when multi-factor analysis needed |
+| Calibration | ACTIVE | Scenario probability weights calibrated against historical trigger-outcome data |
+| Adaptation | ACTIVE | Scenario library adapts as new trigger types are identified through calibration |
+| Ethics | ACTIVE | Scenarios are probabilistic — not presented as certainties |
+| Transparency | ACTIVE | Scenario branches and probability weights explicit in output |
+
+
 ---
 
 *SportMind v3.97.65 · MIT License · sportmind.dev*

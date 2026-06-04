@@ -343,6 +343,27 @@ PATH_2 NOTE:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Standings intelligence: table position signals, points gap analysis, qualification trajectory |
+| Reasoning | ACTIVE | Standings reasoning chain from position to motivation and qualification probability |
+| Context | ACTIVE | Standings context: points gap, fixtures remaining, goal difference, competition format |
+| Memory | ACTIVE | Historical standings-to-outcome correlation patterns by competition phase |
+| Judgment | ACTIVE | Judgment on standings signal materiality — points gap magnitude determines urgency |
+| Attention | ACTIVE | Elevated attention for standings tipping points: relegation, European, title races |
+| Communication | ACTIVE | Standings output with position context, points gap, and motivation modifier |
+| Verification | ACTIVE | Standings data from official league/competition sources |
+| Learning | ACTIVE | Standings pattern calibration from historical position-to-outcome data |
+| Integration | ACTIVE | Integrates with result impact matrices, competition calendar, and CDI |
+| Calibration | ACTIVE | Standings motivation modifiers calibrated against historical late-season performance data |
+| Adaptation | ACTIVE | Standings intelligence adapts as competition formats and points systems evolve |
+| Ethics | NOT APPLICABLE | Standings analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Standings data source and snapshot date explicit in output |
+
+
 ---
 
 *SportMind v3.69 · MIT License · sportmind.dev*

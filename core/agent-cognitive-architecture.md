@@ -374,6 +374,27 @@ BDI                     Belief (library) + Desire         ★★★★
 ────────────────────────────────────────────────────────────────
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cognitive architecture defining how agents perceive, reason, plan, and act |
+| Reasoning | ACTIVE | Core reasoning cycle: perception → planning → execution → reflection |
+| Context | ACTIVE | Context window budgeting and layered context loading framework |
+| Memory | ACTIVE | Working memory, episodic memory, and cross-session persistence patterns |
+| Judgment | ACTIVE | Agent judgment gates — when to act, defer, escalate, or abstain |
+| Attention | ACTIVE | Attention allocation across simultaneous signals and context layers |
+| Communication | ACTIVE | Agent output formatting and communication protocols |
+| Verification | ACTIVE | Self-verification loops and output validation before action |
+| Learning | EMERGING | Calibration feedback integration into future reasoning cycles |
+| Integration | ACTIVE | Integration with SportMind intelligence layers as context |
+| Calibration | ACTIVE | Confidence calibration at each reasoning stage |
+| Adaptation | ACTIVE | Runtime adaptation to signal changes and new information |
+| Ethics | ACTIVE | Agent boundary enforcement — scope, autonomy limits, harm avoidance |
+| Transparency | ACTIVE | Reasoning trace visibility and decision audit trail |
+
+
 ---
 
 *SportMind v3.66 · MIT License · sportmind.dev*

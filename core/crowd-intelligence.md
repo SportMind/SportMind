@@ -214,6 +214,27 @@ NEW STADIUM OPENING:
 **Social sentiment:**       `core/social-sentiment-intelligence.md`
 **Broadcast amplification:**`core/broadcast-media-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Crowd dynamics, home advantage signals, and atmosphere impact intelligence |
+| Reasoning | ACTIVE | Crowd reasoning chain from attendance and atmosphere to performance modifier |
+| Context | ACTIVE | Context: neutral venue, crowd capacity, rivalry status, home vs away |
+| Memory | ACTIVE | Historical crowd-performance correlation data by sport and venue type |
+| Judgment | ACTIVE | Judgment on crowd signal materiality — not all home advantages are equal |
+| Attention | ACTIVE | Elevated attention for unusual crowd conditions — reduced attendance, neutral venue |
+| Communication | ACTIVE | Crowd signal output with home advantage modifier and venue context |
+| Verification | ACTIVE | Crowd restrictions or bans require official confirmation before modifier adjustment |
+| Learning | ACTIVE | Home advantage calibration from historical outcome data across sports |
+| Integration | ACTIVE | Integrates with venue intelligence, neutral venue modifier, and match conditions |
+| Calibration | ACTIVE | Home advantage modifiers calibrated against historical home vs away outcome data |
+| Adaptation | ACTIVE | Crowd intelligence adapts as behind-closed-doors policies change |
+| Ethics | NOT APPLICABLE | Crowd signals are factual environmental data — no ethical dimension |
+| Transparency | ACTIVE | Home advantage modifier and crowd conditions explicit in output |
+
+
 ---
 
 *SportMind v3.97.37 · MIT License · sportmind.dev*

@@ -203,6 +203,27 @@ $AFC TRANSFER IMPLICATIONS — PATH_2 CHAIN:
 **Tier A demand curves:**    `athlete/football/tier-a-clubs-framework.md`
 **Social sentiment:**        `core/social-sentiment-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Transfer window intelligence: window timing, activity patterns, and market dynamics |
+| Reasoning | ACTIVE | Transfer window reasoning chain from window status to squad change probability |
+| Context | ACTIVE | Window context: days remaining, club financial state, known targets, loan market |
+| Memory | ACTIVE | Historical transfer window patterns by club profile and window phase |
+| Judgment | ACTIVE | Window judgment: late-window risk — deals accelerate near deadline |
+| Attention | ACTIVE | Maximum attention during deadline day — highest velocity information environment |
+| Communication | ACTIVE | Window signal output with status, days remaining, and active deal signals |
+| Verification | ACTIVE | Transfer confirmation requires official club announcement — journalist reports are Tier 2 |
+| Learning | ACTIVE | Window pattern calibration from historical deal completion timing data |
+| Integration | ACTIVE | Integrates with squad intelligence, CDI, and player agent intelligence |
+| Calibration | ACTIVE | Transfer window modifiers calibrated against historical window-activity-outcome data |
+| Adaptation | ACTIVE | Window intelligence adapts as regulations and market structures evolve |
+| Ethics | ACTIVE | Transfer speculation about young players requires additional care |
+| Transparency | ACTIVE | Transfer source tier and confirmation status always explicit in output |
+
+
 ---
 
 *SportMind v3.97.28 · MIT License · sportmind.dev*

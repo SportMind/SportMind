@@ -402,6 +402,27 @@ REQUIRED FOR:
   Fan Token Play monitor + portfolio monitor combination
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Multi-agent context sharing: protocols for distributing intelligence across agent nodes |
+| Reasoning | ACTIVE | Shared reasoning context enables consistent signal interpretation across agents |
+| Context | ACTIVE | This file defines context sharing architecture — it is the shared context standard |
+| Memory | ACTIVE | Shared memory protocols: what persists across agents and how conflicts resolve |
+| Judgment | ACTIVE | Judgment consistency: shared context ensures agents reach compatible conclusions |
+| Attention | ACTIVE | Attention coordination: preventing duplicate monitoring across agent network |
+| Communication | ACTIVE | Inter-agent communication protocols and message format standards |
+| Verification | ACTIVE | Shared verification: context shared between agents must be verified before sharing |
+| Learning | ACTIVE | Shared learning: calibration outcomes propagate to all agents in network |
+| Integration | ACTIVE | Context sharing integrates all five layers across multi-agent deployment |
+| Calibration | ACTIVE | Shared calibration state ensures all agents use current modifier values |
+| Adaptation | ACTIVE | Context sharing adapts as agent network scales |
+| Ethics | ACTIVE | Shared context must not propagate unverified or harmful signals |
+| Transparency | ACTIVE | Context sharing audit trail — what was shared, when, and from which source |
+
+
 ---
 
 *SportMind v3.46 · MIT License · sportmind.dev*

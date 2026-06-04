@@ -93,6 +93,27 @@ DECLINE PERIOD (declining league position trend over 3+ seasons):
   Historical data increasingly overestimates current quality
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Temporal reasoning is a methodology file — not a domain intelligence file |
+| Reasoning | ACTIVE | Core temporal reasoning methodology: past, present, and future signal weighting |
+| Context | ACTIVE | Temporal context: historical baseline, current state, and forward projection |
+| Memory | ACTIVE | Temporal reasoning depends on memory — past patterns inform present reasoning |
+| Judgment | ACTIVE | Judgment on temporal signal weighting — recency bias vs historical pattern weight |
+| Attention | ACTIVE | Attention varies by temporal proximity — recent signals weighted higher for short-horizon tasks |
+| Communication | ACTIVE | Temporal reasoning output must specify which time horizon each signal applies to |
+| Verification | ACTIVE | Historical claims require verifiable sources — present claims require current verification |
+| Learning | ACTIVE | Temporal weighting scheme learning from historical accuracy at different horizons |
+| Integration | ACTIVE | Applied across all intelligence layers with time-awareness |
+| Calibration | EMERGING | Temporal weighting calibration requires long-term accuracy tracking by horizon |
+| Adaptation | ACTIVE | Temporal reasoning adapts as signal decay rates change |
+| Ethics | NOT APPLICABLE | Temporal reasoning is methodological — no ethical dimension |
+| Transparency | ACTIVE | Time horizon and weighting rationale explicit in temporally-grounded outputs |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

@@ -508,6 +508,27 @@ Architecture and multi-agent orchestration references:
 **Breaking news:** `core/breaking-news-intelligence.md` (Category 1/2 propagation)
 **Examples:** `examples/agentic-workflows/multi-agent-coordination.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Decentralised agent architecture: multi-node intelligence distribution and consensus |
+| Reasoning | ACTIVE | Distributed reasoning patterns across agent nodes |
+| Context | ACTIVE | Decentralised context: on-chain triggers, smart contract events, oracle signals |
+| Memory | ACTIVE | Distributed memory architecture: shared state and consensus memory |
+| Judgment | ACTIVE | Consensus judgment mechanisms — resolving conflicting agent outputs |
+| Attention | ACTIVE | Distributed attention: different nodes monitoring different signal streams |
+| Communication | ACTIVE | Inter-agent communication protocols and output aggregation |
+| Verification | ACTIVE | Decentralised verification: multi-node consensus for critical signal actions |
+| Learning | EMERGING | Distributed learning from collective outcome feedback |
+| Integration | ACTIVE | Full five-layer integration in decentralised architecture |
+| Calibration | EMERGING | Decentralised calibration requires cross-node consistency |
+| Adaptation | ACTIVE | Architecture adapts as blockchain infrastructure and oracle capabilities evolve |
+| Ethics | ACTIVE | Decentralised autonomy requires hard-coded ethics constraints that no node can override |
+| Transparency | ACTIVE | Decentralised audit log — all node decisions traceable and verifiable on-chain |
+
+
 ---
 
 *SportMind v3.87.0 · MIT License · sportmind.dev*

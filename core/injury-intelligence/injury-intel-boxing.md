@@ -274,6 +274,27 @@ COMMISSION MEDICAL RECORDS (public in some US states):
 - **Fighter social media**: Training footage analysis
 - **The Ring Magazine**: In-depth fighter profiles with injury history context
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Boxing-specific injury patterns: hands, cuts, concussion, weight-cut complications |
+| Reasoning | ACTIVE | Boxing injury reasoning chain to fight availability and performance modifier |
+| Context | ACTIVE | Boxing context: weight class, opponent style, training camp status, late withdrawal risk |
+| Memory | ACTIVE | Historical boxing injury patterns and weight-cut complication baselines |
+| Judgment | ACTIVE | Judgment on weight-cut severity — missed weight is categorically different from regular injury |
+| Attention | ACTIVE | Elevated attention for late injury withdrawal patterns common in boxing |
+| Communication | ACTIVE | Boxing injury output: type, fight status (probable/questionable/out), modifier |
+| Verification | ACTIVE | Boxing injury reports require promotion confirmation — gym reports are Tier 3 |
+| Learning | ACTIVE | Boxing injury pattern calibration from historical fight outcome correlation |
+| Integration | ACTIVE | Integrates with core injury framework and boxing sport domain intelligence |
+| Calibration | ACTIVE | Weight-cut and injury modifiers calibrated against boxing outcome historical data |
+| Adaptation | ACTIVE | Boxing injury intelligence adapts as commission medical testing protocols change |
+| Ethics | ACTIVE | Medical fitness concerns in boxing are safety-relevant — accuracy is paramount |
+| Transparency | ACTIVE | Boxing injury source and promotional context (fight promoters have incentive to obscure) noted |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -425,6 +425,27 @@ Cross-reference:
   macro/trending-signal-intelligence.md
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Breaking sports news triage: materiality classification and urgency scoring |
+| Reasoning | ACTIVE | News impact reasoning chain: event → signal classification → modifier update |
+| Context | ACTIVE | News context: proximity to competition, confirmed vs rumoured, source tier |
+| Memory | NOT APPLICABLE | Breaking news is real-time — historical patterns assessed separately |
+| Judgment | ACTIVE | Materiality judgment: which breaking news items warrant immediate signal update |
+| Attention | ACTIVE | Maximum attention trigger — breaking news overrides standard signal queue |
+| Communication | ACTIVE | Urgent output format with source, confidence, and preliminary modifier update |
+| Verification | ACTIVE | Source tier verification required before acting on breaking news — Tier 1 only for critical |
+| Learning | EMERGING | News pattern learning for faster future triage of similar event types |
+| Integration | ACTIVE | Breaking news integrates immediately across all relevant intelligence layers |
+| Calibration | EMERGING | Breaking news signal accuracy vs eventual confirmed outcome is a calibration gap |
+| Adaptation | ACTIVE | Signal updates continuously as breaking news develops and confirms |
+| Ethics | ACTIVE | Breaking news about individuals requires confirmation before acting — no speculation |
+| Transparency | ACTIVE | Breaking news output clearly labelled with confirmation status and source tier |
+
+
 ---
 
 ## Compatibility

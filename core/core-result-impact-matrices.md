@@ -244,6 +244,27 @@ analytics agent use. Token impact ranges are estimates for when MLB tokens launc
 | Star raider Super 10 milestone | +5–10% social signal |
 | Star raider injury (season-ending) | -20–35% |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Result impact matrices: how match results affect standings, qualification, and CDI |
+| Reasoning | ACTIVE | Impact reasoning chain from result to downstream standings and signal consequences |
+| Context | ACTIVE | Impact context: competition stage, points gap, goal difference, remaining fixtures |
+| Memory | ACTIVE | Historical result impact patterns for comparable qualification scenarios |
+| Judgment | ACTIVE | Judgment on result impact magnitude — not all results have equal downstream effect |
+| Attention | ACTIVE | Elevated attention for results with significant qualification or relegation implications |
+| Communication | ACTIVE | Impact matrix output with qualification probability shift and CDI adjustment |
+| Verification | ACTIVE | Result data requires official score verification before matrix application |
+| Learning | ACTIVE | Impact matrix calibration from historical scenario-to-outcome data |
+| Integration | ACTIVE | Integrates with competition calendar, standings intelligence, and CDI |
+| Calibration | ACTIVE | Qualification probability values calibrated against historical scenario outcomes |
+| Adaptation | ACTIVE | Impact matrices adapt by competition format and points system |
+| Ethics | NOT APPLICABLE | Result impact analysis is structural — no ethical dimension |
+| Transparency | ACTIVE | Matrix assumptions and sensitivity to result scenarios explicit in output |
+
+
 ---
 
 ## NASCAR

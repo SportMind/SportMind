@@ -205,6 +205,27 @@ HOW TO COMBINE SENTIMENT MODIFIERS WITH OTHER SIGNALS:
 **Governance signals:**  `fan-token/governance-intelligence.md`
 **CDI framework:**       `fan-token/fan-token-lifecycle/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Social sentiment signals: fan engagement, social media volume, sentiment direction |
+| Reasoning | ACTIVE | Sentiment reasoning chain from social signals to CDI and demand modifier |
+| Context | ACTIVE | Sentiment context: platform, account type, organic vs bot activity, amplification |
+| Memory | ACTIVE | Historical social sentiment baseline patterns for normal vs elevated states |
+| Judgment | ACTIVE | Judgment on sentiment signal reliability — bot activity and astroturfing are material risks |
+| Attention | ACTIVE | Elevated attention for unusual sentiment spikes near competition events |
+| Communication | ACTIVE | Sentiment signal output with platform, volume, direction, and confidence |
+| Verification | ACTIVE | Social sentiment signals require bot/manipulation detection before use |
+| Learning | EMERGING | Social sentiment calibration from historical volume-to-price correlation |
+| Integration | ACTIVE | Integrates with fan token demand intelligence and CHI framework |
+| Calibration | EMERGING | Social sentiment calibration is limited — high noise-to-signal ratio |
+| Adaptation | ACTIVE | Sentiment intelligence adapts as platform dynamics and fan behaviour evolve |
+| Ethics | ACTIVE | Social sentiment about individuals requires care — aggregate signals preferred |
+| Transparency | ACTIVE | Sentiment source platform, detection method, and confidence level explicit in output |
+
+
 ---
 
 *SportMind v3.97.28 · MIT License · sportmind.dev*

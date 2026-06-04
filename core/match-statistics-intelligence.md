@@ -432,6 +432,27 @@ Universal statistical modifier weights — before sport-specific calibration:
 **Breaking news:** `core/breaking-news-intelligence.md` — Category 1 events override caps.
 **Historical:** `core/historical-intelligence-framework.md` — H2H and recency principles.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Match statistics intelligence: in-play and post-match statistical signal extraction |
+| Reasoning | ACTIVE | Statistical reasoning chain from raw data to actionable intelligence signal |
+| Context | ACTIVE | Statistics context: opposition quality, tactical context, game state adjustments |
+| Memory | ACTIVE | Historical statistical baseline patterns for team and player performance profiles |
+| Judgment | ACTIVE | Statistical judgment: distinguishing meaningful patterns from small-sample noise |
+| Attention | ACTIVE | Elevated attention for unusual statistical patterns that deviate from baselines |
+| Communication | ACTIVE | Statistical output with context-adjusted values and confidence |
+| Verification | ACTIVE | Statistical data requires official data provider confirmation — not broadcast stats |
+| Learning | ACTIVE | Statistical baseline learning from accumulated historical data |
+| Integration | ACTIVE | Integrates with player statistical reasoning, post-match intelligence, and calibration |
+| Calibration | ACTIVE | Statistical modifiers calibrated against historical correlation with outcomes |
+| Adaptation | ACTIVE | Statistical intelligence adapts as advanced metrics evolve by sport |
+| Ethics | NOT APPLICABLE | Statistical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Statistical source and sample size explicit in all statistical outputs |
+
+
 ---
 
 *SportMind v3.88.0 · MIT License · sportmind.dev*

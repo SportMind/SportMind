@@ -460,6 +460,27 @@ FTP PATH_2 NOTE:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Environmental signal framework: macro, market, event, and situational context |
+| Reasoning | ACTIVE | Context-dependent reasoning — signals interpreted differently by environment |
+| Context | ACTIVE | This file defines the context environment — it is the context standard |
+| Memory | ACTIVE | Environmental baselines for recognising anomalous signal conditions |
+| Judgment | ACTIVE | Judgment on which environmental factors are material for current analysis |
+| Attention | ACTIVE | Attention allocation shifts based on active environmental signals |
+| Communication | ACTIVE | Environmental signal state communicated in output preamble |
+| Verification | ACTIVE | Environmental claims require verification — not all reported conditions are confirmed |
+| Learning | ACTIVE | Environmental pattern learning from outcome correlation data |
+| Integration | ACTIVE | Environmental intelligence integrates with all five layers |
+| Calibration | ACTIVE | Environmental modifier values calibrated against historical outcome data |
+| Adaptation | ACTIVE | Context environment adapts continuously as conditions change |
+| Ethics | NOT APPLICABLE | Environmental signals are factual — no ethical dimension |
+| Transparency | ACTIVE | Active environmental signals declared in every analysis output |
+
+
 ---
 
 *SportMind v3.64 · MIT License · sportmind.dev*

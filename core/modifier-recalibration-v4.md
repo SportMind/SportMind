@@ -117,6 +117,27 @@ The draw prediction problem (5 wrong records) is entirely explained by:
 SportMind is performing correctly for all other prediction types.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | V4 modifier recalibration record |
+| Reasoning | NOT APPLICABLE | Recalibration record — not a reasoning framework |
+| Context | ACTIVE | Recalibration context: record count and accuracy at v4 |
+| Memory | ACTIVE | Audit trail of modifier changes from v3 to v4 |
+| Judgment | ACTIVE | Judgment on v4 modifier adjustments |
+| Attention | NOT APPLICABLE | Periodic recalibration process |
+| Communication | ACTIVE | V4 change documentation for transparency |
+| Verification | ACTIVE | V4 values derived from calibration records |
+| Learning | ACTIVE | V4 recalibration reflects learning from post-v3 outcomes |
+| Integration | ACTIVE | V4 modifier values propagated across library |
+| Calibration | ACTIVE | This file IS a calibration output — v4 recalibration results |
+| Adaptation | NOT APPLICABLE | Historical record |
+| Ethics | ACTIVE | Modifier change transparency is required |
+| Transparency | ACTIVE | All v4 changes documented with justification |
+
+
 ---
 
 *Next full recalibration (v5): when athlete_modifier reaches 15 records.*

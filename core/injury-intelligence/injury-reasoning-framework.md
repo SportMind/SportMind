@@ -249,6 +249,27 @@ KEY PLAYER INJURY — DEMAND SIGNAL IMPLICATIONS:
 **$AFC PATH_2:**       `athlete/football/arsenal-afc.md`
 **Weather compound:**  `core/weather-intelligence.md` (fatigue in heat)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cross-sport injury reasoning framework integrating all sport-specific files |
+| Reasoning | ACTIVE | Unified injury reasoning methodology applicable across all 21+ calibrated sports |
+| Context | ACTIVE | Context determines which sport-specific injury file takes precedence |
+| Memory | ACTIVE | Cross-sport injury baseline patterns for inter-sport comparison |
+| Judgment | ACTIVE | Judgment framework: when to escalate injury uncertainty to ABSTAIN signal |
+| Attention | ACTIVE | Priority attention order for injury signals across competition types |
+| Communication | ACTIVE | Unified injury output schema applicable across all sports |
+| Verification | ACTIVE | Cross-sport verification hierarchy with sport-specific overrides |
+| Learning | ACTIVE | Cross-sport learning from injury calibration data |
+| Integration | ACTIVE | Integrates all sport-specific injury files into unified framework |
+| Calibration | ACTIVE | Cross-sport injury modifier calibration standards |
+| Adaptation | ACTIVE | Framework adapts as new sports are added to the library |
+| Ethics | ACTIVE | Unified ethical standards for injury information handling across all sports |
+| Transparency | ACTIVE | Framework transparency: sport-specific deviations from unified standard are documented |
+
+
 ---
 
 *SportMind v3.97.27 · MIT License · sportmind.dev*

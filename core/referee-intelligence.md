@@ -380,6 +380,27 @@ WHEN OFFICIATING INTELLIGENCE IS STRONG ENOUGH TO SHIFT DIRECTION:
 **Cricket:**    `sports/cricket/sport-domain-cricket.md`
 **Related:**    `core/core-signal-architecture.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Referee intelligence: individual referee profiles, decision tendencies, VAR behaviour |
+| Reasoning | ACTIVE | Referee reasoning chain from assignment to match condition modifier |
+| Context | ACTIVE | Referee context: competition tier, home/away patterns, card frequency, VAR usage |
+| Memory | ACTIVE | Historical referee decision data and calibration against known patterns |
+| Judgment | ACTIVE | Judgment on referee signal weight — well-established patterns vs small sample claims |
+| Attention | ACTIVE | Elevated attention when a high-profile or unusual referee is assigned |
+| Communication | ACTIVE | Referee signal output with historical pattern data and modifier value |
+| Verification | ACTIVE | Referee assignment from official competition source — not media speculation |
+| Learning | ACTIVE | Referee pattern calibration from accumulated decision and outcome data |
+| Integration | ACTIVE | Integrates with core officiating intelligence and match conditions |
+| Calibration | ACTIVE | Referee modifiers calibrated against historical pattern-to-outcome data |
+| Adaptation | ACTIVE | Referee profiles updated as decision patterns evolve over career |
+| Ethics | ACTIVE | Referee patterns are statistical observations — not allegations of misconduct |
+| Transparency | ACTIVE | Referee pattern sample size and historical basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.24 · MIT License · sportmind.dev*

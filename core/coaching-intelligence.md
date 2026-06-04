@@ -265,6 +265,27 @@ MANAGER CONTRACT EXTENSION:
 **MMA corner:**             `sports/mma/sport-domain-mma.md`
 **Tactical continuity:**    `athlete/football/mancity-city.md` (long-tenure system model)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Coaching change signals, tactical philosophy patterns, and appointment intelligence |
+| Reasoning | ACTIVE | Reasoning chain from coaching event to squad performance and CDI modifier |
+| Context | ACTIVE | Context: appointment type (emergency vs planned), squad familiarity, contract length |
+| Memory | ACTIVE | Historical coaching appointment impact patterns across comparable situations |
+| Judgment | ACTIVE | Judgment on coaching signal materiality — appointment timing vs competition proximity |
+| Attention | ACTIVE | Elevated attention on coaching change announcements near competition windows |
+| Communication | ACTIVE | Coaching signal output with MgSI modifier and transition timeline |
+| Verification | ACTIVE | Official club announcement is the only Tier 1 verification for coaching changes |
+| Learning | ACTIVE | Coaching pattern learning from historical appointment-outcome calibration |
+| Integration | ACTIVE | Integrates with manager intelligence, tactical matchup, and squad cohesion |
+| Calibration | ACTIVE | MgSI modifier values calibrated against historical coaching change performance data |
+| Adaptation | ACTIVE | Coaching signal adapts as new manager establishes system (appointment decay curve) |
+| Ethics | ACTIVE | Coaching signals are factual — no speculation about unreported managerial changes |
+| Transparency | ACTIVE | Coaching modifier stage (appointment/settling/established) explicit in output |
+
+
 ---
 
 *SportMind v3.97.35 · MIT License · sportmind.dev*

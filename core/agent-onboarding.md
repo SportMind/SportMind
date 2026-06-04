@@ -212,6 +212,27 @@ REQUIRED OUTPUT STRUCTURE — EVERY SPORTMIND SIGNAL:
 
 **Library entry point:** `core/smi-digest.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Onboarding sequence for loading SportMind intelligence into a new agent |
+| Reasoning | ACTIVE | Reasoning initialisation — establishing the five-layer context stack |
+| Context | ACTIVE | Context loading order: macro → market → sport → athlete → fan token |
+| Memory | EMERGING | Initial memory state establishment for a new agent session |
+| Judgment | ACTIVE | First-run judgment calibration and confidence baseline setting |
+| Attention | ACTIVE | Attention priming — which signals to prioritise on first use |
+| Communication | ACTIVE | Output format initialisation and structured signal template |
+| Verification | ACTIVE | Onboarding verification checklist — confirming layers loaded correctly |
+| Learning | NOT APPLICABLE | Onboarding is initialisation, not a learning process |
+| Integration | ACTIVE | Layer integration confirmation during onboarding |
+| Calibration | ACTIVE | Calibration record orientation — what the accuracy baseline means |
+| Adaptation | NOT APPLICABLE | Onboarding is a fixed process, not adaptive |
+| Ethics | ACTIVE | Agent scope and boundary orientation during onboarding |
+| Transparency | ACTIVE | Transparency about what SportMind can and cannot do — set at onboarding |
+
+
 ---
 
 *SportMind v3.97.38 · MIT License · sportmind.dev*

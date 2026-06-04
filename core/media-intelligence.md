@@ -287,6 +287,27 @@ CROSS-REFERENCES:
   core/manager-intelligence.md         → press conference intelligence
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Media intelligence: press conference signals, journalist tiers, narrative detection |
+| Reasoning | ACTIVE | Media reasoning chain from press conference content to soft signal modifier |
+| Context | ACTIVE | Media context: outlet tier, journalist credibility, pre-match vs post-match timing |
+| Memory | ACTIVE | Historical media signal patterns and their signal-to-outcome accuracy |
+| Judgment | ACTIVE | Judgment on media signal weight — tabloid claims require much higher verification threshold |
+| Attention | ACTIVE | Elevated attention for press conference content and reliable journalist exclusives |
+| Communication | ACTIVE | Media signal output with source tier, confidence, and SOFT_SIGNAL flag |
+| Verification | ACTIVE | Media signals are Tier 2-4 — never primary source without independent confirmation |
+| Learning | ACTIVE | Media signal accuracy calibration from historical claim-to-confirmation rates |
+| Integration | ACTIVE | Integrates with press conference intelligence and breaking news intelligence |
+| Calibration | EMERGING | Media signal calibration shows soft signals are directionally useful but imprecise |
+| Adaptation | ACTIVE | Media intelligence adapts as new platforms and journalist tiers emerge |
+| Ethics | ACTIVE | Media speculation must not be presented as fact — signal stage always explicit |
+| Transparency | ACTIVE | Source tier and signal confidence always declared in media-sourced outputs |
+
+
 ---
 
 *SportMind v3.40 · MIT License · sportmind.dev*

@@ -316,6 +316,27 @@ TENDENCY HALF-LIFE:
   Must-win situational profile:   Persistent (character-based, stable)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Opponent tendency analysis: tactical patterns, formation preferences, pressing systems |
+| Reasoning | ACTIVE | Opponent tendency reasoning chain to TMAS (Tactical Matchup Advantage Score) |
+| Context | ACTIVE | Opponent context: recent form, tactical variation, manager philosophy |
+| Memory | ACTIVE | Historical opponent pattern data for each club and national team |
+| Judgment | ACTIVE | Judgment on opponent pattern reliability — recent coaching changes may invalidate history |
+| Attention | ACTIVE | Elevated attention for pre-match tactical intelligence and lineup signals |
+| Communication | ACTIVE | Opponent tendency output with TMAS value and key pattern description |
+| Verification | ACTIVE | Tactical data from official match statistics sources preferred |
+| Learning | ACTIVE | Opponent pattern library updated from match outcome correlation data |
+| Integration | ACTIVE | Integrates with tactical matchup intelligence, lineup quality index, and coaching intelligence |
+| Calibration | ACTIVE | TMAS values calibrated against historical matchup outcome data |
+| Adaptation | ACTIVE | Opponent patterns updated after each significant tactical shift or manager change |
+| Ethics | NOT APPLICABLE | Tactical analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Opponent pattern recency and sample size explicit in TMAS output |
+
+
 ---
 
 *SportMind v3.66 · MIT License · sportmind.dev*

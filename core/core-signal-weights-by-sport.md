@@ -139,6 +139,27 @@ See `macro/macro-crypto-market-cycles.md` for the full CHZ/BTC cycle framework:
 
 These multipliers apply after the sport-specific weights above have been calculated.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sport-specific signal weight calibration — which signals matter most by sport |
+| Reasoning | ACTIVE | Signal weight reasoning: why certain modifiers carry more weight in specific sports |
+| Context | ACTIVE | Context: signal weights vary by competition tier, format, and season phase |
+| Memory | ACTIVE | Historical calibration data underlying each sport's weight configuration |
+| Judgment | ACTIVE | Judgment on weight adjustment when domain-specific context overrides defaults |
+| Attention | NOT APPLICABLE | Signal weights are static reference data — attention is not a factor |
+| Communication | ACTIVE | Signal weight disclosure required when modifier stack is presented |
+| Verification | ACTIVE | Weight values are calibration-derived — not opinions |
+| Learning | ACTIVE | Weight values update from accumulated calibration records by sport |
+| Integration | ACTIVE | Applied by sport-domain files when building modifier stacks |
+| Calibration | ACTIVE | This file is a calibration output — weights are the result of empirical calibration |
+| Adaptation | ACTIVE | Weights adapt as calibration base grows and sport conditions change |
+| Ethics | NOT APPLICABLE | Signal weights are technical parameters — no ethical dimension |
+| Transparency | ACTIVE | Signal weights are publicly available as part of the open-source library |
+
+
 ---
 
 *See `macro/macro-overview.md` for full macro modifier framework.*
