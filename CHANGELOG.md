@@ -1,5 +1,24 @@
 # Changelog
 
+## [3.97.100] — 2026-06-02
+
+### Fixed — $BELG total supply corrected to 20,000,000 (STANDARD tier)
+
+0 new files. 2 files corrected. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — factual correction only.
+
+fan-token/registry/complete-registry.md:
+  $BELG: "Total supply: 2,000,000 (ultra-low vs 20M typical)"
+       → "Total supply: 20,000,000 (STANDARD tier).
+          FTO tranche: 2,000,000 tokens offered in initial FTO."
+
+fan-token/fto-framework.md:
+  Removed $BELG from ULTRA_LOW tier example.
+  Calibration section: SUPPLY_SCARCITY_AMPLIFIER ULTRA_LOW
+    → explicitly states does NOT apply to $BELG (STANDARD tier, 20M).
+  All references to $BELG supply corrected to 20M total / 2M FTO tranche.
+
 ## [3.97.99] — 2026-06-01
 
 ### Added — $BELG registry entry + FTO framework

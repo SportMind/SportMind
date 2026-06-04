@@ -106,7 +106,9 @@ WHY TWO-WAVE FORMAT MATTERS FOR AGENT REASONING:
 
 ```
 STANDARD NATIONAL TEAM TOKEN SUPPLY: 20,000,000 tokens (typical)
-LOW SUPPLY EXAMPLE: $BELG — 2,000,000 tokens (10× lower than typical)
+$BELG SUPPLY: 20,000,000 tokens (STANDARD tier)
+  NOTE: The FTO offered 2,000,000 tokens for initial distribution.
+  Total max supply is 20,000,000 — same as typical national team tokens.
 
 WHAT SUPPLY SCARCITY MEANS FOR SIGNALS:
 
@@ -127,7 +129,7 @@ WHAT SUPPLY SCARCITY MEANS FOR SIGNALS:
     Resolve after 30+ days of secondary market trading data.
 
   SUPPLY SCARCITY TIERS (enduring reference):
-    ULTRA_LOW:  < 5,000,000 (e.g. $BELG at 2,000,000)
+    ULTRA_LOW:  < 5,000,000
     LOW:        5,000,000 — 12,000,000
     STANDARD:   12,000,000 — 25,000,000 (most national team tokens)
     HIGH:       > 25,000,000
@@ -157,8 +159,8 @@ AGENT SIGNALS FROM LOYALTY BONUS:
     Loyalty bonus recipients received tokens at effectively below-issue-price.
     Early sell pressure from loyalty recipients is possible — particularly if
     bonus tokens represent a meaningful % of total supply.
-    For $BELG (2M supply): 10% bonus = 200,000 additional tokens in circulation
-    from loyalty recipients. Monitor secondary market for loyalty sell flow.
+    For $BELG (20M total supply, 2M FTO tranche): 10% bonus = 200,000 additional
+    tokens in circulation from loyalty recipients. Monitor secondary market for loyalty sell flow.
 
 JURISDICTION EXCLUSION:
   UK users excluded from Locker Room loyalty bonus — regulatory compliance.
@@ -213,11 +215,12 @@ POST-FTO DAY 30+:
 
 **Reasoning:** Two-wave FTO requires combined-wave demand assessment — not Wave 1 alone. Supply scarcity amplifies price sensitivity non-linearly vs standard supply. Loyalty bonus creates two effects: holder retention positive + potential early sell pressure from bonus recipients. THIN_LIQUIDITY_DISCOUNT applies Day 1-7 post-FTO for all tokens regardless of FTO format.
 
-**Context:** FTO is the initial public sale event — not a securities offering. First documented two-wave FTO: $BELG (2026-06-03). Context: $BELG 2M supply vs 20M typical creates categorically different demand/supply dynamics. World Cup 2026 window (June 11-July 19) amplifies FTO demand for all national team tokens launched in this period.
+**Context:** FTO is the initial public sale event — not a securities offering. First documented two-wave FTO: $BELG (2026-06-03). Context: $BELG total supply is 20M (STANDARD tier). FTO offered 2M tokens initially.
+  FTO tranche size (2M of 20M) creates thinner initial float than full supply suggests. World Cup 2026 window (June 11-July 19) amplifies FTO demand for all national team tokens launched in this period.
 
 **Memory:** Standard single-wave FTO is the historical baseline for all prior Chiliz/Socios token launches. Two-wave format first documented June 2026 ($BELG). No prior calibration data for two-wave FTO post-launch performance — apply NOVEL_FORMAT modifier to post-FTO signal predictions until 30+ days data available.
 
-**Judgment:** Do not conflate FTO format with token quality — two-wave format signals community priority in distribution design, not inherently superior token fundamentals. Supply scarcity at 2M vs 20M is a structural difference requiring separate reasoning — do not apply comparable price benchmarks across supply tiers without adjustment.
+**Judgment:** Do not conflate FTO format with token quality — two-wave format signals community priority in distribution design, not inherently superior token fundamentals. Supply scarcity below 5M vs standard 20M is a structural difference requiring separate reasoning — do not apply comparable price benchmarks across supply tiers without adjustment.
 
 **Attention:** Monitor: first 7 days of $BELG secondary market for calibration data on two-wave FTO post-launch pattern. Monitor: future Chiliz/Socios FTO announcements for two-wave format adoption — if it becomes standard, update this file as the baseline.
 
@@ -227,7 +230,7 @@ POST-FTO DAY 30+:
 
 **Communication:** Agent output for FTO period: "FTO format: [single-wave/two-wave]. Supply: [amount] ([tier]). Loyalty bonus: [yes/no, %]. Jurisdiction exclusions: [list]. Current phase: [pre-FTO/Wave 1/Wave 2/post-FTO day X]. Apply: [relevant modifiers for phase]."
 
-**Calibration:** COMMUNITY_DISTRIBUTION_POSITIVE: directional signal (two-wave). Magnitude: TBD pending $BELG post-FTO calibration. SUPPLY_SCARCITY_AMPLIFIER: ULTRA_LOW tier — price sensitivity elevated. EARLY_SELL_PRESSURE_REDUCED: directional (two-wave format). All directional until 30+ days post-FTO data available.
+**Calibration:** COMMUNITY_DISTRIBUTION_POSITIVE: directional signal (two-wave). Magnitude: TBD pending $BELG post-FTO calibration. SUPPLY_SCARCITY_AMPLIFIER: applies to ULTRA_LOW tier tokens (< 5M supply). $BELG is STANDARD tier (20M total supply) — scarcity amplifier does NOT apply to $BELG. EARLY_SELL_PRESSURE_REDUCED: directional (two-wave format). All directional until 30+ days post-FTO data available.
 
 **Adaptation:** When $BELG post-FTO data (30+ days) available: calibrate COMMUNITY_DISTRIBUTION_POSITIVE magnitude. When second two-wave FTO launches: cross-compare with $BELG baseline. When two-wave becomes standard Chiliz/Socios format: update standard FTO section accordingly.
 
