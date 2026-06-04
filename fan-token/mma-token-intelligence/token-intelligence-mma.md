@@ -352,6 +352,27 @@ You are an MMA fan token intelligence agent. Before evaluating any MMA event:
 **Recommended:** `athlete-social-lift` (FTM confirmation), `athlete/mma` (camp signals)
 **Recommended:** `transfer-intelligence` (promotional contract context)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA fan token intelligence: UFC/Bellator event signals, fighter profile, and PPV dynamics |
+| Reasoning | ACTIVE | MMA token reasoning chain from event announcement to fan token modifier |
+| Context | ACTIVE | MMA context: championship bout vs PPV vs Fight Night, fighter social following, weight cut |
+| Memory | ACTIVE | Historical MMA token performance patterns and event type baseline data |
+| Judgment | ACTIVE | Judgment on MMA signal hierarchy — championship bouts are highest-impact signals |
+| Attention | ACTIVE | Elevated attention for title fight announcements and weight cut status signals |
+| Communication | ACTIVE | MMA token output with bout type, fighter profiles, and demand modifier |
+| Verification | ACTIVE | MMA data from official UFC/Bellator announcements and athletic commission |
+| Learning | EMERGING | MMA token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-mma.md, injury-intel-mma.md, and core MMA files |
+| Calibration | EMERGING | MMA fan token calibration is emerging |
+| Adaptation | ACTIVE | MMA intelligence adapts as promotional landscape and token ecosystem evolves |
+| Ethics | NOT APPLICABLE | MMA token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Bout type, fighter weight cut status, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

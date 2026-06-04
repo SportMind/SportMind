@@ -224,6 +224,27 @@ skill registry API, multi-language support (Spanish, Portuguese, French, Arabic,
 
 *SportMind Layer 3 — the full picture of an athlete, from the blockchain to the boardroom.*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token layer overview: structure, load order, and layer integration guidance |
+| Reasoning | NOT APPLICABLE | Layer overview is structural documentation — not a reasoning framework |
+| Context | ACTIVE | Overview context: five-layer hierarchy, load order, and inter-layer dependencies |
+| Memory | NOT APPLICABLE | Layer overview is static reference — not memory-dependent |
+| Judgment | ACTIVE | Judgment on layer priority — which files to load for specific analysis types |
+| Attention | NOT APPLICABLE | Layer overview is static reference — not an attention framework |
+| Communication | ACTIVE | Layer overview defines the communication structure for fan token intelligence |
+| Verification | NOT APPLICABLE | Layer overview is structural — not subject to external verification |
+| Learning | NOT APPLICABLE | Layer overview is static reference — updated only on structural changes |
+| Integration | ACTIVE | This file IS the integration guide — defines how all layers connect |
+| Calibration | NOT APPLICABLE | Layer overview is structural — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Layer overview adapts as new sub-layers and files are added |
+| Ethics | NOT APPLICABLE | Layer overview is structural documentation — no ethical dimension |
+| Transparency | ACTIVE | Full layer structure and load order is publicly documented |
+
+
 ---
 
 ## Lifecycle and partnership intelligence — Layer 3 temporal framework

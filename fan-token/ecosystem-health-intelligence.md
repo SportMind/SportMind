@@ -271,6 +271,27 @@ FIVE-DIMENSION MATURITY ASSESSMENT:
 **Governance engagement:**      `fan-token/governance-intelligence.md`
 **V2.0 mechanics:**             `fan-token/fan-token-lifecycle/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token ecosystem health: CHI composite score, platform health, and ecosystem signals |
+| Reasoning | ACTIVE | CHI reasoning chain from ecosystem signals to composite health modifier |
+| Context | ACTIVE | Ecosystem context: Chiliz platform state, token count, trading volume trend |
+| Memory | ACTIVE | Historical CHI baseline data and ecosystem health trend patterns |
+| Judgment | ACTIVE | Judgment on CHI threshold — below 0.5 applies ECOSYSTEM_RISK modifier to all signals |
+| Attention | ACTIVE | Elevated attention for ecosystem-wide signals: platform outages, CHZ price collapses |
+| Communication | ACTIVE | Ecosystem health output with CHI value and active ecosystem modifiers |
+| Verification | ACTIVE | Ecosystem data from Chiliz official sources and on-chain metrics |
+| Learning | ACTIVE | CHI calibration from historical ecosystem state-to-token performance correlation |
+| Integration | ACTIVE | CHI integrates across all fan token signals as baseline modifier |
+| Calibration | ACTIVE | CHI values and thresholds calibrated against historical ecosystem-outcome data |
+| Adaptation | ACTIVE | Ecosystem health framework adapts as Chiliz platform evolves |
+| Ethics | ACTIVE | Ecosystem manipulation signals are flagged and escalated within this framework |
+| Transparency | ACTIVE | CHI value and its component signals always explicit in output |
+
+
 ---
 
 *SportMind v3.97.41 · MIT License · sportmind.dev*

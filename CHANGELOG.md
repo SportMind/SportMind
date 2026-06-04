@@ -1,5 +1,57 @@
 # Changelog
 
+## [3.97.102] — 2026-06-04
+
+### Added — MIND DIMENSIONS backfill: fan-token/ directory
+
+0 new files. 69 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to 69 fan-token/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note for each dimension.
+
+Already had section (preserved unchanged — 5 files from previous sessions):
+  fan-token/fan-token-revenue-intelligence.md
+  fan-token/fto-framework.md
+  fan-token/regional-intelligence/scotland-sfa.md
+  fan-token/regional-intelligence/south-africa-safa.md
+  fan-token/safa-intelligence.md
+  fan-token/sfa-intelligence.md
+
+Skipped (exempt — 17 files):
+  References/ subdirectory files (pure data/templates — not reasoning frameworks):
+    athlete-social-lift/references/social-platform-api-setup.md
+    brand-score/references/social-following-league-medians.md
+    esports-token-intelligence/references/esports-game-meta-calendar.md
+    fan-token-pulse/references/chiliz-api-response-shapes.md
+    fan-token-pulse/references/chiliz-token-registry.md
+    football-token-intelligence/references/football-athlete-token-profiles.md
+    football-token-intelligence/references/football-competition-impact-data.md
+    formula1-token-intelligence/references/f1-constructor-token-profiles.md
+    mma-token-intelligence/references/mma-fighter-risk-profiles.md
+    performance-off-pitch/references/transfer-adaptation-timelines.md
+    performance-on-pitch/references/advanced-metric-definitions.md
+    sponsorship-match/references/token-activation-templates.md
+    sports-brand-sponsorship/references/endorsement-contract-clauses.md
+    sports-brand-sponsorship/references/sponsorship-deal-benchmarks.md
+    transfer-intelligence/references/contract-clause-templates.md
+    transfer-intelligence/references/transfer-fee-benchmarks.md
+    transfer-signal/references/journalist-source-tiers.md
+  Registry data files:
+    registry/complete-registry.md
+    registry/bridge-supported.md
+
+69 files updated across all fan-token/ subdirectories including:
+  sport-specific token intelligence files (AFL, baseball, basketball, cricket,
+  esports, football, F1, handball, ice hockey, kabaddi, MMA, MotoGP, NASCAR,
+  netball, NFL, rugby league, rugby union), operational intelligence files
+  (agentic wallet, FTP PATH_2, gamified tokenomics, supply, staking, on-chain
+  events), commercial intelligence (brand score, sponsorship, RWA SportFi),
+  market intelligence (DeFi liquidity, exchange, fraud risk, ecosystem health),
+  governance frameworks, lifecycle, holder profiles, and World Cup 2026 files.
+
 ## [3.97.101] — 2026-06-02
 
 ### Added — MIND DIMENSIONS backfill: core/ directory

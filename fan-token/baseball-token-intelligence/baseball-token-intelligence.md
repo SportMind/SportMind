@@ -207,6 +207,27 @@ You are an MLB token intelligence agent. Before any analysis:
    These are the natural first-adopter markets for MLB tokens.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Baseball fan token intelligence: MLB season signals, roster moves, and CDI modifiers |
+| Reasoning | ACTIVE | Baseball token reasoning chain from game signals to fan token modifier |
+| Context | ACTIVE | Baseball context: AL/NL structure, playoff positioning, trade deadline amplifiers |
+| Memory | ACTIVE | Historical baseball token performance patterns and seasonal baseline |
+| Judgment | ACTIVE | Judgment on baseball signal materiality — playoff race signals outweigh regular season |
+| Attention | ACTIVE | Elevated attention during trade deadline and playoff qualification windows |
+| Communication | ACTIVE | Baseball token signal output with sport-specific modifiers |
+| Verification | ACTIVE | Baseball data from MLB official sources |
+| Learning | EMERGING | Baseball token calibration records are limited — emerging dataset |
+| Integration | ACTIVE | Integrates with market/market-baseball.md and core baseball domain files |
+| Calibration | EMERGING | Baseball fan token calibration is an emerging dataset |
+| Adaptation | ACTIVE | Baseball intelligence adapts as token ecosystem matures in US market |
+| Ethics | NOT APPLICABLE | Baseball token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Baseball-specific modifier and seasonal context explicit in output |
+
+
 ---
 
 ## Compatibility

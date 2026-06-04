@@ -323,6 +323,27 @@ KEY OUTPUTS FROM THIS SKILL:
   LTUI adjustment: permanent legacy impact on token lifetime utility
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan sentiment intelligence: aggregate fan mood, emotional state, and demand signal |
+| Reasoning | ACTIVE | Fan sentiment reasoning chain from sentiment signals to demand modifier |
+| Context | ACTIVE | Sentiment context: result recency, competition stakes, media narrative |
+| Memory | ACTIVE | Historical fan sentiment baseline patterns and demand correlation data |
+| Judgment | ACTIVE | Judgment on sentiment signal reliability — requires multi-source confirmation |
+| Attention | ACTIVE | Elevated attention for major sentiment shifts around key club events |
+| Communication | ACTIVE | Fan sentiment output with direction, strength, and SOFT_SIGNAL confidence |
+| Verification | ACTIVE | Sentiment signals require organic verification — bot inflation is a risk |
+| Learning | EMERGING | Fan sentiment-to-demand calibration is developing |
+| Integration | ACTIVE | Integrates with CHI, social sentiment, and disciplinary sentiment intelligence |
+| Calibration | EMERGING | Sentiment modifier calibration is limited by noise-to-signal ratio |
+| Adaptation | ACTIVE | Fan sentiment patterns adapt as social platforms and fan behaviour evolve |
+| Ethics | ACTIVE | Fan sentiment uses public data only — no private monitoring of individual fans |
+| Transparency | ACTIVE | Sentiment source and SOFT_SIGNAL flag always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -207,6 +207,27 @@ You are an NBA basketball token intelligence agent. Before any analysis:
    High NBATIS + top player available + correct phase = high confidence entry.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Basketball fan token intelligence: NBA/EuroLeague signals and CDI modifiers |
+| Reasoning | ACTIVE | Basketball token reasoning chain from game signals to fan token modifier |
+| Context | ACTIVE | Basketball context: conference standings, playoff picture, trade deadline |
+| Memory | ACTIVE | Historical basketball token performance patterns |
+| Judgment | ACTIVE | Judgment on basketball signal materiality — playoff implications dominate |
+| Attention | ACTIVE | Elevated attention during NBA playoff positioning and trade deadline |
+| Communication | ACTIVE | Basketball token signal output with sport-specific modifiers |
+| Verification | ACTIVE | Basketball data from NBA.com and EuroLeague official sources |
+| Learning | EMERGING | Basketball token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-basketball.md and core domain files |
+| Calibration | EMERGING | Basketball fan token calibration is emerging |
+| Adaptation | ACTIVE | Basketball intelligence adapts as token ecosystem evolves |
+| Ethics | NOT APPLICABLE | Basketball token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Basketball-specific modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

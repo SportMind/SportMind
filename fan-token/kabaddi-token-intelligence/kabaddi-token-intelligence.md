@@ -202,6 +202,27 @@ You are a PKL kabaddi token intelligence agent. Before any analysis:
    New announcement = maximum signal event regardless of PKL match result.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Kabaddi fan token intelligence: Pro Kabaddi League signals and Indian market context |
+| Reasoning | ACTIVE | Kabaddi token reasoning chain from PKL signals to fan token modifier |
+| Context | ACTIVE | Kabaddi context: Indian market, PKL season structure, regional fan base dynamics |
+| Memory | ACTIVE | Historical kabaddi token performance patterns and PKL seasonal baseline |
+| Judgment | ACTIVE | Judgment on kabaddi signal materiality — PKL final stages dominate demand |
+| Attention | ACTIVE | Elevated attention during PKL playoff and final windows |
+| Communication | ACTIVE | Kabaddi token signal output with sport and market-specific modifiers |
+| Verification | ACTIVE | Kabaddi data from PKL official sources |
+| Learning | EMERGING | Kabaddi token calibration records are limited — niche market |
+| Integration | ACTIVE | Integrates with market/market-kabaddi.md and sports/kabaddi/ domain files |
+| Calibration | EMERGING | Kabaddi fan token calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Kabaddi intelligence adapts as token ecosystem grows in Indian market |
+| Ethics | NOT APPLICABLE | Kabaddi token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | PKL context and Indian market modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

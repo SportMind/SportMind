@@ -69,6 +69,27 @@ STEP 3: Cross-reference yield compliance framework.
 **Section 404:** `macro/clarity-act-sec404.md`
 **CLARITY Act:** `macro/clarity-act-complete-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token classification framework: token type taxonomy and signal applicability by type |
+| Reasoning | ACTIVE | Classification reasoning chain from token properties to signal framework selection |
+| Context | ACTIVE | Classification context: Chiliz ecosystem, regulatory classification (Digital Collectible), FTP status |
+| Memory | ACTIVE | Historical classification patterns and framework selection outcomes |
+| Judgment | ACTIVE | Judgment on token classification — fractionalized tokens require separate framework |
+| Attention | ACTIVE | Elevated attention when token classification is ambiguous or contested |
+| Communication | ACTIVE | Classification output with type, applicable framework, and regulatory status |
+| Verification | ACTIVE | Token classification requires four-source verification plus contract analysis |
+| Learning | ACTIVE | Classification framework updated as new token types and regulatory guidance emerge |
+| Integration | ACTIVE | Integrates with us-token-taxonomy.md, fraud risk, and official verification framework |
+| Calibration | ACTIVE | Classification criteria calibrated against US regulatory guidance (Digital Collectible) |
+| Adaptation | ACTIVE | Classification framework adapts as regulatory and technical environments evolve |
+| Ethics | ACTIVE | Misclassification that enables fraud or regulatory violations is an ethics failure |
+| Transparency | ACTIVE | Token type classification and regulatory basis always explicit in output |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

@@ -328,6 +328,27 @@ SUPPLY MECHANICS — NATIONAL TEAM TOKENS:
 *SportMind v3.97.18 · MIT License · sportmind.dev*
 *Enduring framework — applies to every major international tournament*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | National team token intelligence: tournament demand catalysts, FTO lifecycle, fraud amplification |
+| Reasoning | ACTIVE | National team reasoning chain from tournament signals to demand modifier and supply event |
+| Context | ACTIVE | National team context: World Cup window, Locker Room launch phases, qualification cycles |
+| Memory | ACTIVE | Historical national team token demand patterns across tournament windows |
+| Judgment | ACTIVE | Judgment on national team signal materiality — World Cup window dominates all others |
+| Attention | ACTIVE | Maximum attention during World Cup fraud amplification window — ALL FOUR sources required |
+| Communication | ACTIVE | National team output with tournament phase, demand modifier, and fraud risk level |
+| Verification | ACTIVE | Four-source verification mandatory for all national team tokens during World Cup window |
+| Learning | ACTIVE | National team token calibration growing with $SAFA/$SFA as first Locker Room examples |
+| Integration | ACTIVE | Integrates with world-cup-2026-intelligence, fto-framework, and complete-registry |
+| Calibration | EMERGING | National team token calibration is developing — $SAFA/$SFA are first calibration points |
+| Adaptation | ACTIVE | National team framework adapts as Locker Room launch mechanics and token ecosystem evolve |
+| Ethics | ACTIVE | World Cup fraud amplification requires the highest fraud detection vigilance |
+| Transparency | ACTIVE | Tournament phase, FTO stage, and fraud risk level always explicit in national team outputs |
+
+
 ---
 
 ## Confirmed official national team Fan Tokens™

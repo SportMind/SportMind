@@ -212,6 +212,27 @@ NATIONAL ASSOCIATION VERIFICATION STEP (additional to four-source):
 **Ecosystem health:**    `fan-token/ecosystem-health-intelligence.md`
 **Agent chain:**         `core/agent-reasoning-chains.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Official verification framework: four-source verification methodology for fan token legitimacy |
+| Reasoning | ACTIVE | Verification reasoning chain from four-source check to VERIFIED/UNVERIFIED classification |
+| Context | ACTIVE | Verification context: elevated requirements during World Cup fraud amplification window |
+| Memory | ACTIVE | Verified token registry as the authoritative memory of confirmed legitimate tokens |
+| Judgment | ACTIVE | Judgment on verification threshold — World Cup window requires all four sources |
+| Attention | ACTIVE | Maximum attention during fraud amplification windows — verification is highest priority |
+| Communication | ACTIVE | Verification output: source checklist status and VERIFIED/UNVERIFIED decision |
+| Verification | ACTIVE | This file IS the verification standard — defines the four-source methodology |
+| Learning | ACTIVE | Verification framework learns as new fraud patterns require additional checks |
+| Integration | ACTIVE | Integrates with fraud risk intelligence, complete-registry, and World Cup framework |
+| Calibration | ACTIVE | Four-source verification is the calibrated standard — validated against confirmed fraud cases |
+| Adaptation | ACTIVE | Verification criteria adapt as new fraud mechanisms emerge |
+| Ethics | ACTIVE | Verification failure protection is a core ethics function — prevents harm from fraud tokens |
+| Transparency | ACTIVE | All four verification sources and their pass/fail status explicit in every output |
+
+
 ---
 
 *SportMind v3.97.44 · MIT License · sportmind.dev*

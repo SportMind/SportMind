@@ -524,6 +524,27 @@ PRINCIPLE 3 — INFRASTRUCTURE FOR THE FUTURE:
   Building on SportMind is building on the foundation layer of that future.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token value proposition: why fan tokens exist and what drives their value |
+| Reasoning | ACTIVE | Value reasoning framework: utility, community, speculation, and FTP supply mechanics |
+| Context | ACTIVE | Context: fan token vs general crypto, Socios ecosystem, sport-specific demand drivers |
+| Memory | ACTIVE | Historical fan token value pattern data from library calibration records |
+| Judgment | ACTIVE | Judgment on value driver hierarchy — utility vs speculation varies by lifecycle phase |
+| Attention | ACTIVE | Framework guides attention toward genuine value signals vs noise |
+| Communication | ACTIVE | Value proposition framework underpins all fan token output framing |
+| Verification | ACTIVE | Value claims require empirical calibration data — not theoretical assertions |
+| Learning | ACTIVE | Value framework learns from calibration records as evidence accumulates |
+| Integration | ACTIVE | Value framework integrates with all five fan token intelligence layers |
+| Calibration | ACTIVE | Value driver weightings calibrated against historical demand-to-utility correlation |
+| Adaptation | ACTIVE | Value framework adapts as fan token use cases and mechanics evolve |
+| Ethics | ACTIVE | Value framework explicitly rejects passive yield promises as fraud signals |
+| Transparency | ACTIVE | Value driver hierarchy and evidence basis explicit in all fundamental analysis |
+
+
 ---
 
 **See also:**

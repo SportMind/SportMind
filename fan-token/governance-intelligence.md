@@ -183,6 +183,27 @@ HOW GOVERNANCE INTEGRATES INTO CDI CALCULATION:
 **CDI framework:**         `fan-token/fan-token-lifecycle/`
 **PATH_2 mechanics:**      `fan-token/ftp-path2.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token governance intelligence: voting patterns, proposal signals, and CHI components |
+| Reasoning | ACTIVE | Governance reasoning chain from proposal/vote activity to CHI and CDI modifier |
+| Context | ACTIVE | Governance context: proposal type, voter turnout, governance power distribution |
+| Memory | ACTIVE | Historical governance activity patterns and voter participation baselines |
+| Judgment | ACTIVE | Judgment on governance signal materiality — low turnout reduces signal reliability |
+| Attention | ACTIVE | Elevated attention for major governance proposals and hostile takeover patterns |
+| Communication | ACTIVE | Governance output with CHI contribution, proposal status, and modifier |
+| Verification | ACTIVE | Governance data from on-chain voting records — Socios platform confirmations |
+| Learning | ACTIVE | Governance pattern calibration from historical vote-to-outcome data |
+| Integration | ACTIVE | Integrates with CHI, fan holder profiles, and governance takeover framework |
+| Calibration | ACTIVE | CHI governance component calibrated against holder participation data |
+| Adaptation | ACTIVE | Governance intelligence adapts as Socios voting mechanisms and rights evolve |
+| Ethics | ACTIVE | Individual voter tracking of identifiable holders raises GDPR concerns — aggregate analysis only |
+| Transparency | ACTIVE | Governance data source and GDPR boundary explicit in all governance outputs |
+
+
 ---
 
 *SportMind v3.97.28 · MIT License · sportmind.dev*

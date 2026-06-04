@@ -368,6 +368,27 @@ You are an esports fan token intelligence agent. Before evaluating any esports e
 **Recommended:** `athlete/esports` (roster health and meta readiness)
 **Recommended:** `transfer-intelligence` (roster transfer context)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Esports fan token intelligence: tournament signals, team roster changes, and game meta |
+| Reasoning | ACTIVE | Esports token reasoning chain from game/tournament signal to fan token modifier |
+| Context | ACTIVE | Esports context: game title, major tournament windows, roster volatility, streaming audience |
+| Memory | ACTIVE | Historical esports token performance patterns by game title and tournament |
+| Judgment | ACTIVE | Judgment on esports signal materiality — roster changes are highest impact signal |
+| Attention | ACTIVE | Elevated attention during major esports tournament windows and roster announcement periods |
+| Communication | ACTIVE | Esports token output with tournament stage, roster status, and modifier |
+| Verification | ACTIVE | Esports roster data from official team announcements and tournament operator |
+| Learning | EMERGING | Esports token calibration records are limited — young domain |
+| Integration | ACTIVE | Integrates with market/market-esports.md and esports sport domain files |
+| Calibration | EMERGING | Esports token calibration is emerging — limited comparable historical data |
+| Adaptation | ACTIVE | Esports intelligence adapts as game meta and tournament formats evolve rapidly |
+| Ethics | NOT APPLICABLE | Esports token intelligence is gaming/sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Game title, tournament window, and roster source explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

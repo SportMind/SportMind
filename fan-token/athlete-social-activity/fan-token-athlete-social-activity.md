@@ -220,6 +220,27 @@ When user asks for a content strategy or posting plan:
 - `references/sentiment-lexicon-sports.md` — Sport-specific sentiment vocabulary *(planned)*
 - `references/engagement-benchmarks.md` — Position and league-adjusted benchmarks *(planned)*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete social media activity as a fan token demand signal |
+| Reasoning | ACTIVE | Social activity reasoning chain from athlete post to fan engagement and CDI modifier |
+| Context | ACTIVE | Social context: platform, timing, engagement rate, athlete profile size |
+| Memory | ACTIVE | Historical social activity pattern baselines by athlete and platform |
+| Judgment | ACTIVE | Judgment on social signal materiality — not all athlete posts are fan token signals |
+| Attention | ACTIVE | Elevated attention for unusual social activity spikes near competition events |
+| Communication | ACTIVE | Social activity output with engagement metrics and demand signal confidence |
+| Verification | ACTIVE | Social signals require bot detection — verified organic engagement only |
+| Learning | EMERGING | Social activity-to-demand calibration is emerging — limited records |
+| Integration | ACTIVE | Integrates with CHI, social sentiment, and fan token demand intelligence |
+| Calibration | EMERGING | Social signal calibration limited — high noise ratio in social data |
+| Adaptation | ACTIVE | Social intelligence adapts as platform dynamics and athlete social behaviours evolve |
+| Ethics | ACTIVE | Athlete social monitoring uses public data only — no private data |
+| Transparency | ACTIVE | Social source platform and organic/bot assessment explicit in output |
+
+
 ---
 
 ## Environment variables

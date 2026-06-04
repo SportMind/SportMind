@@ -201,6 +201,27 @@ US:
 **Calibration:**    `community/calibration-data/football/2026/04/`
 **UCL signal:**     `examples/calibration/ucl-final-2026-psg-arsenal-signal.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Arsenal-specific fan token intelligence: $AFC profile, FTP PATH_2 mechanics, CDI |
+| Reasoning | ACTIVE | Arsenal token reasoning chain from club signal to $AFC modifier |
+| Context | ACTIVE | Arsenal context: PL Champions 2025/26, UCL Final 2026, FTP PATH_2 active |
+| Memory | ACTIVE | Arsenal token history: three verified PATH_2 calibration records (April 2026) |
+| Judgment | ACTIVE | Judgment on Arsenal-specific signal materiality — FTP PATH_2 adds supply event layer |
+| Attention | ACTIVE | Elevated attention for Arsenal match results — all trigger PATH_2 supply events |
+| Communication | ACTIVE | Arsenal token output: CDI modifier, PATH_2 status, supply event type |
+| Verification | ACTIVE | Arsenal PATH_2 events verified via chiliscan.com on-chain confirmation |
+| Learning | ACTIVE | Arsenal calibration data — three PATH_2 records provide verified supply baseline |
+| Integration | ACTIVE | Integrates with ftp-path2.md, complete-registry.md, and athlete/football/arsenal-afc.md |
+| Calibration | ACTIVE | Arsenal PATH_2 calibration: WIN burn (159,025), LOSS mint (100,000), DRAW (0) verified |
+| Adaptation | ACTIVE | Arsenal intelligence adapts as PATH_2 pool sizes and club performance evolves |
+| Ethics | NOT APPLICABLE | Arsenal token intelligence is sports/crypto analysis — no ethical dimension |
+| Transparency | ACTIVE | PATH_2 supply event outcome and on-chain source explicit in all Arsenal outputs |
+
+
 ---
 
 *SportMind v3.97.10 · MIT License · sportmind.dev*

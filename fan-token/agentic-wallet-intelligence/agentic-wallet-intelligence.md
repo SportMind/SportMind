@@ -443,6 +443,27 @@ NEVER AUTOMATES:
 **Macro gate:** `macro/macro-crypto-market-cycles.md` — always load before any wallet action
 **Agent framework:** `core/autonomous-agent-framework.md` — autonomy levels and safety model
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Agentic wallet intelligence: autonomous on-chain execution, wallet strategy, and risk controls |
+| Reasoning | ACTIVE | Agentic wallet reasoning chain from signal to execution decision |
+| Context | ACTIVE | Wallet context: portfolio state, gas prices, liquidity depth, autonomous operation mode |
+| Memory | ACTIVE | Wallet state memory: position history, transaction log, and performance tracking |
+| Judgment | ACTIVE | Wallet judgment gates: risk threshold, position size limit, execution conditions |
+| Attention | ACTIVE | Elevated attention for on-chain execution opportunities and risk triggers |
+| Communication | ACTIVE | Wallet output: execution decision, position size, risk level, and reasoning |
+| Verification | ACTIVE | On-chain execution requires signal verification before action — no unverified trades |
+| Learning | ACTIVE | Wallet strategy learning from historical execution outcome data |
+| Integration | ACTIVE | Full five-layer integration — wallet decisions depend on all intelligence layers |
+| Calibration | ACTIVE | Risk thresholds calibrated against historical execution outcome data |
+| Adaptation | ACTIVE | Wallet strategy adapts to portfolio state and market regime changes |
+| Ethics | ACTIVE | Hard execution limits that no signal can override — wallet scope is strictly bounded |
+| Transparency | ACTIVE | Execution decision and reasoning chain always logged before action |
+
+
 ---
 
 *SportMind v3.87.0 · MIT License · sportmind.dev*

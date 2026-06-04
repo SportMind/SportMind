@@ -148,6 +148,27 @@ No Japanese localisation:                        ×0.85 to Japan demand estimate
 **Verification framework:**  `fan-token/official-verification-framework.md`
 **Regional macro:**          `macro/macro-regulatory-sportfi.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Japan regional fan token intelligence: overarching Japanese sports token market framework |
+| Reasoning | ACTIVE | Japan reasoning chain from market-level signals to regional modifier |
+| Context | ACTIVE | Japan context: Japanese market size, multi-sport token presence, regulatory environment |
+| Memory | ACTIVE | Historical Japanese market fan token performance and seasonal patterns |
+| Judgment | ACTIVE | Judgment on Japan-wide signals vs sport-specific signals within Japan |
+| Attention | ACTIVE | Elevated attention for Japan-wide market events and regulatory developments |
+| Communication | ACTIVE | Japan market signal output with regional modifier and sport breakdown |
+| Verification | ACTIVE | Japan market data from official sport federation and financial sources |
+| Learning | EMERGING | Japan regional market calibration is developing |
+| Integration | ACTIVE | Integrates with j-league.md and national-team-tokens.md for Japan national team |
+| Calibration | EMERGING | Japan market-wide calibration is an emerging framework |
+| Adaptation | ACTIVE | Japan intelligence adapts as token market and regulatory environment evolve |
+| Ethics | NOT APPLICABLE | Japan regional intelligence is market analysis — no ethical dimension |
+| Transparency | ACTIVE | Japan market context and source explicit in output |
+
+
 ---
 
 *SportMind v3.97.59 · MIT License · sportmind.dev*

@@ -286,6 +286,27 @@ PROFESSIONALISM SIGNALS
 - `references/injury-phases.md` — Rehabilitation phase language patterns and timelines *(planned)*
 - `references/youth-benchmarks.md` — Age-group development benchmarks by position *(planned)*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Off-pitch performance signals: commercial deals, governance events, social controversies |
+| Reasoning | ACTIVE | Off-pitch reasoning chain from non-sporting event to CDI and demand modifier |
+| Context | ACTIVE | Off-pitch context: timing relative to competition, media amplification, club response |
+| Memory | ACTIVE | Historical off-pitch event impact patterns and CDI recovery timelines |
+| Judgment | ACTIVE | Judgment on off-pitch signal materiality — disciplinary and commercial are highest impact |
+| Attention | ACTIVE | Elevated attention for off-pitch events near competition windows |
+| Communication | ACTIVE | Off-pitch signal output with event type, CDI modifier, and duration assessment |
+| Verification | ACTIVE | Off-pitch events require official confirmation before applying modifier |
+| Learning | EMERGING | Off-pitch calibration has limited records due to event diversity |
+| Integration | ACTIVE | Integrates with CDI framework, disciplinary intelligence, and fan sentiment |
+| Calibration | EMERGING | Off-pitch modifier calibration is limited by event type diversity |
+| Adaptation | ACTIVE | Off-pitch intelligence adapts as fan token market sensitivity to non-sport events evolves |
+| Ethics | ACTIVE | Off-pitch signals about individuals use only publicly confirmed information |
+| Transparency | ACTIVE | Off-pitch event source and confirmation status explicit in output |
+
+
 ---
 
 ## Environment variables

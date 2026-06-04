@@ -247,6 +247,27 @@ RULE 4: Pre-match second-leg context
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tournament elimination intelligence: knockout stage signals, demand cliff, and supply event timing |
+| Reasoning | ACTIVE | Elimination reasoning chain from knockout result to post-elimination demand decay modifier |
+| Context | ACTIVE | Elimination context: tournament stage, token holder composition, FTP active status |
+| Memory | ACTIVE | Historical tournament elimination demand decay patterns and recovery timelines |
+| Judgment | ACTIVE | Judgment on elimination signal severity — UCL elimination with FTP LOSS is maximum negative signal |
+| Attention | ACTIVE | Maximum attention when elimination coincides with active FTP supply event |
+| Communication | ACTIVE | Elimination output with stage, demand decay modifier, FTP supply event status, and timeline |
+| Verification | ACTIVE | Elimination result requires official competition confirmation |
+| Learning | ACTIVE | Elimination demand decay calibrated from post-elimination historical data |
+| Integration | ACTIVE | Integrates with world-cup-2026-intelligence, FTP framework, and CDI |
+| Calibration | ACTIVE | Elimination decay modifiers calibrated: ×0.70 (group) to ×0.88 (runner-up) |
+| Adaptation | ACTIVE | Elimination intelligence adapts as tournament formats and FTP mechanics evolve |
+| Ethics | NOT APPLICABLE | Elimination analysis is sports analytical — no ethical dimension |
+| Transparency | ACTIVE | Elimination stage, decay modifier applied, and FTP event status explicit in output |
+
+
 ---
 
 *SportMind v3.64 · MIT License · sportmind.dev*

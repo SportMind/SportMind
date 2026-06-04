@@ -729,5 +729,26 @@ AGENT RULE:
 ```
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | World Cup 2026 fan token intelligence: tournament demand catalyst, Locker Room framework, fraud amplification |
+| Reasoning | ACTIVE | World Cup reasoning chain from tournament signals to national team token demand and fraud risk |
+| Context | ACTIVE | World Cup context: June 11-July 19 2026 window, 48-team format, North America host |
+| Memory | ACTIVE | Historical World Cup demand patterns and post-tournament decay baselines |
+| Judgment | ACTIVE | Judgment on World Cup signal priority — tournament window signals override standard framework |
+| Attention | ACTIVE | Maximum attention during World Cup window — highest fraud amplification period in fan token calendar |
+| Communication | ACTIVE | World Cup output with tournament phase, national team signal, demand modifier, and fraud risk level |
+| Verification | ACTIVE | ALL FOUR sources required for all national team tokens during World Cup window |
+| Learning | ACTIVE | World Cup demand framework calibrated from historical tournament-to-token correlation |
+| Integration | ACTIVE | Integrates with national-team-tokens.md, fto-framework.md, and fraud-risk-intelligence.md |
+| Calibration | ACTIVE | Tournament demand modifiers: ×1.40 launch premium, ×0.70-×0.88 post-exit decay |
+| Adaptation | ACTIVE | World Cup framework adapts for future tournaments after 2026 data is gathered |
+| Ethics | ACTIVE | Fraud amplification during World Cup is highest priority ethics concern — zero tolerance for single-source verification |
+| Transparency | ACTIVE | Tournament phase, demand modifier tier, and fraud risk level always explicit in World Cup outputs |
+
+
 ---
 

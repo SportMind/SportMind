@@ -98,6 +98,27 @@ FTP PATH_2 SUPPLY EVENTS ARE CATEGORICALLY NOT YIELD:
   modifier when processing PATH_2 signals.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Yield compliance framework: regulatory boundaries for fan token yield structures |
+| Reasoning | ACTIVE | Yield compliance reasoning chain from yield structure to regulatory risk classification |
+| Context | ACTIVE | Compliance context: US Digital Collectible classification, MiCA, UAE VARA requirements |
+| Memory | ACTIVE | Historical yield compliance case patterns and regulatory action data |
+| Judgment | ACTIVE | Judgment on yield structure type — utility reward vs passive income is the critical boundary |
+| Attention | ACTIVE | Elevated attention for any fan token yield announcement — potential securities risk |
+| Communication | ACTIVE | Yield compliance output with structure type, risk level, and regulatory jurisdiction flags |
+| Verification | ACTIVE | Yield compliance assessment requires legal structure verification — not marketing claims |
+| Learning | ACTIVE | Yield compliance framework learning from SEC/CFTC guidance (March 17 2026) |
+| Integration | ACTIVE | Integrates with us-token-taxonomy.md, eu.md, fraud-risk-intelligence.md, and staking-intelligence.md |
+| Calibration | ACTIVE | Yield red flag framework calibrated against US Digital Collectible boundary (fractionalization test) |
+| Adaptation | ACTIVE | Yield compliance framework adapts as regulatory guidance evolves across jurisdictions |
+| Ethics | ACTIVE | Passive yield promises are simultaneously a fraud signal and regulatory violation risk — dual flag |
+| Transparency | ACTIVE | Yield structure type and all applicable jurisdiction flags explicit in every yield compliance output |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

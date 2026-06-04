@@ -279,6 +279,27 @@ IF verdict = criminal conviction (Tier 4):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Disciplinary sentiment intelligence: how disciplinary events affect fan sentiment and token demand |
+| Reasoning | ACTIVE | Disciplinary sentiment reasoning chain from event to CDI and demand modifier |
+| Context | ACTIVE | Sentiment context: incident severity, media amplification, club response |
+| Memory | ACTIVE | Historical disciplinary sentiment patterns and demand impact data |
+| Judgment | ACTIVE | Judgment on sentiment impact duration — acute vs chronic disciplinary effects |
+| Attention | ACTIVE | Elevated attention for high-profile disciplinary events near competition |
+| Communication | ACTIVE | Disciplinary sentiment output with severity assessment and CDI modifier |
+| Verification | ACTIVE | Disciplinary events require official confirmation before sentiment signal applied |
+| Learning | EMERGING | Disciplinary sentiment calibration is limited — complex soft signal |
+| Integration | ACTIVE | Integrates with fan sentiment, disciplinary intelligence, and CDI |
+| Calibration | EMERGING | Sentiment modifier calibration for disciplinary events has limited records |
+| Adaptation | ACTIVE | Sentiment patterns adapt as fan base profiles and social media dynamics evolve |
+| Ethics | ACTIVE | Disciplinary sentiment analysis uses public signal data — no private information |
+| Transparency | ACTIVE | Disciplinary event source and sentiment modifier flagged as SOFT_SIGNAL in output |
+
+
 ---
 
 *SportMind v3.32 · MIT License · sportmind.dev*

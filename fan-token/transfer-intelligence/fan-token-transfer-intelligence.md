@@ -223,6 +223,27 @@ During January and summer windows:
 - `references/contract-clause-templates.md` — Common clause types and risk frameworks
 - `references/loan-case-studies.md` — Historical loan spell outcomes for DLVS calibration *(planned)*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token transfer intelligence: how player transfers affect club CDI and token demand |
+| Reasoning | ACTIVE | Transfer intelligence reasoning chain from player move to CDI modifier and demand signal |
+| Context | ACTIVE | Transfer context: player profile, fee size, club fit, APS impact, transfer window timing |
+| Memory | ACTIVE | Historical transfer impact patterns and CDI recovery/uplift timelines |
+| Judgment | ACTIVE | Judgment on transfer signal materiality — marquee signing vs squad depth differ |
+| Attention | ACTIVE | Elevated attention during transfer windows for confirmed moves |
+| Communication | ACTIVE | Transfer intelligence output with CDI modifier, APS impact, and timeline |
+| Verification | ACTIVE | Player transfers require official club announcement — journalist reports are Tier 2 |
+| Learning | ACTIVE | Transfer impact calibration from historical signing-to-CDI correlation |
+| Integration | ACTIVE | Integrates with transfer signal, transfer window, CDI, and athlete financial intelligence |
+| Calibration | ACTIVE | Transfer CDI modifiers calibrated from historical marquee signing impact data |
+| Adaptation | ACTIVE | Transfer intelligence adapts as player valuations and market dynamics evolve |
+| Ethics | ACTIVE | Transfer signals about minors require additional verification care |
+| Transparency | ACTIVE | Transfer source tier, deal stage, and CDI modifier explicit in output |
+
+
 ---
 
 ## Environment variables

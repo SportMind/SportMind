@@ -786,6 +786,27 @@ AGENT RULE:
 ```
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token lifecycle intelligence: phases 1-5e, lifecycle signals, and phase transition modifiers |
+| Reasoning | ACTIVE | Lifecycle reasoning chain from phase identification to appropriate signal framework |
+| Context | ACTIVE | Lifecycle context: token age, holder composition, volume trend, governance activity |
+| Memory | ACTIVE | Historical lifecycle phase transition patterns and duration baselines |
+| Judgment | ACTIVE | Judgment on phase classification — phase boundaries are gradient not binary |
+| Attention | ACTIVE | Elevated attention for phase transition signals — particularly Phase 1→2 and Phase 4 risks |
+| Communication | ACTIVE | Lifecycle output with phase identifier, transition probability, and modifier |
+| Verification | ACTIVE | Lifecycle phase assessment from verified on-chain and market data |
+| Learning | ACTIVE | Lifecycle phase calibration from historical phase-to-demand correlation data |
+| Integration | ACTIVE | Integrates with ecosystem health, holder profiles, and governance intelligence |
+| Calibration | ACTIVE | Lifecycle phase modifiers calibrated against historical phase-outcome data |
+| Adaptation | ACTIVE | Lifecycle framework adapts as fan token maturity profiles evolve |
+| Ethics | NOT APPLICABLE | Lifecycle assessment is analytical — no ethical dimension |
+| Transparency | ACTIVE | Phase identification basis and transition probability explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

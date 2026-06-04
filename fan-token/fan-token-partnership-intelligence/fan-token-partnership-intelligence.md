@@ -765,6 +765,27 @@ as a strategic resource for sports clubs: Opportunities, challenges, and a stake
 **Crypto cycle:** `macro/macro-crypto-market-cycles.md` (cycle affects all partnership signals)
 **Governance:** `macro/macro-governance-scandal.md` (forced termination risk)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token partnership intelligence: club-Chiliz relationship signals and partnership health |
+| Reasoning | ACTIVE | Partnership reasoning chain from relationship signals to CDI and sustainability modifier |
+| Context | ACTIVE | Partnership context: contract length, renewal signals, revenue sharing, governance rights |
+| Memory | ACTIVE | Historical partnership pattern data and renewal/exit outcome baselines |
+| Judgment | ACTIVE | Judgment on partnership health signals — strategic communication often obscures reality |
+| Attention | ACTIVE | Elevated attention for partnership renewal windows and club-side commercial strategy signals |
+| Communication | ACTIVE | Partnership output with health assessment, CDI modifier, and sustainability rating |
+| Verification | ACTIVE | Partnership terms require official club and Chiliz announcements for confirmation |
+| Learning | ACTIVE | Partnership health calibration from historical partnership-outcome correlation |
+| Integration | ACTIVE | Integrates with CDI framework, club operations, and official verification framework |
+| Calibration | ACTIVE | Partnership sustainability modifiers calibrated against historical partnership lifecycle data |
+| Adaptation | ACTIVE | Partnership intelligence adapts as Chiliz commercial model evolves |
+| Ethics | NOT APPLICABLE | Partnership intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Partnership health assessment basis and source tier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

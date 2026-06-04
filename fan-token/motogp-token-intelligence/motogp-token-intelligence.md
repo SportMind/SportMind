@@ -238,6 +238,27 @@ You are a MotoGP token intelligence agent. Before any analysis:
    Sprint crash → check injury before GP analysis.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MotoGP fan token intelligence: circuit signals, championship position, and constructor CDI |
+| Reasoning | ACTIVE | MotoGP token reasoning chain from race/qualifying signals to fan token modifier |
+| Context | ACTIVE | MotoGP context: circuit characteristics, championship gap, weather sensitivity |
+| Memory | ACTIVE | Historical MotoGP token performance patterns and circuit-specific baselines |
+| Judgment | ACTIVE | Judgment on MotoGP signal materiality — championship deciders dominate signals |
+| Attention | ACTIVE | Elevated attention during title-deciding race weekends |
+| Communication | ACTIVE | MotoGP token signal output with circuit modifier and championship context |
+| Verification | ACTIVE | MotoGP data from FIM/MotoGP official sources |
+| Learning | EMERGING | MotoGP token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-motogp.md and sports/motogp/ domain files |
+| Calibration | EMERGING | MotoGP fan token calibration is an emerging dataset |
+| Adaptation | ACTIVE | MotoGP intelligence adapts as constructor performance hierarchy changes |
+| Ethics | NOT APPLICABLE | MotoGP token intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | Circuit type, championship gap, and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

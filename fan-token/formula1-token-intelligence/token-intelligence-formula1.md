@@ -370,6 +370,27 @@ You are a Formula 1 fan token intelligence agent. Before evaluating any F1 event
 **Recommended:** `transfer-intelligence` — silly season contract analysis.
 **Recommended:** `athlete/meta` — weather overlay (critical in F1).
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Formula 1 fan token intelligence: qualifying delta, constructor signals, race outcome modifiers |
+| Reasoning | ACTIVE | F1 token reasoning chain from qualifying/race signals to fan token modifier |
+| Context | ACTIVE | F1 context: circuit type, qualifying delta advantage, constructor championship position |
+| Memory | ACTIVE | Historical F1 token performance patterns and qualifying_delta calibration data |
+| Judgment | ACTIVE | Judgment on F1 signal materiality — qualifying delta is the highest-certainty F1 signal |
+| Attention | ACTIVE | Elevated attention for qualifying sessions and constructor championship turning points |
+| Communication | ACTIVE | F1 token output with qualifying delta, circuit modifier, and CDI |
+| Verification | ACTIVE | F1 data from FIA official timing and constructor announcements |
+| Learning | ACTIVE | F1 token calibration — qualifying_delta (4/4 ✓) is well-validated |
+| Integration | ACTIVE | Integrates with market/market-formula1.md and sports/formula1/ domain files |
+| Calibration | ACTIVE | qualifying_delta modifier: 4/4 correct — one of the most reliable SportMind signals |
+| Adaptation | ACTIVE | F1 intelligence adapts as regulation changes affect constructor performance hierarchy |
+| Ethics | NOT APPLICABLE | F1 token intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | Qualifying delta value, circuit type, and modifier basis explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

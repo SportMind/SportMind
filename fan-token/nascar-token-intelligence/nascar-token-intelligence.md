@@ -202,6 +202,27 @@ You are a NASCAR token intelligence agent. Before any analysis:
    NASCAR has strong narrative signals (first win, last chance, revenge).
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NASCAR fan token intelligence: Cup Series signals, sponsor dynamics, and US market context |
+| Reasoning | ACTIVE | NASCAR token reasoning chain from race/championship signals to fan token modifier |
+| Context | ACTIVE | NASCAR context: Playoff stages, superspeedway vs short track, sponsor activation |
+| Memory | ACTIVE | Historical NASCAR token performance patterns and playoff structure baselines |
+| Judgment | ACTIVE | Judgment on NASCAR signal materiality — Playoff stages and sponsor signals dominate |
+| Attention | ACTIVE | Elevated attention during NASCAR Playoff and Championship race windows |
+| Communication | ACTIVE | NASCAR token signal output with race type modifier and sponsor context |
+| Verification | ACTIVE | NASCAR data from NASCAR.com official sources |
+| Learning | EMERGING | NASCAR token calibration records are limited — US market is emerging |
+| Integration | ACTIVE | Integrates with market/market-nascar.md and sports/nascar/ domain files |
+| Calibration | EMERGING | NASCAR fan token calibration is an early-stage dataset |
+| Adaptation | ACTIVE | NASCAR intelligence adapts as US fan token market and token ecosystem grow |
+| Ethics | NOT APPLICABLE | NASCAR token intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | Race type, playoff stage, and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

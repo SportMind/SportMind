@@ -557,6 +557,27 @@ Monitor Chiliz chain changelog and governance proposals for bridge activation.
 **Data sources:**
 - `core/data-sources.md` — Layer 3 on-chain sources section
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | DeFi liquidity intelligence: on-chain liquidity depth, pool health, and slippage signals |
+| Reasoning | ACTIVE | Liquidity reasoning chain from pool data to secondary market signal modifier |
+| Context | ACTIVE | Liquidity context: pool type (AMM/order book), protocol, TVL, 24h volume |
+| Memory | ACTIVE | Historical liquidity pattern baselines and seasonal variation data |
+| Judgment | ACTIVE | Judgment on liquidity signal materiality — thin liquidity amplifies price volatility |
+| Attention | ACTIVE | Elevated attention for significant liquidity withdrawals and pool health degradation |
+| Communication | ACTIVE | Liquidity signal output with pool depth, slippage estimate, and confidence |
+| Verification | ACTIVE | Liquidity data from on-chain sources (DEX contracts) — not aggregator estimates |
+| Learning | EMERGING | Liquidity-to-signal calibration requires more cross-pool data |
+| Integration | ACTIVE | Integrates with on-chain event intelligence and supply intelligence |
+| Calibration | EMERGING | DeFi liquidity signal calibration is an emerging framework |
+| Adaptation | ACTIVE | Liquidity intelligence adapts as DeFi protocols and pool mechanics evolve |
+| Ethics | ACTIVE | Liquidity manipulation detection is part of this framework — flagged when detected |
+| Transparency | ACTIVE | Pool source, TVL, and slippage estimate basis explicit in output |
+
+
 ---
 
 *SportMind v3.82.0 · MIT License · SportMind · sportmind.dev*

@@ -155,6 +155,27 @@ If the user asks "which players drive the most token engagement at [club]":
 - `references/content-classifier.md` — Detailed content type classification patterns
 - `references/lift-calibration.md` — AELS calibration data by position and league tier
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete social lift: sustained social engagement uplift from athlete commercial activity |
+| Reasoning | ACTIVE | Social lift reasoning chain from athlete activity to token demand uplift modifier |
+| Context | ACTIVE | Lift context: campaign type, duration, athlete fanbase size, token holder overlap |
+| Memory | ACTIVE | Historical social lift pattern data and duration baselines |
+| Judgment | ACTIVE | Judgment on lift duration — short-term spike vs sustained demand shift |
+| Attention | ACTIVE | Elevated attention for athlete commercial announcements that may drive lift |
+| Communication | ACTIVE | Social lift output with estimated duration, magnitude, and confidence |
+| Verification | ACTIVE | Lift signals require verification of organic engagement — not bot inflation |
+| Learning | EMERGING | Social lift calibration requires more post-campaign outcome data |
+| Integration | ACTIVE | Integrates with athlete brand score and fan sentiment intelligence |
+| Calibration | EMERGING | Lift magnitude calibration is limited — campaign-to-price correlation data needed |
+| Adaptation | ACTIVE | Lift patterns adapt as platform algorithms and athlete social strategies evolve |
+| Ethics | ACTIVE | Social lift analysis uses public data — no private monitoring |
+| Transparency | ACTIVE | Lift source and organic verification status explicit in output |
+
+
 ---
 
 ## Environment variables

@@ -194,6 +194,27 @@ MID-SEASON COMPETITION ELIMINATION:
 **Tournament macro:**     `macro/tournament-macro.md`
 **AFCON disruption:**     `sports/football/sport-domain-afcon.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token portfolio intelligence: multi-token diversification signals and portfolio-level modifiers |
+| Reasoning | ACTIVE | Portfolio reasoning chain from individual token signals to aggregate portfolio signal |
+| Context | ACTIVE | Portfolio context: correlation structure, token diversity, macro regime, CHZ exposure |
+| Memory | ACTIVE | Historical portfolio performance patterns and correlation data |
+| Judgment | ACTIVE | Judgment on portfolio signal aggregation — correlated tokens require concentration discount |
+| Attention | ACTIVE | Elevated attention for portfolio-wide events: CHZ price movement, macro regime shifts |
+| Communication | ACTIVE | Portfolio output with aggregate signal, concentration risk, and diversification assessment |
+| Verification | ACTIVE | Portfolio signals aggregate verified individual token signals — single unverified token contaminates |
+| Learning | EMERGING | Portfolio-level calibration is limited — requires multi-token tracking data |
+| Integration | ACTIVE | Integrates with supply intelligence, ecosystem health, and macro intelligence |
+| Calibration | EMERGING | Portfolio correlation structure calibration is an emerging framework |
+| Adaptation | ACTIVE | Portfolio intelligence adapts as token set and correlation structure evolve |
+| Ethics | NOT APPLICABLE | Portfolio analysis is financial — no ethical dimension beyond individual token ethics |
+| Transparency | ACTIVE | Portfolio composition, correlation assumptions, and concentration risk explicit in output |
+
+
 ---
 
 *SportMind v3.97.28 · MIT License · sportmind.dev*

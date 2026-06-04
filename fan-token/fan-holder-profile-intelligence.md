@@ -353,6 +353,27 @@ ANTE ET AL. (2025) RESEARCH CONNECTIONS:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan holder profile intelligence: Governor/Loyalist/Speculator/Amplifier archetype framework |
+| Reasoning | ACTIVE | Holder profile reasoning chain from on-chain behaviour to HAS and demand modifier |
+| Context | ACTIVE | Holder context: wallet history, governance participation, transfer patterns |
+| Memory | ACTIVE | Holder archetype baseline profiles and behaviour pattern data |
+| Judgment | ACTIVE | Judgment on holder archetype confidence — pseudonymous data limits precision |
+| Attention | ACTIVE | Elevated attention for holder composition shifts — archetype migration signals |
+| Communication | ACTIVE | Holder profile output with archetype distribution and HAS modifier |
+| Verification | ACTIVE | Holder classification from on-chain data only — GDPR profiling boundary applies |
+| Learning | ACTIVE | Holder pattern learning from on-chain behaviour and governance participation data |
+| Integration | ACTIVE | Integrates with CHI, governance intelligence, and supply intelligence |
+| Calibration | EMERGING | Holder archetype-to-demand calibration requires more cross-token data |
+| Adaptation | ACTIVE | Holder profiles adapt as token holder communities mature and evolve |
+| Ethics | ACTIVE | Profiling individual identifiable holders requires GDPR compliance — aggregate analysis only |
+| Transparency | ACTIVE | Holder archetype basis and GDPR boundary noted in all holder profile outputs |
+
+
 ---
 
 *SportMind v3.62 · MIT License · sportmind.dev*

@@ -177,6 +177,27 @@ During Jan and summer transfer windows, run in continuous monitoring mode:
 - `references/sentiment-patterns.md` — Common fan community phrases and NLP mappings
 - `references/aps-calibration.md` — APS validation data from historical transfers
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token transfer signal intelligence: early transfer rumour detection and signal triage |
+| Reasoning | ACTIVE | Transfer signal reasoning chain from rumour to probability-weighted CDI anticipation |
+| Context | ACTIVE | Signal context: journalist tier, window timing, player contract status |
+| Memory | ACTIVE | Historical transfer signal accuracy patterns by journalist source tier |
+| Judgment | ACTIVE | Judgment on transfer signal reliability — Tier 1 journalist signals vs social media differ dramatically |
+| Attention | ACTIVE | Elevated attention for Tier 1 journalist exclusives during transfer windows |
+| Communication | ACTIVE | Transfer signal output with source tier, probability, and preliminary CDI anticipation |
+| Verification | ACTIVE | Transfer signals are never Tier 1 without official club announcement — all pre-announcement signals are Tier 2-4 |
+| Learning | ACTIVE | Transfer signal calibration from historical journalist accuracy-to-completion data |
+| Integration | ACTIVE | Integrates with transfer intelligence, transfer window, and player agent intelligence |
+| Calibration | ACTIVE | Journalist tier accuracy calibration: Tier 1 journalists have highest completion rates |
+| Adaptation | ACTIVE | Transfer signal framework adapts as new credible journalists and platforms emerge |
+| Ethics | ACTIVE | Transfer speculation about minors or private individuals requires additional care |
+| Transparency | ACTIVE | Journalist tier and source reliability always explicit in transfer signal outputs |
+
+
 ---
 
 ## Environment variables

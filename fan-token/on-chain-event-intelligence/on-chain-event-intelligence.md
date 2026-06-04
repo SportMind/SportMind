@@ -562,6 +562,27 @@ ON-CHAIN SIGNAL LIMITATIONS:
   Misclassifying whale sell as PATH_2 event is a critical error.
 - Never apply on-chain modifier from unverified contract address.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | On-chain event intelligence: smart contract events, governance actions, and bridge transactions |
+| Reasoning | ACTIVE | On-chain event reasoning chain from contract event to supply/demand signal |
+| Context | ACTIVE | On-chain context: event type, chain, contract address, counterparty, timing |
+| Memory | ACTIVE | Historical on-chain event patterns and their signal correlation data |
+| Judgment | ACTIVE | Judgment on on-chain event materiality — mint/burn events always material; transfers context-dependent |
+| Attention | ACTIVE | Maximum attention for supply events (burn/mint) and large wallet movements |
+| Communication | ACTIVE | On-chain event output with event type, amount, tx hash, and signal direction |
+| Verification | ACTIVE | On-chain events are primary source data — verify via chiliscan.com directly |
+| Learning | EMERGING | On-chain event signal calibration requires more cross-token event data |
+| Integration | ACTIVE | Integrates with supply intelligence, FTP framework, and blockchain validator intelligence |
+| Calibration | EMERGING | On-chain event calibration is developing with PATH_2 records as first calibration data |
+| Adaptation | ACTIVE | On-chain intelligence adapts as Chiliz Chain evolves and omnichain architecture expands |
+| Ethics | ACTIVE | Wallet address privacy: pseudonymous data handled per privacy-notice.md framework |
+| Transparency | ACTIVE | Event type, contract address, tx hash, and chain always explicit in on-chain outputs |
+
+
 ---
 
 ## Compatibility

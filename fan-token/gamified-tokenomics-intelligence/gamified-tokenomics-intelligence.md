@@ -503,6 +503,27 @@ USES:
   fan-token/rwa-sportfi-intelligence/ → Stage 2 dynamic token evolution
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Gamified tokenomics intelligence: FTP Model 1/2, burn/mint mechanics, yield fraud signals |
+| Reasoning | ACTIVE | Tokenomics reasoning chain from match result to supply event and signal modifier |
+| Context | ACTIVE | Tokenomics context: Model 1 (treasury-based) vs Model 2 (PATH_2) distinction |
+| Memory | ACTIVE | Historical tokenomics event patterns and supply change data |
+| Judgment | ACTIVE | Judgment on tokenomics signal materiality — FTP events are highest-certainty supply signals |
+| Attention | ACTIVE | Elevated attention for FTP-active match results — direct supply consequences |
+| Communication | ACTIVE | Tokenomics output with model type, supply event, amount, and modifier |
+| Verification | ACTIVE | Tokenomics events verified on-chain — chiliscan.com is primary source |
+| Learning | ACTIVE | Tokenomics calibration from verified PATH_2 supply event records |
+| Integration | ACTIVE | Integrates with ftp-path2.md, ecosystem health, and CHZ ecosystem burn section |
+| Calibration | ACTIVE | Tokenomics modifiers calibrated from verified Arsenal PATH_2 records (April 2026) |
+| Adaptation | ACTIVE | Tokenomics intelligence adapts as new clubs adopt FTP and mechanics evolve |
+| Ethics | ACTIVE | Passive yield in tokenomics context is flagged as both fraud signal AND regulatory risk |
+| Transparency | ACTIVE | FTP model type and supply event outcome always explicit — LOSS never described as neutral |
+
+
 ---
 
 *SportMind v3.73 · MIT License · sportmind.dev*

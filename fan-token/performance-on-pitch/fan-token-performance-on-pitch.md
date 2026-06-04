@@ -280,6 +280,27 @@ When asked to compare two or more players:
 - `references/league-benchmarks.md` — Median and percentile data by league/position *(planned)*
 - `references/injury-type-risk.md` — Injury classification and recurrence probability data *(planned)*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | On-pitch performance signals: result momentum, form indicators, and CDI contribution |
+| Reasoning | ACTIVE | On-pitch reasoning chain from performance data to CDI and demand modifier |
+| Context | ACTIVE | On-pitch context: opposition quality, competition importance, performance vs expectation |
+| Memory | ACTIVE | Historical on-pitch performance patterns and form baseline data |
+| Judgment | ACTIVE | Judgment on on-pitch signal materiality — context-adjusted performance vs raw statistics |
+| Attention | ACTIVE | Elevated attention for significant performance outliers from established baselines |
+| Communication | ACTIVE | On-pitch output with context-adjusted performance assessment and CDI modifier |
+| Verification | ACTIVE | Performance data from official match statistics sources |
+| Learning | ACTIVE | On-pitch calibration — performance-to-token correlation is well-represented in library |
+| Integration | ACTIVE | Integrates with CDI framework, player statistical reasoning, and APS modifier |
+| Calibration | ACTIVE | On-pitch CDI modifiers calibrated from historical performance-outcome correlation |
+| Adaptation | ACTIVE | On-pitch intelligence adapts as advanced metrics and performance standards evolve |
+| Ethics | NOT APPLICABLE | On-pitch performance analysis is factual — no ethical dimension |
+| Transparency | ACTIVE | Performance data source and context adjustment basis explicit in output |
+
+
 ---
 
 ## Environment variables

@@ -537,6 +537,27 @@ TOURNAMENT (June 11 onwards):
 - `fan-token/kol-influence-intelligence/kol-influence-intelligence.md` — narrative monitoring
 - `macro/macro-regulatory-sportfi.md` — US market context (SEC/CFTC guidance)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | World Cup 2026 pre-tournament intelligence: squad signals, group draw analysis, and pre-window setup |
+| Reasoning | ACTIVE | Pre-tournament reasoning chain from squad/draw signals to anticipatory token demand |
+| Context | ACTIVE | Pre-tournament context: squad announcement window, group stage draw, qualification outcomes |
+| Memory | ACTIVE | Historical pre-tournament demand build-up patterns and draw reaction data |
+| Judgment | ACTIVE | Judgment on pre-tournament signal materiality — group draw and squad health dominate |
+| Attention | ACTIVE | Elevated attention for squad announcements and draw ceremony events |
+| Communication | ACTIVE | Pre-tournament output with anticipatory demand signal and group stage assessment |
+| Verification | ACTIVE | Pre-tournament squad data from official national federation announcements |
+| Learning | EMERGING | Pre-tournament demand build-up calibration is limited — developing dataset |
+| Integration | ACTIVE | Integrates with world-cup-2026-intelligence.md and national-team-tokens.md |
+| Calibration | EMERGING | Pre-tournament anticipatory signal calibration is emerging |
+| Adaptation | ACTIVE | Pre-tournament framework adapts as World Cup 2026 progresses into tournament window |
+| Ethics | NOT APPLICABLE | Pre-tournament analysis is sports analytical — no ethical dimension |
+| Transparency | ACTIVE | Squad data source and pre-tournament signal confidence level explicit in output |
+
+
 ---
 
 *SportMind v3.84.0 · MIT License · sportmind.dev*

@@ -180,6 +180,27 @@ CRICKET TOKEN AGENT RULES:
    quick bowlers. Load core-fixture-congestion.md — cricket section.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cricket fan token intelligence: IPL, international cycle, and format-specific signals |
+| Reasoning | ACTIVE | Cricket token reasoning chain from match signals to fan token modifier |
+| Context | ACTIVE | Cricket context: format (T20/ODI/Test), tournament stage, dew factor, Indian market |
+| Memory | ACTIVE | Historical cricket token performance patterns and IPL seasonal baseline |
+| Judgment | ACTIVE | Judgment on cricket signal materiality — IPL signals dominate cricket token market |
+| Attention | ACTIVE | Elevated attention during IPL and ICC tournament windows |
+| Communication | ACTIVE | Cricket token signal output with format-specific and tournament modifiers |
+| Verification | ACTIVE | Cricket data from official cricket boards and ICC sources |
+| Learning | ACTIVE | Cricket token calibration — dew factor and IPL patterns are well-calibrated |
+| Integration | ACTIVE | Integrates with market/market-cricket.md and sports/cricket/ domain files |
+| Calibration | ACTIVE | Cricket token modifiers calibrated — dew factor is one of the most tested modifiers |
+| Adaptation | ACTIVE | Cricket intelligence adapts as IPL franchise market and token ecosystem evolves |
+| Ethics | NOT APPLICABLE | Cricket token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Cricket format context and dew factor modifier explicit in output |
+
+
 ---
 
 ## Compatibility

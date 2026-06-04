@@ -283,6 +283,27 @@ MODIFIER APPLICATION ORDER:
   = composite_modifier applied to base signal
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token transfer window intelligence: window-level CDI dynamics and portfolio-wide effects |
+| Reasoning | ACTIVE | Transfer window reasoning chain from window state to CDI uncertainty and portfolio modifier |
+| Context | ACTIVE | Window context: days remaining, active rumours, club financial state, squad gaps |
+| Memory | ACTIVE | Historical transfer window CDI impact patterns by window type (summer/winter/emergency) |
+| Judgment | ACTIVE | Judgment on window-level signal vs individual deal signal — both apply simultaneously |
+| Attention | ACTIVE | Maximum attention on deadline day — highest signal velocity and CDI uncertainty |
+| Communication | ACTIVE | Window intelligence output with window status, CDI uncertainty level, and active signals |
+| Verification | ACTIVE | Window-level intelligence aggregates verified individual transfer signals |
+| Learning | ACTIVE | Window pattern calibration from historical window activity-to-CDI outcome data |
+| Integration | ACTIVE | Integrates with transfer signal, transfer intelligence, and CDI framework |
+| Calibration | ACTIVE | Window CDI uncertainty modifiers calibrated from historical deadline day volatility data |
+| Adaptation | ACTIVE | Window intelligence adapts as regulatory changes and market structures evolve |
+| Ethics | ACTIVE | Deadline day rumour amplification risk is noted — higher verification threshold applies |
+| Transparency | ACTIVE | Window status, days remaining, and CDI uncertainty level explicit in output |
+
+
 ---
 
 *SportMind v3.40 · MIT License · sportmind.dev*

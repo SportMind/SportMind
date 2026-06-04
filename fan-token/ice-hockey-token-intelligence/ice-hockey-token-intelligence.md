@@ -227,6 +227,27 @@ You are an NHL token intelligence agent. Before any analysis:
    Apply cross-market multiplier during international tournaments.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Ice hockey fan token intelligence: NHL/IIHF competition signals and CDI modifiers |
+| Reasoning | ACTIVE | Ice hockey token reasoning chain from game signals to fan token modifier |
+| Context | ACTIVE | Ice hockey context: NHL playoff structure, Canadian market dominance, trade deadline |
+| Memory | ACTIVE | Historical ice hockey token performance patterns and seasonal baseline |
+| Judgment | ACTIVE | Judgment on ice hockey signal materiality — playoff series momentum is primary signal |
+| Attention | ACTIVE | Elevated attention during NHL playoffs and trade deadline windows |
+| Communication | ACTIVE | Ice hockey token signal output with sport-specific modifiers |
+| Verification | ACTIVE | Ice hockey data from NHL official sources |
+| Learning | EMERGING | Ice hockey token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-ice-hockey.md and core domain files |
+| Calibration | EMERGING | Ice hockey fan token calibration is emerging |
+| Adaptation | ACTIVE | Ice hockey intelligence adapts as token ecosystem matures |
+| Ethics | NOT APPLICABLE | Ice hockey token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

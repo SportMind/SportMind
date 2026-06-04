@@ -329,6 +329,27 @@ For club-level deals (shirt sponsors, stadium naming, training kit):
 - `references/roi-measurement-tools.md` — Third-party measurement platforms and methodologies *(planned)*
 - `references/conflict-matrix.md` — Brand category conflict and exclusivity mapping *(planned)*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports brand sponsorship intelligence: brand deal signals and their fan token demand amplification |
+| Reasoning | ACTIVE | Brand sponsorship reasoning chain from deal announcement to demand and CDI modifier |
+| Context | ACTIVE | Brand context: sponsor category, global vs regional brand, activation scale, sport alignment |
+| Memory | ACTIVE | Historical brand sponsorship impact patterns and token demand correlation data |
+| Judgment | ACTIVE | Judgment on brand signal hierarchy — global tier-1 sponsors have highest impact |
+| Attention | ACTIVE | Elevated attention for major brand activation events and sponsorship announcements |
+| Communication | ACTIVE | Brand sponsorship output with brand tier, deal type, and demand modifier |
+| Verification | ACTIVE | Brand sponsorship requires official brand and club announcements |
+| Learning | EMERGING | Brand sponsorship-to-demand calibration is limited |
+| Integration | ACTIVE | Integrates with sponsorship match, CDI framework, and commercial partnership intelligence |
+| Calibration | EMERGING | Brand sponsorship modifier calibration requires more cross-deal data |
+| Adaptation | ACTIVE | Brand sponsorship intelligence adapts as sports marketing models evolve |
+| Ethics | NOT APPLICABLE | Brand sponsorship intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Brand tier, deal type, and source explicit in output |
+
+
 ---
 
 ## Environment variables

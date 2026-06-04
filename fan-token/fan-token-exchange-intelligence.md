@@ -898,6 +898,27 @@ NEW_LISTING_PROTOCOL:
     ADVANCE lifecycle_phase_signal
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token exchange intelligence: trading venue signals, liquidity, and listing events |
+| Reasoning | ACTIVE | Exchange reasoning chain from venue signal to liquidity and demand modifier |
+| Context | ACTIVE | Exchange context: venue type (CEX/DEX/Socios), listing date, volume trends |
+| Memory | ACTIVE | Historical exchange listing impact patterns and volume baseline data |
+| Judgment | ACTIVE | Judgment on exchange signal materiality — major CEX listings are high-impact |
+| Attention | ACTIVE | Elevated attention for new listing announcements and delisting risks |
+| Communication | ACTIVE | Exchange signal output with venue type, volume, and demand modifier |
+| Verification | ACTIVE | Exchange data from official exchange announcements and API data |
+| Learning | ACTIVE | Exchange listing impact calibration from historical listing-to-price correlation |
+| Integration | ACTIVE | Integrates with DeFi liquidity, supply intelligence, and MiCA compliance |
+| Calibration | ACTIVE | CEX listing impact modifiers calibrated against historical listing outcome data |
+| Adaptation | ACTIVE | Exchange intelligence adapts as regulatory changes affect available venues |
+| Ethics | ACTIVE | MiCA CASP authorisation status checked before applying EU exchange signals |
+| Transparency | ACTIVE | Exchange venue, listing source, and volume data source explicit in output |
+
+
 ---
 
 

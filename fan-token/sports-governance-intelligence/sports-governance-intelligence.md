@@ -302,6 +302,27 @@ whale_dominance_risk:
   Note: less severe with quadratic voting (apply × 0.75 reduction)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sports governance intelligence: governing body signals, format changes, and integrity signals |
+| Reasoning | ACTIVE | Governance reasoning chain from governing body action to competition context modifier |
+| Context | ACTIVE | Governance context: governing body tier, decision type, implementation timeline |
+| Memory | ACTIVE | Historical governance decision patterns and their competition impact data |
+| Judgment | ACTIVE | Judgment on governance signal materiality — rule changes vs administrative decisions differ |
+| Attention | ACTIVE | Elevated attention for major format changes and governance crises |
+| Communication | ACTIVE | Governance signal output with decision type, timeline, and competition modifier |
+| Verification | ACTIVE | Governance signals require official governing body announcements — not media speculation |
+| Learning | ACTIVE | Governance pattern learning from historical decision-to-outcome correlation |
+| Integration | ACTIVE | Integrates with competition calendar intelligence and sports integrity intelligence |
+| Calibration | EMERGING | Sports governance modifier calibration requires more decision-outcome data |
+| Adaptation | ACTIVE | Governance intelligence adapts as sports governing bodies and structures evolve |
+| Ethics | ACTIVE | Governance integrity signals are handled with highest care — official confirmation required |
+| Transparency | ACTIVE | Governing body source and decision status always explicit in governance outputs |
+
+
 ---
 
 ## Compatibility

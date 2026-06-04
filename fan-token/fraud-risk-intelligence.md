@@ -318,6 +318,27 @@ SPORTMIND DOES:
 **Ecosystem health:**         `fan-token/ecosystem-health-intelligence.md`
 **Confidence framework:**     `core/signal-confidence-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token fraud risk intelligence: unofficial tokens, passive yield schemes, impersonation |
+| Reasoning | ACTIVE | Fraud reasoning chain from red flag signals to fraud risk classification |
+| Context | ACTIVE | Fraud context: World Cup window amplification, new token launches, passive yield promises |
+| Memory | ACTIVE | Historical fraud pattern library and red flag signal catalogue |
+| Judgment | ACTIVE | Highest judgment sensitivity: fraud signals require conservative threshold — false positives acceptable |
+| Attention | ACTIVE | Maximum attention during World Cup fraud amplification window — ALL FOUR sources required |
+| Communication | ACTIVE | Fraud risk output with risk level, red flags identified, and verification gaps |
+| Verification | ACTIVE | Fraud assessment requires all four verification sources — single source is insufficient |
+| Learning | ACTIVE | Fraud pattern library grows as new fraud types are identified and confirmed |
+| Integration | ACTIVE | Integrates with official verification framework and US token taxonomy (Digital Collectible boundary) |
+| Calibration | ACTIVE | Four-source verification framework is the calibrated standard for fraud detection |
+| Adaptation | ACTIVE | Fraud intelligence adapts as new fraud mechanics emerge with new token launches |
+| Ethics | ACTIVE | Fraud detection is a core ethics function — protects users from harmful schemes |
+| Transparency | ACTIVE | Fraud risk level and specific red flags identified always explicit in output |
+
+
 ---
 
 *SportMind v3.97.44 · MIT License · sportmind.dev*

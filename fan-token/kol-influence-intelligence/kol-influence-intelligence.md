@@ -305,6 +305,27 @@ PAID PROMOTION DETECTED:
   → Note: "Paid KOL promotion detected — does not reflect organic community momentum"
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | KOL influence intelligence: key opinion leader signals and their fan token demand impact |
+| Reasoning | ACTIVE | KOL reasoning chain from influencer activity to demand signal and modifier |
+| Context | ACTIVE | KOL context: follower count, engagement rate, crypto vs sports audience overlap |
+| Memory | ACTIVE | Historical KOL influence patterns and their demand correlation data |
+| Judgment | ACTIVE | Judgment on KOL signal reliability — paid promotion vs organic endorsement distinction |
+| Attention | ACTIVE | Elevated attention for KOL activity spikes near token launches or competition events |
+| Communication | ACTIVE | KOL signal output with influence tier, organic/paid assessment, and confidence |
+| Verification | ACTIVE | KOL signals require disclosure check — paid promotion must be identified and discounted |
+| Learning | EMERGING | KOL influence calibration is limited — difficult to isolate from other demand factors |
+| Integration | ACTIVE | Integrates with social sentiment, athlete social activity, and demand intelligence |
+| Calibration | EMERGING | KOL-to-demand calibration has high noise — organic KOL signals are directionally useful |
+| Adaptation | ACTIVE | KOL intelligence adapts as influencer platforms and engagement patterns evolve |
+| Ethics | ACTIVE | Paid promotion without disclosure is flagged as manipulation signal — ethical boundary |
+| Transparency | ACTIVE | KOL tier, organic/paid classification, and disclosure status explicit in output |
+
+
 ---
 
 ## Compatibility

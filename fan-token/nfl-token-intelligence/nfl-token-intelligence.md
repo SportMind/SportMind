@@ -184,6 +184,27 @@ You are an NFL token intelligence agent. Before any analysis:
    No active NFL tokens = prediction market signals are the primary use case.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NFL fan token intelligence: regular season signals, playoff structure, and US market dynamics |
+| Reasoning | ACTIVE | NFL token reasoning chain from game/roster signals to fan token modifier |
+| Context | ACTIVE | NFL context: AFC/NFC playoff picture, injury designations, trade deadline, Super Bowl |
+| Memory | ACTIVE | Historical NFL token performance patterns and playoff structure baselines |
+| Judgment | ACTIVE | Judgment on NFL signal materiality — playoff positioning and Super Bowl dominate |
+| Attention | ACTIVE | Elevated attention during NFL Playoff seeding races and trade deadline |
+| Communication | ACTIVE | NFL token signal output with playoff context, injury status, and modifier |
+| Verification | ACTIVE | NFL data from NFL.com official injury reports and official announcements |
+| Learning | EMERGING | NFL token calibration records are limited — US market expanding |
+| Integration | ACTIVE | Integrates with market/market-american-football.md and injury-intel-nfl.md |
+| Calibration | EMERGING | NFL fan token calibration is an emerging dataset in growing US market |
+| Adaptation | ACTIVE | NFL intelligence adapts as US fan token market develops |
+| Ethics | NOT APPLICABLE | NFL token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Playoff context, injury designation, and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

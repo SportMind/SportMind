@@ -205,6 +205,27 @@ When user asks for a specific brand outreach message or deck angle:
 - `references/geographic-market-data.md` — Brand market presence by country
 - `references/token-activation-templates.md` — Token-native campaign templates by category
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token sponsorship match intelligence: sponsor-token alignment signals and commercial value |
+| Reasoning | ACTIVE | Sponsorship match reasoning chain from sponsor profile to CDI and commercial modifier |
+| Context | ACTIVE | Sponsorship context: sponsor category, deal size, exclusivity, activation window |
+| Memory | ACTIVE | Historical sponsorship deal impact patterns and CDI contribution data |
+| Judgment | ACTIVE | Judgment on sponsorship signal materiality — jersey sponsor vs minor partner differs |
+| Attention | ACTIVE | Elevated attention for new sponsorship announcements and deal expiry signals |
+| Communication | ACTIVE | Sponsorship signal output with deal quality assessment and CDI modifier |
+| Verification | ACTIVE | Sponsorship deals require official club/sponsor announcements for confirmation |
+| Learning | EMERGING | Sponsorship-to-token demand calibration is limited |
+| Integration | ACTIVE | Integrates with CDI framework, commercial partnership intelligence, and brand score |
+| Calibration | EMERGING | Sponsorship CDI modifier calibration requires more cross-club data |
+| Adaptation | ACTIVE | Sponsorship intelligence adapts as commercial partnership models evolve |
+| Ethics | NOT APPLICABLE | Sponsorship intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Sponsorship deal source, tier, and CDI modifier explicit in output |
+
+
 ---
 
 ## Environment variables

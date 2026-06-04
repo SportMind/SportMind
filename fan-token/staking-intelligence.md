@@ -71,6 +71,27 @@ STAKING DOES NOT AFFECT:
 **Yield compliance:** `fan-token/yield-compliance-framework.md`
 **PATH_2 mechanics:** `fan-token/ftp-path2.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token staking intelligence: staking mechanics, lock-up signals, and supply impact |
+| Reasoning | ACTIVE | Staking reasoning chain from lock-up data to effective circulating supply modifier |
+| Context | ACTIVE | Staking context: lock-up period, yield structure, platform (Socios vs DeFi), compliance |
+| Memory | ACTIVE | Historical staking pattern data and effective supply reduction baselines |
+| Judgment | ACTIVE | Judgment on staking signal — compliant utility staking differs from yield-bearing staking |
+| Attention | ACTIVE | Elevated attention for significant staking rate changes and unlock event signals |
+| Communication | ACTIVE | Staking output with lock-up rate, effective supply, and compliance status |
+| Verification | ACTIVE | Staking data from on-chain sources — verify lock-up contracts via chiliscan.com |
+| Learning | EMERGING | Staking-to-supply-signal calibration is developing |
+| Integration | ACTIVE | Integrates with supply intelligence, yield compliance framework, and DeFi intelligence |
+| Calibration | EMERGING | Staking signal calibration requires more lock-up event data |
+| Adaptation | ACTIVE | Staking intelligence adapts as Socios mechanics and DeFi staking evolve |
+| Ethics | ACTIVE | Yield-bearing staking is flagged as regulatory risk per yield-compliance-framework.md |
+| Transparency | ACTIVE | Staking structure type (utility vs yield) and compliance status explicit in output |
+
+
 ---
 
 *SportMind v3.97.52 · MIT License · sportmind.dev*

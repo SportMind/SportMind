@@ -570,6 +570,27 @@ affect the FTIS and NCSI outputs from this file — load:
 **Recommended:** `performance-on-pitch` — for PI validation of athlete narrative claims.
 **World Cup 2026:** `fan-token-pulse` with national token addresses — see `references/football-athlete-token-profiles.md` for national squad × club token mapping.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Football fan token intelligence: UCL/PL/La Liga signals, club CDI, FTP mechanics |
+| Reasoning | ACTIVE | Football token reasoning chain from match/squad signals to fan token modifier stack |
+| Context | ACTIVE | Football context: competition tier, European qualification, relegation, UCL amplifiers |
+| Memory | ACTIVE | Historical football token performance patterns and calibration data (130 records) |
+| Judgment | ACTIVE | Judgment on football signal hierarchy — UCL/WC signals outweigh league signals |
+| Attention | ACTIVE | Elevated attention during UCL knockouts, title races, and relegation battles |
+| Communication | ACTIVE | Football token output with CDI modifier, competition context, and FTP status |
+| Verification | ACTIVE | Football data from official league/UEFA sources — not media speculation |
+| Learning | ACTIVE | Football token calibration is the most developed in the library — 100+ records |
+| Integration | ACTIVE | Integrates with market/market-football.md, athlete football files, and FTP framework |
+| Calibration | ACTIVE | Football token modifiers are the most calibrated in SportMind — 96% accuracy |
+| Adaptation | ACTIVE | Football intelligence adapts as competition format and token mechanics evolve |
+| Ethics | NOT APPLICABLE | Football token intelligence is sports/crypto analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context, CDI modifier, and FTP status explicit in all football outputs |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

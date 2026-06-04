@@ -194,6 +194,27 @@ Relegation confirmed:                               −30 to −40%
   Note: high-engagement markets attract fraudulent token activity.
   Apply elevated fraud filter when new Indonesian football tokens are announced.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Indonesia regional fan token intelligence: Liga 1 signals and Southeast Asian market context |
+| Reasoning | ACTIVE | Indonesia reasoning chain from Liga 1/regional signals to fan token modifier |
+| Context | ACTIVE | Indonesia context: largest Southeast Asian fan token market, Liga 1 structure, Persib dominance |
+| Memory | ACTIVE | Historical Indonesia fan token performance patterns and Liga 1 seasonal baseline |
+| Judgment | ACTIVE | Judgment on Indonesia signal materiality — Persib and major Liga 1 clubs dominate |
+| Attention | ACTIVE | Elevated attention during Liga 1 title races and Derby Bandung fixtures |
+| Communication | ACTIVE | Indonesia token signal output with regional market context and modifier |
+| Verification | ACTIVE | Indonesia football data from Liga 1 official sources |
+| Learning | EMERGING | Indonesia fan token calibration records are limited |
+| Integration | ACTIVE | Integrates with national-team-tokens.md and regional market framework |
+| Calibration | EMERGING | Indonesia regional calibration is an emerging dataset |
+| Adaptation | ACTIVE | Indonesia intelligence adapts as Southeast Asian token market matures |
+| Ethics | NOT APPLICABLE | Indonesia regional intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Regional market context and Liga 1 source explicit in output |
+
+
 ---
 
 *SportMind v3.97.62 · MIT License · sportmind.dev*

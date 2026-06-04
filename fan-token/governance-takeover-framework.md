@@ -234,6 +234,27 @@ VOTE RESULT INTERPRETATION:
 **Financial sustainability:**   `core/financial-sustainability-intelligence.md`
 **CDI framework:**              `market/market-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Governance takeover intelligence: hostile accumulation patterns, control threshold signals |
+| Reasoning | ACTIVE | Takeover reasoning chain from accumulation signals to governance risk modifier |
+| Context | ACTIVE | Takeover context: total supply, current holder concentration, voting threshold |
+| Memory | ACTIVE | Historical governance takeover patterns and resolution outcomes |
+| Judgment | ACTIVE | Judgment on takeover risk threshold — concentration levels that signal genuine risk |
+| Attention | ACTIVE | Elevated attention for unusual large wallet accumulation patterns |
+| Communication | ACTIVE | Takeover risk output with risk level, accumulation data, and governance modifier |
+| Verification | ACTIVE | Takeover signals require on-chain wallet analysis — chiliscan.com primary source |
+| Learning | EMERGING | Governance takeover calibration is limited — rare events with limited historical data |
+| Integration | ACTIVE | Integrates with governance intelligence, holder profiles, and CHI |
+| Calibration | EMERGING | Takeover risk calibration requires more historical event data |
+| Adaptation | ACTIVE | Takeover framework adapts as governance token mechanics and thresholds evolve |
+| Ethics | ACTIVE | Governance manipulation detection is a core ethics function of this framework |
+| Transparency | ACTIVE | Takeover risk assessment and accumulation data source explicit in output |
+
+
 ---
 
 *SportMind v3.97.69 · MIT License · sportmind.dev*

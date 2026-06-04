@@ -451,6 +451,27 @@ CUMULATIVE $AFC FTP SUPPLY MOVEMENT (April 2026 records):
 **Registry:**    `fan-token/fan-token-pulse/references/chiliz-token-registry.md`
 **Calibration:** `community/calibration-data/football/2026/04/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | FTP PATH_2 mechanics: prediction market model, WIN/LOSS/DRAW supply events, calibration data |
+| Reasoning | ACTIVE | PATH_2 reasoning chain from match result to supply event and demand modifier |
+| Context | ACTIVE | PATH_2 context: T-48h pre-liquidation, pool size, chain (CHZ/BNB), match importance |
+| Memory | ACTIVE | Verified calibration data: 3 Arsenal records (April 2026) + UCL Final record 130 |
+| Judgment | ACTIVE | Judgment on WIN split (implementation-specific) vs LOSS (always mint) distinction |
+| Attention | ACTIVE | Elevated attention for T-48h pre-liquidation confirmation and match result |
+| Communication | ACTIVE | PATH_2 output with supply event type, amount, on-chain reference, and modifier |
+| Verification | ACTIVE | PATH_2 events verified via chiliscan.com — transaction hash required for calibration |
+| Learning | ACTIVE | PATH_2 learning from verified calibration records — first FTP calibration dataset |
+| Integration | ACTIVE | Integrates with fto-framework.md, complete-registry.md, and CHZ ecosystem burn section |
+| Calibration | ACTIVE | Three verified Arsenal records: WIN -159,025 | LOSS +100,000 | DRAW 0 |
+| Adaptation | ACTIVE | PATH_2 intelligence adapts as club-specific burn/treasury splits are confirmed |
+| Ethics | ACTIVE | LOSS = MINT must never be described as supply-neutral — correction is an ethics requirement |
+| Transparency | ACTIVE | Supply event type, amount, on-chain tx hash, and chiliscan.com reference explicit in output |
+
+
 ---
 
 *SportMind v3.97.9 · MIT License · sportmind.dev*

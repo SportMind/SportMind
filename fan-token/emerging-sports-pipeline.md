@@ -286,6 +286,27 @@ INDIVIDUAL ATHLETE TOKENS — DISTINCT REASONING FRAMEWORK:
 **Regulatory readiness:**          `macro/macro-regulatory-sportfi.md`
 **First event catalyst:**          `core/seasonal-intelligence.md` (crypto market overlay)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Emerging sports pipeline: new fan token sport categories and launch readiness assessment |
+| Reasoning | ACTIVE | Pipeline reasoning chain from sport profile to fan token viability score |
+| Context | ACTIVE | Pipeline context: fanbase size, Chiliz partnership interest, commercial maturity |
+| Memory | ACTIVE | Historical fan token launch patterns by sport category |
+| Judgment | ACTIVE | Judgment on sport viability — minimum fanbase and commercial threshold for token viability |
+| Attention | ACTIVE | Elevated attention for Chiliz partnership announcements in new sport categories |
+| Communication | ACTIVE | Pipeline output with viability score and key threshold assessment |
+| Verification | ACTIVE | Pipeline claims require official Chiliz/Socios partnership confirmation |
+| Learning | EMERGING | Emerging sport pipeline calibration requires post-launch performance data |
+| Integration | ACTIVE | Integrates with registry, market intelligence, and World Cup demand framework |
+| Calibration | EMERGING | Sport launch viability calibration is early-stage |
+| Adaptation | ACTIVE | Pipeline adapts as new sport categories and markets emerge |
+| Ethics | NOT APPLICABLE | Pipeline assessment is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Viability score components and threshold basis explicit in output |
+
+
 ---
 
 *SportMind v3.97.36 · MIT License · sportmind.dev*

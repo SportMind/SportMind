@@ -198,6 +198,27 @@ When the user asks for an exportable brief:
   and sponsorship deals (where public data available)
 - `references/brief-template.md` — Extended brief template with additional sections
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete brand score: commercial value, social reach, and endorsement potential signal |
+| Reasoning | ACTIVE | Brand score reasoning chain from athlete profile to CDI and demand modifier |
+| Context | ACTIVE | Brand context: sport, fanbase demographics, global vs regional appeal |
+| Memory | ACTIVE | Historical brand score baseline data and commercial event impact patterns |
+| Judgment | ACTIVE | Judgment on brand score signal materiality — not all commercial events are equal |
+| Attention | ACTIVE | Elevated attention for major endorsement announcements and commercial activations |
+| Communication | ACTIVE | Brand score output with composite value and CDI modifier |
+| Verification | ACTIVE | Brand signal sources require commercial announcement confirmation |
+| Learning | EMERGING | Brand score calibration from historical commercial event-to-token correlation |
+| Integration | ACTIVE | Integrates with athlete social lift, sponsorship intelligence, and CDI |
+| Calibration | EMERGING | Brand-to-demand calibration is limited — complex multi-factor relationship |
+| Adaptation | ACTIVE | Brand score adapts as athlete commercial profile evolves |
+| Ethics | ACTIVE | Brand scoring uses public commercial data only — no private arrangements |
+| Transparency | ACTIVE | Brand score components and weights explicit in output |
+
+
 ---
 
 ## Environment variables

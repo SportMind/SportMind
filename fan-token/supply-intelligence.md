@@ -209,6 +209,27 @@ CROSS-CHAIN NOTE (Fan Tokens V2.0 — active April 2026):
 **Bridge:**       `fan-token/registry/bridge-supported.md` — V2.0 multi-chain registry
 **Token files:**  `fan-token/arsenal.md` · (additional token files TBD)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token supply intelligence: TVS, circulating supply, burn/mint events, and supply modifiers |
+| Reasoning | ACTIVE | Supply reasoning chain from supply data to TVS modifier and demand signal adjustment |
+| Context | ACTIVE | Supply context: total supply, circulating supply, FTP burn/mint events, staking lock-up |
+| Memory | ACTIVE | Historical supply change patterns and their price correlation data |
+| Judgment | ACTIVE | Judgment on supply signal materiality — FTP burn events always material, minor burns less so |
+| Attention | ACTIVE | Maximum attention for FTP supply events — LOSS = MINT is highest supply risk signal |
+| Communication | ACTIVE | Supply output with TVS value, circulating supply, and active supply modifiers |
+| Verification | ACTIVE | Supply data from on-chain chiliscan.com — not aggregator estimates |
+| Learning | ACTIVE | Supply calibration from verified PATH_2 records: WIN -159,025 | LOSS +100,000 | DRAW 0 |
+| Integration | ACTIVE | Integrates with ftp-path2.md, staking intelligence, and gamified tokenomics |
+| Calibration | ACTIVE | TVS modifier calibrated from verified PATH_2 supply event records |
+| Adaptation | ACTIVE | Supply intelligence adapts as FTP mechanics and token issuance evolve |
+| Ethics | ACTIVE | LOSS = MINT must never be described as supply-neutral — accuracy is an ethics requirement |
+| Transparency | ACTIVE | Supply event type, amount, source, and TVS modifier always explicit in output |
+
+
 ---
 
 *SportMind v3.97.22 · MIT License · sportmind.dev*

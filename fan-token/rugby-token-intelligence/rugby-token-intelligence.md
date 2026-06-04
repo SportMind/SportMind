@@ -177,6 +177,27 @@ You are a rugby union token intelligence agent. Before any analysis:
    Wind >20mph = kicking game favoured over handling.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby union fan token intelligence: URC/Premiership/World Cup signals and CDI modifiers |
+| Reasoning | ACTIVE | Rugby union token reasoning chain from competition signals to fan token modifier |
+| Context | ACTIVE | Rugby union context: Six Nations, URC, Rugby World Cup, club vs international cycle |
+| Memory | ACTIVE | Historical rugby union token performance patterns and tournament cycle baselines |
+| Judgment | ACTIVE | Judgment on rugby union signal materiality — World Cup and Six Nations dominate |
+| Attention | ACTIVE | Elevated attention during Rugby World Cup and Six Nations windows |
+| Communication | ACTIVE | Rugby union token signal output with tournament cycle modifier |
+| Verification | ACTIVE | Rugby union data from World Rugby and national union official sources |
+| Learning | EMERGING | Rugby union token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-rugby-union.md and sports/rugby/ domain files |
+| Calibration | EMERGING | Rugby union fan token calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rugby union intelligence adapts as token ecosystem and competition formats evolve |
+| Ethics | NOT APPLICABLE | Rugby union token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition type, tournament stage, and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

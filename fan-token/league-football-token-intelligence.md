@@ -758,6 +758,27 @@ POST-WC2026 TRANSITION (August 2026):
 - `core/star-departure-intelligence.md` — ATM player departure impact
 - `fan-token/kol-influence-intelligence/` — KOL signals (especially Brazil)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | League football fan token intelligence: domestic league signals across PL/La Liga/Bundesliga/Serie A |
+| Reasoning | ACTIVE | League football reasoning chain from domestic competition signals to fan token modifier |
+| Context | ACTIVE | League context: standings, European qualification race, relegation battle, fixture congestion |
+| Memory | ACTIVE | Historical domestic league token performance patterns by league tier |
+| Judgment | ACTIVE | Judgment on league signal materiality — European qualification impacts are primary |
+| Attention | ACTIVE | Elevated attention during title run-in, European qualification deciders, relegation battles |
+| Communication | ACTIVE | League signal output with competition context, CDI modifier, and qualification status |
+| Verification | ACTIVE | League data from official domestic league sources |
+| Learning | ACTIVE | League football token calibration — domestic signals are well-represented in library records |
+| Integration | ACTIVE | Integrates with market/market-football.md, athlete football files, and CDI framework |
+| Calibration | ACTIVE | Domestic league modifiers calibrated against historical qualification-outcome data |
+| Adaptation | ACTIVE | League intelligence adapts as format changes and club token landscapes evolve |
+| Ethics | NOT APPLICABLE | League football token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | League name, competition stage, and qualifier implications explicit in output |
+
+
 ---
 
 *SportMind v3.85.0 · MIT License · sportmind.dev*

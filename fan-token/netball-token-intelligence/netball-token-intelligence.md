@@ -213,6 +213,27 @@ You are a netball token intelligence agent. Before any analysis:
    Track host nation announcement and sponsor commitment calendar.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Netball fan token intelligence: Super Netball/Netball World Cup signals and demand modifiers |
+| Reasoning | ACTIVE | Netball token reasoning chain from competition signals to fan token modifier |
+| Context | ACTIVE | Netball context: Australian/NZ market, Super Netball season, international tournaments |
+| Memory | ACTIVE | Historical netball token performance patterns |
+| Judgment | ACTIVE | Judgment on netball signal materiality — World Cup and Super Netball finals dominate |
+| Attention | ACTIVE | Elevated attention during Super Netball finals and World Cup windows |
+| Communication | ACTIVE | Netball token signal output with competition-specific modifiers |
+| Verification | ACTIVE | Netball data from Netball Australia and World Netball official sources |
+| Learning | EMERGING | Netball token calibration records are limited — niche market |
+| Integration | ACTIVE | Integrates with market/market-netball.md and sports/netball/ domain files |
+| Calibration | EMERGING | Netball fan token calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Netball intelligence adapts as token ecosystem matures in ANZ market |
+| Ethics | NOT APPLICABLE | Netball token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

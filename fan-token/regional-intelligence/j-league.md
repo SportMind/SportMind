@@ -183,6 +183,27 @@ HOW J-LEAGUE SIGNALS AFFECT EXISTING ACTIVE TOKENS:
 **Seasonal patterns:**        `core/seasonal-intelligence.md`
 **Verification:**             `fan-token/official-verification-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | J.League regional fan token intelligence: Japanese football market and Socios Japan context |
+| Reasoning | ACTIVE | J.League reasoning chain from competition signals to fan token modifier |
+| Context | ACTIVE | J.League context: Japanese football market, J1/J2 structure, domestic vs international player mix |
+| Memory | ACTIVE | Historical J.League token performance patterns and seasonal baseline |
+| Judgment | ACTIVE | Judgment on J.League signal materiality — J1 title and ACL qualification are primary signals |
+| Attention | ACTIVE | Elevated attention during J1 title race and AFC Champions League rounds |
+| Communication | ACTIVE | J.League token signal output with Japanese market context and modifier |
+| Verification | ACTIVE | J.League data from JFA and J.League official sources |
+| Learning | EMERGING | J.League token calibration records are limited |
+| Integration | ACTIVE | Integrates with regional-intelligence/japan.md and national team context |
+| Calibration | EMERGING | J.League regional calibration is an emerging dataset |
+| Adaptation | ACTIVE | J.League intelligence adapts as Japanese token market matures |
+| Ethics | NOT APPLICABLE | J.League regional intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Japanese market context and J.League source explicit in output |
+
+
 ---
 
 *SportMind v3.97.59 · MIT License · sportmind.dev*

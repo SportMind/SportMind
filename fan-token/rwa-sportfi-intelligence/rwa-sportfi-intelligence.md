@@ -696,6 +696,27 @@ LTUI IMPACT:
   RSF 0.80-1.00: LTUI +35-50 (DAO governance = different asset class entirely)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | RWA SportFi intelligence: real-world asset tokenisation in sports and fan token intersection |
+| Reasoning | ACTIVE | RWA reasoning chain from asset tokenisation signal to fan token ecosystem modifier |
+| Context | ACTIVE | RWA context: asset type (stadium, kit, IP), tokenisation structure, regulatory requirements |
+| Memory | ACTIVE | Historical RWA tokenisation patterns and their ecosystem impact data |
+| Judgment | ACTIVE | Judgment on RWA signal materiality — RWA tokenisation adjacent to but distinct from fan tokens |
+| Attention | ACTIVE | Elevated attention for RWA announcements that may affect fan token demand or supply |
+| Communication | ACTIVE | RWA signal output with asset type, structure, regulatory status, and ecosystem modifier |
+| Verification | ACTIVE | RWA signals require official documentation — white paper and legal structure verification |
+| Learning | EMERGING | RWA SportFi calibration is early-stage — limited historical data |
+| Integration | ACTIVE | Integrates with DeFi integration intelligence and macro regulatory framework |
+| Calibration | EMERGING | RWA-to-fan-token correlation calibration is an emerging framework |
+| Adaptation | ACTIVE | RWA intelligence adapts as tokenisation technology and regulatory frameworks mature |
+| Ethics | ACTIVE | RWA tokenisation of sports assets carries investor protection considerations — flagged |
+| Transparency | ACTIVE | RWA asset type, structure, and regulatory status always explicit in output |
+
+
 ---
 
 ## Integration: SportFi Kit connectivity (updated)

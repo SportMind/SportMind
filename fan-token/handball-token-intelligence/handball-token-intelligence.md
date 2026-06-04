@@ -188,6 +188,27 @@ You are a handball token intelligence agent. Before any analysis:
    Teams with elite fast break specialists gain significant advantage.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Handball fan token intelligence: EHF competition signals and CDI modifiers |
+| Reasoning | ACTIVE | Handball token reasoning chain from competition signals to fan token modifier |
+| Context | ACTIVE | Handball context: EHF Champions League, European club market, national team cycles |
+| Memory | ACTIVE | Historical handball token performance patterns |
+| Judgment | ACTIVE | Judgment on handball signal materiality — EHF Final Four is the peak demand window |
+| Attention | ACTIVE | Elevated attention during EHF tournament windows |
+| Communication | ACTIVE | Handball token signal output with competition-specific modifiers |
+| Verification | ACTIVE | Handball data from EHF official sources |
+| Learning | EMERGING | Handball token calibration records are limited |
+| Integration | ACTIVE | Integrates with market/market-handball.md and sports/handball/ domain files |
+| Calibration | EMERGING | Handball fan token calibration is an emerging dataset |
+| Adaptation | ACTIVE | Handball intelligence adapts as token ecosystem matures |
+| Ethics | NOT APPLICABLE | Handball token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Competition context and modifier basis explicit in output |
+
+
 ---
 
 ## Compatibility

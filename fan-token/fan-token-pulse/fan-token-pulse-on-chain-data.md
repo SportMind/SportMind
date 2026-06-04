@@ -211,6 +211,27 @@ For Socios engagement data (polls, events), `SOCIOS_PARTNER_KEY` is needed.
 - `references/has-calibration.md` — HAS score calibration data by league tier
 - `references/chiliz-api-response-shapes.md` — Example API response shapes for parsing
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token pulse: real-time on-chain activity monitoring and signal extraction |
+| Reasoning | ACTIVE | Pulse reasoning chain from on-chain activity to demand and supply signal |
+| Context | ACTIVE | Pulse context: transaction frequency, wallet activity, bridge flows, governance votes |
+| Memory | ACTIVE | Historical pulse baseline patterns for normal vs elevated on-chain activity |
+| Judgment | ACTIVE | Judgment on pulse signal materiality — distinguishing organic activity from wash trading |
+| Attention | ACTIVE | Maximum attention for unusual pulse activity spikes |
+| Communication | ACTIVE | Pulse output with activity metrics, anomaly flags, and signal direction |
+| Verification | ACTIVE | Pulse data from chiliscan.com on-chain sources — not aggregator estimates |
+| Learning | EMERGING | Pulse signal calibration requires more cross-token activity correlation data |
+| Integration | ACTIVE | Integrates with on-chain event intelligence and supply intelligence |
+| Calibration | EMERGING | On-chain pulse calibration is developing — limited historical records |
+| Adaptation | ACTIVE | Pulse monitoring adapts as Chiliz Chain transaction patterns evolve |
+| Ethics | ACTIVE | Wash trading and manipulation detection is embedded in pulse monitoring |
+| Transparency | ACTIVE | Pulse data source and anomaly detection methodology explicit in output |
+
+
 ---
 
 ## Notes for SportMind integration

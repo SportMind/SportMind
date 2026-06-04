@@ -171,6 +171,27 @@ You are an AFL token intelligence agent. Before any analysis:
    Model token launch timing around Grand Final week.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AFL fan token intelligence: sport-specific signals, season calendar, and CDI modifiers |
+| Reasoning | ACTIVE | AFL token reasoning chain from sport signals to fan token modifier |
+| Context | ACTIVE | AFL context: Australian market, NRL competition, finals series amplification |
+| Memory | ACTIVE | Historical AFL token performance patterns and seasonal baseline data |
+| Judgment | ACTIVE | Judgment on AFL signal materiality — finals proximity elevates all signals |
+| Attention | ACTIVE | Elevated attention during AFL finals series — highest demand amplifier |
+| Communication | ACTIVE | AFL token signal output with sport-specific modifiers |
+| Verification | ACTIVE | AFL results and squad data from AFL.com.au official sources |
+| Learning | ACTIVE | AFL token pattern calibration from historical season-outcome correlation |
+| Integration | ACTIVE | Integrates with market/market-afl.md and core sport domain files |
+| Calibration | EMERGING | AFL fan token calibration records are limited — emerging dataset |
+| Adaptation | ACTIVE | AFL intelligence adapts as token ecosystem matures in Australian market |
+| Ethics | NOT APPLICABLE | AFL token intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | AFL-specific modifier basis and seasonal context explicit in output |
+
+
 ---
 
 ## Compatibility

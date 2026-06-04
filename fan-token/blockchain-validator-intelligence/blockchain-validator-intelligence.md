@@ -398,6 +398,27 @@ KNOWN VALIDATOR SPORTS BRANDS (as of Q1 2026):
   explorer.chiliz.com or Chiliz Chain governance contracts.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Blockchain validator intelligence: Chiliz Chain validator signals and network health |
+| Reasoning | ACTIVE | Validator reasoning chain from network signal to macro modifier |
+| Context | ACTIVE | Validator context: staking rates, decentralisation level, validator set changes |
+| Memory | ACTIVE | Historical validator performance patterns and network health baselines |
+| Judgment | ACTIVE | Judgment on validator signal materiality — network health vs individual validator |
+| Attention | ACTIVE | Elevated attention for validator set changes and staking rate movements |
+| Communication | ACTIVE | Validator signal output with network health indicator and macro modifier |
+| Verification | ACTIVE | Validator data from chiliscan.com on-chain sources only |
+| Learning | EMERGING | Validator signal calibration requires more network event data |
+| Integration | ACTIVE | Integrates with blockchain-onchain-intelligence and CHZ ecosystem files |
+| Calibration | EMERGING | Validator-to-price signal calibration is an emerging framework |
+| Adaptation | ACTIVE | Validator intelligence adapts as Chiliz Chain consensus mechanism evolves |
+| Ethics | ACTIVE | Validator data is on-chain public data — no privacy concerns |
+| Transparency | ACTIVE | Validator data source (chiliscan.com) and network health basis explicit in output |
+
+
 ---
 
 ## Sources and verification
