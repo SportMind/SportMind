@@ -94,11 +94,30 @@ MANDATORY LOAD ORDER FOR ANY SPORTMIND SESSION:
     Select the appropriate chain for this scenario type.
     Follow the chain steps exactly.
     
-  STEP 8 — CONFIDENCE CHECK (always last, before output):
+  STEP 8 — PRODUCE STRUCTURED OUTPUT (always last):
     core/signal-confidence-framework.md
+    core/pre-match-signal-framework.md
     Assess confidence level based on confirmed vs unconfirmed variables.
     Apply override conditions if any are triggered.
-    Format output per the required structure.
+
+    Required output fields (all fields mandatory — never omit):
+      direction:           HOME | AWAY | DRAW
+      adjusted_score:      0–100 (number)
+      sms:                 0–100 (layers loaded count)
+      confidence_level:    LOW | MEDIUM | MEDIUM-HIGH | HIGH
+      recommended_action:  ENTER | HOLD | PASS
+      composite_modifier:  [decimal — product of all modifiers applied]
+      modifiers_applied:   {key: decimal for each modifier}
+      flags: {
+        lineup_unconfirmed:    [bool],
+        macro_override_active: [bool],
+        neutral_venue:         [bool],
+        path2_active:          [bool]
+      }
+      layers_loaded:       [list of files loaded — mandatory for verification]
+
+    If any required field cannot be populated → flag as INCOMPLETE and state
+    which data is missing. An INCOMPLETE output is not a SportMind signal.
     
   MINIMUM LAYERS REQUIRED FOR ANY ACTIONABLE SIGNAL:
     Layers 1-5 (Steps 1-5) are required minimum.

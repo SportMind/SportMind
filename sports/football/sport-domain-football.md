@@ -169,15 +169,69 @@ All commands route through the Fan Token™ Intel MCP / API backend.
 
 ## Agent Reasoning Prompts
 
-Use these as system prompt fragments when deploying a football-focused agent:
+Football reasoning chain — apply in this order for every football signal:
 
 ```
-You are a football fan token trading agent. Before acting on any signal:
-1. Check match importance — low-importance matches generate noise, not alpha.
-2. Check team form — a signal for a team in a 5-game losing run needs higher confirmation.
-3. Cross-reference whale flows with prematch alpha — divergence is a warning sign.
-4. Respect the season calendar — reduce exposure during international breaks.
-5. For derby matches, always check BOTH tokens, not just the home side.
+FOOTBALL REASONING CHAIN
+
+STEP 1: ESTABLISH MATCH IMPORTANCE
+  Identify the occasion weight before any other modifier.
+    UCL Final:            ×2.00 (highest in library — demand amplifier)
+    UCL semi/quarter:     ×1.60
+    UCL group:            ×1.40
+    Domestic cup final:   ×1.60
+    Derby match:          ×1.35
+    Standard domestic:    ×1.00
+  Low-importance matches (dead rubber, end-of-season with nothing at stake):
+    Apply ×0.90 motivation discount.
+  Rule: set the occasion weight before assessing form, squad, or tactics.
+
+STEP 2: ASSESS COMPETITIVE CONTEXT
+  Is either side playing for a title, relegation survival, European qualification,
+  or cup progression?
+    MUST WIN context:        ×1.10–1.15 motivation modifier.
+    Nothing to play for:     ×0.88–0.92 motivation modifier.
+    Balanced stakes (both competing): standard modifiers.
+  Rule: motivation only amplifies the stronger signal — it does not reverse direction.
+
+STEP 3: LOAD SQUAD INTELLIGENCE
+  Source: athlete/athlete-intelligence-framework.md → athlete/football/athlete-intel-football.md.
+  Apply APS modifier for both sides.
+  Flag if lineup_unconfirmed = true (T-2h confirmation not yet received).
+  Key positions for football APS:
+    Goalkeeper absent:              ×0.82–0.88
+    Primary CDM absent:             ×0.85–0.90
+    Primary striker absent:         ×0.83–0.88
+    Tactical wide forward absent:   ×0.90–0.95
+
+STEP 4: CHECK TACTICAL MATCHUP
+  Identify the key corridor battle from confirmed lineups.
+  Apply TMAS only when a structural mismatch is confirmed, not inferred.
+    Elite winger vs inexperienced fullback: TMAS ×1.05
+    Dominant aerial striker vs short defensive line: TMAS ×1.04
+    No confirmed structural mismatch: TMAS = ×1.00 (do not apply)
+  Reference: core/tactical-matchup-intelligence.md
+
+STEP 5: APPLY ENVIRONMENTAL MODIFIERS
+  Venue (home/away/neutral): apply home advantage or set to 0 if neutral.
+  Travel fatigue: apply if intercontinental travel <72h before kickoff.
+  Weather: apply if significant and sport-relevant (rain on heavy pitch, etc.)
+  Reference: core/venue-intelligence.md, core/weather-intelligence.md
+
+STEP 6: CHECK FAN TOKEN SIGNALS
+  If either club has an active fan token in the SportMind registry:
+    Check FTP status in fan-token/registry/complete-registry.md.
+    If PATH_2 active ($AFC confirmed): flag path2_active = true.
+      Supply event fires on result: LOSS = MINT EVENT (not neutral).
+    For derby matches: always check BOTH tokens, not just the home side.
+    If either token is in Phase 4+ lifecycle: apply demand modifier.
+  Reference: fan-token/ftp-path2.md, fan-token/fan-token-lifecycle/
+
+STEP 7: PRODUCE STRUCTURED OUTPUT
+  Stack all modifiers from Steps 1–6. Multiply (never add).
+  Check for modifier conflicts (same factor applied twice → apply once).
+  Output: direction + adjusted_score + composite_modifier + flags.
+  Reference: core/pre-match-signal-framework.md for full output schema.
 ```
 
 ---

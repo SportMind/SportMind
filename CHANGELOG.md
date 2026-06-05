@@ -1,5 +1,55 @@
 # Changelog
 
+## [3.97.111] — 2026-06-05
+
+### Added — Reasoning chain completeness fixes (all HIGH and MEDIUM audit gaps resolved)
+
+3 new files. 2 files updated. 738→741 files, 519→522 md.
+
+SMI: NOT REQUIRED — structural framework additions.
+
+CREATED — core/SPORTMIND.md (116L):
+  Canonical library master entry point — was MISSING (HIGH audit gap).
+  Seven-step reasoning chain in explicit STEP N: format.
+  Library Rule and proper noun test at the top level.
+  File directory table routing to all seven layers.
+  SMS minimum layer table (SMS < 60 = do not produce signal).
+  All 14 Mind dimensions.
+
+CREATED — athlete/athlete-intelligence-framework.md (241L):
+  Master athlete layer entry point — was MISSING (HIGH audit gap).
+  Six-step athlete reasoning chain (availability → form → fitness →
+    sport-specific file → APS composite → flag uncertainty).
+  APS composite modifier range (0.55–1.25×) with full calculation examples.
+  Position tier table (Tier A/B/C with absence modifier ranges).
+  Full routing table to all 29 sport-specific athlete files.
+  All 14 Mind dimensions.
+
+CREATED — core/pre-match-signal-framework.md (258L):
+  End-to-end pre-match signal assembly orchestrator — was MISSING (MEDIUM gap).
+  Seven-step assembly chain: match parameters → SMS check → base score →
+    athlete modifier → macro modifier → situational modifiers → structured output.
+  Full output schema with field definitions and required field rules.
+  HOLD gate conditions, confidence level rules, recommended action rules.
+  INCOMPLETE label enforcement for partial-layer outputs.
+  Reference files table for each of the seven steps.
+  All 14 Mind dimensions.
+
+UPDATED — sports/football/sport-domain-football.md:
+  Agent Reasoning Prompts section replaced (MEDIUM audit gap).
+  Five informal bullets → seven-step FOOTBALL REASONING CHAIN.
+  Steps: match importance → competitive context → squad intelligence →
+    tactical matchup → environmental modifiers → fan token signals → output.
+  Occasion weights added (UCL Final ×2.00 through standard ×1.00).
+  TMAS reference and FTP PATH_2 check incorporated.
+
+UPDATED — core/agent-onboarding.md:
+  STEP 8 (output) enhanced with explicit output field schema.
+  All required fields now named within the step chain:
+    direction, adjusted_score, sms, confidence_level, recommended_action,
+    composite_modifier, modifiers_applied, flags, layers_loaded.
+  INCOMPLETE label and missing-data protocol added to STEP 8.
+
 ## [3.97.110] — 2026-06-05
 
 ### Fixed — 23 broken i18n links (pre-existing gap)
