@@ -1,5 +1,31 @@
 # Changelog
 
+## [3.97.112] — 2026-06-05
+
+### Added — Agent type compatibility framework in core/SPORTMIND.md
+
+0 new files. 1 file updated. Counts unchanged: 741/522.
+
+SMI: NOT REQUIRED — structural framework addition only.
+
+core/SPORTMIND.md — new section added before MIND DIMENSIONS:
+
+## AGENT TYPE COMPATIBILITY
+  Seven agent types mapped to SportMind loading patterns:
+    1. Simple reflex (LOW fit — compressed skills only)
+    2. Model-based reflex (HIGH — primary SMI deployment pattern)
+    3. Goal-based (HIGH — pre-match signal, wallet agent)
+    4. Utility-based (MEDIUM — adjusted_score as utility signal)
+    5. Learning (MEDIUM→HIGH — calibration records as learning signal)
+    6. Multi-agent (VERY HIGH — full SportMind suite architecture)
+    7. Hierarchical (HIGH — MACRO_OVERRIDE_ACTIVE is hierarchical control)
+
+  ## AGENT ARCHITECTURE SUMMARY table added.
+  All multi-agent and hierarchical loading patterns documented.
+  MIND DIMENSIONS section unchanged — all 14 dimensions intact.
+
+File grows from 116L → 283L. Entry point remains concise for its purpose.
+
 ## [3.97.111] — 2026-06-05
 
 ### Added — Reasoning chain completeness fixes (all HIGH and MEDIUM audit gaps resolved)

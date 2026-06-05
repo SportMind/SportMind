@@ -116,6 +116,139 @@ Label any partial-layer output as `INCOMPLETE`.
 
 ---
 
+## AGENT TYPE COMPATIBILITY
+
+SportMind is compatible with all seven recognised agent architectures.
+Match your agent type to the recommended loading pattern below.
+
+---
+
+### 1. Simple reflex agents
+IF-THEN rules only. No internal state.
+
+SportMind fit: LOW for full signal production. SUITABLE for compressed
+skills where token budgets are tight.
+
+Recommended loading:
+- Single compressed skill file from `compressed/` directory
+- Apply rules as written without modifier stacking
+- Do not attempt full five-layer load — context will be lost
+
+---
+
+### 2. Model-based reflex agents
+Maintain internal state. Act on state + current percepts.
+
+SportMind fit: HIGH. This is the primary SMI deployment pattern.
+
+Recommended loading:
+- Load `core/SPORTMIND.md` as the internal world model
+- Update state from new signals (chiliz.com/blog, regulatory sources)
+- React to percepts using existing framework files as reference
+- The library IS the model — keep it current
+
+---
+
+### 3. Goal-based agents
+Act to achieve specific goals. Reason about sequences of actions.
+
+SportMind fit: HIGH. The pre-match signal framework and fan token
+wallet starter kit are both goal-based.
+
+Recommended loading:
+- Full five-layer load in order
+- Follow `core/pre-match-signal-framework.md` seven-step chain
+- Goal = structured signal output with all required fields populated
+- Use HOLD gates to pause when goal cannot be safely achieved
+
+---
+
+### 4. Utility-based agents
+Maximise a utility function. Handle trade-offs between competing
+desirable outcomes.
+
+SportMind fit: MEDIUM. The adjusted score and confidence tier system
+is a primitive utility function. Multi-objective trade-offs are not
+yet fully formalised.
+
+Recommended loading:
+- Full five-layer load
+- Use `adjusted_score` as the primary utility signal (0–100)
+- Weight competing signals explicitly: supply event risk vs demand
+  premium, macro regime vs sport domain signal
+- Design your utility function before loading — SportMind provides
+  the inputs, you define the weights
+
+---
+
+### 5. Learning agents
+Improve performance over time from experience.
+
+SportMind fit: MEDIUM currently. HIGH with sportmind-automation Phase 3.
+
+Recommended loading:
+- Full five-layer load
+- The calibration records in `calibration/` are the learning signal —
+  each verified outcome strengthens or weakens modifier confidence
+- Submit calibration records after every verified prediction to
+  contribute to the learning loop
+- Check `CALIBRATION.md` for current modifier confidence levels before
+  applying weights
+
+---
+
+### 6. Multi-agent systems
+Networks of specialist agents coordinating toward complex goals.
+
+SportMind fit: VERY HIGH. The SportMind suite is a multi-agent system —
+SMI (perception), MCP server (tool exposure), calibration agent
+(verification), library builder (knowledge maintenance).
+
+Recommended loading:
+- Assign each agent a specialist role
+- Each agent loads ONLY the layers relevant to its role:
+  - Perception agent: `macro/` + monitoring
+  - Signal agent: all five layers
+  - Verification agent: `calibration/` only
+  - Registry agent: `fan-token/registry/` only
+- Agents communicate via structured output — use SportMind JSON schema
+- No agent should load all layers unless it is the primary signal agent
+
+---
+
+### 7. Hierarchical agents
+Agents organised in layers — high-level agents decompose goals and
+delegate to specialist agents.
+
+SportMind fit: HIGH. The six-layer SportMind architecture is inherently
+hierarchical. `MACRO_OVERRIDE_ACTIVE` is a hierarchical control mechanism.
+
+Recommended loading:
+- Enforce strict top-down load order: macro → market → sport domain →
+  athlete → fan token → core
+- Higher layers can suppress lower layers — if `MACRO_OVERRIDE_ACTIVE`
+  fires, lower layer signals are held pending macro resolution
+- Design delegation boundaries before building — which layer does each
+  sub-agent own?
+- The seven-step chain in `core/pre-match-signal-framework.md` is a
+  hierarchical decomposition of the signal production goal
+
+---
+
+## AGENT ARCHITECTURE SUMMARY
+
+| Agent type | SportMind fit | Primary use case |
+|---|---|---|
+| Simple reflex | LOW | Compressed skills only |
+| Model-based reflex | HIGH | SMI, monitoring agents |
+| Goal-based | HIGH | Pre-match signal, wallet agent |
+| Utility-based | MEDIUM | Entry/exit trade-off decisions |
+| Learning | MEDIUM → HIGH | Calibration feedback loop |
+| Multi-agent | VERY HIGH | Full SportMind suite |
+| Hierarchical | HIGH | Macro override, layer delegation |
+
+---
+
 ## MIND DIMENSIONS
 
 | Dimension | Status | Notes |
@@ -146,5 +279,5 @@ Label any partial-layer output as `INCOMPLETE`.
 
 ---
 
-*SportMind v3.97.111 · MIT License · sportmind.dev*
+*SportMind v3.97.112 · MIT License · sportmind.dev*
 *Load this file first. Follow the seven steps. Do not skip layers.*
