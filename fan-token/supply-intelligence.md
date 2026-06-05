@@ -207,7 +207,7 @@ CROSS-CHAIN NOTE (Fan Tokens V2.0 — active April 2026):
 **Calibration:**  `community/calibration-data/football/2026/04/`
 **On-chain:**     `fan-token/on-chain-event-intelligence/`
 **Bridge:**       `fan-token/registry/bridge-supported.md` — V2.0 multi-chain registry
-**Token files:**  `fan-token/arsenal.md` · (additional token files TBD)
+**Token files:**  `fan-token/arsenal.md` · (see fan-token/ registry for additional token files)
 
 
 ## MIND DIMENSIONS

@@ -263,7 +263,7 @@ MANAGER CONTRACT EXTENSION:
 **Athlete modifiers:**      `core/core-athlete-modifier-system.md`
 **Tier A club systems:**    `athlete/football/tier-a-clubs-framework.md`
 **MMA corner:**             `sports/mma/sport-domain-mma.md`
-**Tactical continuity:**    `athlete/football/mancity-city.md` (long-tenure system model)
+**Tactical continuity:**    `athlete/football/athlete/football/tier-a-clubs-framework.md` (long-tenure system model)
 
 
 ## MIND DIMENSIONS

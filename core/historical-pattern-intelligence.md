@@ -285,7 +285,7 @@ RECOVERY FROM EXTENDED LOW PERIOD:
 **Venue interaction:**      `core/venue-intelligence.md` (surface modifiers)
 **Seasonal patterns:**      `core/seasonal-intelligence.md` (congestion, final day)
 **Demand baselines:**       `fan-token/fan-token-lifecycle/`
-**Relegation patterns:**    `athlete/football/tottenham-hotspur-spurs.md`
+**Relegation patterns:**    `athlete/football/core/standings-intelligence.md`
 
 
 ## MIND DIMENSIONS

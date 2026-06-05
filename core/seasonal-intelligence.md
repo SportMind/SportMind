@@ -50,7 +50,7 @@ ANNUAL CYCLE — EUROPEAN FOOTBALL FAN TOKENS (primary market):
   END OF SEASON (April–May) — NARRATIVE-DRIVEN DEMAND:
     Clubs in title race: demand amplifier ×1.15 (sustained until outcome)
     Clubs in relegation battle: ×0.88 sustained demand discount
-      (uncertainty + fear of relegation cascade; see tottenham-hotspur-spurs.md)
+      (uncertainty + fear of relegation cascade; see core/standings-intelligence.md)
     European qualification race: ×1.08 for clubs within 3 points of qualifying
     These apply to all clubs simultaneously — portfolio correlation elevated.
     

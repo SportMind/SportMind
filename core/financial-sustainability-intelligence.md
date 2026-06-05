@@ -177,7 +177,7 @@ RELEGATION FINANCIAL RISK — COMPOUND SIGNAL:
   RELEGATION BATTLE DEMAND MODIFIER TABLE:
     
     Club in bottom three (in relegation zone) with 6+ matches remaining:
-      relegation_zone_modifier = ×0.82 sustained (see tottenham-hotspur-spurs.md)
+      relegation_zone_modifier = ×0.82 sustained (see core/standings-intelligence.md)
       
     Club in bottom three with ≤5 matches remaining:
       late_season_crisis_modifier = ×0.80 (higher urgency; outcome clearer)
@@ -234,7 +234,7 @@ NEWLY PROMOTED CLUBS:
 
 ## Compatibility
 
-**Relegation modifier:**    `athlete/football/tottenham-hotspur-spurs.md`
+**Relegation modifier:**    `core/standings-intelligence.md`
 **Transfer window:**        `core/transfer-window-intelligence.md`
 **$AFC PATH_2 financial:**  `athlete/football/arsenal-afc.md`
 **Seasonal demand:**        `core/seasonal-intelligence.md`

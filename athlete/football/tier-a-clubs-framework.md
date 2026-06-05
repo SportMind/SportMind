@@ -250,7 +250,7 @@ QUICK REFERENCE — UNIVERSAL MODIFIERS:
                       `athlete/football/barcelona-bar.md`
                       `athlete/football/juventus-juv.md`
                       `athlete/football/acmilan-acm.md`
-                      `athlete/football/mancity-city.md`
+                      `athlete/football/athlete-intel-football.md`
 **Base athlete:**     `athlete/football/athlete-intel-football.md`
 **FTP mechanics:**    `fan-token/ftp-path2.md`
 **Core modifier:**    `core/core-athlete-modifier-system.md`
@@ -277,6 +277,46 @@ QUICK REFERENCE — UNIVERSAL MODIFIERS:
 
 
 ---
+
+---
+
+## SQUAD_STATUS phase framework
+
+*Extracted from athlete/football/arsenal.md — enduring framework applicable to all Tier A clubs.*
+
+```
+SQUAD_STATUS PHASES:
+
+  CONSOLIDATION_PHASE:
+    Definition: club reinforcing proven positions rather than rebuilding.
+    Signals: permanent acquisition of established players at core positions,
+      selective depth management, limited speculative purchases.
+    CDI modifier: ×1.02 competitive trajectory (Horizon 2)
+    Signal: the core is confirmed — uncertainty concentrated in fringe positions.
+
+  REBUILD_PHASE:
+    Definition: multiple core positions require replacement simultaneously.
+    Signals: departure of established starters, high new signing volume,
+      significant age profile shift in a single transfer window.
+    CDI modifier: ×0.94 competitive trajectory (Horizon 2)
+    Signal: new combinations unproven — uncertainty elevated.
+
+  INCREMENTAL_IMPROVEMENT:
+    Definition: one or two targeted additions to an already strong base.
+    Standard mode for successful clubs between title challenges.
+    CDI modifier: none (standard — no modifier)
+
+  EMERGENCY_REBUILD:
+    Definition: forced squad restructuring due to financial or sporting crisis.
+    Signals: multiple forced departures, FFP restrictions, managerial instability.
+    CDI modifier: ×0.88 competitive trajectory (Horizon 2-3)
+
+AGENT RULE:
+  SQUAD_STATUS is a Horizon 2-3 modifier — affects competitive trajectory
+  assessment, NOT match-day adjusted score.
+  Do not apply SQUAD_STATUS to pre-match signal calculation.
+  Apply when reasoning about multi-month CDI trajectory and FAN TOKEN DEMAND outlook.
+```
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*
 *Load this file before any Tier A club-specific athlete file*

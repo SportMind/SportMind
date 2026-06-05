@@ -1,5 +1,53 @@
 # Changelog
 
+## [3.97.109] — 2026-06-05
+
+### Removed — Four expiring club-specific athlete files (Library Rule cleanup)
+
+5 files deleted. 3 files received extracted framework content. 8 internal links updated.
+743→738 files, 524→519 md.
+
+SMI: NOT REQUIRED — cleanup only.
+
+DELETED (fail Library Rule — time-specific squad/manager data):
+  athlete/football/lazio.md (210L)
+    Reason: named Gattuso as confirmed 2026/27 manager (expiring)
+  athlete/football/arsenal.md (264L)
+    Reason: 2025/26 PL Champions season status (expiring), 2026/27 planning horizon data
+  athlete/football/manchester-city-city.md (243L)
+    Reason: POST_LEGACY_LIMBO tied to specific Guardiola departure context (expiring)
+  athlete/football/tottenham-hotspur-spurs.md (290L)
+    Reason: 2025/26 PL_SURVIVAL season outcome, 2026/27 relegation risk projections (expiring)
+  athlete/football/mancity-city.md (224L)
+    Reason: legacy duplicate of manchester-city-city.md, also expiring
+
+ENDURING FRAMEWORK CONTENT EXTRACTED BEFORE DELETION:
+  lazio.md → core/coaching-succession-intelligence.md
+    COACHING_STATUS three-state framework (STABILIZED/TRANSITION/LIMBO)
+    Modifier values, transition rules, and agent gate conditions preserved
+
+  arsenal.md → athlete/football/tier-a-clubs-framework.md
+    SQUAD_STATUS phase framework (CONSOLIDATION/REBUILD/INCREMENTAL/EMERGENCY)
+    Horizon 2-3 CDI trajectory modifiers preserved
+
+  tottenham-hotspur-spurs.md → core/standings-intelligence.md
+    Relegation threat CDI modifier framework (SAFE/NERVOUS/DANGER/CRITICAL/RELEGATED)
+    Prior season elevated risk modifier preserved
+
+INTERNAL LINKS UPDATED (8 files, zero broken links confirmed):
+  core/coaching-succession-intelligence.md → tier-a-clubs-framework.md
+  core/coaching-intelligence.md → tier-a-clubs-framework.md
+  macro/institutional-intelligence.md → tier-a-clubs-framework.md
+  athlete/football/tier-a-clubs-framework.md → athlete-intel-football.md
+  core/financial-sustainability-intelligence.md → standings-intelligence.md (×2)
+  core/seasonal-intelligence.md → standings-intelligence.md
+  core/historical-pattern-intelligence.md → standings-intelligence.md
+  fan-token/supply-intelligence.md → minor wording fix (fan-token/arsenal.md preserved — correct)
+
+Note: fan-token/arsenal.md and athlete/football/arsenal-afc.md are RETAINED.
+These are the $AFC fan token intelligence file and the PATH_2-enhanced club file.
+Only athlete/football/arsenal.md (the expiring squad architecture file) was deleted.
+
 ## [3.97.108] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: examples/ directory (CAMPAIGN COMPLETE)

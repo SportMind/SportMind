@@ -366,6 +366,49 @@ PATH_2 NOTE:
 
 ---
 
+---
+
+## Relegation threat CDI modifier framework
+
+*Extracted from athlete/football/tottenham-hotspur-spurs.md — enduring framework applicable to any club.*
+
+```
+RELEGATION_THREAT STATES:
+
+  SAFE (>10 points clear):
+    CDI modifier: none — apply standard CDI framework.
+
+  NERVOUS (5-10 points above relegation zone):
+    CDI modifier: ×0.95 applied to demand signals.
+    Signal: fan anxiety emerging — engagement shifts from excitement to fear.
+    Attention: monitor weekly position changes carefully.
+
+  DANGER (bottom 6, top-flight survival genuinely uncertain):
+    CDI modifier: ×0.88 applied to demand signals.
+    Signal: significant holder sentiment impact — some holders will exit.
+    Attention: elevated — any positive result signal amplified.
+
+  CRITICAL (bottom 3 with ≤10 matches remaining):
+    CDI modifier: ×0.82 sustained.
+    Signal: relegation probability >40% — structural demand reduction incoming.
+    Attention: maximum — match results have outsized CDI impact.
+
+  RELEGATED (confirmed):
+    CDI modifier: ×0.65 applied to all demand signals for following 12 months.
+    Signal: division change dramatically reduces fanbase engagement and commercial value.
+    Review: reassess after 6 months in lower division — some clubs recover faster.
+
+PRIOR SEASON ELEVATED RISK MODIFIER:
+  Club that survived in prior season with <5 points above relegation zone:
+    Apply: ×1.10 weight to relegation signal if club enters bottom 6 in first 10 weeks
+    of the following season. Narrow prior survival elevates future relegation probability.
+
+AGENT RULE:
+  Check RELEGATION_THREAT state before applying standard CDI framework.
+  CRITICAL and RELEGATED states override standard CDI modifiers.
+  Do not apply DANGER or CRITICAL modifiers until official league table confirms position.
+```
+
 *SportMind v3.69 · MIT License · sportmind.dev*
 *See also: core/contextual-signal-environment.md (season_position dimension)*
 *fan-token/fan-token-lifecycle/ · fan-token/fan-sentiment-intelligence/*

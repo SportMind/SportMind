@@ -258,7 +258,7 @@ CONFIRMED INSTITUTIONAL OWNERSHIP → FAN TOKEN SIGNAL:
 **Regulatory framework:**   `macro/macro-regulatory-sportfi.md` (GCC regulatory map)
 **Financial sustainability:**`core/financial-sustainability-intelligence.md`
 **Emerging pipeline:**      `fan-token/emerging-sports-pipeline.md`
-**$CITY token context:**    `athlete/football/mancity-city.md`
+**$CITY token context:**    `athlete/football/athlete/football/tier-a-clubs-framework.md`
 **$PSG token context:**     `athlete/football/psg-psg.md`
 
 

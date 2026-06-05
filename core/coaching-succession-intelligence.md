@@ -225,10 +225,51 @@ STEP 5 — STABILISATION:
 **Manager intelligence:**      `core/manager-intelligence.md`
 **Trust breakdown:**           `core/trust-breakdown-intelligence.md`
 **Trajectory:**                `core/trajectory-intelligence.md`
-**Man City reference:**        `athlete/football/manchester-city-city.md`
+**Man City reference:**        `athlete/football/tier-a-clubs-framework.md`
 **POST_LEGACY framework:**     `core/psychological-intelligence.md`
 
 ---
+
+---
+
+## COACHING_STATUS three-state framework
+
+*Extracted from athlete/football/lazio.md — enduring framework applicable to all clubs.*
+
+```
+COACHING_STATUS STATES:
+
+  STABILIZED:
+    Definition: confirmed head coach with 2+ year contract, tactical identity established.
+    Signals: official appointment confirmed, contract duration ≥ 2 years, 5+ results
+      completed under current manager, tactical pattern recognised by analysts.
+    CDI modifier: ×1.04 (structural certainty premium — community confidence raised)
+    Apply when: all three gates confirmed (appointment + contract + identity).
+
+  TRANSITION:
+    Definition: new coach confirmed but fewer than 5 results completed.
+    Signals: appointment announced, but tactical patterns not yet established.
+    CDI modifier: ×0.92 (tactical uncertainty — squad adaptation incomplete)
+    Apply when: appointment confirmed but identity gate not yet cleared.
+
+  LIMBO:
+    Definition: no confirmed head coach. Caretaker or vacancy.
+    Signals: manager departure confirmed, no successor announced, caretaker in charge.
+    CDI modifier: ×0.88 (governance uncertainty — community confidence depressed)
+    Apply when: incumbent departed and no permanent replacement confirmed.
+
+TRANSITION RULES:
+  LIMBO → TRANSITION: triggered by official permanent appointment announcement.
+  TRANSITION → STABILIZED: triggered when 5+ results completed + tactical identity clear.
+  STABILIZED → LIMBO: triggered if manager departs mid-season (immediate reassessment).
+  STABILIZED → TRANSITION: triggered by coaching change even if replacement immediately named.
+
+AGENT RULE:
+  Check COACHING_STATUS before applying any manager-dependent signal modifier.
+  LIMBO overrides all other coaching modifiers.
+  STABILIZED does NOT override tactical matchup modifiers — a stabilised bad system
+  is still a bad system vs a specific opponent.
+```
 
 *SportMind v3.97.84 · MIT License · sportmind.dev*
 *SOFT_LANDING: ×0.85 governance. HARD_RESET: ×0.78. Recovery at 5 competitive results.*
