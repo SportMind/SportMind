@@ -250,6 +250,27 @@ CHARACTER LIMITS:
 - `fan-token/gamified-tokenomics-intelligence/` — PATH_2 mechanics
 - `fan-token/on-chain-event-intelligence/` — on-chain verification
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Price movement explainer: translating fan token price signals into plain-language Telegram messages |
+| Reasoning | ACTIVE | Price reasoning chain from on-chain/exchange movement to human-readable explanation |
+| Context | ACTIVE | Price context: movement magnitude, supply event trigger, competition event correlation |
+| Memory | ACTIVE | Price explainer tracks prior price messages to provide trend context in new messages |
+| Judgment | ACTIVE | Judgment on price movement materiality — significant movements only warrant a message |
+| Attention | ACTIVE | Price movement explainer is triggered by threshold breach in monitoring layer |
+| Communication | ACTIVE | This file defines the price movement explanation format for Telegram delivery |
+| Verification | ACTIVE | Price data verified via exchange API before explanation is published |
+| Learning | EMERGING | Price explanation patterns improve as user comprehension feedback accumulates |
+| Integration | ACTIVE | Integrates supply intelligence, FTP framework, and competition calendar into price explanation |
+| Calibration | ACTIVE | Price movement thresholds calibrated from historical significant movement data |
+| Adaptation | ACTIVE | Price explainer adapts as fan token market dynamics and user audience evolve |
+| Ethics | ACTIVE | Price movement messages include disclaimer — not financial advice, information only |
+| Transparency | ACTIVE | Price data source, movement magnitude, and explanation basis always explicit in output |
+
+
 ---
 
 *SportMind v3.96.0 · MIT License · sportmind.dev · Layer 6*

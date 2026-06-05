@@ -269,6 +269,27 @@ Source: macro/macro-crypto-market-cycles.md
 - `fan-token/on-chain-event-intelligence/` — omnichain signal
 - `telegram/price-movement-explainer.md` — token-level moves
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Macro event interpreter: translating macro-level events into Telegram-ready signal messages |
+| Reasoning | ACTIVE | Macro reasoning chain from event detection to plain-language signal interpretation |
+| Context | ACTIVE | Macro context: event type (regulatory/crypto/geopolitical), urgency level, audience |
+| Memory | ACTIVE | Macro interpreter tracks prior messages to avoid duplicate signals in channel |
+| Judgment | ACTIVE | Judgment on macro event materiality — not all macro events warrant a Telegram message |
+| Attention | ACTIVE | Macro event interpreter is the attention gate for macro-level Telegram alerts |
+| Communication | ACTIVE | This file defines the macro event message format for Telegram delivery |
+| Verification | ACTIVE | Macro event requires official source confirmation before Telegram message is sent |
+| Learning | EMERGING | Macro event interpretation patterns improve as user feedback on message clarity accumulates |
+| Integration | ACTIVE | Integrates macro intelligence layer with Telegram delivery format |
+| Calibration | ACTIVE | Macro signal confidence levels use calibrated library thresholds |
+| Adaptation | ACTIVE | Macro interpreter adapts as macro event categories and Telegram format evolve |
+| Ethics | ACTIVE | Macro messages include uncertainty disclosure for unverified developing events |
+| Transparency | ACTIVE | Macro event source and confidence level always included in Telegram output |
+
+
 ---
 
 *SportMind v3.96.0 · MIT License · sportmind.dev · Layer 6*

@@ -200,6 +200,27 @@ Tier D + macro_override_active → immediate human notification required.
 - `fan-token/fan-token-pulse/fan-token-pulse-on-chain-data.md` — HAS/TVI
 - `core/media-intelligence.md` — broader social signal context
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sentiment monitor: tracking fan sentiment signals for Telegram alert delivery |
+| Reasoning | ACTIVE | Sentiment reasoning chain from signal spike to alert decision and message format |
+| Context | ACTIVE | Sentiment context: platform, signal strength, organic vs bot assessment, event correlation |
+| Memory | ACTIVE | Sentiment monitor tracks baseline sentiment to identify meaningful deviations |
+| Judgment | ACTIVE | Judgment on sentiment alert threshold — only significant organic spikes warrant a message |
+| Attention | ACTIVE | Sentiment monitor IS an attention system — continuously watching for threshold breaches |
+| Communication | ACTIVE | This file defines the sentiment alert format for Telegram delivery |
+| Verification | ACTIVE | Sentiment signals require bot detection before alert is sent |
+| Learning | EMERGING | Sentiment monitor threshold calibration improves as alert accuracy data accumulates |
+| Integration | ACTIVE | Integrates social sentiment, fan sentiment, and CHI into Telegram-ready alert |
+| Calibration | EMERGING | Sentiment alert threshold calibration is developing — high noise in social data |
+| Adaptation | ACTIVE | Sentiment monitor adapts as social platform dynamics and bot detection methods evolve |
+| Ethics | ACTIVE | Sentiment alerts for individuals are never sent — aggregate signals only |
+| Transparency | ACTIVE | Sentiment platform, bot detection status, and threshold basis always in alert output |
+
+
 ---
 
 *SportMind v3.96.0 · MIT License · sportmind.dev · Layer 6*

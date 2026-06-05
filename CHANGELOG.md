@@ -1,5 +1,27 @@
 # Changelog
 
+## [3.97.107] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: telegram/ directory
+
+0 new files. 5 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to all 5 non-exempt telegram/ files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section: 0
+Skipped (exempt): telegram/README.md
+
+5 files updated:
+  telegram/examples/fan-token-trading-bot.md
+  telegram/macro-event-interpreter.md
+  telegram/pre-match-signal.md
+  telegram/price-movement-explainer.md
+  telegram/sentiment-monitor.md
+
 ## [3.97.106] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: macro/ directory

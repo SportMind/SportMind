@@ -293,6 +293,27 @@ COMMUNITY:
   [ ] DYOR disclaimer pinned alongside bot introduction
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token trading bot example: demonstrates SportMind intelligence applied to Telegram bot output |
+| Reasoning | ACTIVE | Bot reasoning example: signal chain from macro → market → sport → fan token → structured message |
+| Context | ACTIVE | Bot context: Telegram channel format, user audience, signal urgency, confidence level |
+| Memory | ACTIVE | Bot example demonstrates session state for tracking prior signals sent to channel |
+| Judgment | ACTIVE | Bot judgment example: when to send a signal vs wait for confirmation |
+| Attention | ACTIVE | Bot attention example: showing how alert triggers determine message priority |
+| Communication | ACTIVE | This file IS a communication pattern — defines the Telegram message format for fan token signals |
+| Verification | ACTIVE | Bot example includes source verification gate before publishing signal to channel |
+| Learning | EMERGING | Bot example patterns improve as deployment feedback accumulates |
+| Integration | ACTIVE | Integrates full five-layer SportMind stack into a single Telegram-formatted output |
+| Calibration | ACTIVE | Bot signal output uses calibrated confidence levels from the library |
+| Adaptation | ACTIVE | Bot example adapts as Telegram API and SportMind output formats evolve |
+| Ethics | ACTIVE | Bot output includes disclaimer that signals are not financial advice |
+| Transparency | ACTIVE | Bot example shows all signal sources, confidence levels, and modifier stack in output |
+
+
 ---
 
 *SportMind v3.96.0 · MIT License · sportmind.dev · Layer 6*

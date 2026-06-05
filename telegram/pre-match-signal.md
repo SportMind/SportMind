@@ -251,6 +251,27 @@ RECOMMENDED SCHEDULE (cron-style, for bot runtime):
 - `fan-token/gamified-tokenomics-intelligence/` — PATH_2 mechanics
 - `fan-token/world-cup-2026-intelligence/world-cup-2026-pre-tournament.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Pre-match signal format for Telegram: structured pre-match SportMind output in bot-ready format |
+| Reasoning | ACTIVE | Pre-match reasoning chain condensed into Telegram message with key signals and direction |
+| Context | ACTIVE | Pre-match context: T-2h window, lineup confirmed status, SMS score, confidence level |
+| Memory | ACTIVE | Pre-match signal tracks which signals have already been sent to avoid duplicate messages |
+| Judgment | ACTIVE | Judgment on signal completeness — SMS below 60 triggers low-confidence flag in message |
+| Attention | ACTIVE | Pre-match signal is the highest-priority Telegram message type — sent close to kickoff |
+| Communication | ACTIVE | This file IS the pre-match communication template for Telegram delivery |
+| Verification | ACTIVE | Pre-match signal requires lineup confirmation before sending — unconfirmed lineups flagged |
+| Learning | ACTIVE | Pre-match message format improves from user engagement and calibration outcome data |
+| Integration | ACTIVE | Integrates all five SmartMind layers into a single pre-match Telegram message |
+| Calibration | ACTIVE | Pre-match signal direction and confidence use calibrated library values |
+| Adaptation | ACTIVE | Pre-match template adapts as SportMind output format and Telegram API evolve |
+| Ethics | ACTIVE | Pre-match messages include disclaimer that signals are intelligence, not financial advice |
+| Transparency | ACTIVE | SMS score, modifier stack, and lineup source always included in pre-match Telegram output |
+
+
 ---
 
 *SportMind v3.96.0 · MIT License · sportmind.dev · Layer 6*
