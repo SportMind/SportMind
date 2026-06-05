@@ -353,6 +353,27 @@ FAN TOKEN APPLICATION:
   the most commercially precise fan token pre-match signals available.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Wearable biometric connectors: athlete physiological data integration and APS modifier signals |
+| Reasoning | ACTIVE | Biometric reasoning chain from physiological data to athlete readiness modifier |
+| Context | ACTIVE | Biometric context: device type, data latency, athlete consent, regulatory framework |
+| Memory | ACTIVE | Historical biometric baseline patterns for individual athlete readiness assessment |
+| Judgment | ACTIVE | Judgment on biometric signal materiality — HRV and sleep quality are primary readiness signals |
+| Attention | ACTIVE | Elevated attention for pre-match biometric readings deviating from individual baseline |
+| Communication | ACTIVE | Biometric output with readiness assessment, APS modifier, and data source |
+| Verification | ACTIVE | Biometric data requires athlete consent verification before use |
+| Learning | EMERGING | Biometric-to-performance calibration is emerging — limited verified dataset |
+| Integration | ACTIVE | Integrates with athlete readiness index and core athlete modifier system |
+| Calibration | EMERGING | Biometric APS modifier calibration is early-stage — limited comparable data |
+| Adaptation | ACTIVE | Biometric connector adapts as wearable technology and regulatory frameworks evolve |
+| Ethics | ACTIVE | Athlete biometric data is highly sensitive — explicit consent and GDPR compliance are mandatory |
+| Transparency | ACTIVE | Biometric source device, consent status, and data age always disclosed in output |
+
+
 ---
 
 *SportMind v3.66 · MIT License · sportmind.dev*

@@ -259,6 +259,27 @@ response = sportmind.call({
 
 See `platform/api-contracts.md` for full contract specifications.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Skill registry API is a technical interface definition — not an intelligence reasoning file |
+| Reasoning | NOT APPLICABLE | API specification is formal — not a reasoning framework |
+| Context | ACTIVE | API context: endpoints, authentication, query parameters, response schemas |
+| Memory | NOT APPLICABLE | API specification is static — not memory-dependent |
+| Judgment | NOT APPLICABLE | API specification is prescriptive — not a judgment framework |
+| Attention | NOT APPLICABLE | Static specification — not an attention framework |
+| Communication | ACTIVE | API specification defines the communication interface for skill discovery |
+| Verification | ACTIVE | API includes schema validation and error response definitions |
+| Learning | NOT APPLICABLE | API specification is versioned — not a learning framework |
+| Integration | ACTIVE | Skill registry API enables external systems to discover and load SportMind skills |
+| Calibration | NOT APPLICABLE | API specifications are structural — not subject to accuracy calibration |
+| Adaptation | ACTIVE | API versions when interface changes are required |
+| Ethics | ACTIVE | API rate limiting and authentication enforce responsible use |
+| Transparency | ACTIVE | All API versions, deprecations, and schema changes documented |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

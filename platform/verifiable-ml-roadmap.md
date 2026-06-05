@@ -235,6 +235,27 @@ SPORTMIND CONTEXT:
   fan-token/defi-liquidity-intelligence/ → DeFi protocol integration context
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | EMERGING | Verifiable ML roadmap: planned enhancements to calibration verification and provenance tracking |
+| Reasoning | EMERGING | Roadmap reasoning: prioritising ML verification improvements by impact and feasibility |
+| Context | ACTIVE | Roadmap context: current library state, planned improvements, dependency chains |
+| Memory | NOT APPLICABLE | Roadmap is a planning document — not memory-dependent |
+| Judgment | ACTIVE | Roadmap judgment: which verification improvements deliver highest library quality improvement |
+| Attention | ACTIVE | Roadmap guides attention toward the highest-priority gaps in calibration and verification |
+| Communication | ACTIVE | Roadmap communicates planned improvements to contributors and users |
+| Verification | ACTIVE | Roadmap specifically addresses verification gaps — it is a verification improvement plan |
+| Learning | ACTIVE | Roadmap is the planned learning improvement path for the library |
+| Integration | ACTIVE | Roadmap improvements will integrate across all intelligence layers |
+| Calibration | ACTIVE | Roadmap prioritises calibration improvements — this is a calibration planning document |
+| Adaptation | ACTIVE | Roadmap adapts as implementation progresses and new gaps are identified |
+| Ethics | ACTIVE | Roadmap includes provenance and bias detection improvements — ethics-driven priorities |
+| Transparency | ACTIVE | Roadmap is publicly available — all planned improvements visible to contributors |
+
+
 ---
 
 *SportMind v3.43 · MIT License · sportmind.dev*

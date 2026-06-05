@@ -779,6 +779,27 @@ echo '{"method":"tools/call","params":{"name":"sportmind_macro","arguments":{}}}
   python scripts/sportmind_mcp.py
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | SportMind MCP server: intelligence delivery layer for AI agent integration via MCP protocol |
+| Reasoning | ACTIVE | MCP server routes agent queries to the correct intelligence files and returns structured outputs |
+| Context | ACTIVE | MCP server context: tool definitions, active intelligence layers, session state |
+| Memory | ACTIVE | MCP server session memory: conversation context and active signal state |
+| Judgment | ACTIVE | MCP server judgment: routing complex queries to appropriate intelligence sub-systems |
+| Attention | ACTIVE | MCP server directs agent attention via structured tool responses |
+| Communication | ACTIVE | MCP server defines the communication protocol between SportMind and AI agents |
+| Verification | ACTIVE | MCP server includes response validation before returning intelligence to agents |
+| Learning | ACTIVE | MCP server routing logic improves from historical query-response accuracy data |
+| Integration | ACTIVE | MCP server is the primary integration gateway for all external agent deployments |
+| Calibration | ACTIVE | MCP server response confidence calibrated against library accuracy standards |
+| Adaptation | ACTIVE | MCP server adapts as MCP protocol evolves and new tool types are added |
+| Ethics | ACTIVE | MCP server enforces SportMind ethical boundaries — prohibited output types blocked at server level |
+| Transparency | ACTIVE | All MCP tool calls and responses are logged for audit purposes |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

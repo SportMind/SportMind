@@ -575,6 +575,27 @@ async def build_signal_with_live_data(sport, event_id, use_case,
     return base
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Real-time integration patterns: streaming data architectures and in-play signal processing |
+| Reasoning | ACTIVE | Real-time reasoning patterns: how to process high-velocity signal streams without latency |
+| Context | ACTIVE | Real-time context: event streaming, webhook patterns, polling fallback, data ordering |
+| Memory | ACTIVE | Real-time state memory: buffered event queue and deduplication window |
+| Judgment | ACTIVE | Judgment on real-time signal processing priority — latency vs completeness trade-off |
+| Attention | ACTIVE | Real-time processing IS the high-attention state — patterns are for maximum signal velocity |
+| Communication | ACTIVE | Real-time integration output format: streaming structured signal updates |
+| Verification | ACTIVE | Real-time verification patterns: event deduplication, ordering checks, source validation |
+| Learning | ACTIVE | Real-time integration patterns improve from historical streaming performance data |
+| Integration | ACTIVE | Real-time patterns connect live data sources to the full intelligence stack |
+| Calibration | NOT APPLICABLE | Integration patterns are structural — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Real-time patterns adapt as streaming infrastructure and event formats evolve |
+| Ethics | NOT APPLICABLE | Real-time integration patterns are technical — no ethical dimension |
+| Transparency | ACTIVE | Event source, processing latency, and ordering guarantee documented in pattern |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

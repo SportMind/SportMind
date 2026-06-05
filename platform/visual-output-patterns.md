@@ -360,6 +360,27 @@ REFRESH CADENCE:
 **Agent logs:** `core/autonomous-agent-framework.md` (log schema)
 **Agentic wallet:** `fan-token/agentic-wallet-intelligence/agentic-wallet-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Visual output patterns are presentation templates — not intelligence reasoning files |
+| Reasoning | NOT APPLICABLE | Output patterns are presentational — not reasoning frameworks |
+| Context | ACTIVE | Visual context: output type, audience, data density, platform constraints |
+| Memory | NOT APPLICABLE | Visual patterns are static templates — not memory-dependent |
+| Judgment | ACTIVE | Judgment on which visual pattern best communicates a given intelligence output |
+| Attention | ACTIVE | Visual patterns direct viewer attention to key intelligence signals |
+| Communication | ACTIVE | Visual output patterns ARE the communication standard for intelligence visualisation |
+| Verification | NOT APPLICABLE | Visual patterns are presentational — not subject to data verification |
+| Learning | NOT APPLICABLE | Visual patterns are static templates — updated only on design changes |
+| Integration | ACTIVE | Visual patterns integrate with all intelligence output types |
+| Calibration | NOT APPLICABLE | Visual patterns are presentational — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Visual patterns adapt as display platforms and audience preferences evolve |
+| Ethics | NOT APPLICABLE | Visual output patterns are presentational — no ethical dimension |
+| Transparency | ACTIVE | Visual pattern type and data sources always labelled in visualisation output |
+
+
 ---
 
 *SportMind v3.90.0 · MIT License · sportmind.dev*

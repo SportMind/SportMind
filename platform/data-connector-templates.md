@@ -733,6 +733,27 @@ ON-CHAIN (Chiliz):
   KAYEN API: https://docs.kayen.finance/api (as in Template 2)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Data connector templates are implementation scaffolding — not intelligence reasoning files |
+| Reasoning | NOT APPLICABLE | Templates are structural patterns — not reasoning frameworks |
+| Context | ACTIVE | Template context: connector type, data source category, authentication pattern |
+| Memory | NOT APPLICABLE | Templates are stateless scaffolding — not memory-dependent |
+| Judgment | NOT APPLICABLE | Templates are prescriptive — judgment is exercised by developer instantiating them |
+| Attention | NOT APPLICABLE | Static template reference — not an attention framework |
+| Communication | ACTIVE | Templates define the input/output format standard for each connector category |
+| Verification | ACTIVE | Templates include validation patterns for data integrity checking |
+| Learning | NOT APPLICABLE | Templates are static patterns — updated only on structural changes |
+| Integration | ACTIVE | Templates enable consistent integration across diverse data sources |
+| Calibration | NOT APPLICABLE | Templates are structural — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Templates updated as new data source types and connector patterns emerge |
+| Ethics | ACTIVE | Templates include licensing and rate limit compliance patterns |
+| Transparency | ACTIVE | Template documentation includes data source and expected schema |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

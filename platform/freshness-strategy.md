@@ -589,6 +589,27 @@ async def _check_library_version(self):
 | 4 | Lineup, weather | T-72h/24h/2h | Live API fetch | Set `lineup_unconfirmed` |
 | 5 | Token price, TVL | Per-analysis | Real-time API | Never cache |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Data freshness strategy: signal validity windows, update frequencies, and staleness detection |
+| Reasoning | ACTIVE | Freshness reasoning: determining whether a signal is still valid or requires re-fetch |
+| Context | ACTIVE | Freshness context: signal type, time-to-competition, data source update frequency |
+| Memory | ACTIVE | Freshness baselines: how long each signal type remains valid before staleness |
+| Judgment | ACTIVE | Judgment on freshness threshold — T-2h lineup signal has different validity window than CDI |
+| Attention | ACTIVE | Elevated attention as signals approach their validity expiry window |
+| Communication | ACTIVE | Freshness output: signal timestamp, validity status, and re-fetch recommendation |
+| Verification | ACTIVE | Stale signals require re-verification before use in new analysis |
+| Learning | ACTIVE | Freshness windows calibrated from historical signal decay accuracy data |
+| Integration | ACTIVE | Freshness strategy applies across all five intelligence layers |
+| Calibration | ACTIVE | Signal validity windows calibrated against historical accuracy-at-time-horizon data |
+| Adaptation | ACTIVE | Freshness strategy adapts as data source update frequencies change |
+| Ethics | NOT APPLICABLE | Data freshness is a technical concern — no ethical dimension |
+| Transparency | ACTIVE | Signal timestamp and validity status always disclosed in output |
+
+
 ---
 
 ## Compatibility

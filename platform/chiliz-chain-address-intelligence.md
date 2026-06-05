@@ -969,6 +969,27 @@ async def fan_token_play_example():
 ---
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Chiliz Chain address intelligence: wallet profiling, token holdings, and on-chain behaviour signals |
+| Reasoning | ACTIVE | Address intelligence reasoning chain from wallet signals to holder archetype and demand modifier |
+| Context | ACTIVE | Address context: wallet history, governance participation, bridge activity, holding duration |
+| Memory | ACTIVE | Historical address behaviour patterns and holder archetype baseline data |
+| Judgment | ACTIVE | Judgment on address signal materiality — whale wallets vs standard holders differ |
+| Attention | ACTIVE | Elevated attention for unusual wallet accumulation or large transfer signals |
+| Communication | ACTIVE | Address intelligence output with holder profile, archetype, and signal direction |
+| Verification | ACTIVE | Address data from chiliscan.com on-chain — pseudonymous, not personally identifiable |
+| Learning | ACTIVE | Address behaviour pattern learning from on-chain activity history |
+| Integration | ACTIVE | Integrates with fan-holder-profile, supply intelligence, and on-chain event intelligence |
+| Calibration | EMERGING | Address behaviour calibration requires more cross-token comparison data |
+| Adaptation | ACTIVE | Address intelligence adapts as omnichain architecture changes wallet behaviour patterns |
+| Ethics | ACTIVE | Pseudonymous wallet data handled per privacy-notice.md — no identity resolution attempted |
+| Transparency | ACTIVE | Data source (chiliscan.com), pseudonymous nature, and GDPR boundary noted in output |
+
+
 ---
 
 *SportMind v3.45 · MIT License · sportmind.dev*

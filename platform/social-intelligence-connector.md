@@ -974,6 +974,27 @@ SCENARIO → CONNECTOR → METHOD
 *Rate limits vary by plan — verify current limits at lunarcrush.com/pricing*
 *Fan token slugs: verify each at lunarcrush.com/coins before use in production*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Social intelligence connector: multi-platform social signal aggregation and processing |
+| Reasoning | ACTIVE | Social signal reasoning chain from raw engagement data to demand and sentiment modifier |
+| Context | ACTIVE | Social context: platform type, account tier, organic vs amplified engagement |
+| Memory | ACTIVE | Historical social signal baselines for anomaly detection |
+| Judgment | ACTIVE | Judgment on social signal reliability — bot activity and paid promotion require discount |
+| Attention | ACTIVE | Elevated attention for unusual social signal spikes near competition events |
+| Communication | ACTIVE | Social output with platform, volume, direction, organic assessment, and confidence |
+| Verification | ACTIVE | Social signals require bot detection and disclosure check before use |
+| Learning | EMERGING | Social signal-to-demand calibration is developing |
+| Integration | ACTIVE | Integrates with fan sentiment, athlete social activity, and KOL intelligence |
+| Calibration | EMERGING | Social signal calibration has high noise ratio — directionally useful but imprecise |
+| Adaptation | ACTIVE | Connector adapts as social platforms and engagement patterns evolve |
+| Ethics | ACTIVE | Individual user social data requires aggregate-only processing — no individual profiling |
+| Transparency | ACTIVE | Platform, detection method, and organic assessment always explicit in social output |
+
+
 ---
 
 *SportMind v3.42 · MIT License · sportmind.dev*

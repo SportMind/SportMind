@@ -1205,6 +1205,27 @@ if __name__ == "__main__":
     print(json.dumps(result, indent=2))
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | API connector examples are implementation templates — not intelligence reasoning files |
+| Reasoning | NOT APPLICABLE | Code examples are procedural — not a reasoning framework |
+| Context | ACTIVE | Context for each example: which API, which data type, which use case |
+| Memory | NOT APPLICABLE | Connection examples are stateless templates — not memory-dependent |
+| Judgment | NOT APPLICABLE | Examples are prescriptive — judgment is applied by the developer using them |
+| Attention | NOT APPLICABLE | Static reference material — not an attention framework |
+| Communication | ACTIVE | Examples define the output format for each connector type |
+| Verification | ACTIVE | Examples include validation patterns for API response integrity |
+| Learning | NOT APPLICABLE | Static examples — not subject to learning updates |
+| Integration | ACTIVE | Examples show how SportMind connects to external data sources |
+| Calibration | NOT APPLICABLE | Code examples are not subject to accuracy calibration |
+| Adaptation | ACTIVE | Examples updated as APIs evolve and new connector types are added |
+| Ethics | NOT APPLICABLE | API examples are technical — no ethical dimension |
+| Transparency | ACTIVE | Each example includes source API, response schema, and expected output format |
+
+
 ---
 
 *SportMind v3.52 · MIT License · sportmind.dev*

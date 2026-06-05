@@ -408,6 +408,27 @@ THE UNDERLYING INSIGHT (applies everywhere):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan engagement connector: Socios platform engagement signals and fan activity data |
+| Reasoning | ACTIVE | Engagement reasoning chain from platform activity to CHI and demand modifier |
+| Context | ACTIVE | Engagement context: poll participation, prediction game activity, reward redemption rates |
+| Memory | ACTIVE | Historical engagement baseline patterns for normal vs elevated activity |
+| Judgment | ACTIVE | Judgment on engagement signal materiality — organic vs bot activity distinction |
+| Attention | ACTIVE | Elevated attention for unusual engagement spikes near competition events |
+| Communication | ACTIVE | Engagement output with activity metrics, CHI contribution, and demand signal |
+| Verification | ACTIVE | Engagement data requires bot detection before applying to CHI calculation |
+| Learning | EMERGING | Engagement signal-to-demand calibration is developing |
+| Integration | ACTIVE | Integrates with CHI, fan sentiment, and social intelligence connector |
+| Calibration | EMERGING | Engagement signal calibration requires more cross-token comparison data |
+| Adaptation | ACTIVE | Connector adapts as Socios platform engagement mechanics evolve |
+| Ethics | ACTIVE | Individual user engagement data requires GDPR-compliant aggregate-only processing |
+| Transparency | ACTIVE | Engagement data source and bot detection methodology noted in output |
+
+
 ---
 
 *SportMind v3.66 · MIT License · sportmind.dev*

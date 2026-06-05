@@ -272,6 +272,27 @@ contributor: "@github-handle"
 ---
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Skill registry: canonical catalogue of all SportMind files with metadata and discovery tags |
+| Reasoning | NOT APPLICABLE | Skill registry is a reference catalogue — not a reasoning framework |
+| Context | ACTIVE | Registry context: file path, domain tags, version, dependencies, calibration status |
+| Memory | ACTIVE | Registry is the persistent file index — the master memory of available skills |
+| Judgment | ACTIVE | Registry includes relevance tagging to support discovery judgment |
+| Attention | ACTIVE | Registry enables efficient attention allocation by providing structured file metadata |
+| Communication | ACTIVE | Registry defines how files are described and tagged for discovery |
+| Verification | ACTIVE | Registry entries are verified against actual files — stale entries are flagged |
+| Learning | ACTIVE | Registry metadata improves as file relationships and usage patterns are observed |
+| Integration | ACTIVE | Skill registry is the master integration index for the entire library |
+| Calibration | ACTIVE | Registry includes calibration status tags — files with calibration records are marked |
+| Adaptation | ACTIVE | Registry updated whenever files are added, modified, or deprecated |
+| Ethics | NOT APPLICABLE | Registry is a reference catalogue — no ethical dimension |
+| Transparency | ACTIVE | Full registry is publicly available as part of the open-source library |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -485,6 +485,27 @@ See: SECURITY.md Threat 6 (prompt theft) and Threat 7 (meta-injection)
 for additional security guidance relevant to agent deployments.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Chiliz Agent Kit integration: CHZ ecosystem on-chain capabilities for intelligent agents |
+| Reasoning | ACTIVE | Integration reasoning: how agent actions map to on-chain Chiliz capabilities |
+| Context | ACTIVE | Integration context: CHZ chain state, wallet permissions, gas costs, contract addresses |
+| Memory | ACTIVE | Integration memory: transaction history, permission state, prior action outcomes |
+| Judgment | ACTIVE | Judgment on which on-chain actions are appropriate given current signal state |
+| Attention | ACTIVE | Elevated attention for on-chain state changes that affect pending agent actions |
+| Communication | ACTIVE | Integration output: action taken, transaction hash, on-chain confirmation status |
+| Verification | ACTIVE | On-chain actions require pre-execution verification — irreversible actions need confirmation gate |
+| Learning | ACTIVE | Integration patterns improve from historical execution outcome data |
+| Integration | ACTIVE | Chiliz Agent Kit connects on-chain execution with the full SportMind intelligence stack |
+| Calibration | EMERGING | On-chain action outcome calibration is developing |
+| Adaptation | ACTIVE | Integration adapts as Chiliz Chain evolves and new kit capabilities are released |
+| Ethics | ACTIVE | Irreversible on-chain actions require explicit scope limits — no autonomous transfers without gate |
+| Transparency | ACTIVE | Transaction hash and on-chain confirmation always provided in integration output |
+
+
 ---
 
 ## Compatibility

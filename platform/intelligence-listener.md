@@ -378,6 +378,27 @@ The listener supersedes the three narrow scripts above when running in
 `--domain all` mode. The narrow scripts remain useful for targeted,
 lightweight monitoring in resource-constrained environments.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Intelligence listener: real-time signal monitoring, event detection, and alert routing |
+| Reasoning | ACTIVE | Listener reasoning: classifying incoming events and routing to correct intelligence files |
+| Context | ACTIVE | Listener context: active competitions, monitored tokens, alert thresholds |
+| Memory | ACTIVE | Listener memory: active monitoring queue state and prior event history |
+| Judgment | ACTIVE | Judgment on alert priority — not all events warrant immediate intelligence update |
+| Attention | ACTIVE | Maximum attention function — the listener IS the attention layer for real-time signals |
+| Communication | ACTIVE | Listener output: event classification, priority level, and routing destination |
+| Verification | ACTIVE | Listener routes events for verification before they are acted upon |
+| Learning | ACTIVE | Listener classification rules improve from historical event-routing accuracy data |
+| Integration | ACTIVE | Intelligence listener integrates all real-time data connectors with intelligence layers |
+| Calibration | ACTIVE | Alert threshold values calibrated from historical signal materiality data |
+| Adaptation | ACTIVE | Listener adapts as new event types and monitoring targets are added |
+| Ethics | ACTIVE | Listener scope limits — personal data events are filtered before routing |
+| Transparency | ACTIVE | Event source, classification, and routing decision always logged |
+
+
 ---
 
 *SportMind v3.93.5 · MIT License · sportmind.dev*

@@ -335,6 +335,27 @@ Connect: All seven servers — orchestrate via Agent Lifecycle MCP (port 3007)
 **Transfer window agent:**
 Connect: Scouting & Transfer MCP (port 3006) + General MCP (port 3001)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | SportMind MCP suite: overview of all MCP-accessible intelligence tools and capabilities |
+| Reasoning | NOT APPLICABLE | Suite overview is descriptive — not a reasoning framework |
+| Context | ACTIVE | Suite context: available tools, authentication requirements, capability boundaries |
+| Memory | NOT APPLICABLE | Suite overview is static reference — not memory-dependent |
+| Judgment | ACTIVE | Suite overview guides judgment on which tools are appropriate for each task type |
+| Attention | ACTIVE | Suite overview directs attention to most relevant capability for each intelligence need |
+| Communication | ACTIVE | Suite overview defines how SportMind communicates its MCP capabilities to external agents |
+| Verification | NOT APPLICABLE | Suite overview is descriptive — not subject to external verification |
+| Learning | NOT APPLICABLE | Suite overview is static — updated when new tools are added |
+| Integration | ACTIVE | Suite overview is the integration entry point for external agent developers |
+| Calibration | NOT APPLICABLE | Suite overview is descriptive — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Suite overview updated as new MCP capabilities are added |
+| Ethics | ACTIVE | Suite overview includes scope limits and prohibited use cases |
+| Transparency | ACTIVE | All MCP suite capabilities and limitations publicly documented |
+
+
 ---
 
 *SportMind v3.68 · MIT License · sportmind.dev*

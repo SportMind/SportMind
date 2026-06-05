@@ -1,5 +1,41 @@
 # Changelog
 
+## [3.97.105] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: platform/ directory
+
+0 new files. 30 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to all 30 platform/ files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section: 0
+Skipped (exempt): 0 — no README or pure data files in platform/
+
+Platform/ files are primarily technical/operational files. Dimension mapping
+reflects this: many API specification, template, and deployment files have
+NOT APPLICABLE for reasoning, memory, judgment, and calibration dimensions,
+since these are prescriptive structural files rather than reasoning frameworks.
+Intelligence and integration dimensions are ACTIVE throughout since all platform
+files connect SportMind intelligence to external consumers.
+
+30 files updated:
+  API layer (api-connector-examples, api-contracts, api-providers)
+  Chiliz ecosystem (chiliz-agent-kit-integration, chiliz-chain-address-intelligence)
+  Data connectors (data-connector-templates, fan-engagement-connector,
+    fetch-mcp-disciplinary, social-intelligence-connector,
+    wearable-biometric-connectors, web-agent-connectors)
+  Intelligence infrastructure (fraud-signal-intelligence, freshness-strategy,
+    intelligence-listener, live-signals, memory-integration, monitoring-alerts,
+    realtime-integration-patterns)
+  MCP layer (sportmind-mcp-deployment, sportmind-mcp-server, sportmind-mcp-suite)
+  Platform framework (integration-partners, platform-overview, sequential-thinking-
+    integration, skill-bundles, skill-discovery-protocol, skill-registry-api,
+    skill-registry, verifiable-ml-roadmap, visual-output-patterns)
+
 ## [3.97.104] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: athlete/ directory

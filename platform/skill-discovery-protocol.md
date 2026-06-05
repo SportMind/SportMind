@@ -792,6 +792,27 @@ with learned weights.
 See: platform/verifiable-ml-roadmap.md
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Skill discovery protocol: dynamic file discovery for agents building context on demand |
+| Reasoning | ACTIVE | Discovery reasoning: selecting the correct files given task description and sport domain |
+| Context | ACTIVE | Discovery context: task description, domain signals, available context budget |
+| Memory | ACTIVE | Discovery memory: prior successful file combinations for similar tasks |
+| Judgment | ACTIVE | Judgment on relevance scoring — which files are most likely to improve task performance |
+| Attention | ACTIVE | Discovery protocol directs initial attention toward the highest-relevance files |
+| Communication | ACTIVE | Discovery output: ranked file list with relevance scores and context budget estimate |
+| Verification | NOT APPLICABLE | Discovery protocol is a selection mechanism — not subject to external verification |
+| Learning | ACTIVE | Discovery accuracy improves from historical file-selection-to-task-quality correlation |
+| Integration | ACTIVE | Discovery protocol integrates with all library directories for dynamic context building |
+| Calibration | ACTIVE | Relevance scores calibrated from historical task performance data |
+| Adaptation | ACTIVE | Discovery adapts as new files are added and semantic relationships evolve |
+| Ethics | NOT APPLICABLE | Discovery protocol is a selection mechanism — no ethical dimension |
+| Transparency | ACTIVE | Discovered files, relevance scores, and selection rationale always explicit in output |
+
+
 ---
 
 *SportMind v3.46 · MIT License · sportmind.dev*

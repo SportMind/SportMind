@@ -432,6 +432,27 @@ This file does NOT replace:
   Platform contracts — interface layer; versioned independently
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Live signal intelligence: real-time in-play signal detection and processing framework |
+| Reasoning | ACTIVE | Live signal reasoning chain from in-play event to signal update and modifier adjustment |
+| Context | ACTIVE | Live context: match state, time remaining, score, live odds movement |
+| Memory | ACTIVE | Live signal baselines: expected vs actual event frequency patterns |
+| Judgment | ACTIVE | Judgment on live signal materiality — goal event differs from yellow card in signal weight |
+| Attention | ACTIVE | Maximum attention function — live signals require highest-priority processing |
+| Communication | ACTIVE | Live signal output: event type, timestamp, adjusted modifier, and confidence |
+| Verification | ACTIVE | Live data requires official data feed confirmation — social media reports are not primary |
+| Learning | ACTIVE | Live signal calibration from historical in-play event-to-outcome correlation data |
+| Integration | ACTIVE | Live signals integrate with all sport-specific domain files for real-time updates |
+| Calibration | ACTIVE | Live signal modifier values calibrated from historical in-play outcome data |
+| Adaptation | ACTIVE | Live signal framework adapts as real-time data feed capabilities expand |
+| Ethics | NOT APPLICABLE | Live signal processing is technical — no ethical dimension |
+| Transparency | ACTIVE | Live data source, timestamp, and modifier adjustment always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

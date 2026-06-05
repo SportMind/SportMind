@@ -363,6 +363,27 @@ NEVER clear:
   Portfolio performance tracking (for calibration record generation)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Memory integration framework: persistent intelligence state across sessions and agents |
+| Reasoning | ACTIVE | Memory reasoning: selecting which information to persist and how to retrieve it |
+| Context | ACTIVE | Memory context: session type, agent identity, intelligence layer state |
+| Memory | ACTIVE | This file defines the memory integration architecture — it IS the memory standard |
+| Judgment | ACTIVE | Judgment on memory persistence: what is worth storing vs transient signal data |
+| Attention | ACTIVE | Memory retrieval directs attention to relevant prior intelligence state |
+| Communication | ACTIVE | Memory integration output: retrieved state, staleness flag, and confidence |
+| Verification | ACTIVE | Retrieved memory requires freshness check before use in new analysis |
+| Learning | ACTIVE | Memory integration improves as patterns of useful vs useless persistent state emerge |
+| Integration | ACTIVE | Memory integration connects persistent state across all five intelligence layers |
+| Calibration | NOT APPLICABLE | Memory architecture is structural — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Memory framework adapts as agent architectures and session patterns evolve |
+| Ethics | ACTIVE | Personal data in memory is subject to GDPR — retention limits apply |
+| Transparency | ACTIVE | Memory source, age, and freshness status always disclosed when retrieved state is used |
+
+
 ---
 
 *SportMind v3.35 · MIT License · sportmind.dev*

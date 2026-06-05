@@ -187,6 +187,27 @@ WHAT THE PLATFORM LAYER ENABLES (without restricting):
 7. examples/testing/testing-scenarios.md  Verify your integration is correct
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | Platform overview is structural documentation — not an intelligence reasoning file |
+| Reasoning | NOT APPLICABLE | Overview is descriptive — not a reasoning framework |
+| Context | ACTIVE | Platform context: architecture summary, component relationships, deployment options |
+| Memory | NOT APPLICABLE | Platform overview is static reference — not memory-dependent |
+| Judgment | NOT APPLICABLE | Overview is descriptive — not a judgment framework |
+| Attention | NOT APPLICABLE | Static reference — not an attention framework |
+| Communication | ACTIVE | Platform overview defines how the platform communicates its architecture to users |
+| Verification | NOT APPLICABLE | Overview is descriptive — not subject to external verification |
+| Learning | NOT APPLICABLE | Platform overview is static — updated only on structural changes |
+| Integration | ACTIVE | Platform overview contextualises all platform/ files and their integration relationships |
+| Calibration | NOT APPLICABLE | Overview is descriptive — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Platform overview updated as architecture evolves |
+| Ethics | NOT APPLICABLE | Platform overview is structural documentation — no ethical dimension |
+| Transparency | ACTIVE | Platform architecture and component relationships fully documented publicly |
+
+
 ---
 
 *SportMind is an independent open-source project. The platform layer is community

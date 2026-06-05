@@ -322,6 +322,27 @@ GOVERNANCE INTELLIGENCE (Pattern 9):
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Platform-level fraud signal intelligence: token fraud detection patterns and signal flags |
+| Reasoning | ACTIVE | Fraud signal reasoning chain from suspicious pattern to risk classification |
+| Context | ACTIVE | Fraud context: World Cup amplification window, new token launch timing, yield promise flags |
+| Memory | ACTIVE | Historical fraud pattern library for pattern matching against new signals |
+| Judgment | ACTIVE | Judgment on fraud risk threshold — conservative threshold required, false positives acceptable |
+| Attention | ACTIVE | Maximum attention during World Cup fraud amplification window and new token launches |
+| Communication | ACTIVE | Fraud signal output with risk level, red flags identified, and verification gap list |
+| Verification | ACTIVE | All four verification sources required before fraud flag is cleared |
+| Learning | ACTIVE | Fraud pattern library grows as new fraud types are confirmed |
+| Integration | ACTIVE | Integrates with fan-token fraud-risk-intelligence and official-verification-framework |
+| Calibration | ACTIVE | Four-source verification framework is the calibrated fraud detection standard |
+| Adaptation | ACTIVE | Fraud signal intelligence adapts as new fraud mechanics emerge |
+| Ethics | ACTIVE | Fraud detection is a core ethics function — protects users from harmful token schemes |
+| Transparency | ACTIVE | Fraud risk level, specific red flags, and verification status always explicit in output |
+
+
 ---
 
 *SportMind v3.62 · MIT License · sportmind.dev*

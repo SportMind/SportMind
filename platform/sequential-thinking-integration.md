@@ -253,6 +253,27 @@ SKILL FILE REFERENCES:
   core/confidence-output-schema.md — Phase 5 output format
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Sequential thinking integration: structured multi-step reasoning protocol for complex analysis |
+| Reasoning | ACTIVE | Sequential reasoning methodology: explicit step-by-step chain for complex intelligence tasks |
+| Context | ACTIVE | Sequential context: task type, prior steps completed, remaining steps, context budget |
+| Memory | ACTIVE | Sequential memory: prior reasoning steps carried forward within a chain |
+| Judgment | ACTIVE | Judgment at each step: whether to proceed, branch, or revise based on intermediate findings |
+| Attention | ACTIVE | Sequential attention directs focus explicitly at each step — no implicit assumptions |
+| Communication | ACTIVE | Sequential output: each step result explicitly stated before proceeding to next |
+| Verification | ACTIVE | Verification step built into the chain — conclusions verified before acted upon |
+| Learning | ACTIVE | Sequential patterns improve from historical complex task resolution data |
+| Integration | ACTIVE | Sequential thinking integrates with all intelligence layers for multi-step analysis |
+| Calibration | ACTIVE | Sequential reasoning accuracy calibrated from complex task outcome data |
+| Adaptation | ACTIVE | Sequential patterns adapt as new complex task types are encountered |
+| Ethics | ACTIVE | Sequential thinking makes ethical reasoning explicit at each step — no implicit bypass |
+| Transparency | ACTIVE | Every step in the chain is explicitly stated and traceable in output |
+
+
 ---
 
 *SportMind v3.35 · MIT License · sportmind.dev*

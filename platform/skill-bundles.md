@@ -377,6 +377,27 @@ loading_order:
 # 5. Include core/breaking-news-intelligence.md for any live-match use case
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Skill bundles: pre-packaged combinations of SportMind files optimised for common use cases |
+| Reasoning | ACTIVE | Bundle reasoning: which files to load together for efficient context use per task type |
+| Context | ACTIVE | Bundle context: task type, available context window, sport domain, competition type |
+| Memory | NOT APPLICABLE | Skill bundles are static load configurations — not memory-dependent |
+| Judgment | ACTIVE | Bundle selection judgment: matching task requirements to pre-optimised file combinations |
+| Attention | ACTIVE | Bundles direct attention to the most relevant files for each task type |
+| Communication | ACTIVE | Bundle output: files loaded, context budget used, and optimisation rationale |
+| Verification | NOT APPLICABLE | Skill bundles are structural configurations — not subject to external verification |
+| Learning | ACTIVE | Bundle configurations improve from historical task-completion efficiency data |
+| Integration | ACTIVE | Skill bundles are the primary integration mechanism for deploying SportMind at scale |
+| Calibration | ACTIVE | Bundle file selections calibrated from historical context efficiency and accuracy data |
+| Adaptation | ACTIVE | Bundles updated as new files are added and task patterns evolve |
+| Ethics | NOT APPLICABLE | Skill bundles are configuration tools — no ethical dimension |
+| Transparency | ACTIVE | Bundle composition and context budget always disclosed in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

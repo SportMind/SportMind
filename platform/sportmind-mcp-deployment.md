@@ -379,6 +379,27 @@ See SECURITY.md for full security guidance including Threat 6 (prompt theft)
 and Threat 7 (meta-injection) patterns for hosted deployments.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | MCP deployment guide is operational documentation — not an intelligence reasoning file |
+| Reasoning | NOT APPLICABLE | Deployment guide is procedural — not a reasoning framework |
+| Context | ACTIVE | Deployment context: environment type, authentication configuration, rate limits |
+| Memory | NOT APPLICABLE | Deployment documentation is static — not memory-dependent |
+| Judgment | NOT APPLICABLE | Deployment is procedural — judgment is in architecture design, not deployment steps |
+| Attention | NOT APPLICABLE | Static deployment documentation — not an attention framework |
+| Communication | ACTIVE | Deployment guide communicates the configuration required for MCP server setup |
+| Verification | ACTIVE | Deployment includes health check and connectivity verification steps |
+| Learning | NOT APPLICABLE | Deployment documentation is versioned — not a learning framework |
+| Integration | ACTIVE | MCP deployment enables external agent integration with SportMind intelligence |
+| Calibration | NOT APPLICABLE | Deployment is operational — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Deployment guide updates as MCP server architecture and hosting options evolve |
+| Ethics | ACTIVE | Deployment includes API key security and rate limit compliance requirements |
+| Transparency | ACTIVE | All deployment configuration options and their implications are documented |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

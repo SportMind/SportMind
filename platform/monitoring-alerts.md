@@ -409,6 +409,27 @@ if active_geo_events or macro_modifier != 1.00:
     pass
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Monitoring and alert intelligence: threshold-based signal monitoring and escalation routing |
+| Reasoning | ACTIVE | Alert reasoning: determining whether a threshold breach warrants signal escalation |
+| Context | ACTIVE | Alert context: active monitoring targets, current threshold values, escalation rules |
+| Memory | ACTIVE | Historical alert pattern data and baseline threshold calibration |
+| Judgment | ACTIVE | Judgment on alert severity — not all threshold breaches warrant immediate escalation |
+| Attention | ACTIVE | Monitoring is the platform-level attention system — alerts direct focus |
+| Communication | ACTIVE | Alert output: threshold breached, severity level, escalation route, and recommended action |
+| Verification | ACTIVE | Alerts require verification before escalation to prevent false positive noise |
+| Learning | ACTIVE | Alert threshold calibration improves from historical false positive and missed event data |
+| Integration | ACTIVE | Monitoring integrates across all intelligence layers and data connectors |
+| Calibration | ACTIVE | Alert thresholds calibrated from historical signal materiality and false positive rates |
+| Adaptation | ACTIVE | Monitoring adapts as new signals and monitored events are added |
+| Ethics | NOT APPLICABLE | Monitoring configuration is technical — no ethical dimension |
+| Transparency | ACTIVE | Alert threshold, source, and severity classification always explicit in escalation output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

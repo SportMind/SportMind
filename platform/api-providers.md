@@ -792,6 +792,27 @@ copy-paste integration:
 - `KAYEN` — Template 2 (fan token market data)
 - `CoinGecko` — Template 3 (macro state / CHZ price)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | API provider intelligence: provider profiles, data quality tiers, and coverage gaps |
+| Reasoning | ACTIVE | Provider reasoning: how to select the correct provider for a given data need |
+| Context | ACTIVE | Provider context: sport coverage, update frequency, reliability track record, cost tier |
+| Memory | ACTIVE | Provider selection history and reliability baseline data |
+| Judgment | ACTIVE | Judgment on provider quality tier — which provider is Tier 1 for a given sport/data type |
+| Attention | ACTIVE | Elevated attention when a primary provider has an outage or data quality degradation |
+| Communication | ACTIVE | Provider output: which provider was used and its tier for the data in the output |
+| Verification | ACTIVE | Provider data requires cross-reference with secondary provider for critical signals |
+| Learning | ACTIVE | Provider quality ratings updated from historical reliability data |
+| Integration | ACTIVE | Provider profiles integrate with all data-consuming intelligence files |
+| Calibration | ACTIVE | Provider tier classification calibrated against historical data accuracy records |
+| Adaptation | ACTIVE | Provider intelligence adapts as new providers emerge and existing ones evolve |
+| Ethics | ACTIVE | Provider licensing compliance is an ethics requirement — no unlicensed data scraping |
+| Transparency | ACTIVE | Provider name, tier, and licence status always disclosed when data is sourced |
+
+
 ---
 
 *SportMind v3.52 · MIT License · sportmind.dev*

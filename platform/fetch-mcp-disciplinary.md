@@ -299,6 +299,27 @@ verifies its disciplinary signals against live authoritative sources, and
 improves with every session.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MCP fetch disciplinary intelligence: real-time disciplinary event data connector |
+| Reasoning | ACTIVE | Disciplinary fetch reasoning: routing to correct source for each sport and jurisdiction |
+| Context | ACTIVE | Fetch context: sport, competition, governing body, suspension registry source |
+| Memory | NOT APPLICABLE | MCP fetch is a real-time connector — not memory-dependent |
+| Judgment | ACTIVE | Judgment on which disciplinary source is Tier 1 for each sport jurisdiction |
+| Attention | ACTIVE | Elevated attention for new disciplinary event flags in monitoring queue |
+| Communication | ACTIVE | Disciplinary fetch output with event type, source tier, and signal classification |
+| Verification | ACTIVE | Disciplinary data requires governing body official source — not media reports |
+| Learning | NOT APPLICABLE | Fetch connector is a routing mechanism — not a learning framework |
+| Integration | ACTIVE | Integrates with athlete disciplinary intelligence and LQI modifier |
+| Calibration | NOT APPLICABLE | Fetch connector routes to data sources — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Connector adapts as governing body data sources and APIs evolve |
+| Ethics | ACTIVE | Disciplinary data is sensitive — only officially confirmed events are fetched and used |
+| Transparency | ACTIVE | Source governing body and fetch timestamp always included in disciplinary output |
+
+
 ---
 
 *SportMind v3.35 · MIT License · sportmind.dev*

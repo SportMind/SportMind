@@ -419,6 +419,27 @@ modifier = response["modifiers_applied"]["composite_modifier"]
 | `intelligence.validator` | Validator status (VSI) | `fan-token/blockchain-validator-intelligence/` |
 | `intelligence.commercial` | Full commercial brief | Layer 3 commercial chain |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | NOT APPLICABLE | API contracts define technical interfaces — not an intelligence reasoning file |
+| Reasoning | NOT APPLICABLE | Contract specifications are formal definitions — not reasoning frameworks |
+| Context | ACTIVE | Contract context: endpoint, version, authentication method, rate limits |
+| Memory | NOT APPLICABLE | API contracts are static specifications — not memory-dependent |
+| Judgment | NOT APPLICABLE | API contracts are prescriptive standards — judgment is in design, not usage |
+| Attention | NOT APPLICABLE | Static reference — not an attention framework |
+| Communication | ACTIVE | API contracts define the communication interface between SportMind and external systems |
+| Verification | ACTIVE | Contracts include validation schemas for request/response integrity |
+| Learning | NOT APPLICABLE | API contracts are versioned specifications — not learning frameworks |
+| Integration | ACTIVE | API contracts enable integration with external data providers and consumers |
+| Calibration | NOT APPLICABLE | API specifications are not subject to accuracy calibration |
+| Adaptation | ACTIVE | Contracts version when API interfaces change |
+| Ethics | ACTIVE | API contracts include rate limit and data usage terms — compliance is an ethics requirement |
+| Transparency | ACTIVE | All API contract versions and change logs are documented |
+
+
 ---
 
 *These contracts define how SportMind's intelligence is accessed — not what it contains.

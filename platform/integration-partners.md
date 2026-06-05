@@ -601,6 +601,27 @@ WHAT WE DON'T ADD:
   SportMind remains MIT licensed; all integrations documented here are open.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Integration partner intelligence: partner profiles, data coverage, and reliability tiers |
+| Reasoning | ACTIVE | Partner selection reasoning: which partner provides the best data for each use case |
+| Context | ACTIVE | Partner context: data type, sport coverage, update frequency, API reliability |
+| Memory | ACTIVE | Historical partner reliability data and integration performance baselines |
+| Judgment | ACTIVE | Judgment on partner tier assignment — data quality, reliability, and coverage weight |
+| Attention | ACTIVE | Elevated attention for partner outages and data quality degradation signals |
+| Communication | ACTIVE | Partner output: which partner was used, its tier, and data quality assessment |
+| Verification | ACTIVE | Partner data quality verification through cross-reference with secondary sources |
+| Learning | ACTIVE | Partner reliability ratings updated from historical integration performance data |
+| Integration | ACTIVE | Partner intelligence underpins all external data connectors in the platform layer |
+| Calibration | ACTIVE | Partner tier ratings calibrated from historical data quality and reliability records |
+| Adaptation | ACTIVE | Partner intelligence adapts as new partnerships form and existing ones evolve |
+| Ethics | ACTIVE | Partner data licensing compliance is an ethics requirement — verified before use |
+| Transparency | ACTIVE | Partner name, tier, and licence status disclosed in all partner-sourced outputs |
+
+
 ---
 
 *This registry documents integrations — it does not imply endorsement, partnership

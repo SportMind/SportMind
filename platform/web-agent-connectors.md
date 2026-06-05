@@ -513,6 +513,27 @@ These rules are architectural, not optional:
    Source URL + timestamp + extracted content → stored per analysis.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Web agent connectors: browser-based data retrieval patterns for sports intelligence gathering |
+| Reasoning | ACTIVE | Web connector reasoning: selecting the correct source and extraction pattern for each data type |
+| Context | ACTIVE | Web context: source URL, extraction method, data format, update frequency |
+| Memory | ACTIVE | Web connector memory: cached responses and source reliability history |
+| Judgment | ACTIVE | Judgment on web source reliability — official sources vs third-party aggregators |
+| Attention | ACTIVE | Elevated attention for web source outages and content changes |
+| Communication | ACTIVE | Web connector output with source URL, extraction timestamp, and data type |
+| Verification | ACTIVE | Web data requires source tier verification before use in intelligence outputs |
+| Learning | ACTIVE | Web connector patterns improve from historical extraction reliability data |
+| Integration | ACTIVE | Web connectors integrate external web data with all intelligence layers |
+| Calibration | NOT APPLICABLE | Web connectors are data retrieval tools — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Web connectors adapt as website structures and data availability change |
+| Ethics | ACTIVE | Web connectors respect robots.txt, rate limits, and terms of service — licensed data only |
+| Transparency | ACTIVE | Web source URL, extraction method, and timestamp always disclosed in output |
+
+
 ---
 
 *SportMind v3.68 · MIT License · sportmind.dev*
