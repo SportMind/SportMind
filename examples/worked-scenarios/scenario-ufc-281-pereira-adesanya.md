@@ -271,6 +271,27 @@ CALIBRATION TAKEAWAY FOR DEVELOPERS:
   in November 2022 because the macro context dominated everything else.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | UFC 281 worked scenario: Pereira vs Adesanya weight class and weight cut signal demonstration |
+| Reasoning | ACTIVE | Full reasoning chain: weight cut history → APS modifier → MMA fan token signal |
+| Context | ACTIVE | Scenario context: weight class discipline, training camp signals, fight history context |
+| Memory | ACTIVE | Worked scenario preserves MMA weight cut reasoning process as calibration reference |
+| Judgment | ACTIVE | Judgment demonstrated: weight cut signal is categorically different from standard form signal |
+| Attention | ACTIVE | Scenario shows attention: weight cut announcement triggers immediate APS modifier update |
+| Communication | ACTIVE | Scenario output format: structured MMA signal with weight cut status and APS modifier |
+| Verification | ACTIVE | Athletic commission medical findings used for weight cut verification |
+| Learning | ACTIVE | MMA weight cut calibration from historical weight cut-to-fight outcome data |
+| Integration | ACTIVE | Scenario integrates sport domain, athlete, market, and fan token layers |
+| Calibration | ACTIVE | Weight cut APS modifier calibrated — one of the most validated MMA signals |
+| Adaptation | ACTIVE | Scenario notes weight cut signal is unique to combat sports — not transferable |
+| Ethics | ACTIVE | Fighter safety signals (weight cut distress) are flagged — accuracy is safety-relevant |
+| Transparency | ACTIVE | Weight cut source (athletic commission), APS modifier, and fight context explicit |
+
+
 ---
 
 ## Key SportMind files used in this scenario

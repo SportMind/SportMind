@@ -357,6 +357,27 @@ ALONGSIDE Pattern 13: Pattern 8 (Fan Token™ Play Monitor)
   Pattern 8's supply confirmation step.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Web agent live data workflow: demonstrates real-time web data retrieval for intelligence updates |
+| Reasoning | ACTIVE | Web agent reasoning: selecting correct sources and extraction patterns for live intelligence |
+| Context | ACTIVE | Web agent context: competition in progress, required signal types, source availability |
+| Memory | ACTIVE | Web agent maintains cached prior fetches and source reliability history |
+| Judgment | ACTIVE | Judgment on source reliability — official sources vs third-party aggregators for live data |
+| Attention | ACTIVE | Web agent elevated attention during live competition windows |
+| Communication | ACTIVE | Web agent output: live signal update with source URL and extraction timestamp |
+| Verification | ACTIVE | Live web data requires source tier verification before use in intelligence output |
+| Learning | ACTIVE | Web agent extraction patterns improve from historical source reliability data |
+| Integration | ACTIVE | Integrates web-agent-connectors with sport-domain and fan token intelligence layers |
+| Calibration | NOT APPLICABLE | Web data retrieval is a connector — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Web agent adapts as website structures and data availability change |
+| Ethics | ACTIVE | Web agent respects robots.txt, rate limits, and terms of service — licensed data only |
+| Transparency | ACTIVE | Source URL, extraction timestamp, and data type always explicit in web agent output |
+
+
 ---
 
 *SportMind v3.70 · MIT License · sportmind.dev*

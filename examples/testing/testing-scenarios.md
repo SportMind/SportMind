@@ -445,6 +445,27 @@ COMMON FAILURE PATTERNS:
   → Not loading macro-overview.md; or loading but not checking BTC vs 200-day MA
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Testing scenarios: validation cases for SportMind intelligence accuracy and signal quality |
+| Reasoning | ACTIVE | Test scenarios demonstrate correct reasoning patterns for common signal types |
+| Context | ACTIVE | Test context: scenario type, expected signal, correct modifier stack, pass/fail criteria |
+| Memory | NOT APPLICABLE | Testing scenarios are static validation cases — not memory-dependent |
+| Judgment | ACTIVE | Testing scenarios include judgment validation — tests for correct confidence calibration |
+| Attention | NOT APPLICABLE | Testing scenarios are static — not an attention framework |
+| Communication | ACTIVE | Testing scenarios define the output format expectations for each scenario type |
+| Verification | ACTIVE | Testing scenarios include verification gate tests — checks source tier handling |
+| Learning | ACTIVE | Testing scenarios are updated as new calibration patterns are identified |
+| Integration | ACTIVE | Testing scenarios cover all five intelligence layers and their interaction |
+| Calibration | ACTIVE | Testing scenarios validate calibrated confidence thresholds against known outcomes |
+| Adaptation | ACTIVE | Testing scenarios updated as new signal types and edge cases are identified |
+| Ethics | ACTIVE | Testing scenarios include ethics boundary tests — confirms prohibited outputs are blocked |
+| Transparency | ACTIVE | Expected vs actual output comparison documented for each testing scenario |
+
+
 ---
 
 *Run these scenarios before deploying any SportMind-based agent in production.*

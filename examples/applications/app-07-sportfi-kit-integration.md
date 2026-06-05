@@ -397,6 +397,27 @@ const isValid = await verifySkillIntegrity('domain.football', skill.content)
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | SportFi kit integration application: Chiliz Agent Kit with SportMind intelligence stack |
+| Reasoning | ACTIVE | Integration reasoning chain from intelligence signal to on-chain kit action |
+| Context | ACTIVE | Integration context: kit capabilities, wallet state, signal confidence threshold for action |
+| Memory | ACTIVE | Integration application tracks prior kit actions and on-chain execution history |
+| Judgment | ACTIVE | Judgment on action gate: confidence and SMS thresholds must be met before kit execution |
+| Attention | ACTIVE | Integration attention: monitors both intelligence signals and on-chain state |
+| Communication | ACTIVE | Integration output: action taken, signal confidence, kit execution status, tx hash |
+| Verification | ACTIVE | On-chain kit actions require pre-execution verification — irreversible actions need gate |
+| Learning | ACTIVE | Integration patterns improve from historical execution outcome data |
+| Integration | ACTIVE | Integrates Chiliz Agent Kit with full five-layer SportMind intelligence stack |
+| Calibration | ACTIVE | Kit action thresholds calibrated from library confidence and SMS standards |
+| Adaptation | ACTIVE | Integration adapts as Chiliz Agent Kit capabilities expand |
+| Ethics | ACTIVE | Kit actions are strictly bounded — no autonomous irreversible actions without explicit gate |
+| Transparency | ACTIVE | Signal confidence, SMS threshold, and tx hash always included in integration output |
+
+
 ---
 
 ## References

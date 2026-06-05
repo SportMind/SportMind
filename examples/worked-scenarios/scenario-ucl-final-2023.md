@@ -314,6 +314,27 @@ CALIBRATION TAKEAWAY FOR DEVELOPERS:
 - `core/core-officiating-intelligence.md` — Marciniak profile
 - `core/confidence-output-schema.md` — output format
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | UCL Final 2023 worked scenario: Man City vs Inter fan token signal with historical context |
+| Reasoning | ACTIVE | Full reasoning chain: UCL Final → neutral venue → ×2.00 demand amplifier → fan token signal |
+| Context | ACTIVE | Scenario context: Istanbul neutral venue, $CITY vs $INTER both active tokens (no PATH_2 active) |
+| Memory | ACTIVE | Worked scenario preserves 2023 UCL Final reasoning as historical calibration reference |
+| Judgment | ACTIVE | Judgment demonstrated: neutral venue removes home advantage — zero home modifier applied |
+| Attention | ACTIVE | Scenario shows attention: UCL Final is the highest demand amplifier event in the library |
+| Communication | ACTIVE | Scenario output format: UCL Final signal with ×2.00 demand amplifier and neutral venue note |
+| Verification | ACTIVE | UEFA official sources for UCL Final fixture and venue details |
+| Learning | ACTIVE | UCL Final 2023 provides historical calibration context for 2026 UCL Final (Record 130) |
+| Integration | ACTIVE | Scenario integrates sport domain, market, athlete, and fan token layers |
+| Calibration | ACTIVE | UCL Final ×2.00 demand amplifier calibrated — consistent across 2023 and 2026 records |
+| Adaptation | ACTIVE | Scenario notes 2026 is different: $AFC has FTP PATH_2 ACTIVE — supply event fires |
+| Ethics | NOT APPLICABLE | Worked scenario is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Neutral venue modifier, demand amplifier, and token status all explicit in output |
+
+
 ---
 
 *This scenario uses publicly available historical data. Token price movements are

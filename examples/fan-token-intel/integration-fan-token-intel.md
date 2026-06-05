@@ -123,6 +123,27 @@ When deploying an autonomous agent using FTI's autopilot with SportMind context:
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token intelligence integration example: demonstrates full fan token signal stack |
+| Reasoning | ACTIVE | Integration example shows the five-layer fan token reasoning chain end-to-end |
+| Context | ACTIVE | Example context: which fan token layers to load, macro regime, competition stage |
+| Memory | NOT APPLICABLE | Integration example is static — not memory-dependent |
+| Judgment | NOT APPLICABLE | Integration example is demonstrative — judgment is shown, not defined |
+| Attention | NOT APPLICABLE | Static integration example — not an attention framework |
+| Communication | ACTIVE | Integration example defines the fan token signal output format |
+| Verification | NOT APPLICABLE | Integration example is demonstrative — not subject to external verification |
+| Learning | NOT APPLICABLE | Integration example is static — not a learning framework |
+| Integration | ACTIVE | Integration example IS the fan token layer integration documentation |
+| Calibration | NOT APPLICABLE | Integration example is demonstrative — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Integration example updated as fan token intelligence layer evolves |
+| Ethics | ACTIVE | Integration example includes fraud risk and passive yield warning demonstrations |
+| Transparency | ACTIVE | Loaded files, layer order, and expected output format documented |
+
+
 ---
 
 ## Getting started

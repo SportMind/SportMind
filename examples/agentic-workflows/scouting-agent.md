@@ -411,6 +411,27 @@ FEEDS INTO:
   platform/memory-integration.md               — store scouting session results
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Scouting agent: talent identification and athlete profile intelligence for transfer signals |
+| Reasoning | ACTIVE | Scouting reasoning chain from player data to APS profile and transfer recommendation |
+| Context | ACTIVE | Scouting context: target position, budget tier, age profile, performance metric thresholds |
+| Memory | ACTIVE | Scouting agent maintains persistent watchlist and prior scouting report history |
+| Judgment | ACTIVE | Judgment on scouting signal quality — statistical performance vs contextual fit differ |
+| Attention | ACTIVE | Scouting attention elevated for transfer window opens and player contract expiry signals |
+| Communication | ACTIVE | Scouting output: player profile, APS assessment, fit score, and transfer recommendation |
+| Verification | ACTIVE | Player statistics require official data source — not scouting platform estimates |
+| Learning | ACTIVE | Scouting patterns improve from historical transfer outcome data |
+| Integration | ACTIVE | Integrates athlete intelligence, transfer intelligence, and CDI framework |
+| Calibration | ACTIVE | APS scouting values use calibrated library modifier standards |
+| Adaptation | ACTIVE | Scouting agent adapts as transfer market dynamics and position roles evolve |
+| Ethics | ACTIVE | Scouting agent scope is strictly bounded — no speculative profiling of minors |
+| Transparency | ACTIVE | Player data source, APS components, and fit score basis explicit in scouting output |
+
+
 ---
 
 *SportMind v3.47 · MIT License · sportmind.dev*

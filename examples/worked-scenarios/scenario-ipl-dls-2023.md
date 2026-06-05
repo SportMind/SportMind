@@ -363,6 +363,27 @@ CALIBRATION TAKEAWAY FOR DEVELOPERS:
 - `core/core-narrative-momentum.md` — CSK vs MI rivalry (Category 5)
 - `core/confidence-output-schema.md` — output with cricket-specific flags
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | IPL DLS 2023 worked scenario: dew factor and DLS calculation with fan token signal |
+| Reasoning | ACTIVE | Full reasoning chain demonstrated: weather → dew_factor → APS → fan token modifier |
+| Context | ACTIVE | Scenario context: evening T20 Mumbai, 78% humidity, batting second structural advantage |
+| Memory | ACTIVE | Worked scenario preserves the reasoning process as a calibration reference |
+| Judgment | ACTIVE | Judgment demonstrated: dew_factor trigger conditions and APS modifier adjustment |
+| Attention | ACTIVE | Scenario shows attention priority: dew conditions near match day are primary signal |
+| Communication | ACTIVE | Scenario output format: structured signal with dew factor modifier stack visible |
+| Verification | ACTIVE | Weather data verification demonstrated — meteorological source required |
+| Learning | ACTIVE | IPL dew factor calibration: 5/5 ✓ — this scenario type is the most validated weather signal |
+| Integration | ACTIVE | Scenario integrates weather, sport domain, athlete, and fan token layers |
+| Calibration | ACTIVE | Dew factor calibration: 5/5 correct — one of the most validated SportMind signals |
+| Adaptation | ACTIVE | Scenario annotations note when conditions no longer apply (no dew in afternoon matches) |
+| Ethics | NOT APPLICABLE | Worked scenario is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | All modifier values, signal sources, and dew factor trigger conditions explicit |
+
+
 ---
 
 *Historical data sourced from ESPNcricinfo match records and public IPL statistics.

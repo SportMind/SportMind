@@ -561,6 +561,27 @@ What this means:
   If they want an agent to vote: Level 0 (supervised) only — human confirms each vote.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Governance monitoring agent: tracks governance proposals, votes, and CHI signals |
+| Reasoning | ACTIVE | Governance monitoring reasoning chain from on-chain activity to CHI and signal update |
+| Context | ACTIVE | Monitor context: active proposals, voter turnout, governance power concentration |
+| Memory | ACTIVE | Governance monitor tracks proposal history, quorum trends, and concentration patterns |
+| Judgment | ACTIVE | Judgment on governance monitoring alert threshold — suspicious concentration vs normal activity |
+| Attention | ACTIVE | Governance monitor watches on-chain governance events continuously |
+| Communication | ACTIVE | Governance monitor output: alert type, governance event, CHI impact, and signal direction |
+| Verification | ACTIVE | On-chain governance data from chiliscan.com — not off-chain platform claims |
+| Learning | ACTIVE | Governance monitoring patterns improve from historical proposal-outcome data |
+| Integration | ACTIVE | Integrates governance intelligence, governance-takeover-framework, and CHI |
+| Calibration | ACTIVE | Governance alert thresholds calibrated from historical voter participation baselines |
+| Adaptation | ACTIVE | Governance monitor adapts as on-chain governance mechanics evolve |
+| Ethics | ACTIVE | Governance manipulation detection is an ethics function — individual wallet data is pseudonymous only |
+| Transparency | ACTIVE | On-chain data source, concentration metric, and CHI impact always in monitor output |
+
+
 ---
 
 ## Compatibility

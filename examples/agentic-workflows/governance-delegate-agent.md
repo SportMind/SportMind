@@ -491,6 +491,27 @@ REQUIRES FOR EXECUTION:
   SportMind provides: commercial intelligence brief only
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Governance delegate agent: automated governance participation and voting signal intelligence |
+| Reasoning | ACTIVE | Governance reasoning chain from proposal analysis to voting recommendation |
+| Context | ACTIVE | Governance context: proposal type, voting power, quorum threshold, voting window |
+| Memory | ACTIVE | Delegate agent tracks prior votes, voting history, and governance track record |
+| Judgment | ACTIVE | Governance judgment: evaluating proposal merit and alignment with holder interests |
+| Attention | ACTIVE | Elevated attention for active voting windows and quorum threshold approaches |
+| Communication | ACTIVE | Delegate agent output: proposal summary, recommendation, and voting rationale |
+| Verification | ACTIVE | Governance proposals verified on-chain before recommendation is issued |
+| Learning | EMERGING | Governance delegation patterns improve as outcome data from voted proposals accumulates |
+| Integration | ACTIVE | Integrates governance intelligence, holder profiles, and CHI framework |
+| Calibration | EMERGING | Governance voting outcome calibration is limited — rare events |
+| Adaptation | ACTIVE | Delegate agent adapts as governance mechanics and proposal types evolve |
+| Ethics | ACTIVE | Governance participation boundaries strictly enforced — no autonomous voting without explicit authorisation |
+| Transparency | ACTIVE | Voting recommendation, rationale, and on-chain verification always explicit in output |
+
+
 ---
 
 *SportMind v3.47 · MIT License · sportmind.dev*

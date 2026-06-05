@@ -183,6 +183,27 @@ When evaluating any event:
 5. Output: adjusted_signal_score, direction, confidence, recommendation
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Standalone system prompt integration: SportMind files embedded as LLM system prompt context |
+| Reasoning | ACTIVE | Integration shows how a single-LLM deployment can apply SportMind reasoning |
+| Context | ACTIVE | Integration context: which files to include, prompt structure, output format specification |
+| Memory | NOT APPLICABLE | Standalone integration is static context — not session-memory-dependent |
+| Judgment | NOT APPLICABLE | Integration example is demonstrative — judgment is shown, not defined here |
+| Attention | NOT APPLICABLE | Static integration example — not an attention framework |
+| Communication | ACTIVE | Integration defines the standalone deployment output format standard |
+| Verification | NOT APPLICABLE | Integration example is demonstrative — not subject to external verification |
+| Learning | NOT APPLICABLE | Integration example is static — not a learning framework |
+| Integration | ACTIVE | Standalone integration IS the single-LLM deployment documentation for SportMind |
+| Calibration | NOT APPLICABLE | Integration example is demonstrative — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Integration example updated as LLM API capabilities and SportMind content evolve |
+| Ethics | ACTIVE | Standalone prompt includes scope limit and disclaimer documentation |
+| Transparency | ACTIVE | System prompt structure, included files, and output format all documented |
+
+
 ---
 
 ## Tips for system prompt injection

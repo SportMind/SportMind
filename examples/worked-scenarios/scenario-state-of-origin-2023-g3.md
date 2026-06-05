@@ -259,6 +259,27 @@ CALIBRATION TAKEAWAY FOR DEVELOPERS:
   only Layers 1, 2, 4, and 5.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | State of Origin 2023 Game 3 worked scenario: rugby league signal with series context |
+| Reasoning | ACTIVE | Full reasoning chain: series state → decider context → APS → fan token demand amplifier |
+| Context | ACTIVE | Scenario context: NRL State of Origin decider, series level, home market premium |
+| Memory | ACTIVE | Worked scenario preserves the State of Origin decider reasoning process |
+| Judgment | ACTIVE | Judgment demonstrated: decider context amplifier applied — series level is 1-1 |
+| Attention | ACTIVE | Scenario shows attention elevation: State of Origin G3 is highest-demand rugby league window |
+| Communication | ACTIVE | Scenario output format: structured signal with decider amplifier and fan token demand |
+| Verification | ACTIVE | NRL official sources for squad and State of Origin squad selection |
+| Learning | ACTIVE | State of Origin calibration from historical decider-to-outcome data |
+| Integration | ACTIVE | Scenario integrates sport domain, market, athlete, and fan token layers |
+| Calibration | ACTIVE | State of Origin demand amplifier calibrated from historical series decider data |
+| Adaptation | ACTIVE | Scenario notes that amplifier only applies when series is level — series lead changes modifier |
+| Ethics | NOT APPLICABLE | Worked scenario is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Series state, decider amplifier, and all modifier components explicit in output |
+
+
 ---
 
 ## Key SportMind files used in this scenario

@@ -206,6 +206,27 @@ function GovernanceBrief({ voteId, sport, tokenSymbol }: Props) {
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Governance intelligence application: fan token governance signal monitoring and decision support |
+| Reasoning | ACTIVE | Governance reasoning chain from proposal analysis to holder-aligned recommendation |
+| Context | ACTIVE | Governance context: proposal type, voting power distribution, quorum threshold, window |
+| Memory | ACTIVE | Governance application tracks proposal history and voting record |
+| Judgment | ACTIVE | Judgment on governance proposal materiality — protocol-level vs minor parameter changes differ |
+| Attention | ACTIVE | Governance application monitors active voting windows and quorum approach signals |
+| Communication | ACTIVE | Governance output: proposal summary, power distribution, recommendation, and voting rationale |
+| Verification | ACTIVE | Governance proposals verified on-chain before recommendation is issued |
+| Learning | EMERGING | Governance recommendation accuracy improves as voted proposal outcome data accumulates |
+| Integration | ACTIVE | Integrates governance intelligence, holder profiles, and CHI framework |
+| Calibration | EMERGING | Governance recommendation calibration is limited — rare events with limited history |
+| Adaptation | ACTIVE | Governance application adapts as voting mechanics and proposal structures evolve |
+| Ethics | ACTIVE | Governance recommendations are advisory only — no autonomous voting without explicit authorisation |
+| Transparency | ACTIVE | Proposal source, voting power, and recommendation rationale always explicit |
+
+
 ---
 
 ## References

@@ -511,6 +511,27 @@ Human operators
   ← never needed for Level 3-4 routine operation
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Multi-agent coordination example: demonstrates distributed intelligence across specialised agents |
+| Reasoning | ACTIVE | Coordination reasoning: shows how specialised agents combine outputs for composite signal |
+| Context | ACTIVE | Coordination context: task assignment, agent specialisation map, aggregation rules |
+| Memory | ACTIVE | Multi-agent memory: shared state protocol across coordinated agents |
+| Judgment | ACTIVE | Coordination judgment: demonstrates conflict resolution when agents produce different signals |
+| Attention | ACTIVE | Distributed attention: shows how different agents monitor different signal streams |
+| Communication | ACTIVE | Coordination communication: demonstrates inter-agent message format and aggregation |
+| Verification | ACTIVE | Multi-agent verification: shows independent agent confirmation for critical signals |
+| Learning | ACTIVE | Coordination patterns improve from historical task-completion efficiency data |
+| Integration | ACTIVE | Shows full five-layer integration across distributed agent network |
+| Calibration | ACTIVE | Coordinated output confidence uses calibrated library standards |
+| Adaptation | ACTIVE | Coordination patterns adapt as agent network scales and new task types emerge |
+| Ethics | ACTIVE | Coordination example includes hard ethics constraint enforcement demonstration |
+| Transparency | ACTIVE | Which agents contributed to each output always traceable in coordination example |
+
+
 ---
 
 ## Compatibility

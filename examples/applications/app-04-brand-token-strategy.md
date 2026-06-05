@@ -236,6 +236,27 @@ Clearly separate what SportMind can assess from what requires specialist advice.
 Always include an overall recommendation with clear rationale.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Brand token strategy application: maps brand commercial signals to fan token demand strategy |
+| Reasoning | ACTIVE | Brand strategy reasoning chain from commercial signals to token demand recommendation |
+| Context | ACTIVE | Strategy context: brand tier, activation window, sport competition calendar, token lifecycle |
+| Memory | ACTIVE | Application tracks prior brand activations and their token demand correlation |
+| Judgment | ACTIVE | Judgment on brand signal hierarchy — global Tier 1 sponsors vs regional partners differ |
+| Attention | ACTIVE | Application monitors brand commercial event calendar and activation signals |
+| Communication | ACTIVE | Brand strategy output: activation recommendation, demand modifier, and timing |
+| Verification | ACTIVE | Brand deals require official announcement before strategy update |
+| Learning | EMERGING | Brand-to-demand calibration is developing — limited historical case data |
+| Integration | ACTIVE | Integrates brand score, sponsorship intelligence, and fan token demand framework |
+| Calibration | EMERGING | Brand token strategy calibration requires more commercial activation outcome data |
+| Adaptation | ACTIVE | Brand strategy application adapts as commercial models and activation channels evolve |
+| Ethics | NOT APPLICABLE | Brand token strategy is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Brand tier, activation type, and demand modifier basis explicit in strategy output |
+
+
 ---
 
 ## References

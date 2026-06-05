@@ -142,6 +142,27 @@ Upload skill files directly as context documents in Claude.ai:
 
 This is the quickest way to use SportMind without any code.
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Claude + MCP integration example: demonstrates SportMind intelligence via Claude API and MCP |
+| Reasoning | ACTIVE | Integration reasoning: how Claude applies SportMind files as context for structured analysis |
+| Context | ACTIVE | Integration context: which files to load, how to structure the prompt, expected output format |
+| Memory | NOT APPLICABLE | Integration example is a static demonstration — not memory-dependent |
+| Judgment | NOT APPLICABLE | Integration example is prescriptive — judgment is demonstrated, not defined here |
+| Attention | NOT APPLICABLE | Static integration example — not an attention framework |
+| Communication | ACTIVE | Integration example shows the communication pattern between Claude, MCP, and SportMind |
+| Verification | NOT APPLICABLE | Integration example is demonstrative — not subject to external verification |
+| Learning | NOT APPLICABLE | Integration example is static — not a learning framework |
+| Integration | ACTIVE | Integration example IS the integration documentation for Claude + MCP + SportMind |
+| Calibration | NOT APPLICABLE | Integration example is demonstrative — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Integration example updated as Claude API and MCP protocol evolve |
+| Ethics | ACTIVE | Integration example includes disclaimer and scope limit documentation |
+| Transparency | ACTIVE | Integration steps, loaded files, and expected output format all documented |
+
+
 ---
 
 ## Best practices for Claude integration

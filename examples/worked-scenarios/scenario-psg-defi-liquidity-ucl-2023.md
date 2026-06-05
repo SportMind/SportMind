@@ -299,6 +299,27 @@ KEY DEFI LESSON FOR DEVELOPERS:
   not betting on PSG to win.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | PSG DeFi liquidity UCL 2023 scenario: fan token signal with on-chain liquidity context |
+| Reasoning | ACTIVE | Full reasoning chain: UCL position → CDI → DeFi pool depth → compound fan token signal |
+| Context | ACTIVE | Scenario context: UCL qualification stage, PSG DeFi pool TVL, BTC macro regime |
+| Memory | ACTIVE | Worked scenario preserves the DeFi + competition signal compound reasoning process |
+| Judgment | ACTIVE | Judgment demonstrated: DeFi pool depth discounts raw signal when liquidity is thin |
+| Attention | ACTIVE | Scenario shows dual attention: competition signals + on-chain liquidity signals simultaneously |
+| Communication | ACTIVE | Scenario output: compound signal with DeFi liquidity context and thin-market discount |
+| Verification | ACTIVE | DeFi pool data verified from DEX contract on-chain sources |
+| Learning | ACTIVE | DeFi + competition compound signal calibration from historical scenario data |
+| Integration | ACTIVE | Scenario integrates sport domain, fan token, DeFi liquidity, and macro layers |
+| Calibration | ACTIVE | DeFi liquidity discount calibrated from historical thin-market signal accuracy data |
+| Adaptation | ACTIVE | Scenario notes that DeFi pool depth varies — modifier updates with pool state |
+| Ethics | NOT APPLICABLE | Worked scenario is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | DeFi pool source, liquidity depth, and thin-market discount explicit in output |
+
+
 ---
 
 ## Key SportMind files used in this scenario

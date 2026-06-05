@@ -517,6 +517,27 @@ CALIBRATION:
   Wrong predictions are the most valuable calibration records.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Post-match agent: processes match result and updates all downstream intelligence signals |
+| Reasoning | ACTIVE | Post-match reasoning chain from result to form update, CDI recalculation, and calibration |
+| Context | ACTIVE | Post-match context: result margin, performance vs expectation, FTP supply event status |
+| Memory | ACTIVE | Post-match agent updates persistent form and result history across its session |
+| Judgment | ACTIVE | Judgment on post-match signal significance — upset vs expected result differ in update weight |
+| Attention | ACTIVE | Post-match agent triggers immediately after full time — time-sensitive update window |
+| Communication | ACTIVE | Post-match output: result, form update, CDI recalculation, and calibration record update |
+| Verification | ACTIVE | Match result requires official score confirmation before post-match processing begins |
+| Learning | ACTIVE | Post-match outcomes are the primary calibration input — every result improves the library |
+| Integration | ACTIVE | Integrates post-match-intelligence, CDI, form tracking, and calibration framework |
+| Calibration | ACTIVE | Post-match agent updates calibration records — this is the core calibration workflow |
+| Adaptation | ACTIVE | Post-match agent adapts as new signal types prove material post-result |
+| Ethics | NOT APPLICABLE | Post-match processing is analytical — no ethical dimension |
+| Transparency | ACTIVE | Result source, pre-match prediction, and outcome comparison always explicit in output |
+
+
 ---
 
 *SportMind v3.48 · MIT License · sportmind.dev*

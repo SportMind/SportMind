@@ -296,6 +296,27 @@ CALIBRATION TAKEAWAY FOR DEVELOPERS:
 - `core/core-narrative-momentum.md` — championship narrative activation
 - `core/confidence-output-schema.md` — output with trade_event flag
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NBA trade deadline 2023 worked scenario: trade signal reasoning and CDI update demonstration |
+| Reasoning | ACTIVE | Full reasoning chain demonstrated: trade announcement → APS recalculation → CDI update |
+| Context | ACTIVE | Scenario context: trade deadline proximity, receiving team roster fit, sending team gap |
+| Memory | ACTIVE | Worked scenario preserves the trade deadline reasoning process as a reference |
+| Judgment | ACTIVE | Judgment demonstrated: marquee trade impact vs depth player movement differ in CDI weight |
+| Attention | ACTIVE | Scenario shows attention elevation: trade deadline announcement triggers immediate processing |
+| Communication | ACTIVE | Scenario output format: structured CDI update with trade impact assessment |
+| Verification | ACTIVE | Trade confirmation from NBA official sources demonstrated |
+| Learning | ACTIVE | NBA trade deadline calibration from historical trade-to-CDI outcome data |
+| Integration | ACTIVE | Scenario integrates athlete, market, and fan token layers for trade impact |
+| Calibration | ACTIVE | Trade CDI modifier values calibrated from historical NBA trade outcome data |
+| Adaptation | ACTIVE | Scenario annotations note load management adjustment after trade |
+| Ethics | NOT APPLICABLE | Worked scenario is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Trade source, CDI modifier components, and update rationale explicit in output |
+
+
 ---
 
 *Based on publicly reported trade details and market data. Prediction market

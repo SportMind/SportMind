@@ -277,6 +277,27 @@ Premier League title positioning and set alert for T-48h before
 title-relevant matches.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Fan token portfolio intelligence application: multi-token signal aggregation and portfolio management |
+| Reasoning | ACTIVE | Portfolio reasoning chain from individual token signals to aggregate portfolio signal |
+| Context | ACTIVE | Portfolio context: token holdings, correlation structure, CHZ regime, macro environment |
+| Memory | ACTIVE | Portfolio application tracks position history and performance across held tokens |
+| Judgment | ACTIVE | Portfolio judgment: concentration risk and correlation discount when tokens are correlated |
+| Attention | ACTIVE | Portfolio attention: monitors portfolio-wide events and CHZ macro signals |
+| Communication | ACTIVE | Portfolio output: aggregate signal, concentration assessment, and rebalancing recommendation |
+| Verification | ACTIVE | Portfolio signals aggregate verified individual token signals |
+| Learning | ACTIVE | Portfolio correlation patterns calibrated from historical multi-token outcome data |
+| Integration | ACTIVE | Integrates portfolio-intelligence, ecosystem health, and macro intelligence |
+| Calibration | ACTIVE | Portfolio modifier values use calibrated library correlation and risk standards |
+| Adaptation | ACTIVE | Portfolio application adapts as token set and correlation structure evolve |
+| Ethics | ACTIVE | Portfolio recommendations include disclaimer — information not financial advice |
+| Transparency | ACTIVE | Portfolio composition, correlation assumptions, and signal sources explicit in output |
+
+
 ---
 
 ## References

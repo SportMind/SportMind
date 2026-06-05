@@ -272,6 +272,27 @@ jurisdictions. Before deploying this application:
 *SportMind provides intelligence only. The application operator is responsible for
 regulatory compliance in all jurisdictions where the application operates.*
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | DeFi prediction market application: SportMind intelligence powering on-chain prediction markets |
+| Reasoning | ACTIVE | Application reasoning: how signal confidence maps to prediction market position sizing |
+| Context | ACTIVE | Application context: market creation, liquidity provision, resolution timing, FTP interaction |
+| Memory | ACTIVE | Application tracks prior prediction positions and resolution outcomes |
+| Judgment | ACTIVE | Judgment on position entry threshold — SMS and confidence gate before position creation |
+| Attention | ACTIVE | Application attention: monitors both SportMind signals and on-chain market prices |
+| Communication | ACTIVE | Application output: position recommendation, confidence, and on-chain execution details |
+| Verification | ACTIVE | Market resolution requires official result confirmation — no on-chain action on unverified results |
+| Learning | ACTIVE | Application patterns calibrated from historical position-to-resolution outcome data |
+| Integration | ACTIVE | Integrates full SportMind signal stack with DeFi prediction market mechanics |
+| Calibration | ACTIVE | Position sizing calibrated from library confidence levels and historical accuracy |
+| Adaptation | ACTIVE | Application adapts as prediction market protocols and SportMind signal types evolve |
+| Ethics | ACTIVE | Prediction market application includes scope limits — information only, not financial advice |
+| Transparency | ACTIVE | Signal confidence, position sizing rationale, and on-chain reference always explicit |
+
+
 ---
 
 ## References

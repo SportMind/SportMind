@@ -450,6 +450,27 @@ SUITE INTEGRATION:
   Human operators: receive consolidated weekly priority briefing
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | League monitoring agent: tracks league standings, form, and qualification signals |
+| Reasoning | ACTIVE | League monitoring reasoning chain from result to standing update and CDI modifier |
+| Context | ACTIVE | Monitor context: standings gap, fixtures remaining, European qualification status |
+| Memory | ACTIVE | League monitor maintains standings history and form trajectory for all tracked clubs |
+| Judgment | ACTIVE | Judgment on standings alert threshold — points gaps that trigger qualification/relegation signals |
+| Attention | ACTIVE | League monitor elevates attention for clubs approaching qualification or relegation tipping points |
+| Communication | ACTIVE | League monitor output: standing update, qualification probability shift, CDI modifier |
+| Verification | ACTIVE | League standings from official league sources — not media estimates |
+| Learning | ACTIVE | League monitoring thresholds calibrated from historical standings-to-outcome data |
+| Integration | ACTIVE | Integrates standings intelligence, result impact matrices, and CDI framework |
+| Calibration | ACTIVE | Qualification probability modifiers calibrated from historical standings scenario data |
+| Adaptation | ACTIVE | League monitor adapts as competition formats and points systems evolve |
+| Ethics | NOT APPLICABLE | League monitoring is analytical — no ethical dimension |
+| Transparency | ACTIVE | League source, standings snapshot date, and CDI modifier always explicit in output |
+
+
 ---
 
 ## Compatibility

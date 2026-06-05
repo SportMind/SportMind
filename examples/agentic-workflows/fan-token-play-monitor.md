@@ -358,6 +358,27 @@ TRIGGER INTEGRATION:
     → Two concurrent checks: lineup (T-2h) + pre-liquidation (T-48h)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | FTP monitor workflow: tracks active FTP PATH_2 events and supply event triggers |
+| Reasoning | ACTIVE | FTP reasoning chain from match result to supply event classification and signal output |
+| Context | ACTIVE | FTP context: active PATH_2 tokens, pre-liquidation pool sizes, match schedule |
+| Memory | ACTIVE | FTP monitor tracks prior supply events and pool size history |
+| Judgment | ACTIVE | Judgment on FTP signal urgency — LOSS events (mint) require immediate alert |
+| Attention | ACTIVE | Maximum attention function: FTP events are highest-priority supply signals |
+| Communication | ACTIVE | FTP monitor output: supply event type, amount, on-chain reference, and demand modifier |
+| Verification | ACTIVE | FTP events verified via chiliscan.com before signal is published |
+| Learning | ACTIVE | FTP monitor patterns calibrated from verified PATH_2 supply event records |
+| Integration | ACTIVE | Integrates ftp-path2.md, gamified-tokenomics, and supply-intelligence |
+| Calibration | ACTIVE | FTP signal thresholds calibrated from verified Arsenal PATH_2 records |
+| Adaptation | ACTIVE | FTP monitor adapts as new clubs adopt PATH_2 and pool mechanics evolve |
+| Ethics | ACTIVE | LOSS = MINT must never be described as supply-neutral in FTP monitor output |
+| Transparency | ACTIVE | Supply event type, amount, chiliscan.com tx hash, and verification status always explicit |
+
+
 ---
 
 *SportMind v3.45 · MIT License · sportmind.dev*

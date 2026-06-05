@@ -1,5 +1,47 @@
 # Changelog
 
+## [3.97.108] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: examples/ directory (CAMPAIGN COMPLETE)
+
+0 new files. 34 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to all 34 non-exempt examples/ files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section: 0
+Skipped (exempt): 4 README.md files
+
+34 files updated across:
+  agentic-workflows/ (12 files): athlete-commercial-tracker,
+    cross-sport-signal-monitor, fan-token-play-monitor,
+    governance-delegate-agent, governance-monitoring-agent,
+    league-monitoring-agent, live-match-agent, multi-agent-coordination,
+    post-match-agent, scouting-agent, web-agent-live-data
+  applications/ (10 files): app-01 through app-10
+  calibration/ (1 file): ucl-final-2026-psg-arsenal-signal
+  integration examples (3 files): claude-mcp, fan-token-intel, langchain, standalone
+  testing/ (1 file): testing-scenarios
+  worked-scenarios/ (6 files): IPL DLS, NBA trade deadline, PSG DeFi UCL,
+    State of Origin, UCL Final 2023, UFC 281
+
+--- MIND DIMENSIONS BACKFILL CAMPAIGN COMPLETE ---
+
+All nine directories now have MIND DIMENSIONS sections on all
+non-exempt reasoning framework files:
+  core/       ✓ v3.97.101
+  fan-token/  ✓ v3.97.102
+  sports/     ✓ (pre-existing)
+  market/     ✓ v3.97.103
+  athlete/    ✓ v3.97.104
+  platform/   ✓ v3.97.105
+  macro/      ✓ v3.97.106
+  telegram/   ✓ v3.97.107
+  examples/   ✓ v3.97.108
+
 ## [3.97.107] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: telegram/ directory

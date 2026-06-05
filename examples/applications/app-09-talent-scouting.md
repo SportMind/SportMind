@@ -273,6 +273,27 @@ OUTPUT STANDARD:
   Use specific numbers — "APS 0.79" not "high portability."
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Talent scouting application: SportMind-powered athlete discovery and profile intelligence |
+| Reasoning | ACTIVE | Scouting reasoning chain from player metrics to APS profile and transfer viability |
+| Context | ACTIVE | Scouting context: target position, club needs, budget, age profile, performance thresholds |
+| Memory | ACTIVE | Scouting application maintains watchlist and prior scouting report history |
+| Judgment | ACTIVE | Judgment on scouting signal quality — statistical performance vs positional fit differ |
+| Attention | ACTIVE | Scouting attention elevated during transfer windows and contract expiry signals |
+| Communication | ACTIVE | Scouting output: player profile, APS assessment, CDI impact, and transfer recommendation |
+| Verification | ACTIVE | Player statistics from official data sources — not scouting platform estimates |
+| Learning | ACTIVE | Scouting patterns improve from historical transfer outcome tracking |
+| Integration | ACTIVE | Integrates athlete intelligence, transfer intelligence, and CDI framework |
+| Calibration | ACTIVE | APS scouting values use calibrated library modifier standards |
+| Adaptation | ACTIVE | Scouting application adapts as position role definitions and market values evolve |
+| Ethics | ACTIVE | Scouting application scope excludes minors — no speculative profiling |
+| Transparency | ACTIVE | Player data source, APS components, and fit score basis explicit in scouting output |
+
+
 ---
 
 ## References

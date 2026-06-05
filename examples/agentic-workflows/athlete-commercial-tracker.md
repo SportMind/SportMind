@@ -504,6 +504,27 @@ Tracker RECEIVES:
   → Nothing from other SportMind agents (standalone data intake)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete commercial tracker workflow: monitors athlete commercial events and CDI signals |
+| Reasoning | ACTIVE | Tracker reasoning chain from commercial event detection to CDI modifier update |
+| Context | ACTIVE | Tracker context: athlete profile, contract status, sponsorship cycle, market tier |
+| Memory | ACTIVE | Tracker maintains persistent state of tracked athletes and prior commercial events |
+| Judgment | ACTIVE | Judgment on commercial event materiality — major endorsement vs minor activation differ |
+| Attention | ACTIVE | Continuous attention function: tracker monitors commercial signal feeds |
+| Communication | ACTIVE | Tracker output format: structured commercial event alert with CDI modifier |
+| Verification | ACTIVE | Commercial events require official announcement confirmation before CDI update |
+| Learning | ACTIVE | Tracker patterns improve as commercial event-to-CDI calibration accumulates |
+| Integration | ACTIVE | Integrates athlete financial, brand score, and CDI framework in one workflow |
+| Calibration | ACTIVE | CDI commercial modifier values from calibrated library standards |
+| Adaptation | ACTIVE | Tracker adapts as new athlete commercial event types are identified |
+| Ethics | ACTIVE | Athlete commercial monitoring uses public data only — no private arrangement tracking |
+| Transparency | ACTIVE | Commercial event source and CDI modifier basis always included in tracker output |
+
+
 ---
 
 ## Compatibility

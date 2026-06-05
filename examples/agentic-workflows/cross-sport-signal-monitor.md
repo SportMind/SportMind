@@ -490,6 +490,27 @@ SUITE INTEGRATION:
   Fan Digital Twin (App 10): NCSI_AMPLIFICATION events update FLS for national team events
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cross-sport signal monitor: simultaneous monitoring of multiple sport domains and fan token signals |
+| Reasoning | ACTIVE | Cross-sport reasoning: prioritising signals across concurrent sport events by materiality |
+| Context | ACTIVE | Monitor context: active competitions, monitored tokens, current BTC regime, macro state |
+| Memory | ACTIVE | Monitor maintains active signal queue across multiple concurrent sport events |
+| Judgment | ACTIVE | Judgment on signal priority across concurrent events — UCL takes precedence over league fixtures |
+| Attention | ACTIVE | Multi-sport attention allocation: this workflow demonstrates attention distribution |
+| Communication | ACTIVE | Monitor output: ranked signal alerts across all monitored sports in priority order |
+| Verification | ACTIVE | Each cross-sport signal verified independently before inclusion in priority queue |
+| Learning | ACTIVE | Monitor prioritisation rules improve from historical signal relevance data |
+| Integration | ACTIVE | Integrates all five layers across multiple sports simultaneously |
+| Calibration | ACTIVE | Cross-sport signal weights use calibrated library values for each domain |
+| Adaptation | ACTIVE | Monitor adapts as new sports and tokens are added to monitoring scope |
+| Ethics | NOT APPLICABLE | Cross-sport monitoring is analytical — no ethical dimension |
+| Transparency | ACTIVE | All active sports, monitored tokens, and signal sources explicit in monitor output |
+
+
 ---
 
 ## Compatibility

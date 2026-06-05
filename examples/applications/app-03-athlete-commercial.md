@@ -243,6 +243,27 @@ shown to sponsors, agents, and club executives. No speculation — every
 number has a SportMind source.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athlete commercial intelligence application: tracks athlete brand events and token CDI signals |
+| Reasoning | ACTIVE | Commercial application reasoning chain from athlete event to CDI modifier |
+| Context | ACTIVE | Application context: athlete profile, sport, token association, commercial event type |
+| Memory | ACTIVE | Application tracks athlete commercial event history and CDI trend |
+| Judgment | ACTIVE | Judgment on commercial event materiality — jersey sponsor vs minor activation differ |
+| Attention | ACTIVE | Application monitors athlete commercial signal feeds for CDI-relevant events |
+| Communication | ACTIVE | Commercial application output: event type, CDI modifier, and token demand implication |
+| Verification | ACTIVE | Commercial events require official announcement confirmation |
+| Learning | ACTIVE | Commercial event-to-CDI calibration improves from historical outcome data |
+| Integration | ACTIVE | Integrates athlete financial, brand score, sponsorship, and CDI framework |
+| Calibration | ACTIVE | CDI commercial modifier values from calibrated library standards |
+| Adaptation | ACTIVE | Application adapts as athlete commercial landscape and token mechanics evolve |
+| Ethics | ACTIVE | Athlete commercial monitoring uses public data only — no private arrangements |
+| Transparency | ACTIVE | Commercial event source and CDI modifier basis explicit in application output |
+
+
 ---
 
 ## References

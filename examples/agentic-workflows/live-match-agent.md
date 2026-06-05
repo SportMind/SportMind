@@ -326,6 +326,27 @@ CALIBRATION OPPORTUNITY:
   and update with in-match events for the most complete historical record.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Live match agent: in-play signal monitoring and real-time output generation |
+| Reasoning | ACTIVE | Live match reasoning chain from in-play event to signal update and modifier adjustment |
+| Context | ACTIVE | Live context: match state, score, time remaining, live odds, FTP active status |
+| Memory | ACTIVE | Live match agent maintains in-play event log and prior signal state |
+| Judgment | ACTIVE | Judgment on live signal materiality — goal event vs yellow card differ in modifier weight |
+| Attention | ACTIVE | Maximum attention function: live match agent operates at highest signal velocity |
+| Communication | ACTIVE | Live match output: event type, updated signal, modifier change, and confidence |
+| Verification | ACTIVE | Live data from official data feed — social media reports not used as primary |
+| Learning | ACTIVE | Live signal patterns calibrated from historical in-play event-outcome correlation |
+| Integration | ACTIVE | Integrates live-signals, sport-domain files, and FTP framework in real time |
+| Calibration | ACTIVE | Live modifier values calibrated from historical in-play outcome data |
+| Adaptation | ACTIVE | Live match agent adapts as real-time data feed capabilities expand |
+| Ethics | NOT APPLICABLE | Live match intelligence is analytical — no ethical dimension |
+| Transparency | ACTIVE | Live data source, event timestamp, and modifier change always explicit in output |
+
+
 ---
 
 *SportMind v3.62 · MIT License · sportmind.dev*

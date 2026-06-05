@@ -313,6 +313,27 @@ result = crew.kickoff()
 print(result)
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | LangChain Python integration example: SportMind files as context in a LangChain pipeline |
+| Reasoning | ACTIVE | Integration shows how LangChain chains can apply SportMind reasoning patterns |
+| Context | ACTIVE | Integration context: LangChain version, file loading pattern, prompt structure |
+| Memory | NOT APPLICABLE | Integration example is static — not memory-dependent |
+| Judgment | NOT APPLICABLE | Integration example is demonstrative — judgment is shown, not defined here |
+| Attention | NOT APPLICABLE | Static integration example — not an attention framework |
+| Communication | ACTIVE | Integration example defines the SportMind output format within LangChain pipeline |
+| Verification | NOT APPLICABLE | Integration example is demonstrative — not subject to external verification |
+| Learning | NOT APPLICABLE | Integration example is static — not a learning framework |
+| Integration | ACTIVE | Integration example IS the LangChain + SportMind integration documentation |
+| Calibration | NOT APPLICABLE | Integration example is demonstrative — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Integration example updated as LangChain API and SportMind output formats evolve |
+| Ethics | ACTIVE | Integration example includes scope limit and disclaimer documentation |
+| Transparency | ACTIVE | LangChain chain structure, loaded files, and expected output format documented |
+
+
 ---
 
 ## Environment setup

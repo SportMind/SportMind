@@ -247,6 +247,27 @@ US MARKET MONITORING (throughout 2026):
   Report to users with tokens in sports adjacent to US market.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | World Cup 2026 dashboard application: real-time national team token intelligence hub |
+| Reasoning | ACTIVE | Dashboard reasoning: aggregates tournament signals across all participating nation tokens |
+| Context | ACTIVE | Dashboard context: WC 2026 June 11-July 19, 48 teams, group stage draw, FTO launches |
+| Memory | ACTIVE | Dashboard tracks national team performance and token demand across tournament window |
+| Judgment | ACTIVE | Dashboard judgment: surfaces highest-priority signals across concurrent tournament matches |
+| Attention | ACTIVE | Dashboard maximum attention during knockout stage and concurrently active matches |
+| Communication | ACTIVE | Dashboard output: tournament leaderboard, signal priority feed, and national team token state |
+| Verification | ACTIVE | Dashboard requires ALL FOUR sources for any national team token signal during World Cup window |
+| Learning | ACTIVE | Dashboard demand modifiers calibrated from historical World Cup tournament data |
+| Integration | ACTIVE | Integrates world-cup-2026-intelligence, national-team-tokens, and fraud-risk-intelligence |
+| Calibration | ACTIVE | Tournament demand amplifiers calibrated from library — ×1.40 launch, ×0.70–×0.88 decay |
+| Adaptation | ACTIVE | Dashboard adapts as tournament progresses and team elimination patterns emerge |
+| Ethics | ACTIVE | Dashboard fraud amplification mode active — elevated verification during World Cup window |
+| Transparency | ACTIVE | Tournament phase, demand modifier tier, and verification status always explicit in dashboard |
+
+
 ---
 
 ## References

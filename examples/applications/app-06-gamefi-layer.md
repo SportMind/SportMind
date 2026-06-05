@@ -278,6 +278,27 @@ TONE: Helpful coach, not financial advisor. Frame intelligence as
 helping players make more informed picks, not guaranteeing outcomes.
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | GameFi layer application: fan token game mechanics powered by SportMind intelligence |
+| Reasoning | ACTIVE | GameFi reasoning: mapping sport intelligence signals to game reward mechanics |
+| Context | ACTIVE | GameFi context: game type, reward structure, FTP integration, competition calendar |
+| Memory | ACTIVE | GameFi application tracks player positions, rewards, and prior game state |
+| Judgment | ACTIVE | Judgment on GameFi signal use — not all sport signals map to valid game mechanics |
+| Attention | ACTIVE | GameFi attention: monitors sport events that trigger game state changes |
+| Communication | ACTIVE | GameFi output: game state update, reward trigger, and sport signal reference |
+| Verification | ACTIVE | Sport results that trigger game rewards require official confirmation first |
+| Learning | EMERGING | GameFi application patterns improve as reward mechanic effectiveness data accumulates |
+| Integration | ACTIVE | Integrates fan token demand, gamified tokenomics, and sport domain intelligence |
+| Calibration | EMERGING | GameFi reward calibration requires more outcome data |
+| Adaptation | ACTIVE | GameFi application adapts as game mechanics and token utility standards evolve |
+| Ethics | ACTIVE | GameFi applications must avoid gambling-adjacent structures — reward mechanics reviewed |
+| Transparency | ACTIVE | Game state, reward trigger, and sport signal reference always explicit in output |
+
+
 ---
 
 ## References
