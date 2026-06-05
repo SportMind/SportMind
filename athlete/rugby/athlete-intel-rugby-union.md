@@ -88,6 +88,27 @@ Player-level intelligence for rugby union and league fan tokens. Covers set piec
 | Wet conditions (kicking team disadvantage) | 0.92 |
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby union athlete intelligence: player position signals, form cycles, and international window context |
+| Reasoning | ACTIVE | Rugby union reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Rugby union context: position role, international break impact, RWC year amplifier |
+| Memory | ACTIVE | Historical rugby union player form patterns and international window data |
+| Judgment | ACTIVE | Judgment on rugby union signal hierarchy — front row and fly-half are highest-impact positions |
+| Attention | ACTIVE | Elevated attention during international windows and RWC squad announcement |
+| Communication | ACTIVE | Rugby union athlete output with APS modifier, position role, and international status |
+| Verification | ACTIVE | Rugby union data from World Rugby and national union official squad announcements |
+| Learning | EMERGING | Rugby union APS calibration is limited |
+| Integration | ACTIVE | Integrates with market-rugby-union, international-rugby-cycle, and core modifier system |
+| Calibration | EMERGING | Rugby union APS modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rugby union athlete intelligence adapts as positional roles and game laws evolve |
+| Ethics | NOT APPLICABLE | Rugby union athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, position role, and international status explicit in output |
+
+
 ---
 
 ## Modifier reference

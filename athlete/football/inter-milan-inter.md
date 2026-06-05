@@ -160,6 +160,27 @@ $INTER UCL DEMAND SIGNAL:
 **Serie A context:**  `athlete/football/juventus-juv.md`
 **Milan Derby:**      `athlete/football/acmilan-acm.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Inter Milan ($INTER) athlete intelligence: squad signals, tactical system, and CDI modifier |
+| Reasoning | ACTIVE | INTER reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | INTER context: Serie A position, Champions League status, Simone Inzaghi system |
+| Memory | ACTIVE | Historical Inter Milan player form patterns and Serie A/UCL performance baseline |
+| Judgment | ACTIVE | Judgment on INTER signal hierarchy — striker and wing-back absences are highest impact |
+| Attention | ACTIVE | Elevated attention for European qualification and key position injury signals |
+| Communication | ACTIVE | INTER athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | INTER data from Serie A official and Inter Milan official announcement sources |
+| Learning | ACTIVE | INTER APS calibration from historical Serie A and UCL performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | INTER APS modifier calibrated against historical Serie A and UCL outcome data |
+| Adaptation | ACTIVE | INTER intelligence adapts as squad composition and tactical system evolve |
+| Ethics | NOT APPLICABLE | INTER athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.29 · MIT License · sportmind.dev*

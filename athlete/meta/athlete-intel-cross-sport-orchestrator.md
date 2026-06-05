@@ -349,6 +349,27 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
 | 0.70–0.79 | Major degradation — key player out, multiple absences | Skip unless whale signal overrides |
 | Below 0.70 | Severe — multiple outs, backup GK, crisis conditions | Do not enter |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cross-sport athlete intelligence orchestrator: load order, sport selection, and APS integration |
+| Reasoning | ACTIVE | Orchestrator reasoning: selects the correct sport-specific athlete file for current analysis |
+| Context | ACTIVE | Orchestrator context: sport domain, competition tier, athlete type determine file selection |
+| Memory | ACTIVE | Orchestrator maintains sport-to-file mapping as the master athlete intelligence directory |
+| Judgment | ACTIVE | Judgment on which athlete intelligence file is primary vs supplementary for a given task |
+| Attention | ACTIVE | Orchestrator attention: directs focus to most relevant athlete file for signal |
+| Communication | ACTIVE | Orchestrator output defines the handoff structure to sport-specific athlete files |
+| Verification | ACTIVE | Orchestrator verification: confirms the correct sport-specific file is loaded before proceeding |
+| Learning | ACTIVE | Orchestrator updated as new sport-specific athlete files are added to the library |
+| Integration | ACTIVE | This file IS the integration layer for all 40+ athlete intelligence files |
+| Calibration | NOT APPLICABLE | Orchestrator is a routing layer — not subject to accuracy calibration |
+| Adaptation | ACTIVE | Orchestrator adapts as new sports and athlete file types are added |
+| Ethics | NOT APPLICABLE | Orchestrator is a structural routing tool — no ethical dimension |
+| Transparency | ACTIVE | Orchestrator routing decision and selected file are always explicit in output |
+
+
 ---
 
 ## Autopilot template

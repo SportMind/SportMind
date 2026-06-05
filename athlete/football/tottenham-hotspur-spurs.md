@@ -262,6 +262,27 @@ RELEGATION RISK FRAMEWORK (carried forward):
 **Relegation general:** applies to any Tier A club — framework is universal
 **AFCON:**             `sports/football/sport-domain-afcon.md` (Korean player = no AFCON; standard UEFA window)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tottenham Hotspur ($SPURS) athlete intelligence: squad signals and CDI modifier |
+| Reasoning | ACTIVE | SPURS reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | SPURS context: PL position, European qualification status, managerial stability |
+| Memory | ACTIVE | Historical Tottenham player form patterns and PL performance baseline |
+| Judgment | ACTIVE | Judgment on SPURS signal hierarchy — key attacking players and managerial signals most material |
+| Attention | ACTIVE | Elevated attention for European qualification race and managerial signals |
+| Communication | ACTIVE | SPURS athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | SPURS data from Premier League official and Tottenham official announcement sources |
+| Learning | ACTIVE | SPURS APS calibration from historical PL performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | SPURS APS modifier calibrated against historical PL outcome data |
+| Adaptation | ACTIVE | SPURS intelligence adapts as squad profile and European status evolve |
+| Ethics | NOT APPLICABLE | SPURS athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.31 · MIT License · sportmind.dev*

@@ -283,6 +283,27 @@ get_athlete_signal_modifier player=[PLAYER_ID] match=[MATCH_ID]
 **Sport domain:** `sports/rugby-league/sport-domain-rugby-league.md`
 **Injury intelligence:** `core/injury-intelligence/core-injury-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby league athlete intelligence: player profile signals, NRL form, and State of Origin context |
+| Reasoning | ACTIVE | Rugby league reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Rugby league context: position role, NRL phase, State of Origin selection signals |
+| Memory | ACTIVE | Historical rugby league player form patterns and NRL performance baseline |
+| Judgment | ACTIVE | Judgment on rugby league signal hierarchy — halfback and fullback are highest-impact positions |
+| Attention | ACTIVE | Elevated attention during State of Origin and NRL Finals windows |
+| Communication | ACTIVE | Rugby league athlete output with APS modifier, position role, and State of Origin status |
+| Verification | ACTIVE | Rugby league data from NRL official sources and state federation announcements |
+| Learning | EMERGING | Rugby league APS calibration is limited |
+| Integration | ACTIVE | Integrates with market-rugby-league, sports/rugby-league, and core modifier system |
+| Calibration | EMERGING | Rugby league APS modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Rugby league athlete intelligence adapts as NRL competition format evolves |
+| Ethics | NOT APPLICABLE | Rugby league athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, position role, and State of Origin context explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

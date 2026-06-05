@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_fatigue_profile` | PKL schedule density; back-to-back matches | Yes |
 | `get_athlete_signal_modifier` | Composite kabaddi modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Kabaddi athlete intelligence: raider and defender profile signals and PKL form |
+| Reasoning | ACTIVE | Kabaddi reasoning chain from player role signals to APS modifier |
+| Context | ACTIVE | Kabaddi context: PKL phase, raider vs defender role primacy, team composition |
+| Memory | ACTIVE | Historical kabaddi player form patterns and PKL performance baseline |
+| Judgment | ACTIVE | Judgment on kabaddi signal hierarchy — raider primacy is the highest-signal position type |
+| Attention | ACTIVE | Elevated attention during PKL playoff and final windows |
+| Communication | ACTIVE | Kabaddi athlete output with APS modifier, role type, and PKL context |
+| Verification | ACTIVE | Kabaddi data from PKL official sources |
+| Learning | EMERGING | Kabaddi APS calibration is limited — niche market with limited records |
+| Integration | ACTIVE | Integrates with market-kabaddi, sports/kabaddi, and core athlete modifier system |
+| Calibration | EMERGING | Kabaddi APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Kabaddi athlete intelligence adapts as PKL expands and player profiles evolve |
+| Ethics | NOT APPLICABLE | Kabaddi athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, role type (raider/defender), and PKL context explicit in output |
+
+
 ---
 
 ## The raider primacy model

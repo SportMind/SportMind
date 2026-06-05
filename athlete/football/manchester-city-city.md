@@ -216,6 +216,27 @@ GUARDIOLA TENURE CLOSE MODIFIER:
 **$CITY token:**             `fan-token/league-football-token-intelligence.md`
 **Tier A framework:**        `athlete/football/tier-a-clubs-framework.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Manchester City ($CITY) athlete intelligence: squad signals, Pep system, and CDI modifier |
+| Reasoning | ACTIVE | CITY reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | CITY context: PL position, UCL status, Guardiola tactical system dependency |
+| Memory | ACTIVE | Historical Manchester City player form patterns and PL/UCL baseline data |
+| Judgment | ACTIVE | Judgment on CITY signal hierarchy — midfield absences most disruptive to system |
+| Attention | ACTIVE | Elevated attention for Rodri injury signals and Guardiola press conference hedging |
+| Communication | ACTIVE | CITY athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | CITY data from Premier League official and Manchester City official announcement sources |
+| Learning | ACTIVE | CITY APS calibration from extensive PL and UCL performance outcome data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | CITY APS modifier well-calibrated — large historical dataset from UCL and PL records |
+| Adaptation | ACTIVE | CITY intelligence adapts as post-Guardiola transition and squad evolution continue |
+| Ethics | NOT APPLICABLE | CITY athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, tactical system context, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.61 · MIT License · sportmind.dev*

@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_plate_racing_record` | Superspeedway pack racing specific stats | Yes |
 | `get_athlete_signal_modifier` | Composite NASCAR modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NASCAR athlete intelligence: driver profile signals, track type fit, and Playoff stage context |
+| Reasoning | ACTIVE | NASCAR reasoning chain from driver/track signals to APS modifier |
+| Context | ACTIVE | NASCAR context: track type (superspeedway/intermediate/short), Playoff stage, manufacturer |
+| Memory | ACTIVE | Historical NASCAR driver performance patterns and track-type baseline data |
+| Judgment | ACTIVE | Judgment on NASCAR signal hierarchy — track type fit is the highest-certainty signal |
+| Attention | ACTIVE | Elevated attention during Playoff stages and championship-determining races |
+| Communication | ACTIVE | NASCAR athlete output with APS modifier, track type fit, and Playoff context |
+| Verification | ACTIVE | NASCAR data from NASCAR.com official timing and team official announcements |
+| Learning | EMERGING | NASCAR APS calibration is limited — US fan token market is developing |
+| Integration | ACTIVE | Integrates with market-nascar, sports/nascar, and core athlete modifier system |
+| Calibration | EMERGING | NASCAR APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | NASCAR athlete intelligence adapts as Next Gen car and team lineup evolve |
+| Ethics | NOT APPLICABLE | NASCAR athlete intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, track type fit, and Playoff stage explicit in output |
+
+
 ---
 
 ## Track type specialisation — the primary signal

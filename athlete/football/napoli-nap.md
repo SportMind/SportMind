@@ -165,6 +165,27 @@ SERIE A TACTICAL CONTEXT FOR NAPOLI:
 **Serie A context:**  `athlete/football/juventus-juv.md`
 **Venue:**            `core/venue-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Napoli ($NAP) athlete intelligence: squad signals, Italian context, and CDI modifier |
+| Reasoning | ACTIVE | NAP reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | NAP context: Serie A position, European status, post-Scudetto transition |
+| Memory | ACTIVE | Historical Napoli player form patterns and Serie A performance baseline |
+| Judgment | ACTIVE | Judgment on NAP signal hierarchy — attacking player form and managerial stability most material |
+| Attention | ACTIVE | Elevated attention for managerial change signals and European qualification |
+| Communication | ACTIVE | NAP athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | NAP data from Serie A official and Napoli official announcement sources |
+| Learning | ACTIVE | NAP APS calibration from historical Serie A performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | NAP APS modifier calibrated against historical Serie A outcome data |
+| Adaptation | ACTIVE | NAP intelligence adapts as post-Scudetto squad evolution and managerial changes occur |
+| Ethics | NOT APPLICABLE | NAP athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.29 · MIT License · sportmind.dev*

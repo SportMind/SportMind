@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_fatigue_profile` | EHF Champions League + domestic load management | Yes |
 | `get_athlete_signal_modifier` | Composite handball modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Handball athlete intelligence: player position signals, EHF form, and national team context |
+| Reasoning | ACTIVE | Handball reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Handball context: EHF Champions League phase, national team break, position role |
+| Memory | ACTIVE | Historical handball player form patterns and EHF performance baseline |
+| Judgment | ACTIVE | Judgment on handball signal hierarchy — goalkeeper form is the highest-impact position signal |
+| Attention | ACTIVE | Elevated attention during EHF knockout phases and World Championship |
+| Communication | ACTIVE | Handball athlete output with APS modifier, position role, and competition context |
+| Verification | ACTIVE | Handball data from EHF official sources and national federation announcements |
+| Learning | EMERGING | Handball APS calibration is limited — developing dataset |
+| Integration | ACTIVE | Integrates with market-handball, sports/handball, and core athlete modifier system |
+| Calibration | EMERGING | Handball APS modifier calibration is an emerging dataset |
+| Adaptation | ACTIVE | Handball athlete intelligence adapts as EHF competition format and player profiles evolve |
+| Ethics | NOT APPLICABLE | Handball athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, position role, and competition context explicit in output |
+
+
 ---
 
 ## Goalkeeper primacy model

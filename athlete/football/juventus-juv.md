@@ -180,6 +180,27 @@ SQUAD CYCLE REASONING — FORWARD-LOOKING MODIFIER:
 **$JUV token:**       `fan-token/league-football-token-intelligence.md`
 **Serie A context:**  `sports/football/sport-domain-football.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Juventus ($JUV) athlete intelligence: squad signals, rebuilding phase context, and CDI modifier |
+| Reasoning | ACTIVE | JUV reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | JUV context: Serie A position, European status, ownership and financial situation |
+| Memory | ACTIVE | Historical Juventus player form patterns and Serie A baseline data |
+| Judgment | ACTIVE | Judgment on JUV signal hierarchy — key player form and European qualification impact most |
+| Attention | ACTIVE | Elevated attention for managerial signals and European qualification race |
+| Communication | ACTIVE | JUV athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | JUV data from Serie A official and Juventus official announcement sources |
+| Learning | ACTIVE | JUV APS calibration from historical Serie A and European performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | JUV APS modifier calibrated against historical Serie A outcome data |
+| Adaptation | ACTIVE | JUV intelligence adapts as post-Agnelli rebuild and European status evolve |
+| Ethics | NOT APPLICABLE | JUV athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

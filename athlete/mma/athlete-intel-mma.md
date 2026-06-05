@@ -340,6 +340,27 @@ Full injury intelligence for mma is available in the dedicated framework:
 Load these files alongside this skill for injury-aware agent reasoning.
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MMA athlete intelligence: fighter profile signals, weight cut status, and training camp signals |
+| Reasoning | ACTIVE | MMA reasoning chain from fighter profile to APS modifier |
+| Context | ACTIVE | MMA context: weight class, fighting style matchup, training camp quality, promotional tier |
+| Memory | ACTIVE | Historical MMA fighter performance patterns and weight cut complication data |
+| Judgment | ACTIVE | Judgment on MMA signal hierarchy — weight cut failure is categorically highest-impact signal |
+| Attention | ACTIVE | Maximum attention for missed weight and late injury withdrawal patterns |
+| Communication | ACTIVE | MMA athlete output with APS modifier, weight cut status, and matchup assessment |
+| Verification | ACTIVE | MMA data from athletic commission findings and official UFC/promotion announcements |
+| Learning | ACTIVE | MMA APS calibration from historical fight outcome correlation data |
+| Integration | ACTIVE | Integrates with market-mma, sports/mma, injury-intel-mma, and core modifier system |
+| Calibration | ACTIVE | MMA APS modifier calibrated — weight cut signal is one of the most validated in library |
+| Adaptation | ACTIVE | MMA athlete intelligence adapts as weight management protocols and commission rules evolve |
+| Ethics | ACTIVE | Fighter safety signals (medical fitness, weight cut distress) require accurate handling |
+| Transparency | ACTIVE | APS modifier, weight cut status, and source tier explicit in output |
+
+
 ---
 
 ## Integration example

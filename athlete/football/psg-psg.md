@@ -212,6 +212,27 @@ UCL PEDIGREE MODIFIER:
 **$PSG token:**       `fan-token/league-football-token-intelligence.md`
 **UCL structure:**    `sports/football/sport-domain-football.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | PSG ($PSG) athlete intelligence: squad signals, UCL Final context, and CDI modifier |
+| Reasoning | ACTIVE | PSG reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | PSG context: UCL Champions 2025/26, Kvaratskhelia/Dembélé/Hakimi central to system |
+| Memory | ACTIVE | PSG form history including UCL Final 2026 — Dembélé 65' pen (4-3 pens victory) |
+| Judgment | ACTIVE | Judgment on PSG signal hierarchy — Kvaratskhelia and Dembélé fitness are highest-impact signals |
+| Attention | ACTIVE | Elevated attention for DSM gate signals and Hakimi/Dembélé fitness near matches |
+| Communication | ACTIVE | PSG athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | PSG data from Ligue 1 official and PSG official announcement sources |
+| Learning | ACTIVE | PSG APS calibration enriched by UCL Final record 130 — T-2h signal confirmed correct |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | PSG APS modifier calibrated — UCL Final 2026 confirmed Kvaratskhelia vs Mosquera structural advantage |
+| Adaptation | ACTIVE | PSG intelligence adapts as Hakimi/Dembélé contract situations and squad evolve |
+| Ethics | NOT APPLICABLE | PSG athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, DSM gate status, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

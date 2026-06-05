@@ -331,6 +331,27 @@ NATIONAL NARRATIVE:
 | `composite_modifier` | Product of all applicable | 0.78–1.25 |
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Athletics athlete intelligence: event specialisation, form cycles, and peak timing signals |
+| Reasoning | ACTIVE | Athletics reasoning chain from athlete profile to performance prediction modifier |
+| Context | ACTIVE | Athletics context: event type, season phase, altitude training, championship timing |
+| Memory | ACTIVE | Historical athletics performance patterns and seasonal peak data |
+| Judgment | ACTIVE | Judgment on athletics signal materiality — peak timing around major championship is primary signal |
+| Attention | ACTIVE | Elevated attention for late form signals near major championship windows |
+| Communication | ACTIVE | Athletics athlete output with APS modifier, event specialisation, and peak timing |
+| Verification | ACTIVE | Athletics data from World Athletics official results and athlete declarations |
+| Learning | ACTIVE | Athletics APS calibration from historical championship performance data |
+| Integration | ACTIVE | Integrates with market-athletics, sports/athletics, and core athlete modifier system |
+| Calibration | ACTIVE | Athletics APS modifier values calibrated against historical championship outcome data |
+| Adaptation | ACTIVE | Athletics intelligence adapts as training methods and peak timing strategies evolve |
+| Ethics | ACTIVE | Athletics doping history is flagged — doping signals require official confirmation before applying |
+| Transparency | ACTIVE | APS modifier, peak timing assessment, and data source explicit in output |
+
+
 ---
 
 ## Integration example

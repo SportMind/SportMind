@@ -281,6 +281,27 @@ SQUAD DEPTH AS A FORWARD SIGNAL:
 **Tier A framework:**  `athlete/football/tier-a-clubs-framework.md`
 **Core athlete:**      `core/core-athlete-modifier-system.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Arsenal ($AFC) athlete intelligence: squad depth, key player form, and FTP PATH_2 context |
+| Reasoning | ACTIVE | AFC reasoning chain from squad/player signals to APS and FTP PATH_2 modifier |
+| Context | ACTIVE | AFC context: PL Champions 2025/26, UCL Final 2026, FTP PATH_2 active — match results trigger supply events |
+| Memory | ACTIVE | Historical Arsenal player form patterns — Ben White OUT, Havertz UCL final scorer |
+| Judgment | ACTIVE | Judgment on AFC signal hierarchy — FTP PATH_2 means all results have supply event implications |
+| Attention | ACTIVE | Maximum attention for Arsenal match results — all trigger $AFC supply events via PATH_2 |
+| Communication | ACTIVE | AFC athlete output with APS modifier, squad state, and PATH_2 supply event type |
+| Verification | ACTIVE | Arsenal squad data from official Arsenal announcements and training observations |
+| Learning | ACTIVE | AFC APS calibration enriched by UCL Final record 130 and three April 2026 PATH_2 records |
+| Integration | ACTIVE | Integrates with fan-token/arsenal.md, ftp-path2.md, and core athlete modifier system |
+| Calibration | ACTIVE | AFC APS modifier calibrated — PATH_2 supply event calibration: WIN -159,025 / LOSS +100,000 |
+| Adaptation | ACTIVE | AFC intelligence adapts as FTP PATH_2 pool sizes and squad composition evolve |
+| Ethics | NOT APPLICABLE | AFC athlete intelligence is sports/crypto analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, PATH_2 status, and supply event type always explicit in Arsenal outputs |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

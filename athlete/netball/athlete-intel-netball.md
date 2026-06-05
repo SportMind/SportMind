@@ -105,6 +105,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_availability` | International window, injury, suspension | Yes |
 | `get_athlete_signal_modifier` | Composite netball modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Netball athlete intelligence: player position signals, Super Netball form, and international context |
+| Reasoning | ACTIVE | Netball reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Netball context: position role, Super Netball phase, World Cup preparation |
+| Memory | ACTIVE | Historical netball player form patterns and Super Netball baseline data |
+| Judgment | ACTIVE | Judgment on netball signal hierarchy — GS/GK position players are highest-impact signals |
+| Attention | ACTIVE | Elevated attention during Super Netball finals and World Cup squad windows |
+| Communication | ACTIVE | Netball athlete output with APS modifier, position role, and competition context |
+| Verification | ACTIVE | Netball data from Netball Australia and World Netball official sources |
+| Learning | EMERGING | Netball APS calibration is limited — niche market |
+| Integration | ACTIVE | Integrates with market-netball, sports/netball, and core athlete modifier system |
+| Calibration | EMERGING | Netball APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Netball athlete intelligence adapts as the sport grows commercially |
+| Ethics | NOT APPLICABLE | Netball athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, position role, and competition context explicit in output |
+
+
 ---
 
 ## Shooting accuracy primacy

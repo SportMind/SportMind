@@ -195,6 +195,27 @@ Full injury intelligence for horse-racing is available in the dedicated framewor
 Load these files alongside this skill for injury-aware agent reasoning.
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Horse racing athlete intelligence: horse and jockey/trainer profile signals and going preference |
+| Reasoning | ACTIVE | Racing reasoning chain from horse/trainer signals to performance prediction modifier |
+| Context | ACTIVE | Racing context: going, race class, distance, seasonal form, trainer communication patterns |
+| Memory | ACTIVE | Historical horse performance patterns and going preference calibration data |
+| Judgment | ACTIVE | Judgment on racing signal hierarchy — going suitability is the most reliable performance predictor |
+| Attention | ACTIVE | Elevated attention for non-runner declarations and going changes |
+| Communication | ACTIVE | Racing athlete output with APS modifier, going suitability, and trainer signal |
+| Verification | ACTIVE | Racing data from British Horseracing Authority official race day declarations |
+| Learning | ACTIVE | Racing APS calibration from historical going-to-performance outcome correlation |
+| Integration | ACTIVE | Integrates with market-horse-racing, sports/horse-racing, and injury-intel-horse-racing |
+| Calibration | ACTIVE | Racing APS modifier calibrated against historical going-performance correlation data |
+| Adaptation | ACTIVE | Racing athlete intelligence adapts as training methods and racing surfaces evolve |
+| Ethics | ACTIVE | Horse welfare signals (vet inspections, distress) are safety-relevant and handled carefully |
+| Transparency | ACTIVE | APS modifier, going suitability, and trainer signal source explicit in output |
+
+
 ---
 
 ## Integration example

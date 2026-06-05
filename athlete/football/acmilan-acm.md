@@ -162,6 +162,27 @@ MILAN DERBY — ATHLETE AVAILABILITY INTERACTION:
 **$ACM token:**       `fan-token/league-football-token-intelligence.md`
 **Serie A context:**  `athlete/football/juventus-juv.md` (shared tactical context)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AC Milan ($ACM) athlete intelligence: squad signals, key player form, and CDI modifier |
+| Reasoning | ACTIVE | ACM reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | ACM context: Serie A position, European competition status, injury list |
+| Memory | ACTIVE | Historical AC Milan player form patterns and season-specific baseline data |
+| Judgment | ACTIVE | Judgment on ACM signal hierarchy — key position absences vs depth player changes |
+| Attention | ACTIVE | Elevated attention for injury news and European qualification signals |
+| Communication | ACTIVE | ACM athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | ACM data from Serie A official and AC Milan official announcement sources |
+| Learning | ACTIVE | ACM APS calibration from historical Serie A performance-outcome correlation data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | ACM APS modifier calibrated against historical Serie A and European outcome data |
+| Adaptation | ACTIVE | ACM intelligence adapts as squad composition and European status change |
+| Ethics | NOT APPLICABLE | ACM athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

@@ -471,6 +471,27 @@ get_athlete_signal_modifier token=BAR
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Football athlete intelligence: cross-club APS framework, position modifiers, and availability signals |
+| Reasoning | ACTIVE | Football athlete reasoning chain from player signals to APS composite modifier |
+| Context | ACTIVE | Context: position role, competition tier, fixture congestion, press conference signals |
+| Memory | ACTIVE | Historical football player form patterns — the most data-rich athlete intelligence file |
+| Judgment | ACTIVE | Judgment on football athlete signal hierarchy — confirmed absence > fitness doubt > training report |
+| Attention | ACTIVE | Maximum attention for pre-match training reports and official squad list confirmations |
+| Communication | ACTIVE | Football athlete output with APS modifier, availability status, and position context |
+| Verification | ACTIVE | Official squad list (1h pre-kickoff) is Tier 1 — predicted lineups are Tier 3 |
+| Learning | ACTIVE | Football APS calibration is the most developed — 130+ calibration records |
+| Integration | ACTIVE | Integrates with LQI, pre-match squad intelligence, and all club-specific files |
+| Calibration | ACTIVE | Football APS modifier most calibrated in library — 96% direction accuracy |
+| Adaptation | ACTIVE | Football athlete intelligence adapts as position roles and tactical systems evolve |
+| Ethics | ACTIVE | Player medical information is sensitive — only publicly confirmed data used |
+| Transparency | ACTIVE | APS modifier, availability source tier, and position context always explicit in output |
+
+
 ---
 
 ## Injury intelligence

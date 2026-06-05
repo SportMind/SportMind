@@ -287,6 +287,27 @@ availability, and disciplinary record into one multiplier.
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rugby athlete intelligence: cross-format framework covering union and league player profiles |
+| Reasoning | ACTIVE | Rugby cross-format reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Rugby context: union vs league format distinctions, Super Rugby vs European competition |
+| Memory | ACTIVE | Historical rugby player form patterns across both codes |
+| Judgment | ACTIVE | Judgment on rugby signal hierarchy — code-specific position roles differ significantly |
+| Attention | ACTIVE | Elevated attention for cross-code transfer signals and international window impacts |
+| Communication | ACTIVE | Rugby athlete output with APS modifier, code identifier, and position role |
+| Verification | ACTIVE | Rugby data from World Rugby (union) and RLIF (league) official sources |
+| Learning | EMERGING | Rugby cross-format APS calibration is limited |
+| Integration | ACTIVE | Integrates with athlete-intel-rugby-union, athlete-intel-rugby-league, and core modifier |
+| Calibration | EMERGING | Rugby cross-format APS calibration is an emerging framework |
+| Adaptation | ACTIVE | Rugby athlete intelligence adapts as cross-code transfers and professional structures evolve |
+| Ethics | NOT APPLICABLE | Rugby athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, code (union/league), and position role explicit in output |
+
+
 ---
 
 ## Modifier reference

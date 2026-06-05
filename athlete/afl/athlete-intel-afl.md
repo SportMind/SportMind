@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_fantasy_score_trend` | AFL fantasy score last 5 — strong form proxy | Yes |
 | `get_athlete_signal_modifier` | Composite AFL athlete modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | AFL athlete intelligence: player role signals, disposal efficiency, and form modifier |
+| Reasoning | ACTIVE | AFL athlete reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | AFL context: position (midfield/forward/back), finals proximity, injury history |
+| Memory | ACTIVE | Historical AFL player form patterns and APS baseline data |
+| Judgment | ACTIVE | Judgment on AFL player signal materiality — key position players differ from depth |
+| Attention | ACTIVE | Elevated attention for injury reports and selection signals in finals window |
+| Communication | ACTIVE | AFL athlete output with APS modifier, role assessment, and availability status |
+| Verification | ACTIVE | AFL player data from AFL.com.au official squad and match day sources |
+| Learning | ACTIVE | AFL APS calibration from historical player form-outcome correlation data |
+| Integration | ACTIVE | Integrates with market-afl, sports/afl, and core athlete modifier system |
+| Calibration | ACTIVE | AFL APS modifier values calibrated against historical player-performance data |
+| Adaptation | ACTIVE | AFL athlete intelligence adapts as player roles and team systems evolve |
+| Ethics | NOT APPLICABLE | AFL athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, player role, and data source explicit in output |
+
+
 ---
 
 ## AFL positional framework

@@ -1,5 +1,45 @@
 # Changelog
 
+## [3.97.104] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: athlete/ directory
+
+0 new files. 47 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to 47 athlete/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section (3 files — preserved unchanged):
+  athlete/football/arsenal.md
+  athlete/football/aston-villa-avl.md
+  athlete/football/lazio.md
+
+Skipped (exempt): 0 — no README or pure data files in athlete/
+
+Expiring files updated (NOT removed — cleanup deferred to separate session):
+  athlete/football/manchester-city-city.md  — MIND DIMENSIONS added ✓
+  athlete/football/tottenham-hotspur-spurs.md — MIND DIMENSIONS added ✓
+  athlete/football/mancity-city.md (legacy duplicate) — MIND DIMENSIONS added ✓
+  athlete/football/lazio.md — already had section ✓
+  Note: arsenal.md in athlete/football/ is the standard club file (kept).
+  Note: athlete/football/arsenal-afc.md is the detailed $AFC/PATH_2 file (kept).
+
+47 files updated across all athlete/ subdirectories:
+  Cross-sport orchestrator (athlete/meta/)
+  Sport-specific athlete intel (AFL, athletics, baseball, boxing, cricket,
+  cycling, darts, esports, F1, golf, handball, horse racing, kabaddi,
+  MMA, MotoGP, NASCAR, NBA, netball, NFL, NHL, rowing, rugby union,
+  rugby (cross-format), rugby league, snooker, swimming, tennis,
+  winter sports)
+  Football club files (ACM, AFC, ATM, BAR, GAL, INTER, JUV, NAP, POR,
+  PSG, SPURS, athlete-intel-football, athlete-intel-saudi-pro-league,
+  tier-a-clubs-framework, mancity-city legacy)
+  National team files (spain-snft)
+  Esports team file (vitality-vit)
+
 ## [3.97.103] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: market/ directory

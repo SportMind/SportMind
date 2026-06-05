@@ -151,6 +151,27 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 }}
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tennis athlete intelligence: surface specialisation, ranking trajectory, and Grand Slam form |
+| Reasoning | ACTIVE | Tennis reasoning chain from player profile to APS modifier |
+| Context | ACTIVE | Tennis context: surface type, Grand Slam vs Masters, ranking momentum, scheduling |
+| Memory | ACTIVE | Historical tennis player performance patterns and Grand Slam surface-specific baseline |
+| Judgment | ACTIVE | Judgment on tennis signal hierarchy — surface and ranking trajectory are primary signals |
+| Attention | ACTIVE | Elevated attention during Grand Slam draws and pre-tournament form signals |
+| Communication | ACTIVE | Tennis athlete output with APS modifier, surface fit, and ranking trajectory |
+| Verification | ACTIVE | Tennis data from ATP, WTA, and Grand Slam official sources |
+| Learning | ACTIVE | Tennis APS calibration from historical Grand Slam surface-specific outcome data |
+| Integration | ACTIVE | Integrates with market-tennis, sports/tennis, and core athlete modifier system |
+| Calibration | ACTIVE | Tennis APS modifier calibrated against historical surface-specific performance data |
+| Adaptation | ACTIVE | Tennis athlete intelligence adapts as surface technology and scheduling evolve |
+| Ethics | NOT APPLICABLE | Tennis athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, surface context, and ranking trajectory explicit in output |
+
+
 ---
 
 ## Grand Slam round-by-round intelligence

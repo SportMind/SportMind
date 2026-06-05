@@ -142,6 +142,27 @@ get_athlete_signal_modifier player=[BOWLER_ID] match=[MATCH_ID]
 # Output: SportMind confidence schema
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cricket athlete intelligence: batting/bowling form, format specialisation, and dew factor impact |
+| Reasoning | ACTIVE | Cricket reasoning chain from player form signals to APS modifier |
+| Context | ACTIVE | Cricket context: format (T20/ODI/Test), pitch conditions, opposition bowling type |
+| Memory | ACTIVE | Historical cricket player form patterns and format-specific baseline data |
+| Judgment | ACTIVE | Judgment on cricket signal hierarchy — player form in specific format matters more than aggregate |
+| Attention | ACTIVE | Elevated attention for late dew factor and pitch condition reports |
+| Communication | ACTIVE | Cricket athlete output with APS modifier, format specialisation, and conditions |
+| Verification | ACTIVE | Cricket data from official cricket boards and ICC sources |
+| Learning | ACTIVE | Cricket APS calibration — dew factor and India batting signals are well-calibrated |
+| Integration | ACTIVE | Integrates with market-cricket, sports/cricket, and core athlete modifier system |
+| Calibration | ACTIVE | Cricket APS modifier values calibrated against historical format-specific outcome data |
+| Adaptation | ACTIVE | Cricket athlete intelligence adapts as format evolution and T20 demands change |
+| Ethics | NOT APPLICABLE | Cricket athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, format context, and dew factor status explicit in output |
+
+
 ---
 
 ## IPL Franchise Intelligence

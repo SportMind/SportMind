@@ -187,6 +187,27 @@ Full injury intelligence for boxing is available in the dedicated framework:
 Load these files alongside this skill for injury-aware agent reasoning.
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Boxing athlete intelligence: ring IQ signals, physical attributes, and weight management |
+| Reasoning | ACTIVE | Boxing reasoning chain from fighter profile to performance prediction modifier |
+| Context | ACTIVE | Boxing context: weight class, ring style matchup, weight cut history, training camp |
+| Memory | ACTIVE | Historical boxing fighter patterns and weight cut complication data |
+| Judgment | ACTIVE | Judgment on boxing signal hierarchy — weight cut failure is categorically different from form signal |
+| Attention | ACTIVE | Elevated attention for weight cut reports and late withdrawal patterns |
+| Communication | ACTIVE | Boxing athlete output with APS modifier, weight status, and matchup assessment |
+| Verification | ACTIVE | Boxing data from athletic commission and official promotion announcement sources |
+| Learning | ACTIVE | Boxing APS calibration from historical fight outcome correlation data |
+| Integration | ACTIVE | Integrates with market-boxing, sports/boxing, injury-intel-boxing, and core modifier system |
+| Calibration | ACTIVE | Boxing APS modifier values calibrated against historical performance-outcome data |
+| Adaptation | ACTIVE | Boxing athlete intelligence adapts as promotional landscape and weight class norms evolve |
+| Ethics | ACTIVE | Boxing fighter safety signals (medical fitness) require accurate handling — safety-relevant |
+| Transparency | ACTIVE | APS modifier, weight cut status, and source tier explicit in output |
+
+
 ---
 
 ## Integration example

@@ -251,6 +251,27 @@ Pick/ban patterns and counter-draft data. Highest value in LoL, Dota2, Valorant.
 }
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Esports athlete intelligence: player KPIs, meta adaptation, and roster stability signals |
+| Reasoning | ACTIVE | Esports reasoning chain from player signals to APS modifier |
+| Context | ACTIVE | Esports context: game title meta, role (IGL/AWP/support), tournament stage |
+| Memory | ACTIVE | Historical esports player performance patterns and meta adaptation data |
+| Judgment | ACTIVE | Judgment on esports signal materiality — roster changes are highest-impact signals |
+| Attention | ACTIVE | Elevated attention for late roster change announcements near tournament windows |
+| Communication | ACTIVE | Esports athlete output with APS modifier, role assessment, and meta context |
+| Verification | ACTIVE | Esports data from official tournament operator and team announcement sources |
+| Learning | EMERGING | Esports APS calibration is limited — young and rapidly evolving domain |
+| Integration | ACTIVE | Integrates with market-esports, sports/esports, and core athlete modifier system |
+| Calibration | EMERGING | Esports APS modifier calibration is developing — limited comparable historical data |
+| Adaptation | ACTIVE | Esports athlete intelligence adapts rapidly as game meta and role definitions evolve |
+| Ethics | NOT APPLICABLE | Esports athlete intelligence is gaming analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, role classification, and meta context explicit in output |
+
+
 ---
 
 ## Integration example

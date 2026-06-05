@@ -144,6 +144,27 @@ The most important performance metric in darts — equivalent to strokes gained 
 | Below-average checkout rate (<35%) | ×0.88 |
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Darts athlete intelligence: three-dart average signals, leg win percentage, and tournament form |
+| Reasoning | ACTIVE | Darts reasoning chain from statistical signals to APS modifier |
+| Context | ACTIVE | Darts context: tournament format (sets vs legs), surface pressure history, ranking momentum |
+| Memory | ACTIVE | Historical darts player form patterns and tournament-specific performance data |
+| Judgment | ACTIVE | Judgment on darts signal hierarchy — three-dart average is primary performance indicator |
+| Attention | ACTIVE | Elevated attention for late withdrawal signals and form trajectory near World Championship |
+| Communication | ACTIVE | Darts athlete output with APS modifier, average signal, and tournament context |
+| Verification | ACTIVE | Darts data from PDC official statistics and tournament records |
+| Learning | ACTIVE | Darts APS calibration from historical average-to-outcome correlation data |
+| Integration | ACTIVE | Integrates with market-darts, sports/darts, and core athlete modifier system |
+| Calibration | ACTIVE | Darts APS modifier values calibrated against historical three-dart average outcome data |
+| Adaptation | ACTIVE | Darts athlete intelligence adapts as player profiles and PDC format evolve |
+| Ethics | NOT APPLICABLE | Darts athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, average signal source, and tournament context explicit in output |
+
+
 ---
 
 ## Three-dart average model

@@ -120,6 +120,27 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 }}
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NHL athlete intelligence: morning skate signals, injury reports, and goaltending confirmation |
+| Reasoning | ACTIVE | NHL reasoning chain from morning skate observation to APS modifier |
+| Context | ACTIVE | NHL context: morning skate participation, back-to-back schedule, playoff context |
+| Memory | ACTIVE | Historical NHL player form patterns and morning_skate signal calibration data |
+| Judgment | ACTIVE | Judgment on NHL signal hierarchy — morning skate confirmation is the highest-certainty availability signal |
+| Attention | ACTIVE | Maximum attention for morning skate reports — published typically 90 minutes before puck drop |
+| Communication | ACTIVE | NHL athlete output with APS modifier, morning skate status, and goaltender confirmation |
+| Verification | ACTIVE | Morning skate reports from beat reporters at training facility — Tier 2 but highly reliable |
+| Learning | ACTIVE | NHL APS calibration — morning_skate signal (3/3 ✓) is well-validated in library |
+| Integration | ACTIVE | Integrates with market-ice-hockey, sports/ice-hockey, and core athlete modifier system |
+| Calibration | ACTIVE | NHL APS modifier calibrated — morning_skate signal is among the most validated in library |
+| Adaptation | ACTIVE | NHL athlete intelligence adapts as goaltending rotation practices and playoff format evolve |
+| Ethics | NOT APPLICABLE | NHL athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, morning skate status source, and goaltender confirmation explicit in output |
+
+
 ---
 
 ## GSAx — Goals Saved Above Expected (full model)

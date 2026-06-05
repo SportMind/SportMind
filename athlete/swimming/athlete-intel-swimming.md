@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_championship_record` | Olympics/Worlds performance vs regular meets | Yes |
 | `get_athlete_signal_modifier` | Composite swimming modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Swimming athlete intelligence: event specialisation signals, form trajectory, and Olympic cycle context |
+| Reasoning | ACTIVE | Swimming reasoning chain from swimmer profile to APS modifier |
+| Context | ACTIVE | Swimming context: event type, Olympic qualification phase, altitude training signals |
+| Memory | ACTIVE | Historical swimming performance patterns and Olympic cycle baseline data |
+| Judgment | ACTIVE | Judgment on swimming signal hierarchy — event specialisation and peak timing are primary signals |
+| Attention | ACTIVE | Elevated attention during Olympic qualification and World Championship windows |
+| Communication | ACTIVE | Swimming athlete output with APS modifier, event specialisation, and Olympic cycle status |
+| Verification | ACTIVE | Swimming data from World Aquatics official results and national federation |
+| Learning | EMERGING | Swimming APS calibration is limited — limited fan token data |
+| Integration | ACTIVE | Integrates with market-swimming, sports/swimming, and core athlete modifier system |
+| Calibration | EMERGING | Swimming APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Swimming athlete intelligence adapts as professional league development continues |
+| Ethics | ACTIVE | Swimming doping context flagged — doping signals require official confirmation before applying |
+| Transparency | ACTIVE | APS modifier, event specialisation, and Olympic cycle status explicit in output |
+
+
 ---
 
 ## Taper and peak performance model

@@ -255,6 +255,27 @@ QUICK REFERENCE — UNIVERSAL MODIFIERS:
 **FTP mechanics:**    `fan-token/ftp-path2.md`
 **Core modifier:**    `core/core-athlete-modifier-system.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tier A football clubs framework: cross-club APS baseline structure for top-tier clubs |
+| Reasoning | ACTIVE | Tier A framework defines the reasoning standard for applying APS across top football clubs |
+| Context | ACTIVE | Tier A context: UCL participation, financial resources, squad depth — all above standard threshold |
+| Memory | ACTIVE | Tier A baseline APS values for comparable club profiles |
+| Judgment | ACTIVE | Judgment framework for Tier A clubs: higher bar for signal materiality vs lower-tier clubs |
+| Attention | ACTIVE | Tier A attention standard: fixture congestion and European competition signals are primary |
+| Communication | ACTIVE | Tier A framework defines output format consistency across all Tier A club files |
+| Verification | ACTIVE | Tier A claims require multi-source verification — club complexity warrants higher standard |
+| Learning | ACTIVE | Tier A framework updated as calibration data accumulates across top clubs |
+| Integration | ACTIVE | Integrates with all individual club files in athlete/football/ directory |
+| Calibration | ACTIVE | Tier A APS baseline values calibrated from historical top-club outcome data |
+| Adaptation | ACTIVE | Tier A framework adapts as club profiles and UCL participation change |
+| Ethics | NOT APPLICABLE | Tier A framework is analytical — no ethical dimension |
+| Transparency | ACTIVE | Tier A classification criteria and APS baseline values explicit in framework |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

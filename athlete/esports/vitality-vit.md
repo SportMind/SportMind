@@ -186,6 +186,27 @@ OFF-SEASON ROSTER CHANGES — $VIT SPECIFIC:
 **CDI:**              `fan-token/esports-token-intelligence/`
 **Tier A:**           `athlete/football/tier-a-clubs-framework.md` (demand curve framework)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Team Vitality ($VIT) athlete intelligence: roster signals, player form, and CS2 meta context |
+| Reasoning | ACTIVE | VIT reasoning chain from roster/player signals to APS modifier for $VIT token context |
+| Context | ACTIVE | VIT context: CS2 meta, Major tournament cycle, AWPer role, IGL form |
+| Memory | ACTIVE | Historical Team Vitality performance patterns and player form data |
+| Judgment | ACTIVE | Judgment on VIT signal hierarchy — star player form and IGL communication are primary |
+| Attention | ACTIVE | Elevated attention for roster changes and CS2 Major tournament draw |
+| Communication | ACTIVE | VIT athlete output with APS modifier, role assessment, and tournament context |
+| Verification | ACTIVE | VIT data from official BLAST, ESL, and Team Vitality announcements |
+| Learning | EMERGING | VIT APS calibration is limited — niche single-team file |
+| Integration | ACTIVE | Integrates with fan-token esports intelligence and core athlete modifier system |
+| Calibration | EMERGING | VIT APS modifier calibration requires more tournament outcome data |
+| Adaptation | ACTIVE | VIT intelligence adapts as roster evolves and CS2 meta changes |
+| Ethics | NOT APPLICABLE | VIT athlete intelligence is esports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, roster source, and tournament context explicit in output |
+
+
 ---
 
 *SportMind v3.97.31 · MIT License · sportmind.dev*

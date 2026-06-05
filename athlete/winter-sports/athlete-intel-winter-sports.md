@@ -106,6 +106,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_olympic_context` | Olympic cycle position; four-year narrative | Yes |
 | `get_athlete_signal_modifier` | Composite winter sports modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Winter sports athlete intelligence: discipline specialisation, altitude signals, and Olympic cycle context |
+| Reasoning | ACTIVE | Winter sports reasoning chain from athlete profile to APS modifier |
+| Context | ACTIVE | Winter sports context: discipline type (Alpine/Nordic/Biathlon), altitude, snow conditions |
+| Memory | ACTIVE | Historical winter sports performance patterns and Olympic cycle baseline data |
+| Judgment | ACTIVE | Judgment on winter sports signal hierarchy — discipline specialisation is primary differentiator |
+| Attention | ACTIVE | Elevated attention during Winter Olympics qualification and FIS World Championship |
+| Communication | ACTIVE | Winter sports athlete output with APS modifier, discipline type, and Olympic cycle status |
+| Verification | ACTIVE | Winter sports data from FIS official sources and national federation |
+| Learning | EMERGING | Winter sports APS calibration is limited — limited fan token data |
+| Integration | ACTIVE | Integrates with market-winter-sports, sports/winter-sports, and core athlete modifier system |
+| Calibration | EMERGING | Winter sports APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Winter sports athlete intelligence adapts as climate challenges affect venue availability |
+| Ethics | ACTIVE | Climate impact on winter sports venues noted — event cancellation signals handled carefully |
+| Transparency | ACTIVE | APS modifier, discipline type, and Olympic cycle status explicit in output |
+
+
 ---
 
 ## Alpine skiing discipline framework

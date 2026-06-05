@@ -185,6 +185,27 @@ DEMAND FLOOR:
 **$SNFT token:**             `fan-token/national-team-tokens.md`
 **World Cup framework:**     `core/fan-token-reasoning-chains-extended.md` (Chain C)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Spain national team ($SNFT) athlete intelligence: squad signals and major tournament context |
+| Reasoning | ACTIVE | Spain national team reasoning chain from squad signals to APS modifier |
+| Context | ACTIVE | Spain context: World Cup 2026 participation, La Roja squad depth, UEFA Nations League |
+| Memory | ACTIVE | Historical Spain national team performance patterns and tournament baseline data |
+| Judgment | ACTIVE | Judgment on Spain national team signal hierarchy — key tactical players are primary signals |
+| Attention | ACTIVE | Elevated attention during World Cup squad announcement and group draw windows |
+| Communication | ACTIVE | Spain national team output with APS modifier, squad state, and tournament context |
+| Verification | ACTIVE | Spain national team data from RFEF official squad announcements |
+| Learning | ACTIVE | Spain national team APS calibration from historical tournament performance data |
+| Integration | ACTIVE | Integrates with national-team-tokens.md, world-cup-2026-intelligence, and athlete-intel-football |
+| Calibration | EMERGING | Spain national team APS calibration is developing for World Cup 2026 context |
+| Adaptation | ACTIVE | Spain national team intelligence adapts as squad evolves through transition phases |
+| Ethics | NOT APPLICABLE | Spain national team intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad source (RFEF), and tournament context explicit in output |
+
+
 ---
 
 *SportMind v3.97.61 · MIT License · sportmind.dev*

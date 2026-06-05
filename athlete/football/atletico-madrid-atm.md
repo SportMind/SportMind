@@ -188,6 +188,27 @@ $ATM DEMAND — UCL AND LA LIGA:
 **$ATM token:**       `fan-token/league-football-token-intelligence.md`
 **La Liga context:**  `sports/football/sport-domain-football.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Atletico Madrid ($ATM) athlete intelligence: defensive system signals and key player form |
+| Reasoning | ACTIVE | ATM reasoning chain from squad/system signals to APS and CDI modifier |
+| Context | ACTIVE | ATM context: La Liga position, European status, Simeone defensive system dependency |
+| Memory | ACTIVE | Historical Atletico player form patterns and defensive system performance data |
+| Judgment | ACTIVE | Judgment on ATM signal hierarchy — defensive absences are highest-impact signal |
+| Attention | ACTIVE | Elevated attention for defensive player injury reports near Champions League matches |
+| Communication | ACTIVE | ATM athlete output with APS modifier, defensive system status, and CDI |
+| Verification | ACTIVE | ATM data from La Liga official and Atletico Madrid official announcement sources |
+| Learning | ACTIVE | ATM APS calibration from historical La Liga and European outcome data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | ATM APS modifier calibrated against historical defensive system performance data |
+| Adaptation | ACTIVE | ATM intelligence adapts as Simeone system and squad profile evolve |
+| Ethics | NOT APPLICABLE | ATM athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, defensive system status, and source explicit in output |
+
+
 ---
 
 *SportMind v3.97.31 · MIT License · sportmind.dev*

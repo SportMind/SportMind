@@ -197,6 +197,27 @@ SQUAD DEPTH PREMIUM — DEEPEST EPL SQUAD:
 **$CITY token:**      `fan-token/league-football-token-intelligence.md`
 **EPL context:**      `sports/football/sport-domain-football.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Manchester City ($CITY) athlete intelligence — legacy file, use manchester-city-city.md |
+| Reasoning | ACTIVE | CITY reasoning chain from squad signals to APS modifier (see manchester-city-city.md for current) |
+| Context | ACTIVE | CITY context: PL Champions cycle, Pep tactical system, squad depth |
+| Memory | ACTIVE | Historical Manchester City performance patterns and PL baseline |
+| Judgment | ACTIVE | Judgment on CITY signal hierarchy consistent with manchester-city-city.md |
+| Attention | ACTIVE | Elevated attention for lineup confirmation and injury reports |
+| Communication | ACTIVE | CITY output per standard football athlete format |
+| Verification | ACTIVE | Premier League official sources — see manchester-city-city.md for current data |
+| Learning | ACTIVE | CITY APS calibration from historical PL and UCL data |
+| Integration | ACTIVE | Integrates with market-football and core athlete modifier system |
+| Calibration | ACTIVE | CITY APS modifier calibrated — see manchester-city-city.md for current values |
+| Adaptation | ACTIVE | CITY intelligence adapts as squad and tactical system evolve |
+| Ethics | NOT APPLICABLE | CITY athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | Legacy file — manchester-city-city.md is the current primary reference |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

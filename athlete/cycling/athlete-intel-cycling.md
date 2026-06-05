@@ -176,6 +176,27 @@ Full injury intelligence for cycling is available in the dedicated framework:
 Load these files alongside this skill for injury-aware agent reasoning.
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Cycling athlete intelligence: GC contender vs domestique profiles, stage type specialisation |
+| Reasoning | ACTIVE | Cycling reasoning chain from rider profile to performance prediction modifier |
+| Context | ACTIVE | Cycling context: Grand Tour phase, stage type (mountain/TT/sprint), team support role |
+| Memory | ACTIVE | Historical cycling performance patterns and Grand Tour specialist baseline data |
+| Judgment | ACTIVE | Judgment on cycling signal hierarchy — GC contenders and sprinters require different reasoning |
+| Attention | ACTIVE | Elevated attention for crash reports and GC time gap changes |
+| Communication | ACTIVE | Cycling athlete output with APS modifier, role classification, and stage context |
+| Verification | ACTIVE | Cycling data from UCI and Grand Tour official sources |
+| Learning | ACTIVE | Cycling APS calibration from historical Tour stage-outcome correlation data |
+| Integration | ACTIVE | Integrates with market-cycling, sports/cycling, injury-intel-cycling, and core modifier |
+| Calibration | ACTIVE | Cycling APS modifier values calibrated against historical GC and stage performance data |
+| Adaptation | ACTIVE | Cycling athlete intelligence adapts as aerodynamics and training science evolve |
+| Ethics | ACTIVE | Cycling doping history context flagged — suspicious performance signals handled carefully |
+| Transparency | ACTIVE | APS modifier, rider role, and stage type context explicit in output |
+
+
 ---
 
 ## Integration example

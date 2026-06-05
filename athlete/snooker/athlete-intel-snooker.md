@@ -126,6 +126,27 @@ Player-level intelligence for snooker fan tokens and prediction markets.
 | Losing run (5+ matches without win) | ×0.82 |
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Snooker athlete intelligence: world ranking signals, form trajectory, and table conditions |
+| Reasoning | ACTIVE | Snooker reasoning chain from player profile to APS modifier |
+| Context | ACTIVE | Snooker context: ranking event vs exhibition, table pace, psychological pressure history |
+| Memory | ACTIVE | Historical snooker player form patterns and ranking event performance baseline |
+| Judgment | ACTIVE | Judgment on snooker signal hierarchy — World Championship form and psychological signals are primary |
+| Attention | ACTIVE | Elevated attention for World Championship and ranking event final stage signals |
+| Communication | ACTIVE | Snooker athlete output with APS modifier, ranking position, and form trajectory |
+| Verification | ACTIVE | Snooker data from World Snooker Tour official rankings and results |
+| Learning | ACTIVE | Snooker APS calibration from historical ranking event performance data |
+| Integration | ACTIVE | Integrates with market-snooker, sports/snooker, and core athlete modifier system |
+| Calibration | ACTIVE | Snooker APS modifier calibrated against historical ranking event outcome data |
+| Adaptation | ACTIVE | Snooker athlete intelligence adapts as ranking system and Chinese market influence evolve |
+| Ethics | NOT APPLICABLE | Snooker athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, ranking position, and form source explicit in output |
+
+
 ---
 
 ## The Crucible — venue intelligence

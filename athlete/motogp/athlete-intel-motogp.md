@@ -107,6 +107,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_manufacturer_tier` | Factory vs satellite; current championship competitiveness | Yes |
 | `get_athlete_signal_modifier` | Composite MotoGP modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | MotoGP athlete intelligence: rider profile signals, bike-circuit fit, and championship context |
+| Reasoning | ACTIVE | MotoGP reasoning chain from rider/circuit signals to APS modifier |
+| Context | ACTIVE | MotoGP context: circuit characteristics, championship gap, manufacturer support level |
+| Memory | ACTIVE | Historical MotoGP rider performance patterns and circuit-specific baseline data |
+| Judgment | ACTIVE | Judgment on MotoGP signal hierarchy — circuit fit and championship desperation are primary signals |
+| Attention | ACTIVE | Elevated attention for qualifying sessions and championship-defining race weekends |
+| Communication | ACTIVE | MotoGP athlete output with APS modifier, circuit fit, and championship context |
+| Verification | ACTIVE | MotoGP data from FIM official timing and manufacturer official announcements |
+| Learning | ACTIVE | MotoGP APS calibration from historical circuit-to-outcome correlation data |
+| Integration | ACTIVE | Integrates with market-motogp, sports/motogp, and core athlete modifier system |
+| Calibration | ACTIVE | MotoGP APS modifier calibrated against historical circuit performance data |
+| Adaptation | ACTIVE | MotoGP athlete intelligence adapts as regulation changes alter manufacturer hierarchy |
+| Ethics | NOT APPLICABLE | MotoGP athlete intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, circuit fit basis, and championship context explicit in output |
+
+
 ---
 
 ## Hardware vs rider intelligence

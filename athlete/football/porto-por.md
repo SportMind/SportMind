@@ -157,6 +157,27 @@ $POR DEMAND — UCL OVERPERFORMANCE SIGNAL:
 **Venue:**            `core/venue-intelligence.md`
 **Transfer signal:**  `core/transfer-window-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | FC Porto ($POR) athlete intelligence: squad signals, Portuguese context, and CDI modifier |
+| Reasoning | ACTIVE | POR reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | POR context: Liga Portugal position, Champions League status, pipeline talent |
+| Memory | ACTIVE | Historical Porto player form patterns and Liga Portugal/UCL performance data |
+| Judgment | ACTIVE | Judgment on POR signal hierarchy — talent pipeline departures most material signal |
+| Attention | ACTIVE | Elevated attention for Champions League qualifier signals and key player departure rumours |
+| Communication | ACTIVE | POR athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | POR data from Liga Portugal official and FC Porto official announcement sources |
+| Learning | ACTIVE | POR APS calibration from historical Liga Portugal and UCL performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | POR APS modifier calibrated against historical Liga Portugal and UCL outcome data |
+| Adaptation | ACTIVE | POR intelligence adapts as talent pipeline cycles and European status change |
+| Ethics | NOT APPLICABLE | POR athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.29 · MIT License · sportmind.dev*

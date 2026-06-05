@@ -159,6 +159,27 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 }}
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NFL athlete intelligence: practice report designations, snap count signals, and role assessment |
+| Reasoning | ACTIVE | NFL reasoning chain from practice report to APS modifier |
+| Context | ACTIVE | NFL context: injury designation system (Out/Doubtful/Questionable/Limited/Full Practice) |
+| Memory | ACTIVE | Historical NFL player form patterns and injury designation accuracy correlation data |
+| Judgment | ACTIVE | Judgment on NFL signal — Friday/Saturday practice report is the most predictive |
+| Attention | ACTIVE | Elevated attention for final pre-game practice reports (Friday/Saturday for Sunday games) |
+| Communication | ACTIVE | NFL athlete output with APS modifier, injury designation, and historical designation accuracy |
+| Verification | ACTIVE | NFL official injury report is Tier 1 — beat reporter observations are Tier 2 |
+| Learning | ACTIVE | NFL APS calibration from historical injury designation-to-actual availability rates |
+| Integration | ACTIVE | Integrates with market-american-football, sports/american-football, and injury-intel-nfl |
+| Calibration | ACTIVE | NFL APS modifier most structured in library — injury designation system provides clear calibration |
+| Adaptation | ACTIVE | NFL athlete intelligence adapts as practice report rules and In-Season Tournament evolve |
+| Ethics | NOT APPLICABLE | NFL athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, designation level, and historical designation accuracy explicit in output |
+
+
 ---
 
 ## QB primacy model

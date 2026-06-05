@@ -476,6 +476,27 @@ LIVE IN-ROUND (if monitoring during play):
   - Injury withdrawal mid-round: exit signal immediately
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Golf athlete intelligence: world ranking signals, course fit, form trajectory, and major readiness |
+| Reasoning | ACTIVE | Golf reasoning chain from player profile to APS modifier |
+| Context | ACTIVE | Golf context: major championship type, course characteristics, world ranking momentum |
+| Memory | ACTIVE | Historical golf player performance patterns and major championship baseline data |
+| Judgment | ACTIVE | Judgment on golf signal hierarchy — course fit and major championship form are primary signals |
+| Attention | ACTIVE | Elevated attention during major championship weeks and Masters pre-tournament |
+| Communication | ACTIVE | Golf athlete output with APS modifier, course fit assessment, and form trajectory |
+| Verification | ACTIVE | Golf data from Official World Golf Ranking and major championship official sources |
+| Learning | ACTIVE | Golf APS calibration from historical major championship performance data |
+| Integration | ACTIVE | Integrates with market-golf, sports/golf, and core athlete modifier system |
+| Calibration | ACTIVE | Golf APS modifier calibrated against historical major championship outcome data |
+| Adaptation | ACTIVE | Golf athlete intelligence adapts as LIV/PGA competitive dynamics and course conditions evolve |
+| Ethics | NOT APPLICABLE | Golf athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, course fit basis, and world ranking context explicit in output |
+
+
 ---
 
 ## Modifier reference (updated)

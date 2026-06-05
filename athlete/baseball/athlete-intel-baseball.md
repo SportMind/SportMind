@@ -450,6 +450,27 @@ get_athlete_signal_modifier player=[PITCHER_ID] game=[GAME_ID]
 ```
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Baseball athlete intelligence: batting/pitching metrics, WAR, and role signals |
+| Reasoning | ACTIVE | Baseball reasoning chain from advanced metrics to APS modifier |
+| Context | ACTIVE | Baseball context: handedness matchup, park factors, roster role, trade deadline impact |
+| Memory | ACTIVE | Historical baseball player performance patterns and advanced metric baselines |
+| Judgment | ACTIVE | Judgment on baseball signal materiality — platoon splits and role changes differ |
+| Attention | ACTIVE | Elevated attention during trade deadline and playoff roster moves |
+| Communication | ACTIVE | Baseball athlete output with APS modifier, role assessment, and key metrics |
+| Verification | ACTIVE | Baseball data from MLB official Statcast and official league sources |
+| Learning | ACTIVE | Baseball APS calibration from historical advanced metric-to-outcome correlation |
+| Integration | ACTIVE | Integrates with market-baseball, sports/baseball, and core athlete modifier system |
+| Calibration | ACTIVE | Baseball APS modifier values calibrated against historical Statcast outcome data |
+| Adaptation | ACTIVE | Baseball athlete intelligence adapts as advanced metrics and role definitions evolve |
+| Ethics | NOT APPLICABLE | Baseball athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, metric source (Statcast), and role assessment explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

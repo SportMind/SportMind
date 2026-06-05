@@ -151,6 +151,27 @@ $GAL DEMAND — EUROPEAN SENSITIVITY:
 **Tier A framework:** `athlete/football/tier-a-clubs-framework.md`
 **Venue fortress:**   `core/venue-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Galatasaray ($GAL) athlete intelligence: squad signals, Turkish league context, and CDI modifier |
+| Reasoning | ACTIVE | GAL reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | GAL context: Süper Lig position, European competition status, Istanbul market |
+| Memory | ACTIVE | Historical Galatasaray player form patterns and Süper Lig baseline data |
+| Judgment | ACTIVE | Judgment on GAL signal hierarchy — key player injuries and European qualification impact most |
+| Attention | ACTIVE | Elevated attention for European qualification and cup competition signals |
+| Communication | ACTIVE | GAL athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | GAL data from Süper Lig official and Galatasaray official announcement sources |
+| Learning | ACTIVE | GAL APS calibration from historical Süper Lig and European performance data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | GAL APS modifier calibrated against historical Süper Lig and European outcome data |
+| Adaptation | ACTIVE | GAL intelligence adapts as squad profile and Turkish league competitiveness evolve |
+| Ethics | NOT APPLICABLE | GAL athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, Turkish league context, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.29 · MIT License · sportmind.dev*

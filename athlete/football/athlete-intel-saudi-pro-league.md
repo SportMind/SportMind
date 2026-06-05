@@ -343,6 +343,27 @@ Apply squad_baseline = 1.00 for non-high-profile player analysis.
 **Sport:**   `sports/football/sport-domain-football-saudi-pro-league.md`
 **Market:**  `market/market-saudi-pro-league.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Saudi Pro League athlete intelligence: star player signals, acclimatisation, and PIF acquisition context |
+| Reasoning | ACTIVE | SPL reasoning chain from player signals to APS modifier in Saudi context |
+| Context | ACTIVE | SPL context: heat conditions, playing standard adjustment, star player motivation signals |
+| Memory | ACTIVE | Historical SPL player performance patterns post-transfer from European leagues |
+| Judgment | ACTIVE | Judgment on SPL signal — motivation and acclimatisation are primary SPL-specific signals |
+| Attention | ACTIVE | Elevated attention for star player form signals and match fitness declarations |
+| Communication | ACTIVE | SPL athlete output with APS modifier, acclimatisation stage, and motivation signal |
+| Verification | ACTIVE | SPL data from Saudi Football Federation official sources |
+| Learning | ACTIVE | SPL APS calibration developing — limited data on post-transfer performance baselines |
+| Integration | ACTIVE | Integrates with market-saudi-pro-league and sports/football/sport-domain-football-saudi-pro-league |
+| Calibration | EMERGING | SPL APS modifier calibration is developing — limited pre-2023 data |
+| Adaptation | ACTIVE | SPL athlete intelligence adapts as playing standards and star player profiles evolve |
+| Ethics | NOT APPLICABLE | SPL athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, acclimatisation stage, and motivation signal source explicit in output |
+
+
 ---
 
 *SportMind v3.97.8 · MIT License · sportmind.dev*

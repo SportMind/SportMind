@@ -105,6 +105,27 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | `get_conditions_modifier` | Wind/current/water conditions impact | Yes |
 | `get_athlete_signal_modifier` | Composite rowing modifier | Yes |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Rowing athlete intelligence: boat class signals, form trajectory, and Olympic cycle context |
+| Reasoning | ACTIVE | Rowing reasoning chain from athlete/crew signals to APS modifier |
+| Context | ACTIVE | Rowing context: boat class, stroke rate, Olympic qualification phase, crew chemistry |
+| Memory | ACTIVE | Historical rowing performance patterns and Olympic cycle baseline data |
+| Judgment | ACTIVE | Judgment on rowing signal hierarchy — coxed vs coxless boats require different reasoning |
+| Attention | ACTIVE | Elevated attention during World Rowing Championships and Olympic qualification |
+| Communication | ACTIVE | Rowing athlete output with APS modifier, boat class, and qualification status |
+| Verification | ACTIVE | Rowing data from World Rowing official sources and national federation |
+| Learning | EMERGING | Rowing APS calibration is limited — very limited fan token data |
+| Integration | ACTIVE | Integrates with market-rowing, sports/rowing, and core athlete modifier system |
+| Calibration | EMERGING | Rowing APS modifier calibration is an early-stage dataset |
+| Adaptation | ACTIVE | Rowing athlete intelligence adapts as boat class rules and crew composition strategies evolve |
+| Ethics | NOT APPLICABLE | Rowing athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, boat class, and Olympic qualification status explicit in output |
+
+
 ---
 
 ## Ergometer and PB model

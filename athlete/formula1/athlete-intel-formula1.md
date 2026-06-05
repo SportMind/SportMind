@@ -111,6 +111,27 @@ get_athlete_signal_modifier driver=[DRIVER_ID] race=[RACE_ID]
 **Weather:** `core/core-weather-match-day.md`
 
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Formula 1 athlete intelligence: driver profile signals, qualifying delta, and constructor context |
+| Reasoning | ACTIVE | F1 driver reasoning chain from qualifying/race signals to APS modifier |
+| Context | ACTIVE | F1 context: circuit type, qualifying delta value, constructor championship weight |
+| Memory | ACTIVE | Historical F1 driver performance patterns and qualifying_delta calibration data |
+| Judgment | ACTIVE | Judgment on F1 driver signal hierarchy — qualifying delta is the highest-certainty signal |
+| Attention | ACTIVE | Elevated attention for qualifying sessions and constructor championship changing circuits |
+| Communication | ACTIVE | F1 athlete output with APS modifier, qualifying delta, and constructor context |
+| Verification | ACTIVE | F1 driver data from FIA official timing and constructor official announcements |
+| Learning | ACTIVE | F1 driver APS calibration — qualifying_delta (4/4 ✓) is among most validated signals |
+| Integration | ACTIVE | Integrates with market-formula1, sports/formula1, and core athlete modifier system |
+| Calibration | ACTIVE | F1 driver APS modifier calibrated — qualifying_delta and circuit type are validated signals |
+| Adaptation | ACTIVE | F1 driver intelligence adapts as constructor performance hierarchy changes each season |
+| Ethics | NOT APPLICABLE | F1 athlete intelligence is motorsport analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, qualifying delta value, and circuit context explicit in output |
+
+
 ---
 
 ## Driver-Constructor pairing intelligence

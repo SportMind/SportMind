@@ -244,6 +244,27 @@ HOW TO REASON ABOUT EXTENDED MIDFIELD ABSENCE AT BARCELONA:
 **Tier A framework:** `athlete/football/tier-a-clubs-framework.md`
 **$BAR token:**       `fan-token/league-football-token-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | FC Barcelona ($BAR) athlete intelligence: squad signals, La Masia pipeline, and CDI modifier |
+| Reasoning | ACTIVE | BAR reasoning chain from squad/player signals to APS and CDI modifier |
+| Context | ACTIVE | BAR context: La Liga position, financial fair play status, La Masia production |
+| Memory | ACTIVE | Historical Barcelona player form patterns and La Liga performance baseline |
+| Judgment | ACTIVE | Judgment on BAR signal hierarchy — key creative players are highest-impact absence signals |
+| Attention | ACTIVE | Elevated attention for injury reports on key attacking players |
+| Communication | ACTIVE | BAR athlete output with APS modifier, squad state, and CDI contribution |
+| Verification | ACTIVE | BAR data from La Liga official and FC Barcelona official announcement sources |
+| Learning | ACTIVE | BAR APS calibration from historical La Liga and Champions League outcome data |
+| Integration | ACTIVE | Integrates with market-football, athlete-intel-football, and fan-token football intelligence |
+| Calibration | ACTIVE | BAR APS modifier calibrated against historical La Liga and UCL performance data |
+| Adaptation | ACTIVE | BAR intelligence adapts as La Masia transitions and financial constraints evolve |
+| Ethics | NOT APPLICABLE | BAR athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, squad state source, and CDI modifier explicit in output |
+
+
 ---
 
 *SportMind v3.97.26 · MIT License · sportmind.dev*

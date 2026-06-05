@@ -136,6 +136,27 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 }}
 ```
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | NBA athlete intelligence: player KPIs, load management signals, and playoff readiness |
+| Reasoning | ACTIVE | NBA reasoning chain from player profile to APS modifier |
+| Context | ACTIVE | NBA context: game number, rest days, back-to-back schedule, load management history |
+| Memory | ACTIVE | Historical NBA player performance patterns and load management baseline data |
+| Judgment | ACTIVE | Judgment on NBA signal hierarchy — load management signal is the unique NBA risk modifier |
+| Attention | ACTIVE | Elevated attention for game-day load management reports and injury designations |
+| Communication | ACTIVE | NBA athlete output with APS modifier, load management status, and role assessment |
+| Verification | ACTIVE | NBA player data from official NBA injury report and official team announcements |
+| Learning | ACTIVE | NBA APS calibration from historical load management-to-performance data |
+| Integration | ACTIVE | Integrates with market-basketball, sports/basketball, and core athlete modifier system |
+| Calibration | ACTIVE | NBA APS modifier calibrated — load management signal is validated in library |
+| Adaptation | ACTIVE | NBA athlete intelligence adapts as load management practices and In-Season Tournament evolve |
+| Ethics | NOT APPLICABLE | NBA athlete intelligence is sports analysis — no ethical dimension |
+| Transparency | ACTIVE | APS modifier, load management status, and injury designation source explicit in output |
+
+
 ---
 
 ## NBA Star Tier Framework
