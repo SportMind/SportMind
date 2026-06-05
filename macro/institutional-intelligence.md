@@ -261,6 +261,27 @@ CONFIRMED INSTITUTIONAL OWNERSHIP → FAN TOKEN SIGNAL:
 **$CITY token context:**    `athlete/football/mancity-city.md`
 **$PSG token context:**     `athlete/football/psg-psg.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Institutional macro intelligence: institutional adoption signals and their BTC/crypto market impact |
+| Reasoning | ACTIVE | Institutional reasoning chain from adoption signal to structural market modifier |
+| Context | ACTIVE | Institutional context: fund mandates, regulatory access (e.g. CFTC BTC perpetual), AUM signals |
+| Memory | ACTIVE | Historical institutional adoption patterns and their long-horizon market impact data |
+| Judgment | ACTIVE | Judgment on institutional signal materiality — INSTITUTIONAL_VENUE_EXPANDED ≠ INSTITUTIONAL_INFLOW_CONFIRMED |
+| Attention | ACTIVE | Elevated attention for regulated venue approvals and large institutional allocation announcements |
+| Communication | ACTIVE | Institutional output with adoption stage, venue status, and long-horizon structural modifier |
+| Verification | ACTIVE | Institutional signals require regulatory filing or fund announcement confirmation |
+| Learning | EMERGING | Institutional adoption calibration is new — CFTC BTC perpetual (2026-05-30) first data point |
+| Integration | ACTIVE | Integrates with market-structure.md, crypto-digital-asset-intelligence, and BTC regime files |
+| Calibration | EMERGING | Institutional modifier calibration requires 6+ months of CFTC perpetual utilisation data |
+| Adaptation | ACTIVE | Institutional intelligence adapts as fund mandates and regulated access pathways expand |
+| Ethics | NOT APPLICABLE | Institutional intelligence is factual market analysis — no ethical dimension |
+| Transparency | ACTIVE | Institutional signal stage (pathway/confirmed), source, and modifier basis always explicit |
+
+
 ---
 
 *SportMind v3.97.39 · MIT License · sportmind.dev*

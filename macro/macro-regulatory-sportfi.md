@@ -1159,6 +1159,27 @@ MONITORING:
 **Fan token lifecycle:** `fan-token/fan-token-lifecycle/` — lifecycle phases and regulatory gates
 
 *MIT License · SportMind · sportmind.dev*
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Global SportFi regulatory intelligence: multi-jurisdiction framework (US/EU/UAE/KSA/UK) and MiCA/CLARITY |
+| Reasoning | ACTIVE | Regulatory reasoning chain from jurisdiction signal to regulatory uncertainty modifier |
+| Context | ACTIVE | Regulatory context: jurisdiction-specific frameworks, enforcement stage, fan token classification |
+| Memory | ACTIVE | Historical regulatory action patterns and their market impact data across jurisdictions |
+| Judgment | ACTIVE | Judgment on regulatory signal materiality — enacted law vs guidance vs consultation differ |
+| Attention | ACTIVE | Elevated attention for MiCA enforcement (June 30 2026) and CLARITY Act floor scheduling |
+| Communication | ACTIVE | Regulatory output with jurisdiction, framework status, uncertainty level, and modifier |
+| Verification | ACTIVE | Regulatory claims require Tier 1 government sources — sec.gov/esma.europa.eu etc. |
+| Learning | ACTIVE | Regulatory calibration from historical enforcement action-to-market impact data |
+| Integration | ACTIVE | Master regulatory file — integrates all macro/regulatory/ subdirectory files |
+| Calibration | ACTIVE | Regulatory modifiers calibrated from historical enforcement event-to-market impact data |
+| Adaptation | ACTIVE | Regulatory intelligence adapts as CLARITY Act progresses and MiCA enforcement activates |
+| Ethics | ACTIVE | Regulatory intelligence is factual — no legal advice, compliance verification required separately |
+| Transparency | ACTIVE | Jurisdiction, regulatory stage, source, and uncertainty modifier always explicit in output |
+
+
 ---
 
 ### Hong Kong — SFC 24/7 Tokenisation Pilot (THIS WEEK — queue)

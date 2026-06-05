@@ -253,6 +253,27 @@ to all economic cycle modifiers:
 **Crypto cycles (amplifier):** `macro/macro-crypto-market-cycles.md`
 **Broadcast disruption (concurrent):** `macro/macro-broadcast-disruption.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Macro economic cycle intelligence: GDP, inflation, interest rate signals and their sports market impact |
+| Reasoning | ACTIVE | Economic cycle reasoning chain from macro signals to consumer spending and CDI modifier |
+| Context | ACTIVE | Economic context: central bank cycle, inflation environment, consumer confidence |
+| Memory | ACTIVE | Historical economic cycle patterns and sports/crypto market correlation data |
+| Judgment | ACTIVE | Judgment on economic signal materiality — rate decisions vs quarterly GDP data differ |
+| Attention | ACTIVE | Elevated attention for central bank rate decisions and major economic data releases |
+| Communication | ACTIVE | Economic cycle output with regime, rate environment, and macro modifier |
+| Verification | ACTIVE | Economic data from central bank and official statistical agency sources only |
+| Learning | ACTIVE | Economic cycle calibration from historical macro-to-sports-market correlation data |
+| Integration | ACTIVE | Integrates with macro-overview and all fan token macro intelligence files |
+| Calibration | ACTIVE | Economic macro modifiers calibrated from historical interest rate cycle-to-market data |
+| Adaptation | ACTIVE | Economic cycle intelligence adapts as central bank policy and inflation norms evolve |
+| Ethics | NOT APPLICABLE | Economic cycle intelligence is factual analysis — no ethical dimension |
+| Transparency | ACTIVE | Economic data source, cycle stage, and modifier basis always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

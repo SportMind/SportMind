@@ -1,5 +1,38 @@
 # Changelog
 
+## [3.97.106] — 2026-06-05
+
+### Added — MIND DIMENSIONS backfill: macro/ directory
+
+0 new files. 21 files updated. Counts unchanged: 743/524.
+
+SMI: NOT REQUIRED — structural completeness update only.
+
+## MIND DIMENSIONS section added to 21 macro/ reasoning framework files.
+All 14 dimensions mapped per file with ACTIVE/EMERGING/NOT APPLICABLE status
+and a specific one-line note per dimension.
+
+Already had section (4 files — preserved unchanged):
+  macro/market-structure.md
+  macro/regulatory/eu.md
+  macro/regulatory/ksa.md
+  macro/regulatory/uae.md
+  macro/regulatory/us-token-taxonomy.md
+
+Skipped (exempt): 0 — no README or pure data files in macro/
+
+21 files updated:
+  Regulatory (clarity-act-complete-framework, clarity-act-sec404,
+    macro-regulatory-sportfi)
+  Crypto (crypto-digital-asset-intelligence, defi-macro-intelligence,
+    exchange-intelligence, macro-crypto-market-cycles, stablecoin-cbdc-intelligence)
+  Macro signals (government-intelligence, institutional-intelligence,
+    macro-broadcast-disruption, macro-climate-weather, macro-economic-cycles,
+    macro-geopolitical, macro-governance-scandal, macro-overview,
+    macro-pandemic-public-health, trending-signal-intelligence)
+  Infrastructure (infrastructure.md)
+  Tournament (tournament-macro.md)
+
 ## [3.97.105] — 2026-06-05
 
 ### Added — MIND DIMENSIONS backfill: platform/ directory

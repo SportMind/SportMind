@@ -282,6 +282,27 @@ MACRO OVERRIDE CONDITIONS:
 | `macro/macro-climate-weather.md` | B | Structural outdoor sport disruption; growing calendar risk; venue vulnerability; long-term trend |
 | `macro/macro-governance-scandal.md` | A | Corruption, doping, institutional crises; immediate token market impact; recovery timeline |
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Macro intelligence overview: five-layer macro framework and load order for macro signals |
+| Reasoning | ACTIVE | Macro overview defines how macro signals interact and override sport-specific signals |
+| Context | ACTIVE | Macro overview context: ANXIETY vs EXPANSION vs CONTRACTION regime and their modifier effects |
+| Memory | ACTIVE | Macro overview provides the baseline framework for all macro regime reasoning |
+| Judgment | ACTIVE | Macro override judgment: when macro signals are strong enough to override sport-specific signals |
+| Attention | ACTIVE | Macro overview defines the attention priority for macro-level signal monitoring |
+| Communication | ACTIVE | Macro overview defines the output format standard for macro intelligence layer |
+| Verification | ACTIVE | Macro claims require primary source verification — government, central bank, official bodies |
+| Learning | ACTIVE | Macro overview updated as new macro signal categories are identified |
+| Integration | ACTIVE | Macro overview integrates all macro/ files and defines their hierarchy |
+| Calibration | ACTIVE | Macro modifier values calibrated from historical regime-to-fan-token outcome data |
+| Adaptation | ACTIVE | Macro overview adapts as new macro risk categories emerge |
+| Ethics | ACTIVE | Macro signals are factual — no political commentary or endorsement of policy positions |
+| Transparency | ACTIVE | Macro regime, active modifiers, and override conditions always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -352,6 +352,27 @@ TOURNAMENT MACRO OVERLAY — QUICK REFERENCE:
 **Crypto cycles:** `macro/macro-crypto-market-cycles.md`
 **WC 2026 specific:** `fan-token/world-cup-2026-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Tournament macro intelligence: multi-tournament signal framework and compound demand amplifiers |
+| Reasoning | ACTIVE | Tournament macro reasoning chain from event calendar to compound demand and supply modifier |
+| Context | ACTIVE | Tournament context: event tier, coincident FTP events, national team vs club competition |
+| Memory | ACTIVE | Historical tournament demand amplifier patterns and compound event data |
+| Judgment | ACTIVE | Judgment on compound tournament signal — UCL + FTP PATH_2 is the highest compound signal |
+| Attention | ACTIVE | Elevated attention when multiple high-tier tournament windows overlap |
+| Communication | ACTIVE | Tournament macro output with event tier, compound signal level, and demand modifier |
+| Verification | ACTIVE | Tournament calendar data from official competition and governing body sources |
+| Learning | ACTIVE | Tournament macro calibration from historical compound event-to-demand correlation |
+| Integration | ACTIVE | Integrates with competition-calendar-intelligence and all tournament-specific files |
+| Calibration | ACTIVE | Tournament demand amplifiers calibrated — UCL ×2.00 is the highest validated modifier |
+| Adaptation | ACTIVE | Tournament macro intelligence adapts as competition formats and FTP mechanics evolve |
+| Ethics | NOT APPLICABLE | Tournament macro intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Tournament tier, compound event status, and demand modifier always explicit in output |
+
+
 ---
 
 *SportMind v3.97.18 · MIT License · sportmind.dev*

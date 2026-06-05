@@ -385,6 +385,27 @@ SPOT BITCOIN ETF AND INSTITUTIONAL ADOPTION:
 **Seasonal patterns:**     `core/seasonal-intelligence.md`
 **Context bridge:**        `core/fan-token-context-bridge.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Crypto and digital asset macro intelligence: BTC cycle regime, CHZ correlation, and market signals |
+| Reasoning | ACTIVE | Crypto reasoning chain from BTC regime to fan token macro modifier |
+| Context | ACTIVE | Crypto context: BTC regime (EXPANSION/ANXIETY/CONTRACTION/EUPHORIA), CHZ correlation |
+| Memory | ACTIVE | Historical BTC regime patterns and CHZ/fan token correlation baseline data |
+| Judgment | ACTIVE | Judgment on crypto signal materiality — BTC regime shifts are macro overrides |
+| Attention | ACTIVE | Elevated attention for BTC regime transition signals |
+| Communication | ACTIVE | Crypto output with BTC regime, CHZ correlation status, and macro modifier |
+| Verification | ACTIVE | Crypto market data from exchange official APIs and on-chain sources |
+| Learning | ACTIVE | BTC cycle calibration from historical regime-to-token correlation data |
+| Integration | ACTIVE | Integrates with macro-crypto-market-cycles and fan token ecosystem intelligence |
+| Calibration | ACTIVE | BTC regime modifiers calibrated from historical cycle-to-fan-token correlation data |
+| Adaptation | ACTIVE | Crypto intelligence adapts as BTC cycle characteristics and CHZ correlation evolve |
+| Ethics | NOT APPLICABLE | Crypto intelligence is factual market analysis — no ethical dimension |
+| Transparency | ACTIVE | BTC regime, CHZ correlation status, and modifier basis always explicit in output |
+
+
 ---
 
 *SportMind v3.97.39 · MIT License · sportmind.dev*

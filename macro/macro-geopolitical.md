@@ -264,6 +264,27 @@ DOCUMENTED RECOVERY:
 **Governance scandal (related):** `macro/macro-governance-scandal.md`
 **Market files — affected sports:** football, cricket (India-Pakistan), athletics, MMA
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Geopolitical macro intelligence: conflict signals, sanctions, and geopolitical risk modifiers |
+| Reasoning | ACTIVE | Geopolitical reasoning chain from risk signal to macro modifier and competition calendar impact |
+| Context | ACTIVE | Geopolitical context: conflict proximity to competition venues, sanctions regimes, trade tensions |
+| Memory | ACTIVE | Historical geopolitical event patterns and sports market impact data |
+| Judgment | ACTIVE | Judgment on geopolitical signal materiality — direct competition impact vs indirect market signal |
+| Attention | ACTIVE | Maximum attention for geopolitical events that directly threaten competition venues |
+| Communication | ACTIVE | Geopolitical output with risk level, direct/indirect impact classification, and modifier |
+| Verification | ACTIVE | Geopolitical signals require government official sources — media reports are Tier 2 |
+| Learning | ACTIVE | Geopolitical pattern calibration from historical conflict-to-competition impact data |
+| Integration | ACTIVE | Integrates with macro-overview, government-intelligence, and competition calendar |
+| Calibration | ACTIVE | Geopolitical modifiers calibrated from historical event-to-market disruption data |
+| Adaptation | ACTIVE | Geopolitical intelligence adapts as global conflict landscape and sanction regimes evolve |
+| Ethics | ACTIVE | Geopolitical signals are factual — no political endorsement, presented as risk factors only |
+| Transparency | ACTIVE | Geopolitical source, risk level, and direct/indirect impact distinction always explicit |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -262,6 +262,27 @@ SECTION 404 MONITORING FRAMEWORK:
 **Regulatory status:**          `macro/macro-regulatory-sportfi.md`
 **Legislation process:**        `core/legislation-process-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | CLARITY Act SEC Section 404 analysis: digital securities classification and exchange implications |
+| Reasoning | ACTIVE | SEC 404 reasoning chain from classification to regulatory requirement and market structure modifier |
+| Context | ACTIVE | Context: SEC jurisdiction over Digital Securities, exchange registration requirements |
+| Memory | ACTIVE | Historical SEC enforcement actions and exchange registration precedent data |
+| Judgment | ACTIVE | Judgment on SEC 404 signal materiality — Digital Collectibles not subject to SEC registration |
+| Attention | ACTIVE | Elevated attention for SEC enforcement actions that test Digital Collectible boundaries |
+| Communication | ACTIVE | SEC 404 output with classification status, registration requirement, and compliance modifier |
+| Verification | ACTIVE | SEC 404 claims require sec.gov official sources — law firm analysis as secondary |
+| Learning | EMERGING | SEC classification enforcement calibration is emerging with limited case history |
+| Integration | ACTIVE | Integrates with clarity-act-complete-framework.md and fan token US market intelligence |
+| Calibration | EMERGING | SEC 404 enforcement calibration requires more case data |
+| Adaptation | ACTIVE | SEC 404 framework adapts as CLARITY Act progresses and SEC guidance evolves |
+| Ethics | ACTIVE | SEC 404 analysis is factual regulatory assessment — no endorsement of specific structures |
+| Transparency | ACTIVE | SEC 404 classification basis and source always explicit in output |
+
+
 ---
 
 *SportMind v3.97.49 · MIT License · sportmind.dev*

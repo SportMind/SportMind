@@ -360,6 +360,27 @@ BANK AND INSTITUTIONAL AUTHORISATION:
 **Government strategy:**     `macro/government-intelligence.md`
 **Legislation framework:**   `core/legislation-process-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | CLARITY Act legislative framework: five-category token taxonomy, fan token = Digital Collectible |
+| Reasoning | ACTIVE | Legislative reasoning chain from bill status to US regulatory uncertainty modifier |
+| Context | ACTIVE | Context: COMMITTEE_PASSED 15-9 bipartisan, floor scheduling unscheduled, Q3_2026_TARGET |
+| Memory | ACTIVE | Historical COMMITTEE_MERGER_PENDING reasoning preserved as prior legislative phase reference |
+| Judgment | ACTIVE | Judgment on legislative milestone materiality — committee pass vs floor vote vs enactment differ |
+| Attention | ACTIVE | Elevated attention for Senate floor scheduling announcements and amendment risk signals |
+| Communication | ACTIVE | CLARITY Act output with current status, next gate, and US_REGULATORY_CLARITY modifier |
+| Verification | ACTIVE | Legislative claims require banking.senate.gov official sources — Tier 1 only |
+| Learning | EMERGING | Legislative timeline prediction learning from historical bill trajectory data |
+| Integration | ACTIVE | Integrates with macro/regulatory/us-token-taxonomy.md and fan token US market signals |
+| Calibration | EMERGING | Legislative timeline calibration is a new tracking category with limited historical data |
+| Adaptation | ACTIVE | CLARITY Act framework adapts as bill progresses through Senate floor and potential amendments |
+| Ethics | ACTIVE | Legislative signals are factual — no endorsement or opposition to specific bill provisions |
+| Transparency | ACTIVE | Bill status, source (banking.senate.gov), and next gate always explicit in output |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*

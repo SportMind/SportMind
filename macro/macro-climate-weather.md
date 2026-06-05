@@ -184,6 +184,27 @@ STRUCTURAL CLIMATE MONITORING:
 **Cycling domain skill:** `sports/cycling/sport-domain-cycling.md`
 **Cricket domain skill:** `sports/cricket/sport-domain-cricket.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Climate and weather macro intelligence: extreme weather events, venue viability, and match signal |
+| Reasoning | ACTIVE | Climate reasoning chain from weather signal to match conditions modifier |
+| Context | ACTIVE | Climate context: event severity, sport sensitivity, venue type, seasonal pattern |
+| Memory | ACTIVE | Historical weather event patterns and match outcome correlation data |
+| Judgment | ACTIVE | Judgment on climate signal materiality — extreme weather differs from standard conditions |
+| Attention | ACTIVE | Elevated attention for severe weather forecasts near major competition events |
+| Communication | ACTIVE | Climate output with weather severity, sport impact, and match conditions modifier |
+| Verification | ACTIVE | Weather data from meteorological services — not social media reports |
+| Learning | ACTIVE | Climate modifier calibration from historical weather-outcome data — dew factor well-calibrated |
+| Integration | ACTIVE | Integrates with core/core-weather-match-day.md and sport-specific weather signals |
+| Calibration | ACTIVE | Cricket dew factor is the most calibrated weather signal in the library (5/5 ✓) |
+| Adaptation | ACTIVE | Climate intelligence adapts as climate patterns affect seasonal baseline conditions |
+| Ethics | ACTIVE | Climate impact on winter sports venues noted — event cancellation signals handled factually |
+| Transparency | ACTIVE | Weather source, severity assessment, and modifier basis always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

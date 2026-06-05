@@ -510,6 +510,27 @@ MONITORING ADDITIONS:
 **Economic cycles:** `macro/macro-economic-cycles.md`
 **All fan token Layer 3 skills:** CHZ cycle modifier applies to all HAS, AELS, FTIS calculations
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | BTC crypto market cycle intelligence: EXPANSION/ANXIETY/CONTRACTION/EUPHORIA regime framework |
+| Reasoning | ACTIVE | Cycle reasoning chain from BTC price/on-chain signals to regime classification and fan token modifier |
+| Context | ACTIVE | Cycle context: BTC dominance, on-chain accumulation signals, macro correlation |
+| Memory | ACTIVE | Historical BTC cycle patterns, regime durations, and CHZ correlation baseline data |
+| Judgment | ACTIVE | Judgment on regime transition signals — not all BTC movements indicate regime change |
+| Attention | ACTIVE | Elevated attention for BTC regime transition signals — these are macro overrides |
+| Communication | ACTIVE | Cycle output with current regime, transition probability, and CHZ/fan token modifier |
+| Verification | ACTIVE | BTC cycle data from on-chain sources and exchange official APIs |
+| Learning | ACTIVE | BTC cycle calibration from historical regime-to-fan-token outcome correlation |
+| Integration | ACTIVE | This file is the primary BTC regime reference for all fan token macro intelligence |
+| Calibration | ACTIVE | Regime modifiers calibrated from historical BTC cycle-to-CHZ correlation data |
+| Adaptation | ACTIVE | Cycle framework adapts as BTC market maturity and institutional participation evolve |
+| Ethics | NOT APPLICABLE | BTC cycle intelligence is factual market analysis — no ethical dimension |
+| Transparency | ACTIVE | Regime classification criteria and transition signal basis always explicit in output |
+
+
 ---
 
 *SportMind v3.44 · MIT License · sportmind.dev*

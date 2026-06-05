@@ -144,6 +144,27 @@ INFRASTRUCTURE DOES NOT AFFECT PATH_2 MECHANICS:
 **CAP20 V2 detail:**         `fan-token/fan-token-lifecycle/fan-token-lifecycle.md`
 **Regional signals:**        `fan-token/regional-intelligence/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Infrastructure macro intelligence: blockchain network health, exchange outages, and systemic risk |
+| Reasoning | ACTIVE | Infrastructure reasoning chain from network signal to availability and reliability modifier |
+| Context | ACTIVE | Infrastructure context: chain congestion, network upgrades, bridge availability |
+| Memory | ACTIVE | Historical infrastructure failure patterns and recovery timeline baselines |
+| Judgment | ACTIVE | Judgment on infrastructure signal materiality — chain outage differs from high gas prices |
+| Attention | ACTIVE | Maximum attention for Chiliz Chain infrastructure events that affect fan token operations |
+| Communication | ACTIVE | Infrastructure output with network status, event type, and availability modifier |
+| Verification | ACTIVE | Infrastructure data from chiliscan.com and official chain status sources |
+| Learning | ACTIVE | Infrastructure pattern calibration from historical network event-to-impact data |
+| Integration | ACTIVE | Integrates with blockchain-onchain-intelligence and CHZ ecosystem files |
+| Calibration | ACTIVE | Infrastructure risk modifiers calibrated from historical network event data |
+| Adaptation | ACTIVE | Infrastructure intelligence adapts as Chiliz Chain architecture evolves |
+| Ethics | NOT APPLICABLE | Infrastructure intelligence is technical — no ethical dimension |
+| Transparency | ACTIVE | Infrastructure source (chiliscan.com), event type, and status always explicit in output |
+
+
 ---
 
 *SportMind v3.97.61 · MIT License · sportmind.dev*

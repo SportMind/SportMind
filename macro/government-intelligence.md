@@ -280,6 +280,27 @@ AGENT RULE:
 **Emerging pipeline:**           `fan-token/emerging-sports-pipeline.md` (new token opportunities)
 **Tournament context:**          `macro/tournament-macro.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Government macro intelligence: policy signals, regulatory actions, and geopolitical risk |
+| Reasoning | ACTIVE | Government signal reasoning chain from policy action to macro modifier |
+| Context | ACTIVE | Government context: jurisdiction, policy stage (consultation/enacted/enforced), timeline |
+| Memory | ACTIVE | Historical government action patterns and their market impact data |
+| Judgment | ACTIVE | Judgment on government signal materiality — enacted law vs consultation paper differ |
+| Attention | ACTIVE | Elevated attention for government enforcement announcements targeting crypto/sports |
+| Communication | ACTIVE | Government output with policy status, jurisdiction, and macro modifier |
+| Verification | ACTIVE | Government signals require official government source — Tier 1 only for enacted changes |
+| Learning | ACTIVE | Government action pattern calibration from historical policy-to-market impact data |
+| Integration | ACTIVE | Integrates with macro-regulatory-sportfi and all jurisdiction-specific regulatory files |
+| Calibration | ACTIVE | Government action modifiers calibrated against historical enforcement-to-impact data |
+| Adaptation | ACTIVE | Government intelligence adapts as regulatory landscape evolves globally |
+| Ethics | ACTIVE | Government signals are factual — no political commentary or endorsement |
+| Transparency | ACTIVE | Government source, policy stage, and jurisdiction always explicit in output |
+
+
 ---
 
 *SportMind v3.97.40 · MIT License · sportmind.dev*

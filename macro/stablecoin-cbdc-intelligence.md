@@ -183,6 +183,27 @@ GENIUS ACT — STABLECOIN LICENSING FRAMEWORK:
 **On-chain settlement:**     `core/blockchain-onchain-intelligence.md`
 **PATH_2 mechanics:**        `fan-token/ftp-path2.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Stablecoin and CBDC macro intelligence: stablecoin stability signals and CBDC policy impact |
+| Reasoning | ACTIVE | Stablecoin reasoning chain from stability signal to payment infrastructure and macro modifier |
+| Context | ACTIVE | Stablecoin context: GENIUS Act (US), algorithmic vs fiat-backed, CBDC development stage |
+| Memory | ACTIVE | Historical stablecoin failure patterns (UST/LUNA) and CBDC policy development data |
+| Judgment | ACTIVE | Judgment on stablecoin signal materiality — de-peg risk vs routine basis point variation |
+| Attention | ACTIVE | Maximum attention for stablecoin de-peg signals and major CBDC policy announcements |
+| Communication | ACTIVE | Stablecoin output with stability status, de-peg risk, GENIUS Act status, and modifier |
+| Verification | ACTIVE | Stablecoin signals require on-chain reserves verification — marketing claims are not Tier 1 |
+| Learning | ACTIVE | Stablecoin risk calibration from historical de-peg event-to-market impact data |
+| Integration | ACTIVE | Integrates with crypto-digital-asset-intelligence and macro-regulatory-sportfi |
+| Calibration | ACTIVE | Stablecoin de-peg risk modifiers calibrated from historical event data |
+| Adaptation | ACTIVE | Stablecoin intelligence adapts as GENIUS Act and CBDC frameworks develop |
+| Ethics | ACTIVE | Stablecoin stability signals affect user funds — accuracy is a safety-relevant ethics requirement |
+| Transparency | ACTIVE | Stablecoin type, reserve verification status, and de-peg risk always explicit in output |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*

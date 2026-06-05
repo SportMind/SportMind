@@ -245,6 +245,27 @@ RECOVERY TIMELINE:
 **Geopolitical (sanctions overlap):** `macro/macro-geopolitical.md`
 **Market files — most affected:** football, athletics, cricket, esports
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Governance scandal macro intelligence: sports governing body scandal patterns and CDI risk |
+| Reasoning | ACTIVE | Scandal reasoning chain from governance event to CDI modifier and competition legitimacy signal |
+| Context | ACTIVE | Scandal context: governing body tier, scandal type (corruption/doping/match-fixing), severity |
+| Memory | ACTIVE | Historical governance scandal patterns and competition legitimacy impact data |
+| Judgment | ACTIVE | Judgment on scandal signal materiality — FIFA-level corruption vs minor body corruption differ |
+| Attention | ACTIVE | Elevated attention for FIFA, UEFA, IOC, and major governing body scandal developments |
+| Communication | ACTIVE | Scandal output with governing body, scandal type, severity, and CDI modifier |
+| Verification | ACTIVE | Governance scandal requires official investigation confirmation — media speculation is Tier 3 |
+| Learning | ACTIVE | Scandal pattern calibration from historical governance event-to-competition impact data |
+| Integration | ACTIVE | Integrates with sports-governance-intelligence and sports-integrity-intelligence |
+| Calibration | ACTIVE | Scandal CDI modifiers calibrated from historical governance event-to-market data |
+| Adaptation | ACTIVE | Governance scandal intelligence adapts as governing body structures evolve |
+| Ethics | ACTIVE | Governance scandal signals require confirmation before flagging — false allegations are harmful |
+| Transparency | ACTIVE | Scandal source, investigation stage, and CDI modifier always explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

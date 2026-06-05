@@ -300,6 +300,27 @@ RECOVERY TRADE PATTERN:
 **Economic cycle interaction:** `macro/macro-economic-cycles.md`
 **All sport market files:** The bifurcated impact model applies across all Tier 1–4 sports
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Pandemic and public health macro intelligence: event cancellation risk and competition viability signals |
+| Reasoning | ACTIVE | Public health reasoning chain from outbreak signal to competition viability modifier |
+| Context | ACTIVE | Public health context: outbreak severity, WHO classification, competition proximity, venue capacity |
+| Memory | ACTIVE | Historical pandemic event patterns — COVID-19 2020-22 data as primary calibration reference |
+| Judgment | ACTIVE | Judgment on public health signal materiality — WHO PHEIC vs localised outbreak differ |
+| Attention | ACTIVE | Maximum attention for WHO global health emergency declarations near major competitions |
+| Communication | ACTIVE | Public health output with outbreak severity, competition viability status, and modifier |
+| Verification | ACTIVE | Public health signals require WHO or national health authority official sources — Tier 1 only |
+| Learning | ACTIVE | Public health pattern calibration from COVID-19 competition impact data (2020-22) |
+| Integration | ACTIVE | Integrates with competition calendar intelligence and venue intelligence |
+| Calibration | ACTIVE | Competition cancellation risk modifiers calibrated from COVID-19 historical data |
+| Adaptation | ACTIVE | Public health intelligence adapts as WHO frameworks and venue health protocols evolve |
+| Ethics | ACTIVE | Public health signals are safety-relevant — accuracy is paramount, speculation is prohibited |
+| Transparency | ACTIVE | WHO source, outbreak severity classification, and competition viability basis always explicit |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

@@ -281,6 +281,27 @@ MARKET MAKER PRESENCE AND WITHDRAWAL:
 **Broadcast bridge:**       `core/broadcast-media-intelligence.md`
 **Token lifecycle:**        `fan-token/fan-token-lifecycle/`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Crypto exchange macro intelligence: venue health, liquidity signals, and regulatory status |
+| Reasoning | ACTIVE | Exchange intelligence reasoning chain from venue signals to macro liquidity modifier |
+| Context | ACTIVE | Exchange context: CEX vs DEX, regulatory status, volume trends, insolvency risk |
+| Memory | ACTIVE | Historical exchange failure patterns (FTX, Celsius) and market impact data |
+| Judgment | ACTIVE | Judgment on exchange signal materiality — regulated vs unregulated exchange risk differs |
+| Attention | ACTIVE | Maximum attention for exchange insolvency signals and regulatory enforcement actions |
+| Communication | ACTIVE | Exchange output with venue health, regulatory status, and macro liquidity modifier |
+| Verification | ACTIVE | Exchange solvency signals require official regulatory filings — social media insufficient |
+| Learning | ACTIVE | Exchange failure pattern calibration from historical insolvency event data |
+| Integration | ACTIVE | Integrates with crypto-digital-asset-intelligence and fan token exchange intelligence |
+| Calibration | ACTIVE | Exchange risk modifiers calibrated from historical venue failure-to-market impact data |
+| Adaptation | ACTIVE | Exchange intelligence adapts as regulated markets expand and offshore venues decline |
+| Ethics | ACTIVE | Exchange insolvency signals affect user funds — accuracy is a safety-relevant ethics requirement |
+| Transparency | ACTIVE | Exchange venue, regulatory status, and risk classification always explicit in output |
+
+
 ---
 
 *SportMind v3.97.40 · MIT License · sportmind.dev*

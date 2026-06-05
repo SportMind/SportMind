@@ -235,6 +235,27 @@ ANTI-SIGNAL — BROADCAST BLACKOUT:
 **Macro overview:** `macro/macro-overview.md`
 **Market files — affected sports:** MLB, NHL, NBA, football (broadcast-heavy)
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Broadcast disruption macro intelligence: streaming fragmentation, rights disputes, and blackout signals |
+| Reasoning | ACTIVE | Broadcast disruption reasoning chain from disruption signal to CDI and demand modifier |
+| Context | ACTIVE | Disruption context: rights expiry, platform dispute, geographic blackout, streaming failure |
+| Memory | ACTIVE | Historical broadcast disruption patterns and CDI impact data |
+| Judgment | ACTIVE | Judgment on disruption signal materiality — rights dispute vs short outage differ |
+| Attention | ACTIVE | Elevated attention for broadcast rights renewal disputes near season start |
+| Communication | ACTIVE | Broadcast disruption output with disruption type, CDI modifier, and duration assessment |
+| Verification | ACTIVE | Broadcast disruption requires official platform or rights holder confirmation |
+| Learning | EMERGING | Broadcast disruption-to-CDI calibration requires more case data |
+| Integration | ACTIVE | Integrates with broadcaster-media-intelligence and competition calendar |
+| Calibration | EMERGING | Broadcast disruption CDI modifier calibration is limited |
+| Adaptation | ACTIVE | Broadcast disruption intelligence adapts as streaming market consolidates |
+| Ethics | NOT APPLICABLE | Broadcast disruption intelligence is commercial analysis — no ethical dimension |
+| Transparency | ACTIVE | Disruption type, source, and CDI modifier explicit in output |
+
+
 ---
 
 *MIT License · SportMind · sportmind.dev*

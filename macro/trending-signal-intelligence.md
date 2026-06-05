@@ -186,6 +186,27 @@ FAN TOKEN SPECIFIC TRENDING:
 **Tournament context:**     `macro/tournament-macro.md`
 **Fraud detection:**        `fan-token/fraud-risk-intelligence.md`
 
+
+## MIND DIMENSIONS
+
+| Dimension | Status | Notes |
+|-----------|--------|-------|
+| Intelligence | ACTIVE | Trending signal intelligence: viral signal detection, meme cycle patterns, and short-term demand spikes |
+| Reasoning | ACTIVE | Trending reasoning chain from viral signal to short-horizon demand modifier |
+| Context | ACTIVE | Trending context: platform (X/Reddit/TikTok), signal source type, organic vs coordinated |
+| Memory | ACTIVE | Historical trending signal patterns and their short-term demand correlation data |
+| Judgment | ACTIVE | Judgment on trending signal duration — viral spikes decay rapidly, structural signals persist |
+| Attention | ACTIVE | Elevated attention for unusual trending volume spikes near competition events |
+| Communication | ACTIVE | Trending output with signal type, platform, organic assessment, and short-horizon modifier |
+| Verification | ACTIVE | Trending signals require bot detection and coordination check before use |
+| Learning | EMERGING | Trending signal calibration is limited — high noise and rapid decay make calibration difficult |
+| Integration | ACTIVE | Integrates with social sentiment, KOL intelligence, and fan token demand intelligence |
+| Calibration | EMERGING | Trending modifier calibration is developing — directionally useful but magnitude imprecise |
+| Adaptation | ACTIVE | Trending intelligence adapts as platform dynamics and virality patterns evolve |
+| Ethics | ACTIVE | Coordinated/artificial trending signals are flagged as manipulation — not used as organic signals |
+| Transparency | ACTIVE | Trending platform, organic/coordinated assessment, and signal decay rate explicit in output |
+
+
 ---
 
 *SportMind v3.97.46 · MIT License · sportmind.dev*
