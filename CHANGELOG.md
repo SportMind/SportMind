@@ -1,5 +1,33 @@
 # Changelog
 
+## [3.97.110] — 2026-06-05
+
+### Fixed — 23 broken i18n links (pre-existing gap)
+
+0 new files. 23 files updated. Counts unchanged: 738/519.
+
+SMI: NOT REQUIRED — structural fix only.
+
+All 23 i18n localised sport files contained a broken relative link to a
+per-language CONTRIBUTING.md that did not exist:
+  WRONG: ../../CONTRIBUTING.md (resolved to i18n/{lang}/CONTRIBUTING.md — missing)
+  FIXED: ../../../../CONTRIBUTING.md (resolves to root CONTRIBUTING.md — correct)
+
+Root cause: localised files are at depth 5 (i18n/{lang}/{dir}/{subdir}/file.md)
+and the original link was only 2 levels up instead of 4.
+
+23 files fixed across 7 language subdirectories:
+  ar/ (5): cricket-psl, cricket, football-gulf, football, handball
+  de/ (1): football
+  es/ (4): cricket, football, handball, mma
+  fr/ (4): athlete-football, athlete-handball, football, handball
+  hi/ (4): cricket-ipl, cricket, kabaddi, mma
+  ja/ (2): baseball, football
+  pt/ (3): cricket, football, mma
+
+Cross-reference audit result: 0 broken links confirmed.
+Root CONTRIBUTING.md is the sole authoritative contributing guide — no per-language stubs created.
+
 ## [3.97.109] — 2026-06-05
 
 ### Removed — Four expiring club-specific athlete files (Library Rule cleanup)
