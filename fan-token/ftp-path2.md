@@ -84,6 +84,61 @@ MODEL 1 — TREASURY-BASED MINT/BURN
 
   DRAW outcome:
     No supply change — 0 burned, 0 minted
+    INCLUDES: all matches level at 90 minutes, regardless of extra time or penalties.
+
+90-MINUTES PLAY RULE (critical):
+  All PATH_2 market positions are settled on the 90-minute result only.
+  Extra time, penalty shootouts, and golden goals are NOT included in FTP settlement.
+
+  A match that is level after 90 minutes is always a DRAW for FTP purposes —
+  regardless of the eventual winner in extra time or on penalties.
+
+  This applies to ALL competition formats including knockout rounds, cup finals,
+  Champions League finals, FA Cup, Europa League, and any competition with extra time.
+
+  VERIFIED REFERENCE CASE — UCL Final 2026:
+    PSG vs Arsenal
+    90-minute result:    1-1 → DRAW → no supply event
+    Extra time result:   1-1 (irrelevant to FTP)
+    Penalty result:      PSG 4-3 Arsenal (irrelevant to FTP)
+    $AFC PATH_2 outcome: NO CHANGE (0 burned, 0 minted)
+    Source: fantokens.com/fan-token-play
+    "All match markets are based on the result at the end of a scheduled
+    90 minutes of play unless otherwise stated."
+
+COMPETITION FORMAT IMPLICATIONS:
+  LEAGUE MATCHES (no extra time possible):
+    90-minute result = final result. No ambiguity. FTP outcome is clear.
+
+  KNOCKOUT MATCHES (extra time possible):
+    If level at 90 minutes → DRAW → NO SUPPLY EVENT
+    regardless of extra time or penalties.
+    This is the most commercially significant scenario for holders.
+
+AGENT REASONING GUIDE FOR KNOCKOUT FIXTURES:
+  Before any pre-match PATH_2 analysis on a knockout match, ask:
+  "What are the possible 90-minute outcomes and what does each trigger?"
+
+    Scenario A: Home win at 90 mins → FTP triggers on HOME WIN
+    Scenario B: Away win at 90 mins → FTP triggers on AWAY WIN
+    Scenario C: Level at 90 mins   → DRAW → NO SUPPLY EVENT
+                                     Regardless of extra time or penalties.
+
+  This is critical for: UCL/UEL knockout rounds, FA Cup, Copa del Rey,
+  and any other competition where extra time is possible.
+
+FUTURE FTP PARTNERS:
+  The 90-minutes play rule applies to ALL current and future FTP partner clubs.
+  When a new club activates FTP — Model 1 or Model 2 PATH_2 — settlement is
+  always on the 90-minute result unless the specific partner announcement
+  states otherwise.
+  The phrase "unless otherwise stated" is the standard escape clause —
+  always check the specific partner announcement for any variation.
+  To date no variation from the standard 90-minutes rule has been confirmed
+  for any FTP partner.
+  Source: fantokens.com/fan-token-play (official primary source)
+
+
 
   TIMING:
     Pre-match:  NO on-chain signal (Model 1 is post-match only)

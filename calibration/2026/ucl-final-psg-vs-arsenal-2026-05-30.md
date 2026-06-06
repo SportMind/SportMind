@@ -105,12 +105,24 @@ DIRECTION CORRECT:     YES ✓
   Actual winner:       PSG
 
 SUPPLY EVENT OUTCOME:
-  $AFC event:          LOSS — MINT EVENT
-  Arsenal LOST therefore:
-    $AFC tokens minted to treasury (supply INCREASES)
-    Pre-liquidation pool: ~111,500 $AFC (confirmed — higher than estimate)
-    Mint amount: equivalent to pre-liquidation pool
-  Chiliscan confirmation: PENDING — verify on chiliscan.com within 48h
+  $AFC event:          DRAW — NO SUPPLY EVENT
+  90-minute result:    1-1 (DRAW)
+  FTP PATH_2 outcome:  no supply event triggered
+  Tokens burned:       0
+  Tokens minted:       0
+  Supply change:       0
+
+  REASON: FTP PATH_2 settles on the 90-minute result only.
+    Extra time and penalties are NOT included in FTP settlement.
+    The match was level at 1-1 after 90 minutes — this is a DRAW under
+    FTP mechanics regardless of the eventual winner on penalties.
+    Source: fantokens.com/fan-token-play (official primary source)
+
+  CORRECTION NOTE:
+    This record was initially filed with LOSS — MINT EVENT.
+    Corrected at v3.97.113 after confirmed review of the 90-minutes play rule.
+    The April 2026 calibration records (WIN vs Sporting CP, LOSS vs Bournemouth,
+    DRAW vs Sporting CP) remain correct — those were all 90-minute results.
 
 POST-MATCH NOTES:
   First UCL Final to go to extra time since Real Madrid vs Atletico Madrid 2016.
@@ -128,14 +140,17 @@ POST-MATCH NOTES:
     · MEDIUM-HIGH confidence was appropriate — 120 minutes + penalties
       confirmed genuine closeness.
 
-  $AFC PATH_2 LOSS outcome:
-    Mint event expected within 48h.
-    Monitor chiliscan.com for on-chain transaction confirmation.
+  $AFC PATH_2 DRAW outcome — CORRECTED:
+    90-minute score was 1-1 (DRAW). FTP PATH_2 settles on 90-minute result only.
+    No supply event triggered. 0 $AFC burned. 0 $AFC minted.
+    Extra time and penalties are irrelevant to FTP mechanics.
+    Initial filing (LOSS — MINT EVENT) was incorrect and has been corrected.
 
   $PSG PATH_2 status: not confirmed — no supply event for PSG holders.
 
 CALIBRATION VERDICT:   CORRECT ✓
-  Direction: PSG ✓
+  Direction: PSG ✓ — SportMind predicted PSG, PSG won.
+  FTP correction does not affect the direction accuracy verdict.
   Adjusted score 58 reflected genuine PSG edge confirmed over 120 minutes
   and penalties. Confidence MEDIUM-HIGH correct — match was genuinely close
   but PSG ultimately prevailed.
@@ -222,5 +237,6 @@ Calibration record: #130 — SportMind calibration base
 
 *SportMind v3.97.96 · MIT License · sportmind.dev*
 *STATUS: VERIFIED — PSG win 1-1 AET (4-3 pens) · Direction CORRECT ✓ · Record 130*
-*$AFC PATH_2 LOSS — mint event pending on-chain confirmation (chiliscan.com)*
+*$AFC PATH_2: DRAW — 90-minute score 1-1, no supply event triggered. FTP settles on 90-minute result.*
+*Correction: initial filing stated LOSS/MINT — corrected at v3.97.113 per fantokens.com/fan-token-play.*
 *First MCP server live UCL Final test — all five layers confirmed loaded*

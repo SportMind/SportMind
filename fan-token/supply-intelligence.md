@@ -123,6 +123,8 @@ Source:          fantokens.com/trade/arsenal-fan-token
   ftp_model:               Model 2 — Prediction Market Settlement (confirmed)
   path2_confirmed:         true
   ucl_standing:            FINALIST (2025-26) | opponent: PSG | final: 30 May 2026
+  ftp_ucl_final_outcome:   DRAW (1-1 at 90 mins) — no supply event triggered
+                           Extra time and penalties not included in FTP settlement
 
   chain_support (Fan Tokens V2.0):
     chiliz_chain:  ACTIVE (FTP supply events settle here — chiliscan.com)

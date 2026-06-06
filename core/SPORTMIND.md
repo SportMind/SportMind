@@ -49,8 +49,9 @@ STEP 3: LOAD FAN TOKEN CONTEXT
            fan-token/fan-token-lifecycle/fan-token-lifecycle.md (lifecycle context)
            fan-token/[token-specific].md (if token-specific analysis needed)
   Conditional: only if a fan token signal is relevant to the query.
-  Gate:    If FTP PATH_2 active → supply event fires on result.
-           LOSS = MINT EVENT (supply increases). Never describe as supply-neutral.
+  Gate:    If FTP PATH_2 active → supply event fires on the 90-MINUTE RESULT ONLY.
+           90-min LOSS = MINT EVENT (supply increases). 90-min DRAW = no event.
+           Extra time and penalties are NOT included — even in cup finals.
 
 STEP 4: LOAD SPORT DOMAIN
   File:    sports/{sport}/sport-domain-{sport}.md
@@ -279,5 +280,5 @@ Recommended loading:
 
 ---
 
-*SportMind v3.97.112 · MIT License · sportmind.dev*
+*SportMind v3.97.113 · MIT License · sportmind.dev*
 *Load this file first. Follow the seven steps. Do not skip layers.*

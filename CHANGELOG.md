@@ -1,5 +1,64 @@
 # Changelog
 
+## [3.97.113] — 2026-06-05
+
+### Critical correction — FTP PATH_2 90-minutes play rule + UCL Final FTP outcome
+
+0 new files. 7 files corrected. Counts unchanged: 741/522.
+
+SMI: REQUIRED — critical FTP mechanics correction.
+
+SOURCE: fantokens.com/fan-token-play (official primary source)
+"All match markets are based on the result at the end of a scheduled 90 minutes
+of play unless otherwise stated. This includes any added injury or stoppage time
+allocated by the match officials but does NOT include extra time, time allocated
+for a penalty shootout, or a golden goal."
+
+CRITICAL CORRECTION:
+
+fan-token/ftp-path2.md:
+  Added 90-MINUTES PLAY RULE section after DRAW outcome:
+    · Extra time, penalty shootouts, and golden goals NOT included.
+    · Knockout match level at 90 mins = DRAW = NO SUPPLY EVENT.
+    · COMPETITION FORMAT IMPLICATIONS section for league vs knockout.
+    · AGENT REASONING GUIDE FOR KNOCKOUT FIXTURES with three scenario map.
+    · VERIFIED REFERENCE CASE: UCL Final 2026 (1-1 at 90 mins = DRAW = no event).
+    · FUTURE FTP PARTNERS note: rule applies to all clubs unless stated otherwise.
+
+calibration/2026/ucl-final-psg-vs-arsenal-2026-05-30.md:
+  SUPPLY EVENT OUTCOME: LOSS — MINT EVENT → DRAW — NO SUPPLY EVENT
+    90-minute result was 1-1 (DRAW). FTP PATH_2 settles on 90-minute result only.
+    0 burned. 0 minted. Supply unchanged.
+  POST-MATCH NOTES: $AFC PATH_2 DRAW outcome confirmed (not LOSS).
+  CALIBRATION VERDICT: remains CORRECT ✓ — direction accuracy unaffected.
+  Footer: corrected version reference and removed incorrect MINT EVENT note.
+
+core/SPORTMIND.md:
+  FTP PATH_2 Gate: "fires on result" → "fires on 90-MINUTE RESULT ONLY"
+  Added: "Extra time and penalties are NOT included — even in cup finals."
+
+core/pre-match-signal-framework.md:
+  FTP conditional load note: added 90-minute rule qualifier.
+  "A knockout match level at 90 minutes = DRAW = no supply event."
+
+fan-token/supply-intelligence.md:
+  UCL Final FTP outcome note added: DRAW (1-1 at 90 mins), no supply event.
+
+first-record/index.html (website):
+  "$AFC PATH_2: LOSS — mint event" → "DRAW — no supply event"
+  90-minute score was 1-1. FTP PATH_2 settles on 90 minutes only.
+
+examples/calibration/ucl-final-2026-psg-arsenal-signal.md:
+  Calibration MIND DIMENSION updated: FTP outcome DRAW (1-1 at 90 mins) noted.
+  Plain English summary: "90-minute" qualifier added to FTP description.
+  Post-match FTP note added confirming 18% DRAW probability was the actual outcome.
+
+RECORDS NOT CHANGED (correct — these were genuine 90-minute results):
+  April 2026 Arsenal calibration records:
+    07/04: Sporting CP vs Arsenal → WIN at 90 mins → burn 159,025 ✓
+    11/04: Arsenal vs Bournemouth → LOSS at 90 mins → mint 100,000 ✓
+    15/04: Arsenal vs Sporting CP → DRAW at 90 mins → no change ✓
+
 ## [3.97.112] — 2026-06-05
 
 ### Added — Agent type compatibility framework in core/SPORTMIND.md

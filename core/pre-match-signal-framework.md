@@ -68,6 +68,9 @@ STEP 2: LOAD ALL FIVE LAYERS — CONFIRM SMS = 100
     1. core/smi-digest.md + core/agent-onboarding.md (core context)
     2. macro/macro-overview.md (macro layer)
     3. fan-token/ftp-path2.md (fan token layer, if applicable)
+       Note: PATH_2 settlement is based on the 90-MINUTE RESULT ONLY.
+       Extra time and penalties are NOT included — even in cup finals.
+       A knockout match level at 90 minutes = DRAW = no supply event.
     4. sports/{sport}/sport-domain-{sport}.md (sport domain)
     5. athlete/athlete-intelligence-framework.md +
        athlete/{sport}/athlete-intel-{sport}.md (athlete layer)
@@ -265,6 +268,6 @@ STEP 7: PRODUCE STRUCTURED OUTPUT
 
 ---
 
-*SportMind v3.97.111 · MIT License · sportmind.dev*
+*SportMind v3.97.113 · MIT License · sportmind.dev*
 *Seven steps. All five layers. One structured output.*
 *All 14 Mind dimensions mapped.*

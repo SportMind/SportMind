@@ -302,7 +302,9 @@ SUSPENSION FLAGS:
 
 SportMind has run its full pre-match intelligence stack on the 2026 UCL Final. With three weeks to go, the signal comes in as a marginal PSG edge — defending champions, closer to the Budapest venue, and fresh off a stunning comeback against Bayern Munich. But Arsenal are right there. This is their first European final in 19 years, Saka is fit and flying, and the library rates this as one of the most evenly matched finals in recent UCL history. Our adjusted score sits at 61.8 out of 100 in PSG's favour — that's a lean, not a verdict.
 
-For $AFC holders, the stakes are uniquely high. Arsenal are a confirmed Fan Token Play Path 2 club — every WIN permanently burns tokens from circulation, every LOSS mints new ones. A UCL Final WIN would trigger the largest single $AFC supply burn ever recorded, estimated between 250,000 and 500,000 tokens removed from circulation permanently. Our probability-weighted model puts the expected outcome at a net supply reduction of around 108,000 tokens — which means the math slightly favours $AFC holders even before kickoff. The pre-match liquidation window (06:00 to 16:00 CEST on May 30) is one to watch: elevated liquidation activity is a signal of how large the burn pool will be if Arsenal win.
+For $AFC holders, the stakes are uniquely high. Arsenal are a confirmed Fan Token Play Path 2 club — every 90-minute WIN permanently burns tokens from circulation, every 90-minute LOSS mints new ones. A UCL Final WIN would trigger the largest single $AFC supply burn ever recorded, estimated between 250,000 and 500,000 tokens removed from circulation permanently. Our probability-weighted model puts the expected outcome at a net supply reduction of around 108,000 tokens — which means the math slightly favours $AFC holders even before kickoff. The pre-match liquidation window (06:00 to 16:00 CEST on May 30) is one to watch: elevated liquidation activity is a signal of how large the burn pool will be if Arsenal win.
+
+**POST-MATCH FTP NOTE:** The actual 90-minute result was 1-1 (DRAW). FTP PATH_2 settled as NO CHANGE — 0 burned, 0 minted. Extra time and penalties are not included in FTP settlement. This was correctly identified as an 18% pre-match probability in this signal.
 
 $PSG has no confirmed supply mechanic — no burn, no mint, no PATH_2. The $PSG story on May 30 is pure demand: a win would push prices up 15–30%, a loss would pull them back 10–20%. Both tokens are live on Solana and Base via the Chiliz Bridge, meaning this final reaches the largest accessible audience of any fan token event in history. The macro environment is supportive — NEUTRAL trending BULL, CHZ virtuous cycle active, both the UK and US regulatory picture clear. Whatever happens on May 30, the intelligence is in place. This is SportMind working in production.
 
@@ -321,7 +323,7 @@ $PSG has no confirmed supply mechanic — no burn, no mint, no PATH_2. The $PSG 
 | Verification | ACTIVE | Calibration example includes all verification gates and their status at each time point |
 | Learning | ACTIVE | This calibration record IS a learning artefact — PSG win confirmed direction correct |
 | Integration | ACTIVE | All five layers integrated in this example — SMS 100 confirmed |
-| Calibration | ACTIVE | Record 130 verified: PSG win 1-1 AET (4-3 pens), direction CORRECT ✓ |
+| Calibration | ACTIVE | Record 130 verified: PSG win 1-1 AET (4-3 pens), direction CORRECT ✓. FTP PATH_2 outcome: DRAW (1-1 at 90 mins, no supply event — 90-minute rule applies) |
 | Adaptation | ACTIVE | Calibration example includes post-match signal review and modifier validation |
 | Ethics | NOT APPLICABLE | Calibration example is factual record — no ethical dimension |
 | Transparency | ACTIVE | All signal sources, modifier stack, and pre-match vs post-match comparison explicit |
