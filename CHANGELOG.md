@@ -1,5 +1,50 @@
 # Changelog
 
+## [4.0.1] — 2026-06-07
+
+### Added — World Cup 2026 venue and environmental intelligence
+
+1 new file. 744 files | 525 md.
+
+SMI: REQUIRED — new sport domain file.
+
+sports/football/world-cup-venue-intelligence.md (356L):
+
+Enduring venue and environmental intelligence for the 2026 FIFA World Cup.
+Four domains:
+
+  ALTITUDE INTELLIGENCE
+    Estadio Azteca (2,240m): VO2 max reduction ~15%, aerobic capacity -10-15%
+    Estadio Akron (1,566m): VO2 max reduction ~8-10%
+    Altitude-adapted nations vs sea-level: ALTITUDE_ADVANTAGE ×1.08
+    Sea-level teams at Azteca without acclimatisation: ×0.90–0.94
+    High-press tactical penalty at altitude documented
+    Compound adaptation: Guadalajara before Azteca = partial acclimatisation
+
+  CLIMATE AND HEAT INTELLIGENCE
+    Open-air southern US venues (Miami, Kansas City): HEAT_STRESS flag
+    Domed venues (Dallas AT&T, LA SoFi, Houston NRG): verify air conditioning
+    Heat-acclimatised nations (tropical/subtropical): ×1.04 vs temperate opponents
+    Player rotation impact: +2-3 rotation changes expected at heat venues
+    Evening kickoff partial mitigation documented
+
+  SURFACE INTELLIGENCE
+    Artificial vs natural grass modifier framework
+    Direct/transition style advantage on artificial: ×1.02
+    Possession-based style disadvantage on artificial: ×0.97
+    SURFACE_UNVERIFIED flag if primary source not confirmed
+    FIFA Quality Pro standard requirement noted
+
+  TRAVEL AND TIME ZONE INTELLIGENCE
+    Four time zones: Eastern (Miami/Toronto) through Pacific (LA/Seattle/Vancouver)
+    TRAVEL_FATIGUE: ×0.97 (2h shift <48h recovery) / ×0.94 (3h shift <72h)
+    Compound modifier: altitude + travel = ×0.89 in worst case (Miami→Mexico City)
+    Base camp structural advantage for same-timezone group clusters
+
+Five-step agent reasoning guide with five output flags.
+All 14 Mind dimensions. Library Rule PASSES.
+Transfer principle: enduring architecture for all future tournament venue frameworks.
+
 ## [4.0.0] — 2026-06-07
 
 ### MAJOR VERSION — Complete Architecture Release
