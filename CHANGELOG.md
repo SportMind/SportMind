@@ -1,5 +1,58 @@
 # Changelog
 
+## [3.97.115] — 2026-06-06
+
+### Added — Agent failure mode framework (core/agent-failure-modes.md)
+
+1 new file. 742→742 files (counted before this entry). 742 files | 523 md.
+
+SMI: REQUIRED — new core framework.
+
+core/agent-failure-modes.md (360L):
+
+Six verified failure cases drawn from SportMind calibration history and
+SMI operational record:
+
+  FM1 — Neutral Venue Error
+    CASE: UCL Final 2026 — PSG vs Arsenal, Puskás Aréna
+    ERROR: Home advantage modifier applied based on UEFA administrative HOME label
+    CORRECTION: neutral_venue: true flag · home_advantage_modifier = 0
+    LESSON: Administrative designation ≠ structural home advantage
+
+  FM2 — Hallucinated Player
+    CASE: UCL Final T-2h SMI briefing 2026
+    ERROR: Neymar listed as PSG doubtful — not at PSG since August 2023
+    CORRECTION: Named player must be verified from official club source before modifier
+    LESSON: Training data associations about players are not current squad facts
+
+  FM3 — FTP LOSS/MINT Error
+    CASE: UCL Final 2026 $AFC PATH_2 outcome
+    ERROR: LOSS → MINT EVENT · ~111,500 $AFC — incorrect (match went to penalties)
+    CORRECTION: 90-MINUTES PLAY RULE · 1-1 at 90 mins = DRAW = no supply event
+    LESSON: Ask "what is the 90-minute score?" not "who won the match?"
+
+  FM4 — Stale Gap State
+    CASE: CONSORTIUM_COLLAPSE gap · May 2026
+    ERROR: SMI flagged as gap repeatedly · built at v3.97.83 three weeks prior
+    CORRECTION: Refresh gap list after every library release
+    LESSON: Agent gap state must be updated before producing recommendations
+
+  FM5 — Proper Noun Leakage
+    CASE: Multiple SMI briefings May–June 2026
+    ERROR: Named player/club/season-specific additions recommended as library content
+    CORRECTION: Proper noun test applied · remove nouns · does value remain?
+    LESSON: Expiring data dressed as enduring intelligence is the most common failure
+
+  FM6 — Confidence Inflation
+    CASE: General pattern in pre-v3.97.80 calibration records
+    ERROR: HIGH confidence assigned when lineup unconfirmed / SMS < 100
+    CORRECTION: Confidence tier system with defined downgrade conditions + HOLD gates
+    LESSON: Confidence must be earned from completeness · not assigned by default
+
+Prevention framework: six conditions (verify venue, verify player, verify FTP,
+update state, proper noun test, earn confidence) — one per failure mode.
+All 14 Mind dimensions. Library Rule PASSES.
+
 ## [3.97.114] — 2026-06-06
 
 ### Updated — README.md current stats, mcp-server link, UCL Final record, contributing gaps note
