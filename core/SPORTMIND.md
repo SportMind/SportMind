@@ -280,5 +280,5 @@ Recommended loading:
 
 ---
 
-*SportMind v3.97.113 · MIT License · sportmind.dev*
+*SportMind v4.0.0 · MIT License · sportmind.dev*
 *Load this file first. Follow the seven steps. Do not skip layers.*

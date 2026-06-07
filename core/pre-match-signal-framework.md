@@ -268,6 +268,6 @@ STEP 7: PRODUCE STRUCTURED OUTPUT
 
 ---
 
-*SportMind v3.97.113 · MIT License · sportmind.dev*
+*SportMind v4.0.0 · MIT License · sportmind.dev*
 *Seven steps. All five layers. One structured output.*
 *All 14 Mind dimensions mapped.*

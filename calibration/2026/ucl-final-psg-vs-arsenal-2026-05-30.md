@@ -120,7 +120,7 @@ SUPPLY EVENT OUTCOME:
 
   CORRECTION NOTE:
     This record was initially filed with LOSS — MINT EVENT.
-    Corrected at v3.97.113 after confirmed review of the 90-minutes play rule.
+    Corrected at v4.0.0 after confirmed review of the 90-minutes play rule.
     The April 2026 calibration records (WIN vs Sporting CP, LOSS vs Bournemouth,
     DRAW vs Sporting CP) remain correct — those were all 90-minute results.
 
@@ -238,5 +238,5 @@ Calibration record: #130 — SportMind calibration base
 *SportMind v3.97.96 · MIT License · sportmind.dev*
 *STATUS: VERIFIED — PSG win 1-1 AET (4-3 pens) · Direction CORRECT ✓ · Record 130*
 *$AFC PATH_2: DRAW — 90-minute score 1-1, no supply event triggered. FTP settles on 90-minute result.*
-*Correction: initial filing stated LOSS/MINT — corrected at v3.97.113 per fantokens.com/fan-token-play.*
+*Correction: initial filing stated LOSS/MINT — corrected at v4.0.0 per fantokens.com/fan-token-play.*
 *First MCP server live UCL Final test — all five layers confirmed loaded*

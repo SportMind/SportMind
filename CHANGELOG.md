@@ -1,5 +1,75 @@
 # Changelog
 
+## [4.0.0] — 2026-06-07
+
+### MAJOR VERSION — Complete Architecture Release
+
+0 new files. 10 files updated. Library: 743 files | 524 md.
+
+SMI: REQUIRED — major version change.
+
+---
+
+This is the first major version release of SportMind.
+The library moves from active construction (v3.x) to complete architecture (v4.x).
+
+WHAT v4.0.0 INCLUDES vs v3.x:
+
+  MIND DIMENSIONS — Complete
+    All 524 reasoning framework files mapped across all 14 Mind dimensions.
+    Backfill campaign: v3.97.101–v3.97.108 across all nine library directories.
+    Every dimension explicitly present or marked NOT APPLICABLE per file.
+
+  REASONING CHAINS — Complete
+    Seven-step reasoning chains across all key framework files.
+    core/SPORTMIND.md created (canonical entry point with full chain).
+    core/pre-match-signal-framework.md created (end-to-end assembly).
+    athlete/athlete-intelligence-framework.md created (master athlete layer).
+    Football reasoning chain: 5 bullets → structured 7-step FOOTBALL REASONING CHAIN.
+    agent-onboarding.md STEP 8 enhanced with full output field schema.
+
+  MCP SERVER — Published and Verified
+    github.com/SportMind/mcp-server live.
+    Confirmed working: UCL Final 2026 — SMS 100, direction CORRECT.
+    Five tools: sportmind_pre_match, sportmind_signal, sportmind_macro,
+      sportmind_fan_token_lookup, sportmind_sentiment_snapshot.
+
+  AGENT ARCHITECTURE — Documented
+    Seven agent type compatibility framework in core/SPORTMIND.md.
+    Simple reflex through hierarchical agents mapped to loading patterns.
+    VERY HIGH fit for multi-agent systems documented.
+
+  CALIBRATION BASE — 130 Records at 96%+
+    130 records across 21 sports.
+    96%+ direction accuracy.
+    UCL Final 2026 (PSG vs Arsenal) — Record #130 verified. Direction CORRECT.
+    April 2026 Arsenal PATH_2 records: WIN burn 159,025 / LOSS mint 100,000 / DRAW 0.
+
+  DEEP AUDIT — Complete
+    Zero broken internal links (all 519/522/524 md files scanned).
+    23 i18n broken links fixed (v3.97.110).
+    Five expiring club files removed — enduring frameworks extracted first.
+    Reasoning chain completeness audit: all HIGH and MEDIUM gaps resolved.
+
+  NEW CORE FRAMEWORKS
+    core/agent-failure-modes.md — six verified failure cases with prevention.
+    fan-token/fan-holder-behaviour.md — enduring holder behaviour patterns.
+    macro/regulatory/ksa.md + uae.md + eu.md + us-token-taxonomy.md.
+    fan-token/fto-framework.md — FTO mechanics, two-wave format.
+    CONTRIBUTING-GAPS.md — structured gap intake.
+
+  CRITICAL CORRECTIONS APPLIED
+    FTP PATH_2 90-minutes play rule documented (fantokens.com/fan-token-play).
+    UCL Final $AFC outcome corrected: LOSS/MINT → DRAW/NO CHANGE.
+    CLARITY Act status updated: COMMITTEE_PASSED (15-9 bipartisan).
+
+VERSIONING CONVENTION GOING FORWARD:
+  MAJOR (vN.0.0): architectural shifts — new paradigm, structural overhaul
+  MINOR (vX.N.0): new frameworks and significant additions
+  PATCH (vX.X.N): corrections and small incremental updates
+
+Previous patch series: v3.97.1 – v3.97.116 (116 patch releases in the v3.97 series).
+
 ## [3.97.116] — 2026-06-06
 
 ### Added — Fan holder behaviour framework (fan-token/fan-holder-behaviour.md)

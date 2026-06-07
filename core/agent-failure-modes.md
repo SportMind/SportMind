@@ -355,6 +355,6 @@ CONDITION 6 — EARN CONFIDENCE
 
 ---
 
-*SportMind v3.97.115 · MIT License · sportmind.dev*
+*SportMind v4.0.0 · MIT License · sportmind.dev*
 *Six verified failure modes. Six prevention conditions. All drawn from the operational record.*
 *All 14 Mind dimensions mapped.*

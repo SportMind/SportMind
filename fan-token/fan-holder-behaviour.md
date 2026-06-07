@@ -396,6 +396,6 @@ STEP 5: INTEGRATE WITH SPORT DOMAIN SIGNAL
 
 ---
 
-*SportMind v3.97.116 · MIT License · sportmind.dev*
+*SportMind v4.0.0 · MIT License · sportmind.dev*
 *Holder behaviour is event-driven, emotionally linked, and predictable.*
 *All 14 Mind dimensions mapped.*

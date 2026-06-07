@@ -9,7 +9,7 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.97.113-green)]()
+[![Version](https://img.shields.io/badge/version-4.0.0-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
 [![Calibration](https://img.shields.io/badge/calibration-130%20records%20%7C%2096%25%2B%20accuracy-green)]()
 [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()

@@ -212,4 +212,4 @@ Submit a calibration record. Expand a sport file. Add a reasoning framework that
 
 [sportmind.dev](https://sportmind.dev) · [github.com/SportMind/SportMind](https://github.com/SportMind/SportMind) · MIT License
 
-> ⚠️ Beta — SportMind v3.97.41. Active development. Not financial advice.
+> ⚠️ Beta — SportMind v4.0.0. Active development. Not financial advice.
