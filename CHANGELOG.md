@@ -1,5 +1,54 @@
 # Changelog
 
+## [3.97.116] — 2026-06-06
+
+### Added — Fan holder behaviour framework (fan-token/fan-holder-behaviour.md)
+
+1 new file. 742→743 files, 523→524 md.
+
+SMI: REQUIRED — new fan token framework.
+
+fan-token/fan-holder-behaviour.md (401L):
+
+Enduring patterns in fan token holder behaviour across six domains:
+
+  PRE-MATCH ACCUMULATION WINDOWS
+    48-72h accumulation before high-demand fixtures (×1.35 to ×2.00 occasion weight)
+    Pre-liquidation at T-48h as revealed preference demand signal
+    Accumulation velocity increases as kickoff approaches
+
+  POST-TOURNAMENT-EXIT DECAY
+    Tier A clubs (2-4 weeks recovery) vs national team tokens (3-6 months)
+    Decay depth by stage of exit: group stage = deepest, semi-final = shallowest
+    Compound decay risk for early-round exits
+
+  CLAIM PERIOD BEHAVIOUR
+    Wave 1 fills faster than Wave 2 in high-demand FTOs
+    60-80% typical claim completion rate
+    Regulatory exclusions (UK) narrow effective demand pool
+    Reference case: $BELG FTO June 2026 (first two-wave FTO in registry)
+
+  GOVERNANCE PARTICIPATION PATTERNS
+    Leading indicator of community health — leads price signals
+    High-stakes votes > commercial votes > low-stakes votes in participation
+    World Cup windows = highest governance participation of year
+    30%+ drop across consecutive votes = CHI reduction flag
+
+  SUPPLY EVENT RESPONSE PATTERNS
+    WIN burn: 24-72h demand spike, proportional to occasion weight
+    LOSS mint: compound negative (team lost + supply increased)
+    DRAW: neutral supply, demand by occasion context
+    UCL Final 2026 reference: 1-1 at 90 mins → no supply event
+    Consecutive supply event trajectory effects documented
+
+  WORLD CUP HOLDER BEHAVIOUR
+    Accumulation cycle: T-2 weeks → group stage → knockout peak → exit decay
+    Decay depth by exit stage (group = deepest, runner-up = minimal)
+    Fraud risk window: 4 weeks before/during major tournaments
+    Four-source verification required for new national team tokens in window
+
+Five-step agent reasoning guidance. All 14 Mind dimensions. Library Rule PASSES.
+
 ## [3.97.115] — 2026-06-06
 
 ### Added — Agent failure mode framework (core/agent-failure-modes.md)
