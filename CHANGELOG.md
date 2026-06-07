@@ -1,5 +1,25 @@
 # Changelog
 
+## [3.97.114] — 2026-06-06
+
+### Updated — README.md current stats, mcp-server link, UCL Final record, contributing gaps note
+
+0 new files. 1 file updated. Counts unchanged: 741/522.
+
+SMI: NOT REQUIRED — documentation update only.
+
+README.md changes:
+  Badges: version 3.97.46 → 3.97.113 · calibration 129 → 130 records · 96%+ · fan tokens 90 → 85
+  Library contents block: 679/460 → 743/522 · 90 tokens → 85 verified · 17 macro → 25 macro
+    · 129 calibration → 130 calibration · 96% → 96%+ · file counts updated throughout
+  MCP server section: added github.com/SportMind/mcp-server standalone repo link
+    · "Confirmed working: 2026 UCL Final — SMS 100, direction CORRECT" added
+    · Tool list updated to match mcp-server repo tools
+  Calibration section: 129 → 130 records · 96% → 96%+ · UCL Final 2026 record reference added
+    · Record #130 verified line · sportmind.dev/first-record/ link added
+  Contributing section: "Found a gap?" → "Found a framework gap?" (exact specified phrasing)
+    · CONTRIBUTING-GAPS.md link and description updated to match brief
+
 ## [3.97.113] — 2026-06-05
 
 ### Critical correction — FTP PATH_2 90-minutes play rule + UCL Final FTP outcome

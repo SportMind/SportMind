@@ -9,10 +9,10 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-3.97.46-green)]()
+[![Version](https://img.shields.io/badge/version-3.97.113-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
-[![Calibration](https://img.shields.io/badge/calibration-129%20records%20%7C%2096%25%20accuracy-green)]()
-[![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-90%20verified-orange)]()
+[![Calibration](https://img.shields.io/badge/calibration-130%20records%20%7C%2096%25%2B%20accuracy-green)]()
+[![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
 ---
@@ -97,24 +97,23 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-679 files · 460 markdown skill files
+743 files · 522 markdown skill files
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
-Fan token:         64 skills · 90 verified tokens (63 active Chiliz + 18 expired + 9 multi-chain)
-                   Lifecycle phases 1–6 · DeFi liquidity · exchange intelligence (EDLI/IPS/RRS)
-                   New listing intelligence · Fan Token Play PATH_2 · governance · KOL influence
+Fan token:         85 verified tokens · Lifecycle phases 1–6 · DeFi liquidity · exchange intelligence
+                   Fan Token Play PATH_2 · governance · KOL influence · FTO framework
                    Sports equity signals (GSRAY.IS, MANU, JUVE.MI, FWONK, TKO) · CHZ macro layer
 Market:            43 documents · club operations · broadcaster intelligence · World Cup 2026
-Macro:             17 documents · MiCA · SEC/CFTC joint guidance (March 2026) · US market opening
+Macro:             25 documents · MiCA · SEC/CFTC joint guidance (March 2026) · CLARITY Act · KSA/UAE
 
-Core frameworks:   57 files · reasoning patterns · autonomous agent framework · modifier system
-                   breaking news · squad intelligence · historical framework · contextual signals
-Platform:          28 files · MCP server (45 tools, 8 servers) · data connectors · API providers
-                   Chiliz Agent Kit · social intelligence · web agent connectors · fraud signals
-Community:         177 files · 129 calibration records (96% accuracy, 21 sports) · benchmarks
-Developer tools:   11 application blueprints · 13 agentic workflow patterns · 22 agent prompts
-                   3 copy-paste templates · 69 compressed summaries · Skills API · starter pack
+Core frameworks:   reasoning patterns · autonomous agent framework · modifier system
+                   seven-step reasoning chain · pre-match signal framework · athlete framework
+Platform:          MCP server tools · data connectors · API providers · Chiliz Agent Kit
+                   social intelligence · web agent connectors · fraud signals
+Community:         130 calibration records (96%+ accuracy, 21 sports) · benchmarks
+Developer tools:   application blueprints · agentic workflow patterns · agent prompts
+                   copy-paste templates · compressed summaries · Skills API
 ```
 
 ---
@@ -153,8 +152,13 @@ Full schema: `core/confidence-output-schema.md`
 
 ## MCP server
 
-SportMind is available as an MCP tool server — connect any AI agent to the
-full library without loading files manually.
+SportMind exposes its intelligence as MCP tools for Claude Desktop and any MCP-compatible AI agent.
+
+**→ Standalone MCP server repository: [github.com/SportMind/mcp-server](https://github.com/SportMind/mcp-server)**
+
+Confirmed working: 2026 UCL Final — all five layers loaded, SMS 100, pre-match signal produced 48 hours before kickoff. Direction CORRECT.
+
+The server is also available embedded in the core library:
 
 ```bash
 git clone https://github.com/SportMind/SportMind
@@ -167,11 +171,11 @@ python scripts/sportmind_mcp.py
 python scripts/sportmind_mcp.py --http --port 3001
 ```
 
-45 tools across 8 servers: `sportmind_signal` · `sportmind_macro` · `sportmind_stack` ·
-`sportmind_fan_token_lookup` · `sportmind_sentiment_snapshot` · `sportmind_pre_match` ·
-`sportmind_disciplinary` · `sportmind_governance` · `sportmind_verifiable_source` · and more.
+Tools: `sportmind_pre_match` · `sportmind_signal` · `sportmind_macro` ·
+`sportmind_fan_token_lookup` · `sportmind_sentiment_snapshot` · and more.
 
-**→ Full deployment guide: [MCP-SERVER.md](MCP-SERVER.md)**
+**→ Standalone repo with full setup guide: [github.com/SportMind/mcp-server](https://github.com/SportMind/mcp-server)**
+**→ Embedded deployment guide: [MCP-SERVER.md](MCP-SERVER.md)**
 
 ---
 
@@ -195,11 +199,15 @@ any LLM (skills are structured markdown, not API wrappers).
 
 ## The calibration record
 
-129 records. 96% accuracy. Zero wrong-direction records outside European football draws.
+130 records. 96%+ accuracy. Zero wrong-direction records outside European football draws.
 
 All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
-before real matches. Includes all 5 wrong predictions with root-cause analysis.
+before real matches. Includes all wrong predictions with root-cause analysis.
 Not cherry-picked.
+
+The most recent verified record: **UCL Final 2026** — PSG vs Arsenal.
+SportMind predicted PSG. PSG won. Record #130 verified.
+See the full signal and outcome: [sportmind.dev/first-record/](https://sportmind.dev/first-record/)
 
 Eight modifiers with zero wrong-direction records across their entire evidence base:
 qualifying_delta (F1) · india_pakistan ×2.00 · morning_skate (NHL) · dew_factor (cricket) ·
@@ -213,7 +221,8 @@ superspeedway_specialist (NASCAR)
 **The fastest contribution: one calibration record.** No coding required.
 See **[FIRST-RECORD-CHALLENGE.md](FIRST-RECORD-CHALLENGE.md)**.
 
-**Found a gap?** If SportMind cannot reason about something you need — see [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md).
+**Found a framework gap?**
+See [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md) for how to report missing intelligence frameworks.
 
 What the community needs most:
 - Football calibration records (athlete_modifier: 25/50 threshold)
