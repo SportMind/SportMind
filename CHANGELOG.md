@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.0.2] — 2026-06-07
+
+### Added — FIRST-RECORD-GUIDE.md (root, non-technical contributor guide)
+
+1 new file. 745 files | 526 md.
+
+SMI: NOT REQUIRED — documentation only.
+
+FIRST-RECORD-GUIDE.md (63L) — root of repository, alongside README.md and OVERVIEW.md.
+
+Plain English three-step guide for non-technical contributors.
+No jargon. No code. Two free accounts (Claude + GitHub) required.
+
+  Step 1: Get pre-match prediction via sportmind.dev/first-record/ system prompt in Claude
+  Step 2: Submit as timestamped GitHub issue before kickoff
+  Step 3: Add result comment after the match
+
+Suggested first matches table: World Cup 2026 fan token nations
+  ($SAFA, $SFA, $BELG, $POR — June 11-17 opening fixtures).
+
+No MIND DIMENSIONS section — this is a contributor guide, not a reasoning framework.
+
 ## [4.0.1] — 2026-06-07
 
 ### Added — World Cup 2026 venue and environmental intelligence
