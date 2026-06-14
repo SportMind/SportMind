@@ -11,6 +11,32 @@ description: >
   complete token calendar from draw to final.
 ---
 
+## Burn to Glory — WC2026 supply mechanic
+
+```
+BURN TO GLORY — ACTIVE MECHANIC (WC2026):
+
+  Five national team tokens participate in performance-linked treasury burns:
+  $ARG · $POR · $BELG · $SAFA · $SFA
+
+  Burn source: issuing entity treasury only — user wallets never affected.
+  Trigger: team WIN in tournament match. No burn on LOSS or DRAW.
+
+  See fan-token/burn-to-glory-framework.md for full schedule and signal architecture.
+
+  CAPITULATION REGIME NOTE:
+    All WC2026 signals suppressed ×0.70 while CHZ trades below $0.033 floor.
+    Burn events execute regardless — but demand signal is regime-dampened.
+
+  AGENT RULE:
+    Load fan-token/burn-to-glory-framework.md alongside this file for any
+    analysis involving the five participating national tokens.
+    Confirm match result before applying burn signal — WIN only.
+```
+
+---
+
+
 # World Cup 2026 Fan Token™ Intelligence
 
 **FIFA World Cup 2026 · USA / Canada / Mexico · 11 June – 19 July 2026**
@@ -752,3 +778,6 @@ AGENT RULE:
 
 ---
 
+---
+
+*SportMind v4.0.2 · MIT License · sportmind.dev*

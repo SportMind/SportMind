@@ -298,11 +298,26 @@ SUPPLY MECHANICS — NATIONAL TEAM TOKENS:
   As of the library's current knowledge state, NO national team fan token
   has confirmed FTP PATH_2 mechanics.
 
-  WHAT THIS MEANS:
-    National token signals are DEMAND_ONLY.
-    Match results affect demand (price) — not supply (circulating tokens).
-    No pre-liquidation window to monitor (no Model 2).
-    No burn on win, no mint on loss — purely price/demand driven.
+  WHAT THIS MEANS (updated WC2026):
+    National token signals are DEMAND_ONLY by default.
+    FTP PATH_2 (Model 2 prediction market) remains unconfirmed for all
+    national team tokens as of current library state.
+
+    HOWEVER — Burn to Glory treasury burn mechanic IS active for
+    confirmed participating tokens (WC2026: $ARG, $POR, $BELG, $SAFA, $SFA).
+    This is a treasury-source burn, not PATH_2.
+
+    KEY DISTINCTION:
+      Burn to Glory: treasury holdings burned on WIN — user wallets unaffected
+      FTP PATH_2: market pre-liquidation settlement — club tokens only
+      These are separate mechanics. Load fan-token/burn-to-glory-framework.md
+      for full Burn to Glory signal architecture.
+
+    AGENT RULE:
+      Check whether a national token has confirmed Burn to Glory participation
+      before treating it as purely demand-only.
+      If confirmed: apply burn signal + demand signal (additive).
+      If unconfirmed: demand-only framework applies as before.
 
   AGENT RULE:
     Never apply PATH_2 supply mechanics to national team tokens.
@@ -323,9 +338,11 @@ SUPPLY MECHANICS — NATIONAL TEAM TOKENS:
 **FTP mechanics:** `fan-token/ftp-path2.md` (club tokens only)
 **WC 2026 specific:** `fan-token/world-cup-2026-intelligence/`
 
+**Burn to Glory:** `fan-token/burn-to-glory-framework.md`
+
 ---
 
-*SportMind v3.97.18 · MIT License · sportmind.dev*
+*SportMind v4.0.2 · MIT License · sportmind.dev*
 *Enduring framework — applies to every major international tournament*
 
 
@@ -378,6 +395,28 @@ SPORTMIND VERIFIED REGISTRY — NATIONAL TEAM TOKENS:
     Partnership: Confederação Brasileira de Futebol (CBF) × Socios/Chiliz
     Verification: socios.com · chiliscan.com · CBF official channels
     Classification: confirmed official Fan Token™ · national team category
+
+  $SAFA — South Africa National Team
+    Partnership: South African Football Association (SAFA) x Socios/Chiliz
+    Verification: socios.com · chiliscan.com · SAFA official channels
+    Classification: confirmed official Fan Token — national team category
+    Burn to Glory: CONFIRMED participant — WC2026
+    Regional file: fan-token/regional-intelligence/south-africa-safa.md
+
+  $SFA — Scotland National Team
+    Partnership: Scottish Football Association (SFA) x Socios/Chiliz
+    Verification: socios.com · chiliscan.com · SFA official channels
+    Classification: confirmed official Fan Token — national team category
+    Burn to Glory: CONFIRMED participant — WC2026
+    Regional file: fan-token/regional-intelligence/scotland-sfa.md
+
+  $BELG — Belgium National Team
+    Partnership: Royal Belgian Football Association (RBFA) x Socios/Chiliz
+    Verification: socios.com · chiliscan.com · RBFA official channels
+    Classification: confirmed official Fan Token — national team category
+    Chain: Chiliz Chain + Solana (Jupiter DEX) + Paribu CEX
+    FTO: June 2026 (completed) · Supply: 2,000,000 tokens
+    Burn to Glory: CONFIRMED participant — WC2026
 
   ALL OTHER NATIONAL TEAM TOKEN CLAIMS: UNVERIFIED
     Any token claiming national team affiliation not listed above must be

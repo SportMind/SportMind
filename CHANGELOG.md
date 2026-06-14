@@ -1,5 +1,51 @@
 # Changelog
 
+## [4.0.3] — 2026-06-14
+
+### Added + Updated — Burn to Glory framework, national team tokens, WC2026 intelligence, UCL Final close-out
+
+1 new file. 3 files updated. 745→746 files, 526→527 md.
+
+SMI: REQUIRED — new library file + three file updates.
+
+NEW — fan-token/burn-to-glory-framework.md (184L):
+  Enduring framework for performance-linked treasury burn mechanics.
+  Applies to any tournament with confirmed Burn to Glory activation.
+  First confirmed instance: FIFA World Cup 2026 (five national tokens).
+  Progressive burn schedule: Group 1% → Final 10% (~25.18% max compound).
+  WIN-ONLY mechanic — no supply event on LOSS or DRAW.
+  Critical distinction table: Burn to Glory (treasury) vs FTP PATH_2 (market).
+  Macro regime interaction: CAPITULATION ×0.70 suppresses demand signal not burn.
+  Compound signal rule: additive with occasion weight, not multiplicative.
+  Four-source verification chain before applying any burn signal.
+  All 14 Mind dimensions. Calibration: EMERGING (first tournament cycle).
+
+UPDATED — fan-token/national-team-tokens.md (387L → 426L):
+  WHAT THIS MEANS block updated: DEMAND_ONLY by default, Burn to Glory IS active
+  for confirmed WC2026 tokens ($ARG, $POR, $BELG, $SAFA, $SFA).
+  Three new token entries added above ALL OTHER NATIONAL TEAM TOKEN CLAIMS:
+    $SAFA — South Africa National Team (Burn to Glory: CONFIRMED — WC2026)
+    $SFA — Scotland National Team (Burn to Glory: CONFIRMED — WC2026)
+    $BELG — Belgium National Team (Burn to Glory: CONFIRMED — WC2026)
+  Compatibility: burn-to-glory-framework.md added.
+  Version: v3.97.18 → v4.0.2.
+
+UPDATED — fan-token/world-cup-2026-intelligence/world-cup-2026-intelligence.md (754L → 783L):
+  New section added: ## Burn to Glory — WC2026 supply mechanic
+  Five participating tokens listed: $ARG · $POR · $BELG · $SAFA · $SFA
+  CAPITULATION regime note: ×0.70 suppressor on demand signal.
+  Agent rule: load burn-to-glory-framework.md for five participating tokens.
+  Footer: v4.0.2 appended.
+
+UPDATED — community/calibration-data/ucl-final-draft.md (162L → 168L):
+  Result block completed — DRAW verdict.
+  ACTUAL RESULT: 1-1 after 90 minutes — PSG win on penalties
+  DIRECTION CORRECT: DRAW (neutral venue, draw at 90 min, valid outcome)
+  $AFC PATH_2: NO SUPPLY EVENT (0 burned, 0 minted, DRAW at 90 min)
+  POST-MATCH NOTES: PSG UCL Champions, Arsenal PL Champions 2025/26 + UCL Finalists
+  Status: DRAFT → COMPLETE
+  Version: v3.97.94 → v4.0.2
+
 ## [4.0.2] — 2026-06-07
 
 ### Added — FIRST-RECORD-GUIDE.md (root, non-technical contributor guide)
