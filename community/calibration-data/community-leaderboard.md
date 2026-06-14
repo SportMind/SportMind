@@ -10,13 +10,13 @@ The first 10 external contributors become **Founding Calibrators** — permanent
 
 *132 calibration records across 21 sports. First two external records added June 2026.*
 
-*First external contributors: @AltcoinDaddy (Founding Calibrator #1) and @charan0318 (Founding Calibrator #2) — WC2026 Mexico vs South Africa, 2026-06-11.*
+*First external contributors: AltcoinDaddy (Founding Calibrator #1) and Charan0318 (Founding Calibrator #2) — WC2026 Mexico vs South Africa, 2026-06-11.*
 
 | Rank | Contributor | Files | Records | Accuracy | Status |
 |------|-------------|-------|---------|----------|--------|
 | 1 | `@sportmind-core` | 500+ | 130 (all 21 sports) | 96% overall (N/A per modifier — threshold pending) | Expert 🏆 |
-| 2 | `@AltcoinDaddy` | 1 | 1 (football — WC2026) | 100% (1/1) | New |
-| 3 | `@charan0318` | 1 | 1 (football — WC2026) | 100% (1/1) | New |
+| 2 | `AltcoinDaddy` | 1 | 1 (football — WC2026) | 100% (1/1) | New |
+| 3 | `Charan0318` | 1 | 1 (football — WC2026) | 100% (1/1) | New |
 
 **The first 10 external contributors receive permanent Founding Calibrator recognition. 2 of 10 slots filled.**
 
