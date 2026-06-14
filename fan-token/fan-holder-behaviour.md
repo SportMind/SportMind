@@ -384,6 +384,55 @@ STEP 5: INTEGRATE WITH SPORT DOMAIN SIGNAL
 
 ---
 
+## Tournament dApp Behaviour — Balance-Gated Participation
+
+A confirmed holder behaviour pattern from WC2026: balance-gated
+dApp participation without token lockup.
+
+```
+MECHANIC FRAMEWORK:
+  Fantasy tournament dApp using country-position Fan Token slots.
+  Token balance is READ-ONLY — no on-chain transactions, no locking,
+  no fees. Tokens remain in holder's wallet throughout.
+  Wallet support: WalletConnect v2, MetaMask, Socios wallet,
+  Trust Wallet, Rainbow.
+
+DEMAND SIGNALS:
+
+  SOFT HOLD SIGNAL:
+    Balance-check without lockup creates passive hold pressure.
+    Holders retain full liquidity while remaining eligible.
+    This is a distinct demand lever from staking or locking.
+    Do not conflate — the mechanic is softer but meaningful during
+    active tournament windows.
+
+  STAKING TIE-BREAK SIGNAL:
+    Staking not required to participate but provides competitive
+    tie-break advantage.
+    Creates marginal Socios staking incentive without mandatory lockup.
+
+  HOLDER UTILITY TIERS (enduring framework):
+    Tier 1 (highest): first-team travel, Partners Cup, pitch access,
+      Presidential Box, VIP matchday experiences
+    Tier 2: legends access, merchandise, priority ticketing
+    Tier 3: polls, voting rights, digital rewards
+
+    AGENT RULE:
+      When a club offers Tier 1 utility (first-team access, commercial
+      partner-level experiences), weight as maximum HAS signal.
+      Tier 1 utility = institutional-grade governance depth.
+      Use to calibrate LTUI and HAS baselines per club.
+
+AGENT RULE:
+  When a balance-gated dApp is active for a tournament:
+    Model soft hold pressure as a passive demand lever
+    Staking tie-break creates marginal Socios staking signal
+    Do not conflate with staking-locked demand — different mechanic
+    Load fan-token/staking-intelligence.md for comparison
+```
+
+---
+
 ## Compatibility
 
 **Occasion weights:**       `core/pre-match-signal-framework.md` — STEP 1

@@ -64,6 +64,34 @@ WRAPPED SUPPLY ABOVE 5% OF TOTAL SUPPLY:
 
 ---
 
+## DEX Campaign Volume — Structural Demand Lever
+
+```
+DEX campaign volume is a confirmed structural demand lever during
+major events. Chiliz runs competitive DEX trading campaigns tied
+to high-demand fixtures with volume-ranked leaderboards.
+
+DEMAND LEVER CLASSIFICATION (priority order):
+  1. Buying — direct purchase, primary demand signal
+  2. Holding — reduced sell pressure, passive signal
+  3. Staking locks — Socios staking, active hold signal
+  4. DEX campaign volume — event-driven, compound signal
+  5. Auto-compound — LP rewards, sustained volume signal
+  6. FTP supply events — PATH_2, structural supply signal
+  7. Burn to Glory — tournament WIN, treasury supply signal
+  8. Balance-gated dApp — soft hold, passive participation signal
+
+AGENT RULE:
+  During major events (UCL Final, WC knockout rounds):
+    Expect DEX campaign amplification of organic demand signal.
+    Do not treat peak campaign volume as baseline for future signals.
+    Identify whether a campaign is active before modelling volume.
+    Campaign volume + organic demand + supply event = compound signal.
+    Model each component independently before summing.
+```
+
+---
+
 ## DeFi signal priority hierarchy
 
 ```

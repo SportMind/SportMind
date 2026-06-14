@@ -1,5 +1,52 @@
 # Changelog
 
+## [4.0.4] — 2026-06-14
+
+### Updated — Omnichain registry, holder behaviour, DeFi demand lever, three-way burn distinction
+
+0 new files. 5 files updated. Counts unchanged: 747/528.
+
+SMI: REQUIRED — registry structural updates, chain distinction encoded, DeFi platform intelligence added, three-way burn mechanic distinction is enduring structural intelligence.
+
+UPDATED — fan-token/registry/bridge-supported.md (171L → 216L):
+  Omnichain section restructured: club tokens (Chiliz + Solana + Base) vs
+  national team tokens (Chiliz + Solana only, not Base).
+  $ARG, $POR, $SAFA, $SFA, $BELG added to national token omnichain list.
+  CRITICAL DISTINCTION block: club-token-only Base access as of June 2026.
+  DeFi Platforms by Chain section added: Jupiter/Orca (Solana), Aerodrome (Base),
+  Meteora (Solana national tokens confirmed June 2026).
+  DEX CAMPAIGN PATTERN documented as structural demand lever.
+  CHZ BUYBACK MECHANIC updated: monthly cadence, burn reports at chiliz.com.
+  THREE-WAY BURN DISTINCTION added referencing burn-to-glory-framework.md.
+  Version v3.97.63 → v4.0.3.
+
+UPDATED — fan-token/registry/complete-registry.md (237L → 244L):
+  Omnichain count split: club tokens (5, Solana+Base), national tokens (5, Solana only).
+  NATIONAL TEAM TOKENS — SOLANA ONLY note added to Omnichain Note section.
+  $INTER Notes: Partnership extended to 2028.
+  $ITA Notes: Italy did not qualify for FIFA World Cup 2026.
+  Last verified: May 2026 → June 2026.
+
+UPDATED — fan-token/fan-holder-behaviour.md (401L → 450L):
+  New section: ## Tournament dApp Behaviour — Balance-Gated Participation
+  READ-ONLY balance check mechanic documented (no locking, no fees).
+  SOFT HOLD SIGNAL and STAKING TIE-BREAK SIGNAL frameworks added.
+  HOLDER UTILITY TIERS framework: Tier 1 (Presidential Box, travel, pitch access)
+  through Tier 3 (polls, voting). LTUI/HAS calibration guidance.
+
+UPDATED — fan-token/defi-integration-intelligence.md (114L → 142L):
+  New section: ## DEX Campaign Volume — Structural Demand Lever
+  8-point DEMAND LEVER CLASSIFICATION priority list added.
+  Agent rule: model DEX campaign volume separately from organic baseline.
+  Compound signal rule: campaign + organic + supply event = sum independently.
+
+UPDATED — fan-token/burn-to-glory-framework.md (184L → 200L):
+  ## Critical distinction — Burn to Glory vs FTP PATH_2 →
+  ## Three-way burn mechanic distinction
+  CHZ BUY-BACK BURN block added: protocol-level, CHZ asset, monthly, automatic.
+  All three mechanics documented side-by-side with source/asset/trigger/scale/user.
+  AGENT RULE: treat all three independently, never conflate.
+
 ## [4.0.3] — 2026-06-14
 
 ### Added + Updated — Burn to Glory framework, national team tokens, WC2026 intelligence, UCL Final close-out

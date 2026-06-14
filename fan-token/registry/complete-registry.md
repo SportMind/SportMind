@@ -40,10 +40,11 @@ Partnership announced (pipeline):     2
 Not Active (legacy on-chain):         14
 Other chains (BNB/BITCI/Ethereum):    9
 Delisted:                             2
-Omnichain (Solana + Base):            5
+Omnichain club tokens (Solana + Base):      5
+Omnichain national tokens (Solana only):    5
 Fan Token Play confirmed:             1 ($AFC only)
 
-Last verified: May 2026
+Last verified: June 2026
 ```
 
 ---
@@ -53,6 +54,12 @@ Last verified: May 2026
 As of April 28 2026 Fan Tokens are available on Solana and Base via the official
 Chiliz omnichain bridge using LayerZero technology. Tokens marked Omnichain: YES
 are confirmed available on Solana and Base in addition to their primary Chiliz Chain.
+
+  NATIONAL TEAM TOKENS — SOLANA ONLY (JUNE 2026):
+  $ARG, $POR, $SAFA, $SFA, $BELG now on Solana via Jupiter DEX
+  and Meteora liquidity protocol. National tokens are on Solana
+  only — NOT on Base. Do not conflate with club token architecture.
+
 All other Chiliz Chain tokens are available for bridging but are not yet confirmed
 as actively traded on Solana or Base.
 
@@ -104,8 +111,8 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Goztepe SK | GOZ | Football (League) | Active | Chiliz Chain | Active | No | No | 0x6ba1FB0dAdAEB34ea24EB31d416805abE8921448 | 0x0E469D1C78421C7952E4D9626800DAd22F45361D | 0x71103f7892c6c5BeCC135A22aFa9F021D905B750 | Yes | Yes | https://www.fantokens.com/trade/goztepe-s-k-fan-token | |
 | Hashtag United FC | HASHTAG | Football (League) | Active | Chiliz Chain | Active | No | No | 0x3c1487C5036105338396055d74EeE505a9F6A2f3 | 0x7Be4Aebc9900d2C1b628530ffc59416A98420B15 | 0xE8C45FBbFdC1bA65A05D9Eb9C0ffF71900492802 | Yes | Yes | https://www.fantokens.com/trade/hashtag-united-fc-fan-token | |
 | Istanbul Basaksehir | IBFK | Football (League) | Active | Chiliz Chain | Active | No | No | 0x7B69003C404B0579F257c16E2664b4Eb4c7b2acf | 0xd5FebD04baDd83e7ED56Ca093fD57655b737cd3e | 0x3415C4bf4bDc284133831C2Ed414bC57Dbe5cFfc | Yes | Yes | https://www.fantokens.com/trade/istanbul-basaksehir-fan-token | |
-| Inter Milan | INTER | Football (League) | Active | Chiliz Chain | Active | No | No | 0x1b3385A26214057bB7e27c173ee2D14201752e73 | 0xc727c9C0f2647CB90B0FCA64d8ddB14878716BeD | 0xc587CF9ff27D7722ff4A3063abaFf81551803730 | Yes | Yes | https://www.fantokens.com/trade/inter-milan-fan-token | |
-| FIGC Italy | ITA | Football (National) | Active | Chiliz Chain | Active | No | No | 0x90111A53D94efe28F34562b53F04F471522d57b3 | 0x7483263CA24BFcfF716a21F4a9bbF2610BDD9Ec9 | 0x9EccD05BBA630cba3E6E119f9243AA649F443b19 | Yes | Yes | https://www.fantokens.com/trade/figc-fan-token | |
+| Inter Milan | INTER | Football (League) | Active | Chiliz Chain | Active | No | No | 0x1b3385A26214057bB7e27c173ee2D14201752e73 | 0xc727c9C0f2647CB90B0FCA64d8ddB14878716BeD | 0xc587CF9ff27D7722ff4A3063abaFf81551803730 | Yes | Yes | https://www.fantokens.com/trade/inter-milan-fan-token Partnership extended to 2028. |
+| FIGC Italy | ITA | Football (National) | Active | Chiliz Chain | Active | No | No | 0x90111A53D94efe28F34562b53F04F471522d57b3 | 0x7483263CA24BFcfF716a21F4a9bbF2610BDD9Ec9 | 0x9EccD05BBA630cba3E6E119f9243AA649F443b19 | Yes | Yes | https://www.fantokens.com/trade/figc-fan-token Italy did not qualify for FIFA World Cup 2026. |
 | Johor Darul Tazim | JDT | Football (League) | Active | Chiliz Chain | Active | No | No | 0x9aF2bD7003f043124AA13A21a2460996F7Ba9a3B | 0x12129aD866906Ab5aa456ae1ebAeA9e8A13E8197 | 0x9af2bd7003f043124aa13a21a2460996f7ba9a3b | Yes | Yes | https://www.fantokens.com/trade/johor-darul-ta-zim-fc | Note: Wrapped address to be verified — may match new address |
 | Juventus | JUV | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0xeAf368DAdC22524deF47E8A1C26bFC17AC16E6F5 | 0x454038003a93cf44766aF352F74bad6B745616D0 | 0xaCf221C4f6C713459981660e3146e64Cba54e0B1 | Yes | Yes | https://www.fantokens.com/trade/juventus-fan-token | |
 | Legia Warsaw | LEG | Football (League) | Active | Chiliz Chain | Active | No | No | 0xFd8A11532c5Ca9bec64ec86e4E5ed78089CD443f | 0x3Ce3946A68EB044C59AFe77dfdfdc71f19EB4328 | 0x58386A2d1c45D4c5349468892f5f73CA3E53EA22 | Yes | Yes | https://www.fantokens.com/trade/legia-warsaw-fan-token | |

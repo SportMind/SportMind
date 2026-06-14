@@ -22,31 +22,47 @@ Burn to Glory is a performance-linked treasury burn mechanic introduced by Chili
 
 ---
 
-## Critical distinction — Burn to Glory vs FTP PATH_2
+## Three-way burn mechanic distinction
+
+There are three distinct burn mechanics active in the Chiliz/Socios
+ecosystem. Agents must never conflate them. All three can be active
+simultaneously.
 
 ```
+CHZ BUY-BACK BURN:
+  What:     10% of Fan Token revenue across all chains → open market
+            CHZ purchase → permanent burn
+  Source:   Protocol-level — Chiliz treasury executes automatically
+  Asset:    CHZ native token (not Fan Tokens)
+  Trigger:  Ongoing — fires on all Fan Token trading revenue
+  Cadence:  Monthly burn reports published at chiliz.com
+  User:     UNAFFECTED — no user action required or possible
+
 BURN TO GLORY:
-  Trigger:      Team WIN in tournament match
-  Burn source:  Issuing entity treasury holdings only
-  User wallets: UNAFFECTED — never touched
-  Scale:        Progressive — percentage increases with tournament round
-  Tokens:       National team tokens (tournament-specific activation)
-  Confirmed:    Chiliz/Socios — FIFA World Cup 2026 (five tokens)
+  What:     Performance-linked treasury burn of Fan Token supply
+  Source:   Issuing entity treasury holdings only
+  Asset:    Fan Token (national team tokens confirmed WC2026)
+  Trigger:  Team WIN in tournament match
+  Scale:    Progressive — Group 1% → Final 10% (~25.18% compound max)
+  User:     UNAFFECTED — treasury burn only
+  Confirmed: $ARG · $POR · $BELG · $SAFA · $SFA
 
 FTP PATH_2:
-  Trigger:      WIN in qualifying match (pre-liquidation model)
-  Burn source:  Market (pre-liquidated from circulating supply)
-  User wallets: UNAFFECTED — settlement via prediction market
-  Scale:        Fixed per-match (circulating_supply / 400)
-  Tokens:       Club tokens only (confirmed: $AFC)
-  Confirmed:    Arsenal Fan Token only as of current library state
+  What:     Pre-liquidation market settlement — prediction market model
+  Source:   Market (1/400th of circulating supply pre-liquidated T-48h)
+  Asset:    Fan Token (club tokens only)
+  Trigger:  WIN in qualifying PATH_2 match
+  Scale:    Fixed — circulating_supply / 400 per match
+  User:     UNAFFECTED — market mechanics only
+  Confirmed: $AFC only as of current library state
 
 AGENT RULE:
-  Never conflate Burn to Glory with FTP PATH_2.
-  They are separate mechanics with different triggers, sources, and scales.
-  Burn to Glory = treasury deflationary | FTP PATH_2 = market settlement
-  A token can have both mechanics active simultaneously if both are confirmed.
-  Always identify which mechanic is active before applying signal weights.
+  Always identify WHICH mechanic is active before applying signals.
+  CHZ buy-back burn → affects CHZ price / deflationary pressure
+  Burn to Glory → affects Fan Token supply (national tokens, WIN-only)
+  FTP PATH_2 → affects Fan Token supply ($AFC only, pre-liquidation)
+  All three can be active in the same period — treat independently.
+  Never conflate. Never apply one mechanic's logic to another's asset.
 ```
 
 ---

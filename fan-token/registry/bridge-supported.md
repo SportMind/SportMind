@@ -20,8 +20,7 @@ description: >
 
 ## Confirmed Omnichain Tokens
 
-The following five tokens are confirmed available on Solana and Base in addition
-to Chiliz Chain:
+CLUB TOKENS — Chiliz Chain + Solana + Base (three chains):
 
 ```
 $AFC  — Arsenal FC
@@ -30,6 +29,24 @@ $CITY — Manchester City
 $JUV  — Juventus
 $PSG  — Paris Saint-Germain
 ```
+
+NATIONAL TEAM TOKENS — Chiliz Chain + Solana only (two chains):
+
+```
+$ARG  — Argentina National Team
+$POR  — Portugal National Team
+$SAFA — South Africa National Team
+$SFA  — Scotland National Team
+$BELG — Belgium National Team
+```
+
+CRITICAL DISTINCTION:
+  Club tokens: Chiliz Chain + Solana + Base
+  National tokens: Chiliz Chain + Solana only (not Base)
+  Do not conflate. Base access is club-token-only as of June 2026.
+  Bridge model (club tokens): lock-and-mint via LayerZero
+  DeFi (national tokens): Jupiter DEX aggregator + Meteora
+  liquidity protocol
 
 All other active Chiliz Chain tokens may be bridged using the official Chiliz bridge
 at app.fantokens.com but are not yet confirmed as actively traded on Solana or Base.
@@ -90,11 +107,39 @@ OMNICHAIN DEMAND SIGNAL:
   Confirmed omnichain tokens have higher accessible holder base than
   Chiliz-Chain-only tokens. Apply ×1.05 addressable market premium
   when modelling demand for the five confirmed omnichain tokens.
+## DeFi Platforms by Chain
+
+```
+SOLANA — Club tokens:
+  Jupiter DEX aggregator — primary Solana trading venue
+  Orca — liquidity pools
+
+BASE — Club tokens:
+  Aerodrome — primary Base liquidity protocol
+  LP rewards via Aerodrome native infrastructure
+
+SOLANA — National tokens:
+  Jupiter DEX aggregator
+  Meteora — liquidity protocol (confirmed June 2026)
+
+DEX CAMPAIGN PATTERN:
+  Chiliz runs competitive DEX trading campaigns during major events.
+  Volume-ranked leaderboard with prize pools across platforms.
+  This is a structural demand lever — DEX campaign volume amplifies
+  organic demand during high-stakes fixtures and tournaments.
+  Model DEX campaign volume separately from baseline organic volume.
+```
 
 CHZ BUYBACK MECHANIC:
-  10% revenue to $CHZ buyback is a permanent deflationary mechanism.
-  This is distinct from FTP PATH_2 supply mechanics.
-  Do not conflate $CHZ buyback with fan token supply events.
+  10% of Fan Token revenue across all chains → open market CHZ
+  purchase → permanent burn.
+  Cadence: monthly. Chiliz publishes burn reports at chiliz.com.
+
+  THREE-WAY BURN DISTINCTION (never conflate):
+    CHZ buy-back burn: protocol-level, CHZ asset, ongoing revenue
+    Burn to Glory: treasury burn, Fan Token asset, WIN-triggered
+    FTP PATH_2: market settlement, Fan Token asset, $AFC only
+    See fan-token/burn-to-glory-framework.md for full framework.
 
 BRIDGE SECURITY:
   LayerZero multi-DVN setup. Each cross-chain message requires multiple
@@ -166,6 +211,6 @@ CALIBRATION NOTE:
 
 ---
 
-*SportMind v3.97.63 · MIT License · sportmind.dev*
+*SportMind v4.0.3 · MIT License · sportmind.dev*
 *Five confirmed omnichain tokens: $AFC, $BAR, $CITY, $JUV, $PSG.*
 *10% of cross-chain Fan Token revenue → $CHZ buybacks (permanent deflationary mechanic).*
