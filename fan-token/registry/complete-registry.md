@@ -1,7 +1,7 @@
 ---
 name: complete-registry
 description: >
-  Complete verified fan token registry. 84 tokens documented across active Chiliz Chain
+  Complete verified fan token registry. 85 tokens documented across active Chiliz Chain
   partnerships, legacy on-chain tokens, other chain deployments, and delisted tokens.
   Compiled from primary sources as of May 2026. Always verify against primary sources
   before relying on any entry. Contract addresses must be verified on-chain before use.
@@ -193,6 +193,7 @@ Verification methodology differs — see chain-specific explorers.
 | Partner | Ticker | Sport | Partnership | Chain | Trading | Fan Token Play | Omnichain | Address | Old Address | Wrapped Address | Socios Listed | Official Confirmed | FanTokens.com URL | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Spain National Football | SNFT | Football (National) | Active | BITCI | Active | No | No | 0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C | N/A | N/A | No | Yes | https://www.fantokens.com/trade/spain-national-football-team | BITCI chain — 18-decimal migration not applicable |
+| Spain National Football | SPAIN | Football (National) | Active | Socios/Chiliz | Active | No | No | Pending | N/A | N/A | Pending | Pending | https://www.socios.com | Socios/Chiliz launch June 2026. Burn to Glory: NOT confirmed — Spain not in WC2026. Solana: pending verification. Distinct from $SNFT (BITCI legacy token). |
 | Brazil National | BFT | Football (National) | Active | BITCI | Active | No | No | 0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B | N/A | N/A | No | Yes | https://www.fantokens.com/trade/brazil-national-football-team | BITCI chain — 18-decimal migration not applicable |
 | FC Porto | PORTO | Football (League) | Active | BNB | Active | No | No | 0x49f2145d6366099e13B10FbF80646C0F377eE7f6 | N/A | N/A | No | Yes | https://www.fantokens.com/trade/fc-porto-fan-token | |
 | Lazio | LAZIO | Football (League) | Active | BNB | Active | No | No | 0x77d547256a2cd95f32f67ae0313e450ac200648d | N/A | N/A | No | Yes | https://www.fantokens.com/trade/lazio-fan-token | |

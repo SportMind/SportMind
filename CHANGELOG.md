@@ -1,5 +1,32 @@
 # Changelog
 
+## [4.0.6] — 2026-06-17
+
+### Added + Updated — $SPAIN registry, $ACM coaching succession, $BAR squad addition
+
+2 new files. 1 file updated. 747→749 files, 528→530 md.
+
+SMI: NOT REQUIRED — registry and profile updates only.
+
+NEW — market/club-intelligence/acm.md:
+  Coaching succession confirmed June 2026. STABILIZED status (contract confirmed).
+  3-4-3 high press, young player development — enduring tactical profile.
+  TRANSITION caveat (×0.92) until 5-result gate clears → STABILIZED (×1.04).
+  Europa League tier next cycle — CDI ceiling reduced vs UCL.
+  No perishable dates. All 14 Mind dimensions.
+
+NEW — market/club-intelligence/bar.md:
+  Squad addition confirmed official May 2026. Pace-and-directness winger profile.
+  Five-year contract. CONSOLIDATION_PHASE ×1.02 (Horizon 2-3 only).
+  No named players. No squad state conclusions. All 14 Mind dimensions.
+  Profile encoded as archetype, not current status.
+
+UPDATED — fan-token/registry/complete-registry.md (244L → 245L):
+  $SPAIN added — Royal Spanish Football Association, Socios/Chiliz,
+  Chiliz Chain, June 2026 launch. Burn to Glory: NOT confirmed (Spain not
+  in WC2026). Solana: pending verification. Distinct from $SNFT (BITCI legacy).
+  Token count: 84 → 85.
+
 ## [4.0.5] — 2026-06-17
 
 ### Updated — US regulated crypto derivatives structural framework
