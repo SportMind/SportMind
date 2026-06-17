@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.0.5] — 2026-06-17
+
+### Updated — US regulated crypto derivatives structural framework
+
+0 new files. 1 file updated. Counts unchanged: 747/528.
+
+SMI: REQUIRED — enduring structural classification distinction encoded.
+
+UPDATED — macro/macro-regulatory-sportfi.md (+40L):
+  New section: ## US Regulated Crypto Derivatives — Structural Framework (2026)
+  Classification distinction: digital commodities (CFTC derivatives eligible)
+  vs digital collectibles/tools (fan tokens — separate framework, not eligible).
+  Fan token relevance: macro context only — INSTITUTIONAL_LEGITIMACY signal.
+  Does NOT enable fan token perpetual futures — agent rule explicit.
+  No letter numbers, expiry dates, named exchanges, or specific % figures.
+  Reference: macro/regulatory/us-token-taxonomy.md for fan token classification.
+
+Library Rule: PASSES — enduring structural classification distinction.
+Not current status. The digital commodity vs digital collectible/tool
+distinction is permanent regulatory architecture regardless of which
+specific instruments exist at any point.
+
 ## [4.0.4] — 2026-06-14
 
 ### Updated — Omnichain registry, holder behaviour, DeFi demand lever, three-way burn distinction

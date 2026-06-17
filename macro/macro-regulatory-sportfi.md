@@ -552,39 +552,50 @@ AGENT IMPLICATIONS:
 
 ---
 
-## Regulatory risk signal framework
+## US Regulated Crypto Derivatives — Structural Framework (2026)
 
 ```
-REGULATORY_CLARITY LEVELS (use in pre-signal analysis):
+ASSET CLASS ESTABLISHED:
+  Regulated perpetual futures for digital commodities are now an established
+  US asset class as of 2026. This reflects the maturation of the CFTC
+  framework for digital commodity derivatives following the March 2026
+  SEC/CFTC joint guidance on digital asset classification.
 
-HIGH (EU/MiCA, US utility tokens):
-  Clear regulatory framework exists; institutional participation enabled
-  Apply: regulatory_discount = 0.00 (no discount to commercial signal)
-  
-MEDIUM_HIGH (UK, Brazil):
-  Framework exists but newer or narrower than full EU/US clarity
-  Apply: regulatory_discount = 0.05 (minor uncertainty premium)
-  
-MEDIUM (Other jurisdictions with guidelines but not full frameworks):
-  Guidelines exist; interpretation uncertain
-  Apply: regulatory_discount = 0.10
-  
-LOW (Jurisdictions with no clear guidance):
-  No framework; token operation uncertain
-  Apply: regulatory_discount = 0.20 (significant uncertainty premium)
-  
-RESTRICTED (Jurisdictions with active prohibition):
-  Fan tokens prohibited or actively enforced against
-  Apply: regulatory_flag = RESTRICTED; do not generate commercial signals
-  
-KNOWN RESTRICTED JURISDICTIONS (as of 2026):
-  China: crypto assets broadly restricted
-  India: uncertain / evolving; MiCA-equivalent legislation pending
-  
-MONITORING RULE:
-  Regulatory frameworks change. Check for jurisdiction updates quarterly (Tier 4 freshness).
-  A jurisdiction moving from LOW to MEDIUM is a commercial opportunity event.
-  A jurisdiction moving from MEDIUM to RESTRICTED is a commercial risk event.
+CLASSIFICATION DISTINCTION (critical):
+  Digital commodities:
+    → Subject to CFTC derivatives oversight
+    → Eligible for regulated perpetual futures
+    → Examples: BTC, ETH (utility commodity classification)
+
+  Digital collectibles / digital tools (Fan Tokens):
+    → NOT digital commodities under this framework
+    → NOT eligible for this derivatives pathway directly
+    → Regulated separately as utility digital collectibles/tools per fan
+       token classification guidance
+
+  AGENT RULE:
+    Do not conflate digital commodity derivatives with fan token market
+    structure. They are separate regulatory frameworks with different
+    eligibility criteria and oversight bodies.
+
+FAN TOKEN RELEVANCE — MACRO CONTEXT ONLY:
+  The establishment of regulated crypto derivatives in the US is relevant
+  to fan tokens as macro context only:
+    → Legitimises the broader digital asset ecosystem in US regulatory eyes
+    → Increases institutional comfort with digital asset exposure generally
+    → Does NOT enable fan token perpetual futures directly
+    → Does NOT change fan token classification or trading framework
+
+  Apply as: INSTITUTIONAL_LEGITIMACY signal — macro positive context
+  Do NOT apply as: fan token derivatives enablement (it is not)
+
+AGENT RULE:
+  When assessing US macro context for fan tokens:
+    Digital commodity derivatives framework = positive macro context signal
+    Fan token classification remains: utility digital collectible/tool
+    Macro signal weight: LOW-MEDIUM (context only, no direct path)
+    Load macro/regulatory/us-token-taxonomy.md for full fan token
+    US classification framework.
 ```
 
 ---
