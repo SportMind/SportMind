@@ -1,5 +1,46 @@
 # Changelog
 
+## [4.0.7] — 2026-06-18
+
+### Added + Updated — Fan Token Play framework, 18-decimal migration, $CITY archetype, $SPAIN correction
+
+1 new file. 3 files updated. 749→751 files, 530→532 md.
+
+SMI: REQUIRED — new library file, four-way burn distinction replaces three-way.
+
+NEW — fan-token/fan-token-play.md (198L):
+  Fan Token Play dynamic mint/burn tokenomics framework.
+  Most significant supply mechanic since 2019 launch. April 2026, public testing.
+  Protocol-level treasury model: WIN=burn, LOSS=mint, DRAW=no change.
+  Supply guardrails: 75% stop-loss floor, burn credits, vesting cap.
+  PATH_2 prediction market model: $AFC trial only. 1/400 pre-liquidation.
+  Four-way burn distinction (replaces three-way):
+    1. CHZ buy-back burn (CHZ asset, revenue-linked, monthly)
+    2. Fan Token Play treasury (club tokens, match result trigger)
+    3. Fan Token Play PATH_2 ($AFC only, 90-min settlement)
+    4. Burn to Glory (national tokens, WIN tournament trigger)
+  All 14 Mind dimensions. Ethics: EMERGING. Communication: NOT APPLICABLE.
+
+UPDATED — fan-token/defi-integration-intelligence.md (142L → 176L):
+  18-Decimal Migration section added (April 2026).
+  Pre-April 2026: whole integer units only — DeFi exclusion barrier.
+  Post-migration: ERC-20 (Base) + SPL (Solana), 18 decimal places.
+  AMMs, lending, fractional LP now available. LayerZero OFT built on this.
+  Agent rule: pre-April DeFi exclusion reasoning now outdated.
+
+NEW — market/club-intelligence/city.md (103L):
+  Creative midfield conductor departure confirmed June 2026.
+  Nine-season tenure — system identity built around this archetype.
+  Contract expiry, free transfer, no fee received.
+  TRANSITION gate: ACTIVE. CDI ×0.92. Horizon 1-2.
+  Replacement: box-to-box/progressive profile (not like-for-like).
+  No named players. All 14 Mind dimensions.
+
+UPDATED — fan-token/registry/complete-registry.md (245L → 250L):
+  $SPAIN: Chain corrected to Chiliz Chain ONLY. Solana NOT confirmed.
+  Two-wave FTO structural pattern noted (per-user cap → unlimited).
+  Old "Pending" Solana status removed — registry accuracy rule applied.
+
 ## [4.0.6] — 2026-06-17
 
 ### Added + Updated — $SPAIN registry, $ACM coaching succession, $BAR squad addition

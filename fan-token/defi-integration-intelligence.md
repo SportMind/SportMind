@@ -12,6 +12,40 @@ DeFi modifiers affect demand signal confidence. They do not affect PATH_2 supply
 
 ---
 
+## 18-Decimal Migration — April 2026
+
+```
+PRIOR ARCHITECTURE (pre-April 2026):
+  Fan Tokens existed as whole integer units only (e.g. 5 tokens, not 4.7).
+  This created a structural DeFi exclusion barrier:
+    · AMMs could not price Fan Tokens efficiently
+    · Lending protocols rejected Fan Tokens as incompatible
+    · Fractional liquidity provision was impossible
+    · DeFi composability blocked at the token standard level
+
+APRIL 2026 MIGRATION — 18 DECIMAL PLACES:
+  Fan Tokens migrated to 18 decimal precision across all chains:
+    · Base: now ERC-20 compatible (18 decimals) — full DeFi primitive access
+    · Solana: now SPL Token standard (18 decimals) — AMM and lending compatible
+    · Chiliz Chain: underlying architecture updated
+  Omnichain architecture (LayerZero OFT standard) built on this foundation —
+  unified supply representation across chains enabled by shared decimal standard.
+
+IMPLICATIONS FOR AGENT REASONING:
+  Any reasoning about Fan Token DeFi exclusion based on pre-April 2026
+  architecture is now outdated. 18-decimal Fan Tokens are DeFi-native assets.
+  AMMs, lending protocols, and liquidity provision are now available.
+  Model Fan Token DeFi depth using current post-migration architecture.
+
+AGENT RULE:
+  Do not apply pre-April 2026 DeFi exclusion logic to Fan Token signals.
+  18-decimal migration is permanent — architecture does not revert.
+  Load fan-token/registry/bridge-supported.md for DeFi platform details
+  per chain (Jupiter/Orca/Solana · Aerodrome/Base · Meteora/national tokens).
+```
+
+---
+
 ## Liquidity pool reasoning
 
 ```

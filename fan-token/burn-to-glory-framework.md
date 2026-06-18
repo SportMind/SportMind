@@ -197,4 +197,5 @@ VERIFICATION REQUIREMENT:
 
 *SportMind v4.0.2 · MIT License · sportmind.dev*
 *Enduring framework — applies to any tournament with confirmed Burn to Glory activation.*
+*See fan-token/fan-token-play.md for the full four-way burn mechanic distinction.*
 *All 14 Mind dimensions mapped.*
