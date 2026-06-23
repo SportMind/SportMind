@@ -1,5 +1,31 @@
 # Changelog
 
+## [4.0.8] — 2026-06-19
+
+### Updated — $SPAIN Solana confirmation, registry correction
+
+0 new files. 2 files updated. Counts unchanged: 751/532.
+
+SMI: NOT REQUIRED — registry correction only, no new mechanics.
+
+UPDATED — fan-token/registry/complete-registry.md:
+  $SPAIN: Solana status NOT CONFIRMED → CONFIRMED.
+  DeFi platforms: Meteora + Jupiter (matches existing national token pattern).
+  Exchange listings added: Bit2Me, Paribu (in addition to Socios.com).
+  Chiliz Chain: unchanged (confirmed).
+  Burn to Glory: unchanged — still NOT confirmed. Note added requiring
+  direct verification before any status change (indirect six-asset
+  reference found but not treated as confirmation).
+  National tokens Solana note updated to include $SPAIN.
+
+UPDATED — fan-token/registry/bridge-supported.md:
+  $SPAIN added to national team tokens omnichain list
+  (Chiliz Chain + Solana, confirmed June 2026).
+  Consistency fix — bridge-supported.md and complete-registry.md
+  must agree on which national tokens have confirmed Solana access.
+
+Resolves v4.0.7 open item (Solana status flagged NOT CONFIRMED).
+
 ## [4.0.7] — 2026-06-18
 
 ### Added + Updated — Fan Token Play framework, 18-decimal migration, $CITY archetype, $SPAIN correction

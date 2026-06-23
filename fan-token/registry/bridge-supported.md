@@ -33,11 +33,12 @@ $PSG  — Paris Saint-Germain
 NATIONAL TEAM TOKENS — Chiliz Chain + Solana only (two chains):
 
 ```
-$ARG  — Argentina National Team
-$POR  — Portugal National Team
-$SAFA — South Africa National Team
-$SFA  — Scotland National Team
-$BELG — Belgium National Team
+$ARG   — Argentina National Team
+$POR   — Portugal National Team
+$SAFA  — South Africa National Team
+$SFA   — Scotland National Team
+$BELG  — Belgium National Team
+$SPAIN — Spain National Team (Solana confirmed June 2026)
 ```
 
 CRITICAL DISTINCTION:
