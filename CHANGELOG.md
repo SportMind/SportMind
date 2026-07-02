@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.0.9] — 2026-06-19
+
+### Updated — MiCA enforcement doctrine, hard deadline framework
+
+0 new files. 1 file updated. Counts unchanged: 751/532.
+
+SMI: NOT REQUIRED — regulatory framework strengthening only, no new mechanics.
+
+UPDATED — macro/macro-regulatory-sportfi.md (1221L → 1263L):
+  New subsection added to existing EU MiCA section:
+  TRANSITIONAL DEADLINE ENFORCEMENT DOCTRINE (Article 143(3) grandfathering)
+
+  Binary authorization standard: CASP is either authorized or not —
+  no intermediate "pending" status, no per-firm extensions.
+  Historical enforcement pattern: low conversion rates from pre-MiCA
+  national registrations typical during transitional deadlines —
+  context for future EU regulatory transition risk assessment.
+  Chiliz/Socios Europe Services Limited: CONFIRMED AUTHORIZED,
+  unaffected by this enforcement wave (status unchanged from Sept 2025).
+
+  Excluded per Library Rule: specific firm counts, exchange names,
+  conversion percentages, and the July 1 2026 date itself —
+  all briefing-only content, not encoded in library.
+
 ## [4.0.8] — 2026-06-19
 
 ### Updated — $SPAIN Solana confirmation, registry correction

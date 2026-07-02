@@ -69,6 +69,37 @@ AGENT IMPLICATIONS:
   Tokens without MiCA-compliant whitepapers: apply regulatory_risk_flag
   Cross-border EU fan token activity: standard; MiCA creates unified framework
 
+TRANSITIONAL DEADLINE ENFORCEMENT DOCTRINE (Article 143(3) grandfathering):
+  MiCA transitional periods for pre-existing crypto-asset service providers
+  end on a hard boundary — confirmed by ESMA as structural enforcement
+  doctrine, not case-by-case discretion.
+
+  BINARY AUTHORIZATION STANDARD:
+    A CASP is either authorized or not authorized under MiCA.
+    There is no partial compliance state, no intermediate "pending"
+    authorization status, and no grace period recognized once a
+    transitional deadline passes.
+    No extensions are granted on a per-firm basis.
+
+  HISTORICAL ENFORCEMENT PATTERN:
+    Low conversion rates from pre-MiCA national registrations to full
+    CASP authorization are typical during transitional deadlines.
+    This is relevant context for assessing future EU regulatory
+    transition risk for any crypto-adjacent partner or platform.
+
+  AGENT RULE:
+    When assessing EU regulatory risk for a fan token platform or
+    partner, treat MiCA transitional deadlines as binary enforcement
+    events — not negotiable dates. A firm operating past its
+    transitional deadline without full authorization is non-compliant,
+    not "in process."
+
+CHILIZ/SOCIOS EU AUTHORIZATION STATUS:
+  Chiliz/Socios Europe Services Limited: CONFIRMED AUTHORIZED.
+  This status is unaffected by transitional deadline enforcement waves
+  affecting other CASPs — Chiliz's EU operations hold full authorization
+  independent of any single enforcement deadline event.
+
 WHAT MiCA DOES NOT COVER:
   Revenue-sharing tokens (potential securities): national securities law applies
   This is why Phase 5e (revenue-sharing Fan Tokens) requires separate legal analysis
