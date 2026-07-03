@@ -4,7 +4,7 @@ description: >
   Enduring framework for performance-linked treasury burn mechanics in fan tokens.
   Applies to any tournament where a token issuer implements a progressive burn
   schedule tied to match progression. First confirmed instance: FIFA World Cup 2026
-  (Chiliz/Socios — five national team tokens).
+  (Chiliz/Socios — six national team tokens).
   Load alongside fan-token/national-team-tokens.md and fan-token/ftp-path2.md.
 ---
 
@@ -45,7 +45,7 @@ BURN TO GLORY:
   Trigger:  Team WIN in tournament match
   Scale:    Progressive — Group 1% → Final 10% (~25.18% compound max)
   User:     UNAFFECTED — treasury burn only
-  Confirmed: $ARG · $POR · $BELG · $SAFA · $SFA
+  Confirmed: $ARG · $POR · $BELG · $SAFA · $SFA · $SPAIN
 
 FTP PATH_2:
   What:     Pre-liquidation market settlement — prediction market model
@@ -171,7 +171,7 @@ VERIFICATION REQUIREMENT:
 | Intelligence | ACTIVE | Burn to Glory mechanic intelligence: schedule, source, compound effect |
 | Reasoning | ACTIVE | Reasoning chain from match result to treasury burn to supply signal |
 | Context | ACTIVE | Tournament context: stage, round, macro regime, occasion weight |
-| Memory | ACTIVE | Burn to Glory first confirmed instance: WC2026 — five national tokens |
+| Memory | ACTIVE | Burn to Glory first confirmed instance: WC2026 — six national tokens |
 | Judgment | ACTIVE | Judgment on burn signal materiality — progressive scale requires stage awareness |
 | Attention | ACTIVE | Maximum attention at knockout rounds — burn percentage increases sharply |
 | Communication | ACTIVE | Output always states: stage, burn %, treasury source, macro regime modifier |

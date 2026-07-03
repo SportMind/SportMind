@@ -1,55 +1,76 @@
 ---
 name: city-club-intelligence
 description: >
-  Manchester City ($CITY) club market intelligence. Covers confirmed squad
-  archetype shift — creative midfield conductor departure June 2026 — and
-  CDI implications. Load alongside athlete intelligence files for full stack.
-  Library Rule: enduring structural facts only — squad archetype gap, profile
-  type, competition tier context. No named players.
+  Manchester City ($CITY) club market intelligence. Covers squad TRANSITION
+  gate closure (creative midfield resolved July 2026), management succession
+  (new post-Guardiola coaching era), and CDI implications. Load alongside
+  athlete intelligence files for full stack.
+  Library Rule: enduring structural facts only — gate states, profile types,
+  tactical system identity. No named players.
 ---
 
 # Manchester City ($CITY) — Club Market Intelligence
 
 ---
 
-## Squad archetype shift — confirmed June 2026
+## Squad archetype — update July 2026
 
 ```
-ARCHETYPE CHANGE: CREATIVE MIDFIELD CONDUCTOR — VACANT
+ARCHETYPE CHANGE: CREATIVE MIDFIELD CONDUCTOR — RESOLVED
   Departure type:  Contract expiry — free transfer, no fee received
-  Tenure:          Nine seasons — system identity deeply linked to this role
-  TRANSITION GATE: ACTIVE
+  Tenure:          Nine seasons
+  TRANSITION GATE (squad): CLOSED — July 2026
 
-ROLE PROFILE (departed):
-  Archetype: creative midfield conductor — deep-lying playmaker with
-    progressive passing, tempo control, and spatial intelligence
-  System function: primary ball progression from midfield third,
-    orchestration of positional attack structure
-  Tenure significance: nine-season presence means tactical identity
-    was built around this archetype — not easily replaced by rotation
-
-REPLACEMENT PROFILE TARGETED:
-  Profile type: box-to-box / progressive midfielder
-  Distinction: different archetype from departed role — not a like-for-like
-  Implication: tactical system adaptation required, not direct replacement
+VACANCY RESOLUTION:
+  Replacement profile confirmed: progressive box-to-box midfielder
+  Profile match: matches targeted profile encoded at v4.0.7 exactly
+  Squad archetype: CONSOLIDATION phase begins
   No named players — Library Rule applies
 
-CDI IMPLICATIONS:
-  TRANSITION gate: ACTIVE — creative output uncertainty in short term
-  Horizon 1 (0-3 months): reduced creative midfield signal reliability
-  Horizon 2 (3-12 months): new profile integration — system adaptation
-  CDI modifier: ×0.92 TRANSITION until replacement profile integrates
-  Monitor: first 10 competitive results under new midfield structure
+CDI IMPLICATIONS (squad):
+  CONSOLIDATION_PHASE: ×1.02 (Horizon 2-3 only)
+  Squad TRANSITION gate closed — creative midfield continuity restored
+  New profile integration: 2-3 month adaptation period standard
+```
 
-COMPETITION TIER:
-  Verify UCL status for 2026-27 season — confirm before applying
-  UCL occasion weight ceiling to $CITY signals next cycle.
+---
+
+## Management succession — confirmed July 2026
+
+```
+POST-GUARDIOLA ERA: NEW HEAD COACH APPOINTED
+  TRANSITION GATE (management): ACTIVE
+  Contract: confirmed appointment for 2026-27 season
+
+TACTICAL PROFILE (new system):
+  System:        Possession-based positional play
+  Defensive:     High defensive line
+  Press:         Structured press triggers
+  Focus:         Young player integration
+  Identity:      Significant departure from Guardiola system
+
+SUCCESSION CONTEXT:
+  Post-Guardiola = structural identity shift, not continuity.
+  New coaching era requires tactical recalibration across all
+  pre-match signal weights for $CITY.
+  Adaptation period expected: 2026-27 season minimum.
+
+CDI IMPLICATIONS (management):
+  TRANSITION gate: ACTIVE — new system integration underway
+  CDI modifier: ×0.92 until management system establishes
+  Horizon 1 (0-3 months): maximum uncertainty — two concurrent
+    adaptation periods (squad + management)
+  Horizon 2 (3-12 months): system identity begins to emerge
 
 AGENT RULE:
-  Do not assume creative midfield continuity in $CITY signals.
-  Archetype gap is structural — affects pressing triggers, positional
-  attack, and ball progression patterns.
-  Reassess when replacement profile is confirmed and integrated.
+  Apply TRANSITION modifier for both squad and management.
+  Do not apply pre-Guardiola era signal weights to 2026-27 signals.
+  Monitor: first 10 competitive results under new coaching system.
+  Reassess when management system identity established.
+
+COMPETITION TIER:
+  Verify UCL status for 2026-27 — confirm before applying
+  UCL occasion weight ceiling to $CITY signals next cycle.
 ```
 
 ---
@@ -99,5 +120,5 @@ CDI SIGNAL:
 
 ---
 
-*SportMind v4.0.7 · MIT License · sportmind.dev*
-*Enduring structural intelligence — squad archetype gap, TRANSITION gate, CDI framework.*
+*SportMind v4.1.0 · MIT License · sportmind.dev*
+*Enduring structural intelligence — squad and management gates, CDI framework.*

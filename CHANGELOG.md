@@ -1,5 +1,49 @@
 # Changelog
 
+## [4.1.0] — 2026-07-03
+
+### Added + Updated — $SPAIN sixth Burn to Glory token, $CITY gates, $SPURS archetype, AI agent economy
+
+2 new files. 3 files updated. 751→753 files, 532→534 md.
+
+SMI: REQUIRED — new platform file, structural update to Burn to Glory count.
+
+UPDATED — fan-token/burn-to-glory-framework.md:
+  $SPAIN confirmed as sixth Burn to Glory participant (Tier 1 source).
+  All "five" references updated to "six":
+    · Frontmatter description
+    · Confirmed token list: $ARG · $POR · $BELG · $SAFA · $SFA · $SPAIN
+    · MIND DIMENSIONS memory note
+
+UPDATED — fan-token/registry/complete-registry.md:
+  $SPAIN Burn to Glory: NOT confirmed → CONFIRMED.
+  Sixth participant confirmed via Tier 1 source. Same progressive
+  burn scale as original five tokens.
+
+UPDATED — market/club-intelligence/city.md (103L → 124L):
+  Squad TRANSITION gate CLOSED — creative midfield vacancy resolved July 2026.
+  Replacement: progressive box-to-box profile (matches v4.0.7 target exactly).
+  CONSOLIDATION_PHASE ×1.02 begins.
+  Management succession section added — post-Guardiola era.
+  New tactical system: possession-based positional play, high defensive line,
+  structured press, young player integration. TRANSITION gate ACTIVE (management).
+  Two concurrent adaptation periods: squad + management.
+
+NEW — market/club-intelligence/spurs.md:
+  Tottenham Hotspur squad archetype shift confirmed July 2026.
+  From: relegation-survival squad. To: INVESTMENT/REBUILD phase.
+  CONSOLIDATION gate: not yet active — 2026-27 season assessment required.
+  CDI horizon: MEDIUM — positive trajectory, unproven at top-flight level.
+  No named players. All 14 Mind dimensions.
+
+NEW — platform/ai-agent-economy.md:
+  Fan Token intelligence in the commercial AI agent economy (2026).
+  Two-layer distinction: SportMind (enduring framework) vs live providers
+  (perishable data). Neither is sufficient alone.
+  Agent type relevance: Types 4-7 mapped.
+  SportMind positioning: 130+ calibration records at 96%+ as accuracy foundation.
+  Ethics NOT APPLICABLE. Calibration EMERGING. All 14 Mind dimensions.
+
 ## [4.0.9] — 2026-06-19
 
 ### Updated — MiCA enforcement doctrine, hard deadline framework
