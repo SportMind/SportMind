@@ -1,5 +1,35 @@
 # Changelog
 
+## [4.1.1] — 2026-07-03
+
+### Added — UK cryptoasset regime + global regulatory landscape
+
+2 new files. 0 files updated. 753→755 files, 534→536 md.
+
+SMI: REQUIRED — two new regulatory framework files.
+
+NEW — macro/regulatory/uk-cryptoasset-regime.md:
+  UK FSMA (Cryptoassets) Regulations 2026 — enduring structural framework.
+  FCA authorisation regime: binary gate (authorised or not, no middle ground).
+  Admissions and disclosures (A&D) regime: white paper requirement for
+  UK fan token public offers — structural documentation burden encoded.
+  AML-only registrations do not convert — separate FCA application required.
+  Unauthorised activity = criminal offence (hard enforcement boundary).
+  UK gate independent of EU MiCA — both must be verified separately.
+  All 14 Mind dimensions. Calibration: EMERGING.
+
+NEW — macro/regulatory/global-regulatory-landscape.md:
+  Four-tier jurisdiction classification system.
+  Tier 1 (binary gate): EU, UK, Japan, Singapore.
+  Tier 2 (developing): Hong Kong, South Korea, Brazil, Australia.
+  Tier 3 (suppressed): India (30% tax), China (ban).
+  Tier 4 (not in scope): Africa, SE Asia ex-Singapore, Central Asia.
+  Multi-jurisdiction four-step gate reasoning framework.
+  CHZ CAPITULATION ×0.70 applies globally — gate closure takes precedence.
+  FATF Travel Rule, BIS 1,250% risk weight, FSB/IOSCO standard-setters.
+  Tier upgrade monitoring: Tier 2→1 requires enacted framework + enforcement.
+  All 14 Mind dimensions. Calibration: EMERGING.
+
 ## [4.1.0] — 2026-07-03
 
 ### Added + Updated — $SPAIN sixth Burn to Glory token, $CITY gates, $SPURS archetype, AI agent economy
