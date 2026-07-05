@@ -1,5 +1,51 @@
 # Changelog
 
+## [4.1.2] — 2026-07-05
+
+### Updated — UK cryptoasset regime FCA final rules confirmed
+
+0 new files. 1 file updated. Counts unchanged: 755/536.
+
+SMI: NOT REQUIRED — regulatory framework update, no new mechanics.
+
+UPDATED — macro/regulatory/uk-cryptoasset-regime.md (210L → 272L):
+  New section: ## Confirmed regime details — FCA final rules (June 2026)
+  Additive to v4.1.1 binary gate structure — existing sections unchanged.
+
+  CONFIRMED REGULATED ACTIVITIES SCOPE (six activities):
+    Operating a qualifying cryptoasset trading platform
+    Dealing in qualifying cryptoassets (principal or agent)
+    Arranging deals in qualifying cryptoassets
+    Safeguarding of qualifying cryptoassets
+    Issuing qualifying stablecoins
+    Qualifying cryptoasset staking
+
+  CONFIRMED REGIME TIMELINE (framework milestones):
+    Legislation enacted: February 2026
+    Final rules published: June 2026
+    Authorisation gateway: Q4 2026
+    Application window: Q4 2026 – Q1 2027
+    Full regime in effect: Q4 2027
+    Specific dates labelled as perishable — SMI briefing for current status.
+
+  CONFIRMED TRANSITION PERIOD RULE:
+    Until Q4 2027 go-live: FCA oversight limited to financial promotions
+    and AML/MLR controls only. Full FSMA authorisation not yet required.
+
+  SAVING PROVISION:
+    Firms applying within window: may continue operating post go-live.
+    Firms applying after window: must cease UK business at go-live.
+    Binary saving provision — in-window or not.
+
+  FCA PERIMETER GUIDANCE NOTE:
+    FCA perimeter statement due Q3 2026 — will clarify fan token
+    issuer/platform scope. Monitor SMI when published.
+
+  AGENT RULE UPDATED:
+    Regime not yet in full force (go-live Q4 2027).
+    During transition: financial promotions + AML only.
+    From Q4 2027: full binary gate applies.
+
 ## [4.1.1] — 2026-07-03
 
 ### Added — UK cryptoasset regime + global regulatory landscape

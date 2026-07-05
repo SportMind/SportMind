@@ -195,6 +195,68 @@ UK REGIME vs EU MiCA:
 
 ---
 
+## Confirmed regime details — FCA final rules (June 2026)
+
+```
+CONFIRMED REGULATED ACTIVITIES SCOPE:
+  · Operating a qualifying cryptoasset trading platform
+  · Dealing in qualifying cryptoassets (as principal or agent)
+  · Arranging deals in qualifying cryptoassets
+  · Safeguarding of qualifying cryptoassets
+  · Issuing qualifying stablecoins
+  · Qualifying cryptoasset staking
+
+CONFIRMED REGIME TIMELINE (framework milestones):
+  Legislation enacted:        February 2026
+  Final rules published:      June 2026
+  Authorisation gateway:      Q4 2026
+  Application window:         Q4 2026 – Q1 2027
+  Full regime in effect:      Q4 2027
+
+  Note: specific dates within these quarters are perishable —
+  check FCA register and SMI briefing for current status.
+  The milestone structure is enduring framework architecture.
+
+CONFIRMED TRANSITION PERIOD RULE:
+  Until full regime go-live (Q4 2027), FCA oversight is LIMITED:
+    · Financial promotions controls: ACTIVE during transition
+    · AML/MLR controls: ACTIVE during transition
+    · Full FSMA authorisation: NOT required during transition
+  Firms must prepare and apply during the window to benefit
+  from the saving provision (continuity of operations if
+  application undetermined at go-live).
+
+SAVING PROVISION (enduring structural rule):
+  Firms applying within the authorisation window:
+    May continue operating after go-live while application
+    is being determined by the FCA.
+  Firms applying after the window:
+    No saving provision — must cease UK cryptoasset business
+    at go-live if not yet authorised.
+  This is a binary saving provision — in-window or not.
+
+FCA PERIMETER GUIDANCE:
+  FCA perimeter statement due Q3 2026. This will clarify whether
+  specific fan token activities constitute "arranging deals" or
+  "operating a trading platform" under UK perimeter rules.
+  Check SMI briefing once published — may affect fan token
+  issuer/platform scope assessment.
+
+AGENT RULE (updated — regime not yet in full force):
+  UK cryptoasset regime is NOT yet fully in effect.
+  DURING TRANSITION (until Q4 2027):
+    Assess UK exposure via financial promotions and AML/MLR
+    controls only. Full binary authorisation gate not yet active.
+  FROM Q4 2027 GO-LIVE:
+    Full FCA authorisation required for all in-scope activities.
+    Binary gate applies — authorised or not, no middle ground.
+  Fan token issuers and platforms: assess whether activities
+  constitute "arranging deals" or "operating a trading platform"
+  under UK perimeter rules. Monitor FCA perimeter statement.
+```
+
+---
+
 ## Compatibility
 
 **National team demand:** `fan-token/national-team-tokens.md`
@@ -205,6 +267,6 @@ UK REGIME vs EU MiCA:
 
 ---
 
-*SportMind v4.1.1 · MIT License · sportmind.dev*
+*SportMind v4.1.2 · MIT License · sportmind.dev*
 *Enduring framework — UK FCA cryptoasset regime under FSMA 2026.*
 *All 14 Mind dimensions mapped.*
