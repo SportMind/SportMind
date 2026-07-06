@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.1.3] — 2026-07-06
+
+### Updated — $SPAIN registry and national team tokens entry
+
+0 new files. 2 files updated. Counts unchanged: 755/536.
+
+SMI: REQUIRED — registry update, new $SPAIN national team entry with WC2026 burn history.
+
+Gap identified during Spain vs Portugal WC2026 R16 calibration record (2026-07-06).
+$SPAIN was a confirmed Burn to Glory participant but lacked a formal national-team-tokens.md
+block entry and WC2026 burn history in the registry notes.
+
+UPDATED — fan-token/registry/complete-registry.md:
+  $SPAIN notes updated with WC2026 burn history:
+    5 confirmed burns through R16 (group stage ×3 at 1% · R32 ×1 at 2% · R16 ×1 at 2.5%)
+    QF: Spain advance — next burn rate 5% if Spain win QF
+  Note: brief cited "4 confirmed burns" — corrected to 5 (the listed breakdown = 5 events)
+  Last verified: June 2026 → July 2026
+
+UPDATED — fan-token/national-team-tokens.md (426L → 436L):
+  $SPAIN — Spain National Team block entry added above ALL OTHER NATIONAL TEAM CLAIMS
+  RFEF × Socios/Chiliz partnership. Verification sources. Burn to Glory CONFIRMED WC2026.
+  WC2026 burn history and QF advancement noted.
+
 ## [4.1.2] — 2026-07-05
 
 ### Updated — UK cryptoasset regime FCA final rules confirmed

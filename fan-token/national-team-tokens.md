@@ -418,6 +418,16 @@ SPORTMIND VERIFIED REGISTRY — NATIONAL TEAM TOKENS:
     FTO: June 2026 (completed) · Supply: 2,000,000 tokens
     Burn to Glory: CONFIRMED participant — WC2026
 
+  $SPAIN — Spain National Team
+    Partnership: Royal Spanish Football Federation (RFEF) x Socios/Chiliz
+    Verification: socios.com · chiliscan.com · RFEF official channels
+    Classification: confirmed official Fan Token — national team category
+    Chain: Chiliz Chain + Solana (DeFi: Meteora + Jupiter)
+    Burn to Glory: CONFIRMED participant — WC2026
+    WC2026 burn history: 5 confirmed burns through R16
+      Group stage ×3 (1% each) · R32 ×1 (2%) · R16 ×1 (2.5%)
+      QF: Spain advance — next burn rate 5% if Spain win QF
+
   ALL OTHER NATIONAL TEAM TOKEN CLAIMS: UNVERIFIED
     Any token claiming national team affiliation not listed above must be
     verified through the four-source methodology before any signal is applied.

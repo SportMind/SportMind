@@ -44,7 +44,7 @@ Omnichain club tokens (Solana + Base):      5
 Omnichain national tokens (Solana only):    5
 Fan Token Play confirmed:             1 ($AFC only)
 
-Last verified: June 2026
+Last verified: July 2026
 ```
 
 ---
@@ -198,7 +198,7 @@ Verification methodology differs — see chain-specific explorers.
 | Partner | Ticker | Sport | Partnership | Chain | Trading | Fan Token Play | Omnichain | Address | Old Address | Wrapped Address | Socios Listed | Official Confirmed | FanTokens.com URL | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Spain National Football | SNFT | Football (National) | Active | BITCI | Active | No | No | 0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C | N/A | N/A | No | Yes | https://www.fantokens.com/trade/spain-national-football-team | BITCI chain — 18-decimal migration not applicable |
-| Spain National Football | SPAIN | Football (National) | Active | Socios/Chiliz | Active | No | No | Chiliz Chain confirmed | N/A | N/A | CONFIRMED | NOT CONFIRMED | https://www.socios.com | Socios/Chiliz launch June 2026. Chain: Chiliz Chain CONFIRMED + Solana CONFIRMED (DeFi: Meteora + Jupiter) — Base NOT confirmed. Exchange listings: Socios.com, Bit2Me, Paribu. Burn to Glory: CONFIRMED — sixth participant confirmed via Tier 1 source. Same progressive burn scale as original five tokens. Two-wave FTO model (fixed-price, per-user cap wave → unlimited wave). Distinct from $SNFT (BITCI legacy token). |
+| Spain National Football | SPAIN | Football (National) | Active | Socios/Chiliz | Active | No | No | Chiliz Chain confirmed | N/A | N/A | CONFIRMED | NOT CONFIRMED | https://www.socios.com | Socios/Chiliz launch June 2026. Chain: Chiliz Chain CONFIRMED + Solana CONFIRMED (DeFi: Meteora + Jupiter) — Base NOT confirmed. Exchange listings: Socios.com, Bit2Me, Paribu. Burn to Glory: CONFIRMED — sixth participant. WC2026 burn history: 5 confirmed burns through R16 (group stage ×3 at 1% each · R32 ×1 at 2% · R16 ×1 at 2.5%). QF: Spain advance — next burn rate 5% if Spain win QF. Two-wave FTO model. Distinct from $SNFT (BITCI legacy token). |
 | Brazil National | BFT | Football (National) | Active | BITCI | Active | No | No | 0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B | N/A | N/A | No | Yes | https://www.fantokens.com/trade/brazil-national-football-team | BITCI chain — 18-decimal migration not applicable |
 | FC Porto | PORTO | Football (League) | Active | BNB | Active | No | No | 0x49f2145d6366099e13B10FbF80646C0F377eE7f6 | N/A | N/A | No | Yes | https://www.fantokens.com/trade/fc-porto-fan-token | |
 | Lazio | LAZIO | Football (League) | Active | BNB | Active | No | No | 0x77d547256a2cd95f32f67ae0313e450ac200648d | N/A | N/A | No | Yes | https://www.fantokens.com/trade/lazio-fan-token | |
