@@ -123,7 +123,7 @@ CHZ REGIME INTERACTION:
 ```
 ACTUAL RESULT:      Spain 1-0 Portugal
 WINNING TEAM:       Spain
-SCORE:              1-0 (90 min)
+SCORE:              1-0 (90 min + stoppage time)
 SCORER:             Mikel Merino (90+1') · assist: Ferran Torres (sub)
 EXTRA TIME:         NO
 PENALTIES:          NO
