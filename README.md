@@ -9,9 +9,9 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-4.0.0-green)]()
+[![Version](https://img.shields.io/badge/version-4.1.3-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
-[![Calibration](https://img.shields.io/badge/calibration-130%20records%20%7C%2096%25%2B%20accuracy-green)]()
+[![Calibration](https://img.shields.io/badge/calibration-134%20records%20%7C%2096%25%2B%20accuracy-green)]()
 [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
@@ -77,7 +77,7 @@ python examples/starter-pack/01-simple-signal.py
 
 ---
 
-## Five layers — one system
+## Six layers — one system
 
 | Layer | Directory | What it teaches |
 |---|---|---|
@@ -86,6 +86,7 @@ python examples/starter-pack/01-simple-signal.py
 | **3 — Fan token commercial** | `fan-token/` (64 skills) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
 | **4 — Market intelligence** | `market/` (43 docs) | Commercial tier; fanbase; sports equity signals; competition calendar |
 | **5 — Macro intelligence** | `macro/` (9 docs) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
+| **6 — Deployment** | `core/` | Reasoning chains; agent frameworks; failure modes; MCP server |
 
 **Load order:** macro → market → sport domain → athlete → fan token → output schema
 
@@ -199,7 +200,7 @@ any LLM (skills are structured markdown, not API wrappers).
 
 ## The calibration record
 
-130 records. 96%+ accuracy. Zero wrong-direction records outside European football draws.
+134 records. 96%+ accuracy. Zero wrong-direction records outside European football draws.
 
 All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
 before real matches. Includes all wrong predictions with root-cause analysis.

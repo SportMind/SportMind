@@ -25,7 +25,7 @@ request yourself (email works too). You just need to:
 
 ## Why this matters
 
-SportMind has 126 validated calibration records. All 126 were submitted by
+SportMind has 134 validated calibration records. All 134 were submitted by
 the founding team from carefully selected historical events. That means the
 library's modifiers have been validated by one team, not by a community.
 
