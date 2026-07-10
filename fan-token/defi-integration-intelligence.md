@@ -126,6 +126,49 @@ AGENT RULE:
 
 ---
 
+## CEX Perpetual Futures — New Demand Layer (2026)
+
+```
+Fan token perpetual futures are now established as a distinct demand layer
+on major centralised exchanges (CEX) alongside spot trading and DEX pools.
+Established July 2026.
+
+THREE-LAYER DEMAND STRUCTURE:
+  Layer 1 — SPOT TRADING:
+    Traditional buy/sell on CEX and DEX platforms.
+    Direct token ownership. Primary liquidity source.
+
+  Layer 2 — DEX LIQUIDITY:
+    AMM pools on Solana (Jupiter/Meteora) and Base (Aerodrome).
+    Established April 2026 via 18-decimal migration.
+    Fractional positions, LP rewards, auto-compound.
+
+  Layer 3 — CEX PERPETUAL FUTURES (new, July 2026):
+    Leverage trading of fan token price exposure without token ownership.
+    Available for both club tokens and national team tokens.
+    Leverage tiers vary by token — major club tokens carry higher maximums.
+    Primary user base: Asia and MENA region CEX traders.
+    Opens fan token price exposure to a trader segment that does not
+    hold spot positions — separate demand dynamic from holder base.
+
+SIGNAL IMPLICATIONS:
+  Perp open interest = sentiment signal, NOT a supply event.
+  Perp volume ≠ spot demand — different instruments, different users.
+  Perp funding rate direction = short-term directional sentiment signal.
+  Do not apply Layer 3 volume to Layer 1 spot baseline comparisons.
+
+AGENT RULE:
+  CEX perpetual futures volume is a SEPARATE demand signal from
+  spot fan token demand. Do not conflate.
+  Apply FM8 (Liquidity Illusion) when comparing perp volume to
+  spot baseline — different instruments, different liquidity profile.
+  A surge in perp open interest is a sentiment signal, not a supply event.
+  Load fan-token/agent-failure-modes-fan-token.md FM8 when reasoning
+  about perp volume relative to spot fan token signals.
+```
+
+---
+
 ## DeFi signal priority hierarchy
 
 ```

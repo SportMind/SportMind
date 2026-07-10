@@ -1,5 +1,61 @@
 # Changelog
 
+## [4.1.5] — 2026-07-10
+
+### Updated — CEX fan token perpetual futures demand layer
+
+0 new files. 2 files updated. Counts unchanged.
+
+SMI: NOT REQUIRED — demand layer update, no new mechanics.
+
+UPDATED — fan-token/defi-integration-intelligence.md (176L → 219L):
+  New section: ## CEX Perpetual Futures — New Demand Layer (2026)
+  Three-layer demand structure documented:
+    Layer 1: Spot trading (existing)
+    Layer 2: DEX liquidity — Solana/Base pools (April 2026)
+    Layer 3: CEX perpetual futures (July 2026) — new
+  Club and national team tokens both included.
+  Perp open interest = sentiment signal, NOT supply event.
+  FM8 (Liquidity Illusion) cross-referenced for perp vs spot comparison.
+  LBank not named — capability encoded, not tied to named exchange.
+
+UPDATED — fan-token/registry/complete-registry.md:
+  "CEX perp futures available (July 2026)." note added to nine tokens:
+  $PSG · $BAR · $ATM · $JUV · $CITY · $AFC · $GAL · $ARG · $POR
+  Encoded as capability, not tied to named exchange.
+
+## [4.1.4] — 2026-07-10
+
+### Added — Fan token agent failure modes framework
+
+1 new file. Counts updated: +1 file, +1 md.
+
+SMI: REQUIRED — new fan token intelligence framework.
+
+NEW — fan-token/agent-failure-modes-fan-token.md (335L):
+  Eight structural failure modes for AI agent reasoning on fan token signals.
+  Companion to core/agent-failure-modes.md (general sports intelligence).
+
+  FM1 Price-Signal Conflation: price ≠ club signal; separate CHZ macro,
+    liquidity noise, ecosystem signal, and club signal components.
+  FM2 Supply Event Misclassification: confirm on-chain trigger before
+    applying any supply event; four-way burn distinction applies.
+  FM3 Temporal Decay Blindness: flag stale squad, manager, competition tier;
+    minimum version date check before applying club intelligence.
+  FM4 Sentiment Source Contamination: distinguish organic fan signal,
+    promotional activity, and speculative trader noise — different CDI weights.
+  FM5 Outcome Extrapolation: apply occasion weight and opponent quality;
+    minimum 5 results before structural CDI conclusion.
+  FM6 Regulatory Status Assumption: fan token classification varies by
+    jurisdiction; never apply general crypto rules without checking specific file.
+  FM7 Cross-Token Signal Bleed: correlated signal across 3+ tokens =
+    ecosystem signal, not club CDI; apply at macro layer only.
+  FM8 Liquidity Illusion: low volume is structural norm for fan tokens;
+    compare against token baseline, not liquid market norms.
+
+  Calibration note: explicit failure mode flag format defined for output.
+  All 14 Mind dimensions. Library Rule PASSES.
+
 ## [4.1.3] — 2026-07-06
 
 ### Updated — $SPAIN registry and national team tokens entry
