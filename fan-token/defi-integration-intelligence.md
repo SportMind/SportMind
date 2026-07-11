@@ -100,6 +100,11 @@ WRAPPED SUPPLY ABOVE 5% OF TOTAL SUPPLY:
 
 ## DEX Campaign Volume — Structural Demand Lever
 
+Chiliz-native Fan Token DEX: KayenFi (also referenced as Kayen DEX).
+Purpose-built for Fan Token on-chain trading on Chiliz Chain.
+Note: platform names may evolve — encode as "Chiliz-native Fan Token DEX
+(KayenFi / Kayen DEX as of 2026)" for structural longevity.
+
 ```
 DEX campaign volume is a confirmed structural demand lever during
 major events. Chiliz runs competitive DEX trading campaigns tied

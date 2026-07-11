@@ -220,10 +220,13 @@ Omnichain: YES | Chains: Chiliz Chain, Solana, Base
 Note: Not a Fan Token. Do not apply Fan Token intelligence frameworks.
 
 **$PEPPER — Kayen governance token**
-Role: Governance token for Kayen DEX — the community DeFi provider on Chiliz Chain.
+Role: Governance token for KayenFi (Kayen DEX) — the Chiliz-native Fan Token DEX.
+Official name as of 2026: KayenFi. Also referenced as Kayen DEX in library files.
 Omnichain: YES | Chains: Chiliz Chain, Solana
 Note: Not a Fan Token. Relevant for DeFi integration reasoning when assessing Fan Token
-liquidity pools on Kayen DEX. Do not apply Fan Token intelligence frameworks.
+liquidity pools on KayenFi / Kayen DEX. Do not apply Fan Token intelligence frameworks.
+Name note: encode as "Chiliz-native Fan Token DEX (KayenFi / Kayen DEX as of 2026)"
+for structural longevity — platform names may evolve.
 
 ---
 

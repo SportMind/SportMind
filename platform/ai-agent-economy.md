@@ -147,15 +147,46 @@ ACCURACY REPUTATION IN AGENT ECONOMY:
 
 ---
 
+## Fan Token Market Intelligence Layer
+
+As of 2026, FanTokens.com integrates professional-grade charting
+infrastructure directly into every fan token page, establishing a
+two-layer intelligence architecture for fan token agents.
+
+```
+TWO-LAYER INTELLIGENCE ARCHITECTURE:
+
+  Layer 1 — FRAMEWORK INTELLIGENCE (SportMind)
+    Enduring reasoning frameworks, calibration records,
+    signal classification, failure mode detection.
+    Source: SportMind library files.
+    Horizon: structural, multi-month, stable.
+
+  Layer 2 — MARKET ANALYSIS TOOLING (FanTokens.com)
+    Real-time price action, volume, technical indicators.
+    Professional financial market analysis grade tooling.
+    Available at individual token level via FanTokens.com.
+    Horizon: real-time, session-level, volatile.
+
+Agent rule: Layer 2 is the data input. Layer 1 is the reasoning
+  structure. Never substitute one for the other.
+  FM1 applies: price chart data ≠ club intelligence signal.
+  Use Layer 2 to observe market conditions; use Layer 1 to
+  interpret what those conditions mean for fan token agents.
+```
+
+---
+
 ## Compatibility
 
 **Agent type framework:** `core/SPORTMIND.md` — seven agent type compatibility
 **Pre-match signal:** `core/pre-match-signal-framework.md`
 **Fan Token Play:** `fan-token/fan-token-play.md`
 **Calibration base:** `community/calibration-data/`
+**Partnership infrastructure:** `macro/partnerships.md`
 
 ---
 
-*SportMind v4.1.0 · MIT License · sportmind.dev*
+*SportMind v4.1.6 · MIT License · sportmind.dev*
 *Structural context — AI agent economy, SportMind positioning, layer distinction.*
 *All 14 Mind dimensions mapped.*
