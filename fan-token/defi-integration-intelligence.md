@@ -221,4 +221,57 @@ Standard DeFi conditions: no adjustment
 
 ---
 
-*SportMind v3.97.52 · MIT License · sportmind.dev*
+## Omnichain Bridge Event Behaviour Pattern
+
+Confirmed structural behaviour pattern (Tier 1 source, July 2026).
+The library has the bridge architecture documented. This section
+adds the confirmed event behaviour — how the bridge is used during
+major tournament windows.
+
+```
+CONFIRMED BEHAVIOUR:
+  During major tournament result confirmation windows, fan token
+  holders move tokens bidirectionally between Solana and Chiliz
+  Chain via the omnichain bridge in significant volumes.
+
+PURPOSE OF BRIDGE ACTIVITY DURING EVENTS:
+  · Price discovery: market participants arbitrage price differences
+    across chains in the immediate post-result window
+  · Liquidity alignment: Solana DEX liquidity and Chiliz Chain
+    liquidity move toward equilibrium via bridge transfers
+  · Cross-ecosystem participation: Solana-native traders access
+    fan tokens; Chiliz Chain holders access Solana-side liquidity
+
+TRIGGER CONDITIONS:
+  · Major result confirmation (win/loss in KO tournament match)
+  · Final confirmation (both teams confirmed — anticipation window)
+  · Bridge activity peaks in immediate post-result window and
+    pre-Final anticipation window
+  · Applies to all fan tokens in the match — not winner-only
+```
+
+### Agent Rules
+
+```
+RULE 1 — INFRASTRUCTURE SIGNAL, NOT DEMAND SIGNAL:
+  Cross-chain bridge volume during events is an INFRASTRUCTURE
+  UTILISATION SIGNAL. Apply FM7 (Cross-Token Signal Bleed):
+  elevated bridge activity affects all tokens in the ecosystem
+  and reflects ecosystem-level response, not club or nation-
+  specific CDI improvement.
+
+RULE 2 — DO NOT CONFLATE WITH SPOT DEMAND:
+  Bridge transfers = position repositioning across chains.
+  They may accompany demand surges but do not cause them.
+  Elevated bridge volume ≠ net buying of a token.
+
+RULE 3 — BIDIRECTIONAL — NO NET FLOW ASSUMPTION:
+  Bridge activity moves in both directions simultaneously.
+  Do not assume bridge volume indicates net buying or selling.
+  Monitor on-chain direction of net flow before drawing
+  demand or CDI conclusions.
+```
+
+---
+
+*SportMind v4.1.9 · MIT License · sportmind.dev*
