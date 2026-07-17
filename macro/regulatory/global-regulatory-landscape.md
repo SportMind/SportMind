@@ -46,6 +46,38 @@ TIER 1 — ACTIVE COMPREHENSIVE FRAMEWORK (binary gate applies):
     Key mechanic: licensed exchange required, strict AML/CFT obligations
     Socios relevance: Japan is a significant Socios user market
 
+    JAPAN — FIEA AMENDMENT (July 2026):
+    Status: ENACTED — House of Councillors passed July 15 2026
+    Framework: Financial Instruments and Exchange Act (FIEA) amendment
+    Regulator: Financial Services Agency (FSA)
+
+    Key structural changes:
+    · Crypto assets reclassified from payment instruments (Payment Services
+      Act) to financial products under FIEA — same category as stocks and bonds
+    · 102 cryptocurrencies now classified as financial instruments
+    · Insider trading restrictions now apply to crypto markets
+    · Annual disclosure obligations for token issuers
+    · Retail investment cap: 2 million JPY limit on high-risk tokens
+    · Penalties for illegal crypto business: up to 10 years imprisonment
+
+    Timelines:
+    · FIEA framework takes effect: fiscal 2027
+    · Spot crypto ETFs: Tokyo Stock Exchange pathway open, launch targeted 2027-2028
+    · Capital gains tax reduction: 55% → 20% flat rate, effective January 2028
+    · Stablecoins: explicitly excluded from FIEA scope
+
+    Fan token implications:
+    · No explicit fan token classification in the law
+    · Fan tokens fall under broader crypto-asset definition unless excluded
+    · Insider trading restrictions apply — undisclosed match outcomes or
+      partnership decisions could constitute material non-public information
+    · Japan FSA has 14 million+ active crypto accounts — significant retail base
+    · Regulatory framework takes effect 2027 — current operations unaffected
+
+    Agent rule: Japan is now a securities-law jurisdiction for crypto.
+    Fan tokens operating there face the same disclosure and insider-trading
+    obligations as listed securities from fiscal 2027 onward.
+
   Singapore
     Framework: Payment Services Act — MAS licensing
     Administrator: Monetary Authority of Singapore (MAS)
@@ -66,6 +98,25 @@ TIER 2 — PARTIAL OR DEVELOPING FRAMEWORK (monitor, gate developing):
     Digital Asset Basic Act: under consideration
     Fan token classification: virtual assets, exchange registration required
     Key mechanic: strict user protection rules, active enforcement
+
+    SOUTH KOREA — NATIONAL ASSET BASIC ACT (July 2026):
+    Status: ANNOUNCED — plans confirmed July 14 2026 · legislation pending
+    Framework: Would classify virtual assets as official national assets
+    alongside land, real estate, and intellectual property
+    Regulator: Financial Services Commission (FSC)
+
+    Key structural points:
+    · Builds on 2024 user protection law
+    · Planned 2027 pilot for tokenized government bonds via Bank of Korea CBDC
+    · New token securities rules starting February 2027
+    · Approach: legal recognition and infrastructure pilots
+    · Different from Japan: emphasises asset recognition not securities regulation
+
+    Fan token implications: MONITOR — no explicit fan token classification yet.
+    If enacted, fan tokens likely classified as virtual assets under the framework.
+
+    Agent rule: South Korea is moving toward formal virtual asset recognition
+    as national assets. Monitor FSC for fan token specific guidance.
 
   Brazil
     Framework: Banco Central do Brasil (BCB) authorisation regime
@@ -221,6 +272,6 @@ TIER UPGRADE SIGNALS — flag to Strategy & Brainstorm:
 
 ---
 
-*SportMind v4.1.1 · MIT License · sportmind.dev*
+*SportMind v4.1.10 · MIT License · sportmind.dev*
 *Enduring framework — global cryptoasset regulatory landscape.*
 *All 14 Mind dimensions mapped.*
