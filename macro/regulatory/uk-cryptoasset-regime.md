@@ -255,6 +255,72 @@ AGENT RULE (updated — regime not yet in full force):
   under UK perimeter rules. Monitor FCA perimeter statement.
 ```
 
+FIVE-POLICY-STATEMENT ARCHITECTURE (confirmed June 30 2026):
+
+  The UK cryptoasset regime is structured across five confirmed
+  final policy statement domains. All five apply simultaneously
+  from the full regime go-live date (Q4 2027).
+
+  1. ADMISSIONS & DISCLOSURES + MARKET ABUSE (MARC):
+     Cryptoasset issuers must meet disclosure requirements
+     for cryptoasset admissions to trading.
+     Market Abuse Regime for Cryptoassets (MARC) — the most
+     novel addition to UK law:
+       · Insider trading restrictions now explicitly cover
+         cryptoassets under UK law for the first time
+       · Market manipulation rules apply to cryptoasset markets
+       · Criminal liability pathway for insider trading in
+         cryptoassets from full regime date
+     Fan token agent rule: UK-based trading of fan tokens may
+     be subject to MARC enforcement from Q4 2027. Undisclosed
+     match outcomes or partnership decisions could constitute
+     material non-public information under MARC.
+     Monitor FCA MARC scope guidance for fan token applicability.
+
+  2. STABLECOIN ISSUANCE:
+     FCA and Bank of England joint supervision for systemic
+     stablecoins. Capital requirements confirmed (simplified
+     from earlier proposals).
+
+  3. REGULATED CRYPTOASSET ACTIVITIES:
+     Six categories of regulated activity confirmed:
+       · Operating trading platforms
+       · Dealing in cryptoassets
+       · Arranging deals
+       · Safeguarding
+       · Stablecoin issuance
+       · Staking
+     All six categories apply from full regime date.
+
+  4. PRUDENTIAL REGIME:
+     COREPRU and CRYPTOPRU capital requirements apply to
+     cryptoasset firms from full regime date.
+
+  5. FCA HANDBOOK APPLICATION:
+     Existing FCA Handbook rules mapped to cryptoasset
+     activities. Consumer Duty applies from full regime date.
+     Fan token platforms serving UK retail consumers must
+     meet FCA consumer outcome standards.
+
+INTERNATIONAL FIRMS — BRANCH MODEL:
+  Dual-regulated firms (e.g. MiCA-authorised EU entities) may
+  operate UK-facing services through a branch arrangement rather
+  than requiring a standalone UK entity.
+  Relevant for Chiliz-ecosystem operators: branch model is the
+  likely UK pathway for MiCA-authorised entities.
+  Encode as structural option — not a guarantee of permission.
+
+AGENT RULE UPDATE — MARC ADDITION:
+  The binary gate (authorised or not) applies across all five
+  pillars simultaneously from Q4 2027.
+  MARC is the highest-priority addition for fan token agents:
+  it creates first-ever criminal liability for insider trading
+  in cryptoasset markets under UK law.
+  Fan token issuers and platforms: assess whether any
+  pre-match, pre-partnership, or pre-announcement trading
+  activity could constitute insider trading under MARC scope.
+```
+
 ---
 
 ## Compatibility
@@ -267,6 +333,6 @@ AGENT RULE (updated — regime not yet in full force):
 
 ---
 
-*SportMind v4.1.2 · MIT License · sportmind.dev*
+*SportMind v4.1.11 · MIT License · sportmind.dev*
 *Enduring framework — UK FCA cryptoasset regime under FSMA 2026.*
 *All 14 Mind dimensions mapped.*

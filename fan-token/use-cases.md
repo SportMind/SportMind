@@ -112,10 +112,95 @@ RULE 4 — ONE-SIDED MATCHES:
 
 ---
 
+## Champion Call — Pre-Match Demand Amplifier Mechanic
+
+Confirmed structural fan engagement pattern (WC2026 Final, July 2026).
+Socios.com activates this campaign ahead of dual fan token Finals.
+Mechanic design is reusable — expect recurrence at future dual fan
+token Finals and high-profile derby fixtures.
+
+### Structural Mechanics
+
+```
+BALANCE SNAPSHOT MODEL:
+  Campaign opening snapshot records existing holder balances.
+  Only tokens acquired AFTER the snapshot count toward campaign.
+  Existing holders: participation-exempt unless they buy more.
+  Design intent: rewards new token acquisition specifically —
+  not loyalty holding.
+
+PROPORTIONAL ENTRY MECHANIC:
+  Every eligible token purchased = one campaign entry.
+  Linear, no tiers: 100 tokens = 100× the entry of 1 token.
+  No maximum entry cap — pure proportional model.
+
+HOLDING REQUIREMENT:
+  Eligible tokens must be held from campaign close to
+  official end of match (including AET and penalties).
+  Selling before match ends voids those entries.
+  Creates holding pressure through the full match window.
+
+LIVE CONVICTION DISPLAY:
+  Real-time counter shows purchase split between two teams.
+  Visible fan conviction narrative before kickoff.
+  Creates competitive community signal alongside the match.
+
+WINNER-LINKED OUTCOME:
+  Only supporters who backed the winning team are eligible.
+  Participation alone insufficient — correct pick required.
+  Rewards distributed via random draw from valid entries.
+```
+
+### Demand Lever Classification
+
+```
+CLASSIFICATION:   STRUCTURED PRE-MATCH BUYING PRESSURE event
+WINDOW:           Campaign open → official end of match
+SCOPE:            Both fan tokens in the fixture
+
+DISTINCT FROM:
+  · Token Hunt: in-app scavenger mechanic
+  · Locker Room: pre-launch subscription/staking model
+  · Livestream Battle: off-chain trading competition
+  · Burn to Glory: on-chain treasury burn supply event
+
+Champion Call creates measurable token purchase demand in a
+defined pre-match window. Volumes in this window should be
+assessed against the Champion Call baseline, not organic demand.
+```
+
+### Agent Rules
+
+```
+RULE 1 — FM4 (Sentiment Source Contamination):
+  Champion Call volume ≠ organic demand signal.
+  Structured incentive mechanics drive purchase behaviour —
+  do not read as pure CDI or fan conviction signal.
+
+RULE 2 — FM8 (Liquidity Illusion):
+  Volume will be elevated vs baseline during campaign window.
+  Compare to campaign baseline, not to non-campaign periods.
+  Post-campaign volume drop is expected — not a bearish signal.
+
+RULE 3 — FM1 (Price-Signal Conflation):
+  Price movement during campaign window partly reflects
+  structured buying pressure, not purely fundamental CDI shift.
+  Decompose: campaign demand vs organic demand before
+  drawing CDI conclusions.
+
+RULE 4 — HOLDING PRESSURE WINDOW:
+  Holding requirement through AET/penalties creates artificial
+  supply suppression during the match. Post-match unlock may
+  produce elevated sell pressure regardless of result.
+  Apply as a post-match liquidity modifier.
+```
+
+---
+
 ## COMPATIBILITY
 
 - fan-token/burn-to-glory-framework.md — Layer 1 on-chain supply event
-- fan-token/agent-failure-modes-fan-token.md — FM1 and FM4 cross-reference
+- fan-token/agent-failure-modes-fan-token.md — FM1, FM4, FM8 cross-reference
 - fan-token/fan-token-play.md — demand layer integration
 - macro/fan-adoption-intelligence.md — Tier 1/2 engagement context
 - macro/partnerships.md — FanTokens.com editorial context
