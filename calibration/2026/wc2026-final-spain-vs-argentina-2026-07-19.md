@@ -112,8 +112,8 @@ DUAL-LAYER MECHANIC CONFIRMED:
 ## Result — post-match verified
 
 ```
-ACTUAL RESULT:      Spain 1 — Argentina 0 (90 minutes)
-EXTRA TIME:         NO
+ACTUAL RESULT:      Spain 1 — Argentina 0 (AET — goal scored 106 min)
+EXTRA TIME:         YES
 PENALTIES:          NO
 DIRECTION CORRECT:  YES — HOME (Spain) ✓
 CALIBRATION VERDICT: CORRECT
