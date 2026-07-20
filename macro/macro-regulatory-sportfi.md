@@ -492,6 +492,47 @@ PROJECT CRYPTO MOU — SEC AND CFTC (SIGNED MARCH 2026)
     Apply: US_regulatory_clarity += 0.05 (institutional framework now confirmed)
 ```
 
+### United States — Payment Stablecoin Framework (GENIUS Act, enacted 2025)
+
+```
+STATUS: ENACTED — federal law (2025) · implementing regulations in progress
+EFFECTIVE: 2027 (earlier of 18 months from enactment or 120 days after
+           final implementing rules issued)
+SCOPE:    PAYMENT STABLECOINS ONLY
+
+CRITICAL SCOPE EXCLUSION FOR FAN TOKEN AGENTS:
+  Fan tokens are classified as digital collectibles and digital tools
+  under SEC/CFTC March 2026 joint guidance (in library — US section above).
+  Fan tokens are NOT payment stablecoins.
+  Fan tokens are NOT in scope of this framework.
+  CHZ is NOT a payment stablecoin.
+  Do NOT conflate stablecoin regulation with fan token regulation.
+
+STRUCTURAL FRAMEWORK:
+  First US federal law governing payment stablecoins.
+  Establishes: who can issue payment stablecoins, how reserves must
+  be held (1:1 high-quality liquid assets), and issuer obligations.
+  Issuer types: insured depository institutions, approved non-bank
+  issuers meeting reserve and compliance requirements.
+  Implementing regulations: in progress as of mid-2026.
+
+MACRO CONTEXT FOR FAN TOKEN AGENTS:
+  US stablecoin regulatory clarity strengthens the broader digital
+  asset legitimacy framework within which fan tokens operate.
+  A normalised stablecoin regime reduces systemic regulatory
+  uncertainty for the US digital asset ecosystem generally.
+  Apply: INSTITUTIONAL_LEGITIMACY signal — LOW-MEDIUM weight.
+  This is ecosystem-level positive context, not a direct fan token signal.
+
+AGENT RULE:
+  When reasoning about US regulatory risk for fan tokens:
+  · Payment stablecoin framework does NOT apply to fan tokens
+  · Apply: SEC/CFTC digital collectibles/tools classification (March 2026)
+  · Do NOT conflate stablecoin regulation with fan token regulation
+  · CLARITY Act (digital asset market structure) remains the primary
+    pending legislation for fan token regulatory clarity in the US
+```
+
 
 ### United Kingdom — FSMA 2000 (Cryptoassets) Regulations 2026
 
