@@ -82,10 +82,10 @@ python examples/starter-pack/01-simple-signal.py
 | Layer | Directory | What it teaches |
 |---|---|---|
 | **1 — Sport domain** | `sports/` (42 sports) | How each sport works; event playbooks; risk variables |
-| **2 — Athlete intelligence** | `athlete/` (29 sports) | Who is playing; form; composite modifier (0.55–1.25×) |
-| **3 — Fan token commercial** | `fan-token/` (64 skills) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
-| **4 — Market intelligence** | `market/` (43 docs) | Commercial tier; fanbase; sports equity signals; competition calendar |
-| **5 — Macro intelligence** | `macro/` (9 docs) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
+| **2 — Athlete intelligence** | `athlete/` (50 files) | Who is playing; form; composite modifier (0.55–1.25×) |
+| **3 — Fan token commercial** | `fan-token/` (90 files) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
+| **4 — Market intelligence** | `market/` (51 files) | Commercial tier; fanbase; sports equity signals; competition calendar |
+| **5 — Macro intelligence** | `macro/` (20 files) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
 | **6 — Deployment** | `core/` | Reasoning chains; agent frameworks; failure modes; MCP server |
 
 **Load order:** macro → market → sport domain → athlete → fan token → output schema
@@ -105,8 +105,8 @@ Athlete:           29 sports · form models · availability · composite modifie
 Fan token:         85 verified tokens · Lifecycle phases 1–6 · DeFi liquidity · exchange intelligence
                    Fan Token Play PATH_2 · governance · KOL influence · FTO framework
                    Sports equity signals (GSRAY.IS, MANU, JUVE.MI, FWONK, TKO) · CHZ macro layer
-Market:            43 documents · club operations · broadcaster intelligence · World Cup 2026
-Macro:             25 documents · MiCA · SEC/CFTC joint guidance (March 2026) · CLARITY Act · KSA/UAE
+Market:            51 documents · club operations · broadcaster intelligence · World Cup 2026
+Macro:             20 documents · MiCA · SEC/CFTC joint guidance (March 2026) · CLARITY Act · KSA/UAE
 
 Core frameworks:   reasoning patterns · autonomous agent framework · modifier system
                    seven-step reasoning chain · pre-match signal framework · athlete framework
@@ -172,8 +172,7 @@ python scripts/sportmind_mcp.py
 python scripts/sportmind_mcp.py --http --port 3001
 ```
 
-Tools: `sportmind_pre_match` · `sportmind_signal` · `sportmind_macro` ·
-`sportmind_fan_token_lookup` · `sportmind_sentiment_snapshot` · and more.
+Tools: `sportmind_pre_match` · `sportmind_signal` · `sportmind_macro` · `sportmind_stack` · `sportmind_fan_token_lookup` · `sportmind_sentiment_snapshot` · `sportmind_disciplinary` · `sportmind_verifiable_source` · `sportmind_verify` · `sportmind_agent_status`
 
 **→ Standalone repo with full setup guide: [github.com/SportMind/mcp-server](https://github.com/SportMind/mcp-server)**
 **→ Embedded deployment guide: [MCP-SERVER.md](MCP-SERVER.md)**
