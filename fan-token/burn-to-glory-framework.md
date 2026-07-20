@@ -195,7 +195,48 @@ VERIFICATION REQUIREMENT:
 
 ---
 
-*SportMind v4.0.2 · MIT License · sportmind.dev*
+## Treasury Size Variation — Agent Rule
+
+Confirmed structural fact (Tier 1, July 2026). Additive to the
+percentage scale framework above.
+
+```
+STRUCTURAL FACT:
+  Burn to Glory applies identical percentage rates across all
+  participating tokens at each stage. However, the absolute number
+  of tokens burned varies significantly across participants because
+  each token begins the campaign with a different treasury size.
+
+KEY AGENT RULE — PERCENTAGE IS THE COMPARABLE METRIC:
+  When comparing Burn to Glory outcomes across multiple tokens:
+  · Use burn PERCENTAGE as the comparable metric — uniform by stage
+  · Do NOT compare absolute burn amounts across different tokens
+  · Absolute amount = percentage × token's remaining treasury at
+    time of burn — and treasuries differ materially between tokens
+
+TREASURY SIZE PATTERN:
+  · A newer token (recent FTO) typically has a larger remaining
+    treasury than a long-established token with existing holder
+    distribution and prior burn history
+  · The same Final win (10%) therefore produces a larger absolute
+    burn for a newer token than for a mature token
+  · This does NOT mean the newer token has a stronger supply signal —
+    the percentage impact on remaining supply is what matters
+
+SUPPLY SIGNAL REASONING — CORRECT METHOD:
+  To assess the structural supply impact of a Burn to Glory event:
+  1. Load the token's current treasury balance (chiliscan.com)
+  2. Apply the stage percentage to the current treasury balance
+  3. Express the result as % of remaining supply (not absolute count)
+  4. Compare across tokens only on this percentage basis
+
+  Absolute token counts are useful for on-chain verification only —
+  not for cross-token supply impact comparison.
+```
+
+---
+
+*SportMind v4.1.12 · MIT License · sportmind.dev*
 *Enduring framework — applies to any tournament with confirmed Burn to Glory activation.*
 *See fan-token/fan-token-play.md for the full four-way burn mechanic distinction.*
 *All 14 Mind dimensions mapped.*
