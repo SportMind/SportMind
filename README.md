@@ -9,9 +9,9 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-4.1.3-green)]()
+[![Version](https://img.shields.io/badge/version-4.1.12-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
-[![Calibration](https://img.shields.io/badge/calibration-134%20records%20%7C%2096%25%2B%20accuracy-green)]()
+[![Calibration](https://img.shields.io/badge/calibration-137%20records%20%7C%2096%25%2B%20accuracy-green)]()
 [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
@@ -98,7 +98,7 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-743 files · 522 markdown skill files
+760 files · 540 markdown skill files
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
@@ -112,7 +112,7 @@ Core frameworks:   reasoning patterns · autonomous agent framework · modifier 
                    seven-step reasoning chain · pre-match signal framework · athlete framework
 Platform:          MCP server tools · data connectors · API providers · Chiliz Agent Kit
                    social intelligence · web agent connectors · fraud signals
-Community:         130 calibration records (96%+ accuracy, 21 sports) · benchmarks
+Community:         137 calibration records (96%+ accuracy, 21 sports) · benchmarks
 Developer tools:   application blueprints · agentic workflow patterns · agent prompts
                    copy-paste templates · compressed summaries · Skills API
 ```
@@ -206,8 +206,10 @@ All records are in `community/calibration-data/` — publicly verifiable, pre-su
 before real matches. Includes all wrong predictions with root-cause analysis.
 Not cherry-picked.
 
-The most recent verified record: **UCL Final 2026** — PSG vs Arsenal.
-SportMind predicted PSG. PSG won. Record #130 verified.
+The most recent verified series: **FIFA World Cup 2026** —
+9 records across group stage, knockouts, and Final. 9/9 correct.
+100% accuracy. Perfect record. Spain beat Argentina 1-0 AET in the
+Final — SportMind signal: SPAIN (HOME). CORRECT.
 See the full signal and outcome: [sportmind.dev/first-record/](https://sportmind.dev/first-record/)
 
 Eight modifiers with zero wrong-direction records across their entire evidence base:
