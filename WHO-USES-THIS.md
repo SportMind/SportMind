@@ -26,6 +26,7 @@ What do you want to do?
 │     ├── App developer    → examples/starter-pack/README.md
 │     ├── Agent builder    → examples/agentic-workflows/README.md
 │     ├── Claude Desktop   → MCP-SERVER.md
+│     ├── MCP server already connected  → sportmind_pre_match · MCP-SERVER.md
 │     └── Any LLM          → agent-prompts/agent-prompts.md (19 prompts)
 │
 ├── Understand what SportMind is first
@@ -139,7 +140,7 @@ what the evidence base looks like, and whether the library's claims are credible
    intelligence SportMind provides and where its boundaries are.
 
 **Specific claims to verify:**
-- 96% calibration accuracy: see `community/calibration-data/` — all 126 records are there
+- 96% calibration accuracy: see `community/calibration-data/` — all 137 records are there
 - Zero wrong-direction records outside European football draws: verifiable in the records
 - Named metrics (HAS, NCSI, ATM, etc.): each has a definition in the relevant skill file
 
@@ -170,8 +171,9 @@ confirmed in 6+ independent studies. Field overview, most cited authors, literat
 **What the community needs most right now:**
 - Football calibration records (we need athlete_modifier football records specifically)
 - Cricket records (dew_factor, India-Pakistan matches)
+- MMA calibration records ($UFC and $PFL are active Chiliz fan token partners — any UFC Fight Night / PPV or PFL card main event qualifies as a fan token calibration record)
 - Any records from sports currently underrepresented (rowing, netball)
-- External records — all 100 current records were submitted by the founding team
+- External records — 137 records to date. The first two external Founding Calibrator slots are now filled.
 
 ---
 
@@ -215,6 +217,7 @@ You will see SportMind working immediately.
 | Analyst / commercial | WHO-WE-ARE + agent-prompts | Platform layer, scripts |
 | Researcher | calibration-framework + recalibration reports | Agentic workflows, i18n |
 | Contributor | FIRST-RECORD-CHALLENGE + CONTRIBUTING | Everything else until first record |
+| MCP user | sportmind_pre_match + MCP-SERVER.md | Everything else until first signal |
 | Just curious | **QUICKSTART.md** → templates/ | Everything |
 
 ---
