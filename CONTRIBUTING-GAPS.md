@@ -31,6 +31,8 @@ Does the gap still have value without the proper nouns?
 **YES** → submit it.
 **NO** → it is not a library gap.
 
+Also apply the six-month test: Will this intelligence still be true and useful in six months? If no — it is not a library gap.
+
 ## How to submit
 
 Open a GitHub Issue using this format:
@@ -38,7 +40,7 @@ Open a GitHub Issue using this format:
 ---
 
 **Gap type:**
-FRAMEWORK_GAP / DIMENSION_GAP / MODIFIER_GAP / LAYER_GAP / SUB_DIMENSION_GAP
+FRAMEWORK_GAP / DIMENSION_GAP / MODIFIER_GAP / LAYER_GAP (fan-token · athlete · macro · market · sports) / SUB_DIMENSION_GAP
 
 **Sport or domain:**
 [Which sport, competition, or domain triggered this gap?]
