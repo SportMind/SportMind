@@ -1,7 +1,6 @@
 # SportMind — Open Sports Intelligence for AI Agents
 
-> **A reasoning library. Not a data feed.**
-> Every file teaches an agent how to think — not what is true right now.
+> **A reasoning library. Not a data feed.** Every file teaches an agent how to think — not what is true right now.
 
 ⚠️ **Beta** — active development · MIT licensed · [sportmind.dev](https://sportmind.dev)
 
@@ -9,7 +8,7 @@
 
 ## What SportMind Is
 
-SportMind is an open reasoning library for AI agents and developers. It teaches AI agents how to think about sports — the commercial, financial, and competitive intelligence the industry runs on.
+SportMind is an open reasoning library for AI agents and developers. It gives AI agents the intelligence, reasoning, and context to understand sports — the commercial, financial, and competitive signals the industry runs on.
 
 It is not a data feed. It does not provide live scores, current prices, or real-time injury updates. It provides the **reasoning frameworks** that allow any AI agent to interpret that data intelligently when it arrives.
 
@@ -33,24 +32,31 @@ This single test governs every file in SportMind. It is why the library does not
 SportMind is designed to grow and scale over time — building toward a complete Mind for Sports. The domains below are not fixed. New intelligence, new sports, new fan token mechanics, and new regulatory frameworks are added continuously. The goal has no finish line.
 
 ### Sport Domain — `sports/`
+
 42 sports. Event playbooks, signal weights, risk variables, and agent reasoning prompts. Cricket dew factor. F1 qualifying delta. MMA weight miss signals. Rugby, combat sports, esports, motorsport. Referee and officiating intelligence. Venue and stadium intelligence. Weather and environmental modifiers. Tournament structures across World Cup, Euros, Copa America, AFCON, and Asian Cup. Psychological intelligence. Coaching and management frameworks. Historical pattern reasoning.
 
 ### Athlete Intelligence — `athlete/`
+
 Position modifier weights by club identity. Squad depth reasoning. Injury type and return timeline frameworks. Coaching and management signals. Psychological patterns. Historical performance frameworks. Fan token demand impact by position and absence type.
 
 ### Fan Token Commercial — `fan-token/`
+
 FTP PATH_2 mechanics in full — 1/400 pre-liquidation ratio, Model 1 and Model 2 documented, 75% stop-loss, credit burn system. Lifecycle phases 1–5e. Governance intelligence. Social sentiment frameworks. Portfolio correlation reasoning. National team tokens. Emerging sports pipeline. Ecosystem health intelligence with five-dimension maturity scoring.
 
 ### Market Intelligence — `market/`
+
 Commercial tier, fanbase depth, competition calendar, transfer window dynamics. Broadcast and media intelligence. Seasonal and cyclical demand patterns. How marquee signings affect demand over 2–4 weeks. How departures produce asymmetric decay curves. How World Cup years affect national token demand cycles.
 
 ### Macro Intelligence — `macro/`
+
 Regulatory frameworks across UK, US, EU, APAC, and MENA. CLARITY Act activity vs passive yield. MiCA. UAE VARA. Saudi M/121. Qatar QFC 2024. Bahrain CBB Vol 6. Japan FIEA. South Korea CGT and 5-minute reconciliation. Vietnam pilot. Crypto and digital asset intelligence. Institutional intelligence — sovereign wealth funds, private equity, venture capital. Exchange and listing intelligence. Government policy and national sports strategy frameworks.
 
 ### Blockchain and On-Chain Intelligence — `core/`
+
 Wallet concentration as confidence weight modifier. On-chain transaction velocity signals. Bridge activity as pre-liquidation pool indicator. Smart contract upgrade and emergency pause modifiers (×0.75 HOLD trigger). Supply event on-chain verification. Holder behaviour pattern reasoning. Pre-liquidation monitoring T-12h to T-2h.
 
 ### Agent Reasoning Architecture — `core/`
+
 Complete end-to-end reasoning chains for all common scenarios. Signal confidence framework with HOLD trigger conditions. Agent onboarding with mandatory file loading order. Fan token context bridge. Cross-layer conflict resolution hierarchy. Output format specification including confidence level and signal class.
 
 ---
@@ -58,6 +64,7 @@ Complete end-to-end reasoning chains for all common scenarios. Signal confidence
 ## What Makes SportMind Different
 
 ### FTP PATH_2 Mechanics
+
 The official Chiliz Fan Token Play mechanic — documented in full. A WIN is not just a result. It is a permanent supply reduction event. A LOSS is a mint event. A DRAW produces no supply change.
 
 ```
@@ -68,16 +75,22 @@ Pre-liquidation pool = circulating supply ÷ 400
 ```
 
 ### Calibration Records
-129 verified records across 21 sports. Submitted before real events. Outcomes confirmed. Including the wrong ones. 96% direction accuracy — defensible because every record is in the repository.
+
+137 verified records across multiple sports. Submitted before real events. Outcomes confirmed. Including the wrong ones.
+
+WC2026 series: 9 from 9 — 100% accuracy, perfect record.
+
+Every record is in `calibration/2026/` — fully verifiable.
 
 ### The Library Rule
+
 Every file passes one test. Will this intelligence still be true and useful in six months? Named player injuries, current standings, and live prices fail this test. Reasoning frameworks about how to think about those things pass it.
 
 ---
 
 ## Signal Output
 
-```json
+```
 {
   "direction":           "HOME",
   "adjusted_score":      72.4,
@@ -101,6 +114,10 @@ Every file passes one test. Will this intelligence still be true and useful in s
 }
 ```
 
+Note: direction format depends on use case. Fan token analysis returns
+`LONG $TOKEN` / `SHORT $TOKEN` / `DRAW`. Sport intelligence analysis returns
+`HOME` / `AWAY` / `DRAW`.
+
 ---
 
 ## Use Cases
@@ -117,7 +134,7 @@ Every file passes one test. Will this intelligence still be true and useful in s
 
 **Fan token wallet agent** — Connects to Chiliz Chain, reads balances, tracks FTP PATH_2 supply events, executes wallet actions within guardrails. Macro gate and signal confidence threshold both enforced.
 
-**Calibration contributor** — Runs SportMind before a real match, submits a pre-match signal, records the outcome. First 10 external contributors become **Founding Calibrators** — permanently credited in the library's history.
+**Calibration contributor** — Runs SportMind before a real match, submits a pre-match signal, records the outcome. First 10 external contributors become **Founding Calibrators** — permanently credited in the library's history. Slots #1 (@AltcoinDaddy) and #2 (@charan0318) are filled. 8 slots remain.
 
 ---
 
@@ -149,7 +166,7 @@ The intelligence layers are not fixed either. SportMind is designed to grow and 
 
 ## SMI — The Reference Implementation
 
-SMI is SportMind's own intelligent reporter — running in production since May 2026. It monitors public sources continuously, classifies every signal against SportMind's three-tier framework, applies the Library Rule, and delivers structured weekly briefings with analyst-level context and reasoning. It fires immediate Tier 1 alerts when primary signals are detected.
+SMI is SportMind's own intelligent reporter — running in production since May 2026. It monitors public sources, classifies every signal against SportMind's three-tier framework, applies the Library Rule, and delivers structured weekly briefings with analyst-level context and reasoning.
 
 SMI does not act autonomously. It researches, classifies, and presents. The human decides what enters the library.
 
@@ -159,23 +176,22 @@ The [intelligence agent repository](https://github.com/SportMind/intelligence-ag
 
 ## The SportMind Suite
 
-| Repository | What it does | Link |
-|------------|-------------|------|
-| **SportMind/SportMind** | The core intelligence library | [sportmind.dev](https://sportmind.dev) |
-| **telegram-ai-bot-starter-kit** | Deploy SportMind-powered Telegram bots | [sportmind.dev/suite/telegram](https://sportmind.dev/suite/telegram) |
-| **fan-token-agentic-wallet-starter-kit** | Build fan token wallet agents on Chiliz Chain | [sportmind.dev/suite/wallet](https://sportmind.dev/suite/wallet) |
-| **intelligence-agent** | Forkable intelligence briefing agent | [sportmind.dev/suite/intelligence-agent](https://sportmind.dev/suite/intelligence-agent) |
+| Repository                               | What it does                                  | Link                                                                                     |
+| ---------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------------- |
+| **SportMind/SportMind**                  | The core intelligence library                 | [sportmind.dev](https://sportmind.dev)                                                   |
+| **telegram-ai-bot-starter-kit**          | Deploy SportMind-powered Telegram bots        | [sportmind.dev/suite/telegram](https://sportmind.dev/suite/telegram)                     |
+| **fan-token-agentic-wallet-starter-kit** | Build fan token wallet agents on Chiliz Chain | [sportmind.dev/suite/wallet](https://sportmind.dev/suite/wallet)                         |
+| **intelligence-agent**                   | Forkable intelligence briefing agent          | [sportmind.dev/suite/intelligence-agent](https://sportmind.dev/suite/intelligence-agent) |
 
 ---
 
 ## Key Numbers
 
 ```
-671   files in the library
-452   markdown intelligence files  
-129   calibration records
-96%   direction accuracy
-21    sports calibrated
+762   files in the library
+542   markdown intelligence files
+137   calibration records — submitted before events, outcomes confirmed
+9/9   WC2026 series — 100% accuracy, perfect record
 42    sports with domain coverage
 7     intelligence domains
 4     suite repositories
@@ -187,7 +203,7 @@ The [intelligence agent repository](https://github.com/SportMind/intelligence-ag
 
 ## Quick Start
 
-```bash
+```
 git clone https://github.com/SportMind/SportMind
 
 # Mandatory loading order:
@@ -206,10 +222,9 @@ Compatible with any LLM. Zero external dependencies. MIT licensed.
 
 ## Contribute
 
-Submit a calibration record. Expand a sport file. Add a reasoning framework that passes the Library Rule. See [CONTRIBUTING.md](CONTRIBUTING.md). First 10 external contributors become Founding Calibrators.
+Submit a calibration record. Expand a sport file. Add a reasoning framework that passes the Library Rule. See [CONTRIBUTING.md](https://github.com/SportMind/SportMind/blob/main/CONTRIBUTING.md). First 10 external contributors become Founding Calibrators — 8 slots remaining.
 
 ---
 
 [sportmind.dev](https://sportmind.dev) · [github.com/SportMind/SportMind](https://github.com/SportMind/SportMind) · MIT License
-
-> ⚠️ Beta — SportMind v4.0.0. Active development. Not financial advice.
+> ⚠️ Beta — SportMind v4.1.19. Active development. Not financial advice.
