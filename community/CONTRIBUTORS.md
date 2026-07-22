@@ -6,6 +6,28 @@ application examples.**
 
 ---
 
+## Founding Calibrators
+
+The first 10 external contributors to submit verified fan token calibration
+records earn permanent Founding Calibrator recognition.
+
+| Slot | Calibrator | Record | Series |
+|------|-----------|--------|--------|
+| #1 | @AltcoinDaddy | Mexico vs South Africa | WC2026 Group Stage |
+| #2 | @charan0318 | Mexico vs South Africa | WC2026 Group Stage |
+| #3 | — | Open | — |
+| #4 | — | Open | — |
+| #5 | — | Open | — |
+| #6 | — | Open | — |
+| #7 | — | Open | — |
+| #8 | — | Open | — |
+| #9 | — | Open | — |
+| #10 | — | Open | — |
+
+See [FIRST-RECORD-CHALLENGE.md](../FIRST-RECORD-CHALLENGE.md) for how to claim an open slot.
+
+---
+
 ## Why recognition matters
 
 Open source projects succeed when contributors feel their work is valued
@@ -64,7 +86,7 @@ TIER 5 — ISSUES AND FEEDBACK:
 
 ## CONTRIBUTORS.md format
 
-```markdown
+```
 # SportMind Contributors
 
 ## Calibration Pioneers (50+ records)
@@ -106,33 +128,35 @@ TIER 5 — ISSUES AND FEEDBACK:
 The fastest path from new contributor to recognised in the library:
 
 ```
-STEP 1 — Pick an upcoming match (any sport SportMind covers)
-  Best: a match where you can run a full signal analysis 2-4 hours before
+STEP 1 — Pick an upcoming match with an active fan token
+  Best: a dual fan token match (both teams have active Chiliz Chain tokens)
+  Check fantokens.com to verify token status before submitting
+  Black logo signal: greyscale logo = potentially inactive, verify first
 
 STEP 2 — Run SportMind analysis before the match
-  Load the appropriate skill stack for your sport
-  Generate a signal with SMS, direction, key modifiers
-  Record your analysis output (screenshot or copy-paste is fine)
+  Option A: any LLM + quickstart prompt from sportmind.dev/first-record/
+  Option B: MCP server via Claude Desktop (sportmind_pre_match)
+  Record DIRECTION and SportMind Score from the output
 
 STEP 3 — Watch the match result
 
 STEP 4 — Fill in the outcome record template
-  Template: community/calibration-data/CONTRIBUTING.md
-  The key fields:
+  Template: community/calibration-data/TEMPLATE.md (markdown format)
+  Key fields:
     recorded_at: the time you ran your analysis (BEFORE the match)
     submitted_by: your GitHub handle or identifier
-    direction_correct: was your direction prediction right?
+    direction_correct: CORRECT or INCORRECT
     key_modifier_validated: which modifier were you testing?
     notes: what did you learn? (honest; wrong-direction records valued equally)
 
-STEP 5 — Submit via GitHub PR
-  Target path: community/calibration-data/{sport}/{year}/{month}/
-  File name: {sport}-{event-description}-{date}-outcome.json
-  Or open a GitHub Issue with the "calibration-submission" label (we handle the PR for you)
+STEP 5 — Submit via GitHub Issue or PR
+  Issue title: Calibration Record — [Team A] vs [Team B] — [Competition] — [Date]
+  File path (PR): community/calibration-data/{sport}/{your-record-filename}.md
+  Or open a GitHub Issue with "calibration-submission" label (we handle the PR)
 
 STEP 6 — Get credited
   Your handle appears in the record and in CONTRIBUTORS.md
-  
+
 Most important rule: the analysis must be run BEFORE the match.
 Records submitted after knowing the outcome are not calibration records.
 ```
@@ -143,7 +167,7 @@ Records submitted after knowing the outcome are not calibration records.
 
 The first 10 external contributors to submit calibration records will receive:
 
-1. Permanent credit in CONTRIBUTORS.md with a "Founding Calibrator" notation
+1. Permanent credit in CONTRIBUTORS.md as Founding Calibrators — will not be removed
 2. Special acknowledgement in the CHANGELOG entry for the version their
    first record is included in
 3. Their name/handle mentioned in the recalibration report that first uses
@@ -158,30 +182,36 @@ in that project's history.
 ## Sport-specific calibration priorities
 
 ```
-HIGHEST PRIORITY (most tokens, most commercial relevance):
-  Football: EPL, La Liga, UCL, international qualifiers
-    Modifiers most needing records: derby_active (need 47 more)
-    
-  Cricket: IPL, T20WC qualifiers, PSL
-    Modifiers: dew_factor (need 47 more), india_pakistan (need 48 more)
-    
-  Basketball: NBA regular season, EuroLeague group stage
-    Modifiers: playoff_modifier (need 47 more)
-    
-  Formula 1: qualifying + race (street circuits especially)
-    Modifiers: qualifying_delta (need 46 more street circuit records)
+HIGHEST PRIORITY — FAN TOKEN RECORDS:
+  Football (dual fan token fixtures):
+    Both teams with active Chiliz Chain fan tokens — highest value record.
+    Check fantokens.com for active tokens: $AFC, $SPURS, $CITY, $PSG,
+    $BAR, $ATM, $JUV, $NAP, $GAL, $TRA and others.
+    Key modifiers: derby_active, competition_tier_weight, burn_to_glory
 
-GROWING PRIORITY (new sports in library):
-  MotoGP, Athletics, Swimming, Winter sports
+  MMA:
+    $UFC and $PFL are confirmed active Chiliz Chain fan token partners.
+    Any UFC Fight Night, PPV, or PFL card main event qualifies as a
+    fan token calibration record.
+
+  Football (single fan token):
+    One team has an active fan token, the other does not.
+    Valid fan token record — validates one-sided fan token intelligence.
+
+SPORT INTELLIGENCE LAYER (no fan token required):
+  Cricket: IPL, T20WC qualifiers, PSL
+    Key modifiers: dew_factor, india_pakistan
+  Formula 1: qualifying + race (street circuits especially)
+    Key modifiers: qualifying_delta
+  Any underrepresented sport: rowing, netball, kabaddi, handball
     Any records from these sports are firsts and highly valued
-    
-COMMUNITY RECORD FORMAT NOTE:
-  Records for common modifiers (athlete_modifier, competition_tier_weight)
-  are valuable even if those modifiers perform well — confirming accuracy
-  is as important as finding errors.
+
+RECORD FORMAT:
+  Submit as .md files using community/calibration-data/TEMPLATE.md
+  Records go in community/calibration-data/{sport}/
 ```
 
 ---
 
 *MIT License · SportMind · sportmind.dev*
-*Contribute: github.com/sportmind/sportmind/blob/main/community/calibration-data/CONTRIBUTING.md*
+*Contribute: [FIRST-RECORD-CHALLENGE.md](../FIRST-RECORD-CHALLENGE.md)*
