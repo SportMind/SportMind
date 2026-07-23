@@ -1,11 +1,11 @@
 # Fan Token Use Cases
 
 **Domain:** fan-token/use-cases.md
-**Version:** v4.1.8
+**Version:** v4.1.24
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
-**Scope:** Enduring structural fan engagement patterns only. Platform
-names, trader names, specific match references, viewer figures,
-and perishable campaign details excluded per Library Rule.
+**Scope:** Enduring structural fan engagement patterns and utility layers only.
+Platform names, trader names, specific match references, viewer figures,
+campaign-specific data, and perishable details excluded per Library Rule.
 
 ---
 
@@ -91,28 +91,7 @@ RULE 4 — ONE-SIDED MATCHES:
 
 ---
 
-## MIND DIMENSIONS
-
-| Dimension | Status | Notes |
-|---|---|---|
-| Intelligence (1) | ACTIVE | Trading battle as structured demand signal input |
-| Reasoning (2) | ACTIVE | Dual-layer mechanic logic; FM4/FM1 application |
-| Context (3) | ACTIVE | KO match context; programme recurrence confirmation |
-| Memory (4) | NOT APPLICABLE | — |
-| Judgment (5) | ACTIVE | Distinguish sentiment amplifier from supply event |
-| Attention (6) | ACTIVE | Assume active during KO windows unless confirmed otherwise |
-| Communication (7) | NOT APPLICABLE | — |
-| Verification (8) | ACTIVE | Confirm activation per match; do not assume for non-KO fixtures |
-| Learning (9) | EMERGING | Pattern confirmed across WC2026 — monitor for post-WC extension |
-| Integration (10) | ACTIVE | Cross-references BTG, FM1, FM4, CDI frameworks |
-| Calibration (11) | ACTIVE | Sentiment amplifier modifier informs pre-match signal weighting |
-| Adaptation (12) | EMERGING | Programme may extend to UCL and domestic cup KO fixtures |
-| Ethics (13) | NOT APPLICABLE | — |
-| Transparency (14) | ACTIVE | Structured volume disclosed; not conflated with organic demand |
-
----
-
-## Champion Call — Pre-Match Demand Amplifier Mechanic
+## CHAMPION CALL — PRE-MATCH DEMAND AMPLIFIER MECHANIC
 
 Confirmed structural fan engagement pattern (WC2026 Final, July 2026).
 Socios.com activates this campaign ahead of dual fan token Finals.
@@ -197,12 +176,74 @@ RULE 4 — HOLDING PRESSURE WINDOW:
 
 ---
 
+## NIL REVENUE INTEGRATION — US COLLEGE FAN TOKENS
+
+Confirmed structural use case (July 2026). Chiliz US college market entry.
+Structurally distinct from European club and national team fan token models.
+
+### What NIL Integration Means
+
+```
+DEFINITION:
+  Name, Image, and Likeness (NIL) programs allow US college
+  student-athletes to earn revenue from their personal brand.
+  In the US college fan token model, fan token revenues are
+  directed toward NIL programs — creating a direct financial
+  link between fan token activity and athlete earnings.
+
+UTILITY LAYER COMPARISON:
+  EUROPEAN MODEL: club → fan
+    Fan token as engagement and access tool.
+    Holder benefits: voting, experiences, merchandise, access.
+    Revenue flows: Socios/club receives, not to individual athletes.
+
+  US COLLEGE MODEL: fan → club → athlete
+    Fan token as NIL revenue mechanism.
+    Fan directly supports student-athlete earnings.
+    Revenue flows: through institution to athlete NIL program.
+
+WHY THIS MATTERS FOR AGENTS:
+  · Holder demand is partially driven by a philanthropy/support
+    motivation (backing student-athletes directly), in addition to
+    the engagement/access motivations of European models
+  · This creates a structurally different demand driver — closer to
+    a support/patronage model than a pure engagement/access model
+  · The NIL layer may create a more stable demand floor for US college
+    fan tokens vs purely entertainment-driven European tokens
+  · Alumni identity compounds this: lifelong loyalty to institution
+    creates structural holding motivation distinct from club fandom
+```
+
+### Agent Rules
+
+```
+RULE 1 — SEPARATE DEMAND MODEL:
+  When reasoning about US college fan token demand signals, apply
+  a separate demand model from European club tokens:
+  NIL support motivation + alumni identity + engagement utility
+  ≠ European club engagement + access utility only.
+
+RULE 2 — PERFORMANCE-LINKED MECHANIC TBC:
+  US college fan tokens will include performance-tied supply
+  gamification — confirmed in principle, mechanic not yet specified.
+  DO NOT assume 1:1 with Burn to Glory or Fan Token Play.
+  Monitor chiliz.com for confirmed mechanic documentation.
+
+RULE 3 — EUROPEAN FRAMEWORKS DO NOT DIRECTLY APPLY:
+  US college tokens operate under different utility, fandom, and
+  governance frameworks. Load this section before applying any
+  existing fan token demand or supply frameworks to US college tokens.
+```
+
+---
+
 ## COMPATIBILITY
 
 - fan-token/burn-to-glory-framework.md — Layer 1 on-chain supply event
 - fan-token/agent-failure-modes-fan-token.md — FM1, FM4, FM8 cross-reference
 - fan-token/fan-token-play.md — demand layer integration
-- macro/fan-adoption-intelligence.md — Tier 1/2 engagement context
-- macro/partnerships.md — FanTokens.com editorial context
+- macro/fan-adoption-intelligence.md — Tier 1/2/3 engagement context
+- macro/partnerships.md — US college market entry + FanTokens.com editorial context
+- macro/macro-regulatory-sportfi.md — SEC/CFTC March 2026 guidance (US enabler)
 
 © 2026 SportMind

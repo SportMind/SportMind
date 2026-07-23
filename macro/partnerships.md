@@ -1,7 +1,7 @@
 # Partnership Infrastructure Intelligence
 
 **Domain:** macro/partnerships.md
-**Version:** v4.1.6
+**Version:** v4.1.24
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Enduring structural partnerships and platform integrations only.
 Promotional campaigns, time-limited offers, and perishable partnership details excluded.
@@ -111,24 +111,92 @@ Agent rule: Kayen DEX campaign volume is a confirmed structural
 
 ---
 
+## US COLLEGE SPORTS MARKET ENTRY (July 2026)
+
+Chiliz entered the US college sports market via a distribution
+partnership with a major US sports media and marketing firm (July 2026).
+This is the primary US market entry event anticipated by the 2030 roadmap
+and enabled by the SEC/CFTC digital collectibles/tools classification.
+
+```
+STRUCTURAL PARTNERSHIP:
+  Distribution model: Chiliz partners with established US sports
+  media/marketing firm for market access and activation.
+  This is the confirmed execution of the US market pathway opened
+  by SEC/CFTC March 2026 joint guidance.
+
+INITIAL DEPLOYMENT:
+  · Five initial college teams (SEC and Big Ten conferences)
+  · Combined stadium capacity: ~440,000 seats (scale indicator)
+  · Launch target: later in 2026
+  · Scale target: up to 30 college teams in 12 months
+
+REGULATORY ENABLER:
+  SEC/CFTC March 2026 joint guidance — which explicitly referenced
+  Socios.com and classified Fan Tokens as digital collectibles and
+  digital tools — is the direct legal enabler of US market entry.
+  This guidance is already encoded in macro/macro-regulatory-sportfi.md.
+
+NEW UTILITY LAYER — NIL INTEGRATION:
+  Fan token revenues in the US college context support Name, Image,
+  and Likeness (NIL) programs for student-athletes.
+  This is structurally distinct from European club fan token utility:
+
+  EUROPEAN MODEL:   club → fan
+                    (fan token as engagement and access tool)
+
+  US COLLEGE MODEL: fan → club → athlete
+                    (fan token as NIL revenue mechanism —
+                    fan directly supports athlete earnings)
+
+PERFORMANCE-LINKED TOKENOMICS:
+  US college fan tokens will include performance-tied token supply
+  gamification. Official launch documentation has not yet confirmed
+  the exact mechanic. DO NOT assume 1:1 with Burn to Glory or Fan
+  Token Play until confirmed.
+  Monitor: chiliz.com launch documentation for mechanic confirmation.
+
+FANDOM PROFILE — US COLLEGE:
+  Structurally distinct from European club fandom:
+  · Alumni identity: lifelong commitment, geographic concentration
+  · Large stadium fanbases (100,000+ per major game)
+  · State/regional identity as primary loyalty driver
+  · Significant commercial value at institutional level
+  Contrast: European model is more urban, nationally broadcast-driven,
+  less alumni-specific.
+
+AGENT RULE — US COLLEGE FAN TOKENS:
+  US college fan tokens are a structurally distinct category.
+  DO NOT apply European club fan token frameworks directly.
+  Key differences:
+    · NIL utility layer (absent in European model)
+    · Alumni fandom model (vs club/city identity)
+    · NCAA governance framework
+    · Performance-linked mechanic: confirmed in principle, TBC on detail
+  Load this section when reasoning about US college fan token demand,
+  holder motivation, or supply event mechanics.
+```
+
+---
+
 ## MIND DIMENSIONS
 
 | Dimension | Status | Notes |
 |---|---|---|
-| Intelligence (1) | ACTIVE | Wallet and platform infrastructure signals |
-| Reasoning (2) | ACTIVE | Custody model selection, onboarding friction logic |
-| Context (3) | ACTIVE | Geographic reach, market structure context |
+| Intelligence (1) | ACTIVE | Wallet, platform, and US market entry signals |
+| Reasoning (2) | ACTIVE | Custody model, NIL utility layer, demand motivation logic |
+| Context (3) | ACTIVE | Geographic reach, fandom profile, regulatory enablement |
 | Memory (4) | NOT APPLICABLE | — |
-| Judgment (5) | ACTIVE | Correct wallet model for each holder profile |
+| Judgment (5) | ACTIVE | Correct wallet model; US vs European framework distinction |
 | Attention (6) | NOT APPLICABLE | — |
 | Communication (7) | NOT APPLICABLE | — |
-| Verification (8) | ACTIVE | Platform capability claims require Tier 1 source confirmation |
-| Learning (9) | NOT APPLICABLE | — |
-| Integration (10) | ACTIVE | Cross-references DeFi, registry, and adoption frameworks |
+| Verification (8) | ACTIVE | Platform capability and mechanic confirmation required |
+| Learning (9) | EMERGING | US college mechanic TBC — monitor for update |
+| Integration (10) | ACTIVE | Cross-references DeFi, registry, adoption, regulatory frameworks |
 | Calibration (11) | NOT APPLICABLE | — |
-| Adaptation (12) | EMERGING | Partnership landscape evolves — monitor for new wallet models |
+| Adaptation (12) | EMERGING | US college programme may expand; mechanic may be confirmed |
 | Ethics (13) | NOT APPLICABLE | — |
-| Transparency (14) | ACTIVE | Name-change notes preserve structural accuracy over time |
+| Transparency (14) | ACTIVE | Performance mechanic flagged as TBC; not assumed |
 
 ---
 
@@ -138,5 +206,7 @@ Agent rule: Kayen DEX campaign volume is a confirmed structural
 - fan-token/registry/complete-registry.md — $PEPPER Kayen governance token
 - macro/fan-adoption-intelligence.md — Tier 1/2/3 demand and onboarding context
 - fan-token/agent-failure-modes-fan-token.md — FM1 cross-reference
+- macro/macro-regulatory-sportfi.md — SEC/CFTC March 2026 guidance (US market enabler)
+- fan-token/use-cases.md — NIL revenue integration use case
 
 © 2026 SportMind
