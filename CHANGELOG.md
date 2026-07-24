@@ -1,5 +1,34 @@
 # Changelog
 
+## [4.1.34] — 2026-07-24
+
+### Changed
+- CHANGELOG.md: Missing entry v4.1.33 added.
+
+---
+
+## [4.1.33] — 2026-07-24
+
+### Added
+- core/mind-dimensions-framework.md (NEW 389L): Canonical reference for
+  SportMind's 16 Mind Dimensions and 64 sub-dimensions. Expands dimension
+  system from 14 to 16 with the addition of:
+  Dimension 15 — Execution: Entry Discipline · Exit Discipline · Sizing
+    Logic · Playbook Adherence. Covers FTP PATH_2 execution protocols,
+    HOLD condition management, and signal-to-action translation.
+  Dimension 16 — Collaboration: Task Delegation · Context Handoff · Output
+    Coordination · Conflict Arbitration. Covers multi-agent coordination for
+    SportMind's agent type 6 (multi-agent systems) architecture.
+  All 16 dimensions documented with 4 sub-dimensions each (64 total).
+  Mapping conventions, status values, sub-dimension citation format.
+  Known gaps table: core/temporal-reasoning-framework.md and
+    core/contradiction-resolution-framework.md flagged as Tier 1 priority.
+  Existing library files pre-v4.1.33 map to 14 dimensions. Retrospective
+  pass planned separately. 764 files · 544 markdown.
+
+---
+
+
 ## [4.1.32] — 2026-07-24
 
 ### Changed
