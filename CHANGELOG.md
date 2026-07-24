@@ -1,5 +1,28 @@
 # Changelog
 
+## [4.1.32] — 2026-07-24
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.29, v4.1.30, v4.1.31 added.
+
+---
+
+## [4.1.31] — 2026-07-24
+
+### Changed
+- fan-token/use-cases.md: Dual fan token final precedent chain corrected.
+  New section added: DUAL FAN TOKEN FINAL — CONFIRMED PATTERN. 2025 South
+  American continental club final added as Precedent 1 (first confirmed dual
+  fan token major final in competition history — predates UCL 2026 and
+  WC2026 instances). Three instances now documented across continental club,
+  UEFA club, and international national competition categories. Pattern
+  intelligence and three agent rules added: assess finalist status, apply
+  dual final framework, do not assume supply event (UCL 2026 draw at 90
+  min = no FTP PATH_2 event). 249L → 320L.
+
+---
+
+
 ## [4.1.30] — 2026-07-23
 
 ### Changed
