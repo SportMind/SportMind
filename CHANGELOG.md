@@ -1,5 +1,38 @@
 # Changelog
 
+## [4.1.30] — 2026-07-23
+
+### Changed
+- index.html: Stat bar 137→140 calibration records. Empirical Foundation
+  updated with full breakdown: 13 verified records (submitted pre-match,
+  outcomes confirmed — 10 WC2026 + UCL series, 3 FTP PATH_2 on-chain) and
+  127 seed records (modifier validation examples, @sportmind-core). Leaderboard
+  maintainer row updated: 137 records → 13 verified · 127 seed.
+- README.md: Calibration count line updated: 137 calibration records →
+  13 verified records + 127 seed records. WC2026 9/9 100% perfect noted.
+- OVERVIEW.md: Calibration section updated: 140 total, 13 verified, 127 seed.
+  WC2026 series 9/9 100% perfect record retained.
+
+---
+
+## [4.1.29] — 2026-07-23
+
+### Added
+- community/calibration-data/verified/README.md: Explains verified records —
+  submitted before real events, outcomes confirmed. Lists 3 FTP PATH_2 on-chain
+  confirmed records. Total 13 verified records (3 here + 10 in calibration/2026/).
+- community/calibration-data/seed/README.md: Explains seed records are synthetic
+  modifier validation examples by @sportmind-core. Not real pre-match submissions.
+  Not accuracy evidence.
+
+### Changed
+- community/calibration-data/: Structural reorganisation. Split into verified/
+  (3 FTP PATH_2 on-chain records) and seed/ (127 modifier validation examples).
+  2 duplicate internal WC2026 .md files removed from root (canonical versions in
+  calibration/2026/). 4 .DS_Store files removed. **/.DS_Store added to .gitignore.
+
+---
+
 ## [4.1.26] — 2026-07-23
 
 ### Changed

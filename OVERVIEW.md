@@ -76,11 +76,17 @@ Pre-liquidation pool = circulating supply ÷ 400
 
 ### Calibration Records
 
-137 verified records across multiple sports. Submitted before real events. Outcomes confirmed. Including the wrong ones.
+140 records in the repository — two types:
+
+13 verified records: submitted before real events, outcomes confirmed,
+including the wrong ones.
+
+127 seed records: modifier validation examples created by
+@sportmind-core across 21 sports.
 
 WC2026 series: 9 from 9 — 100% accuracy, perfect record.
 
-Every record is in `calibration/2026/` — fully verifiable.
+Every verified record is in the repository — fully inspectable.
 
 ### The Library Rule
 

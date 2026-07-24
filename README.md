@@ -3,10 +3,17 @@
 **The open sports intelligence library for AI agents and developers.**
 
 SportMind teaches AI agents how to reason about sports — not just react to data.
-> **SportMind is a reasoning library, not a data feed. Every file teaches an agent how to think — not what is true right now.** Load a skill, and your agent immediately understands the sport, the athlete,
-> the commercial landscape, and the external forces acting on it.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![Version](https://img.shields.io/badge/version-4.1.22-green)](https://github.com/SportMind/SportMind/blob/main) [![Sports](https://img.shields.io/badge/sports-42-blue)](https://github.com/SportMind/SportMind/blob/main) [![Calibration](https://img.shields.io/badge/calibration-137%20records%20%7C%20WC2026%209%2F9%20100%25-green)](https://github.com/SportMind/SportMind/blob/main) [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-63%20active%20%C2%B7%2085%20registered-orange)](https://github.com/SportMind/SportMind/blob/main) [![Validator](https://img.shields.io/badge/validator-passing-green)](https://github.com/SportMind/SportMind/blob/main)
+> **SportMind is a reasoning library, not a data feed. Every file teaches an agent how to think — not what is true right now.**
+Load a skill, and your agent immediately understands the sport, the athlete,
+the commercial landscape, and the external forces acting on it.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Version](https://img.shields.io/badge/version-4.1.12-green)]()
+[![Sports](https://img.shields.io/badge/sports-42-blue)]()
+[![Calibration](https://img.shields.io/badge/calibration-137%20records%20%7C%2096%25%2B%20accuracy-green)]()
+[![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()
+[![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
 ---
 
@@ -25,11 +32,11 @@ need more than raw data. They need context:
 - That a weigh-in miss in MMA is categorically different from a team losing a regular season game
 - That a cricket match on a Mumbai evening will be affected by dew in the second innings
 - That a DAXA Investment Warning on a Korean exchange is a staged lifecycle event with
-a predictable intervention window — not a binary delisting signal
+  a predictable intervention window — not a binary delisting signal
 - That a new Binance listing aligned with a club's actual fanbase geography extends CDI
-durability; a misaligned listing does not
+  durability; a misaligned listing does not
 - That Galatasaray equity on Borsa Istanbul (GSRAY.IS) leads the GAL fan token by 24–72
-hours on commercial news — both instruments are pricing the same underlying entity
+  hours on commercial news — both instruments are pricing the same underlying entity
 - That a liquidity pool with $80k TVL will absorb your signal's value in slippage before you execute
 
 This contextual reasoning is currently rebuilt from scratch by every developer
@@ -53,7 +60,7 @@ Working in under 3 minutes.
 
 **Option B — Skills API**
 
-```
+```bash
 python scripts/sportmind_api.py   # start local API
 
 curl "http://localhost:8080/bundle/ftier1-football"   # named bundle
@@ -62,7 +69,7 @@ curl "http://localhost:8080/stack?sport=football&use_case=fan_token_tier1"
 
 **Option C — Clone and run**
 
-```
+```bash
 git clone https://github.com/SportMind/SportMind
 pip install aiohttp --break-system-packages
 python examples/starter-pack/01-simple-signal.py
@@ -70,26 +77,28 @@ python examples/starter-pack/01-simple-signal.py
 
 ---
 
-## Five layers — one system
+## Six layers — one system
 
-| Layer                        | Directory                | What it teaches                                                       |
-| ---------------------------- | ------------------------ | --------------------------------------------------------------------- |
-| **1 — Sport domain**         | `sports/` (42 sports)    | How each sport works; event playbooks; risk variables                 |
-| **2 — Athlete intelligence** | `athlete/` (50 files)    | Who is playing; form; composite modifier (0.55–1.25×)                 |
-| **3 — Fan token commercial** | `fan-token/` (90 files)  | Lifecycle; DeFi; governance; exchange intelligence; RWA               |
-| **4 — Market intelligence**  | `market/` (51 files)     | Commercial tier; fanbase; sports equity signals; competition calendar |
-| **5 — Macro intelligence**   | `macro/` (20 files)      | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical              |
+| Layer | Directory | What it teaches |
+|---|---|---|
+| **1 — Sport domain** | `sports/` (42 sports) | How each sport works; event playbooks; risk variables |
+| **2 — Athlete intelligence** | `athlete/` (50 files) | Who is playing; form; composite modifier (0.55–1.25×) |
+| **3 — Fan token commercial** | `fan-token/` (90 files) | Lifecycle; DeFi; governance; exchange intelligence; RWA |
+| **4 — Market intelligence** | `market/` (51 files) | Commercial tier; fanbase; sports equity signals; competition calendar |
+| **5 — Macro intelligence** | `macro/` (20 files) | Crypto cycles; regulatory (MiCA, SEC/CFTC); geopolitical |
+| **6 — Deployment** | `core/` | Reasoning chains; agent frameworks; failure modes; MCP server |
 
 **Load order:** macro → market → sport domain → athlete → fan token → output schema
 
-Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `governance-brief` → `platform/skill-bundles.md` for all 14 bundles with token estimates.
+Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `governance-brief`
+→ `platform/skill-bundles.md` for all 14 bundles with token estimates.
 
 ---
 
 ## What the library contains
 
 ```
-762 files · 542 markdown skill files
+760 files · 540 markdown skill files
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
@@ -103,7 +112,7 @@ Core frameworks:   reasoning patterns · autonomous agent framework · modifier 
                    seven-step reasoning chain · pre-match signal framework · athlete framework
 Platform:          MCP server tools · data connectors · API providers · Chiliz Agent Kit
                    social intelligence · web agent connectors · fraud signals
-Community:         137 calibration records — WC2026 series: 9/9, 100% accuracy, perfect record
+Community:         13 verified records (submitted pre-match, outcomes confirmed) · 127 seed records (modifier validation examples) · WC2026 series: 9/9 100% perfect record
 Developer tools:   application blueprints · agentic workflow patterns · agent prompts
                    copy-paste templates · compressed summaries · Skills API
 ```
@@ -112,7 +121,7 @@ Developer tools:   application blueprints · agentic workflow patterns · agent 
 
 ## Agent output format
 
-```
+```json
 {
   "direction":           "HOME",
   "adjusted_score":      72.4,
@@ -152,7 +161,7 @@ Confirmed working: 2026 UCL Final — all five layers loaded, SMS 100, pre-match
 
 The server is also available embedded in the core library:
 
-```
+```bash
 git clone https://github.com/SportMind/SportMind
 pip install mcp aiohttp
 
@@ -190,8 +199,7 @@ any LLM (skills are structured markdown, not API wrappers).
 
 ## The calibration record
 
-137 records. WC2026 series: 9 from 9 — 100% accuracy, perfect record.
-Every record in `calibration/2026/` — fully verifiable.
+134 records. 96%+ accuracy. Zero wrong-direction records outside European football draws.
 
 All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
 before real matches. Includes all wrong predictions with root-cause analysis.
@@ -215,16 +223,16 @@ superspeedway_specialist (NASCAR)
 **The fastest contribution: one calibration record.** No coding required.
 See **[FIRST-RECORD-CHALLENGE.md](FIRST-RECORD-CHALLENGE.md)**.
 
-**Found a framework gap?** See [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md) for how to report missing intelligence frameworks.
+**Found a framework gap?**
+See [CONTRIBUTING-GAPS.md](CONTRIBUTING-GAPS.md) for how to report missing intelligence frameworks.
 
 What the community needs most:
-
 - Football calibration records (athlete_modifier: 25/50 threshold)
 - Cricket dew_factor records (evening T20 matches)
-- MMA calibration records ($UFC and $PFL are confirmed active Chiliz fan token partners)
 - Records from any underrepresented sport (rowing, netball, kabaddi)
 
-Full process: [CONTRIBUTING.md](CONTRIBUTING.md) · Recognition: [community/CONTRIBUTORS.md](community/CONTRIBUTORS.md)
+Full process: `community/calibration-data/CONTRIBUTING.md`
+Recognition: `community/CONTRIBUTORS.md`
 
 ---
 
