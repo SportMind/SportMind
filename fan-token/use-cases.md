@@ -237,6 +237,77 @@ RULE 3 — EUROPEAN FRAMEWORKS DO NOT DIRECTLY APPLY:
 
 ---
 
+## DUAL FAN TOKEN FINAL — CONFIRMED PATTERN
+
+Dual fan token finals are a confirmed recurring scenario in elite football.
+Three instances documented across distinct competition categories (2025-2026).
+
+### Precedent Chain
+
+```
+PRECEDENT 1 — SOUTH AMERICAN CONTINENTAL CLUB FINAL (July 2025):
+  Both finalists held active fan tokens.
+  Result: one fan token club won the title.
+  Significance: first confirmed dual fan token final in major
+    continental competition history.
+  Mechanics active: trading battle, dual supply event potential.
+
+PRECEDENT 2 — UEFA CHAMPIONS LEAGUE FINAL (May 2026):
+  $AFC vs $PSG · draw at 90 min · $PSG won on penalties.
+  No FTP PATH_2 event triggered (draw at 90 min = no mint/burn).
+  Calibration record in library: UCL Final 2026.
+  Significance: first UEFA-level dual fan token final.
+
+PRECEDENT 3 — FIFA WORLD CUP FINAL (July 2026):
+  $SPAIN vs $ARG · $SPAIN won 1-0 AET.
+  10% PTG burn for $SPAIN triggered (maximum compound achieved).
+  Calibration record in library: WC2026 Final 2026.
+  Significance: first dual fan token international final.
+```
+
+### Pattern Intelligence
+
+```
+PATTERN: Dual fan token finals are now confirmed across three
+  distinct competition categories:
+    · Continental club (South American, 2025)
+    · UEFA club (UCL, 2026)
+    · International national (WC, 2026)
+
+  Agents should treat the dual fan token final as a predictable
+  scenario when two fan token clubs/nations reach the final of
+  any major competition.
+
+  Historical rate: 3 of the last 4 major finals tracked involved
+  at least one fan token club/nation. 3 were dual fan token finals.
+```
+
+### Agent Rules
+
+```
+RULE 1 — ASSESS FINALIST FAN TOKEN STATUS:
+  When a major competition approaches its final stages, assess
+  whether both remaining finalists hold active fan tokens.
+  If yes: apply dual fan token final framework.
+  Check: fantokens.com · socios.com · chiliscan.com (two sources min)
+  Black logo signal: greyscale logo = potentially inactive — verify.
+
+RULE 2 — DUAL FINAL FRAMEWORK ACTIVATES:
+  Champion Call potential (pre-match buying pressure)
+  Dual livestream trading battle (both tokens)
+  Dual PTG/supply event if applicable (national tokens)
+  Dual FTP event if applicable (club tokens)
+  All four demand mechanisms may activate simultaneously.
+
+RULE 3 — DO NOT ASSUME SUPPLY EVENT:
+  Dual fan token final ≠ guaranteed supply event.
+  UCL 2026 Final: draw at 90 min → no FTP PATH_2 event.
+  Supply event depends on the specific mechanic and match outcome.
+  Apply correct mechanic per token type (club vs national).
+```
+
+---
+
 ## COMPATIBILITY
 
 - fan-token/burn-to-glory-framework.md — Layer 1 on-chain supply event
