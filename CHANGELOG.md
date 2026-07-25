@@ -1,5 +1,52 @@
 # Changelog
 
+## [4.1.36] — 2026-07-25
+
+### Changed
+- CHANGELOG.md: Missing entry v4.1.35 added.
+
+---
+
+## [4.1.35] — 2026-07-25
+
+### Added
+- core/temporal-reasoning-framework.md (NEW 335L): Unified temporal
+  reasoning framework. Fills Tier 1 library gap for Dimension 2d
+  (Temporal Reasoning). Five temporal contexts · 12 agent rules ·
+  6 temporal failure modes (TFM1-TFM6). 765 files · 545 markdown.
+
+  Context 1 — Pre-Event Windows: Sport-specific timing table
+    (football, MMA, F1, cricket, rugby, esports). FTP PATH_2
+    pre-liquidation protocol: T-12h monitoring → T-2h alert →
+    T+0 settlement → T+2h on-chain confirmation.
+
+  Context 2 — CDI Horizon Framework: SHORT/MEDIUM/LONG
+    classifications. Event-triggered reassessment (not calendar).
+    TRANSITION/CONSOLIDATION/STABLE gate → horizon mapping.
+    Expired CDI = UNKNOWN, not STABLE.
+
+  Context 3 — Supply Event Timing: PTG phase table, FTP PATH_2
+    settlement window, bridge event timing. Prevents FM1
+    (Price-Signal Conflation) across pre/post event windows.
+
+  Context 4 — Regulatory Deadline Framework: T-60 flag · T-30
+    escalation · T-7 daily scan · T+0 enforcement. Four deadline
+    classification types (implementation, application gateway,
+    comment period, enforcement).
+
+  Context 5 — Signal Expiry Protocol: Expiry thresholds by signal
+    type (14d rumours · 30d Tier 2 · 50d partnerships · 90d HP
+    flags). RETIRE vs CLOSE distinction documented.
+
+  Temporal Failure Modes: TFM1 Pre-Event Timing Error · TFM2 CDI
+    Horizon Overrun · TFM3 Supply Event Conflation · TFM4 Regulatory
+    Deadline Blindness · TFM5 Stale Signal Retention · TFM6
+    Calibration Record Backdating. All 16 Mind Dimensions mapped —
+    15 ACTIVE. Primary: Dimension 2d Temporal Reasoning.
+
+---
+
+
 ## [4.1.34] — 2026-07-24
 
 ### Changed
