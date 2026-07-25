@@ -1,5 +1,51 @@
 # Changelog
 
+## [4.1.39] — 2026-07-25
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.37 and v4.1.38 added.
+
+---
+
+## [4.1.38] — 2026-07-25
+
+### Changed
+- macro/global-regulatory-landscape.md (UPDATED 277L → 309L):
+  EU 21st sanctions package (July 23 2026) added. Transaction ban on
+  14 crypto-related service platforms (Georgia, Panama, UAE, Marshall
+  Islands, Kyrgyzstan, Belarus — Russia sanctions evasion). New legal
+  instrument: EU can now ban ALL crypto asset services from entire third
+  countries under Council Regulation (EU) 2026/1844 — first use of this
+  power, deterrent instrument, not yet applied country-wide.
+  Agent rules: Chiliz/Socios unaffected (MiCA-authorised Malta). MiCA
+  authorisation now stronger competitive moat. UAE crypto sector faces
+  third-country ban exposure. eu-mica.md flagged as escalated priority.
+  Source: consilium.europa.eu — Tier 1 confirmed.
+
+---
+
+## [4.1.37] — 2026-07-25
+
+### Added
+- core/contradiction-resolution-framework.md (NEW 405L): Fills the last
+  remaining Tier 1 library gap alongside core/temporal-reasoning-framework.md
+  (v4.1.35). Both Tier 1 priority framework files now complete.
+  Five contradiction types: Layer · Source Tier · Temporal · Modifier ·
+  Regime. Six resolution rules in strict hierarchy: Safety Gate First
+  (HOLD always overrides) · Source Tier Hierarchy (on-chain > Tier 1 >
+  Tier 1.5 > Tier 2) · Layer Hierarchy (macro sets direction, lower layers
+  modulate) · Temporal Recency (three-question test) · Modifier Magnitude
+  (never silently cancel) · Unresolvable Contradictions (HOLD + report).
+  Critical PTG burn + CAPITULATION distinction: PTG burns execute on-chain
+  automatically regardless of CHZ regime — HOLD applies to discretionary
+  actions only. 12 agent rules. Four worked examples. Known contradiction
+  hotspots table (8 combinations). All 16 Mind Dimensions ACTIVE — first
+  file where Collaboration is ACTIVE (16d Conflict Arbitration).
+  Primary dimension: 5. Judgment (5c Conflict Resolution). 766 files.
+
+---
+
+
 ## [4.1.36] — 2026-07-25
 
 ### Changed
