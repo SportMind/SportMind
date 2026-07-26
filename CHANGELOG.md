@@ -1,9 +1,45 @@
 # Changelog
 
+## [4.1.41] — 2026-07-25
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.39 and v4.1.40 added.
+
+---
+
+## [4.1.40] — 2026-07-25
+
+### Added
+- macro/regulatory/eu-mica.md (NEW 237L): Dedicated MiCA framework file.
+  Fan tokens: MiCA Title II "other crypto-assets" — lightest regulatory
+  category. No capital requirements, no prudential supervision. White paper
+  required before issuance. CASP authorisation required for EU fan token
+  trading platforms from December 2024. Chiliz/Socios MFSA Malta authorisation
+  (September 2025) = EU-wide passporting across all 27 member states. MiCA
+  market abuse provisions active December 2024 — parallel and independent from
+  UK MARC (Q4 2027). MiCA compliance insulates from EU third-country ban
+  mechanism (Council Regulation 2026/1844). 8 agent rules. 14 of 16 Mind
+  Dimensions ACTIVE. 768 files · 548 markdown.
+
+- macro/regulatory/south-africa-sars.md (NEW 220L): SARS Draft Guide to
+  Taxation of Crypto Assets (July 1 2026). Comment period closes August 31
+  2026 — TFM4 T-30 escalation active August 1. Crypto assets classified as
+  intangible assets subject to income tax and CGT on disposal. CARF implemented
+  March 2026: automatic information exchange, offshore holdings no longer
+  sheltered, first reporting period ends February 2027. Dedicated Crypto Revenue
+  Augmentation Unit established — enforcement intent confirmed. $SAFA fan token
+  holder implications: disposal tax events, CARF reporting obligations, PTG burn
+  tax treatment not addressed in draft guide. Compliance-driven selling pressure
+  modifier documented. 5 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
 ## [4.1.39] — 2026-07-25
 
 ### Changed
-- CHANGELOG.md: Missing entries v4.1.37 and v4.1.38 added.
+- CHANGELOG.md: Missing entries v4.1.37 (core/contradiction-resolution-
+  framework.md) and v4.1.38 (macro/global-regulatory-landscape.md EU 21st
+  sanctions) added. Prepended at top of file — no existing entries modified.
 
 ---
 
