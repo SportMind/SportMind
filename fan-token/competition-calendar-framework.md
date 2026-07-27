@@ -22,6 +22,35 @@ surface in SMI Section 1 as demand window reset signals.
 
 ---
 
+## Partnership Verification Requirement
+
+**This framework documents structural competition rhythms only.
+It does not guarantee the current active status of any fan token.**
+
+Partnership status changes independently of competition calendars.
+A club may still be playing in its league while its Chiliz fan
+token partnership has terminated.
+
+Before applying any competition calendar intelligence:
+1. Verify active partnership status on fantokens.com and
+   socios.com for the specific token
+2. Check logo colour — black or greyscale logo = potentially
+   inactive partnership · do not proceed without verification
+3. Cross-check chiliscan.com for recent on-chain activity
+4. If status is uncertain — treat as UNCONFIRMED and flag in
+   SMI briefing before any analysis
+
+This verification applies to every cluster in this framework
+without exception. The South American cluster (G) has the
+highest historical rate of terminated partnerships — but
+terminations can occur in any cluster at any time.
+
+**Agent rule 0:** Partnership verification is a prerequisite for
+every competition calendar application. No competition window
+intelligence is valid for an unverified token.
+
+---
+
 ## How to Use This Framework
 
 **Step 1 — Identify the token cluster.** Which region and competition
