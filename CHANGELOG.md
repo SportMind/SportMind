@@ -1,5 +1,37 @@
 # Changelog
 
+## [4.1.48] — 2026-07-27
+
+### Changed
+- CHANGELOG.md: Missing entry v4.1.47 added.
+
+---
+
+## [4.1.47] — 2026-07-27
+
+### Added
+- fan-token/holder-tax-framework.md (NEW 411L): Cross-jurisdictional holder
+  tax framework. Fills Priority 3 coverage gap. All token lists registry-
+  verified. Critical distinction: holder jurisdiction governs demand behaviour
+  — not issuer jurisdiction. Four tax regime types (A-D). Six primary holder
+  market profiles: Germany (Type A · 0% CGT after 12m · LONG HOLD BIAS · no
+  domestic German club tokens in registry) · Japan (Type B · up to 55% ·
+  VERY HIGH friction · $INTER $ACM $JUV $PSG) · UK (Type D · 10-18% CGT ·
+  MARC Q4 2027 · $AFC $SPURS $CITY $CPFC $AVL $EFC $LUFC) · France
+  (Type C · 30% flat PFU · $PSG) · Spain (Type D · 19-28% progressive ·
+  $BAR $ATM $SEVILLA $RSO $LEV $VCF · $LEV = Levante UD confirmed
+  Spanish) · South Africa (reference south-africa-sars.md).
+  Pending HIGH PRIORITY: Brazil (9 active Chiliz tokens — largest domestic
+  club market in registry: $MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA
+  $GALO $SACI $VASCO · await brazil.md) · Turkey (6 active Chiliz tokens:
+  $GAL $TRA $ALA $IBFK $GOZ $SAM · $BJK on Ethereum excluded ·
+  await turkey.md). Cross-jurisdiction demand modifier summary table.
+  10 agent rules. Compliance enforcement = Type 3 Structural.
+  15 of 16 Mind Dimensions ACTIVE. 770 files · 550 markdown.
+
+---
+
+
 ## [4.1.46] — 2026-07-27
 
 ### Changed
