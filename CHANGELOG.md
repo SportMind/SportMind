@@ -1,9 +1,40 @@
 # Changelog
 
+## [4.1.45] — 2026-07-27
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.43 and v4.1.44 added.
+
+---
+
+## [4.1.44] — 2026-07-27
+
+### Added
+- core/signal-classification-framework.md (NEW 436L): Canonical signal
+  classification system. Fills Priority 5 core reasoning gap. Six signal
+  types: Type 1 Supply Event (HIGHEST reliability, permanent, chiliscan.com
+  required) · Type 2 Demand (MEDIUM, time-bounded, bridge volume =
+  infrastructure not demand FM7) · Type 3 Structural (HIGH, long, primary
+  library-building type) · Type 4 Regulatory (HIGH, variable, TFM4 applies)
+  · Type 5 Operational (HIGH when confirmed, immediate, almost always briefing
+  only, MMA weight miss = highest priority Type 5) · Type 6 Calibration
+  (HIGHEST for verified, permanent, only type that can update modifier values
+  — seed records cannot). Signal reliability hierarchy table. Decay rate table
+  (14 subtypes). Expiry protocol. Cross-type conflict resolution (5 pairs).
+  Known misclassifications: FM1, FM4, FM7, TFM3. 14 agent rules. 15 of 16
+  Mind Dimensions ACTIVE. 769 files · 549 markdown.
+
+---
+
 ## [4.1.43] — 2026-07-27
 
 ### Changed
-- CHANGELOG.md: Missing entry v4.1.42 added.
+- CHANGELOG.md: Missing entry v4.1.42 (south-africa-sars.md Budget 2026
+  crypto additions) added. Prepended at top of file — no existing entries
+  modified.
+
+---
+
 
 ---
 
