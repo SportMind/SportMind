@@ -13,9 +13,12 @@ TFM4 deadline protocol: comment period closes August 31 2026.
 ## Regulatory Timeline
 
 ```
-March 2026     — CARF (Crypto-Asset Reporting Framework) implemented
+2 March 2026   — CARF (Crypto-Asset Reporting Framework) implemented
                  South Africa adopts OECD CARF for automatic
                  information exchange between tax authorities
+20 March 2026  — Budget 2026 FAQ published — crypto-specific tax
+                 changes documented · ITR12 source code 4522
+                 introduced for crypto trading income reporting
 July 1 2026    — SARS Draft Guide to Taxation of Crypto Assets
                  published. Opens public comment period.
 August 31 2026 — Comment period closes (TFM4 T+0 deadline)
@@ -60,6 +63,18 @@ FAN TOKEN SPECIFIC:
   Receiving fan token rewards: may constitute income
   PTG treasury burns: tax treatment NOT addressed in July 2026
     draft guide — TBC, monitor final guide
+
+BUDGET 2026 — SPECIFIC TAX RATES CONFIRMED (source: sars.gov.za):
+  Frequent traders (trading as business activity):
+    Marginal income tax rates apply · 18–45% depending on income bracket
+  Long-term investors (CGT):
+    Maximum effective rate: 18% for individuals (confirmed Budget 2026)
+  ITR12 source code 4522: crypto trading income reporting field
+    Embedded in standard income tax return (ITR12)
+    Crypto reporting is now infrastructure, not optional
+    South African tax residents filing ITR12 for 2024/25 tax year
+    are already required to declare crypto asset gains using this code
+    Enforcement infrastructure is live — not waiting for draft guide
 ```
 
 ---
@@ -73,8 +88,8 @@ WHAT CARF IS:
   and transactions of foreign tax residents.
 
 SOUTH AFRICA IMPLEMENTATION:
-  Effective: March 2026
-  First reporting period: March 2026 to February 2027
+  Effective: 2 March 2026
+  First reporting period: 2 March 2026 to 28 February 2027
   Reporting deadline: by end of March 2027
 
 WHAT IS REPORTED:
@@ -95,6 +110,35 @@ KEY IMPLICATION — OFFSHORE HOLDINGS NO LONGER SHELTERED:
 AGENT RULE: CARF compliance is mandatory for CASPs serving South
   African residents. Non-compliant platforms face enforcement risk.
   This may affect platform access for South African fan token holders.
+```
+
+---
+
+## Voluntary Disclosure Programme (VDP)
+
+```
+VDP COVERAGE:
+  The VDP explicitly covers historic crypto non-compliance.
+  Taxpayers with previously undeclared crypto income (including
+  fan token trading gains) can regularise their affairs with
+  reduced penalties before SARS initiates an audit or inquiry.
+
+CLOSING WINDOW:
+  As CARF data from 2 March 2026 accumulates, SARS visibility
+  into historic crypto holdings increases. VDP applications
+  must be submitted before SARS initiates contact — once an
+  audit begins, VDP is no longer available.
+  The window is closing as CARF data flows increase through
+  2026-2027.
+
+VDP AGENT RULE:
+  South African $SAFA holders with historic undisclosed gains
+  face increasing audit risk as CARF data accumulates.
+  VDP-driven regularisation may create near-term selling pressure
+  as holders address compliance before SARS acts.
+  Monitor for any SARS enforcement announcements post-August 31
+  2026 comment period close — enforcement intensity expected to
+  increase materially after final guide publication.
 ```
 
 ---
@@ -148,6 +192,15 @@ COMPLIANCE-DRIVEN SELLING PRESSURE MODIFIER:
   This is a market-structure modifier for South African demand.
   Apply as a LOW-MEDIUM negative modifier on $SAFA South African
   retail demand in periods of SARS enforcement activity.
+
+ITR12 SOURCE CODE 4522:
+  ITR12 source code 4522 applies to $SAFA trading income.
+  South African tax residents filing ITR12 for 2024/25 tax year
+  are already required to declare crypto asset gains using this
+  source code. The infrastructure for enforcement is live —
+  not waiting for the draft guide to be finalised.
+  This is a structural signal: compliance is now embedded in
+  the standard tax return process, not a separate voluntary step.
 ```
 
 ---
