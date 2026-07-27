@@ -1,5 +1,33 @@
 # Changelog
 
+## [4.1.43] — 2026-07-27
+
+### Changed
+- CHANGELOG.md: Missing entry v4.1.42 added.
+
+---
+
+## [4.1.42] — 2026-07-27
+
+### Changed
+- macro/regulatory/south-africa-sars.md (UPDATED 220L → 273L):
+  Budget 2026 crypto-specific additions from sars.gov.za primary source.
+  ITR12 source code 4522 confirmed for crypto trading income — embedded
+  in standard tax return (ITR12). South African fan token holders filing
+  ITR12 for 2024/25 tax year already required to declare gains using this
+  source code. Enforcement infrastructure live before draft guide finalised.
+  CGT maximum effective rate: 18% for individuals (confirmed Budget 2026).
+  CARF exact date corrected: 2 March 2026 (was 1 March 2026). First
+  reporting period: 2 March 2026 to 28 February 2027. New section: VDP
+  (Voluntary Disclosure Programme) — explicitly covers historic crypto
+  non-compliance. Window narrows as CARF data accumulates. VDP unavailable
+  once SARS initiates audit. May create near-term selling pressure among
+  South African $SAFA holders addressing compliance before SARS acts.
+  Source: sars.gov.za — Tier 1 confirmed. T-30 active August 1 per TFM4.
+
+---
+
+
 ## [4.1.41] — 2026-07-25
 
 ### Changed
