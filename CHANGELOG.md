@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.1.54] — 2026-07-28
+
+### Changed
+- CHANGELOG.md: Missing entry v4.1.53 added (CHANGELOG gap fill
+  covering v4.1.49 through v4.1.52).
+
+---
+
+
 ## [4.1.53] — 2026-07-27
 
 ### Changed
