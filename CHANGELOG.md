@@ -1,5 +1,91 @@
 # Changelog
 
+## [4.1.53] — 2026-07-27
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.49 through v4.1.52 added.
+
+---
+
+## [4.1.52] — 2026-07-27
+
+### Added
+- market/club-intelligence/afc.md (NEW 270L): Arsenal FC ($AFC) Club
+  Development Index — Tier A priority. Template for all subsequent CDI
+  files. CDI Gate: CONSOLIDATION · Horizon: MEDIUM (2026-27 season).
+  Three Tier A reasons: only confirmed FTP PATH_2 token (never generalise)
+  · UCL 2026-27 confirmed (knockout Feb-May = primary PATH_2 window) ·
+  largest English fan token market globally (UK CGT + MARC awareness).
+  Squad archetype: high-press, positional play, data-driven — CONSOLIDATION
+  rationale embedded across multiple seasons. FTP PATH_2 intelligence: three
+  verified on-chain records in library (verified/) — Arsenal vs Sporting CP
+  UCL April 7 2026 · Sporting CP vs Arsenal UCL April 15 2026 · Arsenal vs
+  Bournemouth PL April 11 2026 — only verified PATH_2 records in entire
+  library. North London derby ($AFC vs $SPURS): dual-token confirmed · draw
+  premium < 0.08 form differential. Transfer window (closes August 31 2026).
+  Demand peaks: UCL knockout · NLD · title-deciding PL · confirmed PATH_2.
+  8 agent rules. 15 of 16 Mind Dimensions ACTIVE. 773 files · 553 markdown.
+
+---
+
+## [4.1.51] — 2026-07-27
+
+### Added
+- sports/mma/mma-intelligence-framework.md (NEW 377L): MMA-specific signal
+  intelligence for $UFC and $PFL. Fills Priority 2 coverage gap. Football
+  frameworks must not be applied to MMA — distinct framework required.
+  MMA pre-event timeline: fight announcement (T-8 to T-4wk) · weigh-ins
+  T-1 day (CRITICAL) · main card start closes window. Weigh-in = highest
+  priority Type 5 in SportMind: weight miss → confidence drops one tier
+  minimum across entire card · main event miss = REASSESSMENT REQUIRED ·
+  champion miss = LOW confidence. UFC card stakes: Numbered PPV (+++) ·
+  Fight Night major (++) · standard (+) · DWCS (neutral). PFL card stakes:
+  Championship (++++) · Playoffs (+++) · Regular season (++) · SuperFights
+  (+). PFL points rule: check standings before every regular season analysis
+  — finishing need changes game plan. Title fight modifier. Fighter profile
+  modifiers: archetype level only, never named. Four MMA failure modes:
+  MMA-FM1 (weigh-in miss) · MMA-FM2 (card type conflation) · MMA-FM3 (PFL
+  standings not checked) · MMA-FM4 (fighter name in record). No PTG or
+  PATH_2 for $UFC/$PFL. CAPITULATION applies fully. 14 agent rules.
+  15 of 16 Mind Dimensions ACTIVE. 772 files · 552 markdown.
+
+---
+
+## [4.1.50] — 2026-07-27
+
+### Changed
+- fan-token/competition-calendar-framework.md (UPDATED 451L → 480L):
+  Partnership Verification Requirement section added before "How to Use
+  This Framework". Agent rule 0 added as gate condition: partnership
+  verification is a prerequisite for every competition calendar application.
+  No competition window intelligence is valid for an unverified token.
+  Black/greyscale logo = potentially inactive — do not proceed without
+  verification. Rule 0 precedes all other rules without requiring renumbering.
+
+---
+
+## [4.1.49] — 2026-07-27
+
+### Added
+- fan-token/competition-calendar-framework.md (NEW 451L): Structural
+  competition rhythm for all active fan token clusters. Fills Priority 3
+  coverage gap. All token lists registry-verified. Twelve clusters:
+  A: EPL ($AFC $SPURS $CITY $CPFC $AVL $EFC $LUFC) Aug-May ·
+  B: La Liga ($BAR $ATM $SEVILLA $RSO $LEV $VCF) Aug-May ·
+  C: Serie A ($JUV $INTER $ACM $NAP $ASR $BFC $UDI) Milan derby confirmed
+  dual-token · D: Ligue 1 ($PSG $ASM) · E: Süper Lig ($GAL $TRA $ALA $IBFK
+  $GOZ $SAM) 6-week winter break (longest European fan token league) ·
+  F: Brasileirão ($MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA $GALO $SACI $VASCO)
+  INVERTED CALENDAR: season March-December, Jan-Feb off-season, 9 tokens ·
+  G: Other South American ($ARG national + club tokens) · H: MMA ($UFC $PFL)
+  year-round · I: F1 ($AM) March-November · J: NASCAR ($ROUSH) Feb-Nov ·
+  K: Rugby ($SFP $SHARKS) Sept-June · L: Esports ($OG $ALL $DOJO $TH $MIBR).
+  Postponement protocol: demand window resets · calibration record void unless
+  resubmitted · PTG does not execute on postponed matches.
+  15 agent rules. 15 of 16 Mind Dimensions ACTIVE. 771 files · 551 markdown.
+
+---
+
 ## [4.1.48] — 2026-07-27
 
 ### Changed
