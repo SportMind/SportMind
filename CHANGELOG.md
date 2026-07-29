@@ -1,5 +1,227 @@
 # Changelog
 
+## [4.1.66] — 2026-07-29
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.55 through v4.1.65 added.
+
+---
+
+## [4.1.65] — 2026-07-28
+
+### Added
+- market/club-intelligence/acm.md (NEW 259L): AC Milan ($ACM) Club Development
+  Index. CDI Gate: TRANSITION (doubly triggered). Two concurrent triggers:
+  significant coaching instability (Pioli → Fonseca → Conceição → Allegri →
+  Amorim, June 2026) and 5th Serie A 2025-26 → Europa League 2026-27 (UCL
+  miss). Rúben Amorim system: 3-4-3 / 3-5-2, wing-back intensive, high-energy
+  pressing, vertical transitions — significant departure from prior pragmatic
+  system. Wing-back profile arrivals in summer window = primary system signal.
+  Monitor first 10-15 fixtures as embedding window. Derby della Madonnina
+  ($ACM vs $INTER): both Chiliz, shared San Siro, twice per Serie A. CDI
+  asymmetry: $INTER CONSOLIDATION vs $ACM TRANSITION — form differential likely
+  large, apply contradiction resolution framework before derby draw premium.
+  $ACM vs $JUV Europa League = dual-token compound if drawn — both TRANSITION
+  clubs, flag immediately. Japanese $ACM holder base: REDUCED SHORT-TERM TRADING
+  (up to 55%). RedBird ownership = LOW termination risk. PATH_2: NO.
+  10 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.64] — 2026-07-28
+
+### Added
+- market/club-intelligence/nap.md (NEW 222L): Napoli ($NAP) Club Development
+  Index. CDI Gate: TRANSITION. Coaching succession: Conte departed end 2025-26
+  (Serie A title 2024-25, runners-up 2025-26). Massimiliano Allegri appointed
+  July 3 2026, 3-year contract. System shift: Conte high-intensity → Allegri
+  pragmatic possession, patient build-up. Serial coaching instability context
+  noted across multiple recent managers. Allegri's pragmatic flexibility may
+  allow faster embedding than full philosophical overhaul — reassess mid-season.
+  UCL confirmed 2026-27 (2nd Serie A). 2025-26 UCL: league phase only. TRANSITION
+  = uncertainty not decline — title contention and UCL presence expected. No
+  Chiliz dual-token domestic derby equivalent — UCL = primary compound signal
+  window. Multiple UCL dual-token opponents documented. PATH_2: NO. 9 agent
+  rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.63] — 2026-07-28
+
+### Changed
+- market/club-intelligence/avl.md (FULL REPLACEMENT 260L): Full CDI
+  reassessment. Previous assessment (pre-WC2026): TRANSITION gate, SHORT
+  horizon. Updated (July 2026): CONSOLIDATION gate, MEDIUM horizon. Gate
+  upgrade: Europa League winners 2025-26 (beat SC Freiburg 3-0, Istanbul,
+  May 20 2026 — first $AVL trophy in 30 years, Emery's record 5th EL title).
+  UCL confirmed 2026-27 as both EL winners and PL top-4 finishers. Emery
+  head coach since October 2022 — three seasons of progressive improvement,
+  system trophy-validated. TRANSITION phase closed. UCL debut modifier applied:
+  first UCL campaign in modern era. 2026 UEFA Super Cup ($AVL vs $PSG) =
+  confirmed pre-season dual-token fixture. $AVL vs $AFC = primary PL dual-token
+  (both UCL participants). Europa League win = elevated demand baseline
+  throughout 2026-27. PATH_2: NO. 9 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.62] — 2026-07-28
+
+### Added
+- market/club-intelligence/gal.md (NEW 311L): Galatasaray ($GAL) Club
+  Development Index. CDI Gate: CONSOLIDATION. Three consecutive Süper Lig
+  titles under Okan Buruk (2023-24, 2024-25, 2025-26 — 24th, 25th, 26th).
+  UCL confirmed 2026-27 as champions. 2025-26 UCL: Round of 16. CONSOLIDATION
+  not STABLE: domestic consistency embedded, UCL inconsistency prevents STABLE
+  classification. Buruk departure = immediate TRANSITION trigger. $GAL anchors
+  6-token Süper Lig cluster ($TRA $ALA $IBFK $GOZ $SAM). $GAL vs $IBFK =
+  primary Istanbul dual-token. Fenerbahçe = no Chiliz token (single-token).
+  $BJK (Beşiktaş) on Ethereum — excluded from Chiliz analysis. 6-week winter
+  break Dec-Feb = longest reduced-demand window in European fan token leagues.
+  Turkish regulatory context (MASAK, capital controls, high inflation) = distinct
+  from EU/UK holder behaviour. Turkish diaspora Germany: 0% CGT after 12 months
+  = LONG HOLD BIAS (unique cultural/tax intersection). Rams Park elevated home
+  advantage in UCL. PATH_2: NO. 11 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+  Ninth Tier A CDI file — Tier A CDI series complete.
+
+---
+
+## [4.1.61] — 2026-07-28
+
+### Added
+- market/club-intelligence/inter.md (NEW 298L): Inter Milan ($INTER) Club
+  Development Index. CDI Gate: CONSOLIDATION. Reigning Serie A champions (21st
+  Scudetto 2025-26) and Coppa Italia holders under Cristian Chivu. UCL confirmed
+  2026-27. Scudetto defence creates elevated demand baseline throughout season —
+  not just title-deciding fixtures. Derby della Madonnina ($INTER vs $ACM): both
+  Chiliz, twice per Serie A season, shared San Siro — home advantage distinction
+  reduced, European intersection = maximum dual-token compound event (flag
+  immediately). Derby d'Italia ($INTER vs $JUV): dual-token Serie A, CDI
+  asymmetry (CONSOLIDATION vs TRANSITION). 2025-26 UCL underperformed vs
+  domestic — apply independent competition modifier. Japanese holder base:
+  REDUCED SHORT-TERM TRADING (up to 55% Japan). PATH_2: NO. 11 agent rules.
+  15 of 16 Mind Dimensions ACTIVE. Eighth planned Tier A CDI file.
+
+---
+
+## [4.1.60] — 2026-07-28
+
+### Added
+- market/club-intelligence/spurs.md (NEW 296L): Tottenham Hotspur ($SPURS)
+  Club Development Index. CDI Gate: TRANSITION (doubly triggered — highest
+  instability of any Tier A CDI file). Two concurrent triggers: two coaching
+  changes in one season (Frank appointed June 2025, fired February 2026;
+  De Zerbi appointed March 31 2026) and competition tier loss (17th place PL
+  2025-26 — narrowly avoided relegation). NO European competition 2026-27
+  confirmed via UEFA.com primary source. First Tier A CDI file with no European
+  football in current season. De Zerbi system: possession-based, attacking, high
+  line, technically demanding — embedding in earliest stages, no European
+  competition to accelerate development. NLD ($SPURS vs $AFC) = primary dual-
+  token EPL derby — form differential check mandatory given $AFC PL champions vs
+  $SPURS 17th. Apply contradiction resolution framework when form differential
+  > 0.08. Stadium revenue (NFL/concerts/events) = LOW termination risk.
+  European qualification (top-7 PL) = primary positive CDI reversal signal.
+  PATH_2: NO. 11 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.59] — 2026-07-27
+
+### Added
+- market/club-intelligence/city.md (NEW 261L): Manchester City ($CITY) Club
+  Development Index. CDI Gate: TRANSITION. Most significant coaching succession
+  in English football in a decade: 10-year head coach departed May 2026 after
+  15 major trophies. Enzo Maresca appointed June 29 2026 on 3-year contract
+  (former assistant, former EDS coach — not a cold-start). Squad built over a
+  decade for specific system now adapting to Maresca principles (compactness,
+  structured positional play, defined pressing zones). TRANSITION = uncertainty
+  not decline — squad quality supports UCL and title contention. Apply
+  uncertainty modifier, not performance decline modifier. UCL confirmed 2026-27.
+  $CITY vs $AFC = highest-profile PL dual-token (Arsenal 2025-26 champions).
+  UCL dual-token opponents: $AFC $PSG $BAR $ATM $JUV $SPURS $INTER. CFG
+  ownership = LOW termination risk. UK holders: CGT 10-18% + MARC Q4 2027.
+  PATH_2: NO. 10 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.58] — 2026-07-27
+
+### Added
+- market/club-intelligence/juv.md (NEW 284L): Juventus FC ($JUV) Club
+  Development Index. CDI Gate: TRANSITION (first TRANSITION gate in library at
+  time of creation). Two concurrent 2025-26 triggers: competition tier change
+  (UCL → Europa League, 6th Serie A, UCL knockout phase play-off elimination)
+  and coaching succession (Tudor replaced October 2025 by Spalletti, system
+  transition incomplete). CRITICAL: $JUV in Europa League 2026-27 — NOT UCL.
+  Never apply UCL modifiers to $JUV in 2026-27. Confidence tier -1 level vs
+  CONSOLIDATION clubs. UCL qualification (top-4 Serie A) = primary positive CDI
+  reversal signal. Spalletti system: positional play, flexible formations,
+  pressing triggers — transition from Tudor's direct physical approach. Serie A
+  dual-token: $JUV vs $INTER and $JUV vs $ACM. Turin derby (Torino) =
+  single-token. Japanese $JUV holder base significant: REDUCED SHORT-TERM
+  TRADING (up to 55%). Commercial = LOW termination risk despite TRANSITION.
+  PATH_2: NO. 11 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.57] — 2026-07-27
+
+### Added
+- market/club-intelligence/atm.md (NEW 288L): Atletico Madrid ($ATM) Club
+  Development Index. CDI Gate: STABLE (only Tier A CDI file with STABLE gate —
+  explicitly justified). Diego Simeone head coach since December 2011 — over 14
+  years, two La Liga titles, two UCL finals. Cholismo four structural pillars:
+  compact 5-3-2 or 4-4-2 defensive block (8+ behind ball), zone-specific
+  pressing (not full-pitch), fast direct counter-attacks, physical intensity and
+  partido a partido mentality. Squad adapts to system — system does not adapt to
+  squad. Most predictable Tier A archetype: apply higher confidence modifier vs
+  CONSOLIDATION or TRANSITION clubs. Single reassessment trigger: Simeone
+  departure only. UCL confirmed 2026-27. UCL format advantage: Cholismo defensive
+  solidity historically outperforms domestic La Liga position in two-leg
+  elimination knockout. $BAR vs $ATM = primary La Liga dual-token · tactically
+  contrasting (high-press vs defensive block). Madrid derby (Real Madrid) =
+  single-token. Primary holder: Spanish progressive CGT (19-28%). PATH_2: NO.
+  10 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.56] — 2026-07-27
+
+### Added
+- market/club-intelligence/bar.md (NEW 287L): FC Barcelona ($BAR) Club
+  Development Index. CDI Gate: CONSOLIDATION. Head coach: Hansi Flick — high-
+  intensity gegenpressing, La Masia youth integration, vertical counter-attacking
+  transitions, high defensive line. System established and producing results.
+  Germany Type A (0% CGT after 12 months) = most significant structural holder
+  behaviour modifier for $BAR: Germany has no domestic Chiliz club fan token so
+  $BAR is a primary target for German holders — LONG HOLD BIAS creates demand
+  floor effect distinct from Spanish or Japanese holders. La Liga dual-token:
+  $BAR vs $ATM primary. El Clásico (Real Madrid) = single-token (Real Madrid no
+  Chiliz token). UCL: most potential dual-token opponents of any Tier A club
+  ($PSG $AFC $ATM $JUV $INTER $CITY $SPURS) — UCL draw = high-priority signal.
+  UCL group exit = CDI reassessment trigger. PATH_2: NO. 9 agent rules.
+  15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.55] — 2026-07-27
+
+### Added
+- market/club-intelligence/psg.md (NEW 273L): Paris Saint-Germain ($PSG) Club
+  Development Index. CDI Gate: CONSOLIDATION. UCL 2026 Final ($PSG vs $AFC,
+  May 30 2026) = Precedent #2 in dual fan token final chain (draw at 90 min,
+  $PSG won on penalties, no FTP PATH_2 event). $PSG is the highest-profile
+  dual-token UCL opponent for $AFC. Philosophy: collective tactical coherence
+  over Galáctico model — established philosophical shift, active refinement.
+  UCL knockout (Feb-May) = primary compound signal window. UCL early exit =
+  CDI reassessment signal. Ligue 1: $ASM only other active Chiliz token —
+  all other domestic = single-token. $PSG vs $ASM = only regular-season Ligue
+  1 dual-token (reduced compound modifier given competitive gap). Other UCL
+  dual-token opponents: $BAR $ATM $JUV $INTER $CITY. Primary holder: France
+  30% flat PFU, no holding period relief. QSI ownership = LOW termination risk.
+  PATH_2: NO. 9 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
 ## [4.1.54] — 2026-07-28
 
 ### Changed
