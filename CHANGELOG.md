@@ -1,5 +1,152 @@
 # Changelog
 
+## [4.1.74] — 2026-07-30
+
+### Changed
+- CHANGELOG.md: Missing entries v4.1.67 through v4.1.73 added.
+
+---
+
+## [4.1.73] — 2026-07-30
+
+### Added
+- fan-token/national-profiles/ita.md (NEW 448L): Italy ($ITA) national token
+  profile. Seventh and final national token profile — national profile set
+  complete (7/7). UNIQUE: zero WC2026 PTG activity — Italy did not qualify.
+  Also absent from WC2022. Two consecutive WC non-qualifications. Zero modern
+  WC PTG burns = highest treasury retention in national token set. Prior PTG
+  history (pre-WC2022): verify on chiliscan.com — do not assume zero.
+  Italy regulatory COVERAGE GAP flagged as HIGH PRIORITY: affects 5 active
+  Chiliz tokens ($ITA · $ACM · $INTER · $JUV · $NAP) — most impactful single
+  remaining regulatory gap. Apply UNKNOWN modifier to Italian domestic holders
+  across all five until macro/regulatory/italy.md created.
+  Germany Type A LONG HOLD BIAS: historical Italian-German diaspora creates
+  meaningful German holder concentration. Switzerland holder gap (no framework).
+  WC2030 two-non-qualification narrative = structural forward demand signal.
+  Full treasury intact = larger PTG supply event potential when competitions
+  resume. 10 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.72] — 2026-07-30
+
+### Added
+- fan-token/national-profiles/sfa.md (NEW 381L): Scotland ($SFA) national
+  token profile. Sixth national token profile. UNIQUE: only national token
+  with UK as primary holder market. Load uk-cryptoasset-regime.md as primary
+  framework — do NOT apply UNKNOWN modifier. UK Type D CGT (10-18%) is primary
+  holder tax modifier. MARC (Q4 2027) applies to primary holder population —
+  only national token where MARC applies directly to the primary holders.
+  WC2026: group stage elimination · 1 burn · near-original treasury. Launched
+  May 21 2026 — new token, thin calibration history (tied with $SAFA as thinnest
+  in set). UEFA EURO 2028: Scotland confirmed as co-host nation — guaranteed
+  participation. HIGH PRIORITY monitoring for PTG eligibility. Structural demand
+  signal regardless of PTG confirmation. England national team has no Chiliz fan
+  token — Scotland vs England is always single-token (documented registry gap).
+  Ireland regulatory COVERAGE GAP flagged (MEDIUM PRIORITY). 9 agent rules.
+  15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.71] — 2026-07-30
+
+### Added
+- fan-token/national-profiles/safa.md (NEW 381L): South Africa ($SAFA) national
+  token profile. Fifth national token profile. UNIQUE: only national token with
+  dedicated domestic regulatory framework — macro/regulatory/south-africa-sars.md
+  (v4.1.42). Do NOT apply UNKNOWN modifier for South African holders — load SARS
+  file for all $SAFA South African holder analysis. WC2026: Round of 32
+  elimination · 1 burn · near-original treasury. Thinnest calibration history
+  in national token set. SARS PTG burn tax treatment UNRESOLVED — draft guide
+  (July 1 2026) does not address whether PTG supply events are taxable for SA
+  holders. Monitor final guide post-August 31 2026. TFM4 active: SARS T-30
+  escalation from August 1 2026 — flag in every briefing until August 31.
+  AFCON PTG eligibility UNCONFIRMED — HIGH PRIORITY monitoring flag (if
+  confirmed, $SAFA becomes highest-frequency PTG token in library).
+  Compliance-driven selling pressure modifier documented for SA retail holders.
+  Africa-vs-Africa fixtures = single-token (no other African national tokens on
+  Chiliz Chain). 8 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.70] — 2026-07-30
+
+### Added
+- fan-token/national-profiles/belg.md (NEW 364L): Belgium ($BELG) national
+  token profile. Fourth national token profile. Two-wave FTO structure
+  documented — unique in national profile set: Wave 1 (loyalty bonus eligible),
+  Wave 2 (standard). UK participants EXCLUDED from loyalty bonus — UK $BELG FTO
+  holders received standard allocation only, no bonus. WC2026: Quarter-final
+  elimination · 3 burns · launched June 1 2026 (first ever PTG series for this
+  token). New token — thin demand baseline, do not apply established national
+  token demand patterns. Thinnest calibration history of all four national
+  profiles at time of creation (one PTG series only). Belgium domestic tax
+  COVERAGE GAP (MEDIUM PRIORITY). Netherlands COVERAGE GAP (MEDIUM PRIORITY).
+  Germany Type A LONG HOLD BIAS: Belgium-Germany border proximity creates
+  meaningful German holder concentration. France Type C (30% flat PFU) for
+  French-Belgian holders. UK Type D (10-18%, no loyalty bonus context).
+  10 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.69] — 2026-07-29
+
+### Added
+- fan-token/national-profiles/por.md (NEW 326L): Portugal ($POR) national token
+  profile. Third national token profile. WC2026: Round of 16 elimination · 2
+  burns · minimal compound — treasury relatively intact vs $SPAIN (~25%) or
+  $ARG (~22%). Germany Type A LONG HOLD BIAS: Portuguese-German diaspora is
+  likely the largest international $POR holder cohort — one of the most
+  significant diasporas in Germany. LONG HOLD BIAS is the primary international
+  modifier for $POR. France Type C (30% flat PFU): Portuguese-French diaspora
+  is second largest Portuguese diaspora globally — distinct friction profile
+  from German cohort (no holding period relief). Portugal domestic tax
+  COVERAGE GAP (MEDIUM PRIORITY — Autoridade Tributária guidance evolving).
+  $POR vs $SPAIN = primary dual-token fixture (Iberian derby, both Chiliz Chain,
+  $SPAIN WC2026 champion = elevated baseline). UEFA EURO/Nations League PTG
+  eligibility TBC. 8 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.68] — 2026-07-29
+
+### Added
+- fan-token/national-profiles/arg.md (NEW 335L): Argentina ($ARG) national
+  token profile. Second national token profile. First national football team
+  fan token on Socios.com (June 2021) — foundational reference for national
+  token demand and PTG mechanics. WC2026: Finalist · 7 burns · ~22% compound
+  · no Final burn on loss (WC2026 runner-up maximum). WC2022: $ARG won —
+  full PTG series (verify compound via chiliscan.com). Two-tournament PTG
+  history — current treasury materially below launch issuance. Copa América PTG
+  eligibility UNCONFIRMED — do not model as PTG event without Chiliz
+  confirmation. Latin America regulatory gap flagged as HIGH PRIORITY — no
+  macro/regulatory/argentina.md exists, apply UNKNOWN modifier for Argentine
+  domestic holders. Germany Type A LONG HOLD BIAS applies — Argentine-Italian-
+  German football cultural connection creates meaningful German holder
+  concentration. 7 agent rules. 15 of 16 Mind Dimensions ACTIVE.
+
+---
+
+## [4.1.67] — 2026-07-29
+
+### Added
+- fan-token/national-profiles/spain.md (NEW 290L): Spain ($SPAIN) national
+  token profile. First national token profile file. New directory:
+  fan-token/national-profiles/ created. $SPAIN vs $SNFT conflation rule
+  documented: $SPAIN (Chiliz Chain, June 16 2026, official RFEF partnership)
+  is NOT the same token as $SNFT (previous BITCI arrangement, different chain).
+  Conflating them is a library failure. WC2026: World Champion · 8 burns ·
+  ~25.18% compound — maximum possible across WC2026 format. WC2026 PTG record
+  part of verified 9/9 calibration series. Germany Type A LONG HOLD BIAS:
+  $SPAIN carries this modifier more strongly than most national tokens —
+  elevated German holder concentration from Spanish-German cultural connection
+  and diaspora. Next PTG window: WC2030. UEFA Nations League/UEFA EURO PTG
+  eligibility TBC — verify per competition. Calibration readiness: LIMITED
+  (WC2026 closed, WC2030 ~4 years). 6 agent rules. 15 of 16 Mind Dimensions
+  ACTIVE.
+
+---
+
 ## [4.1.66] — 2026-07-29
 
 ### Changed
