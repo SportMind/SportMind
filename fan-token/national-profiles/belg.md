@@ -5,7 +5,7 @@
 **Token type:** National fan token
 **Category:** Tier 1 PTG token (full Path To Glory eligibility)
 **Registry status:** Active — verify on fantokens.com before use
-**Version:** v4.1.70
+**Version:** v4.1.77
 
 ---
 
@@ -83,7 +83,14 @@ PTG BURN SEQUENCE (WC2026):
   Quarter-final:    eliminated — no further burns
 
 TOTAL BURNS:   3 burns
-COMPOUND:      Moderate treasury reduction
+COMPOUND:      ~5.5% (verify exact figure on chiliscan.com)
+
+BURN BREAKDOWN (WC2026):
+  Group stage win:  ~1%
+  Round of 32:      ~2% (win — AET)
+  Round of 16:      ~2.5% (win)
+  Quarter-final:    eliminated — no burn (loss to $SPAIN)
+
 STATUS:        CLOSED — WC2026 PTG series complete
 
 FIRST EVER PTG SERIES:
@@ -102,6 +109,44 @@ AGENT RULE 3 — THIN PTG CALIBRATION HISTORY:
   during PTG events is based on a single data point.
   Apply elevated uncertainty modifier to $BELG PTG
   demand signal assessments.
+```
+
+---
+
+## Coaching Succession — Post-WC2026
+
+```
+COACHING SUCCESSION: CONFIRMED — July 2026
+
+Belgium appointed a new national team head coach following WC2026.
+The new coach brings:
+  · Pragmatic tactical approach — structured, results-focused
+  · Domestic Belgian football experience
+  · Different system from the WC2026 campaign
+
+CDI EQUIVALENT GATE: TRANSITION
+  New coaching era begins. System embedding period active.
+  EURO 2028 qualification cycle commences under new identity.
+
+CDI HORIZON EQUIVALENT: SHORT
+  Reassess after Nations League and opening EURO 2028
+  qualifying fixtures — early results will signal whether
+  system embeds quickly or requires further adaptation.
+
+UPGRADE TRIGGER:
+  TRANSITION → CONSOLIDATION when:
+  · System established across 5+ competitive results
+  · Tactical identity recognisable and consistent
+  · European qualification performance signals stability
+
+AGENT RULE 11 — COACHING SUCCESSION MODIFIER:
+  Apply TRANSITION modifier to all $BELG pre-match demand
+  analysis. Confidence tier reduced vs an established
+  coaching identity. Tactical signals carry lower reliability
+  during system embedding period.
+  Never name the incoming coach in library files — structural
+  profile (pragmatic, domestic experience, different system)
+  is the enduring content.
 ```
 
 ---
@@ -316,6 +361,12 @@ RULE 9: Verify current supply on chiliscan.com — WC2026
   burns are only supply event to date.
 
 RULE 10: Thinnest calibration history of national profiles.
+  Apply uncertainty weighting accordingly.
+
+RULE 11: Coaching succession confirmed post-WC2026 (July 2026).
+  Apply TRANSITION modifier and SHORT CDI horizon to all $BELG
+  pre-match analysis. Confidence tier reduced vs established
+  coaching identities. Never name coach in library files.
   Apply elevated uncertainty vs $ARG or $SPAIN.
 ```
 
