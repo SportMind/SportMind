@@ -44,7 +44,7 @@ Omnichain club tokens (Solana + Base):      5
 Omnichain national tokens (Solana only):    5
 Fan Token Play confirmed:             1 ($AFC only)
 
-Last verified: July 2026
+Last verified: August 2026
 ```
 
 ---
@@ -153,9 +153,9 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Valencia CF | VCF | Football (League) | Active | Chiliz Chain | Active | No | No | 0x83d7D1df01C698b4379077aF4bCEB2D4AF113BfF | 0xba0c26485b1909f80476067272d74A99Cc0E1D57 | 0xf9ae77D7658ad1a1Ff49Ca4D082fEDb680A83373 | Yes | Yes | https://www.fantokens.com/trade/valencia-fan-token | |
 | SE Palmeiras | VERDAO | Football (League) | Active | Chiliz Chain | Active | No | No | 0xb46357d8Ed050D35D3a24154c39d7236dAE86187 | 0x971364Ec452958d4D65Ba8D508FAa226d7117279 | 0x6dB3ECA64DC5B789a70571BD81332864bA327A56 | Yes | Yes | https://www.fantokens.com/trade/se-palmeiras-fan-token | |
 | Young Boys | YBO | Football (League) | Active | Chiliz Chain | Active | No | No | 0x8c4d631A673bE24F244E4f0645BE6928d0083d4e | 0x0Dc1776c56ffd3A046134Be6fDC23a3214359329 | 0xd14f7b7fD6D18A16c4f0c678E301a783D36a2BF0 | Yes | Yes | https://www.fantokens.com/trade/young-boys-fan-token | |
-| South African Football Association | SAFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | TBC | Yes | https://chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/ | PARTNERSHIP_ANNOUNCED 2026-05-21. National Football Fan Token™ product class. Token not yet live. Contract address TBC. |ational Football Fan Token™ |
-| Scottish Football Association | SFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | TBC | Yes | https://chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/ | PARTNERSHIP_ANNOUNCED 2026-05-21. National Football Fan Token™ product class. Token not yet live. Contract address TBC. |
-| Royal Belgian Football Association | BELG | Football (National) | ACTIVE | Chiliz Chain | Active | None confirmed | No | 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 | N/A | N/A | Yes | Yes | N/A | FTO: 2026-06-03. Two-wave format (first documented in registry). Wave 1: 100 BELG cap/user (6h). Wave 2: unlimited (~18h). Total supply: 20,000,000 (STANDARD tier). FTO tranche: 2,000,000 tokens offered in initial FTO. Issue price: $1.00 USD. Loyalty bonus: 10% for qualifying holders at snapshot. UK users excluded from loyalty bonus. Partnership announced 2026-06-01 ahead of World Cup 2026. Source: chiliz.com official ✓ |
+| South African Football Association | SAFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE | Yes | https://chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/ | Launched 2026-05-21. First African national team Fan Token™. Supply: 20,000,000. Launch price: $0.50. WC2026 Burn to Glory participant — burns confirmed. Contract address verified: docs.chiliz.com 2026-08-04 ✓ |
+| Scottish Football Association | SFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 | Yes | https://chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/ | Launched 2026-05-21. Scotland national team Fan Token™. WC2026 Burn to Glory participant — burns confirmed. Contract address verified: docs.chiliz.com 2026-08-04 ✓ |
+| Royal Belgian Football Association | BELG | Football (National) | ACTIVE | Chiliz Chain | Active | None confirmed | No | 0x6c4C9DFE8C940b51B68d00C6D76dE756B252f328 | N/A | N/A | Yes | Yes | N/A | FTO: 2026-06-03. Two-wave format (first documented in registry). Wave 1: 100 BELG cap/user (6h). Wave 2: unlimited (~18h). Total supply: 20,000,000 (STANDARD tier). FTO tranche: 2,000,000 tokens offered in initial FTO. Issue price: $1.00 USD. Loyalty bonus: 10% for qualifying holders at snapshot. UK users excluded from loyalty bonus. Partnership announced 2026-06-01 ahead of World Cup 2026. Source: chiliz.com official ✓ Contract address corrected 2026-08-04. Previous entry contained $SFA address in error. Verified: docs.chiliz.com 2026-08-04 ✓ |
 
 ---
 
@@ -198,7 +198,7 @@ Verification methodology differs — see chain-specific explorers.
 | Partner | Ticker | Sport | Partnership | Chain | Trading | Fan Token Play | Omnichain | Address | Old Address | Wrapped Address | Socios Listed | Official Confirmed | FanTokens.com URL | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Spain National Football | SNFT | Football (National) | Active | BITCI | Active | No | No | 0x3e6F1be54FEb9CC37dBfC31A894a8810357C3F9C | N/A | N/A | No | Yes | https://www.fantokens.com/trade/spain-national-football-team | BITCI chain — 18-decimal migration not applicable |
-| Spain National Football | SPAIN | Football (National) | Active | Socios/Chiliz | Active | No | No | Chiliz Chain confirmed | N/A | N/A | CONFIRMED | NOT CONFIRMED | https://www.socios.com | Socios/Chiliz launch June 2026. Chain: Chiliz Chain CONFIRMED + Solana CONFIRMED (DeFi: Meteora + Jupiter) — Base NOT confirmed. Exchange listings: Socios.com, Bit2Me, Paribu. Burn to Glory: CONFIRMED — sixth participant. WC2026 burn history: 5 confirmed burns through R16 (group stage ×3 at 1% each · R32 ×1 at 2% · R16 ×1 at 2.5%). QF: Spain advance — next burn rate 5% if Spain win QF. Two-wave FTO model. Distinct from $SNFT (BITCI legacy token). |
+| Spain National Football | SPAIN | Football (National) | Active | Socios/Chiliz | Active | No | No | 0x7A224b67aAA360e48402AAb4Ff12D89eEF9b4cF8 | N/A | N/A | CONFIRMED | NOT CONFIRMED | https://www.socios.com | Socios/Chiliz launch June 2026. Chain: Chiliz Chain CONFIRMED + Solana CONFIRMED (DeFi: Meteora + Jupiter) — Base NOT confirmed. Exchange listings: Socios.com, Bit2Me, Paribu. Burn to Glory: CONFIRMED — WC2026 COMPLETE. WC2026 CHAMPION — Spain beat Argentina 1-0 AET (July 19 2026). WC2026 burn record: 8 confirmed burns total. Group stage: ×3 burns at 1% each. R32: ×1 burn at 2%. R16: ×1 burn at 2.5%. QF vs Belgium: ×1 burn (1,161,234 tokens). SF vs France: ×1 burn. Final vs Argentina: ×1 burn (1,990,000+ tokens — largest). Compound treasury burn: ~25.18% of supply across tournament. WC2026 burn leaderboard: FIRST (highest total in tournament). Contract address verified: docs.chiliz.com 2026-08-04 ✓ Two-wave FTO model. Distinct from $SNFT (BITCI legacy token). |
 | Brazil National | BFT | Football (National) | Active | BITCI | Active | No | No | 0x4270A3D1a61FC6b86Ea9E19730E529ACEe592c3B | N/A | N/A | No | Yes | https://www.fantokens.com/trade/brazil-national-football-team | BITCI chain — 18-decimal migration not applicable |
 | FC Porto | PORTO | Football (League) | Active | BNB | Active | No | No | 0x49f2145d6366099e13B10FbF80646C0F377eE7f6 | N/A | N/A | No | Yes | https://www.fantokens.com/trade/fc-porto-fan-token | |
 | Lazio | LAZIO | Football (League) | Active | BNB | Active | No | No | 0x77d547256a2cd95f32f67ae0313e450ac200648d | N/A | N/A | No | Yes | https://www.fantokens.com/trade/lazio-fan-token | |
@@ -248,6 +248,6 @@ See `fan-token/official-verification-framework.md` for full verification methodo
 
 ---
 
-*SportMind v3.97.63 · MIT License · sportmind.dev*
-*Registry accuracy as of May 2026. Always verify addresses on-chain before use.*
+*SportMind v4.1.92 · MIT License · sportmind.dev*
+*Registry accuracy as of August 2026. Always verify addresses on-chain before use.*
 *$AFC is the only confirmed FTP PATH_2 token as of May 2026.*
