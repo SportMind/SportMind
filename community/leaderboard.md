@@ -46,16 +46,16 @@ COMMUNITY IMPACT:
 
 ---
 
-## Current leaderboard (v3.28)
+## Current leaderboard (v4.1.85)
 
-*126 calibration records submitted by founding team across 21 sports.*
+*130 calibration records · 13 pre-match verified · 117 seed · across 21 sports.*
 *Modifier accuracy thresholds require 50+ records per modifier to qualify.*
 *All current contributors show N/A for full modifier accuracy — threshold not yet reached.*
 *First external contributor records will be the library's first non-seed entries.*
 
 | Rank | Contributor | Points | Calibration records | Accuracy | Tier |
 |---|---|---|---|---|---|
-| 1 | `@sportmind-core` | 500+ | 126 (all 21 sports) | 96% overall (N/A per modifier — threshold pending) | Expert 🏆 |
+| 1 | `@sportmind-core` | 500+ | 130 (13 pre-match verified · 117 seed · 21 sports) | 96%+ overall · WC2026 9/9 · UCL Final 1/1 (N/A per modifier — threshold pending) | Expert 🏆 |
 
 **You are not on this leaderboard yet — be the first external contributor.**
 

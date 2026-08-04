@@ -14,7 +14,7 @@ and take 30 minutes. Everything below is for contributors who want to go deeper.
 
 Run a SportMind analysis before a real match. Record the outcome. Submit.
 
-**Why it matters:** All 126 current records were submitted by the founding team.
+**Why it matters:** All 130 current records were submitted by the founding team (117 seed + 13 pre-match verified). The first external pre-match record changes the community evidence foundation.
 The first external record changes the evidence foundation.
 
 **Full guide:** `FIRST-RECORD-CHALLENGE.md`
@@ -38,9 +38,9 @@ Fix it. Submit a PR with label `docs-fix`.
 
 **Known stale references:**
 - `community/leaderboard.md` — references v3.2 first entries; now at v3.65
-- `README.md` badge — verify it shows current record count (126 records, 96% accuracy)
+- `README.md` badge — verify it shows current record count (130 records, 96%+ accuracy)
 - Any document citing stale file counts (now 582 files)
-- Any document citing record counts below 126 (current count is 126 across 21 sports)
+- Any document citing record counts below 130 (current count is 130 across 21 sports)
 
 ---
 

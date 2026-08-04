@@ -11,7 +11,7 @@ estimated.
 
 ## Why community calibration matters
 
-SportMind currently has 126 outcome records — all submitted by `sportmind-core`
+SportMind currently has 130 outcome records — 117 seed records submitted by `sportmind-core` from historical events, plus 13 pre-match verified records (AFC April 2026 · WC2026 series · UCL Final 2026)
 from historical events selected to validate framework behaviour. These records
 confirmed the model works correctly but cannot validate modifier accuracy, because
 seed records were chosen from known outcomes.
@@ -356,7 +356,7 @@ Records that pass the validity check merge without a fixed review window. If you
 
 ## Calibration milestones and recalibration triggers
 
-Current status: **126 records** across 21 sports — first recalibration complete (see `core/modifier-recalibration-v3.md`)
+Current status: **130 records** across 21 sports (13 pre-match verified + 117 seed) — first recalibration complete (see `core/modifier-recalibration-v3.md`)
 
 ```
 RECALIBRATION THRESHOLDS:
