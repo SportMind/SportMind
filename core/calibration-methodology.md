@@ -51,35 +51,36 @@ All calibration records belong to one of two tiers. The distinction
 determines evidential weight. Never combine the totals.
 
 ```
-TIER 1 — VERIFIED RECORDS
+TIER 1 — PRE-MATCH VERIFIED RECORDS
   Definition: submitted before kickoff · result confirmed via primary
     source · direction assessed · passes all six validity gates ·
     independently verified.
-  Current count: 13 verified records (as of 2026-08-01)
-  Evidential weight: HIGHEST.
-    Modifier updates require verified records.
-    Seed records alone are insufficient for modifier updates.
-  Confirmed series:
-    WC2026 series: 9 records · 9/9 CORRECT · 100% accuracy
-    UCL Final 2026: 1 record ($PSG vs $AFC)
-    Founding calibrator records: 3 records
+  Current count: 13 pre-match verified records (as of 2026-08-01)
+  Breakdown: 3 AFC April 2026 pre-match records · 9 WC2026
+    series · 1 UCL Final 2026
+  Weight: highest evidential weight. Modifier updates require
+    pre-match verified records — seed records alone are insufficient.
 
 TIER 2 — SEED RECORDS
-  Definition: submitted before kickoff · result confirmed · direction
-    assessed · passes validity gates · not independently verified.
-  Current count: 126 seed records (as of 2026-08-01)
-  Evidential weight: VALID for trend analysis and directional
-    confidence. Not sufficient alone for modifier updates.
-  Direction accuracy: 121 of 126 correct · 96% direction accuracy.
+  Definition: submitted by sportmind-core from historical known
+    outcomes. Valid for framework validation and directional
+    confidence but NOT genuine pre-match predictions.
+  Current count: 117 seed records (as of 2026-08-01)
+  Note: seed records were chosen from known outcomes — they
+    confirm the framework works correctly but cannot validate
+    modifier accuracy. Only pre-match verified records from
+    external contributors can validate modifier accuracy.
 
-CRITICAL RULE — NEVER COMBINE:
-  Total records = 13 verified + 126 seed = 139 total.
-  NEVER state as 137, 139, or any combined figure.
-  NEVER state "137 calibration records" or "139 records."
-  Always state: "13 verified records + 126 seed records."
-  The distinction matters: combining inflates seed records to the
-  evidential weight of verified records. This is a library
-  integrity rule with no exceptions.
+CALIBRATION TOTAL — CORRECT FIGURES:
+  Total records: 130 (13 pre-match verified + 117 seed)
+  NEVER state: 126 (stale) · 139 (wrong) · 137 (wrong)
+  NEVER combine pre-match verified + seed into one number
+    without distinguishing the two tiers.
+  Always state: "130 records · 13 pre-match verified · 117 seed"
+  The distinction matters — seed records confirm framework
+    correctness; pre-match verified records confirm modifier
+    accuracy. These are different evidential claims.
+  This is a library integrity rule with no exceptions.
 ```
 
 ---
@@ -170,7 +171,9 @@ WHY DIRECTION ONLY:
 
 ACCURACY REPORTING RULES:
   Verified records: state accuracy separately from seed records.
-  Seed records: "96% direction accuracy across 126 seed records."
+  Seed records: 96%+ direction accuracy (117 seed records).
+  Pre-match verified: 13/13 correct within verified series
+    (WC2026 9/9 · UCL Final 1/1 · AFC April 2026 3/3)
   WC2026 series: "9/9 · 100% — WC2026 verified series."
   Combined accuracy: do not calculate or state.
     Each tier reports its own accuracy independently.
@@ -254,8 +257,16 @@ SERIES RULES:
 
 CONFIRMED SERIES:
 
+AFC APRIL 2026 PRE-MATCH SERIES:
+  Records: 3 (all pre-match verified)
+  Fixtures: WIN vs Sporting CP · LOSS vs Bournemouth ·
+    DRAW vs Sporting CP
+  Status: CLOSED · VERIFIED
+  Note: First confirmed pre-match records in the library.
+    These predate the WC2026 series.
+
 WC2026 SERIES:
-  Records: 9 (all verified)
+  Records: 9 (all pre-match verified)
   Result: 9/9 CORRECT · 100% direction accuracy
   Window: WC2026 group stage through final
   Status: CLOSED · PERMANENTLY ARCHIVED
@@ -326,11 +337,13 @@ earliest possible kickoff time. A post-kickoff record that calls
 the correct direction is still invalid — it does not count toward
 any calibration total and must not be cited as evidence.
 
-**FM-CAL-2 — Never combine verified and seed totals.**
-13 verified + 126 seed records. Never state as 139, 137, or any
-combined figure. Always distinguish the tiers explicitly. Combining
-inflates seed records to verified evidential weight — the most
-frequently violated calibration rule in the library.
+**FM-CAL-2 — Never state stale or incorrect record totals.**
+Correct total: 130 records (13 pre-match verified + 117 seed).
+NEVER state: 126 (stale seed-only count) · 139 (wrong) ·
+137 (wrong) · any combined number without tier distinction.
+Always state: "130 records · 13 pre-match verified · 117 seed"
+Combining or misquoting totals misrepresents the evidential
+base. This is the most frequently violated calibration rule.
 
 **FM-CAL-3 — Never use non-fan-token records for fan token modifier updates.**
 Records without an active fan token validate the sports intelligence
@@ -372,7 +385,8 @@ RULE 2 — DO NOT OVERRIDE CALIBRATED MODIFIERS WITHOUT EVIDENCE:
   core/contradiction-resolution-framework.md if needed.
 
 RULE 3 — CALIBRATION SERIES RESULTS ARE PERMANENTLY CLOSED:
-  WC2026 9/9 is a closed, verified series.
+  AFC April 2026 (3/3) · WC2026 9/9 · UCL Final (1/1)
+  are all closed, verified pre-match series.
   Do not reopen or reinterpret series results.
   Series results are historical record — not live signals.
   They inform modifier confidence, not current fixture analysis.
@@ -492,7 +506,7 @@ CALIBRATION STATUS:
   itself subject to calibration. The methodology is structural.
   The records it governs are empirical. Do not conflate.
 
-LAST VERIFIED: 2026-08-01
+LAST VERIFIED: 2026-08-02
 ```
 
 ---
