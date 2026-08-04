@@ -251,7 +251,9 @@ COMPOSITE MODIFIER (CSK — post-toss, post-weather):
       "congestion_modifier": 0.98,
       "narrative_modifier": 1.03,
       "macro_modifier": 1.00,
-      "composite_modifier": 1.32
+      "composite_modifier": 1.32,
+      "confidence_level": "HIGH",
+      "signal_class": "EXECUTION"
     },
     "flags": {
       "dls_risk": true,

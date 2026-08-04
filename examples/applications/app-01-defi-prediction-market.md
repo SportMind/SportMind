@@ -114,6 +114,8 @@ Skills API shortcut:
       "athlete_modifier": 0.94,
       "macro_modifier": 1.00,
       "composite_modifier": 0.94,
+      "confidence_level": "MEDIUM",
+      "signal_class": "PLANNING",
       "flags": {
         "lineup_unconfirmed": true,
         "macro_override_active": false,

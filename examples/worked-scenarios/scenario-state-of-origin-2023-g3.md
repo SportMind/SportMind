@@ -183,7 +183,9 @@ FINAL COMPOSITE (NSW): ×0.87 (no positive narrative offsets)
       "narrative_modifier": 1.03,
       "weather_modifier": 1.00,
       "macro_modifier": 1.00,
-      "composite_modifier": 1.154
+      "composite_modifier": 1.154,
+      "confidence_level": "HIGH",
+      "signal_class": "EXECUTION"
     },
     "layer_inputs": {
       "layer_5_macro_active": false,

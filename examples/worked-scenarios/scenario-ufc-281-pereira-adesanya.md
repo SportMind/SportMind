@@ -199,7 +199,9 @@ PREDICTION MARKET SIZING (different from token sizing):
       "congestion_modifier": 0.97,
       "narrative_modifier": 1.05,
       "macro_modifier": 1.00,
-      "composite_modifier": 1.247
+      "composite_modifier": 1.247,
+      "confidence_level": "MEDIUM",
+      "signal_class": "PLANNING"
     },
     "flags": {
       "macro_override_active": true,

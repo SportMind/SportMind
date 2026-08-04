@@ -197,7 +197,9 @@ TRADE EVENT SIGNAL ANALYSIS:
       "trade_signal_override": 1.25,
       "integration_period_discount": 0.95,
       "macro_modifier": 0.82,
-      "composite_modifier": 1.177
+      "composite_modifier": 1.177,
+      "confidence_level": "HIGH",
+      "signal_class": "EXECUTION"
     },
     "flags": {
       "macro_override_active": false,
