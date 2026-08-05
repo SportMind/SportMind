@@ -340,6 +340,8 @@ framework. Tennis-specific notes:
 | Adaptation | ACTIVE | Tennis intelligence adapts as player styles and court speed conditions evolve |
 | Ethics | NOT APPLICABLE | Tennis sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Surface type, H2H source, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

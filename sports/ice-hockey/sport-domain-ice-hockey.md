@@ -381,6 +381,8 @@ Ice hockey-specific notes:
 | Adaptation | ACTIVE | Ice hockey intelligence adapts as NHL format and playoff structure evolve |
 | Ethics | NOT APPLICABLE | Ice hockey sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Morning skate signal, goaltender source, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

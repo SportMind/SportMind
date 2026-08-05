@@ -354,6 +354,8 @@ You are a golf sports intelligence agent. Before evaluating any golf tournament 
 | Adaptation | ACTIVE | Golf intelligence adapts as tour formats and LIV Golf impact evolve |
 | Ethics | NOT APPLICABLE | Golf sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Course fit basis and scoring source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
