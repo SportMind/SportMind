@@ -312,6 +312,8 @@ sports/football                          ← domain context (this skill)
 | Adaptation | ACTIVE | Football intelligence adapts as competition formats and tactical evolution continues |
 | Ethics | NOT APPLICABLE | Football sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Modifier stack, signal weights, and source hierarchy explicit in football outputs |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

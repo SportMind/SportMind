@@ -329,6 +329,8 @@ framework. Cricket-specific notes:
 | Adaptation | ACTIVE | Cricket intelligence adapts as T20 format rules and DRS technology evolve |
 | Ethics | NOT APPLICABLE | Cricket sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Dew factor assessment, pitch report source, and format context explicit in output |
+| Execution | ACTIVE | Autonomous execution triggers, entry/exit conditions, and hard boundaries defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

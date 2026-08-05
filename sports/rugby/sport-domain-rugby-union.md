@@ -292,6 +292,8 @@ framework. Rugby union-specific notes:
 | Adaptation | ACTIVE | Rugby union intelligence adapts as law changes and tactical evolution continue |
 | Ethics | NOT APPLICABLE | Rugby union sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Set piece context and World Rugby source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

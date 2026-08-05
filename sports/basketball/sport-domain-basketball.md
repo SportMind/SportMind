@@ -265,6 +265,8 @@ npx skills add sportmind/fan-token
 | Adaptation | ACTIVE | Basketball intelligence adapts as play style and rule changes evolve |
 | Ethics | NOT APPLICABLE | Basketball sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Signal weights and pace context basis explicit in output |
+| Execution | ACTIVE | Autonomous execution triggers, entry/exit conditions, and hard boundaries defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
