@@ -220,6 +220,8 @@ WOMEN'S WORLD CUP — CALENDAR CONTEXT:
 | Adaptation | ACTIVE | Women's football intelligence adapts as professional standards and competition depth evolve |
 | Ethics | NOT APPLICABLE | Women's football sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Competition context and women's-specific signal differences noted in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

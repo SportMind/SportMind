@@ -254,6 +254,8 @@ DEMAND FRAMEWORK FOR ANY CS2 ORGANISATION TOKEN:
 | Adaptation | ACTIVE | CS2 intelligence adapts as map pool and game updates change meta |
 | Ethics | NOT APPLICABLE | CS2 sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Map pool, economy state, and data source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

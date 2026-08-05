@@ -221,6 +221,8 @@ PIPELINE SIGNAL MONITORING:
 | Adaptation | ACTIVE | NFL intelligence adapts as salary cap rules and playoff formats evolve |
 | Ethics | NOT APPLICABLE | NFL sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | NFL injury designation source and historical accuracy explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

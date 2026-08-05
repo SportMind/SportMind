@@ -191,6 +191,8 @@ IPL DEMAND CYCLE (for any future IPL token):
 | Adaptation | ACTIVE | IPL intelligence adapts as auction rules and franchise dynamics evolve |
 | Ethics | NOT APPLICABLE | IPL sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | IPL venue source, phase context, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

@@ -223,6 +223,8 @@ PFL FAN TOKEN ($PFL) — SEASON STRUCTURE SIGNAL:
 | Adaptation | ACTIVE | Combat sports intelligence adapts as rule sets and hybrid disciplines evolve |
 | Ethics | ACTIVE | Fighter safety signals require highest accuracy — medical clearance is paramount |
 | Transparency | ACTIVE | Discipline type and rule set context always explicit in combat sports output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

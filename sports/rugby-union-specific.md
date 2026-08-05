@@ -224,6 +224,8 @@ SARACENS ($SARRIES) — TOKEN-SPECIFIC REASONING:
 | Adaptation | ACTIVE | Rugby union framework adapts as competition formats and law changes evolve |
 | Ethics | NOT APPLICABLE | Rugby union framework is analytical — no ethical dimension |
 | Transparency | ACTIVE | Competition type and applied framework explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

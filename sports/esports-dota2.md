@@ -234,6 +234,8 @@ $ALL DEMAND CYCLE:
 | Adaptation | ACTIVE | Dota 2 intelligence adapts as each patch changes hero meta significantly |
 | Ethics | NOT APPLICABLE | Dota 2 sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Patch version, draft data source, and meta context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

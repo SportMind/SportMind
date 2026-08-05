@@ -216,6 +216,8 @@ $ALPINE — RENAULT F1 BRAND:
 | Adaptation | ACTIVE | Motorsport framework adapts as new series enter the ecosystem |
 | Ethics | NOT APPLICABLE | Motorsport framework is analytical — no ethical dimension |
 | Transparency | ACTIVE | Series type, applied framework, and override rationale explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

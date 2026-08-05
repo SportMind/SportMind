@@ -300,6 +300,8 @@ DEMAND FRAMEWORK — LOL AND VALORANT TOKENS (when they launch):
 | Adaptation | ACTIVE | Genre framework adapts as new titles emerge and existing titles evolve |
 | Ethics | NOT APPLICABLE | MOBA/tactical sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Genre type, game title, and signal framework identifier explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

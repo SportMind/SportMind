@@ -193,6 +193,8 @@ EUROPEAN ORGANISATION DIMENSION:
 | Adaptation | ACTIVE | Valorant intelligence adapts as agents and map pool change with each Act |
 | Ethics | NOT APPLICABLE | Valorant sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | VCT tier, agent composition source, and map pool explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
