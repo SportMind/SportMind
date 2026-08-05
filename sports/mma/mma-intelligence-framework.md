@@ -357,6 +357,8 @@ Proper Noun Test. Fix: use archetype descriptors only
 | 12. Adaptation | 12b Context Switching · 12c Signal Reweighting | ACTIVE |
 | 13. Ethics | 13a Fabrication Prevention · 13b User Safety · 13d Representation Accuracy | ACTIVE |
 | 14. Transparency | 14a Reasoning Chain Visibility · 14b Modifier Disclosure · 14d Limitation Acknowledgement | ACTIVE |
+| Execution | ACTIVE | Autonomous execution triggers, entry/exit conditions, and hard boundaries defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 | 15. Execution | 15a Entry Discipline · 15b Exit Discipline · 15d Playbook Adherence | ACTIVE |
 | 16. Collaboration | [NOT APPLICABLE] | — |
 
