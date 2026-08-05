@@ -37,10 +37,10 @@ Find a document with an outdated version number, record count, or file count.
 Fix it. Submit a PR with label `docs-fix`.
 
 **Known stale references:**
-- `community/leaderboard.md` — references v3.2 first entries; now at v3.65
-- `README.md` badge — verify it shows current record count (130 records, 96%+ accuracy)
-- Any document citing stale file counts (now 582 files)
-- Any document citing record counts below 130 (current count is 130 across 21 sports)
+- `community/leaderboard.md` — updated to v4.1.92 ✓
+- `README.md` badge — verify it shows current record count (130 records · 13 pre-match verified · 117 seed)
+- Any document citing stale file counts (now 800+ files)
+- Any document citing record counts below 130 (current count is 130 across 21 sports · 13 pre-match verified · 117 seed)
 
 ---
 
@@ -68,29 +68,12 @@ Translate a sport domain or athlete skill into a language SportMind does not yet
 
 ### 2A — Expand a community stub sport (14 available)
 
-These 14 sports exist as 20-line stubs. Each needs expansion to 150+ lines.
+These 14 sports have been expanded to 150+ lines with full
+frameworks. They are now COMPLETE and no longer need expansion.
+The remaining contribution opportunity is calibration records
+for these sports (see Level 1 above).
 
-| Sport | File | Key market | Signal notes |
-|---|---|---|---|
-| Badminton | `sports/badminton/` | SE Asia, India, China | BWF World Championships; Olympic cycle |
-| Volleyball | `sports/volleyball/` | Brazil, Italy, Japan | FIVB; indoor vs beach are separate |
-| Table Tennis | `sports/table-tennis/` | China, Germany | ITTF World Tour; Olympic dominant |
-| Field Hockey | `sports/field-hockey/` | Netherlands, India | FIH Pro League |
-| Curling | `sports/curling/` | Canada, Scotland | World Championship; Olympic |
-| Sailing | `sports/sailing/` | UK, Australia | America's Cup; Olympic classes |
-| Squash | `sports/squash/` | Egypt, UK, Pakistan | PSA World Tour |
-| Gymnastics | `sports/gymnastics/` | Russia, USA, China | Olympic cycle dominant |
-| Judo | `sports/judo/` | Japan, France | IJF World Tour; Olympic |
-| Triathlon | `sports/triathlon/` | UK, France, Australia | World Series; Ironman different |
-| Weightlifting | `sports/weightlifting/` | China, Kazakhstan | IWF; Olympic |
-| Swimming (open water) | `sports/swimming-open-water/` | Global | Differs from pool — conditions matter more |
-| Taekwondo | `sports/taekwondo/` | South Korea | WT World Championship; Olympic |
-| Fencing | `sports/fencing/` | France, Italy, Hungary | FIE World Championship; Olympic |
-
-**Template:** `sports/netball/sport-domain-netball.md` — same required sections.
-
-**Required sections:** Overview · Domain Model · Sport-Specific Risk Variables ·
-Event Playbooks · Agent Reasoning Prompts · Signal Weight Adjustments · Compatibility
+**Template:** `sports/netball/sport-domain-netball.md`
 
 **Definition of done:** 150+ lines, passes `scripts/skill-validator.py`, label `new-sport`.
 

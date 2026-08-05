@@ -214,8 +214,10 @@ COMMERCIAL NOTE: Table tennis has the largest global participant base of any
 | Adaptation | ACTIVE | Table tennis intelligence adapts as WTT circuit format evolves |
 | Ethics | NOT APPLICABLE | Table tennis sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Stub status and ranking context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
 
-*SportMind v3.86.0 · MIT License · sportmind.dev*
+*SportMind v4.1.93 · MIT License · sportmind.dev*
