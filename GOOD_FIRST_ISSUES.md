@@ -48,12 +48,10 @@ Fix it. Submit a PR with label `docs-fix`.
 
 Translate a sport domain or athlete skill into a language SportMind does not yet cover.
 
-**Current coverage:** AR, DE, ES, FR, HI, JA, PT
+**Current coverage:** AR, DE, ES, FR, HI, JA, PT, TR, IT
 
 **Highest-value gaps:**
 - Korean (KR): K-League, KBO baseball, esports
-- Italian (IT): Serie A, MotoGP
-- Turkish (TR): Süper Lig, basketball (Fenerbahçe/Galatasaray)
 - Mandarin (ZH): CBA basketball, Chinese Super League
 
 **Template:** Any existing i18n file (e.g., `i18n/de/sports/football/sport-domain-football.md`)
