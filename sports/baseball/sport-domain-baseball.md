@@ -551,6 +551,8 @@ framework. Baseball-specific notes:
 | Adaptation | ACTIVE | Baseball intelligence adapts as analytics and rule changes evolve |
 | Ethics | NOT APPLICABLE | Baseball sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Pitching matchup source and park factor basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

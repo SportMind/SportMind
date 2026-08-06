@@ -334,6 +334,8 @@ Handball-specific notes:
 | Adaptation | ACTIVE | Handball intelligence adapts as EHF competition format evolves |
 | Ethics | NOT APPLICABLE | Handball sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Goalkeeper signal basis and EHF source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

@@ -375,6 +375,8 @@ AFL-specific notes:
 | Adaptation | ACTIVE | AFL intelligence adapts as competition format and scoring rules evolve |
 | Ethics | NOT APPLICABLE | AFL sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | AFL signal weights and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

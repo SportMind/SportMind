@@ -342,6 +342,8 @@ sports/esports                              ← domain context (this skill)
 | Adaptation | ACTIVE | Esports intelligence adapts as game metas and tournament formats change rapidly |
 | Ethics | NOT APPLICABLE | Esports sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Game title, patch version, and roster source explicit in output |
+| Execution | ACTIVE | Autonomous execution triggers, entry/exit conditions, and hard boundaries defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

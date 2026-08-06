@@ -151,6 +151,8 @@ No calibration records — seeking first contributor.
 | Adaptation | ACTIVE | Field hockey intelligence adapts as FIH format and competition calendar evolves |
 | Ethics | NOT APPLICABLE | Field hockey sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Stub status and surface type context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

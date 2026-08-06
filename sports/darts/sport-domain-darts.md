@@ -224,6 +224,8 @@ You are a darts sports intelligence agent. Before evaluating any darts event:
 | Adaptation | ACTIVE | Darts intelligence adapts as PDC format and ranking systems evolve |
 | Ethics | NOT APPLICABLE | Darts sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Format context and player profile source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
