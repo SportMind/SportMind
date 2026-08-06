@@ -144,6 +144,8 @@ For Swimming, agents should apply these interpretive weights to composite signal
 | Adaptation | ACTIVE | Swimming intelligence adapts as super-suits and record standards evolve |
 | Ethics | ACTIVE | Anti-doping context in swimming requires careful handling of doping-adjacent signals |
 | Transparency | ACTIVE | Qualifying time source, taper context, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

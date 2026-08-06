@@ -255,6 +255,8 @@ You are a winter sports intelligence agent. Before evaluating any winter sports 
 | Adaptation | ACTIVE | Winter sports intelligence adapts as climate patterns affect snow conditions |
 | Ethics | NOT APPLICABLE | Winter sports domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Discipline type, conditions source, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

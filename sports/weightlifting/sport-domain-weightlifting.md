@@ -151,6 +151,8 @@ No calibration records — seeking first contributor.
 | Adaptation | ACTIVE | Weightlifting intelligence adapts as IWF weight categories and rules evolve |
 | Ethics | ACTIVE | Weightlifting has elevated anti-doping context — doping signals require careful handling |
 | Transparency | ACTIVE | Stub status and weight category context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

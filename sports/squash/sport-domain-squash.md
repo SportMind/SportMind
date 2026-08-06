@@ -151,6 +151,8 @@ No calibration records — seeking first contributor.
 | Adaptation | ACTIVE | Squash intelligence adapts as PSA format and ranking evolve |
 | Ethics | NOT APPLICABLE | Squash sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Stub status and ranking context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
