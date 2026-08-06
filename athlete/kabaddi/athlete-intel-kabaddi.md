@@ -125,6 +125,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | Kabaddi athlete intelligence adapts as PKL expands and player profiles evolve |
 | Ethics | NOT APPLICABLE | Kabaddi athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, role type (raider/defender), and PKL context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

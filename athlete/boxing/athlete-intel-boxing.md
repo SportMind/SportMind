@@ -206,6 +206,8 @@ Load these files alongside this skill for injury-aware agent reasoning.
 | Adaptation | ACTIVE | Boxing athlete intelligence adapts as promotional landscape and weight class norms evolve |
 | Ethics | ACTIVE | Boxing fighter safety signals (medical fitness) require accurate handling — safety-relevant |
 | Transparency | ACTIVE | APS modifier, weight cut status, and source tier explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

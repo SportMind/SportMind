@@ -469,6 +469,8 @@ get_athlete_signal_modifier player=[PITCHER_ID] game=[GAME_ID]
 | Adaptation | ACTIVE | Baseball athlete intelligence adapts as advanced metrics and role definitions evolve |
 | Ethics | NOT APPLICABLE | Baseball athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, metric source (Statcast), and role assessment explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

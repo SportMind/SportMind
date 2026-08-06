@@ -350,6 +350,8 @@ NATIONAL NARRATIVE:
 | Adaptation | ACTIVE | Athletics intelligence adapts as training methods and peak timing strategies evolve |
 | Ethics | ACTIVE | Athletics doping history is flagged — doping signals require official confirmation before applying |
 | Transparency | ACTIVE | APS modifier, peak timing assessment, and data source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

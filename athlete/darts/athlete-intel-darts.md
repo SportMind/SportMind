@@ -163,6 +163,8 @@ The most important performance metric in darts — equivalent to strokes gained 
 | Adaptation | ACTIVE | Darts athlete intelligence adapts as player profiles and PDC format evolve |
 | Ethics | NOT APPLICABLE | Darts athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, average signal source, and tournament context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

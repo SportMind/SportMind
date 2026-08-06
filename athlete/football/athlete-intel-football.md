@@ -490,6 +490,8 @@ get_athlete_signal_modifier token=BAR
 | Adaptation | ACTIVE | Football athlete intelligence adapts as position roles and tactical systems evolve |
 | Ethics | ACTIVE | Player medical information is sensitive — only publicly confirmed data used |
 | Transparency | ACTIVE | APS modifier, availability source tier, and position context always explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

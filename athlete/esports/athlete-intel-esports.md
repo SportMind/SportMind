@@ -270,6 +270,8 @@ Pick/ban patterns and counter-draft data. Highest value in LoL, Dota2, Valorant.
 | Adaptation | ACTIVE | Esports athlete intelligence adapts rapidly as game meta and role definitions evolve |
 | Ethics | NOT APPLICABLE | Esports athlete intelligence is gaming analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, role classification, and meta context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

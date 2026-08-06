@@ -214,6 +214,8 @@ Load these files alongside this skill for injury-aware agent reasoning.
 | Adaptation | ACTIVE | Racing athlete intelligence adapts as training methods and racing surfaces evolve |
 | Ethics | ACTIVE | Horse welfare signals (vet inspections, distress) are safety-relevant and handled carefully |
 | Transparency | ACTIVE | APS modifier, going suitability, and trainer signal source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

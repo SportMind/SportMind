@@ -125,6 +125,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | AFL athlete intelligence adapts as player roles and team systems evolve |
 | Ethics | NOT APPLICABLE | AFL athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, player role, and data source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

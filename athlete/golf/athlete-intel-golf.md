@@ -495,6 +495,8 @@ LIVE IN-ROUND (if monitoring during play):
 | Adaptation | ACTIVE | Golf athlete intelligence adapts as LIV/PGA competitive dynamics and course conditions evolve |
 | Ethics | NOT APPLICABLE | Golf athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, course fit basis, and world ranking context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

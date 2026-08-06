@@ -195,6 +195,8 @@ Load these files alongside this skill for injury-aware agent reasoning.
 | Adaptation | ACTIVE | Cycling athlete intelligence adapts as aerodynamics and training science evolve |
 | Ethics | ACTIVE | Cycling doping history context flagged — suspicious performance signals handled carefully |
 | Transparency | ACTIVE | APS modifier, rider role, and stage type context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

@@ -161,6 +161,8 @@ get_athlete_signal_modifier player=[BOWLER_ID] match=[MATCH_ID]
 | Adaptation | ACTIVE | Cricket athlete intelligence adapts as format evolution and T20 demands change |
 | Ethics | NOT APPLICABLE | Cricket athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, format context, and dew factor status explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

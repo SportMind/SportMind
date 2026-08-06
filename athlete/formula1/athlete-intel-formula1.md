@@ -130,6 +130,8 @@ get_athlete_signal_modifier driver=[DRIVER_ID] race=[RACE_ID]
 | Adaptation | ACTIVE | F1 driver intelligence adapts as constructor performance hierarchy changes each season |
 | Ethics | NOT APPLICABLE | F1 athlete intelligence is motorsport analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, qualifying delta value, and circuit context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---
