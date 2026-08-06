@@ -153,6 +153,8 @@ For Netball, agents should apply these interpretive weights to composite signal 
 | Adaptation | ACTIVE | Netball intelligence adapts as Super Netball format evolves |
 | Ethics | NOT APPLICABLE | Netball sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Competition context and source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

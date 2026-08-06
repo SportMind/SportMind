@@ -353,6 +353,8 @@ Kabaddi-specific notes:
 | Adaptation | ACTIVE | Kabaddi intelligence adapts as PKL format and team composition evolve |
 | Ethics | NOT APPLICABLE | Kabaddi sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Raider_primacy signal basis and PKL source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

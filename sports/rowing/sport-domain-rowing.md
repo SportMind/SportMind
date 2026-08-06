@@ -147,6 +147,8 @@ For Rowing, agents should apply these interpretive weights to composite signal s
 | Adaptation | ACTIVE | Rowing intelligence adapts as World Rowing format and qualification evolve |
 | Ethics | NOT APPLICABLE | Rowing sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Boat class, conditions source, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

@@ -378,6 +378,8 @@ MotoGP-specific notes:
 | Adaptation | ACTIVE | MotoGP intelligence adapts as regulation changes and sprint format evolve |
 | Ethics | NOT APPLICABLE | MotoGP sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Circuit modifier, qualifying source, and tyre context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

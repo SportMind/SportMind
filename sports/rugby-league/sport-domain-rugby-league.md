@@ -161,6 +161,8 @@ For Rugby League, agents should apply these interpretive weights to composite si
 | Adaptation | ACTIVE | Rugby league intelligence adapts as NRL format and salary cap rules evolve |
 | Ethics | NOT APPLICABLE | Rugby league sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Competition context and NRL source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

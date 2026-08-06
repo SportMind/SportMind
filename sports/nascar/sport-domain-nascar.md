@@ -368,6 +368,8 @@ NASCAR-specific notes:
 | Adaptation | ACTIVE | NASCAR intelligence adapts as stage format and Next Gen car regulations evolve |
 | Ethics | NOT APPLICABLE | NASCAR sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Track type, Playoff stage context, and modifier basis explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

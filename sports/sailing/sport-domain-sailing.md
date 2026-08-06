@@ -151,6 +151,8 @@ No calibration records — seeking first contributor.
 | Adaptation | ACTIVE | Sailing intelligence adapts as boat class regulations and regatta formats evolve |
 | Ethics | NOT APPLICABLE | Sailing sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Stub status and conditions context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---

@@ -151,6 +151,8 @@ No calibration records — seeking first contributor.
 | Adaptation | ACTIVE | Judo intelligence adapts as IJF ranking and rule changes evolve |
 | Ethics | NOT APPLICABLE | Judo sport domain is factual analysis — no ethical dimension |
 | Transparency | ACTIVE | Stub status and weight category context disclosed in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
 
 
 ---
