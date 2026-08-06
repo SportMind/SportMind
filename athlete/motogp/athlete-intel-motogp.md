@@ -126,6 +126,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | MotoGP athlete intelligence adapts as regulation changes alter manufacturer hierarchy |
 | Ethics | NOT APPLICABLE | MotoGP athlete intelligence is motorsport analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, circuit fit basis, and championship context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

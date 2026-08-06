@@ -145,6 +145,8 @@ Player-level intelligence for snooker fan tokens and prediction markets.
 | Adaptation | ACTIVE | Snooker athlete intelligence adapts as ranking system and Chinese market influence evolve |
 | Ethics | NOT APPLICABLE | Snooker athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, ranking position, and form source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

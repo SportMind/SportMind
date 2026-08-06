@@ -124,6 +124,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | Rowing athlete intelligence adapts as boat class rules and crew composition strategies evolve |
 | Ethics | NOT APPLICABLE | Rowing athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, boat class, and Olympic qualification status explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

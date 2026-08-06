@@ -359,6 +359,8 @@ Load these files alongside this skill for injury-aware agent reasoning.
 | Adaptation | ACTIVE | MMA athlete intelligence adapts as weight management protocols and commission rules evolve |
 | Ethics | ACTIVE | Fighter safety signals (medical fitness, weight cut distress) require accurate handling |
 | Transparency | ACTIVE | APS modifier, weight cut status, and source tier explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

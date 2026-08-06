@@ -124,6 +124,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | Netball athlete intelligence adapts as the sport grows commercially |
 | Ethics | NOT APPLICABLE | Netball athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, position role, and competition context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

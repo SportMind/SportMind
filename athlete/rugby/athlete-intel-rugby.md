@@ -306,6 +306,8 @@ availability, and disciplinary record into one multiplier.
 | Adaptation | ACTIVE | Rugby athlete intelligence adapts as cross-code transfers and professional structures evolve |
 | Ethics | NOT APPLICABLE | Rugby athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, code (union/league), and position role explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

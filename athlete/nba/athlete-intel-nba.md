@@ -155,6 +155,8 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 | Adaptation | ACTIVE | NBA athlete intelligence adapts as load management practices and In-Season Tournament evolve |
 | Ethics | NOT APPLICABLE | NBA athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, load management status, and injury designation source explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

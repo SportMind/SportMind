@@ -257,6 +257,8 @@ POSITION TIERS (cross-sport framework):
 | Adaptation | ACTIVE | Routing table adapts as new sports and athlete files are added to the library |
 | Ethics | ACTIVE | No named current player status in this file — Library Rule compliance, athlete privacy respected |
 | Transparency | ACTIVE | APS modifier components (availability × form × fitness) always explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 ---
 

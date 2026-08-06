@@ -125,6 +125,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | Winter sports athlete intelligence adapts as climate challenges affect venue availability |
 | Ethics | ACTIVE | Climate impact on winter sports venues noted — event cancellation signals handled carefully |
 | Transparency | ACTIVE | APS modifier, discipline type, and Olympic cycle status explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

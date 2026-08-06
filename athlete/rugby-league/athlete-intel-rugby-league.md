@@ -302,6 +302,8 @@ get_athlete_signal_modifier player=[PLAYER_ID] match=[MATCH_ID]
 | Adaptation | ACTIVE | Rugby league athlete intelligence adapts as NRL competition format evolves |
 | Ethics | NOT APPLICABLE | Rugby league athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, position role, and State of Origin context explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

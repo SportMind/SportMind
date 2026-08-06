@@ -139,6 +139,8 @@ Master composite modifier. Combines all sport-specific sub-components into one m
 | Adaptation | ACTIVE | NHL athlete intelligence adapts as goaltending rotation practices and playoff format evolve |
 | Ethics | NOT APPLICABLE | NHL athlete intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, morning skate status source, and goaltender confirmation explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---

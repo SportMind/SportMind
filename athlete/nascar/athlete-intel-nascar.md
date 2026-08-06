@@ -125,6 +125,8 @@ get_athlete_signal_modifier athlete=[ATHLETE_ID] event=[EVENT_ID]
 | Adaptation | ACTIVE | NASCAR athlete intelligence adapts as Next Gen car and team lineup evolve |
 | Ethics | NOT APPLICABLE | NASCAR athlete intelligence is motorsport analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, track type fit, and Playoff stage explicit in output |
+| Execution | ACTIVE | Six-step pre-match workflow, event playbooks, and command references defined |
+| Collaboration | ACTIVE | Integrates with core frameworks, sport domain layer, fan token registry, and macro intelligence |
 
 
 ---
