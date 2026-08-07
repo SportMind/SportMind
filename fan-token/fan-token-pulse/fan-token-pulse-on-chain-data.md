@@ -230,6 +230,8 @@ For Socios engagement data (polls, events), `SOCIOS_PARTNER_KEY` is needed.
 | Adaptation | ACTIVE | Pulse monitoring adapts as Chiliz Chain transaction patterns evolve |
 | Ethics | ACTIVE | Wash trading and manipulation detection is embedded in pulse monitoring |
 | Transparency | ACTIVE | Pulse data source and anomaly detection methodology explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

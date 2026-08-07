@@ -174,6 +174,8 @@ If the user asks "which players drive the most token engagement at [club]":
 | Adaptation | ACTIVE | Lift patterns adapt as platform algorithms and athlete social strategies evolve |
 | Ethics | ACTIVE | Social lift analysis uses public data — no private monitoring |
 | Transparency | ACTIVE | Lift source and organic verification status explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

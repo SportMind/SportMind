@@ -217,6 +217,8 @@ When the user asks for an exportable brief:
 | Adaptation | ACTIVE | Brand score adapts as athlete commercial profile evolves |
 | Ethics | ACTIVE | Brand scoring uses public commercial data only — no private arrangements |
 | Transparency | ACTIVE | Brand score components and weights explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

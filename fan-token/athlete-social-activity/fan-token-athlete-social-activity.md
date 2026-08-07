@@ -239,6 +239,8 @@ When user asks for a content strategy or posting plan:
 | Adaptation | ACTIVE | Social intelligence adapts as platform dynamics and athlete social behaviours evolve |
 | Ethics | ACTIVE | Athlete social monitoring uses public data only — no private data |
 | Transparency | ACTIVE | Social source platform and organic/bot assessment explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---
