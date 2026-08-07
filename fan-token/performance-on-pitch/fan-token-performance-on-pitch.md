@@ -299,6 +299,8 @@ When asked to compare two or more players:
 | Adaptation | ACTIVE | On-pitch intelligence adapts as advanced metrics and performance standards evolve |
 | Ethics | NOT APPLICABLE | On-pitch performance analysis is factual — no ethical dimension |
 | Transparency | ACTIVE | Performance data source and context adjustment basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -224,6 +224,8 @@ When user asks for a specific brand outreach message or deck angle:
 | Adaptation | ACTIVE | Sponsorship intelligence adapts as commercial partnership models evolve |
 | Ethics | NOT APPLICABLE | Sponsorship intelligence is commercial analysis — no ethical dimension |
 | Transparency | ACTIVE | Sponsorship deal source, tier, and CDI modifier explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

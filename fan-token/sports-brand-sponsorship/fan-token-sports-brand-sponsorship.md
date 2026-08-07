@@ -348,6 +348,8 @@ For club-level deals (shirt sponsors, stadium naming, training kit):
 | Adaptation | ACTIVE | Brand sponsorship intelligence adapts as sports marketing models evolve |
 | Ethics | NOT APPLICABLE | Brand sponsorship intelligence is commercial analysis — no ethical dimension |
 | Transparency | ACTIVE | Brand tier, deal type, and source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

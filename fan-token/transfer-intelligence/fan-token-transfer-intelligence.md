@@ -242,6 +242,8 @@ During January and summer windows:
 | Adaptation | ACTIVE | Transfer intelligence adapts as player valuations and market dynamics evolve |
 | Ethics | ACTIVE | Transfer signals about minors require additional verification care |
 | Transparency | ACTIVE | Transfer source tier, deal stage, and CDI modifier explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

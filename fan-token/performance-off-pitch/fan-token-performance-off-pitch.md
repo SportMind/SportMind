@@ -305,6 +305,8 @@ PROFESSIONALISM SIGNALS
 | Adaptation | ACTIVE | Off-pitch intelligence adapts as fan token market sensitivity to non-sport events evolves |
 | Ethics | ACTIVE | Off-pitch signals about individuals use only publicly confirmed information |
 | Transparency | ACTIVE | Off-pitch event source and confirmation status explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

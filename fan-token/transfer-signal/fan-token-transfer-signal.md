@@ -196,6 +196,8 @@ During Jan and summer transfer windows, run in continuous monitoring mode:
 | Adaptation | ACTIVE | Transfer signal framework adapts as new credible journalists and platforms emerge |
 | Ethics | ACTIVE | Transfer speculation about minors or private individuals requires additional care |
 | Transparency | ACTIVE | Journalist tier and source reliability always explicit in transfer signal outputs |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

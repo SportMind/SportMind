@@ -207,6 +207,8 @@ You are a handball token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | Handball intelligence adapts as token ecosystem matures |
 | Ethics | NOT APPLICABLE | Handball token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Competition context and modifier basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

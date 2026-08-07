@@ -324,6 +324,8 @@ PAID PROMOTION DETECTED:
 | Adaptation | ACTIVE | KOL intelligence adapts as influencer platforms and engagement patterns evolve |
 | Ethics | ACTIVE | Paid promotion without disclosure is flagged as manipulation signal — ethical boundary |
 | Transparency | ACTIVE | KOL tier, organic/paid classification, and disclosure status explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

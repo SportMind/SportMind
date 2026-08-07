@@ -302,6 +302,8 @@ MODIFIER APPLICATION ORDER:
 | Adaptation | ACTIVE | Window intelligence adapts as regulatory changes and market structures evolve |
 | Ethics | ACTIVE | Deadline day rumour amplification risk is noted — higher verification threshold applies |
 | Transparency | ACTIVE | Window status, days remaining, and CDI uncertainty level explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

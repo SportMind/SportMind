@@ -257,6 +257,8 @@ You are a MotoGP token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | MotoGP intelligence adapts as constructor performance hierarchy changes |
 | Ethics | NOT APPLICABLE | MotoGP token intelligence is motorsport analysis — no ethical dimension |
 | Transparency | ACTIVE | Circuit type, championship gap, and modifier basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

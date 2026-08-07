@@ -715,6 +715,8 @@ LTUI IMPACT:
 | Adaptation | ACTIVE | RWA intelligence adapts as tokenisation technology and regulatory frameworks mature |
 | Ethics | ACTIVE | RWA tokenisation of sports assets carries investor protection considerations — flagged |
 | Transparency | ACTIVE | RWA asset type, structure, and regulatory status always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---
