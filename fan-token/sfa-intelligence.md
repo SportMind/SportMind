@@ -3,17 +3,19 @@ name: sfa-intelligence
 description: >
   Scottish Football Association ($SFA) fan token intelligence framework.
   Partnership announced May 21 2026 — official Chiliz Chain partnership confirmed.
-  Token not yet live. Covers SFA partnership context, Scottish football market
-  signals, international tournament intelligence, pipeline stage reasoning, and
+  Token ACTIVE (launched 2026-05-21). Covers SFA intelligence, Scottish football market
+  signals, international tournament intelligence, and
   the unique dual-market demand profile (Scotland domestic + global Scottish diaspora).
-  PARTNERSHIP_ANNOUNCED status — do not model as active token demand until launch.
+  ACTIVE — full active token demand modelling applies.
+  Contract verified: docs.chiliz.com 2026-08-04 ✓
 ---
 
 # Scottish Football Association ($SFA) — Fan Token Intelligence
 
-**PARTNERSHIP_ANNOUNCED status — token not yet live on Chiliz Chain.**
-Do not model demand as if $SFA token is live. Apply pipeline modifier only.
-Verify token launch at chiliscan.com / fantokens.com before switching to active framework.
+**$SFA is ACTIVE — launched 2026-05-21 on Chiliz Chain.**
+Apply full active token demand modelling.
+Token is live and active. Verify current price and
+  liquidity at chiliscan.com before each analysis session.
 
 Source: chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/
 Verified: VERIFIED — official Chiliz announcement May 21 2026.
@@ -23,17 +25,18 @@ Verified: VERIFIED — official Chiliz announcement May 21 2026.
 ## Partnership context
 
 ```
-PARTNERSHIP_ANNOUNCED: 2026-05-21
+ACTIVE: 2026-05-21 (launch date)
   Chain:   Chiliz Chain (token not yet deployed)
-  Status:  PARTNERSHIP_ANNOUNCED → watch for token launch announcement
+  Status:  ACTIVE · Launched 2026-05-21 ·
+  Contract: 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 (Chiliz Chain)
   Ticker:  $SFA (confirmed in partnership announcement)
   Sport:   Football (National)
 
 SIGNAL TYPE: PIPELINE
-  Apply ×1.05 pipeline modifier to existing active tokens with
-  Scottish fanbase presence.
-  Do NOT apply active token demand modelling for $SFA until
-  official token launch confirmed at chiliscan.com.
+  $SFA is ACTIVE. Apply full active token demand
+  modelling for Scottish fanbase signals.
+  $SFA is ACTIVE. Apply full active token demand
+  modelling. WC2026 PTG burns confirmed.
 
 SFA CONTEXT:
   The Scottish Football Association governs football in Scotland.
@@ -147,17 +150,17 @@ SOCIAL MEDIA AMPLIFICATION:
 
 ---
 
-## Pipeline to active token framework
+## Active token framework
 
 ```
-STAGE 1 — PARTNERSHIP_ANNOUNCED (current):
-  Apply: ×1.05 ecosystem pipeline modifier to active tokens with Scottish fanbase.
-  Do not model $SFA demand as active token.
+STAGE 1 — ACTIVE (launched 2026-05-21):
+  Apply: full active token demand modelling.
+  $SFA is live — pipeline framework superseded.
 
 STAGE 2 — TOKEN LAUNCH CONFIRMED:
-  Confirmation source: chiliscan.com | fantokens.com | official SFA channels.
+  Confirmation source: chiliscan.com · docs.chiliz.com · Contract: 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 ✓
   Apply: ×1.18 first-launch validation signal.
-  Switch from pipeline to active token framework.
+  Token is active. Apply full active demand modelling.
   Activate all tournament and rivalry signal weights from this file.
 
 STAGE 3 — FIRST QUALIFICATION CYCLE:
@@ -175,9 +178,9 @@ STAGE 4 — ENGLAND vs SCOTLAND FIXTURE:
 
 **Intelligence:** Teaches the Scottish football market characteristics including diaspora amplification, UK regulatory context, international tournament signal weights, and the England-Scotland historic rivalry premium.
 
-**Reasoning:** Provides the pipeline-to-active framework stages, tournament signal weights, and diaspora demand calculation as an enduring reasoning chain for $SFA analysis.
+**Reasoning:** Provides tournament signal weights, diaspora demand calculation, and active token demand framework as the reasoning chain for $SFA analysis.
 
-**Context:** Applies in PARTNERSHIP_ANNOUNCED stage as a pipeline signal only — switches to active token context after confirmed launch. UK market context adds regulatory clarity modifier from the outset.
+**Context:** $SFA is ACTIVE. Framework applies to full active token demand modelling for Scottish football fan token signals. UK market context and FCA regulatory clarity modifier apply.
 
 **Memory:** EMERGING — no calibration records yet. Partnership announced May 21 2026. First data will come from token launch and first qualification campaign signals.
 
@@ -207,6 +210,7 @@ STAGE 4 — ENGLAND vs SCOTLAND FIXTURE:
 ---
 
 *SportMind v3.97.74 · MIT License · sportmind.dev*
-*PARTNERSHIP_ANNOUNCED — do not model as active token demand until confirmed launch.*
+*$SFA is confirmed active — apply active token demand modelling.*
+*Contract: 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 · Verified docs.chiliz.com 2026-08-04 ✓*
 *Scotland diaspora amplifier ×1.15 — addressable market significantly exceeds 5.5M population.*
 *England vs Scotland: ×1.20 historic rivalry premium — highest single-fixture signal for $SFA.*

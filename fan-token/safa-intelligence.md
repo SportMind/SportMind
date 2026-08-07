@@ -3,17 +3,18 @@ name: safa-intelligence
 description: >
   South African Football Association ($SAFA) fan token intelligence framework.
   Partnership announced May 21 2026 — official Chiliz Chain partnership confirmed.
-  Token not yet live. Covers SAFA partnership context, South African football
+  Token ACTIVE (launched 2026-05-21). Covers SAFA intelligence, South African football
   market signals, AFCON tournament intelligence, regional demand framework,
-  and pipeline stage reasoning. PARTNERSHIP_ANNOUNCED status — do not model
-  as active token demand until confirmed launch.
+  and pipeline stage reasoning. ACTIVE — full active token demand modelling applies.
+  Contract verified: docs.chiliz.com 2026-08-04 ✓
 ---
 
 # South African Football Association ($SAFA) — Fan Token Intelligence
 
-**PARTNERSHIP_ANNOUNCED status — token not yet live on Chiliz Chain.**
-Do not model demand as if $SAFA token is live. Apply pipeline modifier only.
-Verify token launch at chiliscan.com / fantokens.com before switching to active framework.
+**$SAFA is ACTIVE — launched 2026-05-21 on Chiliz Chain.**
+Apply full active token demand modelling.
+Token is live and active. Verify current price and
+  liquidity at chiliscan.com before each analysis session.
 
 Source: chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/
 Verified: VERIFIED — official Chiliz announcement May 21 2026.
@@ -23,19 +24,22 @@ Verified: VERIFIED — official Chiliz announcement May 21 2026.
 ## Partnership context
 
 ```
-PARTNERSHIP_ANNOUNCED: 2026-05-21
+ACTIVE: 2026-05-21 (launch date)
   Chain:   Chiliz Chain (token not yet deployed)
-  Status:  PARTNERSHIP_ANNOUNCED → watch for token launch announcement
+  Status:  ACTIVE · Launched 2026-05-21 ·
+  Contract: 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE (Chiliz Chain)
   Ticker:  $SAFA (confirmed in partnership announcement)
   Sport:   Football (National)
 
 SIGNAL TYPE: PIPELINE
   This is a PIPELINE signal for the broader Chiliz ecosystem.
-  Apply ×1.05 pipeline modifier to existing active tokens with
+  Apply active token demand modelling. Previous ×1.05
+  pipeline modifier is now superseded —
   South African fanbase presence.
 
-  $SAFA specific: do NOT apply active token demand modelling
-  until official token launch is confirmed at chiliscan.com.
+  $SAFA is ACTIVE. Apply full active token demand
+  modelling. Contract verified: docs.chiliz.com 2026-08-04 ✓
+  Supply: 20,000,000 · Launch price: $0.50 · WC2026 PTG burns confirmed.
 
 SAFA CONTEXT:
   The South African Football Association governs football in South Africa.
@@ -135,17 +139,17 @@ LANGUAGE AND LOCALISATION:
 
 ---
 
-## Pipeline to active token framework
+## Active token framework
 
 ```
-STAGE 1 — PARTNERSHIP_ANNOUNCED (current):
-  Apply: ×1.05 ecosystem pipeline modifier to active tokens with SA fanbase.
-  Do not model $SAFA demand as active token.
+STAGE 1 — ACTIVE (launched 2026-05-21):
+  Apply: full active token demand modelling.
+  $SAFA is live — pipeline framework superseded.
 
 STAGE 2 — TOKEN LAUNCH CONFIRMED:
-  Confirmation source: chiliscan.com | fantokens.com | official SAFA channels.
+  Confirmation source: chiliscan.com · docs.chiliz.com · Contract: 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE ✓
   Apply: ×1.20 first-launch validation signal to ecosystem.
-  Switch from pipeline to active token framework at this stage.
+  Token is active. Apply full active demand modelling.
   Load active demand modifiers from this file's tournament section.
 
 STAGE 3 — FIRST GOVERNANCE VOTE:
@@ -163,13 +167,13 @@ STAGE 4 — FIRST AFCON CYCLE:
 
 **Intelligence:** Teaches the South African football market characteristics, AFCON tournament signal weights, and the regulatory context that determines $SAFA demand ceiling when the token launches.
 
-**Reasoning:** Provides the pipeline-to-active framework stages and AFCON tournament signal weights as an enduring reasoning chain for $SAFA demand analysis.
+**Reasoning:** Provides AFCON tournament signal weights, regional demand calculation, and active token demand framework as the reasoning chain for $SAFA demand analysis.
 
-**Context:** Applies in PARTNERSHIP_ANNOUNCED stage as a pipeline signal only — switches to active token context after confirmed launch at chiliscan.com.
+**Context:** $SAFA is ACTIVE. Framework applies to full active token demand modelling for South African football fan token signals.
 
 **Memory:** EMERGING — no calibration records yet. Partnership announced May 21 2026. First empirical data will come from the token launch and first AFCON qualification signal.
 
-**Judgment:** Do not apply active token demand modifiers until token launch is confirmed at chiliscan.com. PARTNERSHIP_ANNOUNCED is a pipeline signal, not an active token signal.
+**Judgment:** $SAFA is confirmed active. Apply active token demand modifiers. Monitor WC2026 PTG burn events and AFCON qualification calendar as primary demand triggers.
 
 **Attention:** Low attention priority until token launch — monitor for launch announcement. After launch: AFCON qualification is the primary attention trigger.
 
@@ -195,5 +199,5 @@ STAGE 4 — FIRST AFCON CYCLE:
 ---
 
 *SportMind v3.97.74 · MIT License · sportmind.dev*
-*PARTNERSHIP_ANNOUNCED — do not model as active token demand until confirmed launch.*
-*Verify: chiliscan.com | fantokens.com before switching to active framework.*
+*$SAFA is confirmed active — apply active token demand modelling.*
+*Contract: 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE · Verified docs.chiliz.com 2026-08-04 ✓*
