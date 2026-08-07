@@ -253,6 +253,8 @@ VOTE RESULT INTERPRETATION:
 | Adaptation | ACTIVE | Takeover framework adapts as governance token mechanics and thresholds evolve |
 | Ethics | ACTIVE | Governance manipulation detection is a core ethics function of this framework |
 | Transparency | ACTIVE | Takeover risk assessment and accumulation data source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -243,6 +243,8 @@ skill registry API, multi-language support (Spanish, Portuguese, French, Arabic,
 | Adaptation | ACTIVE | Layer overview adapts as new sub-layers and files are added |
 | Ethics | NOT APPLICABLE | Layer overview is structural documentation — no ethical dimension |
 | Transparency | ACTIVE | Full layer structure and load order is publicly documented |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

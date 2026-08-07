@@ -240,6 +240,10 @@ POST-FTO DAY 30+:
 
 **Transparency:** Every FTO signal must state: format (single/two-wave), supply tier, current phase, applicable modifiers, and jurisdiction exclusion status. Do not apply post-Day-30 signal stack before Day 30+ confirmed. State NOVEL_FORMAT uncertainty during first calibration window.
 
+**Execution:** Signal generation workflow, event playbooks, and structured output templates defined
+
+**Collaboration:** Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer
+
 ---
 
 ## Compatibility

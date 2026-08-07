@@ -187,6 +187,10 @@ LOOP REACTIVATION:
 
 **Attention:** Fan token revenue intelligence is Horizon 2-3 context. It informs demand trajectory, not match-day signals. Do not apply in pre-match reasoning chains alongside adjusted score calculations.
 
+**Execution:** Signal generation workflow, event playbooks, and structured output templates defined
+
+**Collaboration:** Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer
+
 **Learning:** As more data becomes available on club promotion patterns and their correlation with demand metrics, the modifier values in this framework can be refined through calibration records. The circular loop hypothesis is currently Tier 1-2 evidence (early/emerging) — not yet Tier 3 established.
 
 **Integration:** Fan token revenue intelligence integrates simultaneously with club revenue intelligence (total commercial picture), commercial partnership intelligence (partnership health), and the fan token context bridge (connecting all sport signals to token demand). The circular loop only becomes visible when all three are held together.

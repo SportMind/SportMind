@@ -213,6 +213,8 @@ MID-SEASON COMPETITION ELIMINATION:
 | Adaptation | ACTIVE | Portfolio intelligence adapts as token set and correlation structure evolve |
 | Ethics | NOT APPLICABLE | Portfolio analysis is financial — no ethical dimension beyond individual token ethics |
 | Transparency | ACTIVE | Portfolio composition, correlation assumptions, and concentration risk explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -231,6 +231,8 @@ NATIONAL ASSOCIATION VERIFICATION STEP (additional to four-source):
 | Adaptation | ACTIVE | Verification criteria adapt as new fraud mechanisms emerge |
 | Ethics | ACTIVE | Verification failure protection is a core ethics function — prevents harm from fraud tokens |
 | Transparency | ACTIVE | All four verification sources and their pass/fail status explicit in every output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

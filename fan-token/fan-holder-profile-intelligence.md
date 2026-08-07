@@ -372,6 +372,8 @@ ANTE ET AL. (2025) RESEARCH CONNECTIONS:
 | Adaptation | ACTIVE | Holder profiles adapt as token holder communities mature and evolve |
 | Ethics | ACTIVE | Profiling individual identifiable holders requires GDPR compliance — aggregate analysis only |
 | Transparency | ACTIVE | Holder archetype basis and GDPR boundary noted in all holder profile outputs |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

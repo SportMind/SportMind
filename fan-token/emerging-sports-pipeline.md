@@ -305,6 +305,8 @@ INDIVIDUAL ATHLETE TOKENS — DISTINCT REASONING FRAMEWORK:
 | Adaptation | ACTIVE | Pipeline adapts as new sport categories and markets emerge |
 | Ethics | NOT APPLICABLE | Pipeline assessment is commercial analysis — no ethical dimension |
 | Transparency | ACTIVE | Viability score components and threshold basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

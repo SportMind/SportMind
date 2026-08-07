@@ -182,6 +182,8 @@ VERIFICATION REQUIREMENT:
 | Adaptation | ACTIVE | Framework adapts as Chiliz/Socios extend mechanic to future tournaments |
 | Ethics | ACTIVE | Treasury source must always be stated — user wallets never affected |
 | Transparency | ACTIVE | Burn source, percentage, stage, and macro modifier always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 ---
 

@@ -381,6 +381,8 @@ STEP 5: INTEGRATE WITH SPORT DOMAIN SIGNAL
 | Adaptation | ACTIVE | Behaviour framework adapts as new token types (national team, FTO formats) and mechanics emerge |
 | Ethics | ACTIVE | Fraud risk section flags deceptive tokens during World Cup window — holder protection is an ethics function |
 | Transparency | ACTIVE | Reference cases ($BELG FTO, UCL Final 2026) cited explicitly — behaviour patterns are traceable to real events |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 ---
 

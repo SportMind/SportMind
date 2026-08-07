@@ -364,6 +364,8 @@ SUPPLY MECHANICS — NATIONAL TEAM TOKENS:
 | Adaptation | ACTIVE | National team framework adapts as Locker Room launch mechanics and token ecosystem evolve |
 | Ethics | ACTIVE | World Cup fraud amplification requires the highest fraud detection vigilance |
 | Transparency | ACTIVE | Tournament phase, FTO stage, and fraud risk level always explicit in national team outputs |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

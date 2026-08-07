@@ -337,6 +337,8 @@ SPORTMIND DOES:
 | Adaptation | ACTIVE | Fraud intelligence adapts as new fraud mechanics emerge with new token launches |
 | Ethics | ACTIVE | Fraud detection is a core ethics function — protects users from harmful schemes |
 | Transparency | ACTIVE | Fraud risk level and specific red flags identified always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -202,6 +202,8 @@ HOW GOVERNANCE INTEGRATES INTO CDI CALCULATION:
 | Adaptation | ACTIVE | Governance intelligence adapts as Socios voting mechanisms and rights evolve |
 | Ethics | ACTIVE | Individual voter tracking of identifiable holders raises GDPR concerns — aggregate analysis only |
 | Transparency | ACTIVE | Governance data source and GDPR boundary explicit in all governance outputs |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

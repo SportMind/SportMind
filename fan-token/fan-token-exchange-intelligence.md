@@ -917,6 +917,8 @@ NEW_LISTING_PROTOCOL:
 | Adaptation | ACTIVE | Exchange intelligence adapts as regulatory changes affect available venues |
 | Ethics | ACTIVE | MiCA CASP authorisation status checked before applying EU exchange signals |
 | Transparency | ACTIVE | Exchange venue, listing source, and volume data source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---
