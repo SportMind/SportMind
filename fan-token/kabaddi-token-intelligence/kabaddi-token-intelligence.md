@@ -221,6 +221,8 @@ You are a PKL kabaddi token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | Kabaddi intelligence adapts as token ecosystem grows in Indian market |
 | Ethics | NOT APPLICABLE | Kabaddi token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | PKL context and Indian market modifier basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

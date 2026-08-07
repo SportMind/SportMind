@@ -220,6 +220,8 @@ US:
 | Adaptation | ACTIVE | Arsenal intelligence adapts as PATH_2 pool sizes and club performance evolves |
 | Ethics | NOT APPLICABLE | Arsenal token intelligence is sports/crypto analysis — no ethical dimension |
 | Transparency | ACTIVE | PATH_2 supply event outcome and on-chain source explicit in all Arsenal outputs |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

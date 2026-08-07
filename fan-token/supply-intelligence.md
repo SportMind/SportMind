@@ -230,6 +230,8 @@ CROSS-CHAIN NOTE (Fan Tokens V2.0 — active April 2026):
 | Adaptation | ACTIVE | Supply intelligence adapts as FTP mechanics and token issuance evolve |
 | Ethics | ACTIVE | LOSS = MINT must never be described as supply-neutral — accuracy is an ethics requirement |
 | Transparency | ACTIVE | Supply event type, amount, source, and TVS modifier always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

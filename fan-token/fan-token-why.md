@@ -543,6 +543,8 @@ PRINCIPLE 3 — INFRASTRUCTURE FOR THE FUTURE:
 | Adaptation | ACTIVE | Value framework adapts as fan token use cases and mechanics evolve |
 | Ethics | ACTIVE | Value framework explicitly rejects passive yield promises as fraud signals |
 | Transparency | ACTIVE | Value driver hierarchy and evidence basis explicit in all fundamental analysis |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

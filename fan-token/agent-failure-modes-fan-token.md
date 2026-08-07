@@ -316,6 +316,8 @@ Example:
 | Adaptation | ACTIVE | Failure modes evolve as ecosystem mechanics and regulatory frameworks develop |
 | Ethics | ACTIVE | Honest about limitations — never produce overconfident signal when FM detected |
 | Transparency | ACTIVE | Failure mode flag always explicit in output — no hidden confidence reduction |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 ---
 

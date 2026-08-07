@@ -246,6 +246,8 @@ You are an NHL token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | Ice hockey intelligence adapts as token ecosystem matures |
 | Ethics | NOT APPLICABLE | Ice hockey token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Competition context and modifier basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -203,6 +203,8 @@ You are an NFL token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | NFL intelligence adapts as US fan token market develops |
 | Ethics | NOT APPLICABLE | NFL token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Playoff context, injury designation, and modifier basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---
