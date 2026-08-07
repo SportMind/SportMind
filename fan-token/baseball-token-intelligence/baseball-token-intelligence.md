@@ -226,6 +226,8 @@ You are an MLB token intelligence agent. Before any analysis:
 | Adaptation | ACTIVE | Baseball intelligence adapts as token ecosystem matures in US market |
 | Ethics | NOT APPLICABLE | Baseball token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Baseball-specific modifier and seasonal context explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

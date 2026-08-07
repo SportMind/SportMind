@@ -417,6 +417,8 @@ KNOWN VALIDATOR SPORTS BRANDS (as of Q1 2026):
 | Adaptation | ACTIVE | Validator intelligence adapts as Chiliz Chain consensus mechanism evolves |
 | Ethics | ACTIVE | Validator data is on-chain public data — no privacy concerns |
 | Transparency | ACTIVE | Validator data source (chiliscan.com) and network health basis explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

@@ -88,6 +88,8 @@ STEP 3: Cross-reference yield compliance framework.
 | Adaptation | ACTIVE | Classification framework adapts as regulatory and technical environments evolve |
 | Ethics | ACTIVE | Misclassification that enables fraud or regulatory violations is an ethics failure |
 | Transparency | ACTIVE | Token type classification and regulatory basis always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

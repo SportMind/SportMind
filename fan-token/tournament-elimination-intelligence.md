@@ -266,6 +266,8 @@ RULE 4: Pre-match second-leg context
 | Adaptation | ACTIVE | Elimination intelligence adapts as tournament formats and FTP mechanics evolve |
 | Ethics | NOT APPLICABLE | Elimination analysis is sports analytical — no ethical dimension |
 | Transparency | ACTIVE | Elimination stage, decay modifier applied, and FTP event status explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

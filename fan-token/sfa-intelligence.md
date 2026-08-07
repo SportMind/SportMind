@@ -189,6 +189,10 @@ STAGE 4 — ENGLAND vs SCOTLAND FIXTURE:
 
 **Integration:** Integrates with macro/macro-regulatory-sportfi.md (UK FCA jurisdiction), fan-token/ecosystem-health-intelligence.md, fan-token/safa-intelligence.md (same-day announcement partner), and fan-token/emerging-sports-pipeline.md.
 
+**Execution:** Signal generation workflow, event playbooks, and structured output templates defined
+
+**Collaboration:** Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer
+
 ---
 
 ## Compatibility

@@ -784,6 +784,8 @@ as a strategic resource for sports clubs: Opportunities, challenges, and a stake
 | Adaptation | ACTIVE | Partnership intelligence adapts as Chiliz commercial model evolves |
 | Ethics | NOT APPLICABLE | Partnership intelligence is commercial analysis — no ethical dimension |
 | Transparency | ACTIVE | Partnership health assessment basis and source tier explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

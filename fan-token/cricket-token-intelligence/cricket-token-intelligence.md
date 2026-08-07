@@ -199,6 +199,8 @@ CRICKET TOKEN AGENT RULES:
 | Adaptation | ACTIVE | Cricket intelligence adapts as IPL franchise market and token ecosystem evolves |
 | Ethics | NOT APPLICABLE | Cricket token intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Cricket format context and dew factor modifier explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

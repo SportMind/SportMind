@@ -117,6 +117,8 @@ FTP PATH_2 SUPPLY EVENTS ARE CATEGORICALLY NOT YIELD:
 | Adaptation | ACTIVE | Yield compliance framework adapts as regulatory guidance evolves across jurisdictions |
 | Ethics | ACTIVE | Passive yield promises are simultaneously a fraud signal and regulatory violation risk — dual flag |
 | Transparency | ACTIVE | Yield structure type and all applicable jurisdiction flags explicit in every yield compliance output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

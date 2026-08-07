@@ -298,6 +298,8 @@ IF verdict = criminal conviction (Tier 4):
 | Adaptation | ACTIVE | Sentiment patterns adapt as fan base profiles and social media dynamics evolve |
 | Ethics | ACTIVE | Disciplinary sentiment analysis uses public signal data — no private information |
 | Transparency | ACTIVE | Disciplinary event source and sentiment modifier flagged as SOFT_SIGNAL in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

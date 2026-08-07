@@ -342,6 +342,8 @@ KEY OUTPUTS FROM THIS SKILL:
 | Adaptation | ACTIVE | Fan sentiment patterns adapt as social platforms and fan behaviour evolve |
 | Ethics | ACTIVE | Fan sentiment uses public data only — no private monitoring of individual fans |
 | Transparency | ACTIVE | Sentiment source and SOFT_SIGNAL flag always explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

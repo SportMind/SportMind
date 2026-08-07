@@ -90,6 +90,8 @@ STAKING DOES NOT AFFECT:
 | Adaptation | ACTIVE | Staking intelligence adapts as Socios mechanics and DeFi staking evolve |
 | Ethics | ACTIVE | Yield-bearing staking is flagged as regulatory risk per yield-compliance-framework.md |
 | Transparency | ACTIVE | Staking structure type (utility vs yield) and compliance status explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---
