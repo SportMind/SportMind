@@ -174,6 +174,10 @@ $SAFA DEMAND FLOOR (post-launch):
 
 **Integration:** $SAFA integrates with macro African market intelligence, AFCON tournament framework, CAF competition calendar, and the broader ecosystem expansion signal affecting all tokens with African fanbase presence simultaneously.
 
+**Execution:** Signal generation workflow, event playbooks, and structured output templates defined
+
+**Collaboration:** Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer
+
 ---
 
 ## Compatibility

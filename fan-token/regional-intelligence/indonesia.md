@@ -213,6 +213,8 @@ Relegation confirmed:                               −30 to −40%
 | Adaptation | ACTIVE | Indonesia intelligence adapts as Southeast Asian token market matures |
 | Ethics | NOT APPLICABLE | Indonesia regional intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Regional market context and Liga 1 source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

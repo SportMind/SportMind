@@ -167,6 +167,8 @@ No Japanese localisation:                        ×0.85 to Japan demand estimate
 | Adaptation | ACTIVE | Japan intelligence adapts as token market and regulatory environment evolve |
 | Ethics | NOT APPLICABLE | Japan regional intelligence is market analysis — no ethical dimension |
 | Transparency | ACTIVE | Japan market context and source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

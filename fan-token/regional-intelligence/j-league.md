@@ -202,6 +202,8 @@ HOW J-LEAGUE SIGNALS AFFECT EXISTING ACTIVE TOKENS:
 | Adaptation | ACTIVE | J.League intelligence adapts as Japanese token market matures |
 | Ethics | NOT APPLICABLE | J.League regional intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | Japanese market context and J.League source explicit in output |
+| Execution | ACTIVE | Signal generation workflow, event playbooks, and structured output templates defined |
+| Collaboration | ACTIVE | Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer |
 
 
 ---

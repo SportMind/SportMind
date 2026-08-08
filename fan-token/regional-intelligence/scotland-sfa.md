@@ -187,6 +187,10 @@ WORLD CUP 2026 CONTEXT:
 
 **Integration:** $SFA integrates with UK regulatory framework (SI 2026/102), UEFA Nations League calendar, World Cup 2026 pipeline, diaspora market intelligence, and the Celtic/Rangers club ecosystem simultaneously. All four interact when assessing $SFA demand signals.
 
+**Execution:** Signal generation workflow, event playbooks, and structured output templates defined
+
+**Collaboration:** Integrates with core reasoning frameworks, sport domain layer, athlete intelligence, and macro layer
+
 ---
 
 ## Compatibility
