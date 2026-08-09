@@ -20,6 +20,7 @@ to be understood in under ten minutes and deployed in under thirty.
 | [01-simple-signal.py](#01) | One signal, ten lines | Anyone evaluating SportMind | ⭐ |
 | [02-claude-conversation.py](#02) | SportMind + Claude via MCP | Claude/Anthropic API developers | ⭐⭐ |
 | [03-single-sport-agent.py](#03) | Football token monitor, one sport | Fan token application developers | ⭐⭐⭐ |
+| [03-ts-single-sport-agent.ts](#03ts) | TypeScript port of 03 · fetch only · Node.js 18+ | TypeScript developers | ⭐⭐⭐ |
 | [04-multi-sport-agent.py](#04) | Monitor multiple sports simultaneously | Portfolio intelligence developers | ⭐⭐⭐ |
 | [05-sportfi-kit-integration.py](#05) | SportMind + SportFi Kit together | Full-stack fan token developers | ⭐⭐⭐⭐ |
 | [06-autonomous-tournament-tracker.py](#06) | Full autonomous tournament agent | Production autonomous systems | ⭐⭐⭐⭐⭐ |
@@ -84,6 +85,11 @@ Requires: Anthropic API key.
 ## <a name="03"></a> Example 03 — Single sport agent
 
 **`03-single-sport-agent.py`** — A complete football token monitoring agent.
+
+**`03-ts-single-sport-agent.ts`** — TypeScript port of 03-single-sport-agent.py.
+TypeScript + fetch · Node.js 18+ · no framework required.
+Identical logic and safety guardrails to the Python original.
+Run with: `npx ts-node 03-ts-single-sport-agent.ts`
 Demonstrates: SportMindAgent base class, Level 2 autonomy, alert generation.
 Monitors: one token ($PSG), one sport (football), 4-hour cycle.
 
