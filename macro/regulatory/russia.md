@@ -1,7 +1,7 @@
 # Russia — Regulatory Framework for Fan Token Holder Analysis
 
 **Domain:** macro/regulatory/russia.md
-**Version:** v4.1.80
+**Version:** v4.4.4
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Russian-resident holder regulatory framework. Bill
 1194918-8 "On Digital Currency and Digital Rights" passed State
@@ -53,8 +53,9 @@ Bill 1194918-8 "On Digital Currency and Digital Rights":
   Financial Markets Committee revised text: July 8 2026
   Second and third readings (Duma): July 21 2026 — 340/340
   Federation Council: 14-day approval window (~August 4 2026)
-  Presidential signature: 14-day window (~August 18 2026)
-  Both steps considered formalities — near-unanimous backing.
+  Presidential signature: CONFIRMED — August 5 2026 (signed by Putin,
+    reported by TASS)
+  Federation Council and presidential signature both completed.
   Core provisions effective: September 1 2026
   Full enforcement (unlicensed platform ban + criminal
     liability): July 1 2027
@@ -78,7 +79,14 @@ CRYPTO PROPERTY STATUS:
   under Russian civil code — not currency.
   Holders receive judicial protection in courts, bankruptcy
   proceedings, and divorce settlements.
-  Applies even to assets never previously declared.
+  COURT PROTECTION CLAUSE: Law guarantees court protection for
+  crypto owners regardless of whether assets were declared prior
+  to enactment. Existing holders who never declared assets are
+  not penalised — they receive the same judicial protection as
+  newly acquired holdings.
+  Structural relevance: reduces legal risk for existing Russian
+  fan token holders. The threat of retroactive enforcement for
+  undeclared holdings is removed by statute.
   This is a structural legitimisation — not liberalisation.
 
 DOMESTIC PAYMENT BAN (MAINTAINED):
@@ -106,18 +114,28 @@ BANK OF RUSSIA LICENSING FRAMEWORK:
   platforms from September 1 2026.
   Full licensing enforcement: July 1 2027 (transition window
   for existing operators).
+  Exchange registration requirement: existing crypto exchanges
+  must register by July 1 2027.
+  Minimum own capital: 15,000,000 rubles.
+  Membership of a financial market self-regulatory organisation
+  (SRO) required as condition of registration.
 
 INVESTOR ACCESS RESTRICTIONS:
-  Non-qualified investors:
-    Annual purchase cap: R$300,000 (~$3,800)
+  Non-qualified retail investors:
+    Annual purchase cap: 300,000 rubles per year per licensed
+    intermediary (~$3,800 at prevailing rates)
+    Knowledge test REQUIRED before any purchase — applies to
+    both retail and qualified investors
     Single licensed intermediary only
-    Must pass risk awareness test before purchasing
   Qualified investors:
-    Higher ceiling: ~R$3,000,000
-    Broader platform access
+    No annual purchase limit
+    Broader platform access · knowledge test still required
+  Structural note: 300,000 ruble cap is a hard per-intermediary
+  ceiling, not a lifetime cap. A holder may use multiple licensed
+  intermediaries but each carries its own 300,000 ruble annual limit.
   Fan token holders: if fan tokens are eligible assets
   (UNRESOLVED — see below), non-qualified Russian investors
-  face structural demand suppression via the R$300,000 cap.
+  face structural demand suppression via the 300,000 ruble cap.
 
 ASSET ELIGIBILITY: UNRESOLVED — CRITICAL GAP
   Bill 1194918-8 does not name eligible crypto assets.
@@ -362,12 +380,9 @@ Bank of Russia asset eligibility list
 REMAINING OPEN QUESTIONS:
 
 Bill 1194918-8 — presidential signature confirmed?
-  Status: PENDING as of 2026-07-31
-  Action: Confirm signature when published. Federation Council
-    and presidential signature are formalities but verify before
-    treating law as fully enacted.
-  Expected: ~August 4 (Federation Council) ·
-    ~August 18 (presidential signature)
+  Status: CONFIRMED — August 5 2026 (signed by Putin, reported by TASS)
+  Federation Council and presidential signature completed.
+  Law is fully enacted. September 1 2026 provisions are live.
 
 Fan token CGT treatment under Russian property tax law
   Status: UNRESOLVED
@@ -412,11 +427,10 @@ SECONDARY SOURCES (cross-check only):
   TFTC — July 2026 (asset eligibility analysis)
 
 PRESIDENTIAL SIGNATURE STATUS:
-  As of 2026-07-31: Bill passed Duma July 21. Federation
-  Council approval and presidential signature pending.
-  Both treated as formalities given 340/340 Duma vote.
-  Verify signature when published before treating September 1
-  provisions as fully enacted.
+  Presidential signature CONFIRMED — August 5 2026 (signed by Putin,
+  reported by TASS). Federation Council approval also completed.
+  Law is fully enacted. September 1 2026 provisions will take
+  effect as scheduled. No further verification required.
 
 FAN TOKEN ELIGIBILITY: No source confirms fan tokens as
   eligible or excluded under Bank of Russia criteria.
@@ -437,7 +451,7 @@ LAST VERIFIED: 2026-07-31
 | Context (3) | ACTIVE | Bill 1194918-8 + payment ban + EU sanctions + asset eligibility gap as convergent structural context |
 | Memory (4) | ACTIVE | Legislative history 2020-2026 traceable; sanctions bypass motivation documented |
 | Judgment (5) | ACTIVE | Russia correctly classified as most isolated jurisdiction — qualitatively distinct from Turkey, Brazil, Italy |
-| Attention (6) | ACTIVE | Asset eligibility critical gap · presidential signature pending · September 1 deadline · Bank of Russia regulations |
+| Attention (6) | ACTIVE | Asset eligibility critical gap · law fully enacted (signature August 5) · September 1 deadline approaching · Bank of Russia regulations |
 | Communication (7) | ACTIVE | Agent rules numbered; bidirectional restriction explicit; no Russian club tokens flag clear |
 | Verification (8) | ACTIVE | Presidential signature pending — noted explicitly; fan token eligibility absence confirmed |
 | Learning (9) | ACTIVE | Direction of travel: legalisation driven by sanctions bypass — structural motivation encoded |
@@ -465,3 +479,7 @@ core/signal-classification-framework.md
 core/contradiction-resolution-framework.md
 
 © 2026 SportMind
+
+---
+
+*v4.4.4 — 2026-08-09*
