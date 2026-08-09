@@ -18,11 +18,19 @@ Historical price correlation  →    Expected ranges by result type
 ## The integration pattern
 
 ```
-tokenintel_signals_active(token)          ← FTI: base signal
-  → sportmind/sports/[sport]/sport-domain-[sport].md     ← SportMind: domain context
-  → sportmind/athlete/[sport]/athlete-intel-[sport].md    ← SportMind: athlete modifier
-  → athlete/meta/apply_athlete_modifier   ← SportMind: adjusted score
-  → tokenintel_analytics(sell_ratio_brackets) ← FTI: whale validation
+macro → CDI → form → H2H → venue → regulatory → compound → output
+
+tokenintel_signals_active(token)                              ← FTI: base signal
+  → macro/[regime].md                                         ← SportMind: macro regime (CAPITULATION/ANXIETY/BULL)
+  → market/club-intelligence/[club].md                       ← SportMind: CDI gate + competition modifier
+  → sports/[sport]/sport-domain-[sport].md                   ← SportMind: form + domain context
+  → core/h2h-framework.md                                     ← SportMind: H2H decay-weighted modifier
+  → core/venue-intelligence-framework.md                      ← SportMind: venue tier + capacity modifier
+  → macro/regulatory/[jurisdiction].md                        ← SportMind: regulatory friction modifier
+  → core/compound-signal-framework.md                         ← SportMind: compound signal synthesis
+  → athlete/[sport]/athlete-intel-[sport].md                  ← SportMind: athlete modifier
+  → athlete/meta/apply_athlete_modifier                       ← SportMind: adjusted score
+  → tokenintel_analytics(sell_ratio_brackets)                 ← FTI: whale validation
   → decision
 ```
 
@@ -95,6 +103,11 @@ of data the agent already has.
 | `tokenintel_match_results` | `core/core-result-impact-matrices.md` | Expected impact ranges to validate actual moves |
 | `tokenintel_historical_patterns` | Event playbooks | Strategy context for backtest interpretation |
 | `tokenintel_autopilot_start` | Athlete modifier pipeline | athlete_aware_matchday template (see below) |
+| — | `core/h2h-framework.md` | H2H context and rivalry modifiers |
+| — | `core/venue-intelligence-framework.md` | Venue modifier |
+| — | `core/compound-signal-framework.md` | Compound signal synthesis |
+| — | `market/club-intelligence/[club].md` | CDI layer: club gate, competition modifier, gate flags (GROWTH/TRANSITION) |
+| — | `macro/regulatory/[jurisdiction].md` | Regulatory modifier by jurisdiction |
 
 ---
 
@@ -155,3 +168,7 @@ When deploying an autonomous agent using FTI's autopilot with SportMind context:
 
 Full agent implementation: see `athlete/meta/athlete-intel-cross-sport-orchestrator.md` for the master modifier pipeline
 and the reference agent in the original fan-token-athlete-skills repository.
+
+---
+
+*v4.4.2 — 2026-08-08*
