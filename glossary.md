@@ -26,6 +26,29 @@ Organised alphabetically within sport categories, then cross-sport terms.
 
 ---
 
+---
+
+## Core signal framework
+
+Terms specific to the SportMind signal reasoning and compound output layers.
+
+| Term | Definition | Used in |
+|---|---|---|
+| **PATH_2 (Fan Token Play)** | Market settlement mechanic for $AFC only. A WIN triggers a treasury burn and a price settlement event. LOSS = mint to treasury (supply increase). The only confirmed PATH_2 token in the SportMind library. | `fan-token/fan-token-play/` |
+| **PTG (Path To Glory)** | Official Chiliz win-only treasury burn mechanic for national fan tokens in tournaments. Stage scale: Group 1% · R32 2% · R16 2.5% · QF 5% · SF 7.5% · Final 10%. Maximum compound: ~25.18% (8 wins). Burns are permanent. | `fan-token/burn-to-glory-framework.md` |
+| **CDI (Club Demand Intelligence)** | Club-level intelligence file covering gate classification, competition modifier, and structural demand factors. 15 Tier A CDI files in library. NOT the same as Commercial Duration Index (also CDI). | `market/club-intelligence/` |
+| **CHZ regime** | Current macro state of the Chiliz token market. Two states: CAPITULATION (CHZ below $0.033, ×0.70 modifier applied to all signal confidence) and RECOVERY. Applied before any fan token signal output. | `macro/chz-market-cycles/` |
+| **CAPITULATION modifier** | ×0.70 confidence reduction applied to all fan token signals when CHZ is in CAPITULATION regime (below $0.033). Does not upgrade under Champion Call or home advantage. | `macro/chz-market-cycles/` |
+| **SMS (Signal Momentum Score)** | Composite pre-match score (0–100). Below 80 = HOLD gate active — agent must not enter regardless of direction. Above 80 = ENTER eligible. | `core/compound-signal-framework.md` |
+| **HOLD gate** | Mandatory output when SMS < 80 or when contradicting signals cannot be resolved. Agent outputs HOLD and reasoning chain. Never overridden by direction confidence alone. | `core/compound-signal-framework.md` |
+| **Signal types (Type 1–6)** | Six-tier signal classification system. Type 1: Supply Event (highest, permanent). Type 2: Demand (time-bounded). Type 3: Structural (Two-Test Gate applies). Type 4: Regulatory (TFM4 applies). Type 5: Operational (immediate decay). Type 6: Calibration (only type that updates modifiers). | `core/signal-classification-framework.md` |
+| **Two-Test Gate** | Mandatory library build gate. Proper Noun Test: remove all proper nouns — structural value remains? Six-Month Test: still true and useful in 6 months? Both must PASS before any library addition. | `core/signal-classification-framework.md` |
+| **Mind Dimensions** | 16 dimensions mapped across every SportMind library file: Intelligence · Reasoning · Context · Memory · Judgment · Attention · Communication · Verification · Learning · Integration · Calibration · Adaptation · Ethics · Transparency · Execution · Collaboration. | `core/mind-dimensions-framework.md` |
+| **TFM1–TFM6 (Temporal Failure Modes)** | Six documented agent failure modes related to timing: TFM1 Pre-event window, TFM2 Post-event staleness, TFM3 Calendar blindness, TFM4 Regulatory deadline blindness, TFM5 Stale signal retention, TFM6 Calibration timing violation. | `core/temporal-reasoning-framework.md` |
+| **FM1–FM8 (Agent Failure Modes)** | Eight documented fan token agent failure modes: FM1 Price-Signal Conflation, FM2 Lifecycle Phase Blindness, FM3 Partnership Status Blindness, FM4 Sentiment Source Contamination, FM5 Supply Event Misclassification, FM6 Governance Signal Overweighting, FM7 Cross-Token Signal Bleed, FM8 DeFi Infrastructure Conflation. | `fan-token/agent-failure-modes-fan-token.md` |
+| **Compound signal framework** | Final synthesis layer combining macro, CDI, form, contextual, and regulatory signals. Layer dominance hierarchy (Tier 1–5). Occasion weight applied last. PATH_2 reported separately from demand signal. | `core/compound-signal-framework.md` |
+| **H2H framework** | Head-to-Head reasoning framework with decay model (1.0 current season → 0.10 floor at 6+ seasons). Five-condition relevance gate — all must pass. Familiarity discount ×0.5 for known fixtures. | `core/h2h-framework.md` |
+
 ## Football / Soccer
 
 | Term | Definition |
@@ -303,48 +326,18 @@ Organised alphabetically within sport categories, then cross-sport terms.
 | NBATIS | NBA Token Impact Score | basketball-token-intelligence | Composite NBA signal: game importance, star player status, playoff position, market sentiment |
 | CricTIS | Cricket Token Impact Score | cricket-token-intelligence | Composite cricket signal: format weight, match importance, India factor, token ecosystem status |
 | GSAx | Goals Saved Above Expected | (NHL domain) | Goaltender performance vs expectation |
+| SMS | Signal Momentum Score | compound-signal-framework | Pre-match composite 0–100; below 80 = HOLD gate |
+| CAPITULATION | CHZ regime modifier | chz-market-cycles | ×0.70 confidence reduction when CHZ below $0.033 |
 
 ---
 
 ---
 
-## DeFi terms (as applied to sports assets)
-
-| Term | Definition |
-|---|---|
-| **AMM** | Automated Market Maker — DEX pricing algorithm using pool reserve ratios (x × y = k) |
-| **TVL** | Total Value Locked — dollar value of assets in a liquidity pool; SportMind liquidity threshold: $500k (warning), $100k (critical) |
-| **LP** | Liquidity Provider — wallet depositing assets into a pool to earn trading fees |
-| **LP token** | Receipt token representing a share of a liquidity pool position |
-| **Impermanent loss** | Value loss for LP providers when token price diverges significantly from entry price |
-| **Slippage** | Price impact of a trade; estimated as (trade size) / (TVL/2) × 100% |
-| **DEX** | Decentralised Exchange — exchange running via smart contracts (Uniswap, Chiliz DEX) |
-| **CEX** | Centralised Exchange — exchange with central operator (Binance, Bybit) |
-| **Sandwich attack** | MEV strategy where attacker front-runs and back-runs a detected pending DEX trade |
-| **MEV** | Maximal Extractable Value — profit extracted by reordering blockchain transactions |
-| **Prediction market** | Protocol where participants bet on outcomes settled by on-chain oracles |
-| **Oracle** | Service bringing real-world data (match results, prices) on-chain for smart contracts |
-| **Azuro** | Sports prediction market infrastructure protocol; Chiliz-adjacent; enables sports dApps |
-| **Polymarket** | General prediction market platform with significant sports coverage |
-| **DeFi yield** | Passive income earned from DeFi activities: LP fees, staking rewards, prediction market provision |
-| **APR/APY** | Annual Percentage Rate / Annual Percentage Yield — annualised yield from DeFi positions |
-| **CEX/DEX divergence** | When a token's price differs significantly across exchanges; signals lifecycle phase transition |
-| **liquidity_warning** | SportMind flag: pool TVL < $500k; apply max 40% position size |
-| **liquidity_critical** | SportMind flag: pool TVL < $100k or slippage > 3%; apply max 20% or ABSTAIN |
-
-*See `fan-token/defi-liquidity-intelligence/` for full DeFi framework.*
-
-
-*This glossary covers terms used across the SportMind library as of v2.2.0.
-For sport-specific detail, see the relevant sport domain skill.*
-
-
----
-
-## Web3 and DeFi sports terminology
+## DeFi and Web3 terms
 
 Terms used in the fan token, on-chain, and Web3 sports intelligence layers.
 Agents loading `fan-token/` skills should reference this section.
+Additional DeFi entries: AMM · TVL · LP · LP token · Impermanent loss · Slippage · DEX · CEX · Sandwich attack · MEV · Prediction market · Oracle · Azuro · Polymarket · DeFi yield · APR/APY · CEX/DEX divergence · liquidity_warning · liquidity_critical — see `fan-token/defi-liquidity-intelligence/` for full framework.
 
 | Term | Definition | Used in |
 |---|---|---|
@@ -352,7 +345,7 @@ Agents loading `fan-token/` skills should reference this section.
 | **APS (Athlete Portability Score)** | Measures how much of an athlete's commercial value transfers to a new club. 0.00-1.00 scale. APS 0.85 = 85% of commercial value is club-independent. | `fan-token/transfer-signal/` |
 | **ATM (Athlete Token Multiplier)** | How much a specific athlete's performance amplifies or depresses their club's fan token commercial signals. ATM 0.90 = elite commercial driver. | `fan-token/transfer-signal/` |
 | **BVS (Broadcast Value Signal)** | Measures a competition's commercial value to broadcasters. Composite of audience reach, engagement depth, rights scarcity, and commercial premium. | `market/broadcaster-media-intelligence.md` |
-| **CDI (Commercial Duration Index)** | Days of commercially valuable fan engagement an outcome generates above baseline. CDI 45 = 45 days of elevated engagement. | `fan-token/fan-sentiment-intelligence/` |
+| **CDI (Commercial Duration Index)** | Days of commercially valuable fan engagement an outcome generates above baseline. CDI 45 = 45 days of elevated engagement. NOTE: CDI also refers to Club Demand Intelligence (club-level gate files in market/club-intelligence/) — these are different uses of the same acronym. | `fan-token/fan-sentiment-intelligence/` |
 | **CHI (Club Health Index)** | Composite index measuring a club's institutional health: financial stability, academy pipeline, community engagement, ownership quality, infrastructure. | `market/club-operations-intelligence.md` |
 | **CHZ (Chiliz)** | The native token of the Chiliz blockchain. Fan tokens are priced and traded in CHZ (and sometimes USDC) on the Socios platform and KAYEN exchange. | `macro/macro-crypto-market-cycles.md` |
 | **Conviction voting** | Governance mechanism where votes accumulate weight over time. Holding your vote longer = stronger vote. Rewards long-term holders; reduces governance mercenaries. | `fan-token/sports-governance-intelligence/` |
@@ -385,5 +378,7 @@ Agents loading `fan-token/` skills should reference this section.
 | **Wash trading** | Artificial trading activity where the same entity buys and sells to itself to inflate volume metrics. Cross-reference on-chain volume with exchange volume to detect. | `fan-token/on-chain-event-intelligence/` |
 | **Whale** | Wallet holding ≥ 0.5% of circulating token supply. Whale movements are Category 1 on-chain signals. Whale accumulation before a match = smart money signal. | `fan-token/on-chain-event-intelligence/` |
 
+
+*This glossary covers terms used across the SportMind library as of v4.4.4. For sport-specific detail, see the relevant sport domain skill.*
 
 *MIT License · SportMind · sportmind.dev*
