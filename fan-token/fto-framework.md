@@ -6,7 +6,7 @@ description: >
   First documented two-wave FTO: $BELG (Royal Belgian Football Association, June 2026).
   Covers standard FTO, two-wave FTO format, supply scarcity signals, Locker Room
   loyalty bonus mechanics, and agent reasoning guidance for FTO period signals.
-  All 14 Mind dimensions mapped.
+  All 16 Mind dimensions mapped.
 ---
 
 # Fan Token Offering (FTO) Framework
@@ -256,7 +256,7 @@ POST-FTO DAY 30+:
 
 ---
 
-*SportMind v3.97.99 · MIT License · sportmind.dev*
+*SportMind v4.4.6 · MIT License · sportmind.dev*
 *First two-wave FTO documented: $BELG (Royal Belgian FA, 2026-06-03)*
 *Source: chiliz.com official — verified ✓*
-*All 14 Mind dimensions mapped.*
+*All 16 Mind dimensions mapped.*

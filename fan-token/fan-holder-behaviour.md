@@ -447,6 +447,6 @@ AGENT RULE:
 
 ---
 
-*SportMind v4.0.0 · MIT License · sportmind.dev*
+*SportMind v4.4.6 · MIT License · sportmind.dev*
 *Holder behaviour is event-driven, emotionally linked, and predictable.*
-*All 14 Mind dimensions mapped.*
+*All 16 Mind dimensions mapped.*

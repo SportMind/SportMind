@@ -96,4 +96,4 @@ STAKING DOES NOT AFFECT:
 
 ---
 
-*SportMind v3.97.52 · MIT License · sportmind.dev*
+*SportMind v4.4.6 · MIT License · sportmind.dev*
