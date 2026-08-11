@@ -1,5 +1,613 @@
 # Changelog
 
+## [4.4.6] — 2026-08-09
+
+### Fixed
+- fan-token/fan-holder-behaviour.md (UPDATED 452L): Footer version v4.0.0 → v4.4.6.
+  "All 14 Mind dimensions mapped." → "All 16 Mind dimensions mapped."
+  MIND DIMENSIONS table was already correct at 16 — footer text was stale.
+- fan-token/staking-intelligence.md (UPDATED 99L): Footer version v3.97.52 → v4.4.6.
+- fan-token/fto-framework.md (UPDATED 262L): Footer version v3.97.99 → v4.4.6.
+  "All 14 Mind dimensions mapped." → "All 16 Mind dimensions mapped." in footer
+  and YAML frontmatter description block.
+  MIND DIMENSIONS table was already correct at 16 — footer text was stale.
+
+---
+
+## [4.4.5] — 2026-08-09
+
+### Changed
+- glossary.md (UPDATED 389L → 384L): Five changes.
+  (1) Version footer: v2.2.0 → v4.4.4.
+  (2) New "Core signal framework" section added (14 rows): PATH_2 · PTG ·
+  CDI (Club Demand Intelligence) · CHZ regime · CAPITULATION modifier · SMS ·
+  HOLD gate · Signal types (Type 1–6) · Two-Test Gate · Mind Dimensions ·
+  TFM1–TFM6 · FM1–FM8 · Compound signal framework · H2H framework.
+  Inserted between Cross-sport terms table and Football/Soccer section.
+  (3) Metrics table: SMS and CAPITULATION rows added. NBATIS and CricTIS
+  already present — not duplicated.
+  (4) Duplicate DeFi sections merged: "## DeFi terms (as applied to sports
+  assets)" and "## Web3 and DeFi sports terminology" merged into single
+  "## DeFi and Web3 terms" section. No content removed.
+  (5) CDI disambiguation: "CDI (Commercial Duration Index)" entry updated
+  with note that CDI also refers to Club Demand Intelligence — different
+  uses of the same acronym. Both entries now cross-reference each other.
+
+---
+
+## [4.4.4] — 2026-08-09
+
+### Changed
+- macro/regulatory/russia.md (UPDATED 467L → 485L): Four changes reflecting
+  enacted legislation. Presidential signature CONFIRMED — August 5 2026 (signed
+  by Putin, reported by TASS) — forward-looking signature language removed across
+  three locations. Retail investor access cap expanded: 300,000 rubles per year
+  per licensed intermediary; knowledge test required for ALL investors (retail
+  AND qualified); qualified investors: no annual purchase limit. Exchange
+  registration requirement added: existing exchanges must register by July 1 2027;
+  minimum own capital 15,000,000 rubles; financial market SRO membership required.
+  Court protection clause added: law guarantees court protection for crypto owners
+  regardless of whether assets were declared prior to enactment — retroactive
+  enforcement threat removed by statute. Fan token asset eligibility unchanged:
+  UNRESOLVED. Payment ban and bidirectional access restriction unchanged: active.
+  All 16 Mind Dimensions retained. Version v4.1.80 → v4.4.4.
+
+---
+
+## [4.4.3] — 2026-08-08
+
+### Added
+- examples/starter-pack/03-ts-single-sport-agent.ts (NEW 490L): TypeScript port
+  of 03-single-sport-agent.py. TypeScript + fetch (Node.js 18+ built-in).
+  No framework required. Class-based PSGTokenAgent structure with typed interfaces
+  (UpcomingEvent, Signal, SignalFlags, SkillFile). aiohttp → native fetch.
+  asyncio.sleep → recursive setTimeout monitoring loop. All logic, structure,
+  comments, and safety guardrails preserved from Python original. Level 2 autonomy:
+  acts autonomously when SMS >= MIN_SMS, escalates otherwise with full reasoning
+  trail. Safety Principle 3 (blocking flags), 4 (escalation completeness), 6
+  (graceful degradation) all implemented. agent_note financial advice disclaimer
+  preserved. "What to change for a different token" comment block preserved.
+  Proper Noun Test PASSES. Six-Month Test PASSES. Label: typescript · starter-pack.
+
+### Changed
+- examples/starter-pack/README.md (UPDATED): 03-ts-single-sport-agent.ts added
+  to file listing table. Description block added: TypeScript + fetch · Node.js 18+
+  · no framework required · run with npx ts-node.
+
+---
+
+## [4.4.2] — 2026-08-08
+
+### Changed
+- examples/fan-token-intel/integration-fan-token-intel.md (UPDATED 157L → 174L):
+  Three changes. (1) Integration pattern block replaced: old 5-step sequence
+  replaced with correct 8-layer loading order: macro → CDI → form → H2H → venue
+  → regulatory → compound → output. All layers now mapped to SportMind file paths.
+  (2) Mapping table expanded with five new rows: core/h2h-framework.md ·
+  core/venue-intelligence-framework.md · core/compound-signal-framework.md ·
+  market/club-intelligence/[club].md · macro/regulatory/[jurisdiction].md.
+  All seven existing rows retained. (3) Version footer added: v4.4.2 — 2026-08-08.
+  MIND DIMENSIONS table untouched.
+
+---
+
+## [4.4.1] — 2026-08-08
+
+### Fixed
+- fan-token/mma-token-intelligence/token-intelligence-mma.md (UPDATED 378L):
+  Execution and Collaboration dimensions added after Transparency row.
+  Signal generation workflow Execution note. Completes Execution+Collaboration
+  pass across entire fan-token/ directory. All fan-token/ files now have
+  16 Mind Dimensions mapped.
+
+---
+
+## [4.4.0] — 2026-08-08
+
+### Fixed
+- Execution+Collaboration pass: fan-token/ directory — batches A through D.
+  Batch A (15 root-level files): burn-to-glory-framework · ecosystem-health-
+  intelligence · emerging-sports-pipeline · fan-holder-behaviour ·
+  fan-holder-profile-intelligence · fan-token-exchange-intelligence ·
+  fan-token-layer-overview · fan-token-revenue-intelligence (prose format) ·
+  fraud-risk-intelligence · fto-framework (prose format) · governance-intelligence ·
+  governance-takeover-framework · national-team-tokens ·
+  official-verification-framework · portfolio-intelligence.
+  Batch B (15 files): safa-intelligence (prose) · sfa-intelligence (prose) ·
+  staking-intelligence · token-classification-framework ·
+  tournament-elimination-intelligence · use-cases (skipped — no MIND DIMENSIONS) ·
+  yield-compliance-framework · afl-token-intelligence · baseball-token-intelligence ·
+  basketball-token-intelligence · blockchain-validator-intelligence ·
+  cricket-token-intelligence · disciplinary-sentiment-intelligence ·
+  fan-sentiment-intelligence · fan-token-partnership-intelligence.
+  Batch C (6 of 12 files updated, 6 references/ files skipped — no MIND DIMENSIONS):
+  fan-token-athlete-social-activity · fan-token-athlete-social-lift ·
+  fan-token-athlete-brand-score · token-intelligence-esports ·
+  fan-token-pulse-on-chain-data · token-intelligence-formula1.
+  Batch D (7 updated, 1 already had rows): ice-hockey-token-intelligence ·
+  kabaddi-token-intelligence · nfl-token-intelligence ·
+  agent-failure-modes-fan-token · arsenal · fan-token-why · supply-intelligence.
+  Batch E: transfer-signal · performance-off-pitch · performance-on-pitch ·
+  sponsorship-match · sports-brand-sponsorship · transfer-intelligence ·
+  transfer-window-intelligence · kol-influence-intelligence ·
+  rwa-sportfi-intelligence · motogp-token-intelligence · nascar-token-intelligence ·
+  netball-token-intelligence · handball-token-intelligence ·
+  rugby-league-token-intelligence · rugby-token-intelligence.
+  Batch F (final): token-intelligence-esports · regional-intelligence/indonesia ·
+  regional-intelligence/j-league · regional-intelligence/japan ·
+  regional-intelligence/scotland-sfa · regional-intelligence/south-africa-safa.
+  All fan-token/ files now have 16 Mind Dimensions mapped.
+
+---
+
+## [4.3.4] — 2026-08-07
+
+### Fixed
+- fan-token/safa-intelligence.md (UPDATED): Token status PARTNERSHIP_ANNOUNCED →
+  ACTIVE. Launched 2026-05-21. Supply: 20,000,000. Launch price: $0.50. Contract
+  (Chiliz Chain): 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE. WC2026 Burn to Glory
+  burns confirmed. Pipeline modifiers superseded — active demand modelling applies.
+  ## Pipeline to active token framework → ## Active token framework. All stale
+  PARTNERSHIP_ANNOUNCED language removed throughout file.
+- fan-token/sfa-intelligence.md (UPDATED): Token status PARTNERSHIP_ANNOUNCED →
+  ACTIVE. Launched 2026-05-21. Contract (Chiliz Chain):
+  0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 (confirmed correct $SFA address —
+  $BELG address correction documented separately in complete-registry.md). WC2026
+  Burn to Glory burns confirmed. Pipeline modifiers superseded.
+
+---
+
+## [4.3.3] — 2026-08-07
+
+### Fixed
+- fan-token/safa-intelligence.md (UPDATED): Execution and Collaboration added
+  (prose format, after Integration dimension).
+- fan-token/sfa-intelligence.md (UPDATED): Execution and Collaboration added
+  (prose format, after Integration dimension).
+- fan-token/staking-intelligence.md (UPDATED): Execution and Collaboration added.
+- fan-token/token-classification-framework.md (UPDATED): Execution and
+  Collaboration added.
+- fan-token/tournament-elimination-intelligence.md (UPDATED): Execution and
+  Collaboration added.
+- fan-token/yield-compliance-framework.md (UPDATED): Execution and Collaboration
+  added.
+- fan-token/afl-token-intelligence/afl-token-intelligence.md (UPDATED).
+- fan-token/baseball-token-intelligence/baseball-token-intelligence.md (UPDATED).
+- fan-token/basketball-token-intelligence/basketball-token-intelligence.md (UPDATED).
+- fan-token/blockchain-validator-intelligence/blockchain-validator-intelligence.md (UPDATED).
+- fan-token/cricket-token-intelligence/cricket-token-intelligence.md (UPDATED).
+- fan-token/disciplinary-sentiment-intelligence/disciplinary-sentiment-intelligence.md (UPDATED).
+- fan-token/fan-sentiment-intelligence/fan-sentiment-intelligence.md (UPDATED).
+- fan-token/fan-token-partnership-intelligence/fan-token-partnership-intelligence.md (UPDATED).
+  Note: fan-token/use-cases.md skipped — no MIND DIMENSIONS section.
+
+---
+
+## [4.3.2] — 2026-08-07
+
+### Fixed
+- Execution+Collaboration pass: fan-token/ root-level files — batch A (15 files).
+  burn-to-glory-framework · ecosystem-health-intelligence · emerging-sports-pipeline ·
+  fan-holder-behaviour · fan-holder-profile-intelligence · fan-token-exchange-intelligence ·
+  fan-token-layer-overview · fan-token-revenue-intelligence · fraud-risk-intelligence ·
+  fto-framework · governance-intelligence · governance-takeover-framework ·
+  national-team-tokens · official-verification-framework · portfolio-intelligence.
+  Signal generation workflow Execution note. fan-token-revenue-intelligence.md and
+  fto-framework.md use prose-format MIND DIMENSIONS — appended after last dimension.
+
+---
+
+## [4.3.1] — 2026-08-07
+
+### Fixed
+- Execution+Collaboration pass: athlete/ directory — batch B + framework file (15 files).
+  mma · motogp · nascar · nba · netball · nfl · nhl · rowing · rugby · rugby-league ·
+  snooker · swimming · tennis · winter-sports · athlete-intelligence-framework.md.
+  athlete/meta/ and athlete/national-teams/ not found in repo — skipped.
+  Collaboration note: "Integrates with core frameworks, sport domain layer, fan
+  token registry, and macro intelligence".
+
+---
+
+## [4.3.0] — 2026-08-07
+
+### Fixed
+- Execution+Collaboration pass: athlete/ directory — batch A (14 files).
+  afl · athletics · baseball · boxing · cricket · cycling · darts · esports ·
+  football · formula1 · golf · handball · horse-racing · kabaddi.
+  Six-step pre-match workflow Execution note. Collaboration note uses "sport
+  domain layer" (athlete files integrate upward into sport domain, not laterally).
+
+---
+
+## [4.2.2] — 2026-08-06
+
+### Fixed
+- Execution+Collaboration pass: sports/ directory — final batch (10 files).
+  horse-racing · judo · kabaddi · motogp · nascar · netball · rowing · rugby-league ·
+  sailing · snooker. Completes Execution+Collaboration pass across entire sports/
+  directory. Version bumped to v4.2.0 milestone.
+
+---
+
+## [4.2.1] — 2026-08-06
+
+### Fixed
+- Execution+Collaboration pass: sports/ — squash · swimming · swimming-open-water ·
+  taekwondo · triathlon · weightlifting · winter-sports (7 files).
+
+---
+
+## [4.2.0] — 2026-08-06
+
+### Fixed
+- Execution+Collaboration pass: sports/ — afl · baseball · cycling · darts ·
+  esports (autonomous execution note) · fencing · field-hockey · gymnastics ·
+  handball (9 files). sports/esports/sport-domain-esports.md has ## Autonomous
+  Execution section — autonomous execution note applied.
+
+---
+
+## [4.1.99] — 2026-08-06
+
+### Fixed
+- Execution+Collaboration pass: 11 root-level sports/ files. american-football-nfl ·
+  combat-sports-specific · cricket-ipl · esports-cs2 · esports-dota2 ·
+  esports-framework · esports-moba-tactical · esports-valorant-vit ·
+  motorsport-specific · rugby-union-specific · womens-football.
+  All 11 use six-step workflow note — no Autonomous Execution sections found.
+
+---
+
+## [4.1.98] — 2026-08-05
+
+### Fixed
+- Execution+Collaboration pass: sports/ subfolder files — ice-hockey · tennis ·
+  golf · boxing · athletics (5 files). sports/american-football-nfl/
+  sport-domain-american-football-nfl.md: path not found in repo (404) — skipped.
+
+---
+
+## [4.1.97] — 2026-08-05
+
+### Fixed
+- Execution+Collaboration pass: sports/ — cricket (autonomous execution note) ·
+  football · formula1 (autonomous execution note) · rugby · mma · basketball
+  (autonomous execution note). 6 files. mma-intelligence-framework.md already
+  had rows 15 and 16 in numbered format — plain-label rows added after row 14
+  per build chat specification.
+
+---
+
+## [4.1.96] — 2026-08-05
+
+### Fixed
+- Execution+Collaboration pass: sports/ subfolder files — volleyball · table-tennis ·
+  badminton (3 files, v4.1.93). All use six-step workflow note.
+
+---
+
+## [4.1.95] — 2026-08-05
+
+### Fixed
+- sports/mma/mma-intelligence-framework.md (UPDATED 377L): Execution and
+  Collaboration plain-label rows added after row 14 (Transparency) in MIND
+  DIMENSIONS table. Autonomous execution note applied — MMA file has
+  ## Autonomous Execution section. Existing numbered rows 15 and 16 retained.
+
+---
+
+## [4.1.94] — 2026-08-05
+
+### Fixed
+- GOOD_FIRST_ISSUES.md (UPDATED): Three changes. Section 2A stub sports marked
+  COMPLETE — all 14 sports already at 150+ lines; table of 14 sports removed;
+  template and definition of done retained. Section 1B file count 582 → 800+;
+  record count updated with tier breakdown (130 · 13 pre-match verified · 117 seed).
+  Leaderboard reference updated to v4.1.92.
+- GOOD_FIRST_ISSUES.md (UPDATED): i18n coverage updated: AR, DE, ES, FR, HI, JA,
+  PT → AR, DE, ES, FR, HI, JA, PT, TR, IT. Italian (IT) and Turkish (TR) removed
+  from highest-value gaps. Korean (KR) and Mandarin (ZH) retained.
+
+---
+
+## [4.1.93] — 2026-08-05
+
+### Fixed
+- fan-token/registry/complete-registry.md (UPDATED 252L): Six changes.
+  $SAFA contract address confirmed: 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE.
+  $SFA contract address confirmed: 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657.
+  $BELG contract address corrected from $SFA address (in error) to
+  0x6c4C9DFE8C940b51B68d00C6D76dE756B252f328 — correction note added.
+  $SPAIN contract address confirmed: 0x7A224b67aAA360e48402AAb4Ff12D89eEF9b4cF8.
+  $SPAIN WC2026 burn record updated: WC2026 CHAMPION — Spain beat Argentina 1-0 AET
+  (July 19 2026). 8 confirmed burns total. Final burn: 1,990,000+ tokens (largest
+  single burn in tournament). Compound treasury burn: ~25.18% of supply. WC2026
+  burn leaderboard: FIRST. Last verified: July 2026 → August 2026. Footer:
+  v3.97.63 → v4.1.92. All addresses verified: docs.chiliz.com 2026-08-04 ✓
+
+---
+
+## [4.1.92] — 2026-08-05
+
+### Fixed
+- docs/index.html (UPDATED 3,457L): Markdown skill files 537 → 580+. Calibration
+  records: 126 → 130 calibration records · 13 pre-match verified · 117 seed
+  (community/ table and empirical section).
+- first-record/index.html (UPDATED 745L): Record count: 121 of 126 records correct
+  → 130 records across 21 sports · 13 pre-match verified · 117 seed records (96%+
+  direction accuracy).
+- suite/index.html (UPDATED 1,197L): File count in Telegram kit description 743 →
+  800+. Footer version v4.1.4 → v4.1.91.
+
+---
+
+## [4.1.91] — 2026-08-05
+
+### Fixed
+- index.html (UPDATED 1,913L): 16 changes. Stat bar updated to four stats: 800+
+  Library Files · 42 Sports Covered · 85 Fan Tokens Tracked · 13 Verified Records.
+  Stat bar CSS repeat(3,1fr) → repeat(4,1fr) desktop and tablet. WC2026 fraud
+  warning past tense · 7 national tokens listed. Layer 3: 90 → 100+ files.
+  Layer 4: 51 → 58+ documents · 15 Tier A CDI files. Layer 5: 20 → 28+ documents ·
+  Italy/Brazil/Turkey/Russia/SA listed. Layer 6: Telegram retired · platform/ ·
+  MCP Server Kit. Signal output v4.1.24 → v4.1.89. Calibration: 130 · 13
+  pre-match verified · 117 seed. Leaderboard: 137 records → 800+ files · 9/9
+  WC2026. Mind Dimensions: fourteen → sixteen. Telegram Bot Kit → MCP Server Kit.
+  Footer v4.1.24 → v4.1.89.
+
+---
+
+## [4.1.90] — 2026-08-05
+
+### Fixed
+- community/leaderboard.md (UPDATED): Version reference v3.28 → v4.1.85. Record
+  count 126 → 130 (13 pre-match verified · 117 seed). Leaderboard row updated.
+- community/calibration-data/CONTRIBUTING.md (UPDATED): Record count 126 → 130.
+  Pre-match verified tier documented (13 records).
+- GOOD_FIRST_ISSUES.md (UPDATED): Record count 126 → 130 throughout. Stale
+  references section updated.
+
+---
+
+## [4.1.89] — 2026-08-02
+
+### Added
+- market/club-intelligence/bfc.md (NEW 391L): Bologna FC ($BFC) Club Demand
+  Intelligence. CDI Gate: TRANSITION. Horizon: SHORT (post 2026-27 season).
+  FTP PATH_2: NO. TRANSITION rationale: manager succession (Italiano → Tedesco,
+  June 2 2026 — no prior Serie A experience); competition step-down UCL 2024-25
+  → Europa League 2026-27 (8th place Serie A); stadium constraint (~28,000 avg
+  attendance / ~38,279 capacity). Positive legacy: 2025 Coppa Italia (first major
+  trophy since 1974 · beat AC Milan 1-0) and 2024-25 UCL (first since 1964-65 ·
+  60-year absence). Upgrade trigger: EL last 16+ AND top-6 Serie A same season.
+  No confirmed dual-token derby fixtures. EL dual-token monitoring: $ACM and $JUV
+  confirmed in EL 2026-27. Italian regulatory: 33% CGT · DAC8 · PTG UNRESOLVED.
+  Partnership retention risk: MODERATE. 16 agent rules. 16 Mind Dimensions.
+
+---
+
+## [4.1.88] — 2026-08-02
+
+### Added
+- market/club-intelligence/asr.md (NEW 377L): AS Roma ($ASR) Club Demand
+  Intelligence. CDI Gate: GROWTH. Horizon: MEDIUM (full 2026-27 season).
+  FTP PATH_2: NO. GROWTH rationale: UCL return after 7-year absence (3rd place
+  Serie A 2025-26 · not cup route); Gasperini appointment from peak success
+  (two consecutive Europa League titles at Atalanta — system well-documented,
+  squad fit is primary uncertainty not system uncertainty); 2026-27 is AS Roma's
+  100th season (CENTENARY NARRATIVE modifier active throughout 2026-27).
+  Upgrade: UCL R16+ AND top-4 Serie A same season.
+  Derby della Capitale ($ASR vs Lazio): ×1.70 · SINGLE-TOKEN ($ASR only —
+  Lazio no Chiliz token as of 2026-08-02). Stadio Olimpico: HOME for Roma
+  league/European fixtures — shared stadium ×0.5 does NOT apply (Roma and Lazio
+  play different dates). Italian regulatory: 33% CGT · DAC8 · PTG UNRESOLVED.
+  16 agent rules. 16 Mind Dimensions.
+
+---
+
+## [4.1.87] — 2026-08-02
+
+### Added
+- i18n/it/sports/football/sport-domain-football.md (NEW 284L): Italian football
+  domain skill file. New folder: i18n/it/sports/football/. Italian confirmed
+  missing from i18n coverage. All field names, metrics, and code remain in English.
+  7 confirmed Chiliz fan tokens: $ACM · $INTER · $ITA · $JUV · $NAP · $ASR · $BFC.
+  Italian regulatory: 33% CGT (Law 199/2025) · no threshold · LIFO · DAC8 active ·
+  PTG burn UNRESOLVED · highest-friction holder jurisdiction in library. Derby
+  context: Madonnina ×1.80 dual-token · familiarity ×0.5 · San Siro shared ×0.5 ·
+  load h2h + venue frameworks. Capitale ($ASR single-token). d'Italia ×1.65
+  dual-token. $ITA: Italy NOT qualified WC2026 · zero PTG burns · EURO 2028
+  active (HP-10) · PTG eligibility UNRESOLVED. 10 agent reasoning prompts.
+
+---
+
+## [4.1.86] — 2026-08-02
+
+### Added
+- i18n/tr/sports/football/sport-domain-football.md (NEW 221L): Turkish football
+  domain skill file. New folder: i18n/tr/sports/football/. Turkish confirmed
+  missing from i18n coverage. All field names, metrics, and code remain in English.
+  6 active Chiliz fan tokens: $GAL · $TRA · $IBFK · $GOZ · $ALA · $GFK. $GAL:
+  CONSOLIDATION · UCL 2026-27 confirmed · ~1.5M Socios members. TCMB payment ban
+  (April 2021): Turkish holders investment/speculation only. SPK licensing:
+  verify CASP licence before Turkish holder analysis. CGT: UNKNOWN. Kıtalararası
+  Derbi: ×1.80 · SINGLE-TOKEN ($GAL only · Fenerbahçe no Chiliz token as of
+  2026-08-02). $BJK: Ethereum NOT Chiliz Chain — chain mismatch warning. 7 Turkish-
+  language agent reasoning prompts.
+
+---
+
+## [4.1.85] — 2026-08-02
+
+### Changed
+- core/calibration-methodology.md (UPDATED): Six changes. Calibration record
+  totals corrected throughout. Total: 130 (13 pre-match verified + 117 seed).
+  Tier 1 renamed PRE-MATCH VERIFIED RECORDS. Tier 2 definition: submitted from
+  historical known outcomes (not genuine pre-match predictions). AFC April 2026
+  pre-match series added (3 records · WIN vs Sporting CP · LOSS vs Bournemouth ·
+  DRAW vs Sporting CP · first confirmed pre-match records in library). WC2026
+  series: "all pre-match verified". Seed count 126 → 117. FM-CAL-2 updated.
+  Agent Rule 3 updated (all three closed series). Accuracy: 96%+ direction
+  accuracy across 117 seed records. Last verified: 2026-08-02.
+
+---
+
+## [4.1.84] — 2026-08-01
+
+### Added
+- core/calibration-methodology.md (NEW 538L): Calibration Methodology core
+  reasoning layer. Documents empirical foundation for modifier values. Two record
+  tiers: 13 verified records (highest evidential weight) + 126 seed records (96%
+  direction accuracy · 121/126 correct). NEVER COMBINE rule. Six validity gates:
+  Gate 1 pre-kickoff submission (TFM6 · non-negotiable) · Gate 2 active fan token
+  required · Gate 3 primary source confirmation · Gate 4 direction assessed ·
+  Gate 5 Club Intelligence Gate compliance · Gate 6 competitive fixture only.
+  Direction accuracy as primary metric (three-outcome system · random baseline 33%).
+  Modifier update thresholds (1-2 records directional only · 3-4 emerging ·
+  5-9 update warranted · 10+ high confidence). Calibration series: WC2026 (9/9 ·
+  CLOSED) · UCL Final 2026 (1/1). Founding Calibrators: @AltcoinDaddy (#1) ·
+  @charan0318 (#2) · 8 slots remaining. Five FM-CAL guardrails. Five agent rules.
+  Record file format documented. 16 Mind Dimensions. Execution and Collaboration: ACTIVE.
+
+---
+
+## [4.1.83] — 2026-08-01
+
+### Added
+- core/compound-signal-framework.md (NEW 629L): Compound Signal Framework —
+  final synthesis layer before output. Three interaction types: AMPLIFICATION
+  (all signals aligned) · CANCELLATION (opposing layers · dominant at full
+  strength · subordinate at 50%) · CONFLICT (load contradiction-resolution-
+  framework.md · never average). Five-tier dominance hierarchy: Tier 1 Macro
+  (CAPITULATION ×0.70 never overridden) · Tier 2 Regulatory access restriction ·
+  Tier 3 CDI gate · Tier 4 Form and contextual · Tier 5 Occasion weight (final
+  multiplier only). SMS integration: 0-100 completeness score · HOLD gate below 80 ·
+  partial loading defaults. PATH_2 ($AFC only): supply event layer sits alongside
+  demand stack — never inside it · WIN burns · LOSS mints · DRAW no event · always
+  report separately. Five FM-CS guardrails. Five-step workflow. Three worked examples.
+  Loading order: macro → CDI → form → H2H → venue → regulatory → compound → output.
+  16 Mind Dimensions. Execution and Collaboration: ACTIVE.
+
+---
+
+## [4.1.82] — 2026-08-01
+
+### Added
+- core/venue-intelligence-framework.md (NEW 597L): Venue Intelligence Framework
+  core reasoning layer. Five venue type classifications: HOME (full tier modifier) ·
+  AWAY (no modifier) · NEUTRAL (zero home advantage · crowd composition modifier) ·
+  SHARED (×0.5 mandatory · San Siro confirmed $INTER/$ACM as of 2026-08-01) ·
+  TEMPORARY (WEAKENED tier mandatory · official confirmation required). Three home
+  advantage tiers: FORTRESS (+0.12) · STANDARD (+0.06) · WEAKENED (+0.02).
+  Crowd capacity modifier: sold out/70%+ full · moderate ×0.70 · low ×0.40.
+  UCL Final prestige amplifier +0.05 to both tokens (dual-token). MMA: all venues
+  neutral · small arena +0.04 INTIMATE ATMOSPHERE · large -0.02 DILUTED. Five
+  FM-V guardrails. Four-step agent workflow. Known venue contexts: San Siro ·
+  Nef Stadyumu ($GAL · FORTRESS candidate) · Wembley · UCL Final venues · UFC Apex.
+  16 Mind Dimensions. Execution and Collaboration: ACTIVE.
+
+### Fixed
+- core/h2h-framework.md (UPDATED): Last updated date 2026-07-31 → 2026-08-01.
+  Single line change.
+
+---
+
+## [4.1.81] — 2026-08-01
+
+### Added
+- core/h2h-framework.md (NEW 553L): Head-to-Head Framework core reasoning layer.
+  Three structured outputs: relevance gate (PASS/FAIL/NOT APPLICABLE) ·
+  decay-weighted H2H confidence score (0.0-1.0) · dual-token demand modifier.
+  Loading order: macro → CDI → form → H2H → regulatory → output. Five-condition
+  relevance gate: competitive fixtures only · same tier or higher (0.7 reduction
+  for lower tier · U21 never applied to senior) · minimum 3 meetings (GATE FAILS
+  below threshold · H2H: INSUFFICIENT SAMPLE never H2H: 50/50) · dual-token
+  eligibility · continuity check (×0.50 full rebuild · ×0.30 partial). Decay
+  model: 1.00 current season → 0.10 floor (6+ seasons) · decay floor 0.05 per
+  meeting · four multiplicative accelerators. Five score bands HOME DOMINANCE
+  through AWAY DOMINANCE. Four confidence tiers LOW through VERY HIGH. Dual-token
+  amplification: +0.10 dominant · PATTERN A -0.08 (default) · PATTERN B +0.06
+  contrarian spike · familiarity discount ×0.5 known fixtures. Six FM guardrails.
+  Multi-sport (MMA year-based). Six-step agent workflow. Five known fixture profiles.
+  16 Mind Dimensions. Execution and Collaboration: ACTIVE.
+
+---
+
+## [4.1.80] — 2026-07-31
+
+### Added
+- macro/regulatory/russia.md (NEW 467L): Russia regulatory framework. Confirmed:
+  payment ban active (2022) · bidirectional access restriction (EU sanctions +
+  domestic law) = maximum suppressor for Russian-resident holder analysis.
+  Bill 1194918-8: crypto assets classified as property under civil code. Core
+  provisions effective September 1 2026. Fan token asset eligibility: UNRESOLVED
+  (Bank of Russia "most liquid cryptocurrencies" list not yet published).
+  Investor access: non-qualified cap R$300,000/year per intermediary. All 8
+  agent rules. All 16 Mind Dimensions. Most restrictive holder jurisdiction
+  in library.
+
+### Changed
+- index.html (UPDATED): Website updates accompanying russia.md release.
+
+---
+
+## [4.1.79] — 2026-07-31
+
+### Added
+- macro/regulatory/turkey.md (NEW 399L): Turkey regulatory framework. Only
+  SportMind jurisdiction with no enacted CGT framework — UNKNOWN modifier for
+  tax friction. SPK licensing (Law 7518, July 2024): active · CASP licence
+  required. MASAK AML: active and tightening. TCMB payment ban (April 2021):
+  active — Turkish holders investment/speculation only. March 2026 tax proposals
+  (10% withholding, 0.03% transaction tax): WITHDRAWN — never enacted. PTG burn
+  treatment: UNRESOLVED. 6 affected tokens: $GAL · $TRA · $IBFK · $GOZ · $ALA ·
+  $GFK. 8 agent rules. 16 Mind Dimensions.
+
+---
+
+## [4.1.78] — 2026-07-31
+
+### Added
+- macro/regulatory/brazil.md (NEW 436L): Brazil regulatory framework. 17.5%
+  effective rate on crypto gains for Brazilian residents (RFB IN 1888/2019 +
+  subsequent resolutions). DAC8-equivalent reporting: Law 14,478/2022 (VASP
+  registration) requires exchange reporting. PTG burn treatment: UNRESOLVED.
+  Brazilian Portuguese dominant holder language. 8 agent rules. 16 Mind Dimensions.
+
+---
+
+## [4.1.77] — 2026-07-31
+
+### Added
+- market/club-intelligence/belg.md (CDI update): $BELG coaching succession
+  documented. CDI signal updated for Royal Belgian Football Association.
+- market/club-intelligence/sev.md (CDI update): Sevilla ($SEV) FFP resolution
+  documented. CDI gate updated post-resolution.
+
+---
+
+## [4.1.76] — 2026-07-31
+
+### Added
+- macro/regulatory/italy.md (NEW 394L): Italy regulatory framework. 33% flat
+  CGT (Law 199/2025, from January 1 2026) — no threshold — LIFO cost basis.
+  DAC8: D.Lgs. 194/2025, first reporting deadline June 30 2027, full transaction
+  visibility for Italian holders. MiCA: fully operational. PTG burn tax treatment:
+  UNRESOLVED. Italy = highest-friction holder jurisdiction in SportMind library
+  (33% vs Germany 0% after 12 months). Affects 5 active Chiliz tokens: $ITA ·
+  $ACM · $INTER · $JUV · $NAP. 8 agent rules. 16 Mind Dimensions.
+
+---
+
+## [4.1.75] — 2026-07-31
+
+### Changed
+- index.html (Website update): Regulatory layer additions reflected in website
+  content. Accompanying update to v4.1.75 alongside early regulatory file builds.
+
+---
+
 ## [4.1.74] — 2026-07-30
 
 ### Changed
