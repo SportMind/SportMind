@@ -368,6 +368,8 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
 | Adaptation | ACTIVE | Orchestrator adapts as new sports and athlete file types are added |
 | Ethics | NOT APPLICABLE | Orchestrator is a structural routing tool — no ethical dimension |
 | Transparency | ACTIVE | Orchestrator routing decision and selected file are always explicit in output |
+| Execution | ACTIVE | Signal generation workflow: apply_athlete_modifier is the execution entry point · routes sub-skill pipeline · returns composite modifier and agent recommendation |
+| Collaboration | ACTIVE | Integrates with all 29+ sport-specific athlete intel files · core reasoning frameworks · fan token registry · macro intelligence |
 
 
 ---
@@ -395,3 +397,9 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
   "note": "Combine with sell_ratio_brackets check — athlete layer does not override whale distribution signals"
 }
 ```
+
+---
+
+*SportMind v4.4.7 · MIT License · sportmind.dev*
+*Cross-sport orchestrator: apply_athlete_modifier is the master pipeline entry point.*
+*All 16 Mind dimensions mapped.*

@@ -204,10 +204,13 @@ DEMAND FLOOR:
 | Adaptation | ACTIVE | Spain national team intelligence adapts as squad evolves through transition phases |
 | Ethics | NOT APPLICABLE | Spain national team intelligence is sports analysis — no ethical dimension |
 | Transparency | ACTIVE | APS modifier, squad source (RFEF), and tournament context explicit in output |
+| Execution | ACTIVE | Spain national team signal-to-action: APS modifier applied as final pipeline step before $SNFT demand signal output |
+| Collaboration | ACTIVE | Integrates with national-team-tokens.md · world-cup-2026-intelligence · athlete-intel-football · coaching-intelligence |
 
 
 ---
 
-*SportMind v3.97.61 · MIT License · sportmind.dev*
+*SportMind v4.4.7 · MIT License · sportmind.dev*
+*All 16 Mind dimensions mapped.*
 *Spain's creative 8 role carries the highest single-position modifier: ×0.88.*
 *World Cup participation signal always outweighs any single player absence.*
