@@ -1,5 +1,40 @@
 # Changelog
 
+## [4.4.8] — 2026-08-11
+
+### Added
+- community/calibration-data/football/CALIBRATION-RECORD-TEMPLATE.md (NEW 440L):
+  Canonical template for all future SportMind football calibration records.
+  Synthesised from: UCL Final 2026 · WC2026 series (8 records) ·
+  Copa Sudamericana $VASCO record · Libertadores $FLU record.
+  18 sections — all mandatory unless marked OPTIONAL:
+  YAML frontmatter · Match Details · Pre-Match Signal · Score Derivation ·
+  Primary Signal Drivers · Signal Layers Applied (5 core layers + CDI and
+  Regulatory optional) · PTG/Burn to Glory Status (OPTIONAL — national tokens
+  in PTG-eligible tournaments only) · FTP PATH_2 Status (OPTIONAL — $AFC only) ·
+  Pre-Match Engagement Layer (OPTIONAL) · Result Verified ·
+  Supply Event Outcome (OPTIONAL) · Post-Match Notes · Signal Quality Note ·
+  Flags Resolved · Agent Rules Engaged · Mind Dimensions · Source and Verification ·
+  Footer line. All variants covered: single-token · dual-token · PTG ·
+  PATH_2 · external contributor · engagement layers. Placeholder values in
+  [BRACKETS] with inline guidance throughout. Template produced Chat 8 · 2026-08-11.
+
+### Changed
+- community/calibration-data/football/libertadores-r16-flu-vs-rivadavia-2026-08-11.md
+  (REPLACED 46L → 363L): Full standard-format record replacing minimal initial
+  version. Copa Libertadores Last 16 First Leg · 2026-08-11 · Fluminense v
+  Independiente Rivadavia · Maracanã · $FLU single-token. Record 131.
+  Direction: HOME. Result: 0–0. Direction INCORRECT ❌.
+  HOLD gate CORRECT ✓ — CHZ CAPITULATION ×0.70 prevented ENTER on incorrect call.
+  Score derivation: 55.0 × 0.70 = 38.5 (below ENTER threshold).
+  SMS 100.0 · HIGH_QUALITY · 5/5 layers. 9 pre-match flags raised and resolved.
+  Key findings: H2H recency signal validated (Rivadavia held Fluminense at
+  Maracanã for the second time); negative form arc validated by goalless draw;
+  MEDIUM confidence well-calibrated; CAPITULATION gate working as designed.
+  10 agent rules documented. 8 Mind Dimensions. Library v4.4.7.
+
+---
+
 ## [4.4.6] — 2026-08-09
 
 ### Fixed
