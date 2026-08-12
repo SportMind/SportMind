@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.4.9] — 2026-08-12
+
+### Added
+- community/calibration-data/football/super-cup-psg-vs-avl-2026-08-12.md (NEW):
+  UEFA Super Cup 2026 · PSG v Aston Villa · Red Bull Arena, Salzburg.
+  Dual-token record: $PSG and $AVL both active on Chiliz Chain.
+  Direction: HOME ($PSG). Result: PSG 2–1 Aston Villa. Direction CORRECT ✅.
+  HOLD gate CORRECT ✓ — CHZ CAPITULATION ×0.70 prevented ENTER on correct call.
+  Score derivation: $PSG 68.0 × 0.70 + 0.035 occasion uplift = 50.0 ·
+  $AVL 61.5 × 0.70 + 0.035 = 45.2 · both below 80 SMS threshold.
+  Key features: H2H gate FAIL (no competitive sample while both tokens active) ·
+  NEUTRAL venue (PSG home designation cosmetic only) · $AVL debut amplifier +0.08
+  (first Super Cup since 1982) validated (Villa scored, were competitive) ·
+  Champion Call ACTIVE pre-match (FM1+FM4+FM8 applied) · PTG not eligible ·
+  PATH_2 N/A. CDI: $PSG CONSOLIDATION→GROWTH ×1.25 · $AVL GROWTH ×1.25.
+  Confidence: MODERATE (well-calibrated — Villa scored).
+  9 Mind Dimensions (2b · 2d · 3b · 6a · 8a · 11a/11b · 12a · 14b).
+  3b (Event Context) added — Super Cup occasion weight + debut amplifier.
+  11 flags raised and resolved. 12 agent rules. Record 132. Library v4.4.7.
+
 ## [4.4.8] — 2026-08-11
 
 ### Added
