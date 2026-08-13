@@ -1,5 +1,39 @@
 # Changelog
 
+## [4.5.0] — 2026-08-13
+
+### Added
+- community/calibration-data/football/libertadores-r16-verdao-vs-cerro-porteno-2026-08-12.md
+  (NEW): Copa Libertadores Last 16 First Leg · 2026-08-12 · Palmeiras v Cerro Porteño ·
+  Nubank Parque · $VERDAO single-token. Record 133. Direction: HOME. Result: 1–1.
+  Direction INCORRECT ❌. HOLD gate CORRECT ✓. Score: 55.0 × 0.70 = 38.5 → HOLD.
+  Key features: CONDITIONAL ENTER issued pending Gómez starting — Gómez available
+  but confirmed not starting at kickoff → condition not met → HOLD preserved;
+  H2H recency flag (Cerro won at same venue May 2026) validated; micro-cap
+  illiquidity flag ($VERDAO ~$4 daily volume) active; no $VERDAO CDI file (domain
+  framework applied). Cerro drew at Nubank Parque for second time in 2026. MEDIUM
+  confidence well-calibrated. 10 flags raised and resolved. 11 agent rules.
+  Library v4.4.9.
+
+- community/calibration-data/football/libertadores-r16-mengo-vs-cruzeiro-2026-08-13.md
+  (NEW): Copa Libertadores Last 16 First Leg · 2026-08-13 · Cruzeiro v Flamengo ·
+  Mineirão · $MENGO single-token (AWAY token). Record 134. Raw direction: HOME.
+  H2H gate PASSED in favour of AWAY (Flamengo) — direction contested. Result: 1–1.
+  Direction INCORRECT ❌. HOLD gate CORRECT ✓. Score: 55.0 × 0.70 = 38.5 → HOLD.
+  Key features: $MENGO is the away token — direction assessed from Flamengo/$MENGO
+  holder perspective; H2H AWAY lean (Flamengo won 3 of last 5; Cruzeiro failed to
+  score in 3 of last 5) partially validated by draw; DIRECTION_CONTESTED flag
+  correctly captured genuine uncertainty; $MENGO holders well-positioned going
+  into second leg at Maracanã at 1-1 aggregate. No $MENGO CDI file (domain
+  framework applied). MEDIUM confidence well-calibrated. 10 flags raised and
+  resolved. 12 agent rules. Library v4.4.9.
+
+### Fixed
+- README.md (CHECKED — no change required): Task 3 checked README narrative
+  text for "fourteen dimensions" or "14 dimensions" references. No such text
+  found in the README. The only "14" reference is to skill bundles (unrelated).
+  No update required.
+
 ## [4.4.9] — 2026-08-12
 
 ### Added
