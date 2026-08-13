@@ -89,6 +89,32 @@
 
 ---
 
+## [4.4.7] — 2026-08-11
+
+### Added
+- athlete/meta/athlete-intel-cross-sport-orchestrator.md (NEW): Cross-sport
+  athlete context layer. Applies to all fan tokens regardless of sport.
+  Covers: availability, fatigue, weather, psychological signals, lineup timing,
+  and master signal modifier pipeline. Nine commands: get_global_availability_feed
+  · get_fatigue_index · get_weather_impact · get_psychological_signals ·
+  get_lineup_timing_alert · get_head_to_head_context · apply_athlete_modifier ·
+  get_athlete_adjusted_scores · subscribe_athlete_alerts. Master modifier
+  reference table: 1.20+ (strong entry) through <0.70 (do not enter).
+  Autopilot template included. Routing layer — not subject to accuracy
+  calibration. All 16 Mind Dimensions mapped (Calibration + Ethics NOT
+  APPLICABLE). Library v4.4.7.
+- athlete/national-teams/spain-snft.md (NEW): Spain national team ($SNFT)
+  athlete intelligence. Covers: tactical identity (high possession, positional
+  play, aggressive press), position modifier weights by role (midfield 8 role =
+  ×0.88 — highest single-position modifier), long-term absence reasoning
+  framework, World Cup 2026 demand framework, and $SNFT demand signal framework.
+  Defending European champion modifier: ×1.08 pedigree premium. World Cup
+  participation baseline: ×1.20 regardless of squad gaps. Demand floor: ×0.90
+  minimum. No named player current status. No injury logs. No specific return
+  dates. All 16 Mind Dimensions mapped. Library v4.4.7.
+
+---
+
 ## [4.4.6] — 2026-08-09
 
 ### Fixed
