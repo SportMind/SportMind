@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.5.2] — 2026-08-13
+
+### Added
+- onboarding/welcome-prompt.md (NEW 308L): Universal paste-and-go onboarding prompt.
+  Compatible with Claude · Gemini · ChatGPT · Mistral · Perplexity · any LLM.
+  New onboarding/ directory. Contains the full Welcome Prompt (copy-and-paste text block),
+  usage instructions, routing guide for all 7 answer types (A–G), tone guidelines,
+  core SportMind principles for the guide to apply, SportMind quick reference block,
+  and expansion roadmap (v1.1–v1.6 focused prompts planned as future standalone files).
+  No account needed. No setup. No technical knowledge required. Library v4.5.2.
+- start/index.html (NEW 549L): Dedicated onboarding landing page at sportmind.dev/start/
+  New start/ directory. Displays the Welcome Prompt in a prominent copyable pre block.
+  One-click copy button with copied ✓ state. Step-by-step three-panel how-to section.
+  AI compatibility badges (Claude · ChatGPT · Gemini · Mistral · Perplexity · Any LLM).
+  Explore-more grid linking to first-record/ · docs/ · suite/ · GitHub.
+  Dark theme consistent with SportMind site design. Mobile responsive.
+  Prompt displayed in site is the condensed guide version (key routing logic included
+  without the full routing guide prose); full prompt with all routing detail is in
+  onboarding/welcome-prompt.md. Footer: v4.5.2.
+
 ## [4.5.1] — 2026-08-13
 
 ### Added
