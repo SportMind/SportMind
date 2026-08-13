@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.5.1] — 2026-08-13
+
+### Added
+- core/audience-navigator.md (NEW 638L): Audience Navigator — core reasoning
+  framework for shaping signal output framing based on audience type.
+  Seven named profiles: Fan/Holder · Signal Consumer · Builder/Developer ·
+  Researcher/Journalist/Analyst · Integration Consumer · Community Manager ·
+  Regulator/Compliance Professional. Plus Custom Profile Template and
+  Future Profiles section (Athlete/Agent Representative planned). Core
+  principle: signal conclusions are never audience-dependent — only output
+  framing changes. AN-1 encodes this as non-negotiable. 12 agent rules
+  (AN-1 through AN-12): signal integrity · default profile selection ·
+  explicit partial fit · HOLD gate always hard gate · no trading advice ·
+  version proactive for Builder/Integration · fraud warnings never suppressed ·
+  repeated custom profile = named profile candidate · jurisdiction required for
+  regulatory · no files changed by audience profile · explicit partial fit
+  over silent mismatch · calibration priority unchanged. All 16 Mind Dimensions
+  mapped — Communication (7a · 7b · 7c) is the primary active dimension.
+  Verified absent from repo before building. Library v4.5.1.
+
 ## [4.5.0] — 2026-08-13
 
 ### Added
