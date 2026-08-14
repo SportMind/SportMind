@@ -1,5 +1,70 @@
 # Changelog
 
+## [4.5.7] — 2026-08-14
+
+### Changed
+- CHANGELOG.md (UPDATED): Missing v4.5.5 and v4.5.6 entries
+  prepended. Library v4.5.7.
+
+## [4.5.6] — 2026-08-13
+
+### Changed
+- home.html (UPDATED): logo-dot removed from nav and menu modal.
+  .logo-dot CSS rule and @keyframes blink removed. .logo gap
+  reduced 8px → 4px. Two HTML instances removed (sticky nav ·
+  menu modal). .badge-dot in hero section unchanged.
+- get-started.html (UPDATED): logo-dot removed from nav and menu
+  modal. .logo-dot CSS rule removed (no animation present).
+  .logo gap reduced 8px → 4px. Two HTML instances removed.
+- suite.html (UPDATED): logo-dot removed from nav and menu modal.
+  .logo-dot CSS rule and @keyframes blink removed. .logo gap
+  reduced 8px → 4px. Two HTML instances removed.
+- docs.html (UPDATED): logo-dot removed from nav and menu modal.
+  Two .logo-dot CSS rule blocks and two @keyframes blink blocks
+  removed. Two .logo gap values reduced 8px → 4px. Two HTML
+  instances removed.
+- first-record.html (UPDATED): logo-dot removed from nav and menu
+  modal. .logo-dot CSS rule and @keyframes blink removed. .logo
+  gap reduced 8px → 4px. Two HTML instances removed.
+- integrations.html (UPDATED): logo-dot removed from nav and menu
+  modal. .logo-dot CSS rule and @keyframes blink removed. .logo
+  gap reduced 8px → 4px. Two HTML instances removed.
+- use-cases.html (UPDATED): logo-dot removed from nav and menu
+  modal. Two .logo-dot CSS rule blocks and two @keyframes blink
+  blocks removed. Two .logo gap values reduced 8px → 4px. Two
+  HTML instances removed.
+- demo.html (UPDATED): logo-dot removed from nav and menu modal.
+  .logo-dot CSS rule and @keyframes blink removed. .logo gap
+  reduced 8px → 4px. Two HTML instances removed. @keyframes cur
+  (cursor animation) and @keyframes spin unchanged.
+- agent.html (UPDATED): logo-dot removed from nav and menu modal.
+  .logo-dot CSS rule and @keyframes blink removed. .logo gap
+  reduced 8px → 4px. Two HTML instances removed. .live-dot.on
+  animation renamed from blink → liveblink with new @keyframes
+  liveblink block to preserve live status indicator behaviour.
+- autonomous.html (UPDATED): logo-pip removed from nav and menu
+  modal. .logo-pip CSS rule and @keyframes pip removed. .logo
+  gap reduced 10px → 4px. Two HTML instances removed
+  (HTML class was logo-dot — CSS class was logo-pip —
+  discrepancy handled correctly).
+Nav logo now reads "sportmind BETA" across all ten pages.
+No dot. No animation. Library v4.5.6.
+
+## [4.5.5] — 2026-08-13
+
+### Changed
+- home.html (UPDATED): Hero section refinement. Redundant
+  Get Started button removed from hero button row — /start/
+  link retained in the non-developer callout below.
+  Non-developer callout reworded from "Not a developer?" to
+  "New to SportMind?" — broader framing covering professionals,
+  journalists, analysts, and fans alongside non-technical users.
+  Callout styled as a subtle green-tinted pill with 32px top
+  margin (display:inline-block · background:var(--green-bg) ·
+  border:1px solid rgba(22,102,58,0.15) · border-radius:100px ·
+  padding:10px 20px) for improved visual prominence.
+  Library v4.5.5.
+
 ## [4.5.2] — 2026-08-13
 
 ### Added
