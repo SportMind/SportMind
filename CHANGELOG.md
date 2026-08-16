@@ -1,5 +1,31 @@
 # Changelog
 
+## [4.5.13] — 2026-08-16
+
+### Added
+- community/calibration-data/football/community-shield-afc-vs-city-2026-08-16.md
+  (NEW · 290L): FA Community Shield 2026 · Arsenal vs Manchester City ·
+  Principality Stadium · Cardiff · 2026-08-16 · 15:00 BST.
+  Dual-token: $AFC + $CITY. Record 137.
+  FIRST COMMUNITY SHIELD RECORD IN LIBRARY.
+  Direction: HOME ($AFC). Confidence: MEDIUM.
+  Base scores: $AFC 46.9 · $CITY 33.1.
+  CHZ CAPITULATION ×0.70 applied: $AFC 32.8 · $CITY 23.2.
+  SMS: 100.0 — HIGH_QUALITY (all 5 layers · 7 files active).
+  HOLD BOTH — non-negotiable (both adjusted scores < 80 threshold).
+  Gate 6 PASSES — Community Shield classified SUPER_CUP_EQUIVALENT
+  (MEDIUM weight). Precedent set for all future Community Shield records.
+  CDI asymmetry: $AFC CONSOLIDATION ×1.02 vs $CITY TRANSITION ×0.92.
+  Directional tiebreaker: favours $AFC/HOME.
+  Key flags: CHZ regime · neutral venue (Cardiff) · dual-token mode ·
+  CDI asymmetry · availability unconfirmed (Saka/Rice) ·
+  TRANSITION debut + World Cup lag ($CITY) · Gate 6 classification ·
+  PATH_2 scope ($AFC — not active this fixture).
+  MCP HOLD gate discrepancy noted (MCP flagged WEAK BUY vs library HOLD
+  rule) — flagged for SMI prompt review.
+  All 16 MIND DIMENSIONS mapped. TFM6 Gate 1 compliant.
+  Result pending — post-match update required. Library v4.5.13.
+
 ## [4.5.12] — 2026-08-16
 
 ### Changed
