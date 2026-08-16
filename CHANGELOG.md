@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.5.12] — 2026-08-16
+
+### Changed
+- docs.html (UPDATED): Website audit v4.5.10 — final page.
+  Version v4.4.5 → v4.5.11 (menu modal).
+  Stats table — Library at a glance: Total files 756 → 815+.
+  Markdown skill files 580+ → 595+. Calibration records 129 → 136.
+  Direction accuracy row (96%) replaced with "17 pre-match verified
+  records (direction confirmed against real outcomes)". Fan tokens
+  90 (63 Chiliz active/18 expired/9 multi-chain) → 85 verified.
+  community/ directory table: calibration counts updated
+  130/13/117 (21 sports) → 136/17/119 (42 sports).
+  Calibration section lead: 130 records/21 sports/13 pre-match/
+  117 seed → 136 records/42 sports/17 pre-match/119 seed.
+  Checks PASSED: logo-dot CLEAN · no 14/fourteen Mind Dimensions ·
+  no stale FanX/Kayen rebrand language · no Telegram Bot Kit ·
+  MMA listed in sport statistics sub-modules (existing) ✓.
+  Website audit v4.5.10 COMPLETE — all 10 pages checked.
+  Library v4.5.12.
+
 ## [4.5.11] — 2026-08-16
 
 ### Changed
