@@ -1,5 +1,44 @@
 # Changelog
 
+## [4.5.15] — 2026-08-16
+
+### Changed
+- fan-token/defi-integration-intelligence.md (UPDATED · 277L → 423L):
+  Four updates applied.
+  UPDATE 1 — CHZ Liquid Staking (NEW SECTION): Added between 18-decimal
+  and liquidity pool sections. Staked CHZ vs liquid CHZ (lstCHZ) demand
+  model distinction documented. Agent rule: staked CHZ ≠ circulating CHZ
+  for fan token demand modelling. Liquid staking participation above 15%
+  of CHZ supply = ×0.90 confidence weight on CHZ availability for fan
+  token purchases. Protocol-agnostic (no named protocols — encode as
+  structural capability until Tier 1 confirmation). Library Rule: PASSES.
+  UPDATE 2 — OFT Unified Supply Architecture (EXPANDED): New sub-section
+  added to Omnichain Bridge Event Behaviour Pattern. Lock-and-mint OFT
+  architecture documented vs. wrapped token supply pools. Confirmed OFT
+  deployments listed: $AFC + $PSG (Chiliz Chain + Solana + Base ·
+  2026-05-26) · $MENGO $VERDAO $FLU $VASCO $SPFC (Chiliz Chain + Solana ·
+  2026-08-12). NOT on Solana: $SCCP $GALO $SACI $BAHIA. $CITY flagged
+  MULTICHAIN MONITOR. Authoritative cross-reference to complete-registry.md.
+  UPDATE 3 — 18-Decimal Cross-Reference (VERIFIED + JOINED): Explicit
+  CROSS-REFERENCE block added to 18-decimal section linking to OFT
+  Unified Supply Architecture. Confirms 18-decimal migration is the
+  foundational layer for OFT deployment. Lock-and-mint distinction
+  vs wrapped tokens explicitly bridged between sections.
+  UPDATE 4 — Kayen Finance / FanX (CORRECTED + NEW ENTRY):
+  Part A: DEX Campaign Volume section corrected — Kayen Finance now
+  named explicitly as independent third-party (not Chiliz product) ·
+  $PEPPER governance role confirmed · "platform names may evolve"
+  hedge removed. Part B: FanX added as new section — third-party DeFi
+  ecosystem (app.fanx.xyz) · NOT affiliated with Chiliz or Kayen Finance ·
+  FanX DEX (LIVE) vs FanX Prediction Market (TESTNET ONLY · HP-1 ·
+  Sept 12 2026 expiry) distinguished · agent rules: do not conflate,
+  do not aggregate volumes, TESTNET not live demand signal.
+  MIND DIMENSIONS: 14 → 16 (Execution + Collaboration added) ·
+  Learning and Calibration upgraded EMERGING → ACTIVE.
+  Compatibility section: 3 new cross-references added (complete-registry ·
+  bridge-supported · agent-failure-modes). Version v4.1.9 → v4.5.15.
+  Library v4.5.15.
+
 ## [4.5.14] — 2026-08-16
 
 ### Changed

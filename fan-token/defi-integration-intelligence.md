@@ -42,6 +42,64 @@ AGENT RULE:
   18-decimal migration is permanent — architecture does not revert.
   Load fan-token/registry/bridge-supported.md for DeFi platform details
   per chain (Jupiter/Orca/Solana · Aerodrome/Base · Meteora/national tokens).
+
+CROSS-REFERENCE — OFT ARCHITECTURE:
+  The 18-decimal migration is the foundational layer that enabled
+  OFT (Omnichain Fungible Token) deployment across Solana and Base.
+  Unified supply representation across chains is built on the shared
+  18-decimal standard. See: Omnichain Bridge Event Behaviour Pattern
+  section → OFT Unified Supply Architecture for confirmed deployments
+  and the lock-and-mint supply distinction vs. wrapped tokens.
+```
+
+---
+
+## CHZ Liquid Staking — Structural DeFi Layer
+
+```
+ARCHITECTURE:
+  CHZ liquid staking allows CHZ holders to stake CHZ and earn yield
+  while retaining a liquid derivative token (liquid CHZ / lstCHZ).
+  The derivative token remains tradeable and usable in DeFi protocols
+  while the underlying CHZ accrues staking rewards.
+
+  Agent rule: do not name specific liquid staking protocols unless
+  Tier 1 confirmed on chiliz.com. Encode as structural capability.
+  Cross-reference chiliz.com for confirmed protocol listings before
+  referencing any named liquid staking platform.
+
+STAKED vs LIQUID CHZ — DEMAND MODEL DISTINCTION:
+  Staked CHZ = demand locked into yield-bearing position.
+    · Not immediately available for fan token purchases.
+    · Withdrawal may have unbonding period.
+    · Represents committed demand, not mobile demand.
+
+  Liquid CHZ (liquid CHZ / lstCHZ derivative) = mobile demand.
+    · Freely tradeable on DEX platforms.
+    · Can be used in DeFi protocols.
+    · Represents the mobilised position of staked CHZ.
+
+IMPLICATIONS FOR SIGNAL MODELLING:
+  When CHZ regime assessment is made alongside liquid staking context:
+    · Staked CHZ supply ≠ circulating CHZ for fan token demand modelling.
+    · High liquid staking participation = CHZ demand partially diverted
+      into yield-bearing positions vs. direct fan token purchases.
+    · lstCHZ demand may compound with fan token demand during events
+      (holders capture yield AND fan token exposure simultaneously).
+    · Fan token purchase demand uses liquid CHZ — distinguish from
+      lstCHZ-denominated DeFi activity.
+
+LIBRARY RULE CHECK: PASSES.
+  Liquid staking is enduring structural DeFi architecture.
+  The distinction between staked and liquid CHZ is not perishable.
+  This section applies regardless of which specific protocols are live.
+
+AGENT RULE:
+  When CHZ staking data is available, apply the staked/liquid
+  distinction to demand baseline modelling. Do not treat total CHZ
+  supply as uniformly available for fan token demand.
+  Liquid staking participation above 15% of CHZ supply = apply
+  ×0.90 confidence weight to CHZ availability for fan token purchases.
 ```
 
 ---
@@ -100,10 +158,10 @@ WRAPPED SUPPLY ABOVE 5% OF TOTAL SUPPLY:
 
 ## DEX Campaign Volume — Structural Demand Lever
 
-Chiliz-native Fan Token DEX: KayenFi (also referenced as Kayen DEX).
-Purpose-built for Fan Token on-chain trading on Chiliz Chain.
-Note: platform names may evolve — encode as "Chiliz-native Fan Token DEX
-(KayenFi / Kayen DEX as of 2026)" for structural longevity.
+Chiliz-native Fan Token DEX: Kayen Finance (KayenFi / Kayen DEX).
+Independent third-party platform — not a Chiliz Group product.
+$PEPPER is the governance token of Kayen Finance.
+Cross-reference: fan-token/registry/complete-registry.md Section 5.
 
 ```
 DEX campaign volume is a confirmed structural demand lever during
@@ -127,6 +185,39 @@ AGENT RULE:
     Identify whether a campaign is active before modelling volume.
     Campaign volume + organic demand + supply event = compound signal.
     Model each component independently before summing.
+```
+
+---
+
+## FanX — Third-Party DeFi Ecosystem (Separate from Kayen Finance)
+
+FanX (app.fanx.xyz) is a separate third-party DeFi ecosystem for
+Fan Tokens on Chiliz Chain. NOT affiliated with Chiliz Group or
+Kayen Finance. Do not conflate with Kayen Finance ($PEPPER).
+Cross-reference: fan-token/registry/complete-registry.md Section 5.
+
+```
+PRODUCTS:
+  1. FanX DEX — LIVE
+     Swap interface for Fan Tokens on Chiliz Chain.
+     Separate liquidity pools from Kayen Finance.
+
+  2. FanX Prediction Market — TESTNET ONLY
+     HP-1 · Sept 12 2026 expiry.
+     $CHZ UP/DOWN markets on Chiliz Spicy Testnet.
+     Not yet live on mainnet — do not treat as active DeFi layer.
+
+AGENT RULES:
+  · Do not conflate FanX with Kayen Finance — separate entities,
+    separate liquidity, no affiliation.
+  · FanX DEX volume = separate signal from Kayen Finance (KayenFi)
+    volume. Do not aggregate without distinguishing source.
+  · FanX Prediction Market: TESTNET ONLY — do not model as live
+    demand signal until mainnet deployment confirmed (Tier 1 source).
+  · FanX has no fan token of its own in the Chiliz ecosystem sense.
+    Do not apply fan token governance frameworks to FanX.
+  · Apply FM8 (Liquidity Illusion) when comparing FanX DEX volume
+    to CEX spot baseline — different liquidity profile.
 ```
 
 ---
@@ -197,26 +288,31 @@ Standard DeFi conditions: no adjustment
 **Yield compliance:** `fan-token/yield-compliance-framework.md`
 **PATH_2:** `fan-token/ftp-path2.md`
 **Macro DeFi:** `macro/defi-macro-intelligence.md`
+**Registry (chain listings):** `fan-token/registry/complete-registry.md`
+**Bridge platforms:** `fan-token/registry/bridge-supported.md`
+**Agent failure modes:** `fan-token/agent-failure-modes-fan-token.md`
 
 
 ## MIND DIMENSIONS
 
 | Dimension | Status | Notes |
 |-----------|--------|-------|
-| Intelligence | ACTIVE | DeFi integration intelligence: fan token DeFi use cases, yield, and liquidity signals |
+| Intelligence | ACTIVE | DeFi integration intelligence: fan token DeFi use cases, yield, liquidity, OFT architecture, liquid staking |
 | Reasoning | ACTIVE | DeFi reasoning chain from integration event to supply and demand modifier |
-| Context | ACTIVE | DeFi context: protocol type, TVL, audit status, integration announcement timing |
-| Memory | ACTIVE | Historical DeFi integration patterns and their token impact data |
-| Judgment | ACTIVE | Judgment on DeFi integration materiality — yield promises are fraud signals |
-| Attention | ACTIVE | Elevated attention for DeFi integration announcements and TVL changes |
+| Context | ACTIVE | DeFi context: protocol type, TVL, audit status, integration announcement timing, chain context |
+| Memory | ACTIVE | Historical DeFi integration patterns, OFT deployments, 18-decimal migration, Kayen/FanX distinction |
+| Judgment | ACTIVE | Judgment on DeFi integration materiality · yield promises are fraud signals · OFT vs wrapped distinction |
+| Attention | ACTIVE | Elevated attention for DeFi integration announcements, TVL changes, new OFT deployments |
 | Communication | ACTIVE | DeFi signal output with integration type, risk level, and modifier |
-| Verification | ACTIVE | DeFi integration requires protocol audit verification and official announcement |
-| Learning | EMERGING | DeFi integration impact calibration is limited — new domain |
-| Integration | ACTIVE | Integrates with yield compliance framework and fraud risk intelligence |
-| Calibration | EMERGING | DeFi integration signal calibration requires more outcome data |
-| Adaptation | ACTIVE | DeFi intelligence adapts as protocols and integration patterns evolve |
+| Verification | ACTIVE | DeFi integration requires protocol audit verification and official announcement · Tier 1 source for chain listings |
+| Learning | ACTIVE | OFT architecture, liquid staking, FanX ecosystem expanding DeFi surface — ongoing calibration |
+| Integration | ACTIVE | Integrates with yield compliance framework, fraud risk intelligence, registry, OFT bridge data |
+| Calibration | ACTIVE | DeFi signal calibration expanding as OFT and liquid staking accumulate outcome data |
+| Adaptation | ACTIVE | DeFi intelligence adapts as protocols, OFT deployments, and integration patterns evolve |
 | Ethics | ACTIVE | Yield promises are both fraud signals and potentially regulatory violations — flagged prominently |
-| Transparency | ACTIVE | DeFi protocol audit status and risk classification explicit in output |
+| Transparency | ACTIVE | DeFi protocol audit status · risk classification · OFT vs wrapped distinction · FanX testnet status explicit |
+| Execution | ACTIVE | Agent rules enforced: staked/liquid CHZ distinction · OFT unified supply · FanX/Kayen separation |
+| Collaboration | ACTIVE | Cross-references registry, bridge-supported, staking-intelligence, yield-compliance, agent-failure-modes |
 
 
 ---
@@ -227,6 +323,56 @@ Confirmed structural behaviour pattern (Tier 1 source, July 2026).
 The library has the bridge architecture documented. This section
 adds the confirmed event behaviour — how the bridge is used during
 major tournament windows.
+
+### OFT Unified Supply Architecture — August 2026 State
+
+```
+LAYERZERO OFT STANDARD — UNIFIED SUPPLY:
+  OFT (Omnichain Fungible Token) architecture uses lock-and-mint.
+  Tokens bridged between chains do not create new supply.
+  The same token circulates across chains via the OFT bridge.
+  This is the critical DeFi architecture distinction vs. wrapped tokens.
+
+  WRAPPED TOKENS: create separate supply pools per chain.
+    · Wrapped supply + native supply = inflated apparent total.
+    · See: Wrapped token supply adjustment section for modelling rule.
+
+  OFT TOKENS: one unified supply across all chains.
+    · Tokens locked on origin chain when minted on destination chain.
+    · Total circulating supply is constant regardless of chain distribution.
+    · Bridge activity = supply repositioning, NOT new supply creation.
+    · Agent rule: do not inflate total supply when OFT tokens appear
+      on multiple chains. Apply wrapped token adjustment section ONLY
+      to genuinely wrapped (non-OFT) tokens.
+
+CONFIRMED OFT DEPLOYMENTS — August 2026:
+  Club tokens on OFT (Chiliz Chain primary + Solana + Base):
+    $AFC (Arsenal) — confirmed 2026-05-26 (UCL Final deployment)
+    $PSG (Paris Saint-Germain) — confirmed 2026-05-26 (UCL Final)
+    (Cross-reference fan-token/registry/complete-registry.md for
+    full list — do not treat this as exhaustive)
+
+  Brazilian club tokens on OFT (Chiliz Chain primary + Solana):
+    $MENGO (Flamengo) — confirmed 2026-08-12
+    $VERDAO (SE Palmeiras) — confirmed 2026-08-12
+    $FLU (Fluminense FC) — confirmed 2026-08-12
+    $VASCO (Vasco da Gama) — confirmed 2026-08-12
+    $SPFC (São Paulo FC) — confirmed 2026-08-12
+    Source: chiliz.com (Tier 1 · 2026-08-12)
+
+  NOT on Solana (do not add multichain data):
+    $SCCP · $GALO · $SACI · $BAHIA — no Tier 1 confirmation.
+
+  MULTICHAIN MONITOR:
+    $CITY (Manchester City) — no Tier 1 confirmation of Solana
+    or Base deployment as of August 2026. Do not treat as OFT
+    without chiliz.com or docs.chiliz.com confirmation.
+
+AUTHORITATIVE SOURCE:
+  fan-token/registry/complete-registry.md — chain listings per token.
+  Do not duplicate registry data here. Encode structural rules only.
+  Always cross-reference registry before applying chain-specific signal.
+```
 
 ```
 CONFIRMED BEHAVIOUR:
@@ -274,4 +420,4 @@ RULE 3 — BIDIRECTIONAL — NO NET FLOW ASSUMPTION:
 
 ---
 
-*SportMind v4.1.9 · MIT License · sportmind.dev*
+*SportMind v4.5.15 · MIT License · sportmind.dev*
