@@ -40,11 +40,12 @@ Partnership announced (pipeline):     2
 Not Active (legacy on-chain):         14
 Other chains (BNB/BITCI/Ethereum):    9
 Delisted:                             2
-Omnichain club tokens (Solana + Base):      5
+Omnichain club tokens (Solana + Base):      6
+Omnichain club tokens (Solana only):        5
 Omnichain national tokens (Solana only):    5
 Fan Token Play confirmed:             1 ($AFC only)
 
-Last verified: August 2026
+Last verified: August 2026 (updated v4.5.8 — $AFC Solana+Base confirmed; $MENGO $VERDAO $FLU $VASCO $SPFC Solana confirmed)
 ```
 
 ---
@@ -64,6 +65,15 @@ are confirmed available on Solana and Base in addition to their primary Chiliz C
   $ARG, $POR, $SAFA, $SFA, $BELG, $SPAIN now on Solana via Jupiter DEX
   and Meteora liquidity protocol. National tokens are on Solana
   only — NOT on Base. Do not conflate with club token architecture.
+
+  BRAZILIAN CLUB TOKENS — SOLANA ONLY (AUGUST 2026):
+  $MENGO, $VERDAO, $FLU, $VASCO, $SPFC went live on Solana on
+  2026-08-12 via LayerZero OFT. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/
+  Unified supply across Solana, Base, and Chiliz Chain per OFT standard.
+  Confirmed Solana deployment — Base availability follows from unified OFT
+  architecture but was not the focus of this announcement.
+  NOT on Solana: $SCCP · $GALO · $SACI · $BAHIA — no Tier 1 confirmation.
+  Do not add Solana chain data for those four tokens.
 
 All other Chiliz Chain tokens are available for bridging but are not yet confirmed
 as actively traded on Solana or Base.
@@ -88,7 +98,7 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Partner | Ticker | Sport | Partnership | Chain | Trading | Fan Token Play | Omnichain | New Address (18 decimal) | Old Address | Wrapped Address | Socios Listed | Official Confirmed | FanTokens.com URL | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | AC Milan | ACM | Football (League) | Active | Chiliz Chain | Active | No | No | 0x062F6004FD0BF204D272Ff115E5b84F7A01489D1 | 0xF9C0F80a6c67b1B39bdDF00ecD57f2533ef5b688 | 0x859DB9e2569bb87990482fC53E2F902E52585Ecb | Yes | Yes | https://www.fantokens.com/trade/ac-milan-fan-token | |
-| Arsenal | AFC | Football (League) | Active | Chiliz Chain | Active | YES — FTP PATH_2 CONFIRMED | Yes | 0x76088F3eD5dC655De9295D93868ec1EeC654A615 | 0x1d4343d35f0E0e14C14115876D01dEAa4792550b | 0x109523174dD4431dFd2628eaF9435cFD14dC6c2f | Yes | Yes | https://www.fantokens.com/trade/arsenal-fan-token | CEX perp futures available (July 2026). |
+| Arsenal | AFC | Football (League) | Active | Chiliz Chain | Active | YES — FTP PATH_2 CONFIRMED | Yes | 0x76088F3eD5dC655De9295D93868ec1EeC654A615 | 0x1d4343d35f0E0e14C14115876D01dEAa4792550b | 0x109523174dD4431dFd2628eaF9435cFD14dC6c2f | Yes | Yes | https://www.fantokens.com/trade/arsenal-fan-token | Omnichain: Chiliz Chain (primary) + Solana + Base. Live on Solana and Base 2026-05-26 ahead of UCL Final. First Fan Token live on all three chains simultaneously. LayerZero OFT · unified supply. Source: chiliz.com/psg-and-arsenal-fan-tokens-go-live-on-solana-and-base-champions-league-final/ CEX perp futures available (July 2026). |
 | Alanyaspor | ALA | Football (League) | Active | Chiliz Chain | Active | No | No | 0x3B60F483fe311FC063b50A67BF327F96B76696E6 | 0x863f7537B38130F01a42E9e9406573B1F1e309F7 | 0x685Ba5134F373785263DB5a5BC5CFF686264500b | Yes | Yes | https://www.fantokens.com/trade/alanyaspor-fan-token | |
 | Alliance | ALL | Esports | Active | Chiliz Chain | Active | No | No | 0x109b738569A04eA31CA06B47aF06CfdDa87ADF48 | 0xc5C0d1E98D9b1398A37C82Ed81086674baEf2a72 | 0x1eb33b4243691f6FFbE0f77BBEa3be1C6b26E43E | Yes | Yes | https://www.fantokens.com/trade/alliance-fan-token | |
 | Aston Martin | AM | Formula One | Active | Chiliz Chain | Active | No | No | 0xf0D5De46729f4E2F28c27a98E15Ef18dF951Ec44 | 0x3757951792eDFC2CE196E4C06CFfD04027e87403 | 0xE51a3c216afB6e7c9BeBb4968CD4A8d1E0E99F77 | Yes | Yes | https://www.fantokens.com/trade/aston-martin-cognizant-fan-token | |
@@ -103,12 +113,12 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | S.L. Benfica | BENFICA | Football (League) | Active | Chiliz Chain | Active | No | No | 0xF4c653b74929953B29B966aBA99b681Fb5ab69cF | 0xad7c869F357B57BB03050183d1BA8eC465CD69Dc | 0x8b11453f790726eC863422D47c2bDF6222dD0F2D | Yes | Yes | https://www.fantokens.com/trade/benfica | |
 | Bologna FC | BFC | Football (League) | Active | Chiliz Chain | Dormant | No | No | 0xD77de9fcE56F371e347217D57394f1Fa07F02d64 | 0x319067E6253FdbF183C27AbcAF31d45aD50E98fF | 0x3Bce6c975Ed6Ed39aB80daC8774E5A6CE0E58515 | Yes | Yes | https://www.fantokens.com/trade/bologna-fc-fan-token | |
 | Bali United FC | BUFC | Football (League) | Active | Chiliz Chain | Dormant | No | No | 0xafb78165c62744bd21B4DDef48c11A93D395dAa2 | 0xe87Cb1546D50F523057d3F94B07381dCE3F85eF9 | 0x53DB5c49CE9d0AB222e3a7458af140B78f857c81 | Yes | Yes | https://www.fantokens.com/trade/bali-united-fan-token | |
-| Manchester City | CITY | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0x7Bd6242D775fAEf1d50B2aA18C2FBF329BDDF295 | 0x6401b29F40a02578Ae44241560625232A01B3F79 | 0x368F1EB2E4FA30C1C5957980C576Df6163575416 | Yes | Yes | https://www.fantokens.com/trade/manchester-city-fan-token | CEX perp futures available (July 2026). |
+| Manchester City | CITY | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0x7Bd6242D775fAEf1d50B2aA18C2FBF329BDDF295 | 0x6401b29F40a02578Ae44241560625232A01B3F79 | 0x368F1EB2E4FA30C1C5957980C576Df6163575416 | Yes | Yes | https://www.fantokens.com/trade/manchester-city-fan-token | MULTICHAIN MONITOR: No Tier 1 confirmation of Solana or Base deployment as of August 2026. Do not add multichain data until chiliz.com or docs.chiliz.com confirms. CEX perp futures available (July 2026). |
 | Crystal Palace | CPFC | Football (League) | Active | Chiliz Chain | Active | No | No | 0x58613484D9683d52899e13d42BB3fb9eEB0749da | 0xA70bD29Bef2936765Fe33b0f4b0Cf8E947D75581 | 0x081232E5fee74ACa4C40bCe224C64e014A6AC245 | Yes | Yes | https://www.fantokens.com/trade/crystal-palace-fan-token | |
 | Ninjas in Pyjamas | DOJO | Esports | Active | Chiliz Chain | Active | No | No | 0xb66D72efc5fD77A8F9Dc2E7c0f14304828956644 | N/A | N/A | Yes | Yes | https://www.fantokens.com/trade/ninjas-in-pyjamas | No old address — native to Chiliz Chain |
 | Dinamo Zagreb | DZG | Football (League) | Active | Chiliz Chain | Active | No | No | 0x03bE2eA82839FBD8b6ab16aDdEba3FE4C88bB43F | 0x6412aFDFdF2a465B2E2464A5F9d1743a9CFfd6fF | 0xD97215C8515688d1573B058b9D30bA04A6Af6aa2 | Yes | Yes | https://www.fantokens.com/trade/dinamo-zagreb-fan-token | |
 | Everton FC | EFC | Football (League) | Active | Chiliz Chain | Active | No | No | 0xa84E55C2464563441cb4114372DF8D5aca49Fc83 | 0xaBEE61f8fF0eADd8D4ee87092792aAF2D9B2CA8e | 0xFC8799E0895b3B92936075F3B1A4D1bF5F183166 | Yes | Yes | https://www.fantokens.com/trade/everton-fc-fan-token | |
-| Fluminense FC | FLU | Football (League) | Active | Chiliz Chain | Active | No | No | 0x9840dC03032f4F35d7DBdc8dB832aCFAF6Ff3e77 | 0x86930777d43605C40bA786F7802778ff5413eFaB | 0xD6E703752E5457825734f74eaF8813251A9970E4 | Yes | Yes | https://www.fantokens.com/trade/fluminese-fc-fan-token | |
+| Fluminense FC | FLU | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0x9840dC03032f4F35d7DBdc8dB832aCFAF6Ff3e77 | 0x86930777d43605C40bA786F7802778ff5413eFaB | 0xD6E703752E5457825734f74eaF8813251A9970E4 | Yes | Yes | https://www.fantokens.com/trade/fluminese-fc-fan-token | Omnichain: Chiliz Chain (primary) + Solana. Live on Solana 2026-08-12 via LayerZero OFT. Unified supply. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/ |
 | Fortuna Sittard | FOR | Football (League) | Active | Chiliz Chain | Active | No | No | 0x078B3C0Ad7Ea92EfD14Af146bf4171E80cE41e1C | 0x4b56F121F769BBdeE3faBA6e8B9163E7cfFDd59a | 0xf0f458B1E8Cd27d585De1baB5484B05C4d512a0E | Yes | Yes | https://www.fantokens.com/trade/fortuna-sittard-fan-token | |
 | Galatasaray | GAL | Football (League) | Active | Chiliz Chain | Active | No | No | 0x770da1e5dDB22f3Ccc2482493BD9B10A7A8A38Ae | 0x6DaB8Fe8e5d425F2Eb063aAe58540aA04e273E0d | 0xCFc896fe8C791B6d1c085e69451E4B2f675a4927 | Yes | Yes | https://www.fantokens.com/trade/galatasaray-fan-token | CEX perp futures available (July 2026). |
 | Clube Atletico Mineiro | GALO | Football (League) | Active | Chiliz Chain | Active | No | No | 0x558Cc7Ac99793B10c1C142a1C7e5AdF6657DeA9c | 0xe5274Eb169E0e3A60B9dC343F02BA940958e8683 | 0xb7ff11AA7612e8c04A276dFEa3ff95fFc9724EA1 | Yes | Yes | https://www.fantokens.com/trade/club-atletico-mineiro | |
@@ -123,7 +133,7 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Legia Warsaw | LEG | Football (League) | Active | Chiliz Chain | Active | No | No | 0xFd8A11532c5Ca9bec64ec86e4E5ed78089CD443f | 0x3Ce3946A68EB044C59AFe77dfdfdc71f19EB4328 | 0x58386A2d1c45D4c5349468892f5f73CA3E53EA22 | Yes | Yes | https://www.fantokens.com/trade/legia-warsaw-fan-token | |
 | Levante UD | LEV | Football (League) | Active | Chiliz Chain | Active | No | No | 0x084Ba7f44Cd799dECDe593A4045170f014c29845 | 0x69D65E72266b15C2b2ABcD69561399D9BD1843Ef | 0xD37938861Bd995FdC016B6383ac7D78b345107BA | Yes | Yes | https://www.fantokens.com/trade/levante-ud-fan-token | Club currently 15th in La Liga — verify partnership still active |
 | Leeds United | LUFC | Football (League) | Active | Chiliz Chain | Active | No | No | 0xE3ECD48f7653e6da693B544d50caB0BCdCd35C13 | 0xF67A8a4299f7EBF0c58DbFb38941D0867f300C30 | 0x2D271B3826090872a7A79DD69FFe660367f8579d | Yes | Yes | https://www.fantokens.com/trade/leeds-united-fan-token | |
-| Flamengo | MENGO | Football (League) | Active | Chiliz Chain | Active | No | No | 0xBfF8FaBb04f6494fe393EB7416A698869569A310 | 0xD1723Eb9e7C6eE7c7e2d421B2758dc0f2166eDDc | 0xa8732Dbb1985a570a1d98F57001E3c837046F618 | Yes | Yes | https://www.fantokens.com/trade/flamengo-fan-token | |
+| Flamengo | MENGO | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0xBfF8FaBb04f6494fe393EB7416A698869569A310 | 0xD1723Eb9e7C6eE7c7e2d421B2758dc0f2166eDDc | 0xa8732Dbb1985a570a1d98F57001E3c837046F618 | Yes | Yes | https://www.fantokens.com/trade/flamengo-fan-token | Omnichain: Chiliz Chain (primary) + Solana. Live on Solana 2026-08-12 via LayerZero OFT. Unified supply. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/ |
 | Millonarios FC | MFC | Football (League) | Active | Chiliz Chain | Active | No | No | 0x580edA966a8129C3c01D149871B47feFcC599D28 | 0xdEB5A271A67652A84dECb6278D70A6d6A18D7c3b | 0xb1d0fADa44D28d31844241460d90C1775706126C | Yes | Yes | https://www.fantokens.com/trade/millonarios-fc-fan-token | |
 | Made In Brazil MIBR | MIBR | Esports | Active | Chiliz Chain | Active | No | No | 0x8CAf9018Aa56f7Db55bB353005C7aa0FBfb1736b | 0xa8206Af1e6a0289156d45B9d60e5bbD5d1fCf68d | 0x57488F1C881b2D5832D61781e741D09c5b3410Fb | Yes | Yes | https://www.fantokens.com/trade/mibr-fan-token | |
 | Napoli | NAP | Football (League) | Active | Chiliz Chain | Active | No | No | 0x90593E9602b38A0D5b63d9f34AC3560798cEE7d4 | 0xbE7f1eBB1Fd6246844E093B04991ae0e66D12C77 | 0x9b24b3D55737BC28fdb21171ea5fD9eE50B136e6 | Yes | Yes | https://www.fantokens.com/trade/napoli | |
@@ -141,7 +151,7 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Sevilla FC | SEVILLA | Football (League) | Active | Chiliz Chain | Active | No | No | 0xA584cca6a5C46ead6FF8EF3beB8FAC76364c36Cb | 0x60a5E1f5f0071C5d870bB0A80B411BDe908AD51e | 0xb71597e18D9933b38a56817Ed74C64618232e325 | Yes | Yes | https://www.fantokens.com/trade/sevilla-fc-fan-token | |
 | Stade Francais Paris | SFP | Rugby | Active | Chiliz Chain | Active | No | No | 0x04aa2d5c46691f05D30b9E65a9E09C8ea383c7B0 | 0x2a89f8af25B01B837d67be3B1A162A663F77b26E | 0x802B51D1Aa89C7222993463Ade8600cF08700DfF | Yes | Yes | https://www.fantokens.com/trade/stade-francais-paris-fan-token | |
 | The Sharks | SHARKS | Rugby | Active | Chiliz Chain | Active | No | No | 0x0cb13408921F87E3A3D011b03935A81A1542bDFa | 0x1f5Ed1182b673338ECff0eeaB13ed79cEaf775f5 | 0x8b8454ad0bc75C3C4bECb250b48D9a2072Fd55E3 | Yes | Yes | https://www.fantokens.com/trade/the-sharks-fan-token | |
-| Sao Paulo FC | SPFC | Football (League) | Active | Chiliz Chain | Active | No | No | 0x6345c0ECcA1B9007a9043CB5da8150aE07adD498 | 0x540165b9dFdDE31658F9BA0Ca5504EdA448BFfd0 | 0x60175b07658694FC1c16578376c439879C05d1Cb | Yes | Yes | https://www.fantokens.com/trade/sao-paulo-fc-fan-token | |
+| Sao Paulo FC | SPFC | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0x6345c0ECcA1B9007a9043CB5da8150aE07adD498 | 0x540165b9dFdDE31658F9BA0Ca5504EdA448BFfd0 | 0x60175b07658694FC1c16578376c439879C05d1Cb | Yes | Yes | https://www.fantokens.com/trade/sao-paulo-fc-fan-token | Omnichain: Chiliz Chain (primary) + Solana. Live on Solana 2026-08-12 via LayerZero OFT. Unified supply. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/ |
 | Tottenham Hotspur | SPURS | Football (League) | Active | Chiliz Chain | Active | No | No | 0xd699ACD21011c20381E5138A430bb0d7b6E9BC7F | 0x93D84Ff2c5F5a5A3D7291B11aF97679E75eEAc92 | 0xf6Bebad8bE7bb9ce05b9A71b9ab62E2e7fA58e9f | Yes | Yes | https://www.fantokens.com/trade/tottenham-hotspur-fan-token | Club finished 17th PL 2025/26 — survived relegation by 2 points. Partnership active. Summer rebuild required. Monitor squad investment signals in 2026 window. |
 | Sint-Truidense VV | STV | Football (League) | Active | Chiliz Chain | Active | No | No | 0x71Bc882c60b9EfDf85D0E1A28Fc86f0BD822132F | 0xe446d966Ba9a36E518cF450AbbD22f45688107Da | 0x6d58211888D381D6Fd3D344A7a33789cE0628b01 | Yes | Yes | https://www.fantokens.com/trade/sint-truidense-voetbalvereniging-fan-token | |
 | Team Heretics | TH | Esports | Active | Chiliz Chain | Active | No | No | 0x0b5De9e1303F3FB4F67D1ACA1503DDB28Bf59834 | 0x06B4213774DD069cF603ad11770B52F1E98160a7 | 0x6c5e381aF6E3B237F8471A7e1448A4CdF82d3447 | Yes | Yes | https://www.fantokens.com/trade/team-heretics-fan-token | |
@@ -149,9 +159,9 @@ All migrated to 18-decimal addresses as of April-May 2026.
 | Trabzonspor | TRA | Football (League) | Active | Chiliz Chain | Active | No | No | 0xEff432433Dd57AdFA37004af00DB148F9407e7bD | 0x304193f18f3B34647ae1f549fc825A7e50267c51 | 0x80E5DCCABC8566d4b12812142A6609d6b9dd84CF | Yes | Yes | https://www.fantokens.com/trade/trabzonspor-fan-token | |
 | Udinese Calcio | UDI | Football (League) | Active | Chiliz Chain | Active | No | No | 0x94772c3381A83308376d65e100D06C2bc5a86eD9 | 0xd2571bb5E84F1a3ac643b6be1dD94fC9fb97041d | 0xCE1E295c23D6c99909A414b0dDE447c15bB4Db7D | Yes | Yes | https://www.fantokens.com/trade/udinese-fan-token | |
 | UFC | UFC | MMA | Active | Chiliz Chain | Active | No | No | 0xC9f723625e80a81cBa2CAd3e6871D3bdf2a7ECC7 | 0x0ffa63502f957b66e61F87761cc240e51C74cee5 | 0xa698a6D7275A461D6F2D425E31dAB4a61a171AFd | Yes | Yes | https://www.fantokens.com/trade/ufc-fan-token | |
-| Vasco da Gama | VASCO | Football (League) | Active | Chiliz Chain | Active | No | No | 0xD5f1B2454db115967bfAc73bFEa21Da5e2543c8E | 0x6d72034D7508D16988bf84638D51592A8c02887b | 0x2EAe5689908ac76996B70B48d5CE5d2f2fCC09e0 | Yes | Yes | https://www.fantokens.com/trade/vasco-da-gama-fan-token | |
+| Vasco da Gama | VASCO | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0xD5f1B2454db115967bfAc73bFEa21Da5e2543c8E | 0x6d72034D7508D16988bf84638D51592A8c02887b | 0x2EAe5689908ac76996B70B48d5CE5d2f2fCC09e0 | Yes | Yes | https://www.fantokens.com/trade/vasco-da-gama-fan-token | Omnichain: Chiliz Chain (primary) + Solana. Live on Solana 2026-08-12 via LayerZero OFT. Unified supply. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/ |
 | Valencia CF | VCF | Football (League) | Active | Chiliz Chain | Active | No | No | 0x83d7D1df01C698b4379077aF4bCEB2D4AF113BfF | 0xba0c26485b1909f80476067272d74A99Cc0E1D57 | 0xf9ae77D7658ad1a1Ff49Ca4D082fEDb680A83373 | Yes | Yes | https://www.fantokens.com/trade/valencia-fan-token | |
-| SE Palmeiras | VERDAO | Football (League) | Active | Chiliz Chain | Active | No | No | 0xb46357d8Ed050D35D3a24154c39d7236dAE86187 | 0x971364Ec452958d4D65Ba8D508FAa226d7117279 | 0x6dB3ECA64DC5B789a70571BD81332864bA327A56 | Yes | Yes | https://www.fantokens.com/trade/se-palmeiras-fan-token | |
+| SE Palmeiras | VERDAO | Football (League) | Active | Chiliz Chain | Active | No | Yes | 0xb46357d8Ed050D35D3a24154c39d7236dAE86187 | 0x971364Ec452958d4D65Ba8D508FAa226d7117279 | 0x6dB3ECA64DC5B789a70571BD81332864bA327A56 | Yes | Yes | https://www.fantokens.com/trade/se-palmeiras-fan-token | Omnichain: Chiliz Chain (primary) + Solana. Live on Solana 2026-08-12 via LayerZero OFT. Unified supply. Source: chiliz.com/brazilian-fan-tokens-now-available-on-solana/ |
 | Young Boys | YBO | Football (League) | Active | Chiliz Chain | Active | No | No | 0x8c4d631A673bE24F244E4f0645BE6928d0083d4e | 0x0Dc1776c56ffd3A046134Be6fDC23a3214359329 | 0xd14f7b7fD6D18A16c4f0c678E301a783D36a2BF0 | Yes | Yes | https://www.fantokens.com/trade/young-boys-fan-token | |
 | South African Football Association | SAFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE | Yes | https://chiliz.com/chiliz-and-south-african-football-association-announce-landmark-fan-token-partnership/ | Launched 2026-05-21. First African national team Fan Token™. Supply: 20,000,000. Launch price: $0.50. WC2026 Burn to Glory participant — burns confirmed. Contract address verified: docs.chiliz.com 2026-08-04 ✓ |
 | Scottish Football Association | SFA | Football (National) | ACTIVE | Chiliz Chain | Active | No | No | LAUNCH_DATE: 2026-05-21 · LAUNCH_MECHANISM: Locker Room Internationals subscription window May 21-28 2026 | N/A | N/A | 0xfaB24366503Eb0fa8CB8FB7d1311159FD4283657 | Yes | https://chiliz.com/chiliz-scottish-fa-partnership-sfa-fan-token/ | Launched 2026-05-21. Scotland national team Fan Token™. WC2026 Burn to Glory participant — burns confirmed. Contract address verified: docs.chiliz.com 2026-08-04 ✓ |
@@ -248,6 +258,6 @@ See `fan-token/official-verification-framework.md` for full verification methodo
 
 ---
 
-*SportMind v4.1.92 · MIT License · sportmind.dev*
+*SportMind v4.5.8 · MIT License · sportmind.dev*
 *Registry accuracy as of August 2026. Always verify addresses on-chain before use.*
 *$AFC is the only confirmed FTP PATH_2 token as of May 2026.*
