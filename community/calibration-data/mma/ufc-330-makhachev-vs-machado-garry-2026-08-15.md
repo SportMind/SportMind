@@ -10,7 +10,7 @@ competition: UFC 330
 bout: Welterweight Championship
 record_number: 136
 gate: TFM6_GATE_1
-status: PENDING_RESULT
+status: COMPLETE
 ---
 
 # UFC 330 — Welterweight Championship
@@ -193,29 +193,58 @@ MMA-07 · PPV_OCCASION_WEIGHT: NUMBERED_PPV (+++)
 
 ## RESULT VERIFIED
 
-- Full time result: [PENDING — POST-MATCH UPDATE REQUIRED]
-- Method: [PENDING]
-- Round: [PENDING]
-- Direction outcome: [PENDING — CORRECT ✅ / INCORRECT ❌]
-- HOLD gate outcome: CORRECT ✓
-  (HOLD gate fired pre-match — no position warranted
-  regardless of result. Gate outcome confirmed regardless
-  of direction accuracy.)
+- Full time result: Makhachev def. Machado Garry
+- Method: Unanimous Decision
+- Scorecards: 49-46 · 49-46 · 48-47
+- Round: 5 · full championship distance
+- Direction outcome: CORRECT ✅ — HOME (Makhachev) confirmed
+- HOLD gate outcome: CORRECT ✓ — dual grounds both validated
+  (1) CHZ CAPITULATION ×0.70 → adjusted score 38.5 < 80 threshold
+  (2) MICRO_CAP_ILLIQUIDITY → $UFC ~$120 daily volume confirmed
 
 ---
 
 ## POST-MATCH NOTES
 
-[PENDING — complete after result confirmed]
+Direction (HOME/Makhachev): CORRECT ✅
+Makhachev won via dominant grappling control across 25 minutes.
+Dictated pace throughout — suffocating top control and chain
+wrestling throughout the fight. Knocked Machado Garry down with
+a right hand and left high kick in Round 2 before resuming
+grappling dominance. Machado Garry showed resilience — opened
+up his striking in Round 3 and mounted a late surge in Round 5
+before Makhachev secured back control with under a minute
+remaining to seal the scorecards.
 
-Key questions to address post-match:
-  · Was direction (HOME/Makhachev) correct?
-  · Did $UFC price move post-event? If yes — magnitude?
-    (Note: ~$120 daily volume makes price signal extremely
-    noisy — any move should be noted but not over-interpreted)
-  · Did the archetype model (grappler edge) prove structurally
-    valid or did striker upset occur?
-  · MMA-01 ARCHETYPE_MISMATCH flag — validated or not?
+HISTORIC NOTE: Makhachev's victory was his 17th consecutive
+UFC win, surpassing Anderson Silva's all-time UFC win streak
+record of 16. Also became only the fifth two-division champion
+to earn successful title defenses in both divisions.
+
+MMA-01 ARCHETYPE_MISMATCH flag: VALIDATED — grappling
+dominance prevailed over elite striker as structural model
+predicted at MEDIUM confidence. Striker showed genuine
+competitiveness (knock-down in Round 2 was Garry, not
+Makhachev — note: Makhachev landed the knock-down; Garry
+was dropped) — variance acknowledged, archetype edge confirmed.
+
+MMA-FINISHER_RATE: not realised — full 5-round decision.
+Makhachev controlled without finishing. Method markets note:
+decision outcome consistent with CAPITULATION-suppressed
+demand signal environment (no spectacular finish to amplify
+$UFC org-level halo).
+
+$UFC price signal: ~$120 daily volume makes any post-event
+price movement extremely noisy. Do not over-interpret.
+MICRO_CAP_ILLIQUIDITY flag validated — exit liquidity
+concern confirmed as structurally active.
+
+CALIBRATION VALUE: Both HOLD gate grounds independently
+validated. CHZ CAPITULATION ×0.70 correctly prevented
+entry on a correct directional call — exactly the designed
+behaviour. First MMA record closes with both gate and
+direction correct. Structural precedent for future MMA
+records confirmed.
 
 ---
 
@@ -285,7 +314,7 @@ Both grounds independently sufficient. HOLD is non-negotiable.
 
 ---
 
-*SportMind v4.5.8 · Calibration Record 136 · First MMA Record*
+*SportMind v4.5.9 · Calibration Record 136 · First MMA Record*
 *mma-intelligence-framework.md · CHZ CAPITULATION ×0.70*
 *HOLD gate fired on dual grounds · TFM6 Gate 1 compliant*
-*Result pending — post-match update required*
+*Result verified 2026-08-16 · Direction CORRECT ✅ · HOLD gate CORRECT ✓*

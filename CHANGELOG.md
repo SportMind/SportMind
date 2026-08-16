@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.5.10] — 2026-08-16
+
+### Changed
+- community/calibration-data/mma/ufc-330-makhachev-vs-machado-garry-2026-08-15.md
+  (UPDATED): Post-match result filed. Direction HOME (Makhachev)
+  CORRECT ✅ · Method: Unanimous Decision (49-46 · 49-46 · 48-47) ·
+  Full 5 rounds · HOLD gate CORRECT ✓ (dual grounds: CAPITULATION +
+  MICRO_CAP_ILLIQUIDITY both validated). Historic note: Makhachev's
+  17th consecutive UFC win — new all-time UFC win streak record,
+  surpassing Anderson Silva's record of 16. MMA-01 ARCHETYPE_MISMATCH
+  flag validated — grappling dominance over elite striker confirmed.
+  MMA-FINISHER_RATE not realised — full championship distance.
+  MICRO_CAP_ILLIQUIDITY structurally confirmed post-event.
+  Status: PENDING_RESULT → COMPLETE. First MMA calibration record
+  in library closed complete. Library v4.5.10.
+
 ## [4.5.9] — 2026-08-16
 
 ### Changed
