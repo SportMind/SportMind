@@ -1,5 +1,21 @@
 # Changelog
 
+## [4.5.14] — 2026-08-16
+
+### Changed
+- community/calibration-data/football/community-shield-afc-vs-city-2026-08-16.md
+  (UPDATED): Post-match result filed. Arsenal 3-0 Manchester City.
+  Direction HOME ($AFC) CORRECT ✅ · 90 minutes · dominant margin.
+  HOLD gate CORRECT ✓ (dual grounds: $AFC 32.8 · $CITY 23.2 — both < 80).
+  CDI asymmetry CONSOLIDATION vs TRANSITION validated — 3-0 scoreline
+  confirms structural gap larger than pre-match score differential suggested.
+  Arsenal system resilience confirmed despite Saliba/Timber absences.
+  City World Cup lag and Rodri absence structurally confirmed as flagged.
+  Gate 6 Community Shield precedent confirmed as library-quality classification.
+  MCP HOLD gate discrepancy noted — HOLD correctly enforced vs WEAK BUY
+  classification; flag carried to SMI prompt review v4.4.8.
+  Status PENDING_RESULT → COMPLETE. Library v4.5.14.
+
 ## [4.5.13] — 2026-08-16
 
 ### Added

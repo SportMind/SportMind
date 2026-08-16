@@ -9,7 +9,7 @@ tokens: [$AFC, $CITY]
 competition: FA Community Shield 2026
 record_number: 137
 gate: TFM6_GATE_1
-status: PENDING_RESULT
+status: COMPLETE
 ---
 
 # FA Community Shield 2026
@@ -188,28 +188,56 @@ FLAG-08 · PATH_2_SCOPE: $AFC
 
 ## RESULT VERIFIED
 
-- Result: [PENDING — POST-MATCH UPDATE REQUIRED]
-- Method: 90 minutes / AET / Penalties
-- $AFC direction outcome: [PENDING]
-- $CITY direction outcome: [PENDING]
-- HOLD gate outcome: CORRECT ✓ (confirmed pre-match —
-  both adjusted scores below 80 threshold)
+- Result: Arsenal 3-0 Manchester City
+- Method: 90 minutes · full time
+- Direction outcome: CORRECT ✅ — HOME ($AFC) confirmed
+- Margin: 3-0 — dominant victory, not marginal
+- HOLD gate outcome: CORRECT ✓ — both tokens below 80 threshold
+  $AFC adjusted score 32.8 < 80 · $CITY adjusted score 23.2 < 80
 
 ---
 
 ## POST-MATCH NOTES
 
-[PENDING — complete after result confirmed]
+Direction (HOME/Arsenal): CORRECT ✅
+Dominant 3-0 victory — scoreline exceeded directional expectation.
+CDI asymmetry (CONSOLIDATION vs TRANSITION) validated emphatically:
+Arsenal's system continuity under Arteta manifested clearly despite
+key absences (Saliba OUT · Timber OUT). City's structural disruption
+— Maresca competitive debut, Rodri unavailable, mass World Cup lag
+across 6+ key players — visibly impacted performance. TRANSITION ×0.92
+penalty was well-calibrated; 3-0 margin suggests the true CDI gap
+was larger than the score derivation captured.
 
-Key questions post-match:
-· Final score · method of victory (90min / AET / penalties)
-· Did HOME direction ($AFC) prove correct?
-· CDI asymmetry (CONSOLIDATION vs TRANSITION) — did it manifest?
-· Maresca tactical debut signals — any observable system patterns?
-· Saka / Rice / Rodri actual availability vs assumed
-· $AFC / $CITY price action post-result — note under CAPITULATION
-  (muted absolute moves expected regardless of outcome)
-· Dual-token demand pattern — which token responded more?
+INJURY FLAGS RESOLVED:
+Arsenal managed key absences effectively — system resilience confirmed.
+City's World Cup returnees confirmed below peak sharpness as flagged.
+Rodri absence: structural void in City's possession structure confirmed.
+
+GATE 6 PRECEDENT — FIRST COMMUNITY SHIELD RECORD — VALIDATED:
+Result confirms Community Shield classification as SUPER_CUP_EQUIVALENT
+is appropriate. The fixture produced a competitive, meaningful result
+with clear CDI and form signals — not a pre-season friendly pattern.
+Community Shield Gate 6 precedent confirmed as library-quality classification.
+
+MCP HOLD GATE NOTE — RESOLVED:
+MCP output classified $AFC as WEAK BUY (adjusted score 32.8 vs entry
+threshold). Library HOLD gate operates at SMS < 80 — HOLD was correctly
+enforced regardless. Direction proved correct — the HOLD gate protected
+against sizing up in CAPITULATION regime on a signal that was directionally
+right but macro-suppressed. This is exactly the designed behaviour.
+Flag carried to SMI prompt review for v4.4.8.
+
+$AFC/$CITY price action: check post-result on fantokens.com.
+Note under CAPITULATION regime — absolute moves expected to be muted
+regardless of result. Record for demand signal observation only.
+Do not over-interpret under current macro conditions.
+
+CALIBRATION VALUE:
+Record 137 closes with direction CORRECT and HOLD gate CORRECT.
+CDI asymmetry framework validated — CONSOLIDATION vs TRANSITION
+differential produced a 3-0 scoreline. Dual-token Community Shield
+classification confirmed as library-quality. Gate 6 precedent intact.
 
 ---
 
@@ -287,4 +315,4 @@ to ensure HOLD gate language is unambiguous in prompt context.
 
 *SportMind v4.5.12 · Calibration Record 137 · First Community Shield Record*
 *community-shield · dual-token · $AFC + $CITY · CHZ CAPITULATION ×0.70*
-*HOLD gate fired both tokens · TFM6 Gate 1 compliant · Result pending*
+*HOLD gate fired both tokens · TFM6 Gate 1 compliant · Result verified 2026-08-16 · Arsenal 3-0 Manchester City · Direction HOME ($AFC) CORRECT ✅ · HOLD gate CORRECT ✓*
