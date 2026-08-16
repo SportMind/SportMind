@@ -1,5 +1,47 @@
 # Changelog
 
+## [4.5.9] — 2026-08-16
+
+### Changed
+- fan-token/registry/complete-registry.md (UPDATED): $PEPPER entry
+  corrected — false rebrand claim reverted. Kayen Finance (KayenFi /
+  Kayen DEX) restored as the current live independent platform for
+  $PEPPER governance token. No rebrand occurred. FanX (app.fanx.xyz)
+  added as a new separate Section 5 entry — third-party DeFi ecosystem
+  for Fan Tokens on Chiliz Chain, independent from Kayen Finance.
+  FanX products documented: FanX DEX (LIVE) · FanX Prediction Market
+  (TESTNET ONLY · HP-1 · Sept 12 2026 expiry). Kayen Finance and FanX
+  clearly distinguished as separate, unaffiliated entities.
+  Library v4.5.9.
+
+## [4.5.8] — 2026-08-15
+
+### Changed
+- fan-token/registry/complete-registry.md (UPDATED): Omnichain
+  expansion update. $AFC (Arsenal) confirmed on Chiliz Chain +
+  Solana + Base since 2026-05-26 — first Fan Token deployed on all
+  three chains simultaneously (UCL Final deployment). $MENGO ·
+  $VERDAO · $FLU · $VASCO · $SPFC confirmed on Chiliz Chain + Solana
+  since 2026-08-12 — Brazilian club token Solana wave via LayerZero
+  OFT · unified supply. $SCCP · $GALO · $SACI · $BAHIA unchanged —
+  no Tier 1 confirmation of Solana deployment. $CITY flagged
+  MULTICHAIN MONITOR — no Tier 1 confirmation of Solana or Base
+  deployment as of August 2026. Registry overview counts updated.
+  Omnichain Note section updated with Brazilian wave documentation.
+  All sources: chiliz.com (Tier 1). Library v4.5.8.
+- community/calibration-data/mma/ufc-330-makhachev-vs-machado-garry-2026-08-15.md
+  (NEW): UFC 330 · Welterweight Championship · Main Event ·
+  2026-08-15 · Islam Makhachev vs Ian Machado Garry ·
+  Xfinity Mobile Arena · Philadelphia. $UFC single-token.
+  Record 136. FIRST MMA CALIBRATION RECORD IN LIBRARY.
+  New directory: community/calibration-data/mma/ created.
+  Direction: HOME (Makhachev). Result: PENDING.
+  HOLD gate CORRECT ✓. Score: 55.0 × 0.70 = 38.5 → HOLD.
+  7 standard flags · 7 MMA-specific flags · SMS 100.0.
+  CHZ CAPITULATION ×0.70 active · micro-cap illiquidity flag
+  active ($UFC ~$171K market cap · ~$120 daily volume).
+  MMA framework: mma-intelligence-framework.md. Library v4.5.8.
+
 ## [4.5.7] — 2026-08-14
 
 ### Changed

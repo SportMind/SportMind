@@ -229,14 +229,25 @@ Role: Gas token for Chiliz Chain. Primary trading pair for all Fan Token purchas
 Omnichain: YES | Chains: Chiliz Chain, Solana, Base
 Note: Not a Fan Token. Do not apply Fan Token intelligence frameworks.
 
-**$PEPPER — Kayen governance token**
-Role: Governance token for KayenFi (Kayen DEX) — the Chiliz-native Fan Token DEX.
-Official name as of 2026: KayenFi. Also referenced as Kayen DEX in library files.
+**$PEPPER — Kayen Finance governance token**
+Role: Governance token for Kayen Finance (KayenFi / Kayen DEX) — the Chiliz-native Fan Token DEX.
+Official name: Kayen Finance · also referenced as KayenFi and Kayen DEX in library files.
+Live independent platform — no rebrand. Not affiliated with FanX (separate entity — see below).
 Omnichain: YES | Chains: Chiliz Chain, Solana
 Note: Not a Fan Token. Relevant for DeFi integration reasoning when assessing Fan Token
-liquidity pools on KayenFi / Kayen DEX. Do not apply Fan Token intelligence frameworks.
-Name note: encode as "Chiliz-native Fan Token DEX (KayenFi / Kayen DEX as of 2026)"
-for structural longevity — platform names may evolve.
+liquidity pools on Kayen Finance DEX. Do not apply Fan Token intelligence frameworks.
+Name note: encode as "Chiliz-native Fan Token DEX (Kayen Finance / KayenFi)"
+for structural accuracy. Platform is live and independent as of August 2026.
+
+**FanX — app.fanx.xyz**
+Role: Third-party DeFi ecosystem for Fan Tokens powered by Chiliz Chain.
+NOT affiliated with Chiliz Group or Kayen Finance ($PEPPER). Separate independent entity.
+Products:
+  · FanX DEX — LIVE · swap interface for Fan Tokens on Chiliz Chain.
+  · FanX Prediction Market — TESTNET ONLY · HP-1 · Sept 12 2026 expiry
+    ($CHZ UP/DOWN markets · Chiliz Spicy Testnet).
+Note: Not a Fan Token. Do not conflate with Kayen Finance or $PEPPER.
+Do not apply Fan Token intelligence frameworks.
 
 ---
 
