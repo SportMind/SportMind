@@ -1,5 +1,38 @@
 # Changelog
 
+## [4.5.11] — 2026-08-16
+
+### Changed
+- Website audit v4.5.10 — 9 of 10 pages checked and updated
+  (docs.html not provided — audit pending for that page).
+- home/index.html (UPDATED): Library Files stat 800+ → 815+.
+  Verified Records stat 13 → 17. Calibration record counts updated
+  130/13/117 → 136/17/119 (×2 instances: prose + bar meta).
+  Leaderboard stat 800+ files → 815+ files. Version stamps
+  v4.4.4 and v4.4.5 → v4.5.10.
+- get-started.html (UPDATED): Version v4.5.4 → v4.5.10
+  (site footer + menu modal).
+- suite.html (UPDATED): 800+ → 815+ in Telegram kit description.
+  Version v4.4.5 → v4.5.10 (menu modal).
+- first-record.html (UPDATED): Calibration stat 96% → 17 (verified
+  records count). Body text updated 130/13/117 → 136/17/119 with
+  note that first MMA record (Record 136 · UFC 330) is complete.
+  Version v4.4.5 → v4.5.10 (menu modal).
+- integrations.html (UPDATED): Version v4.4.5 → v4.5.10 (menu modal).
+  No content changes required.
+- use-cases.html (UPDATED): "All 14 Mind dimensions" →
+  "All 16 Mind dimensions". Version v4.4.5 → v4.5.10 (menu modal).
+- demo.html (UPDATED): Version v4.4.5 → v4.5.10 (menu modal).
+  No content changes required.
+- agent.html (UPDATED): Version v4.4.5 → v4.5.10 (×3 locations:
+  minfo div · info-item · menu modal).
+- autonomous.html (UPDATED): Version v4.4.5 → v4.5.10 (×2 locations:
+  si div · menu modal).
+- Audit checks PASSED on all 9 pages: logo-dot clean (no regression) ·
+  /start/ hero pill correct · sixteen Mind Dimensions confirmed ·
+  no stale FanX/Kayen rebrand language · no Telegram Bot Kit language.
+  Library v4.5.11.
+
 ## [4.5.10] — 2026-08-16
 
 ### Changed
