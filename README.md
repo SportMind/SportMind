@@ -9,9 +9,9 @@ Load a skill, and your agent immediately understands the sport, the athlete,
 the commercial landscape, and the external forces acting on it.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-4.1.12-green)]()
+[![Version](https://img.shields.io/badge/version-4.5.19-green)]()
 [![Sports](https://img.shields.io/badge/sports-42-blue)]()
-[![Calibration](https://img.shields.io/badge/calibration-137%20records%20%7C%2096%25%2B%20accuracy-green)]()
+[![Calibration](https://img.shields.io/badge/calibration-137%20records%20%7C%2017%20pre--match%20verified-green)]()
 [![Fan Tokens™](https://img.shields.io/badge/fan%20tokens-85%20verified-orange)]()
 [![Validator](https://img.shields.io/badge/validator-passing-green)]()
 
@@ -98,7 +98,7 @@ Use a named bundle: `ftier1-football` · `ftier1-cricket` · `prematch-mma` · `
 ## What the library contains
 
 ```
-760 files · 540 markdown skill files
+815+ files · 595+ markdown skill files
 
 Sport domain:      42 sports · event playbooks · risk variables · agent reasoning prompts
 Athlete:           29 sports · form models · availability · composite modifier (0.55–1.25×)
@@ -112,7 +112,7 @@ Core frameworks:   reasoning patterns · autonomous agent framework · modifier 
                    seven-step reasoning chain · pre-match signal framework · athlete framework
 Platform:          MCP server tools · data connectors · API providers · Chiliz Agent Kit
                    social intelligence · web agent connectors · fraud signals
-Community:         13 verified records (submitted pre-match, outcomes confirmed) · 127 seed records (modifier validation examples) · WC2026 series: 9/9 100% perfect record
+Community:         17 pre-match verified records (submitted pre-match, outcomes confirmed) · 119 seed records (modifier validation examples) · WC2026 series: 9/9 100% perfect record
 Developer tools:   application blueprints · agentic workflow patterns · agent prompts
                    copy-paste templates · compressed summaries · Skills API
 ```
@@ -199,7 +199,7 @@ any LLM (skills are structured markdown, not API wrappers).
 
 ## The calibration record
 
-134 records. 96%+ accuracy. Zero wrong-direction records outside European football draws.
+137 records. 17 pre-match verified. Zero wrong-direction records outside European football draws.
 
 All records are in `community/calibration-data/` — publicly verifiable, pre-submitted
 before real matches. Includes all wrong predictions with root-cause analysis.

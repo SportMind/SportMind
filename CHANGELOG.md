@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.5.20] — 2026-08-16
+
+### Changed
+- README.md (UPDATED · 262L · v4.1.12 → v4.5.19):
+  Version badge corrected v4.1.12 → v4.5.19. Calibration badge
+  updated: 137 records · 17 pre-match verified (96%+ accuracy
+  claim removed — replaced with verified record count per standing
+  rule). File count corrected 760/540 → 815+/595+. Community block
+  corrected: 13 verified/127 seed → 17 pre-match verified/119 seed.
+  Calibration section corrected: 134 → 137 records · 96%+ accuracy
+  → 17 pre-match verified. Library v4.5.20.
+
 ## [4.5.19] — 2026-08-16
 
 ### Changed
