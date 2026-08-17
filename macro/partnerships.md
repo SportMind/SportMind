@@ -1,7 +1,7 @@
 # Partnership Infrastructure Intelligence
 
 **Domain:** macro/partnerships.md
-**Version:** v4.1.24
+**Version:** v4.5.16
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Enduring structural partnerships and platform integrations only.
 Promotional campaigns, time-limited offers, and perishable partnership details excluded.
@@ -90,23 +90,58 @@ Agent rule: Layer 2 is the data input. Layer 1 is the reasoning
 
 ## KAYEN DEX — CHILIZ-NATIVE FAN TOKEN DEX
 
-The Chiliz-native DEX purpose-built for Fan Token liquidity
-is named KayenFi (also referenced as Kayen DEX in library files).
+The Chiliz-native DEX purpose-built for Fan Token liquidity is
+Kayen Finance (KayenFi / Kayen DEX). Independent third-party platform.
 
 ```
-PLATFORM: KayenFi (Kayen DEX)
+PLATFORM: Kayen Finance (KayenFi / Kayen DEX)
 Chain: Chiliz Chain (primary) + Solana (bridge liquidity)
 Function: on-chain Fan Token spot trading and liquidity pools
-Governance token: $PEPPER (Kayen governance — not a Fan Token)
+Governance token: $PEPPER (Kayen Finance governance — not a Fan Token)
 
-NAME NOTE: Platform names may evolve. Encode as
-  "Chiliz-native Fan Token DEX (KayenFi / Kayen DEX as of 2026)"
-  when referencing in agent reasoning to allow for future
-  name changes without structural obsolescence.
+IDENTITY NOTE: Kayen Finance (KayenFi / Kayen DEX) is a live,
+  independent third-party DEX. It is NOT a Chiliz Group product.
+  $PEPPER is the Kayen Finance governance token — it is NOT a
+  Chiliz fan token. No rebrand has occurred. The platform
+  operating at kayen.finance is confirmed live as of 2026.
 
 Agent rule: Kayen DEX campaign volume is a confirmed structural
   demand lever during major fixture events. See:
   fan-token/defi-integration-intelligence.md — DEX Campaign Volume.
+```
+
+---
+
+## FANX — SEPARATE THIRD-PARTY DEFI ECOSYSTEM
+
+FanX (app.fanx.xyz) is a separate third-party DeFi ecosystem
+for Fan Tokens on Chiliz Chain. It is NOT affiliated with
+Chiliz Group or Kayen Finance. These are two independent platforms.
+
+```
+  PLATFORM: FanX (app.fanx.xyz)
+  Chain: Chiliz Chain
+  Status: INDEPENDENT THIRD-PARTY — not a Chiliz product
+  Relationship to Kayen Finance: NONE — separate entity
+
+  FanX DEX: LIVE
+    Swap interface for Fan Tokens on Chiliz Chain.
+    Operates independently of Kayen DEX.
+    Agent rule: do NOT aggregate FanX DEX volume with Kayen DEX
+    volume — these are separate platforms, separate liquidity pools.
+
+  FanX Prediction Market: TESTNET ONLY (as of August 2026)
+    NOT a live demand signal.
+    HP-1 monitor — mainnet launch signal pending.
+    Expiry: September 12 2026 (HP-1 TFM5).
+    Agent rule: TESTNET status must be confirmed before applying
+    any demand modifier. Do not treat testnet as live.
+
+  CRITICAL DISTINCTION:
+    Kayen Finance = live independent DEX · $PEPPER governance
+    FanX = separate third-party ecosystem · DEX live · prediction
+    market testnet only
+    These are NOT the same platform. Never conflate.
 ```
 
 ---
@@ -183,27 +218,29 @@ AGENT RULE — US COLLEGE FAN TOKENS:
 
 | Dimension | Status | Notes |
 |---|---|---|
-| Intelligence (1) | ACTIVE | Wallet, platform, and US market entry signals |
-| Reasoning (2) | ACTIVE | Custody model, NIL utility layer, demand motivation logic |
-| Context (3) | ACTIVE | Geographic reach, fandom profile, regulatory enablement |
+| Intelligence (1) | ACTIVE | Wallet, platform, Kayen Finance, FanX, and US market entry signals |
+| Reasoning (2) | ACTIVE | Custody model, NIL utility layer, FanX/Kayen separation, demand motivation logic |
+| Context (3) | ACTIVE | Geographic reach, fandom profile, regulatory enablement, DeFi ecosystem context |
 | Memory (4) | NOT APPLICABLE | — |
-| Judgment (5) | ACTIVE | Correct wallet model; US vs European framework distinction |
+| Judgment (5) | ACTIVE | Correct wallet model; US vs European framework distinction; Kayen ≠ FanX |
 | Attention (6) | NOT APPLICABLE | — |
 | Communication (7) | NOT APPLICABLE | — |
-| Verification (8) | ACTIVE | Platform capability and mechanic confirmation required |
-| Learning (9) | EMERGING | US college mechanic TBC — monitor for update |
-| Integration (10) | ACTIVE | Cross-references DeFi, registry, adoption, regulatory frameworks |
+| Verification (8) | ACTIVE | Platform capability, mechanic confirmation, FanX testnet status required |
+| Learning (9) | ACTIVE | US college mechanic TBC · FanX prediction market mainnet pending · ongoing |
+| Integration (10) | ACTIVE | Cross-references DeFi, registry, adoption, regulatory, defi-integration-intelligence |
 | Calibration (11) | NOT APPLICABLE | — |
-| Adaptation (12) | EMERGING | US college programme may expand; mechanic may be confirmed |
+| Adaptation (12) | EMERGING | US college programme may expand; FanX mainnet may launch |
 | Ethics (13) | NOT APPLICABLE | — |
-| Transparency (14) | ACTIVE | Performance mechanic flagged as TBC; not assumed |
+| Transparency (14) | ACTIVE | Performance mechanic flagged TBC · FanX testnet status explicit · Kayen independence noted |
+| Execution (15) | ACTIVE | Agent rules enforced: Kayen ≠ FanX · no volume aggregation · TESTNET flag applied |
+| Collaboration (16) | ACTIVE | Cross-references defi-integration-intelligence · complete-registry · agent-failure-modes |
 
 ---
 
 ## COMPATIBILITY
 
-- fan-token/defi-integration-intelligence.md — DEX campaign volume framework
-- fan-token/registry/complete-registry.md — $PEPPER Kayen governance token
+- fan-token/defi-integration-intelligence.md — DEX campaign volume framework · Kayen Finance and FanX platform intelligence (v4.5.15)
+- fan-token/registry/complete-registry.md — $PEPPER Kayen governance token · FanX Section 5 entry
 - macro/fan-adoption-intelligence.md — Tier 1/2/3 demand and onboarding context
 - fan-token/agent-failure-modes-fan-token.md — FM1 cross-reference
 - macro/macro-regulatory-sportfi.md — SEC/CFTC March 2026 guidance (US market enabler)

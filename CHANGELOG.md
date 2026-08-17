@@ -1,5 +1,38 @@
 # Changelog
 
+## [4.5.16] — 2026-08-16
+
+### Changed
+- macro/partnerships.md (UPDATED · 212L → 249L · v4.1.24 → v4.5.16):
+  Kayen DEX section corrected — "NAME NOTE: Platform names may
+  evolve" hedge removed. Header updated: KayenFi → Kayen Finance
+  (KayenFi / Kayen DEX). Platform framing block updated: KayenFi →
+  Kayen Finance. $PEPPER governance line updated to Kayen Finance.
+  IDENTITY NOTE added: Kayen Finance confirmed as live independent
+  third-party DEX (not a Chiliz product). No rebrand occurred.
+  Platform confirmed live at kayen.finance as of 2026.
+  FanX added as new section — FANX — SEPARATE THIRD-PARTY DEFI
+  ECOSYSTEM: FanX (app.fanx.xyz) · NOT affiliated with Chiliz or
+  Kayen Finance · FanX DEX (LIVE) vs FanX Prediction Market
+  (TESTNET ONLY · HP-1 · Sept 12 2026 expiry) distinguished ·
+  agent rules: do not conflate · do not aggregate volumes ·
+  TESTNET not live demand signal · CRITICAL DISTINCTION block added.
+  MIND DIMENSIONS: 14 → 16 (Execution + Collaboration added) ·
+  Learning EMERGING → ACTIVE · Adaptation note updated ·
+  all existing dimension notes updated to reflect FanX/Kayen scope.
+  Compatibility block: defi-integration-intelligence.md reference
+  updated with Kayen Finance and FanX platform intelligence (v4.5.15) ·
+  complete-registry.md note updated to include FanX Section 5.
+  Resolves false rebrand language from Chat 9 handoff error.
+
+### Pending (Item 2 — R134 MENGO direction correction):
+  community/calibration-data/football/[R134 filename] — file path
+  not resolvable from this environment (GitHub raw directory listing
+  unavailable · API rate limit reached). R134 MENGO Libertadores R16
+  first leg direction correction (INCORRECT ❌ · seed record error)
+  requires the exact filename. Upload the R134 file directly in
+  the next session to complete this item. Library v4.5.16.
+
 ## [4.5.15] — 2026-08-16
 
 ### Changed
