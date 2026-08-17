@@ -1,7 +1,7 @@
 # EU MiCA Framework — Fan Token Intelligence
 
 **Domain:** macro/regulatory/eu-mica.md
-**Version:** v4.5.17
+**Version:** v4.5.18
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Markets in Crypto-Assets Regulation (MiCA) — fan token
 classification, CASP obligations, passporting, market abuse provisions,
@@ -109,6 +109,12 @@ STAGE 1 — CHZ TOKEN WHITE PAPER:
       The Chiliz Group Limited
   NOTE: This is the CHZ native asset white paper — it is NOT the
   white paper for individual fan tokens. Do not conflate.
+
+  CANONICAL SOURCES (Tier 1 · chiliz.com):
+    v1.0: https://www.chiliz.com/CHZ_whitepaper_v1.0.pdf
+          Applicable: August 1 2025 → October 10 2025
+    v1.1: https://www.chiliz.com/CHZ_whitepaper_v1.1.pdf
+          Applicable: October 10 2025 → current
 
 STAGE 2 — INDIVIDUAL FAN TOKEN WHITE PAPERS:
   Registration process for individual fan token white papers with

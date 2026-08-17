@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.5.18] — 2026-08-16
+
+### Changed
+- macro/regulatory/eu-mica.md (UPDATED · 298L → 304L · v4.5.17 → v4.5.18):
+  CHZ white paper canonical PDF URLs added to Stage 1 block.
+  v1.0: chiliz.com/CHZ_whitepaper_v1.0.pdf (August 1 2025 →
+  October 10 2025) · v1.1: chiliz.com/CHZ_whitepaper_v1.1.pdf
+  (October 10 2025 → current). Tier 1 · chiliz.com.
+  Library v4.5.18.
+
 ## [4.5.17] — 2026-08-16
 
 ### Changed
