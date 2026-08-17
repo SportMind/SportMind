@@ -1,7 +1,7 @@
 # EU MiCA Framework — Fan Token Intelligence
 
 **Domain:** macro/regulatory/eu-mica.md
-**Version:** v4.1.40
+**Version:** v4.5.17
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Markets in Crypto-Assets Regulation (MiCA) — fan token
 classification, CASP obligations, passporting, market abuse provisions,
@@ -89,6 +89,43 @@ PASSPORTING:
 AGENT RULE: Any fan token trading platform offering services to EU
   retail customers must be CASP-authorised. Unauthorised operation
   in the EU is prohibited from December 2024 onwards.
+```
+
+---
+
+## Individual Fan Token White Paper Registration
+
+```
+TWO-STAGE WHITE PAPER PROCESS:
+
+STAGE 1 — CHZ TOKEN WHITE PAPER:
+  CHZ MiCA white paper registered with ESMA (Tier 1: chiliz.com
+  confirmed). Initial version applicable from August 1 2025.
+  Revised version October 10 2025 following:
+    · Pepper8 governance proposal — amended CHZ inflation schedule
+      via hard fork (supply mechanic change = material change =
+      white paper revision obligation triggered per Rule 8)
+    · Corporate name change: HX Entertainment Limited →
+      The Chiliz Group Limited
+  NOTE: This is the CHZ native asset white paper — it is NOT the
+  white paper for individual fan tokens. Do not conflate.
+
+STAGE 2 — INDIVIDUAL FAN TOKEN WHITE PAPERS:
+  Registration process for individual fan token white papers with
+  ESMA via MFSA notification has been started (confirmed September
+  2025 · Tier 1: chiliz.com).
+
+  Named tokens confirmed in pipeline (Tier 2: MiCA Crypto Alliance
+  · April 2026 snapshot):
+    $CHZ · $DOJO · $POR · $ARG · $CITY · $GAL · $TRA ·
+    $MENGO · $SPURS
+
+  IMPORTANT: This list is a snapshot — do not treat as exhaustive
+  or final. Encode as: "process started · named tokens confirmed
+  in pipeline · full registry TBC." Verify via ESMA register for
+  current registration status of any specific token.
+
+  STATUS: PROCESS STARTED · NOT ALL TOKENS COMPLETE (as of 2026)
 ```
 
 ---
@@ -199,6 +236,29 @@ RULE 8 — WATCH WHITE PAPER UPDATES:
   white paper update is required under MiCA. This is a monitoring
   signal — material changes without white paper update =
   potential MiCA violation.
+
+RULE 9 — CHZ WHITE PAPER ≠ FAN TOKEN WHITE PAPER:
+  The CHZ MiCA white paper covers the CHZ native asset only.
+  Individual fan tokens require separate white paper registrations
+  via MFSA notification to ESMA. Never conflate the two — they
+  are distinct compliance obligations for distinct assets.
+
+RULE 10 — INDIVIDUAL FAN TOKEN WHITE PAPER STATUS:
+  Individual fan token white paper registration is IN PROGRESS
+  as of 2026. Named tokens confirmed in pipeline include
+  $DOJO · $POR · $ARG · $CITY · $GAL · $TRA · $MENGO · $SPURS.
+  Do not assume all fan tokens have completed white paper
+  registration — verify via ESMA register for current status.
+  Status: PROCESS STARTED · NOT ALL TOKENS COMPLETE.
+
+RULE 11 — WHITE PAPER REVISION SIGNAL:
+  White paper revisions are required for material changes (Rule 8).
+  The CHZ white paper was revised October 10 2025 following the
+  Pepper8 governance proposal (supply schedule change). Apply this
+  as a monitoring pattern: any confirmed Fan Token Play or supply
+  mechanic change may trigger a white paper revision obligation
+  for affected tokens. Monitor for white paper update filings
+  when supply mechanics change on any MiCA-registered fan token.
 ```
 
 ---
@@ -233,5 +293,6 @@ RULE 8 — WATCH WHITE PAPER UPDATES:
 - macro/macro-regulatory-sportfi.md — GENIUS Act (US) parallel
 - fan-token/registry/complete-registry.md — EU-traded fan tokens subject to MiCA
 - fan-token/agent-failure-modes-fan-token.md — FM1 cross-reference (market abuse timing)
+- macro/chz-tokenomics.md — CHZ Dragon8 supply model (Pepper8 governance proposal context)
 
 © 2026 SportMind

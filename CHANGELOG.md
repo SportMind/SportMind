@@ -1,5 +1,32 @@
 # Changelog
 
+## [4.5.17] — 2026-08-16
+
+### Changed
+- macro/regulatory/eu-mica.md (UPDATED · 237L → 298L · v4.1.40 → v4.5.17):
+  New section added: ## Individual Fan Token White Paper Registration.
+  Inserted between CASP Obligations and Market Abuse Provisions.
+  Two-stage white paper process documented:
+  Stage 1 — CHZ token white paper: ESMA registered · initial version
+  August 1 2025 · revised October 10 2025 post-Pepper8 governance
+  proposal (supply schedule change via hard fork) and corporate name
+  change (HX Entertainment Limited → The Chiliz Group Limited).
+  CHZ white paper ≠ individual fan token white papers — distinct assets.
+  Stage 2 — Individual fan token white papers: registration process
+  started via MFSA → ESMA notification (September 2025 · Tier 1
+  confirmed). Named tokens in pipeline (Tier 2 · MiCA Crypto Alliance
+  · April 2026 snapshot): $CHZ · $DOJO · $POR · $ARG · $CITY · $GAL
+  · $TRA · $MENGO · $SPURS. Status: PROCESS STARTED · NOT ALL TOKENS
+  COMPLETE. List encoded as snapshot — full registry TBC via ESMA.
+  Three new agent rules added (8 → 11 total):
+  Rule 9 — CHZ white paper ≠ fan token white paper (distinct obligations).
+  Rule 10 — Individual fan token white paper status: IN PROGRESS ·
+  named tokens in pipeline · verify ESMA register for current status.
+  Rule 11 — White paper revision as monitoring signal: Pepper8
+  precedent confirms supply mechanic changes trigger revision obligation.
+  Compatibility block: macro/chz-tokenomics.md added (Pepper8 context).
+  Unlocks SMI prompt bump v4.4.7 → v4.4.8. Library v4.5.17.
+
 ## [4.5.16] — 2026-08-16
 
 ### Changed
