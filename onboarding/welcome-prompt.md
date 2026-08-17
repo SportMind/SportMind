@@ -234,7 +234,8 @@ cite the specific law. Token status: docs.chiliz.com or fantokens.com.
 SPORTMIND QUICK REFERENCE:
 
 Library: 815+ files · 42 sports · 85+ verified fan tokens
-Calibration: 134 records · 17 pre-match verified · 117 seed
+Calibration: 137 records · 17 pre-match verified · 119 seed
+             (42 sports · R137 Community Shield complete)
 CHZ regime (August 2026): CAPITULATION x0.70 (~$0.013-$0.018)
 WC2026 record: 9/9 correct · CLOSED
 Burn to Glory tokens: $ARG · $POR · $BELG · $SAFA · $SFA · $SPAIN
@@ -306,3 +307,4 @@ No restructuring of onboarding/ required to add them.
 GitHub: onboarding/welcome-prompt.md (new directory)
 Website: sportmind.dev/start/ — separate build task (TASK 2)
 Library version at time of build: v4.5.2
+Quick Reference updated: v4.5.19 (calibration count 134 → 137 · seed 117 → 119)

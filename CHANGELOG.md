@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.5.19] — 2026-08-16
+
+### Changed
+- macro/chz-tokenomics.md (UPDATED · 188L → 190L · v4.1.7 → v4.5.19):
+  Compatibility block: eu-mica.md added — MiCA white paper revision
+  signal (Pepper8 governance proposal context · v4.5.18).
+- onboarding/welcome-prompt.md (UPDATED · 308L → 310L):
+  Calibration count corrected in Quick Reference: 134 → 137 records
+  · 117 → 119 seed (R135 $FLU · R136 UFC 330 · R137 Community Shield
+  added since v1.0 build at v4.5.2). 42 sports noted. FILE NOTES
+  updated: Quick Reference updated v4.5.19. Library v4.5.19.
+
 ## [4.5.18] — 2026-08-16
 
 ### Changed

@@ -1,7 +1,7 @@
 # CHZ Tokenomics
 
 **Domain:** macro/chz-tokenomics.md
-**Version:** v4.1.7
+**Version:** v4.5.19
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Enduring structural tokenomics architecture only. Specific
 allocation percentages, governance vote outcomes, and perishable
@@ -184,5 +184,7 @@ RULE 4 — DATA FRESHNESS:
 - macro/regulatory/global-regulatory-landscape.md — regulatory context for CHZ
 - macro/partnerships.md — ecosystem infrastructure context
 - fan-token/registry/complete-registry.md — Fan Token revenue sources
+- macro/regulatory/eu-mica.md — MiCA white paper revision signal
+  (Pepper8 governance proposal context · v4.5.18)
 
 © 2026 SportMind
