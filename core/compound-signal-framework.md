@@ -1,7 +1,7 @@
 # Compound Signal Framework
 
 **Domain:** core/compound-signal-framework.md
-**Version:** v4.1.83
+**Version:** v4.5.22
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Layer:** Core reasoning
 **Last updated:** 2026-08-01
@@ -99,10 +99,12 @@ LAYER 4 — CONTEXTUAL
       UCL knockout round: ×1.60
       WC knockout round: ×1.50
       Domestic cup final: ×1.40
-      Derby (confirmed dual-token): ×1.30
+      Derby: see market/rivalry-intelligence.md for tiered
+        weights (v4.5.21). Tier 1 ×1.80 · Tier 2 ×1.65 ·
+        Tier 3 ×1.35-1.70 · Tier 4 ×1.20. Single-token derbies
+        carry reduced weight — see rivalry-intelligence.md.
+        The flat ×1.30 value is superseded by the tiered system.
       Standard league fixture: ×1.00
-
-LAYER 5 — REGULATORY
   Holder tax friction:
     Italy: 33% CGT — confirmed demand suppressor
     Brazil: 17.5% — confirmed demand suppressor
@@ -249,10 +251,12 @@ OCCASION WEIGHT SOURCE:
     UCL knockout round: ×1.60
     WC knockout round: ×1.50
     Domestic cup final: ×1.40
-    Derby (confirmed dual-token): ×1.30
+    Derby: see market/rivalry-intelligence.md for tiered
+      weights (v4.5.21). Tier 1 ×1.80 · Tier 2 ×1.65 ·
+      Tier 3 ×1.35-1.70 · Tier 4 ×1.20. Single-token derbies
+      carry reduced weight — see rivalry-intelligence.md.
+      The flat ×1.30 value is superseded by the tiered system.
     Standard league fixture: ×1.00
-
-PATH_2 INTERACTION WITH OCCASION WEIGHT:
   $AFC PATH_2 is a supply event mechanic — not an occasion weight.
   PATH_2 operates independently of the demand signal stack.
   Highest compound signal context in SportMind library:
@@ -619,6 +623,8 @@ core/temporal-reasoning-framework.md ·
 core/contradiction-resolution-framework.md ·
 fan-token/competition-calendar-framework.md ·
 market/club-intelligence/ (all CDI files) ·
+market/rivalry-intelligence.md — tiered rivalry weights
+  (supersedes flat ×1.30 derby value) ·
 macro/regulatory/ (all regulatory files) ·
 fan-token/registry/complete-registry.md ·
 sports/football/sport-domain-football.md ·

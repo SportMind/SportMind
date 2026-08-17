@@ -1,5 +1,45 @@
 # Changelog
 
+## [4.5.22] — 2026-08-17
+
+### Changed
+- core/compound-signal-framework.md (UPDATED · 629L → 635L ·
+  v4.1.83 → v4.5.22): Derby occasion weight updated in both
+  Layer 4 key values blocks — flat "Derby (confirmed dual-token):
+  ×1.30" value superseded by tiered system in
+  market/rivalry-intelligence.md (v4.5.21). Reference updated
+  to point to rivalry-intelligence.md for Tier 1-4 weights and
+  single-token derby rules. Note: ×1.30 reference in existing
+  Derby della Madonnina worked example retained (historical
+  example of previous value — not a structural definition).
+  Compatibility block: market/rivalry-intelligence.md added.
+  Library v4.5.22.
+
+## [4.5.21] — 2026-08-17
+
+### Added
+- market/rivalry-intelligence.md (NEW · 392L · v4.5.21):
+  Canonical rivalry and derby intelligence framework.
+  Four-tier rivalry classification: Tier 1 SUPER DERBY
+  (×1.80 dual / ×1.50 single) · Tier 2 MAJOR DERBY
+  (×1.65 dual / ×1.35 single) · Tier 3 SIGNIFICANT RIVALRY
+  (×1.50 dual / ×1.35 single · Derby della Capitale ×1.70
+  canonical exception) · Tier 4 STRUCTURAL RIVALRY
+  (×1.20 dual / ×1.10 single). Single-token vs dual-token
+  rules documented. Escalation rule for rival token launches.
+  Canonical rivalry register (8 fixtures): Derby della Madonnina
+  ($INTER/$ACM T1 ×1.80) · Kıtalararası Derbi ($GAL T1 ×1.50 ST) ·
+  Derby d'Italia ($INTER/$JUV T2 ×1.65) · NLD ($AFC/$SPURS T2
+  ×1.65) · El Clásico variant ($BAR/$ATM T2 ×1.65) · Derby della
+  Capitale ($ASR T3 ×1.70 canonical exception) · PSG vs Monaco
+  ($PSG/$ASM T3 ×1.50) · EL watch ($ACM/$JUV T4 ×1.20 — draw-
+  dependent). Rivalry modifier interaction with compound stack
+  (amplification · cancellation · conflict · CAPITULATION).
+  10 agent rules. All 16 Mind Dimensions. Monitors: Real Madrid
+  token (highest priority) · Lazio · Fenerbahçe.
+  All weights uncalibrated — initial structural estimates.
+  Library v4.5.21.
+
 ## [4.5.20] — 2026-08-16
 
 ### Changed
