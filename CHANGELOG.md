@@ -1,5 +1,28 @@
 # Changelog
 
+## [4.5.23] — 2026-08-17
+
+### Added
+- market/trophy-premium-framework.md (NEW · 390L · v4.5.23):
+  Enduring post-event trophy demand modifier framework.
+  Four trophy tiers: Tier 1 PINNACLE (UCL · WC · Libertadores
+  · +0.15 · 24m decay) · Tier 2 MAJOR CONTINENTAL (EL ·
+  Sudamericana · +0.08 · 18m decay) · Tier 3 DOMESTIC TITLE
+  (+0.05 · 12m decay) · Tier 4 DOMESTIC CUP (+0.03 · 6m).
+  Heritage premium for pre-token era wins (one tier lower).
+  Three-stage decay model: ACTIVE (full) · FADING (50%) ·
+  RESIDUAL (25% · Tier 1 only). Stacking cap +0.20 maximum.
+  Wins only — no finalist premium. Canonical register:
+  $PSG UCL 2026 (T1 ACTIVE) · $AVL EL 2025-26 (T2 ACTIVE) ·
+  $INTER Serie A 2025-26 (T3 ACTIVE) · $GAL Süper Lig 2025-26
+  (T3 ACTIVE) · $SPAIN WC2026 (T1 ACTIVE) · $GALO
+  Libertadores 2025 (T1 FADING · ~+0.08 effective Aug 2026).
+  Compound stack position: Layer 2 (CDI) before synthesis.
+  PTG and trophy premium confirmed additive — never conflated.
+  Trophy drought modifier deferred pending fan-base-intelligence.md.
+  8 agent rules. All 16 Mind Dimensions. All values uncalibrated.
+  Library v4.5.23.
+
 ## [4.5.22] — 2026-08-17
 
 ### Changed
