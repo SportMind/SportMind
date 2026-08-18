@@ -1,5 +1,112 @@
 # Changelog
 
+## [4.6.13] — 2026-08-18
+
+### Added
+- intelligence/country-scan/russia.md (NEW · 169L · v4.6.13):
+  Russia Tier A country scan. HP-11 ACTIVE — T-14 as of 2026-08-18.
+  September 1 2026 framework core provisions effective. CBR eligible
+  asset list NOT yet published — BINARY OUTCOME pending: fan tokens
+  eligible (demand signal) vs not eligible (suppressor). No modifier
+  applicable until eligibility confirmed. Daily cbr.ru scan
+  commences September 1. Domestic: no Russian club or national team
+  tokens (national team FIFA suspended — no PTG applicable). Diaspora:
+  EU-resident Russian holders apply host country framework. Open
+  questions: eligible asset list publication · Socios.com Russia
+  licensing. Library v4.6.13.
+
+## [4.6.12] — 2026-08-18
+
+### Added
+- intelligence/country-scan/spain.md (NEW · 198L · v4.6.12):
+  Spain Tier A country scan. Regulatory: MiCA applicable · CNMV ·
+  19-28% progressive CGT (Type D) · Hacienda enforcement active ·
+  PTG burn UNRESOLVED. Fan token landscape: $BAR (Tier 1 100M+ ·
+  COMPOSITE modifier mandatory: Spanish Type D + German Type A) ·
+  $ATM (Tier 2 25M+ · CONSOLIDATION · composite) · $SEV $RSO $LEV
+  $VCF (smaller) · $SPAIN national (WC2026 CHAMPION · Tier 1 trophy
+  premium ACTIVE +0.15 · 8 PTG burns). Real Madrid: NO TOKEN —
+  HIGHEST PRIORITY MONITOR. El Clásico currently single-token.
+  WC2030 co-host Spain/Portugal/Morocco → structural demand amplifier
+  from 2027. Scan log initialised. Library v4.6.12.
+
+## [4.6.11] — 2026-08-18
+
+### Added
+- intelligence/country-scan/france.md (NEW · 182L · v4.6.11):
+  France Tier A country scan. Regulatory: MiCA applicable · AMF/PSAN ·
+  30% flat PFU (Type C) · no holding period incentive · PTG burn
+  UNRESOLVED. Fan token landscape: $PSG (Tier 1 50M+ · CONSOLIDATION ·
+  UCL 2026 champion · Tier 1 trophy premium ACTIVE +0.15 · OFT
+  Solana+Base confirmed · COMPOSITE modifier required: French Type C +
+  German Type A + MENA UNKNOWN) · $ASM (Tier 3 · Tier 3 rivalry
+  x1.50 with $PSG). French national team token: NONE · monitor FFF
+  partnership. MENA holder population: unknown modifier flagged.
+  Scan log initialised. Library v4.6.11.
+
+## [4.6.10] — 2026-08-18
+
+### Added
+- intelligence/country-scan/japan.md (NEW · 177L · v4.6.10):
+  Japan Tier A country scan. Regulatory: FSA · FIEA reclassification
+  effective July 15 2026 (fan tokens now "specified financial
+  instruments") · 55% effective CGT (Type B — HIGHEST IN LIBRARY) ·
+  PTG burn UNRESOLVED · FSA fan token guidance PENDING (highest
+  priority). Fan token landscape: NO Japanese domestic club tokens ·
+  HP-2 (Tokyo Verdy — first Japanese token potential) · FOUR
+  confirmed Japanese holder populations: $INTER $ACM $JUV $PSG
+  — REDUCED SHORT-TERM TRADING modifier active for all four ·
+  FIEA loss carryforward potential (fiscal 2027) → LONG HOLD BIAS
+  if confirmed. Japanese national team token: none. FIEA reclassification
+  is the most significant regulatory event in the library since MiCA.
+  Scan log initialised. Library v4.6.10.
+
+## [4.6.9] — 2026-08-18
+
+### Added
+- intelligence/country-scan/south-africa.md (NEW · 166L · v4.6.9):
+  South Africa Tier A country scan. ACTIVE PROTOCOL: TFM4 T+0
+  August 31 2026 (T-13). SARS daily scan active. Regulatory: FSCA ·
+  CARF implemented 2 March 2026 (first African CARF adopter) ·
+  18% max CGT individual · VDP compliance window active ·
+  ITR12 4522 enforcement live. Fan token landscape: $SAFA national
+  token (WC2026 — 1 PTG burn · eliminated R32 · AFCON 2027 ~5
+  months — next PTG trigger). No South African club tokens. UK-resident
+  South African diaspora: Type D modifier. Impact: MODERATE
+  SUPPRESSION from VDP + CARF + enforcement. Post-August 31:
+  reassess based on SARS enforcement direction. Scan log initialised.
+  Library v4.6.9.
+
+## [4.6.8] — 2026-08-18
+
+### Added
+- intelligence/country-scan/argentina.md (NEW · 180L · v4.6.8):
+  Argentina Tier A country scan. Regulatory: BCRA exchange controls ·
+  AFIP crypto reporting · Bienes Personales wealth tax · UNKNOWN CGT
+  modifier · macro/regulatory/argentina.md HIGHEST PRIORITY gap.
+  Fan token landscape: $ARG national token (WC2026 finalist · 7 PTG
+  burns · no trophy premium — finalist not champion · Copa América
+  2027 ~11 months). Argentine-Italian diaspora: 3-5M overlap —
+  Italian Type C applies to Italian-resident $ARG holders. No domestic
+  club tokens · River Plate/Boca Juniors monitor. Milei exchange
+  control reform: MONITOR. Impact: AMBIGUOUS — inflation hedge
+  amplifies · exchange control suppresses · report separately.
+  Scan log initialised. Library v4.6.8.
+
+## [4.6.7] — 2026-08-18
+
+### Added
+- intelligence/country-scan/portugal.md (NEW · 160L · v4.6.7):
+  Portugal Tier A country scan. Regulatory: MiCA applicable · CMVM ·
+  0% CGT after 365 days · 28% short-term · PTG burn UNRESOLVED.
+  Fan token landscape: $POR national token (WC2026 strong run ·
+  PTG burns ACTIVE) · no Portuguese club tokens. Diaspora: German-
+  Portuguese diaspora = LONG HOLD BIAS for $POR (Type A 0% after
+  12 months — stronger than domestic 365-day threshold). Impact:
+  LONG HOLD BIAS for 365+ day holders · short-term friction suppressor.
+  WC2030 Spain/Portugal co-host: structural demand amplifier from 2027.
+  Scan log initialised. Library v4.6.7.
+
 ## [4.6.5] — 2026-08-18
 
 ### Added
