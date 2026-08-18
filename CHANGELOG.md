@@ -1,5 +1,33 @@
 # Changelog
 
+## [4.5.24] — 2026-08-17
+
+### Added
+- market/fan-base-intelligence.md (NEW · 473L · v4.5.24):
+  Structural fan base size and geography as demand ceiling
+  modifier. Four fan base tiers: Tier 1 GLOBAL MEGACLUB
+  (50M+ · $BAR $PSG $JUV $ACM $INTER $AFC) · Tier 2 MAJOR
+  CLUB (10-50M · $CITY $ATM $SPURS $GAL $NAP $AVL $MENGO
+  $VERDAO) · Tier 3 ESTABLISHED (1-10M · $ASR $BFC $SEV
+  $RSO Brazilian cluster national tokens) · Tier 4 NICHE.
+  Full canonical register: 28 tokens with fan base tier ·
+  estimated size · primary market · key secondary markets ·
+  diaspora flag · penetration gap signal · regulatory overlay.
+  Geographic demand concentration documented: German diaspora
+  (LONG HOLD BIAS · $BAR $JUV $ATM $POR $ARG $GAL) · UK
+  domestic cluster · Italian domestic cluster (33% CGT overlay)
+  · French · Spanish · Turkish · Brazilian clusters (9 tokens).
+  Penetration gap as growth signal: HIGH/MODERATE/LOW.
+  Trophy premium × fan base interaction: Tier 1 fan base
+  amplifies trophy commercial impact · Tier mismatch rule.
+  Trophy drought modifier closes open question from
+  trophy-premium-framework.md: Tier 1/2 only ·
+  ACTIVE DROUGHT -0.03 · EXTENDED -0.05 · HISTORIC -0.08.
+  $SCCP Tier 2 reclassification flagged for monitoring.
+  Real Madrid token monitoring flag (highest priority).
+  10 agent rules. All 16 Mind Dimensions. All values
+  uncalibrated — initial structural estimates. Library v4.5.24.
+
 ## [4.5.23] — 2026-08-17
 
 ### Added
