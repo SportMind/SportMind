@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.5.27] — 2026-08-18
+
+### Changed
+- core/compound-signal-framework.md (UPDATED · 635L → 636L ·
+  v4.5.22 → v4.5.27): Worked Example 2 (Derby della Madonnina)
+  occasion weight corrected — flat ×1.30 → Tier 1 ×1.80 with
+  source reference to market/rivalry-intelligence.md (v4.5.21).
+  Follow-on compound result line also updated ×1.30 → ×1.80.
+  Stale flat value fully removed from library examples.
+  Remaining ×1.30 references are in "superseded" description
+  text only — correctly retained as historical context.
+  Library v4.5.27.
+- market/fan-base-intelligence.md (UPDATED · 514L → 517L ·
+  v4.5.26 → v4.5.27): Compatibility block updated —
+  community/calibration-data/mma/ added ·
+  sports/mma/mma-intelligence-framework.md added ·
+  fan-token/mma-token-intelligence/token-intelligence-mma.md
+  added. MMA intelligence stack now fully cross-referenced
+  from market layer. Library v4.5.27.
+
 ## [4.5.26] — 2026-08-18
 
 ### Changed

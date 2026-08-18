@@ -1,7 +1,7 @@
 # Fan Base Intelligence
 
 **Domain:** market/fan-base-intelligence.md
-**Version:** v4.5.26
+**Version:** v4.5.27
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Structural fan base size and geography as a demand
 ceiling modifier for fan token pre-match signal generation.
@@ -509,6 +509,9 @@ market/rivalry-intelligence.md ·
 market/club-intelligence/ (all CDI files) ·
 macro/regulatory/ (all regulatory files) ·
 core/compound-signal-framework.md ·
-community/calibration-data/football/
+community/calibration-data/football/ ·
+community/calibration-data/mma/
+sports/mma/mma-intelligence-framework.md ·
+fan-token/mma-token-intelligence/token-intelligence-mma.md
 
 © 2026 SportMind

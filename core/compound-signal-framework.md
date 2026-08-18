@@ -1,7 +1,7 @@
 # Compound Signal Framework
 
 **Domain:** core/compound-signal-framework.md
-**Version:** v4.5.22
+**Version:** v4.5.27
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Layer:** Core reasoning
 **Last updated:** 2026-08-01
@@ -485,7 +485,8 @@ EXAMPLE 2 — CANCELLATION WITH DUAL CDI ASYMMETRY
   Layer 4 Contextual:
     Venue: San Siro SHARED — STANDARD ×0.5 for designated home club
     H2H: $INTER lean in recent era — HOME LEAN (verify current)
-    Occasion weight: Derby ×1.30
+    Occasion weight: Derby Tier 1 ×1.80
+      (source: market/rivalry-intelligence.md · v4.5.21)
   Layer 5 Regulatory:
     Italian domestic holders: 33% CGT — confirmed friction
     PTG burn treatment: UNRESOLVED — flag only
@@ -498,7 +499,7 @@ EXAMPLE 2 — CANCELLATION WITH DUAL CDI ASYMMETRY
   Compound result:
     $INTER: directional positive · low-medium confidence.
       Discounted by CAPITULATION ×0.70 + Italian tax friction.
-      Occasion weight ×1.30 applied to discounted result.
+      Occasion weight ×1.80 (Tier 1 Derby) applied to discounted result.
     $ACM: directional only (TRANSITION cap) · low confidence.
       Do not produce high-confidence output for $ACM.
 
