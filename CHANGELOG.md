@@ -1,5 +1,140 @@
 # Changelog
 
+## [4.6.5] — 2026-08-18
+
+### Added
+- intelligence/country-scan/germany.md (NEW · 193L · v4.6.5):
+  Germany Tier A country intelligence. Regulatory: BaFin ·
+  EU MiCA applicable · 0% CGT after 12 months (Type A — BEST IN
+  LIBRARY) · LONG HOLD BIAS structural. Fan token landscape:
+  NO domestic Bundesliga token · Germany is DIASPORA HUB ·
+  LONG HOLD BIAS amplifies minimum 11 tokens: $GAL (Turkish
+  diaspora) · $POR (Portuguese diaspora) · $INTER $ACM $JUV
+  $NAP $ASR $BFC (Italian diaspora) · $BAR $ATM (Spanish
+  diaspora) · $ARG (Argentine diaspora). Any Bundesliga token =
+  highest-value German trigger. Sporting: Bundesliga season
+  starting · no active tokens · no German national token.
+  Impact: STRONG POSITIVE AMPLIFIER · 0% CGT + diaspora
+  multiplier = most favourable demand environment in library.
+  Scan log initialised. Library v4.6.5.
+
+## [4.6.4] — 2026-08-18
+
+### Added
+- intelligence/country-scan/uk.md (NEW · 191L · v4.6.4):
+  UK Tier A country intelligence. Regulatory: FCA primary ·
+  MARC Q4 2027 · FCA gateway T-43 (September 30 2026) ·
+  10-18% CGT (Type D) · HMRC fan token guidance pending. Fan
+  token landscape: 7 domestic club tokens ($AFC $SPURS $CITY
+  $CPFC $AVL $EFC $LUFC) · $AFC PATH_2 ACTIVE · $SFA national
+  token (EURO 2028 co-host · PTG eligible). Sporting: PL season
+  beginning · $AFC UCL 2026-27 · $AVL UCL debut · Community
+  Shield R137 COMPLETE (Arsenal 3-0 Man City · Aug 16). Impact:
+  MODERATE FRICTION · FCA gateway near-term uncertainty ·
+  PATH_2 creates unique $AFC demand dynamic. Scan log initialised.
+  Library v4.6.4.
+
+## [4.6.3] — 2026-08-18
+
+### Added
+- intelligence/country-scan/turkey.md (NEW · 160L · v4.6.3):
+  Turkey Tier A country intelligence. Regulatory: SPK licensed ·
+  TCMB payment ban · CGT UNKNOWN (highest priority gap) · MiCA
+  not applicable. Fan token landscape: 6 domestic tokens ($GAL
+  dominant · CONSOLIDATION · 3 Süper Lig titles · Tier 3 trophy
+  premium ACTIVE). Diaspora: Turkish-German diaspora = LONG HOLD
+  BIAS for $GAL via German holders (largest Turkish diaspora
+  globally). Sporting: Süper Lig season beginning ·
+  Kıtalararası Derbi single-token (Fenerbahçe trigger monitored).
+  Impact: UNCERTAIN FRICTION · inflation hedge may amplify ·
+  German diaspora amplifies $GAL. Scan log initialised.
+  Library v4.6.3.
+
+## [4.6.2] — 2026-08-18
+
+### Added
+- intelligence/country-scan/brazil.md (NEW · 161L · v4.6.2):
+  Brazil Tier A country intelligence. Regulatory: Lei 14.478/2022 ·
+  17.5% CGT (MP 1.303/2025 · ratification T-54) · lapse risk ·
+  PTG burn UNRESOLVED · inverted calendar March-December.
+  Fan token landscape: 9 domestic tokens — largest single-country
+  cluster ($MENGO $VERDAO $FLU $SCCP $SPFC $GALO $SACI $VASCO
+  $BAHIA) · $GALO Libertadores 2025 trophy premium FADING ·
+  $SCCP Tier 2 reclassification monitor. Sporting: Brasileirão
+  active · Copa Libertadores R16 return legs this week (all 4
+  Brazilian tokens · $FLU TONIGHT 23:00 BST Gate 1 · $VERDAO
+  Aug 19 · $MENGO Aug 20 · $SCCP Aug 21) · inverted calendar
+  peak demand NOW. Calibrations parked Chat 11 — resume Chat 12.
+  Impact: MODERATE FRICTION · Libertadores structural demand
+  window. Scan log initialised. Library v4.6.2.
+
+## [4.6.1] — 2026-08-18
+
+### Added
+- intelligence/country-scan/italy.md (NEW · 163L · v4.6.1):
+  Italy Tier A country intelligence. Regulatory: MiCA applicable ·
+  33% CGT flat (HIGHEST FRICTION in library) · PTG burn UNRESOLVED ·
+  CONSOB/Banca d'Italia/ESMA. Fan token landscape: 6 domestic
+  club tokens ($INTER $ACM $JUV $NAP $ASR $BFC — largest single-
+  country European club cluster) · $ITA national token (ZERO
+  WC2026 PTG · FM4 rule · EURO 2028 co-host). Sporting: Serie A ·
+  3 rivalry fixtures (Derby della Madonnina T1 · Derby d'Italia
+  T2 · Derby della Capitale T3) · UCL ($INTER $BFC) ·
+  EL ($ACM $JUV). Impact: HIGH FRICTION · DEMAND SUPPRESSOR ·
+  Japanese secondary 55% amplifies. Open questions: PTG burn tax ·
+  CONSOB guidance · $ASR UCL status. Scan log initialised.
+  Library v4.6.1.
+
+## [4.6.0] — 2026-08-18
+
+### MINOR RELEASE — MARKET INTELLIGENCE LAYER COMPLETE
+
+MARKET INTELLIGENCE LAYER — ALL FILES COMPLETE:
+  rivalry-intelligence.md (v4.5.21) ✓
+  trophy-premium-framework.md (v4.5.23) ✓
+  fan-base-intelligence.md (v4.5.24-v4.5.27) ✓
+  dual-fan-token-match-dynamics.md (v4.5.28) ✓
+  mma-intelligence-framework.md updated (v4.5.25) ✓
+
+SOURCE AND COUNTRY INTELLIGENCE ARCHITECTURE (NEW):
+  intelligence/ directory created ·
+  intelligence/source-registry.md (v4.6.0) ·
+  intelligence/country-scan/ directory created ·
+  intelligence/country-scan/italy.md (v4.6.1) ·
+  intelligence/country-scan/brazil.md (v4.6.2) ·
+  intelligence/country-scan/turkey.md (v4.6.3) ·
+  intelligence/country-scan/uk.md (v4.6.4) ·
+  intelligence/country-scan/germany.md (v4.6.5)
+First release with full source intelligence framework and
+country-by-country intelligence scan architecture.
+
+### Added
+- intelligence/source-registry.md (NEW · 908L · v4.6.0):
+  Canonical source registry for all SMI briefing sources.
+  19 sections: Chiliz ecosystem (Tier 1) · crypto regulatory
+  and macro · regulatory body sources by jurisdiction · sports
+  intelligence · on-chain intelligence · exchange intelligence ·
+  social intelligence protocol · competitor intelligence ·
+  macroeconomic intelligence · technology and product intelligence ·
+  scan frequency schedule · failure mode reference (FM1-FM7) ·
+  new country detection protocol · unknown unknowns open scan
+  protocol · athlete and management intelligence protocol ·
+  partnership and commercial intelligence protocol · sports
+  governance intelligence protocol · annual global scan protocol ·
+  internal SportMind state check. Key sources: CoinDesk ·
+  CoinTelegraph · The Block · Decrypt · DL News · OECD (CARF) ·
+  BBC Sport · Sky Sports · Globo Esporte · TRT Spor ·
+  MMA Fighting · MMA Junkie · Record.pt · ESPN Argentina/TyC ·
+  OKX Blog · Binance Blog · Dune Analytics · Kayen Finance ·
+  chiliz.com/blog · chiliscan.com · Chiliz Chain Explorer ·
+  Chiliz GitHub · esma.europa.eu · mfsa.mt · sars.gov.za ·
+  congress.leg.br · cbr.ru · all jurisdiction regulatory bodies.
+  Split rules encoded per source. FM1-FM7 failure mode reference.
+  New Country Detection Protocol (7 triggers).
+  Unknown Unknowns Open Scan Protocol (weekly · 9 search terms).
+  Annual Global Scan Protocol. Internal State Check (6 items).
+  Library v4.6.0.
+
 ## [4.5.29] — 2026-08-18
 
 ### Changed
