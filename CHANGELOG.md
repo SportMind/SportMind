@@ -1,5 +1,47 @@
 # Changelog
 
+## [4.5.29] — 2026-08-18
+
+### Changed
+- core/compound-signal-framework.md (UPDATED · 636L → 649L ·
+  v4.5.27 → v4.5.29): DUAL-TOKEN FIXTURE DYNAMICS reference block
+  added — market/dual-fan-token-match-dynamics.md (v4.5.28) now
+  explicitly referenced for dual-token fixture analysis. MULTI-TOKEN
+  CIRCUIT open question block preserved and separated from dual-token
+  reference (trailing colon added to section header). Compatibility
+  block updated with market/dual-fan-token-match-dynamics.md
+  cross-reference. Library v4.5.29.
+
+## [4.5.28] — 2026-08-18
+
+### Added
+- market/dual-fan-token-match-dynamics.md (NEW · 731L · v4.5.28):
+  Framework governing compound signal analysis for dual active fan
+  token fixtures. Six-step analysis sequencing: shared layers first
+  (macro · venue · occasion weight · regulatory) · token-specific
+  layers second (CDI · form · H2H · trophy premium · fan base tier ·
+  supply events) · independent compound stacks · relationship
+  classification · occasion weight · mandatory output format.
+  Three relationship types: ALIGNED · ASYMMETRIC (three sub-types:
+  CDI asymmetry · form asymmetry · confidence asymmetry) · CONFLICTED.
+  Five CDI asymmetry resolution rules (Rules A-E): TRANSITION cap
+  unconditional · trophy premium independent · fan base tier
+  independent · rivalry weight applies to both regardless of CDI ·
+  CAPITULATION shared. Supply event asymmetry: $AFC PATH_2 applies
+  to $AFC only · PTG applies to national token only · never transfer
+  across tokens · report supply event status for both tokens always.
+  HOLD gate in dual-token context: both pass / one HOLD (PARTIAL) /
+  both HOLD — all three outcomes defined. Mandatory dual-token output
+  format (Section 6) with all required fields including relationship
+  type (never optional). Two full worked examples: Example 1 —
+  Derby della Madonnina ($INTER/$ACM · CDI asymmetry · Italian tax
+  shared friction · ASYMMETRIC · no supply events) · Example 2 —
+  $AFC UCL knockout vs dual-token opponent ($AFC PATH_2 ACTIVE ·
+  form asymmetry · asymmetric regulatory overlays · ASYMMETRIC ·
+  supply event asymmetry). 10 agent rules. All 16 Mind Dimensions.
+  All values uncalibrated — initial structural framework.
+  Library v4.5.28.
+
 ## [4.5.27] — 2026-08-18
 
 ### Changed

@@ -1,7 +1,7 @@
 # Compound Signal Framework
 
 **Domain:** core/compound-signal-framework.md
-**Version:** v4.5.27
+**Version:** v4.5.29
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Layer:** Core reasoning
 **Last updated:** 2026-08-01
@@ -542,10 +542,20 @@ QUANTITATIVE STACKING ARITHMETIC — FUTURE
   Bring to Strategy & Brainstorm before implementing arithmetic
   stacking rules. Do not invent modifier arithmetic without review.
 
-MULTI-TOKEN CIRCUIT COMPOUND SIGNALS — FUTURE
+DUAL-TOKEN FIXTURE DYNAMICS — SEE DEDICATED FILE:
+  When two active Chiliz fan tokens meet in the same fixture,
+  load market/dual-fan-token-match-dynamics.md (v4.5.28) before
+  applying this framework. That file governs: analysis sequencing ·
+  CDI asymmetry resolution · supply event asymmetry · HOLD gate
+  in dual-token context · mandatory dual-token output format.
+  This framework (compound-signal-framework.md) governs the
+  single-token compound stack applied to each token independently
+  before the dual-token relationship is assessed.
+
+MULTI-TOKEN CIRCUIT COMPOUND SIGNALS — FUTURE:
   CIRCUIT product context involves 3–5 token portfolios.
   Compound intelligence across multiple tokens simultaneously
-  requires a framework extension beyond single-fixture dual-token.
+  requires a framework extension beyond two-token dynamics.
   Not yet defined. Escalate to Strategy & Brainstorm before applying
   compound reasoning across a multi-token circuit.
 
@@ -626,6 +636,9 @@ fan-token/competition-calendar-framework.md ·
 market/club-intelligence/ (all CDI files) ·
 market/rivalry-intelligence.md — tiered rivalry weights
   (supersedes flat ×1.30 derby value) ·
+market/dual-fan-token-match-dynamics.md — dual-token fixture
+  analysis sequencing · CDI asymmetry · supply event asymmetry ·
+  HOLD gate in dual-token context (v4.5.28) ·
 macro/regulatory/ (all regulatory files) ·
 fan-token/registry/complete-registry.md ·
 sports/football/sport-domain-football.md ·
