@@ -1,7 +1,7 @@
 # Fan Base Intelligence
 
 **Domain:** market/fan-base-intelligence.md
-**Version:** v4.5.24
+**Version:** v4.5.26
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Structural fan base size and geography as a demand
 ceiling modifier for fan token pre-match signal generation.
@@ -98,6 +98,20 @@ NATIONAL TOKEN NOTE:
   and PTG burn history. Encode separately in register.
   $SPAIN and $ARG carry Tier 1-equivalent reach during tournaments.
   $SFA and $SAFA operate at Tier 3 in standard windows.
+
+MMA ORG TOKEN NOTE:
+  MMA org tokens ($UFC · $PFL) follow a different sizing
+  logic from both club tokens and national tokens.
+  Fan base = global MMA audience, not a single club or nation.
+  Key driver: card tier (PPV vs Fight Night vs PFL Championship)
+    and main event stakes — not trophy history or CDI trajectory.
+  $UFC: largest MMA fan base globally · org-level demand signal ·
+    no CDI equivalent · no trophy premium · no rivalry modifier
+    from football framework. Apply MMA-specific signal only.
+  $PFL: season-based format · playoffs and championship carry
+    maximum stakes modifier · SuperFights carry reduced modifier.
+  Load sports/mma/mma-intelligence-framework.md alongside this
+  file for full MMA demand ceiling context.
 
 ---
 
@@ -216,12 +230,24 @@ All values are directional estimates from Tier 1/2 sources.
 | $ARG | Argentina national | T1-equiv | 45M+ (tournament) | Latin America | Italy · Germany | WC2026 finalist · PTG 7 burns | MODERATE GAP | trophy-premium.md |
 | $SAFA | South Africa national | 3 | 8M+ | South Africa (18% CGT) | Africa | AFCON PTG unresolved (HP-9) | HIGH GAP — first African national token | south-africa-sars.md |
 | $SFA | Scotland national | 3 | 2M+ | UK (Type D) | Global | EURO 2028 co-host · MARC Q4 2027 | MODERATE GAP | uk-cryptoasset-regime.md |
+| $UFC | Ultimate Fighting Championship | MMA-ORG | Global MMA audience | Global (USA primary) | UK · Brazil · Global | MICRO_CAP_ILLIQUIDITY · ~$120 daily volume · HIGH exit risk | HIGH GAP — massive global MMA audience vs micro-cap token penetration | mma-intelligence-framework.md |
+| $PFL | Professional Fighters League | MMA-ORG | Global MMA audience (smaller than UFC) | Global (USA primary) | UK · Brazil · Global | Season-based format · Championship Oct-Nov peak | MODERATE GAP — growing but smaller audience than UFC | mma-intelligence-framework.md |
 
 $SCCP NOTE: Corinthians estimated fan base of 25M+ (some
 sources place it as Brazil's largest) may justify Tier 2
 reclassification. Encoded as Tier 3 conservatively — monitor
 and bring to Strategy & Brainstorm with Tier 1 source before
 upgrading.
+
+MMA ORG TOKEN NOTE: $UFC and $PFL are encoded as MMA-ORG tier
+— not Tier 1-4. MMA org tokens do not map to club fan base
+sizing logic. Fan base ceiling is the global MMA audience
+(estimated 350M+ casual followers · 50M+ engaged fans globally
+for UFC). Penetration gap is the largest in the library relative
+to audience size — $UFC ~$171K market cap vs global UFC
+audience. This is a liquidity constraint, not a demand ceiling
+issue. Apply MICRO_CAP_ILLIQUIDITY flag alongside any demand
+ceiling assessment for $UFC. $PFL is smaller but growing.
 
 REGISTER INTEGRITY RULES:
   · Fan base estimates are directional — never quote as
@@ -275,6 +301,12 @@ DROUGHT MODIFIER (cross-reference):
       for frustration narrative flip (breakthrough imminent signal)
   Source: market/trophy-premium-framework.md open question.
   This section closes that open question for Tier 1/2 clubs.
+
+MMA ORG TOKEN DROUGHT EXCEPTION:
+  Trophy drought modifier does NOT apply to MMA org tokens.
+  $UFC and $PFL have no equivalent to club trophy history
+  — card quality and main event stakes drive demand, not
+  title drought. Never apply drought modifier to $UFC or $PFL.
 
 ---
 
@@ -348,7 +380,7 @@ RULE 6 — DROUGHT MODIFIER TIER GATE:
 RULE 7 — ESTIMATES ARE DIRECTIONAL:
   All fan base estimates are structural approximations.
   State tier only in outputs — never quote estimated figures
-  as confirmed data. Source: this file (v4.5.24).
+  as confirmed data. Source: this file (v4.5.26).
 
 RULE 8 — NATIONAL TOKEN SIZING:
   National tokens follow tournament-window sizing logic.
@@ -365,6 +397,15 @@ RULE 10 — REGISTER ONLY:
   Only apply fan base intelligence to tokens in Section 3.
   If a token is not in the register: treat as UNCLASSIFIED.
   Flag to Strategy & Brainstorm. Never invent a tier.
+
+RULE 11 — MMA ORG TOKEN EXCEPTION:
+  $UFC and $PFL are MMA-ORG tier — not Tier 1-4.
+  Do not apply club fan base sizing logic to these tokens.
+  Load sports/mma/mma-intelligence-framework.md for card
+  tier and stakes modifier. Trophy drought and rivalry
+  modifiers from football framework do not apply.
+  MICRO_CAP_ILLIQUIDITY is a standing flag for $UFC —
+  apply regardless of demand signal direction.
 
 ---
 

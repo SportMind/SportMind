@@ -1,5 +1,44 @@
 # Changelog
 
+## [4.5.26] — 2026-08-18
+
+### Changed
+- market/fan-base-intelligence.md (UPDATED · 473L → 514L ·
+  v4.5.24 → v4.5.26): MMA ORG TOKEN NOTE added to Section 1
+  after NATIONAL TOKEN NOTE — $UFC/$PFL follow different sizing
+  logic from club and national tokens (card tier and stakes drive
+  demand, not trophy history or CDI). $UFC and $PFL added to
+  canonical register as MMA-ORG tier (not Tier 1-4). $UFC:
+  global MMA audience · MICRO_CAP_ILLIQUIDITY standing flag ·
+  HIGH GAP. $PFL: growing · season-based · Championship Oct-Nov
+  peak. MMA ORG TOKEN NOTE added after $SCCP NOTE — liquidity
+  constraint distinction, ~$171K market cap vs global UFC audience.
+  MMA ORG TOKEN DROUGHT EXCEPTION added to Section 4 — drought
+  modifier does not apply to $UFC or $PFL. RULE 11 added to
+  Section 6: MMA org token exception · load mma-intelligence-
+  framework.md · MICRO_CAP_ILLIQUIDITY standing flag for $UFC.
+  Self-reference in Rule 7 updated to v4.5.26. Library v4.5.26.
+
+## [4.5.25] — 2026-08-18
+
+### Changed
+- sports/mma/mma-intelligence-framework.md (UPDATED · 379L →
+  400L · → v4.5.25): Version stamp added (VERSION: v4.5.25 ·
+  Library Rule: PASSES · Last updated: 2026-08-18 · Chat 11).
+  MMA-FM5 added (market layer files not loaded) — fan-base-
+  intelligence.md required for $UFC/$PFL demand ceiling · trophy
+  premium not applicable to MMA org tokens · football rivalry
+  weights must not be applied to MMA. MIND DIMENSIONS updated:
+  removed 4 duplicate/legacy rows (old Execution · old
+  Collaboration · malformed 15 · 16 NOT APPLICABLE) · replaced
+  with clean 16-dimension standard with full sub-dimensions ·
+  3. Context expanded (3a added) · 2. Reasoning expanded (2c
+  added) · 10. Integration expanded (10b added) · 12. Adaptation
+  expanded (12a added) · 14. Transparency expanded (14c added).
+  Compatibility block updated: fan-base-intelligence.md (v4.5.24)
+  and token-intelligence-mma.md added as explicit references.
+  Library v4.5.25.
+
 ## [4.5.24] — 2026-08-17
 
 ### Added

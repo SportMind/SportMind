@@ -12,6 +12,12 @@ canonical MMA signal intelligence layer for SportMind.
 
 ---
 
+VERSION: v4.5.25
+Library Rule: Six-Month Test PASSES · Proper Noun Test PASSES
+Last updated: 2026-08-18 · Chat 11
+
+---
+
 ## Active Fan Token Promotions
 
 **$UFC — Ultimate Fighting Championship**
@@ -337,6 +343,20 @@ Automatic Library Rule failure — named individuals fail the
 Proper Noun Test. Fix: use archetype descriptors only
 (champion, challenger, finishing specialist, decision fighter).
 
+**MMA-FM5 — Market layer files not loaded**
+MMA intelligence applied without loading market layer files
+(fan-base-intelligence.md · rivalry-intelligence.md ·
+trophy-premium-framework.md). For MMA org-level tokens ($UFC ·
+$PFL), fan base tier determines demand ceiling — not current
+holder count. Org-level tokens use ORGANISATION TIER logic
+(see fan-base-intelligence.md Section 1 National Token Note
+equivalent for MMA). Fix: always load fan-base-intelligence.md
+for $UFC and $PFL demand ceiling context before pre-event
+analysis. Trophy premium does not apply to MMA org tokens —
+no equivalent trophy/title mechanic exists at org level.
+Rivalry intelligence is MMA-specific only (rematches, grudge
+bouts) — do not apply football rivalry weights to MMA.
+
 ---
 
 ## MIND DIMENSIONS
@@ -344,23 +364,21 @@ Proper Noun Test. Fix: use archetype descriptors only
 | Dimension | Sub-dimensions engaged | Status |
 |---|---|---|
 | 1. Intelligence | 1a Domain Knowledge · 1b Signal Awareness · 1c Pattern Recognition · 1d Gap Awareness | ACTIVE |
-| 2. Reasoning | 2a Causal · 2b Probabilistic · 2d Temporal | ACTIVE |
-| 3. Context | 3b Event Context · 3c Historical Context | ACTIVE |
-| 4. Memory | 4b Semantic Memory · 4d Procedural Memory | ACTIVE |
-| 5. Judgment | 5a Uncertainty Weighting · 5b Risk Assessment · 5d Priority Judgment | ACTIVE |
+| 2. Reasoning | 2a Causal · 2b Probabilistic · 2c Multi-Signal · 2d Temporal | ACTIVE |
+| 3. Context | 3a Macro Context · 3b Event Context · 3c Historical Context | ACTIVE |
+| 4. Memory | 4a Episodic Memory · 4b Semantic Memory · 4d Procedural Memory | ACTIVE |
+| 5. Judgment | 5a Uncertainty Weighting · 5b Risk Assessment · 5c Conflict Resolution · 5d Priority Judgment | ACTIVE |
 | 6. Attention | 6a Signal Detection · 6b Urgency Detection · 6c Noise Filtering | ACTIVE |
 | 7. Communication | 7a Output Clarity · 7b Confidence Expression · 7c Format Compliance | ACTIVE |
-| 8. Verification | 8a Source Tier Assessment · 8c On-Chain Verification · 8d Recency Validation | ACTIVE |
+| 8. Verification | 8a Source Tier Assessment · 8b Cross-Verification · 8c On-Chain Verification · 8d Recency Validation | ACTIVE |
 | 9. Learning | 9a Modifier Updating · 9b Error Attribution · 9c Pattern Reinforcement | ACTIVE |
-| 10. Integration | 10a Cross-Layer Synthesis | ACTIVE |
+| 10. Integration | 10a Cross-Layer Synthesis · 10b Tool Coordination | ACTIVE |
 | 11. Calibration | 11a Direction Accuracy · 11b Confidence Calibration · 11c Modifier Validation · 11d Coverage Tracking | ACTIVE |
-| 12. Adaptation | 12b Context Switching · 12c Signal Reweighting | ACTIVE |
+| 12. Adaptation | 12a Regime Detection · 12b Context Switching · 12c Signal Reweighting | ACTIVE |
 | 13. Ethics | 13a Fabrication Prevention · 13b User Safety · 13d Representation Accuracy | ACTIVE |
-| 14. Transparency | 14a Reasoning Chain Visibility · 14b Modifier Disclosure · 14d Limitation Acknowledgement | ACTIVE |
-| Execution | ACTIVE | Autonomous execution triggers, entry/exit conditions, and hard boundaries defined |
-| Collaboration | ACTIVE | Integrates with core frameworks, athlete intelligence, macro layer, and fan token registry |
+| 14. Transparency | 14a Reasoning Chain Visibility · 14b Modifier Disclosure · 14c Source Attribution · 14d Limitation Acknowledgement | ACTIVE |
 | 15. Execution | 15a Entry Discipline · 15b Exit Discipline · 15d Playbook Adherence | ACTIVE |
-| 16. Collaboration | [NOT APPLICABLE] | — |
+| 16. Collaboration | 16a Task Delegation · 16b Context Handoff · 16c Output Coordination | ACTIVE |
 
 ---
 
@@ -370,6 +388,9 @@ Compatible with: Claude · GPT-4 · Gemini · any LLM ·
 sportmind_pre_match · sportmind_macro · sportmind_fan_token_lookup ·
 fan-token/competition-calendar-framework.md ·
 fan-token/registry/complete-registry.md ·
+fan-token/mma-token-intelligence/token-intelligence-mma.md ·
+market/fan-base-intelligence.md — $UFC/$PFL org-level demand
+  ceiling and geographic concentration (v4.5.24) ·
 core/temporal-reasoning-framework.md ·
 core/signal-classification-framework.md ·
 core/contradiction-resolution-framework.md ·
