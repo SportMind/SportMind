@@ -1,5 +1,62 @@
 # Changelog
 
+## [4.6.16] — 2026-08-18
+
+### Added
+- intelligence/country-scan/_registers.md (NEW · 216L · v4.6.16):
+  Consolidated Tier B/C/D country register with underscore prefix
+  for directory sort priority. Tier A directory listing (14 files
+  with correct version numbers per actual CHANGELOG — v4.6.1 through
+  v4.6.15). Tier B weekly scan (11 entries with triggers): Belgium ·
+  Netherlands · Ireland · South Korea · UAE · Saudi Arabia · China ·
+  Australia · Singapore · India · Mexico. Tier C monthly scan
+  (10 entries): Indonesia · Egypt/North Africa · Nigeria · Nordic ·
+  Poland · Czech Republic · Romania · Canada · Luxembourg ·
+  Switzerland. Tier D latent (15 entries with named triggers):
+  Venezuela · Colombia · Morocco · Senegal · Ghana · Ivory Coast ·
+  Kenya · Peru · Chile · Ukraine · Croatia · Serbia · Greece ·
+  Israel · Kazakhstan. New Country Detection Protocol with 7
+  triggers and 4-step escalation procedure. Library v4.6.16.
+
+## [4.6.15] — 2026-08-18
+
+### Added
+- intelligence/country-scan/eu-bloc.md (NEW · 176L · v4.6.15):
+  EU regulatory bloc intelligence — covers EU-level developments
+  affecting all 27 member states simultaneously. MiCA architecture:
+  Title II fan tokens · CASP authorisation · Chiliz/Socios MFSA
+  Malta passporting confirmed. Individual fan token white paper
+  registration: IN PROGRESS via MFSA → ESMA (9 named tokens in
+  pipeline · $CHZ $DOJO $POR $ARG $CITY $GAL $TRA $MENGO $SPURS).
+  EU third-country ban (Council Regulation 2026/1844): Chiliz
+  UNAFFECTED · UAE EXPOSED · monitor. Key institutions: ESMA
+  (weekly) · MFSA monthly (Chiliz regulatory home — most important
+  single regulatory source for Chiliz ecosystem intelligence) ·
+  European Commission on signal · ECB on signal. EU sports
+  governance: UEFA FFP · ESL challenge · EU competition law.
+  OECD CARF: EU implementation tracking. Digital Finance Package
+  tracker: MiCA ✓ · DORA ✓ · MiCA review December 2027 · EU AI Act
+  phased. Scan log initialised. Library v4.6.15.
+
+## [4.6.14] — 2026-08-18
+
+### Added
+- intelligence/country-scan/usa.md (NEW · 212L · v4.6.14):
+  USA Tier A country intelligence. Regulatory: SEC primary risk
+  (ESCALATE immediately on any fan token mention) · CFTC commodity
+  risk · GENIUS Act stablecoins only (fan tokens NOT in scope) ·
+  long-term CGT 0-20% (CONDITIONAL LONG HOLD BIAS after 12 months) ·
+  short-term up to 37% (HIGH FRICTION) · HP-7 US College CONFIRMED
+  launched August 2026 (5 initial tokens · NIL integration ·
+  mechanic TBC · do not update fan-token-play.md yet). Fan token
+  landscape: $UFC $PFL (MMA-ORG primary · MICRO_CAP_ILLIQUIDITY
+  standing flag for $UFC) · $ROUSH (NASCAR) · HP-7 college tokens
+  (new segment) · no US domestic sports team tokens · WC2030 co-host
+  (future PTG inflection point ~4 years). Holder tax: missing from
+  holder-tax-framework.md — Priority 4 gap identified. Impact:
+  CONDITIONAL DEMAND — SEC uncertainty suppressor + LONG HOLD BIAS
+  for patient holders. Scan log initialised. Library v4.6.14.
+
 ## [4.6.13] — 2026-08-18
 
 ### Added
