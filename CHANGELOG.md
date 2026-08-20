@@ -1,5 +1,37 @@
 # Changelog
 
+## [4.6.18] — 2026-08-20
+
+### Added
+- macro/regulatory/argentina.md (NEW · 430L · v4.6.18):
+  Argentina fan token holder regulatory framework — highest-priority
+  regulatory gap in library. Dual-signal demand modifier structure:
+  INFLATION HEDGE AMPLIFIER (positive) + EXCHANGE CONTROL SUPPRESSOR
+  (negative, cepo cambiario). Both signals must never be netted.
+  UNKNOWN CGT modifier in force pending AFIP confirmation.
+  Bienes Personales wealth tax encoded as secondary suppressor.
+  $ARG profile: WC2026 finalist · 7 PTG burns · trophy premium NOT
+  ELIGIBLE · Copa América 2027 next PTG window. $ARG diaspora modifier
+  stack: Italian (Type C) + German (Type A) + Spanish (Type D).
+  Domestic club status: no active Chiliz tokens · River Plate and Boca
+  Juniors as highest-value monitor targets. 6 Agent Rules. 16 Mind
+  Dimensions (all ACTIVE). 9 compatibility references.
+
+## [4.6.17] — 2026-08-20
+
+### Modified
+- fan-token/holder-tax-framework.md (UPDATED · 411L → 472L · v4.6.17):
+  Added United States — Type D jurisdiction section (after Spain, before
+  South Africa). TAX REGIME: short-term up to 37% ordinary income /
+  long-term 0-20%. DEMAND MODIFIER: CONDITIONAL LONG HOLD BIAS + SEC
+  UNCERTAINTY SUPPRESSOR. FBAR/FATCA friction encoded. HP-7 US college
+  tokens (August 2026) flagged monitor-only — no demand modifier until
+  mechanic confirmed. Primary US holder base tokens: $PSG $BAR $JUV
+  $INTER $ACM $CITY $UFC $PFL $ROUSH. Rule 11 added. Section header:
+  10 → 11 Agent Rules. Summary table: USA row added. Mind Dimension 16
+  Collaboration: NOT APPLICABLE → ACTIVE. Compatibility: added
+  intelligence/country-scan/usa.md.
+
 ## [4.6.16] — 2026-08-18
 
 ### Added
