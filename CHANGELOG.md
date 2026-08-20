@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.6.21] — 2026-08-20
+
+### Modified Files
+- fan-token/holder-tax-framework.md (v4.6.17 → v4.6.21 · cosmetic fix)
+  Section header corrected: "Seven Primary Holder Market Profiles" →
+  "Eight Primary Holder Market Profiles". Version stamp updated.
+  No modifier or content changes.
+
 ## [4.6.20] — 2026-08-20
 
 ### New Files

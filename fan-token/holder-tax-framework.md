@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.17
+**Version:** v4.6.21
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -45,7 +45,7 @@ AGENT RULE 2 — PRIMARY HOLDER MARKET DETERMINES MODIFIER:
 
 ---
 
-## Seven Primary Holder Market Profiles
+## Eight Primary Holder Market Profiles
 
 ### Germany — Type A
 
