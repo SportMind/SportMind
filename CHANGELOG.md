@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.6.19] — 2026-08-20
+
+### Website
+- Website audit — all 10 pages updated to v4.6.18 state
+  · index.html: stat bar 4th stat 17/Verified Records → 137/Calibration Records
+    calibration counts ×2 (136 → 137) · version stamps ×2 (v4.5.10 → v4.6.18)
+  · get-started.html: calibration count 134 → 137 · version stamps ×2
+  · docs.html: calibration counts ×3 (136 → 137) · 96% accuracy claim retired
+    ("calibration framework") · version stamp v4.5.11 → v4.6.18
+  · first-record.html: record text updated Record 136/UFC 330 →
+    Record 137/Arsenal 3-0 Man City (Community Shield) · version stamp
+  · suite.html: SMI Telegram agent → SMI intelligence agent ×2 ·
+    Telegram group removed from briefings callout · version stamp
+  · agent.html: version stamps ×3
+  · autonomous.html: version stamps ×2
+  · use-cases.html · demo.html · integrations.html: version stamps ×1 each
+  20/20 verification checks passed
+
 ## [4.6.18] — 2026-08-20
 
 ### Added
