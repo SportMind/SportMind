@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.1.47
+**Version:** v4.6.17
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -45,7 +45,7 @@ AGENT RULE 2 — PRIMARY HOLDER MARKET DETERMINES MODIFIER:
 
 ---
 
-## Six Primary Holder Market Profiles
+## Seven Primary Holder Market Profiles
 
 ### Germany — Type A
 
@@ -231,6 +231,59 @@ AGENT RULE 7 — SPAIN PROGRESSIVE FRICTION:
 
 ---
 
+### United States — Type D
+
+```
+TAX REGIME: Type D — Progressive CGT with short/long-term binary split
+  Short-term (under 12 months): taxed as ordinary income — up to 37%
+    federal rate at top bracket. HIGH FRICTION for active traders.
+  Long-term (12 months+): 0%, 15%, or 20% depending on income bracket.
+    CONDITIONAL LONG HOLD BIAS — 12-month threshold creates structurally
+    similar holding behaviour to Germany (Type A) but with a rate floor
+    rather than zero CGT.
+  FBAR/FATCA: reporting obligations for offshore crypto holdings add
+    compliance overhead and friction for US holders.
+  SEC uncertainty: fan tokens face unresolved securities classification
+    risk in US jurisdiction — applies as a demand suppressor independent
+    of CGT rate. Escalate immediately on any SEC fan token mention.
+  No domestic US sports team fan tokens currently in registry.
+  US is a HOLDER MARKET for foreign club tokens.
+  HP-7: US College tokens confirmed launched August 2026 (5 initial
+    tokens · SEC and Big Ten conferences) — mechanic TBC. Do NOT
+    encode as PTG-equivalent until mechanic confirmed. Monitor only.
+
+DEMAND MODIFIER: CONDITIONAL LONG HOLD BIAS + SEC UNCERTAINTY SUPPRESSOR
+  US holders face a structural 12-month holding incentive (long-term
+  rates 0-20% vs short-term up to 37%). This creates similar temporal
+  holding pressure to German Type A holders — but with a meaningful
+  rate floor rather than zero CGT.
+  The SEC uncertainty suppressor operates independently of CGT —
+  applies to all US holder demand analysis regardless of holding period.
+  Combined effect: patient long-term US holders are incentivised to hold
+  12+ months, but SEC overhang suppresses aggregate US holder demand
+  vs equivalent populations in resolved jurisdictions.
+
+TOKENS WITH US HOLDER BASES (primary):
+  $PSG · $BAR · $JUV · $INTER · $ACM · $CITY
+  (highest-profile European clubs with confirmed US fan bases)
+  $UFC · $PFL — MMA-ORG tier · primary US-domestic tokens in registry
+  $ROUSH (NASCAR) — US domestic holder market
+  HP-7 college tokens — incoming · do not model demand until mechanic
+  confirmed · do not update fan-token-play.md yet
+
+AGENT RULE 11 — US CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
+  Apply CONDITIONAL LONG HOLD BIAS to US holders after 12 months.
+  Apply SEC UNCERTAINTY SUPPRESSOR to all US holder demand analysis —
+  independent of CGT rate.
+  Escalate IMMEDIATELY on any SEC mention of fan tokens or Socios.com.
+  Do not apply any demand modifier for HP-7 college tokens until
+  mechanic is confirmed via Tier 1 source.
+  FBAR/FATCA compliance overhead: treat as friction modifier for
+  US holders with offshore exchange exposure.
+```
+
+---
+
 ### South Africa — Reference Only
 
 ```
@@ -322,13 +375,14 @@ COVERAGE GAP AGENT RULE:
 | UK | Type D (10-18% CGT) | MODERATE | $AFC $SPURS $CITY $CPFC $AVL $EFC $LUFC | MODERATE FRICTION + MARC |
 | France | Type C (30% flat) | MODERATE-HIGH | $PSG | MODERATE-HIGH · NO HOLDING INCENTIVE |
 | Spain | Type D (19-28% progressive) | MODERATE | $BAR $ATM $SEVILLA $RSO $LEV $VCF | PROGRESSIVE FRICTION |
+| USA | Type D (up to 37% short / 0-20% long) | MODERATE-HIGH (short) / MODERATE (long) | $PSG $BAR $JUV $INTER $ACM $CITY $UFC $PFL $ROUSH | CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR |
 | South Africa | Type D (18% max CGT) | MODERATE | $SAFA | see south-africa-sars.md |
 | Brazil | UNKNOWN | UNKNOWN | 9 tokens (see above) | UNKNOWN — await brazil.md |
 | Turkey | UNKNOWN | UNKNOWN | 6 tokens (see above) | UNKNOWN — await turkey.md |
 
 ---
 
-## 10 Agent Rules
+## 11 Agent Rules
 
 ```
 RULE 1 — HOLDER JURISDICTION GOVERNS:
@@ -371,6 +425,12 @@ RULE 10 — COMPLIANCE-DRIVEN SELLING IS TYPE 3 STRUCTURAL:
   Hacienda, Receita Federal), classify as Type 3 Structural signal.
   Applies as a demand-suppressing modifier for that jurisdiction's
   holder population. Not Type 5 operational — enduring structural shift.
+
+RULE 11 — USA CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
+  12-month threshold creates LONG HOLD BIAS for patient US holders.
+  SEC uncertainty applies as demand suppressor independent of CGT.
+  Escalate immediately on any SEC fan token or Socios.com mention.
+  HP-7 mechanic unconfirmed — no demand modifier applicable yet.
 ```
 
 ---
@@ -394,13 +454,14 @@ RULE 10 — COMPLIANCE-DRIVEN SELLING IS TYPE 3 STRUCTURAL:
 | Ethics (13) | ACTIVE | No tax advice framing — this is a demand modifier framework |
 | Transparency (14) | ACTIVE | Unknown modifiers (Brazil, Turkey) explicitly stated |
 | Execution (15) | ACTIVE | Composite modifier calculation for multi-market tokens |
-| Collaboration (16) | NOT APPLICABLE | — |
+| Collaboration (16) | ACTIVE | Multi-jurisdiction composite modifier coordination for multi-market tokens |
 
 ---
 
 ## COMPATIBILITY
 
 - fan-token/registry/complete-registry.md — source of truth for all token-to-country mappings
+- intelligence/country-scan/usa.md — US regulatory and holder market context
 - macro/regulatory/south-africa-sars.md — South Africa detailed coverage
 - macro/regulatory/eu-mica.md — EU regulatory context for European holder markets
 - macro/regulatory/uk-cryptoasset-regime.md — MARC context for UK holder analysis
