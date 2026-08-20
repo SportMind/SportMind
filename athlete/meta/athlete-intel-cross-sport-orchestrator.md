@@ -349,7 +349,6 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
 | 0.70–0.79 | Major degradation — key player out, multiple absences | Skip unless whale signal overrides |
 | Below 0.70 | Severe — multiple outs, backup GK, crisis conditions | Do not enter |
 
-
 ## MIND DIMENSIONS
 
 | Dimension | Status | Notes |
@@ -370,7 +369,6 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
 | Transparency | ACTIVE | Orchestrator routing decision and selected file are always explicit in output |
 | Execution | ACTIVE | Signal generation workflow: apply_athlete_modifier is the execution entry point · routes sub-skill pipeline · returns composite modifier and agent recommendation |
 | Collaboration | ACTIVE | Integrates with all 29+ sport-specific athlete intel files · core reasoning frameworks · fan token registry · macro intelligence |
-
 
 ---
 
@@ -400,6 +398,6 @@ All tokens with upcoming events, ranked by athlete-adjusted signal score.
 
 ---
 
-*SportMind v4.4.7 · MIT License · sportmind.dev*
+*SportMind v4.6.20 · MIT License · sportmind.dev*
 *Cross-sport orchestrator: apply_athlete_modifier is the master pipeline entry point.*
 *All 16 Mind dimensions mapped.*

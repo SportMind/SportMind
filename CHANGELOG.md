@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.6.20] — 2026-08-20
+
+### New Files
+- athlete/meta/athlete-intel-cross-sport-orchestrator.md (NEW · 403 lines)
+  Cross-sport athlete intelligence orchestration layer. 9 commands including
+  apply_athlete_modifier (master pipeline entry point). Master modifier
+  reference table (1.20+ → below 0.70). Autopilot template:
+  athlete_aware_matchday. 16 Mind Dimensions.
+
+- athlete/national-teams/spain.md (NEW · 214 lines · renamed from spain-snft.md)
+  Spain national team ($SPAIN) athlete intelligence framework. All 12 $SNFT
+  references corrected to $SPAIN (active Chiliz Chain token). name field
+  updated: spain-snft → spain. Compatibility registry reference corrected:
+  national-team-tokens.md → fan-token/registry/complete-registry.md.
+  Covers tactical identity, position modifier weights, long-term absence
+  framework, World Cup 2026 demand framework, $SPAIN demand signal framework.
+  16 Mind Dimensions. Version: v4.6.20.
+
 ## [4.6.19] — 2026-08-20
 
 ### Website
