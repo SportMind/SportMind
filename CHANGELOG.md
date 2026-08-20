@@ -1,5 +1,22 @@
 # Changelog
 
+## [4.6.22] — 2026-08-20
+
+### Modified Files
+- fan-token/holder-tax-framework.md (v4.6.21 → v4.6.22)
+  Pending Jurisdictions section cleanup — Brazil and Turkey coverage
+  gap language replaced with reference blocks (South Africa pattern).
+  · Section header: "Pending Jurisdictions (High Priority)" → "Additional Jurisdictions"
+  · Brazil block: HIGH PRIORITY COVERAGE GAP → Reference Only
+    Points to macro/regulatory/brazil.md (v4.1.78) · 17.5% CGT summary ·
+    MP 1.303/2025 ratification risk · inverted calendar note
+  · Turkey block: COVERAGE GAP → Reference Only
+    Points to macro/regulatory/turkey.md (v4.1.79) · UNKNOWN CGT ·
+    TCMB payment ban · SPK licensing · Turkish-German diaspora note
+  · Summary table: Brazil and Turkey rows updated with actual modifier data
+  · Rule 9: UNKNOWN placeholders replaced with enacted framework references
+  · Version: v4.6.21 → v4.6.22
+
 ## [4.6.21] — 2026-08-20
 
 ### Modified Files

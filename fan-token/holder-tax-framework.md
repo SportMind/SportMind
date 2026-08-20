@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.21
+**Version:** v4.6.22
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -306,62 +306,54 @@ AGENT RULE 8: see macro/regulatory/south-africa-sars.md
 
 ---
 
-## Pending Jurisdictions (High Priority)
+## Additional Jurisdictions
 
-### Brazil — HIGH PRIORITY COVERAGE GAP
+### Brazil — Reference Only
 
 ```
-STATUS: No macro/regulatory/brazil.md file exists.
-  Bring to Strategy & Brainstorm before any build action.
+DETAILED COVERAGE: macro/regulatory/brazil.md (v4.1.78)
+  See that file for full Receita Federal framework, CGT rates,
+  MP 1.303/2025 ratification status, and PTG burn treatment.
 
-WHY HIGH PRIORITY:
-  Brazil has the largest concentration of active domestic club fan
-  tokens of any country in the SportMind registry.
+PRIMARY TOKENS: 9 Brazilian club tokens
+  $MENGO (Flamengo) · $VERDAO (Palmeiras) · $FLU (Fluminense)
+  $SCCP (Corinthians) · $SPFC (São Paulo) · $BAHIA (EC Bahia)
+  $GALO (Atletico Mineiro) · $SACI (SC Internacional) · $VASCO (Vasco da Gama)
 
-REGISTRY-CONFIRMED BRAZILIAN CLUB TOKENS (9 tokens):
-  $MENGO (Flamengo)
-  $VERDAO (Palmeiras)
-  $FLU (Fluminense)
-  $SCCP (Corinthians)
-  $SPFC (São Paulo)
-  $BAHIA (EC Bahia)
-  $GALO (Atletico Mineiro)
-  $SACI (SC Internacional)
-  $VASCO (Vasco da Gama)
+KEY MODIFIERS (summary):
+  · 17.5% effective CGT rate (MP 1.303/2025 — subject to ratification)
+  · INVERTED CALENDAR: season March-December · peak demand NOW (August)
+  · PTG burn treatment: UNRESOLVED
+  · Ratification risk: lapse or amendment = immediate library update required
 
-KNOWN TAX SIGNALS (Tier 2 — await primary source):
-  Receita Federal do Brasil has signalled crypto reporting
-  obligations. CARF-equivalent framework expected. No confirmed
-  enacted law at library publication date.
-
-COVERAGE GAP AGENT RULE:
-  Until macro/regulatory/brazil.md exists, apply UNKNOWN modifier
-  to Brazilian holder tax demand for all 9 Brazilian club tokens.
-  Do not apply any other jurisdiction's framework to Brazilian holders.
+AGENT RULE 9 (BRAZIL): see macro/regulatory/brazil.md for full framework.
+  Daily scan: congress.leg.br · escalate if MP lapses or is amended.
 ```
 
 ---
 
-### Turkey — COVERAGE GAP
+### Turkey — Reference Only
 
 ```
-STATUS: No macro/regulatory/turkey.md file exists.
-  KNOWN THIN LAYERS: Turkey gap confirmed in SMI prompt.
+DETAILED COVERAGE: macro/regulatory/turkey.md (v4.1.79)
+  See that file for full SPK licensing framework, TCMB payment ban,
+  CGT status, and MASAK AML obligations.
 
-REGISTRY-CONFIRMED TURKISH CLUB TOKENS (Chiliz Chain):
-  $GAL (Galatasaray)
-  $TRA (Trabzonspor)
-  $ALA (Alanyaspor)
-  $IBFK (Istanbul Basaksehir)
-  $GOZ (Göztepe)
-  $SAM (Samsunspor)
+PRIMARY TOKENS: 6 Chiliz Chain Turkish club tokens
+  $GAL (Galatasaray) · $TRA (Trabzonspor) · $ALA (Alanyaspor)
+  $IBFK (Istanbul Basaksehir) · $GOZ (Göztepe) · $SAM (Samsunspor)
+
+KEY MODIFIERS (summary):
+  · CGT: UNKNOWN — no enacted framework as of library date · monitor
+  · TCMB payment ban: active — Turkish holders investment/speculation only
+  · SPK licensing: CASP licence required — verify before holder analysis
+  · Turkish-German diaspora: LONG HOLD BIAS via German Type A holders ($GAL primary)
 
 NOTE: $BJK (Besiktas) — on Ethereum, NOT Chiliz Chain.
   Do not include $BJK in Chiliz Chain Turkish token analysis.
 
-COVERAGE GAP AGENT RULE:
-  Until macro/regulatory/turkey.md exists, apply UNKNOWN modifier
-  to Turkish holder tax demand for all 6 Chiliz Chain Turkish tokens.
+AGENT RULE 9 (TURKEY): see macro/regulatory/turkey.md for full framework.
+  Monitor: Turkish CGT — escalate immediately on any enacted legislation.
 ```
 
 ---
@@ -377,8 +369,8 @@ COVERAGE GAP AGENT RULE:
 | Spain | Type D (19-28% progressive) | MODERATE | $BAR $ATM $SEVILLA $RSO $LEV $VCF | PROGRESSIVE FRICTION |
 | USA | Type D (up to 37% short / 0-20% long) | MODERATE-HIGH (short) / MODERATE (long) | $PSG $BAR $JUV $INTER $ACM $CITY $UFC $PFL $ROUSH | CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR |
 | South Africa | Type D (18% max CGT) | MODERATE | $SAFA | see south-africa-sars.md |
-| Brazil | UNKNOWN | UNKNOWN | 9 tokens (see above) | UNKNOWN — await brazil.md |
-| Turkey | UNKNOWN | UNKNOWN | 6 tokens (see above) | UNKNOWN — await turkey.md |
+| Brazil | Type C — 17.5% CGT (MP 1.303 — ratification pending) | MODERATE (subject to ratification) | $MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA $GALO $SACI $VASCO | see macro/regulatory/brazil.md |
+| Turkey | UNKNOWN CGT · TCMB payment ban active | UNKNOWN friction · investment/speculation only | $GAL $TRA $ALA $IBFK $GOZ $SAM | see macro/regulatory/turkey.md |
 
 ---
 
@@ -416,9 +408,12 @@ RULE 7 — SPAIN PROGRESSIVE FRICTION:
 RULE 8 — SOUTH AFRICA:
   See macro/regulatory/south-africa-sars.md for full framework.
 
-RULE 9 — BRAZIL AND TURKEY UNKNOWN:
-  Apply UNKNOWN modifier. Do not extrapolate from other jurisdictions.
-  Bring brazil.md and turkey.md to Strategy & Brainstorm as HIGH PRIORITY.
+RULE 9 — BRAZIL AND TURKEY:
+  Brazil: apply 17.5% CGT modifier (MP 1.303/2025 — subject to ratification).
+  Escalate immediately if MP lapses or is amended — modifier reverts to UNKNOWN.
+  Turkey: CGT UNKNOWN — apply UNKNOWN friction modifier until legislation enacted.
+  TCMB payment ban active for all Turkish holders — investment/speculation only.
+  Both: see respective macro/regulatory/ files for full frameworks.
 
 RULE 10 — COMPLIANCE-DRIVEN SELLING IS TYPE 3 STRUCTURAL:
   If a jurisdiction confirms material enforcement increase (SARS,
