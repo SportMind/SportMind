@@ -1,5 +1,24 @@
 # Changelog
 
+## [4.6.23] — 2026-08-20
+
+### New Files
+- macro/regulatory/france.md (NEW · 326 lines)
+  France fan token holder regulatory framework. Single-signal structure:
+  30% flat PFU (Prélèvement Forfaitaire Unique) — MODERATE-HIGH FRICTION.
+  No holding period relief at any duration. No dual-signal structure.
+  Regulatory bodies: AMF (monthly scan) · DGFiP (on signal) · Tracfin.
+  $PSG token profile: UCL 2025-26 champion · Tier 1 trophy premium ACTIVE ·
+  composite modifier decomposition (French/Japanese/US/German holders).
+  MiCA interaction: MFSA Malta authorisation passports to France — no
+  separate AMF authorisation required. 4 Agent Rules. 16 Mind Dimensions
+  (all ACTIVE). 9 compatibility references.
+
+### Modified Files
+- fan-token/holder-tax-framework.md (v4.6.22 → v4.6.23)
+  Compatibility block: macro/regulatory/france.md added after eu-mica.md.
+  Version stamp updated. No other changes.
+
 ## [4.6.22] — 2026-08-20
 
 ### Modified Files
