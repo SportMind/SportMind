@@ -1,5 +1,25 @@
 # Changelog
 
+## [4.6.25] — 2026-08-20
+
+### Modified Files
+- FIRST-RECORD-GUIDE.md (REWRITE · 196 → 306 lines)
+  Full community contributor guide updated from stale v4.1.x
+  state to v4.6.25. Key changes:
+  · HOLD gate section added (HOLD = valid record · never force direction)
+  · CHZ regime / CAPITULATION ×0.70 modifier added to quick template
+  · Template reference corrected: community/calibration-data/TEMPLATE.md →
+    community/calibration-data/CALIBRATION-RECORD-TEMPLATE.md
+  · Option A path updated: first-record/ quickstart →
+    sportmind.dev/start/ Welcome Prompt
+  · National token match section added ($SPAIN $ARG $POR $SAFA $SFA $BELG)
+  · MMA section expanded with weigh-in note and card type guidance
+  · Common mistakes section added (6 rules including named player rule
+    and HOLD discipline)
+  · Black/greyscale logo signal section added
+  · Token list updated with current active tokens
+  · Founding Calibrators: slots 3-10 remain open
+
 ## [4.6.24] — 2026-08-20
 
 ### New Files
