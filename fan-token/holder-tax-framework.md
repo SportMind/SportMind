@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.23
+**Version:** v4.6.24
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -460,6 +460,7 @@ RULE 11 — USA CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
 - macro/regulatory/south-africa-sars.md — South Africa detailed coverage
 - macro/regulatory/eu-mica.md — EU regulatory context for European holder markets
 - macro/regulatory/france.md — France detailed coverage · $PSG holder tax framework
+- macro/regulatory/germany.md — Germany detailed coverage · Type A · diaspora hub · LONG HOLD BIAS
 - macro/regulatory/uk-cryptoasset-regime.md — MARC context for UK holder analysis
 - macro/global-regulatory-landscape.md — four-jurisdiction overview
 - fan-token/fan-holder-behaviour.md — holder behaviour framework

@@ -1,5 +1,28 @@
 # Changelog
 
+## [4.6.24] — 2026-08-20
+
+### New Files
+- macro/regulatory/germany.md (NEW · 406 lines)
+  Germany fan token holder regulatory framework. 0% CGT after 12 months
+  (Type A · §23 EStG) — most favourable holder jurisdiction in library.
+  Single-signal structure: GERMANY LONG HOLD BIAS (positive demand amplifier).
+  Temporal modifier: sub-12m HIGH SHORT-TERM FRICTION · 12m+ LONG HOLD BIAS.
+  Open item: PTG burn income classification under §23 EStG — Finanzamt
+  guidance pending · do not encode as tax-free until confirmed.
+  Diaspora token matrix: LONG HOLD BIAS applies across minimum 11 tokens
+  ($GAL $POR $INTER $ACM $JUV $NAP $ASR $BFC $BAR $ATM $ARG) via Turkish,
+  Portuguese, Italian, Spanish, and Argentine diaspora communities.
+  No domestic Bundesliga or DFB tokens — Germany is a holder market only.
+  Monitor: Borussia Dortmund · Bayern Munich · RB Leipzig · DFB.
+  Regulatory bodies: BaFin (weekly) · BMF (on signal) · ESMA (weekly).
+  4 Agent Rules · 16 Mind Dimensions (all ACTIVE) · 10 compatibility references.
+
+### Modified Files
+- fan-token/holder-tax-framework.md (v4.6.23 → v4.6.24)
+  Compatibility block: macro/regulatory/germany.md added after france.md.
+  Version stamp updated. No other changes.
+
 ## [4.6.23] — 2026-08-20
 
 ### New Files
