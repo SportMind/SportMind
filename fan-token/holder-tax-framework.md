@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.24
+**Version:** v4.6.26
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -284,6 +284,45 @@ AGENT RULE 11 — US CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
 
 ---
 
+### Belgium — Type A
+
+```
+TAX REGIME: Type A — Zero CGT under normal management standard
+  Framework: SPF Finances income classification
+  Normal management (bon père de famille): 0% — zero CGT
+    No hard holding period threshold — behaviour standard governs
+    Long-term infrequent holding reinforces 0% classification
+  Speculative income: 33% + communal surcharge (~50% effective)
+  Professional income: Progressive income tax up to 50%
+  Unlike Germany (§23 EStG 12-month threshold), Belgium has no
+    single trigger date — incentive is continuous and
+    behaviour-driven throughout the holding period
+  Enacted: confirmed via SPF Finances guidance · longstanding
+    Belgian tax doctrine · no enacted legislation as of library date
+
+DEMAND MODIFIER: BELGIUM BEHAVIOUR BIAS
+  Long-term Belgian holders face 0% CGT — positive demand signal.
+  Active traders face classification risk — 33-50% friction layer.
+  No 12-month exit pressure spike — no threshold clustering effect.
+  Net effect: positive demand signal for long-term holders ·
+  friction signal for active traders.
+
+DOMESTIC TOKEN STATUS:
+  $BELG (Belgian national team) — ACTIVE · Chiliz Chain ·
+    primary domestic Belgian market · EURO 2028 co-host PTG active
+  No Jupiler Pro League club tokens in registry.
+  Belgium is a holder market for foreign club tokens and $BELG.
+  Do not create a Belgian club tokens category.
+
+AGENT RULE 12 — BELGIUM BEHAVIOUR BIAS:
+  Apply BEHAVIOUR BIAS modifier to Belgian holders of any active
+  fan token. Long-term infrequent holders: 0% CGT — positive
+  demand signal. Active traders: classification risk — 33% or
+  50% effective rate. $BELG is the primary domestic Belgian token.
+  No Jupiler Pro League tokens in registry — Belgium is a holder
+  market only. No time-threshold model — behaviour standard governs.
+```
+
 ### South Africa — Reference Only
 
 ```
@@ -368,13 +407,14 @@ AGENT RULE 9 (TURKEY): see macro/regulatory/turkey.md for full framework.
 | France | Type C (30% flat) | MODERATE-HIGH | $PSG | MODERATE-HIGH · NO HOLDING INCENTIVE |
 | Spain | Type D (19-28% progressive) | MODERATE | $BAR $ATM $SEVILLA $RSO $LEV $VCF | PROGRESSIVE FRICTION |
 | USA | Type D (up to 37% short / 0-20% long) | MODERATE-HIGH (short) / MODERATE (long) | $PSG $BAR $JUV $INTER $ACM $CITY $UFC $PFL $ROUSH | CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR |
+| Belgium | Type A (0% CGT — normal management) | LOW (long-term) | $BELG | BEHAVIOUR BIAS |
 | South Africa | Type D (18% max CGT) | MODERATE | $SAFA | see south-africa-sars.md |
 | Brazil | Type C — 17.5% CGT (MP 1.303 — ratification pending) | MODERATE (subject to ratification) | $MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA $GALO $SACI $VASCO | see macro/regulatory/brazil.md |
 | Turkey | UNKNOWN CGT · TCMB payment ban active | UNKNOWN friction · investment/speculation only | $GAL $TRA $ALA $IBFK $GOZ $SAM | see macro/regulatory/turkey.md |
 
 ---
 
-## 11 Agent Rules
+## 12 Agent Rules
 
 ```
 RULE 1 — HOLDER JURISDICTION GOVERNS:
@@ -426,6 +466,17 @@ RULE 11 — USA CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
   SEC uncertainty applies as demand suppressor independent of CGT.
   Escalate immediately on any SEC fan token or Socios.com mention.
   HP-7 mechanic unconfirmed — no demand modifier applicable yet.
+
+RULE 12 — BELGIUM BEHAVIOUR BIAS:
+  Apply BEHAVIOUR BIAS modifier to Belgian holders of any active
+  fan token. 0% CGT contingent on normal management classification
+  — no hard holding period threshold. Long-term infrequent holders:
+  positive demand signal. Active traders: classification risk —
+  33% (speculative) or 50% (professional) effective rate.
+  $BELG is the primary domestic Belgian token. No Jupiler Pro
+  League tokens in registry. Never apply a time-threshold model
+  to Belgian holder analysis — behaviour standard governs.
+  See macro/regulatory/belgium.md for full framework.
 ```
 
 ---
@@ -449,7 +500,7 @@ RULE 11 — USA CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
 | Ethics (13) | ACTIVE | No tax advice framing — this is a demand modifier framework |
 | Transparency (14) | ACTIVE | Unknown modifiers (Brazil, Turkey) explicitly stated |
 | Execution (15) | ACTIVE | Composite modifier calculation for multi-market tokens |
-| Collaboration (16) | ACTIVE | Multi-jurisdiction composite modifier coordination for multi-market tokens |
+| Collaboration (16) | ACTIVE | Cross-file coordination with belgium.md Rule 12 · germany.md · france.md · multi-market token composite modifiers |
 
 ---
 
@@ -457,6 +508,7 @@ RULE 11 — USA CONDITIONAL LONG HOLD BIAS + SEC SUPPRESSOR:
 
 - fan-token/registry/complete-registry.md — source of truth for all token-to-country mappings
 - intelligence/country-scan/usa.md — US regulatory and holder market context
+- macro/regulatory/belgium.md — Belgium detailed coverage · Rule 12
 - macro/regulatory/south-africa-sars.md — South Africa detailed coverage
 - macro/regulatory/eu-mica.md — EU regulatory context for European holder markets
 - macro/regulatory/france.md — France detailed coverage · $PSG holder tax framework

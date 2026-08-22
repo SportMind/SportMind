@@ -1,5 +1,34 @@
 # Changelog
 
+## [4.6.26] — 2026-08-20
+
+### New Files
+- macro/regulatory/belgium.md (NEW · 353 lines)
+  Belgium fan token holder regulatory framework. Type A jurisdiction —
+  0% CGT contingent on normal management classification (bon père de
+  famille standard). No hard holding period threshold — behaviour
+  standard governs. Three-tier framework: Tier 1 normal management
+  (0%) · Tier 2 speculative (33% + communal surcharge ~50%) · Tier 3
+  professional (up to 50%). No 12-month exit pressure spike — unlike
+  Germany, no threshold clustering effect. $BELG (Belgian national
+  team) primary domestic token · EURO 2028 co-host PTG active.
+  No Jupiler Pro League club tokens in registry. Monitor: Anderlecht ·
+  Club Brugge · Standard Liège. Diaspora note: Moroccan and Congolese
+  communities present — no active tokens at library date. FSMA (weekly) ·
+  SPF Finances (on signal) · ESMA (weekly). 4 Agent Rules · 16 Mind
+  Dimensions (all ACTIVE) · 7 compatibility references.
+
+### Modified Files
+- fan-token/holder-tax-framework.md (v4.6.24 → v4.6.26)
+  · Belgium section added (before South Africa): Type A ·
+    BEHAVIOUR BIAS · bon père de famille standard · three-tier
+    classification summary · Agent Rule 12
+  · Belgium row added to Cross-Jurisdiction Demand Modifier Summary table
+  · Agent Rules section: 11 → 12 Agent Rules
+  · Rule 12 added: BELGIUM BEHAVIOUR BIAS
+  · Compatibility: macro/regulatory/belgium.md added
+  · Collaboration (16) Mind Dimension note updated
+
 ## [4.6.25] — 2026-08-20
 
 ### Modified Files
