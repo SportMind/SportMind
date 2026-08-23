@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.6.27] — 2026-08-20
+
+### Modified Files
+- community/calibration-data/football/sudamericana-playoff-vasco-vs-medellin-2026-07-29.md
+  (FULL REWRITE · 65 → 372 lines · v4.1.75 → v4.6.27)
+  R130 — Copa Sudamericana 2026 Playoff R32 2nd leg — Vasco da Gama vs
+  Independiente Medellín. Direction CORRECT ✅ · HOLD gate CORRECT ✓.
+  Pre-template stub rewritten to current CALIBRATION-RECORD-TEMPLATE.md
+  standard. All signal values preserved from original submission:
+  base score 55.0 · CAPITULATION ×0.70 · adjusted score 38.5 · HOLD gate
+  enforced · direction HOME · confidence LOW (post-CAPITULATION). Full
+  YAML frontmatter added · Score Derivation · Signal Layers (SMS 83.3
+  HIGH_QUALITY · 5/6 layers loaded · CDI absent) · PTG NOT APPLICABLE
+  (Copa Sudamericana not PTG-eligible) · PATH_2 NOT APPLICABLE ($VASCO
+  not $AFC) · 6 Flags Resolved · 10 Agent Rules Engaged · 16 Mind
+  Dimensions · Source and Verification · backfill note. First Copa
+  Sudamericana calibration record in library.
+
 ## [4.6.26] — 2026-08-20
 
 ### New Files
