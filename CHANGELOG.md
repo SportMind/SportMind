@@ -1,5 +1,78 @@
 # Changelog
 
+## [4.6.28] — 2026-08-24
+
+### Modified Files
+- calibration/2026/wc2026-final-spain-vs-argentina-2026-07-19.md (FULL REWRITE · 9/9)
+  WC2026 Final — Spain vs Argentina. Dual-BTG Final. Direction HOME (Spain) CORRECT ✓.
+  Backfilled to current template standard. Adds MIND DIMENSIONS (16) · Agent Rules ·
+  Score Derivation · Signal Layers · Primary Signal Drivers · Pre-match Engagement
+  Layer · Compatibility · series numbering corrected 9/10 → 9/9. All signal values
+  preserved: base 55.0 · CAPITULATION ×0.70 · adjusted 38.5 · HOLD gate. $SPAIN burn
+  #8 (10% Final rate) · $ARG run terminated at 7 burns. Three concurrent demand
+  mechanisms documented: BTG + Champion Call + Livestream Trading Battle.
+
+- calibration/2026/wc2026-qf-spain-vs-belgium-2026-07-10.md (FULL REWRITE · 5/9)
+  WC2026 Quarter-Final — Spain vs Belgium. First dual-BTG QF in WC2026 series.
+  Direction HOME (Spain) CORRECT ✓. Adds MIND DIMENSIONS · Agent Rules · Score
+  Derivation · Signal Layers · Primary Signal Drivers · Compatibility. Series
+  numbering corrected 5/10 → 5/9. $SPAIN burn #6 (5%) · $BELG eliminated.
+
+- calibration/2026/wc2026-r16-spain-vs-portugal-2026-07-06.md (FULL REWRITE · 4/9)
+  WC2026 Round of 16 — Spain vs Portugal. Dual-BTG R16. Direction HOME (Spain)
+  CORRECT ✓. Adds MIND DIMENSIONS · Agent Rules · Score Derivation · Signal Layers ·
+  Primary Signal Drivers · Flags Resolved · Compatibility. REGISTRY-GAP (RESOLVED)
+  section added: $SPAIN not in 81-token registry at signal time
+  (2026-07-06T18:24:00Z) — resolved v4.1.3. Series numbering corrected 4/10 → 4/9.
+
+- calibration/2026/wc2026-sf-france-vs-spain-2026-07-14.md (FULL REWRITE · 7/9)
+  WC2026 Semi-Final — France vs Spain. Single-token (AWAY $SPAIN). France no fan
+  token. Direction AWAY (Spain) CORRECT ✓. Adds MIND DIMENSIONS · Agent Rules · Score
+  Derivation · Signal Layers · Primary Signal Drivers · Compatibility. NO_HOME_TOKEN
+  flag added. Series numbering corrected 7/10 → 7/9. $SPAIN burn #7 (7.5%).
+
+- calibration/2026/wc2026-sf-england-vs-argentina-2026-07-15.md (FULL REWRITE · 8/9)
+  WC2026 Semi-Final — England vs Argentina. Single-token (AWAY $ARG). England no
+  fan token. Direction AWAY (Argentina) CORRECT ✓. Adds MIND DIMENSIONS · Agent Rules
+  · Score Derivation · Signal Layers · Primary Signal Drivers · Compatibility.
+  NO_HOME_TOKEN flag added. Series numbering corrected 8/10 → 8/9. $ARG burn #7
+  (7.5%). Dual-token Final confirmation noted.
+
+- calibration/2026/wc2026-qf-argentina-vs-switzerland-2026-07-12.md (FULL REWRITE · 6/9)
+  WC2026 Quarter-Final — Argentina vs Switzerland. Single-token ($ARG HOME).
+  Switzerland no fan token. Direction HOME (Argentina) CORRECT ✓. Adds MIND DIMENSIONS
+  · Agent Rules · Score Derivation · Signal Layers · Primary Signal Drivers ·
+  Compatibility. NO_AWAY_TOKEN flag added. Series numbering corrected 6/10 → 6/9.
+  $ARG burn #6 (5%). Tournament burn leader note preserved.
+
+- calibration/2026/wc2026-r16-argentina-vs-egypt-2026-07-07.md (FULL REWRITE · 3/9)
+  WC2026 Round of 16 — Argentina vs Egypt. Single-token ($ARG HOME). Egypt no fan
+  token. Direction HOME (Argentina) CORRECT ✓. Most dramatic match of WC2026 series —
+  Argentina trailed 0-2 at 67 min, won 3-2. Rich post-match narrative preserved.
+  Adds MIND DIMENSIONS · Agent Rules · Score Derivation · Signal Layers · Primary
+  Signal Drivers · Compatibility. Signal quality note preserved and expanded. Series
+  numbering corrected 3/10 → 3/9. $ARG burn #5 (2.5%).
+
+- calibration/2026/wc2026-group-mexico-vs-south-africa-2026-06-11-altcoindaddy.md (FULL REWRITE · 1/9)
+  WC2026 Group Stage — Mexico vs South Africa (@AltcoinDaddy · Founding Calibrator #1).
+  First external calibration record in SportMind history. Single-token ($SAFA AWAY).
+  Mexico no fan token ($MEX does not exist). Direction HOME (Mexico) CORRECT ✓. Adds
+  $SAFA fan token section (contract: 0xf81Aa505Df80278Fc4cF2B050086f678D48bDdCE) —
+  omitted from original. BTG status NOT CONFIRMED — verify fantokens.com. CAPITULATION
+  ×0.70 applied retroactively. Adjusted score corrected 61.0 → 38.5. MIND DIMENSIONS ·
+  Agent Rules · Score Derivation · Signal Layers · Compatibility added. Series
+  numbering corrected 1/10 → 1/9.
+
+- calibration/2026/wc2026-group-mexico-vs-south-africa-2026-06-11-charan0318.md (FULL REWRITE · 2/9)
+  WC2026 Group Stage — Mexico vs South Africa (@charan0318 · Founding Calibrator #2).
+  Second external calibration record in SportMind history. Single-token ($SAFA AWAY).
+  Mexico no fan token. Direction HOME (Mexico) CORRECT ✓. ADJUSTED SCORE FIELD ERROR
+  CORRECTED: original record stated "1.52" (composite modifier value) — corrected to
+  38.5 (55.0 × CAPITULATION ×0.70). SMS 74 preserved. Original action ENTER (reduced)
+  preserved. $SAFA fan token section added (same gap as AltcoinDaddy record). MIND
+  DIMENSIONS · Agent Rules · Score Derivation · Signal Layers · Compatibility added.
+  Series numbering corrected 2/10 → 2/9.
+
 ## [4.6.27] — 2026-08-20
 
 ### Modified Files
