@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.6.30] — 2026-08-24
+
+### Modified Files
+- calibration/2026/ucl-final-psg-vs-arsenal-2026-05-30.md (FULL REWRITE · legacy → v4.6.30)
+  UCL Final 2025/26 — PSG vs Arsenal · 2026-05-30 · Puskás Aréna Budapest.
+  Legacy format (pre-v4.4.8) rewritten to current template standard.
+  Adds: Score Derivation · Primary Signal Drivers · Signal Layers ·
+  Agent Rules · Mind Dimensions (all 16) · Post-Match Notes · Signal
+  Quality Note · Flags Resolved · Compatibility ·  PATH_2 mechanics
+  section · historical significance notes.
+  Key facts preserved: PSG win 1-1 AET (4-3 pens) · Direction CORRECT ✓ ·
+  ANXIETY ×1.00 regime at signal time (pre-CAPITULATION) · base 29.0 ·
+  adjusted 58.0 · ENTER ·  PATH_2 DRAW outcome (90-min rule confirmed
+  0 burned · 0 minted) · PATH_2 correction note (initial LOSS/MINT filing
+  corrected at v4.0.0). R-number dropped from body and footer per
+  calibration/2026/ convention. Legacy reference (Record 130) retained
+  in frontmatter description only.
+
 ## [4.6.29] — 2026-08-24
 
 ### Modified Files
