@@ -1,7 +1,7 @@
 # Russia — Regulatory Framework for Fan Token Holder Analysis
 
 **Domain:** macro/regulatory/russia.md
-**Version:** v4.4.4
+**Version:** v4.6.29
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Russian-resident holder regulatory framework. Bill
 1194918-8 "On Digital Currency and Digital Rights" passed State
@@ -18,7 +18,7 @@ Rosfinmonitoring (financial monitoring) · Federal Tax Service
 July 21 2026 · awaiting Federation Council approval and presidential
 signature · core provisions September 1 2026 · full enforcement
 July 1 2027
-**Last verified:** 2026-07-31
+**Last verified:** 2026-08-24
 
 ---
 
@@ -137,17 +137,34 @@ INVESTOR ACCESS RESTRICTIONS:
   (UNRESOLVED — see below), non-qualified Russian investors
   face structural demand suppression via the 300,000 ruble cap.
 
-ASSET ELIGIBILITY: UNRESOLVED — CRITICAL GAP
-  Bill 1194918-8 does not name eligible crypto assets.
-  Bank of Russia determines asset eligibility via implementing
-  regulations — due October-November 2026.
-  Privacy-focused coins excluded on AML grounds.
-  Bitcoin and Ethereum widely cited as likely first approvals.
-  Fan tokens (Chiliz Chain utility tokens): eligibility
-  UNRESOLVED — not named, not excluded, not confirmed.
-  This is the most consequential unknown for SportMind: if fan
-  tokens are ineligible, Russian residents cannot legally access
-  them via licensed platforms from September 1.
+ASSET ELIGIBILITY LIST PUBLISHED — 2026-08-11:
+  Bank of Russia published its first eligible asset list on
+  August 11 2026 under the draft directive for organised trading.
+  Listed assets: Bitcoin (BTC) · Ethereum (ETH) · Tether USDT.
+  These are the only three assets named on the first list.
+  Fan tokens: NOT LISTED — SUPPRESSOR CONFIRMED.
+  Public consultation on draft directive closed: August 24 2026.
+  Final list expected before September 1 2026 — monitor cbr.ru.
+  Full implementing regulations still due: October-November 2026.
+
+  PRUDENTIAL RISK TREATMENT FOR UNLISTED ASSETS:
+  Assets not admitted to organised trading (i.e. not on the
+  eligible list) are treated by Bank of Russia draft prudential
+  rules as 100% risk weight — deducted from capital in full
+  regardless of size, rather than counted as an asset at all.
+  Listed digital currencies use a clearing organisation's own
+  risk rate, doubled.
+  Fan tokens fall into the unlisted category: 100% risk weight.
+  This is a confirmed demand suppressor for Russian institutional
+  holders. Retail access restriction also confirmed by exclusion.
+
+  SPORTMIND MODIFIER UPDATE:
+  Previous status: UNRESOLVED (binary outcome pending)
+  Current status: SUPPRESSOR CONFIRMED
+  Russian-resident fan token holders are outside the regulated
+  access pathway under the September 1 framework as currently
+  constituted. Monitor for additions to the eligible list
+  post-September 1 — escalate immediately if fan tokens added.
 
 DIGITAL RUBLE (PARALLEL LAUNCH):
   Russia launches digital ruble at major banks and retailers
@@ -192,14 +209,16 @@ ASSET ELIGIBILITY: UNRESOLVED
   Privacy coin exclusion signals restrictive approach to
   non-mainstream assets — fan tokens may face similar scrutiny.
 
-AGENT RULE 1 — ASSET ELIGIBILITY UNRESOLVED:
-  Do not assume fan tokens are eligible for trading on Bank
-  of Russia-licensed platforms.
-  Asset eligibility list due October-November 2026.
-  Escalate immediately to Strategy & Brainstorm when Bank of
-  Russia publishes implementing regulations.
-  Until confirmed eligible: apply access restriction modifier
-  to Russian-resident fan token holder analysis.
+AGENT RULE 1 — ASSET ELIGIBILITY: SUPPRESSOR CONFIRMED:
+  Bank of Russia published first eligible asset list August 11
+  2026 — Bitcoin, Ethereum, USDT only. Fan tokens NOT listed.
+  Do not model Russian-resident fan token demand via licensed
+  platforms as accessible under the September 1 framework.
+  Apply confirmed access restriction modifier — no longer
+  UNRESOLVED. This is now a standing SUPPRESSOR.
+  Monitor cbr.ru for final list before September 1 and for
+  any additions post-September 1.
+  Escalate immediately to build if fan tokens added to list.
 ```
 
 ---
@@ -259,10 +278,17 @@ AGENT RULE 2 — BIDIRECTIONAL ACCESS RESTRICTION:
 ## SportMind Agent Rules
 
 ```
-RULE 1 — ASSET ELIGIBILITY UNRESOLVED:
-  Do not assume fan tokens are eligible on Bank of Russia-
-  licensed platforms. Verify October-November 2026 when
-  implementing regulations published. Escalate immediately.
+RULE 1 — ASSET ELIGIBILITY: SUPPRESSOR CONFIRMED (2026-08-11):
+  Bank of Russia first eligible asset list published August 11
+  2026 — Bitcoin (BTC), Ethereum (ETH), Tether USDT only.
+  Fan tokens NOT listed. SUPPRESSOR CONFIRMED — no longer
+  UNRESOLVED. Apply confirmed access restriction modifier to
+  all Russian-resident fan token holder analysis.
+  Monitor cbr.ru for final list (before September 1) and any
+  post-September additions. Escalate immediately if fan tokens
+  added to eligible list — this would be a HIGH PRIORITY signal
+  reversing the SUPPRESSOR to a demand signal.
+  Full implementing regulations still due October-November 2026.
 
 RULE 2 — BIDIRECTIONAL ACCESS RESTRICTION MODIFIER:
   Russian-resident holders face restrictions from both
@@ -368,14 +394,22 @@ bidirectional access restrictions.
 ## Open Questions and Monitoring Flags
 
 ```
-MOST CRITICAL OPEN ITEM:
+MOST CRITICAL OPEN ITEM — PARTIALLY RESOLVED:
 
 Bank of Russia asset eligibility list
-  Status: UNRESOLVED — HIGH PRIORITY
-  Due: October-November 2026
-  Action: Daily SMI scan from September 1. Escalate
-    immediately when list published. Fan token eligibility
-    determination is the most consequential unknown.
+  Status: PARTIALLY RESOLVED — 2026-08-11
+  First list: Bitcoin · Ethereum · USDT only (August 11 2026)
+  Consultation closed: August 24 2026
+  Final list: expected before September 1 2026
+  Fan tokens: NOT on first list — SUPPRESSOR CONFIRMED
+  Full implementing regulations: October-November 2026
+  Action: Monitor cbr.ru daily for final list publication
+    before September 1. Monitor post-September 1 for any
+    additions to the eligible asset list. Escalate immediately
+    if fan tokens added — binary outcome reversal.
+  Prior status: UNRESOLVED binary outcome → SUPPRESSOR confirmed.
+  Remaining uncertainty: whether fan tokens appear on any
+    future list update (October-November implementing regs).
 
 REMAINING OPEN QUESTIONS:
 
@@ -437,7 +471,10 @@ FAN TOKEN ELIGIBILITY: No source confirms fan tokens as
   UNRESOLVED status confirmed by absence of guidance.
   Implementing regulations due October-November 2026.
 
-LAST VERIFIED: 2026-07-31
+LAST VERIFIED: 2026-08-24
+PATCH APPLIED: 2026-08-24 — Bank of Russia eligible asset list
+(August 11 2026) · fan tokens NOT listed · SUPPRESSOR confirmed ·
+consultation closed August 24 · final list expected pre-September 1
 ```
 
 ---
@@ -482,4 +519,4 @@ core/contradiction-resolution-framework.md
 
 ---
 
-*v4.4.4 — 2026-08-09*
+*v4.6.29 — 2026-08-24*

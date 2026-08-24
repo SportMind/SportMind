@@ -1,5 +1,24 @@
 # Changelog
 
+## [4.6.29] — 2026-08-24
+
+### Modified Files
+- macro/regulatory/russia.md (PATCH · v4.4.4 → v4.6.29)
+  Bank of Russia eligible asset list published August 11 2026:
+  Bitcoin · Ethereum · USDT only. Fan tokens NOT listed.
+  SUPPRESSOR CONFIRMED — binary outcome resolved. Previous
+  UNRESOLVED status updated across: Asset Eligibility block
+  (## Current Regulatory Framework) · Fan Token Classification
+  AGENT RULE 1 · SportMind Agent Rules RULE 1 · Open Questions
+  most critical item · last verified date · version stamp.
+  Prudential risk treatment added: unlisted assets = 100% risk
+  weight · deducted from capital in full under Bank of Russia
+  draft prudential rules. Consultation closed August 24 2026.
+  Final list expected before September 1 2026. Full implementing
+  regulations still due October-November 2026. Monitor cbr.ru
+  for additions. Escalate immediately if fan tokens added.
+  SMI: REQUIRED — HP-11 partially resolved · SUPPRESSOR confirmed.
+
 ## [4.6.28] — 2026-08-24
 
 ### Modified Files
