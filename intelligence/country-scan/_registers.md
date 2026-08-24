@@ -18,6 +18,9 @@ TIER STRUCTURE OVERVIEW:
     intelligence/country-scan/argentina.md (v4.6.8) ✓
     intelligence/country-scan/russia.md (v4.6.13) ✓
     intelligence/country-scan/eu-bloc.md (v4.6.15) ✓
+    intelligence/country-scan/pakistan.md (v4.6.31) ✓
+      NOTE: Upgraded Tier B → Tier A — HP-13 ACTIVE · September 5 2026
+      deadline · revert to Tier B post-resolution if no ongoing HP flags
 
 ════════════════════════════════════════════
 TIER B — WEEKLY SCAN
@@ -211,6 +214,6 @@ ON TRIGGER:
   Step 4: ESCALATE TO STRATEGY & BRAINSTORM before any
     library action or tier assignment
 
-LAST UPDATED: 2026-08-18
-Version: v4.6.16
+LAST UPDATED: 2026-08-24
+Version: v4.6.31
 © 2026 SportMind

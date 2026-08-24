@@ -1,5 +1,36 @@
 # Changelog
 
+## [4.6.31] — 2026-08-24
+
+### New Files
+- macro/regulatory/pakistan.md (NEW · 393L · v4.6.31)
+  Pakistan fan token holder regulatory framework. Virtual Assets Act 2026
+  enacted March 6 2026. PVARA permanent statutory body. HP-13 ACTIVE —
+  Section 70 transitional VASP NOC deadline September 5 2026. Socios.com /
+  Chiliz NOC status: NOT CONFIRMED. Binary access outcome pending.
+  Three-signal structure: (1) PVARA ACCESS GATE — dominant binary signal
+  (2) CGT MODIFIER — 15% flat MODERATE FRICTION · Budget 2026-27
+  proposes 20-30% (UNRESOLVED) (3) ADOPTION SCALE AMPLIFIER — 40M+
+  users · #3 globally (conditional on gate). Substance-over-form
+  classification (Section 9(f)) encoded. Extraterritorial scope noted.
+  MiCA passporting does not extend to Pakistan. No domestic Chiliz tokens.
+  8 Agent Rules. All 16 MIND DIMENSIONS mapped.
+
+### Modified Files
+- fan-token/holder-tax-framework.md (PATCH · v4.6.26 → v4.6.31)
+  Pakistan entry added after Belgium section. Pakistan — Type CONDITIONAL
+  (HP-13 binary outcome pending). Three-signal structure documented.
+  Agent Rules count: 12 → 13. Rule 13 PAKISTAN CONDITIONAL added.
+  Cross-Jurisdiction Demand Modifier Summary table: Pakistan row added.
+  Compatibility block: pakistan.md added. Collaboration dimension note
+  updated to include Rule 13.
+
+- intelligence/country-scan/_registers.md (PATCH · v4.6.16 → v4.6.31)
+  Pakistan added to Tier A directory listing — upgraded from absent
+  (never explicitly listed) to Tier A given HP-13 ACTIVE · September 5
+  2026 deadline. Revert note included: revert to Tier B post-resolution
+  if no ongoing HP flags. Version v4.6.16 → v4.6.31. Date updated.
+
 ## [4.6.30] — 2026-08-24
 
 ### Modified Files

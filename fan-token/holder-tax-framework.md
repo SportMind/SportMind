@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.26
+**Version:** v4.6.31
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -323,6 +323,45 @@ AGENT RULE 12 — BELGIUM BEHAVIOUR BIAS:
   market only. No time-threshold model — behaviour standard governs.
 ```
 
+### Pakistan — Type CONDITIONAL (HP-13 binary outcome pending)
+
+```
+TAX REGIME: Type CONDITIONAL — PVARA ACCESS GATE (binary) + 15% CGT + ADOPTION AMPLIFIER
+  Framework: Virtual Assets Act 2026 · PVARA · FBR
+  HP-13 ACTIVE — September 5 2026 NOC deadline · binary outcome pending
+  Socios.com / Chiliz NOC status: NOT CONFIRMED
+
+THREE-SIGNAL STRUCTURE (assess separately, never net):
+  SIGNAL 1 — PVARA ACCESS GATE (binary · dominant):
+    REGISTERED: Access PASS · adoption amplifier activates
+    NOT REGISTERED: PLATFORM ACCESS SUPPRESSOR — dominant signal
+    Current state: UNRESOLVED · apply UNRESOLVED modifier
+
+  SIGNAL 2 — CGT MODIFIER (friction):
+    15% flat on profits exceeding PKR 500,000 · 6+ months
+    Budget 2026-27 proposes 20-30% — UNRESOLVED upward pressure
+    PTG burn tax treatment: UNKNOWN
+    Current modifier: MODERATE FRICTION · Type C-adjacent
+
+  SIGNAL 3 — ADOPTION SCALE AMPLIFIER (conditional):
+    40M+ crypto users · #3 globally (Chainalysis 2025)
+    $300B+ annual transaction volume
+    ACTIVATES only if PVARA ACCESS GATE = REGISTERED
+    Current state: CONDITIONAL — do not apply until gate confirmed
+
+DOMESTIC TOKEN STATUS:
+  NONE — no Pakistani club or national team tokens on Chiliz Chain.
+  Pakistan is a holder market only. Do not model a Pakistani national
+  team token without verified Chiliz partnership confirmation.
+
+AGENT RULE 13 — PAKISTAN CONDITIONAL:
+  Apply UNRESOLVED modifier until September 5 2026 HP-13 resolution.
+  Gate resolves to PLATFORM ACCESS SUPPRESSOR (dominant) or
+  CONDITIONAL DEMAND AMPLIFIER (40M+ users). Never net the three
+  signals. CGT at 15% MODERATE FRICTION until FBR Budget 2026-27
+  confirmation. See macro/regulatory/pakistan.md for full framework.
+```
+
 ### South Africa — Reference Only
 
 ```
@@ -411,10 +450,11 @@ AGENT RULE 9 (TURKEY): see macro/regulatory/turkey.md for full framework.
 | South Africa | Type D (18% max CGT) | MODERATE | $SAFA | see south-africa-sars.md |
 | Brazil | Type C — 17.5% CGT (MP 1.303 — ratification pending) | MODERATE (subject to ratification) | $MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA $GALO $SACI $VASCO | see macro/regulatory/brazil.md |
 | Turkey | UNKNOWN CGT · TCMB payment ban active | UNKNOWN friction · investment/speculation only | $GAL $TRA $ALA $IBFK $GOZ $SAM | see macro/regulatory/turkey.md |
+| Pakistan | CONDITIONAL (HP-13 binary outcome pending) | UNRESOLVED (HP-13) | $PSG $BAR $GAL $INTER (holder market — no domestic tokens) | September 5 2026 |
 
 ---
 
-## 12 Agent Rules
+## 13 Agent Rules
 
 ```
 RULE 1 — HOLDER JURISDICTION GOVERNS:
@@ -477,6 +517,18 @@ RULE 12 — BELGIUM BEHAVIOUR BIAS:
   League tokens in registry. Never apply a time-threshold model
   to Belgian holder analysis — behaviour standard governs.
   See macro/regulatory/belgium.md for full framework.
+
+RULE 13 — PAKISTAN CONDITIONAL:
+  Apply UNRESOLVED modifier to all Pakistani holder analysis until
+  September 5 2026 HP-13 outcome confirmed. Binary gate outcome:
+  REGISTERED = CONDITIONAL DEMAND AMPLIFIER (40M+ users · #3
+  global adoption) activates. NOT REGISTERED = PLATFORM ACCESS
+  SUPPRESSOR (dominant signal — overrides all other modifiers).
+  Never net the three signals (ACCESS GATE + CGT MODIFIER +
+  ADOPTION AMPLIFIER). CGT: 15% MODERATE FRICTION current ·
+  Budget 2026-27 proposes 20-30% (UNRESOLVED). PTG burn tax:
+  UNKNOWN. No domestic Pakistani tokens — holder market only.
+  See macro/regulatory/pakistan.md for full framework.
 ```
 
 ---
@@ -500,7 +552,7 @@ RULE 12 — BELGIUM BEHAVIOUR BIAS:
 | Ethics (13) | ACTIVE | No tax advice framing — this is a demand modifier framework |
 | Transparency (14) | ACTIVE | Unknown modifiers (Brazil, Turkey) explicitly stated |
 | Execution (15) | ACTIVE | Composite modifier calculation for multi-market tokens |
-| Collaboration (16) | ACTIVE | Cross-file coordination with belgium.md Rule 12 · germany.md · france.md · multi-market token composite modifiers |
+| Collaboration (16) | ACTIVE | Cross-file coordination with belgium.md Rule 12 · pakistan.md Rule 13 · germany.md · france.md · multi-market token composite modifiers |
 
 ---
 
@@ -509,6 +561,7 @@ RULE 12 — BELGIUM BEHAVIOUR BIAS:
 - fan-token/registry/complete-registry.md — source of truth for all token-to-country mappings
 - intelligence/country-scan/usa.md — US regulatory and holder market context
 - macro/regulatory/belgium.md — Belgium detailed coverage · Rule 12
+- macro/regulatory/pakistan.md — Pakistan detailed coverage · Rule 13 · HP-13 binary outcome
 - macro/regulatory/south-africa-sars.md — South Africa detailed coverage
 - macro/regulatory/eu-mica.md — EU regulatory context for European holder markets
 - macro/regulatory/france.md — France detailed coverage · $PSG holder tax framework
