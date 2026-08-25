@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.6.33] — 2026-08-26
+
+### New Files
+- intelligence/country-scan/netherlands.md (NEW · 301L · v4.6.33)
+  Netherlands country intelligence scan. Scan tier: B — weekly.
+  Companion to macro/regulatory/netherlands.md (v4.6.32). Type E —
+  annual Box 3 wealth tax · NETHERLANDS HOLDING COST SUPPRESSOR ·
+  effective rate ~2.16% per annum on holdings above ~€57,000
+  individual threshold · January 1 snapshot taxable event · no
+  disposal trigger · no holding period advantage · annual drag
+  accumulates from day one. Wet werkelijk rendement box 3: PENDING
+  Senate (target 2028 · NOT ENACTED) — escalate immediately on
+  Senate vote. AFM/DNB twin-peaks model · AFM as MiCA NCA from
+  1 July 2026 · DAC8 active from 2026. Socios.com MiCA-passported
+  (MFSA Malta) · no separate AFM authorisation required. No active
+  Netherlands-primary Chiliz fan tokens. Diaspora holder market:
+  $PSG · $BAR · $AFC and secondary European tokens. Monitor targets:
+  PSV Eindhoven · Feyenoord (both UCL 2026-27 Pot 2) · Ajax · KNVB.
+  UCL draw 27 August flagged as monitoring inflection point. Critical
+  distinctions documented: never conflate Type E with CGT · never
+  apply Germany LONG HOLD BIAS · never apply Belgium BEHAVIOUR BIAS
+  to Dutch holders. Tier B (_registers.md confirmed v4.6.32).
+  All 16 Mind Dimensions ACTIVE.
+
 ## [4.6.32] — 2026-08-25
 
 ### New Files
