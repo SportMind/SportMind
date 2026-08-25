@@ -42,14 +42,17 @@ BELGIUM
     EURO 2028 PTG confirmation · $BELG significant holder growth
 
 NETHERLANDS
-  Active tokens: none · $AJAX potential
-  Regulatory: EU MiCA · AFM primary ·
-    Box 3 wealth tax (1.36-1.71% deemed return) ·
-    Complex for crypto but fan tokens likely box 3
-  Sporting: EURO 2028 co-host · Eredivisie no active tokens ·
-    Ajax/Feyenoord/PSV = highest-value Dutch trigger
-  Sources: afm.nl (monthly) · UEFA.com
-  Tier A trigger: any Chiliz Dutch club partnership
+  Active tokens: none · PSV Eindhoven · Feyenoord · Ajax monitor
+  Regulatory: EU MiCA · AFM/DNB twin-peaks (AFM = NCA from July 2026) ·
+    Box 3 wealth tax: ~2.16% effective annual rate on holdings ·
+    (6.00% deemed return × 36% tax) · Jan 1 snapshot ·
+    Wet werkelijk rendement box 3 PENDING Senate (2028 reform) ·
+    DAC8 active from 2026 · macro/regulatory/netherlands.md (v4.6.32)
+  Sporting: PSV Eindhoven + Feyenoord UCL 2026-27 · Ajax not UCL ·
+    No active Chiliz NL tokens · diaspora holder market ($PSG $BAR $AFC)
+  Sources: afm.nl (weekly) · dnb.nl (weekly) · belastingdienst.nl (ON SIGNAL)
+  Tier A trigger: any Chiliz Dutch club partnership ·
+    Senate approval of Wet werkelijk rendement box 3
 
 IRELAND
   Active tokens: none
@@ -214,6 +217,6 @@ ON TRIGGER:
   Step 4: ESCALATE TO STRATEGY & BRAINSTORM before any
     library action or tier assignment
 
-LAST UPDATED: 2026-08-24
-Version: v4.6.31
+LAST UPDATED: 2026-08-25
+Version: v4.6.32
 © 2026 SportMind

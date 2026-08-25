@@ -1,5 +1,39 @@
 # Changelog
 
+## [4.6.32] — 2026-08-25
+
+### New Files
+- macro/regulatory/netherlands.md (NEW · 428L · v4.6.32)
+  Netherlands fan token holder regulatory framework. Type E —
+  annual Box 3 wealth tax on total asset holding value. NOT
+  disposal-based CGT. Effective rate ~2.16% per annum (6.00%
+  deemed return × 36% tax). Tax-free threshold ~€57,000 per
+  individual. January 1 snapshot taxable event. No holding period
+  advantage. DAC8 active from 2026. Wet werkelijk rendement box 3
+  PENDING Senate (2028 target — NOT yet enacted). AFM/DNB twin-
+  peaks model. MiCA fully applicable — MiCA-passported (MFSA Malta).
+  NETHERLANDS HOLDING COST SUPPRESSOR modifier. 4 Agent Rules.
+  All 16 MIND DIMENSIONS mapped. No domestic Chiliz fan tokens.
+  PSV Eindhoven · Feyenoord · Ajax flagged as partnership monitors.
+  Closes Western Europe regulatory series (14th file).
+
+### Modified Files
+- fan-token/holder-tax-framework.md (PATCH · v4.6.31 → v4.6.32)
+  Netherlands entry added after Pakistan section. Type E — Wealth
+  Tax architecture. Rule 14 NETHERLANDS HOLDING COST SUPPRESSOR
+  added. Agent Rules count: 13 → 14. Cross-Jurisdiction Demand
+  Modifier Summary table: Netherlands row added (~2.16% annual ·
+  HOLDING COST SUPPRESSOR · Senate reform pending 2028).
+  Compatibility block: netherlands.md added. Collaboration
+  dimension note updated to include Rule 14.
+
+- intelligence/country-scan/_registers.md (PATCH · v4.6.31 → v4.6.32)
+  Netherlands Tier B entry updated: stale Box 3 rate (1.36-1.71%)
+  corrected to ~2.16% effective rate. Scan cadence updated:
+  afm.nl/dnb.nl weekly · belastingdienst.nl ON SIGNAL. Sporting
+  context updated: PSV/Feyenoord UCL 2026-27. netherlands.md
+  cross-reference added. Version v4.6.31 → v4.6.32.
+
 ## [4.6.31] — 2026-08-24
 
 ### New Files

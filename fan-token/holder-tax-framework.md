@@ -1,7 +1,7 @@
 # Fan Token Holder Tax Framework
 
 **Domain:** fan-token/holder-tax-framework.md
-**Version:** v4.6.31
+**Version:** v4.6.32
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Cross-jurisdictional fan token holder tax framework. Fills
 Priority 3 coverage gap — holder jurisdiction tax regime as a structural
@@ -451,10 +451,11 @@ AGENT RULE 9 (TURKEY): see macro/regulatory/turkey.md for full framework.
 | Brazil | Type C — 17.5% CGT (MP 1.303 — ratification pending) | MODERATE (subject to ratification) | $MENGO $VERDAO $FLU $SCCP $SPFC $BAHIA $GALO $SACI $VASCO | see macro/regulatory/brazil.md |
 | Turkey | UNKNOWN CGT · TCMB payment ban active | UNKNOWN friction · investment/speculation only | $GAL $TRA $ALA $IBFK $GOZ $SAM | see macro/regulatory/turkey.md |
 | Pakistan | CONDITIONAL (HP-13 binary outcome pending) | UNRESOLVED (HP-13) | $PSG $BAR $GAL $INTER (holder market — no domestic tokens) | September 5 2026 |
+| Netherlands | Type E (Annual Box 3 Wealth Tax · ~2.16% p.a.) | MODERATE-NEGATIVE (annual drag) | $PSG $BAR $AFC (diaspora holder market · no domestic tokens) | HOLDING COST SUPPRESSOR · Senate reform pending 2028 |
 
 ---
 
-## 13 Agent Rules
+## 14 Agent Rules
 
 ```
 RULE 1 — HOLDER JURISDICTION GOVERNS:
@@ -529,6 +530,21 @@ RULE 13 — PAKISTAN CONDITIONAL:
   Budget 2026-27 proposes 20-30% (UNRESOLVED). PTG burn tax:
   UNKNOWN. No domestic Pakistani tokens — holder market only.
   See macro/regulatory/pakistan.md for full framework.
+
+RULE 14 — NETHERLANDS (TYPE E: WEALTH TAX):
+  Netherlands is a Type E jurisdiction — annual Box 3 wealth tax
+  on total asset holding value, not CGT on disposal. Crypto
+  classified as "other assets" (overige bezittingen). Effective
+  rate ~2.16% per annum (6.00% deemed return × 36% tax rate).
+  Tax-free threshold ~€57,000 per individual. January 1 snapshot
+  determines annual liability. No holding period advantage — drag
+  accumulates from day one. DAC8 active from 2026. 2028 reform
+  (Wet werkelijk rendement box 3) PENDING Senate — would tax
+  unrealised gains at 36% flat rate. Do NOT treat as enacted.
+  Apply NETHERLANDS HOLDING COST SUPPRESSOR to all Dutch holder
+  analysis. Never apply Germany LONG HOLD BIAS or Belgium
+  BEHAVIOUR BIAS to Dutch holders. No domestic NL tokens.
+  See macro/regulatory/netherlands.md.
 ```
 
 ---
@@ -552,7 +568,7 @@ RULE 13 — PAKISTAN CONDITIONAL:
 | Ethics (13) | ACTIVE | No tax advice framing — this is a demand modifier framework |
 | Transparency (14) | ACTIVE | Unknown modifiers (Brazil, Turkey) explicitly stated |
 | Execution (15) | ACTIVE | Composite modifier calculation for multi-market tokens |
-| Collaboration (16) | ACTIVE | Cross-file coordination with belgium.md Rule 12 · pakistan.md Rule 13 · germany.md · france.md · multi-market token composite modifiers |
+| Collaboration (16) | ACTIVE | Cross-file coordination with belgium.md Rule 12 · pakistan.md Rule 13 · netherlands.md Rule 14 · germany.md · france.md · multi-market token composite modifiers |
 
 ---
 
@@ -562,6 +578,7 @@ RULE 13 — PAKISTAN CONDITIONAL:
 - intelligence/country-scan/usa.md — US regulatory and holder market context
 - macro/regulatory/belgium.md — Belgium detailed coverage · Rule 12
 - macro/regulatory/pakistan.md — Pakistan detailed coverage · Rule 13 · HP-13 binary outcome
+- macro/regulatory/netherlands.md — Netherlands detailed coverage · Rule 14 · Type E Wealth Tax
 - macro/regulatory/south-africa-sars.md — South Africa detailed coverage
 - macro/regulatory/eu-mica.md — EU regulatory context for European holder markets
 - macro/regulatory/france.md — France detailed coverage · $PSG holder tax framework
