@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.6.34] — 2026-08-26
+
+### Changed
+- Website audit v4.6.33 — all 10 pages updated to v4.6.34.
+  Version stamps: 17 instances of v4.6.18 → v4.6.34 across
+  home.html · get-started.html · suite.html · docs.html ·
+  first-record.html · integrations.html · use-cases.html ·
+  agent.html · autonomous.html · demo.html.
+  Content fix: use-cases.html SMI card chip corrected —
+  "Eight Mind dimensions" → "Sixteen Mind dimensions" (stale
+  since v4.1.32 when library expanded from 8 to 16 dimensions).
+  Stat bar (home.html): 815+ · 42 · 85 · 137 — unchanged ✓.
+  Calibration counts 137 · 17 · 119 — unchanged ✓.
+  Logo-dot: CLEAN across all pages ✓.
+
 ## [4.6.33] — 2026-08-26
 
 ### New Files
