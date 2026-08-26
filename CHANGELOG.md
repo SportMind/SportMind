@@ -1,5 +1,52 @@
 # Changelog
 
+## [4.6.36] — 2026-08-26
+
+### New Files
+- market/south-america/ (NEW DIRECTORY)
+- market/south-america/south-america-fan-token-intelligence.md
+  (NEW · v4.6.36)
+  South America fan token intelligence framework. Covers all
+  9 active Brazilian club fan tokens ($MENGO · $VERDAO · $FLU ·
+  $SCCP · $SPFC · $GALO · $SACI · $VASCO · $BAHIA) and
+  cross-references $ARG national token. Shared domain
+  intelligence layer — replaces individual CDI stubs for
+  South American clubs pending Tier A calibration volume.
+  Key content: Brazilian calendar inversion (March–December
+  peak demand — August = peak not pre-season) · Copa
+  Libertadores/Sudamericana competition framework with trophy
+  premium tiers · Brasileirão/Estadual signal weight hierarchy ·
+  omnichain status (5 tokens confirmed on Solana · 4 not yet
+  confirmed) · Brazil 17.5% CGT (MP 1.303/2025 · ratification
+  pending) · MICRO_CAP_ILLIQUIDITY standing flag ($VASCO ·
+  verify all tokens before analysis) · dual-token pairing
+  register · H2H familiarity discount rules · $SCCP Tier 2
+  reclassification monitor. 10 Agent Rules. All 16 Mind
+  Dimensions.
+
+## [4.6.35] — 2026-08-26
+
+### New Files
+- market/club-intelligence/asm.md (NEW · v4.6.35)
+  AS Monaco ($ASM) Club Demand Intelligence. CDI Gate: TRANSITION
+  (doubly triggered). Horizon: SHORT (2026-27). FTP PATH_2: NO.
+  TRANSITION rationale: competition tier step-down (Conference
+  League playoff 2026-27 vs UCL knockout phase 2025-26) and
+  coaching succession (Filipe Luís appointed July 6 2026 —
+  first European coaching role, arriving from CR Flamengo,
+  Copa Libertadores 2025 winner, system embedding unknown).
+  PSG vs Monaco rivalry CDI asymmetry documented: $PSG
+  CONSOLIDATION vs $ASM TRANSITION · Tier 3 rivalry ×1.50
+  dual-token weight applies but $ASM confidence capped at
+  TRANSITION level. Competitive gap is widest in canonical
+  rivalry register (UCL champion vs Conference League).
+  Stade Louis II capacity ceiling (~18,523) documented.
+  French holder cohort: 30% PFU applies. Monaco residency:
+  no income tax but small population, UNKNOWN modifier.
+  Rybolovlev ownership: LOW termination risk. Upgrade trigger:
+  Ligue 1 top-4 AND Europa League qualification same season.
+  8 Agent Rules. All 16 Mind Dimensions.
+
 ## [4.6.34] — 2026-08-26
 
 ### Changed
