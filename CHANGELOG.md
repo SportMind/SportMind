@@ -1,5 +1,19 @@
 # Changelog
 
+## [v4.6.37] — 2026-08-27
+
+### Added
+- `core/reasoning-audit-framework.md` NEW — Reasoning Audit Framework v1.0.0
+  Six audit layers mapped to Mind Dimensions (Intelligence · Reasoning ·
+  Context · Judgment · Verification · Execution). Traffic light summary
+  (GREEN / AMBER / RED) with per-layer PASS / PARTIAL / FAIL verdicts.
+  Pattern tracking every 5 audits. Human-run for first 15 records,
+  SMI-assisted thereafter. 16 Mind Dimensions mapped.
+- `community/calibration-data/audits/AUDIT-RECORD-TEMPLATE.md` NEW —
+  Audit record template. Naming convention:
+  audit-R[N]-[home-slug]-vs-[away-slug]-[competition-slug]-[YYYY-MM-DD].md
+  New directory: community/calibration-data/audits/
+
 ## [4.6.36] — 2026-08-26
 
 ### New Files
