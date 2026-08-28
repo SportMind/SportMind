@@ -1,5 +1,20 @@
 # Changelog
 
+## [4.6.39] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R132-psg-vs-avl-super-cup-2026-08-12.md` NEW
+  Prospective Reasoning Audit record — Audit 2 of 10. Parent: R132 ·
+  Paris Saint-Germain vs Aston Villa · UEFA Super Cup 2026 · 2026-08-12.
+  Overall: GREEN. L1 PASS · L2 PASS · L3 PARTIAL · L4 PASS · L5 PARTIAL ·
+  L6 PASS. 4 PASS · 2 PARTIAL · 0 FAIL. HOLD gate correctly applied and
+  documented (both adjusted scores below 80 · $PSG 50.0 · $AVL 45.2 ·
+  CAPITULATION ×0.70). Layer 3 PARTIAL: France and UK regulatory files not
+  explicitly loaded. Layer 5 PARTIAL: chiliscan.com on-chain check not
+  documented — same gap as R137. Emerging pattern flagged: Layer 5 PARTIAL
+  on chiliscan.com criterion in both R137 and R132 — flag for 10-audit
+  pattern review in Strategy Chat.
+
 ## [4.6.38] — 2026-08-28
 
 ### Added
