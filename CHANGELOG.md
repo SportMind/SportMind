@@ -1,5 +1,23 @@
 # Changelog
 
+## [4.6.40] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R136-makhachev-vs-machado-garry-ufc-330-2026-08-15.md` NEW
+  Prospective Reasoning Audit record — Audit 3 of 10. Parent: R136 ·
+  Islam Makhachev vs Ian Machado Garry · UFC 330 · 2026-08-15. Overall:
+  GREEN. L1 PASS · L2 PASS · L3 PARTIAL · L4 PASS · L5 PASS · L6 PASS.
+  5 PASS · 1 PARTIAL · 0 FAIL. HOLD gate documented on dual independent
+  grounds (CAPITULATION ×0.70 AND MICRO_CAP_ILLIQUIDITY) — strongest HOLD
+  gate justification of any audit to date. Layer 3 PARTIAL: USA regulatory
+  context not documented — N/A call defensible but reasoning absent.
+  Pattern established: Layer 3 PARTIAL in all 3 prospective audits to date
+  (R137 · R132 · R136) — regulatory loading documentation is the consistent
+  gap. Layer 5 PASS: chiliscan.com explicitly cited in MMA Source and
+  Verification block — identifies template-level root cause for football
+  Layer 5 PARTIALs (football CALIBRATION-RECORD-TEMPLATE.md lacks dedicated
+  verification field). Both patterns flagged for 10-audit Strategy Chat review.
+
 ## [4.6.39] — 2026-08-28
 
 ### Added
