@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.6.42] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R133-verdao-vs-cerro-porteno-libertadores-r16-2026-08-12.md` NEW
+  Prospective Reasoning Audit — Audit 5 of 10 · FIRST PATTERN REVIEW.
+  Parent: R133 · Palmeiras vs Cerro Porteño · Copa Libertadores R16 First
+  Leg · 2026-08-12. Library at filing: v4.4.9. Overall: GREEN. L1 PARTIAL
+  · L2 PASS · L3 PASS · L4 PASS · L5 PARTIAL · L6 PARTIAL. 3 PASS · 3
+  PARTIAL · 0 FAIL. All 5 prospective audits to date: GREEN. No AMBER, no
+  RED, no Layer 4 FAILs. Standout: CONDITIONAL ENTER framework — most
+  sophisticated gate management in audit series (Gómez condition issued
+  pre-match · evaluated at kickoff · HOLD preserved when condition not met
+  · position prevented on incorrect call). Dual HOLD grounds documented
+  (CAPITULATION + condition not met). First Pattern Review findings: (1)
+  Football template chiliscan.com gap — 4 of 4 football records Layer 5
+  PARTIAL · fix: add Token on-chain verification field to football
+  CALIBRATION-RECORD-TEMPLATE.md. (2) Regulatory loading documentation —
+  REGULATORY_LOADED flag produces Layer 3 PASS · absence produces PARTIAL
+  · fix: add mandatory REGULATORY_LOADED field to template. (3) Pre-v4.1.32
+  MIND DIMENSIONS gap class confirmed — retroactive pass resolves. Both
+  template fixes flagged for Strategy Chat. STANDOUT RECORD at 5 audits: R133.
+
 ## [4.6.41] — 2026-08-28
 
 ### Added
