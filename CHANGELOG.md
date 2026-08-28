@@ -1,5 +1,19 @@
 # Changelog
 
+## [4.6.38] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R137-afc-vs-city-community-shield-2026-08-16.md` NEW
+  First prospective Reasoning Audit record (Audit 1 of 10 before SMI-assisted mode).
+  Parent: R137 · Arsenal v Manchester City · FA Community Shield 2026 · 2026-08-16.
+  Overall: GREEN. Layer verdicts: L1 PASS · L2 PASS · L3 PASS · L4 PASS · L5 PASS ·
+  L6 PARTIAL. Strongest layer: Layer 4 — HOLD gate correctly enforced and MCP
+  discrepancy resolved in real time under CAPITULATION. Weakest layer: Layer 6 —
+  market/dual-fan-token-match-dynamics.md absent from Signal Layers Applied section
+  despite correct substance application. Action: framework note raised — dual-token
+  records must explicitly list dual-fan-token-match-dynamics.md in Signal Layers
+  Applied section. Flag for Strategy Chat review.
+
 ## [v4.6.37] — 2026-08-27
 
 ### Added
