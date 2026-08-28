@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.6.43] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R134-mengo-vs-cruzeiro-libertadores-r16-2026-08-13.md` NEW
+  Prospective Reasoning Audit — Audit 6 of 10. Parent: R134 · Cruzeiro vs
+  Flamengo ($MENGO — away token) · Copa Libertadores R16 First Leg ·
+  2026-08-13. Library at filing: v4.4.9. Overall: GREEN. L1 PARTIAL · L2
+  PASS · L3 PASS · L4 PASS · L5 PARTIAL · L6 PARTIAL. 3 PASS · 3 PARTIAL
+  · 0 FAIL. Standout: away token direction logic — most structurally complex
+  direction handling in audit series to date. Raw HOME signal correctly
+  identified as adverse for $MENGO holders · H2H AWAY correction documented
+  · DIRECTION_CONTESTED flag raised · $MENGO holder perspective maintained
+  throughout all blocks (Pre-Match Signal · Score Derivation · Result ·
+  Post-Match Notes). HOLD applied on dual grounds (CAPITULATION +
+  DIRECTION_CONTESTED). Third consecutive Layer 3 PASS for Brazilian club
+  record — BRAZIL_REGULATORY_LOADED flag pattern absolute (every Brazilian
+  club record with flag = PASS without exception). Layer 5: 5 of 5 football
+  records PARTIAL on chiliscan.com criterion — pattern now absolute. Template
+  fix (single field addition to CALIBRATION-RECORD-TEMPLATE.md) is the only
+  remedy required for this entire class.
+
 ## [4.6.42] — 2026-08-28
 
 ### Added
