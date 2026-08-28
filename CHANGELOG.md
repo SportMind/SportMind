@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.6.41] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R131-flu-vs-rivadavia-libertadores-r16-2026-08-11.md` NEW
+  Prospective Reasoning Audit record — Audit 4 of 10. Parent: R131 ·
+  Fluminense vs Independiente Rivadavia · Copa Libertadores R16 First
+  Leg · 2026-08-11. Library at filing: v4.4.7. Overall: GREEN. L1
+  PARTIAL · L2 PASS · L3 PASS · L4 PASS · L5 PARTIAL · L6 PARTIAL.
+  3 PASS · 3 PARTIAL · 0 FAIL. HOLD gate correctly blocked ENTER on an
+  incorrect directional call — optimal gate outcome under CAPITULATION.
+  First Layer 3 PASS in prospective audit series: brazil.md explicitly
+  loaded and documented via BRAZIL_REGULATORY_LOADED flag — identifies
+  the template-level fix (mandatory regulatory loading flag field) that
+  resolves the Layer 3 PARTIAL pattern from R137 · R132 · R136. Layer 1
+  and Layer 5 PARTIAL: chiliscan.com not cited — football template gap
+  confirmed. Layer 6 PARTIAL: only 6 of 16 MIND DIMENSIONS listed —
+  pre-v4.1.32 template version gap, not an execution error, retroactive
+  16-dimension pass planned. New Layer 6 PARTIAL class identified: will
+  appear across all records filed before v4.1.32. Both template fixes
+  (chiliscan.com verification field + REGULATORY_LOADED flag) and Layer 6
+  pre-v4.1.32 class flagged for 10-audit Strategy Chat pattern review.
+
 ## [4.6.40] — 2026-08-28
 
 ### Added
