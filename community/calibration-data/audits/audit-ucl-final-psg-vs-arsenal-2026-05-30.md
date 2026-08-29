@@ -1,5 +1,5 @@
 ---
-record: UCL-FINAL-2026 (legacy: R130)
+record: "UCL-FINAL-2026 (legacy: R130)"
 audit-version: 1.0.0
 framework: core/reasoning-audit-framework.md
 audited-by: Human (Strategy Chat 22)
