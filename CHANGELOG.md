@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.6.48] — 2026-08-29
+
+### Changed
+
+- community/calibration-data/audits/AUDIT-RECORD-TEMPLATE.md — three field patches based on 10-audit pattern review: (1) Layer 5 note updated to cite chiliscan.com as expected on-chain verification source for football records and note the record template gap as separately scoped; (2) Layer 3 note updated to flag BRAZIL_REGULATORY_LOADED absence as a PARTIAL trigger for Brazilian club token records; (3) Layer 6 note updated with REGISTRY-GAP guidance for pre-v4.1.32 records mapping to 14 dimensions — PARTIAL expected, not a failure
+
 ## [4.6.47] — 2026-08-29
 
 ### Added

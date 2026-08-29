@@ -50,7 +50,11 @@ Note: [One-line note.]
 ### Layer 3 — Context (Dim 3)
 
 Verdict: [PASS / PARTIAL / FAIL]
-Note: [One-line note.]
+Note: [One-line note. PARTIAL if BRAZIL_REGULATORY_LOADED flag is
+absent from a record involving Brazilian club tokens ($MENGO
+$VERDAO $FLU $SCCP $SPFC $GALO $SACI $VASCO $BAHIA). The flag
+confirms the Brazil CGT framework was loaded before analysis.
+Its absence is a context loading gap, not a framework failure.]
 
 ### Layer 4 — Judgment (Dim 5)
 
@@ -62,12 +66,21 @@ was missed or confidence tier was materially wrong.]
 
 Verdict: [PASS / PARTIAL / FAIL]
 Note: [One-line note. If FAIL: state whether Gate 1 was missed or
-token was unverified.]
+token was unverified. For football records: PARTIAL if chiliscan.com
+was not cited as on-chain verification source in the parent record.
+chiliscan.com is the expected on-chain source for all Chiliz fan
+token football records — its absence in the record template is a
+known gap scoped for a separate fix.]
 
 ### Layer 6 — Execution (Dim 15)
 
 Verdict: [PASS / PARTIAL / FAIL]
-Note: [One-line note.]
+Note: [One-line note. REGISTRY-GAP: Pre-v4.1.32 records map to 14
+Mind Dimensions only — Execution (Dim 15) and Collaboration (Dim 16)
+were added at v4.1.32. A PARTIAL here for pre-v4.1.32 records is
+expected and does not indicate a framework failure. State: "pre-v4.1.32
+record — 14-dimension mapping · Layer 6 retroactive PARTIAL expected."
+Retroactive pass planned after prospective standard established.]
 
 ---
 
