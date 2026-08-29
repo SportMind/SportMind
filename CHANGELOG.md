@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.6.46] — 2026-08-29
+
+### Added
+- `community/calibration-data/audits/audit-wc2026-final-spain-vs-argentina-2026-07-19.md` NEW
+  Prospective Reasoning Audit — Audit 9 of 10. Pre-match verified · dual-token ·
+  dual-BTG · three concurrent demand mechanisms · WC2026 Series 9/9. Signal at
+  v4.1.11 · backfilled at v4.6.28. Parent: WC2026 Final · Spain vs Argentina ·
+  2026-07-19. Regime: CAPITULATION ×0.70. Overall: GREEN. L1 PARTIAL · L2 PASS
+  · L3 PARTIAL · L4 PASS · L5 PARTIAL · L6 PASS. 3 PASS · 3 PARTIAL · 0 FAIL.
+  HOLD gate correctly enforced at maximum pressure — WC Final · ×2.00 occasion
+  weight · three concurrent demand mechanisms · CAPITULATION all active simultaneously.
+  Defining discipline: 'regardless of occasion weight' note explicitly documented.
+  Three concurrent demand mechanisms (BTG + Champion Call + Livestream Trading Battle)
+  correctly identified, classified, and suppressed by CAPITULATION — most complex
+  demand layer in any audited record. Most complete PTG/BTG execution block in audit
+  series — both tokens' full WC2026 burn histories with compound totals ($SPAIN
+  ~25.18% · $ARG ~14.93%). chiliscan.com explicitly cited for BTG supply event
+  verification (most thorough on-chain citation for supply events in football records).
+  Layer 3 PARTIAL VERSION-APPROPRIATE: Spain and Argentina regulatory files did not
+  exist at v4.1.11 — distinct from all other Layer 3 PARTIALs where files existed but
+  were not referenced. Layer 5: 8 of 8 football records PARTIAL — pattern absolute ·
+  chiliscan.com present for BTG but not token status. YAML record field quoted on
+  filing (colon-in-value fix applied consistently with UCL Final).
+
 ## [4.6.45] — 2026-08-29
 
 ### Added
