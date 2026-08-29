@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.6.49] — 2026-08-29
+
+### Changed
+
+- market/dual-fan-token-match-dynamics.md — Section 6 output format patch: RELATIONSHIP TYPE field added as explicit first field inside DUAL-TOKEN RELATIONSHIP sub-block with confirmation note; ensures classification is stated at point of analysis, not only in header
+
 ## [4.6.48] — 2026-08-29
 
 ### Changed

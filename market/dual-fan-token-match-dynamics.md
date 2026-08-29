@@ -337,7 +337,7 @@ TOKEN B — $[SYMBOL]:
   Supply event: [status]
 
 DUAL-TOKEN RELATIONSHIP:
-  Type: [ALIGNED / ASYMMETRIC / CONFLICTED / INDETERMINATE]
+  RELATIONSHIP TYPE: [ALIGNED / ASYMMETRIC / CONFLICTED / INDETERMINATE]
   [ALIGNED: both signals [direction] · occasion weight amplifies both ·
    confidence differential: $[A] [tier] vs $[B] [tier]]
   [ASYMMETRIC: $[A] [output/confidence] vs $[B] [output/confidence] ·
@@ -347,6 +347,10 @@ DUAL-TOKEN RELATIONSHIP:
    do not produce directional output until resolved]
   [INDETERMINATE: one or both tokens on HOLD gate ·
    relationship cannot be assessed — load missing layers]
+
+NOTE: RELATIONSHIP TYPE must be stated explicitly here even though
+it also appears in the header block. The header classifies the fixture.
+This field confirms the classification was applied during analysis.
 
 SUPPLY EVENTS:
   $[TOKEN A]: [PATH_2 ACTIVE / PTG mechanic / NOT APPLICABLE]
