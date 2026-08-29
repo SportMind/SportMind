@@ -1,5 +1,27 @@
 # Changelog
 
+## [4.6.44] — 2026-08-28
+
+### Added
+- `community/calibration-data/audits/audit-R130-vasco-vs-medellin-sudamericana-playoff-2026-07-29.md` NEW
+  Prospective Reasoning Audit — Audit 7 of 10. Seed record · signal values
+  preserved from original v4.1.75 submission · backfilled to template standard
+  at v4.6.27. Parent: R130 · Vasco da Gama vs Independiente Medellín · Copa
+  Sudamericana 2026 Playoff R32 2nd Leg · 2026-07-29. Overall: GREEN. L1
+  PARTIAL · L2 PASS · L3 PARTIAL · L4 PASS · L5 PARTIAL · L6 PASS. 3 PASS ·
+  3 PARTIAL · 0 FAIL. Notable firsts: first Copa Sudamericana record audited
+  (Gate 6 CONTINENTAL KNOCKOUT precedent); first Layer 6 PASS for a football
+  seed record (backfill correctly applied full 16 MIND DIMENSIONS); first HOLD
+  on a correct directional call — CAPITULATION framework validated from both
+  directions (incorrect calls R131/R132/R133/R134 · correct call R130). H2H
+  gate correctly failed (cross-confederation sample insufficient · no fabricated
+  modifier). Confidence downgrade MEDIUM → LOW explicitly documented — first in
+  audit series. Token verified via fantokens.com (Tier 2 named aggregator) rather
+  than chiliscan.com — Layer 5 PARTIAL · 6 of 6 football records now PARTIAL ·
+  pattern absolute. Layer 3 PARTIAL: brazil.md acknowledged as background layer
+  but BRAZIL_REGULATORY_LOADED flag absent — backfill at v4.6.27 did not add it.
+  Backfill integrity confirmed clean.
+
 ## [4.6.43] — 2026-08-28
 
 ### Added
