@@ -1,5 +1,33 @@
 # Changelog
 
+## [4.6.47] — 2026-08-29
+
+### Added
+- `community/calibration-data/audits/audit-wc2026-r16-spain-vs-portugal-2026-07-06.md` NEW
+  Prospective Reasoning Audit — Audit 10 of 10 · SECOND PATTERN REVIEW.
+  Human-run audit phase complete. Pre-match verified · dual-token · dual-BTG ·
+  REGISTRY-GAP (RESOLVED) · WC2026 Series 4/9. Signal at v4.1.2 · resolved v4.1.3 ·
+  backfilled v4.6.28. Regime: CAPITULATION ×0.70. Parent: WC2026 R16 · Spain vs
+  Portugal · 2026-07-06. Overall: GREEN. L1 PARTIAL · L2 PASS · L3 PARTIAL · L4
+  PASS · L5 PARTIAL · L6 PASS. 3 PASS · 3 PARTIAL · 0 FAIL. All 10 prospective
+  audits GREEN — no AMBER, RED, or Layer 4 FAILs across the full series. Defining
+  feature: REGISTRY-GAP (RESOLVED) — $SPAIN not in registry at signal time ·
+  flagged as material uncertainty · HOLD applied on dual grounds (CAPITULATION +
+  registry gap — unique mechanic in audit series) · resolved post-match with version
+  tracking · documented in four locations · sets template for future REGISTRY-GAP
+  handling. Gate 1 most precisely documented in audit series (exact UTC timestamp
+  2026-07-06T18:24:00Z in frontmatter and Agent Rules). Layer 3 PARTIAL version-
+  appropriate (Spain + Portugal regulatory files did not exist at v4.1.2). Layer 5:
+  9 of 9 football records PARTIAL — pattern absolute. Second Pattern Review findings:
+  (1) L5 chiliscan.com — 9/9 football PARTIAL — HIGH priority template fix.
+  (2) L3 two-class system confirmed — Class A (documentation gap) vs Class B
+  (version-appropriate). (3) L6 MIND DIMENSIONS gap is not purely pre-v4.1.32 —
+  some post-v4.1.32 records also incomplete — retroactive pass scope widened.
+  (4) REGISTRY-GAP mechanic — template guidance recommended. (5) Dual-token
+  relationship classification gap — 3/3 dual-token records missing — mandatory
+  field recommended in dual-fan-token-match-dynamics.md Section 6.
+  Four template fix recommendations escalated to Strategy Chat.
+
 ## [4.6.46] — 2026-08-29
 
 ### Added
