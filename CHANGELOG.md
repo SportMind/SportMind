@@ -1,5 +1,29 @@
 # Changelog
 
+## [4.6.45] — 2026-08-29
+
+### Added
+- `community/calibration-data/audits/audit-ucl-final-psg-vs-arsenal-2026-05-30.md` NEW
+  Prospective Reasoning Audit — Audit 8 of 10. Pre-match verified · dual-token ·
+  $AFC PATH_2 ACTIVE. Signal at v3.97.96 · backfilled at v4.6.30. Parent:
+  UCL Final 2025/26 (legacy: R130) · PSG vs Arsenal · 2026-05-30. Regime at
+  signal: ANXIETY ×1.00 (pre-CAPITULATION). Overall: GREEN. L1 PARTIAL · L2
+  PASS · L3 PASS · L4 PASS · L5 PARTIAL · L6 PASS. 4 PASS · 2 PARTIAL · 0
+  FAIL. Richest record in audit series. ANXIETY regime correctly identified and
+  preserved under backfill · CAPITULATION counterfactual documented (40.6 under
+  CAPITULATION — only record in audit series to do so). Score progression T-48h
+  → T-24h → T-2h documented (unique in series). First dual-jurisdiction Layer 3
+  PASS (uk-cryptoasset-regime.md + france.md both explicitly loaded — confirms
+  pattern: explicit regulatory file naming → PASS). First live PATH_2 record in
+  audit series — DRAW correctly identified on 90-minute rule · 0 burned · 0
+  minted. Correction transparency exemplary: initial LOSS/MINT error documented
+  · corrected at v4.0.0 · preserved in four locations · rule in defi-integration-
+  intelligence.md. dual-fan-token-match-dynamics.md explicitly confirmed loaded
+  (first in audit series). 16 agent rules (largest set audited). Layer 5 PARTIAL:
+  7 of 7 football records — pattern absolute. New minor gap: dual-token
+  relationship type (ALIGNED/ASYMMETRIC/CONFLICTED) not explicitly named — flag
+  for template review.
+
 ## [4.6.44] — 2026-08-28
 
 ### Added
