@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.6.50] — 2026-08-29
+
+### Added
+
+- core/master-reasoning-protocol.md NEW — Master Reasoning Protocol v1.0. Foundational reasoning chain for any LLM or agent operating SportMind intelligence. Eight-stage loading order (macro regime · regulatory overlay · CDI gate · form signal · H2H · venue · compound synthesis · output framing). Three-tier source architecture with fabrication prevention and token verification rules. HOLD gate discipline section — non-negotiable · Layer 4 FAIL = RED always · CAPITULATION recalculation rule · dual-token HOLD variants. Citation chain with mandatory fields for every output. Six version-aware reasoning rules (V1–V6) including REGISTRY-GAP handling and regime preservation. Audience calibration via core/audience-navigator.md. Multi-LLM design — no tool-use assumptions · no memory assumptions · no model-specific syntax · consistent output guarantee. 10 Agent Rules. All 16 Mind Dimensions — primary: Reasoning · Judgment · Verification · Ethics · Transparency. LLM-agnostic. Self-contained. Powers sportmind.dev/agent/ as primary experience. Does not replace onboarding/welcome-prompt.md — parallel entry point for builders and agent runtimes.
+
 ## [4.6.49] — 2026-08-29
 
 ### Changed
