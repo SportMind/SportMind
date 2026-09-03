@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.6.53] — 2026-09-03
+
+### Added
+- market/kayen-finance.md (NEW 216L): Kayen Finance (FanX Protocol) — Chiliz Chain native DEX. Primary on-chain secondary market venue for fan tokens. Covers: dual AMM model (UniV2 volatile + Curve stable), Dynamic Directional Fees, wrapped fan token mechanics (WGAL/WPSG/WCHZ — DEX instruments only, not underlying tokens), $PEPPER governance role (25% fee buyback/burn, liquidity incentive voting, memecoin-scale supply caveat), stCHZ liquid staking derivative (stCHZ ≠ CHZ), DEX volume as cross-check signal, DEX V3 and lending market confirmed NOT YET LIVE, VASP classification note. 6 agent rules. 16 Mind Dimensions mapped.
+
 ## [4.6.50] — 2026-08-29
 
 ### Added
