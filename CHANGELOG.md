@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.6.54] — 2026-09-03
+
+### Added
+- fan-token/hp-3-pepper.md (NEW 166L): $PEPPER token profile — Kayen Finance governance token on Chiliz Chain. HP-3 monitoring flag formalised as library file. Covers: governance role confirmed (25% protocol fee buyback/burn, liquidity incentive voting), memecoin supply caveat (~8,888 trillion total supply — governance mechanics real, token economics speculative), chiliscan.com 1.14T verification PENDING (HP-3 unresolved), $PEPPER explicitly excluded from fan token calibration records and BTG mechanics, secondary signal only for Kayen Finance protocol health and fan token liquidity allocation. 5 agent rules. 16 Mind Dimensions mapped.
+
 ## [4.6.53] — 2026-09-03
 
 ### Added
