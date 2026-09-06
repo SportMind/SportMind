@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.6.51] — 2026-09-07
+
+### Added
+- community/calibration-data/football/football-napoli-vs-arsenal-ucl-md1-2026-09-09.md (NEW 522L): Pre-match calibration record R138 — SSC Napoli vs Arsenal FC · UEFA Champions League 2026-27 Matchday 1 · dual-token (ASYMMETRIC) · $NAP (demand-only · post-Scudetto Y1 · Italy 33% CGT) and $AFC (PATH_2 ACTIVE · PL Champions + UCL Finalist · omnichain · UK Type D). CHZ CAPITULATION ×0.70 active both tokens. Occasion weight ×1.40 (UCL league phase · sport-domain-football.md). Rivalry UNCLASSIFIED (Rule 10 · no modifier). PTG section removed (not applicable). Gate 1 submitted. Direction: AWAY ($AFC). Result PENDING.
+- community/calibration-data/audits/audit-R138-napoli-vs-arsenal-ucl-md1-2026-09-09.md (NEW 93L): Reasoning audit — R138 · human-run (audit 11 in series). Pre-match layers 1, 2, 3, 5, 6: PASS. Layer 4 (Judgment/HOLD gate): PENDING — complete post-match.
+
 ## [4.6.54] — 2026-09-03
 
 ### Added
