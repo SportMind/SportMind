@@ -1,24 +1,24 @@
 # Russia — Regulatory Framework for Fan Token Holder Analysis
 
 **Domain:** macro/regulatory/russia.md
-**Version:** v4.6.29
+**Version:** v4.6.52
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
-**Scope:** Russian-resident holder regulatory framework. Bill
-1194918-8 "On Digital Currency and Digital Rights" passed State
-Duma July 21 2026 — core provisions September 1 2026. Fan token
-asset eligibility UNRESOLVED pending Bank of Russia implementing
-regulations (October-November 2026). EU sanctions create bidirectional
-platform access restrictions. No confirmed Russian club fan tokens —
-applies to Russian-resident holders of any Chiliz fan token.
+**Scope:** Russian-resident holder regulatory framework. Federal
+Law 282-FZ "On Digital Currency and Digital Rights" in force
+September 1 2026 — transition period to July 1 2027. Fan tokens
+STRUCTURALLY EXCLUDED IN STATUTE — approved asset list criteria
+(>5T ruble market cap + >1T ruble daily volume) cannot be met by
+any fan token. EU sanctions create bidirectional platform access
+restrictions. No confirmed Russian club fan tokens — applies to
+Russian-resident holders of any Chiliz fan token.
 **Jurisdiction:** Russian Federation
 **Regulatory authority:** Bank of Russia (Банк России) ·
 Rosfinmonitoring (financial monitoring) · Federal Tax Service
 (FNS — Федеральная налоговая служба)
-**Framework status:** TRANSITIONAL — Bill 1194918-8 passed Duma
-July 21 2026 · awaiting Federation Council approval and presidential
-signature · core provisions September 1 2026 · full enforcement
-July 1 2027
-**Last verified:** 2026-08-24
+**Framework status:** ACTIVE — Federal Law 282-FZ in force
+September 1 2026 · transition period to July 1 2027 ·
+fan tokens STRUCTURALLY EXCLUDED IN STATUTE
+**Last verified:** 2026-09-03
 
 ---
 
@@ -47,18 +47,31 @@ Crypto Mining Law — signed August 2024:
   Russia became world's second-largest bitcoin miner after the
   United States.
 
-Bill 1194918-8 "On Digital Currency and Digital Rights":
+Federal Law 282-FZ "On Digital Currency and Digital Rights"
+(Bill 1194918-8):
   Government submitted: April 1 2026
   First reading: April 21 2026 — 327 of 340 deputies
   Financial Markets Committee revised text: July 8 2026
   Second and third readings (Duma): July 21 2026 — 340/340
-  Federation Council: 14-day approval window (~August 4 2026)
+  Federation Council: approved ~August 4 2026
   Presidential signature: CONFIRMED — August 5 2026 (signed by Putin,
     reported by TASS)
   Federation Council and presidential signature both completed.
+  Enacted as Federal Law 282-FZ.
   Core provisions effective: September 1 2026
+  Transition period: September 1 2026 → July 1 2027
   Full enforcement (unlicensed platform ban + criminal
     liability): July 1 2027
+
+  APPROVED ASSET LIST CRITERIA (statutory — 282-FZ):
+  Market capitalisation threshold: >5 trillion rubles
+  Daily trading volume threshold: >1 trillion ruble
+  Assets meeting criteria: Bitcoin (BTC) · Ethereum (ETH) ·
+    Tether (USDT) — confirmed on whitelist
+  Fan tokens: structurally below both thresholds — exclusion
+    is statutory, not discretionary policy
+  Statutory amendment required to change approved asset list
+    criteria — not subject to Bank of Russia policy discretion
 
 DIRECTION OF TRAVEL:
   Russia has moved from outright crypto hostility (2017-2020)
@@ -133,38 +146,57 @@ INVESTOR ACCESS RESTRICTIONS:
   Structural note: 300,000 ruble cap is a hard per-intermediary
   ceiling, not a lifetime cap. A holder may use multiple licensed
   intermediaries but each carries its own 300,000 ruble annual limit.
-  Fan token holders: if fan tokens are eligible assets
-  (UNRESOLVED — see below), non-qualified Russian investors
-  face structural demand suppression via the 300,000 ruble cap.
+  Fan token holders: fan tokens are NOT eligible assets under
+  282-FZ (statutory suppressor confirmed). The 300,000 ruble
+  cap applies to whitelisted assets only — fan tokens are
+  structurally below this level entirely (not whitelisted).
 
-ASSET ELIGIBILITY LIST PUBLISHED — 2026-08-11:
-  Bank of Russia published its first eligible asset list on
-  August 11 2026 under the draft directive for organised trading.
+APPROVED ASSET LIST — STATUTORY SUPPRESSOR CONFIRMED:
+  Federal Law 282-FZ establishes approved asset list criteria
+  in statute as of September 1 2026.
+  Statutory criteria: >5 trillion ruble market cap AND
+    >1 trillion ruble daily trading volume — both required.
   Listed assets: Bitcoin (BTC) · Ethereum (ETH) · Tether USDT.
-  These are the only three assets named on the first list.
-  Fan tokens: NOT LISTED — SUPPRESSOR CONFIRMED.
-  Public consultation on draft directive closed: August 24 2026.
-  Final list expected before September 1 2026 — monitor cbr.ru.
-  Full implementing regulations still due: October-November 2026.
+    These are the only assets meeting statutory criteria.
+  Fan tokens: STRUCTURALLY EXCLUDED IN STATUTE.
+    No fan token can meet either threshold.
+    Exclusion is structural — not a discretionary policy posture.
+    Statutory amendment required to change — not subject to
+    Bank of Russia policy discretion.
+  282-FZ live September 1 2026 — statutory, not policy.
+
+  HP-11 STATUS: STATUTORY SUPPRESSOR CONFIRMED
+  Previous status: SUPPRESSOR CONFIRMED (policy posture)
+  Current status: STATUTORY SUPPRESSOR — hardened to statute
+  Exclusion criterion cannot be met by any fan token and
+  requires legislative amendment to change.
+  Do not model Russian-resident fan token demand as recoverable
+  under current statute.
 
   PRUDENTIAL RISK TREATMENT FOR UNLISTED ASSETS:
-  Assets not admitted to organised trading (i.e. not on the
-  eligible list) are treated by Bank of Russia draft prudential
-  rules as 100% risk weight — deducted from capital in full
-  regardless of size, rather than counted as an asset at all.
+  Assets not admitted to organised trading (not on approved list)
+  are treated by Bank of Russia prudential rules as 100% risk
+  weight — deducted from capital in full.
   Listed digital currencies use a clearing organisation's own
   risk rate, doubled.
-  Fan tokens fall into the unlisted category: 100% risk weight.
-  This is a confirmed demand suppressor for Russian institutional
-  holders. Retail access restriction also confirmed by exclusion.
+  Fan tokens: 100% risk weight — confirmed demand suppressor
+  for Russian institutional holders.
 
-  SPORTMIND MODIFIER UPDATE:
-  Previous status: UNRESOLVED (binary outcome pending)
-  Current status: SUPPRESSOR CONFIRMED
-  Russian-resident fan token holders are outside the regulated
-  access pathway under the September 1 framework as currently
-  constituted. Monitor for additions to the eligible list
-  post-September 1 — escalate immediately if fan tokens added.
+  SBERBANK CRYPTO TRADING:
+  Sberbank crypto trading planned December 2026.
+  Whitelisted assets only: Bitcoin (BTC) · Ethereum (ETH) ·
+    Tether (USDT).
+  Fan tokens not included.
+  Monitor cbr.ru weekly.
+  Escalate immediately if fan tokens added to whitelist.
+
+  SPORTMIND MODIFIER — UPDATED:
+  Previous status: SUPPRESSOR CONFIRMED (policy · August 2026)
+  Current status: STATUTORY SUPPRESSOR CONFIRMED (282-FZ · Sep 1 2026)
+  Russian-resident fan token holders are structurally excluded
+  from the regulated access pathway by statute. Maximum suppression
+  applies. Do not model Russian-resident fan token demand as
+  recoverable under current statute.
 
 DIGITAL RUBLE (PARALLEL LAUNCH):
   Russia launches digital ruble at major banks and retailers
@@ -184,10 +216,11 @@ CGT / TAX FRAMEWORK:
   Apply UNKNOWN modifier for Russian domestic holder tax friction.
 
 SPORTMIND MODIFIER — RUSSIAN-RESIDENT HOLDERS:
-  RUSSIA: asset eligibility UNRESOLVED · domestic payment ban
-  active · R$300,000 annual cap (non-qualified) · EU sanctions
-  restrict Western platform access · CGT UNKNOWN · September 1
-  framework — verify Bank of Russia asset list before analysis
+  RUSSIA: STATUTORY SUPPRESSOR CONFIRMED (282-FZ · Sep 1 2026) ·
+  fan tokens structurally excluded in statute · domestic payment
+  ban active · R$300,000 annual cap (non-qualified — whitelisted
+  assets only) · EU sanctions restrict Western platform access ·
+  CGT UNKNOWN · maximum suppression — do not model as recoverable
 ```
 
 ---
@@ -202,23 +235,31 @@ CLASSIFICATION: Tsifrovoy aktiv (цифровой актив — digital asset)
   No specific fan token or utility token classification issued
   by Bank of Russia as of 2026-07-31.
 
-ASSET ELIGIBILITY: UNRESOLVED
-  Bank of Russia has not published the eligible asset list.
-  Implementing regulations due October-November 2026.
-  Fan tokens are not named as eligible or excluded.
-  Privacy coin exclusion signals restrictive approach to
-  non-mainstream assets — fan tokens may face similar scrutiny.
+ASSET ELIGIBILITY: STATUTORY SUPPRESSOR CONFIRMED
+  Federal Law 282-FZ (effective September 1 2026) establishes
+  approved asset list criteria in statute:
+    >5 trillion ruble market capitalisation AND
+    >1 trillion ruble daily trading volume — both required.
+  No fan token can meet either threshold.
+  Fan token exclusion is structural — not subject to Bank of
+  Russia policy discretion. Statutory amendment required to change.
 
-AGENT RULE 1 — ASSET ELIGIBILITY: SUPPRESSOR CONFIRMED:
-  Bank of Russia published first eligible asset list August 11
-  2026 — Bitcoin, Ethereum, USDT only. Fan tokens NOT listed.
-  Do not model Russian-resident fan token demand via licensed
-  platforms as accessible under the September 1 framework.
-  Apply confirmed access restriction modifier — no longer
-  UNRESOLVED. This is now a standing SUPPRESSOR.
-  Monitor cbr.ru for final list before September 1 and for
-  any additions post-September 1.
-  Escalate immediately to build if fan tokens added to list.
+AGENT RULE 1 — STATUTORY SUPPRESSOR CONFIRMED (282-FZ):
+  Federal Law 282-FZ confirms fan tokens are excluded from
+  Russia's approved crypto asset list by statute as of
+  September 1 2026. The exclusion criteria (>5 trillion ruble
+  market cap + >1 trillion ruble daily volume) cannot be met by
+  any fan token. This is a statutory suppressor — not a policy
+  posture. It requires legislative amendment to change.
+  Apply maximum suppression to Russian-resident holder demand
+  in all fan token analysis. Do not model Russian-resident
+  fan token demand as recoverable under current statute.
+
+  ESCALATE IMMEDIATELY IF:
+  · Any fan token is added to the 282-FZ approved asset list
+  · Sberbank crypto trading (planned December 2026) extends
+    beyond BTC/ETH/USDT to fan tokens
+  · Any amendment to 282-FZ approved asset list criteria
 ```
 
 ---
@@ -233,8 +274,8 @@ DIRECTION 1 — RUSSIAN LAW RESTRICTS OUTBOUND ACCESS:
   Russian residents routing payments to Socios.com via Russian
   banks may face bank-level blocking from September 1.
   Self-custody (Chiliz Chain wallets): not prevented by the
-  payment routing restriction but asset eligibility on licensed
-  platforms remains UNRESOLVED.
+  payment routing restriction but fan tokens are excluded from
+  licensed platforms by statute (282-FZ · statutory suppressor).
   Non-qualified investors: R$300,000 annual cap applies to
   purchases through licensed intermediaries — unlicensed
   platform access does not exempt from this restriction.
@@ -278,17 +319,21 @@ AGENT RULE 2 — BIDIRECTIONAL ACCESS RESTRICTION:
 ## SportMind Agent Rules
 
 ```
-RULE 1 — ASSET ELIGIBILITY: SUPPRESSOR CONFIRMED (2026-08-11):
-  Bank of Russia first eligible asset list published August 11
-  2026 — Bitcoin (BTC), Ethereum (ETH), Tether USDT only.
-  Fan tokens NOT listed. SUPPRESSOR CONFIRMED — no longer
-  UNRESOLVED. Apply confirmed access restriction modifier to
-  all Russian-resident fan token holder analysis.
-  Monitor cbr.ru for final list (before September 1) and any
-  post-September additions. Escalate immediately if fan tokens
-  added to eligible list — this would be a HIGH PRIORITY signal
-  reversing the SUPPRESSOR to a demand signal.
-  Full implementing regulations still due October-November 2026.
+RULE 1 — STATUTORY SUPPRESSOR CONFIRMED (282-FZ · Sep 1 2026):
+  Federal Law 282-FZ confirms fan tokens are excluded from
+  Russia's approved crypto asset list by statute. Exclusion
+  criteria: >5 trillion ruble market cap + >1 trillion ruble
+  daily volume — both required. No fan token can meet either.
+  This is a statutory suppressor — not a policy posture.
+  Legislative amendment required to change — not subject to
+  Bank of Russia discretion.
+  Apply MAXIMUM SUPPRESSION to all Russian-resident fan token
+  holder analysis. Do not model Russian-resident fan token
+  demand as recoverable under current statute.
+  Monitor cbr.ru weekly. Escalate immediately if:
+  · Any fan token added to 282-FZ approved asset list
+  · Sberbank trading (December 2026) extends to fan tokens
+  · Any amendment to 282-FZ approved asset list criteria
 
 RULE 2 — BIDIRECTIONAL ACCESS RESTRICTION MODIFIER:
   Russian-resident holders face restrictions from both
@@ -321,13 +366,15 @@ RULE 6 — NO RUSSIAN CLUB TOKENS IN LIBRARY:
   domestic demand. Do not create Russian club token CDI
   files without first verifying active Chiliz partnership.
 
-RULE 7 — SEPTEMBER 1 FRAMEWORK MONITORING:
-  Core provisions active September 1 2026.
-  Bank of Russia asset eligibility list: October-November 2026.
+RULE 7 — 282-FZ MONITORING POSTURE:
+  282-FZ core provisions ACTIVE September 1 2026.
+  Approved asset list criteria: statutory — BTC/ETH/USDT only.
+  Fan token exclusion: confirmed in statute.
+  Sberbank crypto trading: planned December 2026 — monitor for
+    scope (BTC/ETH/USDT only — fan tokens not included).
   Full enforcement: July 1 2027.
-  Run daily SMI scan for Bank of Russia implementing regulations
-  from September 1. Escalate fan token eligibility determination
-  immediately when published.
+  Monitor cbr.ru weekly. Escalate immediately on any change
+  to approved asset list criteria or Sberbank scope.
 
 RULE 8 — SANCTIONS COMPLIANCE NOTE:
   SportMind library is for intelligence and reasoning only.
@@ -394,29 +441,28 @@ bidirectional access restrictions.
 ## Open Questions and Monitoring Flags
 
 ```
-MOST CRITICAL OPEN ITEM — PARTIALLY RESOLVED:
+MOST CRITICAL OPEN ITEM — RESOLVED (STATUTORY SUPPRESSOR):
 
-Bank of Russia asset eligibility list
-  Status: PARTIALLY RESOLVED — 2026-08-11
-  First list: Bitcoin · Ethereum · USDT only (August 11 2026)
-  Consultation closed: August 24 2026
-  Final list: expected before September 1 2026
-  Fan tokens: NOT on first list — SUPPRESSOR CONFIRMED
-  Full implementing regulations: October-November 2026
-  Action: Monitor cbr.ru daily for final list publication
-    before September 1. Monitor post-September 1 for any
-    additions to the eligible asset list. Escalate immediately
-    if fan tokens added — binary outcome reversal.
-  Prior status: UNRESOLVED binary outcome → SUPPRESSOR confirmed.
-  Remaining uncertainty: whether fan tokens appear on any
-    future list update (October-November implementing regs).
+Fan token approved asset list status
+  Status: RESOLVED — STATUTORY SUPPRESSOR CONFIRMED
+  Federal Law 282-FZ effective September 1 2026.
+  Approved asset list criteria in statute: >5T ruble market
+    cap + >1T ruble daily volume — both required.
+  Assets listed: Bitcoin · Ethereum · USDT only.
+  Fan tokens: structurally excluded in statute. Cannot meet
+    either threshold. Statutory amendment required to change.
+  HP-11: STATUTORY SUPPRESSOR — hardened from policy to statute.
+  Action: Monitor cbr.ru weekly for any amendment to approved
+    asset list criteria. Escalate immediately if fan tokens
+    added or if Sberbank (December 2026) extends to fan tokens.
 
 REMAINING OPEN QUESTIONS:
 
-Bill 1194918-8 — presidential signature confirmed?
+Federal Law 282-FZ — enactment status
   Status: CONFIRMED — August 5 2026 (signed by Putin, reported by TASS)
   Federation Council and presidential signature completed.
-  Law is fully enacted. September 1 2026 provisions are live.
+  Law is fully enacted as Federal Law 282-FZ. September 1 2026
+  provisions are live. Transition period to July 1 2027.
 
 Fan token CGT treatment under Russian property tax law
   Status: UNRESOLVED
@@ -445,8 +491,10 @@ EU sanctions expansion — crypto provisions
 
 ```
 PRIMARY SOURCES:
-  Bill 1194918-8 "On Digital Currency and Digital Rights"
-    — State Duma second and third readings July 21 2026
+  Federal Law 282-FZ "On Digital Currency and Digital Rights"
+    — enacted August 5 2026 · effective September 1 2026
+    · approved asset list criteria: >5T ruble market cap +
+    >1T ruble daily volume · BTC/ETH/USDT confirmed listed
   DFA Law (Law on Digital Financial Assets) — January 1 2021
   Crypto Mining Law — August 2024
   EU 20th sanctions package — May 2026 (crypto CASP restrictions
@@ -466,15 +514,16 @@ PRESIDENTIAL SIGNATURE STATUS:
   Law is fully enacted. September 1 2026 provisions will take
   effect as scheduled. No further verification required.
 
-FAN TOKEN ELIGIBILITY: No source confirms fan tokens as
-  eligible or excluded under Bank of Russia criteria.
-  UNRESOLVED status confirmed by absence of guidance.
-  Implementing regulations due October-November 2026.
+FAN TOKEN ELIGIBILITY: STATUTORY SUPPRESSOR CONFIRMED.
+  Federal Law 282-FZ approved asset list criteria (>5T ruble
+  market cap + >1T ruble daily volume) cannot be met by any
+  fan token. Exclusion is structural and statutory — confirmed
+  September 1 2026. Statutory amendment required to change.
 
-LAST VERIFIED: 2026-08-24
-PATCH APPLIED: 2026-08-24 — Bank of Russia eligible asset list
-(August 11 2026) · fan tokens NOT listed · SUPPRESSOR confirmed ·
-consultation closed August 24 · final list expected pre-September 1
+LAST VERIFIED: 2026-09-03
+PATCH APPLIED: 2026-09-03 — 282-FZ statutory suppressor confirmed ·
+HP-11 hardened from policy to statute · approved asset list
+criteria stated · Sberbank note added · framework status ACTIVE
 ```
 
 ---
@@ -485,18 +534,18 @@ consultation closed August 24 · final list expected pre-September 1
 |---|---|---|
 | Intelligence (1) | ACTIVE | Russian regulatory framework; bidirectional access restriction as primary modifier |
 | Reasoning (2) | ACTIVE | Domestic law + EU sanctions = structural isolation not present in any other jurisdiction |
-| Context (3) | ACTIVE | Bill 1194918-8 + payment ban + EU sanctions + asset eligibility gap as convergent structural context |
+| Context (3) | ACTIVE | Federal Law 282-FZ + statutory suppressor criteria + payment ban + EU sanctions as convergent structural context |
 | Memory (4) | ACTIVE | Legislative history 2020-2026 traceable; sanctions bypass motivation documented |
 | Judgment (5) | ACTIVE | Russia correctly classified as most isolated jurisdiction — qualitatively distinct from Turkey, Brazil, Italy |
-| Attention (6) | ACTIVE | Asset eligibility critical gap · law fully enacted (signature August 5) · September 1 deadline approaching · Bank of Russia regulations |
-| Communication (7) | ACTIVE | Agent rules numbered; bidirectional restriction explicit; no Russian club tokens flag clear |
-| Verification (8) | ACTIVE | Presidential signature pending — noted explicitly; fan token eligibility absence confirmed |
+| Attention (6) | ACTIVE | Statutory suppressor confirmed · Sberbank December 2026 monitor · July 1 2027 full enforcement · cbr.ru weekly scan |
+| Communication (7) | ACTIVE | Agent rules numbered; statutory suppressor explicit; bidirectional restriction clear; no Russian club tokens flag |
+| Verification (8) | ACTIVE | 282-FZ enacted August 5 confirmed; approved asset list criteria verified; statutory exclusion confirmed |
 | Learning (9) | ACTIVE | Direction of travel: legalisation driven by sanctions bypass — structural motivation encoded |
 | Integration (10) | ACTIVE | Cross-references EU MiCA sanctions provisions; applies to Russian-resident holders of any token |
 | Calibration (11) | ACTIVE | UNKNOWN modifiers correctly applied; no false precision on unenacted provisions |
-| Adaptation (12) | ACTIVE | September 1 monitoring trigger; Bank of Russia eligibility list escalation defined |
+| Adaptation (12) | ACTIVE | Statutory suppressor hardened; Sberbank December 2026 escalation trigger; July 1 2027 full enforcement trigger defined |
 | Ethics (13) | ACTIVE | Sanctions compliance note included; library for intelligence only — not transaction facilitation |
-| Transparency (14) | ACTIVE | Presidential signature status flagged; all UNRESOLVED items explicitly labelled |
+| Transparency (14) | ACTIVE | Statutory suppressor criteria explicit; UNRESOLVED items (CGT) labelled; all RESOLVED items confirmed |
 | Execution (15) | EMERGING | Agent rules structured for direct application; monitoring triggers actionable |
 | Collaboration (16) | EMERGING | Designed to load alongside eu-mica.md for sanctions context and holder-tax-framework.md |
 
@@ -519,4 +568,4 @@ core/contradiction-resolution-framework.md
 
 ---
 
-*v4.6.29 — 2026-08-24*
+*v4.6.52 — 2026-09-03*

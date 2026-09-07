@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.6.52] — 2026-09-03
+
+### Changed
+- macro/regulatory/russia.md (UPDATE · v4.6.29 → v4.6.52 · 522L → 571L): 282-FZ statutory suppressor confirmed · HP-11 hardened from policy posture to confirmed statute. Federal Law 282-FZ (Bill 1194918-8) enacted August 5 2026 · effective September 1 2026. Approved asset list criteria stated in statute: >5 trillion ruble market cap + >1 trillion ruble daily volume — both required · BTC/ETH/USDT only · fan tokens structurally excluded. Framework status updated TRANSITIONAL → ACTIVE. Statutory suppressor agent rule added — maximum suppression, do not model Russian-resident fan token demand as recoverable under current statute, escalation triggers defined. Sberbank crypto trading note added (planned December 2026 · BTC/ETH/USDT only · fan tokens not included). Investor cap note corrected (fan tokens below whitelisted level entirely). Bidirectional access section updated (eligibility no longer UNRESOLVED). Open questions updated (asset eligibility resolved → statutory suppressor). Sources updated (282-FZ as primary source). MIND DIMENSIONS updated. Last verified 2026-08-24 → 2026-09-03.
+
 ## [4.6.55] — 2026-09-07
 
 ### Changed
