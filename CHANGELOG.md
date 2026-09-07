@@ -1,5 +1,46 @@
 # Changelog
 
+## [4.6.55] — 2026-09-07
+
+### Changed
+- macro/regulatory/brazil.md — corrected CGT regime and legislative
+  instrument references following dedicated research session
+
+**Instrument correction:** MP 1.303/2025 lapsed October 8 2025
+(Chamber voted 251–193 to withdraw from agenda; failed to achieve
+congressional conversion within 120-day window). It never became
+law. The file previously stated it was "operative June 12 2026" —
+this was incorrect. The flat 17.5% CGT rate and abolition of the
+R$35,000 monthly exemption threshold never took effect.
+
+**Restored CGT regime:** Progressive 15%–22.5% with R$35,000
+monthly exemption remains the operative framework. All agent rules,
+modifier lines, and the jurisdiction comparison table updated
+accordingly.
+
+**BCB Resolutions added:** Resolutions 519 and 520 (published
+November 2025, effective February 2, 2026) added to legislative
+history — core VASP authorisation and operational rules previously
+missing from the file. Resolution 521 effective date corrected
+(was stated as "2025"; correct date is February 2, 2026).
+Resolution 561 (stablecoin/FX, April 2026, effective October 2026)
+added.
+
+**VASP authorisation deadline:** October 29 2026 deadline for all
+VASPs to apply for BCB authorisation added. Socios.com / Chiliz
+authorisation status confirmed as unverified — monitoring flag
+added with escalation condition.
+
+**Framework status header updated:** Removed MP 1.303/2025
+reference; now correctly anchored to Law 14.478/2022 and BCB
+Resolutions 519/520/521.
+
+**Open questions updated:** MP ratification flag removed (moot —
+lapsed); replaced with post-election crypto tax monitoring flag and
+BCB VASP authorisation deadline monitoring flag.
+
+**Last verified updated:** 2026-07-31 → 2026-09-07
+
 ## [4.6.51] — 2026-09-07
 
 ### Added

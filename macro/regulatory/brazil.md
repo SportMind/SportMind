@@ -1,19 +1,21 @@
 # Brazil — Crypto Regulatory Framework for Fan Token Holder Analysis
 
 **Domain:** macro/regulatory/brazil.md
-**Version:** v4.1.78
+**Version:** v4.6.55
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Brazilian domestic holder tax and regulatory framework.
-MP 1.303/2025 operative from June 12 2026 (flat 17.5% CGT).
+Progressive CGT regime operative (15%–22.5% · R$35,000 monthly
+exemption). MP 1.303/2025 lapsed October 8 2025 — not in force.
 DeCripto reporting system active July 1 2026.
 CARF-aligned international data exchange.
+BCB VASP authorisation deadline: October 29 2026.
 Resolves regulatory gap for nine active Brazilian fan tokens.
 **Jurisdiction:** Federative Republic of Brazil
 **Regulatory authority:** Receita Federal do Brasil (RFB) ·
 Banco Central do Brasil (BCB)
-**Framework status:** ACTIVE — MP 1.303/2025 operative June 12 2026
-· subject to congressional ratification (see LEGISLATIVE STATUS)
-**Last verified:** 2026-07-31
+**Framework status:** ACTIVE — Law 14.478/2022 · BCB Resolutions
+519/520/521 · Progressive CGT regime operative
+**Last verified:** 2026-09-07
 
 ---
 
@@ -36,34 +38,40 @@ Law 14.478/2022 — effective June 2023:
   Socios.com / Chiliz required BCB VASP registration to operate
   in Brazil.
 
-BCB Resolution 521/2025 — effective 2025:
-  Monthly FX reporting obligations for VASPs.
-  Required detailed reports on stablecoin purchases, sales, and
-  exchanges, plus international transfers with counterparty
-  identification. Capital controls and AML oversight mechanism.
+BCB Resolutions 519, 520, 521 — published November 2025,
+effective February 2, 2026:
+  Resolution 519: VASP authorisation requirements. All VASPs
+    must apply to BCB between February 2 and October 29 2026.
+    Existing operators may continue operating while application
+    is processed. Capital thresholds R$10.8M–R$37.2M.
+  Resolution 520: VASP operational rules — governance, AML/CFT,
+    cybersecurity, conduct obligations, organisational structure.
+  Resolution 521: Virtual asset activities integrated into
+    Brazil's foreign exchange regime. Monthly FX reporting
+    obligations for VASPs. Stablecoin cross-border transfers
+    subject to FX rules from October 2026 (Resolution 561).
 
-PRE-JUNE 12 2026 — PREVIOUS CGT REGIME:
+BCB Resolution 561 — published April 2026, effective October 2026:
+  Stablecoins used for cross-border payments outside regulated
+  FX channels subject to additional oversight. Does not affect
+  fan token classification.
+
+CURRENT CGT REGIME (progressive — MP 1.303/2025 lapsed):
   Monthly threshold: R$35,000 (gains below threshold exempt)
   Progressive CGT: 15% (gains up to R$5M) · 17.5% (R$5-10M)
     · 20% (R$10-30M) · 22.5% (above R$30M)
   Cost basis method: Weighted Average (Custo Médio)
   Reporting: IN 1.888/2019 framework
 
-Provisional Measure MP 1.303/2025 — operative June 12 2026:
-  Flat 17.5% CGT on ALL crypto capital gains.
-  Monthly R$35,000 exemption threshold ABOLISHED.
-  Applies uniformly: domestic exchanges · foreign exchanges ·
-    self-custody wallets · DeFi platforms.
-  All digital asset disposals taxed regardless of size.
-
-  LEGISLATIVE STATUS: Provisional Measure — requires congressional
-    ratification within 120 days or lapses.
-    October 2026 elections create ratification uncertainty.
-    Government paused further crypto tax reforms until post-election
-    period.
-  Agent rule: Apply 17.5% as the operative rate. Verify ratification
-    status before applying to live analysis. State "subject to
-    ratification" in any Brazilian holder analysis.
+Provisional Measure MP 1.303/2025 — LAPSED October 8 2025:
+  Proposed flat 17.5% CGT on all crypto capital gains and
+  abolition of the R$35,000 monthly exemption threshold.
+  Chamber of Deputies voted 251–193 to withdraw from agenda
+  on October 8 2025. Lapsed without congressional conversion.
+  Never became law. Has no legal effect.
+  The progressive CGT regime (15%–22.5% with R$35,000 monthly
+  exemption) was never superseded and remains operative.
+  Do not apply 17.5% flat rate or treat threshold as abolished.
 
 IN RFB 2.291/2025 — effective July 1 2026:
   DeCripto reporting framework.
@@ -73,34 +81,37 @@ IN RFB 2.291/2025 — effective July 1 2026:
   International data exchange with OECD partner countries.
 
 DIRECTION OF TRAVEL:
-  Consistent tightening since 2019. Rate trajectory: progressive
-  system to flat rate. Threshold: R$35,000 abolished.
+  Consistent tightening since 2019. Progressive CGT regime
+  operative — MP 1.303/2025 flat-rate proposal lapsed.
   Reporting: annual to monthly to CARF international exchange.
-  Do not assume rate or threshold stability.
+  Post-October 2026 elections: monitor for new crypto tax
+  legislation — government may reintroduce flat-rate proposal.
 ```
 
 ---
 
-## Current Tax Framework (operative June 12 2026)
+## Current Tax Framework
 
 ```
-CGT RATE: 17.5% flat on all realised crypto capital gains
-  Applied to all Brazilian tax residents regardless of transaction
-  size, platform, or asset type.
+CGT RATE: Progressive — 15% to 22.5%
+  15% on gains up to R$5M · 17.5% on R$5M–R$10M
+  20% on R$10M–R$30M · 22.5% above R$30M
+  MP 1.303/2025 (proposed flat 17.5%) lapsed October 8 2025.
+  Progressive regime was never superseded — remains operative.
   Primary fan token holder demand modifier for Brazil.
 
-LEGISLATIVE STATUS: PROVISIONAL MEASURE — MONITOR
-  MP 1.303/2025 operative but requires congressional ratification.
-  If not ratified within 120 days, previous progressive regime
-  (15-22.5% with R$35,000 monthly exemption) applies retroactively.
-  October 2026 elections create ratification uncertainty.
-  Agent rule: Apply 17.5% as current operative rate.
-  State "subject to ratification" in any Brazilian holder analysis.
-  Escalate to Strategy & Brainstorm if MP lapses or is amended.
+LEGISLATIVE STATUS: STABLE — PROGRESSIVE REGIME OPERATIVE
+  MP 1.303/2025 lapsed without conversion. Progressive CGT
+  regime restored as sole operative framework.
+  Post-October 2026 election: monitor for new crypto tax
+  legislation. Government may reintroduce flat-rate proposal.
+  Agent rule: Apply progressive 15%–22.5% rates based on
+  annual gain size. Do not apply 17.5% flat rate.
 
-THRESHOLD: NONE (under MP 1.303/2025)
-  All gains taxable from the first real.
-  Previous R$35,000 monthly exemption abolished June 12 2026.
+THRESHOLD: R$35,000 MONTHLY EXEMPTION OPERATIVE
+  Gains below R$35,000 per month remain exempt.
+  Threshold was never abolished — MP 1.303/2025 lapsed before
+  it could take effect.
 
 COST BASIS METHOD: Weighted Average (Custo Médio)
   Mandated by Receita Federal.
@@ -133,13 +144,19 @@ PENALTIES:
   Fraud: 150% of unpaid tax plus Selic interest until settlement
 
 VASP REGULATION (BCB):
-  Socios.com / Chiliz holds BCB VASP registration.
-  Required to report all Brazilian user transactions to RFB monthly.
-  Monthly FX reporting to BCB under Resolution 521/2025.
+  BCB Resolutions 519/520/521 effective February 2, 2026.
+  All VASPs must apply for BCB authorisation by October 29 2026.
+  Existing operators may continue operating while application
+  is processed.
+  Socios.com / Chiliz: BCB authorisation status unconfirmed
+  as of 2026-09-07. Application deadline October 29 2026.
+  Monitor for BCB authorisation register publication.
+  All authorised VASPs required to report Brazilian user
+  transactions to RFB monthly. FX reporting under Resolution 521.
 
 SPORTMIND MODIFIER — BRAZILIAN DOMESTIC HOLDERS:
-  BRAZIL: 17.5% CGT flat (MP 1.303/2025 — subject to ratification)
-  · no threshold · Custo Médio · DeCripto active
+  BRAZIL: Progressive CGT 15%–22.5% · R$35,000 monthly exemption
+  · Custo Médio · DeCripto active from July 2026
 ```
 
 ---
@@ -156,12 +173,14 @@ CLASSIFICATION: Criptoativo (virtual asset)
 FAN TOKEN-SPECIFIC GUIDANCE: NONE ISSUED
   No Receita Federal ruling specifically addressing fan tokens,
   utility tokens, or sports-related digital assets.
-  The 17.5% CGT rate applies to fan token disposals under the
+  Progressive CGT rates apply to fan token disposals under the
   general criptoativo framework.
 
 AGENT RULE 1 — APPLY GENERAL FRAMEWORK TO FAN TOKENS:
   In absence of fan-token-specific guidance, apply the general
-  criptoativo framework. 17.5% CGT operative rate.
+  criptoativo framework. Progressive CGT 15%–22.5% with
+  R$35,000 monthly exemption. MP 1.303/2025 lapsed — do not
+  apply 17.5% flat rate.
   Escalate to Strategy & Brainstorm if Receita Federal issues
   fan-token or utility-token-specific guidance.
 ```
@@ -172,7 +191,7 @@ AGENT RULE 1 — APPLY GENERAL FRAMEWORK TO FAN TOKENS:
 
 ```
 STATUS: UNRESOLVED — no Receita Federal guidance issued
-as of 2026-07-31.
+as of 2026-09-07.
 
 A PTG burn event involves a fan token holder transferring tokens
 to a burn address in exchange for a platform reward (match ticket,
@@ -185,7 +204,7 @@ TWO POSSIBLE INTERPRETATIONS:
 
 1. DISPOSAL INTERPRETATION:
    Burning tokens = alienação for consideration (the reward received).
-   CGT applies at 17.5% on any gain above Custo Médio cost basis.
+   Progressive CGT applies on any gain above Custo Médio cost basis.
 
 2. NON-DISPOSAL INTERPRETATION:
    Burn for utility reward = consumption of a virtual asset, not
@@ -250,8 +269,10 @@ AGENT RULE 3 — DECRIPTO BEHAVIOURAL MODIFIER:
 ```
 RULE 1 — APPLY GENERAL CRIPTOATIVO FRAMEWORK:
   No fan-token-specific guidance. Apply general virtual asset
-  framework: 17.5% CGT (MP 1.303/2025). Escalate if specific
-  guidance issued.
+  framework: progressive CGT 15%–22.5% with R$35,000 monthly
+  exemption. MP 1.303/2025 lapsed — do not apply 17.5% flat rate.
+  Escalate if Receita Federal issues fan-token-specific guidance
+  or if new crypto tax legislation is enacted post-election.
 
 RULE 2 — PTG BURN TREATMENT IS EXPLICITLY UNRESOLVED:
   Do not apply realisation or non-realisation assumption for
@@ -263,21 +284,23 @@ RULE 3 — DECRIPTO COMPLIANCE PRESSURE FROM JULY 2026:
   visibility. Self-custody Chiliz Chain holders have explicit
   reporting obligations from July 1 2026.
 
-RULE 4 — MP 1.303/2025 RATIFICATION MONITORING:
-  17.5% flat rate is operative but subject to congressional
-  ratification. October 2026 elections create uncertainty.
-  If MP lapses: revert to progressive 15-22.5% regime with
-  R$35,000 monthly exemption. Escalate immediately if this occurs.
-  State "subject to ratification" in all Brazilian holder analysis
-  until ratification is confirmed.
+RULE 4 — POST-ELECTION CRYPTO TAX MONITORING:
+  MP 1.303/2025 lapsed October 8 2025. Progressive regime
+  is operative. Post-October 2026 election, monitor for new
+  crypto tax legislation — government may reintroduce flat-rate
+  proposal. Escalate immediately if new instrument enacted.
+  BCB VASP authorisation deadline: October 29 2026 — monitor
+  for Socios.com / Chiliz authorisation confirmation.
 
 RULE 5 — BRAZIL IS MODERATE-FRICTION JURISDICTION:
-  17.5% (if ratified) places Brazil below Italy (33%) and France
-  (30%) but above Germany (0% after 12 months). Threshold abolition
-  and DeCripto reporting make effective compliance burden higher
-  than the rate alone suggests. ~26 million Brazilian crypto
-  investors — domestic holder cohort structurally significant
-  for all nine Brazilian tokens.
+  Progressive 15%–22.5% with R$35,000 monthly exemption places
+  Brazil in the mid-range: below Italy (33%) and France (30%),
+  comparable to UK (20%), and above Germany (0% after 12 months)
+  for most retail-scale gains. DeCripto reporting from July 2026
+  increases effective compliance burden significantly regardless
+  of rate. ~26 million Brazilian crypto investors — domestic
+  holder cohort structurally significant for all nine Brazilian
+  fan tokens.
 
 RULE 6 — NINE TOKENS IN SCOPE:
   Apply to all nine Brazilian Chiliz fan tokens:
@@ -288,11 +311,15 @@ RULE 7 — CUSTO MÉDIO COST BASIS:
   Brazilian cost basis is Weighted Average (Custo Médio).
   Do not apply LIFO (Italy) or FIFO to Brazilian holder analysis.
 
-RULE 8 — VASP REGISTRATION CONFIRMS SOCIOS BRAZIL PRESENCE:
-  Socios.com / Chiliz holds BCB VASP registration. Reports all
-  Brazilian user transactions to RFB monthly automatically.
-  Primary channel for Brazilian fan token activity is domestic
-  exchange / Socios.com — not foreign platforms or self-custody only.
+RULE 8 — VASP AUTHORISATION DEADLINE OCTOBER 29 2026:
+  BCB Resolutions 519/520/521 require all VASPs to apply for
+  BCB authorisation by October 29 2026. Socios.com / Chiliz
+  authorisation status unconfirmed as of 2026-09-07.
+  If authorised: reports all Brazilian user transactions to RFB
+  monthly automatically.
+  If not authorised by October 29: escalate immediately — material
+  impact on Brazilian fan token holder access and reporting.
+  Monitor BCB authorisation register for confirmation.
 ```
 
 ---
@@ -324,11 +351,12 @@ significant domestic holder base.
 | Italy | 33% | None | None | Full — DAC8 |
 | France | 30% flat | None | None | Partial |
 | UK | 20% higher rate | £3,000 annual exempt | None | Partial |
-| Brazil | 17.5% flat (MP) | None | None | High — DeCripto/CARF |
+| Brazil | 15%–22.5% progressive | R$35,000/month | None | High — DeCripto/CARF |
 | South Africa | 18% max CGT | None | None | Partial — CARF |
 | Germany | 0% after 12 months | €600 annual | YES — 12m hold | Partial |
 
-Brazil at 17.5% (if ratified) sits between South Africa and UK.
+Brazil progressive 15%–22.5% with R$35,000 monthly exemption.
+Effective burden elevated by DeCripto reporting from July 2026.
 Germany remains the most structurally favourable in the library.
 
 ---
@@ -341,14 +369,16 @@ UNKNOWN modifier replaced by specific rules for nine tokens.
 
 REMAINING OPEN QUESTIONS:
 
-MP 1.303/2025 congressional ratification
-  Status: MONITOR — ACTIVE FLAG
-  Action: Escalate immediately if MP lapses or is amended.
-  Revert to progressive 15-22.5% / R$35,000 regime if lapsed.
-
-October 2026 elections — post-election crypto tax policy
+Post-election crypto tax legislation (October 2026 elections)
   Status: MONITOR
-  Action: Scan for new crypto tax legislation post-election.
+  Action: Government may reintroduce flat-rate CGT proposal.
+  Escalate immediately if new instrument enacted.
+
+BCB VASP authorisation — Socios.com / Chiliz
+  Status: MONITOR — deadline October 29 2026
+  Action: Confirm authorisation. Escalate if deadline approaches
+  without confirmation or if Socios.com / Chiliz authorisation
+  is denied or delayed.
 
 PTG burn = taxable alienação?
   Status: UNRESOLVED
@@ -370,30 +400,36 @@ Brazilian Libertadores/Sudamericana calibration series
 
 ```
 PRIMARY SOURCES:
-  MP 1.303/2025 — flat 17.5% CGT operative June 12 2026
+  Law 14.478/2022 — VASP framework, foundational statute, BCB
+    as regulator, effective June 2023
+  BCB Resolutions 519/520/521 — published November 2025,
+    effective February 2, 2026 — VASP authorisation and operations
+  BCB Resolution 561 — April 2026, effective October 2026 —
+    stablecoin/FX rules
   IN RFB 2.291/2025 — DeCripto framework, effective July 1 2026
-  Law 14.478/2022 — VASP framework, BCB as regulator
-  IN 1.888/2019 — foundational reporting framework
-  BCB Resolution 521/2025 — monthly FX reporting for VASPs
+  IN 1.888/2019 — foundational reporting framework (superseded
+    by DeCripto from July 2026)
+  MP 1.303/2025 — LAPSED October 8 2025 · proposed flat 17.5%
+    CGT · never became law · do not apply as operative instrument
 
 SECONDARY SOURCES (cross-check only):
   KPMG Tax News Flash December 2025 — DeCripto/CARF implementation
   Global Legal Insights: Blockchain & Crypto 2026 — Brazil chapter
   Agência Brasil July 2026 — DeCripto launch confirmation
-  Multiple crypto tax guidance sources consistent on 17.5% rate
-  and DeCripto mechanics (KoinX, TokenTax, CoinTracker, Waltio)
+  Multiple crypto tax guidance sources on DeCripto mechanics
+  (KoinX, TokenTax, CoinTracker, Waltio) — cross-check only
 
 LEGISLATIVE STATUS NOTE:
-  Some secondary sources still reference the old progressive regime.
-  This reflects pre-June 12 2026 guidance. Operative framework from
-  June 12 2026 is MP 1.303/2025. Use post-June 12 framework for
-  current holder analysis. Verify MP ratification status before
-  applying to forward-looking analysis.
+  Some sources published between June–October 2025 may reference
+  MP 1.303/2025 as if it were operative. It lapsed October 8 2025.
+  The progressive CGT regime is operative. Apply progressive
+  15%–22.5% with R$35,000 monthly exemption for all current
+  Brazilian holder analysis.
 
-PTG BURN GUIDANCE: No source found as of 2026-07-31.
+PTG BURN GUIDANCE: No source found as of 2026-09-07.
   UNRESOLVED status confirmed by absence of guidance.
 
-LAST VERIFIED: 2026-07-31
+LAST VERIFIED: 2026-09-07
 ```
 
 ---
@@ -402,20 +438,20 @@ LAST VERIFIED: 2026-07-31
 
 | Dimension | Status | Notes |
 |---|---|---|
-| Intelligence (1) | ACTIVE | Brazilian holder tax framework; 17.5% rate as signal modifier |
+| Intelligence (1) | ACTIVE | Brazilian holder tax framework; progressive CGT 15%–22.5% as signal modifier |
 | Reasoning (2) | ACTIVE | Threshold abolition + DeCripto = increased compliance pressure = behavioural modifier |
-| Context (3) | ACTIVE | MP 1.303/2025 + DeCripto + BCB VASP convergence as structural context |
+| Context (3) | ACTIVE | Law 14.478/2022 + BCB Resolutions 519/520/521 + DeCripto as structural context |
 | Memory (4) | ACTIVE | Legislative history 2019-2026 traceable; dual-regime transition documented |
 | Judgment (5) | ACTIVE | Brazil positioned correctly vs Italy · France · UK · Germany comparators |
-| Attention (6) | ACTIVE | MP ratification flag · PTG burn gap · October elections · Libertadores window |
-| Communication (7) | ACTIVE | Agent rules numbered; modifier in single-line format; MP caveat explicit |
+| Attention (6) | ACTIVE | BCB VASP deadline October 29 · PTG burn gap · post-election tax monitoring · Libertadores window |
+| Communication (7) | ACTIVE | Agent rules numbered; modifier in single-line format; progressive regime explicit |
 | Verification (8) | ACTIVE | Sources cited; last verified stamped; legislative status conflict noted |
 | Learning (9) | ACTIVE | Direction of travel: tightening at every revision — encoded as forward signal |
 | Integration (10) | ACTIVE | Nine tokens listed; calibration folder reference; compatibility connected |
 | Calibration (11) | ACTIVE | UNKNOWN modifier removal tied to specific legislative evidence |
-| Adaptation (12) | ACTIVE | MP ratification trigger defined; October elections flagged |
+| Adaptation (12) | ACTIVE | Post-election tax trigger defined; BCB VASP deadline October 29 flagged |
 | Ethics (13) | ACTIVE | Framework factual; no avoidance guidance |
-| Transparency (14) | ACTIVE | UNRESOLVED and MONITOR sections clearly labelled; MP caveat prominent |
+| Transparency (14) | ACTIVE | UNRESOLVED and MONITOR sections clearly labelled; lapsed instrument flagged explicitly |
 | Execution (15) | EMERGING | Agent rules structured for direct pre-match application |
 | Collaboration (16) | EMERGING | Designed to load alongside CDI files and holder-tax-framework.md |
 
