@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.6.56] — 2026-09-07
+
+### Changed
+- fan-token/fan-token-play.md (UPDATE · 220L → 222L): Retrospective 16 Mind Dimensions pass — added Execution (15) and Collaboration (16) dimensions to MIND DIMENSIONS footer. File predates v4.1.32 (14-dimension baseline). No content changes — housekeeping patch only. Footer updated from "All 14 Mind dimensions mapped" to "All 16 Mind dimensions mapped".
+
 ## [4.6.52] — 2026-09-03
 
 ### Changed

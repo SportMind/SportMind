@@ -202,6 +202,8 @@ AGENT RULE:
 | Adaptation | ACTIVE | Framework adapts as public testing expands to more club tokens |
 | Ethics | EMERGING | User wallet safety implications of dynamic supply to be developed |
 | Transparency | ACTIVE | All four mechanics, their sources, scopes, and user impact always explicit |
+| Execution | ACTIVE | Fan Token Play mechanics are directly executable by agents — WIN/LOSS/DRAW supply outcomes are deterministic rules, not probabilistic judgments. PATH_2 prediction market and treasury model provide structured execution frameworks for pre-match signal generation and post-match supply event confirmation. |
+| Collaboration | ACTIVE | Fan Token Play integrates with multiple library frameworks: burn-to-glory-framework.md · ftp-path2.md · dual-fan-token-match-dynamics.md · holder-tax-framework.md · macro/regulatory/ files. Supply mechanics inform calibration records across all sports with active fan tokens. Designed for multi-framework loading alongside CDI files and compound signal framework. |
 
 ---
 
@@ -217,4 +219,4 @@ AGENT RULE:
 
 *SportMind v4.0.7 · MIT License · sportmind.dev*
 *Enduring framework — applies to any club token with confirmed Fan Token Play activation.*
-*All 14 Mind dimensions mapped.*
+*All 16 Mind dimensions mapped.*
