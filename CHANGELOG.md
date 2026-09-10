@@ -1,5 +1,11 @@
 # Changelog
 
+## [4.6.57] — 2026-09-10
+
+### Changed
+- community/calibration-data/football/football-napoli-vs-arsenal-ucl-md1-2026-09-09.md (UPDATE · 522L → 557L): R138 BC10 PATH_2 burn check — burn NOT YET CONFIRMED as of 2026-09-10. Both sources checked: fantokens.com/fan-token-play (UCL MD1 2026-09-09 not listed · supply 39,266,147 $AFC unchanged) and chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615. Still within 72h post-match window. Deadline 2026-09-12. Supply event section, FLAG PATH2_ACTIVE block, status lines, and footer updated to document BC10 check. Full audit close deferred pending PATH_2 confirmation. Version v4.6.51 → v4.6.57.
+- community/calibration-data/audits/audit-R138-napoli-vs-arsenal-ucl-md1-2026-09-09.md (UPDATE · 93L → 97L): Audit BC10 check documented. Status, overall verdict, action required section, and footer updated. PATH_2 PENDING. Adjusted score gate review and full close deferred pending PATH_2 resolution. Version v4.6.51 → v4.6.57.
+
 ## [4.6.56] — 2026-09-07
 
 ### Changed

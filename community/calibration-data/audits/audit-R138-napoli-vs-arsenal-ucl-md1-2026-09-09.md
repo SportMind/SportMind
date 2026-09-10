@@ -1,10 +1,10 @@
 ---
 name: audit-R138-napoli-vs-arsenal-ucl-md1-2026-09-09
-status: POST-MATCH — direction CORRECT · PATH_2 burn PENDING · full close deferred to BC10
+status: POST-MATCH — direction CORRECT · PATH_2 burn PENDING · BC10 check 2026-09-10 · no burn confirmed · close deferred pending deadline
 parent-record: R138 · community/calibration-data/football/football-napoli-vs-arsenal-ucl-md1-2026-09-09.md
 auditor: Internal
 audit-date: 2026-09-07
-library-version: v4.6.51
+library-version: v4.6.57
 ---
 
 # Reasoning Audit — R138 · SSC Napoli v Arsenal FC
@@ -24,7 +24,7 @@ Auditor: Internal
 
 ## Overall verdict
 
-OVERALL: DIRECTION CORRECT — PATH_2 burn PENDING · full close deferred to BC10
+OVERALL: DIRECTION CORRECT — PATH_2 burn PENDING · BC10 check 2026-09-10 · no burn confirmed on fantokens.com or chiliscan.com · monitoring continues to 2026-09-12 deadline
 
 Post-match layers:
 
@@ -84,14 +84,14 @@ This record establishes the first UCL league phase dual-token calibration in the
 
 ## Action required
 
-PATH_2 burn confirmation: monitor chiliscan.com + fantokens.com/fan-token-play to 2026-09-12 (72h post-match window). Escalate immediately if burn executes or if no burn by deadline.
+PATH_2 burn confirmation: BC10 check 2026-09-10 — both sources checked (fantokens.com/fan-token-play + chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615). UCL MD1 2026-09-09 fixture NOT YET LISTED on Fan Token Play page. Total supply 39,266,147 $AFC unchanged — no burn executed. Still within 72h window. Monitoring continues. Deadline: 2026-09-12. Escalate immediately if burn executes or if absent at deadline.
 
-Adjusted score gate review: complete in BC10 — review HOLD gate outcome against adjusted scores from MCP signal to formally close Layer 4.
+Adjusted score gate review: deferred — requires PATH_2 confirmation and MCP adjusted scores. To be completed once burn confirmed or deadline passed.
 
-Full audit close: BC10 — once PATH_2 burn confirmed and gate reviewed. Record then moves to COMPLETE.
+Full audit close: deferred pending PATH_2 resolution — record moves to COMPLETE when burn outcome confirmed and gate reviewed.
 
 ---
 
-*SportMind v4.6.51 · Reasoning Audit Framework v1.0.0*
-*Audit: R138 · DIRECTION CORRECT · PATH_2 PENDING · 2026-09-10*
+*SportMind v4.6.57 · Reasoning Audit Framework v1.0.0*
+*Audit: R138 · DIRECTION CORRECT · PATH_2 PENDING · BC10 check 2026-09-10 · no burn confirmed · deadline 2026-09-12*
 *© 2026 SportMind*
