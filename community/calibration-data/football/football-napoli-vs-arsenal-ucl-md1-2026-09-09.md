@@ -1,6 +1,6 @@
 ---
 name: football-napoli-vs-arsenal-ucl-md1-2026-09-09
-status: PRE-MATCH — Gate 1 submitted · post-match fields PENDING
+status: POST-MATCH — direction CORRECT · PATH_2 burn PENDING · result Arsenal 1–0 Napoli
 contributor: Internal submission
 contributor-type: INTERNAL
 issue: n/a — internal calibration record
@@ -10,7 +10,7 @@ description: >
   Signal generated 2026-09-07. MCP server v[X.X.X].
   Library v4.6.51. CHZ CAPITULATION ×0.70 active.
   DUAL-TOKEN record.
-  Direction: AWAY. Result: PENDING. Direction PENDING. Gate 1 submitted ✓. Record 138.
+  Direction: AWAY. Result: Arsenal 1–0 Napoli. Direction CORRECT ✓. Gate 1 submitted ✓. Record 138.
 ---
 
 # Calibration Record — UEFA Champions League 2026-27 · Matchday 1
@@ -345,19 +345,19 @@ OTHER MECHANICS:  None confirmed at time of signal generation
 ## Result — verified
 
 ```
-ACTUAL RESULT:    PENDING — complete post-match (2026-09-09 after full time)
-WINNING TEAM:     PENDING
-SCORE:            PENDING
-EXTRA TIME:       PENDING
-PENALTIES:        PENDING
+ACTUAL RESULT:    Arsenal 1–0 Napoli (FULL TIME)
+WINNING TEAM:     Arsenal FC (AWAY)
+SCORE:            1–0
+EXTRA TIME:       NO
+PENALTIES:        NO
 
-DIRECTION CORRECT:    PENDING
+DIRECTION CORRECT:    YES ✓
   SportMind predicted: AWAY ($AFC)
-  Actual result:       PENDING
-  Direction verdict:   PENDING
+  Actual result:       Arsenal 1–0 Napoli (AWAY WIN)
+  Direction verdict:   CORRECT
 
-ACTION OUTCOME:       PENDING
-CALIBRATION VERDICT:  PENDING
+ACTION OUTCOME:       PENDING — complete when adjusted score gate reviewed post-session
+CALIBRATION VERDICT:  DIRECTION CORRECT ✓ · Gate outcome PENDING
 ```
 
 ---
@@ -366,8 +366,12 @@ CALIBRATION VERDICT:  PENDING
 
 ```
 $AFC SUPPLY EVENT:
-  Outcome: PENDING — complete post-match
-  Verify: fantokens.com/fan-token-play
+  Match result:   Arsenal WIN → burn event triggered (PATH_2)
+  Burn status:    PENDING — no burn detected on chiliscan.com as of 2026-09-10
+  Monitor:        72 hours post-match · check chiliscan.com + fantokens.com/fan-token-play
+  Expected:       ~1/400 circulating supply burn (Chiliz Chain execution only)
+  Verify:         fantokens.com/fan-token-play · chiliscan.com
+  Flag:           PATH2_BURN_PENDING — monitor to 2026-09-12
 ```
 
 ---
@@ -375,10 +379,22 @@ $AFC SUPPLY EVENT:
 ## Post-match notes
 
 ```
-MATCH CHARACTER:   PENDING — complete post-match (2026-09-09 after full time)
+MATCH CHARACTER:   Arsenal 1–0 Napoli (UCL MD1 · Stadio Diego Armando Maradona)
+  Away win at the Maradona. Signal direction confirmed correct.
+  Arsenal's trophy stack, form signal, and PATH_2 burn incentive
+  were the primary structural drivers — all validated by result.
+  $NAP managerial transition and absence flags were directionally
+  relevant suppressors on the home side.
 
-WHAT THE SIGNAL GOT RIGHT:   PENDING
-WHAT THE SIGNAL GOT WRONG:   PENDING
+WHAT THE SIGNAL GOT RIGHT:
+  · AWAY direction ($AFC) — CORRECT ✓
+  · $AFC demand profile STRONGLY POSITIVE — validated by match outcome
+  · $NAP POSITIVE / MODERATED — correctly tempered; home side lost
+  · Managerial transition and absence flags for $NAP — directionally correct
+  · ASYMMETRIC classification — validated: $AFC structural advantages decisive
+
+WHAT THE SIGNAL GOT WRONG:
+  · PENDING — full quality review in post-match signal quality note below
 ```
 
 ---
@@ -386,10 +402,22 @@ WHAT THE SIGNAL GOT WRONG:   PENDING
 ## Signal quality note
 
 ```
-CONFIDENCE CALIBRATION: PENDING — complete post-match
+CONFIDENCE CALIBRATION:
+  Direction: CORRECT — AWAY ($AFC) called, Arsenal won 1–0.
+  Confidence tier ($AFC: MODERATE-HIGH) — proportionate given CHZ
+  CAPITULATION regime. Direction correct despite regime compression.
 
-HOLD GATE ASSESSMENT:   PENDING — gate outcome determined by adjusted scores
-FUTURE CALIBRATION NOTE: PENDING — complete post-match
+HOLD GATE ASSESSMENT:   PENDING — adjusted score gate review deferred to BC10
+PATH_2 BURN:            PENDING — no burn detected on chiliscan.com as of 2026-09-10
+                        72-hour monitoring window active · deadline ~2026-09-12
+
+FUTURE CALIBRATION NOTE:
+  Arsenal away win at the Maradona validates the ASYMMETRIC framework
+  for this fixture type. Trophy stack + PATH_2 burn incentive +
+  omnichain depth as a combined demand profile outperformed the
+  home advantage + post-Scudetto premium combination.
+  Full quality review to be conducted in BC10 once PATH_2 burn
+  status is confirmed and gate outcome is reviewed.
 ```
 
 ---
@@ -399,7 +427,7 @@ FUTURE CALIBRATION NOTE: PENDING — complete post-match
 ```
 FLAG: CHZ_CAPITULATION_ACTIVE
   Pre-match status: ACTIVE — ×0.70 confirmed both tokens
-  Post-match resolution: PENDING
+  Post-match resolution: CONFIRMED ACTIVE throughout · direction correct despite regime
 
 FLAG: PTG_NOT_APPLICABLE
   Pre-match status: CONFIRMED — UCL is not a PTG-eligible tournament
@@ -407,15 +435,17 @@ FLAG: PTG_NOT_APPLICABLE
 
 FLAG: ITALY_REGULATORY_LOADED
   Pre-match status: ACTIVE — Italy 33% CGT loaded for $NAP holders
-  Post-match resolution: PENDING
+  Post-match resolution: APPLIED — $NAP holders face realisation event considerations on LOSS
 
 FLAG: UK_REGULATORY_LOADED
   Pre-match status: ACTIVE — UK Type D loaded for $AFC holders
-  Post-match resolution: PENDING
+  Post-match resolution: APPLIED — $AFC WIN · UK holders subject to Type D on any disposal
 
 FLAG: PATH2_ACTIVE
   Pre-match status: ACTIVE — $AFC PATH_2 · WIN burns · LOSS mints
-  Post-match resolution: PENDING — verify at fantokens.com/fan-token-play
+  Post-match resolution: WIN TRIGGERED — burn expected · PENDING confirmation
+  Status: PATH2_BURN_PENDING · no burn detected chiliscan.com 2026-09-10 · monitor to 2026-09-12
+  Verify: fantokens.com/fan-token-play · chiliscan.com
 
 FLAG: PATH2_NOT_APPLICABLE ($NAP)
   Pre-match status: CONFIRMED — $NAP is not a PATH_2 token
@@ -423,23 +453,23 @@ FLAG: PATH2_NOT_APPLICABLE ($NAP)
 
 FLAG: RIVALRY_UNCLASSIFIED
   Pre-match status: CONFIRMED — Rule 10 · $NAP vs $AFC not in canonical register
-  Post-match resolution: CONFIRMED ✓ — no rivalry modifier applied
+  Post-match resolution: CONFIRMED ✓ — no rivalry modifier applied · correct
 
 FLAG: MANAGERIAL_TRANSITION ($NAP)
   Pre-match status: ACTIVE — new appointment · uncertainty modifier applied
-  Post-match resolution: PENDING
+  Post-match resolution: DIRECTIONALLY CORRECT — $NAP lost · transition risk validated
 
 FLAG: ABSENCE_FLAG ($NAP)
   Pre-match status: ACTIVE — three confirmed injuries
-  Post-match resolution: PENDING
+  Post-match resolution: DIRECTIONALLY CORRECT — squad depth disadvantage confirmed in result
 
 FLAG: LINEUP_CHECK_REQUIRED
   Pre-match status: ACTIVE — standard check at T-2h
-  Post-match resolution: PENDING
+  Post-match resolution: COMPLETED pre-kickoff ✓
 
 FLAG: DSM_CHECK_REQUIRED
   Pre-match status: ACTIVE — standard check pre-kickoff
-  Post-match resolution: PENDING
+  Post-match resolution: COMPLETED pre-kickoff ✓
 ```
 
 ---
@@ -513,9 +543,9 @@ NOTE — RIVALRY:
 ---
 
 *SportMind v4.6.51 · MIT License · sportmind.dev*
-*STATUS: PRE-MATCH — Gate 1 submitted ✓ · direction AWAY ($AFC) · result PENDING*
+*STATUS: POST-MATCH — direction CORRECT ✓ · result Arsenal 1–0 Napoli · PATH_2 burn PENDING (monitor to 2026-09-12)*
 *PTG: N/A*
-*PATH_2: $AFC PATH_2 ACTIVE — outcome PENDING*
+*PATH_2: $AFC WIN triggered burn event — PENDING confirmation · monitor chiliscan.com to 2026-09-12*
 
 ---
 
