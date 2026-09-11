@@ -1,5 +1,10 @@
 # Changelog
 
+## [4.6.59] — 2026-09-10
+
+### Added
+- intelligence/staleness-register.md (NEW · 155L · v1.0.0): Central staleness tracking register for all 34 Tier A SportMind library files across macro/regulatory/ (18 files) and intelligence/country-scan/ (16 files). Tier A = 30-day verification cycle. Four status values: CURRENT · DUE · OVERDUE · NEEDS UPDATE. Three agent rules: SMI Chat (surface OVERDUE/NEEDS UPDATE on every briefing) · Build Chat (update register on every patch — mandatory) · External Agents (surface caveat when loading stale files). Initial audit from Strategy Chat 28 (2026-09-09): 9 OVERDUE files · 2 NEEDS UPDATE files · 3 coverage gaps (Pakistan · KSA · UAE country-scan files missing). Read by SMI prompt v4.4.20 on every briefing. Self-maintains as byproduct of normal Build Chat workflow.
+
 ## [4.6.58] — 2026-09-10
 
 ### Added
