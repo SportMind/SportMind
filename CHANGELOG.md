@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.6.58] — 2026-09-10
+
+### Added
+- community/calibration-data/football/libertadores-qf-flu-vs-platense-leg1-2026-09-08.md (NEW · 325L · R139): Copa Libertadores 2026 · Quarter-Final · First Leg · $FLU (Fluminense) · SINGLE-TOKEN exception (Strategy Chat 28) · direction HOME · result Fluminense 2–0 Platense · direction CORRECT ✓ · HOLD gate CORRECT ✓ · occasion weight ×1.40 · CAPITULATION ×0.70 · leg 1 of 2 complete · second leg pending.
+- community/calibration-data/football/libertadores-qf-verdao-vs-ldu-leg1-2026-09-09.md (NEW · 341L · R140): Copa Libertadores 2026 · Quarter-Final · First Leg · $VERDAO (Palmeiras) · SINGLE-TOKEN exception (Strategy Chat 28) · direction HOME · result Palmeiras 1–0 LDU Quito · direction CORRECT ✓ · HOLD gate CORRECT ✓ · occasion weight ×1.40 · CAPITULATION ×0.70 · altitude note for second leg (Quito ~2,850m) · leg 1 of 2 complete · second leg pending.
+- community/calibration-data/football/libertadores-qf-estudiantes-vs-sccp-leg1-2026-09-09.md (NEW · 349L · R141): Copa Libertadores 2026 · Quarter-Final · First Leg · $SCCP (Corinthians) · SINGLE-TOKEN exception (Strategy Chat 28) · direction AWAY ($SCCP perspective) · result Estudiantes 1–1 Corinthians · direction INCORRECT (DRAW not AWAY WIN) · HOLD gate CORRECT ✓ — HOLD prevented ENTER on AWAY + CAPITULATION compound · leg 1 of 2 complete · HOME second leg pending (level aggregate).
+- community/calibration-data/football/libertadores-qf-idv-vs-mengo-leg1-2026-09-10.md (NEW · 386L · R142): Copa Libertadores 2026 · Quarter-Final · First Leg · $MENGO (Flamengo) · SINGLE-TOKEN exception (Strategy Chat 28) · direction AWAY ($MENGO perspective) · result IDV 0–2 Flamengo · direction CORRECT ✓ · HOLD gate CORRECT ✓ — HOLD appropriate under AWAY + CAPITULATION + ALTITUDE compound · Quito altitude ~2,800m overcome · R134 adverse note cross-referenced · leg 1 of 2 complete · HOME second leg pending (2–0 aggregate lead). Copa Libertadores QF occasion weight established: ×1.40.
+
 ## [4.6.57] — 2026-09-10
 
 ### Changed
