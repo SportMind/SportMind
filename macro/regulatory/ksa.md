@@ -9,6 +9,16 @@ description: >
   Enduring statutory framework — not expiring data. All 14 Mind dimensions mapped.
 ---
 
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/ksa.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-07-10
+Next check due:  2026-08-09
+Status:          OVERDUE
+Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
+---
+
 # Saudi Arabia — Unified Sports Law 2026
 
 **Royal Decree M/121 · Effective June 10 2026 · REGULATORY_CLARITY: HIGH**

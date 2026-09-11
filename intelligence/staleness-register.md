@@ -153,3 +153,4 @@ HP-13 active status.
 | Date | Action | Files affected | Updated by |
 |---|---|---|---|
 | 2026-09-09 | Register created · initial Tier A audit | All 34 files | Strategy Chat 28 · BC10 Task A |
+| 2026-09-10 | Staleness notice blocks added | macro/regulatory/ — all 18 files | BC10 Task B |

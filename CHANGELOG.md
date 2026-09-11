@@ -1,5 +1,30 @@
 # Changelog
 
+## [4.6.60] — 2026-09-10
+
+### Changed
+- macro/regulatory/argentina.md (UPDATE · 431L → 441L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-20. Next due: 2026-09-19.
+- macro/regulatory/belgium.md (UPDATE · 354L → 364L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-22. Next due: 2026-09-21.
+- macro/regulatory/brazil.md (UPDATE · 473L → 483L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-09-07. Next due: 2026-10-07.
+- macro/regulatory/eu-mica.md (UPDATE · 305L → 315L): Staleness notice block prepended. Status: DUE. Last verified: 2026-08-17. Next due: 2026-09-16.
+- macro/regulatory/eu.md (UPDATE · 206L → 216L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-10. Next due: 2026-08-09.
+- macro/regulatory/france.md (UPDATE · 327L → 337L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-21. Next due: 2026-09-20.
+- macro/regulatory/germany.md (UPDATE · 407L → 417L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-21. Next due: 2026-09-20.
+- macro/regulatory/global-regulatory-landscape.md (UPDATE · 278L → 288L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-17. Next due: 2026-08-16.
+- macro/regulatory/italy.md (UPDATE · 395L → 405L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-31. Next due: 2026-08-30.
+- macro/regulatory/ksa.md (UPDATE · 305L → 315L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-10. Next due: 2026-08-09.
+- macro/regulatory/netherlands.md (UPDATE · 429L → 439L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-25. Next due: 2026-09-24.
+- macro/regulatory/pakistan.md (UPDATE · 394L → 404L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-08-24. Next due: 2026-09-23.
+- macro/regulatory/russia.md (UPDATE · 572L → 582L): Staleness notice block prepended. Status: CURRENT. Last verified: 2026-09-03. Next due: 2026-10-03.
+- macro/regulatory/south-africa-sars.md (UPDATE · 274L → 284L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-27. Next due: 2026-08-26.
+- macro/regulatory/turkey.md (UPDATE · 400L → 410L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-31. Next due: 2026-08-30.
+- macro/regulatory/uae.md (UPDATE · 333L → 343L): Staleness notice block prepended. Status: OVERDUE. Last verified: 2026-07-10. Next due: 2026-08-09.
+- macro/regulatory/uk-cryptoasset-regime.md (UPDATE · 339L → 349L): Staleness notice block prepended. Status: OVERDUE · HP-10 active · September 14 event. Last verified: 2026-07-17. Next due: 2026-08-16.
+- macro/regulatory/us-token-taxonomy.md (UPDATE · 248L → 258L): Staleness notice block prepended. Status: OVERDUE · CLARITY Act · SEC/CFTC March 2026. Last verified: 2026-07-10. Next due: 2026-08-09.
+- intelligence/staleness-register.md (UPDATE · 155L → 156L): REGISTER CHANGELOG row added — Task B notice block insertion recorded.
+  No status values changed — audit baseline preserved from Task A.
+  Part of SportMind Staleness Framework (v4.6.57+). Addition only — no existing content altered in any file.
+
 ## [4.6.59] — 2026-09-10
 
 ### Added

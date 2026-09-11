@@ -21,6 +21,16 @@ description: >
   Update immediately when September 5 outcome confirmed.
 ---
 
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/pakistan.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-08-24
+Next check due:  2026-09-23
+Status:          CURRENT
+Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
+---
+
 # Pakistan Fan Token Holder Regulatory Framework
 
 ---

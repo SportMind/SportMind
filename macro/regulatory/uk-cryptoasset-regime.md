@@ -9,6 +9,16 @@ description: >
   and macro/macro-regulatory-sportfi.md.
 ---
 
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/uk-cryptoasset-regime.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-07-17
+Next check due:  2026-08-16
+Status:          OVERDUE
+Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
+---
+
 # UK Cryptoasset Regulatory Regime
 
 **Enduring framework. Enacted 2026 under FSMA (Cryptoassets) Regulations.**

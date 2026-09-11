@@ -9,6 +9,16 @@ description: >
   Enduring regulatory milestone. All 14 Mind dimensions mapped.
 ---
 
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/eu.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-07-10
+Next check due:  2026-08-09
+Status:          OVERDUE
+Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
+---
+
 # EU — MiCA Enforcement Framework
 
 **ESMA + Member State NCAs · June 30 2026 Transitional Deadline · ENFORCEMENT: ACTIVE**

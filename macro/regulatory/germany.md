@@ -1,3 +1,13 @@
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/germany.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-08-21
+Next check due:  2026-09-20
+Status:          CURRENT
+Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
+---
+
 # Germany Regulatory Framework
 
 **Domain:** macro/regulatory/germany.md

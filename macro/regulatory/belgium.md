@@ -1,3 +1,13 @@
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/belgium.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-08-22
+Next check due:  2026-09-21
+Status:          CURRENT
+Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
+---
+
 # Belgium Regulatory Framework
 
 **Domain:** macro/regulatory/belgium.md

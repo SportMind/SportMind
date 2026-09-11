@@ -1,3 +1,13 @@
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/eu-mica.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-08-17
+Next check due:  2026-09-16
+Status:          DUE
+Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
+---
+
 # EU MiCA Framework — Fan Token Intelligence
 
 **Domain:** macro/regulatory/eu-mica.md

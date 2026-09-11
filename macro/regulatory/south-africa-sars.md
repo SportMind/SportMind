@@ -1,3 +1,13 @@
+---
+SPORTMIND STALENESS NOTICE
+File:            macro/regulatory/south-africa-sars.md
+Tier:            A — 30-day verification cycle
+Last verified:   2026-07-27
+Next check due:  2026-08-26
+Status:          OVERDUE
+Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
+---
+
 # South Africa — SARS Crypto Tax Framework
 
 **Domain:** macro/regulatory/south-africa-sars.md
