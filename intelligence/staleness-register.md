@@ -96,7 +96,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 |---|---|---|---|---|
 | _registers.md | 2026-08-25 | 2026-09-24 | CURRENT | |
 | argentina.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| brazil.md | 2026-08-18 | 2026-09-17 | NEEDS UPDATE | Stale CGT reference · MP 1.303/2025 lapsed |
+| brazil.md | 2026-09-10 | 2026-10-10 | CURRENT | CGT corrected · MP 1.303/2025 lapsed confirmed · one-liner added · BC10 Task C |
 | eu-bloc.md | 2026-08-19 | 2026-09-18 | CURRENT | |
 | france.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | germany.md | 2026-08-18 | 2026-09-17 | CURRENT | |
@@ -104,7 +104,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | japan.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | netherlands.md | 2026-08-26 | 2026-09-25 | CURRENT | |
 | portugal.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| russia.md | 2026-08-18 | 2026-09-17 | NEEDS UPDATE | 282-FZ statutory suppressor not reflected |
+| russia.md | 2026-09-10 | 2026-10-10 | CURRENT | 282-FZ statutory suppressor added · STRUCTURALLY EXCLUDED IN STATUTE · one-liner added · BC10 Task C |
 | south-africa.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | spain.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | turkey.md | 2026-08-18 | 2026-09-17 | CURRENT | |
@@ -154,3 +154,4 @@ HP-13 active status.
 |---|---|---|---|
 | 2026-09-09 | Register created · initial Tier A audit | All 34 files | Strategy Chat 28 · BC10 Task A |
 | 2026-09-10 | Staleness notice blocks added | macro/regulatory/ — all 18 files | BC10 Task B |
+| 2026-09-10 | Staleness one-liners added + content fixes | country-scan/brazil.md · country-scan/russia.md | BC10 Task C |

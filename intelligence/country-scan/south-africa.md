@@ -1,3 +1,5 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-08-18 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-09-17 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — SOUTH AFRICA
 Version: v4.6.9
 Scan tier: A — every briefing

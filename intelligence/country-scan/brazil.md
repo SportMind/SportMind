@@ -1,8 +1,10 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-10 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-10 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — BRAZIL
-Version: v4.6.2
+Version: v4.6.61
 Scan tier: A — every briefing
-Last scan: 2026-08-18
-Last material update: 2026-08-18
+Last scan: 2026-09-10
+Last material update: 2026-09-10
 
 SECTION 1 — REGULATORY ENVIRONMENT
 
@@ -21,10 +23,10 @@ FAN TOKEN CLASSIFICATION:
   Socios.com operational in Brazil — no access restriction
 
 TAX TREATMENT:
-  CGT: 17.5% flat (MP 1.303/2025) ·
-  MP 1.303/2025 STATUS: RATIFICATION PENDING — T-54 as of 2026-08-18 ·
-  If MP lapses: reverts to prior framework (15% up to R$5M ·
-    22.5% above R$5M · prior framework) ·
+  CGT: PROGRESSIVE 15%–22.5% with R$35,000 monthly exemption ·
+  MP 1.303/2025 (lapsed October 2025 — not in force) ·
+  Operative regime: 15% up to R$5M · 22.5% above R$5M ·
+    R$35,000 monthly exemption applies · do NOT apply 17.5% flat rate ·
   PTG BURN TAX: UNRESOLVED — flag in all outputs ·
   No holding period incentive under current framework ·
   INVERTED CALENDAR: Brazilian football season March-December ·
@@ -37,23 +39,25 @@ PLATFORM ACCESS:
   No specific fan token platform ban
 
 ACTIVE REGULATORY PROCESSES:
-  MP 1.303/2025 — CRITICAL · ratification by ~October 10 ·
-  Daily scan: congress.leg.br · escalate on any vote signal ·
+  MP 1.303/2025 — LAPSED October 2025 · not in force ·
+  Post-October 2026 election: monitor for new crypto tax legislation ·
+  BCB VASP authorisation deadline: October 29 2026 — monitor Socios.com/Chiliz ·
   BCB crypto exchange licensing — ongoing ·
   CVM security token guidance — pending
 
 REGULATORY BODIES:
-  congress.leg.br — Tier 1 · daily scan (MP 1.303 active)
+  congress.leg.br — Tier 1 · weekly scan (MP 1.303/2025 LAPSED · monitor post-election legislation)
   bcb.gov.br (BCB) — Tier 1 · weekly
   cvm.gov.br (CVM) — Tier 1 · monthly
   receita.fazenda.gov.br (Receita Federal — tax) — Tier 1 · on signal
 
 DEMAND SIGNAL MODIFIER:
-  MODERATE FRICTION · 17.5% CGT (if MP ratified) ·
-  MP LAPSE RISK adds uncertainty suppressor ·
+  MODERATE FRICTION · progressive CGT 15%–22.5% with R$35,000 monthly exemption ·
+  MP 1.303/2025 LAPSED — uncertainty suppressor resolved ·
+  Post-October 2026 election: monitor for new crypto tax legislation ·
   INVERTED CALENDAR creates seasonal demand pattern ·
   Strongest demand window: March-December ·
-  Current window: August — ACTIVE demand season
+  Current window: September — ACTIVE demand season (peak phase)
 
 SECTION 2 — FAN TOKEN LANDSCAPE
 
@@ -111,7 +115,7 @@ CHZ ADOPTION: GROWING — Brazil is one of the largest crypto
   INVERTED CALENDAR creates unique demand pattern vs European market
 
 DEFI ACCESS: Kayen Finance + FanX both accessible ·
-  17.5% CGT applies to all DeFi trading gains (if MP ratified) ·
+  Progressive CGT 15%–22.5% applies to all DeFi trading gains (MP 1.303/2025 LAPSED) ·
   Multiple Brazilian tokens on OFT architecture:
   $MENGO $VERDAO $FLU $VASCO $SPFC confirmed (Chiliz + Solana) ·
   $SCCP $GALO $SACI $BAHIA: NOT on Solana as of v4.5.15
@@ -134,7 +138,7 @@ LIBRARY FILES TO MONITOR:
   market/club-intelligence/ (all 9 Brazilian tokens)
 
 OPEN QUESTIONS:
-  MP 1.303 ratification — highest priority Brazilian regulatory gap ·
+  Post-October 2026 election: monitor for new crypto tax legislation ·
   PTG burn tax — UNRESOLVED ·
   $SCCP Tier 2 reclassification — monitor ·
   Brazil national team token — confirm status
@@ -156,6 +160,6 @@ SOURCES:
   Sports: CONMEBOL.com · Globo Esporte · ESPN · beIN Sports
   Crypto: CoinDesk · CoinTelegraph · Decrypt
 
-LAST VERIFIED: 2026-08-18
-Version: v4.6.2
+LAST VERIFIED: 2026-09-10
+Version: v4.6.61
 © 2026 SportMind

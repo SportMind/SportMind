@@ -1,11 +1,13 @@
-COUNTRY INTELLIGENCE SCAN — RUSSIA
-Version: v4.6.13
-Scan tier: A — every briefing
-Last scan: 2026-08-18
-Last material update: 2026-08-18
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-10 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-10 · Apply with normal confidence.
 
-ACTIVE PROTOCOL: HP-11 · September 1 2026 · T-14 as of 2026-08-18
-ACTIVE PROTOCOL: daily cbr.ru scan from September 1 2026
+COUNTRY INTELLIGENCE SCAN — RUSSIA
+Version: v4.6.61
+Scan tier: A — every briefing
+Last scan: 2026-09-10
+Last material update: 2026-09-10
+
+ACTIVE PROTOCOL: HP-11 · PATCH COMPLETE (v4.6.52) · 282-FZ LIVE September 1 2026
+ACTIVE PROTOCOL: cbr.ru WEEKLY monitoring · STATUTORY SUPPRESSOR CONFIRMED
 
 SECTION 1 — REGULATORY ENVIRONMENT
 
@@ -13,20 +15,24 @@ CRYPTO LEGAL STATUS:
   Regulated under FDL-259 (Digital Financial Assets Law) and
   FDL-149 (On Information — amended for crypto) ·
   Bank of Russia (CBR) primary regulator ·
-  Federal Law signed by President Putin ·
-  Core provisions: September 1 2026 (T-14 as of 2026-08-18) ·
+  Federal Law No. 282-FZ signed August 4 2026 · ACTIVE from September 1 2026 ·
+  Approved asset list: BTC · ETH · USDT only — criteria: >5T ruble market cap
+    + >1T ruble daily volume · fan tokens CANNOT meet either threshold ·
   Framework covers: DFA (digital financial assets) · UFiCC (utilitarian
   digital rights) · digital currency (CBR) ·
-  Previous framework: crypto could not be used as payment (since 2021)
-  Source: macro/regulatory/russia.md (v4.4.4)
+  Previous framework: crypto could not be used as payment (since 2021) ·
+  Three simultaneous suppressors ACTIVE: access gate · CGT · capital controls
+  Source: macro/regulatory/russia.md (v4.6.52)
 
 FAN TOKEN CLASSIFICATION:
-  HP-11 MONITOR: eligibility of fan tokens as "eligible crypto
-  assets" under September 1 2026 framework is NOT CONFIRMED ·
-  Bill 1194918-8 does not name eligible crypto assets ·
-  BINARY OUTCOME: fan tokens eligible → demand signal ·
-    fan tokens NOT eligible → Russian holders cannot legally access
-  Escalate IMMEDIATELY on any CBR eligible asset list publication ·
+  STRUCTURALLY EXCLUDED IN STATUTE — 282-FZ ACTIVE September 1 2026 ·
+  Approved asset list: BTC · ETH · USDT only ·
+  Eligibility criteria: >5T ruble market cap + >1T ruble daily volume ·
+  Fan tokens CANNOT meet either threshold — structural exclusion ·
+  Statutory amendment required to add fan tokens to approved list ·
+  HP-11: PATCH COMPLETE (v4.6.52) · STATUTORY SUPPRESSOR CONFIRMED ·
+  MAXIMUM SUPPRESSION applies to all Russian-resident fan token holders ·
+  ESCALATE IMMEDIATELY if fan tokens added to CBR approved list ·
   MiCA not applicable (Russia not EU member)
 
 TAX TREATMENT:
@@ -40,36 +46,38 @@ TAX TREATMENT:
   Capital controls: limit ruble outflows → crypto channel friction
 
 PLATFORM ACCESS:
-  Pre-September 1: crypto as payment BANNED (since 2021) ·
-  Post-September 1: framework for licensed participants established ·
-  Five licensed participant categories from September 1 ·
-  Socios.com: operation in Russia under September 1 framework — UNCERTAIN ·
+  282-FZ framework for licensed participants ACTIVE from September 1 2026 ·
+  Approved assets: BTC · ETH · USDT only — fan tokens NOT on approved list ·
+  Five licensed participant categories active ·
+  Socios.com: Russia operation status UNCONFIRMED — EU sanctions compound access ·
+  Sberbank crypto expansion: December 2026 — monitor for fan token scope extension ·
   ESCALATE: any Socios.com/Kayen Finance Russia licensing status update
 
 ACTIVE REGULATORY PROCESSES:
-  HP-11 — September 1 2026 core provisions — T-14 · ACTIVE ·
-  CBR eligible asset list — publication timing UNKNOWN ·
-    Escalate immediately when published ·
+  282-FZ ACTIVE September 1 2026 · HP-11 PATCH COMPLETE (v4.6.52) ·
+  Approved asset list CONFIRMED: BTC · ETH · USDT only ·
+  Fan tokens STRUCTURALLY EXCLUDED — statutory amendment required ·
+  Sberbank crypto expansion: December 2026 — monitor scope (BTC/ETH/USDT only) ·
   Five licensed participant categories: operators, exchanges,
-    administrators, custodians, attestation services ·
+    administrators, custodians, attestation services · ACTIVE ·
   Ruble stablecoin discussions — monitor ·
-  Daily scan: cbr.ru from September 1 2026
+  Weekly scan: cbr.ru · ESCALATE IMMEDIATELY if fan tokens added to approved list
 
 REGULATORY BODIES:
-  cbr.ru (Bank of Russia / CBR) — Tier 1 · from September 1: DAILY
+  cbr.ru (Bank of Russia / CBR) — Tier 1 · WEEKLY · 282-FZ ACTIVE · STATUTORY SUPPRESSOR CONFIRMED
   Fedresurs.ru (insolvency/registry) — Tier 1 · on signal
   minfin.ru (Ministry of Finance) — Tier 1 · on signal
 
 DEMAND SIGNAL MODIFIER:
-  HP-11 PENDING — modifier cannot be set until eligibility confirmed ·
-  PRE-SEPTEMBER 1: no modifier applicable (framework not yet effective) ·
-  POST-SEPTEMBER 1 — TWO SCENARIOS:
-    ELIGIBLE: demand signal · Russian fans can legally hold ·
-      apply Russian CGT modifier once confirmed ·
-      significant fan base for several tokens · demand potential HIGH
-    NOT ELIGIBLE: no demand signal for Russian-resident holders ·
-      suppressor active for any Russian holder population
-  DO NOT APPLY any modifier until CBR eligible asset list confirmed
+  STATUTORY SUPPRESSOR CONFIRMED — 282-FZ ACTIVE September 1 2026 ·
+  Fan tokens STRUCTURALLY EXCLUDED from approved asset list ·
+  Three simultaneous suppressors ACTIVE:
+    1. ACCESS GATE: fan tokens not on CBR approved list · illegal to trade ·
+    2. CGT: tax treatment UNKNOWN for excluded assets ·
+    3. CAPITAL CONTROLS: ruble outflow friction for foreign asset access ·
+  MAXIMUM SUPPRESSION: do not apply any demand modifier for Russia-resident holders ·
+  EU-resident Russian diaspora: apply host country framework (not Russian framework) ·
+  ESCALATE IMMEDIATELY if fan tokens added to CBR approved asset list
 
 SECTION 2 — FAN TOKEN LANDSCAPE
 
@@ -104,11 +112,13 @@ DOMESTIC COMPETITION:
   No sporting signals relevant to fan token demand while
     suspension remains and HP-11 unresolved
 
-CURRENT SIGNALS (2026-08-18):
-  HP-11 T-14 — September 1 framework effective in 14 days ·
-  CBR eligible asset list: CRITICAL · not yet published ·
-  Daily scan commences September 1 ·
-  Russia-resident holders currently in regulatory uncertainty ·
+CURRENT SIGNALS (2026-09-10):
+  282-FZ ACTIVE from September 1 2026 · HP-11 PATCH COMPLETE (v4.6.52) ·
+  Approved asset list CONFIRMED: BTC · ETH · USDT only ·
+  Fan tokens STRUCTURALLY EXCLUDED IN STATUTE ·
+  Weekly scan: cbr.ru · ESCALATE if fan tokens added to approved list ·
+  Sberbank crypto expansion December 2026 — monitor scope ·
+  Russia-resident holders: MAXIMUM SUPPRESSION applies ·
   EU-resident Russian diaspora: apply host country framework
 
 SECTION 4 — MACRO CONTEXT
@@ -125,25 +135,26 @@ CHZ ADOPTION: UNKNOWN — pre-September 1 framework ·
 SECTION 5 — IMPACT CHAIN ASSESSMENT
 
 DEMAND SIGNAL IMPACT:
-  INDETERMINATE — do not act until HP-11 resolved ·
-  BINARY: eligible = demand signal · not eligible = suppressor ·
-  EU-resident Russian diaspora: apply host country modifier
+  MAXIMUM SUPPRESSION CONFIRMED — 282-FZ ACTIVE · fan tokens excluded in statute ·
+  Do not apply any demand signal for Russian-resident fan token holders ·
+  EU-resident Russian diaspora: apply host country modifier (not Russian framework) ·
+  Only path to change: statutory amendment to 282-FZ approved asset list
 
 TOKENS POTENTIALLY AFFECTED (post-HP-11 if eligible):
   $INTER $ACM $JUV $PSG: primary Italian/French club tokens ·
   Any token with Russian secondary holder base
 
 LIBRARY FILES TO MONITOR:
-  macro/regulatory/russia.md (v4.4.4) — primary reference ·
+  macro/regulatory/russia.md (v4.6.52) — primary reference · 282-FZ statutory suppressor ·
   fan-base-intelligence.md (Russian holder populations) ·
   intelligence/source-registry.md (Section 3 · Russia scan protocol)
 
 OPEN QUESTIONS:
-  CBR eligible asset list — publication date UNKNOWN · CRITICAL ·
-  Socios.com Russia licensing status post-September 1 — CONFIRM ·
+  Sberbank crypto expansion December 2026 — monitor for fan token scope extension ·
+  Socios.com Russia licensing status under 282-FZ — UNCONFIRMED ·
   Russian fan token holder population size — no Tier 1 data ·
   Russian national team suspension: ongoing · no PTG applicable ·
-  Ruble-to-CHZ access pathway — not documented · UNKNOWN ·
+  Ruble-to-CHZ access pathway — blocked under current framework ·
   Digital ruble interaction with fan token ecosystem — future
 
 SECTION 6 — SCAN LOG
@@ -159,11 +170,19 @@ SECTION 6 — SCAN LOG
   Action: daily scan scheduled from September 1 ·
   Escalate immediately on eligible asset list publication
 
+2026-09-10 [CONTENT PATCH — v4.6.61 · BC10 Task C]:
+  282-FZ CONFIRMED ACTIVE September 1 2026 ·
+  Approved asset list: BTC · ETH · USDT only · HP-11 PATCH COMPLETE ·
+  Fan tokens STRUCTURALLY EXCLUDED IN STATUTE · statutory suppressor confirmed ·
+  Three simultaneous suppressors now active · MAXIMUM SUPPRESSION applied ·
+  Weekly monitoring posture confirmed · cbr.ru · Sberbank December 2026 scope watch ·
+  All stale pre-September 1 conditional references removed
+
 SOURCES:
   Regulatory: cbr.ru · minfin.ru
   Sports: no active signals (national team suspended)
   Crypto: CoinDesk · CoinTelegraph · Decrypt
 
-LAST VERIFIED: 2026-08-18
-Version: v4.6.13
+LAST VERIFIED: 2026-09-10
+Version: v4.6.61
 © 2026 SportMind

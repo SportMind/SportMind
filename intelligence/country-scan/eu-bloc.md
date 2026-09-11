@@ -1,3 +1,5 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-08-19 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-09-18 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — EUROPEAN UNION (REGULATORY BLOC)
 Version: v4.6.15
 Scan tier: A — every briefing

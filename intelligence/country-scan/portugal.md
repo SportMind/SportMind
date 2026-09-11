@@ -1,3 +1,5 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-08-18 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-09-17 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — PORTUGAL
 Version: v4.6.7
 Scan tier: A — every briefing

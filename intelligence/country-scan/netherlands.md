@@ -1,3 +1,5 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-08-26 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-09-25 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — NETHERLANDS
 Version: v4.6.33
 Scan tier: B — weekly

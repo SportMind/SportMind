@@ -1,3 +1,5 @@
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-08-25 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-09-24 · Apply with normal confidence.
+
 COUNTRY INTELLIGENCE SCAN — TIER REGISTERS
 Version: v4.6.16
 Last updated: 2026-08-18

@@ -1,5 +1,26 @@
 # Changelog
 
+## [4.6.61] — 2026-09-10
+
+### Changed
+- intelligence/country-scan/_registers.md (UPDATE · 223L → 225L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/argentina.md (UPDATE · 181L → 183L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/brazil.md (UPDATE · 162L → 166L): Staleness one-liner prepended (initially NEEDS UPDATE). Content fixes applied: CGT corrected from 17.5% flat to progressive 15%–22.5% with R$35,000 monthly exemption · MP 1.303/2025 lapsed October 2025 confirmed · not-in-force noted throughout · ACTIVE REGULATORY PROCESSES updated · DEMAND SIGNAL MODIFIER updated · DeFi CGT reference corrected · congress.leg.br scan downgraded to weekly · OPEN QUESTIONS updated · one-liner status updated to CURRENT · Last verified 2026-09-10. Version v4.6.2 → v4.6.61.
+- intelligence/country-scan/eu-bloc.md (UPDATE · 177L → 179L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/france.md (UPDATE · 183L → 185L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/germany.md (UPDATE · 194L → 196L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/italy.md (UPDATE · 164L → 166L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/japan.md (UPDATE · 178L → 180L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/netherlands.md (UPDATE · 302L → 304L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/portugal.md (UPDATE · 161L → 163L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/russia.md (UPDATE · 170L → 189L): Staleness one-liner prepended (initially NEEDS UPDATE). Content fixes applied: 282-FZ ACTIVE September 1 2026 confirmed · FAN TOKEN CLASSIFICATION updated to STRUCTURALLY EXCLUDED IN STATUTE · approved asset list BTC/ETH/USDT only · eligibility criteria stated · HP-11 PATCH COMPLETE noted · PLATFORM ACCESS updated · ACTIVE REGULATORY PROCESSES updated · cbr.ru scan downgraded to weekly · DEMAND SIGNAL MODIFIER replaced INDETERMINATE BINARY with STATUTORY SUPPRESSOR CONFIRMED · three simultaneous suppressors documented · SECTION 5 IMPACT updated to MAXIMUM SUPPRESSION · CURRENT SIGNALS updated · OPEN QUESTIONS updated · Sberbank December 2026 scope watch added · SCAN LOG new entry added · library file version reference updated v4.4.4 → v4.6.52 · one-liner status updated to CURRENT · Last verified 2026-09-10. Version v4.6.13 → v4.6.61.
+- intelligence/country-scan/south-africa.md (UPDATE · 167L → 169L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/spain.md (UPDATE · 199L → 201L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/turkey.md (UPDATE · 161L → 163L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/uk.md (UPDATE · 192L → 194L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/country-scan/usa.md (UPDATE · 213L → 215L): Staleness one-liner prepended. Status: CURRENT.
+- intelligence/staleness-register.md (UPDATE · 156L → 158L): brazil.md row updated NEEDS UPDATE → CURRENT (Last Verified 2026-09-10 · Next Due 2026-10-10). russia.md row updated NEEDS UPDATE → CURRENT (Last Verified 2026-09-10 · Next Due 2026-10-10). REGISTER CHANGELOG row added — Task C. Part of SportMind Staleness Framework (v4.6.57+).
+
 ## [4.6.60] — 2026-09-10
 
 ### Changed
