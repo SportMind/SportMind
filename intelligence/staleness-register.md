@@ -85,7 +85,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | south-africa-sars.md | 2026-07-27 | 2026-08-26 | OVERDUE | 43 days overdue · HP-9 active |
 | turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
-| uk-cryptoasset-regime.md | 2026-07-17 | 2026-08-16 | OVERDUE | 53 days overdue · HP-10 active · September 14 event |
+| uk-cryptoasset-regime.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-10 ELEVATED · NCA freeze extended ~Jan 2027 · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 · Socios/Chiliz FCA auth UNCONFIRMED · BC11 Task 8 |
 | south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | VAUPA live · DABA pending · fan token classification OPEN · BC11 Task 5 |
 | us-token-taxonomy.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue · CLARITY Act · SEC/CFTC March 2026 |
 
@@ -148,7 +148,7 @@ HP-13 active status.
 
 ## OVERDUE SUMMARY (as of 2026-09-09)
 
-9 files requiring attention:
+8 files requiring attention (uk-cryptoasset-regime.md patched BC11 Task 8 · now CURRENT):
 
 | File | Days Overdue | Priority | Reason |
 |---|---|---|---|
@@ -157,7 +157,6 @@ HP-13 active status.
 | uae.md | 60 | 🔴 HIGH | VARA/ADGM framework |
 | us-token-taxonomy.md | 60 | 🔴 HIGH | CLARITY Act · SEC/CFTC March 2026 |
 | global-regulatory-landscape.md | 53 | 🔴 HIGH | Cross-jurisdiction overview |
-| uk-cryptoasset-regime.md | 53 | 🔴 HIGH | HP-10 active · Sep 14 event |
 | south-africa-sars.md | 43 | 🟠 MEDIUM | HP-9 active |
 | italy.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
 | turkey.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
@@ -176,3 +175,4 @@ HP-13 active status.
 | 2026-09-14 | New files added · regulatory + country-scan · South Korea gap filled | macro/regulatory/south-korea.md · intelligence/country-scan/south-korea.md | BC11 Task 5 |
 | 2026-09-14 | New files added · regulatory + country-scan · Singapore | macro/regulatory/singapore.md · intelligence/country-scan/singapore.md | BC11 Task 6 |
 | 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
+| 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |

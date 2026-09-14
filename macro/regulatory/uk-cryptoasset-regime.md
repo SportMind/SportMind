@@ -1,32 +1,38 @@
----
-name: uk-cryptoasset-regime
-description: >
-  Enduring framework for the UK's cryptoasset regulatory regime under
-  the Financial Services and Markets Act (Cryptoassets) 2026. Covers
-  authorisation requirements, admissions and disclosures regime, and
-  structural implications for fan token issuers and trading platforms
-  serving UK consumers. Load alongside macro/regulatory/eu-mica.md
-  and macro/macro-regulatory-sportfi.md.
----
-
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/uk-cryptoasset-regime.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-07-17
-Next check due:  2026-08-16
-Status:          OVERDUE
-Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-14 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-14 · HP-10 ELEVATED · Apply with normal confidence but verify FCA gateway status and NCA freeze at primary sources before applying to live analysis.
 
 # UK Cryptoasset Regulatory Regime
 
 **Enduring framework. Enacted 2026 under FSMA (Cryptoassets) Regulations.**
+**Version:** v4.6.67 · Last verified: 2026-09-14
 
 > Library Rule: No application window dates, no firm-specific compliance
 > status, no enforcement action details. This file teaches agents how to
 > reason about the UK regulatory framework — not current compliance status
 > of any specific entity.
+
+---
+
+## HP-10 STATUS — ELEVATED
+
+**HP-10 POSTURE: ELEVATED**
+
+| Item | Status | Detail |
+|---|---|---|
+| NCA freezing order | EXTENDED | Westminster Magistrates' Court granted ~4-month extension 2026-09-11 · freeze runs to ~January 2027 · NCA + Luxembourg authorities · investigation ongoing |
+| Affected token | $SFA | Cryptoasset-sports intersection under active UK regulatory scrutiny |
+| PTG eligibility ($SFA/$BELG) | UNRESOLVED | No change from prior status |
+| FCA authorisation gateway | OPENS 30 Sep 2026 | All cryptoasset businesses must be FCA-authorised or have applied by this date to continue UK operations |
+| FCA full regime go-live | 25 Oct 2027 | Full binary authorisation gate active from this date |
+| Socios.com/Chiliz FCA authorisation | UNCONFIRMED | Verify at register.fca.org.uk before treating UK demand signal as active |
+
+**Agent rules — HP-10:**
+· Do NOT assume Socios.com/Chiliz is FCA-authorised — verify register.fca.org.uk
+· $SFA is affected by the NCA freeze — flag in any $SFA signal bundle
+· PTG eligibility for $SFA and $BELG remains UNRESOLVED — do not apply PTG modifier
+· FCA gateway opens 30 September 2026 — businesses not applying by this date cannot use the saving provision
+· Monitor: fca.org.uk · register.fca.org.uk · nca.gov.uk
+
+---
 
 ---
 
@@ -219,16 +225,15 @@ CONFIRMED REGULATED ACTIVITIES SCOPE:
 CONFIRMED REGIME TIMELINE (framework milestones):
   Legislation enacted:        February 2026
   Final rules published:      June 2026
-  Authorisation gateway:      Q4 2026
-  Application window:         Q4 2026 – Q1 2027
-  Full regime in effect:      Q4 2027
+  Authorisation gateway:      30 September 2026 (CONFIRMED)
+  Application window:         30 September 2026 – ~January 2027
+  Full regime in effect:      25 October 2027 (CONFIRMED)
 
-  Note: specific dates within these quarters are perishable —
-  check FCA register and SMI briefing for current status.
+  Note: gateway and go-live dates confirmed as of 2026-09-14.
   The milestone structure is enduring framework architecture.
 
 CONFIRMED TRANSITION PERIOD RULE:
-  Until full regime go-live (Q4 2027), FCA oversight is LIMITED:
+  Until full regime go-live (25 October 2027), FCA oversight is LIMITED:
     · Financial promotions controls: ACTIVE during transition
     · AML/MLR controls: ACTIVE during transition
     · Full FSMA authorisation: NOT required during transition
@@ -254,10 +259,10 @@ FCA PERIMETER GUIDANCE:
 
 AGENT RULE (updated — regime not yet in full force):
   UK cryptoasset regime is NOT yet fully in effect.
-  DURING TRANSITION (until Q4 2027):
+  DURING TRANSITION (until 25 October 2027):
     Assess UK exposure via financial promotions and AML/MLR
     controls only. Full binary authorisation gate not yet active.
-  FROM Q4 2027 GO-LIVE:
+  FROM 25 OCTOBER 2027 GO-LIVE:
     Full FCA authorisation required for all in-scope activities.
     Binary gate applies — authorised or not, no middle ground.
   Fan token issuers and platforms: assess whether activities
@@ -269,7 +274,7 @@ FIVE-POLICY-STATEMENT ARCHITECTURE (confirmed June 30 2026):
 
   The UK cryptoasset regime is structured across five confirmed
   final policy statement domains. All five apply simultaneously
-  from the full regime go-live date (Q4 2027).
+  from the full regime go-live date (25 October 2027).
 
   1. ADMISSIONS & DISCLOSURES + MARKET ABUSE (MARC):
      Cryptoasset issuers must meet disclosure requirements
@@ -282,7 +287,7 @@ FIVE-POLICY-STATEMENT ARCHITECTURE (confirmed June 30 2026):
        · Criminal liability pathway for insider trading in
          cryptoassets from full regime date
      Fan token agent rule: UK-based trading of fan tokens may
-     be subject to MARC enforcement from Q4 2027. Undisclosed
+     be subject to MARC enforcement from 25 October 2027. Undisclosed
      match outcomes or partnership decisions could constitute
      material non-public information under MARC.
      Monitor FCA MARC scope guidance for fan token applicability.
@@ -322,7 +327,7 @@ INTERNATIONAL FIRMS — BRANCH MODEL:
 
 AGENT RULE UPDATE — MARC ADDITION:
   The binary gate (authorised or not) applies across all five
-  pillars simultaneously from Q4 2027.
+  pillars simultaneously from 25 October 2027.
   MARC is the highest-priority addition for fan token agents:
   it creates first-ever criminal liability for insider trading
   in cryptoasset markets under UK law.
@@ -343,6 +348,6 @@ AGENT RULE UPDATE — MARC ADDITION:
 
 ---
 
-*SportMind v4.1.11 · MIT License · sportmind.dev*
+*SportMind v4.6.67 · MIT License · sportmind.dev*
 *Enduring framework — UK FCA cryptoasset regime under FSMA 2026.*
-*All 14 Mind dimensions mapped.*
+*All 16 Mind dimensions mapped. HP-10 ELEVATED. Last verified 2026-09-14.*
