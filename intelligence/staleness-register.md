@@ -84,6 +84,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
 | uk-cryptoasset-regime.md | 2026-07-17 | 2026-08-16 | OVERDUE | 53 days overdue · HP-10 active · September 14 event |
+| south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | VAUPA live · DABA pending · fan token classification OPEN · BC11 Task 5 |
 | us-token-taxonomy.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue · CLARITY Act · SEC/CFTC March 2026 |
 
 ---
@@ -106,6 +107,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | portugal.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | russia.md | 2026-09-10 | 2026-10-10 | CURRENT | 282-FZ statutory suppressor added · STRUCTURALLY EXCLUDED IN STATUTE · one-liner added · BC10 Task C |
 | south-africa.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 5 |
 | spain.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | turkey.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | uk.md | 2026-08-18 | 2026-09-17 | CURRENT | HP-10 active · monitor |
@@ -167,3 +169,4 @@ HP-13 active status.
 | 2026-09-10 | Staleness one-liners added + content fixes | country-scan/brazil.md · country-scan/russia.md | BC10 Task C |
 | 2026-09-14 | CGT content fix — MP 1.303/2025 LAPSED · progressive rate applied | market/south-america/south-america-fan-token-intelligence.md | BC11 Task 3 |
 | 2026-09-14 | New Tier A section added · equity-token/ · HOLD file registered | equity-token/socios-equity-token.md | BC11 Task 4 |
+| 2026-09-14 | New files added · regulatory + country-scan · South Korea gap filled | macro/regulatory/south-korea.md · intelligence/country-scan/south-korea.md | BC11 Task 5 |
