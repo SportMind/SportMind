@@ -75,6 +75,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | france.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | germany.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | global-regulatory-landscape.md | 2026-07-17 | 2026-08-16 | OVERDUE | 53 days overdue |
+| hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | VATP live Jun 2023 · retail access permitted · probable non-security VA · Socios/Chiliz licence UNCONFIRMED · BC11 Task 7 |
 | italy.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | ksa.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
 | netherlands.md | 2026-08-25 | 2026-09-24 | CURRENT | |
@@ -102,6 +103,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | eu-bloc.md | 2026-08-19 | 2026-09-18 | CURRENT | |
 | france.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | germany.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 7 |
 | italy.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | japan.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | netherlands.md | 2026-08-26 | 2026-09-25 | CURRENT | |
@@ -173,3 +175,4 @@ HP-13 active status.
 | 2026-09-14 | New Tier A section added · equity-token/ · HOLD file registered | equity-token/socios-equity-token.md | BC11 Task 4 |
 | 2026-09-14 | New files added · regulatory + country-scan · South Korea gap filled | macro/regulatory/south-korea.md · intelligence/country-scan/south-korea.md | BC11 Task 5 |
 | 2026-09-14 | New files added · regulatory + country-scan · Singapore | macro/regulatory/singapore.md · intelligence/country-scan/singapore.md | BC11 Task 6 |
+| 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
