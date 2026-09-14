@@ -1,17 +1,9 @@
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/eu-mica.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-08-17
-Next check due:  2026-09-16
-Status:          DUE
-Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-14 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-14 · Apply with normal confidence. Verify CASP authorisation status and ESMA guidance before applying to live analysis.
 
 # EU MiCA Framework — Fan Token Intelligence
 
 **Domain:** macro/regulatory/eu-mica.md
-**Version:** v4.5.18
+**Version:** v4.6.68 · Last verified: 2026-09-14
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** Markets in Crypto-Assets Regulation (MiCA) — fan token
 classification, CASP obligations, passporting, market abuse provisions,
@@ -208,6 +200,59 @@ KEY AGENT RULE:
 
 ---
 
+## CASP Authorisation Wave (2025–2026)
+
+```
+Major CASP authorisation wave ongoing 2025–2026.
+Some platforms have exited the EU market rather than seeking
+MiCA authorisation. Others have obtained authorisation and
+expanded EU operations.
+
+SOCIOS.COM/CHILIZ — MiCA STATUS (CONFIRMED):
+  MFSA (Malta) MiCA CASP authorisation: CONFIRMED September 2025
+  EU-wide passporting: OPERATIVE across all 27 member states
+  This is the most significant platform-level fact for EU fan
+  token analysis — Socios/Chiliz has confirmed EU market access.
+
+  CHZ MiCA white paper: registered with ESMA (April 2026)
+  Individual fan token white paper registrations: IN PROGRESS
+  Named tokens confirmed in pipeline: $DOJO · $POR · $ARG ·
+    $CITY · $GAL · $TRA · $MENGO · $SPURS
+  Do not assume all fan tokens have completed white paper
+  registration — verify via ESMA register.
+```
+
+---
+
+## Socios Equity Token — MiCA Classification
+
+```
+SOCIOS EQUITY TOKEN MiCA TREATMENT:
+  The Socios Equity Token would NOT qualify as a utility token
+  (Title II crypto-asset) under MiCA.
+
+  Probable classification — depends on tokenomics (Condition 3
+  unresolved — see equity-token/socios-equity-token.md):
+    · ART (Asset-Referenced Token) — if value pegged to asset
+    · E-money token — if referenced to single fiat currency
+    · Financial instrument / security token — if equity rights
+      confirmed, falls outside MiCA into MiFID II territory
+
+  This means different MiCA treatment applies:
+    · ART: Title III — stricter requirements than Title II
+    · E-money token: Title IV — e-money framework
+    · Financial instrument: outside MiCA scope — MiFID II applies
+
+  AGENT RULE:
+    Do NOT apply utility token Title II framework to the Socios
+    Equity Token. Do NOT conflate with fan token MiCA analysis.
+    Do NOT activate equity token MiCA analysis until Conditions
+    2 and 3 resolve. File remains on HOLD.
+    Cross-reference: equity-token/socios-equity-token.md (HOLD)
+```
+
+---
+
 ## 8 Agent Rules
 
 ```
@@ -311,4 +356,4 @@ RULE 11 — WHITE PAPER REVISION SIGNAL:
 - fan-token/agent-failure-modes-fan-token.md — FM1 cross-reference (market abuse timing)
 - macro/chz-tokenomics.md — CHZ Dragon8 supply model (Pepper8 governance proposal context)
 
-© 2026 SportMind
+© 2026 SportMind · v4.6.68 · Last verified 2026-09-14

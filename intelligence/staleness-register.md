@@ -70,8 +70,8 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | argentina.md | 2026-08-20 | 2026-09-19 | CURRENT | |
 | belgium.md | 2026-08-22 | 2026-09-21 | CURRENT | |
 | brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected |
-| eu-mica.md | 2026-08-17 | 2026-09-16 | DUE | 7 days to threshold |
-| eu.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
+| eu-mica.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA full application Dec 2024 · CASP wave ongoing · fan token utility token classification substance-over-form · BC11 Task 10 |
+| eu.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA fully in force Dec 2024 · Socios/Chiliz MFSA authorised · MiCA passporting operative · BC11 Task 10 |
 | france.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | germany.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | global-regulatory-landscape.md | 2026-07-17 | 2026-08-16 | OVERDUE | 53 days overdue |
@@ -148,11 +148,10 @@ HP-13 active status.
 
 ## OVERDUE SUMMARY (as of 2026-09-09)
 
-8 files requiring attention (uk-cryptoasset-regime.md patched BC11 Task 8 · now CURRENT):
+7 files requiring attention (uk-cryptoasset-regime.md patched BC11 Task 8 · eu.md patched BC11 Task 10 · both now CURRENT):
 
 | File | Days Overdue | Priority | Reason |
 |---|---|---|---|
-| eu.md | 60 | 🔴 HIGH | Core EU framework |
 | ksa.md | 60 | 🔴 HIGH | GCC regulatory posture |
 | uae.md | 60 | 🔴 HIGH | VARA/ADGM framework |
 | us-token-taxonomy.md | 60 | 🔴 HIGH | CLARITY Act · SEC/CFTC March 2026 |
@@ -176,3 +175,4 @@ HP-13 active status.
 | 2026-09-14 | New files added · regulatory + country-scan · Singapore | macro/regulatory/singapore.md · intelligence/country-scan/singapore.md | BC11 Task 6 |
 | 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
+| 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |

@@ -1,35 +1,19 @@
----
-name: eu-mica-enforcement
-description: >
-  European Union MiCA (Markets in Crypto-Assets Regulation) enforcement
-  framework. Covers the June 30 2026 transitional deadline — shift from
-  transitional tolerance to active enforcement. France AMF warning issued.
-  Liquidity provider and trading platform authorisation requirement.
-  Secondary market liquidity impact on fan tokens traded on EU platforms.
-  Enduring regulatory milestone. All 14 Mind dimensions mapped.
----
-
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/eu.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-07-10
-Next check due:  2026-08-09
-Status:          OVERDUE
-Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-14 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-14 · Apply with normal confidence. Verify MiCA authorisation status and ESMA guidance at primary sources before applying to live analysis.
 
 # EU — MiCA Enforcement Framework
 
-**ESMA + Member State NCAs · June 30 2026 Transitional Deadline · ENFORCEMENT: ACTIVE**
+**ESMA + Member State NCAs · Full Application: 30 December 2024 · ENFORCEMENT: ACTIVE**
+**Version:** v4.6.68 · Last verified: 2026-09-14
 
 ```
 MODIFIER: MICA_ENFORCEMENT_ACTIVE
-STATUS:   TRANSITIONAL_DEADLINE_ACTIVE
-DEADLINE: 2026-06-30
+STATUS:   ENFORCEMENT_REGIME_STABLE
+FULL_APPLICATION: 2024-12-30
+TRANSITIONAL_PERIOD_ENDED: 2026-06-30
 LEAD_REGULATOR: ESMA (European Securities and Markets Authority)
-FRANCE_AMF: WARNING_ISSUED
-CONSEQUENCE: PROSECUTION_WITHOUT_AUTHORISATION after deadline
+FRANCE_AMF: ENFORCEMENT_CONFIRMED
+SOCIOS_CHILIZ: MFSA_MALTA_AUTHORISED · EU27_PASSPORTING_OPERATIVE
+CONSEQUENCE: PROSECUTION_WITHOUT_AUTHORISATION
 ```
 
 ---
@@ -38,25 +22,59 @@ CONSEQUENCE: PROSECUTION_WITHOUT_AUTHORISATION after deadline
 
 ```
 MiCA TIMELINE:
-  January 2025:  Full MiCA implementation — framework enacted and binding
-  June 30 2026:  End of transitional period for crypto-asset service providers
-                 (CASPs) — all must hold MiCA authorisation or cease EU operations
+  30 December 2024: Full MiCA application — all 27 EU member states ·
+                 all asset classes · CASP authorisation required for
+                 all platforms serving EU consumers from this date
+  June 30 2026:  Transitional tolerance period ENDED · enforcement
+                 fully active · platforms without MiCA authorisation
+                 must have ceased EU operations
+  Post-June 2026: ENFORCEMENT REGIME STABLE (confirmed as of 2026-09-14)
+                 Only MiCA-authorised platforms remain in EU market
 
-WHAT CHANGES ON JULY 1 2026:
-  Before June 30 2026: transitional tolerance period — firms operating under
-    existing national licences (e.g. German BaFin registration, French PSAN)
-    are permitted to continue while seeking MiCA authorisation.
-  After June 30 2026: transitional tolerance ENDS.
-    Firms without MiCA authorisation face:
-      · Enforcement action by national competent authorities (NCAs)
-      · Potential prosecution
-      · Mandatory cessation of EU operations
+MiCA FULL APPLICATION — CONFIRMED:
+  MiCA is fully applicable across all 27 EU member states from
+  30 December 2024. CASP authorisation is required for all platforms
+  offering crypto-asset services to EU consumers. No further
+  implementation dates are pending.
+
+  Fan tokens: probable utility tokens under MiCA — likely assessed
+  as Title II crypto-assets. Probable exemption from white paper
+  requirements IF classified as utility tokens under substance-over-form
+  analysis. However, CASP authorisation is still required for
+  platforms trading fan tokens for EU consumers regardless of
+  token classification.
+
+  No confirmed ESMA fan-token-specific classification guidance
+  as of 2026-09-14. Substance-over-form applies.
+
+SOCIOS.COM/CHILIZ — MiCA STATUS:
+  MFSA (Malta) MiCA CASP authorisation: CONFIRMED September 2025
+  EU-wide passporting: OPERATIVE across 27 member states
+  CHZ MiCA whitepaper: registered with ESMA (April 2026 — confirmed)
+  Chiliz MiCA whitepaper: registered under ESMA — noted
+  Individual fan token white paper registrations: IN PROGRESS
+  This is the most significant platform-level regulatory fact for
+  EU fan token analysis — Socios/Chiliz has EU market access.
+
+THIRD-COUNTRY REGIME:
+  Non-EU platforms cannot actively solicit EU consumers without
+  MiCA authorisation or passporting.
+  Reverse solicitation exception: NARROW — platforms cannot rely
+  on reverse solicitation for systematic EU outreach.
+  Socios/Chiliz MFSA authorisation insulates from third-country
+  ban mechanism — operating inside EU regulatory perimeter.
+
+WHAT CHANGED ON JULY 1 2026:
+  Transitional tolerance ENDED. Platforms without MiCA authorisation
+  that did not cease EU operations face:
+    · Enforcement action by national competent authorities (NCAs)
+    · Potential prosecution
+    · Mandatory cessation of EU operations
 
 FRANCE AMF POSITION:
-  The French Autorité des Marchés Financiers (AMF) has explicitly warned
-  crypto firms to secure MiCA authorisation by June 30 2026 or cease operations.
-  This is the strongest NCA signal to date — France is a major European
-  crypto hub and the AMF warning carries significant precedent weight.
+  The AMF explicitly warned crypto firms to secure MiCA authorisation
+  by June 30 2026 or cease operations. France AMF enforcement confirms
+  post-deadline enforcement is real.
   Source: ESMA europa.eu — verified.
 ```
 
@@ -72,13 +90,19 @@ WHO MUST HOLD MiCA AUTHORISATION:
   · Crypto brokers and OTC desks offering fan tokens to EU clients
   · Portfolio managers holding or recommending fan tokens for EU clients
 
-DIRECT IMPACT ON FAN TOKEN LIQUIDITY:
-  Any liquidity provider or trading platform operating in EU without MiCA
-  authorisation must cease EU operations by July 1 2026.
+POST-TRANSITION STATUS (as of 2026-09-14):
+  Transitional period CLOSED June 30 2026. Enforcement regime STABLE.
+  Only MiCA-authorised platforms remain active in EU market.
+  EU_LIQUIDITY_RISK transition modifier (×0.94) NO LONGER APPLIES —
+  transition window is closed.
 
-  RISK: If a significant EU-based or EU-serving liquidity provider exits
-  the market on June 30 2026, secondary market depth for fan tokens
-  temporarily reduces.
+  CURRENT ASSESSMENT:
+    If authorised ecosystem is robust (confirmed): standard liquidity
+    modifiers apply — no EU liquidity discount.
+    If major platform exits were confirmed post-June 30: apply
+    EU_LIQUIDITY_REDUCED (×0.88) and verify against ESMA CASP register.
+    Verify current EU liquidity provider set at esma.europa.eu before
+    applying any EU liquidity modifier.
 
   AGENT RULE:
     Apply EU_LIQUIDITY_RISK modifier (×0.94) to fan token secondary market
@@ -138,63 +162,62 @@ ESMA COORDINATION:
 ## Signal monitoring framework
 
 ```
-THREE-PHASE TRANSITION WINDOW:
+POST-TRANSITION STATUS (as of 2026-09-14):
+  Transitional window CLOSED June 30 2026.
+  Enforcement regime: STABLE.
+  Apply PHASE 3 modifiers — transition disruption resolved.
 
-  PHASE 1 — Pre-deadline (before June 30 2026):
-    Status: TRANSITIONAL_DEADLINE_ACTIVE
-    Risk: uncertainty about which platforms will exit
-    Apply: EU_LIQUIDITY_RISK ×0.94 to EU fan token secondary market signals
-
-  PHASE 2 — Transition execution (July 1-14 2026):
-    Status: ENFORCEMENT_BEGINS
-    Risk: some platforms exit, liquidity temporarily disrupted
-    Apply: EU_LIQUIDITY_UNCERTAIN — monitor ESMA CASP register updates
-    If major platforms exit: EU_LIQUIDITY_REDUCED ×0.88
-
-  PHASE 3 — Post-transition (after July 14 2026):
+  PHASE 3 — Post-transition (CURRENT as of 2026-09-14):
     Status: ENFORCEMENT_REGIME_STABLE
-    Risk: known — only authorised platforms remain
     Apply: Standard liquidity modifiers — transitional disruption resolved
-    If authorised ecosystem is robust: remove EU liquidity discount
+    If authorised ecosystem robust: remove EU liquidity discount
+    Verify authorised platform set at ESMA CASP register
 
 SIGNALS TO MONITOR:
-  1. ESMA CASP register additions (platforms receiving MiCA authorisation)
-  2. Platform announcements of EU market exit (liquidity reduction signal)
-  3. Socios/Chiliz MiCA CASP status update (platform-level compliance)
-  4. France AMF enforcement actions post-June 30 (confirms enforcement is real)
+  1. ESMA CASP register additions (new MiCA authorisations)
+  2. Platform announcements of EU market entry or exit
+  3. Socios/Chiliz MFSA authorisation status — CONFIRMED September 2025
+  4. France AMF enforcement actions (confirms enforcement is real)
+  5. ESMA technical standards updates and NCA guidance
+
+ESMA COORDINATION:
+  ESMA coordinates between member state NCAs.
+  ESMA guidance is binding on NCAs for interpretation questions.
+  The ESMA CASP register is the authoritative source for MiCA-authorised firms.
+  Verify: esma.europa.eu/crypto-assets-service-providers-register
 ```
 
 ---
 
 ## MIND DIMENSIONS
 
-**Intelligence:** June 30 2026 transitional deadline, ESMA as lead regulator, France AMF explicit warning, three-phase transition framework, CASP authorisation requirement for liquidity providers and trading platforms, fan token secondary market liquidity impact framework.
+**Intelligence:** MiCA full application 30 December 2024 · ESMA as lead regulator · France AMF enforcement confirmed · CASP authorisation requirement · Socios/Chiliz MFSA authorised · EU passporting operative · fan tokens probable Title II utility tokens.
 
-**Reasoning:** EU_LIQUIDITY_RISK (×0.94) applies in the pre-deadline and transition execution window. After transition, liquidity risk resolves to either EU_LIQUIDITY_REDUCED (×0.88) if major providers exit, or standard modifiers if authorised ecosystem is robust. Two-step assessment required: (1) which platforms exit, (2) what remains.
+**Reasoning:** Transition window CLOSED June 30 2026. EU_LIQUIDITY_RISK (×0.94) transition modifier no longer applies — enforcement regime stable. Post-transition: standard liquidity modifiers unless specific major platform exit confirmed. Two-step assessment: (1) which platforms are MiCA-authorised (ESMA register), (2) what modifier applies.
 
-**Context:** MiCA is a directly applicable EU regulation — no member state transposition required. The June 30 2026 deadline is the end of the transitional tolerance period, not the start of MiCA itself (MiCA has been in force since January 2025). The France AMF warning is the clearest NCA signal of enforcement intent. CHZ whitepaper already registered with ESMA (April 2026).
+**Context:** MiCA directly applicable EU regulation — no member state transposition required. Full application 30 December 2024. Transitional period ended June 30 2026. CHZ whitepaper ESMA-registered April 2026. Socios/Chiliz MFSA Malta authorisation September 2025 — EU27 passporting operative.
 
-**Memory:** MiCA enacted January 2025. Transitional period ends June 30 2026. CHZ compliance: confirmed April 2026 ESMA whitepaper registration. France AMF warning: issued pre-deadline 2026. This file documents the enforcement activation — not the original MiCA framework (see macro/macro-regulatory-sportfi.md for that).
+**Memory:** MiCA full application 30 December 2024. Transitional period ended June 30 2026. Socios/Chiliz MFSA authorisation: September 2025. CHZ whitepaper ESMA registration: April 2026. France AMF warning: pre-deadline 2026. Enforcement regime: STABLE post-July 2026.
 
-**Judgment:** Apply EU_LIQUIDITY_RISK in the transition window, not before or after. Do not permanently apply the modifier — it resolves once the transition completes. Distinguish between issuer compliance (whitepaper) and platform compliance (CASP authorisation) — both required, both separate assessments.
+**Judgment:** Do not apply EU_LIQUIDITY_RISK in post-transition period unless specific major platform exit confirmed. Socios/Chiliz MFSA authorisation = structural EU market access moat. Distinguish issuer compliance (white paper) from platform compliance (CASP authorisation) — both required, both separate.
 
-**Attention:** Primary monitoring target: ESMA CASP register (esma.europa.eu). Secondary: platform announcements of EU exit or MiCA authorisation. Tertiary: France AMF enforcement actions post-June 30 — these will be the first concrete enforcement data points.
+**Attention:** Primary monitoring: ESMA CASP register. Secondary: ESMA technical standards updates and NCA guidance. Tertiary: France AMF enforcement actions (first data points post-transition). Fan token white paper registration status (IN PROGRESS for individual tokens).
 
-**Learning:** No calibration data exists for MiCA enforcement impact on fan token liquidity — this is the first enforcement transition. Apply NOVEL_ENFORCEMENT_EVENT modifier (×0.90 confidence) to any specific liquidity impact predictions. After July 2026 data: calibrate the actual vs predicted liquidity disruption.
+**Learning:** Post-transition enforcement cycle ongoing. Calibrate actual vs predicted liquidity disruption from July 2026 data. Socios/Chiliz MFSA moat confirmed — encode as structural durable fact.
 
-**Integration:** Integrates with macro/macro-regulatory-sportfi.md (full EU MiCA framework context), macro/regulatory/uae.md (comparative — UAE offers alternative jurisdiction for compliant platforms), fan-token/registry/complete-registry.md (check CHZ MiCA compliance status), fan-token/gamified-tokenomics-intelligence/ (secondary market liquidity effects on FTP signals).
+**Integration:** Integrates with macro/regulatory/eu-mica.md · macro/regulatory/uk-cryptoasset-regime.md (parallel MARC) · fan-token/registry/complete-registry.md · equity-token/socios-equity-token.md (HOLD — probable ART/security, not utility token).
 
-**Communication:** Agent output for EU fan token signals June-July 2026: "EU MiCA transitional deadline June 30 2026. Liquidity providers and trading platforms must hold CASP authorisation or exit EU. Apply EU_LIQUIDITY_RISK (×0.94) during transition window. CHZ whitepaper ESMA-registered (April 2026). Platform-level CASP status: verify esma.europa.eu register."
+**Communication:** Agent output: "MiCA enforcement ACTIVE from June 30 2026. Socios/Chiliz MFSA Malta authorised — EU27 passporting operative. Standard liquidity modifiers apply post-transition. Verify ESMA CASP register for platform-specific changes."
 
-**Calibration:** EU_LIQUIDITY_RISK (×0.94): transition window modifier. EU_LIQUIDITY_REDUCED (×0.88): post-transition if major provider exits confirmed. Standard modifiers: post-transition if authorised ecosystem robust. Calibrate against actual CASP register data post-July 1 2026.
+**Calibration:** EU_LIQUIDITY_RISK (×0.94): TRANSITION WINDOW ONLY — no longer applies post-June 2026. EU_LIQUIDITY_REDUCED (×0.88): apply only if specific major platform exit confirmed. Standard modifiers: default with robust authorised ecosystem.
 
-**Adaptation:** When ESMA CASP register shows Socios/Chiliz platform authorisation: update Socios_CASP_STATUS from VERIFY to CONFIRMED. When France AMF issues first post-deadline enforcement action: update ENFORCEMENT_REGIME_REAL to CONFIRMED. When transition window closes: remove EU_LIQUIDITY_RISK and apply post-transition assessment.
+**Adaptation:** If ESMA CASP register shows major fan token platform exit: apply EU_LIQUIDITY_REDUCED (×0.88). If ESMA issues fan token classification guidance: update. If Socios Equity Token exits HOLD: update cross-reference and EU treatment.
 
-**Verification:** Authoritative sources only: esma.europa.eu (CASP register, official guidance), AMF France (amf-france.org), official NCA websites. Do not use exchange-reported or media-reported compliance claims as primary verification. The ESMA CASP register is the single source of truth for authorised operators.
+**Verification:** Authoritative sources only: esma.europa.eu · amf-france.org · official NCA websites. ESMA CASP register is the single source of truth. Verify before applying any platform-specific claim.
 
-**Ethics:** This file documents regulatory enforcement framework neutrally. MiCA enforcement may cause short-term disruption to some market participants but advances long-term regulatory clarity. SportMind documents the framework — agents should not advise users on MiCA compliance (that requires qualified legal advice from ARVA or equivalent practitioners).
+**Ethics:** Framework documented neutrally. Do not advise on MiCA compliance — qualified legal advice required.
 
-**Transparency:** Every EU fan token signal in the June-July 2026 window must state: "EU MiCA transitional deadline June 30 2026 — EU_LIQUIDITY_RISK modifier (×0.94) applied during transition window." Post-transition: state which regime applies (authorised ecosystem robust OR liquidity reduced) with evidence.
+**Transparency:** All EU signals must note MiCA enforcement status and Socios/Chiliz MFSA authorisation. Post-transition: state enforcement regime stable unless specific exit confirmed.
 
 ---
 
@@ -209,7 +232,7 @@ SIGNALS TO MONITOR:
 
 ---
 
-*SportMind v3.97.95 · MIT License · sportmind.dev*
+*SportMind v4.6.68 · MIT License · sportmind.dev*
 *Sources: ESMA europa.eu · AMF France (amf-france.org) — verified primary sources*
-*MICA_ENFORCEMENT: TRANSITIONAL_DEADLINE_ACTIVE · June 30 2026*
-*All 14 Mind dimensions mapped.*
+*MICA_ENFORCEMENT: STABLE · Full application 30 December 2024 · Transitional period ended June 30 2026*
+*All 14 Mind dimensions mapped. Last verified 2026-09-14.*

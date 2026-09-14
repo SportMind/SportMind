@@ -1,6 +1,13 @@
 # Changelog
 
-## [4.6.61] — 2026-09-10
+## [4.6.68] — 2026-09-14
+
+### Changed
+- macro/regulatory/eu.md (PATCH · 215L → 238L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. Last verified 2026-09-14. MiCA timeline corrected: full application 30 December 2024 (was January 2025). Machine-readable status block updated: TRANSITIONAL_DEADLINE_ACTIVE → ENFORCEMENT_REGIME_STABLE · transitional period ended 2026-06-30. MiCA full application confirmed section added: fan tokens probable Title II utility tokens · substance-over-form applies · no confirmed ESMA guidance as of 2026-09-14. Socios/Chiliz MiCA status block added: MFSA Malta authorisation CONFIRMED September 2025 · EU27 passporting OPERATIVE · CHZ whitepaper ESMA-registered April 2026 · individual fan token white paper registrations IN PROGRESS. Third-country regime section added: reverse solicitation exception narrow. EU_LIQUIDITY_RISK (×0.94) transition modifier retired: post-transition enforcement regime STABLE as of 2026-09-14 · standard liquidity modifiers apply. Signal monitoring framework updated to PHASE 3 (CURRENT). MIND DIMENSIONS section rewritten to reflect post-transition status. Footer updated: v3.97.95 → v4.6.68 · 14 → 14 Mind dimensions · MICA_ENFORCEMENT: STABLE.
+- macro/regulatory/eu-mica.md (PATCH · 314L → 359L): Staleness block converted YAML → blockquote. Status: DUE → CURRENT. Last verified 2026-09-14. Version v4.5.18 → v4.6.68. New section added: CASP Authorisation Wave (2025–2026) — Socios/Chiliz MFSA Malta authorisation CONFIRMED September 2025 · EU27 passporting OPERATIVE · CHZ white paper registered ESMA April 2026 · individual fan token white paper registrations IN PROGRESS. New section added: Socios Equity Token — MiCA Classification — probable ART/e-money token/financial instrument (NOT utility token) · classification depends on tokenomics (Condition 3 unresolved) · do not apply Title II framework · cross-reference equity-token/socios-equity-token.md (HOLD). Footer updated.
+- intelligence/staleness-register.md (UPDATE): eu.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. eu-mica.md row: DUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: eu.md removed · 8 → 7 files. REGISTER CHANGELOG entry added.
+
+
 
 ### Changed
 - intelligence/country-scan/_registers.md (UPDATE · 223L → 225L): Staleness one-liner prepended. Status: CURRENT.
