@@ -113,6 +113,16 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 
 ---
 
+## TIER A — equity-token/ (30-day cycle)
+
+Last audit: 2026-09-14 · Source: BC11 Task 4
+
+| File | Last Verified | Next Due | Status | Notes |
+|---|---|---|---|---|
+| socios-equity-token.md | 2026-09-14 | 2026-10-14 | CURRENT | HOLD FILE · Conditions 2+3 open · no named club · no tokenomics |
+
+---
+
 ## COVERAGE GAPS
 
 Jurisdictions present in macro/regulatory/ but missing
@@ -156,3 +166,4 @@ HP-13 active status.
 | 2026-09-10 | Staleness notice blocks added | macro/regulatory/ — all 18 files | BC10 Task B |
 | 2026-09-10 | Staleness one-liners added + content fixes | country-scan/brazil.md · country-scan/russia.md | BC10 Task C |
 | 2026-09-14 | CGT content fix — MP 1.303/2025 LAPSED · progressive rate applied | market/south-america/south-america-fan-token-intelligence.md | BC11 Task 3 |
+| 2026-09-14 | New Tier A section added · equity-token/ · HOLD file registered | equity-token/socios-equity-token.md | BC11 Task 4 |
