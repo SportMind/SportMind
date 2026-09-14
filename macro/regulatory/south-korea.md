@@ -1,12 +1,4 @@
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/south-korea.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-09-14
-Next check due:  2026-10-14
-Status:          CURRENT
-Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-14 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-14 · Apply with normal confidence. Verify key dates and rates against primary sources for live analysis.
 
 # South Korea — Crypto Regulatory Framework for Fan Token Holder Analysis
 
