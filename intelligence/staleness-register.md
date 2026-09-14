@@ -80,6 +80,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | netherlands.md | 2026-08-25 | 2026-09-24 | CURRENT | |
 | pakistan.md | 2026-08-24 | 2026-09-23 | CURRENT | HP-13 weekly monitoring |
 | russia.md | 2026-09-03 | 2026-10-03 | CURRENT | Patched BC9 · 282-FZ statutory suppressor |
+| singapore.md | 2026-09-14 | 2026-10-14 | CURRENT | PSA + DTSP live · probable DPT · Socios/Chiliz licence UNCONFIRMED · BC11 Task 6 |
 | south-africa-sars.md | 2026-07-27 | 2026-08-26 | OVERDUE | 43 days overdue · HP-9 active |
 | turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
@@ -106,6 +107,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | netherlands.md | 2026-08-26 | 2026-09-25 | CURRENT | |
 | portugal.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | russia.md | 2026-09-10 | 2026-10-10 | CURRENT | 282-FZ statutory suppressor added · STRUCTURALLY EXCLUDED IN STATUTE · one-liner added · BC10 Task C |
+| singapore.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 6 |
 | south-africa.md | 2026-08-18 | 2026-09-17 | CURRENT | |
 | south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 5 |
 | spain.md | 2026-08-18 | 2026-09-17 | CURRENT | |
@@ -170,3 +172,4 @@ HP-13 active status.
 | 2026-09-14 | CGT content fix — MP 1.303/2025 LAPSED · progressive rate applied | market/south-america/south-america-fan-token-intelligence.md | BC11 Task 3 |
 | 2026-09-14 | New Tier A section added · equity-token/ · HOLD file registered | equity-token/socios-equity-token.md | BC11 Task 4 |
 | 2026-09-14 | New files added · regulatory + country-scan · South Korea gap filled | macro/regulatory/south-korea.md · intelligence/country-scan/south-korea.md | BC11 Task 5 |
+| 2026-09-14 | New files added · regulatory + country-scan · Singapore | macro/regulatory/singapore.md · intelligence/country-scan/singapore.md | BC11 Task 6 |
