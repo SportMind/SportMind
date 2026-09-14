@@ -4,7 +4,7 @@ description: Central staleness tracking register for all
   Tier A SportMind library files. Read by SMI Chat on
   every briefing. Updated by Build Chat on every patch.
 version: v1.0.0
-last-updated: 2026-09-10
+last-updated: 2026-09-14
 sources: [chat]
 ---
 
@@ -155,3 +155,4 @@ HP-13 active status.
 | 2026-09-09 | Register created · initial Tier A audit | All 34 files | Strategy Chat 28 · BC10 Task A |
 | 2026-09-10 | Staleness notice blocks added | macro/regulatory/ — all 18 files | BC10 Task B |
 | 2026-09-10 | Staleness one-liners added + content fixes | country-scan/brazil.md · country-scan/russia.md | BC10 Task C |
+| 2026-09-14 | CGT content fix — MP 1.303/2025 LAPSED · progressive rate applied | market/south-america/south-america-fan-token-intelligence.md | BC11 Task 3 |

@@ -1,6 +1,7 @@
 # South America Fan Token Intelligence Framework
 
-**Version:** v4.6.36
+**Version:** v4.6.62
+**Last Verified:** 2026-09-14
 **Scope:** All active South American Chiliz fan tokens
 **Directory:** market/south-america/
 **Design:** Shared domain intelligence layer — replaces
@@ -273,21 +274,18 @@ any volume-based analysis.
 ## Section 5 — Regulatory Context
 
 **Brazil (primary holder market for all 9 club tokens):**
-- CGT: 17.5% flat rate
-- Regulatory instrument: MP 1.303/2025 (Medida Provisória)
-- Status: subject to Congressional ratification ·
-  ratification deadline ~October 10 2026
-- Lapse risk is real — Medida Provisória not enacted
-  as permanent legislation at library date
+- CGT: PROGRESSIVE 15%–22.5% · R$35,000 monthly exemption
+- MP 1.303/2025 (Medida Provisória): LAPSED October 2025 ·
+  not in force · 17.5% flat rate no longer applies
+- Current framework: progressive rate schedule in effect
 - Load macro/regulatory/brazil.md for full framework
-- Do not treat as enacted permanent law until ratification
-  is confirmed
+- Last verified: 2026-09-14
 
 **Agent rule 7:** Apply macro/regulatory/brazil.md for
-all Brazilian holder analysis. 17.5% CGT is active under
-MP 1.303/2025 but subject to ratification. Flag lapse
-risk in any output referencing Brazilian holder friction.
-Escalate immediately if ratification fails or rate changes.
+all Brazilian holder analysis. CGT is PROGRESSIVE 15%–22.5%
+with R$35,000 monthly exemption. MP 1.303/2025 LAPSED
+October 2025 — do not apply 17.5% flat rate in any output.
+Escalate immediately if rate or exemption threshold changes.
 
 **Argentina ($ARG national token — dual-signal):**
 - INFLATION HEDGE AMPLIFIER: positive modifier —
@@ -443,11 +441,11 @@ American fan token analysis. Apply MICRO_CAP_ILLIQUIDITY
 flag for any token below $500 daily volume. $VASCO carries
 this flag as a standing default.
 
-**Rule 7 — Brazil regulatory (MP 1.303/2025):**
-17.5% CGT is active but subject to Congressional
-ratification (~October 10 2026). Lapse risk is real.
-Load macro/regulatory/brazil.md. Do not treat as
-permanent enacted legislation until ratification confirmed.
+**Rule 7 — Brazil regulatory:**
+CGT is PROGRESSIVE 15%–22.5% · R$35,000 monthly exemption.
+MP 1.303/2025 LAPSED October 2025 — not in force.
+Do not apply 17.5% flat rate in any output or record.
+Load macro/regulatory/brazil.md for full framework.
 
 **Rule 8 — $ARG dual-signal:**
 INFLATION HEDGE AMPLIFIER and EXCHANGE CONTROL SUPPRESSOR
