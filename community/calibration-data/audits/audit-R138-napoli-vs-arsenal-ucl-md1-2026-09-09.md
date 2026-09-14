@@ -1,6 +1,6 @@
 ---
 name: audit-R138-napoli-vs-arsenal-ucl-md1-2026-09-09
-status: POST-MATCH — direction CORRECT · PATH_2 burn PENDING · BC10 check 2026-09-10 · no burn confirmed · close deferred pending deadline
+status: COMPLETE — direction CORRECT · PATH_2 burn ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · BC11 close 2026-09-14
 parent-record: R138 · community/calibration-data/football/football-napoli-vs-arsenal-ucl-md1-2026-09-09.md
 auditor: Internal
 audit-date: 2026-09-07
@@ -15,7 +15,7 @@ Match: SSC Napoli v Arsenal FC
 Competition: UEFA Champions League 2026-27 — Matchday 1 · League Phase
 Date: 2026-09-09
 Direction: AWAY ($AFC)
-Outcome: PENDING — complete post-match
+Outcome: COMPLETE — direction CORRECT · PATH_2 burn ABSENT · BC11 close 2026-09-14
 Parent record: R138 · football-napoli-vs-arsenal-ucl-md1-2026-09-09.md
 Audit date: 2026-09-07
 Auditor: Internal
@@ -24,7 +24,7 @@ Auditor: Internal
 
 ## Overall verdict
 
-OVERALL: DIRECTION CORRECT — PATH_2 burn PENDING · BC10 check 2026-09-10 · no burn confirmed on fantokens.com or chiliscan.com · monitoring continues to 2026-09-12 deadline
+OVERALL: DIRECTION CORRECT — PATH_2 burn ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · confirmed 2026-09-14 · PATH_2 protocol review parked to Strategy Chat · AUDIT COMPLETE
 
 Post-match layers:
 
@@ -56,8 +56,8 @@ Note: ITALY_REGULATORY_LOADED confirmed for $NAP holders (33% CGT · HIGHEST FRI
 
 ### Layer 4 — Judgment (Dim 5)
 
-Verdict: PASS — direction correct · adjusted score gate review deferred to BC10
-Note: Arsenal won 1–0 at the Maradona — AWAY direction confirmed correct. Confidence tier ($AFC MODERATE-HIGH) was proportionate: direction correct despite CHZ CAPITULATION ×0.70 regime compression. $NAP MODERATE confidence was appropriate given managerial transition and absence flags — home side lost, suppressors directionally validated. Adjusted score gate review (HOLD threshold evaluation) to be completed in BC10 once PATH_2 burn confirmation is available and full gate review conducted.
+Verdict: PASS — direction correct · PATH_2 burn ABSENT · gate closed BC11
+Note: Arsenal won 1–0 at the Maradona — AWAY direction confirmed correct. Confidence tier ($AFC MODERATE-HIGH) was proportionate: direction correct despite CHZ CAPITULATION ×0.70 regime compression. $NAP MODERATE confidence was appropriate given managerial transition and absence flags — home side lost, suppressors directionally validated. PATH_2 burn expected post-WIN but did not execute within 72h deadline window (2026-09-12). Supply confirmed 39,266,147 $AFC unchanged as of 2026-09-14. Burn-absent outcome recorded. Adjusted score gate: direction CORRECT — no PATH_2 burn-side adjustment applicable. Gate closed.
 
 ### Layer 5 — Verification (Dim 8)
 
@@ -75,7 +75,7 @@ Note: All mandatory structural elements present — DUAL-TOKEN FIXTURE header, T
 
 STRONGEST LAYER: Layer 3 — Context loading was comprehensive: dual regulatory jurisdictions applied independently, omnichain note included, PTG exclusion correctly applied, rivalry UNCLASSIFIED correctly derived.
 
-WEAKEST LAYER: Layer 4 — Judgment PENDING · gate outcome deferred to post-match · adjusted scores not yet determinable without MCP output values.
+WEAKEST LAYER: Layer 4 — Judgment required deferral to post-match for PATH_2 confirmation. Now closed: direction CORRECT · PATH_2 burn ABSENT within deadline · gate closed BC11 2026-09-14.
 
 PATTERN NOTE:
 This record establishes the first UCL league phase dual-token calibration in the series. The ASYMMETRIC classification framework functioned correctly — $NAP and $AFC were assessed on structurally distinct terms rather than force-fitted to a symmetric framework. Layer 4 gate evaluation remains the key outstanding item.
@@ -84,14 +84,16 @@ This record establishes the first UCL league phase dual-token calibration in the
 
 ## Action required
 
-PATH_2 burn confirmation: BC10 check 2026-09-10 — both sources checked (fantokens.com/fan-token-play + chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615). UCL MD1 2026-09-09 fixture NOT YET LISTED on Fan Token Play page. Total supply 39,266,147 $AFC unchanged — no burn executed. Still within 72h window. Monitoring continues. Deadline: 2026-09-12. Escalate immediately if burn executes or if absent at deadline.
+PATH_2 burn confirmation: BC10 check 2026-09-10 — both sources checked (fantokens.com/fan-token-play + chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615). UCL MD1 2026-09-09 fixture NOT LISTED on Fan Token Play page. Total supply 39,266,147 $AFC unchanged — no burn executed. Deadline 2026-09-12 passed.
 
-Adjusted score gate review: deferred — requires PATH_2 confirmation and MCP adjusted scores. To be completed once burn confirmed or deadline passed.
+BC11 close: 2026-09-14 — supply confirmed 39,266,147 $AFC · UNCHANGED from BC10 check · deadline 2026-09-12 passed without burn execution · PATH_2 burn ABSENT outcome recorded · burn-absent close authorised by Pele.
 
-Full audit close: deferred pending PATH_2 resolution — record moves to COMPLETE when burn outcome confirmed and gate reviewed.
+Adjusted score gate review: CLOSED — direction CORRECT · PATH_2 burn-absent outcome does not alter direction verdict · no adjusted score gate adjustment required.
+
+Full audit close: COMPLETE — PATH_2 burn ABSENT confirmed · direction CORRECT · audit closed BC11 2026-09-14.
 
 ---
 
 *SportMind v4.6.57 · Reasoning Audit Framework v1.0.0*
-*Audit: R138 · DIRECTION CORRECT · PATH_2 PENDING · BC10 check 2026-09-10 · no burn confirmed · deadline 2026-09-12*
+*Audit: R138 · COMPLETE · DIRECTION CORRECT · PATH_2 BURN ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · BC11 close 2026-09-14*
 *© 2026 SportMind*

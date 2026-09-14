@@ -1,6 +1,6 @@
 ---
 name: football-napoli-vs-arsenal-ucl-md1-2026-09-09
-status: POST-MATCH — direction CORRECT · PATH_2 burn PENDING · BC10 check 2026-09-10 · deadline 2026-09-12 · result Arsenal 1–0 Napoli
+status: POST-MATCH — direction CORRECT · PATH_2 burn ABSENT · deadline 2026-09-12 PASSED · supply 39,266,147 $AFC unchanged · confirmed 2026-09-14 · result Arsenal 1–0 Napoli
 contributor: Internal submission
 contributor-type: INTERNAL
 issue: n/a — internal calibration record
@@ -325,8 +325,8 @@ NOTE — OMNICHAIN:
   Omnichain architecture does not alter PATH_2 mechanics.
 
 RESULT:
-  $AFC PATH_2 outcome: PENDING — complete post-match
-  Tokens burned/minted/unchanged: PENDING
+  $AFC PATH_2 outcome: BURN ABSENT — deadline 2026-09-12 passed · no burn executed
+  Tokens burned/minted/unchanged: UNCHANGED — supply 39,266,147 $AFC confirmed 2026-09-14
   Verify: fantokens.com/fan-token-play
 ```
 
@@ -356,8 +356,8 @@ DIRECTION CORRECT:    YES ✓
   Actual result:       Arsenal 1–0 Napoli (AWAY WIN)
   Direction verdict:   CORRECT
 
-ACTION OUTCOME:       PENDING — complete when adjusted score gate reviewed post-session
-CALIBRATION VERDICT:  DIRECTION CORRECT ✓ · Gate outcome PENDING
+ACTION OUTCOME:       CLOSED — PATH_2 burn ABSENT · deadline 2026-09-12 passed · supply unchanged · BC11 2026-09-14
+CALIBRATION VERDICT:  DIRECTION CORRECT ✓ · PATH_2 burn ABSENT within deadline window
 ```
 
 ---
@@ -366,16 +366,17 @@ CALIBRATION VERDICT:  DIRECTION CORRECT ✓ · Gate outcome PENDING
 
 ```
 $AFC SUPPLY EVENT:
-  Match result:   Arsenal WIN → burn event triggered (PATH_2)
-  Burn status:    PENDING — burn NOT YET CONFIRMED as of 2026-09-10
+  Match result:   Arsenal WIN → burn event expected (PATH_2)
+  Burn status:    BURN ABSENT — deadline 2026-09-12 passed without burn execution
   BC9 check:      2026-09-10 · no burn detected · chiliscan.com
   BC10 check:     2026-09-10 · no burn detected · fantokens.com/fan-token-play + chiliscan.com contract
                   fantokens.com supply table: 39,266,147 $AFC (unchanged · no new entry for UCL MD1)
+  BC11 check:     2026-09-14 · supply 39,266,147 $AFC · UNCHANGED · no burn executed within deadline window
                   Fan Token Play page: UCL MD1 2026-09-09 fixture NOT YET LISTED
   Monitor:        Continue to deadline · chiliscan.com + fantokens.com/fan-token-play
   Expected:       ~1/400 circulating supply burn (Chiliz Chain execution only)
   Verify:         fantokens.com/fan-token-play · chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615
-  Flag:           PATH2_BURN_PENDING — monitor to 2026-09-12 (72h post-match deadline)
+  Flag:           PATH2_BURN_ABSENT — deadline 2026-09-12 passed · no burn executed · supply unchanged
 ```
 
 ---
@@ -398,7 +399,7 @@ WHAT THE SIGNAL GOT RIGHT:
   · ASYMMETRIC classification — validated: $AFC structural advantages decisive
 
 WHAT THE SIGNAL GOT WRONG:
-  · PENDING — full quality review in post-match signal quality note below
+  · PATH_2 burn expected post-WIN but did not execute within 72h deadline window (2026-09-12) — burn-absent outcome recorded · parked to Strategy Chat for PATH_2 protocol review
 ```
 
 ---
@@ -411,8 +412,8 @@ CONFIDENCE CALIBRATION:
   Confidence tier ($AFC: MODERATE-HIGH) — proportionate given CHZ
   CAPITULATION regime. Direction correct despite regime compression.
 
-HOLD GATE ASSESSMENT:   PENDING — adjusted score gate review deferred to BC10
-PATH_2 BURN:            PENDING — no burn detected on chiliscan.com as of 2026-09-10
+HOLD GATE ASSESSMENT:   CLOSED — direction CORRECT · PATH_2 burn-absent outcome recorded · no further gate adjustment required
+PATH_2 BURN:            BURN ABSENT — deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · confirmed 2026-09-14
                         72-hour monitoring window active · deadline ~2026-09-12
 
 FUTURE CALIBRATION NOTE:
@@ -447,8 +448,9 @@ FLAG: UK_REGULATORY_LOADED
 
 FLAG: PATH2_ACTIVE
   Pre-match status: ACTIVE — $AFC PATH_2 · WIN burns · LOSS mints
-  Post-match resolution: WIN TRIGGERED — burn expected · PENDING confirmation
-  Status: PATH2_BURN_PENDING · BC10 check 2026-09-10 · burn NOT confirmed on either source
+  Post-match resolution: WIN TRIGGERED — burn expected · BURN ABSENT
+  Status: PATH2_BURN_ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · confirmed 2026-09-14
+  Protocol: PATH_2 burn-absent outcome — parked to Strategy Chat for protocol review
   Verify: fantokens.com/fan-token-play · chiliscan.com contract 0x76088F3eD5dC655De9295D93868ec1EeC654A615
   Deadline: 2026-09-12 · escalate immediately on execution or if absent at deadline
 
@@ -528,7 +530,7 @@ Match date:       2026-09-09
 Kickoff:          2026-09-09T19:00:00Z / 20:00 BST
 Submitted by:     Internal submission
 Result source:    UEFA.com — verify post-match (2026-09-09 after full time)
-Result verified:  PENDING
+Result verified:  CONFIRMED — Arsenal 1–0 Napoli · UEFA.com · BC11 close 2026-09-14
 Record number:    138
 
 PTG verification: N/A — UCL league phase is not a PTG-eligible tournament
@@ -548,9 +550,9 @@ NOTE — RIVALRY:
 ---
 
 *SportMind v4.6.57 · MIT License · sportmind.dev*
-*STATUS: POST-MATCH — direction CORRECT ✓ · result Arsenal 1–0 Napoli · PATH_2 burn PENDING · BC10 check 2026-09-10 · deadline 2026-09-12*
+*STATUS: POST-MATCH CLOSED — direction CORRECT ✓ · result Arsenal 1–0 Napoli · PATH_2 burn ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · BC11 close 2026-09-14*
 *PTG: N/A*
-*PATH_2: $AFC WIN triggered burn event — PENDING · BC10 check 2026-09-10 · no burn on fantokens.com or chiliscan.com · monitor to 2026-09-12*
+*PATH_2: $AFC WIN triggered burn event — BURN ABSENT · deadline 2026-09-12 passed · supply 39,266,147 $AFC unchanged · confirmed 2026-09-14 · PATH_2 protocol review parked to Strategy Chat*
 
 ---
 
