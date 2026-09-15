@@ -74,7 +74,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | eu.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA fully in force Dec 2024 · Socios/Chiliz MFSA authorised · MiCA passporting operative · BC11 Task 10 |
 | france.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | germany.md | 2026-08-21 | 2026-09-20 | CURRENT | |
-| global-regulatory-landscape.md | 2026-07-17 | 2026-08-16 | OVERDUE | 53 days overdue |
+| global-regulatory-landscape.md | 2026-09-14 | 2026-10-14 | CURRENT | Regime clusters updated · BC11 tasks integrated · MiCA full application · Russia statutory suppressor · UK FCA gateway · Equity Token category added · BC11 Task 12 |
 | hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | VATP live Jun 2023 · retail access permitted · probable non-security VA · Socios/Chiliz licence UNCONFIRMED · BC11 Task 7 |
 | italy.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | ksa.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
@@ -148,14 +148,13 @@ HP-13 active status.
 
 ## OVERDUE SUMMARY (as of 2026-09-09)
 
-6 files requiring attention (uk-cryptoasset-regime.md · eu.md · south-africa-sars.md patched BC11 · all now CURRENT):
+5 files requiring attention (uk-cryptoasset-regime.md · eu.md · south-africa-sars.md · global-regulatory-landscape.md patched BC11 · all now CURRENT):
 
 | File | Days Overdue | Priority | Reason |
 |---|---|---|---|
-| ksa.md | 60 | 🔴 HIGH | GCC regulatory posture |
-| uae.md | 60 | 🔴 HIGH | VARA/ADGM framework |
+| ksa.md | 60 | 🔴 HIGH | GCC regulatory posture · BC12 task |
+| uae.md | 60 | 🔴 HIGH | VARA/ADGM framework · BC12 task |
 | us-token-taxonomy.md | 60 | 🔴 HIGH | CLARITY Act · SEC/CFTC March 2026 |
-| global-regulatory-landscape.md | 53 | 🔴 HIGH | Cross-jurisdiction overview |
 | italy.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
 | turkey.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
 
@@ -176,3 +175,4 @@ HP-13 active status.
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
+| 2026-09-14 | Patch · regime clusters updated · BC11 tasks integrated · friction tiers · key themes · equity token | macro/regulatory/global-regulatory-landscape.md | BC11 Task 12 |
