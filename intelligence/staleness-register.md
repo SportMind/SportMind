@@ -82,7 +82,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | pakistan.md | 2026-08-24 | 2026-09-23 | CURRENT | HP-13 weekly monitoring |
 | russia.md | 2026-09-03 | 2026-10-03 | CURRENT | Patched BC9 · 282-FZ statutory suppressor |
 | singapore.md | 2026-09-14 | 2026-10-14 | CURRENT | PSA + DTSP live · probable DPT · Socios/Chiliz licence UNCONFIRMED · BC11 Task 6 |
-| south-africa-sars.md | 2026-07-27 | 2026-08-26 | OVERDUE | 43 days overdue · HP-9 active |
+| south-africa-sars.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-9 ACTIVE · CARF live 2 Mar 2026 · ITR12 4522 enforcement active · VDP window active · $SAFA affected · BC11 Task 11 |
 | turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
 | uk-cryptoasset-regime.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-10 ELEVATED · NCA freeze extended ~Jan 2027 · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 · Socios/Chiliz FCA auth UNCONFIRMED · BC11 Task 8 |
@@ -148,7 +148,7 @@ HP-13 active status.
 
 ## OVERDUE SUMMARY (as of 2026-09-09)
 
-7 files requiring attention (uk-cryptoasset-regime.md patched BC11 Task 8 · eu.md patched BC11 Task 10 · both now CURRENT):
+6 files requiring attention (uk-cryptoasset-regime.md · eu.md · south-africa-sars.md patched BC11 · all now CURRENT):
 
 | File | Days Overdue | Priority | Reason |
 |---|---|---|---|
@@ -156,7 +156,6 @@ HP-13 active status.
 | uae.md | 60 | 🔴 HIGH | VARA/ADGM framework |
 | us-token-taxonomy.md | 60 | 🔴 HIGH | CLARITY Act · SEC/CFTC March 2026 |
 | global-regulatory-landscape.md | 53 | 🔴 HIGH | Cross-jurisdiction overview |
-| south-africa-sars.md | 43 | 🟠 MEDIUM | HP-9 active |
 | italy.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
 | turkey.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
 
@@ -176,3 +175,4 @@ HP-13 active status.
 | 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
+| 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |

@@ -1,22 +1,14 @@
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/south-africa-sars.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-07-27
-Next check due:  2026-08-26
-Status:          OVERDUE
-Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-09-14 · Tier A · 30-day cycle · Status: CURRENT · Next check due: 2026-10-14 · HP-9 ACTIVE · Apply with normal confidence but verify CARF enforcement status and VDP window at sars.gov.za before applying to live analysis.
 
 # South Africa — SARS Crypto Tax Framework
 
 **Domain:** macro/regulatory/south-africa-sars.md
-**Version:** v4.1.40
+**Version:** v4.6.69 · Last verified: 2026-09-14
 **Library Rule:** Six-Month Test PASSES · Proper Noun Test PASSES
 **Scope:** South African Revenue Service (SARS) crypto asset tax
-framework. Draft Guide to Taxation of Crypto Assets (July 1 2026),
-CARF implementation, and $SAFA fan token holder implications.
-TFM4 deadline protocol: comment period closes August 31 2026.
+framework. CARF live 2 March 2026 — first African nation to implement
+OECD CARF. ITR12 source code 4522 enforcement active. VDP window
+active. $SAFA fan token holder implications. HP-9 ACTIVE.
 
 ---
 
@@ -24,25 +16,25 @@ TFM4 deadline protocol: comment period closes August 31 2026.
 
 ```
 2 March 2026   — CARF (Crypto-Asset Reporting Framework) implemented
-                 South Africa adopts OECD CARF for automatic
-                 information exchange between tax authorities
+                 South Africa adopts OECD CARF — first African nation
+                 to implement OECD CARF for automatic information exchange
 20 March 2026  — Budget 2026 FAQ published — crypto-specific tax
                  changes documented · ITR12 source code 4522
                  introduced for crypto trading income reporting
 July 1 2026    — SARS Draft Guide to Taxation of Crypto Assets
-                 published. Opens public comment period.
-August 31 2026 — Comment period closes (TFM4 T+0 deadline)
-                 Post-comment: final guide expected · enforcement hardens
-TBD 2026-2027  — Final guide published and enforcement begins
-                 Crypto Revenue Augmentation Unit operational
+                 published. Opened public comment period.
+August 31 2026 — Comment period CLOSED · post-comment phase active
+                 Final guide expected · enforcement trajectory hardening
+TBD 2026-2027  — Final guide publication · Crypto Revenue Augmentation
+                 Unit operational · enforcement hardens further
 ```
 
-**TFM4 DEADLINE PROTOCOL — ACTIVE:**
+**TFM4 DEADLINE — PASSED:**
 ```
-T-30 = August 1 2026   — ESCALATION ACTIVE · flag in every SMI briefing
-T-7  = August 24 2026  — DAILY SCAN · check SARS website for late guidance
-T+0  = August 31 2026  — COMMENT PERIOD CLOSES · enforcement trajectory confirmed
-T+30 = September 30    — POST-DEADLINE MONITOR · confirm final guide timeline
+Comment period closed August 31 2026.
+Post-comment enforcement trajectory active.
+Monitor sars.gov.za for final guide publication.
+Final guide publication = mandatory file update.
 ```
 
 ---
@@ -79,6 +71,11 @@ BUDGET 2026 — SPECIFIC TAX RATES CONFIRMED (source: sars.gov.za):
     Marginal income tax rates apply · 18–45% depending on income bracket
   Long-term investors (CGT):
     Maximum effective rate: 18% for individuals (confirmed Budget 2026)
+    Calculation: 40% inclusion rate × 45% maximum marginal rate = 18%
+    Annual exclusion: R40,000 per individual — gains below this
+      threshold are excluded from CGT in the tax year
+    No holding period relief — all gains subject to CGT regardless
+      of how long the asset was held · no long-term discount applies
   ITR12 source code 4522: crypto trading income reporting field
     Embedded in standard income tax return (ITR12)
     Crypto reporting is now infrastructure, not optional
@@ -98,6 +95,7 @@ WHAT CARF IS:
   and transactions of foreign tax residents.
 
 SOUTH AFRICA IMPLEMENTATION:
+  South Africa is the FIRST AFRICAN NATION to implement CARF.
   Effective: 2 March 2026
   First reporting period: 2 March 2026 to 28 February 2027
   Reporting deadline: by end of March 2027
@@ -127,6 +125,8 @@ AGENT RULE: CARF compliance is mandatory for CASPs serving South
 ## Voluntary Disclosure Programme (VDP)
 
 ```
+VDP STATUS: ACTIVE — window open as of 2026-09-14.
+
 VDP COVERAGE:
   The VDP explicitly covers historic crypto non-compliance.
   Taxpayers with previously undeclared crypto income (including
@@ -139,16 +139,16 @@ CLOSING WINDOW:
   must be submitted before SARS initiates contact — once an
   audit begins, VDP is no longer available.
   The window is closing as CARF data flows increase through
-  2026-2027.
+  2026-2027. Verify current VDP status at sars.gov.za.
 
 VDP AGENT RULE:
   South African $SAFA holders with historic undisclosed gains
   face increasing audit risk as CARF data accumulates.
   VDP-driven regularisation may create near-term selling pressure
   as holders address compliance before SARS acts.
-  Monitor for any SARS enforcement announcements post-August 31
-  2026 comment period close — enforcement intensity expected to
-  increase materially after final guide publication.
+  Monitor for SARS enforcement announcements — enforcement
+  intensity expected to increase as CARF data volume grows.
+  Verify VDP window status at sars.gov.za before applying.
 ```
 
 ---
@@ -178,6 +178,8 @@ AGENT RULE: SARS enforcement capability is now materially higher
 $SAFA STATUS: Confirmed active Chiliz Chain fan token
   (South African Football Association)
   WC2026: eliminated Round of 32 · 1 PTG burn confirmed
+  AFCON 2027: next PTG activation window · monitor for
+    tournament announcement and SAFA squad qualification
 
 SOUTH AFRICAN HOLDER TAX IMPLICATIONS:
   Purchase of $SAFA: acquisition — no tax event
@@ -215,13 +217,28 @@ ITR12 SOURCE CODE 4522:
 
 ---
 
+## HP-9 STATUS — ACTIVE
+
+| Item | Status | Detail |
+|---|---|---|
+| HP-9 posture | ACTIVE | South Africa crypto enforcement elevated |
+| CARF | LIVE 2 March 2026 | First African nation to implement OECD CARF |
+| ITR12 4522 enforcement | ACTIVE | Crypto reporting mandatory in annual tax returns |
+| VDP window | ACTIVE | Taxpayers declaring previously unreported crypto gains · verify sars.gov.za |
+| Affected token | $SAFA | South African Football Association fan token |
+| Monitor | sars.gov.za | Primary source · daily scan where applicable per SMI rules |
+
+---
+
 ## 5 Agent Rules
 
 ```
-RULE 1 — TFM4 PROTOCOL ACTIVE:
-  Comment period closes August 31 2026. Apply TFM4 at T-30
-  (August 1) — this is the escalation date. Flag in every SMI
-  briefing from August 1. Daily scan from August 24.
+RULE 1 — CARF = FIRST AFRICAN IMPLEMENTATION:
+  South Africa is the first African nation to implement OECD CARF
+  (effective 2 March 2026). South African crypto holders cannot
+  use offshore exchanges to avoid SARS reporting. CARF automatic
+  exchange means SARS receives data from compliant foreign exchanges.
+  Apply as a compliance risk modifier for South African markets.
 
 RULE 2 — CARF = OFFSHORE NO LONGER SHELTERED:
   South African crypto holders cannot use offshore exchanges
@@ -239,13 +256,15 @@ RULE 4 — COMPLIANCE-DRIVEN SELLING MODIFIER:
   SARS enforcement activity is a demand-suppressing modifier
   for South African retail crypto holders. Apply as LOW-MEDIUM
   negative modifier on South African domestic fan token demand
-  during enforcement-active periods.
+  during enforcement-active periods. HP-9 ACTIVE — apply modifier.
 
-RULE 5 — POST-COMMENT ENFORCEMENT HARDENS:
-  After August 31, the comment period closes and enforcement
-  trajectory becomes clearer. Post-deadline: update this file
-  with final guide findings. Enforcement intensity is expected
-  to increase materially after final guide publication.
+RULE 5 — VDP WINDOW ACTIVE — MONITOR:
+  VDP window is ACTIVE as of 2026-09-14. South African $SAFA
+  holders with historic undisclosed gains face increasing audit
+  risk as CARF data accumulates. VDP-driven regularisation may
+  create near-term selling pressure. Verify window status at
+  sars.gov.za before applying. Escalate to Strategy Chat on
+  any VDP window closure announcement.
 ```
 
 ---
@@ -257,18 +276,18 @@ RULE 5 — POST-COMMENT ENFORCEMENT HARDENS:
 | Intelligence (1) | ACTIVE | SARS crypto classification and tax treatment intelligence |
 | Reasoning (2) | ACTIVE | Causal: CARF → offshore reporting → compliance pressure → selling |
 | Context (3) | ACTIVE | South African regulatory context, enforcement timeline |
-| Memory (4) | ACTIVE | CARF first reporting period, TFM4 deadline dates |
+| Memory (4) | ACTIVE | CARF first reporting period · comment period closed August 31 2026 · final guide pending |
 | Judgment (5) | ACTIVE | Compliance modifier weighting, enforcement risk assessment |
-| Attention (6) | ACTIVE | TFM4 T-30 escalation on August 1 — active attention required |
-| Communication (7) | ACTIVE | TFM4 protocol communication, agent rule format |
+| Attention (6) | ACTIVE | HP-9 ACTIVE · VDP window monitoring · final guide publication escalation trigger |
+| Communication (7) | ACTIVE | HP-9 status communication · agent rule format · VDP window monitoring |
 | Verification (8) | ACTIVE | SARS official portal verification, CARF reporting confirmation |
 | Learning (9) | ACTIVE | Post-comment final guide will update this file |
 | Integration (10) | ACTIVE | Cross-references $SAFA, CARF, global regulatory landscape |
 | Calibration (11) | ACTIVE | Compliance-driven selling modifier to be calibrated post-enforcement |
-| Adaptation (12) | ACTIVE | File must update post-August 31 with final guide findings |
+| Adaptation (12) | ACTIVE | File must update on final guide publication · VDP window closure = escalation trigger |
 | Ethics (13) | ACTIVE | Tax compliance obligations — transparency about CARF scope |
-| Transparency (14) | ACTIVE | PTG burn treatment explicitly flagged as unknown |
-| Execution (15) | ACTIVE | TFM4 deadline protocol — T-30/T-7/T+0/T+30 execution |
+| Transparency (14) | ACTIVE | PTG burn treatment explicitly flagged as unknown · HP-9 ACTIVE disclosed |
+| Execution (15) | ACTIVE | Final guide publication protocol · VDP window monitoring · HP-9 active scan |
 | Collaboration (16) | NOT APPLICABLE | — |
 
 ---
@@ -280,4 +299,4 @@ RULE 5 — POST-COMMENT ENFORCEMENT HARDENS:
 - fan-token/registry/complete-registry.md — $SAFA token profile
 - macro/fan-adoption-intelligence.md — South African market demand modifiers
 
-© 2026 SportMind
+© 2026 SportMind · v4.6.69 · Last verified 2026-09-14 · HP-9 ACTIVE
