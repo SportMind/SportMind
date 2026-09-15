@@ -1,27 +1,72 @@
 # Changelog
 
+## [4.6.71] — 2026-09-15
+
+### Changed
+- intelligence/country-scan/south-korea.md (RENAME): south-korea-scan.md → south-korea.md · cosmetic rename · no content changes · aligns with staleness register reference · BC11 tidy commit.
+- intelligence/country-scan/singapore.md (RENAME): singapore-scan.md → singapore.md · cosmetic rename · no content changes · BC11 tidy commit.
+- intelligence/country-scan/hong-kong.md (RENAME): hong-kong-scan.md → hong-kong.md · cosmetic rename · no content changes · BC11 tidy commit.
+- CHANGELOG.md (CATCH-UP): Missing BC11 entries added for v4.6.62–v4.6.67. All entries written from actual task output. No content changes to any other file.
+
 ## [4.6.70] — 2026-09-14
 
 ### Changed
 - macro/regulatory/global-regulatory-landscape.md (PATCH · 287L → 413L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. Last verified 2026-09-14. Version v4.1.10 → v4.6.70. Singapore Tier 1 entry updated: PSA/DTSP/MODERATE friction/MAS licence UNCONFIRMED/no CGT detail added. Hong Kong Tier 2 entry updated: VATP live Jun 2023 · retail access PERMITTED · SFC perimeter expanding · LOW-MODERATE friction · Mainland China separation note. South Korea Tier 2 entry updated: VAUPA live Jul 2024 · DABA PENDING H2 2026 · HIGH friction · 20% CGT · VASP UNCONFIRMED · BINARY EVENT on DABA. Brazil Tier 2 entry updated: BCB deadline Oct 29 2026 · progressive CGT 15%–22.5% · MP 1.303/2025 LAPSED · never apply 17.5%. Tier 3 section updated: Russia added as STATUTORY SUPPRESSOR (282-FZ · fan tokens STRUCTURALLY EXCLUDED · BTC/ETH/USDT only · MAXIMUM SUPPRESSION). China Mainland ≠ HK note added. Tier 4 updated: South Africa (CARF live · HP-9 · ITR12 4522) and Pakistan (PVARA · Path C · UNCONFIRMED) added. New section added: Key global regulatory themes — MiCA full application · CARF expansion · VASP licensing wave · UK regime materialising · Equity Token category emerging · Statutory suppressors. New section added: Friction tier summary — LOW through STATUTORY SUPPRESSOR tiers with all jurisdictions mapped. Compatibility block updated: south-korea.md · singapore.md · hong-kong.md · eu.md · south-africa-sars.md · russia.md · equity-token/socios-equity-token.md added. Footer updated v4.1.10 → v4.6.70.
 - intelligence/staleness-register.md (UPDATE): global-regulatory-landscape.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: 6 → 5 files · global-regulatory-landscape.md removed. REGISTER CHANGELOG entry added.
 
-
+## [4.6.69] — 2026-09-14
 
 ### Changed
 - macro/regulatory/south-africa-sars.md (PATCH · 283L → 302L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. HP-9 ACTIVE noted. Last verified 2026-09-14. Version v4.1.40 → v4.6.69. Header scope updated: CARF live 2 March 2026 · first African nation · ITR12 4522 enforcement active · VDP window active · HP-9 ACTIVE. CGT section updated: R40,000 annual exclusion added · no holding period relief stated · 40% inclusion rate × 45% maximum marginal rate = 18% calculation made explicit. CARF section: first African nation framing added. VDP section: STATUS: ACTIVE added · stale TFM4 post-August 31 reference removed · verify sars.gov.za instruction added. $SAFA section: AFCON 2027 next PTG window noted. HP-9 STATUS block added (table format): CARF live · ITR12 4522 active · VDP window active · $SAFA affected · monitor sars.gov.za. Agent rules: Rule 1 (TFM4 ACTIVE) replaced with CARF FIRST AFRICAN IMPLEMENTATION · Rule 5 (POST-COMMENT ENFORCEMENT HARDENS) replaced with VDP WINDOW ACTIVE — MONITOR. Regulatory timeline: TFM4 protocol block updated from ACTIVE to PASSED. Mind Dimensions: Memory · Attention · Communication · Adaptation · Execution updated to remove TFM4 references · HP-9 and VDP monitoring substituted. Footer updated: v4.1.40 → v4.6.69 · HP-9 ACTIVE.
 - intelligence/staleness-register.md (UPDATE): south-africa-sars.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: 7 → 6 files · south-africa-sars.md removed. REGISTER CHANGELOG entry added.
 
-
+## [4.6.68] — 2026-09-14
 
 ### Changed
-- macro/regulatory/eu.md (PATCH · 215L → 238L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. Last verified 2026-09-14. MiCA timeline corrected: full application 30 December 2024 (was January 2025). Machine-readable status block updated: TRANSITIONAL_DEADLINE_ACTIVE → ENFORCEMENT_REGIME_STABLE · transitional period ended 2026-06-30. MiCA full application confirmed section added: fan tokens probable Title II utility tokens · substance-over-form applies · no confirmed ESMA guidance as of 2026-09-14. Socios/Chiliz MiCA status block added: MFSA Malta authorisation CONFIRMED September 2025 · EU27 passporting OPERATIVE · CHZ whitepaper ESMA-registered April 2026 · individual fan token white paper registrations IN PROGRESS. Third-country regime section added: reverse solicitation exception narrow. EU_LIQUIDITY_RISK (×0.94) transition modifier retired: post-transition enforcement regime STABLE as of 2026-09-14 · standard liquidity modifiers apply. Signal monitoring framework updated to PHASE 3 (CURRENT). MIND DIMENSIONS section rewritten to reflect post-transition status. Footer updated: v3.97.95 → v4.6.68 · 14 → 14 Mind dimensions · MICA_ENFORCEMENT: STABLE.
+- macro/regulatory/eu.md (PATCH · 215L → 238L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. Last verified 2026-09-14. MiCA timeline corrected: full application 30 December 2024 (was January 2025). Machine-readable status block updated: TRANSITIONAL_DEADLINE_ACTIVE → ENFORCEMENT_REGIME_STABLE · transitional period ended 2026-06-30. MiCA full application confirmed section added: fan tokens probable Title II utility tokens · substance-over-form applies · no confirmed ESMA guidance as of 2026-09-14. Socios/Chiliz MiCA status block added: MFSA Malta authorisation CONFIRMED September 2025 · EU27 passporting OPERATIVE · CHZ whitepaper ESMA-registered April 2026 · individual fan token white paper registrations IN PROGRESS. Third-country regime section added: reverse solicitation exception narrow. EU_LIQUIDITY_RISK (×0.94) transition modifier retired: post-transition enforcement regime STABLE as of 2026-09-14 · standard liquidity modifiers apply. Signal monitoring framework updated to PHASE 3 (CURRENT). MIND DIMENSIONS section rewritten to reflect post-transition status. Footer updated: v3.97.95 → v4.6.68 · MICA_ENFORCEMENT: STABLE.
 - macro/regulatory/eu-mica.md (PATCH · 314L → 359L): Staleness block converted YAML → blockquote. Status: DUE → CURRENT. Last verified 2026-09-14. Version v4.5.18 → v4.6.68. New section added: CASP Authorisation Wave (2025–2026) — Socios/Chiliz MFSA Malta authorisation CONFIRMED September 2025 · EU27 passporting OPERATIVE · CHZ white paper registered ESMA April 2026 · individual fan token white paper registrations IN PROGRESS. New section added: Socios Equity Token — MiCA Classification — probable ART/e-money token/financial instrument (NOT utility token) · classification depends on tokenomics (Condition 3 unresolved) · do not apply Title II framework · cross-reference equity-token/socios-equity-token.md (HOLD). Footer updated.
-- intelligence/staleness-register.md (UPDATE): eu.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. eu-mica.md row: DUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: eu.md removed · 8 → 7 files. REGISTER CHANGELOG entry added.
+- intelligence/staleness-register.md (UPDATE): eu.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. eu-mica.md row: DUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: 8 → 7 files · eu.md removed. REGISTER CHANGELOG entry added.
 
-
+## [4.6.67] — 2026-09-14
 
 ### Changed
+- macro/regulatory/uk-cryptoasset-regime.md (PATCH · 348L → 353L): Staleness block converted YAML → blockquote. Status: OVERDUE → CURRENT. HP-10 ELEVATED noted. Last verified 2026-09-14. Version v4.1.11 → v4.6.67. HP-10 STATUS block added: NCA freezing order EXTENDED ~January 2027 (Westminster Magistrates' Court 2026-09-11 · NCA + Luxembourg · investigation ongoing) · $SFA affected · PTG eligibility ($SFA/$BELG) UNRESOLVED · FCA authorisation gateway OPENS 30 September 2026 · FCA full regime go-live 25 October 2027 · Socios.com/Chiliz FCA authorisation UNCONFIRMED. All Q4 2026/Q4 2027 quarter references replaced with confirmed specific dates (30 September 2026 gateway · 25 October 2027 go-live) across regime timeline · transition rule · agent rule · Five Policy Statement section · MARC section · MARC agent rule. Footer updated: v4.1.11 → v4.6.67 · HP-10 ELEVATED.
+- intelligence/staleness-register.md (UPDATE): uk-cryptoasset-regime.md row: OVERDUE → CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14. OVERDUE SUMMARY: 9 → 8 files · uk-cryptoasset-regime.md removed. REGISTER CHANGELOG entry added.
+
+## [4.6.66] — 2026-09-14
+
+### Added
+- macro/regulatory/hong-kong.md (NEW · 358L): Blockquote staleness notice. Four primary regulators: SFC · HKMA · FSTB · IRD. Legislative history 2018–2026 (opt-in sandbox → mandatory VATP June 2023). Fan token probable non-security VA · substance-over-form · no confirmed SFC guidance. Socios/Chiliz SFC VATP licence UNCONFIRMED. No CGT · no GST/VAT. Profits tax caveat for institutional/frequent traders. Regulatory friction: LOW-MODERATE. Retail access explicitly permitted on licensed platforms. Seven agent rules. Mainland China ≠ HK separation note. 16 Mind Dimensions. Compatibility block.
+- intelligence/country-scan/hong-kong-scan.md (NEW · 199L): Six sections · blockquote staleness notice. LOW-MODERATE FRICTION modifier. Retail access explicitly permitted — positive demand signal. SFC licence confirmation = reduce to LOW · escalate to Strategy Chat. Mainland China ≠ HK separation enforced. Scan log: initial entry BC11 Task 7 2026-09-14.
+- intelligence/staleness-register.md (UPDATE): hong-kong.md added to macro/regulatory/ table (alphabetical). hong-kong.md added to country-scan/ table (alphabetical). REGISTER CHANGELOG entry added.
+
+## [4.6.65] — 2026-09-14
+
+### Added
+- macro/regulatory/singapore.md (NEW · 332L): Blockquote staleness notice. MAS as sole regulator. PSA (Jan 2020) · PS(A)A (Apr 2024) · DTSP (Jun 2025) legislative history. Fan token probable DPT · substance-over-form · no confirmed MAS guidance. Socios/Chiliz MAS licence UNCONFIRMED. No CGT · GST exempt on DPTs. Business income rule caveat. Regulatory friction: MODERATE. Socios Equity Token probable SFA security (cross-referenced HOLD). Six agent rules. 16 Mind Dimensions. Compatibility block.
+- intelligence/country-scan/singapore-scan.md (NEW · 174L): Six sections · blockquote staleness notice. MODERATE FRICTION modifier. MAS licence confirmation = reduce to LOW · escalate to Strategy Chat. DTSP scope verification flag. Zero CGT and GST exempt as positive signal. Scan log: initial entry BC11 Task 6 2026-09-14.
+- intelligence/staleness-register.md (UPDATE): singapore.md added to macro/regulatory/ table. singapore.md added to country-scan/ table. REGISTER CHANGELOG entry added.
+
+## [4.6.64] — 2026-09-14
+
+### Added
+- macro/regulatory/south-korea.md (NEW · 347L): Blockquote staleness notice (YAML fix applied — blockquote format from creation). Four primary regulators: FSC · FSS · KoFIU · DAXA. Legislative history 2020–2026 (SFIA → VAUPA → DABA pending). VAUPA live July 2024. DABA pending H2 2026 — BINARY EVENT on passage. Fan token classification OPEN — no FSC guidance confirmed. Socios.com/Chiliz VASP registration UNCONFIRMED. CGT: 20% on gains >KRW 2.5M — verify implementation at nts.go.kr. Regulatory friction: HIGH. Six agent rules. 16 Mind Dimensions. Compatibility block.
+- intelligence/country-scan/south-korea-scan.md (NEW · 184L): Six sections · blockquote staleness notice. HIGH FRICTION SUPPRESSOR. DABA BINARY EVENT escalation trigger. CGT implementation verify flag. Scan log: initial entry BC11 Task 5 2026-09-14.
+- intelligence/staleness-register.md (UPDATE): south-korea.md added to macro/regulatory/ table. south-korea.md added to country-scan/ table. South Korea gap (identified Chat 29) filled. REGISTER CHANGELOG entry added.
+
+## [4.6.63] — 2026-09-14
+
+### Added
+- equity-token/socios-equity-token.md (NEW · 229L): New top-level directory equity-token/ established. Structural category name — extensible beyond Socios/Chiliz. Fan Tokens (fan-token/) and Equity Tokens (equity-token/) are distinct product categories — never conflate. HOLD status: Condition 1 RESOLVED (Securitize infrastructure confirmed) · Condition 2 OPEN (no named club) · Condition 3 OPEN (no tokenomics). Announced 27 August 2026 · Securitize partnership 2 September 2026 · Securitize × VARA MoU 3 September 2026 (contextual only — not jurisdiction claim) · Chiliz MiCA whitepaper ESMA-registered. Disclaimer: subject to applicable laws and regulatory approvals. Six agent rules: signal bundle exclusion · calibration exclusion · category separation · jurisdiction inference prohibition · monitoring obligation · Strategy Chat activation authority. 16 Mind Dimensions mapped.
+- intelligence/staleness-register.md (UPDATE): New TIER A — equity-token/ section added. socios-equity-token.md row: CURRENT · Last Verified 2026-09-14 · Next Due 2026-10-14 · HOLD FILE · Conditions 2+3 open. REGISTER CHANGELOG entry added.
+
+## [4.6.62] — 2026-09-14
+
+### Changed
+- community/calibration-data/football/football-napoli-vs-arsenal-ucl-md1-2026-09-09.md (UPDATE · 557L → 559L): R138 burn-absent close. PATH_2 outcome: PATH2_BURN_PENDING → PATH2_BURN_ABSENT. Supply 39,266,147 $AFC confirmed unchanged 2026-09-14. Deadline 2026-09-12 passed without burn execution. Supply section: PENDING → BURN ABSENT. FTP section: $AFC PATH_2 outcome and tokens burned/minted/unchanged updated. Action outcome and calibration verdict: PENDING → CLOSED / DIRECTION CORRECT · PATH_2 burn ABSENT. Result verified: PENDING → CONFIRMED Arsenal 1–0 Napoli. Footer status lines updated. Calibration verdict: DIRECTION CORRECT · PATH_2 burn ABSENT within deadline window. PATH_2 protocol review parked to Strategy Chat.
+- community/calibration-data/audits/audit-R138-napoli-vs-arsenal-ucl-md1-2026-09-09.md (UPDATE · 97L → 99L): Audit status: PENDING → COMPLETE. Layer 4 gate closed: direction CORRECT · burn-absent recorded. BC10 section extended with BC11 close entry. Full audit close confirmed BC11 2026-09-14. Pre-match verified count: unchanged at 17.
+
+
 - intelligence/country-scan/_registers.md (UPDATE · 223L → 225L): Staleness one-liner prepended. Status: CURRENT.
 - intelligence/country-scan/argentina.md (UPDATE · 181L → 183L): Staleness one-liner prepended. Status: CURRENT.
 - intelligence/country-scan/brazil.md (UPDATE · 162L → 166L): Staleness one-liner prepended (initially NEEDS UPDATE). Content fixes applied: CGT corrected from 17.5% flat to progressive 15%–22.5% with R$35,000 monthly exemption · MP 1.303/2025 lapsed October 2025 confirmed · not-in-force noted throughout · ACTIVE REGULATORY PROCESSES updated · DEMAND SIGNAL MODIFIER updated · DeFi CGT reference corrected · congress.leg.br scan downgraded to weekly · OPEN QUESTIONS updated · one-liner status updated to CURRENT · Last verified 2026-09-10. Version v4.6.2 → v4.6.61.
