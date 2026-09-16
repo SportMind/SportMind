@@ -1,5 +1,11 @@
 # Changelog
 
+## [v4.6.72] — 2026-09-16
+
+### Added
+- R143: $FLU · Copa Libertadores QF Leg 2 · Platense 2–1 Fluminense ·
+  advance 3–2 agg · ENTER · CORRECT ✓ · Single-Token Exception (SC28)
+
 ## [4.6.71] — 2026-09-15
 
 ### Changed
