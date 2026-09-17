@@ -1,8 +1,3 @@
-
-─────────────────────────────────────────
-RECORD CONTENT
-─────────────────────────────────────────
-
 ---
 name: libertadores-qf-ldu-vs-verdao-leg2-2026-09-16
 status: POST-MATCH — direction CORRECT ✓ · HOLD gate PASSED · Palmeiras advance
