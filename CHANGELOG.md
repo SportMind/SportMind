@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.6.74] — 2026-09-17
+
+### Added
+- R145: $SCCP · Copa Libertadores QF Leg 2 · Corinthians 0–1
+  Estudiantes · eliminated 2–1 agg · ENTER · INCORRECT ✗ ·
+  Single-Token Exception (SC28) · Memphis Depay penalty miss
+
 ## [v4.6.73] — 2026-09-17
 
 ### Added
