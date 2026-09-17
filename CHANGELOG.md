@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.6.73] — 2026-09-17
+
+### Added
+- R144: $VERDAO · Copa Libertadores QF Leg 2 · LDU 3–2 Palmeiras ·
+  advance 4–3 pens (3–3 agg) · ENTER · CORRECT ✓ · Single-Token
+  Exception (SC28) · altitude modifier · first shootout record in series
+
 ## [v4.6.72] — 2026-09-16
 
 ### Added
