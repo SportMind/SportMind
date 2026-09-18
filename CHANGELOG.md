@@ -1,5 +1,12 @@
 # Changelog
 
+## [v4.6.75] — 2026-09-18
+
+### Added
+- R146: $MENGO · Copa Libertadores QF Leg 2 · Flamengo 1–1 IDV ·
+  advance 3–1 agg · ENTER · CORRECT ✓ · Single-Token Exception (SC28) ·
+  Trophy Premium ACTIVE (2025 champions) · QF series complete (R143–R146)
+
 ## [v4.6.74] — 2026-09-17
 
 ### Added
