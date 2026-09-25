@@ -1,5 +1,15 @@
 # Changelog
 
+## [v4.6.76] — 2026-09-21
+
+### Changed
+- macro/regulatory/us-token-taxonomy.md: CLARITY Act status updated — NOT ENACTED
+  (Senate cloture failed 15 Sep 2026, 46–43; 60 required); reintroduction earliest
+  2027; SEC/CFTC Joint Interpretive Release 17 Mar 2026 confirmed as operative
+  framework (agency guidance, not statute). Staleness notice converted to one-line
+  blockquote format. Register row updated (OVERDUE · 73 days · primary-source
+  confirmation pending).
+
 ## [v4.6.75] — 2026-09-18
 
 ### Added

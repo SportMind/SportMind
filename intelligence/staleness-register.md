@@ -4,7 +4,7 @@ description: Central staleness tracking register for all
   Tier A SportMind library files. Read by SMI Chat on
   every briefing. Updated by Build Chat on every patch.
 version: v1.0.0
-last-updated: 2026-09-14
+last-updated: 2026-09-21
 sources: [chat]
 ---
 
@@ -87,7 +87,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 | uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
 | uk-cryptoasset-regime.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-10 ELEVATED · NCA freeze extended ~Jan 2027 · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 · Socios/Chiliz FCA auth UNCONFIRMED · BC11 Task 8 |
 | south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | VAUPA live · DABA pending · fan token classification OPEN · BC11 Task 5 |
-| us-token-taxonomy.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue · CLARITY Act · SEC/CFTC March 2026 |
+| us-token-taxonomy.md | 2026-07-10 | 2026-08-09 | OVERDUE | 73 days overdue · CLARITY status patched · primary-source confirmation of SEC/CFTC 17 Mar 2026 release pending |
 
 ---
 
@@ -173,6 +173,7 @@ HP-13 active status.
 | 2026-09-14 | New files added · regulatory + country-scan · Singapore | macro/regulatory/singapore.md · intelligence/country-scan/singapore.md | BC11 Task 6 |
 | 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
+| 2026-09-21 | CLARITY Act status patched · NOT ENACTED (Senate cloture failed 15 Sep 2026) · row stays OVERDUE · primary-source confirmation pending | macro/regulatory/us-token-taxonomy.md | BC12 Task 5 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
 | 2026-09-14 | Patch · regime clusters updated · BC11 tasks integrated · friction tiers · key themes · equity token | macro/regulatory/global-regulatory-landscape.md | BC11 Task 12 |

@@ -9,15 +9,7 @@ description: >
   guidance. Enduring regulatory milestone. All 14 Mind dimensions mapped.
 ---
 
----
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/us-token-taxonomy.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-07-10
-Next check due:  2026-08-09
-Status:          OVERDUE
-Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
----
+> ⚠️ SPORTMIND STALENESS: Last verified 2026-07-10 · Tier A · 30-day cycle · Status: OVERDUE (73 days) · Next check due: 2026-08-09 · CLARITY Act status patched 2026-09-21 · primary-source confirmation of SEC/CFTC 17 Mar 2026 release pending · treat legislative status as per patch notes below · verify regulatory rates and key dates against primary sources before applying to live analysis.
 
 # US Token Taxonomy — SEC/CFTC Joint Interpretive Release
 
@@ -148,18 +140,19 @@ RELATIONSHIP BETWEEN GUIDANCE AND STATUTE:
     Override: Congress can override via CLARITY Act or other legislation
     Durability: Enduring unless reversed by subsequent guidance or statute
 
-  CLARITY ACT (legislative, Committee Passed 15-9 bipartisan):
-    Status:   COMMITTEE_PASSED — floor scheduling unscheduled
-    Effect:   Would provide statutory confirmation of these classifications
-    Priority: If CLARITY Act passes with consistent classifications —
-              the guidance becomes statute-backed
-    Risk:     CLARITY Act could modify classifications if Senate floor
-              amendments change category definitions
+  CLARITY ACT (legislative):
+    Status:   NOT ENACTED — Senate cloture vote failed 15 Sep 2026 (46 Yes / 43 No;
+              60 required). Dead for 2026. Reintroduction earliest 2027.
+    Effect:   No statutory confirmation of these classifications at this time.
+    Note:     The joint interpretive release remains the operative US framework —
+              agency guidance, not statute, and durable unless reversed by later
+              guidance or enacted statute.
 
-  COMBINED SIGNAL:
-    Guidance + Committee Passed CLARITY Act = strongest current US clarity signal.
-    Even without CLARITY Act passage, the joint interpretive release provides
-    actionable clarity for US fan token market entry decisions.
+  CURRENT SIGNAL:
+    The SEC/CFTC Joint Interpretive Release of 17 March 2026 is the strongest
+    current US clarity signal. There is no statutory confirmation. The release
+    provides actionable clarity for US fan token market entry decisions and
+    remains in effect as agency guidance.
 
   AGENT RULE:
     Apply US_REGULATORY_CLARITY: HIGH when:
@@ -196,11 +189,11 @@ BEFORE REASONING ABOUT US FAN TOKEN REGULATORY STATUS:
     DO NOT apply this guidance to UAE (VARA governs — separate framework).
     DO NOT assume other countries follow US classification.
     DO NOT assume CFTC has no jurisdiction — derivatives context may apply.
-    DO NOT assume this guidance is statute — CLARITY Act could modify it.
+    DO NOT assume this guidance is statute — it is agency guidance, durable unless reversed by later guidance or enacted statute.
 
   REGULATORY PRIORITY STACK (US context):
     1. This joint interpretive release — primary guidance (March 17 2026)
-    2. CLARITY Act — pending statute (would confirm or modify)
+    2. CLARITY Act — not enacted (cloture failed 15 Sep 2026) · monitor for reintroduction 2027 or later
     3. State-level regulations — apply on top of federal guidance
 ```
 
@@ -212,13 +205,13 @@ BEFORE REASONING ABOUT US FAN TOKEN REGULATORY STATUS:
 
 **Reasoning:** US regulatory uncertainty reduction is category-specific: compliant non-fractionalized fan tokens now LOW uncertainty. Fractionalized/yield-bearing tokens remain HIGHEST RISK — guidance does not reduce their risk, it sharpens the boundary. Two-step reasoning: (1) verify compliance (non-fractionalized, no yield), (2) apply appropriate modifier.
 
-**Context:** Joint interpretive release issued March 17 2026 by SEC and CFTC — the two primary US federal financial regulators. Explicitly names fan tokens as examples of Digital Collectibles. This is the most significant US regulatory development for fan tokens to date. Context: guidance (not statute) — CLARITY Act would provide statutory confirmation.
+**Context:** Joint interpretive release issued March 17 2026 by SEC and CFTC — the two primary US federal financial regulators. Explicitly names fan tokens as examples of Digital Collectibles. This is the most significant US regulatory development for fan tokens to date. Context: guidance (not statute) — statutory confirmation remains pending (CLARITY Act not enacted; Senate cloture failed 15 Sep 2026).
 
 **Memory:** Before March 17 2026: fan tokens faced potential Howey test application — HIGH uncertainty for US distribution. After March 17 2026: Digital Collectible classification confirmed — HIGH → LOW for compliant tokens. The passive yield red flag framework existed before this guidance; the guidance validates it at federal level.
 
 **Judgment:** HIGH clarity applies ONLY to compliant tokens. The guidance does not validate fraud or yield schemes — it sharpens the legal boundary between legitimate fan tokens and securities violations. Fractionalized tokens face elevated combined risk (fraud + securities). Agents must not apply broad "fan tokens are now safe in US" reasoning — the compliance conditions matter.
 
-**Attention:** Three monitoring signals: (1) CLARITY Act Senate floor scheduling — when scheduled, confirmation of statutory classification imminent; (2) SEC enforcement actions against non-compliant fan token structures — confirms the fractionalization boundary is enforced; (3) Any subsequent SEC/CFTC guidance modifying the five categories.
+**Attention:** Three monitoring signals: (1) CLARITY Act reintroduction — monitor for reintroduction in 2027 or later Congress (cloture failed 15 Sep 2026; statutory confirmation remains pending); (2) SEC enforcement actions against non-compliant fan token structures — confirms the fractionalization boundary is enforced; (3) Any subsequent SEC/CFTC guidance modifying the five categories.
 
 **Learning:** The Digital Collectible classification was not previously confirmed at US federal level. This is new territory — no calibration records exist for US-specific fan token regulatory risk under this framework. Apply standard fan token signal stack for verified compliant tokens; monitor for first US enforcement actions under the fractionalization boundary to calibrate risk assessment.
 
@@ -228,7 +221,7 @@ BEFORE REASONING ABOUT US FAN TOKEN REGULATORY STATUS:
 
 **Calibration:** US_REGULATORY_CLARITY modifier: HIGH (compliant tokens post-March 17 2026). US_SECURITIES_RISK: LOW (compliant). FRACTIONALIZATION_RISK: HIGHEST (yield + fraud combined). These replace the previous HIGH uncertainty discount for all US fan token signals. Separate calibration track for fractionalized structures — treated as distinct product class.
 
-**Adaptation:** When CLARITY Act passes Senate floor vote: update US_REGULATORY_CLARITY to STATUTORY_CONFIRMED (upgrade from guidance to statute). When first SEC enforcement action against fractionalized fan token: update fractionalization boundary from THEORETICAL to ENFORCED. When SEC/CFTC issue revised guidance: reassess all five categories.
+**Adaptation:** If a future statute is enacted that confirms the five-category classifications (e.g. a reintroduced CLARITY Act or equivalent legislation): update US_REGULATORY_CLARITY to STATUTORY_CONFIRMED (upgrade from guidance to statute). When first SEC enforcement action against fractionalized fan token: update fractionalization boundary from THEORETICAL to ENFORCED. When SEC/CFTC issue revised guidance: reassess all five categories.
 
 **Verification:** Primary sources only: sec.gov and cftc.gov official releases. Secondary verification: Ropes & Gray, Pillsbury, Jenner & Block, A&O Shearman law firm analyses (confirmed March 17 2026). Do not apply media summaries as primary source — verify directly against SEC/CFTC official text.
 
