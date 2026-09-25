@@ -18,7 +18,7 @@ Progressive CGT regime operative (15%–22.5% · R$35,000 monthly
 exemption). MP 1.303/2025 lapsed October 8 2025 — not in force.
 DeCripto reporting system active July 1 2026.
 CARF-aligned international data exchange.
-BCB VASP authorisation deadline: October 29 2026.
+BCB VASP authorisation deadline: October 30 2026.
 Resolves regulatory gap for nine active Brazilian fan tokens.
 **Jurisdiction:** Federative Republic of Brazil
 **Regulatory authority:** Receita Federal do Brasil (RFB) ·
@@ -51,7 +51,7 @@ Law 14.478/2022 — effective June 2023:
 BCB Resolutions 519, 520, 521 — published November 2025,
 effective February 2, 2026:
   Resolution 519: VASP authorisation requirements. All VASPs
-    must apply to BCB between February 2 and October 29 2026.
+    must apply to BCB between February 2 and October 30 2026.
     Existing operators may continue operating while application
     is processed. Capital thresholds R$10.8M–R$37.2M.
   Resolution 520: VASP operational rules — governance, AML/CFT,
@@ -155,11 +155,11 @@ PENALTIES:
 
 VASP REGULATION (BCB):
   BCB Resolutions 519/520/521 effective February 2, 2026.
-  All VASPs must apply for BCB authorisation by October 29 2026.
+  All VASPs must apply for BCB authorisation by October 30 2026.
   Existing operators may continue operating while application
   is processed.
   Socios.com / Chiliz: BCB authorisation status unconfirmed
-  as of 2026-09-07. Application deadline October 29 2026.
+  as of 2026-09-07. Application deadline October 30 2026.
   Monitor for BCB authorisation register publication.
   All authorised VASPs required to report Brazilian user
   transactions to RFB monthly. FX reporting under Resolution 521.
@@ -299,7 +299,7 @@ RULE 4 — POST-ELECTION CRYPTO TAX MONITORING:
   is operative. Post-October 2026 election, monitor for new
   crypto tax legislation — government may reintroduce flat-rate
   proposal. Escalate immediately if new instrument enacted.
-  BCB VASP authorisation deadline: October 29 2026 — monitor
+  BCB VASP authorisation deadline: October 30 2026 — monitor
   for Socios.com / Chiliz authorisation confirmation.
 
 RULE 5 — BRAZIL IS MODERATE-FRICTION JURISDICTION:
@@ -321,13 +321,13 @@ RULE 7 — CUSTO MÉDIO COST BASIS:
   Brazilian cost basis is Weighted Average (Custo Médio).
   Do not apply LIFO (Italy) or FIFO to Brazilian holder analysis.
 
-RULE 8 — VASP AUTHORISATION DEADLINE OCTOBER 29 2026:
+RULE 8 — VASP AUTHORISATION DEADLINE OCTOBER 30 2026:
   BCB Resolutions 519/520/521 require all VASPs to apply for
-  BCB authorisation by October 29 2026. Socios.com / Chiliz
+  BCB authorisation by October 30 2026. Socios.com / Chiliz
   authorisation status unconfirmed as of 2026-09-07.
   If authorised: reports all Brazilian user transactions to RFB
   monthly automatically.
-  If not authorised by October 29: escalate immediately — material
+  If not authorised by October 30: escalate immediately — material
   impact on Brazilian fan token holder access and reporting.
   Monitor BCB authorisation register for confirmation.
 ```
@@ -385,7 +385,7 @@ Post-election crypto tax legislation (October 2026 elections)
   Escalate immediately if new instrument enacted.
 
 BCB VASP authorisation — Socios.com / Chiliz
-  Status: MONITOR — deadline October 29 2026
+  Status: MONITOR — deadline October 30 2026
   Action: Confirm authorisation. Escalate if deadline approaches
   without confirmation or if Socios.com / Chiliz authorisation
   is denied or delayed.
@@ -453,13 +453,13 @@ LAST VERIFIED: 2026-09-07
 | Context (3) | ACTIVE | Law 14.478/2022 + BCB Resolutions 519/520/521 + DeCripto as structural context |
 | Memory (4) | ACTIVE | Legislative history 2019-2026 traceable; dual-regime transition documented |
 | Judgment (5) | ACTIVE | Brazil positioned correctly vs Italy · France · UK · Germany comparators |
-| Attention (6) | ACTIVE | BCB VASP deadline October 29 · PTG burn gap · post-election tax monitoring · Libertadores window |
+| Attention (6) | ACTIVE | BCB VASP deadline October 30 · PTG burn gap · post-election tax monitoring · Libertadores window |
 | Communication (7) | ACTIVE | Agent rules numbered; modifier in single-line format; progressive regime explicit |
 | Verification (8) | ACTIVE | Sources cited; last verified stamped; legislative status conflict noted |
 | Learning (9) | ACTIVE | Direction of travel: tightening at every revision — encoded as forward signal |
 | Integration (10) | ACTIVE | Nine tokens listed; calibration folder reference; compatibility connected |
 | Calibration (11) | ACTIVE | UNKNOWN modifier removal tied to specific legislative evidence |
-| Adaptation (12) | ACTIVE | Post-election tax trigger defined; BCB VASP deadline October 29 flagged |
+| Adaptation (12) | ACTIVE | Post-election tax trigger defined; BCB VASP deadline October 30 flagged |
 | Ethics (13) | ACTIVE | Framework factual; no avoidance guidance |
 | Transparency (14) | ACTIVE | UNRESOLVED and MONITOR sections clearly labelled; lapsed instrument flagged explicitly |
 | Execution (15) | EMERGING | Agent rules structured for direct pre-match application |

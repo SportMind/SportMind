@@ -69,12 +69,12 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 |---|---|---|---|---|
 | argentina.md | 2026-08-20 | 2026-09-19 | CURRENT | |
 | belgium.md | 2026-08-22 | 2026-09-21 | CURRENT | |
-| brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected |
+| brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | eu-mica.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA full application Dec 2024 · CASP wave ongoing · fan token utility token classification substance-over-form · BC11 Task 10 |
 | eu.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA fully in force Dec 2024 · Socios/Chiliz MFSA authorised · MiCA passporting operative · BC11 Task 10 |
 | france.md | 2026-08-21 | 2026-09-20 | CURRENT | |
 | germany.md | 2026-08-21 | 2026-09-20 | CURRENT | |
-| global-regulatory-landscape.md | 2026-09-14 | 2026-10-14 | CURRENT | Regime clusters updated · BC11 tasks integrated · MiCA full application · Russia statutory suppressor · UK FCA gateway · Equity Token category added · BC11 Task 12 |
+| global-regulatory-landscape.md | 2026-09-14 | 2026-10-14 | CURRENT | Regime clusters updated · BC11 tasks integrated · MiCA full application · Russia statutory suppressor · UK FCA gateway · Equity Token category added · BC11 Task 12 · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | VATP live Jun 2023 · retail access permitted · probable non-security VA · Socios/Chiliz licence UNCONFIRMED · BC11 Task 7 |
 | italy.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
 | ksa.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
@@ -174,6 +174,7 @@ HP-13 active status.
 | 2026-09-14 | New files added · regulatory + country-scan · Hong Kong | macro/regulatory/hong-kong.md · intelligence/country-scan/hong-kong.md | BC11 Task 7 |
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
 | 2026-09-21 | CLARITY Act status patched · NOT ENACTED (Senate cloture failed 15 Sep 2026) · row stays OVERDUE · primary-source confirmation pending | macro/regulatory/us-token-taxonomy.md | BC12 Task 5 |
+| 2026-09-21 | BCB VASP deadline corrected Oct 29 → Oct 30 · secondary sources only · primary-source (BCB Resolutions 519–521) confirmation pending | macro/regulatory/brazil.md · macro/regulatory/global-regulatory-landscape.md | BC12 Task 6 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
 | 2026-09-14 | Patch · regime clusters updated · BC11 tasks integrated · friction tiers · key themes · equity token | macro/regulatory/global-regulatory-landscape.md | BC11 Task 12 |

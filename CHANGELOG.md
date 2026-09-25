@@ -1,5 +1,17 @@
 # Changelog
 
+## [v4.6.77] — 2026-09-21
+
+### Fixed
+- macro/regulatory/brazil.md: BCB VASP authorisation deadline corrected
+  from October 29 to October 30 2026 across all 11 occurrences (including
+  RULE 8 heading and Mind Dimensions table). Secondary sources only;
+  BCB primary-source (Resolutions 519–521) confirmation pending.
+- macro/regulatory/global-regulatory-landscape.md: Single occurrence of
+  BCB deadline corrected October 29 → October 30 2026.
+- intelligence/staleness-register.md: Both rows updated with correction
+  note; REGISTER CHANGELOG row added.
+
 ## [v4.6.76] — 2026-09-21
 
 ### Changed

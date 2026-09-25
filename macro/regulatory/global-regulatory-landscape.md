@@ -115,7 +115,7 @@ TIER 2 — PARTIAL OR DEVELOPING FRAMEWORK (monitor, gate developing):
 
   Brazil
     Framework: Banco Central do Brasil (BCB) VASP authorisation regime ·
-    BCB authorisation deadline: October 29 2026
+    BCB authorisation deadline: October 30 2026
     Fan token classification: virtual assets, VASP licensing required
     Key mechanic: AML/CFT + capital requirements · progressive CGT
     15%–22.5% with R$35,000 monthly exemption (MP 1.303/2025 LAPSED —
