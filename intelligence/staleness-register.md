@@ -64,27 +64,28 @@ analysis."
 ## TIER A — macro/regulatory/ (30-day cycle)
 
 Last audit: 2026-09-09 · Source: Strategy Chat 28
+Status refresh (date-based, no content verification): 2026-09-21
 
 | File | Last Verified | Next Due | Status | Notes |
 |---|---|---|---|---|
 | argentina.md | 2026-09-21 | 2026-10-21 | NEEDS UPDATE | Re-verification attempted 2026-09-21 · primary sources unreachable · AFIP/ARCA rename (V1) · cepo status (V2) · CGT (V3) · CNV (V4) · Bienes Personales thresholds (V5) · $ARG token (V7) · club tokens (V8) all COULD NOT VERIFY · perishable Copa América wording corrected · Italy diaspora conflict flagged (26% vs 33%) |
-| belgium.md | 2026-08-22 | 2026-09-21 | CURRENT | |
+| belgium.md | 2026-08-22 | 2026-09-21 | DUE | due today · content re-verification queued |
 | brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | eu-mica.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA full application Dec 2024 · CASP wave ongoing · fan token utility token classification substance-over-form · BC11 Task 10 |
 | eu.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA fully in force Dec 2024 · Socios/Chiliz MFSA authorised · MiCA passporting operative · BC11 Task 10 |
-| france.md | 2026-08-21 | 2026-09-20 | CURRENT | |
-| germany.md | 2026-08-21 | 2026-09-20 | CURRENT | |
+| france.md | 2026-08-21 | 2026-09-20 | OVERDUE | 31 days overdue |
+| germany.md | 2026-08-21 | 2026-09-20 | OVERDUE | 31 days overdue |
 | global-regulatory-landscape.md | 2026-09-14 | 2026-10-14 | CURRENT | Regime clusters updated · BC11 tasks integrated · MiCA full application · Russia statutory suppressor · UK FCA gateway · Equity Token category added · BC11 Task 12 · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | VATP live Jun 2023 · retail access permitted · probable non-security VA · Socios/Chiliz licence UNCONFIRMED · BC11 Task 7 |
-| italy.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
-| ksa.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
-| netherlands.md | 2026-08-25 | 2026-09-24 | CURRENT | |
-| pakistan.md | 2026-08-24 | 2026-09-23 | CURRENT | HP-13 weekly monitoring |
+| italy.md | 2026-07-31 | 2026-08-30 | OVERDUE | 52 days overdue |
+| ksa.md | 2026-07-10 | 2026-08-09 | OVERDUE | 73 days overdue |
+| netherlands.md | 2026-08-25 | 2026-09-24 | DUE | due in 3 days · content re-verification queued |
+| pakistan.md | 2026-08-24 | 2026-09-23 | DUE | due in 2 days · HP-13 weekly monitoring |
 | russia.md | 2026-09-03 | 2026-10-03 | CURRENT | Patched BC9 · 282-FZ statutory suppressor |
 | singapore.md | 2026-09-14 | 2026-10-14 | CURRENT | PSA + DTSP live · probable DPT · Socios/Chiliz licence UNCONFIRMED · BC11 Task 6 |
 | south-africa-sars.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-9 ACTIVE · CARF live 2 Mar 2026 · ITR12 4522 enforcement active · VDP window active · $SAFA affected · BC11 Task 11 |
-| turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 39 days overdue |
-| uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 60 days overdue |
+| turkey.md | 2026-07-31 | 2026-08-30 | OVERDUE | 52 days overdue |
+| uae.md | 2026-07-10 | 2026-08-09 | OVERDUE | 73 days overdue |
 | uk-cryptoasset-regime.md | 2026-09-14 | 2026-10-14 | CURRENT | HP-10 ELEVATED · NCA freeze extended ~Jan 2027 · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 · Socios/Chiliz FCA auth UNCONFIRMED · BC11 Task 8 |
 | south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | VAUPA live · DABA pending · fan token classification OPEN · BC11 Task 5 |
 | us-token-taxonomy.md | 2026-07-10 | 2026-08-09 | OVERDUE | 73 days overdue · CLARITY status patched · primary-source confirmation of SEC/CFTC 17 Mar 2026 release pending |
@@ -94,34 +95,36 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 ## TIER A — intelligence/country-scan/ (30-day cycle)
 
 Last audit: 2026-09-09 · Source: Strategy Chat 28
+Status refresh (date-based, no content verification): 2026-09-21
 
 | File | Last Verified | Next Due | Status | Notes |
 |---|---|---|---|---|
-| _registers.md | 2026-08-25 | 2026-09-24 | CURRENT | |
-| argentina.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| _registers.md | 2026-08-25 | 2026-09-24 | DUE | due in 3 days |
+| argentina.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
 | brazil.md | 2026-09-10 | 2026-10-10 | CURRENT | CGT corrected · MP 1.303/2025 lapsed confirmed · one-liner added · BC10 Task C |
-| eu-bloc.md | 2026-08-19 | 2026-09-18 | CURRENT | |
-| france.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| germany.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| eu-bloc.md | 2026-08-19 | 2026-09-18 | OVERDUE | 33 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| france.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| germany.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
 | hong-kong.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 7 |
-| italy.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| japan.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| netherlands.md | 2026-08-26 | 2026-09-25 | CURRENT | |
-| portugal.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| italy.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| japan.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| netherlands.md | 2026-08-26 | 2026-09-25 | DUE | due in 4 days · content re-verification queued |
+| portugal.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
 | russia.md | 2026-09-10 | 2026-10-10 | CURRENT | 282-FZ statutory suppressor added · STRUCTURALLY EXCLUDED IN STATUTE · one-liner added · BC10 Task C |
 | singapore.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 6 |
-| south-africa.md | 2026-08-18 | 2026-09-17 | CURRENT | |
+| south-africa.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
 | south-korea.md | 2026-09-14 | 2026-10-14 | CURRENT | BC11 Task 5 |
-| spain.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| turkey.md | 2026-08-18 | 2026-09-17 | CURRENT | |
-| uk.md | 2026-08-18 | 2026-09-17 | CURRENT | HP-10 active · monitor |
-| usa.md | 2026-08-19 | 2026-09-18 | CURRENT | |
+| spain.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| turkey.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
+| uk.md | 2026-08-18 | 2026-09-17 | OVERDUE | 34 days overdue · HP-10 active · monitor · Country-scan cycle lapsed — re-verification not yet scheduled |
+| usa.md | 2026-08-19 | 2026-09-18 | OVERDUE | 33 days overdue · Country-scan cycle lapsed — re-verification not yet scheduled |
 
 ---
 
 ## TIER A — equity-token/ (30-day cycle)
 
 Last audit: 2026-09-14 · Source: BC11 Task 4
+Status refresh (date-based, no content verification): 2026-09-21
 
 | File | Last Verified | Next Due | Status | Notes |
 |---|---|---|---|---|
@@ -146,19 +149,44 @@ HP-13 active status.
 
 ---
 
-## OVERDUE SUMMARY (as of 2026-09-09)
+## OVERDUE SUMMARY (as of 2026-09-21 — date-based)
 
-5 files requiring attention (uk-cryptoasset-regime.md · eu.md · south-africa-sars.md · global-regulatory-landscape.md patched BC11 · all now CURRENT):
+Status recalculated from Next Due dates for all rows. No content verification performed or claimed.
 
-| File | Days Overdue | Priority | Reason |
+**OVERDUE (19 rows):**
+
+| File | Days overdue | Priority | Reason |
 |---|---|---|---|
-| ksa.md | 60 | 🔴 HIGH | GCC regulatory posture · BC12 task |
-| uae.md | 60 | 🔴 HIGH | VARA/ADGM framework · BC12 task |
-| us-token-taxonomy.md | 60 | 🔴 HIGH | CLARITY Act · SEC/CFTC March 2026 |
-| italy.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
-| turkey.md | 39 | 🟠 MEDIUM | Active UCL fan token jurisdiction |
+| macro/regulatory/ksa.md | 73 | 🔴 HIGH | PROHIBITIVE jurisdiction · BC12 task |
+| macro/regulatory/uae.md | 73 | 🔴 HIGH | VARA/ADGM framework · BC12 task |
+| macro/regulatory/us-token-taxonomy.md | 73 | 🔴 HIGH | CLARITY Act not enacted · SEC/CFTC Mar 2026 operative · primary-source confirmation pending |
+| macro/regulatory/italy.md | 52 | 🟠 MEDIUM | Active UCL fan token jurisdiction · BC12 task |
+| macro/regulatory/turkey.md | 52 | 🟠 MEDIUM | Active UCL fan token jurisdiction · BC12 task |
+| macro/regulatory/france.md | 31 | 🟠 MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| macro/regulatory/germany.md | 31 | 🟠 MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/argentina.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/eu-bloc.md | 33 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/france.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/germany.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/italy.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/japan.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/portugal.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/south-africa.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/spain.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/turkey.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
+| intelligence/country-scan/uk.md | 34 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled · HP-10 active |
+| intelligence/country-scan/usa.md | 33 | MEDIUM | Country-scan cycle lapsed — re-verification not yet scheduled |
 
----
+**DUE within 7 days (5 rows):**
+
+| File | Days until due | Note |
+|---|---|---|
+| macro/regulatory/belgium.md | 0 (due today) | content re-verification queued |
+| macro/regulatory/pakistan.md | 2 | HP-13 weekly monitoring active |
+| macro/regulatory/netherlands.md | 3 | content re-verification queued |
+| intelligence/country-scan/_registers.md | 3 | |
+| intelligence/country-scan/netherlands.md | 4 | content re-verification queued |
+
 
 ## REGISTER CHANGELOG
 
@@ -176,6 +204,7 @@ HP-13 active status.
 | 2026-09-21 | CLARITY Act status patched · NOT ENACTED (Senate cloture failed 15 Sep 2026) · row stays OVERDUE · primary-source confirmation pending | macro/regulatory/us-token-taxonomy.md | BC12 Task 5 |
 | 2026-09-21 | BCB VASP deadline corrected Oct 29 → Oct 30 · secondary sources only · primary-source (BCB Resolutions 519–521) confirmation pending | macro/regulatory/brazil.md · macro/regulatory/global-regulatory-landscape.md | BC12 Task 6 |
 | 2026-09-21 | argentina.md re-verification attempted · primary sources unreachable · Status → NEEDS UPDATE · perishable Copa América wording corrected · Italy diaspora conflict flagged | macro/regulatory/argentina.md | BC12 Task 8a |
+| 2026-09-21 | Status refresh · statuses recalculated from Next Due dates for all rows · 19 rows OVERDUE · 5 rows DUE · no content verification claimed | intelligence/staleness-register.md | BC12 Task 8 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
 | 2026-09-14 | Patch · regime clusters updated · BC11 tasks integrated · friction tiers · key themes · equity token | macro/regulatory/global-regulatory-landscape.md | BC11 Task 12 |

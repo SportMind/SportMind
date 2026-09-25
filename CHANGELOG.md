@@ -1,5 +1,33 @@
 # Changelog
 
+## [v4.6.79] — 2026-09-21
+
+### Changed
+- intelligence/staleness-register.md: Date-based status refresh for all
+  Tier A rows. Statuses recalculated from Next Due dates as of 2026-09-21.
+  No content verification performed or claimed.
+
+  Rows newly set to OVERDUE (14):
+    macro/regulatory/france.md (31 days) · germany.md (31 days)
+    intelligence/country-scan/argentina.md (34) · eu-bloc.md (33)
+    france.md (34) · germany.md (34) · italy.md (34) · japan.md (34)
+    portugal.md (34) · south-africa.md (34) · spain.md (34)
+    turkey.md (34) · uk.md (34) · usa.md (33)
+
+  Existing OVERDUE days figures updated (4):
+    macro/regulatory/italy.md 39→52 · turkey.md 39→52
+    macro/regulatory/ksa.md 60→73 · uae.md 60→73
+
+  Rows newly set to DUE (5):
+    macro/regulatory/belgium.md (due today) · pakistan.md (2 days)
+    netherlands.md (3 days) · country-scan/_registers.md (3 days)
+    country-scan/netherlands.md (4 days)
+
+  Belgium and Netherlands rows noted with "content re-verification queued".
+  OVERDUE SUMMARY section rebuilt. Status refresh line added to all three
+  Tier A section headers. REGISTER CHANGELOG row added.
+  Total final state: 19 rows OVERDUE · 5 rows DUE · 1 NEEDS UPDATE.
+
 ## [v4.6.78] — 2026-09-21
 
 ### Changed
