@@ -2,10 +2,17 @@
 SPORTMIND STALENESS NOTICE
 File:            macro/regulatory/argentina.md
 Tier:            A — 30-day verification cycle
-Last verified:   2026-08-20
-Next check due:  2026-09-19
-Status:          CURRENT
-Agent rule:      File verified within required cycle. Apply content with normal confidence. Verify key dates and rates against primary sources for live analysis.
+Last verified:   2026-09-21
+Next check due:  2026-10-21
+Status:          NEEDS UPDATE
+Agent rule:      Re-verification attempted 2026-09-21. Primary sources (bcra.gob.ar,
+                 cnv.gob.ar, afip.gob.ar/arca.gob.ar, conmebol.com, docs.chiliz.com,
+                 chiliscan.com) not reachable from build environment. V1 (AFIP/ARCA
+                 rename), V2 (cepo status), V3 (CGT), V4 (CNV), V5 (Bienes Personales
+                 thresholds), V7 ($ARG token), V8 (club tokens) all COULD NOT VERIFY.
+                 Treat all regulatory rates, legislative status, tax body names, and
+                 exchange control status as indicative only. Flag to operator for
+                 primary-source re-verification before applying to live analysis.
 ---
 
 # Argentina Regulatory Framework
@@ -225,6 +232,9 @@ ITALIAN DIASPORA:
   outside Argentina — estimated 3-5M Italians with Argentine ancestry.
   Apply Italian tax framework (Type C — approx. 26% flat CGT) to
   Italian-resident $ARG holders. MODERATE-HIGH friction applies.
+  ⚠️ CONFLICT FLAG: italy.md now states 33% CGT (raised from 26% per
+  Decreto Legislativo 199/2025, effective 2026-01-01). Rate here not
+  updated pending patch of italy.md.
 
 GERMAN DIASPORA:
   Apply Type A framework (0% CGT after 12-month holding period).
@@ -262,7 +272,7 @@ POST-WC2026 STATUS:
   · WC burn cycle CLOSED — no WC trophy premium applicable
 
 NEXT PTG WINDOWS:
-  · Copa América 2027 (USA) — approximately 11 months from library date
+  · Copa América 2027 (USA) — next PTG window for $ARG
     Confirm eligibility via burn-to-glory-framework.md before encoding
   · WC2030 qualifying: begins 2027
 

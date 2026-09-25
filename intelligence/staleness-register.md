@@ -67,7 +67,7 @@ Last audit: 2026-09-09 · Source: Strategy Chat 28
 
 | File | Last Verified | Next Due | Status | Notes |
 |---|---|---|---|---|
-| argentina.md | 2026-08-20 | 2026-09-19 | CURRENT | |
+| argentina.md | 2026-09-21 | 2026-10-21 | NEEDS UPDATE | Re-verification attempted 2026-09-21 · primary sources unreachable · AFIP/ARCA rename (V1) · cepo status (V2) · CGT (V3) · CNV (V4) · Bienes Personales thresholds (V5) · $ARG token (V7) · club tokens (V8) all COULD NOT VERIFY · perishable Copa América wording corrected · Italy diaspora conflict flagged (26% vs 33%) |
 | belgium.md | 2026-08-22 | 2026-09-21 | CURRENT | |
 | brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | eu-mica.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA full application Dec 2024 · CASP wave ongoing · fan token utility token classification substance-over-form · BC11 Task 10 |
@@ -175,6 +175,7 @@ HP-13 active status.
 | 2026-09-14 | Patch · HP-10 update · NCA freeze extended · FCA gateway 30 Sep 2026 · go-live 25 Oct 2027 confirmed | macro/regulatory/uk-cryptoasset-regime.md | BC11 Task 8 |
 | 2026-09-21 | CLARITY Act status patched · NOT ENACTED (Senate cloture failed 15 Sep 2026) · row stays OVERDUE · primary-source confirmation pending | macro/regulatory/us-token-taxonomy.md | BC12 Task 5 |
 | 2026-09-21 | BCB VASP deadline corrected Oct 29 → Oct 30 · secondary sources only · primary-source (BCB Resolutions 519–521) confirmation pending | macro/regulatory/brazil.md · macro/regulatory/global-regulatory-landscape.md | BC12 Task 6 |
+| 2026-09-21 | argentina.md re-verification attempted · primary sources unreachable · Status → NEEDS UPDATE · perishable Copa América wording corrected · Italy diaspora conflict flagged | macro/regulatory/argentina.md | BC12 Task 8a |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
 | 2026-09-14 | Patch · regime clusters updated · BC11 tasks integrated · friction tiers · key themes · equity token | macro/regulatory/global-regulatory-landscape.md | BC11 Task 12 |

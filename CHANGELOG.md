@@ -1,5 +1,25 @@
 # Changelog
 
+## [v4.6.78] — 2026-09-21
+
+### Changed
+- macro/regulatory/argentina.md: Re-verification attempted 2026-09-21.
+  All primary sources (bcra.gob.ar, cnv.gob.ar, afip.gob.ar/arca.gob.ar,
+  conmebol.com, docs.chiliz.com, chiliscan.com) unreachable from build
+  environment. Status set to NEEDS UPDATE. Minimal safe edits only:
+  (1) Staleness notice updated — Last verified 2026-09-21, Next due
+  2026-10-21, Status NEEDS UPDATE with full COULD NOT VERIFY list.
+  (2) Copa América 2027 perishable wording "approximately 11 months from
+  library date" replaced with enduring "next PTG window for $ARG".
+  (3) Italy diaspora conflict flagged — argentina.md states 26% CGT;
+  italy.md states 33% (raised per Decreto Legislativo 199/2025 effective
+  2026-01-01). Rate not changed pending italy.md patch.
+  V1 (AFIP/ARCA rename), V2 (cepo reform), V3 (CGT), V4 (CNV), V5
+  (Bienes Personales), V7 ($ARG token), V8 (club tokens) all
+  COULD NOT VERIFY — no content changes made for those items.
+- intelligence/staleness-register.md: argentina.md row updated
+  (NEEDS UPDATE). REGISTER CHANGELOG row added.
+
 ## [v4.6.77] — 2026-09-21
 
 ### Fixed
