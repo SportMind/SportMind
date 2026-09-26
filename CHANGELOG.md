@@ -1,5 +1,36 @@
 # Changelog
 
+## [v4.6.80] — 2026-09-25
+
+### Changed
+- macro/regulatory/argentina.md: Web verification pass (2026-09-25).
+  V1 (AFIP→ARCA rename): CONFIRMED · Decree 953/2024 (B.O. 25 Oct 2024) ·
+  ARCA is AFIP's legal successor — all AFIP references renamed to ARCA,
+  domain updated to arca.gob.ar, "(formerly AFIP, until Oct 2024)" note
+  added at first use, Regulatory Bodies block updated with Decree details.
+  V2 (cepo cambiario): CONFIRMED CHANGED · individuals (personas físicas)
+  unrestricted since April 2025; corporate (personas jurídicas) restriction
+  remains in force per BCRA (May 2026). Exchange Control Suppressor
+  descriptive text updated; modifier value unchanged pending Pele decision
+  (DECISIONS FOR PELE section added).
+  V3 (CGT): UNKNOWN stands · Dictamen AFIP 2/2022 general-crypto context
+  added (5%/15% under Ganancias cedular, Art. 98 LIG) — explicitly noted
+  as NOT fan-token-specific; UNKNOWN modifier not retired.
+  V4 (CNV PSAV): CONFIRMED · RG 1058/2025 (Ley 27.739) live 26 May 2025 ·
+  zero registered entities as of 2026-09-25 · added to Legal Status and
+  CNV Regulatory Bodies blocks.
+  V5 (Bienes Personales): CONFIRMED · FY2025 mínimo no imponible ARS
+  384,728,044.57 · casa-habitación ARS 1,346,548,155.99 · rates 0.50–1.00%
+  unified (Ley 27.743) · Open Item 4 filled.
+  V7 ($ARG token): not independently reconfirmed — treated as active.
+  V8 (club tokens): Independiente 2024 secondary source found · UNRESOLVED ·
+  club tokens section reworded from "none active" to UNRESOLVED.
+  Italy diaspora conflict (flagged BC12 Task 8a): resolved · rate updated
+  26%→33% per Law 199/2025 (eff. 1 Jan 2026) in diaspora section and Rule 5.
+  Status: NEEDS UPDATE → CURRENT. Last verified 2026-09-25.
+- intelligence/staleness-register.md: argentina.md row updated (CURRENT ·
+  2026-09-25 · 2026-10-25). REGISTER CHANGELOG row added.
+
 ## [v4.6.79] — 2026-09-21
 
 ### Changed

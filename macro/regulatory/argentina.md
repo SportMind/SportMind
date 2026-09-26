@@ -2,17 +2,20 @@
 SPORTMIND STALENESS NOTICE
 File:            macro/regulatory/argentina.md
 Tier:            A — 30-day verification cycle
-Last verified:   2026-09-21
-Next check due:  2026-10-21
-Status:          NEEDS UPDATE
-Agent rule:      Re-verification attempted 2026-09-21. Primary sources (bcra.gob.ar,
-                 cnv.gob.ar, afip.gob.ar/arca.gob.ar, conmebol.com, docs.chiliz.com,
-                 chiliscan.com) not reachable from build environment. V1 (AFIP/ARCA
-                 rename), V2 (cepo status), V3 (CGT), V4 (CNV), V5 (Bienes Personales
-                 thresholds), V7 ($ARG token), V8 (club tokens) all COULD NOT VERIFY.
-                 Treat all regulatory rates, legislative status, tax body names, and
-                 exchange control status as indicative only. Flag to operator for
-                 primary-source re-verification before applying to live analysis.
+Last verified:   2026-09-25
+Next check due:  2026-10-25
+Status:          CURRENT
+Agent rule:      Verified 2026-09-25 via web search/fetch. V1 (AFIP→ARCA rename,
+                 Decree 953/2024), V2 (cepo partial easing — individuals unrestricted
+                 since Apr 2025; corporate restriction stands), V4 (CNV PSAV regime
+                 RG 1058/2025), V5 (Bienes Personales FY2025 thresholds) confirmed.
+                 V3 (CGT): UNKNOWN modifier stands — Dictamen AFIP 2/2022 general-
+                 crypto context added; no fan-token-specific ruling found. V7 ($ARG
+                 token): not independently reconfirmed this pass — treated as active,
+                 no delisting indication found. V8 (club tokens): Independiente 2024
+                 secondary source noted — UNRESOLVED, not confirmed on docs.chiliz.com.
+                 Apply with normal confidence for confirmed items; treat V7 and V8 as
+                 pending until a docs.chiliz.com/chiliscan.com check is completed.
 ---
 
 # Argentina Regulatory Framework
@@ -66,12 +69,15 @@ BCRA — Banco Central de la República Argentina
 CNV — Comisión Nacional de Valores
   Authority: cnv.gob.ar
   Role: Securities regulator
-  Scope: No specific fan token classification or guidance issued
+  Scope: No specific fan token classification or guidance issued.
+    PSAV registration regime live since 26 May 2025 (RG 1058/2025,
+    Ley 27.739) — zero registered entities as of 2026-09-25.
   Scan cadence: MONTHLY
 
-AFIP — Administración Federal de Ingresos Públicos
-  Authority: afip.gob.ar
-  Role: Tax authority
+ARCA — Agencia de Recaudación y Control Aduanero (formerly AFIP, until Oct 2024)
+  Authority: arca.gob.ar (Decree 953/2024, B.O. 25 Oct 2024)
+  Role: Tax authority — ARCA is AFIP's legal successor (Art. 6, Decree 953/2024);
+    same CUIT, same obligations, new name and domain
   Scope: Crypto reporting framework ACTIVE since 2020
     CGT rate for fan tokens: NOT CONFIRMED (UNKNOWN modifier in force)
     Bienes Personales: applies to crypto holdings as financial assets
@@ -85,7 +91,7 @@ AFIP — Administración Federal de Ingresos Públicos
 ```
 CRYPTO LEGAL STATUS: Legal with restrictions
 
-· Digital assets subject to AFIP reporting framework (active 2020+)
+· Digital assets subject to ARCA reporting framework (active 2020+)
 · Exchange controls (cepo cambiario) via BCRA — primary structural
   barrier for CHZ acquisition via formal peso channels
 · Socios.com: ACCESSIBLE · no confirmed ban · moderate Argentine
@@ -93,6 +99,10 @@ CRYPTO LEGAL STATUS: Legal with restrictions
 · Kayen Finance: ACCESSIBLE in principle
 · MiCA: NOT APPLICABLE — Argentina is not an EU member state
 · CNV: no specific fan token classification issued at library date
+· CNV PSAV registration regime live since 26 May 2025 (RG 1058/2025,
+  Ley 27.739) — as of 2026-09-25: zero legal entities and zero
+  individuals registered on the CNV public PSAV register
+  (cnv.gov.ar/SitioWeb/ProveedoresServiciosActivosVirtuales/RegistrosPSAV)
 ```
 
 ---
@@ -102,10 +112,22 @@ CRYPTO LEGAL STATUS: Legal with restrictions
 ```
 CGT STATUS: UNKNOWN
   No confirmed enacted law on fan token CGT rate or disposal treatment.
-  AFIP crypto reporting: ACTIVE since 2020 — reporting obligation
+  ARCA crypto reporting: ACTIVE since 2020 — reporting obligation
     confirmed · rate and treatment for fan tokens NOT confirmed.
   UNKNOWN modifier: ACTIVE — do not apply any other jurisdiction's
     CGT framework to Argentine holders.
+
+  GENERAL CRYPTO CONTEXT (does NOT resolve UNKNOWN):
+  General crypto assets are taxed under Argentina's Impuesto a las
+  Ganancias cedular regime (Art. 98, Ley del Impuesto a las Ganancias)
+  at 5% (ARS-denominated placements) or 15% (all other assets) on
+  disposal gains for individuals. Dictamen AFIP 2/2022 classified
+  crypto-assets as a financial/digital asset (encuadrados en el inciso
+  j) del Art. 19, Ley 23.966) for Bienes Personales purposes.
+  IMPORTANT: Dictamen 2/2022 addresses crypto-assets GENERALLY and
+  does NOT specifically classify or name fan tokens — the UNKNOWN
+  modifier for fan-token-specific CGT treatment stands until a Tier 1
+  source from arca.gob.ar directly addresses fan tokens.
 
 BIENES PERSONALES (wealth tax):
   Applies to crypto holdings as financial assets.
@@ -114,7 +136,7 @@ BIENES PERSONALES (wealth tax):
   Additional demand suppressor layer above any CGT obligation.
   Apply as secondary suppressor for high-value Argentine holders.
   Retail holders below thresholds: negligible practical impact.
-  Monitor AFIP for any Bienes Personales reform affecting crypto.
+  Monitor ARCA for any Bienes Personales reform affecting crypto.
 
 PESO INFLATION:
   Severe — one of the highest sustained inflation rates globally.
@@ -124,10 +146,10 @@ PESO INFLATION:
   signals, CGT status, and exchange control friction.
 
 STANDING RULE:
-  Until this file is superseded by confirmed enacted law from AFIP:
+  Until this file is superseded by confirmed enacted law from ARCA:
   Apply UNKNOWN CGT modifier to ALL Argentine holder tax analysis.
   Do not retire the UNKNOWN modifier without Tier 1 source confirmation
-  from afip.gob.ar.
+  from arca.gob.ar.
 ```
 
 ---
@@ -166,21 +188,35 @@ AGENT RULE 3 — INFLATION HEDGE AMPLIFIER:
 MODIFIER: EXCHANGE CONTROL SUPPRESSOR
 SIGNAL DIRECTION: NEGATIVE (demand suppressor)
 
-BCRA exchange controls (cepo cambiario) restrict formal peso-to-foreign-
-currency conversion. CHZ is a foreign-currency-denominated asset.
-Argentine holders face structural friction in acquiring CHZ via formal
-channels — even when motivated to buy.
+BCRA exchange controls (cepo cambiario) — PARTIAL EASING IN FORCE:
+  Individuals (personas físicas): able to buy foreign currency freely
+    since April 2025. Individual-level friction materially reduced.
+  Companies (personas jurídicas): restrictions REMAIN in force as of
+    May 2026. BCRA president Santiago Bausili stated publicly (May 2026)
+    that full removal of corporate FX access "is not among our priorities."
+    General corporate purchase of USD for treasury/hoarding purposes
+    stays prohibited. Narrow easing for specific corporate debt-
+    refinancing cases only (BCRA Comunicaciones A 8417, A 8390).
+  Net position: cepo partially eased for individuals; corporate
+    restriction stands. Suppressor remains ACTIVE — see DECISIONS FOR
+    PELE below regarding whether to re-weight the modifier value.
+
+CHZ is a foreign-currency-denominated asset. Argentine holders face
+structural friction in acquiring CHZ via formal channels — reduced
+but not eliminated at the individual level as of April 2025.
 
 · Apply as a NEGATIVE demand signal operating independently of the
   inflation hedge amplifier
 · Do NOT net against the inflation hedge amplifier
 · Report alongside — never instead of — the inflation hedge amplifier
 · Active as long as cepo cambiario remains in force via BCRA
+· Individual friction REDUCED since April 2025 · corporate restriction
+  UNCHANGED · modifier value unchanged pending Pele decision
 
 MILEI GOVERNMENT REFORM DIRECTION:
-  The Milei government is crypto-friendly in direction. Any cepo
-  liberalisation or removal represents an IMMEDIATE demand amplifier
-  for CHZ and all fan tokens with Argentine holder bases.
+  The Milei government is crypto-friendly in direction. Individual FX
+  access has been restored (April 2025). Corporate cepo removal remains
+  a medium-term watchpoint — BCRA has not signalled near-term action.
 
 ESCALATION RULE:
   ESCALATE IMMEDIATELY if BCRA announces cepo reform, liberalisation,
@@ -208,7 +244,9 @@ holding cost.
 · Apply as a SECONDARY suppressor for high-value Argentine holders
 · Retail holders below thresholds: negligible practical impact —
   do not apply to low-value holder segments
-· Monitor AFIP for any Bienes Personales reform affecting crypto asset
+· FY2025 mínimo no imponible: ARS 384,728,044.57 (verified 2026-09-25;
+  updates annually — re-check arca.gob.ar each cycle)
+· Monitor ARCA for any Bienes Personales reform affecting crypto asset
   treatment — any reform could shift this modifier
 · Does not replace the UNKNOWN CGT modifier — operates in addition to it
 ```
@@ -230,11 +268,10 @@ RULE: When analysing $ARG aggregate demand, always decompose into:
 ITALIAN DIASPORA:
   Italy has the largest concentration of Argentine-heritage residents
   outside Argentina — estimated 3-5M Italians with Argentine ancestry.
-  Apply Italian tax framework (Type C — approx. 26% flat CGT) to
-  Italian-resident $ARG holders. MODERATE-HIGH friction applies.
-  ⚠️ CONFLICT FLAG: italy.md now states 33% CGT (raised from 26% per
-  Decreto Legislativo 199/2025, effective 2026-01-01). Rate here not
-  updated pending patch of italy.md.
+  Apply Italian tax framework (Type C — 33% flat CGT, per Law 199/2025
+  / 2026 Budget Law, effective 1 Jan 2026) to Italian-resident $ARG
+  holders. MODERATE-HIGH friction applies. Rate confirmed against
+  italy.md (2026-09-25); previously 26% — raised by Law 199/2025.
 
 GERMAN DIASPORA:
   Apply Type A framework (0% CGT after 12-month holding period).
@@ -292,11 +329,18 @@ FAN BASE:
 ## Domestic Club Token Status
 
 ```
-STATUS: No Argentine club tokens currently active on Chiliz Chain
+STATUS: UNRESOLVED — no Argentine club token confirmed active on Chiliz
+Chain as of library date. One secondary source (2024-dated) states
+Club Atlético Independiente launched a fan token via Socios.com; NOT
+independently confirmed as currently active on docs.chiliz.com as of
+2026-09-25. Do not assume either way — verify directly against the
+docs.chiliz.com fan token list before producing any Argentine club-token
+signal.
 
 MONITOR TARGETS:
   · River Plate (Club Atlético River Plate)
   · Boca Juniors (Club Atlético Boca Juniors)
+  · Independiente (Club Atlético Independiente) — UNRESOLVED · see above
 
 ESCALATION RULE:
   Any confirmed Chiliz Chain partnership with an Argentine Primera
@@ -328,17 +372,19 @@ CEPO CAMBIARIO REFORM (BCRA):
   WEEKLY BCRA scan watching specifically for this signal.
   ESCALATE IMMEDIATELY — do not wait for next briefing.
 
-AFIP TAX FRAMEWORK CLARIFICATION:
-  Any AFIP confirmation of an enacted fan token CGT rate or disposal
+ARCA TAX FRAMEWORK CLARIFICATION:
+  Any ARCA confirmation of an enacted fan token CGT rate or disposal
   treatment → immediate opportunity to retire UNKNOWN modifier and
   encode the actual confirmed rate into this file and into
   fan-token/holder-tax-framework.md.
-  Bring to Build Chat immediately with Tier 1 source link (afip.gob.ar).
+  Bring to Build Chat immediately with Tier 1 source link (arca.gob.ar).
+  Note: ARCA is the legal successor to AFIP (Decree 953/2024) — monitor
+  arca.gob.ar, not afip.gob.ar, for all future guidance.
 
 DIRECTIONAL NOTE:
   Milei government deregulation trajectory favours crypto normalisation.
   Do not extrapolate this into a confirmed framework change — only
-  enacted legislation or confirmed AFIP/BCRA guidance triggers a
+  enacted legislation or confirmed ARCA/BCRA guidance triggers a
   modifier update. Direction noted; confirmed change required to act.
 ```
 
@@ -356,16 +402,22 @@ OPEN ITEMS:
 2. Copa América 2027 PTG eligibility: confirm with
    burn-to-glory-framework.md before encoding any pre-event signal.
 
-3. UNKNOWN CGT modifier: retire ONLY when AFIP confirms enacted
-   fan token tax rate via Tier 1 source (afip.gob.ar). No other
+3. UNKNOWN CGT modifier: retire ONLY when ARCA confirms enacted
+   fan token tax rate via Tier 1 source (arca.gob.ar). No other
    source qualifies. Do not retire on media reports alone.
 
-4. Bienes Personales threshold: confirm current exemption thresholds
-   before applying to specific holder value segments.
+4. Bienes Personales thresholds (fiscal year 2025, declared mid-2026):
+   Mínimo no imponible: ARS 384,728,044.57.
+   Casa-habitación exemption: up to ARS 1,346,548,155.99.
+   Progressive rates: 0.50%–1.00% (unified scale, Ley 27.743 — no
+   longer split between domestic/foreign assets).
+   Verified 2026-09-25. Thresholds update annually with inflation —
+   re-verify against arca.gob.ar at each cycle before applying to
+   specific holder value segments.
 
 ESCALATE IMMEDIATELY:
   · BCRA cepo cambiario reform, liberalisation, or removal
-  · AFIP enacted fan token CGT rate confirmation
+  · ARCA enacted fan token CGT rate confirmation
   · River Plate Chiliz partnership confirmation
   · Boca Juniors Chiliz partnership confirmation
   · Any Primera División club Chiliz partnership
@@ -384,7 +436,7 @@ RULE 1 — DUAL-SIGNAL: NEVER NET OR COLLAPSE:
 
 RULE 2 — UNKNOWN CGT:
   Apply UNKNOWN modifier to all Argentine holder tax analysis until
-  AFIP confirms enacted rate via Tier 1 source (afip.gob.ar).
+  ARCA confirms enacted rate via Tier 1 source (arca.gob.ar).
   Do not apply any other jurisdiction's CGT framework to Argentine holders.
 
 RULE 3 — INFLATION HEDGE AMPLIFIER:
@@ -400,9 +452,10 @@ RULE 4 — CEPO ESCALATION:
 
 RULE 5 — $ARG COMPOSITE MODIFIER:
   Decompose $ARG demand into domestic Argentine (UNKNOWN) + Italian
-  diaspora (Type C) + German diaspora (Type A) + Spanish diaspora
-  (Type D). Never apply single-jurisdiction modifier to $ARG aggregate.
-  Apply each diaspora segment's resident jurisdiction modifier.
+  diaspora (Type C — 33% CGT, eff. 1 Jan 2026) + German diaspora
+  (Type A) + Spanish diaspora (Type D). Never apply single-jurisdiction
+  modifier to $ARG aggregate. Apply each diaspora segment's resident
+  jurisdiction modifier.
 
 RULE 6 — BOCA/RIVER ESCALATION:
   Any Chiliz partnership with River Plate or Boca Juniors = immediate
@@ -411,6 +464,28 @@ RULE 6 — BOCA/RIVER ESCALATION:
 ```
 
 ---
+
+## DECISIONS FOR PELE
+
+```
+EXCHANGE CONTROL SUPPRESSOR — RE-WEIGHTING DECISION:
+  Individuals (personas físicas) have been able to buy foreign currency
+  freely since April 2025. The individual-level friction this modifier
+  was designed to capture has materially reduced. The corporate
+  restriction remains fully in force.
+
+  DECISION REQUIRED: Should the Exchange Control Suppressor be:
+    (A) Retained at current weight — corporate restriction stands,
+        modifier remains fully applicable to institutional signals
+    (B) Split into two sub-signals — individual (reduced friction)
+        and corporate (unchanged) — reflecting the partial easing
+    (C) Re-weighted for individual holder analysis only (e.g. reduced
+        suppressor multiplier for retail demand signals)
+
+  This is a parameter/weighting decision, not a content edit.
+  The modifier itself is NOT retired — cepo is not fully removed.
+  Bring to Strategy Chat before editing modifier values.
+```
 
 ## MIND DIMENSIONS
 
@@ -421,13 +496,13 @@ RULE 6 — BOCA/RIVER ESCALATION:
 | Context (3) | ACTIVE | Argentine macro context (peso inflation, exchange controls, Milei direction) |
 | Memory (4) | ACTIVE | UNKNOWN CGT modifier, dual-signal rules, diaspora stacks, escalation conditions |
 | Judgment (5) | ACTIVE | Composite modifier weighting for $ARG multi-market demand decomposition |
-| Attention (6) | ACTIVE | BCRA weekly cepo scan · AFIP enacted rate trigger · Boca/River escalation |
+| Attention (6) | ACTIVE | BCRA weekly cepo scan · ARCA enacted rate trigger · Boca/River escalation |
 | Communication (7) | ACTIVE | Dual-signal notation — both signals reported separately in every output |
 | Verification (8) | ACTIVE | PTG burn count verification via chiliscan.com before calibration use |
-| Learning (9) | ACTIVE | UNKNOWN modifier retires when AFIP confirms — framework updates immediately |
+| Learning (9) | ACTIVE | UNKNOWN modifier retires when ARCA confirms — framework updates immediately |
 | Integration (10) | ACTIVE | Cross-layer: inflation hedge + cepo suppressor + CDI + macro regime = composite |
 | Calibration (11) | ACTIVE | Modifier values to calibrate via verified calibration records for $ARG |
-| Adaptation (12) | ACTIVE | Milei reform trajectory — cepo removal and AFIP clarification both trigger updates |
+| Adaptation (12) | ACTIVE | Milei reform trajectory — cepo removal and ARCA clarification both trigger updates |
 | Ethics (13) | ACTIVE | No tax advice framing — demand modifier framework only |
 | Transparency (14) | ACTIVE | UNKNOWN modifier explicitly stated · open items clearly flagged |
 | Execution (15) | ACTIVE | $ARG composite decomposition executed per Rule 5 in every analysis |

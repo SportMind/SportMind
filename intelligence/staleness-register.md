@@ -68,7 +68,7 @@ Status refresh (date-based, no content verification): 2026-09-21
 
 | File | Last Verified | Next Due | Status | Notes |
 |---|---|---|---|---|
-| argentina.md | 2026-09-21 | 2026-10-21 | NEEDS UPDATE | Re-verification attempted 2026-09-21 · primary sources unreachable · AFIP/ARCA rename (V1) · cepo status (V2) · CGT (V3) · CNV (V4) · Bienes Personales thresholds (V5) · $ARG token (V7) · club tokens (V8) all COULD NOT VERIFY · perishable Copa América wording corrected · Italy diaspora conflict flagged (26% vs 33%) |
+| argentina.md | 2026-09-25 | 2026-10-25 | CURRENT | Verified 2026-09-25 · V1 (AFIP→ARCA, Decree 953/2024) · V2 (cepo partial easing, individuals free Apr 2025, corporate restricted) · V4 (CNV PSAV RG 1058/2025) · V5 (Bienes Personales FY2025 thresholds) CONFIRMED · V3 (CGT) UNKNOWN stands · V7 ($ARG token) not reconfirmed · V8 (Independiente) UNRESOLVED · Italy diaspora rate corrected 26%→33% |
 | belgium.md | 2026-08-22 | 2026-09-21 | DUE | due today · content re-verification queued |
 | brazil.md | 2026-09-07 | 2026-10-07 | CURRENT | Patched BC9 · MP 1.303/2025 lapsed · CGT corrected · BCB deadline corrected Oct 29 → Oct 30 per secondary sources · primary-source confirmation pending |
 | eu-mica.md | 2026-09-14 | 2026-10-14 | CURRENT | MiCA full application Dec 2024 · CASP wave ongoing · fan token utility token classification substance-over-form · BC11 Task 10 |
@@ -204,6 +204,7 @@ Status recalculated from Next Due dates for all rows. No content verification pe
 | 2026-09-21 | CLARITY Act status patched · NOT ENACTED (Senate cloture failed 15 Sep 2026) · row stays OVERDUE · primary-source confirmation pending | macro/regulatory/us-token-taxonomy.md | BC12 Task 5 |
 | 2026-09-21 | BCB VASP deadline corrected Oct 29 → Oct 30 · secondary sources only · primary-source (BCB Resolutions 519–521) confirmation pending | macro/regulatory/brazil.md · macro/regulatory/global-regulatory-landscape.md | BC12 Task 6 |
 | 2026-09-21 | argentina.md re-verification attempted · primary sources unreachable · Status → NEEDS UPDATE · perishable Copa América wording corrected · Italy diaspora conflict flagged | macro/regulatory/argentina.md | BC12 Task 8a |
+| 2026-09-25 | argentina.md web verification · V1/V2/V4/V5 confirmed · ARCA rename · cepo partial easing · CNV PSAV · Bienes Personales thresholds · Italy diaspora 26%→33% · V3 UNKNOWN stands · V7 not reconfirmed · V8 UNRESOLVED · Status → CURRENT | macro/regulatory/argentina.md | BC12 Argentina Follow-Up |
 | 2026-09-21 | Status refresh · statuses recalculated from Next Due dates for all rows · 19 rows OVERDUE · 5 rows DUE · no content verification claimed | intelligence/staleness-register.md | BC12 Task 8 |
 | 2026-09-14 | Patch · eu.md + eu-mica.md · MiCA full application · Socios/Chiliz MFSA authorisation noted | macro/regulatory/eu.md · macro/regulatory/eu-mica.md | BC11 Task 10 |
 | 2026-09-14 | Patch · HP-9 update · CARF confirmed first African · ITR12 4522 active · VDP window active | macro/regulatory/south-africa-sars.md | BC11 Task 11 |
