@@ -1,5 +1,40 @@
 # Changelog
 
+## [v4.6.82] — 2026-09-28
+
+### Changed
+- macro/regulatory/ksa.md: Staleness refresh (73 days overdue → CURRENT).
+  No material change to SAMA or CMA status confirmed via Tier 2 legal
+  commentary re-verification (PwC Legal Middle East, Freshfields, GT Law,
+  Eyad Reda Law Firm, Football Legal) — both remain DEVELOPING, no
+  comprehensive framework or fan-token classification guidance published.
+  No Chiliz/Socios SPL club partnership confirmed. One correction applied:
+  the file's prior watch-signal framing ("first foreign private investment
+  in an SPL club" as a pending confirmation trigger) was factually
+  superseded — that event already occurred (Al-Kholood FC, Harburg Group,
+  July 2025) and predates M/121 (effective June 2026); the file now
+  distinguishes pre-M/121 privatisation-project transactions (Al-Kholood
+  2025, PIF Al-Hilal/Al-Ittihad/Al-Ahli/Al-Nassr restructuring 2026) from
+  M/121-era activity, and revises the watch signal accordingly. Also added:
+  M/121's Implementing Regulations are confirmed not yet issued (Tier 2,
+  Freshfields Jul 2026) — noted as a new pending-detail layer throughout.
+  Added Mind Dimensions Attention (6), Execution (15), and Collaboration
+  (16) to bring file to the current 16-dimension standard — the file's
+  frontmatter claimed 14 mapped but only 13 were actually present;
+  Attention and Collaboration were the two named in the task's TO-DO
+  correction, Execution was a third gap found during this patch. Footer
+  version stamp corrected from legacy v3.97.92 format to v4.6.82.
+  Last verified 2026-09-28, next check due 2026-10-28.
+
+### Added
+- intelligence/country-scan/ksa.md: NEW. KSA country-intelligence
+  companion file (Tier A). Covers general country context, KSA-specific
+  source tier classification (spl.com.sa, saff.com.sa, GSA.gov.sa,
+  SAMA.gov.sa, CMA.org.sa as Tier 1; sports-business and legal-commentary
+  press as Tier 2), and SPL commercial-activity monitoring context.
+  Defers all regulatory-framework content to macro/regulatory/ksa.md.
+  All 16 Mind Dimensions mapped.
+
 ## [v4.6.81] — 2026-09-28
 
 ### Changed

@@ -6,17 +6,22 @@ description: >
   Covers centralised governance structure, private and foreign investment permissions,
   licensing requirements, athlete valuation modifiers, fan token viability under the
   new framework, Chiliz/SPL interaction signals, and agent verification checklist.
-  Enduring statutory framework — not expiring data. All 14 Mind dimensions mapped.
+  Enduring statutory framework — not expiring data. All 16 Mind dimensions mapped.
 ---
 
 ---
 SPORTMIND STALENESS NOTICE
 File:            macro/regulatory/ksa.md
 Tier:            A — 30-day verification cycle
-Last verified:   2026-07-10
-Next check due:  2026-08-09
-Status:          OVERDUE
-Agent rule:      This file has not been verified within its required 30-day cycle. Treat all regulatory rates, legislative status, and key dates as indicative only. Cross-reference against primary sources before applying to live analysis. Flag to operator for review.
+Last verified:   2026-09-28
+Next check due:  2026-10-28
+Status:          CURRENT
+Agent rule:      This file was re-verified against current primary and Tier 2 sources
+on 2026-09-28. No material change to SAMA or CMA status, and no Chiliz/Socios SPL
+partnership has been announced. One correction applied: the file's prior "watch
+signal" framing (first foreign private investment in an SPL club) has been updated —
+this already occurred, and predates M/121 (see Framework overview and Athlete
+valuation modifiers sections below).
 ---
 
 # Saudi Arabia — Unified Sports Law 2026
@@ -27,6 +32,10 @@ Agent rule:      This file has not been verified within its required 30-day cycl
 MODIFIER: UNIFIED_SPORTS_LAW_2026
 STATUS:   ACTIVE
 EFFECTIVE: 2026-06-10
+IMPLEMENTING REGULATIONS: NOT YET ISSUED (confirmed still pending as of this
+  verification pass — the Sports Minister is due to issue these; no publication
+  date has been confirmed. Operational detail (foreign investment limits, M&A
+  approval requirements for sports bodies) remains dependent on their issuance.)
 COMMERCIAL INVESTMENT: ENABLED (private and foreign)
 FAN TOKEN ENVIRONMENT: TRANSITIONING (monitor for Chiliz/SPL signals)
 CYCLE: 2026-2030 governance cycle
@@ -53,6 +62,9 @@ WHAT M/121 DOES NOT DO:
   SAMA and CMA retain financial and securities regulation authority.
   The entity framework enables commercial partnerships —
   but each digital asset activity still requires SAMA/CMA authorisation.
+  M/121 does not itself set foreign investment limits or M&A approval
+  thresholds for sports bodies — these remain dependent on the Implementing
+  Regulations, not yet issued as of this verification pass (2026-09-28).
 ```
 
 ---
@@ -111,7 +123,10 @@ KEY CONSTRAINT:
   Sector-specific restrictions may apply (e.g. majority ownership limits).
   PIF-affiliated clubs have a parallel sovereign wealth fund ownership layer.
   Verify current Ministry of Sport foreign ownership guidelines before
-  reasoning about specific investment structures.
+  reasoning about specific investment structures. Note: specific foreign
+  investment limits and M&A approval thresholds are expected to be set by
+  the Implementing Regulations, not yet issued as of 2026-09-28 — treat any
+  specific numeric limit as unconfirmed until then.
 ```
 
 ---
@@ -160,10 +175,25 @@ DIRECT MODIFIER EFFECTS FROM M/121:
     REGULATORY_CLARITY: HIGH → apply standard athlete modifier stack without KSA
     uncertainty discount.
 
-  WATCH SIGNAL:
-    First foreign private investment in an SPL club under M/121 framework
-    confirms the framework is operational at club level.
-    Until then: M/121 is enacted but operational uptake is still being verified.
+  WATCH SIGNAL STATUS — UPDATED 2026-09-28:
+    This file previously treated "first foreign private investment in an SPL
+    club" as a pending signal that would confirm the framework is operational
+    at club level. That signal has already occurred, and PREDATES M/121: US
+    firm Harburg Group acquired Al-Kholood FC in July 2025, under the earlier
+    Sports Clubs Investment and Privatization Project, not under M/121 (which
+    took effect 10 June 2026). Do NOT cite the Al-Kholood sale as evidence of
+    M/121's operational uptake — it demonstrates the pre-existing privatisation
+    programme, not the new statutory framework.
+    Separately, in April 2026 PIF sold a 70% stake in Al-Hilal to Kingdom
+    Holding Company (a Saudi firm — domestic, not foreign), and in August 2026
+    PIF transferred the remaining 25% non-profit-foundation stakes in
+    Al-Ittihad, Al-Ahli, Al-Hilal, and Al-Nassr to itself, dissolving their
+    non-profit foundation boards. These are domestic ownership restructurings,
+    not evidence of foreign investment under M/121 either.
+    REVISED WATCH SIGNAL: no confirmed instance yet exists of foreign private
+    investment in an SPL club specifically executed under the M/121 framework
+    (as opposed to the pre-M/121 privatisation project). Continue to monitor
+    for this distinct signal.
 ```
 
 ---
@@ -180,10 +210,16 @@ WHAT M/121 ENABLES:
   Post-M/121: commercial agreement can be signed, ownership rights are clear.
 
 WHAT M/121 DOES NOT RESOLVE:
-  SAMA digital asset payment regulation: still developing (no comprehensive crypto law).
-  CMA token classification: utility vs security determination for fan tokens unresolved.
+  SAMA digital asset payment regulation: still developing (no comprehensive crypto law
+    published as of this verification pass, 2026-09-28 — SAMA has a Virtual Assets and
+    CBDC Program lead in place but no published comprehensive framework).
+  CMA token classification: utility vs security determination for fan tokens unresolved
+    (no CMA fan-token-specific guidance found as of this verification pass).
   The three-layer authorisation requirement creates complexity.
   Full fan token launch pathway in KSA is NOT as clear as UAE (VARA) currently.
+  M/121's own Implementing Regulations are also not yet issued (see Framework
+    overview) — this adds a fourth layer of pending operational detail beyond
+    the three-layer SAMA/CMA/entity authorisation stack.
 
 REGULATORY COMPARISON:
   UAE (VARA):  HIGH clarity — full framework, classification confirmed, VASP licensing clear.
@@ -205,7 +241,9 @@ FAN TOKEN ENVIRONMENT MODIFIER:
 
 ```
 CURRENT STATUS:
-  No confirmed Chiliz/Socios partnership with an SPL club as of June 2026.
+  No confirmed Chiliz/Socios partnership with an SPL club as of this
+  verification pass (2026-09-28) — re-checked, no material change since the
+  file's prior "June 2026" status line.
   M/121 removes the legal entity barrier that previously blocked such partnerships.
 
 WHY THIS MATTERS FOR SPORTMIND:
@@ -248,6 +286,9 @@ BEFORE REASONING ABOUT ANY KSA SPORTS COMMERCIAL ACTIVITY:
     □ Is the investment/partnership structure specifically permitted under M/121?
     □ Has Ministry of Sport foreign ownership guidance been checked?
     □ Is PIF involvement present? (affects governance layer)
+    □ Is the transaction genuinely under M/121, or under the earlier (pre-M/121)
+      Sports Clubs Investment and Privatization Project? Do not conflate the two
+      — see Athlete valuation modifiers, Watch Signal Status, above.
 
   DIGITAL ASSET / FAN TOKEN SPECIFIC:
     □ Has SAMA authorisation been obtained for any payment/token flows?
@@ -260,6 +301,9 @@ BEFORE REASONING ABOUT ANY KSA SPORTS COMMERCIAL ACTIVITY:
     DO NOT assume SPL clubs can launch fan tokens without SAMA/CMA layer.
     DO NOT apply UAE VARA framework reasoning to KSA — different regulators.
     DO NOT apply KSA reasoning to Bahrain, Qatar, or other Gulf states.
+    DO NOT cite the Al-Kholood (2025), Al-Hilal (2026), or PIF non-profit-
+      foundation stake transfers (2026) as M/121 operational-uptake evidence —
+      none were executed under M/121 (see Watch Signal Status above).
 ```
 
 ---
@@ -268,31 +312,35 @@ BEFORE REASONING ABOUT ANY KSA SPORTS COMMERCIAL ACTIVITY:
 
 **Intelligence:** Royal Decree M/121 structural framework, governance layer (Ministry of Sport / GSA / SAMA / CMA), private and foreign investment enablement, three-layer authorisation requirement (M/121 + SAMA + CMA), fan token viability modifiers, Chiliz/SPL partnership signal hierarchy.
 
-**Reasoning:** Fan token environment assessed as TRANSITIONING (not HIGH) because entity framework (M/121) is enacted but financial regulation layer (SAMA) and token classification (CMA) remain developing. Athlete valuation modifier lifted (uncertainty discount removed) for entity-level commercial reasoning. Commercial_rights_clarity positive signal (+0.05 APS commercial tier) applies on M/121 confirmation alone.
+**Reasoning:** Fan token environment assessed as TRANSITIONING (not HIGH) because entity framework (M/121) is enacted but financial regulation layer (SAMA) and token classification (CMA) remain developing, and M/121's own Implementing Regulations are not yet issued. Athlete valuation modifier lifted (uncertainty discount removed) for entity-level commercial reasoning. Commercial_rights_clarity positive signal (+0.05 APS commercial tier) applies on M/121 confirmation alone.
 
-**Context:** KSA operates a three-layer authorisation model (entity + payment + securities) that differs from UAE single-regulator (VARA) model. PIF ownership of top SPL clubs creates a parallel sovereign wealth fund governance layer that co-exists with M/121 commercial rights structure. Vision 2030 political context makes KSA sports commercialisation a priority signal — framework risk is LOW (government-supported).
+**Context:** KSA operates a three-layer authorisation model (entity + payment + securities) that differs from UAE single-regulator (VARA) model. PIF ownership of top SPL clubs creates a parallel sovereign wealth fund governance layer that co-exists with M/121 commercial rights structure. Vision 2030 political context makes KSA sports commercialisation a priority signal — framework risk is LOW (government-supported). The pre-M/121 Sports Clubs Investment and Privatization Project (Al-Kholood 2025, PIF club restructurings 2026) is a separate, earlier commercial context and must not be read as M/121 activity.
 
 **Memory:** M/121 enacted June 10 2026. Pre-M/121 state (state-controlled, no entity status) is the historical baseline. First SPL fan token partnership announcement will be a first-ever signal — no prior calibration records exist. Treat as NOVEL_MARKET_ENTRY when it occurs.
 
-**Judgment:** M/121 enacted does NOT mean fan token launch is imminent or approved. SAMA digital asset framework and CMA classification are genuine pending requirements. Agents must not reason about SPL fan token launches as confirmed until all three layers (M/121 + SAMA + CMA) are resolved. TRANSITIONING modifier reflects this judgment — not HIGH and not LOW.
+**Judgment:** M/121 enacted does NOT mean fan token launch is imminent or approved. SAMA digital asset framework and CMA classification are genuine pending requirements, as are M/121's own Implementing Regulations. Agents must not reason about SPL fan token launches as confirmed until all three layers (M/121 + SAMA + CMA) are resolved. TRANSITIONING modifier reflects this judgment — not HIGH and not LOW.
 
-**Attention:** Three monitoring signals require active attention: (1) SAMA digital asset framework publication, (2) first SPL club Chiliz/Socios partnership announcement, (3) CMA fan token classification guidance. When all three confirmed, upgrade KSA fan token environment to HIGH regulatory clarity.
+**Attention (6):** Three monitoring signals require active attention: (1) SAMA digital asset framework publication, (2) first SPL club Chiliz/Socios partnership announcement, (3) CMA fan token classification guidance. A fourth item now also warrants attention: (4) issuance of M/121's Implementing Regulations, which will set foreign investment limits and M&A approval thresholds still currently undefined. When all three original signals are confirmed, upgrade KSA fan token environment to HIGH regulatory clarity. Each of these four escalates to Strategy Chat on confirmation.
 
 **Learning:** No calibration records exist for KSA fan token performance — this is a pre-market framework. When first SPL fan token launches, apply NOVEL_MARKET_ENTRY confidence weight (×0.85 on initial signals) until 10+ calibration records establish baseline. Saudi fanbase behaviour and token adoption patterns require dedicated calibration.
 
-**Integration:** M/121 integrates with: macro/macro-regulatory-sportfi.md (full Middle East regulatory context), macro/regulatory/uae.md (comparative UAE framework), athlete/football/ KSA club files when created, fan-token/registry (when SPL tokens confirmed), macro/macro-geopolitical.md (Vision 2030 context). Do not apply in isolation — always cross-reference SAMA/CMA layer status.
+**Integration:** M/121 integrates with: macro/macro-regulatory-sportfi.md (full Middle East regulatory context), macro/regulatory/uae.md (comparative UAE framework), athlete/football/ KSA club files when created, fan-token/registry (when SPL tokens confirmed), macro/macro-geopolitical.md (Vision 2030 context), intelligence/country-scan/ksa.md (country-intelligence companion file — general KSA context and source tiers; this file remains the regulatory-framework authority). Do not apply in isolation — always cross-reference SAMA/CMA layer status.
 
-**Communication:** For agents communicating KSA regulatory status: lead with "TRANSITIONING — entity framework enacted (M/121), financial regulation layer developing." Do not present as HIGH clarity. Do not present as LOW clarity. Distinguish clearly from UAE VARA framework in any comparative analysis.
+**Communication:** For agents communicating KSA regulatory status: lead with "TRANSITIONING — entity framework enacted (M/121), financial regulation layer developing, Implementing Regulations not yet issued." Do not present as HIGH clarity. Do not present as LOW clarity. Distinguish clearly from UAE VARA framework in any comparative analysis. Do not cite pre-M/121 club ownership transactions as M/121 operational evidence.
 
 **Calibration:** APS commercial tier modifier (+0.05) for KSA-based top-division athletes applies on M/121 confirmation. Uncertainty discount lift applies to entity-level commercial reasoning. FAN_TOKEN_ENVIRONMENT modifier should be reviewed at each of the three monitoring signals and upgraded when all three confirmed. Current calibration: TRANSITIONING.
 
-**Adaptation:** When SAMA publishes comprehensive digital asset framework: update SAMA_STATUS from DEVELOPING to ENACTED. When first SPL fan token confirmed: create fan-token/registry entry and set FTP eligibility. When CMA issues fan token classification: update classification status. This file is the update anchor for KSA regulatory changes.
+**Adaptation:** When SAMA publishes comprehensive digital asset framework: update SAMA_STATUS from DEVELOPING to ENACTED. When first SPL fan token confirmed: create fan-token/registry entry and set FTP eligibility. When CMA issues fan token classification: update classification status. When M/121 Implementing Regulations are issued: update foreign investment limit and M&A threshold fields from UNDEFINED to their confirmed values. This file is the update anchor for KSA regulatory changes.
 
-**Verification:** Before applying M/121 framework: verify via spl.com.sa (official SPL commercial entity registry) and GSA.gov.sa (club licence confirmations). SAMA.gov.sa for payment regulation updates. CMA.org.sa for securities classification. Do not apply M/121 commercial reasoning to a club without verifying its GSA licence status.
+**Execution (15):** No ENTER/HOLD/MONITOR/RETIRE signal is applicable to this file directly — it is a regulatory-framework reference, not a signal-bearing asset file. The APS commercial-tier modifier (+0.05) and the REGULATORY_CLARITY uncertainty-discount lift are the only executable adjustments this file authorises, and both apply only at athlete/club valuation level, never as a standalone fan-token trading signal (no KSA fan token exists to trade).
+
+**Verification:** Before applying M/121 framework: verify via spl.com.sa (official SPL commercial entity registry) and GSA.gov.sa (club licence confirmations). SAMA.gov.sa for payment regulation updates. CMA.org.sa for securities classification. Do not apply M/121 commercial reasoning to a club without verifying its GSA licence status. Re-verified 2026-09-28 via Tier 2 legal-commentary corroboration (PwC Legal Middle East, Freshfields, GT Law, Football Legal) for M/121 status and Implementing Regulations gap; primary SAMA/CMA sites checked for framework publications, none found beyond what was already on file.
 
 **Ethics:** Foreign investment enablement under M/121 does not eliminate human rights considerations associated with KSA sports activity. SportMind documents the regulatory framework neutrally. Agents reasoning about KSA sports commercial activity should note that human rights context is a separate signal layer — see macro/macro-geopolitical.md for geopolitical risk context. SportMind does not make ethical judgements on jurisdictional investment decisions — it documents the reasoning framework.
 
-**Transparency:** Every KSA commercial signal output must state the current modifier stack: M/121 ENACTED + SAMA status (DEVELOPING) + CMA status (DEVELOPING) = TRANSITIONING. When SAMA or CMA status changes, the modifier stack must be updated visibly. Do not present KSA as HIGH regulatory clarity until all three layers resolved.
+**Transparency:** Every KSA commercial signal output must state the current modifier stack: M/121 ENACTED (Implementing Regulations PENDING) + SAMA status (DEVELOPING) + CMA status (DEVELOPING) = TRANSITIONING. When SAMA or CMA status changes, or the Implementing Regulations are issued, the modifier stack must be updated visibly. Do not present KSA as HIGH regulatory clarity until all layers resolved.
+
+**Collaboration (16):** This file is maintained by Build Chat on Strategy Chat instruction. Strategy Chat is the activation/escalation authority for any of the four monitoring signals listed under Attention (6) above. Build Chat does not independently upgrade the FAN TOKEN ENVIRONMENT modifier or the REGULATORY_CLARITY rating — any such change requires a Strategy Chat decision, consistent with the equity-token/socios-equity-token.md HOLD-file pattern. Cross-reference intelligence/country-scan/ksa.md (this session's companion file) for the country-intelligence perspective; that file defers to this one for all regulatory-framework detail.
 
 ---
 
@@ -304,11 +352,13 @@ BEFORE REASONING ABOUT ANY KSA SPORTS COMMERCIAL ACTIVITY:
 **CLARITY Act (US):** `macro/clarity-act-complete-framework.md`
 **Geopolitical context:** `macro/macro-geopolitical.md`
 **Fan token registry:** `fan-token/registry/complete-registry.md`
+**Country-intelligence companion:** `intelligence/country-scan/ksa.md`
 
 ---
 
-*SportMind v3.97.92 · MIT License · sportmind.dev*
-*Sources: Saudi Ministry of Sport · spl.com.sa · GSA.gov.sa · SAMA.gov.sa · CMA.org.sa*
+*SportMind v4.6.82 · MIT License · sportmind.dev*
+*Sources: Saudi Ministry of Sport · spl.com.sa · GSA.gov.sa · SAMA.gov.sa · CMA.org.sa · Tier 2 legal commentary (PwC Legal Middle East, Feb 2026; Freshfields, Jul 2026; GT Law, Jan 2026; Football Legal, Feb 2026; AGBI, Aug 2026; Front Office Sports, Aug 2026) corroborating M/121 status, Implementing Regulations gap, and SPL ownership developments*
 *Royal Decree M/121 — Unified Sports Law — Effective June 10 2026*
-*MODIFIER: UNIFIED_SPORTS_LAW_2026 ACTIVE · FAN TOKEN ENVIRONMENT: TRANSITIONING*
-*All 14 Mind dimensions mapped.*
+*MODIFIER: UNIFIED_SPORTS_LAW_2026 ACTIVE (Implementing Regulations PENDING) · FAN TOKEN ENVIRONMENT: TRANSITIONING*
+*All 16 Mind dimensions mapped.*
+*Last verified: 2026-09-28 · Next check due: 2026-10-28*
