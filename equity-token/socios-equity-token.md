@@ -1,9 +1,9 @@
 # Socios Equity Token — Intelligence HOLD File
 
-**Version:** v4.6.63
+**Version:** v4.6.81
 **Directory:** equity-token/
 **Status:** HOLD — Conditions 2 and 3 unresolved
-**Last Verified:** 2026-09-14
+**Last Verified:** 2026-09-28
 **File Type:** HOLD — do not load into signal bundles or calibration records
 
 ---
@@ -22,9 +22,9 @@ HOLD CONDITIONS:
 
 | Condition | Status | Detail |
 |---|---|---|
-| 1 — Regulated infrastructure | RESOLVED ✓ | Securitize confirmed · US + EU regulated tokenisation platform |
-| 2 — Named club | OPEN | No named club confirmed as of 2026-09-14 |
-| 3 — Tokenomics published | OPEN | Tokenomics not published as of 2026-09-14 |
+| 1 — Regulated infrastructure | RESOLVED ✓ | Securitize confirmed · US + EU regulated tokenisation platform · EU DLT Pilot Regime size gates apply (see Condition 1) |
+| 2 — Named club | OPEN | No named club confirmed as of 2026-09-28 |
+| 3 — Tokenomics published | OPEN | Tokenomics not published as of 2026-09-28 |
 
 All three conditions must resolve before activation. Current
 state: 1/3 resolved. File remains on HOLD.
@@ -88,12 +88,74 @@ infrastructure partner confirms:
 Condition 1 is resolved. This does not activate the file.
 Conditions 2 and 3 must also resolve.
 
+### DLT Pilot Regime Mechanics
+
+The 2 September 2026 Securitize/Socios.com release states the
+first Socios Equity Token offering is expected to be the first
+project launched through Securitize's European Trading &
+Settlement System under the EU DLT Pilot Regime — Regulation
+(EU) 2022/858. That regime carries hard numerical size gates
+in Article 3. These are structural constraints on any offering
+routed through it:
+
+| Gate | Threshold | Applies to |
+|---|---|---|
+| Individual issuer (shares) | Market cap below EUR 500M | Admitted at the moment of admission to a DLT market infrastructure (Art. 3) |
+| Individual issuance (bonds) | Issue size below EUR 1B | Bonds, securitised debt, money-market instruments (Art. 3) — issuers with market cap not above EUR 200M at issuance are not subject to this threshold |
+| Aggregate — admission stop | EUR 6B | A new instrument cannot be admitted or recorded if it would take the infrastructure's aggregate market value to EUR 6B |
+| Aggregate — transition trigger | EUR 9B | Operator must activate its transition strategy once aggregate market value of all instruments on the infrastructure reaches EUR 9B |
+
+Two separate aggregate mechanisms — never conflate them. EUR 6B
+blocks new admissions; EUR 9B forces the operator to begin
+transitioning instruments to conventional market infrastructure.
+
+**Structural consequence for Condition 2 (named club):**
+The EUR 500M individual-issuer ceiling is a size gate on which
+clubs could realistically take part in a first offering under
+this regime. A club whose market capitalisation exceeds EUR 500M
+would not qualify as an issuer of shares under Article 3. This
+narrows the plausible field for Condition 2 but does NOT resolve
+it — no club is named.
+
+**Caveats — read before using these figures:**
+· EUR 500M is the regulation's ceiling. National competent
+  authorities may set LOWER thresholds for a specific
+  infrastructure (ESMA publishes any such lower thresholds).
+  Securitize's actual authorised limits were not verified at
+  this pass — treat EUR 500M as the upper bound, not the
+  confirmed binding figure.
+· Market cap is measured at admission, so a club's eligibility
+  is a point-in-time test, not a permanent classification.
+· Juventus: secondary reporting following the 2 September 2026
+  release states Juventus's market cap exceeds the EUR 500M
+  individual-issuer threshold. This specific claim was NOT
+  independently verified at this pass — no primary source and no
+  named-club statement in the release supports it. Treat as
+  unconfirmed. Do NOT infer that Juventus, or any club, is a
+  participant or is excluded: the release names no club.
+· The European Commission proposed amendments to Regulation
+  (EU) 2022/858 on 4 December 2025 (Market Integration and
+  Supervision Package). The base regulation remains in force
+  and the thresholds above are the current text, but they could
+  change if that proposal is adopted. Monitor.
+
+**Source status:**
+· Thresholds: PRIMARY — Regulation (EU) 2022/858, Art. 3
+  (EUR-Lex, ELI http://data.europa.eu/eli/reg/2022/858/oj) and
+  ESMA DLT Pilot Regime page (esma.europa.eu). Verified 2026-09-28.
+· Link between the Socios initiative and the DLT Pilot Regime:
+  Tier 1 — Securitize/Socios.com joint release, 2 September 2026
+  (published on socios.com and PR Newswire), corroborated by
+  multiple Tier 2 outlets including The Block.
+
 ---
 
 ## CONDITION 2 — NAMED CLUB (OPEN)
 
 No club has been publicly named as a participant in the
-Socios Equity Token programme as of 2026-09-14.
+Socios Equity Token programme as of 2026-09-28. The
+2 September 2026 release states participating teams will be
+announced when individual offerings are approved.
 
 A named club is required before this file can activate.
 The named club will determine:
@@ -110,7 +172,7 @@ announcement.
 
 ## CONDITION 3 — TOKENOMICS (OPEN)
 
-Tokenomics have not been published as of 2026-09-14.
+Tokenomics have not been published as of 2026-09-28.
 
 Required before activation:
 · Token supply structure
@@ -201,6 +263,15 @@ File activates ONLY when all three conditions resolve
 AND Strategy Chat scopes the activation build task.
 Build Chat does not self-activate this file.
 
+**Rule 7 — DLT Pilot size-gate discipline:**
+When discussing which clubs could participate, cite the EUR 500M
+individual-issuer ceiling (Regulation (EU) 2022/858, Art. 3) as
+an upper bound only. Do NOT state that any named club is
+eligible or ineligible — no club is confirmed. Do NOT present
+the Juventus market-cap claim as verified. Keep the EUR 6B
+(admission stop) and EUR 9B (transition trigger) aggregate
+mechanisms distinct.
+
 ---
 
 ## MIND DIMENSIONS
@@ -209,12 +280,12 @@ Build Chat does not self-activate this file.
 |---|---|---|
 | Intelligence (1) | EMERGING | 1b Signal Awareness — product category confirmed · insufficient signal depth for active analysis at HOLD stage |
 | Reasoning (2) | EMERGING | Structural category reasoning in place · active signal reasoning deferred until Conditions 2 + 3 resolve |
-| Context (3) | EMERGING | Context window established · equity vs fan token distinction loaded · club and tokenomics context absent |
+| Context (3) | EMERGING | 3b Regulatory context — EU DLT Pilot Regime size gates loaded (EUR 500M / EUR 1B / EUR 6B / EUR 9B, Reg. (EU) 2022/858 Art. 3) · equity vs fan token distinction loaded · club and tokenomics context absent |
 | Memory (4) | ACTIVE | HOLD conditions and confirmed facts stored as procedural memory · escalation triggers defined |
 | Judgment (5) | NOT APPLICABLE | No confidence tier assignment possible at HOLD stage · no club · no tokenomics |
 | Attention (6) | ACTIVE | 6a escalation prioritisation defined · 6b urgency triggers set · 6c noise filtering (MoU ≠ jurisdiction) active · 6d threshold clear |
 | Communication (7) | ACTIVE | HOLD status notation mandatory in all outputs referencing this asset |
-| Verification (8) | EMERGING | Infrastructure partner verified (Securitize) · club and tokenomics unverified · verification protocol deferred to activation |
+| Verification (8) | EMERGING | Infrastructure partner verified (Securitize) · DLT Pilot thresholds verified against primary source (EUR-Lex, ESMA) · Juventus market-cap claim UNVERIFIED · club and tokenomics unverified · verification protocol deferred to activation |
 | Learning (9) | NOT APPLICABLE | No calibration records possible at HOLD stage |
 | Integration (10) | EMERGING | Category boundary with fan-token/ established · cross-file integration protocol deferred to activation |
 | Calibration (11) | NOT APPLICABLE | No calibration records possible at HOLD stage |

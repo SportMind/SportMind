@@ -1,5 +1,27 @@
 # Changelog
 
+## [v4.6.81] — 2026-09-28
+
+### Changed
+- equity-token/socios-equity-token.md: Added EU DLT Pilot Regime
+  mechanics (Regulation (EU) 2022/858, Article 3) as a new
+  "DLT Pilot Regime Mechanics" subsection under Condition 1.
+  Thresholds verified against primary sources (EUR-Lex, ESMA
+  2026-09-28): EUR 500M individual-issuer market cap ceiling
+  (shares) · EUR 1B bond issuance cap (issuers not above EUR 200M
+  market cap exempt) · EUR 6B aggregate admission stop · EUR 9B
+  aggregate transition trigger (two distinct mechanisms).
+  Caveats recorded: EUR 500M is a ceiling — national authorities
+  may set lower per-infrastructure thresholds (Securitize's actual
+  limits not verified); Commission proposed amendments to the
+  Regulation 4 Dec 2025 (base text still in force). Juventus
+  market cap above the EUR 500M threshold recorded as secondary
+  reporting, UNVERIFIED — no named club in the 2 Sep 2026
+  Securitize/Socios.com release. Agent Rule 7 added (size-gate
+  discipline). Mind Dimensions 3 and 8 updated. Condition 1
+  detail enriched; Conditions 2 and 3 remain OPEN. HOLD status
+  unchanged. Version v4.6.80 → v4.6.81. Last verified 2026-09-28.
+
 ## [v4.6.80] — 2026-09-25
 
 ### Changed
