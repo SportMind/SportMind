@@ -1,5 +1,40 @@
 # Changelog
 
+## [v4.6.85] — 2026-09-28
+
+### Changed
+- macro/regulatory/italy.md: Staleness refresh (52+ days overdue →
+  CURRENT). Light release — no material change found on any of the
+  four open flags after active re-verification: (1) CONSOB fan-token
+  classification — re-checked directly at consob.it and via Tier 2
+  sources, no fan-token or utility-token-specific ruling found,
+  confirming (not just repeating) Strategy Chat's preliminary negative
+  result; (2) PTG burn tax treatment — remains UNRESOLVED, no Agenzia
+  delle Entrate guidance found; explicitly distinguished from the
+  separate, settled general crypto staking-reward rule (33% on receipt
+  as "redditi diversi") to prevent future false-resolution by
+  conflating the two fact patterns; (3) staking/airdrop treatment for
+  fan-token-specific rewards — remains unresolved; noted that the
+  file's prior "up to 43% IRPEF" framing was not traced to a specific
+  source this pass, and that the settled general staking rate is
+  actually 33% (matching CGT), not a separate IRPEF band — flagged for
+  Strategy Chat attention rather than silently removed; (4) 33% CGT
+  rate (Law 199/2025) — confirmed still in force; found and recorded
+  two previously-undocumented historical footnotes for completeness:
+  an early 42% rate proposal during the 2025 Budget Law's drafting
+  (walked back before enactment) and a failed Lega/Centemero amendment
+  attempting to delay the 33% rate's 2026 start to 2027 — both
+  historical and resolved, not live proposals; no 2027 Budget Law
+  preview or amendment found. DAC8 milestones (2026 first reporting
+  year, 30 June 2027 first exchange report, 30 September 2027 first
+  international exchange) all re-confirmed unchanged. One genuinely
+  new detail added: Agenzia delle Entrate's 29 July 2026 FAQ
+  clarifications, confirming reporting scope and taxable-event scope
+  are not identical (a reporting-scope clarification, not a change to
+  what triggers CGT, and does not resolve the PTG burn question).
+  Version updated from legacy v4.1.76 format to v4.6.85. Last verified
+  2026-09-28, next check due 2026-10-28.
+
 ## [v4.6.84] — 2026-09-28
 
 ### Changed
