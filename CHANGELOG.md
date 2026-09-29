@@ -1,5 +1,53 @@
 # Changelog
 
+## [v4.6.84] — 2026-09-28
+
+### Changed
+- macro/regulatory/pakistan.md: HP-13 re-verification. The September 5
+  2026 NOC filing deadline (Section 70, Virtual Assets Act 2026) has
+  CONFIRMED PASSED as scheduled (corroborated via PVARA's own Senate
+  testimony and multiple independent Tier 2 outlets: CoinGape, The
+  Block, Decrypt, Cointelegraph, unlock-bc, thepaypers.com). Socios.com/
+  Chiliz NOC status remains UNCONFIRMED after active re-verification —
+  no Tier 1 or Tier 2 source names either company in connection with
+  PVARA filing, non-filing, or any NOC status; PVARA still does not
+  publish a public NOC register. The ONLY two firms publicly confirmed
+  to hold NOCs are Binance and HTX (early NOCs, December 2025). File's
+  framing changed from "BINARY OUTCOME PENDING" (incorrectly implying
+  the deadline was still upcoming) to "OUTCOME UNCONFIRMED (deadline
+  passed)" throughout. ADDED: FILED-PENDING-DECISION as a genuine third
+  outcome state, verified this pass against two independent Tier 2
+  sources (thepaypers.com, CoinGape) both corroborating that a
+  transitional VASP filing a complete NOC application may continue
+  operating under PVARA review pending a decision — this is NOT
+  equivalent to confirmed REGISTERED status, since PVARA retains power
+  to impose interim restrictions. The specific decision-window duration
+  (sometimes cited elsewhere as a 60-day window, Regulation 6(3) or
+  equivalent) could NOT be confirmed against PVARA's primary text this
+  pass and is flagged as unconfirmed pending a primary-source citation.
+  New Agent Rule 9 added: do not default to either REGISTERED or NOT
+  REGISTERED when HP-13 is unconfirmed — treat FILED-PENDING-DECISION as
+  equally plausible. Adoption Scale Amplifier condition widened to
+  activate under REGISTERED or FILED-PENDING-DECISION (previously
+  REGISTERED only). Mind Dimensions unchanged (all 16 already present,
+  no fix needed). Last verified 2026-09-28. Next check due 2026-10-05
+  (WEEKLY, not the standard 30-day Tier A cycle — HP-13 remains
+  genuinely unresolved and no public register exists, so resolution
+  could arrive via press coverage at any time).
+
+### Added
+- intelligence/country-scan/pakistan.md: NEW. Pakistan country-
+  intelligence companion file (Tier A), following the same structure as
+  intelligence/country-scan/ksa.md and uae.md. Covers general country
+  context, cricket-vs-football sports-culture context (with explicit
+  guidance against transferring football-market demand assumptions to
+  a hypothetical Pakistani token), and Pakistan-specific source tier
+  classification (pvara.gov.pk, fbr.gov.pk, sbp.org.pk as Tier 1;
+  Pakistan-focused crypto press and national press as Tier 2). Defers
+  all regulatory and HP-13 content to macro/regulatory/pakistan.md. All
+  16 Mind Dimensions mapped. All three Queue A country-scan gaps (KSA,
+  UAE, Pakistan) now closed.
+
 ## [v4.6.83] — 2026-09-28
 
 ### Changed
