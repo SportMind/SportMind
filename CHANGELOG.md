@@ -1,5 +1,57 @@
 # Changelog
 
+## [v4.6.83] — 2026-09-28
+
+### Changed
+- macro/regulatory/uae.md: Staleness refresh (73 days overdue → CURRENT).
+  SIGNIFICANT CORRECTION applied: the file's definition of "ARVA" was
+  wrong throughout. It previously described ARVA as "a formal legal
+  opinion from an ARVA-recognised legal practitioner" required for every
+  token. Per VARA's own published rulebook (rulebooks.vara.ae, primary
+  source), ARVA actually means "Asset-Referenced Virtual Asset" — VARA's
+  Category 1 classification for tokens backed by real-world assets
+  (real estate, gold, commodities, equity, etc.), requiring a standalone
+  VARA Licence, segregated reserve custody, and six-monthly audits. Fan
+  tokens, as utility tokens with no real-world-asset claim, do NOT fall
+  under this classification — they sit under VARA's separate, lighter
+  Category 2 track (VARA approval required, standalone VASP licence not
+  necessarily required if using a licensed distributor). Whether a
+  legal-opinion step analogous to the Category 1 requirement applies to
+  Category 2 utility-token approvals could NOT be confirmed from primary
+  sources this pass — flagged explicitly as unconfirmed rather than
+  assumed. Also corrected: CMA's founding is now dated precisely (formal
+  succession of the SCA effective 1 January 2026, under Federal
+  Decree-Laws Nos 32 and 33 of 2025) rather than the file's vague
+  "February-April 2026" framing; VARA's own Category 1/Category 2
+  issuance clarification is separately dated April 2026. No Chiliz/
+  Socios-partnered entity has obtained VARA approval or a VASP licence,
+  and no SPL/Gulf fan token has completed a compliance pathway, as of
+  this pass. Noted for context (not framework evidence): Chiliz and the
+  UAE Pro League announced a web3 partnership in April 2024 — predates
+  the framework by two years, covers fantasy football/NFTs, not a fan
+  token launch; file now explicitly warns against citing it as
+  compliance evidence. Added Mind Dimensions Attention (6), Execution
+  (15), and Collaboration (16) to bring file to the current 16-dimension
+  standard — file's frontmatter claimed 14 mapped; Attention was already
+  present unnumbered, Collaboration and Execution were genuinely absent.
+  Footer version stamp corrected from legacy v3.97.92 format to v4.6.83.
+  Last verified 2026-09-28, next check due 2026-10-28.
+
+### Added
+- intelligence/country-scan/uae.md: NEW. UAE country-intelligence
+  companion file (Tier A), following the same structure as
+  intelligence/country-scan/ksa.md. Explicitly distinguishes Dubai
+  (VARA) from Abu Dhabi (ADGM) and DIFC (DFSA) — three separate
+  jurisdictions/regulators, never conflated. Covers general country
+  context, UAE-specific source tier classification (vara.ae,
+  rulebooks.vara.ae as Tier 1; UAE crypto-law commentary and Gulf
+  business press as Tier 2, with an explicit warning that secondary
+  commentary compressed VARA's own ARVA definition incorrectly — the
+  same error just corrected in macro/regulatory/uae.md), and Chiliz/
+  Socios UAE expansion monitoring context. Defers all regulatory-
+  framework content to macro/regulatory/uae.md. All 16 Mind Dimensions
+  mapped.
+
 ## [v4.6.82] — 2026-09-28
 
 ### Changed
