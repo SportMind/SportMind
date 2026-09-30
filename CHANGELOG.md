@@ -1,5 +1,47 @@
 # Changelog
 
+## [v4.6.86] — 2026-09-28
+
+### Changed
+- macro/regulatory/turkey.md: Staleness refresh (52+ days overdue →
+  CURRENT). SIGNIFICANT FINDING this pass: a second crypto tax bill was
+  submitted to the Grand National Assembly on 21 April 2026 (KPMG
+  TaxNewsFlash, primary tax-advisory source), proposing the same
+  framework as the March 2026 bill that was withdrawn — 0.03%
+  transaction tax, 10% withholding tax on gains, plus a VAT exemption
+  for cryptoasset deliveries (new provision not in the March bill's
+  reporting). The outcome of this April bill is UNCONFIRMED — no
+  source found confirms it was enacted, withdrawn again, or otherwise
+  resolved. This is a materially more active open situation than the
+  file previously reflected, which implied a settled "withdrawn,
+  nothing since" status. Socios.com/Chiliz SPK licence status: checked
+  against SPK's own published Faaliyette Bulunanlar Listesi (List of
+  Operating Entities) — absent from it, though this list tracks
+  Turkish-incorporated CASPs specifically and does not fully settle
+  whether SPK's licensing requirement reaches Socios.com as a foreign
+  platform. MASAK account-freeze powers: found that a June 28 2025
+  Tebliğ (No. 29) imposing concrete AML measures (48-72hr withdrawal
+  delays, stablecoin transfer limits, mandatory transaction
+  descriptions) is CONFIRMED ENACTED — this had been under-described in
+  the file as only a "proposed September 2025" item; separately, a
+  further real-time-monitoring/instant-freeze expansion genuinely
+  proposed in September 2025 via the "11th Judicial Package" was
+  checked and found NOT confirmed enacted (that package's confirmed
+  content is sentencing/prison-transfer provisions, unrelated). PTG
+  burn tax treatment: reframed, not just re-flagged — Turkey has no
+  crypto-specific CGT framework at all to test a burn event's disposal
+  status against, making this structurally unresolvable (not merely
+  unresolved) until Turkey's CGT framework is confirmed enacted; this
+  is explicitly distinguished from Italy's PTG question, which asks a
+  narrower question within an otherwise-settled framework. Fan-token-
+  specific SPK classification: still none issued, re-confirmed. Also
+  flagged: a commercial crypto-tax-software vendor guide describing the
+  10%/0.03% framework as already "approved" for 2026 was found and
+  explicitly rejected as uncorroborated by any primary or Tier 1/2 news
+  source. Version updated from legacy v4.1.79 to v4.6.86. Last verified
+  2026-09-28, next check due 2026-10-12 — SHORTENED from the standard
+  30-day cycle specifically to chase the April bill's outcome.
+
 ## [v4.6.85] — 2026-09-28
 
 ### Changed
