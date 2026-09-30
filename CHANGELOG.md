@@ -1,5 +1,35 @@
 # Changelog
 
+## [v4.6.87] — 2026-09-28
+
+### Fixed
+- macro/regulatory/italy.md, macro/regulatory/turkey.md: Converted
+  legacy "SPORTMIND STALENESS NOTICE" plain-text header block to valid
+  YAML frontmatter. The old format opened with --- but contained
+  non-YAML prose (e.g. "Tier: A — 30-day verification cycle"), which
+  caused a YAML parse error in renderers that treat --- as a
+  frontmatter delimiter (reported by Pele: "mapping values are not
+  allowed in this context at line 2 column 5", when viewing
+  turkey.md). No content facts were changed — this is a structural fix
+  only, matching the YAML frontmatter convention already used in
+  ksa.md, uae.md, and pakistan.md. Both files' frontmatter validated as
+  parseable YAML before commit (via PyYAML, programmatically, not by
+  inspection alone). Every field from the original plain-text block
+  preserved: file path, tier, last-verified date, next-check-due date
+  (including Turkey's shortened 2026-10-12 date and the reasoning for
+  the shortening), status, and the full agent-rule prose for each file.
+  Additionally checked (not part of this task's original scope, but
+  verified before concluding the fix was complete): ksa.md, uae.md, and
+  pakistan.md each also carry a second, body-level "SPORTMIND STALENESS
+  NOTICE" block immediately after their valid YAML frontmatter, using
+  the same old plain-text style. Tested programmatically with PyYAML,
+  simulating a standards-conformant frontmatter parser (reads only the
+  first --- delimited block, treats the rest as body content): all
+  three parse cleanly with no error, confirming they are genuinely
+  unaffected, as Strategy Chat's check found — the second block in each
+  is inert body text, not a second frontmatter attempt. No fix needed
+  for those three files.
+
 ## [v4.6.86] — 2026-09-28
 
 ### Changed

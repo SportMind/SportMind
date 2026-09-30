@@ -1,15 +1,16 @@
 ---
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/italy.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-09-28
-Next check due:  2026-10-28
-Status:          CURRENT
-Agent rule:      File re-verified within required cycle. No material change
-found on any of the four open flags (CONSOB fan token classification, PTG
-burn tax treatment, staking/airdrop treatment, 33% CGT rate stability).
-Apply content with normal confidence. Verify key dates and rates against
-primary sources for live analysis.
+name: macro-regulatory-italy
+file: macro/regulatory/italy.md
+tier: A — 30-day verification cycle
+last-verified: 2026-09-28
+next-check-due: 2026-10-28
+status: CURRENT
+agent-rule: >
+  File re-verified within required cycle. No material change found on any
+  of the four open flags (CONSOB fan token classification, PTG burn tax
+  treatment, staking/airdrop treatment, 33% CGT rate stability). Apply
+  content with normal confidence. Verify key dates and rates against
+  primary sources for live analysis.
 ---
 
 # Italy — Crypto Regulatory Framework for Fan Token Holder Analysis

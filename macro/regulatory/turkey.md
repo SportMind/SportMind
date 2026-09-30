@@ -1,22 +1,22 @@
 ---
-SPORTMIND STALENESS NOTICE
-File:            macro/regulatory/turkey.md
-Tier:            A — 30-day verification cycle
-Last verified:   2026-09-28
-Next check due:  2026-10-12 (SHORTENED from standard 30-day cycle — see
-Agent rule below)
-Status:          CURRENT (content), OPEN (CGT reintroduction substance)
-Agent rule:      This pass found a genuine, previously undocumented
-development: a second crypto tax bill was submitted to the Grand National
-Assembly on 21 April 2026 (KPMG, primary tax-advisory source), proposing
-the SAME framework as the March 2026 bill that was withdrawn (0.03%
-transaction tax + 10% withholding tax + VAT exemption). No source found
-during this pass confirms what happened to that April bill since — it
-was neither confirmed enacted nor confirmed withdrawn again. This is a
-materially different, more active situation than "no reintroduction has
-occurred," which is what the file previously implied by silence. Next
-check shortened to two weeks (2026-10-12) specifically to chase the
-outcome of the April bill, rather than waiting the standard 30 days.
+name: macro-regulatory-turkey
+file: macro/regulatory/turkey.md
+tier: A — 30-day verification cycle
+last-verified: 2026-09-28
+next-check-due: 2026-10-12 (SHORTENED from standard 30-day cycle — see agent-rule)
+status: CURRENT (content), OPEN (CGT reintroduction substance)
+agent-rule: >
+  This pass found a genuine, previously undocumented development: a
+  second crypto tax bill was submitted to the Grand National Assembly on
+  21 April 2026 (KPMG, primary tax-advisory source), proposing the SAME
+  framework as the March 2026 bill that was withdrawn (0.03% transaction
+  tax + 10% withholding tax + VAT exemption). No source found during
+  this pass confirms what happened to that April bill since — it was
+  neither confirmed enacted nor confirmed withdrawn again. This is a
+  materially different, more active situation than "no reintroduction
+  has occurred," which is what the file previously implied by silence.
+  Next check shortened to two weeks (2026-10-12) specifically to chase
+  the outcome of the April bill, rather than waiting the standard 30 days.
 ---
 
 # Turkey — Crypto Regulatory Framework for Fan Token Holder Analysis
