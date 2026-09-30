@@ -1,5 +1,37 @@
 # Changelog
 
+## [v4.6.89] — 2026-09-28
+
+### Changed
+- community/calibration-data/verified/README.md: Reconciliation per
+  SC34 Strategy Chat ruling on the library's public calibration count
+  (146 total / 25 pre-match verified / 119 seed). Added the 8 Copa
+  Libertadores QF records (community/calibration-data/football/) as a
+  third verified category alongside the existing on-chain FTP burns and
+  the WC2026/UCL Final series — these records carry a completed
+  pre-match signal, HOLD-gate decision, and verified post-match
+  outcome, distinct from on-chain verification; the file now states
+  this distinction explicitly rather than implying all records share
+  one verification method. Total verified records in this file updated
+  from 13 to 21 (3 FTP + 10 WC2026/UCL + 8 Libertadores QF). GAP
+  DISCLOSURE, NOT FORCED RECONCILIATION: the remaining 4-record gap
+  against the library-wide 25 figure was NOT fully closed this pass.
+  One strong candidate was identified — R138 ($NAP vs $AFC, UCL
+  Matchday 1), documented elsewhere in the library as a closed,
+  directionally-correct pre-match record — but it was not added to
+  this file's indexed count without further confirmation of where it
+  should be filed, and the remaining records making up the gap were
+  not independently identified (this pass did not have direct
+  repository browsing access to enumerate every calibration folder).
+  A new section explains that this file's 21 is a conservative,
+  fully-indexed subset of the broader library-wide 25, that the two
+  figures are not contradictory, and that the gap remains open for a
+  future pass — either to index the remaining records here, or for
+  Strategy Chat to rule that this file's narrower scope is intentionally
+  permanent. Introductory definition of "verified" extended with one
+  clause covering the new audit-based method; no rewrite needed as the
+  core definition already fit.
+
 ## [v4.6.88] — 2026-09-28
 
 ### Added
