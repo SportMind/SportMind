@@ -1,5 +1,42 @@
 # Changelog
 
+## [v4.6.88] — 2026-09-28
+
+### Added
+- fan-token/registry/complete-registry.md: Added Palermo F.C. (announced
+  16 September 2026, official Socios.com/Chiliz Group partnership, Italian
+  Serie B, owned by City Football Group alongside existing partners
+  Manchester City and EC Bahia). Fan Token not yet launched — ticker and
+  contract address genuinely TBC pending MiCA-compliant white paper
+  publication, per both chiliz.com and palermofc.com primary sources
+  (2026-09-16), cross-corroborated by 5+ independent outlets. STRUCTURAL
+  APPROACH: created new Section 1a — Announced, Pre-Launch (Pipeline),
+  between Section 1 and Section 2, using a narrower column set (Partner,
+  Sport, Announcement Date, Status, Primary Source, Notes) rather than
+  forcing Palermo into Section 1's table, which is explicitly scoped to
+  tokens with a confirmed active on-chain presence and would have required
+  ten N/A placeholder fields (address, chain-confirmation columns, etc.)
+  for an entry that has none of that yet. OLYMPIQUE DE MARSEILLE: attempted
+  to independently confirm the second pipeline entry Chiliz's release
+  reportedly also announced the same week — could NOT be confirmed via
+  primary source within reasonable search effort (three distinct search
+  angles, no chiliz.com/om.fr page or independent outlet coverage found).
+  Left out rather than added on inference, per the task's explicit
+  instruction not to guess. REGISTRY OVERVIEW CORRECTED: the file's own
+  "Partnership announced (pipeline): 2" summary line predated this patch
+  and matched no visible content anywhere in the file (Section 1a did not
+  exist before this patch) — this was a pre-existing discrepancy, not
+  something this task caused. Corrected to "1" (Palermo only, confirmed),
+  with the Marseille situation explained inline so the count doesn't look
+  like an unexplained reduction. Total tokens documented: 86 → 87.
+  FRONTMATTER DATE: the description's "compiled from primary sources as
+  of May 2026" was already stale relative to the body's own "August 2026"
+  footer note before this patch — reworded to describe the registry as
+  patched incrementally, pointing to the Registry Overview's own
+  "Last verified" line as the authoritative current-ness marker, rather
+  than restating a single snapshot date that will only go stale again at
+  the next patch. Footer version stamp updated to v4.6.88.
+
 ## [v4.6.87] — 2026-09-28
 
 ### Fixed

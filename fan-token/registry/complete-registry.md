@@ -1,10 +1,13 @@
 ---
 name: complete-registry
 description: >
-  Complete verified fan token registry. 85 tokens documented across active Chiliz Chain
-  partnerships, legacy on-chain tokens, other chain deployments, and delisted tokens.
-  Compiled from primary sources as of May 2026. Always verify against primary sources
-  before relying on any entry. Contract addresses must be verified on-chain before use.
+  Complete verified fan token registry. 87 tokens documented across active Chiliz Chain
+  partnerships, an announced/pre-launch pipeline, legacy on-chain tokens, other chain
+  deployments, and delisted tokens. Compiled from primary sources and patched
+  incrementally as new partnerships and status changes are confirmed — see the
+  Registry Overview's "Last verified" line for the most recent patch date, not this
+  description. Always verify against primary sources before relying on any entry.
+  Contract addresses must be verified on-chain before use.
 ---
 
 # SportMind Fan Token Registry
@@ -34,9 +37,18 @@ description: >
 ## Registry Overview
 
 ```
-Total tokens documented:              86
+Total tokens documented:              87
 Active partnerships (Chiliz Chain):   57
-Partnership announced (pipeline):     2
+Partnership announced (pipeline):     1 (Palermo FC — confirmed 2026-09-28.
+  Registry previously stated "2" here with no visible pipeline content
+  anywhere in the file — that count predates this patch and could not be
+  traced to a second confirmed entry. Olympique de Marseille was
+  reportedly announced by Chiliz the same week as Palermo, but could not
+  be independently confirmed via primary source within reasonable
+  effort this pass — left out rather than added on the strength of the
+  original "2" figure alone. If Marseille is confirmed in a future
+  pass, this count becomes 2 again, this time with both entries
+  actually present in Section 1a below.)
 Not Active (legacy on-chain):         14
 Other chains (BNB/BITCI/Ethereum):    9
 Delisted:                             2
@@ -45,7 +57,10 @@ Omnichain club tokens (Solana only):        5
 Omnichain national tokens (Solana only):    5
 Fan Token Play confirmed:             1 ($AFC only)
 
-Last verified: August 2026 (updated v4.5.8 — $AFC Solana+Base confirmed; $MENGO $VERDAO $FLU $VASCO $SPFC Solana confirmed)
+Last verified: September 2026 (v4.6.88 — Palermo FC added to new Section
+  1a, Announced/Pre-Launch. Prior verification note retained below for
+  history: updated v4.5.8 — $AFC Solana+Base confirmed; $MENGO $VERDAO
+  $FLU $VASCO $SPFC Solana confirmed)
 ```
 
 ---
@@ -169,6 +184,36 @@ All migrated to 18-decimal addresses as of April-May 2026.
 
 ---
 
+## Section 1a — Announced, Pre-Launch (Pipeline)
+
+Partnerships officially announced by Chiliz Group and/or the partner
+organisation, where the Fan Token itself has NOT yet launched — no
+contract address, no ticker, no chain deployment to verify yet. These
+are genuine, confirmed partnerships, not rumours; they are separated
+from Section 1 because Section 1's table is explicitly scoped to
+tokens with a confirmed active on-chain presence, which these do not
+yet have. Ticker/Chain/Address columns are intentionally omitted here
+since they do not yet apply — re-check each entry against
+docs.chiliz.com/learn/about-fan-tokens (the FanX ticker registry) once
+a white paper is published, and promote the entry to Section 1 at that
+point.
+
+| Partner | Sport | Announcement Date | Status | Primary Source | Notes |
+|---|---|---|---|---|---|
+| Palermo F.C. | Football (Italian Serie B) | 2026-09-16 | ANNOUNCED — Fan Token not yet launched, white paper pending under MiCA compliance | chiliz.com official announcement + palermofc.com official news page (both 2026-09-16) | Ticker: TBC — genuinely not yet published, not a verification gap; both primary sources state ticker/participation details await the crypto-asset white paper. Chain: Chiliz Chain (stated in the announcement). Contract address: N/A — not yet issued. Club owned by City Football Group (also owns Manchester City [$CITY, Section 1] and EC Bahia [$BAHIA, Section 1] — both existing Chiliz partners; useful cross-reference for CFG-wide fan token strategy). Cross-corroborated by 5+ independent outlets: PalermoMania, TifosiPalermo, iLovePalermoCalcio, Cryptowisser, KuCoin News. |
+
+NOT ADDED THIS PASS: Olympique de Marseille was reported by Chiliz's
+own release (the same release announcing Palermo, 2026-09-16 window)
+as a separate new Fan Token partner announced the same week. This could
+NOT be independently confirmed via primary source within reasonable
+search effort this pass — no chiliz.com or om.fr/marseille-official
+page was found naming a confirmed partnership, and no independent
+outlet coverage was found either. Left out rather than added on
+inference. If confirmed in a future pass, add here using the same
+row structure as Palermo above.
+
+---
+
 ## Section 2 — Not Active (Legacy On-Chain)
 
 Tokens where partnership has ended but token exists on-chain as legacy contract.
@@ -269,6 +314,6 @@ See `fan-token/official-verification-framework.md` for full verification methodo
 
 ---
 
-*SportMind v4.5.8 · MIT License · sportmind.dev*
-*Registry accuracy as of August 2026. Always verify addresses on-chain before use.*
+*SportMind v4.6.88 · MIT License · sportmind.dev*
+*See Registry Overview (top of file) for the current "Last verified" patch date. Always verify addresses on-chain before use.*
 *$AFC is the only confirmed FTP PATH_2 token as of May 2026.*
